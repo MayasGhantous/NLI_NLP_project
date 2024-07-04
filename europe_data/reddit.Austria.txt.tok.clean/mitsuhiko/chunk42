@@ -1,0 +1,100 @@
+  this also means that you can not run diaspora legally unless they can guarantee that all nodes are within europe . 
+   even with direct agreement you can not use it anymore , according to some early interpretations of the ruling . 
+  the data protection directive from 1995 is still active and that one set up the explicit agreement . 
+  so yes , it is active . 
+   and regarding payment processors : you could n't use external payment processors anyway , as they all either support credit cards or paypal , and credit cards are n't really used in eu anyway . 
+  ( and paypal is registered as bank in the eu ) i 'm sorry but i do n't think you know what you are talking about . 
+  first of all outside of germany credit cards * are * used . 
+  secondly it doss not matter which provider you use , the mastercard/visa clearing networks do not guarantee tha information stays within europe . 
+  thirdly , paypals api is hosted in the us and processing was covered via the mentioned safe harbor provision . 
+  lastly : i am using payment processors from both the us and europe for years with never any problems . 
+   well , in the first case your issue did not change then , as this ruling only means you ca n't use us-hosted services for storing private data of eu users . 
+  russia and china were excluded from the world internet for a quite a while already . 
+  it also means that you can not involve any us services if your user data crosses it . 
+  that includes payment processors which previously went through safe harbor certification . 
+  the solution to that is to explicitly opt-in users . 
+   in the second case : as a dev , i can understand how complicated this is . 
+  but if you try to keep the intention of the law in mind , there are ways to provide this service still . 
+  there are just by sticking to the 1995 data protection directive and to explicitly make the user accept that this data will be processed in the us or other countries . 
+   well , currently , you still can : host all data in eu . 
+  currently the us only has protection laws about medical data . 
+  true , but that also only works if you ignore russian internet users . 
+  because russia has the same law as europe . 
+   also , creating a social graph in any startup application sounds like an awfully stupid idea , because facebook has a far better social graph than you 'll be able to create , so competing with them is ... a bad idea . 
+  true , but you usually have it as a side effect . 
+  my main work for the last few years has been online services for computer games which have the same problem . 
+  i have always been on the side of unsharded environments and going the extra mile to make people from different countries work together . 
+  now it looks like those efforts are for nought . 
+  you can not build relationships between data in the us and data in europe in any way that would guarantee consistency without replicating it over which would be impossible legally now . 
+  for instance showing common friends between you and your american friend . 
+  even just showing your american friends status updates and comments on them becomes a really hard problem . 
+  it 's not just challenging but fundamentally impossible to implement some of already existing functionality . 
+  message delivery to local clients was never a problem , email fundamentally works the same . 
+  the problem is working with a social graph without any data locality . 
+  look , i spent a lot of time working on stuff like this and i 'm not a complete idiot when it comes to things like that . 
+  the tl ; dr is that the privacy aspect is good , but due to data locality laws in russia , europe and soon the united states the only implementation that will work for smaller companies is to segregate the users . 
+  eg : users from us , eu and russia would live on their own instances of the platform and can not communicate with each other . 
+  that 's not the issue . 
+  as i mentioned before i will write about this in detail , this is too much for a reddit discussion , 
+  oh , i am plenty angry about the us government . 
+  but we need to have a good alternative which right now does not exist . 
+  this punishes european startups heavily . 
+  i can tell you that this is impossible to do for many situations . 
+  i 'm actually quite angry about this ruling now and will probably write a detailed writeup about what the ramifications of this are for small companies . 
+  / / edit : i wrote something down now : http://lucumr.pocoo.org/2015/10/6/end-of-safe-harbor/, 
+  you should go there . 
+  it feels very familiar because shared history , people are friendly and yeah , beer , 
+  i would vote for czech republic as favourite . 
+  i 'm not sure how much time you have spent with electrical systems but the british plug is horrible and the video gets a lot wrong : * plug repair : you do n't ever need to repair a schuko plug as it is from a mold and impossible to destroy . 
+  * polarisation : schuko is intentionally unpolarised and that has not been changed because this forces device manufacturers to not rely on a correctly installed neutral . 
+  there are many places where phase and neutral are mixed up , including the uk ( especially because of the recoloring that took place there ) . 
+  * on schuko earth always connects first , that never was a thing the british plug did better * switch is useless on schuko because a ) houses where you have schuko have rcds which are still often not there in the uk and b ) we never had a shitty serial circuit * child safety : yes , that would be great if it would improve as a standard but rcd  plugged holes . 
+  * it took the british a really long time to get the prongs isolated in a way that you can not accidentally touch them when not entirely in the plug . 
+  that was never an issue with schuko ( which was the whole point of it 's existence originally ) . 
+  / / edit : aside from that schuko is a lot more resilient towards wear and cheaper . 
+  i had plenty of uk plugs fail on me due to the fuse but never a schuko one . 
+  euro 5/6 co is 500mg/1km . 
+  epa tier 2 is 2113mg/km . 
+  it 's more than four times . 
+  i could not find the numbers for tier 3 yet . 
+  but as of right now , the differences are staggering . 
+  that 's bending the facts . 
+  co2 emissions the is weaker than here by far . 
+  i think it currently allows five times ehat euro5 was . 
+  this is about nox which is mostly emitted by diesel which very few american companies touch . 
+  only the british will defend their plug . 
+  it 's a shitty plug and was only designed because you have god awful house wiring post ww2 . 
+  because the swiss one needed 12 revisions ro catch up with schuko for safety . 
+  so they intentionally changed the layout ( in 1986 or so ) to not accidentally fit the swiss plugs . 
+  british, 
+  and it is . 
+  however appliances must be designed to not rely on neutral and that generally has been really good for safety because people use those devices in old households where both wires are live or just generally have a screwed up installation . 
+  actually , the danish sockets were kinda infamous for being insecure which is why they came with a power switch . 
+  unlike the british one it was possible to touch the live parts of it . 
+   what is the point in all these green incentives then ? 
+  to make car manufacturers invest into these technologies . 
+  even if the cars are more expensive because new development , with the tax breaks they would become competitive with regular technologies . 
+   given the massive tax breaks and incentives the fossil fuel industry , including auto , has got over several decades , it seems a tad hypocritical to cut off electric subsidies after only a few years . 
+  which tax breaks and incentives in denmark do you have in mind ? 
+  the ones in question were for pure electrical vehicles only and were active for 5 years straight . 
+  the main mechanism is to adjust the tax by the emissions and that system would continue to apply to pure electric vehicles . 
+  i would like to agree but unfortunately they are not going anywhere due to the insane costs involved in it for disassembly . 
+  especially after a certain incident it has become clear that the projected costs for worst case scenarios have been severely underestimated . 
+  if you are a weapons manufacturer then you probably get permits . 
+  austria has plenty of gun and pistol industry . 
+  you do n't get clamped with austrian plates . 
+  not sure what happens with german ones . 
+  police person being an idiot . 
+  they have slovakian printouts too . 
+  fun fact : if you have austrian plates you never get clamped ( or very , very rarely ) because they know where you live anyways due to the mandatory registration system . 
+  i think that is the same everywhere . 
+  even in the states the situation was already like that a few years ago . 
+  but if you had at home you could go into prison for many years . 
+  it 's kinda decriminalized as a customer now for up to 5g . 
+  downside being that compared to before you now need to rat out your dealer . 
+  they are a step into the right direction but they ca n't be on tax breaks for too long . 
+  the same thing happened with solar panels in the past . 
+  you ca n't raise the taxes on regular cars because electric vehicles ca n't yet replace them . 
+  you would cause major damage for people depending on them . 
+   yes , but from what i 've heard nowadays it 's very difficult , if not almost impossible , to get a waffenpass , unless you need it for professional reasons . 
+  i did not try it myself but from what i have heard from people who are into that type of stuff it depends on where you apply .

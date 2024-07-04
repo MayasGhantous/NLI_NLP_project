@@ -1,0 +1,100 @@
+  yet to design a decision-making automation you need a complete model of the process . 
+  then you end up with a paradox . 
+  you have to automate because the process is complex . 
+  but you ca n't automate * everything * precisely because the process is so complex . 
+   does n't work very well because it leads to uninformed humans taking control when they are at their worst , emotional , stressed and unaware of the actual situation yeah , because flying is 99 % automated these days and for the 1 % when the automation fails or there is a contingency and the pilot actually has to do something , he just has no idea . 
+  because the pilot is just so used to flipping the switch and letting the aircraft do everything , when he actually * has * to take over it leads to stress and the pilot does not perform well anymore . 
+  that 's the real problem . 
+  they tried to take the pilot out of the loop for 40 years by now , and it had led to that . 
+  there 's something called [ human performance curve ] ( http://media.advisorone.com/advisorone/article/2012/08/16/ia_0912_herbers_chart.png ) . 
+  basically flying has become so boring pilots ca n't fly anymore , so they perform worse . 
+  and the machines ca n't fly yet , outside of their specific designated envelope . 
+  there are just too many complexities to take into account . 
+  so it leads to these kinds of failures . 
+  that 's what the actual evidence is pointing to : too much automation is making things * worse * , not better . 
+  the current paradigm is human-centered automation . 
+  the premise is that systems are fallible , so humans bear the ultimate responsibility for safety . 
+  humans must be in command , they must be actively involved , adequately informed and they must be able to monitor automation . 
+  so the automation must be predictable , but it also must be able to monitor humans . 
+  in all those cases that human pilots fuck up by trying to override the automatic settings , it 's really the designers fault for failing to design a system that would adequately inform the pilot about what 's going on and fail to detect what the actual intention of the pilot is . 
+   i do n't think current aircraft engineering practices would be up to it now but its getting much closer than most people think i do n't think most people realize how far we are actually from letting automation take over flying . 
+  like people see those fancy demos showing quads doing all sorts of fancy things and they assume we can do just about anything and use these same approaches to do safety-critical stuff . 
+  yet to this day there are no good autopilots for normal helicopters for example . 
+  it 's just too complex and there are too many non-linearities to take into account . 
+  with the new hot stuff like ndi control , we 're still 10-20 years away from seeing it certified , but even then , making these things work requires very precise models . 
+  and building these models is far from straight-forward . 
+  once you get outside of your identification envelope your model is n't valid anymore , and that 's precisely where safety-critical factors come into play . 
+  man , beach parties in the balkans must be wicked this time of year ... 
+  yeah , sure . 
+  but then how often does that happen ? 
+  if you spend years just flipping the ils and the auto-throttle switch , how are you supposed to know what to expect when it fails all of a sudden ? 
+  you can only do these things if you practice them regularly . 
+  these days everything is so automated , pilots rarely have to deal with this stuff . 
+  and when they do accidents like these happen . 
+  that 's one of automation ironies : it pushes humans into supervisory positions and they are pretty bad at those . 
+   we need to trust the computer to fly better in any and all situations and in 99.999 % of cases it will drones do n't exactly have a [ stellar safety record ] ( http://www.washingtonpost.com/sf/investigative/2014/06/20/when-drones-fall-from-the-sky/ ) . 
+  those fancy multi-million machines that us military flies crash all the time . 
+  they are severely restricted by weather conditions in which they could be deployed . 
+  they can barely fly through * clouds * . 
+  like seriously , if a predator flies into a cloud , chances are it will just plunge into the ground . 
+  if the communication link fails they plunge into the ground . 
+  if there is a sensor failure they plunge into the ground . 
+  that 's the current state-of-art . 
+   look at how computers can fly extremely unstable quadcopters today the quads in the video are using [ optitrack ] ( http://www.optitrack.com/ ) , feeding them their location with sub-mm precision , at something like 500hz . 
+  if you take them out of that room they wo n't fly autonomously anymore and start drifting all over the place . 
+  and they definitely wo n't be able to do any of these tricks . 
+  there is a world of difference between what you can do in a controlled environment in a lab , with 50k worth of hardware hanging over your head , or if you take those things outside . 
+   however committing also means this will only work once we disallow human takeover or interference that 's a terrible idea in practice . 
+  you should read [ ironies of automation ] ( https://www.ise.ncsu.edu/nsf_itr/794b/papers/bainbridge_1983_automatica.pdf ) by bainbridge . 
+  fully automated system is way more complex then just the system , there are many more things that can go wrong . 
+  designer of such a system assumes that automation is more reliable than the human , but then the designer is also human . 
+  so you need a guy in there to keep track of whats going on in there , but then knowledge of a process can only be achieved my active participation , not by passive monitoring . 
+  current approach to safety-critical automation is that both the machine and the operator should be fully informed what the other guy is up to . 
+  that 's the only way to make it work . 
+  it did . 
+  but then it 's a complex system . 
+  even with redundancies , you have to know which sensors you can trust and which you can not . 
+  is it a sensor failure ? 
+  or are you flying too low ? 
+  or both ? 
+  you have to decide and to decide you have to know quite a bit and pay attention to quite a few things . 
+  the machine only does what it 's programmed to do , based on information that it receives . 
+  the automation in that case functioned exactly as it was supposed to . 
+  there 's always human factor to these things , it 's people designing them . 
+  a car going 100 on a speedway can shift to emergency lane and come to a full stop in matter of seconds , anywhere . 
+  it does n't need a runway , it ca n't stall , it does n't have to flip through a dozen modes and settings on approach , it only has two inputs : steering and throttle , it does n't have as many state couplings or weird dynamic modes . 
+  engine failure for a car is hardly dramatic . 
+  if chunks of your car will start falling off it will still be fine . 
+  the worst thing that can happen to a car is a break failure , and an aircraft does n't even have any . 
+  if some kid jumping on a busy city road is the worst case scenario for a car , that again , can just come * full stop * , for an aircraft it 's more akin to trying to avoid that kid while driving the bus from `` speed '' . 
+  on ice . 
+  yeah , but that 's the moral of the story . 
+  pilots were relying on their autopilot too much and it had led to a crash . 
+  maybe if they were more involved with actual hands-on flying at the time this accident could 've been avoided . 
+   runway is large enough and empty so that it could hit it perfectly with just gps actually no , gps is still not certified to be used as a sole means of navigation for aircraft , much less for performing something as precise as a landing . 
+  gps does n't really work that well once you start changing * altitude * . 
+  they are working on improving this , deploying systems like dgps , but so far these things are still in nascent stages and mostly used by the military . 
+  what they * do * have is instrument landing system , or [ ils ] ( https://en.wikipedia.org/wiki/instrument_landing_system ) . 
+   there have been tests with small uavs where they shed one of the wings mid flight and it barely tips at all here adaptive control is indeed gaining acceptance lately , i believe they actually use it in f-35 . 
+  but there are also issues with that . 
+  imagine , for example , that suddenly the aircraft detects failure and decides to alter it 's dynamics . 
+  first problem here is that this process is not * transparent * . 
+  it 's essentially a black-box solution . 
+  when things go wrong you would generally like to know what 's happening , with adaptive control it becomes more complicated . 
+  if the aircraft does something and the pilot does not know what it is , it becomes difficult for him to make informed decisions . 
+  the second issue is what happens if there is a sensor failure . 
+  the aircraft might alter it 's controls based on the readings that it gets from the sensors , while nothing is wrong . 
+  then again , the pilot would have no idea what 's going on and it might lead to a dangerous situation . 
+  the third issue is that this approach pushes pilot into a supervisory position , where the humans perform worst . 
+  flying becomes 99 % boredom and 1 % terror . 
+   with autonomous cars sensing their environment is much much harder it 's many orders of magnitude harder with autonomous cars , in worst case scenario you could just slam the brakes . 
+  with aircraft you do n't have this liberty . 
+  see [ turkish airlines flight 1951 ] ( https://en.wikipedia.org/wiki/turkish_airlines_flight_1951 ) crash . 
+  they did just that , put everything in auto-mode , but because of a faulty sensor things went wrong . 
+  if you put too much trust in your machine , things like sensor failures become obscured and it might lead to accidents . 
+  machines in general are not very good at dealing with unexpected circumstances . 
+  i think varoufakis jokes are not unique to this particular circlejerk . 
+  i mean it 's just too easy sometimes ... 
+  all politics should by decided by ironic pop songs ... maybe they should replace the european parliament elections with something like eurovision . 
+  [ revolver ocelot ] ( https://bohangirl84.files.wordpress.com/2013/05/ltltltltrevolverocelot_1f6a85ef8e5eb1b86f7a4409fb4619ec.jpg ) ? 
+  [ pic for comparison ... ] ( http://www.vinegret.cz/wp-content/uploads/2015/05/petr-pavel-general-667x472.png ),

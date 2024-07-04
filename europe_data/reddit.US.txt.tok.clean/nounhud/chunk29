@@ -1,0 +1,100 @@
+  * [ anarchists ] ( https://en.wikipedia.org/wiki/harry_pitts ) of [ every stripe and color ] ( https://en.wikipedia.org/wiki/the_angry_brigade ) * the [ germans ] ( https://en.wikipedia.org/wiki/the_blitz ) * [ palestinians ] ( https://en.wikipedia.org/wiki/black_september_organization ) * [ the scots ] ( https://en.wikipedia.org/wiki/scottish_national_liberation_army ) * [ the south africans ] ( http://www.theguardian.com/theguardian/2013/mar/15/anc-apartheid-bomb-london-office ) * [ right ] ( https://en.wikipedia.org/wiki/tony_lecomber ) - wing [ english ] ( https://en.wikipedia.org/wiki/david_copeland ) . 
+  * the usual [ islamist crowd ] ( https://en.wikipedia.org/wiki/7_july_2005_london_bombings ) still seems to be a pretty elite club . 
+   even if all you stored was , say , an identifier , the camera identifier and a timestamp , you 're using 332kb per hit . 
+  [ blinks ] surely you 're using a pretty expensive identifier there . 
+  using your scheme , a four-byte timestamp ( heck , let 's make it eight ) , a four-byte number for the camera , and an eight-byte number for the person means 16 bytes -- that seems like you 're high by a factor of about twenty-one-thousand . 
+  let 's say that i have the 30 metrics i mentioned above , and let 's say that i throw eight bytes at each , a double-precision floating point number . 
+  that lets me go back and re-run analysis on the data , maybe fix false identifications . 
+  that 's 240 bytes . 
+  take your timestamp , another 8 bytes . 
+  camera id , another 8 bytes . 
+  that 's 256 bytes per sample . 
+  hypothetically-assuming that you could throw enough cameras out to watch * everyone * and get a sample of them every hour , that 's 371gb/day . 
+  that 's quite affordable for an intelligence or law enforcement agency -- i can get a hard drive that can store ten days of that for under a hundred bucks on amazon . 
+  you 'll have replication and all that , but what i 'm getting at is that the storage costs are not a barrier . 
+  edit : and if we really want to get tight , that data is definitely quite compressable , as human beings are n't blipping in and out of existence all around the world at random times with new , random characteristics , so you could shrink it below the uncompressed representation . 
+  what if you are n't talking about the countries , but rather the landmasses ? 
+  i mean , saying `` iberian peninsula '' is n't the same thing as saying `` portugal , andorra , and spain '' . 
+  you do n't need to retain video , just like you would n't retain video of a barcode that you scan . 
+  once you 've extracted the relevant characteristics -- distance between eyes , whatever ... i think i recall reading about a system that used something like thirty properties , you 're done . 
+  maybe retain a static image if you want . 
+  these are not to the point of widespread deployment yet , but [ they do exist ] ( https://en.wikipedia.org/wiki/facial_recognition_system#notable_users_and_deployments ) . 
+  the simpler problem of recognizing license plates to log timestamped positions of cars has been done , has been deployed to varying degrees in the us , and [ has been steadily moving into the private sector for commercial data-mining applications ] ( http://www.nbcnews.com/news/other/license-plate-data-not-just-cops-private-companies-are-tracking-f6c10684677 ) . 
+  facial recognition is at least as useful . 
+   if they got rid of the ridiculous genders and stopped with the ` putting all the important words at the end ' business , it might be as good as english . 
+  while i wholeheartedly agree with the gendered-nouns-in-language-doesn ` t-make-sense bit ... does german differ from english on the ordering ? 
+  i 'm effectively monolingual , but my understanding is that the romance languages all normally have a noun-modifier-modifier order , rather than the english modifier-modifier-noun order . 
+  the romance approach seems to be much more-reasonable in terms of being able to narrow the concept that you 're speaking about . 
+  german has the same issue , but how is english innocent ? 
+  english : `` i have a cute white car . '', 
+  spanish : `` i have a car white cute . '', 
+  the spanish approach means that i immediately know that i 'm working with a `` car '' , and i just keep fine-tuning the concept in my head as the sentence travels on . 
+  the english approach means that i have to keep building up the stack of modifiers in my head until i get to the modified word , where my brain has to `` apply '' all of them to the word . 
+  `` i love eating giant , purple , warm , firm , sweet ... eggplants . '', 
+  now , i 'm not saying that there are n't things that you can do with the english approach . 
+  you can put the relevant modifier at the beginning , where it might be the most-important , least-subject-to-being-inferred word : `` i want to work with an * honest * businessman . '', 
+  but normally , it seems that the romance order would make more sense . 
+  my `` ideal language '' list would include : * kill off gender ( in english , it only exists in a couple of pronouns ... that 's fine ) . 
+  * make verb conjugation standardized . 
+  i * think * that english is pretty good here , though it 's not the best ( and perhaps saying this with a sentence using `` think '' is n't the best choice of words ... ) * make things phonetic . 
+  english is really bad here . 
+  resume efforts to reform spelling to be more phonetic -- keep switching out `` ou '' for `` o '' , drop silent letters , switch out `` ough '' , and so forth . 
+  * consistent pluralization . 
+  english has words that retain pluralization from the original languages , and while there 's been a steady creep towards making `` standard '' pluralizations acceptable , i wish that it were faster . 
+  `` index '' should pluralize to `` indexes '' , not `` indices '' . 
+  `` mouse '' should pluralize to `` mouses '' , not `` mice '' . 
+  `` deer '' should pluralize to `` deers '' , not `` deer '' . 
+  * no [ diacritics ] ( https://en.wikipedia.org/wiki/diacritic ) . 
+  this is n't just english keyboard bias on my part . 
+  you want letters to be as distinguishable as possible for legibility . 
+  if you * need * a letter to be distinct , then it should be shaped differently so that it 's easy to distinguish at a distance . 
+  diacritics are fairly small . 
+  if you got ta have a new letter , make a whole new letter . 
+  * no specialized [ collective nouns ] ( https://en.wikipedia.org/wiki/collective_noun ) . 
+  in english , it 's almost-entirely just cutesy to use them , but [ chinese takes them seriously ] ( https://en.wikipedia.org/wiki/chinese_classifier ) . 
+  * written language and spoken language should mirror each other . 
+  i think that this is a huge drawback to chinese -- it effectively forces learning two languages instead of one . 
+  there 's a benefit -- written languages tend to be more stable than spoken languages , so you can read older works more easily if speech is n't twisting written language around -- but i 'm pretty comfortable making it hard to read 500-year-old works if it means that it greatly reduces the cost of literacy . 
+  while it looks like `` dyke '' is now an alternative spelling for a levee , normally `` dike '' is the levee , and `` dyke '' slang for a lesbian . 
+   in a february 2015 issue of isis 's propaganda magazine dabiq , abaaoud boasts about being able to slip a continent-wide dragnet for him , despite the fact that european security services all had a recent photograph of him , which had been published by a western journalist . 
+    `` i suddenly saw my picture all over the media , but ... the kuffar were blinded by allah . 
+  i was even stopped by an officer who contemplated me so as to compare me to the picture , but he let me go , as he did not see the resemblance !, 
+  this was nothing but a gift from allah ! '' i give widespread deployment of automated facial recognition less than ten years . 
+  not great for privacy -- whoever controls the cameras gets to track society 's movements -- but kinda kills this kind of stuff . 
+  this kind of business is living on borrowed time . 
+   nazism is still a thorn in germany 's political foot , and has even grown significantly since wwii in many countries , like the us . 
+  if you 're using this to refer to collective white supremacy movements in the us , i 'm doubtful that that they have not seen net growth since world war ii . 
+  at one point , the kkk was a pretty-substantial movement wrt wiping out ideology , while they are n't * gone * , i 'm pretty sure that you could name a number of genocides stretching from ancient history all the way up to the armenian genocide and the jewish holocaust that had a pretty substantial impact on strength of the ideology that the people involved held . 
+  it seems unrealistic to say that violence has no impact to me . 
+  that 's less-than half , on a per-capita basis , what the us pays * per year * for deportation above , and much less than what sweden was paying per capita * per year * for migrants in housing costs alone . 
+  border control on the eu is , at some point , going to have to be an option , one way or the other , unless you plan to just open borders ( which i think would be a bad idea ) . 
+  the population in africa is rapidly increasing and the ability of africa and some other poor places in the world to sustain themselves not increasing . 
+  it 's not something that is going to remain static -- one way or another , spending was going to happen . 
+  the question is the form that you want it to take . 
+  a big chunk of that is cutting the incentive of people from nigeria , somalia , pakistan , etc to illegally immigrate , and this is one step towards that . 
+  the fence helped as long as migrants could just travel through croatia -- it 's a beggar-thy-neighbor approach . 
+  romania would presumably be a third choice . 
+  but obviously , croatia is n't going to just hold borders open forever either ( or if it * does * , it does n't solve the issue for the eu ) . 
+  what happens if everyone adopts this approach ? 
+  you have a long line of three coils of razor wire running along the entire croatian , hungarian , and romanian border . 
+  now there 's no reason to prefer the croatian or romanian border and out come the sticks . 
+  * could * you block illegal migration crossing that area ? 
+  i think so . 
+  if you create something like the north korean/south korean border , that 'd probably work . 
+  but that 's a great deal more elaborate than three coils of razor wire , and more-costly . 
+  even trump 's fence would look more like the [ built-up areas of the us/mexico border ] ( http://cdn.theatlantic.com/assets/media/img/photo/2013/05/on-the-border/b01_85427302/main_900.jpg?1420508196 ) ( and that [ still has people crossing it ] ( http://cdn.theatlantic.com/assets/media/img/photo/2013/05/on-the-border/b20_97788455/main_900.jpg?1420508206 ) ) , even with a big desert and helicopters and patrols and sensors and far-larger-than-frontex border force on the other side . 
+  i think that orban 's actions had a lot more to do with domestic politics than in wanting to address illegal eu migration , personally ... 
+   we dont actually get less refugees numerically it does n't provide a way to remove people already present * to turkey * , but i do n't think that any plan was realistically going to do that . 
+  was the eu going to walk up to turkey and say `` have a million people ; we 're dumping them on your beach '' ? 
+  not very likely to happen . 
+  by reducing the incentive to illegally enter the eu ( all contingent on the eu being able to intercept the people in question , mind ) , it should reduce intake , which reduces the number of people relative to whow would have shown up . 
+  it retains the ability to deport people to syria or elsewhere , depending upon what else can be done -- nothing is lost there . 
+   and we pay billions for this `` deal '' yup , but it 's also only a part of what turkey has already paid to keep people in camps . 
+  it is almost assuredly substantially-cheaper for the eu than even the cost of housing people in the eu ( even disregarding the inflow rate and any spending on security issues ) . 
+  on that one , i think that the spending is quite reasonable : are you receiving at least that much benefit ? 
+  i 'd certainly say so , same as i think that it makes sense for the uk to fund border security efforts in france that block people from entering the uk -- it 's the uk that benefits . 
+  how much would it cost the eu house more people in the eu , add more security to deal with them ? 
+  how much does it cost to interfere with inter-eu trade , as the schengen issues are doing ? 
+  a couple billion is a * very * inexpensive price tag for that if it has a substantial impact . 
+  the us spent $ 5.34 b last year year on the [ dhs ice ] ( https://en.wikipedia.org/wiki/u.s._immigration_and_customs_enforcement ) , which deports about 400k people per year . 
+  you 're staring at an influx that was what , on the order of 1m last year , and this year has been significantly-higher ?

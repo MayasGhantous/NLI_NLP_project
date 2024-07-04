@@ -1,0 +1,100 @@
+  i 've seen both the danes and the french jump to the uk 's defense . 
+  there are a few in the comments here , even . 
+  so , yeah . 
+  not sure what your point was , but you 're wrong . 
+  because - `` madness ? 
+  this . 
+  but you said :  i do n't think that we should . 
+  it displays a gross disrespect for the system ; you should n't benefit from it if you do n't put anything in . 
+  so , are you revising that statement ? 
+  because clearly , the uk puts a significant amount in . 
+   it essentially comes down to morons fearing socialism and federalism , who would prefer to be america 's lapdog than part of a progressive union . 
+  i 'm curious , do you genuinely think that that is what euroscepticism is all about ? 
+  shhhhh . 
+  do n't interrupt a circle jerk in progress . 
+  burn !, 
+  in ur face urop !, 
+  how pathetic of him . 
+  well , yeah , they should . 
+  but the banks will use every pressure available to them to oppose this . 
+  look at it from their perspective - if this happens and the two forms of banking are split , they will not only make less money , but they will also no longer get massive state bailouts if they mess up . 
+   miguel angel mart\u00ednez could not have been clearer when asked if english should become the european lingua franca . 
+  `` i would do everything i can to avoid something which i would consider to be a catastrophe , '' ** said the ep vice president in charge of multilingualism . 
+  ** well fancy that : `` man with job says thing which makes his job possible being lost would be catastrophe '' . 
+  well , you asked for a single negative thing , and i gave you one . 
+  that 's slightly different from it being a `` serious down side '' . 
+  it 's more of a `` non-serious downside '' . 
+   there is not a single negative thing about freedom i could think of . 
+  how about having to put up with assholes who hold up signs like that ? 
+  `` go to double-u double-u double-u , dot , i am a terrorist dot com '' look at me , cunningly skirting the law ... 
+  i think this would be better posted as a comment in the thread you are referring to . 
+  it 's not really a starting point for a discussion . 
+  the topic in question was : `` what 's high school like in your country ? 
+  anything like an american movie ? '', 
+  - which specifically asks you to contrast what your school experience was like with what 's in american movies . 
+   surely your code does n't need to assume anything because that london utc offset ( or in the simpler case : a bst flag ) must be defined somewhere . 
+  we are not just talking about my code , nor are we talking about a single code base . 
+  we are talking about dozens of server side apps maintained by dozens of people . 
+  i currently have about 6 of those apps checked out , and am actively working on two of them . 
+  the code is of mixed quality , depending on the project , and i only wrote the majority of the date time utility code in one of them . 
+  it would be foolish to assume that the majority of that code will be correct if we suddenly change time zone . 
+  i ca n't make blanket statements about how `` our date time code '' works , other than to say i bet there are a lot of undiscovered bugs . 
+   it 's just that in your case you mentioned that you 're already accounting for the london timezone being gmt or bst . 
+  so surely your code already works properly for utc +1 because it 's running that way for half the year ? 
+  yes , it already works correctly on gmt/utc/bst / utc +1 in the app i currently spend most of my time maintaining . 
+  personally , i prefer to use jodatime to handle as much of this stuff for me as possible , but using a library is no cast iron guarantee of correctness . 
+  it would be foolish to assume that it * just works * without doing a lot of investigation . 
+  until proven otherwise , i 'm going to assume even my code has bugs in it . 
+  past experience has taught me never to trust date time code , even if it has an extensive test suite associated with it . 
+  it 's one of the most bug prone areas in software development . 
+   whatever you did to create this situation was a mistake : i did n't do anything to `` create this situation '' . 
+  i currently maintain and develop half a dozen server side apps along with the teams i work with . 
+  i wrote the date time utilities for one of these apps ( on top of jodatime ) . 
+  but i would n't bet money on any of them moving to a new time zone , bug free , without having a good long look at the code first . 
+  my bet is , that there will be bugs . 
+  a lot of bugs . 
+  if you 're certain that any and all date time code you 've written is bullet proof , then you 'll forgive me if i do n't believe you . 
+  date time code is one of the most common source of bugs there is . 
+  very smart people make mistakes with it very often . 
+   whatever assumption you made ( and my first thought was that a smart library for date/time critical applications make it easy to convert times and dates between timezones ) depends on the app . 
+  where i have free reign , i use [ jodatime ] ( http://joda-time.sourceforge.net/ ) . 
+  but i often have to use whatever is already there , which is of mixed quality . 
+  all that code would have to have the hell tested out of it before i could be sure no bugs would crop up . 
+   that is understandable , but it sounds a whole lot different from what you wrote first . 
+  how so ? 
+  what i said was :  i work in london , and a lot of the code i have written uses either gmt or bst for calculating time differences between london and somewhere else . 
+  we write code that uses either gmt or bst , the fact that we use a mixture of libraries to do that is immaterial . 
+  using a library in itself is not a guarantee of correctness . 
+  what mistake would that be ? 
+  we use libraries for date time calculations , but can i be sure off the top of my head that all code that uses such libraries will be correct with a switch to cet ? 
+  i would be daft to make such an assumption , and so would you . 
+  most code bases we maintain do n't make assumptions about where they are and what the utc offset is . 
+  * most * . 
+  some do , and some have to . 
+  in addition , all you are suggesting is an additional layer of abstraction , there is still the library code to check , and fix . 
+  * something * , somewhere , has to associate gmt and bst timezones with london . 
+  and i 'm not just speaking for my own company , my bet is that there is code that will be subtly wrong all over the place . 
+  the date time arithmetic is not the issue . 
+  we all use libraries for that ( in most applications ) . 
+  the issue is the implicit assumption , in code , that london is on either gmt or bst . 
+  i would put money on that assumption being in at least one code base we maintain . 
+  i work in london , and a lot of the code i have written uses either gmt or bst for calculating time differences between london and somewhere else . 
+  would this change mean that our application code will have to assume london is on cet ? 
+  because if the answer to that question is `` yes '' , then i 'm dead set against this . 
+  this will fucking break * vast * quantities of code . 
+  i 'm not even kidding , this will be an absolute maintenance nightmare for very little gain . 
+  i mean , london is sat right on the greenwich meridian , and we have a timezone specifically for that ( gmt/utc ) , why would we bother changing to a timezone that 's utc +1 ? 
+  it makes no sense to me . 
+   why did you mention birds without wings ? 
+  because there 's a good chance you 'd read it , and i know of no popular , unbiased , factual books on the subject . 
+  it also allowed me to determine what your beliefs on the subject are , including whether you were one of those greeks that you ca n't trust on the subject because of ... well ... bias . 
+   that 's a novel describing events in asia minor in the beginning of the 20th century , and if you had any idea about the events then , you would know that the turks slaughtered thousands of greeks in the ensuing asia minor catastrophe . 
+  yes i know that . 
+  the greeks also killed ethnic turks , that 's what happens in this kind of conflict . 
+   i feel insulted by you then you are over sensitive and too easily insulted . 
+  all i did was ask a few questions . 
+   almost a million greeks were massacred by turks in these barbaric events . 
+  that was genocide , that was ethnic cleansing . 
+  not what the greeks did ... 
+  i am aware what happened to ethnic greeks in turkey , i 'm also aware of what the greeks did to turks living in majority greek areas . 
+   as for cyprus , what happened was not genocide .

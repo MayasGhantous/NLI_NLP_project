@@ -1,0 +1,100 @@
+  no , i 'm telling you that 's why no one in germany gets a house , but instead over two thirds of people have an apartment . 
+  no hand ? 
+  you are really that ignorant ? 
+  you destabilized the entire country with actions from the cia to take down mossadegh , which led iran into this entire mess . 
+  and the nuclear reaction is more than understandable , after the us had already taken down a government , i 'd build nuclear tech as quickly as possible , too , to prevent it from happening again . 
+  the us is the unprovoked aggressor there . 
+   where did i say i was more qualified than him ? 
+  honestly , please point me to where i said that . 
+  let 's see :  you sound like what i think i would have sounded like back when i took my first economics class . 
+  thinking that i had everything figured out and problems are as simple and as easily fixed as you described . 
+   there 's a reason why we actually still have economic problems . 
+  the reason is that they are endlessly more complicated than what you seem to think they are . 
+  when i literally paraphrased draghi , that was your response . 
+  that was pretty much unprovoked . 
+  everything the iran did in the past decades was in reaction to the us forcing a coup against a democratically elected government and putting a dictator there instead . 
+  they are n't expected to get approved or stay here , so , not really . 
+  if they would stay , then yes , it would change the premise . 
+   which in this day and age unprovoked embargos are generally not a good thing to be doing if you want businesses to invest in you . 
+  so why did the us embargo iran then ? 
+  and why did n't that hurt for them ? 
+   the average london house price is now 650,000 eur . 
+  is that supposed to be much , lol ? 
+  a house literally in a 200 people village in germany will start at that . 
+  in cities , you can expect more around twice that . 
+  stop complaining about your housing prices if that 's what you complain about , lol . 
+  because new york does n't have single market access either ? 
+   where it 's unregulated , where it can avoid taxes , and where they can abuse the legal system . 
+  ftfy what do delaware , panama , london , hong kong have in common ? 
+  low taxes or easy to avoid taxes , a legal system that 's based on precedence and so hard to navigate that any process can end any way if you have enough money because you 'll always find precedence , and no banking regulation . 
+  good point , forgot to mention them . 
+  they do fall in the same category as most of the people from northern africa , though . 
+  so , you 're saying , you are more qualified than mario draghi ? 
+  mario draghi , the head of the ecb , is proposing exactly this , you realize that , with exactly the justification i paraphrased . 
+  oh hi defmork , surprised to see you post about such deep topics :o, 
+  the nordics and parts of central europe are the closest to a star trek society , though , and this is exactly where they 're moving towards . 
+  well , we have to look at it on a larger scale : when everything becomes automated -- which it is -- germany and the eu in general will profit heavily from that . 
+  footing the bill is n't an issue if the bill is paid by german robots , and not humans . 
+  well , depends on what kind of people . 
+  most of the syrians will have likely a beneficial effect to society , they have a similar educational situation and employability as citizen from eastern eu countries would have in germany . 
+  the people from african dictatorships , like eritreans , have a far worse situation . 
+  they ca n't go back , they have no education or employability , and they 're the real economical issue . 
+   circulating money around does n't provide growth it can . 
+  most recessions are created by the fear of losing an investment -- if instead that fear is lowered , because the risk is mitigated , or the economy is already slightly growing , usually the recession ends by itself . 
+  circulating money around can help with that , because it encourages people to spend instead of saving money , causing them to buy more , causing companies to produce more , causing companies to hire more , causing more money to be available . 
+   circulating money around does n't provide growth it provides growth in the same way as fractional reserve banking does , or as the entire economy does . 
+  yes . 
+  it is . 
+  which is exactly where society is moving towards : the government is buying more and more shares in large companies , while at the same time moving towards ubi . 
+  by 2050 , we could have a full star trek economy here . 
+  because it only works when people spend that on products produced in the same country . 
+  it does n't work when people spend that on imported products . 
+  which is why germany gave people 2000 $ if they bought a new car a few years ago -- it directly went back into the local economy . 
+  giving people in most african countries money would either directly cause an inflation , or mean it 'd be spent on imports , being worthless . 
+  edit : and what / u/deathbynotsurprise said . 
+  everyone who has studied economics ? 
+  which is everyone who matters ? 
+  that 's correct . 
+  but / u / _ fotting_rish _ claimed it would be economically negative , on a national scale . 
+  which it 's not . 
+  actually , giving money to the poorest people in society is considered the best way to improve the economic situation and create jobs . 
+  in fact , the ecb has been discussing `` helikoptergeld '' ( the cartoon idea of throwing money out of a helicopter , although in a more ordered fashion ) for quite a while already . 
+  spyware : as i said below , signal requires some proprietary libraries from google . 
+  those are where the spyware lies . 
+  regarding the pull requests : i linked the issue below , too , but read about what happened with libresignal . 
+  they created a version without google libraries , moxie told them they could n't keep it compatible with signal , but would have to set up their own servers for everything . 
+  so , you ca n't even change the client you use yourself . 
+  moxie requires that he can decide everything over the client . 
+  that is as open source as android : tons of proprietary blobs , every few months an update , no one can contribute anyway . 
+  i 've recently researched the firebase cloud messaging libs , and for that purpose , reverse engineered how they work . 
+  during that process , i also wrote specs how every piece of it roughly worked , and what it did . 
+  what i discovered was a huge majority of the code focused on analytics and app usage measurements -- did a user open a notification ? 
+  how long did they look at it ? 
+  did they dismiss it , or keep the app open ? 
+  how long ? 
+  when did they use the app at all ? 
+  what time of day ? 
+  where they at home , or outdoors ? 
+  which percentage of app invocations was caused by notifications ? 
+  there 's a lot more analytics than that , but it 's always in the firebase cloud messaging lib . 
+  signal , in the current version , depends on firebase cloud messaging , and can not be used without it . 
+  the libresignal group created a version that worked without it , and moxie threatened legal action against them . 
+  he said they would not be allowed to let their users directly message signal users , but instead would have to set up a completely seperate network , they 'd have to get rid of anything even slightly related to the signal brand , and he 'd try to ensure their apps would be banned by the signal network , in case people would compile those themselves . 
+  that 's the biggest issue . 
+  signal imports a huge closed-source library , and everyone trying to get rid of it gets threatened legal action . 
+  moxie also openly protests against users compiling the app for themselves , or offering those compiled versions to others . 
+  see more in these threads : * https://github.com/whispersystems/signal-android/issues/281 * https://github.com/libresignal/libresignal/issues/37#issuecomment-217211165 and as you see , moxie even personally says any alternative store and set of libraries would require a statistics solution . 
+  ah yeah , matrix . 
+  i 've said a lot of things about that this week , especially in the hn thread . 
+  tl ; dr : we have 14 competing standards , let 's make another one that is n't much better than any of the existing ones and still does n't solve several of the main issues . 
+  they 're open source , but not open development . 
+  you are n't allowed to fork it , or change it , or build your own build without the google spyware they include , or they 'll go and threaten to sue you . 
+   honestly to me it looks like the afd will be a longlasting phenomenon . 
+  the afd was at its peak in the polls at 20-40 % in many places . 
+  now they 're down to 7-11 % , as they used to be during the greek crisis . 
+  it 's not unusual in germany either -- in kiel , for example , we 're now copying vienna and slowly adding public wifi hotspots everywhere downtown . 
+  but it is n't like that everywhere . 
+  many societies have people respecting each other , have working volunteering efforts , etc. 
+  that 's a nice interpretation , but  as long as proportionality is obeyed . 
+  makes all that a moot point . 
+  there have been interesting discussions about this in the legal communities online , and most have come to the conclusion that germany would have to check if the people are eligble for asylum , and could not just stop them at the border .

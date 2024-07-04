@@ -1,0 +1,100 @@
+  and by default they only protect it with a password of their choosing . 
+  which makes the `` full encryption '' pointless . 
+  but they allow you to choose your own password to encrypt the private key . 
+  which sounds a lot better . 
+  until you read further down in their faq that this password is transferred to the backblaze servers during restore . 
+  so if you restore one single file , or if you log in into their webservice to browse your list of files they know your password . 
+  if they receive a government subpoena they will be required to intercept that password . 
+  maybe . 
+  they store the private key on their server . 
+  this helps against man-in-the-middle attacks , where someone was able to break into the https that is used to transfer data to the backblaze server . 
+  but backblaze is able to decrypt anything . 
+  from their faq :  the user 's private key which is stored safely in our datacenter is protected by a password that is highly guarded . 
+  a password that they choose . 
+  a password that is stored in plaintext somewhere on their server . 
+  in that case fingerprinting would be possible . 
+  but of course i 'm not sure if they actually do it . 
+  but they are able to do it . 
+  -- but you are right , they have the option to encrypt that private key with your very own password . 
+  which totally prevents fingerprinting . 
+  but it does not prevent unauthorized access to the data . 
+  if you restore one file from your account , your very own password is transferred to their server , where it is used to decrypt the private key . 
+  and then the private key is used to decrypt the files . 
+  which will then be send to you in plain text . 
+  the encryption of backblaze is pretty pointless . 
+  a government subpoena could force backblaze to implement code that waits until a targeted user restores one file . 
+  at this moment backblaze and the government have the password , so they can decrypt the private key ( that 's what happens during restore anyway ) . 
+  i have a simple rule . 
+  if an encryption faq talks about `` military grade security '' without going into details i do n't trust them . 
+  between mexico and russia . 
+   i do n't think i have ever encountered someone that did n't know germany . 
+  try non-touristy south florida . 
+  with a year in between i had to explain to two different store clerks where germany is . 
+  `` big country in the middle of europe '' `` what 's europe ? '', 
+  that means that they do n't encrypt your data because they have to do data fingerprinting to stay in business . 
+  they basically store each file exactly one time on their server . 
+  if you upload some pirated movie they already have that file on their storage . 
+  so they just link your file to the existing file , they do n't store that file multiple times . 
+  many people do n't have terabytes of unique files . 
+  they might have a few gigabyte of photos . 
+  but that 's usually it . 
+  they will probably end your contract if you upload 10 tb of real random data . 
+  never underestimate someone who is sick . 
+  greetings from the `` sick man of europe '' between 1990 and 2005 . 
+  that 's why he said that 300 refugees live in his village . 
+  not 300 vip refugees . 
+  and not 300,000 syrians . 
+  these 300 most likely consist of a mix of asylum seekers from one balkan country and an assortment of people that do n't hate each other from africa and the middle east . 
+   germany has never experienced refugee waves on this scale . 
+  1992 we had 440,000 asylum seekers . 
+  you can add 200,000 aussiedler ( ethnic german immigrants , mainly from the former soviet union ) on top of that . 
+  because the aussiedler required and received the same help as accepted asylum seekers . 
+   the manager of the supermarket said he had to hire security , but there was no single crime yet . 
+  when he talks about crime he probably means robbery . 
+  if he 's a friend of you , ask him about theft . 
+  that will be a very different story . 
+  i have a couple of security guards in my social circle . 
+  some of them work in theft prevention . 
+  asylum seekers steal a lot . 
+  especially those from europe . 
+  in germany we do n't need non-eu-immigration to keep wages low . 
+  we have poland , romania , bulgaria and hungary for that . 
+  work does n't get cheaper if you pay minimum wage to someone from syria instead of someone from romania . 
+  36.1 % that was the total protection quota in the first half of 2015 . 
+  that includes the 22.2 % of the asylum applications that ended in asylum . 
+  the irony . 
+  creating a sock puppet account to ask rhetoric question about pushing agendas . 
+  you know what 's good about people who do n't have valid refugee claims ? 
+  slovakia can deport every single one of them . 
+   10 points 2 hours ago  redditor for 2 hours checks out . 
+  you said generalizing , you imperialistic pig . 
+  here in educated europe we say generalising like the civilised ( take note . 
+  not civilized ) folk we are . 
+  and now i will continue with my generalising slurs about brown people . 
+  muh european values !!, 
+  your national government has signed and ratified the un refugee convention . 
+  your government already made the decision that it is okay to seek asylum in your country . 
+   if people want to come specifically to austria ( or some other country ) to seek asylum why should they be sent elsewhere ? 
+  because austria can not provide for all the people that want to be in austria . 
+  refugees do n't have the right to pick their host country . 
+   more ships in mediterranean sea and then what ? 
+  bring the boats back to libya ? 
+  libya is not a safe country , so that would be in violation of the un refugee convention . 
+  do n't let the boats reach eu shore ? 
+  then the refugees will sink their boat . 
+  international maritime conventions require vessels to help people in distress . 
+  so now the refugees are on your ship . 
+  remember , you can not bring them back to libya . 
+  and you can not bring them to another safe country if they wo n't let you . 
+  so dropping them on the shore in morocco is n't an option either . 
+  and obviously you can not throw them back into the water . 
+  so you have to bring them to europe . 
+  where they have the right to request asylum . 
+  and do n't forget that , by un convention , you ca n't punish asylum seekers for their illegal entry . 
+  ships that patrol the med sea prevent that more people drown on their journey to europe . 
+  it wo n't do anything for the number of asylum seekers . 
+  passenger numbers do n't matter . 
+  revenue and profit do . 
+  the `` flughafen leipzig/halle gmbh '' , operator of the regional airport leipzig/halle , accumulated a 48.8 million euro loss in the financial year 2013 . 
+  in that time they transported 2.2 million passengers . 
+  [ source ( german ) ] ( http://www.finanzen.sachsen.de/download/2013_ja_flughafen_leipzig-halle.pdf ) the `` flughafen dresden gmbh '' , operator of the regional airport dresden , accumulated a loss of 8.8 million euro in the same year .

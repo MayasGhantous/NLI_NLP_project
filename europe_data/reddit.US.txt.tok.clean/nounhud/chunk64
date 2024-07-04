@@ -1,0 +1,100 @@
+  and the artwork has rather-notably gone up in quality over time . 
+  [ now you do !, 
+  ] ( http://www.take-a-screenshot.org/ ), 
+  i agree that it 's not a reasonable answer to `` someone edited wikipedia '' -- just for technical completeness . 
+  if you can [ attack bgp ] ( http://ix.cs.uoregon.edu/~butler/pubs/bgpsurvey.pdf ) you can put yourself in that path , and [ this is a thing ] ( https://www.bgpmon.net/bgp-routing-incidents-in-2014-malicious-or-not/ ) . 
+  go to wikipedia . 
+  search for text from article . 
+  identify [ article in question ] ( https://en.wikipedia.org/wiki/slovenia ) . 
+  go to [ wikiblame ] ( http://wikipedia.ramselehof.de/wikiblame.php ) . 
+  do a binary search on `` slovenia '' for the phrase `` parking lot '' . 
+  identify [ this revision ] ( https://en.wikipedia.org/w/index.php?title=slovenia&amp;oldid=702156956 ) . 
+  extract the ip address ( 141.136.223.116 ) responsible for the change . 
+  run ` whois 141.136.223.116 ` . 
+  identify that ip address belongs to a netblock allocated to croatia :  inetnum : 141.136.223.0 - 141.136.223.255  netname : iskon-adsl-02  descr : iskon internet d.d. 
+   descr : internet service provider  descr : adsl users ip block  descr : croatia  country : hr  admin-c : ii385-ripe  tech-c : ii385-ripe  status : assigned pa  remarks : ****************************  remarks : * in case of abuse please *  remarks : * contact : abuse@iskon.hr *  remarks : ****************************  remarks : infra-aw  mnt-by : iskon  created : 2011-11-21t11 :50:09 z  last-modified : 2011-11-21t11 :50:09 z  source : ripe # filtered   role : iskon internet  address : garicgradska 18  address : 10000 zagreb  address : croatia  abuse-mailbox : abuse@iskon.hr  admin-c : np1462-ripe  tech-c : vz556-ripe  tech-c : np1462-ripe  nic-hdl : ii385-ripe  mnt-by : iskon  created : 2002-09-05t14 :32:38 z  last-modified : 2013-01-24t15 :36:33 z  source : ripe # filtered ... confirming / u/badblueboy146 's theory that a croatian was responsible . 
+   arrogance much the focus here ( and i assume in europe ) on visa access as some sort of status symbol is wildly-foreign to me . 
+  maybe it 's just that people cross fewer borders over here . 
+  if some country honestly thought that there was a risk of counterfeit us passports * en masse * , then i agree , they should shut down visa-free access . 
+  if they did n't think so , i 'd call it kind of petty , but i would n't get that worked up about it . 
+  it 's not some sort of personal insult . 
+  get a german flair , then !, 
+  maybe the people from the eastern part of europe on reddit are n't very representative of the population ( probably comparatively tech-savy , english-speaking , etc ) , but they really do n't sound all that different from the people from the western part , to be honest . 
+  frankly , someone 's age and political party affiliation seems to make a bigger difference than does country to my casual browsing of comments here . 
+  i 'd think that the best way to counter oil-based political power is n't really absolutely refusing any deals , but ensuring that you 've an alternate source and the ability to shift suppliers without more than a certain amount of disruption . 
+  i think that he 's talking about ukraine and donbas and crimea , but that only looks like ~ 1m . 
+  i 'm not familiar with it , but wikipedia has an article . 
+  https://en.wikipedia.org/wiki/the_daily_caller i 'd think confirming that the twitter feed is the authentic russian embassy in london twitter feed would be the most-interesting thing to check ( since the twitter posts seem to kind of stand on their own ) . 
+  i assume that the official embassy website would have a link somewhere if so . 
+  [ there are a lot ] ( https://en.wikipedia.org/wiki/list_of_leaders_of_the_soviet_union ) , but maybe yeltsin ? 
+  * nicholas ii : death * lenin : death * stalin : death * malenkov : deposed * khrushchev : deposed * brezhnev : death * andropov : death * chernenko : death * gorbachev : deposed ( well , office ended in an unplanned fashion ) * yanayev : if you count him , deposed . 
+  * yeltsin : officially stepped down . 
+  maybe under pressure , but his intended successor was the one to take office . 
+  * putin : still in office . 
+  realistically , there 's not currently enough information to conclude that this was a foiled terrorist attack yet . 
+  * carrying a quran probably is n't that unusual . 
+  * carrying concealed handguns and getting stopped at disneyland ( which even in the us , does n't permit carrying within the park itself and which has multiple stages of metal detectors ) probably is n't that unusual -- if someone is going to stop you , it 's going to be the people with the metal detectors and security checkpoint . 
+  * carrying multiple concealed handguns is n't that implausible -- a standard carry weapon and a backup . 
+  * carrying concealed handguns in * france * might be unusual , but i bet that that does happen from time to time . 
+  * two handguns with a spare magazine each ( possibly one for each person , at most ) is not a whole lot of ammunition or firepower for someone intending to go out in a blaze of glory . 
+  this is less than the earlier paris attacks , and in the past spree shootings that i 've read about have had the attacker generally more-heavily-arm themselves . 
+  * the guy did n't resist being arrested . 
+  it seems that if he was planning to try and go out the next day , it 'd be at least * plausible * that he would resist . 
+  so ... could it have been an attempted attack ? 
+  yeah . 
+  but it really does n't require mental gymnastics , given what information is available as of this writing , to believe that it was n't . 
+  a submission to / r/europe one year ago from / u/reilly616 : [ i made a map of the average total time in office of european leaders - hope you like it !, 
+  ] ( https://www.reddit.com/r/europe/comments/2ppwdq/i_made_a_map_of_the_average_total_time_in_office/ ), 
+  if this was a foiled terrorist attack -- and it 's certainly not clear that it was yet -- the focus might be hitting the us as well as france , rather than children . 
+  probably easier to get people into france than the us , and disneyland is a high-profile us business . 
+  / r/guns maintains a [ faq item referencing gun laws for switzerland , the uk , and the us ] ( https://www.reddit.com/r/guns/wiki/faq#wiki_gun_laws ) . 
+  i was going to say that it would probably be a better idea for [ alexander yakovenko ] ( http://www.rusemb.org.uk/ambassador/ ) to coordinate with home base , but if [ lavrov ] ( https://en.wikipedia.org/wiki/sergey_lavrov ) was the source ... beats me . 
+  maybe the russian administration intends different messages to go to the english-language audience and the russian-language audience , and this was intended to only go to russian-language audiences and someone rebroadcast it to english-language audiences ? 
+  that 'd explain the russian-language webpage screenshot . 
+  [ disney security in 1987 ] ( http://articles.chicagotribune.com/1987-06-14/travel/8702140431_1_parking-lot-epcot-center-disney-first ) :  seated in his out-of-sight , second floor office on magic kingdom 's main street , weeks described the purpose of disney world 's security force of 400 -- many of them undercover -- and a control center which camouflages protection and contains problems . 
+    more than a quarter of his staff are plainclothes guards . 
+  they patrol the shopping village , the three disney-run hotels and the two theme parks , magic kingdom and epcot center . 
+  dressed in summery attire , they respond quickly to dispatches without alarming crowds and spot crimes like shoplifting without tipping off thieves . 
+  when apprehending a problem visitor , guards make use of back roads and miles of service tunnel to minimize disturbance . 
+    '' you can extract a problem off the street to the tunnel rather than drag some screaming person down main street , '' weeks said . 
+    outside of congested areas , throughout disney world 's vast 28,000 acres , security depends on a fleet of squad cars , offroad vehicles and one helicopter to move about swiftly . 
+  security personnel respond to accidents along 75 miles of road . 
+  they stop trespassers and hunters in the bayou , and they protect against car break-ins and vandalism on 125 acres of parking lot . 
+    foot and motor patrols rely extensively on radio communication , directed from a control center in town square where four switchboard operators tune to the park 's 23 radio channels and receive 911 calls . 
+  upon news of trouble , they contact security by walkie-talkie . 
+    '' this is the most crucial and demanding aspect of security , '' said weeks , explaining that operators must quickly pinpoint a problem and notify the right people . 
+  he added that all radio communication is recorded to review response procedures . 
+  operators also monitor a weather radarscope to track storms that might require evacuation . 
+  they watch television screens tied to surveillance cameras that home in on employees in back areas . 
+  and they oversee a computer that indicates if there 's a burglary or fire alarm . 
+  ... has apparently [ only been beefed up in recent years ] ( http://www.usatoday.com/story/money/2015/12/17/disney-world-universal-seaworld-orlando-install-metal-detectors/77474862/ ) :  in addition to metal detectors , disney said it is using more uniformed local law enforcement officers on disney world and disneyland properties . 
+  disney will also have more specially trained dogs -- including vapor wake k9 units -- to patrol key areas . 
+  vapor wake dogs are trained to detect body-worn explosives on a moving target . 
+    disney said guests will be randomly selected for a secondary screening using a metal detector , similar to practices adopted by major league baseball , football , hockey and basketball leagues , and at many music concerts . 
+  how about the quran ? 
+  the church of england has something of a reputation of not having [ terribly high attendance or producing a lot of fervent new believers ] ( http://www.theguardian.com/world/2015/jun/07/church-of-england-decline-heralds-calls-for-innovative-use-of-church-buildings ) . 
+  [ this submission ] ( https://www.reddit.com/r/europe/comments/430osy/pentagon_top_priority_of_us_military_forces_in/ ) covered the same thing . 
+   well i think he means that there are no really devoted followers to the religion of the flying spaghetti monster . 
+  kind of like anglicanism in that , i imagine . 
+  thanks . 
+  just to clarify  ... there are no evidence suggesting that these views interfere with results of their polls , again its results do n't even differ that much from the state pollsters . 
+  i was n't so much suggesting that the results would be fabricated as that the questions could be written to favor a particular outcome , and it 's possible that an institution might do this consistently in favor of one outcome . 
+  this would make use of [ framing effect ] ( https://en.wikipedia.org/wiki/framing_effect_%28psychology%29 ) to cause those polled to answer differently based on how the question is presented . 
+  [ * yes , prime minister * riffed on this in one episode ] ( https://www.youtube.com/watch?v=g0zzjxw4mta&amp;t=30s ) . 
+  for example , i understand that the uk government wants the uk to remain in the eu and avoid a brexit . 
+  i understand that it 's felt ( and i 'm sure that focus groups have established ) that the british public prefers the * status quo * , to avoid radical change . 
+  the question as asked presents being a member of the eu as the * status quo * and leaving it as not :  * should the united kingdom remain a member of the european union or leave the european union ? 
+    * remain a member of the european union   * leave the european union whereas if the government wanted an exit , i expect that the question would look something more like :  * should the united kingdom continue towards an `` ever closer union '' , over time transferring sovereignty to the european union , or separate from the european union and retain its independent sovereignty ? 
+    * transfer sovereignty to the eu . 
+    * retain sovereignty . 
+   also the western media has n't character assassinated estonia because you 're in their sphere of influence * right now * . 
+  ignoring for a moment the question of whether [ `` spheres of influence '' is applicable ] ( https://en.wikipedia.org/wiki/sphere_of_influence#1990s_to_present ) , if i 've learned one thing about the baltics from reading this forum , it 's that suggesting that russia is merely suffering a temporary dispossession of the baltics and that rectification is imminent does not typically go over well . 
+  while i do n't know how reputable levada center ( the polling agency involved ) is , looking online , it 's cited numerous times by both * rt * ( state-controlled international broadcaster ) and * the moscow times * ( critical of the kremlin ) , so i assume that it is n't generally-viewed as having a bias . 
+   on the contrary , i 'd rather that close countries within the eu were encouraged to unite into larger constituent states , if they want to count more . 
+  the united republics of [ nordic union ] ( https://en.wikipedia.org/wiki/nordic_passport_union ) , [ visegr\u00e1d ] ( https://en.wikipedia.org/wiki/visegr%c3%a1d_group ) , [ craiova ] ( https://en.wikipedia.org/wiki/craiova_group ) , [ benelux ] ( https://en.wikipedia.org/wiki/benelux ) , [ baltic assembly ] ( https://en.wikipedia.org/wiki/baltic_assembly ) , [ troika ] ( https://en.wikipedia.org/wiki/eu_three ) , [ iberia ] ( https://en.wikipedia.org/wiki/iberian_peninsula ) ... 
+  [ eat your heart out , scientology ] ( https://en.wikipedia.org/wiki/scientology_status_by_country ) . 
+  http://www.pewresearch.org/fact-tank/2014/05/28/which-countries-still-outlaw-apostasy-and-blasphemy/ as of 2012 , along with a quarter of the world 's countries , including [ ireland ] ( https://en.wikipedia.org/wiki/blasphemy_law_in_the_republic_of_ireland ) , denmark , germany , poland , italy , greece , and malta . 
+  this seems more like pointing out that russia * might * be poisoning western dignitaries than showing that russia * is * poisoning western dignitaries . 
+  glancing at the first one , this is a long way from the litvinenko case in terms of evidence . 
+  frankly , if you 're a taxi driver , you 're going to be boned a few years down the road when self-driving cars start coming out * en masse * anyway . 
+  it might be a good idea to start getting out while the getting is good .

@@ -1,0 +1,100 @@
+  just as with any insurance system , it is in the interest of every insurer to try to more-accurately predict how often insurance will be triggered , since the more-accurate their estimate , the more money they can make . 
+  over time , as insurers can find effective techniques that are statistically-correlated with lower rates of security problems being found , they can keep offering incentives for lower premiums -- that is , an insurer says `` if you guys make use of programming language x '' or `` if you guys only hire programmers who have had fewer average security holes discovered in the past than y '' or `` if you guys all make use of practice z '' , they can commit to giving a discount on the insurance premiums . 
+  that 's a market-oriented approach that would internalize the cost of security issues . 
+  i do n't know if it 's practical or not , but i do know that many people in the past have tried various processes ( internal [ `` tiger teams '' ] ( https://en.wikipedia.org/wiki/tiger_team#security ) , certifications , vague product reputation ) that have n't worked terribly well . 
+  it 's too hard for end users to track how secure a given version of a given piece of software is or evaluate it . 
+  i guess that the above proposal really does have one big issue -- as insurers develop effective security practices , * that * becomes valuable ip , their bread and butter , but they must expose those to the people that they are insuring ... and that 's easy to just copy for a new insurer entering the market . 
+  that might fundamentally-break it . 
+  i dunno ... hard problem . 
+  would really like to see it solved , though . 
+  yeah , but who wants to lug around multiple cables ? 
+  the path of least resistance is to just have a combined one wherever possible . 
+  the [ human factors ] ( https://en.wikipedia.org/wiki/human_factors_and_ergonomics ) on the security there is just awful . 
+  i would n't call someone an idiot . 
+  i mean , is it * intuitive * that plugging a device in should be able to attack your computer ? 
+  that clicking something that looks like a document on a drive should be able to attack your computer ? 
+  that viewing a document in many programs should give the document access to your computer ? 
+  i mean , i 'd say that wanting to have things sandboxed is a totally reasonable default for a user to expect , and it 's really because software engineers doing os work have n't handled * their * end of affairs that those attacks exist . 
+  if i pick up a random pebble on the road and put it in my car , i do n't want it to attack my car via the audio system bluetooth support or take advantage of the radio-frequency keyless authentication system to root my car , or anything like that . 
+  my expectation , as a non-car-software-engineer , is that without me explicitly authorizing that pebble to screw with my car , i should be able to put it in my car without letting it disable my brakes at high speed . 
+  the problem here is that : * software security is really hard to do , using current methods . 
+  it 's disappointingly ad-hoc -- there 's no `` check all of these thirty reasonable-to-handle checkboxes and the thing can generally be considered secure '' process the way , say , civil engineering would have for putting up a bridge . 
+  * it 's exceptionally-hard for someone buying software to evaluate its security . 
+  they probably do n't get source code . 
+  if they do , just as it was hard for the original engineers to find every security hole , it 's probably hard for the customer to do so . 
+  that means that a software company would have to be a fool to blow the time and resources fully locking-down their product if their competitors are not -- their competitors could offer a cheaper product with more features instead . 
+  i 'd argue that at the end of the day , for things really to improve , at * least * the second step has to change . 
+  unless markets have a mechanism to evaluate the security of what they 're getting in some way , they ca n't put pressure on suppliers to secure it . 
+  that means that nobody will pay for secure software , because they 've no way to evaluate whether that software is secure . 
+  efforts that i 've seen thus far , like security certifications , have been disconnected with whether-or-not a real-world system is actually secure . 
+  i also suspect that the first item has to change as well , so that there 's some mechanical process for rendering software secure , but i do n't think that 's going to happen until the second item does . 
+  and i do n't think that the second item is going to change until some really , really , really high-profile incident occurs . 
+  one of those theoretical things , where a couple guys in the middle east who are really cheesed off at the us root control systems for a nuclear power plant and manage to create a cascading series of failures that render hundreds of square miles uninhabitable . 
+  or maybe someone roots power distribution computers to overload and destroy power distribution systems and cause a regional loss of electricity for weeks . 
+  or maybe someone roots dam floodgate control computers and causes them to jam open sufficiently to cause failure of a downstream dam , and then cascading failures down the river until a couple of towns get wiped out . 
+  something on the order of that , where there 's widespread public acceptance that something must change . 
+  the closest i 've seen to getting there has been legal mandates that companies disclose to people whose data they store that it 's been compromised . 
+  that 's still kinda limited in scope and non-ideal , but at least then the number of actual exploits can be counted by end users ( `` i used visa and they lost my personal information five times over the past three years ! '' ), 
+  and switch suppliers , and then suppliers have an incentive to put pressure back on the people making the things that * they * use . 
+  yup , and even aside from them intentionally maybe running a document-looking-executable on the thing , or opening a document ( `` secret financial data.doc '' ) that is handled by a program that is n't hardened ... that sometimes uses a somewhat-related ( but harder to defend against , since it has to use the data connection ) issue with trust -- that the * host * can implicitly trust an attached device . 
+  if you have autoplay enabled ( used to be the norm on windows for cd/dvd drives to help people install software -- they insert it into the drive and the install program pops up ... not sure if it is still the case ) a usb device can pretend to be a usb-based cd drive with a cd inserted with an autoplay executable on the thing . 
+  plug the usb drive in and wham , there 's code running on the host . 
+  additionally , i 'm a bit doubtful as to how-hardened the usb stack actually is -- any code where people * think * that it might only talk to trustworthy things probably has holes . 
+  even devices that try really , really , really hard to lock down the usb stack have repeatedly run into issues -- for the x-box , this was a way to attack drm without needing to physically-open the system , via simply plugging in a wacky usb device that then proceeded to root the system . 
+  and depending upon boot settings on a pc , a plugged-in usb bootable device might simply be booted into and gain more-or-less full access to the system next boot . 
+  it 's not just smaller european countries . 
+  in the long term , france could be looking at a nuclear-armed potential competitor twenty miles away , or a fellow union member . 
+  and i think that the uk benefits greatly as well . 
+  the uk has a bureaucracy that advises cameron . 
+  it 's clearly told him that it believes that the uk is best off being in the eu . 
+  now , yes , there are some questions of values involved , and there no guidance can be provided -- on how much a briton values , say , the pride of being purely-british , only that briton is authoritative , and no whitehall bureaucrat is or can be an authority . 
+  but on pragmatic issues of economy or military or global influence or what-have-you , these folks will be the best-informed out there , and they 're clearly giving the thumbs-up to membership . 
+  arguing against them seems like a tough call to make , if one is to treat those pragmatic issues as being relatively-important . 
+   mr obama was brought up in hawaii , in the middle of the pacific ocean , and spent several years of his childhood in indonesia . 
+  like no other president before him , he really grasps the vital and growing importance of the asia-pacific region . 
+  i think that this is excessively personalizing the office of president and excessively attaching us strategy to that office . 
+  i intensely doubt that obama walked into office , regaled the state department bureaucracy with some tales of his youth on hawaii , and then said `` asia is going to grow in the future '' , thus setting broad us strategy . 
+  maybe kim jong un claims to do that sort of thing , but ... obama 's a politician . 
+  what expertise he has is as a lawyer . 
+  yes , he does have the final say over decisions , and yes , if he chooses to override the bureaucracy , he has the legal authority to do so . 
+  but by-and-large , i think that it 's safe to say that it 's going to be the bureaucracy that sets us policy , not the whims of a president . 
+  and the same will go for other modern-day countries . 
+  there are too many specialized fields involved -- economics , military , technological , etc -- for one man 's grasp of the situation to effectively set direction of a country . 
+  why is that ? 
+  ( a ) i doubt that the us is going to be buzzing russian navy vessels . 
+  ( b ) [ russia puts vessels much closer to the us than that ] ( http://freebeacon.com/national-security/russian-intel-ship-spying-on-us-missile-submarines/# ) . 
+   the malware spread to the planes only because factory employees were charging their phones with the usb port in the cockpit . 
+  this is a big concern of mine . 
+  i love the idea of having a standardized dc power source , and usb finally brought that to the world . 
+  however , usb is not just a power connection , but a power-and-data connection ... and specifically , a * trusted * data connection . 
+  when you plug a usb device into anything , you 're typically extending full trust to the other side . 
+  when you plug your phone or digital audio player or gps navigator or whatever into a random charger that you see , are you considering that all sorts of personal and other data are being exposed to a device that you 've no idea the provenance of ? 
+  this is the equivalent of submitting your old correspondence , credentials , all sorts of things to a random computer to examine and maybe copy . 
+  iirc , a lot of japan 's public debt ( which is at 229 % of gdp [ according to the cia ] ( https://en.wikipedia.org/wiki/list_of_countries_by_public_debt ) ) is domestically-owned by japanese , though ( e.g. 
+  people lend money to the government , which then spends that money on things like the elderly ) . 
+  the map that you 're responding to shows external debt , and that debt would n't be external , though it * does * mean that taxpayers would owe private japanese a lot of payments in the future . 
+  norway ? 
+  i mean , yeah , it has a $ 67b debt , but maintains an $ 855b sovereign wealth fund . 
+  admittedly , i assume that some of this is spoken for by obligations to future retirees . 
+  oh , it was n't a political claim . 
+  i was commenting on the fact that the translation had a funny error and used `` denmark '' twice instead of `` britain '' . 
+  :-) was just highlighting the absurdity of the idea that the article 's premise would have been to be arguing that those sneaky danes actually do n't have the good of danes at heart and clearly ca n't be trusted . 
+  i mean , yes , aggression bad and all that , but ... 
+   a labour mp has argued israel should be `` relocated '' to america and praised the `` transportation costs '' of deporting israeli jews out of the middle east . 
+  < shrug  works for me . 
+  we were the uk 's destination for [ penal transportation ] ( https://en.wikipedia.org/wiki/penal_transportation ) for about twice as long as australia was , and the jewish immigrants who came over here did well . 
+  same old , same old , i guess . 
+  i 'm pretty sure that the israelis wo n't be super-enthralled , though . 
+  who is being silenced ? 
+  you mean that the signs were put back to original ? 
+  surely you do n't want to shut down your road system every time someone wants to make a point ... and the lack of ability to shut down a road system does n't seem to prevent those political points from being made . 
+   one of the most persistent myths about the eu is that denmark is supposedly denmark 's closest friend . 
+  whereas , in fact , denmark is actually denmark 's worst enemy . 
+  well , to be fair , 9/11 was n't isis , but al qaeda . 
+  [ looking at wikipedia 's list of isil terrorist attacks ] ( https://en.wikipedia.org/wiki/list_of_terrorist_incidents_linked_to_isil ) , we had : * a [ hatchet attack on people in 2014 , injuring 3 . 
+  police shoot and kill the attacker ] ( https://en.wikipedia.org/wiki/list_of_terrorist_incidents_linked_to_isil ) . 
+  * an attack on a [ post - * charlie hebdo * freedom-of-speech campaign in texas ] ( https://en.wikipedia.org/wiki/curtis_culwell_center_attack ) by two men wielding rifles . 
+  armed security shoot and kill both men ; one security guard is wounded in the ankle . 
+  * [ a mass shooting and attempted bombing in 2015 ] ( https://en.wikipedia.org/wiki/2015_san_bernardino_attack ) , killing 14 and injurying 24 ; the most-successful to date . 
+  bombs do not detonate , both perpetrators shot and killed by police . 
+  i 'm not sure that the best way to estimate how they 'd respond to an ongoing terrorist incident would be how they 'd respond to greenpeace activists -- the two situations might warrant a rather different take on things .

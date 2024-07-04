@@ -1,0 +1,100 @@
+  what concerns big enough island similar to a spiral segment with an overlay , yeah , the easternmost and westernmost points together with a point opposite to a geographical center would be the same or if we are lazy we could say there are no easternmost and westernmost points . 
+  of course , one should be able to thought of a more general definition which works even with spiral segments . 
+  thanks for a correction . 
+   alofi ( wallis-et-futuna ) should n't it be nukuhifala ? 
+  and with [ my method ] ( https://www.reddit.com/r/europe/comments/51e83x/these_2_dots_are_where_the_islands_of_mar%c3%a9_and/d7bbjou ) it 's sail rock , west quoddy head ( or puerto rico ) and attu island . 
+  is it correct ? 
+  edit : i had to swap the places , because the name west quoddy head confused me , it 's the easternmost part . 
+  edit2 : i get it now it 's the name of the park west of quoddy head state park arghh , but west quoddy head lighthouse still confuses me . 
+  [ yup ] ( https://www.reddit.com/r/europe/comments/51e83x/these_2_dots_are_where_the_islands_of_mar%c3%a9_and/d7bc4gz ) . 
+  i could work out a better centroid with [ this ] ( http://www.indexmundi.com/france/geographic_coordinates.html ) and corresponding areas of territories , but it 's still missing some of them and the coordinates are rounded so i knock it off . 
+  i actually tried to figure it out . 
+  i found the centroid of france to be : 46.5621812418165 \u00b0 n 2.55016697362428 \u00b0 e it 's obviously the centroid of mainland france , mind you . 
+  if you find the true centroid of france let me know . 
+  so the east/west division is in longitudes : 2.55016697362428 \u00b0 e , 177.44983302637572 \u00b0 w and if i did n't miss something then the easternmost resp . 
+  westernmost part of france should be alofi resp . 
+  wallis island . 
+  ( but again not the right centroid was used . ), 
+  i feel like you should n't take into account the arbitrary division into eastern and western hemispheres and divide the sphere into eastern and western parts in regard to geographical center of a given country , because you use the terms eastern and western relatively in this scenario . 
+  you could do the same with a north/south division , but that 's a slightly different situation . 
+  the latitude is less arbitrary than the longitude , historically the longitude was harder to measure , because it 's just more arbitrary . 
+  or poland ? 
+  that 's one nice wikipedia article . 
+  [ they are good . 
+  ] ( https://www.youtube.com/watch?v=euo9sncbl6u ), 
+  yay [ portugal ] ( http://i.imgur.com/xqopwur.png ) , even google is ruthless . 
+  that 's closest to our word _ v\u00edla _ . 
+  what about the m6 ? 
+  especially the delayed relayouting . 
+  i 'd say the emotion changes the uttering in such a way it 's more similar to our way of speaking ( especially if you would be speaking with that emotion , i mean this goes probably for every language ) , but i 've just checked polish and there has to be more variation among individuals than languages itself ( i.e. 
+  some people have to talk funny and others not so much ) , because what i checked was ok . edit : it 's just a stereotype which does n't hold for me , but that 's the same with german being harsh , that 's not true either , it can be spoken softly . 
+  another thing is that native german speakers often say things in a softer way than perhaps czech with a lazy pronunciation , but there is the thing that czech sounds supposedly harsh too so i might be biased when saying the german is n't harsh per se . 
+  that crap is for russians though and that 's the issue . 
+  it 's working already , that 's the approach how to name a large number of servers ( and if this is not sufficient you can throw other mythologies from around the world aztec , mayan , buddhist , etc. 
+  why not both ? 
+  google that character or use a site like [ this ] ( http://shapecatcher.com/ ) . 
+  edit : has anyone ever seen permyriad ( \u2031 ) anywhere ? 
+  is my english good enough ? 
+  does ` against women ' talk only about a codomain/target set ? 
+  so there is a violence against women caused by women , i 've expected an explicit clear statement at the beginning of that page . 
+   this report is based on interviews with 42,000 women across the 28 member states of the european union ( eu ) . 
+  it shows that violence against women , and specifically gender-based violence that disproportionately affects women , is an extensive human rights abuse that the eu can not afford to overlook . 
+  it looks like it 's how i thought . 
+  i ca n't find the actual list of questions or the method used to eliminate nuances in languages which could imply only one gender in the domain/the aggresors . 
+  did someone dig farther ? 
+  \u0160t\u011bst\u00ed looks reasonable too . 
+  oh i [ see ] ( https://www.youtube.com/watch?v=9_csuu8bw7s ) . 
+  just switch to [ althochdeutsch ] ( https://www.youtube.com/watch?v=jcocixk6zmm ) . 
+  of course , it 's a nonsense , i can find soft and harsh songs in german . 
+  there is also another tone which is for firefighters convening . 
+  it is subtle since it usually resounds from a distant fire station , but i can definitely hear it . 
+  you can hear it [ here ] ( http://varujemevas.cz/pozarni-poplach/ ) ( the second one ) , the rotary sirens are rare . 
+  what would be really cool is if there was an interactive map which animates traveling borders of current countries . 
+  what concerns cats , ordinary whistling works for me . 
+  the code should be ok , i 'd tested it on [ideone.com ] ( http://ideone.com/ ) and / u/compilebot should react to that , but for unknown reasons it 's goofing around . 
+  i just took this [ list ] ( https://en.wikipedia.org/wiki/languages_of_the_european_union#official_eu_languages ) , because i did n't want the list to be very long . 
+  edit : e.g. 
+  instead of this [ one ] ( https://en.wikipedia.org/wiki/languages_of_europe ), 
+  + / u/compilebot c++ 14 #include < iostream  #include < string  #include < vector  #include < algorithm  using namespace std ; class language { private : string name ; public : language ( ) = default ; language ( string ) ; void learn ( ) ; } ; language : : language ( string name ) { this -  name = name ; } void language : : learn ( ) { cout < < name < < '' has been learned . '', 
+  < < endl ; } int main ( ) { vector < string  names = { `` bulgarian '' , `` croatian '' , `` czech '' , `` danish '' , `` dutch '' , `` english '' , `` estonian '' , `` finnish '' , `` french '' , `` german '' , `` greek '' , `` hungarian '' , `` irish '' , `` italian '' , `` latvian '' , `` lithuanian '' , `` maltese '' , `` polish '' , `` portuguese '' , `` slovak '' , `` slovenian '' , `` spanish '' , `` swedish '' } ; vector < language  languages ; languages.resize ( names.size ( ) ) ; transform ( names.begin ( ) , names.end ( ) , languages.begin ( ) , [ ] ( auto name ) { return language ( name ) ; } ) ; for ( auto & language : languages ) { language.learn ( ) ; } return 0 ; }, 
+  as i briefly [ looked ] ( https://www.reddit.com/r/europe/comments/4wv9ku/eastern_europe_and_the_lucrative_middle_east_arms/d6abqub ) at it , that 's more likely to me . 
+  if you are like me and never examined closely trade with small arms you will appreciate [ this visualisation ] ( https://armsglobe.chromeexperiments.com/ ) that i 've found . 
+  recent years are missing and they used data from [ prio ] ( https://www.prio.org/ ) . 
+  really ? 
+  i 'm no expert on this topic , but i 've found [ this visualisation ] ( https://armsglobe.chromeexperiments.com/ ) :  this data visualization was produced by google as part of the google ideas info ( illicit networks , forces in opposition ) summit with support from the igarape institute and data provided by the peace research institute oslo ( prio ) small arms database . 
+  the visualization includes  1 million individual import and export data points from annual custom reports and maps the transfer of small arms , light weapons and ammunition across 250 nation states and territories around the world between 1992 and 2010 . 
+  i do n't know how much reliable the source is and yeah the recent years are missing , but if i look at saudi arabia i see the flow from western europe . 
+  and a flow from eastern europe to iraq . 
+  there is a lot of happening so i ca n't really say anything about it since i never examined it closely . 
+  and what 's with the shittiness of eastern european small arms ? 
+  my knowledge about domestic arms is the they are not shitty , provided that you count the czech republic as eastern european . 
+  [ neutral feelings ] ( https://www.youtube.com/watch?v=cxk_na2ivxw ), 
+  there are other worlds too , i 'd say it is mid-sized city/town for us . 
+  we have 26 [ statutory cities ] ( https://en.wikipedia.org/wiki/statutory_city_%28czech_republic%29 ) , they have 40k + inhabitants and only 5 of them are 100k + . 
+  slovenia is our bro . 
+  so i 've actually looked at some traffic videos and i was only prepared for like 0.1 ~ 0.3 times the actual ferocity . 
+  so get rid of them and the racism will vanish , achievement unlocked . 
+  certainly . 
+  the more crooked surface the larger area . 
+  i saw the band name before , but never listened to them . 
+  might give it a try . 
+  do you know this [ cover ] ( https://www.youtube.com/watch?v=dn5fgeuyaay ) ? 
+  i know what you mean , what concerns me i 'd skip this prologue , but after the second thought it looks it 's necessary . 
+  i was hooked up by [ this song ] ( https://www.youtube.com/watch?v=pjzn9stk4zy ) . 
+  it 's quite ironic i 've heard about them for the first time from a [ russian nsbm band ] ( https://www.youtube.com/watch?v=5adkvalegba ) , but the music is good . 
+  edit : i know it 's a cover , but i mean all of their production . 
+   well to be fair , when that happens to you , you can easily leave/close the door . 
+  were they held there as prisoners or could they leave where they had come from ? 
+  it seems to me like a non-issue , just another obnoxious thing on a path to their goal . 
+  trakai castle looks very nice and the islets around are inviting . 
+  the app is working in android 6 with disabled permissions ( microphone , device , storage ) despite it 's implemented with older api . 
+  so i would say feel free to use it on android 6 . 
+  after a little look at the app there are some quizzes so maybe you 'd like to allow the storage permission ( i go trough one of them with no storage and it looked good though ) . 
+  ok i 'm just one of those people which do n't like fresh cucumbers and also tomatoes , but pickles are yum . 
+  and i 'd eat pickled cucumbers with cheese and instead of tomatoes that would be peppers . 
+  do you mean pickles ? 
+  you mean rakousko ? 
+  oh i know that , not that you could n't understand it from a context , but some foreigner was introducing to me , both of us were drunk , and instead of me saying `` could you repeat that ? '', 
+  i just said `` jak ? '', 
+  ( how ? ) . 
+  that said in a drunken way is easily heard as `` what ? '',

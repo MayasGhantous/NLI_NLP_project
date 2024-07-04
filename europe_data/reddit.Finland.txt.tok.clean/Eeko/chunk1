@@ -1,0 +1,100 @@
+[ lapland is just lovely this time of year ] ( http://www.bbc.co.uk/weather/652590 ), 
+  often the public health care ai n't the only system . 
+  i 'm covered by my company insurance policy . 
+  if i feel sick , i go to a private clinic with little or no waiting and would get scheduled for difficult operations fairly fast as the queues ai n't so big with private operators . 
+  it would cost something without the insurance , but not that much . 
+  ( most of the costs are always subvented by the mandatory insurance . ), 
+  most x-rays with no wait are way less than 100 $ . 
+  surgeries are in different scale - but most of their costs are still covered by the national subvention . 
+  so for a working person , i 'd say we have a plan on par with the ones offered by companies in the states . 
+  the difference is for the uninsured , for who 'm there is the possibility to use no/low-cost public healthcare , which is often much more crowded and one could end up waiting for non-acute surgery for several months . 
+  but to compare that to a full private system , would those people even receive treatment or could they afford it if it was available ? 
+  it 's not perfect and i feel sorry for some sick people who do n't receive proper treatment , but it 's less bad than most alternatives i know of . 
+   a zero day gives you the possibility to infect . 
+  once you start using it en masse , you 're going to get noticed immediately . 
+  especially if you 're using it to commit vote fraud . 
+  nope . 
+  average attacks infecting thousands of targeted computers take a long time to be detected . 
+  most zero-days get detected because the computers start getting used for something noisy ( e.g. 
+  spamming the internet ) . 
+  making a single server transaction ( a vote ) and masking the operation can be done very quietly . 
+  it 's really difficult to detect sophisticated and targeted malware in the wild . 
+   what do you mean by [ spoofing 2fa ] ? 
+  you need to have control over second machine also . 
+  you could even use a specialized device with screen that functions like a pendrive , which sings the vote . 
+  in practice , most 2fa means sending an sms with a one-time-code to the authenticating party . 
+  mobile network traffic can be intercepted , spoofed and manipulated at various points . 
+  one could hack the ss7 network switching all telecommunication traffic ( easy for well resourced parties ) and reroute all infected vote authentications to your server , one could make replicas of the clients receiving the authentication messages or use rogue base-stations . 
+   it can be made perfectly safe ( from a digital attack ) , even to the point that the required data and software resides on a physically write-once memory . 
+  like , you get one from the government and enter your key , then use it for all of the future elections . 
+  it displays your vote so an infected pc is not going to fool you . 
+  you kind of start losing the benefits of convenience and economics when implementing this amount of crap in scale . 
+  the very things making e-voting interesting in the first place . 
+  this would basically mean distributing free ( allegedly infection free ) no-general-use voting computers for the masses . 
+  yeah , i guess one could improve the integrity of the voting machine that way . 
+  even then out from my hat , i can also think of a few possible attack vectors . 
+  ensuring the security and integrity of the government signing servers , ensuring the delivery process works as intended ( if these devices are economically feasible to be provided in scale , they are economically feasible to counterfeit ) and dealing with reports of lost and damaged voting devices ( real and fraudulent ) . 
+  open sourcing does not help much when verifying the integrity of the design . 
+  we have a lot of open source security crap ( software and hardware ) which are proved to be broken all the time . 
+  most often the bugs are there for years before they get noticed . 
+  let 's remember that questioning the integrity of the vote is a very attractive goal alone . 
+  that does n't even need success with vote manipulation or avoiding getting caught . 
+  you can break fragile democratic processes by spreading doubt alone . 
+   do you really think mass infecting voters ' pc to display vote for x as vote for y is going to work in practice ? 
+  yes , you can infect , but people are going to know ` somebody ' faked thousands of votes for y and the vote result simply wo n't be implemented . 
+  nope . 
+  the typical zero-day takes almost a year to be detected . 
+  ( https://users.ece.cmu.edu/~tdumitra/public_documents/bilge12_zero_day.pdf ) plenty of time for a vote fraud . 
+  besides , questioning the legitimacy of the vote might be sufficient . 
+  one can pull off a poc attack years after a vote to empower people who 'd already prefer to believe the government is malicious . 
+   also , you can mitigate this by using two-factor auth , ie . 
+  local computation of a vote is split between a pc and a smartphone . 
+  as long as one is not infected it 's safe . 
+  2 factor auths can be easily spoofed too . 
+  cheaply . 
+  this years ccc had some very good talks about ss7 security . 
+   overall , vote fraud is much , much harder to execute compared to current system . 
+  all you need today is a corrupt vote counting process , which is centralized . 
+  it 's also much harder to detect fraud after the fact . 
+  yes , pulling off a vote fraud is harder , but the problem with information security is that once an attack is feasible , those are easy to scale up to thousands of attacks . 
+  paper vote fraud requires much more effort when scaled up . 
+  the process is also more transparent . 
+  anyone can understand how a paper vote is counted . 
+  not so much with the evote . 
+   you can verify the computation was done correctly . 
+   http://en.wikipedia.org/wiki/verifiable_computing  hijacking a voter 's pc is the only way to fake cryptographic voting schemes . 
+  do you have any idea of computer security ? 
+  problem ai n't that one ca n't invent a trusted scheme to compute these things . 
+  the problem is ensuring that the process of computation is actually the one described in the papers . 
+  and as far as i 've dug in , the estonian evote ( nor any other evote system i 'm aware of ) is n't even using any particular verifiable computing schemes for vote counts . 
+  according to halderman , their opsec seemed pretty crappy overall . 
+   you can use your own computer with open source software . 
+  you can even use an fpga with your own architecture . 
+  does n't scale . 
+  most voters still use crappy , easily crackable , non-patched malware infested old home pc 's and android phones . 
+  like i said , the problem is practical . 
+  not theoretical . 
+  buy a few zero-days and an imsi catcher and you could hack tens or hundreds of thousands of votes fairly cheaply . 
+   making that impossible is the whole point of cryptographically verifiable voting . 
+  nope . 
+  cryptography does not solve the trusted pc problem . 
+  making sure that the computer decrypting the vote envelopes actually produces a valid input for the vote counter . 
+  or that the vote counter itself computes correctly . 
+  the mightiest cryptography breaks all the time . 
+  it 's usually the systems ( implemented software & hardware ) that fail even though everything looks good on paper . 
+  the problem is not in the theoretical side . 
+  it 's with practical . 
+  you ca n't verify the integrity of the home computer equipment doing the voting . 
+  or the computer doing the vote counting . 
+  this alone allows for a number of very practical attacks . 
+  well , i know quite a lot about applied cryptography , networking and security - and i definitely think the e-vote is a horrible idea . 
+  i know how it could be hacked , i know there are parties with the capabilities to do it and i know many of those have the resources to pull it off . 
+  the worst part is , that you do n't even need to hack it to make pull off your political goal . 
+  you have a vocal and big political minority who has a level of dislike for the government . 
+  2 years after an election one can show them a proof of concept of exploiting the votes and they already want to believe the vote to be fraudulent . 
+  without trustworthy electronic trail and incapability for oversight , one ca n't reasonably prove mere accusations to be false . 
+  it 's fuel for trouble . 
+  estonian e-vote is by far the best electronic ( governmental ) voting system i 've seen . 
+  it really does a lot of good work avoiding some obvious engineering pitfalls i 've seen in other systems , but it still fails to answer to the fundamental security and integrity questions on why electronic voting is such a damning difficult problem to solve . 
+  the nature of the threat is very demanding and persistent , and such an attack will undermine the legitimacy of estonian democracy itself . 
+  not cool .

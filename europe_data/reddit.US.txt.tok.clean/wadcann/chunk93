@@ -1,0 +1,100 @@
+  < shrug  only one ca needs to do so . 
+  and if none do , the user simply could n't communicate . 
+  there are companies that already do this normally on their networks to perform ids or auditing or other services . 
+  i 've worked on one product that does clever things that relies on being able to mitm such connections , i 've worked with people who have built systems specifically to perform these sorts of attacks for monitoring purposes , and i assure you that it can be done . 
+  for deployment , the uk could distribute a `` cert installer '' that would simply add a new uk-controlled ca to the trusted list , even work with microsoft and friends to ship oses in the uk with a pre-trusted uk ca . 
+  i would n't like it . 
+  * i * would adopt something that would make life painful for someone trying to monitor me . 
+  however , while mr. schneier knows computer security very well and is a respected figure , he 's being disingenuous here . 
+  doing something like this would be technically-disruptive . 
+  there are ways that technically-adept users could bypass this , assuming arbitrarily-large amounts of paranoia and technical knowledge and willingness to deal with service interruptions and poor performance . 
+  there are limitations and drawbacks . 
+  but it is not impossible to perform pretty intrusive , large-scale monitoring of internet services , and it is not impossible to monitor most people ... and if you can snoop on 99.98 % of the people out there , and you 've established it to be a norm that you can block connectivity of people that you ca n't monitor at will , you 've given yourself some pretty extensive monitoring tools . 
+   im guessing they just took one of the older anti us posters and ran it through photoshop ? 
+  had n't thought of that . 
+  good point . 
+  actually , i kind of wish europe * would * get an animal , speaking of all the effort to create a `` european identity '' . 
+  china has the panda , russia the bear , the us the bald eagle ... european countries have their own animals , but the eu has only the flag . 
+  that 's * okay * , but it 's a bit abstract . 
+   i do n't think it will happen though . 
+  he 'd have to ban ssl/https until an alternative with a backdoor is provided for all uk ` secure ' online commence ... can you imagine the impact that would have on the uk 's digital economy ? 
+  no , he would n't . 
+  he 'd just need to obtain access to a generally-trusted certificate authority 's private key . 
+  he then has a system intercept the handshake and interpose a new , fake , server certificate to which he has the private key signed with certificate authority 's private key . 
+  then , the web browser or email client will communicate with his intercepting system via ssl , which will then read the plaintext and hand it off to the server via another ssl connection . 
+  normal ssl software will then merrily let him conduct such [ man-in-the-middle attacks ] ( https://en.wikipedia.org/wiki/man-in-the-middle_attack ) . 
+  there * is * software ( like ssl observatory , an [ eff ] ( https://en.wikipedia.org/wiki/electronic_frontier_foundation ) project , which will cache server certificates and warn if they change unexpectedly , and with sufficiently paranoid and tech-savy users using a subset of ssl software , this might be enough . 
+  however , the existing ca-based infrastructure is actually pretty vulnerable to compromise . 
+  there are plenty of existing products that make use of this sort of attack . 
+  you can still go out and set up your own systems that do n't recognize a particular ca ( in which case you just wo n't be able to communicate , though mr. cameron wo n't be able to see what you 're saying , either ) . 
+  there 's presently no reason for eu members to force greece out from the ez . 
+  greece 's actions will either * de facto * take it off the euro or have it officially leave , unless suddenly greece 's government dramatically gives in . 
+  the ez does n't need to actively do anything ( unless the counterfeiting or other issues actually come to pass ) . 
+  i do n't actually understand the purpose of forcing a member out of the eu ( and in fact , it might be in the other members ' interests to have greece in as a * de facto * or official non-euro member , if that is an option ) . 
+  remember that it is quite likely that this referendum was performed by voters who did not understand the implications of their vote . 
+  they said `` we do n't like these austerity policies , and we want a better deal '' ... and that 's no surprise . 
+  the person who they trusted to inform them told them to do this and he would get them a better deal . 
+  perhaps their government should n't have set up a referendum , but i think that this is probably not terribly-interesting from the eu 's standpoint , even if a different outcome would have been preferable . 
+  the eu can now wait . 
+  if it does not extend further euro subsidies , the greek economy will shut down . 
+  it can send food and medicine packages in with little `` eu '' labels on them , which it probably would be doing anyway . 
+  mr. tsipras has sold the image of a better deal to the people of his country . 
+  it 's not clear what will happen to him if he fails to deliver on that and situations steadily become worse . 
+  the eu can extend the offer that it already extended , or extend less-desirable terms , and can do so in a day or a week or a month ... that 's up to the eu . 
+  or perhaps it will not extend any deal . 
+  but there is no need for the eu to be actively-disowning anyone . 
+  it may be that this is the end for greece in the euro or even greece in the eu , and perhaps it is probable , but if that is the case , nothing actively need be done at the moment . 
+  eu members do n't need to be trying to force greece out , even if there is frustration . 
+  it buys nothing to rail on the other side . 
+  it would be a shame if greece were unwillingly forced out because the majority of voters merely suffered from a misunderstanding that a better deal was in the offering , even if that same majority , if knowing that no such better deal existed , would have chosen to stay on the euro . 
+  there was some discussion about this during ... i think it was the 2005 subway bombings in the uk re : the empty rifles bit for soldiers in europe , though i do n't currently have the time to check , where people were talking about it ; it was n't a secret . 
+  iirc , i think that technically ammunition was available , but not normally given to individual soldiers . 
+  someone made the ( probably reasonable ) judgment there that the risk of accidents was higher than the risk of not being possible to shoot someone quickly enough . 
+  my point is that in that case , you have people in uniforms who are n't actually doing anything but standing there . 
+  they are n't tackling people , arresting them , searching them for weapons , ensuring that a suspect 's rights are protected , knowing how to respond to someone with a knife , and so forth . 
+  they 're young and healthy , and they 've had some physical conditioning and training in how to use weapons , none of which is likely to be especially useful in dealing with some guy trying to break into a truck . 
+  police , on the other hand , are geared up particularly for that , know how to handcuff people safely , how to ensure a chain of evidence correctly , and it might be that hiring more police would make a great deal of sense . 
+  now , maybe the situation could change . 
+  if it turned out that there were groups of ex-somalis with rifles ambushing french police officers and killing them , then fine , use the military . 
+  but that 's a scenario that is vastly disconnected from what 's actually happening and vastly disconnected from what i could reasonably see happening . 
+  yes , i 'd say that the practice of stationing military in visible places during times of national crisis is more for the benefit of the public , to show that the national leadership is doing something and not ignoring the problem . 
+  for example , after terrorist bombings , i 've seen the military publicly-deployed ( and walking around with rifles , albeit without ammunition ) . 
+  that 's of dubious value in preventing another bombing , but it makes a political statement . 
+  at a federal level , i think that they are broadly-acceptable at the moment . 
+  i am unhappy with some state-level restrictions . 
+  i am not happy with the federal restriction on automatic weapons ; i do n't see there being a statistical basis for arguing that they should have been restricted to special license status . 
+  ditto for short-barrel shotguns . 
+  the restriction on both seems to violate the us constitution 's second amendment on first principles grounds , as both have been standard military issue . 
+  i think that it might be reasonable to require that gun-owners take a firearms safety course , which is not currently a requirement . 
+  i 'm not entirely-sure that it 's fair for french economists to blame germany for the troika 's position , given that france clearly had the ability to set a different one . 
+  eh , if said 401k was artificially-inflated , then this is just reality coming coming home to it , and it would have happened anyway . 
+   how can the eurozone continue to negotiate after a `` no '' though ? 
+  well , let 's say that the public did n't understand the consequences what it was voting for , and the ez simply continues to offer the same terms as before . 
+  presumably time is on the ez 's side now as greece 's economy starts to shut down , if they want to play hardball negotiations and still want to negotiate . 
+  but are they actually taking a law enforcement role there , or just showing the colors to provide a sense of public security ? 
+  if you 're asking the military to stop people breaking into trucks , they are very much in an active law enforcement role . 
+  i do n't understand the denmark tie-in . 
+   germany is the one dominating european politics . 
+  that 's not incompatible with / u/auntiejojo 's statement , which is that on the issue of greece , the rest of the eu nation leadership agrees with germany . 
+  < sees the bald eagle wearing the eu flag attacking greece  does russia even put out anti-eu propaganda without somehow trying to figure out how to shoehorn the us into it ? 
+  if greece 's banking system has no money to fill the atms and everyone is pulling as much money out of those atms as possible , that 's not going to last very long . 
+  eh , when we 've had referendums in the us on spending decisions , as in california , they tend to result in unsustainable deficit spending too . 
+  not sure that it 's fair to pin that on the people so much as the system . 
+  english does too , ever since we stole it . 
+  well , if you ultimately want to federalize , there 's value to having a common currency ( though * maybe * the order in which it was introduced was n't the best ... ), 
+  i got ta be honest with you guys , from the standpoint of the us , the degree to which various european countries seem to care about being part of the `` cool region '' in europe is kind of silly . 
+  i mean , i guess we get a * bit * of that in the us with the south , but nothing like what shows up here regarding northern europe , southern europe , nordic countries , eastern europe/central europe/western europe , etc. 
+  well , i have to be honest with you . 
+  i do n't think that left-anarchy is at all an effective system of government for a country ( though perhaps at very small scales , it can work for things like communes ) . 
+  and while it 's possible that someone can figure out a way to make it work for countries while people have failed in the past , i 'm glad that it 's not me being part of that experiment . 
+  but , hell , if that 's truly what greece wants and is willing to take the pain of it maybe going pretty sour , i 'll shake hands with them and leave them to it . 
+  if i 'm wrong , then we 've identified a new , viable form of government . 
+  if i 'm right , then at greece 's expense , we 've created a strong new example endorsing my present take on what actually works . 
+  edit : though it 's probably not going to be much fun for anyone that owns assets in greece at risk of being seized . 
+  well , two counterpoints . 
+  * first , the claim `` we just need a more-pure-to-marx approach '' has existed in many different communist environments ; it 's not like someone just came up with that . 
+  * secondly , you need to make the somewhat-more-difficult argument that communism will suddenly start functioning well for countries beyond some threshold , whereas you can point at many countries that do n't perfectly adopt a free-market economy , but still do * pretty well * . 
+  it 's easier for someone saying `` free-market capitalism is great '' to make that argument , because he 's got a lot of mixed market examples leaning towards free-market capitalism that * did * do well , whereas the list of nations that headed towards communism is pretty grim . 
+  eh , that 's just because of pro-labor policies that have been attached to full-time jobs ; the market deals with this by having employers hire someone for just under the number of hours a week that would make them a full-time employee , so the employee winds up working two jobs part-time . 
+  not the same as working two full-time jobs in terms of hours worked , though . 
+  how relevant is that ?

@@ -1,0 +1,100 @@
+  i do n't think that it 's very accurate to imply that estonian airspace does n't have air defense available , which is the sense that i got from `` and how do you plan on doing that ? '', 
+  to / u/h2ppymme . 
+  [ if we 're talking about shooting down helicopters entering estonia 's airspace , estonia has air defenses ] ( https://en.wikipedia.org/wiki/air_defence_battalion_%28estonia%29 ) , just not fighter-based air defenses . 
+   but the ussr was the world champion at brainwashing i dunno , man . 
+  north korea ? 
+  surely your credit or debit or whatever cards still work across the border , albeit with some variation in your purchasing power due to relative changes in the currencies ? 
+  the eu rules state that members can choose to leave , and define a process for it . 
+  they do not state that members can be expelled . 
+  all members signed on to these rules . 
+  also , how do you think that you 're better off if the uk were out ? 
+  oh , `` invalid '' as in `` a sick person '' , not `` invalid '' as in `` not being legitimate '' . 
+  i was wondering for a moment . 
+  russia could withdraw from the portions of ukraine that it 's occupying and the economic sanctions would also end . 
+  unless you 're claiming that it was all some sort of clever western plot to maneuver russia into attacking , which seems quite a stretch , it seems pretty tough to treat the west as having the intent at the beginning to break up the russian economy . 
+  it matters in that / u/red _ fs was using it as evidence of european rejection of federalism . 
+  now , wait a minute . 
+  rejecting * a particular proposed * constitution is not the same as rejecting the having of * any * constitution . 
+   ... race to the bottom that is happening now . 
+  us states compete on taxation , and they 're federal . 
+  the federal government imposes its own set of taxes to pay for federal services -- people in the us fill out separate tax forms for each . 
+  but it 's not as if that eliminates pressure to have low taxes . 
+  while i ( a ) am not particularly politically-aligned with thinkprogress.org ( though iirc the submitter is ) and ( b ) do n't think very highly of them as a neutral source in any event : * they 're citing a separate source , a poll . 
+  * it would be difficult to call thinkprogress.org `` radical left '' , i think . 
+  they 'd be left of the democratic party mainstream , i suppose , but that 's a rather different meaning from the sort of thing that `` radical left '' would mean in europe . 
+  the information is associated with the isp of the user , not the user themselves . 
+  all of the ip address ranges in the world have to be handed out by someone . 
+  the organization responsible for this is called [ iana ] ( https://en.wikipedia.org/wiki/internet_assigned_numbers_authority ) . 
+  iana `` gives '' particular regions of the world blocks of addresses , and the regional authority becomes responsible for subdividing those blocks further and handing those out . 
+  in the us , [ arin ] ( https://en.wikipedia.org/wiki/american_registry_for_internet_numbers ) is the `` sub-authority '' . 
+  in europe , [ ripe ] ( https://en.wikipedia.org/wiki/ripe ) . 
+  the term for a range that 's handed out is a `` netblock '' . 
+  there is a command line program that you 'll probably find preinstalled on any linux box ( and , i would n't be surprised , mac os x box ) called `` whois '' . 
+  this uses a protocol by the same name asking the regional authority about an ip address and checking which netblock it belongs to . 
+  in this case , the ip address was handed out by iana to ripe , which means that it was given to a european organization . 
+  the whois program then queries ripe and asks what it knows about this ip address , and ripe responds that it belongs to a netblock that it gave to a croatian isp to let its users use . 
+  if you have a linux box handy , you can probably just run ` whois < ip-address  ` . 
+  if not , a number of people have rigged up web frontends to make use of the whois protocol to ask for the same information and throw it on a webpage . 
+  an added twist is that some whois implementations ( the versions i 've seen preinstalled on linux boxes these days ) will , once they find that ripe is the responsible registry , go query ripe automatically for more information , whereas some older whois implementations require the user to first query to see which registry is responsible , then query the registry to determine where it handed out the netblock . 
+  unfortunately , some of the whois frontends that people have put on the web do n't automatically do the second query , which is annoying -- all you 'd see is that the address went to ripe . 
+  it looks like [whois.com ] ( http://www.whois.com/whois ) runs a web frontend that does the second query automatically -- you can pull up the same information yourself there . 
+  note that it 's actually possible to pull up a lot more information about some ip addresses -- remember , the information above is only the contact data on file for the isp that was given the ip address . 
+  because allocated addresses tend to be pretty near each other and sometimes it 's possible to get address information on an ip address ( e.g. 
+  someone signs into a website and provides an ip address ) , companies like google can merge all sorts of data sources and infer pretty accurately ( on average , [ within several hundred meters ] ( https://www.schneier.com/blog/archives/2011/04/pinpointing_a_c.html ) where an address is ) . 
+  assuming that each user has their own ip address ( not always the case -- some isps will put multiple machines on one isp ) , we can plug the ip address in to [ one of such engines ] ( https://www.iplocation.net/ ) . 
+  this uses various providers to try to estimate the location -- i get zagreb ( probably just where the isp is located , using the same whois data i provided above ) , \u0110akovo , and finally , [ slunj ] ( https://www.google.com/maps/place/47240,+slunj,+croatia/@45.1116395,15.5628534,14z/data=!4m2!3m1!1s0x4763ff0c45bbcf4d:0xa7881e032877e9b9 ) . 
+  the provider ( ip2location ) estimating slunj , karlovacka , croatia is , i suspect , probably the most-accurate -- running it against my own ip address has it providing my actual location rather than that of my isp . 
+   a big problem with the uk is that they intervene too much . 
+  while humanitarian aid is great , military offensives are far less reasonable by shadowing the us will . 
+  http://www.usatoday.com/story/news/world/2013/09/06/france-syria-military-strike/2776167/  since 2011 , france has backed syria 's rebels , on both humanitarian and political grounds . 
+  paris early on proposed arming the rebellion , a move discouraged by other european nations in the first year of the uprising . 
+    `` the french wanted to act , to strike , even before aug. 21 , but the u.s. did n't want to , so france could n't act alone , '' said samir aita , syrian journalist and editor in chief of the arabic editions of le monde newspaper . 
+  i think that you 're looking for iraq if you 're wanting the place that the us was the big enthusiast on intervention . 
+   `` europe 's major problem is the refugee crisis , '' alain lamassoure , a former french secretary of state for europe who now sits in the european parliament , told les echos . 
+  `` experience shows that the council ca n't deal with two problems at once . 
+  we will therefore lose time discussing problems that are domestic u.k. political issues and no solution will be found for the refugee crisis . '' if the ec ca n't deal with two problems at once , it might be a good idea to work on giving it the ability to do so , whether via committees or some other mechanism . 
+  apparently new york , chicago , boston , and savannah all have larger st. patrick 's day celebrations than dublin . 
+  i 'm not convinced that everyone over there has sufficient irish pride . 
+  yeah , but then again , he was a pipe smoker . 
+  maybe weighting by market capitalization or something like that would be more interesting ? 
+  google ( well , alphabet ) is also the largest company in the world ; it 'd be odd if the corner fish and chips shop were comparable . 
+   `` the major part of the negotiations hinges on non-tariff barriers to trade , '' said mep franck proust ( epp ) . 
+  `` standards are the most important point . 
+  if we manage to impose a unified set of american and european standards , it would be a huge gain in terms of competitiveness , '' the mep added . 
+    this is one of the negotiation topics on which france `` wants to focus all its strength '' , according to weymuller , in order to encourage the development of international standards based on the european model . 
+  `` if we do not do it , others will do it for us ; i mean the emerging countries . '' i 'm not convinced that anyone needs to establish ntbs so that someone else does n't establish ntbs . 
+   how can food be less expensive than in croatia [ world map of absolute per-capita food spending and world map of food spending as a percentage of consumer purchases ] ( http://www.ibtimes.com/us-spends-less-food-any-other-country-world-maps-1546945 ) . 
+  it 's pretty hard to compete with a mass-produced ballpoint pen in terms of reliability . 
+  volume results in low fixed costs , which means that you can blow a lot on r&d . 
+   the climate-controlled caves ... huh . 
+  in the long run , the temperature in a cave will approach the average year-round surface temperature . 
+  to me , it [ looks like central norway is slightly above freezing ] ( https://upload.wikimedia.org/wikipedia/commons/a/aa/annual_average_temperature_map.jpg ) , and it looks like [ this confirms it ] ( http://www.trondheim.climatemps.com/ ) , at an average year-round temperature of five degrees celsius . 
+  i 'd think that the freezing point of water would be the most-important temperature change , so i 'm a bit surprised that the caves need to be climate-controlled . 
+  nitpick : the total fertility rate measurement is n't a percent . 
+  there is not a single country here today that maintains the ~ 2.1 required for population maintenance . 
+  turkey comes close . 
+  that 's amazing . 
+  they went from the second-highest entry in the table to the lowest . 
+  i 'd agree , albeit not refugees actually already in estonia , but ones in other countries creating political stress on the eu . 
+  probably some country that does n't exist any more and whose name i would n't have ever heard . 
+  as existing countries go , probably belarus or moldova , probably due to isolation from the rest of the west . 
+  not sure i see the conflict . 
+  you mean that us ships would n't have the range to operate against north africa without being able to refuel at naples ? 
+  that 's what oilers are for . 
+  the us currently [ has in active service ] ( https://en.wikipedia.org/wiki/list_of_current_ships_of_the_united_states_navy ) 15 replenishment oilers and 4 fleet oilers . 
+  that 's something that the [ catholic church adopted ] ( https://en.wikipedia.org/wiki/cousin_marriage ) rather than an element of christianity :  cousins are not included in the lists of prohibited relatives provided in the bible ... in roman catholicism , all marriages more distant than first-cousin marriages are allowed ... there are several explanations for the rise of catholic cousin marriage prohibitions after the fall of rome . 
+  one explanation is increasing germanic influence on church policy ... protestant churches generally allow cousin marriage ... 
+   it 's the other way around : the us needs bases on italian soil for any operation in africa . 
+  i 'm sure it 's helpful , but [ north africa without italian bases has been done before ] ( https://en.wikipedia.org/wiki/operation_torch ) , and the us has done other [ substantial amphibious operations ] ( https://en.wikipedia.org/wiki/guadalcanal_campaign ) without the benefit of land-based airpower . 
+  that being said , i also do n't agree with / u/zoidboix that europe could n't bomb libya -- there may not have been the political will to provide the militaries in question with the resources needed , but that 's a different matter . 
+  edit : though there 's also the broader question of why the us would be bombing libya anyway other than in european interests . 
+  in combination with the [ dutch anti-uav eagles ] ( http://www.abc.net.au/news/2016-02-02/eagles-vs-drones-dutch-police-train-birds-to-take-down-uavs/7132096 ) , we 're definitely seeing a potential for some decidedly retro anti-air weaponry in countering the latest-and-greatest . 
+  hmm . 
+  the better-known [ barrage balloon ] ( https://en.wikipedia.org/wiki/barrage_balloon ) actually had a humbler and lesser-used cousin , the [ barrage kite ] ( http://www.sole.org.uk/saulkite.htm ) :  sauls ' barrage kite is well known as an anti-aircraft device flown from merchant ships in world war ii ... 
+  subsequent developments letting aircraft fly at much-higher altitude and accurately-drop bombs from that altitude kinda kinda killed the barrage balloon and kite , since they could just fly over them , but russa 's newest in-service strike aircraft , the [ su-34 ] ( https://en.wikipedia.org/wiki/sukhoi_su-34 ) , also makes use of terrain-following radar to fly at extremely-low altitude to avoid surface-to-air missile systems ... which also theoretically puts it back in the kite 's turf . 
+   muslims worship pedophile and do incest so what can you expect from these primitives ? 
+  islam 's okay with cousin marriage , but so is christianity . 
+  i wonder if that 's dried or not -- it has a pretty substantial impact . 
+  1lb of dried pasta is maybe 1700 calories . 
+  so a kg is ~ 3700 calories , something like two days ( and that 's treating `` per capita '' as something approaching a man and ignoring women and little kids ) worth of calories , even ignoring things like cream sauces or oil or whatever else might be on the pasta or eaten with it . 
+  that means that italians get something like two months a year of their caloric intake from pasta alone .

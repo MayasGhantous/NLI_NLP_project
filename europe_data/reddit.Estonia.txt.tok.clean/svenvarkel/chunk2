@@ -1,0 +1,100 @@
+  however it 's very un-advertised , almost hidden . 
+  no big logos etc. 
+  1 ) all 3 languages are very different 2 ) there is a pan-baltic song festival of student choirs - gaudeamus, 
+  no , it 's not connected to nfc in any way . 
+  our digital id consists of 2 certificates : one for identity and second for signature . 
+  these certificates can be either on your id-cards chip or on your sim-card 's chip inside your mobile phone . 
+  use cases ? 
+  did you read the original article ? 
+  it says : '' in all , the estonian state offers 600 e-services to its citizens and 2,400 to businesses . '', 
+  all these are use cases of our id infrastructure . 
+  the main point of id-infrastructure is to provide government backed authentication and signing service to all service providers . 
+  so they can build any service on top of that knowledge that : 1 ) they can identify a person with near 100 % certainty ( there are always some idiots who give their pin codes to someone else ) 2 ) they can exchange digitally signed documents with you or with all other service providers or with the government . 
+  the signature - as said before - is backed by the government and has 100 % legal power . 
+  the point here is that nothing 's integrated `` into a phone '' or `` into an id-card '' here estonia but only 2 certificates : one for your identity and the other for your digital signature . 
+  id-card is a smartcard with a chip , so the certs sit safely there . 
+  and for the phone the certs sit safely on the sim-card . 
+  sim-cards are issued by the operators while their `` id-functionality '' must be activated in a special governmental website ( where you obviously authenticate yourself with your id-card ) . 
+  after you 've got your mobile-id working you basically do n't need the id-card any more for authenticating yourself or for signing the docs or anything . 
+  i personally have n't signed anything with my id-card at least for a few years ( have n't not signed almost anything manually for ... do n't remember how many years ) . 
+  i use mobile-id all the time . 
+  it 's really really good service . 
+  everything else , all services are glued together by the national soa ( service oriented architecture ) - based system called x-road that uses our national pki ( public-key-infrastructure ) for authentication and signing . 
+  that 's it . 
+  the key is in services , integration and unified authentication over all systems that have been connected to x-road . 
+  as an estonian i can confirm we even do n't need to carry driver 's license , car 's registry papers , insurance papers or whatsoever papers while driving . 
+  just our id card would do so that cop can identify you and everything else is magic in their on-board computers . 
+  i 've heard that sometimes you even do n't need your id-card since they can load your id-card from the net onto their computers in their car and identify you . 
+  it 's a good digital life over here , 
+  it 's shift - alt - 9 and shift - alt - 8 ( on mac osx ) \u2265 and \u2264, 
+  bunch of tools . 
+  they are tools that are used by some for specific purpose . 
+  both are comparable in a way that pieces of body are cut from children without their consent . 
+  clear enough ? 
+  what if a culture would have `` a norm '' that every children 's right ear must be cut off or left eye or tongue for `` religious reasons '' or whatever ?!, 
+  is that normal ?!, 
+  wtf ... 
+  the same way no religion should be forced on to children below 18 or whatever is the age in every country when children are considered to be adults . 
+  as adults they can make their own choices . 
+  source : i 'm from estonia , the least religious ( = with least public religion bullshit ) country in the europe . 
+  any idea why it 's still called a `` song contest '' ? 
+  is russia the only country , where clearly mad ( sick ) people are in the parliament ? 
+  his condition and actions also speak a lot about these people who have voted for him . 
+  you 're right . 
+  instead it 's got a lot to do with nazism and fachism . 
+  the russian ones . 
+  it 's strange how beliefs of the parents are more or less automatically transferred ( read : forced ) to their children . 
+  what about freedom of religion of children ? 
+  what about children 's rights ? 
+  children should be kept free of religion before they grow up and can make their own , concious choice . 
+  in estonian it 's called '' \u00e4tt '' . 
+  this means `` a really old man '' or `` an old man '', 
+  estonia bans online casinos that have not registered by a government agency and do n't pay taxes . 
+  this ban can also be easily circumvented by using alt dns . 
+  google translate : http://translate.google.com/translate?sl=et&amp;tl=en&amp;js=n&amp;prev=_t&amp;hl=et&amp;ie=utf-8&amp;u=http%3a%2f%2farvamus.postimees.ee%2f2736162%2feerik-niiles-kross-vordleb-putini-konet-ja-hitleri-konesid, 
+  sure . 
+  he can wait a month or two ... 
+  it is true . 
+  we even have it mentioned in a kid 's song '' ... lendas vene nii kui kuul ... siis me l\u00e4hme mallega ... '', 
+  island could be called j\u00e4\u00e4maa . 
+  would be cool , 
+  these moments are those when i feel really proud as an estonian . 
+  good job , our guys !, 
+   once you 've tried it ( id-card or mobile-id ) you never want to go back to `` manual signing '' or papers . 
+  paper and manual signature is so 20th century . 
+  for those who are interested - i 've created a blog post about using our mobile-id for participating in elections : http://measure9.varkel.net/2013/10/voting-with-mobile-id-in-estonia-how-it-looks/, 
+  i think estonian startup signwise is trying to achieve exactly that - pan-european standard for digital signing . 
+  take a look : https://www.signwise.me/gb/en/global/, 
+  are you sure that you have analyzed all the attack vectors that estonian architects and analysts have n't ? 
+  let them know of your findings , 
+  please read the specs and source code that is referred below . 
+  of course there are some theoretical and even some practical problems . 
+  for example people give the pin-codes of their personal certificate to someone else . 
+  but even in this case it 's absolutely necessary to possess the physical id-card or person 's mobile phone ( sim-card with certs ) and the pin-codes and then vote for someone . 
+  however this risk is mitigated by possibility to go and vote physically , too . 
+  in this case the last one ( physical vote ) would count . 
+  also - i can e-vote as many times as i want and only the last one counts . 
+  i 've also written a blog post about how the e-voting with mobile phone looks . 
+  take a look , too : http://measure9.varkel.net/2013/10/voting-with-mobile-id-in-estonia-how-it-looks/ , 
+  give it a try . 
+  the specs and the source code : * http://www.id.ee/public/the_estonian_id_card_and_digital_signature_concept.pdf * http://www.id.ee/?lang=en * http://sk.ee/en * https://github.com/vvk-ehk/evalimine, 
+  horses have worked for centuries , too . 
+   there is no way an electronic vote can be trusted and secret . 
+  if you are willing to give up secrecy , ok . 
+  but then it is not a truly democratic vote anymore . 
+  have you read the specs of the solution ? 
+  some reading in english : * http://www.id.ee/public/the_estonian_id_card_and_digital_signature_concept.pdf * http://www.id.ee/?lang=en * http://sk.ee/en description of voting processes : http://vvk.ee/voting-methods-in-estonia/engindex/ the source code is here : https://github.com/vvk-ehk/evalimine, 
+  it was much worse in estonia this time . 
+  a few buildings had their roofs torn off completely + a lot smaller damages to vehicles and buildings . 
+  no human casualties so far afaik . 
+  the article is in estonian , so use `` excellent '' google translate to translate it . 
+  tl ; dr - neelie kroes is visiting tallinn and she was given her personalised id-card that holds her digital identity . 
+  she gave a first digital signature with it and she seems to be happy about it . 
+  look at that guy standing in the corner in the background ...  the devil ? 
+  good !, 
+  just to clarify - he used to be in kgb before estonia became independent . 
+  he was hired by kapo ( estonian `` fbi '' ) because he could handle the old gear that kapo got from kgb when kgb left . 
+  it makes sense when i drive around in estonia and look at all those big road building projects ( at tartu road , at narva road near rakvere , at \u00dclemiste ristmik ) and so on . 
+  so basically estonia is very good in pouring eu money into concrete ... , 
+  if greece made it then latvia can make ot , too , 
+  i agree !,

@@ -1,0 +1,100 @@
+  so , yes , i find that understandable . 
+  ill-advised , but very understandable . 
+  very . 
+  unless you 're familiar with the technical subject matter , you are posting something you yourself do not understand . 
+  therefore , you can not draw conclusions . 
+  it happens often , and a source of great annoyance on my part . 
+  below , you are apologizing for gchq , one of the most ghastly , orwellian nightmarish organizations ever conceived . 
+  an organization that conducts cyberattacks against continental europe as if we were a belligerent force . 
+  it 's difficult enough in europe to speak out against the surveillance machine . 
+  i have little sympathy for sciolists trying to get a leg in , `` debunking '' things they do not understand . 
+  for example , take this section from the link you pasted :  the fact that the isp could , if they wanted to , re-flash the modem/router , for almost any isp connection does , indeed , mean that they could install all sorts of stuff directly on the device if they wanted to -- but they do n't have any reason to , and there is no evidence of any nsa/gchq back doors . 
+  ... underscores my point . 
+  the isp has full control , and in today 's world , isps and telcos do what intelligence services order them to do , with few exceptions . 
+  if there 's anything the snowden leaks confirmed , it is that . 
+  perhaps the author of the e-mails to cryptome would have been wiser not to immediately imply a link to gchq , but in the current climate , i find that * more than understandable * . 
+   this happens on a regular basis . 
+  no it does n't , not this `` regular '' , despite the repetitive shitposting from putinbots swearing that it does . 
+   although judging by the anti russian circlejerk on this sub , it 'll be considered the biggest crime to befall europe in decades . 
+  they are considered acts of war . 
+  it 's up to us how much longer we tolerate them before we start shooting the russian planes down . 
+  i 've read the article , and you 'll notice i 'm not even commenting on gchq access -- i 'm commenting from my own experience : your modem has backdoor access . 
+  this was n't always the case and it certainly helps call center agents diagnose and fix problems remotely ; but it also allows surveillance , which is why this functionality must be controllable by the customer with a physical switch . 
+  why are you posting this though ? 
+  you said it `` dispels '' the `` article '' ; i understand the jargon in the article , do you ? 
+  have you worked for isps ? 
+  what are your qualifications ? 
+  and if you have no knowledge or experience , then what makes you think copy/pasting it helps you argue your point ? 
+   what reputation did they have before ? 
+  perceptions of intelligence agencies were that they focused on counterintelligence and actual threats to public safety , rather than engage in blanket surveillance and cyberattacks against belgian telcos in operations codenamed `` socialist '' . 
+   aha yeah , britain is less free than the ussr . 
+  i should have remembered . 
+  if the only favourable comparison you can muster is to the ussr then you 're up shit 's creek . 
+  but forget all that . 
+  surely you 've been following the news . 
+   `` let me put this very clearly : we do not require instruction on this from judges in strasbourg . 
+  so at long last , with a conservative government after the next election , this country will have a new british bill of rights , to be passed in our parliament , rooted in our values . 
+  ** and as for labour 's human rights act ? 
+  we will scrap it , once and for all . '' **  labour 's justice spokesman , sadiq khan , said : `` i 've lost count of how many times the tories have promised a british bill of rights . 
+  but still they ca n't spell out how it would differ from the human rights act . 
+  if it is different , cameron needs to be honest with the british people and say which rights he wants to strip from them -- the right to a fair trial , the right to life or perhaps the right to privacy or freedom of expression ? 
+  http://www.theguardian.com/politics/2014/oct/01/cameron-pledge-scrap-human-rights-act-civil-rights-groups scrapping the human rights act ... yeah , everything is hunky-dory in the u.k. , where `` personal freedom '' of the highest order is respected . 
+  from what i 've been hearing about this case , yes it appears they are . . 
+  this is a nice introduction into the cable side of the discussion ; http://books.google.com/books?id=pblpcrqhm0wc unfortunately it 's old . 
+  but still relevant in many respects . 
+  when it comes to cable , you should familiarize yourself with docsis : https://en.wikipedia.org/wiki/docsis for xdsl , the `` modem '' on the other side is called a dslam , for cable , the `` modem '' on the other side is called a cmts . 
+  they 'd give you all the speed your modem could hande if your modem did n't explicitly prevent that from happening . 
+  ( although i 'm not quite sure about the details for xdsl )  every time the cable modem is powered on , it looks in its configuration file for the address of an tftp server and for a file name . 
+  this file is the docsis configuration file that , among other things , ** sets a cap for the modem 's download/upload bandwidth . 
+  ** http://www.netwide.net/users/cableguy/howtouncapdocsiscompliantcablemodems.htm do n't bother trying these days though , the bootfile is cryptographically signed ... 
+  funny thing though , most revelations in the snowden archives are way , way worse . 
+  especially concerning gchq . 
+  they hardly have any reputation left to protect . 
+  whenever i see downplaying ignorants compaining about conspiracy theories i feel inclined to remind them . 
+  i did n't say that all * routers * were backdoored , although i suspect that they are -- how would you check that anyway ? 
+  almost if not all of them contain proprietary closed source firmware blobs -- i said i think all modem/router combinations are --  it has become industry standard because , depending on what you have , xdsl , cable , fibre , the speed capping tends to be handled by your modem , and the functionality of being able to connect over this physical layer , i.e. 
+  to your isp , is their domain . 
+  they supply the modem . 
+  there used to be a time when cable modem hackers `` uncapped '' their modems to gain full speed . 
+  did you know you could have 1.7 gbps on your cable modem if it did n't cap you according to the subscription you 're paying for and if it had a downstream/upstream regime to handle it ? 
+  i know that some exceptions exist where customers could ( or maybe still can ) buy their own modem , set it to the right parameters , ( i.e. 
+  https://en.wikipedia.org/wiki/asynchronous_transfer_mode#why_virtual_circuits.3f ) and connect , and you do n't even have to have a loan contract . 
+  the modem is yours and not serviceable by isp call center agents or mechanics . 
+   you 're kind of making me uneasy here guessing whether the manufacturer of the router still has access to it or not sorry to say you should be nervous , even with routers instead of modem/router combos . 
+   does this manufacturer have a default backdoor in it ? 
+  how can i check for that ? 
+  reverse engineering , which is a rare skill which would take years to develop , and then still it would take years to screen a device for backdoors . 
+  there 's basically no way to check when you have time and money constraints . 
+  that 's why it 's so important we listen to snowden and stand up for our privacy rights . 
+  *** [ support open hardware ] ( https://en.wikipedia.org/wiki/open_source_hardware ) *** . 
+  in the mean time , try to set your modem/router to bridge mode , and install your own pc-based firewall running a hardened linux distro or perhaps openbsd or netbsd inbetween if you want to be as secure as the current state of the art allows . 
+   if you 're tempted to feel a bit of schadenfreude about this , then do n't . 
+  as russia becomes more isolated , and it 's economy crumbles , it will become more and more dangerous . 
+  hello / r/europe . 
+  i see you support sanctions against russia . 
+  it would be unfortunate if something were to happen to europe because of that , now would n't it ? 
+   this is only accessible from the isps internal network though ? 
+  normally , yes . 
+  but i see no particular insurmountable barriers for an intelligence service to overcome if they wanted to get access . 
+  if you have access to a shell prompt inside your modem from your own lan , you can see the configuration . 
+  no , i verified it , you 're the one who is wrong . 
+  you confused `` environmentally unfriendly '' with the gas lights of the west . 
+  however , as the guardian confirms :  daniela augenstine , of the city 's street furniture department , says : `` in the eastern part there are sodium-vapour lamps with a yellower colour . 
+  and in the western parts there are fluorescent lamps -- mercury arc lamps and gas lamps -- which all produce a whiter colour . '', 
+  the western federal republic of germany long favoured non-sodium lamps on the grounds of cost , maintenance and carbon emissions , she says . 
+  http://www.theguardian.com/world/shortcuts/2013/apr/21/astronaut-chris-hadfield-berlin-divide you 've been silent for a while now . 
+  you feel awful , because despite your foul-mouthed tirades and your chest-thumping about having lived in berlin , you understand preciously little about the city you lived in . 
+  whereas in britain , personal freedom is so incredibly important that gchq mass surveillance , cctv and the morals police who patrol twitter permeate every nook and cranny of society . 
+  it 's interesting you warn me against editing , and you just edited out `` moron '' . 
+  fortunately i have you screencapped , too ;-p, 
+   and , as you can see , i 'm not editing my comments . 
+  you edited it within 3 minutes , is all . 
+  i noticed because i had responded within 3 minutes too . 
+  you seem a bit , shall we say , risable . 
+   the streetlights that you are concerned about are in the west , moron . 
+  the washington post says , the environmentally unfriendly lights are in the east . 
+  so if i 'm wrong , they 're wrong . 
+   again , i 've actually lived there . 
+  then i hope you 're right . 
+   i 've screencapped this thread , so do n't bother editing upthread . 
+  note that i said , the `` environmentally unfriendly half '' .

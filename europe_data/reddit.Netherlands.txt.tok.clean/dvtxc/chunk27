@@ -1,0 +1,100 @@
+  the main dutch public broadcaster has carefully trimmed footage to make sure [ only palestine flags were visible ] ( https://upload.wikimedia.org/wikipedia/commons/f/f2/flickr_-_newsphoto%21_-_gaza_protest_amsterdam_%286%29.jpg ) , whereas [ nazi symbolism was obviously present ] ( http://i.imgur.com/w64xuqi.jpg ) . 
+  the display of small swastika thrown in a bin at a pegida demonstration two years later , however , remained the main part of the coverage of the demonstration . 
+  the only time i still remember the dutch public broadcast actually twisted a story , was an interview of putin a few years ago . 
+  [ they had cut in the footage and commented the story in such a way that it seemed that putin ignored all press questions . 
+  ] ( http://www.elsevier.nl/cultuur-televisie/article/2014/09/nos-manipuleert-beelden-poetin-met-videomontage-1594843w/ ) in fact , he had taken plenty of time to answer the questions . 
+  main editor of the news broadcaster said that the editing had been ` not very smart ' on twitter after the manipulation had been discovered . 
+  do i still trust the press ? 
+  i think so , as i still read the major newspapers . 
+  and most news articles surely proof that a lot of research has been needed . 
+  though some articles spark the incentive to search for the other side of the story . 
+  do i think that news outlets are unbiased ? 
+  you can notice the ` political odorant ' of the newspapers or news channels . 
+  and in the netherlands it tends to be left-wing odorant more often than the other one . 
+   investigations into who might be responsbile for the chemical attacks have n't even started yet , but us said so and it became fact . 
+  russia is not particularly facilitating or cooperating in any thorough investigation either . 
+   if we just compare the countries for which 1h 2016 data is available , the netherlands had the highest effective revenue per gb - 14x higher than the country with the lowest revenue - finland . 
+  :( and quite a lot of that revenue just went straight to the government , because of the terribly expensive frequency bands auction . 
+  if anyone is interested : [ ** the data plans ** ] ( https://www.kpn.com/mobiel/sim-only/basis/1-jaar ) one of our most expensive , yet at the same one of the three biggest mobile operators . 
+  it 's more than just * involved * , as we sing :  den koning van hispanje   heb ik altijd ge\u00eberd . 
+  -  * to the king of spain *   * i 've granted a lifelong loyalty . 
+  * and this is part of the first and the main stanza . 
+  of all fifteen stanzas , we sing this one . 
+  maybe we should remove the phrase about our loyalty to the spanish king one day ... 
+  it 's a weird phrase in our anthemn . 
+  it 's designed in france . 
+  looks like they were inspired by another country : https://en.wikipedia.org/wiki/red_arrow_ ( russian_train ), 
+  it 's not only their look . 
+  that thing literally falls apart when it rains or snows . 
+  that 's why they have only driven for a few days on dutch tracks , before the had to be withdrawn . 
+  no thanks . 
+  we will find someone else who builds better trains . 
+  i have heard ^ the ^ germans ^ ^ have ^ ^ a ^ ^ lot ^ ^ of ^ ^ ^ experience . 
+  we have experience with them . 
+  [ like this ? 
+  ] ( https://www.reddit.com/r/europe/comments/62zaqd/french_presidential_election_summary/dfuvf90/ ), 
+  #barchart . m clc ; clear all block = char ( 9608 ) ; libar = char ( 9552 ) ; endbar = char ( 9565 ) ; [ labels , seats , prev , update ] = importprognosis ( ` prog.xlsx ' ) ; c = clock ; seats ( isnan ( seats ) ) = [ ] ; prev ( isnan ( prev ) ) = [ ] ; fprintf ( ' last updated at [ % 0.2 d : % 0.2 d ] \\ n \\ n ' , update ( 1 ) , update ( 2 ) ) ; fprintf ( ' results in seats | total seats : 150 \\ n ' ) ; fprintf ( ' % c % c % c 2017 results ( prognosis ) \\ n ' , block , block , block ) ; fprintf ( ' % c % c % c 2012 results \\ n \\ n ' , libar , libar , endbar ) ; for i = 1 : length ( seats ) ; fprintf ( ' ' ) ; for j = 1:4 - length ( labels { i } ) fprintf ( ' ' ) ; end fprintf ( ' % s : ' , labels { i } ) ; for j = 1 : seats ( i ) fprintf ( block ) ; end fprintf ( ' % d \\ n ' , seats ( i ) ) ; if ( prev ( i )  0 ) for j = 1 : prev ( i ) -1 fprintf ( libar ) ; end fprintf ( endbar ) ; end fprintf ( ' \\ n ' ) ; end -- #importprognosis . m function [ labels , prog , old , update ] = importprognosis ( workbookfile , sheetname , startrow , endrow ) if nargin = = 1 | | isempty ( sheetname ) sheetname = 1 ; end if nargin < = 3 startrow = 2 ; endrow = 16 ; end [ ~ , ~ , raw ] = xlsread ( workbookfile , sheetname , sprintf ( ` a % d :d % d' , startrow ( 1 ) , endrow ( 1 ) ) ) ; for block = 2 : length ( startrow ) [ ~ , ~ , tmprawblock ] = xlsread ( workbookfile , sheetname , sprintf ( ` a % d :d % d' , startrow ( block ) , endrow ( block ) ) ) ; raw = [ raw ; tmprawblock ] ; % #ok < agrow  end raw ( cellfun ( @ ( x ) ~ isempty ( x ) & & isnumeric ( x ) & & isnan ( x ) , raw ) ) = { '' } ; cellvectors = raw ( : ,1 ) ; raw = raw ( : , [ 2,3,4 ] ) ; r = cellfun ( @ ( x ) ~ isnumeric ( x ) & & ~ islogical ( x ) , raw ) ; % find non-numeric cells raw ( r ) = { nan } ; % replace non-numeric cells i = cellfun ( @ ( x ) ischar ( x ) , raw ) ; raw ( i ) = { nan } ; data = reshape ( [ raw { : } ] , size ( raw ) ) ; labels = cellvectors ( : ,1 ) ; prog = data ( : ,1 ) ; old = data ( : ,2 ) ; update = data ( : ,3 ) ; -- importprognosis imports excel spreadsheets in the following format : #prog . xlsx name | seats | old | updated on -- | ----- | -- | ---------- party1 | 23 | 19 | 08 party2 | 19 | 21 | 00 party3 | 16 | 12 | party4 | 3 | 9 | party5 | 4 | 2 | etc. . | | | party labels should be 4 characters max , though can be modified by some fiddling in barchart.m, 
+  the question arises : who are worse ? 
+  the combination * emotionally unexpressive * and * confrontational * fits the `` guten tag '' reichtangle so well . 
+  that 's the first thing that came to my mind . 
+  you have n't seen russian television then . 
+  the first two years are not focussed on learning to read or write , but are focussed on cooperation and playing together instead . 
+  nevertheless , the first two years are part of the entire primary education to offer a seamless continuation to the third year , in which they actually start to learn . 
+  the kids are used to the school building and their friends by then . 
+   afaik most countries start primary school around 6/7 , though there are some differences in how long it lasts - some have that `` middle school '' between primary and high school . 
+  germany has something like that iirc . 
+  primary school in the netherlands : 4 - 12 yrs secondary school : 12 - 16/17/18 yrs ( depending on the level you attend ), 
+  ** wos host du grod \u00fcba mi ~ ~ a ~ ~ gsogt ? 
+   oh man , i hate being in amsterdam ... 
+  i feel more comfortable in mogadishu than that place . 
+  lol . 
+  the way i see it : the city in itself is nice * an sich * . 
+  it 's just a pity it 's inhabited by amsterdammers . 
+  * oorsprong * is masculine in dutch as well . 
+  german masculine words usually have a vowel elongation in plural , or have the same plural form as the singular form , or indicate a masculine person or a function . 
+  * hammer ( plural : h\u00e4mmer ) * laden ( plural : laden ) * lehrer femine words can end on - e , or comprise words that describe something non-physical , like words on - heit , - ung , - enz , or feminine persons/functions ( for about 3/4 of the words you could say : non-physical objects/things are feminine ) * die liebe * die freiheit * die leitung * die kompetenz * die lehrerin neutral words comprise the diminutives , and words on - ent and - is and - um ( from latin ) , or are derived from a verb . 
+  german masculine words usually have a vowel elongation in plural , or have the same plural form as the singular form , or indicate a person or a function . 
+  femine words can end on - e , or comprise words that describe something non-physical , like words on - heit , - ung , - enz . 
+  neutral words comprise the diminutives , and words on - ent and - is and - um ( from latin ) . 
+  the use of decimals and number alignment is killing me . 
+  what ? 
+  how does a non-jammed highway look like ? 
+  wow , considering the cost of living in nordic countries . 
+  iceland , do you even care about your teachers ? 
+  must be all those double letters and the suffices for the grammatical cases . 
+  shhh , [ he 's onto it ] ( http://vignette1.wikia.nocookie.net/villains/images/2/2a/king_pascal_sauvage.jpg ), 
+  every country using their native language or latin ... ... . . the netherlands use french . 
+  yes . 
+  are we allowed to keep belgium this time ? 
+  though it would n't surprise me if that construction is on the rise again with an increasing amount of people who speak english as a second language . 
+  the fast majority of indo-european languages does not need an auxiliary verb to create negative sentences or questions . 
+  to me , that necessity is weird and i notice that i sometimes forget the auxiliary * do * in colloquial speech as well . 
+  will surely also accidentally drag some surrounding cars into the canal . 
+  can i ask you at which university this was ? 
+  for example , the academic staff at my research department is mostly foreign , including both phd students as well as professors . 
+  ( and i happen to know a polish one as well ) this must probably have been at a non-technical faculty . 
+  most technical universities , or universities with a technical faculty almost exclusively offer english masters and the transition of bachelors advances quite rapidly as well . 
+  if i am not mistaken , the offer of english study programmes is the highest in the netherlands of all non-anglosaxon countries . 
+  as far as i have heard , the flemish government has become stricter in the enforcement of the dutch language in education since more french-speaking walloons and french come to flanders . 
+  the region offers more job possibilities , but whereas flemish children are thaught french at school as a second language , the walloons usually barely speak any dutch . 
+  as a result , i think dutch is more protected in belgium than in the netherlands , where sometimes it seems that dutch is slowly being pushed away by english in city centres or universities . 
+  wut , people in flevoland speak a romance language ? 
+  author of the dutch general election megathread here : haha great to see this !, 
+  do you know i wrote a matlab/python script to update that prognosis ? 
+  i did not make those ascii charts manually . 
+  :p i can send you the code if you want . 
+   it takes an excel-spreadsheet as the input , and everything else rolls out of it automatically . 
+  though i think i will have to make the code a bit tidier to make it readable for someone else . 
+  well ... fertility rates are in decline , albeit not entirely for the same reason . 
+  i 'd say , there are some parallels to the movie plot . 
+  slowly , we see the film plot of children of men unfolding in real life ... 
+  enden . 
+  heineken of bavaria ? 
+  ] ( https://www.youtube.com/watch?v=_pyp7uglnho ), 
+  gim me some of that delicious pizza with ** ananas ** !, 
+   london confirmed as a great place to find * rich * ladies !, 
+  ftfy, 
+  that pink region is luik/liege/l \u00fcttich . 
+  the region to which maastricht belongs is yellowish . 
+  although the region south-limburg does encompass maastricht , it also includes the industrialised heerlen , geleen and sittard . 
+  perhaps maastricht would be deep purple as well , if it did n't include those .

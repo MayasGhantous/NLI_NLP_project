@@ -1,0 +1,100 @@
+   the best ones are usually the pun jokes that play with the slight language differences . 
+  there are many jokes/fun facts in poland about czech as well . 
+  some of them because the words are like polish words spoken by a little kid ( most of them ) , some of them because they sound naughty ( rypadlo , ruchadlo , zdymadlo ) some of them because they mean exactly the opposite of what they sound in polish ( pop\u00edrat , \u010cerstv\u00fd , lezeni ) , and some they are just weird false friends ( divadlo , pozor , napad , 1000 more ) . 
+  true balts ? 
+  so you admit estonia is not a true balt ? 
+  is it because they 're nordic ? 
+  that 's one of the weirdest and most specific stereotypes i have ever heard . 
+  of course when i went to portugal i did buy towels as gag gifts for friends in madrid . 
+  also common in polish jokes , scot = cheap . 
+   i sweden typo or trying to sneak in swedish words ? 
+  thanks !, 
+   we liked to mock the french too , but we are in a period of exceptionally low self-esteem now , so we kinda stopped before they surrender ? 
+  ^ ^ ^ prepare ^ ^ ^ for ^ ^ ^ incoming ^ ^ ^ downvotes !, 
+  and the wrong hand for the watch !, 
+  i have heard ` poles ' ( polacos ) but never jews , and i lived in madrid a long time . 
+  who calls you jews ? 
+   though tbh racism can be used that way too just like * literally * can literally mean * not literally * ... 
+  come visit poland . 
+  your car is already here !, 
+  i understand it might be illegal to change someone 's name , but how is it illegal to ask for id ? 
+  you either do n't provide it ( and are blocked ) or provide . 
+  then either the names checks out ( unblock ) or it does n't ( the offer you to use your real name or gtfo ) . 
+  did i get it wrong ? 
+  if not ... what law are they breaking ? 
+  any lawyer would care to explain why ca n't facebook just delete the profiles that they do n't like ? 
+  is having a facebook profile a human right ? 
+   but i can only do so much configuration and debug work with every system change , before i just give up and switch to windows . 
+  i do n't know what de you use , but for the middle button it usually is an option in the mouse menu . 
+   excessive writes are not really an issue anymore for today 's ssds . 
+  that is true ... for ** typical ** loads . 
+  if your system is thrashing and writing a conservative 200mb/s ( i 'm assuming 600mb/s max speed ) it consumes more than 0.1 % of the drive 's life per hour ( assuming a modern ssd starts failing around 500tb ) . 
+  if you leave it on 24/7 and runs out of memory you can kill 1 % of your drive 's life overnight before you realize what 's happening . 
+  it 's not the end of the world , but slightly worrying and not a correct default . 
+   if the gui calls git , and the gui crashes , it kills git along with it . 
+  [ this is categorically not true ] ( https://en.wikipedia.org/wiki/orphan_process ) . 
+   just like when you close a terminal window in the middle of a git call . 
+  in that case the terminal window explicitly sends a signal to terminate git ( which git could handle to shutdown in an orderly fashion ) . 
+  if the terminal crashed , git would be left in the background . 
+  the terminal can ask the os to notify the children using prctl , but even that only sends a sighup signal . 
+   if this happens in the middle of a write , it sucks . 
+  if you shutdown the power in the middle of a write it sucks . 
+  if you kill the process the os will finish the write anyway . 
+  i have n't seen a corrupt git repo ( barring power losses/hw failures ) that could n't be fixed with git fsck / git gc . 
+  no amount of time spent on ubuntu has helped me getting it to work . 
+  every update seems to restore every broken configuration that i fix . 
+  i love the arch philosophy in that aspect . 
+  not likely . 
+  it would need active maintenance to know which ips to block and even then it might break things . 
+   and never breaks randomly lucky you ... 
+  if gaming is the main problem for you , keep an eye on steam for linux , 95 % of my games are already ported , and they seem to progress fast . 
+  in a year or two you should be good to go . 
+  money 2 . 
+  much more restricted use-cases . 
+   ubuntu has its annoyances but at least it does n't break horribly and regularly ( for me ) . 
+  how ? 
+  no matter how , when or where i try ubuntu the damn thing just blows up : /, 
+  oh god , i ca n't believe i 'm going to defend ubuntu ...  booting with the hdmi cable attached results in no video , or only video on 1 screen . 
+  nothing will fix it . 
+  ( i have an asus zen ux31a laptop plus external dell screen ) attaching the cable after the login screen appears works fine . 
+  might be a hardware/bios issue . 
+  does it work with any other distro ? 
+   middle click for selection buffer paste . 
+  i know this is a general x thing , but the person who invented it should be shot . 
+  especially considering the amount of times i accidentally middle click , and jizz some random text into my document , or worse , the terminal . 
+  the person who invented it should be rewarded . 
+  this is one of the best things ever . 
+  it 's a god send to have two copy buffers ( selection + ctrl-c ) . 
+  if you do n't like it , disable it . 
+  it makes no sense to get rid of an awesome feature used by millions because a newcomer is clumsy and confused . 
+   no properly working gui for git . 
+  the ones i 've tried are all shit . 
+  i 've ended up with corrupted repositories more than once because the process crashed halfway through . 
+  how * on earth * is that ubuntu 's fault ? 
+  also : i very much doubt you can corrupt repo with a gui crash , guis usually just call git for you , do n't access the fs . 
+   if you install to an existing ( empty ) partition , it does n't create a swap partition by default . 
+  good luck trying to debug crashes because your ram is full . 
+  if you are on an ssd this is the correct thing to do . 
+  an oom kill apprears in dmesg , it 's not hard * at all * to debug . 
+  if you 're on a hdd it comes to personal preference , but i prefer an oom-kill than 30 min thrashing . 
+   playing video in a browser results in massive amounts of cpu usage ( even html5 ) . 
+   x and the window manager take up a lot of cpu . 
+  seems like a potential hardware/bios issue ( coupled with your boot issue ) . 
+  -- that being said , fuck ubuntu . 
+  damn thing sucks . 
+  i offered all my family free unlimited support if and only if they switch to arch . 
+  best decision ever . 
+  [ you better do ] ( http://www.trojancondoms.com/ ) ... 
+  it 's hard to get clear , up-to date , free data from ojd ( spanish media accounting agency ) , but it seems that printed media is falling as fast as before . 
+  these are articles from a spanish site that seems to have access to the paid-for , current data . 
+  all comparisons are over ` last 12 month period ' [ march - 20 % reduction in mayor papers ] ( http://prnoticias.com/prensa/20140643-odj-marzo-el-pais-el-mundo-la-razon ) [ april - sport papers ( most popular category ) decline 19 % ] ( http://prnoticias.com/prensa/20141618-ojd-abril-marca ) [ april - finance papers fall 11 % ] ( http://prnoticias.com/prensa/20141707-ojd-diarios-economicos-abril ) [ may - falls between 7 % and 16 % across mayor papers ] ( http://prnoticias.com/prensa/20142365-ojd-mayo-2015-el-pais-el-mundo-abc ) [ june - falls between 16 % and 22 % ] ( http://prnoticias.com/prensa/20143141-ojd-el-pais-el-mundo-caidas-junio ) so printed media is pretty much as dead as in any other country ... 
+  true , but their policies after 2001 were no longer `` socialist '' ( might be an oversimplification , but did n't want to write an essay ) . 
+  i think you misread my comment ... 
+  i said * until 2001 * ( thinking about sld ) . 
+  afghanistan happened in very late 2001 , iraq in 2003 . 
+  `` eastern poland '' will get a whole new meaning soon ... 
+   idiot . 
+  no , tell us what you * really * think ... 
+  i used to read marca every day , but since this whole debacle i stopped visiting any aede member 's page . 
+  now i get all my spanish news from 20minutos , which were against the law from day 1 . 
+  [ it 's not the first time switzerland invades a neighbor `` by mistake '' ] ( http://abcnews.go.com/international/story?id=2921407 ) .

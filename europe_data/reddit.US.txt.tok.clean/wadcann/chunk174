@@ -1,0 +1,100 @@
+  ireland might have surface-to-air missiles -- no idea there . 
+  looking at the [ wikipedia : modern weapons of the irish army ] ( https://en.wikipedia.org/wiki/modern_weapons_of_the_irish_army ) article , it looks like the most-capable air defense ireland has is the small [ rbs-70 ] ( https://en.wikipedia.org/wiki/rbs_70 ) , which wo n't be able to shoot down a bomber at altitude . 
+  well , to be fair , russian nuclear bomber pilots are probably pulled from a different pool than the people who operate sams . 
+  the lapd jurisdiction [ does n't extend ] ( http://www.lapdonline.org/inside_the_lapd/content_basic_view/6468 ) to the la metro area : just to the city of los angeles , which has a smaller population . 
+  sure , i 'm not saying that you should just accept this or that it is n't provocative on their part . 
+  but i 'm saying that i ca n't see them turning on their transponders while they do simulated attack runs : it would conflict with their interests . 
+  also , while i 'm not trying to excuse the actions , i * really * think that this drives home the value of not relying on ads-b , the transponders , for flight information , and instead having radars that can operate even if a transponder is off . 
+  in the us , atc got paralyzed on 9/11 when the aircraft were hijacked and the hijackers simply flipped off the transponders . 
+  ads-b is great if it 's available , and it 's true that having an ads-b reciever ( which i can do on my pc for ~ $ 100 ) is a lot cheaper than a whole radar dish-style conventional set . 
+  however , it also means that you can have invisible aircraft floating around if anything is n't working or there 's a hijacking or an aircraft does n't want to be seen . 
+  finally , while this could be fixed , ads-b 's designers made absolutely no provision for authentication ( each aircraft does n't have a private key that lets it and only it announce its position ) . 
+  that means that any jackass with a radio transmitter can insert whatever information he wants into the atc system . 
+  i 'd be much more enthusiastic about producing a standard where various traditional radars can exchange information about responses and frequency shifts that they see from multiple stations , and then can rebroadcast that information to aircraft after cryptographically-signing it . 
+  that 's robust against failure or non-functioning of ads-b , can reliably identify targets that are `` silent '' and non-functioning , and does n't require every aircraft to have an active radar itself -- just ground stations . 
+  it avoids attacks by people spoofing ads-b ( and while there are ways in which one could interfere with active radar , spoofing responses to multiple radars is not easy ) . 
+  it 's just a lot less * fragile * in general . 
+  trust ground stations to come up with a good picture of whats in the air ( and maybe validate it against what aircraft claim , but fundamentally , trust the ground stations ) rather than trusting any transmission claiming `` i 'm an aircraft and i 'm here '' or trusting the lack of a transmission . 
+  i guess that `` militarization '' is n't well-defined , but i would n't agree : i do n't think that us police operate more like the military than they ever have before . 
+  that 's what some ferguson protesters claimed , so discussion about it has been in the news . 
+  we have a [ legal , strict separation ] ( https://en.wikipedia.org/wiki/posse_comitatus_act ) between the military and the police , and the doctrines that police and military operate under are quite different . 
+  the police are ( and always have been ; this is not new ) armed , but not , aside from swat teams in emergency situations , with submachine guns , a la central/south american countries . 
+  i think that the most common-thing people point out is the use of surplus apcs being given from the military to some police departments , since that 's a change . 
+  these are n't something that shifts the role of police to `` kill '' rather than `` arrest '' , though : it just means that police do n't have pressure on them to shoot first ; that 's what made the disaster in mogadishu so bad , where you had us military in unarmored vehicles and tons of heavy weapons in the middle of a city panicking about being shot and just opening up on everything . 
+  if you remember probably the biggest gunfight in us police history , the [ north hollywood shootout ] ( https://en.wikipedia.org/wiki/north_hollywood_shootout ) , it was n't until the police were able to use a bank armored car that they were able to safely go into the bank and start pulling people out . 
+  i guess there is n't a hard definition of `` militarization '' ; my point is mostly that , at least by historical us standards , the police do n't operate via military procedures . 
+  [ bonnie and clyde ] ( https://en.wikipedia.org/wiki/bonnie_and_clyde#deaths ) died a century ago in what could be called a straightforward , military-style ambush performed by police : there was n't an attempt to arrest them , just to kill them . 
+  i 'd call that more-militarized , rather than less , than the status quo today . 
+  the united kingdom today is probably a [ great power ] ( https://en.wikipedia.org/wiki/great_power ) :  a great power is a sovereign state that is recognized as having the ability to exert its influence on a global scale . 
+  great powers characteristically possess military and economic strength , as well as diplomatic and soft power influence , which may cause middle or small powers to consider the great powers ' opinions before taking actions of their own . 
+  [ snip ]  of the five original great powers recognised at the congress of vienna , only france and the united kingdom have maintained that status continuously to the present day , although france was defeated in the franco-prussian war and occupied during world war ii . 
+  after the congress of vienna , the british empire emerged as the pre-eminent power , due to its navy and the extent of its territories , which signalled the beginning of the pax britannica and of the great game between britain and russia . 
+  the balance of power between the great powers became a major influence in european politics , prompting otto von bismarck to say `` all politics reduces itself to this formula : try to be one of three , as long as the world is governed by the unstable equilibrium of five great powers . 
+  '' [ 25 ] [ 26 ] [ 27 ] [ 28 ] but it is not ( presently ) a [ superpower ] ( https://en.wikipedia.org/wiki/superpower ) :  a superpower is a state with a dominant position in international relations and is characterised by its unparalleled ability to exert influence or project power on a global scale . 
+  this is done through the means of both military and economic strength , as well as diplomatic and soft power influence . 
+  traditionally , superpowers are preeminent among the great powers ( i.e. 
+  as the united states is today ) . 
+  the term first applied to the british empire , the united states , and the soviet union . 
+  however , following world war ii and the suez crisis in 1956 , the united kingdom 's status as a superpower was greatly diminished ; for the duration of the cold war the united states and the soviet union came to be generally regarded as the two remaining superpowers , dominating world affairs . 
+  at the end of the cold war and the collapse of the soviet union in 1991 , only the united states of america appeared to fulfill the criteria of being a world superpower . 
+  [ 1 ] [ 2 ] i think that most people would agree that china will likely become a superpower , if it 's not there yet . 
+  edit : and in the event of the expansion and federalization of the eu , it would have the ability to be a superpower , if it wanted . 
+  the los angeles police department air support wing appears to have more aircraft than ireland 's air corps ( though to be fair , the lapd does n't put rocket pods on their aircraft ) . 
+  wo n't work . 
+  i 'd assume that part of the goal of flying without them is to see if they can do flights where the target country does n't pick up on them and respond and to measure response patterns ; both of those would want to simulate an actual attack closely . 
+  part of the goal is probably to reach the point of [ alarm fatigue ] ( https://en.wikipedia.org/wiki/alarm_fatigue ) where the target country is no-longer responding well to bombers rolling in . 
+  two us military-civilian collisions related to no common atc between the two , resulted in : https://en.wikipedia.org/wiki/united_airlines_flight_736  the cab accident report also cited a failure of nellis air force base and the caa to take measures to reduce a known collision exposure ; training exercises were allowed to be conducted for more than a year prior to the collision within the confines of several airways , even after numerous near-misses with military jets had been reported by airline crews . 
+  [ 20 ] and a month later :  capital airlines flight 300 , a vickers viscount 745d ( n7410 ) , collided with air national guard lockheed t-33 35966 , killing all eleven on board when the viscount crashed at brunswick , maryland , as was one of the two crew members of the t-33 . 
+  [ 13 ] ... triggered the creation of the faa in the us and the faa getting authority over military air flights as well . 
+  of course , they did n't have transponders then , but again , there 's more air traffic today in a smaller airspace in ireland , the aircraft are moving a lot faster with more people , and it does n't take a collision to be fatal ( e.g. 
+  [ running into wake turbulence created by the invisible aircraft ] ( https://en.wikipedia.org/wiki/american_airlines_flight_587 ) can be problematic ) . 
+  and there have been flights [ coming uncomfortably close ] ( http://theaviationist.com/2014/12/14/near-collision-off-sweden/ ) to the russian flights in europe . 
+  the russians almost certainly did not want to shoot down the plane . 
+  they screwed up badly , and tried to avoid taking blame for it by denying their role , but i 'm sure that if they had a chance to do it over knowing what the plane was , they would n't have shot the plane down . 
+   a large segment of the migrant population is doing just fine , but a significant number -- some say as many as 50 percent -- have not rid themselves of the mental and cultural conditions that have kept their home country in its `` developing country '' status . 
+  the denial of equal rights to women , the lack of separation of state and church , bad education , excessive religiosity , patriarchal machismo -- these are all on display in areas with a high percentage of migrants , including molenbeek . 
+  i 'm dubious that equal rights for men or women would block a nation from developing ; certainly many countries that had rather unequal rights were considered developed in the past . 
+  while i could * see * lack of separation between church and state being an issue ( particularly if there was some objection from the church to some sort of basic technology required ) , that also does n't really seem fundamental to blocking development . 
+  i certainly do n't have trouble imagining a country that develops just fine with a church bound up with it . 
+  ireland does n't have a church-state separation , and nobody would call it undeveloped . 
+  bad education ... okay , i 'd buy that . 
+  excessive religiosity ... all right , the middle east does have some pretty religious places , but the us in the 1950s , just about its relative peak compared to the rest of the world , had a pretty hefty degree of religiosity compared to most countries today . 
+  i 'm * really * dubious on this one . 
+  it just seems like a hodgepodge of cultural snippets , not the sort of thing that i 'd think of as being clearly responsible for preventing technological development . 
+  well , i mean , not without cyprus giving a thumbs-up , but i have no idea if cyprus even has people dedicated to things like hostage rescue . 
+  fair-enough . 
+  nah , do n't worry , i believe you . 
+  honestly , if you were the leader of a small country abruptly woken up to deal with an international incident , the possibility of egyptian or other foreign counterterrorist forces being gathered up to possibly wind up with people in your country being killed , the possibility of the next major terrorist incident being on your soil ... and it turns out to be some guy with a fake bomb trying to see his wife , i 'd think that a drink might not be all that unreasonable . 
+  i imagine that she 's going to have a pretty easy time getting the cypriot equivalent of a restraining order . 
+  `` ali , you just are n't * spontaneous * enough for me . '', 
+  huh . 
+   in 2004 , a panel of adjudicators ruled that returning the men to afghanistan would breach their human rights in accordance with the human rights act 1998 . https://en.wikipedia.org/wiki/human_rights_act_1998  the human rights act 1998 ( c42 ) is an act of parliament of the united kingdom which received royal assent on 9 november 1998 , and mostly came into force on 2 october 2000 . 
+  [ 1 ] its aim was to incorporate into uk law the rights contained in the european convention on human rights . 
+  so ... people in the eu , you given any thoughts to revising that echr thing , or you planning on sticking with it in its present form ? 
+   this would have been invented , somewhere else , at another time . 
+  china would have done it i think . 
+  while i do agree with the idea that technological knowledge tends to advance , i 'd consider china to be a fairly-poor choice as an example . 
+  certainly , there was a point in time when a lot of technological development * did * come from china . 
+  however , that was also some time back . 
+  china has been very poor relative to the west for a few hundred years , but even for hundreds of years before the [ great divergence ] ( https://en.wikipedia.org/wiki/great_divergence ) , where the west effectively gained preeminence in the world , china was arguably stagnating . 
+  https://en.wikipedia.org/wiki/history_of_science_and_technology_in_china  among the engineering accomplishments of early china were matches , dry docks , the double-action piston pump , cast iron , the iron plough , the horse collar , the multi-tube seed drill , the wheelbarrow , the suspension bridge , the parachute , natural gas as fuel , the raised-relief map , the propeller , the sluice gate , and the pound lock . 
+  the tang dynasty ( 618 -- 906 ad ) in particular was a time of great innovation . 
+  [ 1 ] the earliest beginnings of the great divergence were in ~ 1500 ad -- and until somewhere about that time , china was reasonably competitive with the west in per-capita wealth , so there 's a pretty substantial gap . 
+  i do n't know all the factors , though it is an interesting question . 
+  one possibility might be mongol invasions disrupting development . 
+  another thing that i 'm suspicious of would be the chinese [ imperial examination system ] ( https://en.wikipedia.org/wiki/imperial_examination ) . 
+  on the face of it , the imperial system seems to promote things that we associate with development -- meritocracy , literacy , and education . 
+  however , that canon also became a way of gating entry of the poor ( who could n't afford the leisure time required to study ) and a status symbol ( like quoting literature in the west ) used to identify the upper crust . 
+  it meant that the state effectively mandated a canon of knowledge . 
+  any changes to this canon of knowledge could only be made by people in a position of power , and the only way of * getting * there was to learn that canon , which probably biases someone against reform that diminishes the value of knowing the canon . 
+  the result may be a stagnation , where it became difficult for new ideas to be introduced . 
+  it also may have meant a mixing of pseudoscience or mysticism associated with that canon with science , making it hard to perform reforms . 
+  certainly the chinese bureaucracy was far more conservative and resistant to outside ideas than their counterparts in japan for a long time , well after it was apparent that the west was doing a lot of things that were simply working out a lot better . 
+  yeah , the ottomans peaked in europe in the 1500s . 
+  worked out all right in the [ algerian war ] ( https://en.wikipedia.org/wiki/algerian_war ) . 
+  generally-speaking , though , mena-initiated conflict against the west has not had a very successful history since the 1500s . 
+   the eu may have to compromise on privacy protections in order to defeat terrorism , former cia director michael hayden said monday . 
+  `` defeating terrorism '' sounds suspiciously optimistic . 
+   the answer , ramberg argued , is not for sweden to lower its standards , but for the rest of the world 's richest continent to take on its fair share . 
+  [ pretty sure that australia wants no part of this . 
+  ] ( https://en.wikipedia.org/wiki/list_of_continents_by_gdp_%28nominal%29#gdp_per_capita_.28nominal.29_by_continents ),

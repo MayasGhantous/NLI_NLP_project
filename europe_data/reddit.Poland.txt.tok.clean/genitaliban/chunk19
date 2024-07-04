@@ -1,0 +1,100 @@
+  fun of any kind is frowned upon in that culture . 
+  most of those people are probably only christian in name and culture and have some vague concepts about a big man in the sky . 
+  actual theological knowledge has become _ far _ less widespread , to a degree that even the basics often are forgotten . 
+  http://www.al-islam.org/a-code-of-practice-for-muslims-in-the-west-ayatullah-sistani/migration-non-muslim-countries it does n't appear to be true at all - in fact , it would be a cardinal sin . 
+   it is haram to travel to non-muslim countries in the east or the west if that journey causes loss of the faith of a muslim , no matter whether the purpose of that journey is tourism , business , education , or residence of a temporary or permanent nature , etc. 
+  [ ... ]  what do the jurists mean when they speak of , `` loss of faith '' ? 
+  it means either committing a forbidden act by indulging in minor or major sins like drinking intoxicant , adultery , eating forbidden meat , or drinking najis ( impure ) drinks , etc. 
+  it also means abandoning the fulfillment of a compulsory act like neglecting salat , fasting , hajj and other obligations . 
+  very interesting site altogether , by the way . 
+  one poster implies inferred implications , logic ca n't collapse any more because it 's already pulverized . 
+  as a ghanaian ? 
+  why ?!, 
+  it 's a republic without civil war or rampant human rights violations . 
+  they have it good enough to get illegal immigrants of their own . 
+  interesting , so we 're genetically predisposed to being beta cucks ? 
+  your view of the csu is comically distorted . 
+  those jokes about bavarian stereotypes are supposed to be jokes , you know , not actual arguments . 
+  sweden afaik makes stats about the number of reports to police , including innocents . 
+  i think that 's what they 're referring to - report numbers may be different because someone might be more inclined to report rape by a foreigner than by a countryman ( who they are likely acquainted with ) . 
+  rape statistics in particular are pretty much completely useless regardless of context because it 's a crime that can only be ( statistically ) known of if it 's reported to police , unlike other crimes of the same gravity . 
+  way to prove their point ... 
+  do try !, 
+  python in particular is very intuitive and avoids the special characters ( like { & | ! $ } ) that many other languages have , so with good variable and function names you can almost read it like natural language . 
+  you simply can not have overlooked that they made an exception for refugees numerous times . 
+  it 's disingenuous to claim otherwise . 
+  hm , you may be right . 
+  i wrote the script in a way that 's completely neutral so i would n't introduce biases , but that might be a sensible constraint . 
+  edit : fixed . 
+  thelocal does n't really have an agenda , it 's simply and universally shit no matter the circumstances . 
+  it 's not hard at all . 
+  the reddit api documentation is atrocious , unfortunately , but you can figure out most things yourself pretty quickly if you know what you 're looking for . 
+  for example , to get every comment in this thread , you 'd go to https://www.reddit.com/r/europe/comments/3jcwx6/word_usage_statistics_for_reurope_per_flair_over/.json . 
+  that returns a json string that can be parsed by any language you 'd be likely to use for a bot like this , i. e. probably python , javascript or php . 
+  once it 's parsed ( say , to a variable named ` thread ` ) , you can just use something like ` comm = thread [ 1 ] [ ` data ' ] [ ` children ' ] [ 1 ] ` to get the top comment and then ` comm [ ` author ' ] ` to get who wrote it or ` comm [ ` author_flair_css_class ' ] ` which would in my case be ` kash ` for swabia . 
+  ( since the mods repurposed kashubia 's flag . ), 
+  short python example for clarity : import urllib , json sock = urllib.urlopen ( ` https://www.reddit.com/r/europe/comments/3jcwx6/word_usage_statistics_for_reurope_per_flair_over' ) data = json.load ( sock ) print data [ 0 ] [ ` data ' ] [ ` children ' ] [ 0 ] [ ` data ' ] [ ` title ' ]    word usage statistics for / r/europe per flair over the last two months print data [ 1 ] [ ` data ' ] [ ` children ' ] [ 0 ] [ ` data ' ] [ ` author ' ]    u ` tomkiisk ' print data [ 1 ] [ ` data ' ] [ ` children ' ] [ 0 ] [ ` data ' ] [ ` body ' ]    u ' & gt ; israel : 1 . 
+  bank ' and so forth . 
+  and yes , that 's a working example , not pseudocode - python is that amazing . 
+  it gets a bit more complicated when you want to process a lot of comments at once because reddit imposes a 2s delay between pages and the comment stream may move during that time , but the polling part is absolutely trivial . 
+  and what you do with that data in the end can be as trivial or complex as you like - scripting languages make complex operations with data structures like the one reddit returns astoundingly easy . 
+  actively _ doing _ things on reddit is a bit more complex due to authentication , though , but just for reading unquarantined , sfw subreddits you do n't need to get into authentication . 
+  ( and once you get the concept , it 's easy as well . ), 
+  the bot just counts , it 's context-agnostic . 
+  making it actually interpret posts would need _ far _ more artificial intelligence than i 'd be capable of writing . 
+  so yes , you 'd be able to bring a `` meaningful '' word to the top pretty quickly . 
+  ( meaningful meaning a noun , adjective or verb , usually ; many other kinds of words are just sentence fillers that would n't make sense out of context . ), 
+  thanks !, 
+  well , i ca n't really speak that far into the past and especially not with any kind of hard data . 
+  i 've only begun associating subreddit < -  flair < -  user < -  postcount < -  wordcount in a database since the beginning of * last month - maybe i 'll think of some other intersting stats to derive from this when i have collected a significant amount of data . 
+  anyway , if i did n't make a mistake , the number of users added due to flair changes is only 382 , so really nothing that greatly skews the numbers . 
+  seems like many have just become inactive . 
+  edit : oh , i forgot i had a means to check - a little over 20k people were active in total , 14211 since august ... 2nd , i think ? 
+  `` left '' is the wrong word here - this is a summary over the course of two months , and people + flair combinations that have made even a single post during that time are simply summed up to get to the flair totals and then the `` total total '' . 
+  that may a ) mean that some of these people have since become inactive , and b ) that someone who frequently changes their flair will show up in different categories , adding to the total number of users . 
+  those are n't many , though , according to my observations - i 'll try to think of a query to find out how much this skews the total number . 
+  but i 'm surprised you 're surprised - / r/europe is a default , of course the subscription numbers are comically inflated . 
+  from some other experiments of mine , i did n't notice a steep decrease in active users . 
+  interesting report , thanks !, 
+  that 's an ( of course extreme ) example of what i was referring to . 
+  the reporter says it himself in the end - paraphrased `` this may prove to be an explosive situation that right wing extremists could benefit from '' . 
+  ( note for english speakers : ard is the more left-wing of our state broadcasters - i. e. ignore the sensationalist title on ll - and it has english subtitles . ), 
+   also nowhere else uses hot water bottles ? 
+  people definitely use those in germany when they 're sick , or for little children . 
+  not at all , it 's especially dangerous in the south . 
+  also rabies and a tapeworm that eats your brain . 
+  if you eat heaps of some species , yes . 
+  but i 'd rather take half a lifetime of as many free , delicious mushrooms as i want than 1-2 years more life expectancy . 
+  yeah , interesting , there is a rather high number of downvotes on every one . 
+  hm , alright , thanks for the heads up . 
+  i would n't like to spam the sub with something people do n't want to see , but in this case i 'll just wait until the caravan moves on . 
+   res tag ? 
+  or stalked my comment history ? 
+   res tags . 
+  http://tglg.ml/?u=loliger_rofler and i was n't arguing against your stance per se , i pretty much agree with it now that you 've elaborated on this aspect . 
+  i 've just seen people defending the exact concept `` if being called a racist makes you angry , that proves you are one '' before so that 's what i interpreted your statement as . 
+   because if you are morally and factually in the right , there is no reason to be afraid of others calling you out . 
+  if you fear reprehension due to being called out on what you do , you are obviously doing this you know are wrong . 
+  being a gamergater , i suppose you know how often you people have summarily been called misogynist everythingphobic rapists ? 
+  that was also `` because of what you do '' . 
+  silencing any kind of criticism by yelling `` racism '' at every opportunity is the same principle , and it 's completely natural to feel chastised unfairly in such a case . 
+  it has nothing to do with being `` called out '' for many , many people and everything with being bashed over the head with dishonest tactics against which there is basically no reproach . 
+  because accurate or not - throw enough shit at the wall and it will stick , making you a persona non grata in a pc society . 
+  there is no free market . 
+  great idea , let 's go after the mountain jews this time around . 
+  and each downvote above must necessarily come from that stance ? 
+  i 'll spare you the obvious answer , no it does n't . 
+  which makes your post a complete non sequitur . 
+  that 's nice , but i 'm skeptical whether this would be the norm . 
+  it 's a divisive issue , and it 's bound to be even more divisive in situations that are already tense . 
+  of course that does n't mean there 's a linear gradient between pogroms and 5 * hotels that 's directly correlated with average income , but you see where i 'm coming from . 
+  if any kind of factor has weakened people 's cohesion among themselves or with society ( think disenfranchised youth in the east ) , introducing something that would be easily absorbed in different circumstances can be a spark to ignite the conflict . 
+  in the case of refugees , pre-existing `` poverty '' can of course be a factor , among many other things . 
+  ( named some of them below - crime rate , unemployment , urban decay etc. 
+  and _ real _ poverty is rare here , of course , but many are poor enough to feel alienated by society . ), 
+  thanks for the heads up , then !, 
+  if you speak german , here 's a site that explains it : http://anabin.kmk.org/anabin-datenbank.html of course an apprenticeship is n't the only way , international degrees can be accepted but must be vetted in regards to our standards first . 
+  the issue is just that i do n't get how you could misinterpret that comment if you 're not an extremist demanding verbatim support of their positions . 
+  it was arrogant to call it neutral , yes , it was a bad response to a comment with insulting implications ; but i really do try to keep a critical mindset instead of being sucked in by ideology . 
+  fallacy of the golden mean , i know , i know , but let 's just call it realpolitik . 
+  yeah , that 's what i alluded to - it 's a wording that you might use when carefully explaining a complex topic to a child , but using it in a survey is strange as it misdirects both the viewer and the person being asked .

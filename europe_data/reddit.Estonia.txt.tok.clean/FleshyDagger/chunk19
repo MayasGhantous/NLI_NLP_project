@@ -1,0 +1,100 @@
+  to this day , estonian side has not published a rebuttal in comparable format . 
+  it would probably not pass peer-review . 
+   after the election day , you ca n't anymore . 
+  and there will be no history left anywhere either . 
+  the time limit is actually 30 minutes after voting . 
+  the procedure only ensures that the ballot has been received intact by voting system 's server . 
+  this does not guarantee that the ballot will be counted correctly ( counting is done several days after voting ends ) , nor leave you with any kind of permanent proof who you voted for . 
+  with online banking , that would mean that a transfer order would be visible for 30 minutes after submitting it , and there would be no history available to prove that you ever issued the transfer order and that the transfer was carried out like you wanted it to be done . 
+  this is not the case banking , thus voting and banking are not comparable in secrecy . 
+   how come nobody has ever spoken about those conflicts , officially and done something about it ? 
+  riigikogu election act does not allow complaints to be filed in public interest . 
+  one can only file a complaint against violations of his/her rights , and has to prove them - with a system that fails silently and does not provide proof of malfunction , that 's mission impossible . 
+  a true catch-22 . 
+  a general argument about the system being inadequate ca n't be made either . 
+  thus any general complaint about the system is dead on arrival . 
+  beyond that , estonia is too small to develop any significant interest groups in such nich\u00e9 fields . 
+  we also know that cannabis prohibition is utter nonsense , yet ... ? 
+   are you talking about the screen the voter is viewing ? 
+  and what would your alternative be anyway ? 
+  yes , the screen of voter 's computer . 
+  an obvious solution to this would be the introduction of id-cards with keypad , so that data entry is taken out of the computer and put on an external device . 
+  the computer would only see an encrypted piece of information that is meaningless to it . 
+  the technology is there . 
+  visa has been issuing [ such credit cards ] ( http://i.imgur.com/79mbnxq.jpg ) for some time now . 
+  please do link the site where i can see my voting history , then . 
+  as to desirability , it 's out of the question since it would conflict with [ paragraph 60 ] ( https://www.riigiteataja.ee/akt/633949?leiakehtiv#para60 ) of the constitution , [ article 21 ] ( http://www.un.org/en/documents/udhr/index.shtml#a21 ) of the universal declaration of human rights , [ article 3 ] ( http://www.hri.org/docs/echr50.html#p1 ) of first protocol of the european convention on human rights , and numerous other treaties . 
+  which one ? 
+   debian linux packages were downloaded from a place that the experts did n't like . 
+  so they should 've been downloaded a distro from a . ru or . su website ? 
+  do you honestly consider such sarcasm to be an appropriate response from a goverment institution ? 
+  they do n't even offer a counterpoint , but attempt to brush the issue off with ridicule . 
+   so why does n't my bank account constantly get emptied ? 
+  because online banking does not have comparable requirements in secrecy . 
+  full details of all transactions are available to all involved parties . 
+  you can log in to your account and see transactions going years back - how much , to whom . 
+  can you log in somewhere to see how you voted ? 
+  is such feature even desirable ? 
+  a bank can go as far as issue you their official confirmation that you made certain payment to someone . 
+  in contrast , internationally accepted election standards require the voter not to be able to prove to a third party how he or she voted - to prevent vote selling or coercion . 
+  secure systems are much easier to design and maintain without conflicting secrecy requirements . 
+   there is absolutely no issue with election secrecy rubbish . 
+  during the voting procedure , both voter 's personal details ( name , national identification number ) and ballot contents ( district , picked candidate ) are displayed on screen - and since any application can take a screenshot without needing special permissions , that 's essentially [ plain text ] ( http://en.wikipedia.org/wiki/plain_text ) . 
+  any running application can capture the information and either store it or transmit to a third party . 
+  the voting protocol offers absolutely no secrecy from your computer , yet personal computers are so easy to infiltrate that computer scientists assume them to be * a priori * compromised . 
+  constitutional implications of this ( reintroduction of the open vote through a technological backdoor ) are eloquently discussed in [ `` online democracy . 
+  is it viable ? 
+  is it desirable ? 
+  internet voting and normative democratic theory '' ] ( https://buchstein.files.wordpress.com/2013/11/onlinedemocracy1.pdf?hc_location=ufi ) . 
+  as far as i know , teleportation still belongs to the realm of science fiction . 
+  flaws in critically important software , on the other hand , are common and are being exploited by interested parties on daily basis . 
+  [ heartbleed ] ( http://en.wikipedia.org/wiki/heartbleed ) bug in openssl , for example , went unnoticed for more than two years . 
+  the nsa knew about it and [ exploited the vulnerability ] ( http://www.bloomberg.com/news/articles/2014-04-11/nsa-said-to-have-used-heartbleed-bug-exposing-consumers ) . 
+  the have an unit called [ tailored access operations ] ( http://en.wikipedia.org/wiki/tailored_access_operations ) tasked with exactly such activities , compromising of more than 1000 members . 
+  thus it is not unreasonable to assume any complex enough software from third parties to be compromised , and implement measures to isolate their effect through independent verification channels . 
+  so far , this has not been done . 
+  to my best knowledge , there is no way to achieve it in a fully remote environment ( at home ) , and this is one of the main reasons why remote voting is not widespread . 
+   you could say that estonia would n't need a large scale fraud , because estonia is n't that large . 
+  his point still stands - it is n't feasible on a large scale . 
+  there were 574 polling stations open during the last general election and 401 419 people voted in them . 
+  assuming even spread , compromising one polling station gives you 700 votes . 
+  in contrast , the single electronic polling station , manned by a seven-people staff , had control over 176 491 votes . 
+  one would have to compromise 252 polling stations to match the effect of compromising the electronic station . 
+  osce observers have called for the use of [ mix networks ] ( http://en.wikipedia.org/wiki/mix_network ) or similiar means to decentralize electronic voting , but nothing of this sort has been implemented so far . 
+   absolutely everything ? 
+  it 's not magic that goes on in the chipset , you can log and double check everything . 
+  every person can check if their vote went to the intended person , you just log in and check it . 
+  you do n't seem to have even a foggy idea of what you are talking about . 
+  the protocol only offers cast-as-intended verification , meaning that a second channel ( smartphone app ) is used to receive a cryptographic proof that the server has received ballot as the voter cast it . 
+  beyond that , there is absolutely no means for verifying the correct operation of the voting system . 
+  does your ballot end up counted in the final results ? 
+  there 's no way for you - or the observers - to tell . 
+  should the vote counting server become compromised , it can output meaningless results without inherently revealing that the system has malfunctioned . 
+  it does not [ fail safely ] ( http://en.wikipedia.org/wiki/fail-safe ) , it fails catastrophically . 
+  if only things in computer security were as simple as `` logging in and checking it '' ... 
+   and you can check who you 've voted for currently . 
+  it is time-limited cast-as-intended feature which does not guarantee that the ballot is also counted-as-intended . 
+   besides , you ca n't independently verify that every paper ballot did indeed go to the person intended , so i do n't see how this is much different . 
+  you can - that 's one of the main tasks of observers . 
+  in some cases , observers have gone as far as sleeping next to ballot boxes to ensure that no-one mingles with them between voting and counting . 
+   you have multiple ways of detecting fraud , from logging ip addresses , times , cookies , amount of votes for each party coupled with the paper ballots and polls before the elections . 
+  the fraud has to be beyond minuscule to pass any statistician taking a longer look at it . 
+  let 's assume that the debian they use for running the system has been compromised exactly like alex j halderman demonstrated ( see the classic piece on [ trusting trust ] ( http://cm.bell-labs.com/who/ken/trust.html ) ) . 
+  what measures guarantee that this is detected in time ? 
+  what is there to observe ? 
+  you ca n't directly observe a computing process going on in the chipset , nor is there any second , human-readable channel to verify that the results reflect the intention of voters . 
+  other voting protocols such as [ scantegrity ii ] ( http://en.wikipedia.org/wiki/scantegrity#method ) leave [ such trails ] ( https://www.youtube.com/watch?v=dum3e1uj76c ) , but they require secure environment - a polling station . 
+  the same set of properties have so far been unachievable in a fully remote and uncontrollable environment . 
+   already seen it many times , already argued about it many times , estonian voting commission has addressed it and debunked it . 
+  they have only published a few overly emotional ( if not outright rambling ) opinion pieces . 
+  if you go looking for scholarly articles on remote voting , papers that share their views and assumptions are very rare to come by . 
+  the general consensus of computer scientists is that any computerized remote voting protocol should be of [ end-to-end verifiable ] ( http://en.wikipedia.org/wiki/end-to-end_auditable_voting_systems ) nature , inherently and unavoidedly revealing any malfunctions and interference - essentially , a fail-safe protocol . 
+  the protocol used in estonia fails silently . 
+  it can fail without leaving any trace of it . 
+   i 've kinda grown tired of arguing about this with people who have seen one video and think they know how our system works , a system that has worked flawlessly the system does not offer an independent way of verifying that it performed as intended ( see [ vvpat ] ( http://en.wikipedia.org/wiki/voter-verified_paper_audit_trail ) ) , thus any suggestion that it has worked flawlessly or that it failed are nothing but a mere opinion . 
+   problem is , especially for the us , they have to , failure to defend even one ally would see their other alliance networks disintegrate overnight that 's one way to look at it . 
+  another is that the more the us is involved in europe , the less resources are available to defend taiwan and other allies . 
+   it 's much more cost-efficient to develop and maintain a capability to kill tanks than to maintain the tanks themselves . 
+  the most cost-effective anti-tank weapon is another tank . 
+  here 's a wonderful excerpt from edward luttwak 's `` strategy '' :  during the cold war , the north atlantic treaty organization faced its greatest threat in what is now peaceful central germany . 
+  and just like the south korean government , nato was politically committed to a preclusive defense in geographic circumstances that would have favored a far more elastic defense .

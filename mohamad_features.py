@@ -14,21 +14,27 @@ import language_tool_python
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
-
+WHAT_COUNTRY = 1
 DO_WE_NEED_TO_EXTRACT_TRIGRAMS = False
 TOP_TRIGRAMS_LOCATION = 'top_trigrams.npy'
 DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS = True
-GRAMMAR_ERRORS_LOCATION = 'grammar_errors.npy'
+GRAMMAR_ERRORS_LOCATION = 'calculated_data\\grammer_errors'
 DO_WE_NEED_TO_EXTRACT_POS_TRIGRAMS = False
 POS_TRIGRAMS_LOCATION = 'top_pos_trigrams.npy'
 DO_WE_NEED_TO_EXTRACT_SENTENCE_LENGTH = False
 SENTENCE_LENGTH_LOCATION = 'average_sentence_lengths.npy'
 
+
 def read_files_from_directory(directory):
     try:
+        global GRAMMAR_ERRORS_LOCATION
         files = defaultdict(list, [])
         i = 0
         for country in os.listdir(directory):
+            if i != WHAT_COUNTRY:
+                i += 1
+                continue
+            GRAMMAR_ERRORS_LOCATION += "\\"+country+".npy"
             i += 1
             print(f"{i}: Reading files from {country}")
             country_path = os.path.join(directory, country)
@@ -133,13 +139,10 @@ def extract_grammar_errors(dic):
     for key in tqdm.tqdm(dic.keys()):
         for content in dic[key]:
             matches = tool.check(content)
-            error_features = {}
+            error_features = defaultdict(int)
             for match in matches:
                 rule_id = match.ruleId
-                if rule_id in error_features:
-                    error_features[rule_id] += 1
-                else:
-                    error_features[rule_id] = 1
+                error_features[rule_id] += 1
             # Normalize by content length
             content_length = len(content.split())  # Count words
             for rule_id in error_features:
@@ -162,8 +165,14 @@ else:
     top_trigrams = np.load(TOP_TRIGRAMS_LOCATION, allow_pickle=True)
 
 if DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS:
-    grammar_errors = extract_grammar_errors(files)
-    np.save(GRAMMAR_ERRORS_LOCATION, grammar_errors, allow_pickle=True)
+    list_of_numbers = [14,0,1,2,3,4,5,6,7,8,9]
+    for i in list_of_numbers:
+        WHAT_COUNTRY = i
+        GRAMMAR_ERRORS_LOCATION = f'calculated_data\\grammer_errors'
+        files1 = read_files_from_directory('europe_data')
+        grammar_errors = extract_grammar_errors(files1)
+        print(f"saving: {WHAT_COUNTRY}")
+        np.save(GRAMMAR_ERRORS_LOCATION, np.array(grammar_errors))
 else:
     grammar_errors = np.load(GRAMMAR_ERRORS_LOCATION, allow_pickle=True)
 

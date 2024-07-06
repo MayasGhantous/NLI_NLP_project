@@ -1,4 +1,5 @@
 
+#helper to calculate the needed data for the project(top unigrams and top errors)
 import time
 import os
 from collections import defaultdict
@@ -8,22 +9,27 @@ from nltk.corpus import stopwords
 from collections import Counter
 import numpy as np
 import tqdm
+import pickle
 import language_tool_python
+from multiprocessing import Pool, cpu_count
 # Download the necessary NLTK resources
-nltk.download('punkt')
-nltk.download('stopwords')
 
+WHAT_COUNTRY = 29
 DO_WE_NEED_TO_EXTRACT_UNIGRAMS = False
 UNIGRAM_LOCATOIN = 'top_unigrams.npy'
 DO_WE_NEED_TO_EXTRACT_TOP_ERRORS = True
-TOP_ERRORS_LOCATION = 'top_errors.npy'
-
+ALL_ERRORS_LOCATION = f'C:\\Users\\update\\Documents\\GitHub\\NLP_project\\calculated_data\\error_count\\all_errors{WHAT_COUNTRY}.npy'
+ERRORS_LOCATION = f'C:\\Users\\update\\Documents\\GitHub\\NLP_project\\calculated_data\\error_count\\indvisual_errors{WHAT_COUNTRY}.npy'
 def read_files_from_directory(directory):
     try:
         files = defaultdict(list,[])
         i=0
         for country in os.listdir(directory):
+            if i != WHAT_COUNTRY:
+                i+=1
+                continue
             i+=1
+            
             print(f"{i}: Reading files from {country}")
             country_path = os.path.join(directory, country)
             if os.path.isfile(country) == False:
@@ -85,10 +91,22 @@ def calculate_the_unigram_feature(dic , top_unigrams):
 #speller = enchant.Dict("en_US")
 tool = language_tool_python.LanguageTool('en-US')
 
-def get_all_edits(chunk_error):
+def get_all_edits(content,chunk_error):
     edits = []
-    for misspelled_word in chunk_error.keys():
-        corrected_word = chunk_error[misspelled_word]
+    for error in chunk_error:
+        error_start = error.offset
+        error_end = error.offset + error.errorLength
+        misspelled_word = content[error_start:error_end]
+        if error.replacements == None:
+            continue
+        if len(error.replacements) == 0:
+            continue
+        corrected_word = error.replacements[0]
+        misspelled_word = misspelled_word.lower()
+        corrected_word = corrected_word.lower()
+        if misspelled_word == corrected_word:
+            continue
+        #print(f"Misspelled word: {misspelled_word}, Corrected word: {corrected_word}")
         if corrected_word == None:
             continue
         i = 0
@@ -116,87 +134,66 @@ def get_all_edits(chunk_error):
             j += 1
     return edits
 
-
-def find_spelling_errors(words):
-    errors = {}
-    for word in words:
-        '''corrected_word = speller.correction(word)
-        if corrected_word!=word and corrected_word!=None:
-            word = word[0].upper() + word[1:]
-            corrected_word = speller.correction(word)
-            if corrected_word == None or corrected_word == word:
-                continue
-            word = word[0].lower() + word[1:]
-
-            errors[word] =corrected_word
-            print(f"Misspelled word: {word}, Corrected word: {corrected_word}")'''
-        
-        '''if speller.check(word) == False:
-            if speller.check(word.upper()) == True:
-                continue
-            word = word[0].upper() + word[1:]
-            if speller.check(word) == True:
-                continue
-            word = word[0].lower() + word[1:]
-            sugestions = speller.suggest(word)
-            if len(sugestions) > 0:
-                errors[word] = sugestions[0]
-                print(f"Misspelled word: {word}, Corrected word: {sugestions[0]}")
-
-            '''
-        correct_word = tool.correct(word)
-        if correct_word == word:
-            continue
-        if correct_word == None:
-            continue
-        if word.upper() == correct_word.upper():
-            continue
-        errors[word] = correct_word
-        print(f"Misspelled word: {word}, Corrected word: {correct_word}")
-        
-        
-
-        
-        
-            
-        
+def find_errors(content):
+    matches = tool.check(content)
+    errors = [match for match in matches if match.ruleId == "MORFOLOGIK_RULE_EN_US"]
     return errors
+
+def prcoess (content):
+    chunk_errors = find_errors(content)
+    edits = get_all_edits(content,chunk_errors)
+    return edits
 
 def get_top_errors(dic, top_errors = 400):
     print("Calculating the top errors")
     overall_errors = Counter()
+    errors_dic = defaultdict(list,[])
+    l=0
     for key in tqdm.tqdm(dic.keys()):
-        for content in dic[key]:
-            chunk_tokens = get_chunk_tokens(content)
-            chunk_errors = find_spelling_errors(chunk_tokens)
-            overall_errors.update(get_all_edits(chunk_errors))
-    return overall_errors.most_common(top_errors)
 
+    
+        for content in dic[key]:
+            chunk_errors = find_errors(content)
+            edits = get_all_edits(content,chunk_errors)
+            errors_dic[key].append(Counter(edits))
+            overall_errors+=Counter(edits)
+        
+    
+    saveing_array = np.array(errors_dic)
+    np.save(ERRORS_LOCATION, saveing_array)
+    most_common  = overall_errors
+    return most_common
 
 def calculate_spelling_errors(dic,top_errors):
     pass
     
 
 
+def main():
+    nltk.download('punkt')
+    nltk.download('stopwords') 
+    time_start = time.time()
+    files = None
+    files = read_files_from_directory('C:\\Users\\update\\Documents\\GitHub\\NLP_project\\europe_data')
+    if DO_WE_NEED_TO_EXTRACT_UNIGRAMS:
+        top_unigrams = extract_top_unigrams(files)
+        top_unigrams = np.array(top_unigrams)
+        np.save(UNIGRAM_LOCATOIN, top_unigrams)
+    else:
+        top_unigrams = np.load(UNIGRAM_LOCATOIN, allow_pickle=True)
 
-time_start = time.time()
-files = None
-files = read_files_from_directory('C:\\Users\\update\\Documents\\GitHub\\NLP_project\\europe_data')
-if DO_WE_NEED_TO_EXTRACT_UNIGRAMS:
-    top_unigrams = extract_top_unigrams(files)
-    top_unigrams = np.array(top_unigrams)
-    np.save(UNIGRAM_LOCATOIN, top_unigrams)
-else:
-    top_unigrams = np.load(UNIGRAM_LOCATOIN, allow_pickle=True)
-if DO_WE_NEED_TO_EXTRACT_TOP_ERRORS:
-    top_errors = get_top_errors(files)
-    top_errors = np.array(top_errors)
-    np.save(TOP_ERRORS_LOCATION, top_errors)
-else:
-    top_errors = np.load(TOP_ERRORS_LOCATION, allow_pickle=True)
+    if DO_WE_NEED_TO_EXTRACT_TOP_ERRORS:
+        top_errors = get_top_errors(files)
+        top_errors = np.array(top_errors)
+        np.save(ALL_ERRORS_LOCATION, top_errors)
+        print(top_errors)
+    else:
+        top_errors = np.load(ALL_ERRORS_LOCATION, allow_pickle=True)
 
-#unigram_feature = calculate_the_unigram_feature(files, top_unigrams)
-time_end = time.time()
-print(f"Top unigrams: {top_unigrams}")
-print(f"Time taken to read data: {time_end - time_start} seconds")
-time_start = time.time()
+    #unigram_feature = calculate_the_unigram_feature(files, top_unigrams)
+    time_end = time.time()
+    print(f"Top unigrams: {top_unigrams}")
+    print(f"Time taken to read data: {time_end - time_start} seconds")
+    time_start = time.time()
+if __name__ == "__main__":
+    main() 

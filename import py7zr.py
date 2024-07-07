@@ -14,13 +14,23 @@ import language_tool_python
 from multiprocessing import Pool, cpu_count
 # Download the necessary NLTK resources
 
-WHAT_COUNTRY = 29
+DATA_LOCATION = 'europe_data'
+WHAT_COUNTRY = 0
 DO_WE_NEED_TO_EXTRACT_UNIGRAMS = False
 UNIGRAM_LOCATOIN = 'top_unigrams.npy'
-DO_WE_NEED_TO_EXTRACT_TOP_ERRORS = True
-ALL_ERRORS_LOCATION = f'C:\\Users\\update\\Documents\\GitHub\\NLP_project\\calculated_data\\error_count\\all_errors{WHAT_COUNTRY}.npy'
-ERRORS_LOCATION = f'C:\\Users\\update\\Documents\\GitHub\\NLP_project\\calculated_data\\error_count\\indvisual_errors{WHAT_COUNTRY}.npy'
+DO_WE_NEED_TO_EXTRACT_TOP_ERRORS = False
+ALL_ERRORS_LOCATION = f'calculated_data\\error_count\\all_errors{WHAT_COUNTRY}.npy'
+ERRORS_LOCATION = f'calculated_data\\error_count\\indvisual_errors{WHAT_COUNTRY}.npy'
+
+DO_WE_NEED_TO_SET_FUNCTION_WORDS = True
+FUNCTION_WORDS_ARRAY_LOCATION = 'calculated_data\\function_words.npy'
+FUNCTION_WORDS_TEXT_LOCATION = 'function_words.txt'
+DO_WE_NEED_TOCALCULATE_FUNCTION_WORDS_FEATURE = True
+FUNCTOIN_WORDS_FEATURE_LOCATION = 'calculated_data\\function_words_features'
+
 def read_files_from_directory(directory):
+    global FUNCTOIN_WORDS_FEATURE_LOCATION
+    global WHAT_COUNTRY
     try:
         files = defaultdict(list,[])
         i=0
@@ -29,7 +39,7 @@ def read_files_from_directory(directory):
                 i+=1
                 continue
             i+=1
-            
+            FUNCTOIN_WORDS_FEATURE_LOCATION += "\\"+country+".npy"
             print(f"{i}: Reading files from {country}")
             country_path = os.path.join(directory, country)
             if os.path.isfile(country) == False:
@@ -164,17 +174,41 @@ def get_top_errors(dic, top_errors = 400):
     most_common  = overall_errors
     return most_common
 
-def calculate_spelling_errors(dic,top_errors):
-    pass
+def create_function_words_array(): 
+    with open(FUNCTION_WORDS_TEXT_LOCATION, 'r') as file:
+        function_words = file.read().split()
+    np.save(FUNCTION_WORDS_ARRAY_LOCATION, function_words)
+
+def calculate_function_words_feature(dic, function_words):
+    function_words_feature = defaultdict(list,[])
+    print("Calculating the function words feature")
+    for key in tqdm.tqdm(dic.keys()):
+        for content in dic[key]:
+            chunk_tokens = get_chunk_tokens(content)
+            chunk_tokens_counter = Counter(chunk_tokens)
+            function_words_feature[key].append([chunk_tokens_counter[function_word] for function_word in function_words])
+    return function_words_feature
     
 
 
 def main():
+    global WHAT_COUNTRY
+    global DO_WE_NEED_TO_EXTRACT_UNIGRAMS
+    global DO_WE_NEED_TO_EXTRACT_TOP_ERRORS
+    global DO_WE_NEED_TO_SET_FUNCTION_WORDS
+    global DO_WE_NEED_TOCALCULATE_FUNCTION_WORDS_FEATURE
+    global DATA_LOCATION
+    global UNIGRAM_LOCATOIN
+    global ALL_ERRORS_LOCATION
+    global FUNCTION_WORDS_ARRAY_LOCATION
+    global FUNCTOIN_WORDS_FEATURE_LOCATION
+    global ERRORS_LOCATION
+    global FUNCTION_WORDS_TEXT_LOCATION
     nltk.download('punkt')
     nltk.download('stopwords') 
     time_start = time.time()
     files = None
-    files = read_files_from_directory('C:\\Users\\update\\Documents\\GitHub\\NLP_project\\europe_data')
+    files = read_files_from_directory(DATA_LOCATION)
     if DO_WE_NEED_TO_EXTRACT_UNIGRAMS:
         top_unigrams = extract_top_unigrams(files)
         top_unigrams = np.array(top_unigrams)
@@ -189,6 +223,22 @@ def main():
         print(top_errors)
     else:
         top_errors = np.load(ALL_ERRORS_LOCATION, allow_pickle=True)
+
+    if DO_WE_NEED_TO_SET_FUNCTION_WORDS:
+        create_function_words_array()
+
+    if DO_WE_NEED_TOCALCULATE_FUNCTION_WORDS_FEATURE:
+        function_words = np.load(FUNCTION_WORDS_ARRAY_LOCATION, allow_pickle=True)
+        list_of_numbers =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+        for i in list_of_numbers:
+            WHAT_COUNTRY = i
+            FUNCTOIN_WORDS_FEATURE_LOCATION = 'calculated_data\\function_words_features'
+            files = read_files_from_directory(DATA_LOCATION)
+            function_words_feature = calculate_function_words_feature(files, function_words)
+            function_words_feature = np.array(function_words_feature)
+            np.save(FUNCTOIN_WORDS_FEATURE_LOCATION, function_words_feature)
+
+        
 
     #unigram_feature = calculate_the_unigram_feature(files, top_unigrams)
     time_end = time.time()

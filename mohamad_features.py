@@ -165,7 +165,7 @@ else:
     top_trigrams = np.load(TOP_TRIGRAMS_LOCATION, allow_pickle=True)
 
 if DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS:
-    list_of_numbers = [14,0,1,2,3,4,5,6,7,8,9]
+    list_of_numbers = [8,9]
     for i in list_of_numbers:
         WHAT_COUNTRY = i
         GRAMMAR_ERRORS_LOCATION = f'calculated_data\\grammer_errors'

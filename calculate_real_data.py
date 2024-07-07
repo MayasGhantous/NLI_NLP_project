@@ -15,13 +15,14 @@ CALCULATE_THE_ERROR_FEATURE = True
 REAL_ERROR_FEATURE_LOCATION = 'calculated_data\\real_spell_error_feature.npy'
 UNIGRAM_LOCATOIN = 'top_unigrams.npy'
 ERROR_HELPER_LOCATION = "calculated_data\\error_count"
+
+FUNCTION_WORDS_ARRAY_LOCATION = 'calculated_data\\function_words.npy'
 def read_files_from_directory(directory):
     try:
         files = defaultdict(list,[])
         i=0
         for country in os.listdir(directory):
             i+=1
-            
             print(f"{i}: Reading files from {country}")
             country_path = os.path.join(directory, country)
             if os.path.isfile(country) == False:

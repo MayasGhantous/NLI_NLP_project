@@ -15,31 +15,58 @@ from multiprocessing import Pool, cpu_count
 # Download the necessary NLTK resources
 
 DATA_LOCATION = 'europe_data'
-WHAT_COUNTRY = 0
-DO_WE_NEED_TO_EXTRACT_UNIGRAMS = False
-UNIGRAM_LOCATOIN = 'top_unigrams.npy'
+WHAT_COUNTRY = 30
+DO_WE_NEED_TO_EXTRACT_UNIGRAMS = True#True
+UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams'
+DO_WE_NEED_TO_EXTRACT_TOP_UNIGRAMS = False#True
+Top_UNIGRAM_LOCATOIN = 'top_unigrams.npy'
 DO_WE_NEED_TO_EXTRACT_TOP_ERRORS = False
 ALL_ERRORS_LOCATION = f'calculated_data\\error_count\\all_errors{WHAT_COUNTRY}.npy'
 ERRORS_LOCATION = f'calculated_data\\error_count\\indvisual_errors{WHAT_COUNTRY}.npy'
 
-DO_WE_NEED_TO_SET_FUNCTION_WORDS = True
+DO_WE_NEED_TO_SET_FUNCTION_WORDS = False
 FUNCTION_WORDS_ARRAY_LOCATION = 'calculated_data\\function_words.npy'
 FUNCTION_WORDS_TEXT_LOCATION = 'function_words.txt'
-DO_WE_NEED_TOCALCULATE_FUNCTION_WORDS_FEATURE = True
+DO_WE_NEED_TOCALCULATE_FUNCTION_WORDS_FEATURE = False
 FUNCTOIN_WORDS_FEATURE_LOCATION = 'calculated_data\\function_words_features'
 
+
+
+GET_ALL_FIELS = False
 def read_files_from_directory(directory):
-    global FUNCTOIN_WORDS_FEATURE_LOCATION
     global WHAT_COUNTRY
+    global DO_WE_NEED_TO_EXTRACT_UNIGRAMS
+    global DO_WE_NEED_TO_EXTRACT_TOP_ERRORS
+    global DO_WE_NEED_TO_SET_FUNCTION_WORDS
+    global DO_WE_NEED_TOCALCULATE_FUNCTION_WORDS_FEATURE
+    global DATA_LOCATION
+    global UNIGRAM_LOCATOIN
+    global ALL_ERRORS_LOCATION
+    global FUNCTION_WORDS_ARRAY_LOCATION
+    global FUNCTOIN_WORDS_FEATURE_LOCATION
+    global ERRORS_LOCATION
+    global FUNCTION_WORDS_TEXT_LOCATION
+    global DO_WE_NEED_TO_EXTRACT_TOP_UNIGRAMS
+    global Top_UNIGRAM_LOCATOIN
+    global GET_ALL_FIELS
     try:
         files = defaultdict(list,[])
         i=0
         for country in os.listdir(directory):
-            if i != WHAT_COUNTRY:
+            if i != WHAT_COUNTRY and GET_ALL_FIELS == False:
                 i+=1
                 continue
             i+=1
-            FUNCTOIN_WORDS_FEATURE_LOCATION += "\\"+country+".npy"
+            if DO_WE_NEED_TOCALCULATE_FUNCTION_WORDS_FEATURE:
+                FUNCTOIN_WORDS_FEATURE_LOCATION += "\\"+country+".npy"
+            if DO_WE_NEED_TO_EXTRACT_UNIGRAMS:
+                UNIGRAM_LOCATOIN += "\\"+country+'.npy'
+            '''if DO_WE_NEED_TO_EXTRACT_TOP_ERRORS:
+                ALL_ERRORS_LOCATION += "\\"+country+'.npy'
+                ERRORS_LOCATION += "\\"+country+'.npy'''
+
+
+            #ALL_ERRORS_LOCATION 
             print(f"{i}: Reading files from {country}")
             country_path = os.path.join(directory, country)
             if os.path.isfile(country) == False:
@@ -95,7 +122,7 @@ def calculate_the_unigram_feature(dic , top_unigrams):
             chunk_tokens = get_chunk_tokens(content)
             chunk_tokens_counter = Counter(chunk_tokens)
             total_tokens = len(chunk_tokens)
-            unigram_feature[key].append({unigram: chunk_tokens_counter[unigram] / total_tokens for unigram, _ in top_unigrams})
+            unigram_feature[key].append([ chunk_tokens_counter[unigram] / total_tokens for unigram, _ in top_unigrams])
     return unigram_feature
 
 #speller = enchant.Dict("en_US")
@@ -184,7 +211,9 @@ def calculate_function_words_feature(dic, function_words):
     print("Calculating the function words feature")
     for key in tqdm.tqdm(dic.keys()):
         for content in dic[key]:
-            chunk_tokens = get_chunk_tokens(content)
+            words = word_tokenize(content)
+            chunk_tokens = [word.lower() for word in words]
+            #chunk_tokens = get_chunk_tokens(content)
             chunk_tokens_counter = Counter(chunk_tokens)
             function_words_feature[key].append([chunk_tokens_counter[function_word] for function_word in function_words])
     return function_words_feature
@@ -204,25 +233,41 @@ def main():
     global FUNCTOIN_WORDS_FEATURE_LOCATION
     global ERRORS_LOCATION
     global FUNCTION_WORDS_TEXT_LOCATION
+    global DO_WE_NEED_TO_EXTRACT_TOP_UNIGRAMS
+    global Top_UNIGRAM_LOCATOIN
+    global GET_ALL_FIELS
     nltk.download('punkt')
     nltk.download('stopwords') 
     time_start = time.time()
-    files = None
-    files = read_files_from_directory(DATA_LOCATION)
-    if DO_WE_NEED_TO_EXTRACT_UNIGRAMS:
+    
+    if DO_WE_NEED_TO_EXTRACT_TOP_UNIGRAMS:
+        GET_ALL_FIELS = True
+        files = None
+        files = read_files_from_directory(DATA_LOCATION)
         top_unigrams = extract_top_unigrams(files)
         top_unigrams = np.array(top_unigrams)
-        np.save(UNIGRAM_LOCATOIN, top_unigrams)
+        np.save(Top_UNIGRAM_LOCATOIN, top_unigrams)
+        GET_ALL_FIELS = False
     else:
-        top_unigrams = np.load(UNIGRAM_LOCATOIN, allow_pickle=True)
+        top_unigrams = np.load(Top_UNIGRAM_LOCATOIN, allow_pickle=True)
+
+    if DO_WE_NEED_TO_EXTRACT_UNIGRAMS:
+        list_of_numbers =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+        for i in list_of_numbers:
+            WHAT_COUNTRY = i
+            UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams'
+            files = read_files_from_directory(DATA_LOCATION)
+            unigram_feature = calculate_the_unigram_feature(files, top_unigrams)
+            unigram_feature = np.array(unigram_feature)
+            np.save(UNIGRAM_LOCATOIN, unigram_feature)
+
+
 
     if DO_WE_NEED_TO_EXTRACT_TOP_ERRORS:
         top_errors = get_top_errors(files)
         top_errors = np.array(top_errors)
         np.save(ALL_ERRORS_LOCATION, top_errors)
         print(top_errors)
-    else:
-        top_errors = np.load(ALL_ERRORS_LOCATION, allow_pickle=True)
 
     if DO_WE_NEED_TO_SET_FUNCTION_WORDS:
         create_function_words_array()

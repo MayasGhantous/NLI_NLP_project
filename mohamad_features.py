@@ -15,8 +15,10 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
 WHAT_COUNTRY = 1
-DO_WE_NEED_TO_EXTRACT_TRIGRAMS = False
+DO_WE_NEED_TO_EXTRACT_TOP_TRIGRAMS = False
 TOP_TRIGRAMS_LOCATION = 'top_trigrams.npy'
+DO_WE_NEED_TO_EXTRACT_TRIGRAMS = False
+TRIGRAM_LOCATION = 'calculated_data\\charracter_trigrams'
 DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS = True
 GRAMMAR_ERRORS_LOCATION = 'calculated_data\\grammer_errors'
 DO_WE_NEED_TO_EXTRACT_POS_TRIGRAMS = False
@@ -25,16 +27,25 @@ DO_WE_NEED_TO_EXTRACT_SENTENCE_LENGTH = False
 SENTENCE_LENGTH_LOCATION = 'average_sentence_lengths.npy'
 
 
+
+
 def read_files_from_directory(directory):
     try:
         global GRAMMAR_ERRORS_LOCATION
+        global TRIGRAM_LOCATION
+        global WHAT_COUNTRY
+        global DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS
+        global DO_WE_NEED_TO_EXTRACT_TRIGRAMS
         files = defaultdict(list, [])
         i = 0
         for country in os.listdir(directory):
             if i != WHAT_COUNTRY:
                 i += 1
                 continue
-            GRAMMAR_ERRORS_LOCATION += "\\"+country+".npy"
+            if DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS:
+                GRAMMAR_ERRORS_LOCATION += "\\"+country+".npy"
+            if DO_WE_NEED_TO_EXTRACT_TRIGRAMS:
+                TRIGRAM_LOCATION += "\\"+country+".npy"
             i += 1
             print(f"{i}: Reading files from {country}")
             country_path = os.path.join(directory, country)
@@ -79,7 +90,7 @@ def calculate_trigram_features(dic, top_trigrams):
             trigrams = get_character_ngrams(content)
             trigram_counter = Counter(trigrams)
             total_trigrams = len(trigrams)
-            trigram_features[key].append({trigram: trigram_counter[trigram] / total_trigrams for trigram, _ in top_trigrams})
+            trigram_features[key].append([trigram_counter[trigram] / total_trigrams for trigram, _ in top_trigrams])
     return trigram_features
 
 
@@ -157,15 +168,25 @@ time_start = time.time()
 files = None
 files = read_files_from_directory('europe_data')
 
-if DO_WE_NEED_TO_EXTRACT_TRIGRAMS:
+if DO_WE_NEED_TO_EXTRACT_TOP_TRIGRAMS:
     top_trigrams = extract_top_trigrams(files)
     top_trigrams = np.array(top_trigrams)
     np.save(TOP_TRIGRAMS_LOCATION, top_trigrams)
-else:
+
+if DO_WE_NEED_TO_EXTRACT_TRIGRAMS:
+    list_of_numbers = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
     top_trigrams = np.load(TOP_TRIGRAMS_LOCATION, allow_pickle=True)
+    for i in list_of_numbers:
+        WHAT_COUNTRY = i
+        TRIGRAM_LOCATION = f'calculated_data\\charracter_trigrams'
+        files1 = read_files_from_directory('europe_data')
+        trigrams = calculate_trigram_features(files1,top_trigrams)
+        print(f"saving: {WHAT_COUNTRY}")
+        np.save(TRIGRAM_LOCATION, np.array(trigrams))
+
 
 if DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS:
-    list_of_numbers = [8,9]
+    list_of_numbers = [0,1,2,3,4,5]
     for i in list_of_numbers:
         WHAT_COUNTRY = i
         GRAMMAR_ERRORS_LOCATION = f'calculated_data\\grammer_errors'

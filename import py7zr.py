@@ -247,9 +247,9 @@ def calulate_ditsance(content, chunk_errors):
             continue
         distence += lev.distance(misspelled_word, corrected_word) 
         count += 1
-    if count != 0:
-        return distence/count
-    return 0
+    if count == 0:
+        return 0
+    return distence/count
 
 
 

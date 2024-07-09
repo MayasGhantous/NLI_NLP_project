@@ -140,32 +140,34 @@ if __name__ == '__main__':
     #feature = get_the_sentence_length_feature()
     feature = get_CharTrigram_Tokens_Unigram_Spelling_Feature()
     FEATURE_NAME = 'CharTrigram_Tokens_Unigram_Spelling'
+    KERNEL = 'rbf'
     print(f"Feature {FEATURE_NAME} loaded")
     if DO_WE_NEED_NLI_MODEL:
         
         X, y = create_NLI(feature)
-        print(len(y))
         rus = RandomUnderSampler(random_state=42)
         X, y= rus.fit_resample(X, y)
         X = pd.DataFrame(X)
         X = csr_matrix(X)
         print(X.shape)
-        print(len(y))
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42, stratify=y)
 
         # Create the model
-        model = SVC()
+        model = SVC(kernel=KERNEL)
 
         # Train the model
         model.fit(X_train, y_train)
 
         # Test the model
-        y_pred = model.predict(X_test)
+        y_pred_train = model.predict(X_train)
+        print("NLI model train accuracy")
+        print(accuracy_score(y_train, y_pred_train))
 
-        # Print the accuracy
+        y_pred = model.predict(X_test)
         print("NLI model")
         print(accuracy_score(y_test, y_pred))
         saving_location = f'{MODELS_LOCATION}\\{FEATURE_NAME}_NLI_model.pkl'
+
         with open(saving_location, 'wb') as file:
             print("saving the model")
             pickle.dump(model, file)
@@ -174,17 +176,15 @@ if __name__ == '__main__':
 
     if DO_WE_NEED_FAMILY_MODEL:
         X, y = cereate_family(feature)
-        print(len(y))
         rus = RandomUnderSampler(random_state=42)
         X, y= rus.fit_resample(X, y)
         X = pd.DataFrame(X)
         X = csr_matrix(X)
         print(X.shape)
-        print(len(y))
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42, stratify=y)
 
         # Create the model
-        model = SVC()
+        model = SVC(kernel=KERNEL)
 
         # Train the model
         model.fit(X_train, y_train)
@@ -201,17 +201,15 @@ if __name__ == '__main__':
 
     if DO_WE_NEED_BINARY_MODEL:
         X, y = create_binary(feature)
-        print(len(y))
         rus = RandomUnderSampler(random_state=42)
         X, y= rus.fit_resample(X, y)
         X = pd.DataFrame(X)
         X = csr_matrix(X)
         print(X.shape)
-        print(len(y))
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42, stratify=y)
 
         # Create the model
-        model = SVC()
+        model = SVC(kernel=KERNEL)
 
         # Train the model
         model.fit(X_train, y_train)

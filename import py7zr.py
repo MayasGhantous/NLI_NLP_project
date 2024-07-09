@@ -12,11 +12,12 @@ import tqdm
 import pickle
 import language_tool_python
 from multiprocessing import Pool, cpu_count
+import Levenshtein as lev
 # Download the necessary NLTK resources
 
 DATA_LOCATION = 'europe_data'
 WHAT_COUNTRY = 30
-DO_WE_NEED_TO_EXTRACT_UNIGRAMS = True#True
+DO_WE_NEED_TO_EXTRACT_UNIGRAMS = False#True
 UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams'
 DO_WE_NEED_TO_EXTRACT_TOP_UNIGRAMS = False#True
 Top_UNIGRAM_LOCATOIN = 'top_unigrams.npy'
@@ -29,6 +30,8 @@ FUNCTION_WORDS_ARRAY_LOCATION = 'calculated_data\\function_words.npy'
 FUNCTION_WORDS_TEXT_LOCATION = 'function_words.txt'
 DO_WE_NEED_TOCALCULATE_FUNCTION_WORDS_FEATURE = False
 FUNCTOIN_WORDS_FEATURE_LOCATION = 'calculated_data\\function_words_features'
+DO_WE_NEED_TO_EXTARCT_EDIT_DISTANCE = True
+EDIT_DISTANCE_LOCATION = 'calculated_data\\edit_distance'
 
 
 
@@ -49,6 +52,8 @@ def read_files_from_directory(directory):
     global DO_WE_NEED_TO_EXTRACT_TOP_UNIGRAMS
     global Top_UNIGRAM_LOCATOIN
     global GET_ALL_FIELS
+    global DO_WE_NEED_TO_EXTARCT_EDIT_DISTANCE
+    global EDIT_DISTANCE_LOCATION
     try:
         files = defaultdict(list,[])
         i=0
@@ -64,6 +69,8 @@ def read_files_from_directory(directory):
             '''if DO_WE_NEED_TO_EXTRACT_TOP_ERRORS:
                 ALL_ERRORS_LOCATION += "\\"+country+'.npy'
                 ERRORS_LOCATION += "\\"+country+'.npy'''
+            if DO_WE_NEED_TO_EXTARCT_EDIT_DISTANCE:
+                EDIT_DISTANCE_LOCATION += "\\"+country+'.npy'
 
 
             #ALL_ERRORS_LOCATION 
@@ -217,6 +224,43 @@ def calculate_function_words_feature(dic, function_words):
             chunk_tokens_counter = Counter(chunk_tokens)
             function_words_feature[key].append([chunk_tokens_counter[function_word] for function_word in function_words])
     return function_words_feature
+
+
+def calulate_ditsance(content, chunk_errors):
+    count = 0 
+    distence = 0
+    for error in chunk_errors:
+        error_start = error.offset
+        error_end = error.offset + error.errorLength
+        misspelled_word = content[error_start:error_end]
+        if error.replacements == None:
+            continue
+        if len(error.replacements) == 0:
+            continue
+        corrected_word = error.replacements[0]
+        misspelled_word = misspelled_word.lower()
+        corrected_word = corrected_word.lower()
+        if misspelled_word == corrected_word:
+            continue
+        #print(f"Misspelled word: {misspelled_word}, Corrected word: {corrected_word}")
+        if corrected_word == None:
+            continue
+        distence += lev.distance(misspelled_word, corrected_word) 
+        count += 1
+    return distence/count
+
+
+
+def calculate_edit_distance(dic):
+    edit_distance_feature = defaultdict(list,[])
+    print("Calculating the edit distance feature")
+    for key in tqdm.tqdm(dic.keys()):
+        for content in dic[key]:
+            chunk_errors = find_errors(content)
+            distance = calulate_ditsance(content, chunk_errors)
+            edit_distance_feature[key].append([distance])
+        
+    return edit_distance_feature
     
 
 
@@ -236,6 +280,8 @@ def main():
     global DO_WE_NEED_TO_EXTRACT_TOP_UNIGRAMS
     global Top_UNIGRAM_LOCATOIN
     global GET_ALL_FIELS
+    global DO_WE_NEED_TO_EXTARCT_EDIT_DISTANCE
+    global EDIT_DISTANCE_LOCATION
     nltk.download('punkt')
     nltk.download('stopwords') 
     time_start = time.time()
@@ -282,6 +328,16 @@ def main():
             function_words_feature = calculate_function_words_feature(files, function_words)
             function_words_feature = np.array(function_words_feature)
             np.save(FUNCTOIN_WORDS_FEATURE_LOCATION, function_words_feature)
+
+    if DO_WE_NEED_TO_EXTARCT_EDIT_DISTANCE:
+        list_of_numbers =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+        for i in list_of_numbers:
+            WHAT_COUNTRY = i
+            EDIT_DISTANCE_LOCATION = 'calculated_data\\edit_distance'
+            files = read_files_from_directory(DATA_LOCATION)
+            edit_distance_feature = calculate_edit_distance(files)
+            edit_distance_feature = np.array(edit_distance_feature)
+            np.save(EDIT_DISTANCE_LOCATION, edit_distance_feature)
 
         
 

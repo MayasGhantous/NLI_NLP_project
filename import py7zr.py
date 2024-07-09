@@ -247,7 +247,9 @@ def calulate_ditsance(content, chunk_errors):
             continue
         distence += lev.distance(misspelled_word, corrected_word) 
         count += 1
-    return distence/count
+    if count != 0:
+        return distence/count
+    return 0
 
 
 
@@ -330,7 +332,7 @@ def main():
             np.save(FUNCTOIN_WORDS_FEATURE_LOCATION, function_words_feature)
 
     if DO_WE_NEED_TO_EXTARCT_EDIT_DISTANCE:
-        list_of_numbers =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+        list_of_numbers =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]
         for i in list_of_numbers:
             WHAT_COUNTRY = i
             EDIT_DISTANCE_LOCATION = 'calculated_data\\edit_distance'

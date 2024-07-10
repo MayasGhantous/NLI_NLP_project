@@ -108,9 +108,9 @@ def create_binary(feature):
 def cereate_family(feature):
     Native_English = ['Australia','UK','US','NewZealand','Ireland']
     Germanic = ['Austria', 'Germany','Netherlands','Norway','Sweden']
-    Slavic = ['Bulgaria','Croatia','Czech','Poland','Russia','Serbia','Slovenia']
+    Slavic = ['Bulgaria','Croatia','Czech','Poland','Russia','Serbia','Slovenia','Lithuania']
     Romance = ['France','Italy','Mexico','Portugal','Spain','Romania']
-    others = ['Estonia','Finland','Greece','Hungary','Lithuania','Turkey']
+    others = ['Estonia','Finland','Greece','Hungary','Turkey']
     y = []
     X = []
     for key in feature.keys():
@@ -124,8 +124,7 @@ def cereate_family(feature):
         elif lablel in Romance:
             y.extend([3 for _ in range(len(feature[key]))])
         elif lablel in others:
-            continue
-            #y.extend([4 for _ in range(len(feature[key]))])
+            y.extend([4 for _ in range(len(feature[key]))])
         else:
             print(f"Error: {lablel}")
         X.extend(feature[key])

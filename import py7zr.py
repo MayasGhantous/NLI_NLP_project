@@ -21,16 +21,16 @@ DO_WE_NEED_TO_EXTRACT_UNIGRAMS = False#True
 UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams'
 DO_WE_NEED_TO_EXTRACT_TOP_UNIGRAMS = False#True
 Top_UNIGRAM_LOCATOIN = 'top_unigrams.npy'
-DO_WE_NEED_TO_EXTRACT_TOP_ERRORS = False
-ALL_ERRORS_LOCATION = f'calculated_data\\error_count\\all_errors{WHAT_COUNTRY}.npy'
-ERRORS_LOCATION = f'calculated_data\\error_count\\indvisual_errors{WHAT_COUNTRY}.npy'
+DO_WE_NEED_TO_EXTRACT_TOP_ERRORS = True
+ALL_ERRORS_LOCATION = f'calculated_data\\error_count2\\all_errors{WHAT_COUNTRY}.npy'
+ERRORS_LOCATION = f'calculated_data\\error_count2\\indvisual_errors{WHAT_COUNTRY}.npy'
 
 DO_WE_NEED_TO_SET_FUNCTION_WORDS = False
 FUNCTION_WORDS_ARRAY_LOCATION = 'calculated_data\\function_words.npy'
 FUNCTION_WORDS_TEXT_LOCATION = 'function_words.txt'
 DO_WE_NEED_TOCALCULATE_FUNCTION_WORDS_FEATURE = False
 FUNCTOIN_WORDS_FEATURE_LOCATION = 'calculated_data\\function_words_features'
-DO_WE_NEED_TO_EXTARCT_EDIT_DISTANCE = True
+DO_WE_NEED_TO_EXTARCT_EDIT_DISTANCE = False
 EDIT_DISTANCE_LOCATION = 'calculated_data\\edit_distance'
 
 
@@ -66,9 +66,9 @@ def read_files_from_directory(directory):
                 FUNCTOIN_WORDS_FEATURE_LOCATION += "\\"+country+".npy"
             if DO_WE_NEED_TO_EXTRACT_UNIGRAMS:
                 UNIGRAM_LOCATOIN += "\\"+country+'.npy'
-            '''if DO_WE_NEED_TO_EXTRACT_TOP_ERRORS:
-                ALL_ERRORS_LOCATION += "\\"+country+'.npy'
-                ERRORS_LOCATION += "\\"+country+'.npy'''
+            if DO_WE_NEED_TO_EXTRACT_TOP_ERRORS:
+                ALL_ERRORS_LOCATION += country+'.npy'
+                ERRORS_LOCATION += country+'.npy'
             if DO_WE_NEED_TO_EXTARCT_EDIT_DISTANCE:
                 EDIT_DISTANCE_LOCATION += "\\"+country+'.npy'
 
@@ -136,7 +136,7 @@ def calculate_the_unigram_feature(dic , top_unigrams):
 tool = language_tool_python.LanguageTool('en-US')
 
 def get_all_edits(content,chunk_error):
-    edits = []
+    edits = Counter()
     for error in chunk_error:
         error_start = error.offset
         error_end = error.offset + error.errorLength
@@ -153,8 +153,9 @@ def get_all_edits(content,chunk_error):
         #print(f"Misspelled word: {misspelled_word}, Corrected word: {corrected_word}")
         if corrected_word == None:
             continue
-        i = 0
+        '''i = 0
         j = 0
+        
         while i < len(misspelled_word) and j < len(corrected_word):
             if misspelled_word[i] != corrected_word[j]:
                 if len(misspelled_word) > len(corrected_word):
@@ -176,6 +177,16 @@ def get_all_edits(content,chunk_error):
         while j < len(corrected_word):
             edits.append(f'ins({corrected_word[j]})')
             j += 1
+        '''
+        current_edit = lev.editops(misspelled_word, corrected_word)
+        for edit in current_edit:
+            if edit[0] == 'replace':
+                edits[f'sub({misspelled_word[edit[1]]},{corrected_word[edit[2]]})'] += 1
+            elif edit[0] == 'insert':
+                edits[f'ins({corrected_word[edit[2]]})'] += 1
+            elif edit[0] == 'delete':
+                edits[f'del({misspelled_word[edit[1]]})'] += 1
+
     return edits
 
 def find_errors(content):
@@ -199,8 +210,8 @@ def get_top_errors(dic, top_errors = 400):
         for content in dic[key]:
             chunk_errors = find_errors(content)
             edits = get_all_edits(content,chunk_errors)
-            errors_dic[key].append(Counter(edits))
-            overall_errors+=Counter(edits)
+            errors_dic[key].append(edits)
+            overall_errors+=edits
         
     
     saveing_array = np.array(errors_dic)
@@ -227,7 +238,6 @@ def calculate_function_words_feature(dic, function_words):
 
 
 def calulate_ditsance(content, chunk_errors):
-    count = 0 
     distence = 0
     for error in chunk_errors:
         error_start = error.offset
@@ -246,10 +256,9 @@ def calulate_ditsance(content, chunk_errors):
         if corrected_word == None:
             continue
         distence += lev.distance(misspelled_word, corrected_word) 
-        count += 1
-    if count == 0:
-        return 0
-    return distence/count
+    return distence/len(word_tokenize(content))
+
+
 
 
 
@@ -258,8 +267,8 @@ def calculate_edit_distance(dic):
     print("Calculating the edit distance feature")
     for key in tqdm.tqdm(dic.keys()):
         for content in dic[key]:
-            chunk_errors = find_errors(content)
-            distance = calulate_ditsance(content, chunk_errors)
+            chunk_erroes = find_errors(content)
+            distance = calulate_ditsance(content,chunk_erroes)
             edit_distance_feature[key].append([distance])
         
     return edit_distance_feature
@@ -312,10 +321,16 @@ def main():
 
 
     if DO_WE_NEED_TO_EXTRACT_TOP_ERRORS:
-        top_errors = get_top_errors(files)
-        top_errors = np.array(top_errors)
-        np.save(ALL_ERRORS_LOCATION, top_errors)
-        print(top_errors)
+        list_of_numbers =[6,7,8,9,10,11,12,13,14]
+        for i in list_of_numbers:
+            WHAT_COUNTRY = i
+            ALL_ERRORS_LOCATION = f'calculated_data\\error_count2\\all_errors_'
+            ERRORS_LOCATION = f'calculated_data\\error_count2\\indvisual_errors_'
+            files = read_files_from_directory(DATA_LOCATION)
+            top_errors = get_top_errors(files)
+            top_errors = np.array(top_errors)
+            np.save(ALL_ERRORS_LOCATION, top_errors)
+            print(top_errors)
 
     if DO_WE_NEED_TO_SET_FUNCTION_WORDS:
         create_function_words_array()
@@ -332,7 +347,7 @@ def main():
             np.save(FUNCTOIN_WORDS_FEATURE_LOCATION, function_words_feature)
 
     if DO_WE_NEED_TO_EXTARCT_EDIT_DISTANCE:
-        list_of_numbers =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+        list_of_numbers =[8,9,10,11,12,13,14]
         for i in list_of_numbers:
             WHAT_COUNTRY = i
             EDIT_DISTANCE_LOCATION = 'calculated_data\\edit_distance'

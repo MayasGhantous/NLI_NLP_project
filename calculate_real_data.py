@@ -24,11 +24,16 @@ SENTENCE_LENGTH_LOCATION = 'average_sentence_lengths.npy'
 TRIGRAM_LOCATION = 'calculated_data\\charracter_trigrams'  
 GRAMMAR_ERRORS_LOCATION = 'calculated_data\\grammer_errors'
 POS_TRIGRAM_LOCATION = 'top_pos_trigrams.npy'
-def read_files_from_directory(directory):
+GET_ALL_FIELS = False
+
+def read_files_from_directory(directory, WHAT_COUNTRY):
     try:
         files = defaultdict(list,[])
         i=0
         for country in os.listdir(directory):
+            if i != WHAT_COUNTRY and GET_ALL_FIELS == False:
+                i+=1
+                continue
             i+=1
             print(f"{i}: Reading files from {country}")
             country_path = os.path.join(directory, country)
@@ -175,7 +180,18 @@ def get_CharTrigram_Tokens_Unigram_Spelling_Feature():
             new_values[key][-1].extend(Spelling[key][i])
     return new_values
 
-    
+
+def get_Function_words_Pos_Trigram_Sentence_length_Feature():
+    FunctionWords = get_the_function_words_feature()
+    PosTrigram = get_pos_trigram()
+    SentenceLength = get_the_sentence_length_feature()
+    new_values = defaultdict(list,[])
+    for key in FunctionWords.keys():
+        for i in range(len(FunctionWords[key])):
+            new_values[key].append(FunctionWords[key][i])
+            new_values[key][-1].extend(PosTrigram[key][i])
+            new_values[key][-1].extend(SentenceLength[key][i])
+    return new_values
         
     
 

@@ -3,7 +3,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from calculate_real_data import get_the_error_feature,get_the_function_words_feature,get_the_Unigram_feature
 from calculate_real_data import get_the_sentence_length_feature, get_trigram_Feature,get_the_grammer_feature
-from calculate_real_data import get_pos_trigram,get_CharTrigram_Tokens_Unigram_Spelling_Feature
+from calculate_real_data import get_pos_trigram,get_CharTrigram_Tokens_Unigram_Spelling_Feature, get_Function_words_Pos_Trigram_Sentence_length_Feature
 import pandas as pd
 from scipy.sparse import csr_matrix
 from imblearn.under_sampling import RandomUnderSampler
@@ -138,8 +138,9 @@ if __name__ == '__main__':
     #feature = get_the_Unigram_feature()
     #feature = get_the_function_words_feature()
     #feature = get_the_sentence_length_feature()
-    feature = get_CharTrigram_Tokens_Unigram_Spelling_Feature()
-    FEATURE_NAME = 'CharTrigram_Tokens_Unigram_Spelling'
+    #feature = get_CharTrigram_Tokens_Unigram_Spelling_Feature()
+    feature = get_Function_words_Pos_Trigram_Sentence_length_Feature()
+    FEATURE_NAME = 'Function_words_Pos_Trigram_Sentence_length'
     KERNEL = 'rbf'
     print(f"Feature {FEATURE_NAME} loaded")
     if DO_WE_NEED_NLI_MODEL:

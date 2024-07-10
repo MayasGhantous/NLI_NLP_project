@@ -321,7 +321,7 @@ def main():
 
 
     if DO_WE_NEED_TO_EXTRACT_TOP_ERRORS:
-        list_of_numbers =[2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+        list_of_numbers =[6,7,8,9,10,11,12,13,14]
         for i in list_of_numbers:
             WHAT_COUNTRY = i
             ALL_ERRORS_LOCATION = f'calculated_data\\error_count2\\all_errors_'

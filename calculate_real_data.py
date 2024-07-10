@@ -24,12 +24,16 @@ SENTENCE_LENGTH_LOCATION = 'average_sentence_lengths.npy'
 TRIGRAM_LOCATION = 'calculated_data\\charracter_trigrams'  
 GRAMMAR_ERRORS_LOCATION = 'calculated_data\\grammer_errors'
 POS_TRIGRAM_LOCATION = 'top_pos_trigrams.npy'
-EDIT_DISTANCE_LOCATION = 'calculated_data\\edit_distance'
-def read_files_from_directory(directory):
+GET_ALL_FIELS = False
+
+def read_files_from_directory(directory, WHAT_COUNTRY):
     try:
         files = defaultdict(list,[])
         i=0
         for country in os.listdir(directory):
+            if i != WHAT_COUNTRY and GET_ALL_FIELS == False:
+                i+=1
+                continue
             i+=1
             print(f"{i}: Reading files from {country}")
             country_path = os.path.join(directory, country)
@@ -164,30 +168,30 @@ def get_the_grammer_feature():
                 return_dic[key].append([value[rule] for rule in rules])
     return return_dic
 
-def get_the_edit_distance_feature():
-    return_values = defaultdict(list,[])
-    for edit_distance_file in os.listdir(EDIT_DISTANCE_LOCATION):
-        current = np.load(os.path.join(EDIT_DISTANCE_LOCATION, edit_distance_file), allow_pickle=True).item()
-        for key in current.keys():
-            for value in current[key]:
-                return_values[key].append(value)
-    return return_values
-
 def get_CharTrigram_Tokens_Unigram_Spelling_Feature():
-    edit_distance = get_the_edit_distance_feature() 
     Unigram = get_the_Unigram_feature()
     CharTrigram = get_trigram_Feature()
     Spelling = get_the_error_feature()
     new_values = defaultdict(list,[])
-    for key in edit_distance.keys():
+    for key in Unigram.keys():
         for i in range(len(Unigram[key])):
             new_values[key].append(Unigram[key][i])
             new_values[key][-1].extend(CharTrigram[key][i])
             new_values[key][-1].extend(Spelling[key][i])
-            #new_values[key][-1].extend(edit_distance[key][i])
     return new_values
 
-    
+
+def get_Function_words_Pos_Trigram_Sentence_length_Feature():
+    FunctionWords = get_the_function_words_feature()
+    PosTrigram = get_pos_trigram()
+    SentenceLength = get_the_sentence_length_feature()
+    new_values = defaultdict(list,[])
+    for key in FunctionWords.keys():
+        for i in range(len(FunctionWords[key])):
+            new_values[key].append(FunctionWords[key][i])
+            new_values[key][-1].extend(PosTrigram[key][i])
+            new_values[key][-1].extend(SentenceLength[key][i])
+    return new_values
         
     
 

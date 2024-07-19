@@ -1,0 +1,100 @@
+  and presumably its still a mix ? 
+  a rather loopsided one , or the rollouts became quite irrelevant ( potentially harmful ? 
+  does it even make sense to average between a hypothetical much better value assesment by the improved value net and the still equally crappy rollouts ? ) . 
+  would be nice to read what happened here exactly - in a paper . 
+  basically , i do n't see why , in a world where network arch tweaks in other tasks can go from 17 % imagenet error w alexnet to 3.57 % w resnet , and this is explored in a short span of time , the simplest explanation for the extreme and loopsided gains would n't be that they tweaked their network architectures to allow for absorbtion of more training data , more effectively . 
+  and that 's a nev paper really . 
+  i generally agree with the stated criticisms of your argument against lazyness by default . 
+  on the other hand , regardless of which is the default , i thing making strictness and lazyness explicit in types is rather interesting :, 
+  in `` types are calling conventions '' by bolingbroke and simon peyton jones https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/tacc-hs09.pdf, 
+  , they do seriously explore making the core strict and lazyness explicit in the types , to ease certain compiler optimisations mostly - but they do mention giving the user a way of marking strictnes in the types too . 
+   we would like to expose the ability to use `` strict '' types to the compiler user , so haskell programs can , for example , manipulate lists of strict integers ( [ ! int ] ) . 
+  although it is easy to express such things in the strict core language , it is not obvious how to go about exposing this ability in the source language in a systematic way -- work on this is ongoing . 
+  but as far as i can see , neither this nor strict core work has progressed further ? 
+  and papers exploring some other different kinds of core have continued to appear - like the recent sequentcore thing . 
+  i get confused by the subtle differences of these concepts , but is n't the current work on unlifted types a way to specify strictness explicitly in the type , when you want to https://ghc.haskell.org/trac/ghc/wiki/unlifteddatatypes ? 
+  certainly looks like that , say :, 
+   the evaluation rules for unlifted data types are identical to the existing rules we have, 
+  for types kinded # : lets are strict , can not be recursive , and function arguments are, 
+  evaluated before calls . 
+   ... for every lifted data type a user can define , there is an obvious unlifted, 
+  type one might be interested in : the one without bottom . 
+  fortunately , we can define a data, 
+  type to unlift an arbitrary lifted type :, 
+  data force : : * -  unlifted where, 
+  force : : ! a -  force a, 
+  instead of writing f : : force int -  force int , we might like to write f : : int !, 
+  -  int ! . 
+  we define post-fix application of bang to be a wrapping of force . 
+   ... why not ! int rather than int !, 
+  as the syntax proposal ? 
+  this syntax conflicts with strict, 
+  data fields . 
+  data s a = s ! a has a constructor of type s : : int -  s , taking a lifted type, 
+  and evaluating it before placing it in the constructor ; data s a = s a !, 
+  has a constructor, 
+  of type s : : force int -  s , which requires the user to have forced the integer . 
+  representationally , the data types are the same , but the outward behavior for clients, 
+  differs dramatically . 
+  another negative of appimages , and perhaps mitigated by flatpack , also about buggy libraries , is about security ; its unlikely the upstream , esp an indie one , will keep track and update when a serious vuln . 
+  is found somewhere in the libraries they pack . 
+  eh , as they 're works of art , and not technical works , it would be ethically acceptible for the game art to be something like cc-by-nc ie redistributable but only noncommercial remixing or derivatives to be allowed , as opposed to the freedom to modify and distribute modifications , esp if copyrights did n't last more than 10yrs . 
+  ofc that does n't apply to the engines . 
+  totally agree w fsf on this , ie in the types of queasiness drmed games on free * nix platforms cause me : https://www.gnu.org/philosophy/nonfree-games.html, 
+  i 'd guess chromebooks ? 
+  anyhow , i 'd read as a windows machine ; panopticlick thinks setting my user agent that way decreases fingerprinting vulnerability . 
+  should really be the default practice for the browsers ( free ones , at least ) to fight tracking in that manner too . 
+  actually they report a decrease of performance when they try using the self-play trained network for policy net , in comparison to where they started when its trained on just the human data . 
+  helps the value net though . 
+  and the fast rollout softmax is also just trained on human data . 
+  but maybe that changed ? 
+  would be great to read about it ... 
+  interesting , possible !, 
+  but , then they 're such a small % not to even get a mention in the report ? 
+  or did i miss it ? 
+  that seems surprising too . 
+  yeah , and one quite useless in isolation , as javascript is far more productive for fingerprinting than the user agent , so you have to have some extra extensions to even matter . 
+  i do agree w the poster though ; not just some obscure forks like icecat , but the firefox upstream is supposed to offer at least as much as practical w/o breaking the web to protect the user 's privacy ; are n't they * supposed * to be about user rights on the web ?? 
+  guess they do n't want to risk blocking too much and breaking ppl 's web , but they do n't even enable tracking protection they have outside privacy mode ( there 's an obscure option in about : config , but no checkbox in the preferences ) , and they prob can integrate something like effs privacy badger ; at least as far as i 've seen , it seems pretty conservative ... and yeah , hide the user agent ; that at least is trivial . . 
+  does it integrate privacy-minded extensions and tweaks ? 
+  that 'd be really nice . 
+  but that only protects you from running non-free code ; could be invading your privacy under the ( say ) agpl still :d, 
+  well even w arm , there 's an occasional chromebook that just works on pure libreboot . 
+  its just incredible to me to see this mammoth x86 platform look so utterly hopeless now . . 
+  and i 'm the kind of guy that could tolerate a low-level blob if i really had to . 
+  lines are blurry ofc and one 'd have to think hard about the attacks and defenses but in principle - its one thing to worry how to sandbox or physically isolate some crappy firmware blob of a peripheral if something goes wrong with the particular manufacturer 's code ( like what qubes os tries ) - we still have game in that space -- quite another when you stare at a system that just nakedly is simply there to -- sandbox you -- and in basically 100 % of the market , and right on the die . 
+  and signed . . 
+  ah , arm can be anything ; its not really a platform ; a manufacturer can indeed choose to make an arm soc that is just as problematic as what intel and amd are doing . 
+  but they might also choose to not do so - and for now some do so . 
+  and tomorrow , another manufacturer could license arm and do or not do something other manufacturers are doing . 
+  on the other hand , unless intel has an open hardware epiphany in the future ( heh ! ), 
+  then from now until the heat death of the universe , only intel and amd will ever make x86 chips - because nobody else legally ever could . 
+  so if they 're doing this , unlike w arm , nobody else can not do it . 
+  so yeah , seems a bit freer after all . 
+  they 're of course a wet dream , and i 'm totally excited about risc-v !, 
+  but yeah , i do think arm is a relative improvement , simply because due to its licensing model , different manufacturers and new manufacturers are possible at all moments , and many even now do n't quite go as far as putting a trusted ( as in `` you got ta trust me '' ) me/psp-like chips in . 
+  w x86 , intel and amd are the only legal possibilities . 
+  but sure , riscv is by far the ideal way out of this !, 
+  not sure , i think it was a mips . 
+  if so . 
+  then that 's a licensed arch , ala arm . 
+  hehe , yes , yes i did ; nice catch :d, 
+  tbh , right now i do n't have devices as recent as that anyhow . 
+  i do think this might be a good time to upgrade with the latest pre-psp tech ( as that 's significantly more recent then when intel seems to have started doing this shit ) -- a 2012 amd desktop is sounding nice to me right now . 
+  given that some ( most ) of my computing right now is on a 15y old laptop , and that non-x86 on chromebooks is reasonably practical for my needs already even now regardless , and models literally from this year can be found to boot w libreboot , that just might cover me for a while . 
+  i think i would n't miss 3d acceleration much really . 
+  i 'd need it for games mostly , no ? 
+  if so , think i 'm covered ; most i 've played in recent say half a decade or so has been interactive fiction - indie textual mode stuff . 
+  authors like emily short or porpentine or andrew plotkin etc. 
+  and ever since mid teens on i 've enjoyed watching friends play more than actually playing . 
+  i 'd get all theorycrafty and obsessive , but actually controlling the mouse - less of my thing i guess . 
+  so let 's plays on youtube cover my graphical `` playing '' needs already for the most part . 
+  though i do occasionally play retroish graphical stuff , mostly scummvm . 
+  think that 'd run anywhere . 
+  and retro-styled indie graphical adventures , like wadjet eye stuff . 
+  they 're in the process of porting their catalogue to mobile , so that could work soonish . 
+  i 've seen a recent link to a project about making a power laptop http://www.powerpc-notebook.org/en/, 
+  and there 's that power workstation , but that 's way way out of my league in price : https://www.raptorengineering.com/talos/op_twbx86.php guess it could make sense for animation artists ?? 
+  not exactly sure what the audience for such beefy hw is these days . 
+  only in the sense the manufacturer forbids you from changing it . 
+  like if say trusted boot prevented you from putting some free * nix on your system .

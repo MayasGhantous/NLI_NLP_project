@@ -1,0 +1,100 @@
+  grammar is very similar , but the vocabulary is very different . 
+  still understandable from context , but calling an autocarro or an onibus is not good for those who do n't know what either is . 
+  been playing around with the gear i have collected all this time . 
+  i 'm happy with how they look , even if t6 for enhancement is not very original . 
+  still , any suggestions are welcome !, 
+  also , do n't mind the fire and ice balls on her hands , that 's a shaman class hall buff ... 
+  sure . 
+  keep in mind i was just fooling around whatever items i have and did n't collect anything in special for it :, 
+  head : cowl of smoking dreams, 
+  shoulders : shoulderwaraps of celestial harmony, 
+  chest : streamtalker tunic, 
+  hands : bricksteel gauntlets, 
+  belt : shokell 's grim cinch, 
+  what is thorval 's description of blood ? 
+  so that 's how the overlords get a speed upgrade , they rip the wings out of mutalisks . 
+  no , that 's a sha , they were made on his image as they are its remnants in our world . 
+  no worries . 
+  i 'm trying to get http://www.wowhead.com/item=28611/dragonheart-flameshield because it looks awesome too . 
+  pve stands for player-versus-environment , not player-versus-enemy ... 
+  it 's always player vs enemy , be it another player or be it the game itself . 
+  sure , tier sets and raid gear was amazing , but that questing gear ... 
+  yeah , he 's got a lot of upvotes , it must be true . 
+  well , what about bo\u00df ? 
+  ooh , i always think of it as control minus ( ctrl - ) as opposed to control plus ( ctrl + ) ... 
+  highest mountain in continental portugal is 1993 m high so we built a [ ~ 7m tall tower ] ( https://www.google.pt/maps/@40.3218209,-7.6125302,3a,75y,257.2h,82.85t/data=!3m6!1e1!3m4!1swwmwz7x2_ylfh_az2l72og!2e0!7i13312!8i6656?hl=en ) nearby to reach the 2km mark . 
+  i 'm sorry , what is treat fairy ? 
+  edit : oh , you mean like tooth fairy !, 
+  similarly , is there an addon like conslegion to help leveling as fast as possible ? 
+  that might be true but dungeon spam gets repetitive after a while ... 
+  wait , what is mansplaning ? 
+  esl here . 
+  maybe she thinks it means explaining stuff men do ? 
+  she may have been born after the crash , 19 years ago . 
+  no offence , it 's just that many of us ca n't read imperial units . 
+  who is vol ` jin visiting ? 
+  at first i thought it could be that loa of death trolls summon to help kill zalazane , but then he says he also has an intricate understanding of fel magic ... 
+  you would n't understand their gatherings to mourn the lack of guns in sweden . 
+  i should have specified that you ca n't get guns to kill thieves as a sport . 
+  was the man russian or what , i do n't get it ? 
+  god , at first i thought he was talking about trump ... 
+  this might be a shitty opinion , morally speaking , but i 'd much rather have ww3 than the gigantic blow to our planet we just got . 
+  you have a few other examples , i reckon it 's to hide their true identity . 
+  out of my head i can think of kalecgos/kalec , korialstrasz/krasus , chronormu/chromie . 
+  it is , but that is typical developing country behaviour . 
+  they are reaching the point of development where they can invest in clean energy , and they are already doing so immensely . 
+  oh god , the suggested videos at the end show a horribly swollen and destroyed finger ... 
+  that makes me sad indeed ... 
+  was n't this posted a few days ago ? 
+  mostly eu , specially france and the uk , but there are portuguese all over the world , really . 
+  i wonder why they wrote latin-american spanish and not latin-american portuguese . 
+  vasco da gama departing from spain ? 
+  if we 're being precise , scalabis was also the capital of a subregion of lusitania . 
+  which portuguese are you talking about ? 
+  brazilian portuguese is indeed quite musical , but european portuguese is very different . 
+  they are not the same in terms of vocalization . 
+  they could even be considered different languages given the amount of different vocabulary and some grammar , but truth is we can both understand each others , even if with some difficulty at times . 
+  when did obama become the flash ? 
+  not true . 
+  he is not confirmed . 
+  or , at least , not 100 % . 
+  se cabe , cabe . 
+  here 's how i did it , but i am assuming you have only one column with 20 rows of `` random '' numbers . 
+  i used two helper columns and a match to get the result . 
+  first helper column , to get all possible combinations , in b1 and pulled down to line 1000 . 
+  = text ( row ( ) -1 , `` 000 '' ), 
+  second helper column , in c1 , also pulled down to line 1000 :, 
+  = iferror ( if ( find ( b1 , $ a$ 1 ) ,1 ) ,0 ) + iferror ( if ( find ( b1 , $ a$ 2 ) ,1 ) ,0 ) + ... 
+  where ... is the same code for all of the rows you have ( if you do n't know how to do that check below ) . 
+  then on the third helper column :, 
+  = match ( max ( c : c ) , c : c ,0 ) -1, 
+  this should give you what you want . 
+  what this does is to count each combination in each row and sums it , thus giving the number of times the combination appears in the whole data . 
+  as for the second helper column code , you can concatenate the same error by using a simple trick . 
+  add a fourth helper column , say d1 , where you write the following code :, 
+  = `` iferror ( if ( find ( b1 , $ a$ '' & row ( ) & '' ) ,1 ) ,0 ) '', 
+  then on the cell below ( d2 ) you write it like :, 
+  = c1 & '' + iferror ( if ( find ( b1 , $ a$ '' & row ( ) & '' ) ,1 ) ,0 ) '', 
+  now you can pull down to the number of rows you have and just copy the last one ( might need to copy to a notepad then to the cell you want ) . 
+  since you 're using '' '' for false , and i 'm assuming only one of those 12 different if statements will return something , you can always concatenate all the ifs . 
+  = if ( condition1 , result1 , '' '' ) & if ( condition2 , result2 , '' '' ) & if ( condition3 , result3 , '' '' ) ... 
+  so you will really only get 1 result concatenated with a bunch of nothing . 
+  that 's easily solvable by splitting the column into several columns and summing them in another one . 
+  but my method still does n't give you what you want , as i thought you had 60 columns with one cell with a number like 12399073428937 each . 
+  sub repeat ( ), 
+  dim text as string , inp as long , times as long , out as long , i as long , j as long, 
+  inp = range ( `` a100000 '' ) . end ( xlup ) . row, 
+  out = 1, 
+  for j = 1 to inp, 
+  times = range ( `` b '' & j ) . value, 
+  text = range ( `` a '' & j ) . value, 
+  for i = 1 to times, 
+  range ( `` c '' & out ) . value = text, 
+  out = out + 1, 
+  next i, 
+  next j, 
+  end sub, 
+  it is not legal , it is decriminalised . 
+  you still ca n't buy it legally , but you wo n't go to jail if you walk around with a small amount . 
+  611.551 km by 450.616 km . 
+  and portugal .

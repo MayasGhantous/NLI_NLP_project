@@ -1,0 +1,100 @@
+  elaborate please !, 
+  i know about the issues concerning godaddy , i 'm curious about the problems with namecheap and gandi , which seem to rank high in this thread . 
+  dang , you 're right !, 
+  reddit decided to break the line at the period which i thereby missed , and / u/beezel typed namecheap with a lowercase n , so i assumed he was grouping the three providers together . 
+  glad that 's settled . 
+  oxygen is * so * 2003 !, 
+  these new design directions are very exciting to look at . 
+  this is such bullshit . 
+  how 's it any different to fuck / be fucked by a different person , as opposed to having sex with the same one every day ? 
+  bs , there are dozens of amps ( mic pre , eq integrator/differentiator , summing bus , adc input etc. . . ) before you get to the part where you have a digital sound signal . 
+  one or two additional amps wo n't make a significant difference . 
+  you 're looking at only a small part of the signal path , disregarding everything before the dac . 
+  there are instrument amplifiers , microphone preamps , equalizers , compressors before the signal becomes digital . 
+  all of those work using many operational amplifier based circuits . 
+  this kills the debian, 
+  mp3 is the least of your worries with this recording . 
+  the recorder 's overdriven , it 's fluttery , and noisy as well . 
+  there 's really not much you can do with it . 
+  i 'm actually very surprised , that something from 1966 would sound as good as this , given the age of the tape . 
+  maybe science has something for the flutter , to correct the frequency modulation based on autocorrelation , maybe someone else can chime in . 
+  noise reduction imo does more harm than good . 
+  the human brain has better anti-noise algorithms than any vst effect ; and those usually end up affecting the spectrum more than i 'm comfortable with . 
+  my recommendation : enjoy it as it is , such great music is hard to come by . 
+  is that \u03bctorrent ?? 
+  come on , grow a neckbeard already !, 
+  ^ ( j/k lol , thx for the bandwidth ! ), 
+  thanks , i 'm giving it a try . 
+  it seems to work a lot better since the last time i 've used it . 
+  thanks , but that only works via the gui , the nox / web only version does n't have a way to toggle it unfortunately . 
+  wtf , it just punched a hole through my firewall so the entire internet could access the admin page with the default password . 
+  it freaked me out ... 
+  stripping an embedded color profile will make the image render incorrectly . 
+  but of course we 're all using srgb , are n't we ? 
+  you 're also recompressing the image ; not a big deal usually . 
+   byte-by-byte, 
+  you could apply it a couple of times to exaggerate the effects . 
+  try it yourself :, 
+  for i in { 1 . .100 } ; do convert image.jpg - strip image.jpg ; done, 
+  imagemagick has the convinient ` compare ` mode that you can use to see the difference between the different generations . 
+  it seems to be a lot more interesting then that . 
+  after a couple of generations , im arrives at a stable version , and every subsequent conversion operation is lossless , 
+  $ for { 1 . .100 } ; do convert asdf.jpg - strip asdf.jpg ; md5sum asdf.jpg ; done, 
+  82bb2fd425d0e3d60a486e1b7c001b84 asdf.jpg, 
+  cdc4da021fbae1b054e26cb244488102 asdf.jpg, 
+  13007f381c428c2f022e6cf930b7a5d1 asdf.jpg, 
+  c10eabf10c59e1856101b7c615e32243 asdf.jpg, 
+  be8ea4b8f56819da882b8b5f7882519b asdf.jpg, 
+  274006394690731d02be3d3ce8718753 asdf.jpg, 
+  94434c632779446e0039fb202413750f asdf.jpg, 
+  after generation 28 , the conversion no longer has an effect . 
+  i have absolutely no idea why :d, 
+  you type it into a bash interpreter on a machine that has imagemagick installed . 
+  bash is the default command-line shell for most unix-like systems - osx and linux for exampe . 
+  think of it as an alternative for the windows command prompt , except for the fact that it 's really useful for automating simple , or even fairly complicated tasks . 
+  something that 's a nightmare with the regular dos syntax . 
+  modified , created and other dates are filesystem metadata , and we 're stripping all the in-file metadata , so there should n't be any difference apart from the actual image data . 
+  which is also what i see ; using ` compare ` , with every successive iteration there are fewer and fewer blocks in the jpeg that differ , until there are finally none . 
+  maybe i 'll make a gif when i get home . 
+  wow !, 
+  that is hilarious !, 
+  define * need *, 
+  do you * need * to slim down your computer ? 
+  it 's using less then 10 % of the available physical memory . 
+  do you * need * kde ? 
+  do you * need * 6 gigs of ram in that box ? 
+  i use a i1pro for my own displays . 
+  i have absolutely no idea why they make most monitors ' backlights so blue , but wearing shades to fix the issue is the stupidest thing . 
+  yes . 
+  you still have to make sure the files have group write permissions , because that wo n't be inherited . 
+  g + s does not yet mean g + w. 
+  most likely you 'll have to change the system-wide default umask to 002 . 
+  this all makes sense if there are many users in the owning group . 
+  repressed lust is still lust , it just makes one attracted to children instead . 
+  and so are you . 
+  shadowbanned users can see each others ' posts . 
+  cool yourself , i was just messing with the kid . 
+  most onboard chips ( realtek , via etc. . ) have headphone amplifiers . 
+  they are small and cheap , so what kind of improvement are you looking for ? 
+  a htpc has higher system requirements than a nas , so yes , you can use your htpc to serve files over the network . 
+  it will consume more power because you have a full-blown pc running all the time . 
+  files with ~ in them , those that are usually temporary files made by programs , thumbs.db files , etc. 
+  are ignored by owncloud . 
+  you can disable this . 
+  it only fails one way : you ca n't plug a guitar pickup into a line input because it 's very weak ( many thousand ohms output impedance and a large series inductance means the pickup is a puny source ) . 
+  a line output is much stronger , so it can be plugged into a line input with no problem . 
+  bah , you must be joking , that requires no output current at all !, 
+  anything can be plugged into an instrument input , even a puny guitar pickup . 
+  not with the regular camera api . 
+  see : http://developer.android.com/reference/android/hardware/camera.html, 
+  you would need a lot of voltage on those coils for them to move the srings . 
+  realistically , it would n't work at all . 
+  instead , you could convolve audio with an open strum guitar sound . 
+  that would sound the same as what you have in mind . 
+  the coil in the ebow has less than 10kohm impedance though ... 
+  if you wanted to do the same with a guitar pickup you 'd end up breaking the insulation before you could excert a reasonable amount of force . 
+  which would result in said battery lasting longer than either the 60kwh model , or a theoretical 40kwh model with a 40kwh battery . 
+  ( as in years , not miles ), 
+  i do n't even use the super key at all . 
+  it would make a nicelaunch button imo . 
+  cool !,

@@ -1,0 +1,100 @@
+  internal field of view and resolution is capped to what 1920x1080 can deliver . 
+  on the hardware end there can be some resampling , but latency is a big player . 
+  this could not be wholly fixed , but creating an artefact-free 110 degree + fov hmd in itself is enough to compete if not surpass the rift . 
+  in short , oculus is great , but they are n't wielding some magic sauce . 
+  legitimate competition will arise once vr is taken seriously , and at this point vr is n't being taken seriously . 
+  when i say little over a year of r&d , i 'm talking about the point at which development became cut-off from the forum in which he resided and became a `` business '' . 
+  and when i say about 6 months worth has become publicly available , i 'm talking about the communities self-development , alongside analysis of the rift . 
+  the following 6 months worth would be recent design refinements and logistical hurdles . 
+  granted these are arbitrary metrics for progress . 
+  also , the terms `` throw out the design book '' and `` start from scratch '' are completely and utterly sensationalism . 
+  there has been plenty of innovation in vr technology up until luckey 's involvement , it had simply been relegated to premium and military contexts . 
+  the entire point of the rift is to create an affordable hmd . 
+  the rift did n't come out of thin air , but it did n't come out of a bubble either . 
+  also john carmack had been tinkering with vr in the realm of relative curiosity before finding out about the internet . 
+  most of his `` instinctual knowledge '' comes not from his foray into vr development ( he was experimenting with largely dead ends compared to how the `` model '' progressed ) , but from his existing knowledge of screen technology and software expertise . 
+  in terms of hmd development , there are plenty of ways to `` not copy the rift '' or `` surpass the rift '' , from the means of distorting the screen to the soft , firm and hardware processes which enable it . 
+  flexible screens , microlens , design and hard-coded frame syncing are all innovations which can be enabled and emulated through any number of means which would avoid patent infringement . 
+  heck there 's plenty of flexibility in patents compared to most devices , and even patents are n't an issue here . 
+  even where they might come short on design , they could simply choose to license or litigate the problem . 
+  again , hiring specialists is n't an issue . 
+  it would take any competent engineer within a related field less than a couple of weeks to clearly understand all the mechaincs behind the rift , and besides that there 's several hobbyist hmd experts who would love a call , foisi or whomever else . 
+  you do n't seem to understand my point on performance at all , so i will try to make it more clear for you . 
+  high quality distortion is a significant performance hit for the gpu , you do n't see it because hmd 's are few and far between beyond 1080p and there are so many other artefacts that high quality pre-distortion is the least of a newcomer 's problems . 
+  pre-distortion and artefact correction is performed entirely on the computer 's side , and the rift has hardly any means to correct screen-door at this stage . 
+  besides that , the pre-distortion currently employed is not performance intensive because it does n't need to be , the development kit is a blurry screen-door mess , so accurate correction was n't a major factor until recently . 
+  these performance hits could be alleviated entirely if they are solved through lens design , which could open up huge potential to reducing the performance hit on consoles . 
+  not sure what you 're arguing about on latency , i already said `` on the hardware end there can be some resampling , but latency is a big player '' . 
+  i should clarify that latency is in fact a big player , which is why resampling in post or on the device is a bad idea . 
+  it 's great that you 're affirming the importance of this but i do n't see how that 's relevant . 
+  60fps is not ideal , but it 's nothing to roll heads over if it can be maintained consistently , particularly for a consumer product . 
+  ghosting/persistence has very little to do with latency outside of the screen technology itself , so i do n't know why you even brought that up . 
+  the gpu does nothing to influence ghosting . 
+  i think we may be confusing gpu latency , dsp latency and screen latency here . 
+  the judder with 60hz arises from bad frame deltas from the gpu and tearing , and similar issues . 
+  there are a number of compromises which can be worked with here , including * correctly * implemented multiple backbuffers or ad-hoc g-sync esque draw calls . 
+  these individual merits would be evaluated against various other compromises , but again , proper and consistent frame timing at 60fps and 60hz is nothing to roll heads over for a consumer product . 
+  besides , pretty much all 120hz monitors have colour reproduction problems of their own which brings other artefacts altogether . 
+  120fps can be handled by the gpu , and would simply sacrifice graphics in games that require fast head motion and could be implemented alongside multiple backbuffers . 
+  the wii u can handle 1080p at 60fps , pretty much all of nintendo 's first party games are 60fps , and are 1080p at least in parts ( ie the 1080p models and 720p landscape of 3d world ) . 
+  the ps4 and xbox one being unable to handle those framerates is wholly the result of poor optimisation or poorly realised aesthetic potential . 
+  i can agree that the xbox one is not looking very promising on that front with games like ghosts not even handling 1080p , but the ps4 certainly has room to grow . 
+  the hmds which would be implemented on the consoles will also be closed , and developed by the same companies which made the closed hardware . 
+  so i 'm not really feeling your sentiment there . 
+  closed source sucks , but they will provide apis to work with . 
+  pc developers already struggle against gpus being closed behind driver walls which prevent them from programming to the metal . 
+  closed in terms of the device being closed is n't really an issue from a consumer standpoint , after all some hacking is often needed anyway to get console peripherals working on a pc . 
+  so overall , sony and ms will have to create a team to research and develop a product which has in large part been developed entirely in the open , based on the iteration of existing vr design . 
+  it will be up to the developer to ensure their game is optimised for 1080p and 60fps , where it is more a matter of necessity and not necessarily choice , which has pretty much nothing to do with sony nor microsoft . 
+  as discussed previously , resolution is n't as dramatic a factor after the existing design issues with hmds get alleviated . 
+  and i must stress that it will actually be easier for sony out of all companies to develop hmd technology , as they have direct access to the latest screen and lens technology and developmental technology . 
+  they have the capacity to develop an hmd with less resistance than a small company like oculus with existing logistical relationships and pipelines and r&d technology . 
+  all they have to do is decide to do it . 
+  fair enough of a perspective . 
+  these consoles will be caught sliding off the bell curve of moore 's law soon enough . 
+  but not being able to create games which can hit 1080p and 60fps really comes down to two factors . 
+  bad game optimisation , and bad artistic vision . 
+  the majority of the first party wii u titles are 1080p at least in parts and 60fps , and those games are n't even that well optimised . 
+  they still look pretty as fuck . 
+  only grunge-fests will have a hard time hitting the frames and the resolutions they need , but it 's dubious whether battlefield 9 and call of duty the phantom pain will ever even see a vr release . 
+  this guy is on-to-it !, 
+  keep it on, 
+  but other hominids do seem to have been able to breed with homo sapiens , given that some races of humans share unusually high amounts of dna and other traits with other hominids , ie anglo-saxons and neanderthals . 
+  has the xenophobia/inclusiveness been improving in japan recently ? 
+  i think it would flow more naturally if the blood had a bit of an arc to it . 
+  the real reason is that the entire 2ds consists of a single screen with plastic overlay , which is cheaper to produce than two separate screens . 
+  the various other effects are a result of every effort to produce a functional but lower-cost 3ds . 
+  technically the edram the wii u uses is at least twice as fast ( possibly 4x ) than the xbone 's esram , which is also an order of magnitude faster than the 360 . 
+  same game , different rules . 
+  all three consoles have a long way to go in terms of optimization , and the wii u certainly has n't been pushed to its limits just yet . 
+  once nintendo turns things around and brings third parties back in ( i believe they can do it , i also believe it wo n't happen in the near future ) , i think we might see the consoles which have a relatively even distribution of fidelity , with resolutions and effects , along the three consoles . 
+  not only are you incorrect in the interpretation of the statement , but h264 * does * support lossless storage . 
+  [ see here . 
+  the video could be encoded to be `` transparent '' where an end-user would not be able to identify artifacts . 
+  this could very well be feasible , particularly with 10-bit encodes . 
+  it sounds like the extra content is just something to appease the retailers rather than a legitimate attempt to balance retail and digital sales . 
+  considering the scale of the game they are creating , they word it as though one person would never be able to map the entire universe . 
+  so the worlds can be unique in that one person may not be able to experience all of the universe . 
+  they are also usually the least clever or relevant ideas , effectively the opposite of what reddit encourages . 
+  just a heads up for op and everyone , using quotes in google searches ie `` rotation station '' searches for the exact phrase . 
+  i feel that the mobile industry is disconnected from the core games industry in that things like dates and price elasticity does n't work . 
+  it 's important to release the game in any playable state as soon as possible and pretty much consistently market the game . 
+  you should take an hour each day to simply investigate effective means to get the game into peoples ' hands and create mindshare . 
+  add small updates on a regular basis to maintain mindshare . 
+  anecdotal , but i often watch streamers with a team ( ie speedrunslive ) and will usually also check out other streamers in that team . 
+  likewise i often just check the front page to see if a new or unusual game is being streamed . 
+  youtube has the advantage of such a broad swath of content that you can search anything and find anything interesting , and twitch does have means of finding interesting relevant content , but it 's not there yet . 
+  most consumer electronics cap the capacity at 5 % , in that your device will show `` 0 % '' and turn off when it has 5 % remaining . 
+  from there a lithium-ion battery will usually discharge slowly over the course of several weeks depending on the capacity . 
+  having any charge below 25-30 % is less than ideal however , and you should always keep modern electronics about medium-charged , where neither damage nor heat will reduce the longevity as much . 
+  depending on your device , it will last the longest if you can keep it between around 30 % and 70 % of it 's potential charge states . 
+  the one in the ova was possibly the simplest and greatest use of the english language . 
+  they were a fun rewatch for me , and i decided to go though and fix the subtitles too , through which i discovered many more jokes which were overlooked !, 
+  i remember someone on reddit also recently recommended putting the website name into the name-box of the mail subscription service , so you can find out who sold you out . 
+  unless he has a mandate to remember , his ability to `` see '' it would be temporary at best . 
+  the point is that he ca n't * differentiate * between the two , it would be like trying to decide whether a car is medium grey or slightly-lighter-grey without a reference for what `` medium grey '' is . 
+  so how 's that modding api coming along ? 
+  you know , the toolset mojang is creating to support modders , rather than the community hacking mods into the game ? 
+  the game actually benefits from the player count i feel , as the fundamental gameplay is a little lackluster and lifeless once you have completed the majority of the single player . 
+  plus , panau is huge . 
+  like , really really big .

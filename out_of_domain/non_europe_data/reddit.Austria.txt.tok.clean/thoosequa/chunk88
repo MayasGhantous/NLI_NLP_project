@@ -1,0 +1,100 @@
+  i know that there are 3 solutions to this , since the exponent dictates their amount , and i do know that one of them is 2 since 2 \u00b3 = 8 . 
+  i have used wolfram alpha to show me the other two , but i do n't really grasp how to get to them . 
+  so as of recently i have increased interest in getting more involved in the `` real world '' programming . 
+  i am still doing my little side projects , such as solving project euler problems , digging through code abbey assignments and even developing my own little programs that i constantly try to enhance with new features , to learn more about new ways of achieving goals , learning to use new libraries etc. 
+  etc ** however ** i feel like i am not going very far . 
+  i do make progression but only very little steps . 
+  i know there is no shortcut to becoming a real programmer , but i would like to get involved in larger projects . 
+  obviously my first thought was finding an open source project and passively contributing , at least in the beginning . 
+  the problem with that is though , that most open source projects i stumbled across are either very very very large or on a way too advanced level , so i just feel intimated and close the window again . 
+  so what i am looking for is a project that is not tailored for beginners , but at least somehow easy to get into . 
+  preferably java or c++ , at this point anything would do really though , since i am more interested in how the projects are developed and managed . 
+  if you know any projects or sources where projects are hosted on i ( and probably many others ) would highly appreciate any pointers in the right direction . 
+  maybe there are any foss you are actively contributing to and you could tell something about it ? 
+  thanks in advance !, 
+  i 've been given a scalar field a ( x , y , z ) = ( x \u00b2 yz \u00b2 ) and a vector field b ( x , y , z ) = ( xy , y , z \u00b2 ) . 
+  the task is to determine the curl of the vector field c = ab . 
+  no problem with that in theory , i know how to determine a gradient , divergence and curl . 
+  however when trying to solve this problem i 've stumbled across two different solutions . 
+  needless to say i am a little bit confused . 
+  the first solution states that the curl of ( ab ) equals, 
+  while the second one states, 
+  which is the right one now ? 
+  the latter was provided by a fellow student and the numbers he calculated in the assignment check out , however the first solution comes straight out of my text book . 
+  cheers for helping me, 
+  i 've recently started to work in ue4 , i have practically zero game dev experience however i do know some c++ and java , so the logic behind blueprints is rather clear for me . 
+  i have just finished the ue4 pong tutorial on youtube and it 's been a great learning experience . 
+  i was wondering now if there are any more recommended tutorial series like this . 
+  what i am looking for generally is a tutorial that basically builds a game from the ground up and shows some of the workflow and approaches when building a small game . 
+  cheers for any pointers and help in advance . 
+  hello all , this is my first post here so apologies if this is the incorrect subreddit for this . 
+  i am currently studying for an exam i have next week and one question goes as following :, 
+   given is the following [ image ] ( https://i.imgur.com/nocq0pf.png ) name this circuit . 
+  what boolean expression is related to this board . 
+  what happens when x = 0 and y = 1 , which transistors conduct elictricity and which do n't ? 
+  the line on the right handside represents the output . 
+  i 'm sorry for the rough wording , i am translating this from german into english . 
+  i figured out so far that this a cmos xor circuit but i do n't know what happens to the output when x = 0 and y = 1 . 
+  i would guess that the output is 1 since an uneven number of inputs is 1 , but i am not sure if this logic applies here . 
+  hello all i have the following ( a bit weird ) hard drive setup : i run a 1tb hard drive which has grub installed and windows 7 , i have a 250 gb ssd which currently has nothing but a few steam games on it and a 60 gb ssd which is split into three partitions . 
+  a 12 gigabyte partition for ubuntu 15.05 , a roughly 150 mb partition called `` system reserved '' and the rest of the drive is a partition used by windows which nothing on it right now . 
+  for the upcoming windows 10 launch i want to change my setup so my 256gb ssd runs windows 10 and grub , the 60 gb ssd should have ubuntu on it and the hard drive should be accessible by windows 10 as a separate drive . 
+  since the launch is coming closer and closer i 'm scratching my head how to achieve my goal in the easiest way possible . 
+  especially i 'm wondering how to remove all 3 partitions from the 60gb ssd all at one , practically wiping all data , so i can get a fresh download of ubuntu and allocate the right space to it . 
+  the 12 gb i gave it where sort of a mistake rather than anything else . 
+  i appreciate all help , thank you !, 
+  hello fellow amd-users ,, 
+  please hear me out on this and give your insight . 
+  i believe this rule is not in the spirit of this subreddit and it conflicts with the rules of other sister subs , like / r/nvidia where techsupports are allowed , but rather directed to / r/techsupport, 
+  specifically i am asking because every now and then i bump into issues with my drivers , i had issues when installing my r9 390 and the list goes on for others just like it does for me . 
+  naturally when i have an issue my first step is towards reddit , because i know subs that can help me out , however on this one i am met with resistance . 
+  if i have a problem with my gpu i can just go over to techsupport and hope that my request does n't get buried under the dozens of other threads . 
+  more over i think that those who can give the best advices are the people running similar hardware like me . 
+  if i have an issue with my amd gpu , i want to get in touch with people who own amd gpus so they can share their experience and expertise and whats a better place to do that than / r/advancedmicrodevices ? 
+  thank you for reading through this short request, 
+  so i 've had dcs world with the a10c module for a while now in my steam library , without ever really playing it . 
+  now finally i got my time and head around the sim . 
+  i am really digging the learning curve but what bugs me are the random crashes . 
+  for example during the mission `` hideout '' : i start the plane as normal , take off , make my way towards waypoint 1 , switch to waypoint 2 and it crashes . 
+  same in instant action , the bad will just halt , shut down with the message `` dcs has stopped working '' and go back to the main menu . 
+  i was n't successful in pulling any crash logs . 
+  has anyone experienced anything like this ? 
+  i 'm running it on a amd fx8350 , msi r9 390 with 16 gigabyte ram . 
+  any help would be deeply appreciated . 
+  in one of my learning resources i stumbled across this question , but i do n't know how to answer it and unfortunately there is no solution . 
+  it goes as follows :, 
+  what are the dimensions in the following vector space : a vector space with all linear maps r ^ 3 -  r ^ 3, 
+  i know all these terms but i do n't understand how to work with them . 
+  can someone help me ? 
+  hey !, 
+  i 've recently changed my controller binding so my boost is located at r1 ( rb for xbox controller users ) . 
+  unfortunately this collides with the retry button for the training modes . 
+  is there a way to change the keybinds for non-movement controls , such as this one ? 
+  hallo !, 
+  i do n't need actual help with my code i just need some assistance with wrapping my head around a concept . 
+  i read a lot of times now that arrays are always passed by reference to other functions . 
+  say i have an array in my main function and a function called rearrange that will manipulate the array its passed somehow :, 
+  int main ( ) {, 
+  int arr [ ] = { 3,2,1 } ;, 
+  rearrange ( arr ) ;, 
+  void rearrange ( int * a ) {, 
+  / / do some stuff with a, 
+  will the rearrange function work on the actual array in main or will it just create a copy of the array , do some stuff with it and then return back to main ? 
+  i understand that this goes against what i said in my first paragraph , but i want to get more insight on the inner works and possibly wrong syntax i got here . 
+  i 've been given the ode y ' = ( x + y ) / x now i tried the following approach :, 
+  if i rewrite ( x + y ) / x as ( x/x ) + ( y/x ) i get 1 + ( y/x ) so i was thinking i could rewrite the equation as, 
+  dy = 1 + ( y/x ) dx which is pretty much where im stuck . 
+  i tried wolfram alpha but it left me even more confused as they seem to introduce a mu where mu = e ^ ( integral of -1 / x dx = 1/x . 
+  i reckon substitution falls into this somehow but i am unsure how or why . 
+  any help even just videos or sources to read up on this would be greatly appreciated . 
+  good day folks !, 
+  in somewhere between 2 and 6 weeks i will take the necessary steps to be able to ride a motorcycle in my country . 
+  since riding a `` proper '' bike would for one mean that i have to wait another 6 months and secondly it would cost me literally about five times as much i have settled with the idea to start off with a 125ccm machine and `` upgrade '' my license down the road when i see it necessary . 
+  with that being said i have a few questions , first off being the bike choice . 
+  i have a ktm dealer right around the corner and already looked at the duke 125 , watched a couple reviews and everyone says its a great bike . 
+  does anyone own that particular motorcycle and can comment on it , especially as a starter bike ? 
+  additionally i would like to know a little more about extra costs . 
+  i already know what i will be spending on the license and the bike , but what costs will i need to expect in terms of gear , like a solid helmet and a jacket ? 
+  thank you in advance for answering my questions !, 
+  i recently got ranked into prospect elite , climbed up to challenger 1 now where i am pretty consistent . 
+  in doubles i just got paired against a prospect elite and rising star , my teammate was challenger 2 .

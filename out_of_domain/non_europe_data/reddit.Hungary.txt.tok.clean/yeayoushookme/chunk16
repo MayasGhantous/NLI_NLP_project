@@ -1,0 +1,100 @@
+  although i 've never used it , i heard that elementary is developed to be simple and easy to use out of the box . 
+  resize it with nearest neigbour to preserve the aliasing , or use [ scale2x ] ( http://scale2x.sourceforge.net/ ), 
+  can you post an example ? 
+  are you sure you 're using nearest neigbour interpolation ? 
+  are you looking at the image at a 100 % magnification ? 
+  do you have imagemagick installed ? 
+  you could try, 
+  convert original.png - scale 300 % bigger.png, 
+  that 's not true , i 'm still ali, 
+  now do music next !, 
+  it 'd be nice to end the loudness war this way before it leaks into movies . 
+  there 's a headphone amp in the device you use , otherwise the sound would be very faint , but not all amplifiers are created equal . 
+  there are many places where a cheap embedded amp could fall short of an outboard headphone amplifier . 
+  in your case , the most problematic are noise performance and output voltage swing , or to group them together , dynamic range . 
+  there 's also bandwidth , which will probably be enough since you have high impedance cans , there 's output impedance , and nonlinear distortion . 
+  a higher quality outboard amp will be better than the embedded one in probably every measurable aspect , but it is n't so obvious whether the difference will be audible at all . 
+  yes , you 'll hear a difference if the dynamic range is n't adequate . 
+  you might even hear improvement in the extremes thanks to the lower output impedance ( which could also be corrected with an eq ) . 
+  distortion is difficult to qualify by ears alone , but it 's usually not an issue for high-z headphones . 
+  take one for a drive and see if you like the sound . 
+  but be warned : differences in * air , detail , depth * and such are almost certainly due to your brain filling in parts to fit your bias . 
+  proper blind testing would be required to cotrol bias , and i do n't think everyone has time for that . 
+  anything you ca n't do on a ti-89 / titanium can only be done on a computer . 
+  so yes . 
+  lame only let me raise the lowpass to 20khz , with -- lowpass 22050 -- lowpass-width 0.001 , it must be a different encoder . 
+  but i also would n't recommend this . 
+  the space taken up by that high frequency information should be used for midrange instead . 
+  edit : hah , -- lowpass -1 disabled it . 
+  [ here 's how it looks compared to the original flac ] ( http://imgur.com/a/dej06 ), 
+  you could install [ botbrew ] ( https://play.google.com/store/apps/details?id=com.botbrew.basil&amp;hl=hu ) and [ compile transmission from source ] ( https://trac.transmissionbt.com/wiki/building ) , right from android . 
+  most packages required for building are in the embedian repo , but some are missing :, 
+  libminiupnpc-dev libminiupnpc5 libappindicator-dev, 
+  are n't available . 
+  you should start with getting those to compile first . 
+  botbrew enables a good old gnu/linux environment on your android device , by using statically-linked libraries . 
+  it 's odd that the page is n't in english for you . 
+  anyway , here 's some more info : http://botbrew.com/ you can go to the manual if you have any problems , but the installation procedure should be straightforward . 
+  after installing , you just have to execute * botbrew * , or * / data/botbrew-basil/init * in any shell to initialize the variables for that session , and you 'll have access to the installed packages . 
+  either install programs from the botbrew app , or using apt-get from a botbrew-enabled shell . 
+  a protip : when you use adb shell , or ssh on android , you initially get / bin/sh , which is a non-interactive shell , but there 's nothing to stop you from executing * busybox ash * , or even * bash * instead . 
+  that will give you auto-complete on tab , and color text . 
+   never compiled an application in my life, 
+  i 'll try to do it tomorrow for myself and post some specific instructions if i manage to get it running . 
+  not very . 
+  autocorrelation will do most of the work , and you can always resort to a scope + bandlimiting . 
+  i used remote mpc with media player classic , and it had both seek bar and volume bar . 
+  if it 's a process you 've already started , use ctrl + z to suspend it , and bg to continue running it in in the background . 
+  it will keep running after you hang up , but you wo n't be able to reattach it to your new terminal session like with tmux and screen . 
+  most people using linux could afford windows . 
+  it 's used because it 's better , not only because it 's free . 
+  you can mount the remote directory with sshfs . 
+  you can also execute a local command . 
+  first open a command line with ~ c and to execute something type ! scp you@remotesystem:~/thisfile ~ / here / along with the exclamation mark . 
+  you could write a script to copy a file from its argument to your local machine using scp , and put the script in the path of the remote machine . 
+  that way , running * getfile remotefile * would copy remotefile to a directory specified by your script . 
+  of course you 'd need an ssh server on the local end to do this , but instead of using your ip and opening a port on your firewall , you can also tunnel a port back to your local machine . 
+  tunneling a port back would enable you to run * scp - p tunnelport # somefile localhost : * , which is neater . 
+  replace somefile with `` $ 1 '' and tunnelport # with a high number that you 've tunneled to localhost when you started the session to use this line in your getfile script . 
+  sign up for the steam linux beta , and until you get randomly selected , i see no issues with you getting the game to run by other means . 
+  virtualbox was always sluggish on windows for me , unlike vmware player . 
+  that would be the one i recommend . 
+  as stated before me , you 'll need an amp between the player and the speakers . 
+  since they are 4\u03a9 speakers , you 'll need thicker wire than what 'd be enough for 8\u03a9 ones . 
+  1 mm ^ 2 wires ( copper ) will be good for around 5 meters . 
+  you can buy a set of banana plugs if you want it to look neat , but you can also screw the wires to the terminals . 
+  are nv cards competitive at all ? 
+  just asking because i fell out of the mining game a while ago with my hd5850 , because power 's a bit expensive at my place . 
+  obviously thebadguyinlife is a racist caucasian-hater, 
+  use droidwall to block them from the internet ( this wo n't stop them from accessing the phone stack if they require that permission ), 
+  * never * *** ever *** install a pirated app that requres root access . 
+  stop downvoting this guy just because you 've never seen a 120hz display . 
+  op prolly does n't have one , so anything above 60hz is electricity wasted by the gpu . 
+  that 's easy . 
+  blow up the image to 400 % size ( do n't forget that to correctly resize in photoshop , you have to convert to 32bpc first : image/modes/32bit ) , do whatever you need to do that 's less than one original pixel , then resize the image back to its original size ( 25 % ) . 
+  to convert back to 8bpc , select the `` exposure and gamma '' mode , and leave both sliders default . 
+  what part of millimeter is imperial ? 
+  as someone who has n't installed gentoo yet , i do n't get this joke . 
+  if you 'd have the chance to kill him , you 'd also have a chance to fix him before it 's too late . 
+   did you mean 32 bits per pixel or 32 bits per channel ? 
+  the menu option you 're talking about converts the image to 32 bits per channel ( or 96 bits per pixel for an rgb image ) . 
+  yes , that 's what i meant . 
+  32 bits per channel . 
+   if you meant 32 bits per channel , why do you think that that is necessary to correctly resize in photoshop ? 
+  photoshop does n't do gamma correct resizing , and you have to force it like this . 
+  a bit of explanation : suppose you have two pixels side by side , one black ( 0 ) , and one white ( 1 ) . 
+  when you shrink the image , you want them to form a pixel that will have a * brightness * of 0.5 , but photoshop will instead give you a pixel with a * value * of 0.5, 
+  that value is brightness in gamma 2.2 space , so instead of 0.5 , it will be 0.5 ^ 2.2 = 0.22 . 
+  the error will be worse the more local contrast you have in the image , turning it darker than what would be expected . 
+  you fix it by turning the entire image from gamma 2.2 to linear , gamma 1.0 . 
+  since the smallest step in gamma 2.2 is ( 2 ^ -8 ) ^ 2.2 which is smaller than 2 ^ -16 16 bit linear encoding will crush the smallest dark grey steps , therefore 32bit per channel is to be used . 
+  if you resize this way , the image will look the same as what you 'd see by moving your head away from the screen . 
+  this error is also present with other linear operations used by photoshop ( blurring and sharpening filters ) . 
+  you know threedawg could be making the whole thing up , right ? 
+  oh , okay then . 
+  sorry to interrupt . 
+  i already have legend of grimrock running in wine , and it 's kind of slow . 
+  much worse performance than on a properiatery os . 
+  is this version any different ? 
+  i do n't think photoshop is the best tool for this . 
+  imagemagick , a command-line graphics toolkit would slice it up for you in under a minute .

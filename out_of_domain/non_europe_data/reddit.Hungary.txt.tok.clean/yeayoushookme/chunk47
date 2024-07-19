@@ -1,0 +1,100 @@
+  throughout the video he claims that instead of using highpass filters on two separate , but correlated channels , you should first sum them to a bus , and use the highpass there , as if filters were n't distributive . 
+  some of the stuff he says are correct , but he needs to learn some theory . 
+   linkus, 
+  what . 
+  the . 
+  edit : i did n't mean to be a dick , sorry . 
+  siegfried linkwitz is a genius , you should look him up . 
+  the linkwitz transform circuit is totally amazing for example, 
+  also does n't do anything with the lower midrange < 500hz . 
+  this makes the room sound very uncomfortable to be in . 
+  the goal of acoustic treatment is to make the reverberation as diffuse as possible , and over a very large frequency range . 
+  since this thing started appearing , the game starts in 1024x768 . 
+  everything was fine before this appeared , so this thing must be at fault . 
+  who else got hit by this ? 
+  yeah , so they added a launcher that fails to load the game at my monitor 's native resolution probably . 
+  is there a way to bypass it , and go back the way it was 2 days ago ? 
+  my monitor 's resolution is n't in the list ... 
+  the game restarts with the correct resolution when set to ` auto ' , i think i can figure this out . 
+   two days , right, 
+  six months probably, 
+  okay , so if you have a monitor that 's not 1920x1080 , and you run linux , you now have to make sure to execute the ` updater ` found in the ` steamapps/common/war thunder ` directory ( it 'll run ` aces ` afterwards ) instead of starting the ` launcher ` , as the latter screws up the settings . 
+  edit : modifying the `` launch parameters '' in steam to the following disables the new launcher :, 
+  '' / usr/local/games / steam/steamapps/common / war thunder/updater '' & & true % command %, 
+  set the first string to wherever your steam library 's at ( it 's probably in your home directory ) . 
+  the part after & & is needed , otherwise the launcher will be prepended to the command line . 
+  the ` launcher ` file was created on wednesday , so no . 
+  before this , an auto update script ran when starting the game from steam , so i better try to find that . 
+  everything is working as intended . 
+  those are balanced inputs , the speakers will play back the difference of the tip and the sleeve of the jack that you plugged in . 
+  use a mono jack . 
+  alternatively , put a tape on the sleeve of the jack plug going to the speaker . 
+  this will make it work , but also raise the noise a bit . 
+  i do n't think you 'll notice . 
+  i figured it out myself . 
+  the in-game settings page has the `` auto '' option , which sets the correct resolution in my case . 
+  i think you might want to use windowed mode , and disable window decorations/borders in your wm , thus you 'll be able to put it on whichever screen you want it . 
+  in kde this is quite easily done , hopefully it 's just as straightforward in other de 's . 
+  ( kde can also bypass the focus loss , so the game wo n't auto-minimize , and i can run it on its own virtual desktop , so it 's easier to multitask . 
+  try alt + f3 ), 
+  or , only on the sleeve of the iphone jack - i just thought this up , 
+  you will only get mono sound this way unfortunately ( this did n't come to my mind at first ) . 
+  so if that does n't cut it , you can get a stereo trs - to - dual mono ts splitter , like others have suggested here . 
+  i love your lengthy response to my ` no ` , man !, 
+  i do n't know how a stereo trs - to - mono ts pair could cause cancellation of the signal , i 'm sure it 's a 6.3 mm trs - to - 3.5 mm trs splitter cable . 
+  the iphone had to be designed with the capability of having the second sleeve shorted to ground - since 3.5 mm jack connectors fit , people are going to plug all kinds of plugs in there , and it must n't result in any damage . 
+  those fet 's that are built into the electrets do n't require any current , just a bit of a bias voltage , so i guess there 's a fairly large valued resistor in series of the second sleeve for short circuit protection . 
+  the signal level probably fits well with the speaker amp input . 
+  the 6db gain in balanced systems is n't a given thing , it only happens in certain situations ( cross coupled outputs , some output-transformer designs , but not others ... ) , and it 's not necessarily wanted . 
+  also , the gain can usually be set on these little amps . 
+   and it may be a tad noisier from any rf interference . 
+  it will pick up rfi ( fridges , ac 's , washing machines starting up will make the speakers pop and whine ) , and the higher the input impedance on the amp , the more noise there will be . 
+  oh , and this sentence is a total red herring , tl ; dr-ed before my response :, 
+   then the only way to get it to be loud ( at full power ) is to connect the two contacts on one of the 1/4 connecters . 
+  see , you short the negative input to ground , and suddenly there 's audio . 
+  hopefully the iphone senses the short-circuit , and disables the headphone amp on that channel . 
+  same reason why the leopard looks like an is-4 when viewed from the outside . 
+  and a tip for leopard drivers : when you 're cought in the open , turn your back against the enemy . 
+  if they shoot the tower , you get away , if they shoot the engine , you get to shoot back ( instead of dying in horrible shame ; what are you doing in the open with a leopard , you fool ? ), 
+   regex : perl compatible regular expression syntax ( no more escape hell ), 
+  do people not use ` grep - e ` ? 
+  the reflections off the hood check out, 
+  but that could also be done in post though . 
+  either way , i call fake on this one . 
+  they are n't fooling * me * !, 
+  op never said `` tilt-shift '' , eh probably knows his shit . 
+  still , op got 2 of the 3 technical things wrong , that are off with most of the faux tilt-shifts ( gauss blur instead of disc blur , incorrect gamma , but he 's varying blur radius instead of blending , except for the tram car ), 
+  hungary can into space ? 
+  except a lot of vinyl records end up being cut from squashed cd masters, 
+  change your taste , and start listening to ' 70 / '80s music , classical , and jazz . 
+  just wondering , do mix versions exist of modern songs , or do they throw those out once they are done `` mastering '' ? 
+  i suspect that this is a hardware error . 
+  to diagnose , try another usb cable in another port , and then try the dac in another computer . 
+  that should narrow down the culprit . 
+  i 'd say it 's a good deal . 
+  i bought one new in 2000 , and it 's still a great guitar , the one that i use the most . 
+  when you login , there 's a little icon next to your username , that 's used to select the desktop session type . 
+  change that to whatever you like that 's installed . 
+  install the alternative de 's using apt-get , or the software store . 
+  to remove unity , just uninstall it . 
+  it 's not an essential component of the linux system ( no gui is ) . 
+  downsides : you may have multiple reduntdant apps for browsing images , file browsers etc , managing the priorities of these apps is up to you . 
+  it 's a task you do n't have when you 've only got a single de installed . 
+  i rotate usernames every now and then . 
+  is there any easy way to transfer my subscriptions to my new username ? 
+  my guards got in one little fight , and i lost two men . 
+  now some of my other gnomes are all like `` baaaww '' . 
+  they refuse to work , and move really * really * slow ( yet they do n't eat less , so i have to do * something * . 
+  i thought of assigning them to guard duty without any weapons , but i wonder if you guys have any better ideas . 
+  i have a pair of unused channels on my amp , that i could use to separately drive the midbass and the tweeters of my speakers . 
+  should i do this ? 
+  wo n't it stress the amp , as it would be driving pure capacitance/inductance in the stopband ? 
+  a related question : the realtek alc888 hd-audio chip that 's on my motherboard has a dsp . 
+  has anyone been able to use it as a digital crossover ? 
+  because that would be awesome , to bypass the passive filter network , and have a biamped system for basically free . 
+  when modifying files inside protected folders , windows will greet me with a friendly uac prompt that will elevate the file browser 's permissions so that the operation can be completed . 
+  nautilus on the other hand just tells me i ca n't do it . 
+  permission denied , and that 's it . 
+  so the internet says that each time that such an operation is to be done , i have to reopen the file browser , from a terminal , as root , and then i 'll have to renavigate to the place i was working at . 
+  so what can i do , to not waste time restarting my file browser ? 
+  surely there 's a better way than modifying the file manager icon so it asks for my password every time .

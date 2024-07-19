@@ -1,0 +1,100 @@
+  thus , ` very very ` is something that ( calls a function thrice ) thrice , or 3 ^ 3 times . 
+  thus , ` very very very ` has to be something that calls * that * function thrice , or 3 ^ 3 ^ 3 = 19683 times . 
+  oh , right , my bad . 
+  ` ( very very ) f x ` calls ` f ` 27 times on ` x ` , thus ` ( very very ) very f ` calls ` very ` 27 times on ` f ` . . hm , is it 3 ^ \\ ( 3 ^ 3 \\ ) rather than ( 3 ^ 3 ) ^ 3 ? 
+  that one 's nice , great !, 
+  they could use a few pointers , yes ... 
+  you 're an idiot . 
+  i like this bot already ... 
+  ` for ( var x in tokens ) { x = tokens [ x ] ; ` :( , iterating over the properties of an array . 
+  i 'd probably use ` array.prototype.foreach ` instead . 
+  also , why not declare the variables ? 
+  it does n't require any more lines . 
+  you can use ` / [ ( ) ] | [ ^ \\ s ( ) ] + / g ` as the pattern to make it a bit more readable ( imo ) . 
+  also , nice for loop :p . 
+  to contribute with a less golfed variant that 's probably close to how i 'd actually solve the task :, 
+  function parse_sexpr ( str ) {, 
+  var res = [ ] , curr = res , stack = [ ] , tmp, 
+  str.match ( / [ ( ) ] | [ ^ \\ s ( ) ] + / g ) . foreach ( function ( token ) {, 
+  if ( token = = ' ( ' ) stack.push ( curr ) , curr.push ( tmp = [ ] ) , curr = tmp, 
+  else if ( token = = ' ) ' ) curr = stack.pop ( ), 
+  else curr.push ( token ), 
+  return res, 
+  yes !, 
+  the gym leader duel theme is probably my favourite from that game . 
+  oh , and [ the sequel ] ( http://en.wikipedia.org/wiki/pok\u00e9mon_card_gb2#sequel ) has great music as well ; same composer . 
+  word-by-word translation ( leaving some compound words with a good english translation merged ) :, 
+   north ( baltic sea ) coast artillery ( aerial reconnaissance ) simulator establishment material maintenance followup system ( forum post ) preparation work . 
+  ( the broken-up version is definitely not grammatical though . ), 
+  i definitely would n't call it a word . 
+  must 've been fun to discuss that law in the parliament . 
+  that was fun !, 
+  i got 3:02 . 
+  * first : ` i * = 2 `, 
+  * second : ` return i % 2 = = 0 `, 
+  * third : ` return i.slice ( i.lastindexof ( ' . 
+  ' ) ) . slice ( 1 ) | | false `, 
+  * fourth : ` return i.reduce ( function ( acc , x ) { return typeof x = = ` string ' & & x.length  acc.length ? 
+  x : acc } , '' '' ) `, 
+  * fifth : ` return i.map ( function ( x ) { return x instanceof array ? 
+  arraysum ( x ) : x } ) . filter ( function ( x ) { return typeof x = = ` number ' } ) . reduce ( function ( x , y ) { return x + y } ) `, 
+  ( i think . 
+  why did n't they show one 's solutions on the congrats page ? 
+  i decided after the third one to go all functional single-expression answers ( as long as it was feasible ) . 
+  for the fifth one , in retrospect i should 've gone with ` return i.map ( function ( x ) { return x instanceof array ? 
+  arraysum ( x ) : typeof x = = ` number ' ? 
+  x : null } ) . filter ( boolean ) . reduce ( function ( x , y ) { return x + y } ) ` . 
+  nice . 
+  you want ` math.pi ` though . 
+  `` musik '' , men `` next '' , `` previous '' ? 
+  huh . 
+  sorry about that . 
+  `` musik '' , but `` next '' , `` previous '' ? 
+  make your mind up !, 
+  in retrospect i guess i should n't 've assumed swedish , since both `` elefant '' and `` musik '' are probably common among germanic languages ... 
+  although , i * do * wonder about your nick ... 
+  good question . 
+  i did have an irc bot whose nickname was `` eldflugan '' , if that helps . 
+  i am not terribly creative with names . 
+  es5-shim is your friend !, 
+  or ` . slice ( -1 ) [ 0 ] ` , my favourite for extracting the last element of an array without mutating the array . 
+  hey , botty , you probably should n't try to parse small text from inside code blocks or inline code . 
+  fix your markdown parser . 
+  according to wiktionary , [ * shop * ] ( http://en.wiktionary.org/wiki/shop ) is unrelated to * k\u00f6pa * . 
+  however , apparently [ * cheap * ] ( http://en.wiktionary.org/wiki/cheap#english ) is cognate with * k\u00f6pa * . 
+  on that latter part , [ supposedly ] ( http://en.wikipedia.org/wiki/rus_ ( name \\ ) #etymology ) ` rus ' comes from the name of the people who lived in roslagen in sweden . 
+  that in its own might qualify as a surprising pair of related words -- at least , i had no idea about the connection until i read about it on wikipedia ( and i live relatively nearby ) . 
+  which seems . . interesting , considering they [ apparently ] ( http://www.bestbuy.ca/en-ca/product/new-super-mario-brothers-2-nintendo-3ds-previously-played/10221368.aspx?path=22f95fa4072c1895d3dd2df6e3d899b1en02 ) sell nsmb2 used for $ 35 , but [ pok\u00e9mon y ] ( http://www.bestbuy.ca/en-ca/product/pokemon-y-nintendo-3ds/10237636.aspx?path=a0dd9b491a499f4536f4067228262b3aen02 ) is $ 40 new ? 
+  i do n't get it , seems to me like you could save $ 5 by just buying nsmb2 used and then immediately trade it in for pok\u00e9mon . 
+  as an alternative , i chose to instead make sure that there is plenty of contrast between my ` hl-search ` and vim 's cursor : http://i.imgur.com/a9ntkfj.png this also makes it easy to keep track of the current match . 
+   it 's funny because he told them he was n't . 
+  reminds me of [ a certain brian ] ( http://en.wikipedia.org/wiki/life_of_brian ) . 
+  same for me in sweden , fwiw . 
+  if you want to minimize number of characters , you might as well pass in ` 0 ` . 
+  ` null ` seems more . . semantically clean , though . 
+  i agree -- putting in ` null ` s in all the ` bind ` calls gets cluttered quickly ... 
+  i 'd say the same applies for ` apply ` too , but luckily [ spreads ] ( http://wiki.ecmascript.org/doku.php?id=harmony:spread ) will cover that for us in a syntactically prettier way , anyway . 
+  eh , code where the ai could dominate the human without cheating is oftentimes very hard to write . 
+  especially for something like civ , since computers are n't exactly well-known for their strategic and tactical skills . 
+  if you pass ` false ` it 'd be evaluated as a function on a boolean . 
+  when you pass in ` null ` to a function as the ` this ` , you usually assume that it wo n't even look at ` this ` , in which case the value you pass in does n't matter at all . 
+  ~ ~ like , ` alert.call ( `` foo '' , `` hello world !, 
+  '' ) ` would still show you an alert of `` hello world ! '' ~ ~ . 
+  apparently firefox did n't like that , so let 's go with a non-host-object function instead : ` array.call ( `` foo '' , `` hello '' , `` world '' ) ` gives you ` [ `` hello '' , `` world '' ] ` , so the ` this ` value here does n't matter . 
+  edit : to clarify , if we have ` function add ( x , y ) { return x + y } ` , then ` var add2 = add.bind ( null ,2 ) ` and ` var add2 = add.bind ( 0,2 ) ` would do the same thing . 
+  i prefer the former , since i find the latter needlessly confusing . 
+  it seems to just skip to the next track immediately for me ( each track shows up as 00:00 ) . 
+  firefox ( on linux x86_64 ) . 
+  hm , maybe it requires flash for the playback ? 
+  that 's [ envy code r ] ( http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released ) at 10pt . 
+  i 've been there , and i did n't remap . 
+  i suggest going with the default bindings at least for a few weeks before deciding to map stuff . 
+  you wo n't use hjkl all that much in the end , so it does n't make that much of a difference i think . 
+  oh , and you 'll find that j/k , < c-u  / < c-d  , b/w and maybe some other pairs i 've forgotten now are quite nicely positioned on dvorak . 
+  to quote vimgor on freenode :, 
+   < vimgor  in normal mode , all of these keys can move the cursor : ` # $ % ^ * ( ) 0 _ - + w w e e t t i o o { } [ [ [ ] ] [ ] ] [ m [ m ] m ] m [ ( ] ) [ { ] } | a f f ge ge gg g g0 g ^ g $ g , g ; gj gk gi h h j k l l ; ' z. 
+  < c-b  < c-d  < c-e  < c-f  < c-h  < c-i  < c-o  < c-t  < c-u  < c-y  - learn to use all of them . 
+  after a while you get used to using a subset of that ( preferrably as large a subset as possible ) . 
+  i use { } a lot to jump over blocks of code quickly , and for linewise movement i use \\ ^ $ | bwbw usually ( unless i just end up doing a quick search with / or ? ) . 
+  so in the end i practically never end up spamming h/l . 
+   the rendering engine determines which polygons are not visible to the camera and ignores them in any subsequent draw calls .

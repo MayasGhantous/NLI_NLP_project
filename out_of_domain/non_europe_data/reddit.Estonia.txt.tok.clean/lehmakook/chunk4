@@ -1,0 +1,100 @@
+  a good argument for adoption of crypto should cover the case where both parties start with , and end with actual money in cash or their bank accounts , not the imaginary future where everyone already has and accepts coins . 
+  webfaction is great . 
+  the setup process is a lot simpler than on heroku , and you get a standard linux server account that you can log into and manage with standard tools and knowledge instead of heroku 's custom-everything . 
+  you can easily host a few medium-popularity or ten different small sites on one $ 10 account on webfaction . 
+  heroku makes sense only if you need their auto-scaling to tens of servers for a single app , or if you somehow like their custom tools . 
+   now , bear in mind i love space , those lame flash games where you constantly have to repeat an instance and build onto your character, 
+  not sure what you meant by repeating and building a character . 
+  in ksp the * in-game * progress or leveling is fairly limited , although the latest versions have added a tech tree and missions . 
+  the amazing thing is that you `` level up '' as yourself , not a character by learning more about rocket science and orbital mechanics . 
+  the real science and engineering pages from wikipedia are as useful as the game wikis . 
+   while not part of the team , he churned out a massive parts pack . 
+  as part of the team , his pack stagnated . 
+  i think that you would find the same for every mod that would be included as stock , it 's just an unfortunate reality of software development . 
+  a modder can take ksp version x.y.z , build something quickly , and release . 
+  the core developers have to also think about not breaking anything else in the game , not corrupting players ' saves too often , and making sure that the mod fits all the future plans for the game . 
+  if you install too many mods , things will crash , because each mod is only tested against stock ksp - but `` stock aerodynamics '' and `` stock asteroids '' are not allowed to cause each other to crash . 
+  kerbal sims ... set in the same multiplayer world as other players ' kerbal space programs . 
+   i try to dunk my head into every community that discusses ksp ... even terrible , terrible places like 4chan . 
+  do you get hazard bonus pay like the military does when they go on missions ? 
+  here 's a great article on the history of ksp : http://www.polygon.com/features/2014/1/27/5338438/kerbal-space-program, 
+  i love that his attempted defense against the money laundering charges is `` it was only tax evasion , honest ! '', 
+  what happens on eve , stays on eve . 
+  i 've never understood the point of long-term propellant depots in orbit until that propellant is manufactured off-earth . 
+  if you are going to launch the fuel from earth , then why put it up there waiting for a mission ? 
+  it might not be in a suitable orbit for the mission , the fuel is going to slowly boil off , and the docking/fueling ports have to be compatible with everything . 
+  and if that mission never comes , or if the missions ' fuel needs do n't match the exact amount in the depot , some of it ends up as wasted mass launched . 
+  if you 're going to mars and need multiple launches , just launch an already fuelled `` mars transfer stage '' 2 weeks before the crew on the perfect orbit , and dock it to the rest of the spacecraft . 
+  or even launch the mission-specific fuel depot 2 weeks before , but again to the perfect orbit and with the ports designed for it . 
+  one suggestion about asking hard questions at the interviews : it can be useful to ask them from the specific person , not the company in general . 
+  for example , if you ask `` how many hours do people work , and how much time do they have for hobbies ? 
+  '' , you are going to get a vague answer how people work hard but still take time to relax . 
+  if you ask `` how many hours did * you * work in the last two weeks , and what did you do after work ? 
+  '' , the interviewer will usually tell you without fuzzing it . 
+  of course , it 's going to vary a lot between people and positions , so it 's best asked from your potential co-workers on the same team instead of hr or management . 
+  sure , building a spacecraft with multiple launches makes a lot of sense . 
+  even a pre-transfer refuel ship might make sense . 
+  the types of depots i questioned were the unplanned generalist ones - the idea of `` let 's just launch a bunch of fuel into space now , maybe a mission in 5-10 years time needs it '' . 
+  it 's not a pointless restraint , it 's an entirely different challenge . 
+  * with recovery , the challenge is in building & piloting a craft that can land on the runway , and does not drop any parts on the way up , and uses the least fuel . 
+  * without recovery , the challenge is in building a craft out of least number of cheapest parts that can still make it to orbit . 
+  why is there a bulge on the other side of the earth ? 
+  i 've read http://en.wikipedia.org/wiki/tide#forces , but still not sure about how the moon is supposed to weaken local gravity on the other side ? 
+  so if the moon did not orbit earth , but was instead stationary ( at a fixed distance using an infinitely-strong , mass-less rod ) , then there would only be one tidal bulge on the near side ? 
+  to clarify , it 's not multiple parts and orbital construction that i 'm doubtful about . 
+  launching a mission in many parts on re-usable rockets makes sense . 
+  even launching a fuel and ship separately might make sense . 
+  but this would have to happen in the order :, 
+  * design a mission , find the best way to split it into reusable falcon launches ,, 
+  * launch the parts and/or fuel supplies on the correct orbit for this specific mission ,, 
+  * assemble ,, 
+  * finally launch the crew . 
+  but what i do n't think makes sense is having a `` general gas station '' in earth orbit just in case , built and filled well before these missions are almost ready to go . 
+  instead , you would want to launch a fuel tank just big enough for just one mission . 
+  or maybe it makes more sense to launch a `` mars transfer stage '' component , with a full fuel tank and engines on it . 
+   i 'm wondering if you all can offer a strong argument as to why bitcoin will not succeed as a more efficient payment rail . 
+  i do n't mean so that we can buy goods online ( though that may come later ) - i mean so international financial institutions can transfer value between geographically and financially disparate countries efficiently . 
+  international financial institutions do n't actually transfer money as suitcases full of cash . 
+  they all have accounts in each other 's databases . 
+  if bank a wants to transfer money to bank b , they send them a message saying `` please decrease the total in * our account in your systems * by $ 100 , and increase the total of * your account in your systems * by $ 100 '' . 
+  and if you do n't have an account with the specific bank , then you ask your partner bank in the destination country to do it for you . 
+  it really is about changing numbers in a database , not actual transfers of anything tangible at this stage . 
+  the validity of these transfers is checked afterwards by automated and manual audits - and after all , you can always change the numbers back if there was a mistake or other problem . 
+  all banks ( and other large companies ) have access to this messaging network , and can broadcast payments into and out of accounts . 
+  ( see http://engineering.zenpayroll.com/how-ach-works-a-developer-perspective-part-1/ for an introduction ) . 
+  the messaging system might be old , complex and slow in the us , but that 's just because banks are cautious about changes and bugs that might halt the system and disrupt their business for a while . 
+  twitter and reddit can be down for 30 minutes and nobody cares , but banks want software that `` always works '' . 
+  upgrading the technology would be a lot easier than adopting bitcoin , eu banks have already done so with sepa . 
+  could you perhaps explain what do you see as the advantages of bitcoin for the transfers ? 
+  the distributed ledger , the limited total number of bitcoins , the fluctuating exchange rate , and above all the * need to actually own bitcoins * would be downsides . 
+  at every place i 've worked at , from three-person startups to huge tech companies with amazing employee benefits , it 's always been monitors . 
+  there are never enough monitors , or not big enough monitors . 
+  as soon as an employee leaves ( even for a week-long vacation ) , there 's a rush to grab and borrow their monitors while they are unused . 
+  and despite them being cheaper than a desktop or laptop itself , for some reason it feels like too much of a luxury ( to yourself , or to accounting ) to justify 2-3 huge monitors . 
+  but the entire complexity is in deciding which parts to get , which ones work well together and which are good value for money . 
+  if someone can do that , then i 'm sure they can assemble their own computer as well based on a youtube video . 
+  a valuable service would be to keep up-to-date with the pricing of all parts on all online shops , and offer a small set of best price/performance builds that the user can choose from ( with your markup on top of course ) . 
+   in regards to overclocking , i would really have to do some research before agreeing to do that , and i might have to just make a small waiver saying that if i mess up the overclock , then i would do the rest of the build free of charge or something as a way to compensate them . 
+  are you building for your friends , or for a general public ? 
+  anyone who does not know you personally is going to expect a full warranty for your services . 
+  after all , every electronics shop offers a month for returns and a year for warranty . 
+  if the overclocking fries a few components , i 'd expect everything to be replaced & repaired at your cost , and something `` to compensate '' on top of that , not instead of the repair . 
+  getting business insurance for this is a good idea . 
+  as components get smaller , it seems that every manufacturer is competing on how thin they can make their phone . 
+  why not keep the form factor the same , but use the space for a bigger battery ? 
+  what about posting all the photos on the card ? 
+  there 's a chance that these people are european tourists to the us - and some of the other photos might have been taken in their hometown . 
+  leo is halfway to anywhere * in our solar system * , but interstellar is a whole different game . 
+  we have no known technology that would make useful interstellar trips possible . 
+  with our current tech , it would take tens or hundreds of thousands of years , and even with theoretically possible imaginary tech like project orion , it would take a thousand years for a return trip to the nearest star . 
+  i think they do , but you need to `` know people '' to get into one . 
+  i 've only seen photos from journalists , investors , and friends of employees posted online . 
+  i do n't think they would bother with random strangers , especially considering the strict secrecy rules . 
+  but there are a lot of fans of spacex in the u.s. and worldwide who want to come look at launches , even if they ca n't get into the buildings . 
+  putting together accommodation , local transport and tour packages and selling them to tourists might work well . 
+  the career mode adds a nice extra element to the challenges - you can rank the solutions based on cost , not just passing easy/hard/manley mode . 
+  from the end :, 
+   author notes, 
+   have i mentioned that i do n't like bitcoin ? 
+  i do n't like bitcoin . 
+  i 've been working on a one-stop-shop explanation of why i do n't like bitcoin , but have n't posted it yet .

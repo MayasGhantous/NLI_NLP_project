@@ -1,0 +1,100 @@
+  a top hat and a monocle ? 
+  that 's where i draw the line !, 
+  i 'd personally go with c # , if it 's windows exclusive . 
+  easy enough to learn , but quite powerful, 
+  it 's not . 
+  the most important part is learning and understanding the concepts and those are largely independant of the language itself, 
+  not gay , but would smash, 
+  i know this is not the optimal place to ask , but is there anything to be mindful of when updating gradle ? 
+  my gut says no , but i just want to be sure, 
+  i made my screen myself by connecting four pieces of cardboard together and glueing sheets of paper on , which contained everything i need . 
+  i dont see any reason why i would pay 20 bucks for something i can make for 1, 
+  i left 1 group so far , due to harassment . 
+  one guy refused to talk like a normal person and either subtly told me i was stupid or that i had a mental disorder, 
+  thank you dark souls, 
+  as a long time addict , it definitely hurt mine . 
+  i started playing d&d a year ago and dm-ing is just insanely difficult for me , because i have such difficulties with coming up with things on the spot, 
+  yes , the board game . 
+  should have clarified , sorry, 
+  i 've tried uml , nassi shneiderman and flow diagrams and so far , the best thing was to use flow diagrams for general ux flow ( like [ this ] ( http://imgur.com/zbsd1ji ) , text in a box describes the name of a screen and text next the lines describes ui actions , `` save '' is a button with the text `` save '' for example ) and written text for specific code, 
+  basically what i do is write the flow in plain english using simple terminology, 
+  example ( has nothing to do with the diagram , that was just something i had lying around ) :, 
+  i have a list of items . 
+  i can either like or dislike them by clicking on a button, 
+  and i have a limited amount of items per 6 hours, 
+  flow :, 
+  1 . click button, 
+  2 . make reject-call, 
+  3 . see if i can still load items, 
+  true :, 
+  load more items, 
+  false :, 
+  show message `` no items remaining '', 
+  do you guys not use adblock ? 
+  how the hell do you pronounce tony ? 
+  yeah , i know , sorry , i 'm just being a jerk trying to be funny : /, 
+  even if it was n't fake , did n't you notice the trend ? 
+  all sorts of companies use political movements to increase their sales, 
+  a church with a flatscreen tv in the front ? 
+   took the g out your waffle , all you got left is your ego, 
+  ego + g = eggo , which you make waffles with, 
+  another way could be databinding, 
+  go for it . 
+  to me , it sounds like you 've lost essential social skills and by keeping gaming as something to fall back upon , when things do not work out in your favor , you allow yourself to get sucked back into the addiction . 
+  it 's important to remember that you wo n't gain anything from simply stopping . 
+  you can only gain from abstaining , if you engage in activities that reform your lifestyle . 
+  try to rediscover the things that interested you before your addiction took root . 
+  you might have been a sports enthusiast , you might have played an instrument , you might have drawn pictures . 
+  whatever it is , try it out and push yourself through . 
+  your addicted brain will try to get you back into gaming , but you can recondition it to see non-gaming activities as more rewarding, 
+   that `` shouting '' is making people nervous, 
+  i personally usually use javascript . 
+  it 's similar enough to javascript , where i just have to swap out a few keywords ( like var , because sadly java does n't do smartcasting ), 
+  we 're using basic authentication and expiring tokens used for auth . 
+  the current way the app deals with expiration is that calls are always made with the same token without ever checking its expiration date and if the call returns 401 unauthorized , we make the auth-call ( simple rest call ) and retry the call, 
+  this works , but i would prefer , if i had some sort of mechanism that prevented this error handling part , because if you send 50 requests with an expired token , you make 50 auth-calls , generating 50 tokens and using each of them ( but the last one ) only once . 
+  i should add that i tried to suggest the backend guys multiple times to support oauth , but they found that basic auth with salted credentials is sufficient, 
+  how should i go about this ? 
+  i was considering building a service , whose sole purpose was to refresh tokens before they expire ( like 5 seconds early ), 
+  are there any better approaches ? 
+  which is why seagulls shop for groceries, 
+  sorry for hijacking , but i was wondering , how do you actually handle navigation with custom viewgroups ? 
+  i found it to be an arduous task at best and almost impossible at the worst, 
+  you 're probably leaking memory , which means that you have a reference to some object ( not class ) and gc ca n't clear that reference, 
+  definitely not !, 
+  i even understood most parts !, 
+  the only thing that is slightly annoying is that you have to care about state , but then again , that 's still better than fragment-hell, 
+  is anyone having issues with the newest stable release of android studio ? 
+  to me , it often happens that i clicked the `` run '' button and when i check 20 seconds later , the app did n't start, 
+  instant run is ** disabled **, 
+  now that you mention it , alt + tabbing is what screws it up for me aswell !, 
+  ehh , a headless chicken still runs for a bit, 
+  tl ; dr : do n't have aisha tyler back at the ~ ~ grammies ~ ~ e3, 
+  unless he writes a book about exterminating people in camps, 
+  pen & paper b :, 
+  `` clean '' as in [ uncle bob 's clean architecture ] ( https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html ), 
+  this looks like mvvm to me, 
+  that 's bound to happen with new ( ish ) members , not everybody is as charismatic as rothfuss and the other guys played with each other for years, 
+  20k to 40k people die yearly in the us due to not being able to afford health care , while you had about 5k soldiers die beyond us borders since 9/11 ( not yearly , in total ), 
+  and all that before the republican `` health care '' bullshit, 
+  i used to browse medium , before android arsenal started spamming it , but that seems to have been resolved, 
+  related : [ the rise of the weaponized ai propaganda machine ] ( https://medium.com/join-scout/the-rise-of-the-weaponized-ai-propaganda-machine-86dac61668b#.4mnf103ta ) &, 
+  [ the miseducation of dylann roof ( very relevant , actually ] ( https://www.youtube.com/watch?v=qb6a45ta6me ), 
+  i hope that they wo n't revoke the open gaming license , considering how much fan content there is, 
+  [ relevant ] ( https://pics.onsizzle.com/dont-take-advice-from-people-like-me-who-got-very-3898845.png ), 
+  you need quite a bit of luck to find a company that 's willing to let you work from home , if you 're not in the us . 
+  i had to fight months to get that single home-office day i have and that 's a friday ( the shortest workday ), 
+  check if positivecolor is null , it explicitly tells you that it ca n't call `` getdefaultcolor '' on a null-object and positivecolor is the only method you call it on, 
+  bacon loving indeed is a very american thing, 
+  i do n't recall when i had to invalidate caches the last time , i think it was like 3 or 4 months ago . 
+  as has been running quite stable for me as of late, 
+  yes !, 
+  have them port their characters to offices and bosses !, 
+  honestly , maybe you 're just playing the wrong system . 
+  something like this could be fun in a system like burning wheel ( in the one bw campaign ive played in , we had an orc , fond of torturing and or eating people , become a business man ), 
+  i ended up solving it the way i had envisioned it , by using a singleton observable of my auth-response , which i ` share ( ) ` d and had other observables hook into , whenever i made a call, 
+  if i had to hate disney for one thing , it would be this . 
+  hyenas already had a bad reputation and tlk worsened it even further . 
+  they 're incredibly interesting animals, 
+  you ca n't use grid.rowdefinitions in layouts other than gridlayout , you 'd need to use gridlayout instead of linearlayout, 
+  you need a server of your own for that , here is a tutorial for firebase cloud messaging from the server side [ link ] ( https://firebase.google.com/docs/cloud-messaging/send-message ),

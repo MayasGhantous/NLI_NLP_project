@@ -1,0 +1,100 @@
+  not that i am proud of that . 
+  dynamic objects are only slower if they result in calling methods via reflection . 
+  if the object implements idynamicobject the penalty is still there but is relatively small . 
+  the call should in my opinion amount to something like this ( warning : i have not checked that this is actually the case ), 
+  if ( o is idynamicobject ), 
+  o.trygetproperty ( `` someproperty '' ), 
+  since in the case of the viewbag trygetproperty probably does just a dictionary lookup it would n't be significantly slower than using a dictionary directly . 
+  yes it does go through the dlr but the dlr is not significantly slower than normal dispatch in this case because the very logic of what you need to do amounts to searching something in a dictionary . 
+  as far as i understand dynamic dispatch is basically dictionary search + some caching but when your logic is actually dictionary search that is not a big problem . 
+  and why are you glad they moved to github ? 
+  i mean you only listed the downside but not the positives . 
+  by virtue of having more text instead of symbols and indentation indicating the body . 
+  however let me reverse the question . 
+  if the second is more readable why do language designers choose the first one . 
+  they could certainly make the second be the syntax for a foreach loop but they did n't . 
+  i am fully aware of the difference . 
+  i was discussing hypothetical general purpose foreach method which exists in many languages although it is not in the c # standard library . 
+  also foreach is quite often optimized to a normal for loop . 
+  i am sure it is optimized for array and i think it is optimized for lists too . 
+  certainly if we say that something is ugly or beautiful it is a matter of preference . 
+  however discussions and articles like this one - http://blogs.msdn.com/b/ericlippert/archive/2009/05/18/foreach-vs-foreach.aspx point to the fact that the c # language designers in particular preferred to not encourage this type of code so they did n't include a foreach method on purpose . 
+  they wanted us to use a foreach loop . 
+  they even removed the foreach method in the winrt version of . net - https://social.msdn.microsoft.com/forums/windowsapps/en-us/758f7b98-e3ce-41e5-82a2-109f1df446c2/where-is-listtforeach?forum=winappswithcsharp, 
+  no , i did not know but i will take that as a compliment . 
+  i have been blocked with reason `` games '' probably because i publish an article about the best game of the past year but `` tasteless '' is new . 
+  some of the content is tasteless though in the sense that it uses words like `` fuck '' , 
+  draft version on onedrive ( will be removed soon ), 
+  also useful for those who do not like my grey text on black background design , 
+  ca n't he get personal sponsorship for that money ? 
+  please do this . 
+  i certainly would if i was making like $ 50k a month, 
+  where does winter get that kind of money ? 
+  not if you are chinese i guess . 
+  for $ 250 a month i will buy mc . 
+  i do n't even care if i will monetize him i will just make him talk about the game in english , 
+  seems like something very minor to me . 
+  the report even says it might be by design . 
+  if you fail the interview they will kill you . 
+  be scared !, 
+  mutas or roaches - that is the question !, 
+  i failed an interview once and they killed me . 
+  i do n't think the author is correct to claim that typescript is a bet on the future . 
+  the whole point of typescript is that you do not bet . 
+  if typescript fails you just use the javascript it produced and pretend you invested in js all this time . 
+  because node.js is web scale ? 
+  i think this is bullshit and i do n't think this is what choosing a project at valve means . 
+  if this was the case we would be at half-life 10 already but we ca n't even get 3, 
+  hmm how does this work . 
+  i imagined he finished his training and now he has actual service to do . 
+  he did not finish military service . 
+  he finished training . 
+  i do n't see why he ca n't return . 
+  how old is he ? 
+  certainly possible to return at 21 . 
+  another pointless benchmark . 
+  when will people learn that async io performance is pretty much the same across java , node , . net and probably other things . 
+  async io is essentially provided by the os . 
+  if your main load is the async io and you do not get similar results ( within 30 % difference ) you are probably doing your benchmark wrong . 
+  if you want to point out that java is faster ( which it is ) your code should do actual cpu computation . 
+  this question makes perfect sense . 
+  i would be worried if a candidate does not understand strings . 
+  i just never thought anyone in a job interview would fail this . 
+  i saw them . 
+  still pointless . 
+  you fixed the issues with your original tests and you got the expected minor difference . 
+  note that 15 % is nothing . 
+  even 100 % is nothing and will be swallowed by actual app code performance . 
+  problem is that with blocking io the loss of performance is exponential . 
+  do n't be a pussy !, 
+  wait , you think i am a fan of node or something ? 
+  quite the opposite in fact . 
+  i want to see js die in flames together with node . 
+  still the results are not useful for anything but internet arguments . 
+  like i am going to choose one tech over the other for 15 % performance gain . 
+  there are so many things that are more important like language , standard library , tooling , etc. 
+  drama is cool but disrespect to the community and the competition is not . 
+  for example i do not care that nani insulted another player but i do care about the way he left the scene . 
+  we should distinguish the different kinds of drama . 
+  for 17 years of playing sc i think i have experienced all that can happen to a non-pro ( including wins in local tournaments , playing in big events and sex with a girl who plays sc ) and still beating someone who went for offensive gg is the most satisfying thing i ever got from this game . 
+  i actually get excited when someone goes for offensive gg against me . 
+  of course i lose 95 % of the games but by going offensive gg he gives me a chance to have one of those moments . 
+  you mean high frequency trading ? 
+  because i work mostly with enterprise software and performance is the last thing i have to deal with . 
+  i had similar experience once . 
+  i am playing with my gf and they basically clean her base and bad manner us telling us to leave and what not . 
+  i go on playing for quite a while but i am zerg against protoss and terran so even though we all max i stand no chance vs 400 supply army . 
+  however when they attack i neural their mothership and vortex their whole army throwing my ultralisks in the vortex . 
+  this was before the temp invulnerability of the vortex so the ultras basically killed everything in seconds after the vortex was over and the opponents left without saying anything . 
+  it would take some investigating to find out why these benchmarks are like these . 
+  an interesting thing is that they do not match the benchmarks in the linked blogpost . 
+  why is java like 10 times faster in the techempower benchmarks but only 15 % faster in the blogpost benchmarks ? 
+  i am a big fan of these benchmarks but i have a hard time believing that all the code is equivalent and the results are really just comparing platforms and languages . 
+  still there must be an explanation why this happens even if we have to dig in assembly to find it . 
+  i do not dispute the quality of the jvm but i do not see it doing much in this particular test . 
+  until we know what makes java frameworks faster we do not know if it will be faster for any particular use case other than literally the one in the test . 
+  again if java frameworks are 10 times faster why are they only 15 % faster in the linked article . 
+  obviously if you do something differently the performance characteristics change . 
+  what is this thing ? 
+  these benchmarks do not tell us this . 
+  i know that the code is there but it seems that nobody did the work to find out , only some work to improve the results of various frameworks .

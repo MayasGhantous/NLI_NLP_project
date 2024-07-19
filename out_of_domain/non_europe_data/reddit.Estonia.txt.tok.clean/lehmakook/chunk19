@@ -1,0 +1,100 @@
+  some flavour of it if more into networking/sysadmin/management roles . 
+  being a competent programmer basically guarantees many job offers at 2x the national average salary and above . 
+  in this case , the simplest option would be to convert at least a portion of your savings to gbp . 
+  it 's pretty difficult to predict the future exchange rates and actually end up with a profit from trading on currency markets . 
+  the safest bet is to keep savings/investments in the currency that you would be using in the future - then exchange rate changes have the least negative or positive impact on the value of the savings . 
+  the parliament elections are on 1st of march , with pre-voting already ongoing . 
+  most likely something related to that ? 
+  it 's legal to * download * copyrighted stuff for private use , but not * upload * . 
+  so torrenting is technically illegal , since you are uploading at the same time . 
+  there have been a few cases of people getting in trouble for burning dvds of movies and selling them in outdoor markets many years ago when such markets were still a `` thing '' . 
+  but nobody who just torrented movies at home for their own use . 
+  every isp even used to have their own semi-official ftp server for sharing pirated movies and music , since it reduced their international bandwidth needs and saved them money ... 
+  this is really a business advice , not a legal advice question , maybe also ask / r/startups ? 
+  you should check with a lawyer to make sure that the written agreement correctly describes what you decide on in the negotiations . 
+  but a lawyer ca n't help you decide what business value the `` secret sauce '' has to you or the cto candidate , or how much either of you is willing to give up to make the deal happen . 
+   should i limit the term of the agreements disclosure period ? 
+  every nda that i 've seen and signed has been binding for the duration of the employment/partnership plus 6 months to 5 years after that . 
+  not sure if indefinite periods are even valid - but they are pointless in any case , as startups change their plans often and the knowledge will soon be obsolete . 
+   should i provide specific exemptions limited to his company but under the condition that he does n't directly compete in our market ? 
+  maybe , it might be difficult to define what your and his markets are though ? 
+  especially as neither company has yet to actually publish a prototype product , let alone find a successful market . 
+  most likely you will completely change the idea and the target market 2-3 times before you get there . 
+  so my suggestion would be to negotiate the time period of the nda . 
+  perhaps there 's a duration that satisfies you both : long enough for you to have a head start over any competition , and short enough to allow him to work on his idea in the not-too-far future . 
+   costs about 4 cents a transaction . 
+  so about 10,000 dollars to shut down the network per day . 
+  what about other coins ? 
+  would it be feasible for a single troll to dos some altcoin network ? 
+  edit : did some calculations . 
+  * $ 204 per day to spam litecoin ,, 
+  * $ 114 per day to spam dogecoin . 
+   i read the 4-hour work week some years ago like many of you probably have , and felt inspired by the idea of a muse - creating a stream of automated income to fund my supposedly future dream lifestyle etc. 
+  it seems that the book and most other proponents of `` automated income '' often forget about * competition * . 
+  it takes time and effort to set up this automated business , and it 's not going to be permanent until your retirement . 
+  you might lose your spot in google rankings to a competitor ( or due to their algorithm changes ) , your suppliers might change prices or change their product line , and so on . 
+  the lifecycle of a dropshipping `` setup '' might be from just a few months to a year . 
+  you will need to keep finding new products and keep working on new angles of advertising to stay in business . 
+  once you consider that the set up effort is only spread over a year at best , instead of an infinite future period , it starts looking a lot less automated and much more than 4 hours per week . 
+  it 's probably transferwise , an actually useful currency exchange / remittance startup that recently expanded to the us . 
+  uh , did n't notice there was an album . 
+  this is good for bitcoin . 
+  it could be worthwhile to actually ask for authorisation . 
+  there are a bunch of reddit apps already , including some paid ones . 
+  if the app 's functionality does n't conflict with reddit 's business interests , they might very well say yes . 
+  and if it starts conflicting in the future , they might [ buy out the app ] ( http://techcrunch.com/2014/10/15/reddit-acquires-alien-blue-the-most-popular-unofficial-reddit-app/ ) instead of shutting it down legally . 
+   it is easy to bet 1000 on `` yes '' if you own the site since the money is just returned to you when you lose . 
+  how ? 
+  if the owner bets on `` yes '' , and everyone else on `` no '' , he would have to pay out the winnings to those other people . 
+  and it 's still similar if other people bet on both sides . 
+  of course , this assumes that the site wo n't get `` hacked '' and the owner wo n't take both sides ' bets . 
+   so no , my real work life does n't at all involve the kind of day-to-day , real-life legal issues that you see here . 
+  what does your day-to-day work life involve ? 
+  they are crazy . 
+  some of their election promises :, 
+  * arrange electricity markets so that electricity in estonia would be the cheapest in europe ( no mention of how ) . 
+  * close and ban all `` anti-estonian '' media channels . 
+  * close and ban all political parties that have been started by `` foreign initiative '' . 
+  * ban non-citizens from being teachers . 
+  * bring back death penalty . 
+  since you have not added a location , here is the advice for estonia !, 
+  impersonating another person with the goal of leaving an untrue impression of them , and as a result causing them harm , is a [ crime punished by up to three years in jail ] ( https://www.riigiteataja.ee/akt/184411?leiakehtiv#para157b2 ) . 
+  she should submit a police report . 
+  mix of python and django template code for an example :, 
+  for person in person.objects.filter ( whatever ) . prefetch_related ( ` phone __ type ' ) :, 
+  for phone in person.phones.all ( ) :, 
+  { { person.name } } { { phone.number } } { { phone.type.name } }, 
+  person , phone and type are then full orm objects . 
+  changing the type of the phone number would be as easy as, 
+  phone.type = type.objects.get ( whatever ), 
+  phone.save ( ), 
+  sure , you need to understand how the orm works , and * sometimes * give hints to the orm to avoid repeated queries . 
+  and if you really have a complex query or huge result set , drop to raw sql !, 
+  but for the vast majority of pages , the orm can save quite a bit of time over fetching arrays and dictionaries . 
+  { { phone.number } }, 
+  is not a phone object , it 's a string rendered in the template . 
+  for phone in person.phones.all ( ) :, 
+  the phone here is a full phone object though , and can be edited and saved . 
+  if you 're asking about how to render a table as a web page , and then go edit it on a separate request : then i 'd put the primary key of the phone object as an attribute on the table row or form or other suitable place , and pass that as a parameter with the request . 
+  then it 's just a matter of, 
+  phone = phone.objects.get ( pk = whatever ), 
+  phone.type = type.objects.get ( pk = whatever2 ), 
+  phone.save ( ), 
+  but this is n't a practical class back in college , so let 's skip the small steps . 
+  what are you trying to learn about orms ? 
+  or what 's the main point that you are trying to argue for or against ? 
+  you do that with, 
+  phone.objects.filter ( pk = whatever ) . update ( type_fk = type_whatever_pk ), 
+  no selects are made . 
+  which i 'd never actually use in a real app unless i 'm doing bulk updates of * large * datasets , and filtering by something other than a primary key . 
+   so show us how to use the orm correctly so that you are n't making unnecessary database calls . 
+  sorry , i have to ask , are you actually trying to learn something about orms , have a debate on where orms can be useful and where they can not , or just be a dick ? 
+  if you have an argument to make , why go on a series of unrelated stupid questions instead of starting with your actual point of view ? 
+  it 's 3am here , so my reply will be tomorrow . 
+  instead of the toy problem , enjoy this real orm and not-even-sql query from a sensor data system i manage :, 
+  # get approximate count from pg_stats, 
+  count = rawquery ( `` explain ( format json ) select * from events where tag = % s '' , [ tag ] ) [ 0 ] [ 0 ] [ 0 ] [ ` plan ' ] [ ` plan rows ' ], 
+  count = int ( count ), 
+  if count < 10000 :, 
+  # for small counts , do a real query , as it 's fast enough . 
+  count = event.objects.filter ( tag = tag ) . count ( ),

@@ -1,0 +1,100 @@
+  the old collections will be there forever why would you have a flag day ? 
+  i am certain this is not what we call `` a breaking change '' . 
+  also java has done it a bunch of times for example with dates . 
+  i would say that not being able to create a new instance of t and a new array of t is quite problematic for most programmers that use them . 
+  as far as i understand the thing discussed here is not reified generics it is generics specialization which seems to me like a substitute for reified generics . 
+  oh , you will be able to instantiate ? 
+  but this is a separate proposal i guess ? 
+  maybe they are relatively rare cases for you but i write generic methods every day and in the relatively rare cases where i write java i miss this a lot . 
+  thanks . 
+  i will see it later, 
+  is the output of the first one result from the snippet runner because i would expect it to run indefinitely and not actually stop ? 
+  i also do n't get the third one . 
+  what does the static constructor lock with ? 
+  another static constructor ? 
+  the author will migrate the library when he sees fit . 
+  the argument does n't make sense . 
+  because you do n't want some libraries to use the old version everyone will use the old version since they will not build the new one . 
+  . net did exactly this ( introduced a new set of collections ) and there was no flag day . 
+  everyone replaced the collections when they saw fit . 
+  the answer to all your questions is `` generic constraints '', 
+  i do n't think this is what he refers to as flag day . 
+  note that the use of word `` or '' indicates that he contrasts `` flag day '' to the . net approach . 
+  to be honest java designers were not very successful as language designers . 
+  they did create the most successful language but does that make it high-quality ? 
+  php and javascript are also very successful and i think we all agree they are very poorly designed . 
+  this is my biggest issue with this argument since i do not remember any pain associated with that . 
+  if we multiply 0 by 10 we still get 0 . 
+  people just gradually migrated their code as they rewrote it for other reasons and in like 3 years non-generic collections were gone . 
+  with java it may take 10 years . 
+  so what ? 
+  i do n't know how `` first and foremost - to appear familiar '' applies to checked exceptions . 
+  i also do n't see how it applies to the concept of primitive types both of these the most serious issues with the language . 
+  hmm i actually imagined literal flag in the compiler or something ... but then again nobody noticed `` flag day '' in the . net world . 
+  yes , few people were using it at the time but still i did use it and nothing dramatic happened . 
+  we add constraints to generic code all the time for different reasons so why not this one too . 
+  look at c # for an example of how to have your cake and eat it too . 
+  also note that i am talking about c # 1.0 here , not about generics . 
+  factory methods are no `` better means '', 
+  but the c # approach has both better performance and better usability . 
+  it just requires more work and planning from the developers of the platform . 
+  i would argue that value types ( which are coming anyway ) are less of a burden than wrapping everything in wrapper classes and converting between the two and explaining that everything is an object but not exactly . 
+  because they are external to the class and put a burden on the caller that does not provide additional value . 
+  what came 10 years later ? 
+  wrapper types ? 
+  i think they were there from the start . 
+  i really do n't see how creating a factory for the sole reason of working with generics can be a good thing . 
+  and how exactly is f # smaller than c # ? 
+  i can barely think of a c # feature that is not present in f # . 
+  examples ? 
+  ok but my point is that they could have done autoboxing from the start with no wrapper types . 
+  if i had to dig into java 's history to find a reason for not implementing it is that they thought they would implement a lot of vms and wanted the vms to be super simple so they dropped things like boxing from the vm . 
+  use the newest compatible versions even if they are old . 
+  well if they did reified generics there would not be list < int  problem . 
+  even if we excuse the primitives thing as something that was not clear in 95 we ca n't do that for generics since . net and java got generics at roughly the same time . 
+  the fact that java is successful ( and in my opinion quite good ) does not mean that everything the designers did was clever . 
+  i would put primitive types and checked exceptions on the top of the list of avoidable mistakes . 
+  in fact i ca n't understand why to this day they do n't simply remove checked exceptions ( make the compiler ignore them ), 
+  this is certainly true but it is not due to value types . 
+  if it was they would n't be adding value types to java . 
+  value types improve performance when used appropriately not the other way around . 
+  in fact it will probably be easy to construct an example where c # beats java in performance specifically based on the handling of primitive types . 
+  in practice this will probably only show with games where it makes sense to use a lot of value types . 
+  i suspect unity chose mono for precisely this reason . 
+  yes this is what i am saying and my bet will be that this will not be a significant problem . 
+  certainly less significant than the broken generics . 
+  the idea behind checked exceptions is a good idea . 
+  checked exceptions themselves are not a good idea . 
+  maybe it is time for a third attempt . 
+  this was in 2013 and it is 2015 , 
+  ah so it is the lambda that causes the problem . 
+  my immediate thought was - so if there was a closure it would work , 
+  i guess there should be one try each year . 
+  on the other hand i do see the reasoning of the moderators though in this case it should bend the rules since i specifically searched for nimrod on wiki to get info and they did not block the authors of the language they blocked a user who was searching for information structured in a specific way that wikipedia provides . 
+  it is not compiled to an inner class it is optimized and compiled to a method . 
+  my reasoning was that if this did not change anything then the volatile keyword would n't exist so it probably makes a difference  now i also expect ( but have n't tested ) that if the program was significantly more complex with more code executing in the thread the variable would n't be cached in the register and would be put in the cpu cache which would mean that at some point the os may invalidate it because it needs it for another program and then the actual variable will be loaded from ram which would make the program stop , 
+  but it is present in f # too . 
+  source ? 
+  there were no compatibility problems . 
+  as i already said 0 multiplied by 10 is still 0 . 
+  even if java has 10 times greater compatibility problems they are very small problems . 
+   also , once you know java , coding in c # will be a breeze , because the two languages are so similar . 
+  i disagree . 
+  unless you are posting from 2005 this is not true . 
+  while the languages are more similar than lets say c # and javascript it certainly wo n't be a breeze . 
+  not programming . 
+  i write ( mostly ) enterprise web apps and i only optimize for asymptotic complexity . 
+  my metric is not insignificant things like comparisons or swaps . 
+  my metric is full database transactions and i am ok with log n , 
+  i was in the kickstarter and remember that the comments in the thread were actively against the notion of articles as a content ( as opposed to video , streams , etc. ), 
+  and also against the business model ( asking for money every year ) . 
+  or their kickstarter money, 
+  agree . 
+  the quality will definitely drop since there is simply not enough things happening to fill target the satire at . 
+  i would be happy with bi-weekly articles and would pay for them . 
+  i know one that publishes like 5 per day but he writes ( and mainly translates ) comments on economy . 
+  there is a good amount of ajax and even real time web sockets communication in so . 
+  if you copy their setup you are likely to end up with their setup  . 
+  using tech specifically developed by the so guys means some architect at your company is a fan . 
+  lse was so long ago and probably just badly designed product and not the platform 's fault . 
+  dapper , stackexchange.redis , miniprofiler are libraries developed by the so guys .

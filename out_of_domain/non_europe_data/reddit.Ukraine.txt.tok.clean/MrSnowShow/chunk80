@@ -1,0 +1,100 @@
+  haha it 's okay , but yeah although i think it 's definitely much more related to the user , a lot of people are blind to the fact that they 're bad at something so they just put the faults on everything besides them . 
+  options  advanced  check `` use autoscrolling '', 
+  so seeding is actually upload , i was always wondering when i was a kid why my `` seeding '' speeds were so low . 
+  i have sympathy for ` vi ` only because it 's a ( known to me ) trace of the original unix . 
+  not now , it was a while back when i realized that utorrent ( was still krill because of muh games ) was crap and decided to try out other clients and instead of `` seeding '' i saw `` uploading '', 
+  i also once surprised my friends because the youtube video was age restricted and i simply replaced ` / watch = ? v ` with ` / v / ` and got all that `` omgz how u do it !!!!, 
+  pr0 l33t h4x0r plz tell us '', 
+  of course , they wo n't let you see if you 're not logged in into a +18 account, 
+  search for a youtube video `` arch post installation '' ( ca n't link on mobile ) and it will guide you through the 1st steps after a base install . 
+  it shows making a normal user and installing sudo , getting an aur helper and all the tools for building packages , graphic drivers ( this part i recommend to read the wiki about the driver you want to install because some things have changed since the video ) and finally installing the de of your choice . 
+  use double enter to make a new line, 
+  like so, 
+  wow that 's nice . 
+  i saw somewhere a dude say `` windows plays games better ! '', 
+  but that is debatable , it just has more aaa games . 
+  what about making, 
+  a new line without leaving, 
+  a little space in between ? 
+  you do it with [ space ] [ space ] [ enter ], 
+  easy ( :, 
+  thank god we still have tesnexus . 
+  if you want proper mods you 'll end up using nexus so it 's okay . 
+  i stopped gaming which was the only thing holding me back . 
+  i still have the windows partition just in case ( school stuff ) but it 's collecting dust right now . 
+  i 'd like to be part of this but i think there are more competent people here \\ ^ ^, 
+  but ... their previous architecture was called powerpc ... 
+  and have n't changed since . 
+  i respect that a lot because many sites broke the golden design rule which is `` do n't fix it if it ai n't broke '', 
+  anonymity is a great to trully express yourself . 
+  while technically i 'm also anonymous on reddit , i still subconsciously follow a profile of opinions most of the times, 
+  whoa this is exactly me . 
+  pretty much every new activity i did were the best experienced at the beginning because i 'd quickly learn a lot of new stuff and people comment with `` wow you 're gon na be a great guitarist/surfer/bmx rider etc etc etc '' and then it gets to a point where i need to start working hard to get better and that is where i stop and end up being a jack of all trades , master of none . 
+  but do use ` pacman - rs `, 
+   it 's not very useful imo . 
+  my +139 % smithing potion disagrees . 
+  actually they 're not coming for skyrim anymore you can relax, 
+  yep , valve and beth listened . 
+  is there a linux sucks 2015 coming ? 
+  oh wow , the man himself . 
+  meanwhile bleeding edge arch is on 3.19.3, 
+  well 4.0 is in testing repo , i call it `` bleedier edge '' . 
+  i 've been anti-kde since i discovered linux because of how much space it took for [ no reason whatsoever ] ( http://en.academic.ru/pictures/enwiki/75/kde_4.0.png ) and basically looked ugly , everything was too big and inconsistent . 
+  but now looking at this ... if i ever install a de it will probably be kde . 
+  i heard that the packages for kde 5/plasma in arch were fucked up can any archers confirm this ? 
+   your kernel needs updating . 
+  3.19.3 is the latest on `` stable '' repos, 
+  in the same way as ubuntu is compared to arch . 
+  yes , in fact it 's probably one of the most op damage dealing sources ( if not the most ) . 
+  the secret is making a weakness to 100 % magic / shock / fire / frost ( or all together ) for a few seconds and then making a spell that does damage in that effect ( or all together ) . 
+  you should also add 10 ft area , for a little bit higher magicka cost you will be able to do same amount of damage towards multiple enemies which reduces the number of times you have to cast the spell . 
+  also dot is less costly than instant effect . 
+  i 've noticed that most people who talk shit about arch have n't really gotted past livecd experience . 
+  i have the font , tried setting it on . xresources using xft = incosolata etc etc and the letter spacing were fucked up : /, 
+  brb for ` packer - syu `, 
+  never used a de before but if i do then it will probably be one of these : gnome  kde  xfce, 
+  `` a code editor '', 
+  remove the antergos repository, 
+  i 'm hyped for new amd zen cpus !, 
+  remove packages that were installled with the repo ** look at what being removed and if you need it , take note and reinstall ** ( i think this uninstall ` yaourt ` so you 'll need to download it again to use aur ) . 
+  edit / etc/pacman . conf and remove or comment out the antergos repo . 
+  update the system ` sudo pacman - syu `, 
+   uefi, 
+  it requires a more careful approach with partitioning and bootloaders than bios . 
+  my advice is to enter windows recovery mode with a cd or something , go to a command line , remove ubuntu partition with ` diskpart ` and fix boot with, 
+  after that you read more carefully and go for 2 ^ nd try . 
+  why they shitted on one of the biggest appeals of thinkpads which is the keyboard ? 
+  x220 ftw . 
+  wow nice . 
+  glad i could give you a starting point and you managed to figure out the rest by yourself , it 's a very rewarding feel to get it working with your own research is n't it ? 
+  :o kde got updated today !, 
+  grow some balls and ` y ` that shit !, 
+  yep m$ likes to restrict to their shit only and not allow anything so i was quite surprised with the visual studio thing ... 
+  i think they also have an agreement with computer manufacturers that they ** must ** be shipped with windows . 
+  if every store had like 2 same computers on display , one with windows and another cheaper ( os is free ) with ubuntu or something then it maybe would attract more people and help linux grow . 
+   change your locale ? 
+  ` localectl `, 
+   manage your hostname ? 
+  ` hostnamectl `, 
+   fiddle with your clock ? 
+  ` timedatectl ` . 
+   want to manage containers ? 
+  use ` machinectl `, 
+  see , this is the problem . 
+  what does an init system have to do with hostname , locale and clocks ? 
+  * do one thing , and do it well *, 
+  funny thing about pedro is that he plays on a crappy laptop ( afaik , might have built a pc already ) , shows that there are no `` hardware ranks '' among pcmr . 
+  that 's right . 
+  games where you focus on story/lore and exploration i can no longer play them because it requires me to `` turn off '' from the real world and just enjoy and now i ca n't do that anymore . 
+  we got update yesterday , and it 's 4.0.1 , manjaro is a bit less bleedier edge than arch, 
+  4.0.1-1-arch # 1 smp preempt wed apr 29 12:00:26 cest 2015, 
+  i do n't use kde but in archlinux page it shows new version of kde today 30th april and it 's not `` testing '' but `` extra '', 
+  you really should n't be using chain skills . 
+  the only exception is retaliate . 
+   late night pcmr, 
+  that 's dawn for us europeans . 
+  just a question what was the the last number 2 . x.x before they changed to 3 . x ? 
+  it 's on the picture ... 
+  i 'm 18 and it 's my favorite movie !, 
+  above : jim keller in design team, 
+   user@gamelinux,

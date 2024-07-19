@@ -1,0 +1,100 @@
+  so , the chance of there * being * a double is 1 -- ( 5/6 ) ( 4/6 ) . 
+  it 's the birthday problem , essentially . 
+  i mean , it 's in the same ballpark anyway . 
+  hang on a sec , i made an error and am going to have to redo the calculations . 
+  things may change . 
+  i have * no * idea how you 're arriving at that . 
+  your calculations make no sense to me . 
+  but you 're arriving at the correct result there , so \u00af \\ \\ \\ _ ( \u30c4 ) \\ _ / \u00af, 
+  huh . 
+  unorthodox , but i guess it works . 
+  interesting . 
+  anyway , my adjusted calculations are up . 
+  it seems pretty clear that 3d8 is * way * too strong , and even 3d6 might be . 
+  the updated calculations are up now . 
+  with 3d6 it 's clearly stronger than * chromatic orb * , even though that 's 3d8 . 
+  if this used 3d8 , it would be way , * way * too strong . 
+  i 'll work out the damage for if it was 2d8 + cha in just a minute , but my instinct is that that might be pretty spot on . 
+  hahaha that 's great . 
+  i just plugged that into alfred , and it spit out `` 0 '' as the probability . 
+  love it . 
+  spotlight and google were both a little more helpful though . 
+  the chances of that happening are 4.9303807e-32 . 
+  less than winning the lottery twice and being struck by lightning and surviving . 
+  if you 're interested , i ran the maths on a bunch of possible alternatives to how * chaos bolt * would work [ in this comment ] ( / r/unearthedarcana/comments / 63anvj/unearthed _ arcana_03042017_starter_spells / dfsv6qz / ) . 
+  my conclusion was that if you allow it to add charisma modifier to damage , it ends up * slightly * weaker than * chromatic orb * if your modifier is +3 , and quite a bit -- but not a crazy amount , when you consider the level at which you 'd have to be to have a +5 mod -- stronger if your modifier is +5 . 
+  the other alternatives i tried were all way too strong , except perhaps the one where you use a coin toss to decide whether it jumps , rather than matched pairs . 
+  that one was a little strong , but might be in an acceptable range . 
+  if you 're interested , i ran the maths on a bunch of possible alternatives to how * chaos bolt * would work [ in this comment ] ( / r/unearthedarcana/comments / 63anvj/unearthed _ arcana_03042017_starter_spells / dfsv6qz / ) . 
+  my conclusion was that if you allow it to add charisma modifier to damage , it ends up * slightly * weaker than * chromatic orb * if your modifier is +3 , and quite a bit -- but not a crazy amount , when you consider the level at which you 'd have to be to have a +5 mod -- stronger if your modifier is +5 . 
+  the other alternatives i tried were all way too strong , except perhaps the one where you use a coin toss to decide whether it jumps , rather than matched pairs . 
+  that one was a little strong , but might be in an acceptable range . 
+  if you 're interested , i ran the maths on a bunch of possible alternatives to how * chaos bolt * would work [ in this comment ] ( / r/unearthedarcana/comments / 63anvj/unearthed _ arcana_03042017_starter_spells / dfsv6qz / ) . 
+  my conclusion was that if you allow it to add charisma modifier to damage , it ends up * slightly * weaker than * chromatic orb * if your modifier is +3 , and quite a bit -- but not a crazy amount , when you consider the level at which you 'd have to be to have a +5 mod -- stronger if your modifier is +5 . 
+  the other alternatives i tried were all way too strong , except perhaps the one where you use a coin toss to decide whether it jumps , rather than matched pairs . 
+  that one was a * little * strong , but might be in an acceptable range . 
+  if it were based off a coin toss , its expected damage would be 15.28 , compared to * chromatic orb * 's 13.5 . 
+  not the worst option , but a little steep . 
+  if you 're interested in other options , i did the maths on them [ here ] ( / r/unearthedarcana/comments / 63anvj/unearthed _ arcana_03042017_starter_spells / dfsv6qz / ) . 
+  my conclusion was that allowing + cha would be the best option , and do very slightly less that co when your modifier is +3 . 
+  edit : i forget how i got 15.28 , but i do n't think it 's right . 
+  my calculation right now for coin toss-based jumps is 14.28 . 
+  you 're not looking for 8 and 8 , you 're looking for :, 
+  8 and 8 , or 7 and 7 , or 6 and 6 , or 5 and 5 , or 4 and 4 , or 3 and 3 , or 2 and 2 , or 1 and 1 . 
+  you can work that out by saying that you 'll ignore what the first die lands as . 
+  you know the second die * has * to be that same exact value . 
+  that 's a 1/8 chance . 
+  alternatively , since you know there are 64 possible permutations of two dice , and i just demonstrated 8 different results that will cause a jump , that 's 8/64 , or 1/8 . 
+  i 'll run that in just a sec , but at the moment my opinion is 2d8 + cha . 
+  i did run 2d10 , and yeah , it 's pretty weak . 
+  e [ d ] = 11.83 . 
+  i agree that cb should do more damage than co , to compensate for the lower flexibility . 
+  but i do n't think that the difference should be * too * profound . 
+  most of the time , you 're looking to overcome only one or two specific resistances , and that means most of the time you 're going to succeed in having that option , since you are choosing between one of two damage types , unless you get a jump . 
+  2d8 + cha is still my favourite option , probably followed by 2d8 and use a coin toss instead of matched pair to jump . 
+  yeah that 's a really nice option . 
+  it does still have the problem of enabling overcoming 90 % of the lost mines , but i think in most cases it 's probably going to be fine . 
+  that ability is worth * something * , but probably not a whole lot . 
+  usually , controlling damage type is going to be so you can overcome a resistance . 
+  but most of the time you 're aiming specifically to avoid one or two damage types , which this will usually let you successfully do . 
+  if you 're trying to * hit * a * vulnerability * , this becomes a lot less valuable , but that tends to be less common . 
+  i ran the maths on a bunch of alternative options on how cb could calculate its damage . 
+  if you 're interested , [ you can find it here ] ( / r/unearthedarcana/comments / 63anvj/unearthed _ arcana_03042017_starter_spells / dfsv6qz / ) . 
+  the end result was , though , that imo it should either let you add cha to the damage , or use a coin toss instead of matched pairs . 
+   it 's possible to hit the second target and miss the first, 
+  with cb ? 
+  how do you figure that ? 
+  2d10 helps a little , but it 's still quite a bit weaker than * chromatic orb * . 
+  if you 're interested , i ran the maths on a bunch of possible alternatives to how * chaos bolt * would work [ in this comment ] ( / r/unearthedarcana/comments / 63anvj/unearthed _ arcana_03042017_starter_spells / dfsv6qz / ) . 
+  my conclusion was that if you allow it to add charisma modifier to damage , it ends up * slightly * weaker than * chromatic orb * if your modifier is +3 , and quite a bit -- but not a crazy amount , when you consider the level at which you 'd have to be to have a +5 mod -- stronger if your modifier is +5 . 
+  the other alternatives i tried were all way too strong , except perhaps the one where you use a coin toss to decide whether it jumps , rather than matched pairs . 
+  that one was a little strong , but might be in an acceptable range . 
+   sorcerers will enjoy chaos bolt ( though it should be d10 's , though that would have the side effect of lowering the odds of doubling it ... ), 
+  with 2d10 , the expected damage * does * increase compared to 2d8 , even after the lowered doubling chance . 
+  but it 's still * noticeably * weaker than * chromatic orb * , unfortunately . 
+  which , considering you do n't get to entirely choose the damage type on cb , while with co you can , is unfortunate . 
+  if they changed it to allow + cha , or made it jump based on a coin toss rather than 1/8 chance , its damage jumps up right into the sweet spot of being decently competitive with co , without * clearly * surpassing it . 
+  but then you would have to declare one particular die to count as your `` jumping probability '' die , which reduces the elegance a lot . 
+  alternatively , you could say `` both must be even '' , which reduces the expected damage , or `` either must be even '' , which increases it too much . 
+  ah , now that * is * elegant . 
+  very nice . 
+  unfortunately , that 's not really how it works . 
+  the players might enjoy the experience that comes with exploration , but that does n't mean they wo n't use this spell if it 's an option . 
+  it 's clearly the smartest choice , and just because the * players * would enjoy exploring , does n't mean the * characters * would n't use the most expedient option . 
+  but hey , at least they 're open about marriage equality . 
+  like , ** really ** open about it . 
+  not only does it allow same-sex couplings , it also allows * any * humanoids , so inter-species couplings are allowed , and it also does n't specify that it has to be just * two * adults , so polygamy ( both polyandry and polygyny ) is totally fine as well . 
+  as someone else noticed , you can achieve the same probability by replacing a coin toss with `` is the damage total odd or even '' . 
+  that would even work if they had it scaling by d8 instead of d6 , so you 've still removed the confusion associated with that . 
+  plus it reduces the need for an extra unrelated die . 
+  you can see a complete break down of all the maths of these options , plus a few others that i had considered , [ here , if you 're interested ] ( / r/unearthedarcana/comments / 63anvj/unearthed _ arcana_03042017_starter_spells / dfsv6qz / ? context = 3 ) . 
+   lack of respect for polygamy, 
+  it actually has * complete * respect for polygamy . 
+  you wo n't get the benefit for it if you marry a second person at a later date , but there 's nothing stopping you from marrying multiple people at once , or from * them * getting the benefits of a second ceremony . 
+  unfortunately they got a second copy up next to the hi before it ended . 
+  how would this ddos work , exactly ? 
+  someone would have to know his ip address to do it , and how would they learn that ? 
+  unless tagpro is peer-to-peer , which i doubt . 
+  ah right , i did n't realise that . 
+  surely the ports would be the easy part , though ? 
+  tagpro uses a few in the 8000 range , so those would have to be open .

@@ -1,0 +1,100 @@
+  required more care than our e-mail ), 
+  i do n't know if it is good but it surely disproves the statement in the article that nobody is going to pay for huge amounts of code in a framework . 
+  for this course in particular which is aimed at total beginners it does not matter at all . 
+  obviously grandparent post is just using the opportunity for some microsoft hate . 
+  imagine what will happen if you try to teach game programming with something as low-level as opengl to total beginners ... 
+  i would prefer to teach them dead technology in a course about programming principles ( i.e. 
+  not in a course about the technology itself ) . 
+  in fact this is what i do . 
+  in the c # course i teach the gui part is winforms . 
+  while winforms is not in the same league of `` dead '' as xna it can still be considered dead . 
+  i do so for 2 reasons, 
+  winforms is much more clear representation of the oop principles and direct application of c # constructs than lets say wpf . 
+  i do n't know if this applies to xna when compared to say unity . 
+  beginner programmers have tendency to stick with what they know and not chose their next steps based on what they need or want because it feels like they are dropping their investment . 
+  if i teach them wpf they may decide that they know a lot and should invest in improving that knowledge instead of taking up web development for example . 
+  by teaching a dead technology i free them from this burden . 
+  they would have to choose one way or another and see that picking up a new tech on your own is not that scary . 
+  this certainly may apply to xna . 
+  and of course there is the whole debate of how much dead xna really is when monogame does exist and is used for high-profile projects on non-ms platforms . 
+  i find this very interesting because it is a very subtle kind of breaking change . 
+  a program that was running fine in linear time can suddenly become quadratic and just hang after this change . 
+  do you see increasing the running time of a method as a breaking change ? 
+  has anyone had any software affected by this change ? 
+  i do n't think it is possible to write any non-trivial code without depending on the running time of the library methods you use . 
+  if we follow this logic . net may suddenly change the implementation of the . length property of an array to have running time of n. good luck writing any code that does not depend on it then . 
+  of course i am sure oracle evaluated the impact this would have and reasoned that it was worth it and they are probably right but i still think it is a breaking change . 
+  maybe i did not use the most precise wording but are n't these essentially the same thing ? 
+  yes , the new behavior is better and least surprising but still existing code may depend on the old one . 
+  i guess my standard `` not a native speaker '' excuse wo n't work this time :(, 
+  i was not able to find out . 
+  seems like the java docs do n't say anything explicitly about the complexity of the method . 
+  if it did not say anything i would not expect such a change in the order of magnitude . 
+  they were holding to the original array and a start index, 
+  if you do n't care about thousands of methods that take and return a string then you are correct , 
+  that 's one thing you ca n't possibly do . 
+  string is final irc . 
+  you read a whole file and substring a small portion of it . 
+  the original char [ ] array stays in memory despite the fact that you are using only a small portion of it . 
+  i know people who 've run into this issue in practice . 
+  first of all it does n't really matter if the memory is reclaimed after the substring is collected . 
+  if we follow this logic there is no problem with memory leaks at all since when the program stops memory is reclaimed anyway . 
+  in practice the only thing that matters is if the memory can be reclaimed after the object is no longer useful . 
+  if we have to be precise there is no way to create a memory leak in java ( or . net for that matter ) . 
+  what you can have is object leak since the raw memory does represent an object . 
+  the real problem in java is holding to objects that you do n't expect but it manifest as programs consuming too much memory so people call it memory leak . 
+  i personally try to avoid using the term memory leak when talking about java . 
+  because it is much more engaging and motivating i suppose . 
+  1 bad surprise does more evil than 2 good surprises do good , 
+  i feel the new implementation is better and it seems like oracle developers feel this way too and they feel it so strongly that they decided to take the burden of this change in version 7 . 
+  in addition ms developers decided to go with the new array implementation in . net . 
+  i wonder how string is implemented in other languages . 
+  complexity is much more than simply performance sensitive code . 
+  in some cases complexity is the difference between `` works '' and `` does not work at all '' . 
+  worst of all you may not catch it unless you have the correct input for the worst case . 
+  yeah , when making a pacman clone you really need to care about security , networking , storage , database access , etc. 
+  yeah , fuck backward compatibility , users should just test !, 
+  and what about desktop apps or applets ? 
+  users should just downgrade after testing minecraft and finding it does n't work ? 
+  i do n't know why you think the course will teach students how to create a game that includes any aspect the author did not choose explicitly to include . 
+  the author of the course can cherry pick the game to include whatever aspects he sees fit and ignore any other complex details . 
+  in fact this is what every beginner course with actual does . 
+  you need just enough of the subject to keep the students interested and motivated . 
+  you do n't need to teach them how to be john carmack . 
+  btw in europe everyone learns to drive using stick . 
+  well this part is heavily discussed in this topic and this is the exact reason i posted it and probably why it is getting so much attention . 
+  i am on the side that says that increasing the complexity of the method is a breaking change . 
+  note that i am not talking about performance but about algorithm complexity . 
+  if they changed performance characteristics then your program will become slower but when they change the algorithm complexity your program may just hang or as pointed elsewhere run out of memory because of space complexity . 
+  someone around here mentioned that c++ has complexity requirements for methods in the standard library specified in the standard . 
+  i think this is the correct way to do it . 
+  in the absence of such documentation i would consider the documentation incomplete ( yes i realize that this means that i declared the documentation for most languages out there to be incomplete ) and consider a reference implementation as the upper bound for algorithm complexity . 
+  if another jvm has higher complexity than the reference jvm then the other jvm is broken . 
+  in short - i think that complexity should always be documented otherwise you are missing critical information and need to make assumptions . 
+  it is completely and totally impossible to write code without assumptions about the running time of things . 
+  as i pointed out elsewhere what happens if they suddenly change the running time of length of an array to be n instead of constant ? 
+  what if they decide to switch the string implementation to a null terminated string internally ? 
+  what if suddenly arraylist is implemented as a linkedlist and all its performance characteristics change ? 
+  most programs will simply stop working because you have to know the complexity of things to use them correctly . 
+  you either make these assumptions about undocumented methods complexity or do n't write programs at all . 
+  while it is true that one behavior is not better than the other in every case one case is tested , the other is a breaking change . 
+  the fact that the documentation is incomplete is not an excuse . 
+  now there are good excuses like `` in practice this would affect almost no one while many people would benefit '' but certainly you ca n't blame people who assumed that the behavior would stay . 
+  in fact they did not even think of it they just tested and found out that their program works as opposed to not working . 
+  if it was documented that the method runs in o ( n ) then i would agree that it is not a breaking change to change the implementation but it was not . 
+  keep in mind that i am not arguing if oracle 's decision was correct ( i am perfectly sure it was ) i am arguing if increasing the complexity of a method is a breaking change in general and if it should always be present in the documentation . 
+  for me this is like omitting to list the exceptions a method throws in the docs and then adding a new exception that is thrown on previously working inputs and stating that the docs did not say anything about exceptions . 
+  i do n't think the actual goal of the course is to teach game programming . 
+  i think the idea is to introduce people to programming in a way that is more fun . 
+  well , do n't take it then . 
+  i do n't know how anybody thinks gaming can be stopped or even slowed down by legislation . 
+  the avalanche has already started , it is too late for the pebbles to vote . 
+  i have a plan how to handle the situation . 
+  we just wait everyone who did n't grow up a gamer to die of old age . 
+  time is on our side . 
+  so what ? 
+  at most 60 more years and we are done . 
+  you probably mean `` we '' will try to ban ... 
+  remember we will be the old ones then , 
+  oh man you are just getting into the shit storm called `` free healthcare '' that we in bulgaria live in for our whole lives . 
+  you thought your healthcare was bad before ... you are in for a surprise .

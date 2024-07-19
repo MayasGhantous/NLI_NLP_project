@@ -1,0 +1,100 @@
+same problem here , though i 'm using firefox . 
+  add-ons i 'm using include adblock plus , noscript , https everywhere , self-destructing cookies ( with reddit allowed ) , and privacy badger . 
+  i managed to kind of solve this by allowing `` turbobytes.net '' and `` zkcdn.net '' on noscript , as i noticed there were new script domains on reddit . 
+  however , now i can only switch accounts once . 
+  for example , i can log in to an account , then switch to an alt , but ca n't switch back . 
+  i have to log out and in again . 
+   with enough time , they can eventually break the password, 
+  yeah , * in a few decades * . 
+  if you use a good password ( let 's say at least 20 characters , no words found in any dictionary , multiple different symbols , you know , the usual ) , you 'd need multiple planets filled with modern-day computers to brute-force the password . 
+  and it 'd still take at least hundreds of years . 
+  and besides , keepass has [ protection against brute-forcing ] ( http://keepass.info/help/base/security.html#secdictprotect ) , so that 's a much less effective way of attacking the database than you 'd think . 
+  cracking the password will be more realistic in the future when we have beefier machines . 
+  there 's of course the chance of a flaw in keepass or even aes itself . 
+  but if you use a proper password and a keyfile , you 'll probably be all right uploading your password database to dropbox or something similar . 
+  is there an advantage in using keepassx over keepass ? 
+  both have official support for at least windows , mac os , and linux , and third-party clients for mobile oss . 
+  as far as i know , keepass has more active developers , more features , they release more often , have better documentation , etc. . 
+  robin hood : the legend of sherwood . 
+  i like it because it 's a lot like desperados , the demo of which i got from a box of cereal when i was a kid . 
+  the linux version was unavailable for a long time ( unless you were willing to pay ~ $ 50 + shipping for a physical copy ) , but it 's now on desura and ubuntu software center . 
+  [ gfycat version . 
+  `` i forgot my thumbprint '' certainly does n't sound nearly as convincing as `` i forgot my password '' . 
+  `` i lost my thumbprints when i got these 3rd degree burns on my hands '' , maybe ? 
+  i certainly hope they are n't considering using something like a fingerprint as a password , since it 's really meant to be used as a username , if anything . 
+  anyway , implementing some sort of shutdown timer that resets after every fingerprint identification could help with securing the phone . 
+  i do n't know how common it is to unlock your phone with your fingerprint ( i do n't have a smartphone myself , never have had ) , but having your phone automatically shut down after 24 hours of last identification would make unauthorized access more difficult . 
+  if you can refuse to give up your fingerprint until your phone shuts down , the attacker will now have to get both your fingerprint and the password for decrypting the phone . 
+  the timer would n't really add any inconvenience for usage , because if you , a modern man , have n't used your phone for 24 hours , you are probably dead anyway ( or in a hospital bed , at least ) . 
+  if you do n't want to send the do not track header you should n't be using privacy badger , since that 's what the whole add-on is based on . 
+  privacy badger sends the header , then starts evaluating whether the the site is still tracking you , and if they continue to do so they get blocked . 
+  i do n't know about the crash reporter though . 
+  try disabling both add-ons one after another to see if it has something to do with either one of them . 
+  it actually crossed my mind at some point that it 'd be cool if there was an improved version of user agent switcher with randomization but i forgot all about it and never looked it up . 
+  looks like this one is n't open source , though . 
+  i did a search at mozilla 's firefox add-on site instead and found [ random agent spoofer ] ( https://addons.mozilla.org/en-us/firefox/addon/random-agent-spoofer/?src=ss ) . 
+  the version on mozilla 's site is limited , though , since the add-on contains features that `` are not allowed '' , and the full version is available from the author 's [ github ] ( https://github.com/dillbyrne/random-agent-spoofer/ ) . 
+  prepaid is probably your best bet . 
+  you can probably use the rest of the balance to buy something useful from places that accept payments by mobile . 
+  i do n't know if there 's a way to buy bitcoin by phone , but if there is that might be a nice way of not letting the balance go to waste . 
+  pretty much what thereverend said . 
+  gamergate ( a movement which opposes the recently revealed widespread corruption in gaming journalism ) is being dismissed and mislabeled by mainstream media and being suppressed with dmca and other takedown requests and general public pressure targeted at websites who host the git repository acting as their website . 
+  the unfortunate fact that the opposing side has fairly successfully labeled gamergate as a misogynist and anti-feminist movement means that hosters face public pressure if they host material used to organize this `` harrasment '' and `` spamming '' . 
+  right now the best place to read up on gamergate and the preceding events is [ knowyourmeme 's article ] ( http://knowyourmeme.com/memes/events/gamergate ) . 
+  the wikipedia article is biased and will likely remain so , unless the mainstream media suddenly starts covering the other side of the story as well . 
+  [ link to the part of the qa . ] ( https://www.youtube.com/watch?v=1mg5_gxnxto#t=2840 ) . 
+  basically , according to linus the fsf downright lied to people by telling them that gplv3 with the tivoization clause omitted is compatible with the full version of the gplv3 . 
+  i suggest you create a voip category and add jitsi to it . 
+  to my knowledge it 's the only multi-platform voip client that does encryption , is easy to use , and can be considered a replacement for skype . 
+  i 'd also add noscript , flashblock , and self-destructing cookies to the browser extensions list . 
+  it 'd be helpful if software/solutions could be categorized by the threat they guard you against , for instance `` online tracking by x '' , `` physical security '' , `` traffic tracking/logging by isp/three-letter agencies/other middle-men '' . 
+  also listing their weaknesses and what they should not be used for would also be useful . 
+  and possibly listing threats that do n't currently have an effective mitigation method ? 
+  depending on the wiki 's target demographic you might also want to have articles about the very basics of computer security and common types of software ( `` wtf is : a firewall ? 
+  '' , principle of least privilege , etc. ) . 
+  and if specific operating systems are recommended , there should be some basic information about securing them . 
+   now he realizes he was wrong and is doing damage control . 
+  if he truly has realized that he was wrong , the `` damage control '' he is doing can only be described as malicious . 
+  he is ignoring the real issues of his kickstarter campaign , namely the false claims of the hardware being of custom design and open source . 
+  just look at the kickstarter page . 
+  none of the falsehoods have been removed . 
+  the device is still being advertised as `` 100 % open source , open hardware '' . 
+  if he 's using the term `` open hardware '' by mistake , he has to be absolutely ignorant about what open source means . 
+  and by ignorant i mean luddite-level `` did n't even bother to read the introduction of the wikipedia article '' - type ignorance . 
+  releasing the hardware schematics of something you might not even know the original creator of is a blatant breach of copyright ( and probably many other intellectual property laws ) and about as far from open source as you can get . 
+  the guy even uses the open hardware logo in his advertising . 
+  he has nerve , i 'll give him that . 
+  the open source hardware association might want to have a word with him , though . 
+  if this fiasco is going to be attributed to `` incompetence '' , i have to say that this incompetence is very malicious in nature . 
+  when you slap a logo on your product without bothering to find out what it stands for you certainly are incompetent . 
+  but when you do it to boost the desirability and sales of your product you are also being dishonest . 
+  continuing the deception after it has been clearly pointed out to you multiple times is just malicious as f * uck . 
+  [ we did it , mom !, 
+  ] ( https://www.youtube.com/watch?v=49aiqh-dur0 ), 
+  faith in humanity partially restored . 
+  does anyone know what tune sjin is humming at 12:56 ? 
+  i 've heard other yogs do it too ( simon at least ) , but i 've never found out what it is . 
+  even better , you 'll be able to experience this with the [ oculus rift ] ( https://www.youtube.com/watch?v=m-zdi0kasou#t=1694 ) . 
+  ( read in awkward , sips-like way ) : thank you , mate !, 
+  not really , no . 
+  it definitely makes things more difficult , but it 's a necessary tradeoff between privacy/security and convenience . 
+  it would be nice if you could easily alter that balance with community-maintained black/whitelists , for example . 
+  the ratchet & clank games had ( starting with r&c 2 ) pretty amazing graphics for their time . 
+  to think what the devs did with a ~ 300mhz cpu and 32mb of ram ... they really did squeeze every bit of performance out of the device . 
+  sometimes i wish digital distribution was n't a thing so that publisher 's would n't release games in an unfinished state ( think ac : unity & friends ) . 
+  i google 'd for '' [ vendor ] threatening tactics '' and the first result was an article from 2011 , describing similar tactics of calling the bosses of technology managers ( no bike-wrecking or other type of sabotage was mentioned , though ) . 
+  if they still used the same tactics 10 years after the events of lawtechie 's story ... well , then they probably use the same methods today . 
+  and yes , ncwaho is * the * networking equipment company . 
+  if i asked you for the first company that comes to mind when i mention `` enterprise-level networking equipment '' , you 'd probably think of ncwaho . 
+  a few comments from a current boinc user ( i do n't call myself a cruncher , since it makes it sound like i 'm an enthusiast or something ) . 
+  electricity bills will be huge, 
+  only if you let them become huge . 
+  if you run boinc ( or anything else , for that matter ) on multiple machines at 100 % cpu load 24/7/365 , then yes , the electricity adds up quickly . 
+  but i do n't feel that 's that 's the right way to run a boinc project . 
+  the right way is the one that you can comfortably afford , i.e. 
+  restricting the resource usage and acceptable times for projects to run to levels that are acceptable to you . 
+  i have one 8-core desktop machine that 's on 24/7 during winter months anyway , and the increased heat output helps keep my apartment warm . 
+  it really reduces your hardware life, 
+  this is exaggeration . 
+  shutting down , hibernating , or suspending your machine regularly wears down your hardware much quicker than running a boinc project does . 
+  as i mentioned , cpu usage can be controlled and can be set as low as 10 % .

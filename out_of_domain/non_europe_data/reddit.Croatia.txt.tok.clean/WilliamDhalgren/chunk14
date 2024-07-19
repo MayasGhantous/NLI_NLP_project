@@ -1,0 +1,100 @@
+  re the scoping of this , think arrow syntax ( plus the rest params to get rid of arguments argument ) is missing outside firefox for now . 
+  but next year , prob fixed . 
+  re his list then we 'd have :, 
+  minimalism . 
+  lexical block scope . 
+  dynamic typing . 
+  first-class functions and closures . 
+  which is looking better . 
+  now tco is in the pipeline as well , http://bbenvie.com/articles/2013-01-06/javascript-es6-has-tail-call-optimization , and crockford wants to use it for cps , so it might be :, 
+  minimalism . 
+  lexical block scope . 
+  tail call elimination . 
+  dynamic typing . 
+  first-class functions and closures . 
+  syntax wo n't ever be changed from c-style to s-expression , this is so obvious it clearly was n't what people meant with the comparison - and further many would sooner think of s-expression syntax as an ugly wart than a feature - but having a minimalist syntax is a thing common to both . 
+  even fairly syntactically lightweight macros work in js - at least in nodejs you could use them today - and having those simply is probably the one good thing one can always agree about using s-expressions for the syntax :, 
+  unfortunately , js is fond of mutation . 
+  but there 's a decent amount of parallels here imho to make it at least a better comparison than for any other widely used language . 
+  sweet.js looks cool, 
+   basically , the problem is that there is no keyword to create a new binding in python , instead assignment creates them . 
+  this means that function can not write to bindings which it got via closure , e.g. 
+  well , the fact that it , like js 's var , only has function scope , seems like a more fundamental problem , than the need to use global and nonlocal keywords to disambiguate between local shadow variable creation and outer variable assignment necessitated by python 's lack of explicit variable creation syntax . 
+  i mean , it 's not that long a construct for a suspicious operation in any language ( nonlocal destructive update ) . 
+  admittedly , in python2 , there was just no way to do it ( with assignment that is ) , but that 's fixed . 
+  otoh , js will fix its function scope ( and the dynamically scoped this , or what remained of that problem , ie var that = this ; , after the fixes with the strict mode introduction ) , provided you keep to its new constructs , fairly soon . 
+  while python afaik is not about to introduce block scope . 
+  i = ... is a declaration of a new local variable , unless you say otherwise with global or nonlocal . 
+  you can have vairables define themselves implicitly , but then you need to disambiguate between creating a fresh variable shadowing an outer one ( to which python sanely defaults ) , or assigning to the outer variable ( which is suspicious , impure , so unshematic and hence does deserve a special flag ) . 
+  or you can have explicit variable definition . 
+  python 's choose the former , unlike the c-style languages . 
+  you just need to be more explicit when re-assigning nonlocal stuff , which need n't be a bad thing . 
+  ( idiomatically for scheme you would n't do that anyway , no ? 
+  and in haskell , you just reassign at all ca n't outside mutable code ), 
+  b.trs ( ) is not an assignment at all , even if the invocation has side-effects on the referenced object . 
+  i find its function scoping far more surprising , and that 's the same issue as with javascript 's var :, 
+  funcs = [ ], 
+  for i in range ( 4 ) :, 
+  funcs.append ( f ), 
+  for f in funcs :, 
+  outer ( ), 
+  gives 4,4,4,4 because i is not local to for 's body block , but a common variable for the entire function ( here implicitly enclosing this ), 
+  yeah , now that error is really stupid , ie uninformative . 
+  does n't come from the global/nonlocal stuff , you can get it also by just :, 
+  , while, 
+  is a nameerror exception . . 
+  in javascript , the equvalent nameerror example does the analogous thing , a referenceerror :, 
+  ( function ( ) { `` use strict '' ;, 
+  console.log ( x ) ;, 
+  , but the first one just becomes an undefined and carries on : < edit  in firefox - nodejs does a referenceeoor < / edit , 
+  ( function ( ) { `` use strict '' ;, 
+  console.log ( x ) ;, 
+  let x = 4 ;, 
+  not sure why they need to raise an exception instead of just defaulting to none and carrying on . 
+  apart from that difference though , proper scoping in js seems to do conceptually the same thing - this is for ( new ) javascript ( and var does the same , here all scopes are functions ) :, 
+  ( function ( ) { `` use strict '' ;, 
+  let x = 4 ;, 
+  ( function ( ) {, 
+  console.log ( x ) ;, 
+  gives 4 , but with this :, 
+  ( function ( ) { `` use strict '' ;, 
+  let x = 4 ;, 
+  ( function ( ) {, 
+  console.log ( x ) ;, 
+  let x = 5 ;, 
+  console.log ( x ), 
+  , first printout becomes undefined , so it 's undefined , 5 . 
+  < edit  in firefox . 
+  nodejs does a referenceerror , much like python . < / edit  . hoisting seems to be still done by let , unfortunately , only to the block scope . 
+  which should be equivalent enough , apart from this wart . 
+  but just like with function scope , again here javascript and python are analogous , rather than different in the way scoping is broken . 
+  only , do n't confuse margin of error and confidence . 
+  one would have a confidence of say 7.5 sigma that some value lies within a certain range . 
+  edit : as noted in a [ reply ] ( http://www.reddit.com/r/science/comments/1immos/scientists_confirm_neutrinos_shift_between_three/cb6pble ) , this comment is likely just introducing additional confusion , rather than clarifying things , since in this case ( and hypothesis testing in general ) , the confidence is simply the probability of getting a false positive ; so it does n't have some accompanying margins of error ( as my example did ) . 
+  point is just that the two are n't the same concept . 
+  prob . 
+  but , maybe if this virus is so foreign to the other current organisms , it can push back or otherwise give a better idea about the organisms before the ( current ) last universal ancestor ? 
+  reorganizing the root of the tree of life may not be `` aliens !, 
+  '' - level of cool , but its still amazingly cool !, 
+  well the neo-latin subsection in that link suggests the form v\u012bra as possibly right , so you could use that . 
+  sure , i 'll add an edit then, 
+  edit : did this help ? 
+  forgive my ignorant q , but i honestly thought it really was n't a big deal , ignoring trans identity , for a girl to wear pants in this day and age ? 
+  i mean , i 'm sure i 've seen a bunch of pants on girls , why would this raise any eyebrows or suggest to anyone you may be trans ? 
+  re your dad , you are pretty young and do n't take this as patronising , y he 's being a hurtful idiot , but a ) its only been a few months - even with ok parents it may take years ( not encouraging , i know ) , and b ) when it comes to gender identity , gender expression and sexual orientation , parents are often just dumb , so if its not explicitly hateful , try just shrugging it off if you can , like if you were dealing with a child . 
+  i 'm in a very conservative environment . 
+  pretty much nothing from my relationship with mom remains , even after what 12 years of coming out , because she found jesus , of the catholic variety ( and that strain is far more conservative here than in some places , like the us ) . 
+  sigh , that does hurt . 
+  a friend 's parents are kinda ok w it , where kinda ok includes being told not to ever bring gay folk into their house . 
+  my boyfriends parents were never explicitly outed to , since they flee from they subject if they notice it a mile away , and he 'd not wish to impose the topic unless they demonstrate a minimum readiness to touch it . 
+  but last encounter was similar , and hence this long digression . 
+  his mum comments , `` look at that girl , and how she looks at you '' , and he 's `` i 'm not interested '' , to which she , bravely i guess , `` not even for any one of them ? '', 
+  `` well , that 's a disorder '' . 
+  `` why would it be ? '', 
+  ( and then , topic shifts to idk , the quality of coffee , or the weather ... ), 
+  but these , while irritating can be shrugged off ; neither would really wish to sever those relationships completely , for the parents in question are fine in other situations , when such topic is n't hanging in the air . 
+  ... and i would imagine , being trans carries even more social stigma in such folk 's head than just being gay . 
+  so i 'd suggest developing nerves of steel , esp with family , and perhaps some bite to fight back ? 
+  unless we can reasonably hope the current regime gets toppled soon , looks like it , y. 
+  i think its of utmost importance that explicit discrimination not be allowed to stick around in the books . 
+  i gather though that even legally , even non-discrimination in say employment is n't a done deal everywhere in the us , so i could see an argument that a law on this is even more vital .

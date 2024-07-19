@@ -1,0 +1,100 @@
+  they are side-view platformers with a 3d engine , both have very original game mechanics , and trine is simply gorgeous . 
+  which record are you talking about specifically ? 
+  ( also , dae cringe at the thought of a ddd album being released on vinyl ? ), 
+  those are codes printed on albums that describe which domain it was recorded and processed in . 
+  * a * means analog , * d * means digital . 
+  an aad album was recorded and mixed in analog , and mastered in digital . 
+  a ddd album was recorded , mixed , and mastered in digital . 
+  ddd albums sometimes make it on vinyl , meaning that whatever argument one might have in favor of analog audio , that record being on vinyl will be a total waste . 
+  a cd , lacking a da conversion , will be closer to the original . 
+  i asked for a specific album because i 've compared some vinyl rips i 've downloaded to cd 's i own , and the objectionable parts were present on both . 
+  looking at their respective waveforms they seem different , which is expected be because of the error in the riaa curves and the high pass filtering , but the variations in rms levels are consistent . 
+  most likely the vinyl masters were made from the digital masters in the cases i 've seen . 
+  ac/dc , the white stripes , adele were ones that i 've compared , and none were better than the `` original '' , the cd . 
+  thanks for recommending ratm , i 'll check it out . 
+  i 'd love to have better sounding versions of their albums . 
+  cameras have real-time operating systems that are much better suited for them . 
+  would it be cool to wait 30 seconds for android to boot up and load the installed apps before being able to snap a picture ? 
+  i do n't think so . 
+  the ability to wirelessly connect the dslr to mobile devices through wifi or some high-speed version of bluetooth would be a more welcome addition . 
+  is it installed ? 
+  is it enabled ? 
+  is it selected as default ? 
+  canon cameras use vxworks ( digic 2 & 3 ) and dryos for newer models . 
+  those are real-time operating systems in the classical sense . 
+  so i did n't mean to say that they should be using an rtos for a change , i meant that they already are . 
+  not sure , but i think nikons also use an rtos . 
+  i never had a nikon , so maybe someone else can elaborate . 
+  it might also trigger an earthquake, 
+  i love the developer name : thoughtcrime labs, 
+  just buy monster !, 
+  their the best quality !, 
+  any reason i should use this instead of a standard compliant sip softphone that has srtp support ? 
+  actually , the chip is okay . 
+  the only problem with it is that it does n't operate at 44100hz , only at 48khz , and android happens to have its audio stack fixed at 44100hz . 
+  the result ? 
+  everything is resampled with a cheap ( fast/low quality ) resampler to 48khz to be played by the hardware . 
+  better resample that to 44100hz with an even worse src , then back to 48khz . 
+  lol u mad ? 
+  marketenabler it if you 're desperate . 
+  or just download the . apk from their site . 
+  sad ending , with all of them stuck in space with no rocket for deorbiting . 
+  devices that currently have cyanogenmod 9 support will certainly see cyanogenmod 10 in the following months . 
+  many tv 's that specify a gtg response of 5ms or below have input lags above 60ms . 
+  source : my plasma tv . 
+  i delete everything . 
+  if i ever need something again in the future , i 'll just download it again . 
+  it will probably be in a better format too . 
+  someone should point it out to them , that with such a small baffle , most bass will be canceled out . 
+  and calling that thing a dipole is a disgrace . 
+  it wo n't create a label , but the recipient field will contain the correct address containing the part after the ' + ' , for which you 'll be able to create a filter if necessary . 
+  why do n't you try it now ? 
+  oh dear god ... 
+  try to power the d3 from a mobile phone charger instead of the computer 's usb port . 
+  make sure you have the correct output format selected so there is no unnecessary sample rate conversion . 
+  look for audio settings , or realtek control panel to change the format of the output device . 
+  get an android distro that does n't give a shit . 
+  that would be the correct format . 
+  make sure it 's set for the digital output as well as the onboard dac . 
+  i 'm out of ideas otherwise . 
+  compare the two with rmaa , maybe you can learn something . 
+  yes there is . 
+  s/pdif is a one way digital transfer format that modulates the clock signal onto the data stream . 
+  any distortion due to cable capacitance / inductance will induce data related jitter onto the clock signal , so spdif dac 's require complex phase-locked loops to get a stable clock for the conversion , otherwise noise performance will degrade . 
+  usb audio can work in a two-way asynchronous mode , meaning that the interface will request an audio block when its buffer is running low , but otherwise the dac will operate on its own crystal clock source . 
+  crystal oscillators can provide a very stable , low jitter clock signal , depending on board design of course . 
+  both usb and s/pdif can be excellent , but a great s/pdif converter will cost a lot more than a great usb converter . 
+  anyone found a way to tidally lock the vessel ? 
+  there 's a list of image viewing software on wikipedia . 
+  [ lazy ? 
+  ] ( http://en.wikipedia.org/wiki/comparison_of_image_viewers ), 
+  ca n't say i was happy with anything else i 've tried though . 
+  i 'd love to add it as a hood ornament on my rocket . 
+  ramen noodles my ass , pirated material is easily superior to drm ` ed discs . 
+  enjoy your fbi warnings and unskippable trailers . 
+  a single chip can have many output channels . 
+  [ this came up first on google ] ( http://www.ti.com/lit/ds/sles146a/sles146a.pdf ), 
+  is n't it a bad thing when wire insulation bio-degrades ? 
+  that will reduce the level of the tweeter relative to the other drivers ( high-shelf eq ) , but it will not limit the power . 
+  do n't use an amplifier that 's too powerful . 
+  do n't overdrive the amp . 
+  or use any amp available , but do n't crank it . 
+  a quick calculation with audacity and a highpass filter :, 
+  with a crossover frequency of 2khz , 24db/oct , assuming you 're playing music on your speakers , * average * power to the tweeter will be, 
+  * 8db lower than the overall power ( with the song highway star from deep purple ), 
+  * 13.5 db lower with the song twisted transistor from korn, 
+  * 26.8 db with the song sunrise by norah jones, 
+  i think that if we assume that the power to the tweeter is 10db lower than the total power we 'll be safe , so if your tweeter can handle 30w , your amp can be up to 300w . 
+  do you have a center speaker ? 
+  does the receiver think that you do ? 
+  there 's no sound barrier in ksp, 
+  ca n't see any science in the linked articles . 
+  there are too many woo-words for me . 
+  a modern motherboard audio output should be quiet . 
+  do check whether any of the inputs are mixed into your output . 
+  usually these things offer direct monitoring of the inputs . 
+  pull up the windows output level to maximum , and use the e11 volume knob instead . 
+  some people just want to watch the world burn, 
+  i believe the tracking bugs are distributed by facebook 's servers . 
+  if there 's no connection to said servers , the bugs wo n't be distributed . 
+  i guess you 're somewhat lucky that you only lost so much .

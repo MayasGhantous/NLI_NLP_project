@@ -1,0 +1,100 @@
+  15ml of 24mg/ml in a day ? 
+  and you were absorbing 42-60mg a day as a smoker . 
+  extrapolating absorption ( still not actually clinically measured ) from actual usages like http://www.ecita.org.uk/blog/index.php/how-much-nicotine-is-absorbed-following-electronic-cigarette-use/ , ie around 60 % , you were getting total of 216mg nicotine in that non-smoking day . 
+  after 2013 review raising it from just 30-60mg , lower limit for fatal outcomes for nicotine is thought to be between 500 -- 1000 mg , or 6.5 -- 13 mg/kg orally . 
+  edit bullshit calc follows :, 
+  ~ ~ no wonder you were ( feeling ) poisoned , at over 40 % of the potentially lethal dose range ! ~ ~, 
+  ~ ~ say take a 10x safety margin over the bottom of that range and never take more than 3.5 ml of such potent juice in a day , no matter how heavy a smoker one might be ( edit well i guess a really heavy smoker , say 4 + packs is unlikely to be sufficiently satisfied by that -- but then if trying and failing with a dosage such as that , he/she should then be at least conscious of signs and risks , consult a doctor etc ) . 
+  if you need to vape more , dilute the juice correspondingly . ~ ~, 
+  edit : yeah , if he drank it on spot maybe , not if that was vaped over the day . 
+  obviously the nic does n't just sit and accumulate in the system edit2 : but as another poster notes , actual metabolism rates and its variations in the population , as well as interactions with metabolites complicate any formulaic attempts to take its decay into account - it still might be minimally prudent to keep total daily volumes low , like in the bullshit calculation above / edit2 . 
+  the angry poster in the responses , calling me out on not taking decay into account calculates this much better , for a typical human at least . 
+  apologies on spreading bullshit , simply did n't think it through . 
+  i 'll vote myself down - but still thought the exchange informative , to me at least , so wo n't delete the post . 
+  as a pack-a-day smoker ( or equivalent in rolled tobbaco ) , i started w 18mg/ml . 
+  was taking around 3.5 ml first few days , thought it crazy too much ( and way above my smoking nicotine levels ), 
+   it takes trial and error to find out what nic level you need, 
+  yeah , and all good advice . 
+  but this is n't exactly that she misjudged the nic level - heck i 'd be scared if the safety margins were really that tight - but more to do with vaping whooping 15ml of a high-nic juice in a day !, 
+  that 's ... unwisely intense whatever ended up happening to op specifically . 
+  no doubt something that should be generally warned against doing . 
+  cautious of what ? 
+  is n't the dna supposed to protect you in any case ? 
+  sry , i do n't have much experience w vv/vw mods . 
+  re batteries , if its say a sony vtc5 , vtc4 or similar from other manufacturers , it can certainly safely pull 20a , at worst case safety-wise , ie full batt w no sagging , this would happen around 0.2 ohm , at which point it would be giving 84w . 
+  not something dna can handle anyhow . 
+  if its a crappy battery , well buy a decent battery regardless . 
+  ahh . 
+  well say you pull 8a on that one w/o a worry in the world . 
+  that should happen on 2.5 v which you wo n't be allowed to reach . 
+  looks more like you 're doing 5.5 isha . 
+  deeply safe . 
+  i hope these calc are no different given its a vv/vw, 
+  well below the continuous discharge rating then ? 
+  sounds abs great to me . 
+  how is 20w pulling 7.2 a anyhow ? 
+  that 's , what at 2.8 v when it cuts it off , right ? 
+  and most of its discharge its more like 5.5-6a . 
+  you 've got decent margins even given the quite pessimistic premise , valid for relatively little time at the very end of the discharge . 
+  let me see , so is this the right way to do it : 3.6 v vv output and cutoff voltage is 3.2 v as per dna spec . 
+  to see how many amps i 'll be pulling for the worst case , i 'll put that as batt voltage , and .7 ohm 3.6 v regulated for the output . 
+  drain just before cutoff is then 6.43 a presuming default 90 % efficiency , right ? 
+  deeply safe . 
+  i 'd care more about the average than the very worst case here anyhow since the rating itself is set based on a continous discharge of constant amps and how safe the temperatures it develops from fully charged to completely discharged are for the battery . 
+  and the amps ( hence heating ) at the very cutoff are quite transient . 
+  and that average should be below 6a , by how much depending on the sag . 
+  yup , regulated devices stop discharging at some voltage since overdischarge damages batteries - and dna30 spec http://evolvapor.com/datasheet/dna30.pdf states its min input voltage is 3.2 v. 
+  so once battery is at that point , it wo n't pull further . 
+  note full discharge and hence capacity rating presumes discharging all the way down to 2.8 v. 
+   the imren have a continuous of 38a with a pulse of near 70a, 
+  got any references to support that claim ? 
+  i 've been googling like crazy to see some temperature curves of its continous discharge , with no success - and consequently , all i see is skepticism from the community that this is the case , and no tests :, 
+  and even some anecdotal evidence that imren is in fact marketing these , and 26650 by their pulsed rating : http://www.fasttech.com/forums/vapers/t/1267009/imren-imr-batteries-18650-40a-26650-60a/2, 
+  and we 've been seeing quite a few batteries labeled with a `` max discharge rate '' too good to be true , because it is just pulsed . 
+  and people getting tricked by it , ofc . 
+  these practices really should be banned . 
+  uhh , very good point , i did do the math , but wrong , half-brained clown math , as if he took it all at once . 
+  i 'll cross all comparison to the lethal dose away . 
+  btw wiki says the elimination half life is 2hours http://en.wikipedia.org/wiki/nicotine#pharmacology ( referenced there ) . 
+  to practice if i can do this right given that number , that would give 89.65 mg top before adjusting for 60 % absorption ? 
+  8 half lives in a day , in one half-life its less than 15/8 \\* 24 = 45mg , let 's not assume anything is insignificant , but even more simply just do a sum of a geometric series , 45 +45 / 2 + ... + 45/2 ^ 8 = 45 \\* ( 1-0 .5 ^ 8 ) / 0.5 = 89.65 mg, 
+  same approach ( w a = 22.5 and n = 16 ) would give 44.999 mg for 1h half-life , so seems sane . 
+  adjusting for 60 % absorption , its 53,79 mg . 
+  if this is right , til , thx !, 
+  yeah , that complicates things further . 
+  i do hope you did n't get the notion i was trying to dismiss ops claim - quite the contrary , my original point was how huge his/her dosage really seemed - no wonder it was toxic to him/her . 
+  since i went with the presumption of no degradation at all in the original post and crossed-out calc , and its variations of this you 're indicating ; hopefully keeping that an order of magnitude below potentially lethal doses , and at most at similar levels to the average nic op ( or any moderately-high intensity smoker ) was getting as a smoker , is at least an improvement over not realizing even 15ml of 24mg juice is dangerous . 
+  yeah , admittedly not much scientific validity to that number . 
+  i though it was merely cautious though . 
+  indeed you should use logic to put forward a good case for killing millions of people . 
+  and to put forward the opposite case as well . 
+  some might call this a discussion . 
+  or practice . 
+  why do you fear having such discussions ? 
+  being able to think properly is never a handicap , as you seem to imply . 
+  perhaps its not sufficient ; maybe there 's room for ( logical ) meta-debate on this point ; but it certainly never hurts . 
+  that does n't help much , so i guess you do n't wish to communicate . 
+  i 'll give it one more try . 
+  you seem to claim that logic can be very dangerous under certain circumstances - namely if one is lacking in compassion . 
+  i ca n't really see that logic , here really just a shorthand for being thoughtful , not making incorrect judgements , can ever be dangerous in itself , regardless of whether you have or lack compassion . 
+  it is always and without exception advantageous to be more logical rather than less , for the purpose of selecting correct actions at the very least . 
+  your example is that one can make a good case for killing millions of people . 
+  i think that if there is a good case to be made for killing millions of people , it is only reasonable to hear it out . 
+  how else is one to see if one should or should n't do something , like kill millions of people , but by using reason ? 
+  perhaps this seems flippant when stated like that , but consider exchanging `` killing millions of people '' with `` going to war with somebody '' , since that can cost millions of lives . 
+  yet i do think some wars were worth fighting ( second world war for eg ) . 
+  this is a decision that might go either way , and only reasoning it through can give anyone any hope of reaching the better conclusion . 
+  point is that even something at first glance obviously undesirable and dangerous , like choosing to kill millions of people , is not inconceivably the correct course of action , and hence one certainly needs to think logically through its pros and cons . 
+  perhaps you meant - in a sociopath , ie lacking compassion and not lacking in selfishness . 
+  even then , it is to nobody 's disadvantage for the sociopath to be highly rational . 
+  for him/her , its obviously an advantage , for he/she reaches correct conclusions more frequently . 
+  even for someone else , having a rational sociopath is preferable from having an irrational one , since the former 's actions can at least be shaped by long term considerations and by incentives , the criminal system etc , to perhaps seek enlightened self-interest , rather than just be a dangerous criminal . 
+  ahh , these 0.1 - 0.2 builds feel really borderline to me . 
+  below .1 i begin to sweat , but here i 'm kinda meh , chancy for not leaving sufficient safety margins , but not actually crossing the line given a realistic set of parameters , rather than the conservative ones we normally use to be good and cautious - http://s21.postimg.org/auh6gu1wn/us18650vtc4.jpg - you can see the actual average volts at continuous 30a would drop to something like 3.1 v and that would correspond to about a .1 build . 
+  but look at that temperature climbing all the way to 100deg celsius under continuous 30a complete discharge !, 
+  well , we do n't really discharge our batteries that low , and surely someone doing this should stop discharging far earlier , at half capacity at most , which i 'm eyeballing at 3.1 v or bit below here ( moving the average higher i guess - maybe .11 is then at 30a - but obviously these are not important differences since draining the same setup less ca n't possibly be worse for the battery ... ), 
+  that temperature curve ( as well as the voltage sag to give a reasonable fraction of the capacity , both driven by internal resistance , which raises with use ) is a big part of what 's limiting its rating , and here we 'll only transiently see something around 3.7 , which is the real fully charged voltage here , and apparently wo n't ever see 4.2 . 
+  if the rating is to a significant extent driven by the heating , seems to me the avg current is of greater importance here than some short period of less than 1 amp over the limit . 
+  and even if it were significantly above , like with a .1 build and 7 amps extra . 
+  so looking at a realistic scenario , i think there are no safety margins at all in builds like this - but that they 're just about pulling within the envelope of what a completely new battery can really take continuously . 
+  i have mostly encountered the negative aspects of faith - the bigotry , its political power and privilege , actively used to suppress civil society , independent contemporary culture ; the xenophobia , and given the recent history of my country , even its role in fueling and aiding murderous hatred in war with a neighboring country of predominantly different religion ...

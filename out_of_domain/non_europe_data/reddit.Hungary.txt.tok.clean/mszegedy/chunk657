@@ -1,0 +1,100 @@
+  [ here ] ( http://pastebin.com/nx9nv9d9 ) is my ` xorg.conf ` . 
+  edit : ** i have found a configuration that works minimally . 
+  ** this is momentous news for me , but i do n't entirely understand why the parts of it that work work and the parts of it that do n't do n't . 
+  i would like help with this , ideally in such a way that i can get the displayport working like a normal additional monitor . 
+  what i did to make it work was follow [ this guide ] ( http://sagark.org/optimal-ubuntu-graphics-setup-for-thinkpads/ ) for setting optimus up on ubuntu . 
+  specifically :, 
+  - changing my ` / etc/bumblebee/bumblebee . conf ` so that ` keepunusedxserver ` was ` true ` and ` pmmethod ` was ` none ` . 
+  - copying ` xorg.conf.nvidia ` from the screenclone git to ` / etc/x11 / ` and changing ` bumblebee.conf ` so that under ` [ driver-nvidia ] ` , ` xorgconffile ` was set to ` / etc/x11/xorg . conf.nvidia ` . 
+  ( i am not sure whether this actually helped or not , but it could n't have been good that originally it was pointing to a nonexistent ` xorg.conf.multi ` . ), 
+  - running ` optirun true ` to start a new x server on the other screen . 
+  ( somehow . ), 
+  - ` export display = :8 ` in a terminal so that commands i ran would open up windows in the external screen . 
+  the new screen was on an entirely new x server , and so lacked even a window manager , but one ` openbox-session ` and ` nvidia-settings ` later it was in a usable state . 
+  however , this setup is still unacceptably terrible . 
+  ` xrandr ` run on my laptop 's screen ( ?!? ), 
+  tells me that the only connected monitor is ` lvds1 ` , while run on the external monitor , it tells me that the only connected monitor is the one it 's running on . 
+  how narcissistic of both !, 
+  both screens respond to my mouse and keyboard simultaneously , and have their own unique x configs . 
+  for example , on the external monitor , two-finger scrolling does n't work ( instead there is the default right-side scroll ) , while on the laptop monitor it does , so a way i can move the mouse on the external monitor but not the laptop monitor is that i use two fingers instead of one . 
+  also , setting my keyboard to a different layout only applies the setting to the monitor it 's on . 
+  it 's like having two different machines that just happen to share some hardware , like siamese twins . 
+  i do n't entirely understand why this is the case . 
+  can the two graphics cards not interact with each other at all , to the point that they can share screens ? 
+  there must be * some * synergy going on between the two , since x can tell the difference between ` :9 ` , the laptop screen , and ` :8 ` , the external screen . 
+  screenclone , by the way , does n't work ; no matter what i run -- i 've tried ` screenclone - s :9 - d :8 ` , ` screenclone - s :9 - d :8 - x 1 ` , ` screenclone - d :8 - x 1 ` , and even simply ` screenclone ` -- it always exits with some exception . 
+  the only screenclone command i can run that does n't crash is ` screenclone - h ` . 
+  i 've tried reinstalling it . 
+  but even if it worked , what would that do ? 
+  i do n't think it can actually merge the two servers , just paste one onto the other . 
+  somehow i feel that ` intel-virtual-output ` is the missing ingredient in this , but when i ran it , it did n't seem to do anything useful but add a virtual screen that did n't show up anywhere . 
+  edit 2 : ** i 've gotten it to work almost completely . 
+  ** this is what i do now :, 
+  - reboot my computer ( see below ), 
+  - once it 's completely booted , plug in the cable and turn on the external monitor, 
+  - run ` optirun true `, 
+  - run ` intel-virtual-output `, 
+  - open ` arandr ` to arrange the screens as i desire, 
+  - run ` display = :8 nvidia-settings ` to further fiddle with the display settings , particularly the overscan, 
+  and then it works . 
+  however , there are a couple peculiarities to the process :, 
+  - after i 've disconnected the cable , reconnecting it will not work . 
+  i 've frozen my computer at least once in trying to get it to work . 
+  - after i 've disconnected the cable , the virtual screen ` intel-virtual-output ` creates is n't killed . 
+  i do n't know how to kill it ; i just deactivate it in ` arandr ` . 
+  on the bright side , the discrete card does n't seem to drain my batteries afterwards . 
+  - when i run any program with ` display = :8 ` , it shows up on that screen but acts like there 's no window manager on it . 
+  also , all the elements from the virtual screen , even the desktop , keep `` overwriting '' / `` covering '' it -- i can only see the graphical elements in it when they get updated ahead of the stuff on the virtual screen , e.g. 
+  when i mouse over a button in it . 
+  this probably has to do with the functionality of ` intel-virtual-output ` and ca n't be helped . 
+  it sure does make using ` nvidia-settings ` annoying , though . 
+  i 'm happy with it . 
+  yay !, 
+  have you got any anti-union posters from the early 20th century ? 
+  i need to be comfortable that if i ever want to make a post disparaging the c data structure known as the `` union '' , i have something funny to put in it . 
+  english has / \u0259 / vs / \u025a / , but different dialects r-color / \u025a / to different degrees . 
+  is there any language where there 's three or more different degrees of r-coloring ( not necessarily without a change in vowel quality ) ? 
+  does language change , on the very long term , happen in a particular direction ? 
+  or is it completely cyclical ? 
+  what papers can i read about long-term language change in ? 
+  preferably with juicy examples . 
+  example : decrease in cases in ie languages over time . 
+  will the number of cases ever start to grow again in any of them ? 
+  will the turkic and uralic languages eventually lose their cases in the same way , or do structural or phonological features prevent this ? 
+  [ i wish i were joking . 
+  ] ( http://en.wikipedia.org/wiki/%c3%84ynu_language ), 
+  i 've recently made a [ list ] ( http://www.reddit.com/r/linguistics/comments/34tfzr/what_language_should_an_english_speaker_learn_if/cqybqv1 ) of suspicious similarities between tagalog and hungarian ( and other uralic languages ) . 
+  what dumb hypothesis can you come up with that you know is totally wrong but you still want to share because it 's funny ? 
+  is there a civilization somewhere with agglutinative grammar who are just really good at construction work ? 
+  a people with no past tense who also have no literary tradition ? 
+  come on , everyone delights in the unclean !, 
+  partially inspired by zach weiner 's idea for a [ bad ad-hoc evolutionary hypotheses festival ] ( http://www.smbc-comics.com/?id=2853 ) , which actually became a [ real thing ] ( http://bahfest.com/ ) . 
+  ( do n't actually google it , because unfortunately it gave creationists a lot of ammo with which to mock scientists . ), 
+  ## you did this pretended deed , you !, 
+  you culprit of pretended deeds , you !, 
+  but do n't you do this pretended deed !, 
+  neither can you do , nor can you * pretend * this pretended deed !, 
+  because the culprit of this pretended , able-to-be-done , able-to-be-pretended deed-of-yours ... is you !, 
+  quick notes on hungarian phonology and orthography :, 
+  - `` e '' is pronounced like `` e '' in english `` bet '', 
+  - `` t '' is pronounced like `` t '' in english `` bet '', 
+  - `` d '' is pronounced like `` d '' in english `` bed '', 
+  - `` k '' is pronounced like `` k '' in english `` back '', 
+  - `` s '' is pronounced like `` sh '' in english `` bash '', 
+  - ( `` sz '' is pronounced like `` s '' in english `` fast '' ... as `` s '' is more common , it 's more convenient to have that one be the one that 's one letter , but the downside is that it confuses foreigners , especially poles who have it the other way around ), 
+  - `` m '' is pronounced like `` m '' in english `` bam '', 
+  - `` n '' is pronounced like `` n '' in english `` ben '', 
+  - `` r '' is pronounced like rolled r , sorry, 
+  in hungarian , all of the following conspire to create this :, 
+  - 2nd person singular pronoun is '' ** te ** '' , either from turkic `` sen '' or from persian `` to '' ( we are lame , our pronouns are loanwords ) . 
+  - to `` do '' or `` put '' is '' ** te ** sz '' . 
+  the `` sz '' elides when you put endings on that begin with consonants . 
+  - the verb infix to indicate the past tense is '' - ** t ( t ) ** - '' . 
+  this is also used to form the past passive participle . 
+  - the verb infix to indicate the causative aspect , meaning `` makes to be <verb ed '' , is '' - ** tet ** - '' ( or '' - tat - '' depending on vowel harmony , but these sentences all contain the same verb , so it 's always '' - tet - '' ) . 
+  - the verb infix to indicate the permissive mood , meaning the same as english auxiliary verb `` can '' , is '' - ** he ( t ) ** - '' ( or '' - ha ( t ) - '' depending on vowel harmony , but these sentences all contain the same verb , so it 's always '' - he ( t ) - '' ) . 
+  - the 2nd person singular definite indicative verb ending is '' - ** d ** '' , the `` definite '' meaning that the object of the statement exists and is definite ( so the entire ending means `` you <verb it '' ) . 
+  when the root ends in a consonant , a vowel is inserted between the ending and the root that 's similar to the other vowels in the verb , here '' - ** e ** - '' . 
+  ( if the root is mainly back vowels , then it 's '' - o - '' , as in `` hozod '' or `` l\u00e1tod '' , and if it 's mainly front rounded vowels , it 's '' - \u00f6 - '' , as in `` k\u00f6t\u00f6d '' or `` s\u00fct\u00f6d '' . ), 
+  - the 2nd person singular definite * subjunctive/imperative * verb ending , used here as a command , works the same way , except it 's '' - ** dd ** '' rather than '' - d '' . 
+  - the accusative case is marked by '' - ** t ** '' , and when the root ends in a vowel , you insert '' - < ** e ** / \u00f6 / a  - '' depending on vowel harmony ( as above ) .

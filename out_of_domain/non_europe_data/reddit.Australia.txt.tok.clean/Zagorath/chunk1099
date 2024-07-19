@@ -1,0 +1,100 @@
+  i 'm removing it for seeming to be in violation of post requirement 1 . 
+  content has to be complete in terms of material presented . 
+  to be frank , i 'm not actually sure if your content is complete or not , because i ca n't figure out how it 's meant to be read . 
+  if you could try and format it a little clearer so that it 's clear what it 's about , then i would be happy to restore it . 
+  try looking at the spells in the phb and emulating the relevant bits of information to highlight . 
+  any luck ? 
+  even if it was , dude stepped over that line . 
+  would n't have been a 3 pointer anyway . 
+  except it is n't . 
+  doing that is literally the * point * of the existing dual wielder feat . 
+  well , that or dual wielding longswords . 
+  it 's dumb in the way that any dual wielding ( as presented in fantasy ) is dumb , but dual wielding is a popular fantasy trope and outright banning it would not be a good decision . 
+  there 's nothing stopping you from carrying a dagger at your belt or up your boot anyway . 
+  discussions of this type * only * make sense in the context of an actual battle . 
+  aww man , what was in it ? 
+  i did n't even know it was a thing . 
+  i 'm on mobile and ca n't look at the code eight now , but what ate you actually hashing ? 
+  if it 's the username or some other readily available information , it would still be super easy to brute force just by trying out the users who have posted in that thread or in the subreddit in general recently . 
+  a * lot * of people use reddit from work or class , where they likely have the same ip address anyway . 
+  if that information were shared , it would be too easy to falsely accuse people . 
+  besides , the ipv4 address space is small enough that it could be brute forced to obtain the user 's precise ip address . 
+  is there a source for that ? 
+  to be honest i 'm surprised they do n't already work considering that was one of the major points google showed off at their announcement . 
+  if you 're not interested in the unearthed arcana material , there are no classes outside of the player 's handbook . 
+  there have been a few subclasses released , all of which can be found in the sword coast adventurer 's guide . 
+  in particular , a barbarian path , a clerical domain , a fighter archetype , two monastic traditions , two roguish archetypes , a sorcerous origin , an otherworldly patron , and an arcane tradition . 
+  yeah it 's a real shame . 
+  the bot was really useful when it was there appropriately , and funny when it was n't needed but showed up anyway . 
+  it looks like / u/tometric got shadowbanned for some reason . 
+  real shame . 
+  hey , i 've flaired this `` subclass '' for you , but in the future , please remember to apply an appropriate flair to your submissions . 
+  yeah , that seems problematic . 
+  if you can algorithmically find the timestamp of that first report , then you can easily algorithmically deanonymise a user by trying a hash on a selection of users that seems likely , starting with users involved in the specific conversation , and moving outward to other users who have been seen on the subreddit . 
+  and besides , was n't your intent ( according to your top level comment ) to prevent needing a database lookup each time a report is submitted ? 
+  how else would you retrieve that timestamp , particularly on a user 's second or subsequent report ? 
+  what are the modernising changes ? 
+  of the ones listed on that page , the only one i can think would be at all controversial would be the new music . 
+  but they 're kind of light on description of what they 're doing . 
+  sudo is actually a unix command , not a linux specific one . 
+  you 'll find it in * any * unix-like operating system , including any variants of bsd and macos . 
+  what 's `` messenger '' ? 
+  i 've got `` messages '' on my phone , but that seems to be completely deprecated and it 's only for sending smss anyway . 
+  the only `` messenger '' i 'm familiar with is facebook . 
+  sibelius sounds lite is a thing , but i 'm not sure how you 'd go about getting and installing them . 
+   combined with the fact that it 's by second scanning over a day alone would need 24 * 602 values, 
+  is the time not publicly available anywhere ? 
+  i was assuming it was possible to get the server to tell you the time . 
+  in that scenario , deanonymising the user is as simple as trying out a bunch of users and finding the right one , exactly as i described in the previous comment ... of course , if it 's not possible to get the time it becomes a lot harder . 
+  ( though not as hard as you 're suggesting , since one would presumably know to within an hour or two in the worst case . ), 
+   one would have to find the users id , a server side secret ( which unless absolutely stupid , wo n't happen ) , and the many seconds , in a single day, 
+  this is the first time you 've mentioned a salt of any kind ... how would this salt work ? 
+  would it be unique to each report , to each user , each subreddit , or a single global constant ? 
+  so , if i 'm understanding this correctly , op 's suggestion would involve doing a count ( ) on a query like the one you posted there , each time a report is submitted , then comparing the result of that to the specified threshold , and if it 's greater , ignoring the report ? 
+  ( presumably also with some check in the original query for time , to make bans non-permanent . ), 
+  each time a mod marks a report as shit , that report 's record is updated so it 'll add to the count next time that user reports something . 
+  where as with your suggestion , when a user submits a report , it would first do a query to look up that user 's hash ( stored , where ? 
+  in a table with columns user_id , subreddit , and hash ? 
+  maybe also a boolean blocked ? ) . 
+  if nothing is returned , a new record would be placed in that table because it 's the user 's first time reporting in this subreddit . 
+  if something * is * returned , it does the check to see if it 's been blocked . 
+  if a mod bans a user , their blocked is set to true . 
+  if my understanding is wrong in either of those cases , please let me know . 
+  but i 'm not really sure i see how one is worse than the other in terms of how expensive the queries are . 
+  additionally , op 's method is 100 % anonymous . 
+  there 's no information that could possibly be used to track . 
+  near as i can tell , your information has some unique token associated with every user on a per-subreddit basis . 
+  it might be difficult to associate that with a specific user , and near-impossible to do it on the basis of a single report , but over time it would be possible to build up a profile by seeing which users are present in the threads where a particular token has been reporting things , and potentially use that to identify the user . 
+  it 's not an enormous risk , but when the other option comes with zero risk , why would you * not * go with that ? 
+  i hope i 'm making sense here . 
+  i can try to be clearer , maybe provide an example or something , if anything does n't make sense . 
+  hi , it looks like you are seeking help with a currently unfinished piece of homebrew . 
+  please use [ the arcana forge thread ] ( https://www.reddit.com/r/unearthedarcana/comments/56rv1j/the_arcana_forge_for_all_your_drafts_ideas/ ) at the top of the sub for questions of this nature , as the main subreddit is for fleshed out homebrew that is ready for critique and balancing . 
+  i 'm removing this post , but hope you find answers in [ the arcana forge ] ( https://www.reddit.com/r/unearthedarcana/comments/56rv1j/the_arcana_forge_for_all_your_drafts_ideas/ ) . 
+  best of luck , and happy homebrewing !, 
+  i feel a bit bad for you guys , but it 's * never * been on netflix over here , so \u00af \\ \\ \\ _ ( \u30c4 ) _ / \u00af, 
+  prefix each line with ''  '' to have it display as greentext . 
+  see [ our manual of style ] ( / r/dndgreentext/wiki / style ) for more advanced style and formatting options on this subreddit . 
+  if you 've got a salt that largely removes cryptographic attacks as being a threat . 
+  my issue was only that you had n't mentioned a salt until that previous comment . 
+  once you 've got a salt , that side of the problem is pretty much solved . 
+  most of my last comment was merely seeking to * understand * what your solution was , and how precisely it differs from op 's proposed idea . 
+  not really making a mountain out of anything . 
+  but the parts that * were * being critical of your solution come only in the final 3 paragraphs . 
+  and those are not referring to an attack on the hash , but simply a form of timing attack , where rather than determining for certain who a user is based on the inputs to the hash , they narrow down the field of likely users associated with the hash by assuming the redditor doing the reporting is someone who has commented on the thread and looking for overlaps in multiple threads . 
+  ( what i 'm suggesting is * slightly * more complicated than that , but not much . ), 
+  this is assuming a single user has a single constant hash per subreddit , which is my understanding of how it would work . 
+  but i feel this is all moot when , so far i can not see how this method would be substantially more efficient in terms of io than op 's suggestion , which in addition to removing the potential for being de-anonymised , also has the added advantage of allowing a threshold to more automatically manage the process . 
+  if i am ` making a mountain out of a molehill ' , as you say , i would hope you could at least understand why . 
+  when building * any * system that interacts with security concepts such as user anonymity , it is * absolutely crucial * that everything be done * perfectly * . 
+  any flaws in the implementation could be exploited to violate the integrity of the anonymous reporting process . 
+  granted , that 's not something that quite as important as many other cryptographic processes , such as making sure user * accounts * themselves do n't get exposed , but it 's still at least worth taking the time to ensure that it truly is done properly . 
+  so when you say you do n't understand why i 'm ` making a mountain out of a molehill ' , that 's a little concerning to me . 
+  civ v or any other turn-based strategy . 
+  mount & blade . 
+  its dialogue is really basic , and the combat is easy enough to play while half your attention is on something else . 
+  as another non-american , i would n't be quite so hasty to jump to astroturfing in this case . 
+  i mean , it 's almost certainly playing * some * part , but even without it , i would n't be surprised to see something similar . 
+  this us election is a pretty unique one , in that it 's not so much about left vs. right as it is a mostly normal politician vs. someone completely and utterly out of their mind . 
+  that does two things . 
+  first , it means that any coverage of the candidates that does occur is bound to be one-sided , because in this case * reality * is one-sided .

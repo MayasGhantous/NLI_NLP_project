@@ -1,0 +1,100 @@
+  intel should name the e series cpus i9 for they are different product . 
+  280x is rumored to be released tomorrow . 
+  wait until then . 
+  you 'll need atx sized mobo with usb3 ports and sata3 . 
+  asus z87-a is a popular pick . 
+  the selected one seems rather expensive . 
+  i thought fm series sockets are for the apus . 
+  in bf3 the ui did not scale so you needed this larger minimap if you play at 1440p . 
+  also it reset the size every time you died . 
+  the bf4 fixes this problem . 
+  if the map is still too small then increase the ui scale in video settings . 
+  you 're right . 
+  i do write massively parallel applications ranging from ~ 30 different threads to thousands of similar threads . 
+  it 's not like sse where you have to explicitly use sse instructions to take full advantage . 
+  i 'm a physicist , i know all the letters in greek alphabet but not a single word . 
+  does it make me greek ? 
+   anyway , i do n't understand why do you think same concept translates to greek ? 
+  we ran out of letters latin alphabet in our equations so we use greek a lot . 
+  i 'm assuming you run windows 7 . 
+  you might need to disable ahci in bios if the current windows is installed from ide drive . 
+  otherwise should boot . 
+  ssd is expensive , is it intentional ? 
+  make sure the cpu cooler will fit into the case . 
+  also i 'm not sure how the video card is ventilated - the case does not have any side vents . 
+  the nvidia specs for the gpu max temp is 99c . 
+  i personally own both 23 '' ( 1080p ) and 27 '' ( 1440p ) dell ultrasharp monitors and love them both . 
+  they support a good stand and an on screen menu that makes sense . 
+  you wo n't regret if you get one of those . 
+  edit : it does n't support hdmi tho . 
+  i 've got 570 in sli and upgraded to 1440p from 1080p ( both dell ultrasharp ips monitors ) . 
+  before i used cheap 1650xsomething tn panel . 
+  a few notes :, 
+  * the upgrade from low quality tn panel to ips did way more to the picture quality than upgrade from gtx285 to gtx570sli . 
+  * the 27 '' panel is bigger so i look it from farther away ( pushed back on my table ) , but it also has higher pixel density so the text at 100 % zoom is hard to read . 
+  i set my browser to 150 % zoom but not all programs are scalable . 
+  * the sheer size makes gaming somewhat harder because i have move my eyes in order to see minimap . 
+  some games , like bf3 , do not scale ui . 
+  * the gtx570 only has 1.3 gb of memory and it 's really not enough for 1440p . 
+  i often have to reduce shadow map quality and such to reach 60fps . 
+  the 1440p screen also has 78 % more pixels than 1080p screen so the performance hit is not negible . 
+  * the 1440p monitor can handle non-native resolutions better than other lcds i have used . 
+  running 1080p game on 1440p monitor still looks crisp . 
+  the 1440p monitor looks ok when downscaled to 1080p . 
+  in games at least but also in desktop apps . 
+  i 'm running 1440p right now and just downscaled it to 1080p - does n't look as bad as lcd monitors usually do after downscaling . 
+  i have another monitor that is 1080p ; it does not downscale as well . 
+  i think it has more to do with pixel density and screen door effect than and less to do with actual resolution . 
+   have you found this to not be the case yourself ? 
+  not really . 
+  i 'm only tweaking settings in games that dip below 60fps and in those games the bottleneck is , more often than not , the memory . 
+  my computer can handle 90 % of my steam library at max without any tweaking so it might not be a significant issue . 
+   i do n't believe the pixel density of full hd at 24 '' is really perfect and i believe that one little step ahead would be perfect . 
+  the 27 '' 1440p monitor has higher pixel density than 21 '' full hd monitor . 
+  i would argue that going from 24 '' 1080p monitor to 27 '' 1440p monitor is more than a little step ahead . 
+  the real problem is windows , it has abysmal support for ui scaling . 
+  increasing dpi beyond 110 makes some of the ui either unreadable or messes with layout . 
+  1440p has 1.78 x more pixels than 1080p ; a 27 '' 1440p monitor definitely does feel hd . 
+   you also have to take into account the power limit on the cards . 
+  temps are n't the only thing limiting an overclock . 
+  it somewhat mitigates the power problem . 
+  the electrical resistance in metals normally increases with higher temperature but in semiconductors it 's reverse . 
+  the higher the temperature the higher the leak current so lowering the temp should reduce the power draw . 
+  of course , the transistors spend most of the energy when switching between open/closed states , not through electrical conductance of semiconductor material , so reducing the temperatures will only give you a a small extra headroom for overclocking , but it might just eliminate the down-clocking . 
+  do n't know about others but my experience with gpgpu is that more memory is better . 
+  in gaming you 'll have to hit the minimum memory requirement ( which depends on resolution ) and your ' e good to go . 
+  about gpgpu . 
+  i built a space displacement convolutional neural network implementation on a gpu , which is massively parallel task , but has rather random memory access pattern . 
+  optimizing the memory access pattern , in my experience , was the most difficult aspect of gpu programming - unoptimized memory access pattern kills all performance making the gpu even slower than a cpu . 
+  one of the simplest and most effective tricks around memory latencies is memory access masking . 
+  basically i overload a core cluster with tasks to be executed . 
+  if a task needs to read a parameter from gpu memory ( slow ) then it will be suspended and other threads will be executed . 
+  meanwhile the parameter is transferred from gpu memory to local cache . 
+  in order to do the memory masking effectively i need to have enough threads scheduled for a core cluster or otherwise all the threads will be waiting for data . 
+  the amount of threads i can schedule depends on amount of data i can load into the gpu memory . 
+  i 'm rather happy how it all turned out - my gpu implementation ( running on gtx570 ) was hundreds of times faster ( and more energy efficient ) than my optimized cpu implementation . 
+  the extra vram can be a killer feature in gpgpu applications . 
+   what did you study to get into that ? 
+  all kinds of stuff . 
+  computers in polytechnic , engineering physics for bachelors and masters and mechatronics for phd . 
+  i needed to analyze aerial imagery in real time for my phd work so spent a bit of time researching the gpgpu . 
+  also had some prior experience with it before cuda came along - at that time i had to encode the inputs to my problem into a picture , run a custom pixel shader on it and decode the result from another picture . 
+  fun stuff . 
+  during portal 2 arg there were hints in many other games and also in the real world . 
+  i noticed there are glyphs in the [ tf2 page ] ( http://www.teamfortress.com/bazbobarrabus/ ) . 
+  edit : they look different tho . 
+  no , they should n't . 
+  all cards should run at fixed rpm , some of the retail cards ran below it and thus were quieter . 
+  the patch issued by amd brings the retail card rpm back up to specified value . 
+  the noise is linked to fan rpm , not to fan voltage . 
+  russia is an european country and turkey has a small part in europe . 
+  also georgia is european country and and azerbaijan has a part in it . 
+  what 's your current gpu ? 
+  if you can run the bf4 on low resolution and high settings then the cpu is not bottleneck . 
+  if you ca n't it can be because either cpu is too weak or the current gpu is too weak . 
+  try reducing resolution to 720p while keeping the settings at max . 
+  the cpu will still have to do all the same work ( running game logic , pushing the triangles out , etc ) but the gpu bottleneck will be removed . 
+  if you can hit 60fps you 're good . 
+  dice will present the results of mantle optimizations tomorrow at apu13 . 
+  it should reduce the load on a cpu and it 's compatible with 7950 . 
+  the bf4 has it 's preferences .

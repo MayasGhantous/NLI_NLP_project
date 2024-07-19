@@ -1,0 +1,100 @@
+  if you hash a password that is 500 characters , the result will be 256 bits . 
+  so the end result may be longer or shorter than the input , depending on the size of the input . 
+  it is worth noting that good security systems also add a random string to the password before hashing it . 
+  this is known as a `` salt '' , and it 's done so that even if 2 people have the same password , their resulting hash will be different . 
+  if you salt that 6 character password , or the 500 character one , and then hash it , the result is still 256 bits either way . 
+  yeah i 've noticed it , too . 
+  on my bank 's case , i believe it 's purely to minimise the amount of people who forget their password , since i know they 're salting and hashing passwords behind the scenes . 
+  they lock you out if you try to log in 3 times incorrectly , which decreases the risk associated with the short password size significantly anyway . 
+  some hashing algorithms certainly are very fast . 
+  but the ones designed specifically for security have been * designed * not to be . 
+  on either case , it is true that they 're designed not to be reversible . 
+  whoops !, 
+  that 's a really bad autocorrect . 
+  `` good '' is what i meant . 
+   do n't know how to format sorry . 
+  this is what the [ style guide ] ( https://www.reddit.com/r/dndgreentext/wiki/style ) ( there 's also a link in the sidebar ) is for !, 
+  hope that helps for next time . 
+  just a tip , if you want it to be greentext formatted , prefix each line with ''  '' . 
+  you can see [ our style guide ] ( / r/dndgreentext/wiki / style ) for further information about more advanced formatting . 
+  i 'm fairly sure that was his point . 
+   confined to capital cities ( i 'm a developer ), 
+  serious question ( since i 'm a software engineering student ) , just what do you mean by that statement ? 
+  being confined to `` capital cities '' is n't something that bothers me at all , because personally i would never * want * to live outside of them . 
+  what worries me a little is that `` capital cities '' might be too broad , and that in practice it 's really `` sydney and melbourne '' . 
+  what 's the scene like in brisbane or adelaide ? 
+  it 's true that lady finger bananas are far more popular in asia than they are in australia , but it 's certainly not difficult to find good sized cavendish bananas . 
+  i used to live in vietnam , and quite honestly i prefer their bananas to ours . 
+  they somehow feel less flavourful here . 
+  not to mention that stores wo n't sell anything that has * any * amount of black in them , which is offputting to me . 
+  makes it feel like they 've been overly treated or something . 
+   edit : i 'm still not the greatest at formatting things, 
+  dude what are you talking about ? 
+  your use of formatting shows some serious mastery of the format . 
+  the only thing i might suggest is that there 's no need for a row of asterisks when going between greentext and normal text , most of the time . 
+  wow awesome , thanks for all the info . 
+  it answered my question way more than i had hoped for . 
+  so thanks . 
+  you know , as opposed [ to a ] ( http://image0-rubylane.s3.amazonaws.com/shops/hwantiques/x28vvv41x29.1l.jpg ) [ sharp ] ( https://c1.staticflickr.com/1/14/15791398_4e211242d5.jpg ) [ spoon ] ( http://i.imgur.com/ndlsanu.jpg ) !, 
+  i saw / u/seastar96 with the devil !, 
+  sorry for the confusion , but i 'm not a native english speaker , and i did n't know the english word for this one . 
+  google just said `` nettle '' . 
+  probably regional . 
+  most people i know would have understood you . 
+  certainly saying just `` nettle '' is perfectly fine . 
+   do you ever use your phone while bicycling ? 
+  i answered yes , but i just want to point out that i do so exclusively for navigational purposes , and have my phone mounted on the cross bar . 
+   would you find interest in a helmet with built-in bluetooth speakers and a microphone ? 
+  my answer was yes , though if it were strictly for the examples given , it would be no . 
+  my thought was with respect to giving the phone commands by voice , and possibly receiving instructions back ( such as via google now ) , or for turn-by-turn navigation . 
+   would you find interest in a product which alerts you to potential obstacles in the road or on your path ? 
+  to the people who said yes , i 'm curious . 
+  why ? 
+  on a bike , is it not super easy to see for yourself where everything is , especially compared to in other vehicles ? 
+  what do you think you could gain from such a technology ? 
+  i just do n't understand it , so i was surprised to see over 50 % of people answered yes . 
+  yeah seriously . 
+  there is no way those obnoxious gambling ads during sporting events should be legal . 
+  `` always remember , gamble responsibly . '', 
+  the smug way the dude says that makes me want to punch him . 
+  they certainly do . 
+  md5 and sha1 especially are frequently used to verify a file has downloaded correctly , for example . 
+  bcrypt is one hashing function designed to be slow , and is one of the functions most often recommended for use in password hashing . 
+  that seems like it would unfairly punish someone who chooses to take a supporting role . 
+  does an email address count as personal data ? 
+  my guess is that they have no intention of enforcing it in most cases . 
+  it 's an excuse so that they can ban sites that they do n't like , using this as their grounds . 
+  there 's no way they 're gon na ban some random tiny website hosted out of someone 's basement in ohio that has no political message at all . 
+  google wants manufacturers moving away from removable storage for completely unrelated reasons . 
+  they want people using more cloud services , because that benefits google in general . 
+  i wish removable storage was more common , but it is n't because of apple that it 's going away . 
+  the battery thing , i actually prefer . 
+  non-removable batteries can be larger , since they do n't need space for the mechanism that allows it to be removed which means you get more time on a single charge . 
+  and this is * not * an insignificant effect . 
+  this means that you 're less likely to need to carry something around , since the threshold at which you need extra charge is higher . 
+  and if you already are over that threshold , you 're going to be carrying something extra around , so why not make it an external battery to charge with ? 
+  what 's with the obsession of having it be a second * internal * battery ? 
+  yeah , the growth of this subreddit really is quite amazing . 
+  it wo n't be too long before this subreddit surpasses / r/dndgreentext ( which is the next biggest d&d sub ) . 
+  and not too long after that , it 'll be bigger than / r/dungeonsanddragons , and then maybe even / r/dndnext . 
+  if it manages that , it 'll be the second biggest d&d subreddit out there . 
+  all that is very impressive for a place that 's not even 6 months old , and which caters to a specific subgroup of a relatively niche hobby . 
+  ^ [ source ] ( http://redditmetrics.com/r/dndbehindthescreen#compare=dndgreentext+dungeonsanddragons+dndnext ) . 
+  in a unix-like system ( linux or os x ) , you can use the command ` ping - i 10 - s 1 8.8.8.8 ` . 
+  - i is the interval ( in seconds ) between pings . 
+  the unix ping will run indefinitely by default . 
+  press ctrl-c to stop it . 
+  - s is size . 
+  what are you talking about ? 
+  they never made a spyro game after 3 . 
+  they . 
+  never . 
+  * made . 
+  * ** one . 
+  ** you hear me ? 
+  removable battery means smaller battery ( due to space being required for the mechanism to allow you to swap it out ) , means you 're more likely to * need * to swap out the battery . 
+  having a non-removable battery means you can go longer without needing to charge/swap it out . 
+  and if you 're going to be carrying around a second battery , you might as well carry an external battery instead . 
+  they tend to contain way more charge , and perform the same function . 
+  you can ? 
+  still , at least all our cards have paywave/paypass on them here , which is * almost * as convenient .

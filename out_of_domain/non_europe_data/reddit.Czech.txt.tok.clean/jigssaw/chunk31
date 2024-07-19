@@ -1,0 +1,100 @@
+  that is seriously not a big deal it it will be unnoticable power consumption wise . 
+  visually inspect the mobo if there is anything wrong and try to reseat ram/gpu and everything, 
+  since nobody knows what `` minimum '' and `` reccomended '' mean we do n't know what it takes to run 1080p 60fps ( and @ what quality ) . 
+  well in 750ti case ... how are you gon na supply the power ? 
+  it doesnt have auxiliary connectors and pulling lots of power over pci-e would n't make the mobo happy :-), 
+  problem with dell prebuilts is taht bunch of them are not standard atx - the mobo is some weird proprietary dell cr * p. 
+  so first make sure its an actual atx standard board ( atx / matx ) . 
+  also those small cases arent dont have very good airflow . 
+  and you will mostlikely need to get new mobo because the one inside is not socket 1150 ( your cpu wont fit ) . 
+  indeed exactly as i said :, 
+  not atx board - diofferent mobo will not fit . 
+  you need to get different case ( or get super creative and diy :-) ), 
+  yes but they will worky only as 2.0, 
+  if you want 3.0 you need to get pcie card / or if you have usb 3 ports in the back you could get something like this http://www.overclockers.co.uk/pimg/ca-049-bx_47249_350.jpg, 
+  aw then in that case i rate 10/10 !, 
+  i love diy solutions like these :-), 
+  well since the comparable r7 250 is like 60-70quid i think 15quid is ok price . 
+  its just for secondary htpc/streaming build which i am making from spare parts i have lying around ( main pc has 7970ghz edition inside ) . 
+  i need mostly hdmi output and hd accelaration and if for like 5quid more i can have a card that is halfway capable for lightweight gaming then i think its a pretty good . 
+  warranty , customer service , cooling and overclocks . 
+  win 7 can be installed on pretty much anything . 
+  but that mobo doesnt officialy support core 2 quad cpus -, 
+  you theoretically could get it to work if there is a bios mod avaliable . 
+  dont bother sell your gpu and get 280/280x - that is around double the performance . 
+  trust me :-), 
+  yes it will work . 
+  depends on the card . 
+  socket 775 was there since the days of pentium 4 . 
+  so watch out and always check cpu compatibility ... 
+  pcie is backwards and forwards compatible - you can use pci-e 1card is pcie 3 slot and pcie 3 card in pcie 1 slot without any problems ( just lower bandwidth - but that is not problem with these cards ( only becomes problem with the best cards like 295x2 and 980 ) ), 
+  according to this it is ... ( i am talking about ddr3 version ), 
+  you could theoretically keep your motherboard and get one of the better secondhand am3 phenom ii ( install new bios ) like the hexacore -, 
+  and ddr2 is very very cheap on ebay . 
+  but if you do n't want to use used parts than am3 + as jakomako said would be the best - i 'd get 8320e ( or even 6300 ) instead of 8350 though - its cheaper uses less power and the performance is more then enough . 
+  also getting a newer gpu might be a good idea because it can accelerate lot of those actions . 
+  here richard huddy talks about it a bit more ... pretty damn scummy tactics that negaitvely affect both nvidia and amd users, 
+  the license for gameworks is both free and available to literally anyone, 
+  but amd . 
+  any random person can sign up on nvidia 's website asking, 
+  for a free license to work with it , and they 'll be given it within the next, 
+  day or two . 
+  it takes no effort whatsoever , all i had to do was type in my, 
+  name and email and in 4 hours i was approved for the gameworks source code . 
+  if that were true do n't you think the source code would leak out ?!, 
+  ... or amd would get their hands on it in secret to be able to better see what is tankiung the performance and optimize for it ? 
+  what i heard directly from nvidia guys at no bs podcast was that everybody can get binaries ( = = black box ) but only select partners can get code nad those are under strict ndas and who knows what contracts . 
+  opengl graphics and compute ** samples ** . 
+  just a few samples ... 
+  well then why did you straight out lie and say anybody can download the source code ? 
+  what are you talking about for christ sakes ?!, 
+  nobody is reproducing anything ... 
+  they do n't want to make amd version of gameworks ... 
+  they just want to be able to optimize their drivers for what is happening . 
+  normally when a game is comming out the developer wants it to run the best way possible on most possible hardware configuration so they work with gpu makers , show them their source code or tell them what exactly is hapening during the scenes that need most optimazation so they can adjust their drivers and have the game perform better . . 
+  with gameworks nobody works with 80 + % of the industry ( amd + intel share of gpu market ) there is just a binary blob and it does graphical effect and amd/intel has no way of knowing what is actually happening behind the scenes to make that effect - they can only guess . 
+  so they ca n't optimize it properly . 
+  and then amd/intel hardware is benchmarked by nvidia ... 
+  not to mention this bs hurts nvidia customers aswell - for instance gameworks is using huge amounts of over tesselation to make their effects - not because its the best looking way to do it or the most efficient way to do it - but simply because current nvidia architecture has better tesselation performance compared to amd ( who has better compute ) . 
+  so they are perfectly ok that it will take 20 % more resources to do the same effect on nvidia hw aslong as it takes a lot more on amd hw so they can look better in benchmark . 
+  tressfx is open source . 
+  if you want to make a server / turn a pc into hackintosh i do n't think you are clueless about pcs :d ... 
+  anyway -, 
+  its ddr2 era dell most likely core 2duo machine , you need to find out cpu compatibility list for that specific mobo to see if its worth it to upgrade ( you can maybe also do the xeon conversion and run a xeon chips which are cheaper on ebay ) . 
+  new gpu ( 7970 = = 280x ) and overclock that cpu . 
+  so either get 290 / 290x / 970 if you think thats worth imo . 
+  imo i wouldnt bother that card is plenty good still . 
+  i 'd wait till r9 3xx and 980ti ( q1/q2 2015 ) comes out so you get better prices :-), 
+  its written there :-), 
+  g41t-dm rev.a00, 
+  processor support -- intel core 2 quad , core 2 duo , pentium dual core , celeron dual core, 
+  more info about the mod -, 
+  but not sure if it can work with that mobo . 
+  also check what cpu is inside ( should be written on screen when booting / or use cpu-z in windows ), 
+  there can be 4gb - it might just be that 32bit winxp ca n't address more . 
+  yeah those mods are cool - scummy intel for releasing entirely new socket which is the same thing - just switching 2 pins to artifically create uncompatibility ... what a dick move . 
+  yes you can upgrade to core 2 quad ( you 'd have to get one used off ebay or craigslist or something like that obviously ) - not sure if its worth it . 
+  i do n't know if it will run hackintosh as i have never tried building one but it will run windows 8.1 nicely . 
+  deathadder 2013 ? 
+  i say they are related . 
+  - more efficient components generate less heat =  higher lifespan . 
+  they are also more expensive so that ussualy means overall better quality . 
+  you do n't have sound issues ? 
+  ... well thats nice ... even the devs acknowledged sound problems when they had to make lower bombsite at de_nuke have metal surface so you could actually tell if enemy is on a or b ... 
+  i meant more along the lines between regular and 80 plus . 
+  but thanks for correcting me . 
+  i ca n't afford to get one cause i would have to buy better and better gpus form that time forward :-( :d :d rather stay ignorant :d, 
+  a ) well the pricing is different in different places in the world, 
+  b ) 290x is better at higher resolutions ( it is comparable to 980 @ 4k ), 
+  c ) 290x is better in multi-gpu situation due to frame pacing ( no more stuttering ), 
+  d ) 290x has better compute capabilities, 
+  e ) the tdp difference is not as big as the marketing makes it look like ( check actual benchmarks ), 
+  go kill your `` friend '' problem solved :d :d :d / s, 
+  according to passmark they have about the same multithreaded performance ( when using all the cores ) . 
+  however if the software can only use 2 cores it will run better on i3 . 
+  water cooling only makes sense with big radiators ( like 2x 120 / 2 x 140 ) . 
+  with small radiator you get about the same performance as with high end air cooler - and air coolers are just bunch of metal so they ca n't really break where as watercoolers have a pump that can break and you are f **** d. 
+  so i 'd go with aircooling . 
+  i am currently using scythe ninja 3 ( 3 + years already :-) :-) ) and that company has great customer service ( sent me replacement fan for free after the original broke ) . 
+  also the noctua double fan one is great ( but pricey ) . 
+  hyper 212 is very good bang for the buck but its not the greatest :-),

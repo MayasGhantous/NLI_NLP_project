@@ -1,0 +1,100 @@
+  see what is causing stutters and see how often garbage collection is being called . 
+  think about it with scale . 
+  if 40 ops per sec difference on a bool check is your biggest problem , you are good to go . 
+  if you put in 100 of these , you are quickly scaling up and it starts to make a difference . 
+  now , take that and add all the other ops per sec you could be saving ( in a full scale title ) from properly using the language , it really makes a difference . 
+  create some methods that do the same thing in different ways , stick them in a loop so it runs 1000x in a loop , and run a timer on each one . 
+  you 'll see the difference it makes . 
+  that said , do n't kill yourself with optimizations . 
+  a highly optimized unfinished game is worse than a poorly optimized finished one . 
+  if you learn modular design and make some generic classes you optimize over time , it 'll help allow for both . 
+  unnoticeable to the player and cpu wasting are very different . 
+  effects of wasting cpu include : increased heat , background processes become sluggish , increased battery drain ( if applicable ) , and one pissed off hamster . 
+  it 's poor programming practice and causes a negative experience for the player . 
+  the use case you listed requires a simple event system . 
+  you need to create a function that will shoot off an event to all listeners clicked ( ex : how buttons work . . if clicked , it fades to different color and all `` on click '' events fire off ) . 
+  for a quick simple change from what you 're doing already : instead of changing the `` selected '' bool to true , nametag.transform.position = selectedgo.transform.position . 
+  * 1 ops when needed < 30k-75k ops ( @ ~ 150 fps ) at all times . 
+  do you really need to update the position of a nametag 150 + times per second , even when the selected object / object position has not changed ? 
+  nope . 
+  there is very little update loops should ever do , something you will become more comfortable with while you grow as a programmer . 
+  enumerators and coroutines are easy to learn and offer countless advantages , or even going as simple as a repeating invoke . 
+  you can run the loop every 0.05 s ( as an example , depending on your game ) . 
+  then , you can fire off an event to enable coroutine whenever the selected object moves/is changed , followed by disabling/cancelling when nametag is at target location . 
+  * 20 ops when needed < xxx ops ( @ ~ 150 fps ) at all times . 
+  as a final piece of advice , i suggest investing time into learning events ( whether it be your own or unity 's built in ... any events are better than none ) . 
+  if you need some motivation , try running your game on something 2-3x older + 1/2 -1 / 3 original cost compared to what you 're using now . 
+  venture out and learn something new each time you think there 's a better way of doing something , just like you did this time . 
+  when the object starts to move , start the coroutine / invoke . 
+  when the target object begins to move -  start transform position sync coroutine/invoke . 
+  when target object is reached ( & target object has n't moved in x seconds , all depends on the type of game you 're building ) , stop transform position sync coroutine/invoke . 
+  ah , then you have a few other options open up , easiest being to reparenting name tag under said selected object . 
+  ideally , split up your name tag to a manager + child style . 
+  then you can move the visual object ( child ) anywhere you want , and the manager always has a cached reference . 
+  if you 're using object pools , you can add an events to reparenting back to manager on disable / deselect for selected object and any other behaviors you want to handle . 
+  if you use straight destroy ( another performance hog ) , you can run cancel destroy & & reparent if current parent is not manager object . 
+  edit : the above fixes any scenario where `` reparenting '' would not be possible . 
+  if you do n't think it does , elaborate on the scenario . 
+  make sure to also check out the code examples for individual coding concepts ( there 's a few hundred of them ) , read through unity manual and doc ( code examples everywhere ) , and check out the official forums for other examples . 
+  all conveniently located on the unity site . 
+  what is keeping you from reparenting ? 
+  looking great , good job !, 
+  if you want the miscoloring to go away on the shadows ( cauned by auto compression ) , change the lightmap textures to truecolor and crank up the ansio a bit . 
+  unity 5 in built to use pbr . 
+  with pbr , you need a reflection from a light source for any object using a pbr shader . 
+  if you have no skybox + no sun + no reflection probes , your screen would be black . 
+  thus , it 's coded for reflection probes to exist in all scenes . 
+  with that said , there 's a way to remove them . 
+  it 'll cause you much more harm to remove than to keep . 
+  you can find their locations in scene light data , or you can look in the dlls to find how to call the objects directly . 
+  from my experience , it 's useful in 3 instances . 
+  1 ) creating multiplatform projects . 
+  currently , in vr , having a different loading scene per platform is cleaner ( and on some platforms necessary ) than having a loader script . 
+  same goes for console builds actually . 
+  2 ) team collaboration . 
+  different people work on different parts . 
+  3 ) large or room based environment . 
+  baking high quality lightmaps on large projects takes forever , even on top of the line hardware . 
+  working on one room ? 
+  just tweak and bake on there until satisfied , then load the adjacent scene and test merge between lightmaps . 
+  in the end , it saves countless hours of twiddling your thumbs and helps ensure you keep your code modular . 
+  1 ) best example i can give : some of the dev kits we 've been working with require one or two cameras at load , others require no other cameras to be present , even if disabled . 
+  they 're camera controller structure parenting is odd in some cases . 
+  thus , it makes it dirty to reparent on any monocalls . 
+  as an added bonus , it 's oddly become a nice lazy approach to load a different scene based on build type instead of swapping prefabs . 
+  2 ) correct , you could do that . 
+  in our experience , multiscenes has been a much cleaner solution when running large projects and using a cache server . 
+  i 'm not saying that this in the only way you can do things , just stating our own use cases for these features . 
+  i 'm more infuriated by the parts cut off on the top and bottom right of this bag . 
+  i do n't recall the exact text but this is the gist of it :, 
+  top - ** `` no hormones or steroids '' * **, 
+  bottom - * law, 
+  i despise this form of marketing . 
+  background :, 
+  * allergic to everything on allergy panels . 
+  * recurring nasal polyps . 
+  * victim of nasal infections every few days . 
+  how i deal with it :, 
+  * cetirizine ( otc in basically every country , but make sure to ask a medical professional before taking any meds ) . 
+  * nasal flush . 
+  * strategically timed consumption of spicy foods ( in my case , exclusively red peppers ) . 
+  throwing this in here because self awareness makes me feel better ... in regards to nyquil , the `` does n't seem to help '' is more psychological for me . 
+  it lowers my tolerance to the `` annoyed '' feeling i get from the constant pressure , causing anxiety and raised blood pressure ( which increases said pressure ) , and the loop continues . 
+  while i feel worse at that point , it does n't mean the decongestants are n't doing their job . 
+  edit : formatting , mobile . 
+  being anosmic , i am constantly fascinated by how differently we categorize and perceive ephemeral pleasures / displeasures . 
+  ultimately , i am envious of you olfactables . 
+  i just realized the proper term for this is not common knowledge in the game dev world . 
+  this amuses me because all are familiar with it and many of them use/utilize it on a regular basis . 
+  i also find this fascinating because most do a superb job without ( arguably ) learning the academic concept . 
+  or more simply , a `` carousel '' . 
+  you can have a repeating ( `` looping '' ) carousel , fixed , et al. 
+  while this concept has been around for ages in other technology , we are more familiar with it 's implementations because aesthetically pleasing and efficient nature of it has led to the concept saturating everything we use . 
+  this means that any company who puts higher weight on those variables as a metric will be prone to / is using it - amazon , fb , google , et cetera . 
+  examples, 
+  - fb profile image carousel is a horizontal with looping data sorted by descending date and uses a fixed focus position . 
+  - fb wall posts are a vertical carousel with non looping data similarly sorted by desc date and also uses a fixed focus position , although more loosely defined as it remains objective ( ca n't see more than physical limitations of screen space ) but also introduces subjective ( focus is where user is focusing their eyes ) [ aka inefficient :p ] . 
+  - google material concept playbook ( read : bible ) . 
+  using the assumption that this is not common knowledge to game devs based on those observations , i want to fast forward this a few iterations and share tips from my personal experience . 
+  in this context , op has posted content that i consider as pre-alpha , which is also not meant to be mistaken with taking away from the accomplishment . 
+  for clarity , i have seen some devs and engies release this type of content and consider it beta , first day release patch for main feature , or using the `` minimalistic '' term to excuse lack of any apparent function .

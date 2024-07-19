@@ -1,0 +1,100 @@
+  but unfair is n't illegal . 
+  that seems to be the answer to 95 % of posts on / r/legaladvice . 
+  that 's not the reason really . 
+  for example , large car rental companies do n't buy insurance either . 
+  insurance is always going to be more expensive * on average * than just paying for losses yourself - because the insurance company wants to make all of its payouts , expenses and profit back from premiums . 
+  insurance is a good idea for individuals because a car crash or house fire would be catastrophic for their finances . 
+  but if you have enough cash to average out losses over a long time , then it makes sense not to pay for the insurance companies ' overheads and profits . 
+   anyone know if they insured the launch portion ? 
+  i remember someone mentioning on this subreddit that spacex offers free replacement launches in case of failure as part of the purchase price , so they sort of provide their own insurance for the launch portion for their customers . 
+  but if anyone more knowledgeable knows more details , corrections would be welcome !, 
+  it * is * unreasonable to wonder if there 's something wrong with op . 
+  sure , he is actually in a great negotiating position , and has failed to recognise and make use of that . 
+  but implying that there is something wrong with him , let alone some `` mental illness '' about it , seriously ? 
+  i 've been involved with a couple of startups , freelanced for tens of startups , and otherwise know a reasonably large network of developers . 
+  and i think * every single one * of my friends or colleagues has been burned at least once in their early career by smooth-talking , sometimes also inexperienced `` business people '' . 
+  some have had their startups collapse because of founder disputes , some have given away way too much or asked for too little equity , some have been working for months ( or years ) for free on a project on only a promise for equity or pay `` in the future when we get to x '' , some have had their invoices gone unpaid just because the client flat out says that they do n't care about paying . 
+  sure , they are better at negotiating , better at having solid contracts up front , and so on now . 
+  but it takes experience to get there . 
+  if this is op 's first involvement with startups , it 's sad to say that the result is absolutely * normal * , not somehow unexpected and wrong . 
+  yeah , ritchie70 is * way * insensitive and out of line here . 
+  i mean , there are sometimes crazies that post to / r/legaladvice , but i can assure you that you are not one of them . 
+  every single developer who i know has been burned at least once in their early career in startups . 
+  some have had their startups collapse because of founder disputes , some have given away way too much or asked for too little equity , some have been working for months ( or years ) for free on a project on only a promise for equity or pay `` in the future when we get to x '' , some have had their invoices gone unpaid just because the client flat out says that they do n't care about paying . 
+  the space is full of money , and also people who are very experienced and skilled at making money by negotiating contracts and deals . 
+  so if you are not , it 's unfortunately absolutely typical to sign up for a really bad deal . 
+  if you want to get involved in business instead of working for a salary , then personal sales & negotiation skills are a must . 
+  there are a bunch of good books on this , but honestly , it also takes experience . 
+  listen to the other posters here about your actually very strong negotiation position , and try to use it to the best of your advantage . 
+  but remember that the strongest advantage in negotiations is the willingness to walk away from a bad deal . 
+  when you say `` static data '' , do you mean that it is changed infrequently and only by admins/developers , never at runtime by user actions ? 
+  i 've worked on a few sites that also needed a fixed static database of 1000 to 1 000 000 entries . 
+  the users could view and search for this data , and in particular , the custom search algorithm required all entries to be loaded in memory all at once . 
+  so there was no benefit to using an actual database : every request would have to reload it in full anyway . 
+  my approach was as follows :, 
+  * put all the data in a text file ( json , csv , whatever works ) in the code repository . 
+  manage it with git just like all other code . 
+  * at django startup , read and parse the file into tuples/dicts/etc in memory , store it in a global variable . 
+  * in the views using the data , just read the global variable directly from memory . 
+  * if the data changes , deploy a new version of the codebase and restart the app server . 
+  this will use ( data size ) x ( number of python processes ) of memory . 
+  but since every request would have used the same , it was actually more efficient to load it only once on startup . 
+  with your 50 000 entries , you should be entirely fine unless each entry is huge . 
+  but it might be a good idea to use an actual database if :, 
+  * you want to edit & save changes to the data while the app is running ,, 
+  * you only need a small subset of entries for each request , and can write a sql query to only fetch these entries for the request . 
+   my opinion is that if you make modding a core feature of the game then you need to support modded install . 
+  also if you rely on mods to add core features and core bug fixes to your game then you also need to accept bug reports from modded installs . 
+  in theory yes , but i see this mainly as a prioritisation issue . 
+  there are perhaps 10x more mod developers than those working on the main game . 
+  and it 's really hard to debug and fix code that you 're not familiar with . 
+  so i think it would make sense for bugs discovered in the presence of mods to be first reported to the mod developers . 
+  they can run the game in a debugger , and hopefully find the root cause of it in the game . 
+  * and then , if they confirm that the issue comes from the main game * , the mod developers can create a much more detailed & helpful bug report to squad . 
+   feel free and point out where i mentioned anything remotely related to `` mental illness '' , because i did n't . 
+  sorry , that line was meant as a response to ritchie70 's post , not yours . 
+  i agree completely that it makes sense to learn from other people 's mistakes , and learn & practice negotiation skills before getting into business . 
+  i 'm just saying that it is entirely normal and ordinary to have your first business deal go sideways because of lack of experience , it is not a `` wtf op ? '', 
+  moment . 
+  every single person in `` the startup space '' gets in there because they stumble on a seemingly interesting opportunity ... and only afterwards starts thinking about finances , deals , and negotiations . 
+  i mean , if you 're a typical salaried developer with a great stable job , then reading books about negotiation tactics & equity contracts is pretty far from your everyday interests . 
+  you wo n't pick those up until you actually see the immediate need for them , and by that time it 's usually too late for your first step in business . 
+   also , i 'm an entry level developer . 
+  i simply do n't have enough experience in start-ups to know what i 'm able to negotiate or not . 
+  if this is something you see yourself doing more in the future , then i can recommend the following as reading material :, 
+  * [ paul graham 's essays ] ( http://www.paulgraham.com/articles.html ) . 
+  some of these are more `` motivational & inspirational '' , others contain more solid advice for founders . 
+  * [ founders at work ] ( http://www.foundersatwork.com/ ) . 
+  interviews with the founders of many famous startups ' early days . 
+  also , there 's a similarly great [ coders at work ] ( http://www.codersatwork.com/ ) with interviews with famous software engineers from the same series , although not related to startups . 
+  * [ the founder 's dilemmas :, 
+  anticipating and avoiding the pitfalls that can sink a startup ] ( http://press.princeton.edu/titles/9687.html ) . 
+  a much more serious and investigative book than the previous ones . 
+  it seems perhaps a bit too pessimistic and gloomy , so do n't let that put you off !, 
+  but it has pretty good analysis based on statistics , not just anecdotes on equity , finance , investor , hiring and other issues that founders need to think of in their companies . 
+  * not really sure about books on contract & deal negotiation . 
+  i read [ spin selling ] ( http://www.amazon.com/spin-selling-neil-rackham/dp/0070511136/ ) a while ago , and it seemed a bit cheesy and self-promotional , but unless someone knows of something to recommend , i guess it 's better than nothing . 
+  even if you just want to become an early employee instead of a founder , it would be a good idea to get some reading done , so that you do n't accidentally get ripped off . 
+  for op 's use case , not mine perhaps ? 
+  because it would not have worked for mine at all . 
+  * i did not want a writable database - any modifications at runtime are a bug , and should be an error , and certainly not persisted ,, 
+  * loading from csv was actually better than using pickle , shelve or any other custom format , because the data originally came from a third-party api that gave out csv . 
+  this way we could just inspect the file by hand , and did not need a separate preprocessing step on import . 
+  hmm . 
+  i 'm not actually completely sure about django . 
+  i 've always just gone with the following flow of thought for python itself :, 
+  * imported modules are kept in memory until the python interpreter exits . 
+  * modules can have top-level global variables , which are kept alive in the module . 
+  * so just put your data in a top-level variable in any module , and you have an interpreter-wide cache . 
+  there will be one copy per process ( shared by all threads in that process ) . 
+  for example , in your models.py or any other file :, 
+  data = none, 
+  global data # needed to write to globals from functions , reading is fine without this . 
+  with open ( ` foobar.csv ' ) as f :, 
+  data = ... 
+  and you can put a call to init ( ) to the top-level end of models.py ( models.pys are imported when django starts , and will run top-level code on import ) , or since django 1.7 , into the ready ( ) of the app 's config : https://docs.djangoproject.com/en/1.8/ref/applications/, 
+  thanks , this looks great !, 
+  is it possible to generate `` relocatable '' packages with this ( a directory/zip file that you can just copy anywhere without installing ) ? 
+  thanks for explaining the difference between pyqt and pyside as well . 
+  this will be a company-internal app , and does n't really matter if it 's entirely open-sourced or not , so pyqt should be fine . 
+  thanks for the suggestion !,

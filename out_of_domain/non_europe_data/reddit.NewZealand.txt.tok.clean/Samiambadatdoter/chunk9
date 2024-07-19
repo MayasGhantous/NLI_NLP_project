@@ -1,0 +1,100 @@
+  having less game compatibility with linux is definitely something that breaks the deal for many people but the situation is getting exponentially better ( steam 's linux library is growing quite quickly ) . 
+  dual booting is the only way you can guarantee working native windows app support and still run liinux . 
+  i can help you set this up , if you 'd like . 
+  this is both taken out of context and i do n't see any allusion to fighting , the original person did n't reply , nor is there any evidence that they 're `` like children '' . 
+  i 'm not sure what you 're getting at . 
+  the furthest i 've seen is people smack-talking unity for being round and orange and gnome 3 for being systemd dependent and more like a tablet/phone environment than a desktop . 
+  no idea where you got this notion from . 
+  it is n't even vaguely correct . 
+  antergos and manjaro ( and architect linux ) exist . 
+  they are all graphical installers because it makes it easy . 
+  they are all based on arch . 
+  they even come with yaourt pre-installed . 
+  and you do not give up a `` she *** e *** r size '' of a software repository if this is what you 're getting at . 
+  the aur is * massive * , and while i 'm not going to go through and count , say , debian 's unstable repository to see how many they are , i 'm going to say that the aur is bigger . 
+  and i have no idea why you thought comparing a rolling release style of linux is anything like a vinyl . 
+  vinyls have been deprecated a long time ago . 
+  rolling releases typically have two options , cutting edge , and bleeding edge . 
+  if anything , the snapshotted release of most common distros is more outdated than a rolling release is , especially when they have lts branches . 
+  i wish i could be a bit less unpleasant about this , but you do not have an argument and you do not know what you 're talking about . 
+  the only major distinction of other distros compared to arch is that they are n't rolling release , and that is just what you get when you have a rolling release . 
+  you have a cutting edge system that has the danger of breaking , but a much more unified support and user base . 
+  and arch does not have things like a graphical installer or a live medium not because they 're hipster , it 's because omitting those has advantages . 
+  the size of an arch linux . iso is considerably smaller . 
+  the size of the arch . iso i have in my downloads folder is about 600mb , which is considerably less than the typical size of something like 1.2 gb , though sometimes they go even higher than that , i 've seen it as high as 2.1 gb . 
+  arch is n't designed as a beginner 's distro , the idea is that you already moderately competent and are prepared to learn . 
+  it 's pretty much just a fact that this 'll attract an elitist demographic because the barrier to entry is higher than average . 
+  you do n't even have to learn that much if you do n't want to . 
+  distros like mint are so easy anyone with even a basic knowledge of computers could do it , and would barely if ever have to touch the terminal . 
+  agreed . 
+  i do n't see the point in a vm for beginners . 
+  it 's best ( and honestly easier ) just to boot from a usb/dvd and install on a seperate partition . 
+  people on this thread are suggesting some crazy stuff . 
+  you 've said you have already made a partition and put the . iso on the usb . 
+  all you need to do is boot from it , and this is done by pressing the bios menu or boot order key during startup ( it 's usually something like f10 or f12 ) , and selecting the usb device as your boot device . 
+  from there , you 'll be able to boot into a live medium where you can try out ubuntu , and if you want to install , you can use the installer and select the partition . 
+  it will install ubuntu and grub , and configure it . 
+  from there , you wo n't need the usb , and every time you start your computer , it will ask you whether you 'd like to boot into ubuntu or windows . 
+  if you have some sort of messaging app ( like steam or skype or whatever ) , then i can talk you through setting it up . 
+  i think people install gentoo becaue of it meme status , to be honest . 
+  to be honest , with the installers that come with the user-friendly distros , you 'd have to be a fool to `` accidentally blow away '' your existing install of windows or whatever . 
+  many of the ones i 've gone through make it very clear that you will lose * all * data on the selected partition ( s ) . 
+  if you 're talking about something like , say , arch or gentoo , it is n't that difficult . 
+  honest . 
+  i would n't bother with a vm . 
+  just set a seperate partition , and then follow the arch wiki guide , or you could use architect linux and that 'll make it somewhat easier . 
+  there 's also manjaro and antergos , which are arch-based ( so they use pacman and are rolling release ) , but come with installers like ubuntu . 
+  this worked !, 
+  thanks !, 
+  any package manager , really . 
+  gparted live : for partition and hard-drive management , as well as wiping . 
+  puppy linux : incase you need to use a computer even if the hard drive is fubar, 
+  debian : incase you need a distro that 'll work no matter what, 
+  pc-bsd : because it 's not linux, 
+  and i dunno , arch or something , you showoff . 
+  the problem is there are `` rumours '' yet the article makes no mention of who or what exactly is propagating them . 
+  this attitude leads to badly written or bloated software . 
+  just because you have a lot of ram does n't mean it 's a good idea for your software to be ram hogs . 
+  because you 're playing as medic . 
+  while his guns are n't awful , he does n't really have the volume of fire needed to top the kills . 
+  if you look at the most powerful perks right now ( firebug and berserker ) , their weapons are powerful and ( mostly ) easy to use , meaning that they 'll rack up a lot of kills just by virtue of their perks , especially berserker as he does n't expend ammo . 
+  the current ads for dualies would be fine if they explained how your character is somehow aiming the pistol on the left . 
+  how does he know exactly where to shot ? 
+  what counters to the awp existed previously ? 
+  sounds like elias toufexis with less cigarette voice . 
+  i do n't agree with how you feel the berserker is needing nerfs but the firebug is not . 
+  firebug is incredibly strong at the moment , and the most deserving of the title `` overpowered '' . 
+  a high level firebug can completely obliterate pretty much everything , and can do it quite safely considering he does n't need to get headshots . 
+  i still do n't agree . 
+  even not using the mv gun at all , they are still incredibly poweful . 
+  they can clear trash easily and safely with the trenchgun and the flamethrower , and their molotovs can stun big zeds incredibly well . 
+  fuse + mv gun just propels them from `` very good '' to `` arguably overpowered '' . 
+  they can solo big zeds on a 6man hoe game , and that is just something other classes ( with the exception of the berserker ) ca n't do . 
+  firebug also does it more safely than berserker , too . 
+  berserker has to get in melee range and has a much less reliable stumble . 
+  the minimum requirements are 256mb of vram , which is four times more than what you have . 
+  i would suggest building a budget pc . 
+  bc2 will barely run , if at all , on that kind of hardware . 
+  dark souls . 
+  i came in expecting some stupidly difficult and obscure japanese title that was popular because of some cool visual design . 
+  i definitely was n't expecting one of the most intricately balanced and complex rpgs ever made . 
+   arch is popular because it 's not mainstream, 
+  what ? 
+  something is mainstream * because * it 's popular . 
+  if you look at the / r/unixporn survey , for instance , you 'll see that arch is the most popular distro . 
+  arch is very much mainstream for people who are n't afraid of learning about it . 
+  consider that it is still on page 1 of 21 . 
+  i am surprised , however , that gentoo and slackware are on more machines than arch is . 
+  ... okay . 
+  i suppose i 'm also one to not gnash my teeth when people use a distro different to mine , but whatever . 
+  yep . 
+  supports other init systems ( notably openrc ) though . 
+  centos has the problem of being designed for servers rather than personal desktops . 
+  while you could still go ahead and use it , the packages it uses are quite old because they go through a lot of stability testing . 
+  you 'll probably run into compatibility issues if you try to use centos , especially since the company that backs centos has a desktop distribution ( fedora ) available . 
+  natively , the steam library for linux is about 1,500 or so games . 
+  otherwise , using wine ( a windows compatibility layer ) will expand that but does require some configuration . 
+  wine has an application database where people record how successful they were in getting windows applications to run , and diablo 3 and hots apparently run pretty problem-free . 
+  then you 're going to be waiting forever . 
+  apple will never use directx simply because microsoft wo n't let them . 
+  metal has the problem of being exclusive to apple oses .

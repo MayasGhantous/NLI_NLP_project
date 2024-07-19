@@ -1,0 +1,100 @@
+  rust introduces the concepts of ownership , borrowing , lifetimes , and requires you to be very conscious and explicit with your resource usage - and not just memory , but all types of resources . 
+  it also has the c++ concept of raii if you want it . 
+   i have a hard time imagining safety-critical embedded systems switching to such a language . 
+  there 's a reason these systems eschew high-level languages , and even when they do use c++ , they forbid the use of many features such as exception-handling . 
+  they even turn off the on-cpu caches on these systems . 
+  now you seem to be talking about determinism and real-time guarantees again . 
+  i 've already replied to those sorts of worries , but i guarantee you that you can also restrict your usage of rust features , drop down to unsafe code , write asm directly , and it generally has more predictable behavior than c++ . 
+   this discussion is really only about the kernel afaic ; other parts of an os have different needs and restrictions . 
+  kernels are special because they 're so low-level and touch the hardware . 
+  i really meant the os actually , since that 's what users interact with the most - i 'd like to see some new ideas on actual design of operating systems , and rust would just be a component of that . 
+   who really cares what language a shell interpreter is written in , for instance ? 
+  really ? 
+  with so many bugs explicitly coming from the shell , and shell being one of the most critical aspects of the os - i would ** most definitely ** prefer it written in a language like rust !, 
+  this is why i am very skeptical of people who tell me there 's `` nothing to worry about '' with nuclear energy and ignore these disasters . 
+  yeah chernobyl killed like a dozen people directly but holy shit i could n't eat vegetables for months and radiation levels were noticeably raised in whole europe . 
+  if you think that 's `` nothing to worry about '' - well then , * fuck you . 
+  * barricade your own house with towels if you so prefer doing it but thankfully we do n't actually have to listen to reddit on every issue that seems to be hyped this month . 
+  i still think that nuclear is by far our best option , but flat-out denying danger of catastrophic proportions and relying on magical tech that is just around the corner but has never been actually tested in production , to solve `` minor issues '' like waste storage - is quite disingenuous . 
+   300,000 people who die every year due to coal, 
+  yeah i 'm no fan of coal , however , total death toll is not the only relevant metric here . 
+   your imagination could ever conjure due to a nuclear scenario, 
+  again with the dismissal . 
+  sorry i ca n't take you seriously , since you 're basically saying that our experience of living under fucking radioactive clouds and dust , not being able to eat plants , and barricading ourselves was nothing . 
+  it was absolutely terrifying and no amount of nay-saying can fix that . 
+   we could stop this in a few years with nuclear . 
+  well that 's a pipedream . 
+  even if you had production-ready technology that has been under heavy testing for several years and has much better characteristics than current ones - it would still be a huge switch that would take more than a decade for sure , shit , * airplanes * take more than that when approving even minor changes . 
+  the challenges are not just psychological - they 're technical , economical , infrastructural , and of course political . 
+  ... * yeah * glad you 've got it all figured out , 
+  *** burn all reddits ***, 
+   ruining everyone 's good time . 
+  i doubt anyone really enjoys getting pounded by greasy old men all day for a miserable pay . 
+   at least if it 's legal , she would n't have to walk around dark alleys at night for work . 
+  yeah because people would suddenly have no problem with it and would just buy their services in broad daylight . 
+  i do n't get the comment about google , care to explain ? 
+  mathematics is not a science precisely because it is the study of formal abstraction and uses deductive logic , generalizations , definitions , and so on to arrive at conclusions that are logically sound . 
+  science studies the natural world and makes use of mathematical abstractions , but it is at its nature about arriving at truths inductively . 
+  logic and math are fundamentally different than any science ( social or natural ) because they do n't use the scientific method . 
+  in maths you do n't make predictions and empirically test your hypotheses , you write proofs . 
+  interesting , any idea why ? 
+   mathematics is an underpinning of the natural world . 
+  what does this mean ? 
+   unless you want to claim `` waves are n't real '' , the study of math ( specifically , in this case , the study of waves ) is very much a science . 
+  mathematical theorems , algebras , calculi , and other tools that mathematicians developed , are used by scientists to study the natural world , yes . 
+  often , scientists develop the actual tools themselves . 
+  there is still a fundamental difference between mathematical abstractions and natural phenomena , in that mathematical concepts are thoughts arrived at through logical inference , while natural phenomena are sensory data that we receive . 
+  science is the discipline that tries to establish rules about how the world we perceive through sensory data behaves - it tries to make predictions in the form of theories , and then subordinates them to empirical testing . 
+  thus , science and mathematics use opposing methods - while mathematicians require proof to establish some statement as true - scientists never fully grasp the truth and deal with `` most probable '' , incomplete solutions , that are simply yet to be falsified . 
+  to summarize : it makes no sense to call mathematics a science , because the object and method of study are opposed in those two disciplines . 
+  thoughts and language vs. phenomena , inference vs. scientific method . 
+   a proof is composed of a conjecture - a + ( b + c ) = ( a + b ) + c - which can absolutely be subjected to empirical testing . 
+  in fact , the five color theorem was proved through the exhaustive computation of all permutations . 
+   you can find proof ( or contradiction ) logic throughout scientific fields . 
+  modus tollens can be leveraged by both science and mathematics , yes , but science is limited to it . 
+  there are no `` proofs '' in science , only theories which are yet to be discarded ( because most of them are incomplete and falsified in part anyway ) . 
+  ( i enjoy this discussion and do n't know who 's downvoting you or why . ), 
+  first off , we seem to be talking about two separate topics here :, 
+  do mathematical concepts actually exist as natural phenomena ? 
+  ( my position : * maff do n't real !, 
+  is mathematics a scientific discipline ? 
+  we obviously both agree that knowledge of mathematics is incredibly useful for , well , practically anything - * especially science . 
+  the ** first question ** depends on how you define existence . 
+  since we 're talking about the natural world , existence would mean affecting other existing objects , or being some measurable quality of an object , and so on . 
+  mathematical concepts do n't exist in such a way . 
+  they are abstractions of useful ideas - length , cardinality , quantitative relationships , and so on . 
+  i 'll expand on this later !, 
+  to answer the ** second question ** : for something to be a scientific discipline , it has to study phenomena occurring in nature , construct hypotheses about those phenomena ( generalize ) , create predictions based on those hypotheses/models , and then try to falsify the models and mutate them to arrive at better ones . 
+  creation of those models obviously relies on mathematical relationships , but that 's not the point here . 
+  the core difference between scientific and mathematical disciplines is how knowledge is created ( in mathematics via generalization and proof , in science via observation , modeling , and falsification ) , and the nature of that knowledge ( mathematical knowledge is a consequence of logical rules of inference , while scientific knowledge is certain or final ) . 
+  ** to summarize again : ** people create mathematics to aid their reasoning , describe patterns and processes in the world , and communicate with each other - it is not math that creates the world , but laws of physics ( which we capture using mathematical relations of course ) . 
+   it means that `` pi '' is n't just a collection of digits , it 's a feature of the natural world as relevant as the existence of gravity or the speed of light . 
+  not so - can you point me to a circle ? 
+  * can you show me its effects on something , or any indication of its existence ? 
+  * i certainly can feel gravity , light certainly does have a speed associated with it - all of these are very concrete phenomena , while numbers and geometrical structures are * human abstractions * over the natural world and as such only exist in our heads ( which makes us quite amazing ) . 
+  pi is simply a consequence of how we define circles . 
+   that we can derive this number from the ratio of a circle 's diameter to its circumference does n't make the recognition of its existence unscientific nor does it make applications of pi in physics more or less scientific than applications of pi in mathematics . 
+  well it 's not scientific in the sense that it 's not a phenomena that we can observe and make predictions about , but rather a mathematical abstraction . 
+   even deeper understanding of pure math concepts lend itself to understanding the natural world . 
+  i absolutely agree . 
+   the ability to deduce information does not make the information unscientific . 
+  we 're talking about disciplines , their objects and their methods here - not information . 
+  there is no such thing as `` scientific '' or `` unscientific '' information . 
+   thoughts and language are employed in the understanding of any phenomena . 
+  of course . 
+   and mathematical constructs exist as phenomena to be recognized . 
+  had any functions for lunch lately ? 
+  ( joking of course , my first paragraph addresses this seriously . ), 
+   that we codify in math language the patterns we 've found in nature does n't make said discoveries `` unscientific '' , any more than zoology becomes unscientific because we use latin to define species we 've found . 
+  yeah , we use mathematics to reason about patterns , either of the real world or of our own conjuring ( for example generalizations that allow us to have a better grasp of other mathematical concepts and talk about them ) . 
+  but that does n't make mathematics a science , nor does it mean that those patterns actually exist as anything other than our thoughts . 
+   that does n't make math unscientific . 
+  it makes scientific theories unmathematic . 
+  you 're operating with fuzzy terms here . 
+  you 'll have to provide your own definition of science by which mathematics is scientific , and justify it - because it is n't by my definition . 
+   rest of your paragraph, 
+  really i do n't disagree that science uses mathematical language to communicate , but that does n't make the two disciplines * equivalent * . 
+  you have to differentiate between the discipline - which creates knowledge , and the actual application of that knowledge . 
+  you have to understand mathematics to do anything related to economics , but that does n't make mathematics economy , nor does it make economy mathematics , one is simply informed by the other . 
+  in a radicalized desecularized society , extremists have the power . 
+  [ half a trillion basically ] ( https://www.reddit.com/r/technology/comments/2rnm8t/fcc_chair_broadband_must_be_25mbps_and_isps_are/cnhuycz ),

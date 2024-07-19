@@ -1,0 +1,100 @@
+  maybe it 's me but i would n't trust them as my sole atty for an 2 day trip without the time to rebuild . 
+  on the other hand , i throw a build in my lemo and i 'm sure it will perform great until the cotton is gunked . 
+  many cells on that list have incorrect values . 
+  for example , the aw 16490 is a 2 amp cell . 
+  the ncr18650b is rated for 2c continuous discharge . 
+  i could go on . 
+  panasonic states no actual mcd ( the datasheet is light on data in general ) but the datasheet does include a 2c discharge curve indicating that 's it is expected . 
+  also re the aw 16490 . http://lygte-info.dk/review/batteries2012/aw%20imr%2016340%20550mah%20%28red%29%20uk.html, 
+  curves indicate 2 amps are safe , at 3 amps voltage sag is too great and 4 amps are out of the question . 
+  that company rewrapps other cells so you ca n't really know . 
+  the 18650 mxjos are said to be rewrapped lg he2s ( like efests ) . 
+  definitely not 35 amp cells . 
+  personally i do n't buy rewraps because u do n't want to support scammy companies luke these that cater to the vaping community by inflating amp ratings . 
+  few companies make cells worthy of using in our apvs . 
+  samsung , lg and sony make high-drain cells , while panasonic makes some hybrid chemistry cells with greater capacity but lower drain . 
+  rewraps do make sense in the case of protected cells ( used in flashlights ) as the company actually does something of value like installing the protection pcb . 
+  for unprotected imrs , buying original manufacturer cells is ideal and actually cheaper most of the time . 
+  no they 're not , they popped up one day riding the ecig wave . 
+  no original manufacturer makes claim on the wraps about amp drains , they all refer you to their datasheets . 
+  samsung 18650 25r cells are a standard recommendation and seem to be the best out of all widely available cells . 
+  a review of the samsung inr1865025r went up on www.lygte-info.dk . 
+  with this , we have a comparison of all major high-drain imr cells we commonly use , all from the same source . 
+  the results are pretty surprising to me . 
+  the samsung 25r ended up actually being the worst cell with the most voltage drop and smaller capacity . 
+  the lg he2 ended up being a very good cell , very close to the performance of vtc5s . 
+  i 'll personally start buying he2s in the future unless something better comes out . 
+  heat does n't really matter . 
+  you can expect heat increase to be minimal within a cell 's nominal operating parameters . 
+  30amps is not within the nominal operation parameters ( mcd 20a ) of any of those cells . 
+  anything more requires active cooling . 
+  what we 're looking here is not really capacity itself but voltage drop under load across the battery 's capacity . 
+  the 25r is .2 v lower than the he2 almost everywhere . 
+  he2s are just as cheap and reliable as well . 
+  i do n't get the `` rock the boat '' argument , objective testing is what it is . 
+  it 's all about voltage drop under load , not mah . 
+  more voltage under load means more power in a mech and exponentially greater battery life in a regulated mod . 
+  a battery slightly heating up at 20a is normal , the internal resistance of the cell alone is enough to cause some of those 20amps to convert to heat . 
+  i would n't call $ 1.5 `` noticeably '' , especially when you buy a lot better performance for that $ 1.5 . 
+  in any case , up until now , the 25rs where recommended as the absolute best `` widely produced '' cells in the market regardless of price . 
+  voltage drop matters even in regulated mods . 
+  with greater voltage drop , a regulated mod has to pull more current to output the requested power , reducing battery life greatly . 
+  furthermore , with buck-only boxes you 're limited in your maximum voltage more as cell voltage reduces . 
+  .2 volts is not `` fractions , it 's a noticeable difference in power . 
+  on a 0.5 ohm load , it 's 24.5 vs 21.78 w. 
+  in a constant power ( as opposed to constant current ) chart , the he2 and vtc5 would have a longer trace on the x axis by far . 
+  for a 50w power setting on a regulated mod , it 's a difference between 14.2 and 15,2 amps drawn from the cell . 
+  as a single-coil twisted kanthal user , i use mine at the higher ranges of its voltage output and i do get noticeable power loss as batteries become emptier . 
+  generally i 'm around 6.5 to 7volts and i replace my batteries early . 
+  with the difference that the sigelei 150w is a buck-only box . 
+  it can not output more than the output voltage under load of the two cells and as those cell empty , the maximum voltage is decreases . 
+  with cells 3.2 v under load , that means 6.4 v maximum . 
+  something like the sx350 that 's both buck and boost can keep the voltage steadier . 
+  when where those measured ? 
+  does n't matter if it 's a `` fraction '' . 
+  2.72 watts is a great difference ( and only become greater as load become smaller ) . 
+  and the price difference is not 25 % . 
+  somewhat related since i 'm about to diy my own stir plate : what kind o mixing vessel do you need ? 
+  will a small stirring bar dropped into a regular , almost full 100ml bottle work or do you need a special vessel ? 
+  do you want the liquid to create a vortex ? 
+  lastly , is heat required or optional ? 
+  what 's with the raised floors on the first and last car ? 
+  i know how to make the stirplate itself . 
+  my questions were around the mixing vessel ( i.e the glass the liquid will be mixed in ) . 
+  you are correct , most variable devices limit their output regardless of mode , vv or vw . 
+  when you have a variable voltage power supply , you 're no longer thinking only about the current when you design its limits but also power . 
+  different components hit their limits at different operational parameters ( e.g. 
+  cables and board traces may be limited in current but a mosfet may be limited in power due to waste heat dissipation limits ), 
+  with a proper charger , rest voltage will be 4.19 to 4.17 one or two minutes after charge termination for new shells . 
+  personally i look at how fast the voltage reeaches the 4.20 v mark during charge . 
+  too fast a voltage rise indicates the battery can not absorb a lot of energy . 
+  use the fill plug . 
+  for rba use , i find the lemo superior . 
+  bigger build deck , superior wicking performance and holes on the blocks to trap large diameter wire . 
+  hot-boxing it in the reactor antechamber #yolo #sublife, 
+  measure them with a volt meter . 
+  if they are under 2.5 volt , then that means they 've shorted and drained themselves . 
+  it 's not safe to reuse them in high-drain applications ( mods etc ) even if you have a charger with drained battery conditioning ( xtar vp1 etc ) . 
+  looks like the same chip variety used in dna clones . 
+  i 'd steer clear of it , especially considering the price . 
+   number of new derringer clones this week : 2, 
+   number of new nemesis clones this week : 2, 
+  just because it appeared in the `` new products '' category does n't mean it 's new . 
+  many products that come back in stock show up there . 
+  i ordered myself a cascata and i 'm on the fence ordering the kennedy ( the sku 2237600 , v2 .5 ss variety ) . 
+  the latter looks awesome with the demon cap , very deep well and quad bottom airflow . 
+  how does 414amp continuous sound ? 
+  where did you buy this ? 
+  dual 18650 sx350 mini mods ( because 60w is not enough for me to justify spending that kind of cash ) . 
+  the next dna board ( ? ) . 
+  i do n't get it . 
+  resistance has nothing to do with flavor production . 
+  in any case , i find that the best flavor build for my lemo drop is 8 wraps of loosely ( not tight in twist pitch ) twisted 26 gauge around a 3mm drill bit . 
+  comes up to abour 0.7 ohms and eats above-ohm builds for breakfast . 
+  i do n't find that thinner wires produce more flavor , rather , your vaping habits changed and need less vapor production and cooler vapes . 
+  i do n't know about mechs , almost nobody uses them in my circles . 
+  we build for surface area/mass/airflow balance and let the mods do the rest . 
+  we 've been made aware already . 
+  everyone complains about how hard it is to fill the lemo , but i find it comparatively easy . 
+  i just unscrew the base , remove the silicone gasket plug and fill . 
+  the hole is large enough to allow it to be filled quickly with most bottles .

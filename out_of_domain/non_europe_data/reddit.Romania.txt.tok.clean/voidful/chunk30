@@ -1,0 +1,100 @@
+  and i do n't think that there are many people who are able to code kernel , os and apps from scratch so that 's not a valid option , just a perfect setting . 
+  that being said , relying 100 % or as much as you can on open source is the best chance you have to stay safe , as a home , normal everyday user that is . 
+  open source has the community , which constantly checks the code . 
+  it is not perfect , the heartbleed example is perfect , but it 's the best we got currently . 
+  of course , using open source or not is just an option , a personal one , and the computing needs of everyone of us differ a lot ; some can not rely on open source , others can . 
+  some simply do n't want to or feel that it is not secure , and so on . 
+  in my personal opinion , in terms of safety it 's the best we have as home users . 
+  if you are enterprise , government , or simply a bit paranoid ( meant no offense with paranoid there , i understand why one would be ) there are other tools and solutions , and when you look at the tools and solutions they use , you 'll see that those are open source as well . 
+  yes , you are right . 
+  if you are not just copy pasting the command from some website , first you have to know how to add an extra ppa repository ( this is specific to ubuntu ) , then install the pipelight thing and enable unity in pipelight ( pipelight can be used for more than just unity ) . 
+  and yes , you are right , most people do not want to bother with this stuff , if you do not know much about computing it is not intuitive ( if you are a computing enthusiast at least , once you understand some of the really basic stuff , this becomes not only intuitive , but also easier than doing a similar thing on windows ) . 
+  the thing here is that you are installing a windows application on a linux machine . 
+  that is why you are using the command line , and it is more complicated than it should . 
+  steam for linux for example , when installing a linux game , it 's just as simple as it is on windows . 
+  no fuss , just hit install and wait for it to get done . 
+  use linux and bother with it only if you want . 
+  you should n't use any os unless you want to , and that 's that . 
+  people say that you should use linux , or windows , or macosx . 
+  fuck it . 
+  if you are curious about one or another , try it out and see for yourself if it suits you or not . 
+  personally i was tired of windows bugging , crashing and hated it for being bloated ( this was the mighty xp era ) . 
+  i tried linux . 
+  did n't like ubuntu , was also buggy . 
+  hopped around until i found a distro i like . 
+  non bloat , rock stable , i can do everything i want , i do some gaming and it works well , and for me learning new stuff about command lines and scripting is actually fun . 
+  but that 's just me . 
+  many people do n't have the interest , patience , knowledge and time for that . 
+  the most important assets of a linux based os are flexibility , diversity and control . 
+  for new users , these also can be extremely overwelming . 
+  linux itself is not an operating system , it 's the kernel on which the operating system works . 
+  since it is open source , and anyone can use it , this means that there are multiple operating systems which are running with the linux kernel , there are hundreds . 
+  this is the overwhelming part . 
+  you have loads of options to choose from . 
+  of course , there are major ones , there are bad ones as well . 
+  but the `` good '' main ones are about 20 - 30 distributions , as they are called . 
+  compared to windows , where you have to choose between several windows 7 versions and several windows 8 versions , here you have about 20 - 30 choices , all free ( as in free beer ) and you have to find the one which suits your desires and needs better . 
+  after that , a linux desktop , in terms of appearance has , again multiple options of how you want your desktop to look , feel and what kind of workflow you want . 
+  these are interface gui options , called desktop environments or window managers , depending of the type . 
+  again , lots of choices , lots of experimenting to do . 
+  but to answer your question . 
+  windows 8 currently has an appstore of some sort i think ? 
+  linux has something like that for many years now , usually called repository . 
+  all the software which is in that repository is safe , verified and reverified so that it is safe , and depending on what kind of distro you are using , as bug free as possible ( there are distros which are focused on the latest and greatest software , and those tend to be more buggy to an extent ) . 
+  using that instead of looking for the software online and installing it from some random website makes you a lot more safe than what you are usually do on windows . 
+  it 's also pretty fast , and the more user friendly distros have a gui interface app to access and search that repository , so it 's extremely easy and more straight forward to look up for an application and install it than doing it in windows . 
+  another neat feature which most distros have is the use of a live cd , or live usb . 
+  instead of installing a linux distro , you can first check it in a live session from your usb or from a dvd . 
+  you have to copy the image to the usb using some software like unetbootin or just burn the image on a dvd , reboot your computer and boot from dvd / usb . 
+  the operating system will boot in a live session in which you have access to the operating system like it would be installed , to check it out , see how it feels and moves for you . 
+  lots of the software you use on windows does n't have a linux version . 
+  so you have to use workarounds like that one to get some stuff which you really need working . 
+  it 's getting easier and easier , but still workarounds and not true linux versions . 
+  the unity team has their unity 3d application working for linux , and it also exports games for linux , making linux native clients . 
+  but no unity web player for linux yet . 
+  sigh . 
+  win 7 and win 8 are pretty awesome operating systems , but considering the kind of stability i am used now , even those seem too buggy for me . 
+  and yeah . 
+  if you are a heavy gamer ( you play lots of games , switch them around a lot ) , switching to linux is a bad idea . 
+  that 's not because linux based systems are not good for gaming , they 're just as valid as windows or mac , it 's just developers are not considering that it 's worth the effort because of the small user base linux has on home systems . 
+  nowadays it is much better than 1 - years ago . 
+  nvidia has good proprietary drivers ( unless you are on an optimus , then you must look at the bumblebee open source one ) , intel works out of the box since it is open source , and the amd ones sound just weird to me ( i have n't used them ) ; in some cases the open source ones are the best , better than the proprietary ones . 
+  all in all , it 's much more better nowadays , getting better and better every day actually because valve is pushing nvidia and amd to improve their drivers for linux so that they get better performance on games under linux . 
+  that is perfectly true . 
+  for nvidia , if your card is not brand spankin ' new or the optimus switch to intel / switch to nvidia when needed ( the cards themselves do work , but the switch is messy in linux ) the drivers are on par with windows . 
+  intel , same thing , it 's open source , the drivers are actively maintained . 
+  ati/amd is indeed a mess , and it 's a hit and miss . 
+  it might work just perfect , or you might go to darker places , as you did . 
+  hopefully valve will drive all this further ( it has already with nvidia ) . 
+  steam works perfectly fine on debian 7 , no worries . 
+  just google steam for debian , the . deb installer should be in one of the first links . 
+  just get yourself some debian sweetness , be it pure debian or one of the close derivatives , either based on 7 or on testing , either will work well for you , testing is already pretty much stable , and 7 , the stable version , is exactly what you 'd expect , rock solid stability with not very updated packages . 
+  if your machine is not new , you should be ok with everything . 
+  and if you are using an nvidia card , it 's not very difficult to get the latest driver if you really feel that you needed ( i did n't care too much so did n't bother ; my brother did care and he said it was pretty much straightforward ) . 
+  if you are sick of the bload and slowness , look at crunchbang , openbox is not for everyone though . 
+  amd video drivers for linux are still hit and miss sadly so you 'll have to see for yourself how it goes . 
+  one potato is of dream , six is of utopy . 
+  but but . . your user name . . 
+  look at the right , from where it takes the sleeper . 
+  you 'll see it reappear at some point . 
+  hey , some of us use debian stable as our day to day os as well !, 
+  uneventful boring debian is the best debian !, 
+  both her first name and her last name are ridiculously common in romania . 
+  this made me chuckle . 
+  not contributing to open source is pretty difficult . 
+  for many people , if they use some piece of software , and they like it , they will contribute in some way or another . 
+  if you find a bug , you 're very likely to go on the official forums and mention it . 
+  i personally i hang out on some of the irc channels when i 'm bored and help people who encounter issues and so on . 
+  i have no idea how to code , but you usually contribute at some point with out even realizing it . 
+  asti-as cei doi centi ai mei . 
+  i thought about that as well , but slackware nowadays , in terms of users simply appears to be too small . 
+  even though from my understanding is still being pretty actively developed , it seems to be going down . 
+  hope at some point it 's going to be picked up more and more . 
+  never used it myself , but it is a pretty neat concept of running a distro and it 's also the oldest one still being developed . 
+  okay , obi at least two . 
+  or obi larger than one . 
+  datoria ta e sa suni si sa raportezi incidentul . 
+  daca victima mai e in zona si in stare de soc , va fi trimisa si o ambulanta . 
+  si tot asa . 
+  the spike and the victim were layed horizontally . 
+  victim was being held ( approximately ) with the anus right in front of the tip of the spear .

@@ -1,0 +1,100 @@
+  which played the mp3 . 
+  in real time . 
+  while the player recorded it in their stupid atrac format . 
+  * in real time * . 
+  utter wankers totally fucked that up . 
+  what 's the walkman brand worth now ? 
+  thaaaat 's right , fuck all . 
+  that shit takes bloody ages . 
+  quicker and less hassle to point my ( now rather streamlined ) leeching server at whatever i want and let it deal with it on its own . 
+  well , that only works if you do n't mind having a 50gb + file kicking around . 
+  if you want to do any encoding to reduce the filesize to something more manageable ( say , to x264 ) , then it takes a lot longer . 
+  or i could point my leeching box at whatever i want and have myself a nicely encoded 1080p rip in ~ 30 mins ( or 720p in ~ 15 mins ) . 
+  virgin media . 
+  i * kinda * recommend them , in that i find cable internet to be far more reliable than adsl . 
+  but , although the technology used to deliver it is more reliable , they 're not a particularly brilliant isp . 
+  if you phone them up for support , you just get flowchart-monkeys who wo n't talk to you until you 've rebooted \\* everything twenty times , and lock up in fear if you 're using something that is n't windows , or their own router . 
+  their hardware is reasonably reliable , and they do n't have too many network problems ( i monitor my connection , i have around one outage a week , ranging from a couple of minutes to an hour , usually late at night . 
+  once in the last year i had a significant outage of a few hours , but apart from that i 'd rarely notice if i was n't monitoring it ) . 
+  however , they do ( uncapped ) 50mbit connections ( which , as far as i 'm aware , none of the adsl suppliers can do ) . 
+  you definitely pay for it but , fuck me , it 's quick . 
+  ( i 'm downloading right now at 5.6 mb/sec . 
+  that 's roughly a 5gb file in 15 minutes ) . 
+  their other speeds are capped ( although they 're relatively humane , they just drop your download speed to 500k/s-ish for a few hours if you go over . 
+  not the end of the world ) . 
+  ips are n't strictly static , but they do n't change very often at all ( i 've had mine for about a year , the one before for ~ 18 months ) . 
+  i previously used be , who are excellent and i would definitely recommend them if you have no option to get cable . 
+  20mbit is standard , with an option of 50 ( and you actually get 20mbit on cable , rather than between-5-and-8-unless-you-live-next-door-to-an-exchange ) , so if you can get cable , and you want the speed , and you 're happy to accept you 're not going to get any help at all from their tech support apart from `` reboot '' and the ability to report a fault ( which they 'll ignore until all your neighbours do too ) ... then i recommend them . 
+  otherwise , i 'd say go for be . 
+  \\* isp-tech-support protip : keep a copy of the windows startup sound somewhere so you can convince tech-support monkeys that you a ) have actually performed the completely unnecessary reboot that you already did before you called and b ) are actually running windows so they do n't wet their pants when you answer `` are you using a windows pc or a mac '' with `` er . . no '' . 
+  nah it 's not . 
+  go look at the table [ here ] ( http://allyours.virginmedia.com/html/internet/traffic.html ) ( scroll down a bit ) , and marvel at all the `` n/a `` s in the `` xxl '' column , 
+  i 've downloaded [ ~ 100gb today ] ( http://i.imgur.com/1jhvb.png ) , it 's still happily going at 5 . xmb/sec . 
+  yeah , mostly in the wee hours this morning . 
+  there 's a standard `` fair use policy '' ( translates to `` if you go absolutely mental , then we 'll switch you off '' , but that only applies to the top fractions-of-a-percent that rape it at peak times ) , and there 's also [ traffic management ] ( http://allyours.virginmedia.com/html/internet/traffic.html ) . 
+  but the traffic management only slows your connection down for a few hours if you go over a certain amount in peak times . 
+  and it does n't apply at all to people who pay ( through the nose ) for their 50mbit service . 
+  well , it 's not for my 50mbit connection . 
+  i regularly hammer the crap out of it and have n't had any problems at all . 
+  during peak times your download speed will suffer a bit , but that 's contention not throttling . 
+  the piracy thing is indeed a worry . 
+  all my leeching goes via ssl these days for that very reason . 
+  if you limit high-bandwidth stuff to off-peak hours , then you 'll avoid the traffic management ( the throttling ) . 
+  if they bust you downloading something pirated , then it 's not going to matter what time of day you did it ( i ca n't see any reason why copyright-infringement-detection stuff needs to be tied to their traffic management ) . 
+  if they bust you , you 're gon na get a warning . 
+  ssl stands for `` secure socket layer '' . 
+  the same technology that prevents people looking at data sent back and forth on an https connection ( your bank probably does this , gmail does too , credit card payment systems and many login forms use it also ) . 
+  it creates a secure encrypted connection that can only be read by your browser and the webserver the other end - everyone in between ( like anyone at your isp that might be snooping ) gets an indecipherable stream of gibberish , 
+  i do n't do it with torrents ( do n't use them much ) , but it 's possible . 
+  you can set up your client to only accept encrypted connections ( although it relies on the tracker and other peers allowing it ) . 
+  no i do n't think you need to be * extra * cautious - all the isps will eventually be forced to do this to some degree . 
+  i suspect virgin are just a bit more vocal about it than the other because their parent company owns a music label . 
+  but you should be pretty damn cautious no matter what isp you 're using . 
+  if you :, 
+  * avoid the pirate bay and other free torrent sites ( finding a [ private tracker ] ( http://www.reddit.com/r/trackers ) is probably the best thing you can do ), 
+  * avoid downloading very very new stuff that 's still in the cinema ( often identifiable as they 'll be marked as ts , telesync , screener , etc - the quality is often shit anyway ) - these are the things the media companies tend to go after the hardest . 
+  * avoid stuff that someone managed to get a retail rip before the release date . 
+  harder to identify , i 'll admit . 
+  if you do that , then you 're unlikely to have any significant problems . 
+  if you can , ssl encryption is an excellent idea ( not always easy , depends what you 're doing ) , as that 'll prevent them from even seeing what you 're downloading . 
+  i do n't know , i have n't heard of anyone getting busted for that , but i imagine you 're probably okay . 
+  to be honest , i 'd put a bit of effort into finding a better means to access stuff , as those sites are a major pain in the arse . 
+  okay i thought this would be very very tricky to do by hand from a single solid block , but having had a little look at the geometry it appears to be feasible . 
+  the important point is that every corner can be marked on the outside of a solid cube . 
+  then all that needs to happen is a flat plane cut through each group of three corner marks . 
+  the best tool i can think of for marking this out is going to be a pair of compasses . 
+  ones with two points , rather than a point and a pencil lead . 
+  this will mean you can be absolutely sure the corners are accurately marked before you start cutting - which will be critical , and also means you can accurately measure the distance between corners that are marked on different faces of the cube . 
+  ( i suspect the points will make excellent accurate marking tools , too ) . 
+  you 're also going to want a * really * accurate ruler . 
+  steel ones tend to have the finest graduations and are n't expensive . 
+  look for a small , thin one ( i 've got a 6 '' steel rule that 's extremely thin and very accurately marked , would be ideal ) . 
+  as for cutting , i 'm not sure what to suggest . 
+  a very very fine saw may work , although i 'd be inclined to avoid a coping saw ( the thin blade is intended for cutting intricate shapes ; i suspect you 'll have trouble getting the faces flat with it ) . 
+  if it were me , i 'd probably trim each corner down to a millimetre or so from the marked points ( possibly with a sharp knife ) , and then use some rotary sanding device of some description . 
+  something like a small bench-mounted disc sander , with very fine sandpaper . 
+  that 'll at least give you a good shot at getting a flat face as you can just take off a bit at a time until the face touches each marked corner ( sanding by hand will not have the same effect , it 's very hard to eliminate some rounding . 
+  unless you can thing of a way to build a jig to hold it absolutely flat against the sanding surface , but i can not ) . 
+  should also give a nice finish . 
+  erm . 
+  not sure what else to suggest . 
+  a practice run ( or three  ) with some cheaper wood might be a good idea , though !, 
+  problem you 're going to have with a saw is that with a thin blade you 're going to have trouble keeping it straight , but with a wide blade you need to be * ridiculously * accurate when you start as you ca n't change direction very much ( and on such a small item a tiny mistake could easily ruin it ) . 
+  hence my suggestion of a bench sander , 
+  fucking sickens me , these filthy cyclists assaulting cops ' batons with their faces . 
+  my cat ( he 's a nervous little chap ) does an excellent vertical-jump-when-startled . 
+  fucking hilarious every single time . 
+  while investigating a tiny radio controlled helicopter i 'd placed on the floor , i switched it on and he jumped - i shit you not - six feet directly upwards . 
+  pretty easy . 
+  get yourself an electrical testing screwdriver ( do n't fuck about with mains power ) , and find out how to switch off the circuit . 
+  if you 're lucky you 'll have a fuse or breaker board and you can either pull the relevant fuse or switch the breaker temporarily while you work on it . 
+  then you 'll need to unscrew the panel . 
+  once you have the panel off , test the connections with your testing screwdriver just to be absolutely sure you 're not going to die . 
+  the wires inside are likely attached by means of a small screw . 
+  take note of what 's plugged in where and just switch them over . 
+  we do not talk about that . 
+  most big isps are cunts . 
+  vm , for all their evils , are no worse than bt . 
+  bt were also talking to phorm ( although , thankfully , government intervention has put a stop to that ) . 
+  and pretty much every other isp either uses bt 's network , or at least pays bt for the use of their lines and the ability to have their own routing gear in bt exchanges . 
+  i 'm not entirely surprised that vm were ranting about piracy ; their parent company owns a music label .

@@ -1,0 +1,100 @@
+  could be intimidating at first , but there should be a large community with all skill levels available . 
+  there are a bunch of non-gambling card games as well , a guy at work keeps playing bridge often . 
+  i 've never tried it , but i have got the impression that modern board games such as risk , ticket to ride , etc also have online multiplayer versions . 
+  something like this then ? 
+  even better was the guy who bought google ads for searches of his potential boss 's name , so when they googled themselves , they were linked to his portfolio : http://mashable.com/2010/05/13/job-google-ad-words/, 
+  it seems to me that the solution to 80 % of postgres performance issues is `` autovacuum more '' . 
+  it is not , but the responsibility is spread over enough parties to make suing anyone impractical . 
+  * op 's site is not distributing any copyrighted content . 
+  they just get public data from spotify and audio is streamed directly from youtube to the visitor . 
+  * youtube is distributing copyrighted content , but they are protected against lawsuits by dmca , as long as they respond promptly to takedown requests . 
+  * the individual youtube users who uploaded the songs are liable , but they are too small to be worth going after ( unless the song owners want to make an example of someone ) . 
+  it 's easier to keep whack-a-moling with takedown requests . 
+  whether op acted on the idea or not is not relevant - it 's more of a question whether what they shared is copyrightable or not . 
+  mere ideas are not . 
+  but if it 's an `` artistic work '' like a web page design sketch or a short story , it can be . 
+   i do n't think there is a problem with me not realizing that every single thing would have to be documented . 
+  i know things have to be documented . 
+  the main job of an analyst in a software project is not to document what the client asks for , it 's to figure out things that the client wants * but does not ask for * . 
+  and things that the client does not yet even know they want , but will probably ask for after testing the software . 
+  they imagine the resulting software , and find all holes and vagueness in the documentation . 
+  most often , these are in how to handle error conditions and wrong input from users . 
+  for example :, 
+  * what happens if the internet connection goes down ? 
+  can the users still use the software ? 
+  * what happens if two users make conflicting actions ? 
+  how are they notified , and is it automatically solved ? 
+  * what happens if the user enters a negative number into the income box ? 
+  * what happens if the user has no ssn , because they are a foreigner on a visa ? 
+  * what happens if the tax rules change next year - how can we change and check that they were updated correctly ? 
+  you have to work hard to squeeze these requirements out of the client , or make decisions on your own - because most people ordering software do n't have that detailed requirements at first . 
+  if you leave such things out of the documentation , then the client will get software * that they asked for , not what they wanted * . 
+  and it will sour the relationship , because the programmer / you will ask for more money for `` changes and updates '' , whereas the client will feel that these should have been `` obvious and included '' . 
+  a good business analyst will need to understand the client 's business , the other software that the client is using ( and bases their expectations on ) , and enough about programming to be able to estimate how complex feature a vs feature b would be to build . 
+  they do n't need to be able to program , but to push back on ideas that would take weeks to build for little value . 
+   i am sure that any even slightly reputable programmer/coder/etc . 
+  would be well aware of how the relationship would work and all the proper documentation needed to ensure everything goes right on both ends . 
+  good developers will also act as a business analyst , meet up with you & the client in person , and ask to clarify any vague documentation . 
+  but they are very expensive . 
+  if you outsource online , you will need to figure out and document all these things before asking for bids , otherwise you * will * get the minimum that was written down rather than what was wanted . 
+   what i mean is that let 's say i hired you to do my project for example , right ? 
+  you build it and everything goes smoothly , but then a month later there is a problem with the program and needs immediate attention . 
+  there are three main approaches to this :, 
+  * you set up a maintenance retainer with the original developer : you book for example 1 day per week for the next 3 months after `` completion '' for fixing issues . 
+  the developer promises to avoid scheduling new projects on those days , leaving them free for you in case any updates are needed . 
+  if there are no urgent fixes , you can use it for `` nice to have '' updates . 
+  this is the most reliable option . 
+  * you hope that the original developer has free time in the schedule , and ask for updates on a hourly basis . 
+  this is the cheapest option , but you may end up waiting for many weeks for the updates if they are busy with the next project . 
+  * you ask another developer to update things . 
+  this is a possibility - but it might take a new developer days or weeks to become familiar with the program . 
+  so it can be cheap , or it can be the most expensive option , depends really on who you find and how complex the program is . 
+  how much effort went into it does n't really matter . 
+  the question is whether what you handed over , and what they used could be considered an `` artistic work '' on its own ( `` work '' as in end product , not work as in doing work ) . 
+  for example , see https://www.law.cornell.edu/uscode/text/17/102, 
+  the title and the premise / ideas for a reality show are most likely not protected by copyright . 
+  a full screenplay is protected . 
+  a `` synopsis '' might or might not be , but you would need an actual ip lawyer to look over it to know more . 
+   sometimes to get around stupid import laws , sketchy importers will import a car , cut into two halves , in two separate shipments . 
+  nobody will cut a car in half and put the same car together again , even with silly import laws that would not be worth the cost or effort . 
+  what sketchy car shops do is buy two totaled vehicles , and weld their `` good parts '' together into one that looks okay from the outside . 
+  like in the aftermath pictures : the front end of this destroyed car could be reused again !, 
+  do you have an android phone ? 
+  if yes , it 's possible that you have google location history turned on . 
+  why in 10 years ? 
+  that 70s show came out in 1998 . 
+  so in two years it 's time for that 90 's show . 
+  if you have literally a few static pages , then i would just put static html files on a server , and publish them with nginx or apache . 
+  if there is any server-side logic to it , like sending an email or saving an uploaded file , i would still use django . 
+  sure , it would be possible to use something much more minimalistic , like web.py or flask or cherrypy instead . 
+  but there is no downside to using django as :, 
+  * deploying a django project is no more complicated than the mini-frameworks once you are familiar with it . 
+  * the `` just a few pages '' project will inevitably grow more complex over time , and then you can include django goodies with a few lines in settings.py , instead of having to rewrite or start investigating the mini-frameworks in detail . 
+  maybe . 
+  but the eu is too big and too culturally varied for citizens of one country to feel that the entire eu is `` their society '' . 
+  it 's spacex tradition to make up a new naming convention every time along with a new name or version . 
+   i was hoping on swimming at rummu , is that only possible in the summer ? 
+  it 's most likely * possible * , but bring a good ice drill and a saw to make a hole to get through the ice . 
+  is n't the `` time to be absorbed by the public '' measured in milliseconds nowadays that hedge funds have computers trading stocks based on text analysis of press releases , ceos ' tweets , etc ? 
+   java servers are often slow to start . 
+  is that because in server mode , the jvm precompiles all java bytecode into machine code , unlike the desktop mode which does it partially at runtime ? 
+  the licensing change was badly explained , but not bad in itself . 
+  most people here hate subscriptions , but once you investigated the terms and did the maths , it turned out that, 
+  * the subscription costs the same as staying up-to-date on a purchased license every year ( which you do if you use the tool for work ) ,, 
+  * but you gain the option to get some tools for just a few months , if you need it for a one-off project or something . 
+  hmm , i checked but no . 
+  but after some more investigation , it seems that it 's a unicode/bytes issue . 
+  celery defines states as text , without using a b '' or u '' modifier : https://github.com/celery/celery/blob/master/celery/states.py#l129, 
+  i run python3 .5 , so this means unicode strings . 
+  django-celery uses these for the choices = parameter of a field : https://github.com/celery/django-celery/blob/master/djcelery/models.py#l22, 
+  and it seems that the initial migration was created using python2 , since the migration has b '' strings : https://github.com/celery/django-celery/blob/master/djcelery/migrations/0001_initial.py#l86, 
+  so this explains why i get * one * migration made for me - changing the choices from binary to unicode strings . 
+  but why does it keep making that same migration over and over again ? 
+  i would have expected it to :, 
+  * find models.py that uses unicode choices ( when running on python3 ) ,, 
+  * find 0001_initial migration , which has binary choices ,, 
+  * find 0002_auto migration , which changes to unicode ,, 
+  * model should now match the sum of migrations , and nothing more to do , no ? 
+  even if it 's legal to sell the results , ebay and etsy are not required to let you sell it on their site . 
+  for them , it 's easiest to take down all auctions that get complaints , rather than spend time investigating the details . 
+  another weird/fun unit is using square metres for fuel consumption of cars .

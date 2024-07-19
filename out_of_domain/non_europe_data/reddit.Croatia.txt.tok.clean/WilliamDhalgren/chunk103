@@ -1,0 +1,100 @@
+   mcts program will make moves with minimal effect on the safety of its stones or territory and carelessly engage in sequences with high danger of mistakes ; it will maximize the win expectation ( of however biased and possibly misevaluating simulations ) without regard to score margin , creating the danger of losing the game . 
+  edit : if they did n't change the weight since the last paper , 50 % of the assesment of win probability for any position it reads still comes from just such random rollouts ( actually alphago 's random rollouts are particularly simplistic in comparison to most modern go bots so that particular component may be even more prone to such misreads ) , so its easy to see how such crappy random evaluations might raise the chance above 10 %, 
+  oh , so they did n't change that !, 
+  i was wondering if they 'll decide to use pro games too this time , as that seemed odd in the paper ; there they trained the policy network on 6d + kgs matches . 
+  i 'm still puzzled that they do n't want to include pro games in that training . 
+  they also used tygem strong games - but only for the rollouts softmax training , not for policy net . 
+  why not all of those ? 
+  the alphago paper . 
+  i mean its not like it flips a coin between equivalent moves only ; it probabilistically explores ( reads ) the alternatives , first mostly guided by what `` looks good '' to the policy network ( trained to suggest patterns of play seen in human games ) , but progressively more and more by how the statistics of the random rollouts look and equally by what the value network think are winning positions , focusing more and more searches on the statistically better-looking paths . 
+  in the end it selects the move that it explored the most guided probabilistically like that :, 
+   search control strategy initially prefers actions with high prior probability and low visit count , but asympotically prefers actions with high action-value . 
+   the leaf position s l is added to a queue for evaluation v \u03b8 ( s l ) by the value network , unless it has previously been evaluated . 
+  the second rollout phase of each simulation begins at leaf node s l and continues until the end of the game ... 
+   when the visit count exceeds a threshold , n r ( s , a )  n thr , the suc - cessor state s 0 = f ( s , a ) is added to the search tree ... 
+   at the end of search alphago selects the action with maximum visit count ; this is less sen - sitive to outliers than maximizing action-value, 
+  sry for the broken math ; does n't copy-paste well . 
+  i do n't know exactly how much randomness this introduces into its behavior , but presumably enough that it does n't just repeat the same game in self-play , else that 's useless for training . 
+  though description of that self-play training is n't quite that straightforward , so i guess its not unimaginable actual play is more predictable ?? 
+  do n't believe it though . 
+  i think their general ai pr in relation to this bot is way overblown . 
+  sure , its a transferrable technique they 're using , they might build other systems that do interesting things using the underlying principles they iron out here -- but the system itself is quite tuned to playing one kind of thing only . 
+  even things like komi value of 7.5 ( the value net ca n't work with any other ) and ruleset used ( has to be chinese ) are fixed in it , or at least were when the old paper was written . 
+  they just want to win , and there 's a clear path for them to improve the chances of doing so . 
+  its working amazingly well . 
+  handling the situation its already convinced its almost certainly lost more gracefully is certainly doable - there 's prior art on it , like dynamic komi etc. 
+  does it do much to increase the overall winning probability , to handle lost situations with more dignitiy though , so as to focus effort there ? 
+  there 's some debate on that in computer go , but many seem to think its not worth it . 
+  deepmind quotes the paper on that technique , but only to say alphago is n't using it . 
+  pulling out a win where no correct play gives one is essentially playing in hopes of enough future mistakes by the opponent ( and prob rather severe ones are needed if its flailing as badly as in game4 ) , rather than trying to make one 's play stronger . 
+  and tweaking an extra variable risks making its win statistics actually worse , say by making it too aggressive when its already sufficiently ahead , or by possibly supressing it playing an ingenious sophisticated gambit that might actually be the only thing that can still pull it out of the situation . 
+  that 's what it was looking for in game 4 ; some high-risk unorthodox play in which it could outplay the opponent . 
+  all it found was the moves it misevaluated the worst ( however low that worst was , it did n't matter anymore , as the overall chances it was giving itself were bad enough ) . 
+  or at least i think this is their thinking . 
+  ~ ~ actually i 'm gon na dig through the compuer-go mailinglist a bit and possibly answer with another comment here in a moment ; i 'm sure i 've seen a discussion of this very point recently , but could n't find it when i tried a few days ago , and its bugging the hell out of me . ~ ~, 
+  ~ ~ especially now when its so pertinent . ~ ~, 
+  edit : bah , i give up . 
+  nothing worth an extra post that i could find . 
+  actually , the value net is used in tree search , within the monte-carlo framework . 
+  it does the reading exactly as much as the rollouts ( in fact they mixed the action values of both exactly 50 % -50 % in the old paper ) . 
+  the moves were probably the ones it misevaluated the most . 
+  as the threshold of what seems most promising to it plummeted , and as it could n't find a good line of play , all it was left with were effectively ai equivalents of brainfarts . 
+  it could n't find any moves that could realistically give it a chance at winning really . 
+  so we got to see the moves it misevaluated the worst instead , as its threshold for what 's worth giving a shot plummeted enough to reveal them . 
+  now given how humans play in comparison to what its searches often seem to find , perhaps it could make more plausible moves and hope for a series of less obvious blunders by the opponent . 
+  its doable , there are approaches to coding this in the literature , but they might backfire as well , and usually this hope wo n't materialize anyhow . 
+  its just less embarassing . 
+  deepmind does n't seem to be interested in banking on opponents mistakes so blatantly apparently . 
+  hm , speaking of the policy network -- well , gogod is only about half the size of the kgs dataset . 
+  and facebook 's move prediction was comparable ( i 'd have to check the number exactly ) , yet trained on a pro dataset . 
+  adding 50 % to the dataset size , is not particularly small , no ? 
+  especially if it is data of better quality . 
+  as to the self-play games , that did n't turn out to be of use for the policy network at all actually , at least in october ; the rl network was worse than the one just trained on the kgs games in the subtask of suggesting promising moves . 
+  anyhow , i do n't have a good idea why they did it this way . 
+  maybe simply because gogod is a pain to work with and they did n't think it matters much ? 
+   hmm i did n't know rl could n't improve the policy network . 
+  ha , maybe they made it work better in the meantime , who knows ? 
+  i 'm dying to see their new paper !, 
+  i think it 's pretty safe to assume the policy network was partially to blame for the 4th match . 
+  prob . 
+  but we can be certain that the value network was to blame , if it was still predicting a 70 % win for quite a few moves after 78 , 79 . 
+  false . 
+  my tax money goes to the catholic church and i 'm an atheist . 
+  i have no choice in the matter . 
+  decent palliative care should be able to fight with that, 
+  the wierd play is not the issue really - that 's an artifact of the training approach ; it just means it believed its quite far behind , and could n't find a winning line of play anymore . 
+  but move 79 was n't wierd play , but was likely the wrong response ( if alphago 's mistake was n't even sooner in the game ) . 
+  it misread ; just did n't find the better response , and did n't realise its mistake . 
+  i completely agree . 
+  too early to tell . 
+  depending on what happens in game 5 and how , maybe we can try speculating further - but to be sure , it 's gon na take some more time anyhow . 
+  as it stands , there 's no way to know if alphago has systematic blindspots that can be regularly exploited ( nor how easy it would be for the team to fix them ) , or is just strong enough to play roughly in the same class as top humans - but not that strong to be unable to lose sometimes . 
+  what about them ? 
+  yup , that 's the two alternatives - either she really loses particular kinds of fights , or she just happened not to see the correct line this time - which happens to pros as well . 
+  and it needs to be a truly hopeless position to see such 16kyu moves . 
+  they 're are an artifact of their optimization focus on win % , indicating she sees no good path to victory and is getting swamped with the noise of its low-probability misevaluations instead . 
+  there are known approaches to avoid them if you care to ( i seem to have correctly predicted which one - now the computer go mailinglist was talking about dynamic komi to get to a more sensible end state as well -- http://computer-go.org/pipermail/computer-go/2016-march/008912.html, 
+  ) -- but this does n't make an important difference in the overall win % anyhow , so was n't a priority ; when you 're that behind against a competent opponent , you should lose regardless . 
+  yes , but only presuming its actually a systematic weak point , and not simply a completely contingent inability to find a good response in that particular game . 
+  say just like when sedol could n't find a good way of dealing with white 's invasion in game 3 . 
+  if it could never be in such a situation where it ca n't respond well enough , it would already be playing the perfect game , and we 're far from bots that do that , if we can even ever get there , given the game 's complexity . 
+  maybe . 
+  there 's a lot of guesswork in this hypothesis of yours . 
+  if the system was prepared to try even a 1/10 ,000 probability move the policy network predicts , as it did with that shoulder hit , maybe fooling that does n't matter . 
+  maybe otoh , it ensures it does n't explore these variations as much . 
+  i 'm skeptical because the longer it runs on a position , the more it relies on the probabilities from other components , and sedol took a long time before that move there 's no way to tell if alphago 's lead had anything to do with the situation either ; its lead in game 3 did n't seem to prevent it from refuting the variation sedol tried in its territory there . 
+  also , situations that make 99 % of its near-randomish continuations that rollouts play out are quite common and it prob is n't the case this is a systematic failure of the system ( for one it caches good responses when even once found , and anyhow once the nodes of the fight are visited enough to be expanded in the tree , all it takes is for it to see one line to see the danger clearly ) . 
+  however possibly multiple interrelated complex capturing races and similar could be an actual limitation of the system . 
+  you 're prob right on needing to fool the value network , as it was clearly off given what deepmind told us on its confidence at the time . 
+  but what exactly in that shape fooled it ? 
+  i have n't a clue really . 
+  if game 5 can end in sedol 's victory and there 's enough similarity in why it ended like that , perhaps this is a replicable problem . 
+  the interesting question then is if its inherent in their approach or if its just a glitch they can easily fix . 
+  if analysts ca n't clearly relate the two losses , or if the system is victorious again , things will remain unclear . 
+  perhaps a machine 's victory would give more credence to the idea its not an exploitable problem , though given the few opportunities to probe it , this is by no means certain . 
+  if its sedol 's victory but the reason is not clearly connectable to the situation that won game 4 , it gets particularly murky . 
+  edit : hah , just realised - now they 've got an interesting validation test for anything they do with the system ; a tsumego for computers , of sorts ; board position at move 78 , black to win  they know about the promising sequences a few moves in from both the actual game and various pro commentary that 's getting around , and they know its critically challenging for their system . 
+  a hypothetical 3-2 result would still leave many questions open about the actual strength of alphago . 
+  if its wins and losses were of more mixed ordering , it would be impressive regardless , but as it played out , if it ends up winning the first three games only , you could think that it simply took the player a few games to zero in on a critical weakness of the system , and so now knowing it , it is n't that strong a bot afterall ; maybe somewhat weaker opponents can do it too . 
+  even then quite a jump from where computer go was , but far less interesting than even a 3-2 loss for the machine would be if the wins and losses were overall more shuffled . 
+  so the question of whether the system can actually play world-class go is not , as the article claims , quite settled yet .

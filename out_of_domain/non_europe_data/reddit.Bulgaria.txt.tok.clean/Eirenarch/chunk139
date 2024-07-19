@@ -1,0 +1,100 @@
+  i admit there is some truth to this . 
+  however i do not think we have the same idea of what a hard counter is . 
+  for example in age of empires 2 units like anti cavalry pikeman can barely damage non-cavalry . 
+  in sc2 the immortal still deals damage to hydras and it is highly unlikely that your composition does not contain anything that beats immortal, 
+  i would only say i know c # , java and javascript . 
+  i have studied c++ in university and built a few projects but i do n't think i will ever use the word `` know '' for it . 
+  i have also taken a python course online and i kind of know how it feels but i have not built anything with it . 
+  i also have similar experience with f # via a book . 
+  my definition on mainstream is based on `` easy to get a job where this language is the main language '' . 
+  for example where i live there are no f # jobs but there are jobs with each of these languages . 
+  they also correspond to the top of most programming language indexes like tiobe . 
+  i am not gon na try to convince players that good manners are a good thing . 
+  however if you are a bm player at least consider that you may end up in this kind of video if you do not stop . 
+  i am surprised so few people care to support this . 
+  i think the esex sc2 articles were pretty funny and i would definitely pay a small amount of money to read them . 
+  i wonder why more people do n't think so . 
+  in the words of anders hejlsberg ( hallowed be his name ! ), 
+   static when you can , dynamic when you must !, 
+  which supports his hypothesis that you see it in libraries . 
+  i hope the same thing kills not only ruby but also php and javascript . 
+  honestly i laugh more at esex stuff . 
+  but then again i am the kind of person who prefers articles to videos so it is probably that . 
+  i mean i prefer even serious stuff as articles instead of videos like tutorials for example . 
+  because there is no other monetization strategy as far as i understand . 
+  and i think that 's great . 
+  i prefer directly giving money to thing i support rather than watching ads or going through sponsors . 
+  yeah , it makes sense not to support them if you do n't like them , 
+  i do think the invisible punctuation is an issue but the thing is not limited to significant whitespace . 
+  for example the given example with a , b = b , a is a fine example of missing punctuation . 
+  even if you understand the concept of tuples perfectly it is very easy to miss the fact that you are building a tuple and unpacking it here because in python you may skip the parenthesis . 
+  we could not change our programmers because we ca n't afford or attract any better . 
+  we are not google and we are not in silicon valley nor do we have silicon valley budgets . 
+  we have average projects and hire average developers . 
+  by definition most developers on earth are average , 
+  i personally have no problem with that . 
+  i do n't know if this is what they intended . 
+  i am not them but lets assume for a second that they will just do another kickstarter . 
+  what is wrong with this ( except the mismatch between the name of the service and the plan ) ? 
+  i never bm but man ... you really should n't be on the internet or just mute all the chat or something . 
+  if you get affected like that the internet is not the place for you and no amount of moderation would help . 
+  ~ 20 times dreamhack champion - the champagne bottle !, 
+  he argues that frameworks are the hard part and the part that makes you productive . 
+  i bet you ca n't master asp.net web forms ' page lifecycle , viewstate and control hierarchies and use it effectively in less than a month . 
+  i bet you will need even more for wpf . 
+  both are extremely powerful but maybe prohibitively complex frameworks . 
+  i do not have real world java experience but my understanding is that jpa is essentially linq except that linq is pleasant and jpa is not , 
+  is n't jpa the api ? 
+  if it is the api it will be equivalent to linq not to the ef which is in fact an implementation of the api ( and also other things ), 
+  edit : i stand correct . 
+  i saw / u/euphoricus comment explaining the difference, 
+  i see . 
+  i do n't think that 's true for web libraries and only the web stack will be multiplatform and open source ( for now ) . 
+  the whole point of open source is to make what you describe impossible . 
+  not trusting fully open source . net that is also developed in the open means you have no trust in open source . 
+  of course that is ok and there are good reasons not to trust in open source alone but most people do not like to admit it . 
+  you have not seen an example where type erasure is relevant ( in a negative way ) for a realistic piece of code ? 
+  did i understand this correctly ? 
+  have n't you seen a generic method that should return a generic array but due to erasure the api requires that you pass the instance of the array because the method can not create it itself . 
+  keep in mind that the whole hierarchy of private methods that does related work should pass the array around . 
+  how about these versions, 
+  it 's not possible to create better static analysis for a dynamic language than for statically typed language given similar language features . 
+  it is impossible to create more powerful tooling for a dynamic language than for a static language with similar features . 
+  repls are as powerful in static languages and i am thinking about code quality tools , static analysis tools and refactoring tools . 
+  `` possible '' does n't do it justice . 
+  ocaml has had a powerful repl since like forever . 
+  probably the ml language had a repl much earlier but i do n't know that much ancient history . 
+  here is a very basic method in the java standard library that has this annoyance - https://docs.oracle.com/javase/7/docs/api/java/util/arraylist.html#toarray ( t [ ] ), 
+  there are many others that suffer from the same shortcomings . 
+  linq to xml works for the simpler things that you can do with xslt but not really the hardcore ones . 
+  certainly more maintainable . 
+  the tools are much better . 
+  you even have page inspector on your side . 
+  with xslt the best thing you have is a debugger . 
+  there are many many reasons why javascript is worse than practically all other mainstream languages ( maybe with the exception of php ) . 
+  the language has horrible design and is prone to subtle errors . 
+  an example would be the meaning of `` this '' . 
+  while a single problem like this is not a big deal it is the norm rather than the exception with javascript . 
+  i am curious what do you expect to happen ? 
+  will you leave visual studio after years of using it for sublime on mac ? 
+  do you expect that . net companies will start mass deployment of new and existing projects on linux ? 
+  because honestly i do not expect anything like this to happen . 
+  the recent moves allow for more trust in . net and removes one of the obstacles to adoption ( sometimes . net may not be chosen by a company who wants to deploy on linux ) but as a developer i do not see a difference . 
+  i do not see the community suddenly switching to linux or mac for development and i do not see . net companies switching their practices . 
+  i work at a small company ~ 35 people and literally nobody cares about . net on * nix . 
+  everyone talks about vs community edition , the save/refresh dev model and the minor improvements to wpf . 
+  i know this is anecdotal evidence but do you have any reason to expect otherwise because what i am seeing is exactly what i feel and what i would expect . 
+  this is only good for a company when they are weak and yes , currently it is good for microsoft because they are weak . 
+  apple are strong and it is currently not good for them if apps on their platform run everywhere . 
+  google were weak and it was good for them to open up android but now they are strong and they push new stuff into closed source google play service . 
+  i 'd bet on wcf having a . net core version . 
+  for me the biggest selling point ( actually the only thing i care about since i do not care about running on non-windows platforms ) is the save/refresh dev cycle without compilation . 
+  i do not think vs is gon na happen any time soon even if ms wants it . 
+  too many windows dependencies , too big project , wpf , etc. 
+   relative ease of async programming, 
+  i do not think i agree . 
+  there is more know-how and a culture of async programming in the js community but there is nothing that makes async programming easier than other languages . 
+  and honestly as a c # programmer js async programming looks like pure crap but so does async programming in practically all mainstream languages compared to async/await . 
+  python can emulate async/await through generators but i hear there are problems with multithreading there due to global interpreter lock , do n't know how serious that is, 
+   many eyeballs / wallets investing in the ecosystem, 
+  certainly true and one of the saddest thing of our industry that the worst language got all these benefits due to being the only thing running in the browser,

@@ -1,0 +1,100 @@
+  i 'm using dvorak , and seem to be getting around 100 wpm on typeracer . 
+  yes , this the case . 
+  for instance , the [ checker knights ] [ 1 ] theme appears in brawl through this . 
+  [ 1 ] : http://wikirby.com/wiki/checker_knights, 
+  the mod approved it , presumably , so that it is now shown to everyone . 
+  higher-resolution and with all the announced characters : http://i.imgur.com/yab2wtt.jpg, 
+  since the game is written in java , the `` linux release '' basically consists of hosting linux versions of the necessary native libraries and making sure the launcher knows where to find them ... so it seems unlikely that they 'd get rid of the `` linux version '' , so to speak , unless they specifically wanted to make a point about not supporting linux . 
+  if nothing else , it 'd probably be easy to get it running on linux with some slight modifications as long as they 're not doing a complete rewrite , so i 'm not too worried at this point . 
+  the ps , pocket , etc versions aiui are however rather separate from the main version , so i guess those have a bigger risk of going extinct . 
+  ooh , indeed . 
+  there does n't seem to be a post on nintendo.dk yet , but there is one [ on . se ] ( http://www.nintendo.se/arkivet/2014/20140911-winter-bonus-game-promotion ) fwiw . 
+  good question . 
+  mine is even older -- here 's hoping i 'll be able to register it . 
+  there already is a sanctioned set of emulators , it 's called virtual console . 
+  selling old roms ( essentially , via vc ) probably makes them some nice profit already , and by controlling the platform/hardware and emulators they can have more control over piracy than if they 'd release for the pc . 
+  not to mention , vc helps motivating buying their consoles . 
+   exclude non-printable characters, 
+  a fairly common solution is to only permit unicode `` letter '' and `` digit '' charaters ( extending the usual ` / [ a-za-z _ ] [ a-za-z0-9 _ ] * / ` identifiers with the corresponding unicode sets ) . 
+  at least javascript ( es ) and haskell do this . 
+  okay , that was poor word choice . 
+  but what i meant is , if nintendo licensed emulators and sold ( somehow encapsulated , probably ) roms for use on pc , then it 'd likely be much easier to extract the rom out of that than it is to download a vc game and extract a rom from it . 
+  so why does that matter ? 
+  well , when you download a rom , especially for a more recent game/platform , it might well not be a `` clean '' rip , whereas the version nintendo sold would be more-or-less guaranteed to be a perfect rip of the game . 
+  this is what i was getting at -- piracy of the `` sanctioned rom '' , rather than the existing piracy scene with roms of varying quality . 
+   and pc users are totally capable of plating any roms they want without nintendo 's permission, 
+  of varying quality ( e.g. 
+  ripped roms might contain added intros or other code rather than being a clean rip ) . 
+  this is especially the case with more recent platforms such as 3ds . 
+  i guess it 's not a very big point , but at the very least it 'd compete with vc as a selling point for the 3ds/wii u. 
+  and here i 'm surprised they * are n't * more represented in europe . 
+  since we 're bound to have some people with the japanese version in this subreddit , i would n't mind a definite answer to the question about mapping keys , in particular assigning smashes as you point out . 
+  would be nice to know . 
+  ` ls ` somehow works just well with outputting binary data presently when the output is a terminal ( in the form of ansi escape sequences ) . 
+  given this is 2014 , i feel it would n't hurt if programs could somehow have more rich output , for instance i imagine a file listing could have sortable columns or an image or sound file could render in-terminal . 
+  i imagine a first step could be ouput streams being annotated with a mime type . 
+  another reason might be poorly-structured code making it hard to maintain , or relying on ( very ) old opengl features instead of newer ones and thus not offloading as much to the graphics card as it could otherwise do , or just in general being very cpu-intensive for reasons inherent to minecraft 's game design . 
+  i do n't know when you last tried running minecraft on that older pc of yours , but if you have n't i think you should compare the performance of vanilla 1.7 and 1.8 ( using the f3 debug screen ) , because i believe you 'll find the performance has improved in 1.8 which clearly indicates that the choice of language is n't the only reason for slow performance . 
+  one of the huge reasons to this is [ the new cave culling algorithm ] [ 1 ] , so clearly all the algorithms and data structures in minecraft are n't perfect and there 's room for improvement . 
+  just some food for thought . 
+  and lastly , while you can use the `` performance of a language '' as a kind of approximation or rule-of-thumb , in the end a language is just a language , and any performance is to be associated with the implementation of the language . 
+  the performance of a particular implementation ( in a wide sense of the word `` implementation '' ) could even vary on the same hardware with the same options , as things such as just-in-time compilers might not kick in until sufficient time has been spent in a particular function , so it 's not always straightforward to compare things like this . 
+  my personal view on the matter is that i put readability and maintainability of the code foremost , and if necessary the performance bottlenecks could be carefully implemented in a lower-level language while keeping the logic in a higher-level one for clarity . 
+  mind providing a link ? 
+  ninjaedit : http://notch.net/2014/09/im-leaving-mojang/, 
+  [ wikipedia ] [ 1 ] skriver :, 
+  is n't that like the entirety of europe ? 
+  i 've never seen a taco bell in sweden either , at least . 
+  he already bought a nice flat earlier in the year , though , so that 's out . 
+  i use the rather niche [ pangoterm ] [ 1 ] , which is a pango implementation using the [ libvterm ] [ 2 ] terminal emulator library . 
+  the main reasons for this is that i agree with [ the author 's thought regarding keystroke encoding ] [ 3 ] and overall excellent escape sequence coverage ( often better than even really well-known terminal emulators ) . 
+  in most other aspects it 's pretty vanilla , although some basic things are configurable through a config file . 
+  [ 1 ] : http://www.leonerd.org.uk/code/pangoterm/, 
+  [ 2 ] : http://www.leonerd.org.uk/code/libvterm/, 
+  [ 3 ] : http://www.leonerd.org.uk/hacks/fixterms/, 
+  sure . 
+  java , c , lua , python , haskell , j , befunge , ( limited ) prolog , some brainfuck , migol , some assembly ( various dialects ) , some go , glsl , coffeescript , clojure , some scheme , some c++ ( with qt ) , a very limited amount of matlab , and then a whole lot of arguable programming languages ( sh , bash , zsh , ti basic , tex , ... ) , and whatever i 've forgotten to mention . 
+  please forgive my ignorance , but how do you get * o ( n + k ) * with these strategies ? 
+  a simple counting-sort-based algorithm like `` for each element from right to left , increment the corresponding bucket , then sum up all the buckets to the right to obtain number of elements greater to the right '' seems to be * o ( n \u00b7 k ) * unless i 'm missing something ( * n * for the outer iteration of course , and * k * to sum up the * o ( k ) * buckets to the right ) . 
+  i like them too !, 
+  i think greyscale kirby/dedede is a reference to kirby 's dream land . 
+  i 'm pretty sure it 's supposed to be shadow kirby from kirby and the amazing mirror . 
+  at least that 's what i thought of after seeing him in brawl . 
+  a numeric for loop declares the iterator variable ( your ` i ` ) in a local scope , see [ reference manual 3.3.5 ] ( http://www.lua.org/manual/5.2/manual.html#3.3.5 ) . 
+  it does n't matter if ` i ` was already declared a global -- the iterator variable will shadow it . 
+   while i < 1000000000 do i = i + 1 end, 
+  machine code of trace ( with ` - jdump ` ) :, 
+  0bceff90 mov edx , [ rbx +0 x8 ], 
+  0bceff97 jnz 0x0bce0010 -  0, 
+  0bceffb1 jnz 0x0bce0010 -  0, 
+  0bceffda jbe 0x0bce0014 -  1, 
+  -  loop :, 
+  0bceffec ja 0x0bceffe0 -  loop, 
+  0bceffee jmp 0x0bce001c -  3, 
+  -- trace 1 stop -  loop, 
+  it seems to not compile the print but instead return to interpreted code , if i understand the output correctly . 
+  edit : oops , i 'm too slow . 
+  no , that 's lowercase ` v ` for `` verbose '' , not uppercase ` v ` for `` version '' . 
+  commands usually provide more output when fed ` - v ` , some programs allow you to control the verbosity level with repetitions like ` - vvv ` . 
+   possibly ics, 
+  is there anything indicating this , or is that just a wild guess ? 
+  that is , is there anything indicating ic would be more likely than some other veteran or newcomer ? 
+  also , if there are strong indications that it 's nulled-out character data , it might be worth adding to [ the tcrf page ] [ 1 ] . 
+  [ 1 ] : http://tcrf.net/super_smash_bros._for_nintendo_3ds, 
+  the point of it is to pitch questions that would be appropriate for a new se subsite that focuses on vi/vim . 
+  the idea is to upvote appropriate questions and downvote offtopic ones , in order to decide what is on-topic for this subsite . 
+  it 's not an actual stack exchange site yet -- that 's what area 51 is for , pitching new sites for the devs . 
+  it 'll become vi.stackexchange.com or vim.stackexchange.com or something if it matures to the beta stage . 
+  at that point it 'll accept questions and answers like the other subsites . 
+   ** ttyrec & ipbt **, 
+   record and play back terminal sessions . 
+  or the slightly less fancy but already-installed ` script ` and ` scriptreplay ` ( provided by ` util-linux ` ) . 
+  oh man , i hope so !, 
+  pokefloats on the other hand , i do n't care much for . . 
+  am i the only one who finds the mid-left edge more `` ow '' than the mid-right one ( being right-handed and holding the device in my right hand ) ? 
+  i certainly need to stretch my thumb to get to the left side , whereas the right side just requires a bit of contraction -- it feels like less strain on my thumb . 
+  ( this is with a 4.5 '' screen device ), 
+  shrug , it 's what , 1 1/2 months in-between ? 
+  not entirely unrealistic , i think . 
+  one thing that springs to mind is that they might want time to fix bugs and issues that the japanese version uncovers before selling it to more regions , or perhaps if homebrew people reveal a security issue with the japanese version ( well before the international release ) . 
+  fair response ( i 'm also a dvorak user ) .

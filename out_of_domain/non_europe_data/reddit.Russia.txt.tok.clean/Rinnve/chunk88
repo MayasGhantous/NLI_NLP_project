@@ -1,0 +1,100 @@
+  for idx , arg in enumerate ( args ) :, 
+  print ( `` optional argument # { } ={ } '' . format ( idx , arg ) ), 
+  this function has two mandatory arguments a and b and also can take any number of optional positional arguments accessible through the * args * list . 
+  try [ this ] ( http://www.python-course.eu/numpy.php ) . 
+  if that 's too basic , you probably should go straight for [ numpy manual ] ( http://docs.scipy.org/doc/ ) . 
+  truth be told , many online stores show it as `` out of stock '' ( not removed ) , but it 's not clear is it because of the alleged ban , or it is really just out of stock . 
+  also , rospotrebnadzor itself [ claims ] ( https://meduza.io/feature/2016/03/25/antisovetskaya-monopoliya ) that they themselves knew about about `` ban '' from the news . 
+  you can always provide a better source or at least point at the bias . 
+  and i mean `` point '' , not just shudder it off because it 's `` obviously a propaganda '' or something . 
+  in other words , if there is something wrong/incorrect/whatever in this article , cite it and provide a better source . 
+  who gets to decide what 's `` complete propaganda bollocks '' , on what basis and under what law ? 
+  you know what you forgot to mention ? 
+  due process . 
+  that 's how things are done in civilized countries . 
+  maybe read the article ? 
+  it 's nothing like it . 
+  he did n't , that 's right . 
+  you should 've answered , though . 
+   iirc , article # 116 of latvian constitution . 
+  wrong , there 's criminal code for this . 
+  any constitution is too broadly-worded for everyday use and always is a foundation for a codex of actual laws . 
+   probably you can lie until your lies start being detrimental to, 
+  wrong , at least in any decent country you can lie ( among other things ) until the court decides you should stop , basing its decision on such and such laws . 
+   because being sensational is n't the same as spreading propaganda harmful to the country . 
+  wrong . 
+  again , the right answer would be `` because the court decided so under such and such laws '' . 
+  oh wait , there was n't any court decision , any process at all . 
+  well , that sucks . 
+  damage ? 
+  web framework ( flask/django/etc ) is needed if you intend to create an interactive web site or web application . 
+  if all you need is to run a script on a server ( say , some monitoring script that runs on schedule every x hours and sends a report ) , you probably need a vps . 
+  well , `` real '' server will do too , obviously , but that would be very expensive . 
+  vps basically is an os of your choosing ( some kind of linux usually ) that runs in a virtual machine with limitations on available ram/hdd . 
+  choose a provider ( i use [ time4vps ] ( https://www.time4vps.eu/ ) ) , choose a plan ( limitations of your virtual machine ) , choose a linux distribution ( debian would be a safe choice ) , wait for some time , and then you can login through ssh and basically do whatever you want ( except what 's against the rules of the provider ) , including running python scripts or installing additional python modules ( python itself usually is installed already ) . 
+  there is start menu in windows 8.1 ; it just takes all screen space . 
+  there is search function there , and there is `` all programs '' button ( hidden by default , located in bottom left part of the start screen , looks like a down arrow ) . 
+  `` gay '' in russian is '' \u0433\u0435\u0439 '' ( gay ) , non-offensive ( well , almost ) . 
+  `` pidaras '' means `` faggot '' quite literally , and `` pidar '' is a shortened version of `` pidaras '' ( no pun intended ) . 
+  the tricky thing about russian swearing is that there is just a couple or so bad words . 
+  '' \u0425\u0443\u0439 '' ( huy , dick ) , '' \u043f\u0438\u0437\u0434\u0430 '' ( pizda , cunt ) , '' \u0435\u0431\u0430\u0442\u044c '' ( ebat , to fuck ) , '' \u0431\u043b\u044f\u0434\u044c '' ( blyad , whore ) , that 's it . 
+  except russian language allows to combine words quite freely . 
+  for instance , [ this video ] ( https://www.youtube.com/watch?v=1hupzr-yquu ) is essentially a stream of more or less randomly combined derogatory word roots with required amounts of a `` language glue '' . 
+  [ more here ] ( http://tvtropes.org/pmwiki/pmwiki.php/usefulnotes/russianlanguage?from=main.russianlanguage ) , under the `` more on mat '' heading . 
+  edit : missed an important word , 
+  all-in-one bundle ( including c++ compiler ) , fully portable but with optional integration ( paths/start icons/registry setting so 3rd party software recognizes that python is installed ) . 
+  google chrome , zero problems so far . 
+  have you tried to reinstall it ? 
+  also try disabling all other browser extensions , maybe there is some kind of a conflict . 
+  used to use it . 
+  long startup time is super annoying , also it does n't work well with stdin/stdout redirection . 
+  now i use idlex for something small and pycharm ( free version ) for bigger things and also when i need debugger . 
+   sync is slow, 
+  you obviously have n't used onenote . 
+  compared to it , sync in evernote is lightning fast . 
+  [ x for x in map ( lambda item : mapping expression , items ) if filter_func ( x ) ], 
+  that is , if i understood you correctly . 
+  i 'd suggest you to [ learn some haskell ] ( http://www.seas.upenn.edu/~cis194/spring13/lectures.html ) if you 're interested in functional programming . 
+  `` functional '' ideas like partial application work there much more clearly and are far easier to grasp ( not only `` what is it '' or `` how it works '' but also `` how and when to use it '' ) . 
+  then you can easily translate your experience back to python or pretty much any modern mainstream language . 
+  [ idlex ] ( http://idlex.sourceforge.net/ ) ? 
+  mapping partially applied function over a container is one obvious example . 
+  something like, 
+  if any (  threshold ) somelist then ... 
+  you 're reading the file in binary mode , while csv parser expects text . 
+  replace ` rb ' with ` r ' . 
+  rows = [ row [ 0 ] for row in spamreader if row [ 2 ] = = ` yes ' ], 
+  that is , if i understood you correctly . 
+   did the soviet union ( or tsarist russia ) manufacture any typewriters ? 
+  yes , after 1920s . 
+  foreign-made typewrites with russian letters were also used . 
+  actually , the most common russian layout ( \u0419\u0426\u0423\u041a\u0415\u041d ) was invented in usa . 
+  not in the modern form , though , because of the old russian orthography rules ( several letters were removed from the russian alphabet after the revolution ) , but it is quite close to it . 
+   did the russian typewriters use all the same layout , or were there variations such as qwerty and dvorak ? 
+  there were slight variations of \u0419\u0426\u0423\u041a\u0415\u041d , but nothing radically different like dvorak , as far as i know . 
+   do most russian computer keyboards use the same layout today ? 
+  mostly . 
+  there is de-facto standard variation of \u0419\u0426\u0423\u041a\u0415\u041d which is default in windows and most if not all keyboards are marked according to it . 
+  there is also `` typewriter '' layout ( \u043c\u0430\u0448\u0438\u043d\u043e\u043f\u0438\u0441\u044c ) , with rearranged punctuation marks . 
+  it is a bit more efficient ( for instance , there is no need to press shift to type a comma ) , and i actually used it for a while , but its advantages are not worth the inconvenience for me . 
+  it 's mostly used by russian expats overboard where it is hard to obtain keyboard with russian letters . 
+  finally , apple uses slightly modified kind of `` typewriter '' layout for their computers . 
+  to sum things up , there are variations of \u0419\u0426\u0423\u041a\u0415\u041d , and there is phonetic layout which is basically qwerty but with latin letters replaced by their russian counterparts when possible . 
+   is the most used russian keyboard layout used today , as bad as qwerty ? 
+  \u0419\u0426\u0423\u041a\u0415\u041d is kind of okay , i think . 
+  letters are arranged more or less accordingly to their frequencies in the russian language . 
+  phonetic layout is an abomination . 
+   any reason why the soviets removed the letters ? 
+  was this one of the smarter things the soviets did ? 
+  yes , it was . 
+  pre-revolution russian orthography was overly complicated . 
+  but it 's not fair to attribute it to the soviets only , it was prepared and discussed before them by professional linguists . 
+   as for \u0419\u0426\u0423\u041a\u0415\u041d , does it have any of the least common letters on the home row like qwerty ? 
+  yes , on the keys pressed by 4 and 5 fingers . 
+  most common letters are on the keys accessible by index fingers , least used are pushed to the edges of the layout . 
+   whays your background btw ? 
+  i 'm a computer science teacher in a high school . 
+  ( oh , and it 's usually called `` informatics '' here . ), 
+  that 's why i prefer winter to summer . 
+  unless it 's extremely cold outside , you can go and [ have all kinds of fun ] ( https://www.youtube.com/watch?v=y3w_o2filqg ) . 
+  cold weather , to some extent , is manageable with proper clothes .

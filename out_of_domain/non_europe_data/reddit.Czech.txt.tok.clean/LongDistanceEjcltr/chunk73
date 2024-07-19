@@ -1,0 +1,100 @@
+  robin hood , a good year , kingdom of heaven are all mediocre . 
+  these make for the most of his last 10 movies . 
+  how 's that not inconsistent . 
+  how do they know that it 's a male ? 
+  they do n't . 
+  they ca n't . 
+   there is no way to tell the difference between an egg that will hatch a female chick and an egg that will hatch a male chick ( excluding , perhaps , intra ova dna testing ) . 
+  instead , there are lots of old wives ' tales out there , most of which have to do with the shape of the egg or which way a string swings when you hold it above an egg . 
+  in most cases , you will find that in one area of the country someone will swear that round eggs hatch hens , and in another it is sworn that round eggs hatch roosters . 
+  each `` side '' will have people who will tell you how many times they have been able to do this successfully ( or that they `` know '' someone who can do it successfully ) , but the truth is that no scientific study has ever been able to replicate these results . 
+   a study in australia ( australian journal of agricultural research 11 ( 4 ) 664 - 672 ) has shown that eggs stored at 40 degrees fahrenheit ( rather than the recommended 60 degrees ) hatch out more females than males . 
+  that is surprising !, 
+  however storing your eggs at colder temperatures before hatching does n't actually change the ratio of male to female eggs . 
+  it has been shown that the male embryos are preferentially killed off by colder storage temperatures , while the female embryos handle the chilling better . 
+   in other words , your overall hatch rate suffers if the eggs are stored at cool temperatures , but those that do hatch are slightly more likely to be females . 
+  unfortunately , there is no way to know which eggs will hatch males and which females , as you can read in the `` related questions '' below . 
+  better quality : http://www.newgrounds.com/portal/view/602442, 
+   well-informed, 
+  yeah , no . 
+  any game developer , hell , any software developer will laugh in your face if you tell them that `` it is not too late for them to ` change the netcode ' '' a month before the release and this significantly . 
+  and you know what ? 
+  you do n't even need to be a software developer , you only need a pair of eyes and a brain , as these `` beta '' releases are now generally considered to be demos by anyone who 's been gaming for a while . 
+  history , previous titles ... it 's all there , and it 's all you need . 
+  is this your first beta or what ? 
+  how much has the rainbow 6 changed between the beta and the release ? 
+  not at all . 
+  battlefield hardline ( second beta ) ? 
+  not at all . 
+  not at all . 
+  black ops 3 ? 
+  not at all . 
+  i could continue on and on ... the fact of the matter is this : are you okay with an occasional cheater ruining your gaming session ? 
+  if the answer is yes , go ahead and buy the game on pc , if the answer is no , buy the console version or wait a few months . 
+   this is reddit , home of overreactions and blind hatred . 
+  you can just as well claim this :, 
+   this is a game title subreddit , home of fanboyism and choice-supportive bias . 
+  both are true ... to a degree . 
+  anyway , to get back on topic . 
+  you 'd have to be very optimistic to believe that they 'll significantly improve the pc cheating situation before the release , but to claim that they can do so by `` turning on '' server-authoritative networking model is completely ** delusional ** and quite franky hilarious . 
+  `` oh they just need to flip a few switches and suddenly have a client-side server-authoritative networking model out of the client-side networking model they 're using now '' ... lol . 
+  this core architectural decision has been made a long time ago ( i.e. 
+  years ago , not months ) . 
+  just the difference of the infrastructure requirements between a client-side model and a server-authoritative model is massive ( i.e. 
+  you have to plan differently , have more servers , etc. 
+  ) , not to mention that it affects how you can design your game ( less clients per server instance , less intense combat / less players in a zone etc. ) . 
+  `` the netcode '' is an engineering heavy part of the game , it 's not like a level designer will tweak some flow graphs or params , or a gameplay programmer will edit a few scripts . 
+  any serious work on the engine simply wil not happen a month before the release . 
+  in fact , anything that is not a bug or an optimization will get pushed to post release . 
+  ( in practice , even that is sometimes not the case , as qa usually has something like 3/4 of all the bugs and optimization issues the beta testers report already discovered and put into the studio 's task system , it 's just that the lower priority tasks get pushed down the development priority stack and can stay there for a while . ), 
+  it took dice la a team of engineers and close to a year of hard work to get the frostbite engine netcode into a great shape . 
+  most of that work occured on the server side , not client side . 
+  think about that for a minute next time you decide to talk about `` well-informed '' posts . 
+  so , um , will there be a post-nuke version ? 
+  \\* * runs away * \\*, 
+  did he say 30 fps target for the server ? 
+  30hz simulation rate is not enough for a fps shooter at all . 
+  bf4 supports 30 , 60 , 120 and 144hz, 
+  well , it 's an old game ... ca n't really expect hundreds of overflowing servers . 
+  still , i just went to battlelog and found a ton of 60hz servers , even some 120hz . 
+   starcitizen won \u00b4 t be a competitive game, 
+  no , but afaik your death will mean much , much more in sc than in bf or cod . 
+  got killed in bf4 thanks to the netcode ? 
+  well , that sucks , now you have to wait for a few seconds to respawn and your k/d ratio will be lower . 
+  got killed in sc thanks to the netcode ? 
+  well , i hope you were n't defending your ship ... aka punch your monitor kind of deal . 
+  at the time , they deserved it . 
+  look up unit 731 . 
+  nobody is crying about the nazi germany being practically leveled by bombardment and `` raped '' to death ( in case of women , remove the quotes ) , but have two small nukes explode in japan and everyone is a sudden humanitarian . 
+   fps arena shooter, 
+  bf4 is about as far from an arena shooter as you can get ( without going full retard , i.e. 
+  arma ) . 
+  64 people on a huge map , vehicles , calculated trajectories of projectiles ( the game does n't use hitscan model like cod does ) , client-predicted server-authorized networking model ... all in all it 's pretty much the same ( scope wise ) as sc is aiming for . 
+   100 people in instance, 
+  as far as i know the 100 player battle instance is in the realm of serious optimism and nobody has claimed it will be 100 for sure . 
+  ( correct me if i 'm wrong . ), 
+   open world mmo, 
+  does n't matter , once you do instancing , especially battle instancing , it 's not much different than the classic map model . 
+  master server ( s ) will request an instance to be booted up with a set of parameters and people will connect to and interact through that server instance . 
+  of course there 's a metric ton of work that needs to be done before you implement a system robust enough for this to work seamlessly , but once you 're in an instance , it 's the same thing as if you 'd play a bf4 match ( networking wise ) . 
+   based nippon, 
+  those are some good memes , based nippon . 
+  uh huh, 
+  p2w , literally nazis . . lol, 
+  lol, 
+  let me stop you right here . 
+  wows is nothing but `` grind '' and that 's okay . 
+  the `` grind '' is the gameplay , the gameplay you must love , because there is nothing else `` to do '' in this game . 
+  wows in not a mmorpg , it 's much closer to classic multiplayer shooters ( as far as repetition goes , i.e. 
+  it 's nothing but repetition ) . 
+  now that we 've estabilished what wows is and what it is n't , i guess most people usually ask something along the lines of `` how long will it take me to get to the missouri or yamato '' . 
+  short answer : a lot of matches . 
+  hundreds . 
+  long answer : you may not want to play high tiers . 
+  playing high tiers in wows ( or wot ) is less frequent bacause a ) to not lose credits for repairs , you either have to be very , very good ... or average , but have a premium account , b ) it 's a long process to get to tier 10 and so there are fewer players available for matchmaking , c ) top tier matches offer a bit different experience - more sniping , less brawls . 
+  ( many players do n't like that - including me . ), 
+  so ... you do not want to rush through mid tiers ( 5-8 ) , it 's where the game 's best moments are and also where you 'll be making most of your credits for years to come . 
+  ... . . e you on the other side . 
+  phew !, 
+  well ... we do n't take kindly to folks who do n't take kindly to folks who do n't take kindly to folks . 
+  well , they are n't wrong ...

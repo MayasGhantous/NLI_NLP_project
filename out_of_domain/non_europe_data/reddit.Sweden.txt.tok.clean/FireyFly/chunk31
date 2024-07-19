@@ -1,0 +1,100 @@
+  i dual-booted arch on my old nokia n900 . 
+  it 's fun to mess around with . 
+  having caps-lock mapped to [ ctrl and esc ] ( https://github.com/alols/xcape ) does n't help ... 
+  your lain setup was also nice . 
+  i used [ this wallpaper ] ( http://i.imgur.com/rcpad3n.jpg ) on my laptop for a while ; recognize it ? 
+  ` fraid not . 
+  i based it on a full-screen screenshot from the anime and just messed around some in gimp to get something similar-looking but with less upscaling artifacts . 
+  i have an xcf , but it 's still the same resolution and all , just with individual layers instead . 
+  it 's pretty nice , but it 's fairly noticeable that the os is very new/still a work-in-progress , with minor annoyances more-or-less in every stock app . 
+  i 'm confident though that this 'll improve over time . 
+  my two favourite things i 've missed with other phone oses is an actual distinction between running and closed apps , and running `` actual '' linux with terminal , shell , package manager etc etc. 
+  now if only it 'd have a physical keyboard ... 
+  apparently 4.5 '' . 
+  a tad big for my thumb to reach all over , but i 've kinda grown used to it now . 
+  while i like the idea of a gesture-driven os , closing apps by making a down-motion over the top edge of the screen wears on one 's thumbs ' fatigure a bit . . 
+  do n't worry . 
+  nokia released a series of [ `` internet, 
+  tablets '' ] ( http://en.wikipedia.org/wiki/nokia_internet_tablet ) , which were, 
+  phone-like devices without sim functionality basically . 
+  these ran, 
+  [ maemo ] ( http://en.wikipedia.org/wiki/maemo_ ( operating_system \\ ) ) , a fork of, 
+  debian using x11 , gtk , apt etc -- stock linux software , so pretty much a, 
+  standard distro . 
+  the last nit , the n900 , was an exception in that it did have, 
+  sim functionality and thus was basically a smartphone . 
+  in the meantime , nokia acquired qt , got elop , shifted focus to windows phone ,, 
+  kinda dropped qt , etc. 
+  maemo got a bunch of descendants through joint, 
+  projects and community forks : meego , tizen , mer , nemo , sailfish . 
+  the last of, 
+  these , sailfish , is a descendant of the community fork nemo developed by, 
+  jolla , a company consisting of mostly ex-nokia employees who recently released, 
+  their first phone . 
+  one difference compared to the other maemo descendants is, 
+  that this device ships with a compatibliity layer for android applications ( by, 
+  implementing libraries that `` fake '' an android environment and translates, 
+  things into calls to native libraries , so basically `` wine for linux < -  android '', 
+  aiui ) . 
+  so um , tl ; dr : a somewhat nich\u00e9 linux distro for phones , a bit more linuxy than, 
+  android is . 
+  oh , and aiui mer/nemo makes up the `` core '' whereas sailfish makes up the ui/standard apps part of the os , so hence why i put sailfish as `` de '' . 
+  currently , nothing is white . 
+  it 's certainly dark almost all day though . 
+   another thing i noticed was swedes wait for a red light to cross the road even at 1 a.m with no cars in sight . 
+  er , really ? 
+  i ca n't say i 've experienced this at all , and yet i 've been living here for most of my life . 
+  in my opinion , its main arguments compared to the competing oses is : the way screen edges are used to perform os actions , the `` real multitasking '' it has , and being a regular linux device with regular package management & terminal etc. 
+  its main edge over competing `` niche phone oses '' is support for running android apps ( which works surprisingly well imo , better than i thought it would ) . 
+  oh , and on that topic i 'm impressed by the snappiness of the user interface even when the device is under pressure by heavy applications running in the background -- i have n't noticed any rendering lag at all thus far . 
+  it 's systemd-based , but it does n't seem to have systemd-analyze . 
+  ` systemctl -- version ` gives me ` systemd 187 ' ; maybe it was added after this version ? 
+  bootup is ~ 23s ( measured sloppily from holding down power button to getting to a state when the interface responds to interaction and allows app startup etc ) . 
+  feels faster though . 
+  it would . 
+  the freeciv wiki has [ some discussion ] ( http://freeciv.wikia.com/wiki/sphere ) of how it could be implemented , though . 
+   an attacker gets hold of c and e , and xors them together . 
+   this is not useful data . 
+  part of it might well be , if you assume that the two plaintexts b and d are of `` the same format '' , and that binary format might often contain the same magic bytes in the same positions/null-bytes at the same offset / `` small `` ish integers at the same offset/the size of the entire package somewhere/etc . 
+  well , it could reveal information about what format the plaintext has , at least , which might be interesting in its own . 
+  the help file has a few easter eggs :, 
+  * bottom of ` : h map-modes `, 
+  * ` : h holy-grail `, 
+  surprisingly snappy and responsive in my experience ; i have n't noticed any ui lag at all . 
+  others have reported occasional lag when scrolling things , which according to devs is a known issue and being worked on . 
+  the system ui ( app switching and so on ) works great even with heavy applications running in the background ( e.g. 
+  ppsspp ) . 
+  once , i randomly got curious what program supplied the ` mount ` command , and decided to look it up via ` pacman - qo = mount ` . 
+  turns out it 's provided by ` util-linux ` , a set of useful utilities provided by the kernel . 
+  this prompted me to go over the list of tools that this package provided , and look up the ` man ` pages for whatever seemed interesting . 
+  here are some useful things i found :, 
+  - ` findmnt ` prints mountpoints as a pretty-printed tree with fancy columns , and a handy alternative to ` mount ` for that purpose ,, 
+  - ` columns ` prettyprints a list into nice columns ,, 
+  - ` script ` and its companion ` scriptreplay ` allows you to record and play back a shell/repl session , originally for computer-lab purposes . 
+  with proper flags , ` script ` will even save a timing file so that the replay could be done in real time . 
+  works well even with curses applications . 
+  i 'm not sure about * favourite * ones , but these are some that i find interesting but rarely mentioned anywhere . 
+  oh , i did n't know about ` lsblk ` . 
+  that 's handy , thanks !, 
+  i 'm not much of a fan of ffta2 to be fair . 
+  i found rondo of swords a bit weird , personally . 
+  i really enjoyed ffta and tactics ogre ( gba ) , and the advance wars series and disgaea is just up my alley too . 
+  disgaea is distinct from the rest ( well , except maybe aw ) in that its story is essentially all comedic . 
+  if you 're unsure , you could always check out the beginning of some let 's plays for the games to see if they 're anything that 'd interest you . 
+  if you grab disgaea ds , make sure to check out / r/disgaea , and make a post if you get stuck or something , or simply have any question about the game . 
+  i think usually tactics is considered a subgenre of strategy focusing on a lower scale , further split into `` tactical wargame '' ( e.g. 
+  aw ) and `` trpg '' ( blend-over with rpgs , e.g. 
+  at least , that 's how i 'm using the terms . 
+  edit : oh , and i guess there 's a distinction between rtt and tbt ( real-time vs. turn-based , e.g. 
+  ogre battle vs. 
+  tactics ogre ) . 
+  it worked just fine for me ; i followed it a month or so ago . 
+  where have you gotten stuck ? 
+  you need to setup a cross-compiler * somehow * before compiling the os since your target platform is different to what your machine probably runs ( to start with , anyway : i486 vs. x86_64 ) . 
+  definitely , it 's fairly old . 
+  i believe it existed at civiv 's launch as well . 
+  it 's a smaller language , basically . 
+  smaller standard library , runtime , specification , feature set . 
+  it 's also designed from the start to be embedded , and i 've heard its c interface is very pleasant to code against . 
+  yep , has happened occasionally for me . 
+  hm , i find this oddly fascinating . . if you do n't mind , how would you describe the colours of the first/third one ?

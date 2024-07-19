@@ -1,0 +1,100 @@
+  whether you need to reinstall os depends on which one you have ( ie . 
+  depending on windows license as some are tied to motherboard ) . 
+  you wo n't lose any files ( unless you 'll be formatting the disk to reinstall os ) . 
+  you 'll need to reinstall relevant motherboard drivers ( sound , network ) and you should also reinstall gpu drivers, 
+  no and almost all but the cheapest ddr4 sticks already have heatsinks on them anyway so technically they already have its own cooling system, 
+  you need m. 2 slot that 's at least 80mm and pcie 4x to fully utilize it . 
+  afaik only skylake supports it properly and with older chipsets it probably depends on the board . 
+  keep in mind that some older chipsets support m. 2 drives ( and there are pcie adapters to make them work ) but only on pcie 2x so they run at half the speed, 
+  if it 's prebuilt it almost certainly means the psu is `` just enough '' for what 's in there and you 'll want to replace it, 
+  overclocked 2500/2600k is considered on the edge of being a viable cpu nowadays so it most likely depends whether you play cpu intensive games and how long do you plan on keeping it . 
+  cpu bottleneck is n't yes/no question but rather target framerate and games question , if we 're talking 60fps you should be fine though, 
+  it depends whether you have retail or oem license ( which is non-transferable ), 
+   assuming that your system is still working , right-click my computer and select properties . 
+  scroll down to the bottom of the screen and find the product id . 
+   the product id should be in the form xxxxx-xxx-xxxxxxx-xxxxx . 
+  what are the 3 characters in the second group ( if those 3 characters are oem , then you have an oem version ) . 
+  if you mean which chipset then h170 or z170 if we 're talking average gaming pc . 
+  those support m. 2 fully on all boards ( maybe with the exception of some small form factor boards but if it has m. 2 slot it supports full 32gb/s ), 
+  h110 is cheaper but if it has m. 2 it does n't run at full speed . 
+  yes , you 're missing something called `` ipc '' . 
+  since the 6500 is a lot newer architecture 1 core of 6500 will do a lot more work than 1 core of 2600 at the same frequency . 
+  to put it into perspective , the 8 threads of 2600k are only [ 9 % faster ] ( http://www.anandtech.com/bench/cpu/1029 ) than the 4 threads of a 6600 . and games in general have trouble utilizing more than 4 or even 2 threads effectively which would make the hyperthreading of i7 meaningless and the poor single-threaded performance even worse in practice . 
+  however , all of this only comes into play when you do n't get gpu bottlenecked first and in modern aaa games even at 1080p and low target framerates ( such as 60 ) that will happen far sooner than cpu bottleneck . 
+  for example even a stock 2500k [ will still do 80 + fps and not bottleneck a 980 in witcher3 ] ( http://www.techspot.com/articles-info/1006/bench/cpu_01.png ) . 
+  so as long as you 're targeting 60fps and not primarily play cpu heavy games it should work for you even at stock frequencies , but i 'd still recommend buy a decent cooler and overclocking since coolers in general are a great investment that will last you over multiple builds and make the pc both cooler and quieter ( and faster with oc ), 
+  rule # 1 of buying motherboards - ignore user reviews . 
+  accept that although they are less reliable than most of other pc components they are a lot more reliable than what reviews make it seem like . 
+  just go with one that has the features you want, 
+  yes , just make sure you have a way to get a network driver installed somehow otherwise you wo n't be able to download it without the internet . 
+  do you have ssd ? 
+  if not it sounds like hard disk swapping although i 'm not sure how big issue is it in mobas, 
+  you can use os migration software to clone it, 
+  not necessarily , it just means that hdd is bottlenecking rest of your system when loading the assets ( it results in a freeze because that 's just how slow hdds are compared to everything else ) . 
+  if we 're talking about gaming , definitely the 6600k . 
+  a lot of people on this sub would probably recommend you to save even more money on cpu and get a 1070 but i personally strongly disagree with that opinion . 
+  i7 has hyperthreading which is amazing for applications that can utilize it ( great example is video rendering/editing ) . 
+  however , games generally are n't multithreaded very well and even lots of current games do n't utilize more than 4 and sometimes even just 2 threads . 
+  finally despite all this , the games that actually do utilize all i7 threads ( for example witcher 3 or gta 5 ) will be bottlenecked by a midrange gpu far sooner than by the cpu anyway, 
+  for cpu download cinebench , for gpu unigine heaven and for ram aida64 . 
+  hwinfo to monitor . 
+  ram amount only matter when there is n't enough of it , more ram than necessary does n't increase performance, 
+  although these results were already out there for some time , it certainly never hurts to have more testing to confirm them . 
+  hopefully this will help to dispel the constantly repeated myths around here such as `` ram speed is irrelevant '' and `` a 6500 will never bottleneck anything '' that so many people still cling onto . 
+  yes but do n't do it unless you have intention to replace it with a different one, 
+  if you have 3 pin fans they can still be regulated by voltage , how depends on your bios/motherboard, 
+  it 's not about the frequency ( you can overclock both processors to same frequency ) , but i7 has hyperthreading unlike the i5 . 
+  whether this is worth the price depends on your budget , generally people will say it 's not cost effective , mainly because most games either do n't benefit from more than 4 threads or because majority of people play at low enough framerates ( like 60 ) that cpu is n't a bottleneck . 
+  that said if you want some benchmarks , a recent reddit post [ here ] ( https://www.reddit.com/r/buildapc/comments/5agh8f/skylake_cpu_and_ram_gaming_impact_benchmarked/ ) gives you a decent summary what can you expect from a 6700k compared to a 6600k and i7 does help keeping the lowest framerates higher so it ca n't be said it does n't help . 
+  again , whether it 's worth it depends on your budget . 
+  also , regarding pcie lanes , if you do n't plan on using multiple gpus you do n't have to worry about it at all since just about every modern board has a 16x slot dedicated for it before you get to lanes for everything else . 
+  you can if it 's retail license , if it 's oem it should n't work with a different motherboard, 
+  if you only want looks : gigabyte z170 mx gaming 5 ( black/red ) , asus maximus gene ( black/silver/red ) , msi z170m mortar , gigabyte z170m-d3h ( both black ), 
+  though if you 're actually overclocking , you probably do n't want to go cheaper than the gaming 5 and for heavy overclocking get the gene ( which is very expensive for what it is , but that 's z170 matx market for you ), 
+  recording is more about the cpu so if you 're worried about that , spend the money there, 
+  if you mean hardware , hwinfo shows pretty much everything you need, 
+  easiest way would be to run linux from a usb stick and get your data that way before reformatting . 
+  you should only buy together piece that you need for the pc to work , once that 's working you can keep adding the rest . 
+  really you only need to do a `` build '' once and afterwards you can just change and upgrade individual parts pretty much indefinitely . 
+  you do n't need a hdd at all . 
+  do you need to store stuff you rarely/never use ? 
+  sure , get a hdd and put it on there but i would n't really consider it as a vital part of any system that already has a decently sized ( 250gb nowadays ) ssd . 
+  100 + fps is n't a waste on a 60hz monitor . 
+  higher framerate still gives you lower input latency which is noticeable in fast paced games ( assuming you 're using unlocked framerate ), 
+  also , i find the premise of exceeding 60fps on 60hz is bad kind of absurd , since even if we consider that you use vsync , exceeding 60fps is required to actually get a constant 60fps in the first place . 
+  lots of people completely misinterpret benchmarks - average 60fps means you are not getting 60fps when you usually want it the most , which is when the action is happening, 
+  that said , i do n't argue for a 1070 for 1080p60hz , just disagreeing with your argument against it . 
+  the board has hdmi , dvi , vga and diplayport . 
+  not sure what your displays have but since you probably are n't using 144hz monitor for productivity there should be no problem using an adapter . 
+  edit : seems like you assume you ca n't use dual monitors on intergrated gpu . 
+  yes you can, 
+  i 'm not entirely sure you can trust that benchmark to troubleshoot your hots fps . 
+  that said , is your ram running at dual channel configuration ? 
+  looking at the benchmark i 'm kind of dubious you should actually take it seriously to determine performance of your system because the scoring system really does n't reflect anything . 
+  what games have you tested at what settings ? 
+  what settings do you play hots at ? 
+  it could be anything from the ram actually bottlenecking everything else to your expectations being too high but without specific examples it 's impossible to determine much really . 
+  6600k when overclocked is great . 
+  6700k gives you higher min framerates and in games that can utilize the additional threads it will give you higher fps overall when you 're not gpu bottlenecked . 
+  overall it depends on your budget and target fps/resolution . 
+  1080p/144hz will see the benefit from i7 a lot more than 1440p/60, 
+  here 's a [ thread ] ( https://www.reddit.com/r/buildapc/comments/5agh8f/skylake_cpu_and_ram_gaming_impact_benchmarked/ ) with some benchmarks if you 're interest in more, 
+  apparently i 'm too late to join the circlejerk so i guess i have to be contrarian today . 
+  if you formulate your question in a way that it basically asks whether calling something in a certain way changes how it performs , of course everyone will come in to join the fishing for upvotes in who can find the most snarky way to say `` of course not '' . 
+  so let 's get the obvious out of the way : no , calling something gaming does n't mean anything in regards what you actually get in the final product ( maybe besides some kind of color scheme or logo ) . 
+  let 's get to the point then . 
+  what are you getting by buying a more expensive board compared to a cheaper one ? 
+  well i do n't know op , why are you comparing 2 z170 boards when you can get a h110 for less than half the price ? 
+  because z170 has more features than a h110 board obviously ( and because intel lacks competition and can get away with making multiple chipsets like that ) . 
+  so what makes the more expensive motherboards better than the cheap ones besides the obvious stuff you see as you mentioned ? 
+  well mainly the quality of the components used . 
+  if we compare the 2 z170 boards you posted , the pro gaming has for example a lot better power delivery compared to the z170-p , which is critical for overclocking . 
+  so to put it into perspective , buying a 6600k and putting into the cheapest z170 board to overclock it is equivalent to getting 2 1080s and then buying cheapest 600w psu to power them . 
+  will you see a difference when running games games and other tasks ? 
+  probably not . 
+  until the components slightly degrade and you 'll be getting bsods left and right because you are using components meant to power skylake chips at stock voltage . 
+  so yes , you are paying for more features ( which of course you may or may not use ) but mainly you are paying for better components which you probably will be using when you are thinking about the z170 chipset . 
+  and going back a bit , for what 's it worth the `` gaming '' brand really just means different color scheme ( and sometimes killer nic instead of a regular one ) but if you think you 're paying for it any more than a `` non-gaming '' board with the same features , you 're not as multiple manufacturers do have rebranded boards and they cost pretty much the same . 
+  m. 2 is a form factors for ssds ( replacing sata ) , it has nothing to do with a gpu, 
+  compatible probably yes but how well would it actually run ( for example , if booting will be possible ) is questionable . 
+  from a quick googling i found [ this ] ( http://www.win-raid.com/t871f16-guide-how-to-get-full-nvme-support-for-intel-chipset-systems-from-series-up.html ) thread which explains how to make it work , whether you want to deal with it is up to you .

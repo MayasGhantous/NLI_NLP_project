@@ -1,0 +1,100 @@
+  do i need to have buses that do the opposite at the next station , ( transfer people from the station to different parts of the city ) or are they good to go once they arrive at their destination-station . 
+  the latter is the case . 
+  people is just another kind of goods , and you gain revenue for transferring them as a function of time spent in transit and distance between start and end . 
+  `` transfer '' really just means `` instead of trying to deliver cargo at this station , just dump them here and hope that something else picks it up '' . 
+  for instance , consider the following scenario :, 
+  a b c, 
+  you want to transport wood from station a to station c . you have a train going between a and b , set to `` transfer '' at b. 
+  you have another train just going between b and c . the a-b train will drop wood off at station b , and just leave it there . 
+  the b-c train will travel to b , notice that there 's wood there and pick it up , travel to c and drop it off . 
+  if the a-b train was n't set to `` transfer '' at b , it would n't drop the wood off since b does n't accept wood . 
+  eh , i ca n't speak for other countries , but a fair share of swedes * prefer * subtitled over dubbed , because the dubs tend to sound weird and awkward , at least to me . 
+  fwiw i 've used ` console.log ( ) ` occasionally to just produce a line break as output . 
+  you missed one in the ` applylast ` example , for the ` require ( ` allong.es ' ) ` line . 
+  oh , and i just noticed : there 's a '' ` porseint ` '' that should be ` parseint ` , and '' ` . parseint ` works just fine with one parameter '' should n't have a dot . 
+  this is nice !, 
+  konsole 's support of 24-bit rgb colour ( something i 've pondered adding myself to a terminal emulator ) , i found this documentation of the format : https://github.com/robertknight/konsole/blob/master/user-doc/readme.morecolors ( adding a link here in case anyone else is curious about the format ) . 
+  to add to the window commands mentioned , here are some more :, 
+  * ` ^ w ^ s ` ( that is , ctrl-w ctrl-s ) is the same as ` : split ` . 
+  * ` ^ w ^ v ` is the same as ` : vsplit ` . 
+  * ` ^ w ^ _ ` and ` ^ w ^ | ` maximizes the current window vertically and horizontally , respectively , `` folding '' the other ones to the edges . 
+  * ` ^ w ^ = ` gives all windows open equal space . 
+  these , together with the ` ^ w ^ q ` mentioned before are the window commands i use the most . 
+  some other ` : help ` tips :, 
+  * ex commands are prefixed by colon : ` : h : help ` ,, 
+  * options are in single quotes : ` : h ` listchars ' ` ,, 
+  * ` < tab  ` during a ` : help ` line circulates between help topics containing a given substring ,, 
+  * ` < c-d  ` ( ctrl-d ) shows a list of all help topics containing the given substring . 
+   i remember an adventure game were you played as an @ symbol . 
+  that 'd be nethack i believe , or another one of the old roguelikes . 
+  ~ ~ it 's really more the other way around ~ ~ ( on second thought , i probably read your post wrong ) . 
+  a primitive value ( i.e. 
+  a string ) `` auto-boxes '' to ( i.e. 
+  automatically gets wrapped by ) a string instance whenever you try to use it * as an object * . 
+  for instance , if you have ` var foo = `` my string '' ` , and do ` foo.touppercase ( ) ` , your primitive string value stored in ` foo ` will be automatically boxed into a ` string ` instance , then the property lookup and function call is performed , and then the boxed version gets thrown away . 
+  ( however , of course in practice the engine does n't actually create and throw away objects like that . ), 
+  this is why something like, 
+  number.prototype.blah = function ( ) { return this }, 
+  typeof ( 42 ) . blah ( ) / / =  ` object ', 
+  does what it does . 
+  using something as an object auto-boxes it , so in the ` blah ` function ` this ` will actually be this boxed object , and not the primitive value . 
+  oh , and like the other said , you do n't want to deal with the wrapper objects yourself . 
+  edit : oh , and apparently i should read the other posts more carefully and not just skim through them before adding my own ... ah well , at least i added a few examples . 
+  fascinating topic ... being mathematically oriented , i 'd try to approach the problem from a geometry standpoint . 
+  obviously some of these things might not work with very young children though ... 
+  i assume the blind person would know the shape of a cube , sphere , square , circle and the difference between two - and three-dimensional shapes ( as in `` flat thing , non-flat thing '' ) . 
+  from there , you could probably explain that something like a tv , monitor , paper or drawing is flat , but contains different colours ( compare with textures of things , or temperatures -- i.e. 
+  compare to touch ) . 
+  you can distinguish these colours from over a distance ( like with hearing ) , but with similar precision as if you 'd try to feel different textures and bumps with your hand . 
+  moving on , depth perception is like feeling the general shape of something instead of just feeling its surface . 
+  compare `` this snowball is cold '' with `` this snowball is round '' -- the latter being what depth perception would allow one to sense over a distance , visually . 
+  i ca n't imagine how one would explain the idea of light , though ... `` i can see this sign over here during day , but not during night . '', 
+  speaking of day and night , i wonder what a blind 's view of day/night is like , and if the idea of sleeping at night just feels arbitrary to them . 
+  have you heard of/tried [ bairui 's insertlessly ] ( https://github.com/dahu/insertlessly ) ? 
+  github does n't seem to render the readme properly for some reason , but it 's essentially designed to solve the same problem . 
+   one might be able to hide the subreddit name and put some background image there . 
+  if you 're not too hung up on having it look exactly the same in both new and old browsers , you could make use of the [ css3 ` content ' property ] ( http://www.w3.org/tr/css3-content/#inserting3 ) to have the actual link render as an image ( instead of showing its inner content ) . 
+  oh , fair enough . 
+  i 'm at the other end of the spectrum : my ~ / . vim/bundle contains only three bundles ( and only one which i use regularly , which is a colorscheme ... ), 
+  though , when it comes to . vimrc for handy mappings , and tweaking them every now and then , i know exactly what you mean . 
+  so , complex reddit gold then ? 
+  hm , now i 'm being picky , but it 's worth clarifying that the definition is in terms of euclidean distance and not angular distance , and that the `` one minute of arc '' is an approximation ( although the definition is such that the approximation is a very good one ) . 
+  why does this matter ? 
+  if you 're further away from the surface , 1 arcminute would be a longer `` actual '' distance travelled compared to if you 're moving on the surface . 
+  i imagine it probably does make a noticeable difference for intercontinental flights . 
+  nice . 
+  do the colours have any meaning ? 
+  a while back i was curious about something related , and created [ this thing ] ( http://etc.firefly.nu/js/primes.html ) which allows you to adjust the number of columns as well as the ceiling ( and scale the pixels up ) . 
+  it 's black-on-white instead though . 
+  really ? 
+  nice setup though , nice colours and nice wallpaper . 
+  oh , i 'm aware . 
+  it 's just that `` scr\u00f6t '' sounds so silly in my head ... 
+  given an object , it tells you the constructor that constructed it ( or , well , that 's the idea ) . 
+  ` constructor ` is really just a property of the default ` prototype ` property of the constructor function ( actually , of any function ) . 
+  that is , after creating ` function nullo ( ) { ... } ` you have this ( where ` [ [ prototype ] ] ` is the reference to the prototype of an object ) :, 
+  | [ [ prototype ] ] - | ----------  function.prototype, 
+  | prototype - | ------ . 
+  | ' --  | constructor - | - . 
+  right , the pieces are . 
+  not the company though . 
+  oh hey , i did n't know about ` '' ` -- that 's really handy !, 
+  heh , you mean [ caret ] ( http://en.wikipedia.org/wiki/caret ) . 
+  i 'm not sure exactly how gsm works , but if the provider knows the connectivity of a given phone to nearby cell towers that could be used to approximate the location . 
+  ( or at the very least the position of the closest tower could be used as a coarse approximation . ), 
+  [ ocr-a ] ( http://en.wikipedia.org/wiki/ocr-a ) ( along with the easier-on-the-eyes [ ocr-b ] ( http://en.wikipedia.org/wiki/ocr-b ) ) is actually standardised , and there are many implementations of typefaces similar to it , so depending on your taste and pixel pitch you might want to go with a ttf variant instead of a bitmap one . 
+  it uses a vi-like interface for navigating ( like vimperator/pentadactyl etc ) , and is configured using lua ( like e.g. 
+  fwiw you could use ` \\* ` ( that is , backslash asterisk ) to produce an actual asterisk , avoiding it being treated as formatting . 
+  just as long as mandatory hand-ins and exercises do n't require the books , it 's all fine imo . 
+  the litterature should be a suggestion and not a requirement to pass the course ( of course , assuming the student learns the material in the course using other tools and content ) . 
+  mind clarifying ? 
+  i 'm pretty sure quaternions are more useful for 3d-related stuff than complex numbers . 
+  ironically , you actually pronounce ' \u00f6 ' with a rounded , somewhat open mouth ... 
+  er , yeah , probably . 
+  incidentally * then . 
+  just ... glorious . 
+  i 'm impressed by how well it performs . 
+  then again , he already got his ipad back , and the guy might think twice before stealing stuff the next time given how it went this time ... 
+  javascript is n't a standard at all -- it specifically refers to mozilla 's extensions . 
+  ` let ` is in the wip ecmascript 6 spec though . 
+  fire emblem is more of a [ trpg ] ( http://en.wikipedia.org/wiki/tactical_role-playing_game ) whereas advance wars is a pure [ tbt wargame ] ( http://en.wikipedia.org/wiki/turn-based_tactics#types ) ( or almost pure , at least ) .

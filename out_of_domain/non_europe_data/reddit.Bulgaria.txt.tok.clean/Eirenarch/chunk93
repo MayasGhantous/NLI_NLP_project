@@ -1,0 +1,100 @@
+  on the other hand people like you prove that ballmer was right to quit . 
+  after all the perception is more important than the real thing when you are talking about a public figure like the ceo . 
+  you are free to vote with your wallet for the great stuff . 
+  btw you do realize you are reinforcing my point , do n't you ? 
+  after no announcement on build i do n't think the xamarin acquisition rumor has any substance to it . 
+  even if they open source the whole . net ( most of the web stack is already open source so what is left is the bcl and the desktop frameworks ) i doubt you will be able to easily run it on linux . 
+  after all a lot of the . net code is wrappers around win32 api . 
+  on the other hand if you read the code rather than the docs you may end up depending on implementation details that change later and break your code . 
+  here is some food for thought : they delayed the announcements because they knew they would generate positive p.r. 
+  for the new ceo despite the fact that the decisions were made under ballmer , 
+  well yes but we were talking about the usefulness of open sourcing . net for running it on linux . 
+  mono runs just fine on linux today . 
+  i am 100 % opposed to the bullshit outrage but i hope something good comes of it . 
+  does anybody know what the official feedback channel for c # 6.0 is . 
+  i seem to dislike some things . 
+  btw can someone explain what the use of exception filters is . 
+  from what i read they seem like a replacement for, 
+  catch ( exception ex ), 
+  if ( filter ( ex ) ), 
+  / / code ... 
+  else, 
+  throw ;, 
+  edit : found it - https://roslyn.codeplex.com/discussions/541301, 
+  the stack trace stays intact if you use throw . 
+  it is lost if you do throw ex ;, 
+  so then they can make throw use the same mechanisms . 
+  on the other hand it is a bit insane to care about efficiency when you catch exceptions . 
+  after all catching exceptions is extremely slow anyway . 
+  exactly my thoughts . 
+  i thought i was the only one who was writing private set on auto properties everywhere to achieve get-only behavior in practice . 
+  btw i see the readonly keyword as kind of useless since fields are private anyway and if someone is looking at the field he can remove the readonly modifier anyway . 
+  now if the runtime did any optimizations which to my knowledge it does n't there may be some use in readonly over just private setters . 
+  even if you use exception filters you will still need to catch the exception and get the performance hit . 
+  filters will only improve performance for rethrown exceptions but the overall result will still be slow . 
+  the alternative is of course to let the program crash but i doubt anyone cares about the speed his program crashes, 
+  yes but that 's actually the same programmer discipline because if someone is already modifying the code in the class and using the private setter what 's to stop him from just removing the readonly modifier ? 
+  i actually go for immutability by default and i agree with your idea of readonly class modifier . 
+  this way consumers of the class can be informed that its immutability is enforced by the compiler and tools can confidence optimizing it . 
+  why do n't you post this as a suggesion via codeplex discussions ? 
+  but the new syntax is not in any way better than the current one if you disregard things like the crash dump . 
+  tried that on windows phone ( was browsing reddit on my phone ) . 
+  does n't seem to be able to drag & drop . 
+  i am not terribly worried about wpf either seeing that nothing is replacing it . 
+  it is just stagnant but not dead because as long as there are new apps developed with it it ca n't be dead . 
+  460 does n't when there are a lot of units and zerg creep . 
+  660gtx probably does . 
+  also keep in mind that blizzard update the graphics from time to time . 
+  for example at launch sc2 did not include extreme settings . 
+  except that the percentages you quoted are neither the desired percentages ( silver and bronze are supposed to be far smaller and gold is supposed to be larger ) nor are they achieved, 
+  i almost expected boring article about tdd or something but the article is indeed great . 
+  i like how he does n't include functional recognizing that functional should be known to every modern day programmer the same way oop is . 
+  i have written a toy compiler that targets the clr . 
+  this of course requires being able to read and write il and yes it is indeed the same concept . 
+  note that android uses registers to implement java . 
+  the clr and jvm have the concept of stores ( maybe cat does too , i do n't know ) so while you only do operations with things on the stack you have the option to load from and push to store locations ( variables ), 
+  i do n't think java was open sourced in 2003 , 
+  so do i need to google that linus rant about not breaking binary compatibility for you ? 
+  i do n't understand whether you think that would be a good thing . 
+  for me silverlight is quite close to what i imagine as the perfect platform for applications from technical point of view . 
+  i think he means extjs still sucks . 
+  ideas from flex and silverlight do make it into the web world in reasonable but still inferior forms . 
+  either yours or mine , 
+  i have submitted several wtfs and i have seen people claim they were not real . 
+  stories are somewhat overblown and the tdwtf staff tries to obfuscate the names and code which someone results in contradictions but the overall story was represented close enough to what i submitted . 
+  as an example when they obfuscated the code i submitted they ended up defining a variable twice which is illegal in c # and this was one of the reasons people claimed the story was not real . 
+  it seems that it was an internal codename for the voice assistant but once the name leaked the community campaigned to keep the name and give it cortana 's voice . 
+  the feature was not officially confirmed at that point but the suggestion to keep the name was the number one user request on uservoice . 
+  i choose to believe that this is when ms decided to keep the name instead of changing it to something boring like bing voice like they normally do . 
+  i actually liked the single player of halo 4 . 
+  if i have to rate halo games single player campaign in absolute quality ( not considering the time they were released or the innovation they brought ) i would do it like this : halo reach , halo 1 , halo 4 . 
+  i kind of count myself in the master pc race crowd but claiming that consoles are dead is just stupid . 
+  even i own one even though i only do so because of kinect and ca n't seem to get myself to play anything that is available on the pc on the console . 
+  forgive me for using this thread but obviously i missed some announcement . 
+  where is khaldor now , why is he not casting gsl and what are his future plans ? 
+  his liquipedia page still says he is casting the gsl . 
+  permanently ? 
+  the original zdnet article made me an active mongodb hater . 
+  i would n't like to use a product built by people with that attitude . 
+  i think if i am ever involved in deciding the database solution for a project i would actively push against mongo and at the very least suggest the use of competing nosql database if i think nosql is best for the project . 
+  i remember reading anonymized version of this story on raymond chen 's blog . 
+  it was far shorter and better article and did not include bashing ms or random programming tutorials and tech history . 
+  sadly i ca n't find it . 
+  i am surprised so many people do n't see this . 
+  you have to be genuinely stupid to believe that nadella changed so many things in two months and that ballmer was unaware of any problems . 
+  on the other hand i am sure that ballmer did plan for the announcements to happen under nadella so the new ceo can get some positive p.r. 
+  for people who like this type of stuff and have the patience to read instead of watch videos here is a quite detailed series that gamereplays.org created a long time ago . 
+  the original url seems to be long gone but i still keep the pdf - http://sietch.net/downloads/the_history_of_real_time_strategy.pdf, 
+  warning : this is really long and detailed ( 140 pages ) !, 
+  it was written in 2008 by a team of authors . 
+  i am responsible for the warcraft ii and warcraft iii articles . 
+  i do n't have the guts to post it but if anyone thinks it is of good quality . 
+  note that it is much more worth it to read the articles of the games that you have not played than the ones about the games you have played . 
+  you may find that articles about games you have played are not on the level of detail that will bring you new information . 
+  if i recall correctly gamereplays themselves focused on rts games so i would n't expect it . 
+  i wonder if they could be made into a video series with video of actual gameplay while keeping the side info . 
+  i clearly remember that at the start of the gsl this was not the case . 
+  random players were not telling their race back then . 
+  since then we did n't have many random players so i do n't know if the rules changed . 
+  you ca n't date things accurately so far in the past . 
+  i did n't get this one .

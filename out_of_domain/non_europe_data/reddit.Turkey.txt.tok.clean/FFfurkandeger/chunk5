@@ -1,0 +1,100 @@
+  but the deeper i researched about this issue the more people i saw that are having no issues at all . 
+  let alone the people claiming to have no problems at all , there are tons of benchmarks giving just the opposite of my results . 
+  for example check gamegpu 's asassin 's creed unity benchmark . 
+  even with a stock fx 8350 they were able to get 50-60 fps with ultra settings . 
+  and that was a gtx 970 sli setup . 
+  i check my pc for example , the most i can get from ac unity is 25-35 fps even when i lower down everything . 
+  i turn off aa , and it just causes the gpu usage to drop . 
+  checking watch dogs bencmarks , i can not get anything more than 40 fps , and any attempt to boost performance by lowering some aa , texture quality etc. 
+  just causes the gpu usage to drop . 
+  however people are getting 50-60 fps with watch dogs . 
+  at first they told me these games are shit in terms of optimization , but come on , do n't give me that optimization bs ( no offense to you ) , people are actually getting a good performance out of fx . 
+  not a shitty one like me . 
+  i experienced a real bottleneck with my old athlon x64 6000 + . 
+  i was not aware of the term `` bottleneck '' then and i thought it would be sufficient for me to add only a new gpu . 
+  so i installed my gtx 460 and games were as if they had an fps cap . 
+  crysis for example had a fixed 30 fps . 
+  no more but in the same time no less . 
+  cpu was working 100 % and even if it was n't enough you could understand that this was the limit by checking the usage . 
+  f ** king 100 % . 
+  then i switched to a phenom ii x4 and boom , everything resolved . 
+  but how is it right now ? 
+  cpu usage roams around 60 % ( i mean core usages , not average ) and gpu roams around this point as well . 
+  wtf ? 
+  every single page about bottlenecks points to a fully utilized cpu . 
+  even a single core that is being fully utilized would be fine but there is not a single one . 
+  it is as if cpu is not willing to run . 
+  i even tried disabling some cores to see if 60 % is actually what the game needs , but no . 
+  expected reaction would be less cores = more core usage . 
+  however that was not the case . 
+  60 % ( or whatever it is except full or close to full like 90 % ) with 8 cores , 60 percent with 4 cores . 
+  it just caused the performance to go even worse . 
+  even more , as i said before i do not remember having any performance issues with watch dogs for example when it was released for the first time ( apart from the fps drops with ultra textures which everyone experienced ) . 
+  maybe it was there even then and i did n't notice , however all i can interpret from all the data i collected from researching and experience leads to two possibilities : a defective cpu ( defectiveness of which might be caused by me or not ) or a defective something else ( nb , sb , one of the hdds , rams or whatever ) that is bottlenecking the cpu . 
+  sorry for tiring your brain with all this crap of mine , i just can not stop researching , telling my experience . 
+  i will try every possible option ( including rma'ing the cpu ) and if i can not resolve it even by changing the cpu i will compulsorily switch to intel . 
+  however , there is not a single reason to believe fx is not a gaming cpu because there are tons of people who are gaming just fine with fx . 
+  i actually disagree in terms of not using any ubisoft game as a means of testing performance . 
+  although the problem is not present with only ubisoft games , this idea is bad . 
+  because if it were an optimization issue everyone would have it . 
+  if there are people or even trusthworthy media sources that are having no problem at all with exactly the same setup , it is simply turning a blind eye to say `` the game is not optimized '' . 
+  ac unity might have optimization issues , yes , however the same issues apply for gamegpu , guru3d and all other media sources or people . 
+  so if anyone is getting 50-60 fps in ac unity or watch dogs with fx 8350 and r9 290x , i should be getting the same performance as well . 
+  also i really do n't think i am affected by this optimization issue of ac unity , because when i put everything to ultra high , my gpu gets utilized 100 % and i get a playable performance ( 25-35 fps ) however even if i lower everything down by half , it stays the same and gpu usage goes down to 60-70 percent . 
+  so it 's apparent this is a cpu bottleneck . 
+  however , cpu itself is bottlenecked by something i am yet to discover because cpu usage never goes up to 80 percent or so . 
+  anyways , i am really sick of calling `` optimization issues '' without eliminating other factors . 
+  no offense to you but anywhere i go people say `` hey these games are poorly optimized '' . 
+  ffs , can someone tell me a game that has no optimization issues and at the same time hungry in terms of cpu usage ? 
+  when i say battlefield 4 performs badly they say `` this game is crap '' . 
+  i say hitman absolution , they say `` poor optimization '' . 
+  i say `` watch dogs '' , they say poorly optimized blablabla . 
+  why the hell would any game choose me to show their unoptimized sides ? 
+  why are there people having no issues at all ? 
+  unfortunately i have no access to my pc right now as i am abroad for a week , however when i return home , i will try every possible way to resolve this issue . 
+  i believe this is caused by a defective hardware and i am really obsessed to find what hardware it is . 
+  ( if that turns out to be the issue , i am thinking of smashing that particular component to dust :p ), 
+  i love amd and i hope i wo n't have to switch to intel . 
+  i will share my experience here with you next week . 
+  thank you for your valuable comments !, 
+  edit : just noticed you have the very same mobo as mine . 
+  i think this was posted before . 
+  this is non-canon, 
+  it is . 
+  what is cannon : movies , the cw and a two or three books i guess . 
+  the rest is `` legends '' ( which is also stated in your source , wookiepedia ) and not cannon . 
+  oh , you think you are smart ... 
+  never mind people , it 's a sham leading to `` surveys '' . 
+  my family , my girlfriend live in gaziantep . 
+  i lived there for 17 years . 
+  i am here in gaziantep now , leaving tomorrow for istanbul . 
+  this is terrifying . 
+  yea this is not allowed anymore . 
+  but i still want to make something clear . 
+  what is `` new '' ? 
+  new for who ? 
+  when is it new ? 
+  you should always include the driver version if you want help . 
+  what is new for you might be old for someone else . 
+  what was latest then might be old now . 
+  well seeing your cpu and gpu usage rates , i 'd want to believe that something is wrong . 
+  gpu is not reaching 99 % while cpu usage is around 60 % at most for each core . 
+  i wonder if gpu usage goes down when you lower some graphic settings ... 
+  yup . 
+  well , is n't it expected for the overlay not to run because you are on 14.9 drivers ? 
+  mantle has just got this support with 14.12, 
+  it is only available on 285 for the time being . 
+  though i do n't know why . 
+  `` amd is cooking up a `` phase 2 '' driver that will add vsr capabilities ( with 4k downscaling ) to additional cards , including everything from the radeon r7 260 up . 
+  that driver is expected in the january-february time frame . '', 
+  yeah for some reason i was not able to get anything more than 35 fps in unity with a 290x , whether on ultra or high ; but now i can very well see some 45-55 fps . 
+  the whole reason barry lost control of his anger was because he was n't as good as oliver . 
+  well , i know why he lost control of his anger and the meta-human . 
+  barry was told not to go there alone , yet he did . 
+  that was my point . 
+  he did n't have the experience , he was not as good as oliver . 
+  you can manually adjust the scaling via ccc , also amd has released a hotfix for the scaling issue . 
+  it is not 8.1 's fault i can tell you that . 
+  i believe it was a bug with the radeonpro which is caused by either `` run on start-up '' or `` run minimized '' options . 
+  so go over to the settings and try ticking off either of them and test . 
+  one of them should fix it .

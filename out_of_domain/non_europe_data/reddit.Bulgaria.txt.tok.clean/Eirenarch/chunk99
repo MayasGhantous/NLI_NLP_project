@@ -1,0 +1,100 @@
+  with this model you can get save -  refresh dev experience but full compile is slow and you deploy source code on the server ( the compiled code is cached on the server after the first hit so this is not really perf issue ) . 
+  in addition i think this model does not support doing this in referenced assemblies only in your web code . 
+  for some reason the community stopped using web sites as they were seen as unprofessional and had some minor quirks . 
+  the web application projects do not support this workflow . 
+  the other feature is edit and continue in the debugger . 
+  it is really cool but i do n't think it works for changing the api . 
+  you can change code in a method but i do n't think you can introduce a new class this way . 
+  i may be wrong . 
+  anyway it is not the same experience and kind of targets different problems . 
+  with desktop apps edit & continue is more often what you want while with web apps you need to refresh the entire page anyway to confirm that what is actually shipped to the client is what you expect . 
+  so we should write libraries not frameworks ... uhm yeah ... kind of blurry . 
+  ok i just want two way databinding and everyone tells me angular is better than knockout although knockout is a library and anglular is a framework . 
+  now what do i do ? 
+  to be honest i have n't used any of them but it seems like angular would be the right choice based on what others tell me and the community and know-how behind it is a big deal . 
+  as i said what i really care about is the two-way databinding . 
+  so what if angular does databinding better than knockout for some reason . 
+  i may not need the rest of it but if the feature i need is better in angular there is still a non-obvious decision to be made . 
+  well reports do say that unlike microsoft sony are selling at a loss . 
+  in a way they have already reacted , 
+  you mean the bank where they get loans to produce subsidized hardware and sell it at a loss ? 
+  well i did n't buy xbone because the kinect titles were actually worse than the kinect titles for the 360 . 
+  i was waiting for something meaningful to be released on this front before i buy the new console . 
+  after this decision i may just skip buying the new console . 
+  ironically for someone who loves kinect the new one is a downgrade . 
+  i would add kinect adventures . 
+  having quite a lot of fun with that one . 
+  i wish they just port it to the new kinect instead of kinect sports . 
+  to be honest you do n't really need many quality games for kinect . 
+  unless you are serious about real sports chances are you ca n't play more than an hour of kinect games per day so why buy more than a couple ? 
+  problem is that with this announcement that revolution may be delayed a lot . 
+  as a consumer i 'd rather see ms sacrifice this console generation to boost the motion interfaces . 
+  me personally ? 
+  definitely yes !, 
+  i did n't own a console before i tried kinect . 
+  after i tried it i bought one a week later . 
+  the non-kinect games i have played on it are the full halo series ( played anniversary instead of halo 1 and played halo 2 on a pc ) , mortal kombat ( because it was a console exclusive back then ) and la noir ( for the same reason ) . 
+  i have spent like 10 times more playing kinect adventures and gangnam style on dance central and one very cool kinect game called leedmes . 
+  basically kinect is the only reason i own a console . 
+  and believe me i am a hardcore gamer . 
+  i go to starcraft tournaments , play a lot of games , own a ridiculously expensive fight stick and have a room at home with 3 gaming capable pcs and gaming posters on the walls . 
+  but all that is on pc . 
+  it says $ 60 loss . 
+  it is nothing like the ps3 for sure but the fact still remains that ms is not selling at a loss currently . 
+  if i was ms i would probably go full dumping with the pricing . 
+  sony are in dire financial situation and ms are floating in cash . 
+  drop the price by a $ 150 and watch everybody buy xbone just because of the price that sony just ca n't match for financial reasons . 
+  now obviously if they do that they would still have to satisfy demand and manufacturing may be the bottleneck that ruins the whole strategy . 
+  that 's cost to build . 
+  they have to ship them , market them and support them ( replace defective etc. ), 
+  here is source - http://www.eurogamer.net/articles/2013-09-20-sony-expects-to-recoup-playstation-4-hardware-loss-at-launch, 
+  here is a source - http://www.eurogamer.net/articles/2013-09-20-sony-expects-to-recoup-playstation-4-hardware-loss-at-launch, 
+  obviously nothing unreasonable like the ps3 and they may break even in some regions . 
+  frankly i would control anything with motion . 
+  i gladly play the kinect games just because they are motion controlled , 
+  well the console does a few other things except play kinect games . 
+  we only have to factor the difference in price ( i.e. 
+  also i have heard ( and it seems reasonable ) that the value of kinect greatly increases if you have young children . 
+  the politics with ms 's xbox business are in fact complex . 
+  it would take a strong ceo to make such a move for sure and at nadella is not there yet . 
+  ms fucked up big time with this launch . 
+  up until the point sony announced they were doing things just as before i was 100 % convinced , willing to bet hundreds on the claim that sony will do the same no-used games policy and there is some arrangement with the publishers or at least publishers will give some preference to ms like lower prices or something . 
+  i was completely stunned to find out that ms decided to implement this policy all by themselves without anything to back it up . 
+  what were they thinking ? 
+  btw i am all for 60 fps . 
+  i think it is a crime to have games that run on less than 60 fps , especially first person titles . 
+  on the other hand i could n't care less about 1080p, 
+  in the past it did n't work ( you needed visual studio shell which is free but it was annoying ) . 
+  the latest release does . 
+  where does it say in your link that this is cost to build for ms ? 
+  of course sony are on top and do not need to react , i never argued the opposite . 
+  sorry , bad wording . 
+  what i meant was that sony were selling at a good price from the start so in a way their reaction was executed before it was even needed . 
+  there are definitely games that are jaw dropping and fun that are not 60fps but i claim that the very same games with reduced graphics quality and 60 fps would be better . 
+  become educated non-manual workers ? 
+  is there a tool to easily produce this type of slides . 
+  like where i only type the text and do n't bother to change the sizes manually . 
+  it always seems to be the first one that appears . 
+  and your issue with mono is ? 
+  i do n't know but this is irrelevant in this context . 
+  i am pretty sure none of the other technologies that you can choose instead of . net supports ef 5 +, 
+  fair point . 
+  so what tech would you choose instead of mono to achieve the best results . 
+  i mean php may be easy to install but would that be enough of a reason to develop a project with it ? 
+  ok but i am asking / u/teslawasgay to state his opinion on the matter . 
+  ok but this comments thread started with the presumption that windows is a big problem . 
+  this is why i asked about mono . 
+  the motivation seems like bullshit to me . 
+  first of all if i run in the cloud i probably do n't care about the overhead of the framework that much . 
+  after all the cloud is supposed to scale . 
+  on the other hand linq to sql would have been much better solution for winrt like it was in silverlight for wp7 ( just needed better tooling ), 
+  i expect them to discover component programming . 
+  it seems like they are on that path with flux . 
+  they are moving fast , just a few months ago they discovered static typing . 
+  in tech you may have bad people skills but you ca n't be totally lacking them and not being able to talk to people . 
+  dumbing down the resume does n't sound as hard as learning enough tech to make it impressive . 
+  you underestimate the `` patent trap '' bullshit . 
+  they will just play the eee card again , 
+  what do the percentages mean ? 
+  i am all for privacy , security and such , i use two factor authentication everywhere it is supported and jump through other hoops although i never had anything important stored in my accounts but using an im that does n't support offline messages is just too much for me . 
+  in my opinion skype is infinitely better now .

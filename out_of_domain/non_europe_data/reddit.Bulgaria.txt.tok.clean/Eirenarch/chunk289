@@ -1,0 +1,100 @@
+  if you got to `` wo n't fix '' it was good . 
+  connect was so bad that sometimes you literally could not post a bug due to bug in the site . 
+  i have n't tried but from what i 've read the msbuild stuff does not work yet ( on 1.1 ), 
+  i agree about weighing it against other stacks but i was replying to a comment saying that the existing users are the one who would be adopting core first . 
+  i argue that the existing users are the one that are selected in a way that would make them stick to the full framework for longer . 
+  first of all i doubt there will be no . net 4.7 . 
+  but more importantly why does it matter if it takes half a decade for core to catch up to full . 
+  yes core will get versions with stuff which full already has . 
+  to be honest this is not pointing out to boxing/unboxing . 
+  this is pointing out to the value of the value type optimization for the enumerator that can not be used when using an interface, 
+  beware with the comments . 
+  there are some good types of comments, 
+  - comments that explain the algorithm for a complex method . 
+  those usually are written at the start of the method . 
+  these usually refer to the specification and are written inline just to avoid forcing the reader to jump to the specification document . 
+  - comments that explain why ugly code is intentionally left ugly . 
+  those are usually there when the code is ugly for performance reasons , for legacy reasons , some subtle requirement that may be missed if someone makes the code pretty or to apologize that you are a noob and wrote bad code . 
+  - the doc comments ( usually special syntax above methods ) that show up as hints in the ide and can be used to generate some form of documentation . 
+  comments that just explain what your code does are bad . 
+  note that every comment has a cost . 
+  it has to be maintained and there is a chance that the code is changed but the comment is forgotten . 
+  this is true even for the good comments so this cost should be weighed against the benefits . 
+  for example you should not usually write doc comments on your private methods since the value is low but the cost is still there . 
+  not really . 
+  if the enumerator was a reference type to begin with it would still incur the same cost regardless of the fact that there would be no boxing . 
+  so what ? 
+  it is inevitable that some day . net will be legacy technology like cobol . 
+  do i have to abandon it now when it is still the best choice ? 
+  cuba is not free with castro 's death . 
+  also please release a full campaign rather than 3 missions at a time . 
+  i second the idea of no animated cutscenes . 
+  1 for intro and 1 for the end is good enough . 
+  also please no comic book style story , please tell it in game like in sc1/brood war, 
+  as long as it is profitable it makes sense to hire more people . 
+  this is kind of obvious solution . 
+  portal 2 had this so why not sc2 ? 
+  but level design ( i.e. 
+  being good with the editor and having good ideas about the game ) are not exactly the technical job openings google/facebook/microsoft have . 
+  true but there is a community out there already making stuff with the editor , those people are hirable . 
+  in addition learning to use the editor takes far less time compared to learning to program game graphics for example . 
+  i do n't know much about the comic book but i sure as hell rooted for him in the daredevil netflix series , 
+  the premise is of course wrong . 
+  libertarians as a whole are not pro-trump . 
+  on hillary vs trump we 're quite divided . 
+  i am firmly in the trump camp when compared to hillary because, 
+  hillary is such a failure in every possible way surpassing everything trump could possibly fail at and this includes social issues ( remember that kkk mentor ? ), 
+  trump destroys social justice warriors . 
+  for me personally cultural marxism is on the top of my list of threats to liberty . 
+  trump is for less taxation , government regulation and social welfare compared to clinton . 
+  when balancing the social freedoms and the economic freedoms libertarianism stands for i 'll always err on the side of economic freedoms . 
+  as i see it if you have economic freedoms you can always buy the social freedoms in some way . 
+  for example if you have money and want to have abortion you can just travel to a country where abortion is legal - problem solved . 
+  the fact that he knows people in the establishment and moved in those circles does not mean that he is establishment candidate . 
+  i firmly believe that he is anti-establishment . 
+  all the media and state machine was working against him . 
+  he is more like a person who had his place in the establishment but broke the establishment rules by demanding much more than his established place so he in fact broke the establishment . 
+  i do n't get where people get the idea that trump is a racist . 
+  i have not seen one quote from him that i would consider even remotely racist . 
+  so in that regard trump is as libertarian as it gets, 
+  i would be an anarchist but i am not handsome , brave , clever , strong and generous enough so i am a minarchist, 
+  i 'd answer `` strongly republican '' in the ron paul sense ( i.e. 
+  constitutionalist ), 
+  i wish it was correlated with so reputation, 
+  for the sake of argument ? 
+  is there a tl ; dr ; ? 
+   c # will soonish implement a way of indicating that a type is nullable, 
+  do n't hold your breath . 
+  i believe this proposal will go down . 
+  too much legacy , too many problems , a lot of valid code that becomes compile-time error . 
+  are there stats . 
+  like how many games did it take ? 
+  irrelevant distinction . 
+  you can not just release a language change that will produce infinite amount of warnings on code that is currently fine . 
+  they can hide it behind flags but it is still problematic and it still blocks some existing patterns which are perfectly fine code like thrownotfoundifnull ( someobject ), 
+  so someobject is an object of nullable type . 
+  say you just got it from the database and null indicates that there was no record for that id so you want to return 404 not found by throwing httpresponseexception . 
+  you do this on the second line in the method and you know that the value is not null after that but the compiler does not know that and spits a warning on every usage of someobject after this point . 
+  note that things like code contracts can handle this via post conditions . 
+  make me !, 
+  can it ? 
+  that 's great !, 
+  interesting how it would work if it interoperates with javascript . 
+  it could but it was n't in the proposal and there will be issues with libraries unless it relies on something like code contracts, 
+  so the left insists on living in denial . 
+  go ahead - censor as much as you like and then be surprised when trump wins , brexit happens and so on . 
+  this is quite a significant number i think i have like 6000 1 vs 1 and 2000 team for the past 6 years . 
+  yeah ... but it seems to me that this approach is unacceptable for c # . 
+  you ca n't just generate a warning because the user moved that method in another assembly . 
+  how to expand on a diagnosis from a tweet . 
+  some true house skills here . 
+  and decorators are stable typescript feature even if they are not yet stable in javascript . 
+  the latter does n't matter since you are transpiling to downlevel js anyway so even if the feature is dropped from js it can still be transpiled the same way . 
+  well ... 
+  open borders . 
+  i disagree with the arguments against open borders for economical reasons ( i.e. 
+  `` they took your jobs ! '' ), 
+  but i think having closed borders for cultural reasons is fine . 
+  i was thinking the same thing . 
+  and trump does n't strike me as one who would let people under him make him look like a fool . 
+  unless this guy really convinces trump that marijuana should be banned trump will replace him in a heartbeat if he disobeys .

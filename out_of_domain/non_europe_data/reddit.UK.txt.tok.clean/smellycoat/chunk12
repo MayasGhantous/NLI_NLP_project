@@ -1,0 +1,100 @@
+  that 's not to say that i like php , or the way many people use it . 
+  nor do i think eschewing good development practices in favour of a minor speed boost is intelligent use of resources in most situations . 
+  but the fact remains that a quick-and-dirty php script can likely do the same job as some code bolted into a big scary java appserver , often using fewer resources . 
+   i suspect whoever is in charge of optimizing has a `` play book '', 
+  or , a script , maybe ? 
+  this is the future , after all . 
+  take it slow . 
+  use your mouth to pull in small drags and then inhale it in one go . 
+  then exhale relatively quickly . 
+  once you get the hang of it , try to hold it in for a second or two before exhaling . 
+  do n't listen to the ageing hippies that claim ` coughing make it work quicker ' , and do n't try to hold your breath for more than a couple of seconds , it does n't make any significant difference . 
+  ( and all that 's happening there is the lack of oxygen is making you slightly lightheaded ) . 
+  try alternative smoking methods until you find one that suits you ( pipes , water pipes/bongs , joints . 
+  even a vaporiser if you get the chance ) . 
+  as has been mentioned , perl best practices is definitely worth a read ( although ignore the section about oo and use [ moose ] ( http://search.cpan.org/perldoc?moose ) instead ) . 
+  i do n't necessarily agree with everything in there , but it really made me think about how i approach coding in perl . 
+  i 'd go as far to say my perl code is now cleaner , and more maintainable than much of the python i 've worked on . 
+  i disagree . 
+  from my point of view , at least , perl 6 effectively revitalised the perl 5 community . 
+  for example , moose came about as a result of the research done into meta object systems for perl 6 . 
+  heh , fair enough . 
+  you 're probably right that the homepage is hand-optimised ( at least in part ) . 
+  my comment was n't intended to call you stupid or anything , simply a cheap laugh , 
+  i 'm not entirely convinced hanlon 's razor applies in this case , mind ( that is , neither malice nor stupidity ) . 
+  as i suspect google are doing it on their homepage ( if not elsewhere ) as a deliberate optimisation technique weighed against the increased maintenance overhead . 
+  i also suspect they have tested the shit out of it on every conceivable device , given that they have the resources to do that . 
+  which is why i 'll be sticking to vaguely-valid html , as i do n't have access to the same resources !, 
+  i do n't count lines . 
+  i do n't find it 's a sensible measurement of anything apart from the amount of typing i 've done . 
+  nor do i strive for the shortest code possible as many people are stating . 
+  i prefer to go with whatever is clearest and most self-documenting . 
+  although i do certainly agree that shorter code is often better code . 
+  i have been working on the same codebases for many years , and anything new i work on tends to be something * i * will have to maintain . 
+  so ( having been bitten in the past by being `` too clever '' ) i take some steps to make my life easier when i come back to the code later . 
+  if that means i refactor a long statement into several lines with sensibly-named temporary variables ( for no other reason than to explain the calculation without resorting to extra comments ) , then so be it . 
+  if * that * means that my one-liner turns into something that should be moved to its own method/class/function / whatever , then that 's fine too . 
+  on the other hand , if i 'm dealing with something large , the best course of action is often to try my best to make the code smaller and more elegant ( adding more cleverness !, 
+  ) , as that 'll help me get it all back into my head at a later date . 
+  whatever it takes to make future-me not hate current-me , basically , 
+  i love this :, 
+   what an amazing performer . 
+  a genius musician and this idea shows that his intelligence and creativity went beyond music . 
+  last week that 'd have been :, 
+   reddit hates apple for no reason . 
+  i think you 'll find that 's more like , `` reddit does n't unconditionally spunk over everything apple produces regardless of how good it actually is '' . 
+  for me , ipods are a pain in the arse because they force you to use itunes ( which , personally , i hate ) , and they do n't support ogg or flac . 
+  yes , you can put rockbox on older ones , which lets you just dump files on there without using any software , but that 's hardly ideal . 
+  i also am not keen on the way ipods are clearly designed to be temporary , disposable devices ; they get scratched seemingly immediately after unwrapping them , the battery ca n't easily be replaced , and they seem to release a new model every 25 minutes . 
+  i think you 'll find that if/when apple churns out good products , the reddit masses ( and i ) will fawn over them just as everyone else . 
+  after napster disappeared , free-for-all piracy stagnated . 
+  we were left with pale imitations that turned into vehicles for pay services , spyware-filled clients , extremely low quality releases and virus-filled downloads . 
+  it was only bittorrent that turned it around . 
+  suprnova 's death pretty much killed off the usefulness of random public trackers , and since then more and more stuff has become centralised around tpb . 
+  with tpb gone , i suspect there will be a lot of activity around private trackers , as public trackers will quickly be picked off by the authorities . 
+  i 'm most disappointed that the tpb guys sold out , to be honest - they stood for much more than a convenient place to get pirated software . 
+   . . someone can simultaneously be a good musician and a pedophile . 
+  erm . 
+  like one of those one-man band affairs ? 
+  bass drum on the right foot , harmonica around the neck , and a six-year old boy strapped to the left thigh . . ? 
+  i totally would , you 're right . 
+  which is why an entire generation does n't look up to me for selflessly championing a relatively lost cause . 
+  i do n't mind people selling out as such , and if anyone deserves it , they do . 
+  i just wish they would n't claim `` everything will be exactly the same '' . 
+  [ jesus on es !, 
+  ] ( http://www.youtube.com/watch?v=y7px3jaf_5q ), 
+   as soon as i mention apple in a comment its like a swarm of downvoters attack me . 
+  yeah , that 's the quick response apple fanboy brigade . 
+  they do certainly get in quick with the downvotes , but there are n't usually enough of them to make a difference to a non-obvious-troll comment , 
+   but i do appreciate their products . 
+  me too , well , some of them . 
+  they know how to make a nice computer , i 'll give them that . 
+  just a shame it 's a bit pricey ( i 'd own one if it were n't for the cost ) . 
+  their os is pretty good too , certainly a lot better than windows . 
+  i 'm not a fan of ipods though ( although i do own one ) . 
+  it does , does n't it . 
+  i 'm kinda glad about that , but still slightly bitter than when i switched back to html4 .01 strict several years ago , i took * endless * amounts of shit for it . 
+  some very useful enhancements to psql , too, 
+   function editor, 
+   \\ ef < functioname  [ in psql ] will bring up a special function editor with placeholders for the parts of a function , making it simple to maintain functions directly in psql rather than needing to use text files . 
+   version-awareness, 
+   8.4 's psql will be backwards-compatible with several earlier versions of postgresql , including the informational commands . 
+  this will allow users to upgrade to the latest version of psql without worrying about having full features with older servers . 
+  for maintaining a complicated codebase , i completely agree . 
+  however i 've often wanted something like this so i can play around and tweak stuff quickly and easily when developing . 
+  hixie is being extremely reasonable and sensible about the whole < video  codec issue . 
+  it 's important for html5 to be implemented swiftly relatively consistently by all of the major browser vendors for it to actually be useful , and to do that the spec needs to be something they 're actually willing to implement . 
+  making things the vendors do not like part of the spec will slow that down . 
+  however i 'm not sure that getting html5 completely supported everywhere is * all * that useful if it 's missing bits . 
+  here 's my completely uninformed and mostly-pulled-out-of-my-arse guess what will happen if the spec mandates theora :, 
+  * firefox will work fine, 
+  * chrome will work fine , but google will bitch and complain and try using h264 for youtube a while ( and use it to push chrome ) , but ultimately switch to theora, 
+  * opera will be fine, 
+  * apple will bitch like girls , but safari will get there eventually, 
+  * microsoft will ( eventually ) do enough to tick boxes ( ie , make youtube work ) , plus produce their own random alternative that nobody will use , but will crop up later in a raft of security exploits . 
+  * firefox will flounder a bit , but find a way to implement h264 eventually, 
+  * chrome will be fine , and google will be happy , youtube will go ahead with h264 and just wait for everyone else to catch up ( and use it to push chrome ), 
+  * opera will bitch and complain , but stump up the cash eventually, 
+  * safari will be fine, 
+  * microsoft will ( eventually ) do enough to tick boxes ( ie , make youtube work ) , plus produce their own random alternative that nobody will use , but will crop up later in a raft of security exploits . 
+  if html5 does n't specify codecs :,

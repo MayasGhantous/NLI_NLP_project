@@ -1,0 +1,100 @@
+  btw what is your opinion on the so called defensive cheese ( which i also employ often ) - when you go super greedy in hope that your opponent wo n't attack ? 
+  ok then stop giving starbow as an example because i have no idea what happens there . 
+  i have played starcraft 1 , warcraft ii , warcraft iii , company of heroes and starcraft ii competitively . 
+  you may use an example from these games if you want to make a point with another game . 
+  i do n't know why you are stuck on these super early cheeses . 
+  safe for the 2rax none of these is significant issues and combined they happen in less than 30 % of the games on the ladder . 
+  cheeses like proxy oracle , baneling busts and similar are much more common and they do require multitasking . 
+  yes i am trying to find ways to abuse the game ( in fact i was playing super turtle raven mech back in wol and refining my own variation way before it became popular after the mech upgrades buffs in wol . 
+  for me the interesting part of the game is trying to find and refine effective strategy and seeing others do it . 
+  this is why i have no interest in seeing mechanics competition or participating in it . 
+  it is simply not interesting . 
+  also the luck involved with cheese is the kind of luck you see in poker . 
+  it simply does not matter what you get in the particular game but it matters what you get in the long run and the correct way to play is dividing your strategies proportionally according to their effectiveness . 
+  just like in poker you can play the same hand in one way 30 % of the time and another 70 % of the time and this is the correct thing to do ( playing the more effective hand 100 % of the time is not correct ) . 
+  same with cheese - you should play it depending on the amount of times you win with it . 
+  if you win more play it more if you stop winning reduce it because obviously it is expected . 
+  it matters if cheese strategies require multitasking because it means that it is an element of the game . 
+  reducing elements of the game you are bad at and increasing the ones you are good at is a core and the most important part of strategy . 
+  the point of the poker example is to show that 30 % stupid is clever overall because it means the opponent can not know what you are gon na play . 
+  basically if cheese did n't exist players could skip scouting or go 3 hatch before pool every game . 
+  my point is that if there are people that enjoy playing and seeing cheese then maybe it is not bad for the game . 
+  from my point of view of a player who likes cheesing and watching cheese it is good for the game . 
+  it makes me play and watch more . 
+  if it turns out that the majority of the potential ( not current ) player base likes cheesing then removing cheese may turn out to be bad for the game . 
+  and this is why c # is such a beautiful language . 
+  they think of these small details . 
+  when i read the title i thought it was an article to make you a better js hater and avoid hating on js for things it does not deserve and focus on the actual problems ... so disappointed :(, 
+  i could n't if it was a boolean value but in reality some languages prevent more mistakes than others and php not only allows but sometimes provokes bad code . 
+  being mechanically difficult is by far the worst quality sc2 has for its adoption . 
+  people who complain are people who are left with the game after years of making the maps bigger and changing the game design to make defending a natural expansion super easy . 
+  oh if only they could add generators and build async/await on top of them ( this is relatively easy to do with a library once you have generators but still ... ) and then add polyfills for these in older it would be sooo great ( or at least as great as being forced to produce code for the browser can be ) . 
+  i would go and play a moba if it did n't have even more serious flaws . 
+  however note that mobas are much more popular than sc2 so mobas actually support my suggestion that mechanics requirements and especially pushing the game towards a state where even more mechanics are required hurts the popularity of the game . 
+  i can live with a library level support for async/await but i do want to target es5 with generators even if that means less readable output ( i.e. 
+  sure . 
+  alienating more users by promoting mechanics than by not promoting them is an assumption too . 
+  however i do admit that most people who do n't care about mechanics have already been chased out so currently it is true that diminishing the importance of mechanics will alienate the current user base . 
+  the original and the potential user base of sc is different . 
+  in 98 nobody was talking about mechanics only about strategy . 
+  in fact i clearly remember laughing at players who clicked fast . 
+  depends on your definition of `` recent '' . 
+  . net core is but roslyn is on codeplex . 
+  github has a web ui that is a bit nicer but overall i do not see a big difference . 
+  unranked and ladder are the same thing in terms of player pools . 
+  you can play unranked and hit a player playing ranked ( difference is you wo n't get or lose points he will ) . 
+  the real reason it took long time is that people play hots . 
+  in hots you will spend probably 10 seconds waiting . 
+  it can if the language has generators since generators and async/await are essentially the same language feature . 
+  c # has had async/await library ( asynchronous enumerator ) since 2.0 . 
+  nicer syntax ( i.e. 
+  keywords that match usage and shaving off some of the redundant parts of the syntax ) . 
+  note that when working with async enumerator in c # you write yield 1 instead of await which is not ideal . 
+  in the c # case also some minor details when dealing with exceptions and integration with tasks parallel library . 
+  i do n't really know what will be the case for it in js but i assume nicer syntax and integration with promises applies too . 
+  so what ? 
+  if someone wants to contribute to roslyn then he surely can create a codeplex account ( let alone that it is very unlikely that anyone interested in contributing to roslyn does n't have a codeplex account already ) . 
+  what is more it is unlikely that there are a great number of outside contributions to roslyn . 
+  the bar there is very high . 
+  discussions - sure but actual code contributions are almost sure to come from people closely related or working for microsoft . 
+  since they all but promised pattern matching for c # 7 i feel like union types are very likely as well . 
+  prison gives meaning to their rebellion . 
+  i do n't mind rebellion but they should be prepared to face the consequences or have enough skills to remain uncaught . 
+  i have 0 experience with bash . 
+  am i right when assuming that this basically loops through all the arguments , sets timer ( or starts threads ? ), 
+  where the wait time for each timer is the value of the item from the input and then prints the number . 
+  the timers complete in sorted order and this is how the input is sorted ? 
+  looks more like counting sort . 
+  can you explain how sleep works in bash ? 
+  in most languages sleep blocks but it seems that this sleep spawns a thread or something . 
+  i think it actually does sort the input in linear time . 
+  the algorithm here is counting sort which is a linear time sorting algorithm ( of course it has constraints ) . 
+  sleep sort uses timers as an array of counters but algorithmically it is a linear time algorithm . 
+  it is actually the & doing the magic . 
+  i still think it is irrelevant for the development of roslyn . 
+  yeah it may be nice for people spending their time on github but the value for the project itself is almost 0 . 
+  of course there is no benefit from hosting it on codeplex either but this is how they started so they can just keep it . 
+  i believe the running time is linear in the size of the input ( i.e. 
+  o ( n ) ) but it is dependent on max ( input ) . 
+  the running time is dominated by things that are not the size of the input . 
+  yes you are correct but it is linear in the size of the input . 
+  it is however dominated by max ( input ), 
+  great point . 
+  oh you thought that i was referring to any random project ? 
+  it certainly makes a difference for most open source projects but not for roslyn . 
+  roslyn is more of an exception . 
+  on your project requirements , 
+  hmm then can we say that the running time is max ( max ( input ) , nlogn ) since the actual running time will be the greater of the two ? 
+  over php ? 
+  always !, 
+  except for the times you are paid to do it in php . 
+  now of course there are other valid questions like, 
+  `` why does anybody pay to get a php product over a . net product ? '', 
+  `` how much more should i be paid to write php over . net and do hookers make more than developers and if i am willing to write php for money how do i feel about becoming a hooker ? '', 
+  now on a more serious note i will assume you were asking about python rather than php . 
+  then assuming i was a stakeholder i would use python if i needed to deploy on * nix and had a team of experienced and high-quality ( not the same as experienced ) developers . 
+  i would use . net if i could deploy on windows ( this is not a problem when you are responsible for one live installation and do not have to deploy in the customers environment ) and if i had a mixed team of average developers , junior developers and experienced and high-quality developers since in my personal opinion languages like c # allow for architectures where the core code ( usually developed by the most experienced developers ) can `` control '' what is legal with the client code so basically it is easier to prevent errors from the junior programmers in c # than it is in python . 
+  that being said python allows for very clever `` magic '' but `` magic '' is bad if you do not understand it and know how to control it . 
+  however very good developers are more productive when given freedom . 
+  they will use it wisely . 
+  i do n't care what anyone says .

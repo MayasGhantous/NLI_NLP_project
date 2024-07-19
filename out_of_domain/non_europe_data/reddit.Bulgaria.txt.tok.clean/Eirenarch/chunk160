@@ -1,0 +1,100 @@
+  the component concept is far superior to any barebones mvc . 
+   the entire concept is flawed !, 
+  i strongly disagree . 
+  component programming is great . 
+  while webforms has flaws ( mainly artefacts of the time it was created in when it was considered a bad practice to write javascript ) the core concept is far superior to what asp.net mvc offers . 
+  i hope frameworks like react.js prove that component is the way to go and we get something like react.net that is a component framework on top of asp.net 5 . 
+  i actually made a habit to write enableviewstate = false on every control  on the other hand when i actually needed viewstate in asp.net mvc i was far more annoyed to build it manually via hidden field than i was by disabling it in web forms . 
+  some websites do need to be built using rendering on the server but from where i stand it looks like most web development is not web sites . 
+  it is either systems that replace desktop apps or new application like-experiences . 
+  the last two projects i worked on were spas , the previous one could have been if we were not lazy  also if we have some kind of isomorphic framework ( react.js ) we could build things once and they work like a spa but serve the same html from the server if you requested the url directly . 
+  i assumed tag helpers are statically checked for correctness ( whatever correctness means in each case ), 
+  i seriously wonder what is the benefit of having health bars on always instead of damaged . 
+  interestingly i have the opposite issue with health bars on always . 
+  it makes it hard for me to distinguish units . 
+  i am surely one of those people and i do n't get your point . 
+  web pages is code smell as is traditional php fashion . 
+  well i am sure a lot of people can if you pay them . 
+  in fact i suspect your own team can do it if management agrees on a budget for the transition , 
+  ok whatever . 
+  i just want to have a package of view and behavior that can raise events that i call components . 
+  not some disconnected collection of controllers and views . 
+  there is no more information displayed in `` always '' it is just displayed in a more annoying way . 
+  from the java world i liked wicket . 
+  too bad java is not as good as c # for component programming . 
+  no events and no properties matters a lot when you are dealing with components . 
+  another way to look at this overhead is as abstraction . 
+  in many projects you really do n't care about that html . 
+  ideally you would never care . 
+  it is an implementation detail that should be abstracted away . 
+  sadly the web forms abstraction is far from perfect and leaks far too often . 
+  on the other hand i really really want to bundle the view and the code that supports the view together in a component . 
+  this encapsulation is very valuable and in some projects it is more valuable than control over the html . 
+  and really the argument about the viewstate does n't make sense . 
+  i had problems with it just once - the first time i had to deal with it . 
+  then i learned what it did and began to turn it off . 
+  for many years it is off by default in new project templates . 
+  give it a rest already !, 
+  the viewstate these days is more useful than problematic . 
+  the only time i have heard of him was the katowice scandal . 
+  so tell me again that story about how operator overloading is useless and hurts the language . 
+   and yes , abstractions will always leak at one point or another . 
+  abstractions leak and still we do n't write assembly . 
+  abstractions are useful despite the fact that they leak . 
+  they are a net positive . 
+   in some projects . 
+  in most , you need to be in control of the html to support the rich client side experience demanded today and the supporting code is just an api you talk to 9 times out of 10 . 
+  this is because the way we build web applications changed significantly very fast so the abstractions designed to build wikipedia - style websites of 2005 are bad for what we do today . 
+  however if dust settles an useful abstraction around the way we build apps will be possible and will surely be developed and it will be component based . 
+  something like react maybe . 
+  this has happened before . 
+  see the desktop . 
+  the way we build desktop apps has n't changed in decades and this is why we use very high level abstractions which are component based . 
+  as for the viewstate - i do use the viewstate it is just not good to have it on by default . 
+  in most cases you do not need it . 
+  when i need it i use it . 
+  as i pointed out viewstate is off by default for half a decade now . 
+  it is impossible to run into a viewstate problem these days unless you opted in and if you did you probably know what you are doing . 
+  i can point to a lot of problems with web forms but viewstate wo n't even be on the list . 
+  it was only a problem in your first application that you wrote in 2005 and never again . 
+  i have an offtopic question . 
+  i really hate the iq test questions that list a sequence of numbers and ask you to provide the next . 
+  i 've always maintained that they are really stupid since for every sequence and any number there exists a function that will match the sequence on input 1 , 2 , 3 , 4 ... 
+  i even saw it as a meme recently - http://img0.joyreactor.com/pics/post/auto-9gag-1685588.jpeg, 
+  so i want to write a program that gets a sequence and a number and derives such a function . 
+  if my math serves me correctly this is done via [ lagrange polynomial ] ( http://en.wikipedia.org/wiki/lagrange_polynomial ) . 
+  so i wonder if this tool is suitable to solve that problem ? 
+  i love the future . 
+  for c # they never did . 
+  in fact they standardized it like a decade ago . 
+  more interesting is how many unit tests on actual php standard library fail . 
+  i remember several years ago it was some brutal number like 15 % . 
+  so did they fix it or it was never true ? 
+  thanks for clarifying this . 
+  well this has been available from 2008 or something . 
+  there was one announcement at some point about bundling or unbundling ie with windows and the ballot screen or something i ca n't remember and there were a bunch of french guys coming to complain . 
+  it seems like the link got posted on some french website with hate towards ms and total misunderstanding of what they were announcing . 
+  so there were a lot of complaints but this comment was standing out :, 
+   i am ferench and i would n't ie, 
+  it is easy when you do n't have customers , 
+  it is practically impossible to run into viewstate issues these days . 
+  how would you if it is off by default ? 
+  it never loads - that 's it . 
+  web forms was is a fine abstraction for websites like wikipedia . 
+  i would say the best out there . 
+  also given the choice i would fight the viewstate , the lifecycle and everything else rather than fight html , the dom and similar shitty tech . 
+  problem is i am not given the choice anymore . 
+  they always port security patches to every supported version of the browser and any other software . 
+  however developing the newest version will be easier for them . 
+  i use ie . 
+  it is more of a habbit these days but i really do n't see any significant downsides . 
+  also ie is outright the best tablet ( touch ) browser . 
+  i wonder does this result in improved stability . 
+  browser crashes and hangs are my top concern with the browsers of today ( not only ie ) . 
+  i am especially annoyed when the frame in ie freezes despite the fact that it uses separate processes for tabs . 
+  i have been forced out of the cozy bubble for the better part of a decade . 
+  i have learned things i did n't want to . 
+  the cozy bubble was fine and i would like to return thank you . 
+  the raw web is million times more problematic than web forms . 
+  a list of checkboxes in mvc is endless fun especially since http ca n't distinguish between non-existing checkbox and unchecked checkbox . 
+  i know that but i do n't want to know that .

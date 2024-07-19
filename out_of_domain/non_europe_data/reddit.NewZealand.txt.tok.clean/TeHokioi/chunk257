@@ -1,0 +1,100 @@
+  okay , so months ago new civ posts would generally get around 500-700 upvotes , breaking 1000 if they were any good . 
+  recently though ( since about the release of 3d australia ) they 've been only getting around 100-200 , with a tenth of the comments that they used to . 
+  now , please note that i 'm not trying to beg for upvotes or whatever , i 'm just trying to figure out if the decline in the number of upvotes is indicative of a decline in interest in civ mod posts , and whether people have become less interested in them as of late . 
+  so pretty much , what i 'd like to know as a mod author and one of the main posters of civ mods , is whether the you / the subreddit is still interested in seeing these posts , and the standard why / why not . 
+  i do n't want to keep flooding the subreddit with new civs if people are sick of seeing them , and likewise if people would prefer they be presented in a different way then that 's important info for us too . 
+  ultimately though , this is just me asking for any feedback you have on the modded civ posts - whether you want to keep seeing them or not , if you have an idea for them , if you would prefer to see them in a different way , or anything . 
+  i 'm all ears . 
+  i 'm currently trying to create a map , but some of the elements i 'm wanting to have do n't work because of limitations either with what map makers can do or because tiles do n't exist yet . 
+  these are just a couple i can think of off the top of my head , there 's probably more that others can think of which are n't coming to me right now . 
+  ** ability to set boost countdown ** - so this can already be done in groups along with bombs , but not in individual maps . 
+  i 've got a pinball-style launcher thing in my map from the team bases to the central flag , but because i ca n't change the boost countdown on the individual boosts it only works for the first 1-2 people , meaning the rest of the team have to make a slow march up the map . 
+  ** one-way gates ** - i 've seen this suggested before , but at the moment the only way it can be done is through a huge and cumbersome arrangement of walls and portals . 
+  being able to shrink it into one tile would be a huge help not only for aspects of maps which require it ( such as a shortcut being a route in but not out of a base ) but also for the racing league , which currently has to use portals to ensure people do n't be dicks and go backwards around the track . 
+  just heard a huge noise outside for the second time , sounded like a fighter jet or something flying over the house . 
+  anyone else around the west of the city hearing this ? 
+  by this , i 'm meaning the republics around the first half of the 19th century , like [ texas ] ( http://en.wikipedia.org/wiki/republic_of_texas ) , [ baja california ] ( http://en.wikipedia.org/wiki/republic_of_baja_california ) , [ sonora ] ( http://en.wikipedia.org/wiki/republic_of_sonora ) , [ yucatan ] ( http://en.wikipedia.org/wiki/republic_of_yucat%c3%a1n ) and so on . 
+  i 'm thinking either full on all of them ( including texas and probably california too ) or just the mexican ones , but would be interesting to see how history would play out if there were a bunch of states instead of just mexico, 
+  okay so yeah , this is pretty much where i 'm trying to figure out a replacement css for / r/newzealand . 
+  this thread will be where people can post feedback / suggestions / bugs or whatever , or hopefully offer help . 
+  it 's also to make sure things look decent with posts and all that . 
+  *** bugs / still tbd : ***, 
+  * ~ ~ new flairs do n't show up - old ones work fine , it 's just the ones / u / - halcyon did that are blank ~ ~, 
+  * ~ ~ new top bar background image ~ ~, 
+  * ~ ~ new central image ( coat of arms or just `` new zealand '' ? 
+  * ~ ~ updated snoo and reddit image if we 're sticking with a black bg . ~ ~, 
+  * other stuff i have n't found yet, 
+  * probably some sidebar work too , ~ ~ one of those maps would be cool ~ ~, 
+  * ~ ~ ** new : ** fix userbar to be correct height ~ ~, 
+  as some of you may know , myself and / u / - halcyon have been working on developing a new css for the subreddit , since the current one leaves a lot to be desired . 
+  we 've based it off the dscvry theme ( / r/dscvry ) by / u/doingstuffcarl and / u/jillpatel , and have taken some elements from a bunch of other subreddits . 
+  ** you can see the progress over at / r/nzcss **, 
+  we 're still a wee way off completion , but this is what we 've done so far :, 
+  * new main image and header, 
+  * added new flairs by / u / - halcyon, 
+  * added in a / r/cricket style sidebar image which can be changed, 
+  * cleaner looking subreddit, 
+  * updated sidebar , with / r/scotland-style headers , collapsible sections and potentially a map for subreddits ( note : sidebar will also be cleaned of unnecessary stuff with this ), 
+  * new background image for header , although we may still change it, 
+  this is what we 've currently got on the cards , but have n't had a chance to get around to yet :, 
+  * make night mode easily accessible, 
+  * updated snoo image, 
+  * post flair system and ability to hide certain flairs ( / r/india or / r/worldnews style ? ), 
+  this is n't an exhaustive list , it 's just what we 've noted down as stuff which needs to be done before we could even think about porting it over . 
+  but this brings us to the point of the thread - since you lot are the ones who are going to have to put up with the new skin , we want to make sure you 're happy with it . 
+  so this is a place for anyone to give feedback on the skin so far , as well as say what you 'd want changed ( if anything ) as well as if you have any suggestions for features we could implement , since this is probably the only major update the css will get for a while , if the past 7 years are anything to go by . 
+  i 've probably forgotten something in this post , so hopefully someone else will pick up on it and let me know , but yeah . 
+  if a mod could sticky this that 'd be awesome, 
+  ( reminder : / r/nzcss for current progress and wip model ), 
+  ** edit 14/07 : ** okay , there 's been a lot of work since this post . 
+  we 're way closer to a final version now , but it still needs a lot of polish . 
+  we may still change some aspects of it ( header image especially , depending on what halcyon thinks . ), 
+  what we need now is any suggestions people still have , and for people to check out parts of the subreddit for any bugs which we may have missed . 
+  the goal is for everything to be finalised soonish , so we can port a fully polished css over to here instead of having bugs and having to keep fixing it, 
+  might be a bit glitchy still , but it works hopefully . 
+  still need to figure some of it out , like how to hide the bullet points in the top left , but yeah . 
+  i 've been working on a new css for / r/newzealand on the testing subreddit / r/nzcss , and as part of the upgrade i added in one of the subreddit maps on the sidebar , like / r/scotland or / r/europe has . 
+  but for some reason the bullet points from the list of subreddits are still there on the left , so i have no idea if i 've done something wrong or if there 's a different way of doing it or something that i do n't know about , since i 've never done a css before and a lot of it is just following my nose and changing stuff to see what happens . 
+  any help would be hugely appreciated ( and at the same time what 's involved in getting the sidebar headings like / r/scotland and / r/canada have , if possible . ), 
+  thanks !, 
+  past couple days now i 've been having to play on centra , since it 's got lower ping than diameter for me . 
+  ca n't see anything on my end , figured i 'd check to see if anyone else was having any issues or if i have n't looked hard enough, 
+  okay , we 've made a fair bit of progress since last time . 
+  now we 're at the tail end of it , we need to start polishing stuff up and finding anything that still needs to be fixed . 
+  so if you can , please have a play around with the new stuff , see if anything is a bit rough around the edges that still needs some work . 
+  current list :, 
+  * ~ ~ submit page formatting is a bit squashed at the top ~ ~, 
+  * ~ ~ more flairs ( nz / r/rugbyunion ones , maybe some of the other ones from [ here ] ( https://www.reddit.com/r/newzealand/comments/3b9fge/could_we_get_regional_flair_going/ ) and some extras - old air nz tail design could be cool ) ~ ~, 
+  * night mode, 
+  * link flairs ? 
+  * ~ ~ subreddit title on sidebar ( above subscribe ) needs to be fixed ~ ~, 
+  * ~ ~ letter heights in header image to be fixed ~ ~, 
+  * ~ ~ condense the submissions a bit more on the main page ? ~ ~, 
+  since atomicgamer is shutting down later this month , civfanatics has had to locate a new host , and will migrate there in order to continue functioning . 
+  as part of the migration , cfc will go down at 2am gmt for the process to take place . 
+  at this point we 're expecting it to take the weekend , although depending on how the move goes this may change . 
+  we 'll post any news on out facebook and twitter pages , as well as in this topic , and will let you know as soon as we 're back online, 
+  sorry for the long delay everyone , but we 're finally finished with the migration and are pleased to announce that civfanatics is back up and running !, 
+  the reason for the longer than expected delay is because the first server we migrated to was not powerful enough , meaning the forum experienced significant lag making it unusable for many . 
+  we migrated a second time to a better , more powerful server and are now open again . 
+  there are still a few issues , as is to be expected , however we 're still working on them . 
+  a few user accounts seem to be missing ( we 've had this issue before though , and were able to resolve it reasonably quickly ) and the forum is still experiencing a small amount of lag , but none of this is serious . 
+  forum availability over the next week may be intermittent as the issues are resolved , but any outages will not last long . 
+  if you find any issues with the new forum or wish to give feedback , please either let us know in this thread or in the topic on civfanatics [ here ] ( http://forums.civfanatics.com/showthread.php?t=550564 ), 
+  thanks ,, 
+  the cfc team, 
+  so earlier / u/jahemian asked me if she could steal the / r/nz flairs , and since they were n't mine i suggested she ask the mods or whatever . 
+  but then i thought that i might as well try and sort out some / r/chch ones instead , so that it 's not just a duplicate of the national ones . 
+  got sidetracked tonight so did n't get around to it , but i 'll try to sort them out at some point in the next week or so if i do n't screw up my uni stuff . 
+  which brings me to the actual point of the post - does anyone have any flair requests ? 
+  do you want some general nz ones , or just chch / canterbury unique ones ? 
+  any in particular ? 
+  so far all i 've got is the three main tertiary ( uc , lincoln and cpit ) , a couple sports teams ( well , the crusaders and the npc , are there any other major teams from here ? ), 
+  and a couple local brews . 
+  there 's got to be more though , so i figured since it 's your subreddit too i 'd open the floor to any ideas, 
+  i 'm currently looking into the ottomans ( full disclosure , it 's for an essay ) and their rise to prominence prior to the fall of constantinople , and all the sources i 've found have just attributed it to a weakened byzantium , fractured political climate and the prominence of islam within their elites . 
+  but surely this would also apply to any number of the other turkic states in anatolia , so what made the ottomans special that they were able to become the major power and last for six centuries ? 
+  or does anyone know of something that could point me in the right direction , at least ( since i know askhistorians does n't like to do work for people ? ), 
+  figured that i should probably get feedback now that i 've spammed up jukejuice ( test was n't working on the map editor . ), 
+  updated version of an older map of mine that was too small , but this one 's big enough so you do n't spawn outside base so yeah . 
+  teleports near the button connect to the closest one in the middle , while the outside ones connect to the opposite one,

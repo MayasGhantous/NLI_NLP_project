@@ -1,0 +1,100 @@
+  that 's not what work stealing is at all . 
+  in fact that 's what async/await does which is what i was recommending . 
+  oh that 's easy because it happened only once - grim fandango . 
+  [ spoiler ] ( #s `` while playing the game you learn that purest souls in the land of the dead are given a ticket to the number 9 train . 
+  the ticket is golden and recognizes its owner . 
+  it trembles . 
+  in addition the people in the land of the dead do not remember the lives they have lead . 
+  they do n't know if they 've been good or bad . 
+  so the bad guys steal the tickets and sell them to bad souls to make a profit . 
+  you meet the leader of the resistance salvador lemones . 
+  he is tough and not always friendly to our hero . 
+  in the end of the game he dies and when we find a suitcase with a bunch of number 9 tickets one of them flies to the body of salvador indicating that he has been a good man and his ticket was stolen . 
+  made me very sad . 
+  also many people mention the ending of the walking dead season 1 but for me the strongest moment was n't the ending, 
+  [ spoiler ] ( #s `` the most brutal part is when you set up camp in the house of that family in the final chapters and you slowly find out how they died and when you find kenny in the attic looking at the zombie boy who apparently starved to death and does not even have the strength to move as a zombie '' ), 
+  ( i did n't actually cry on that one though ), 
+  i started playing again, 
+  i guess the agile crowd felt offended . 
+   in other news , rich people are getting richer and everyone keeps buying things from them anyway, 
+  bernie is gon na put an end to this !, 
+  i agree with the general statement but the proposition to copy/paste code is just bullshit . 
+  there is zero value in copy/pasting significant amount of code . 
+  you can delete it from one place but if it was not copy/pasted the delete would effectively delete much more code . 
+  of course i can define it . 
+  i hereby define `` significant '' as `` more than 5 statements '', 
+  that 's extremely stupid and useless . 
+  why did they do that ? 
+  what is the use of a training mode that does n't train you for multiplayer ? 
+  i meant why slow down the training instead of drop frames in training to simulate actual experience . 
+  but you can always reduce your graphic settings . 
+  do you feel random is unfair and should be banned in ladder and tournaments ? 
+  if yes why do you not abuse it by playing random ? 
+  is n't this solution the same in java ? 
+  i hope you do n't write code where so many objects can legally have a value of null . 
+  also please initialize types that have a constructor ( i.e. 
+  non-literals ) in the class constructor . 
+  the stream api is inferior as it does not work on iterable directly which means you need asstream ( ) calls and then collectors and what not . 
+  generics were in java before they were in c #, 
+  in my opinion properties alone make a great difference in readability between c # and java code . 
+  yeah generics in c # are better , linq is cooler than streams , we 've got async/await and dynamic and i like the . net standard library far more but if i am asked to choose between losing properties and replacing all of these with the java version i 'd choose properties without blinking . 
+  yes . 
+  discussions on c # generics started before java but java took the shortcut . 
+  it is a big deal since the whole point of lambdas is to produce short code . 
+  otherwise they could go on using anonymous classes and c # could go on using anonymous methods . 
+  a few more keywords - big deal . 
+  - makes it easier for the person reading the code to see all things the class initializes, 
+  - you can handle cases where one member depends on another for its initialization . 
+  of course you can refactor later when you encounter this case but still it is useful to follow the same pattern . 
+  - makes it easier to reason about exceptions . 
+  now of course the list constructor is n't throwing exceptions any time soon but many classes do and there is no obvious way to distinguish one from another . 
+  as for member initializers i am not even sure the order in which they execute is guaranteed let alone how to handle exceptions and what was the line that executed before the current line when my debugger breaks on that initializer exception . 
+  you mean that feature that does n't work unless your grunt/gulp file is in the root of your project ? 
+  who held it back before oracle bought it ? 
+  i think the biggest impact on streams comes from the fact that the iterable interface sucks . 
+  therefore you need to get in stream mode and exit stream mode while . net linq is simply compatible with foreach and every collection type out there . 
+  or alternative the design by committee approach sucks and having a dictator is better . 
+  the problem is not seeing the value of a single property . 
+  the problem is seeing the full object initialization . 
+  and then there is the problem with exceptions . 
+   i have n't seen anyone on here claim that the microsoft stack is n't scalable or solid, 
+  if by `` here '' you mean this thread you are correct but if you mean / r/programming you must be new here . 
+  although this is not the majority opinion it is voiced quite often . 
+  google , facebook , twitter , microsoft , amazon and netflix probably the only companies that have a reason to consider this setup `` tiny '' . 
+  most other companies that will consider this `` tiny '' probably failed at scaling and the so guys could engineer their systems to run on half the hardware . 
+  reminds me about spolsky 's comment about reddit running on some insane amount of servers . 
+  first of all they say that so could run on one server . 
+  that 's quite impressive . 
+  second do you suggest twitter failed at engineering when they were running ror and migrated due to performance issues ? 
+  the original statement was that any `` system '' can scale so i guess the statement still stands as wrong because in my book rails can be the bottleneck of a system . 
+   and it 's also a myth that faster languages take longer to build applications in . 
+  i can not imagine building a significantly complex app faster in ruby than in asp.net . 
+  now i have 0 experience with ruby but i have written a lot of javascript and misspelling of names a lot causes absurd amount of debugging . 
+  and if you do n't like typing them all over the place try f # for it has hindley-milner type inference . 
+  you did say that you can build scalable software with ror but twitter failed to do this . 
+  so either twitter engineers suck or ror sucks at scalability , 
+  the internet seems to disagree and the amount of type annotations required tells me the internet is right . 
+  so why is it an issue for me in javascript but would n't be an issue in ruby ? 
+  how is pure signal not a good thing ? 
+  i still have to run the program , do n't i ? 
+  i am debating the assumption that producing code in a dynamically typed language can be faster than a statically typed one which is definitely not true for me . 
+  i wonder if you learn to not mess up the names after using a dynamically typed language for a while though i still mess them in js after years of using it . 
+  and several orders of magnitude more servers . 
+  i am pretty sure typos are related to static vs dynamic and not to strong vs weak typing . 
+  i mean i make typos and do not detect them until runtime because the tooling ( including a compiler ) does not detect my typos and not because someone added a property at runtime . 
+  but what if you reduce your bugs another way ( say through assertions as the article suggests they are very effective ) . 
+  then 60-90 % increase in a very small value may be a good deal compared to 15-35 % dev time . 
+  but writing tests is incredibly boring . 
+  i do care about quality but i just love hunting bugs . 
+  i feel like debugging is the most interesting and creative part of my job . 
+  some day i might snap and develop multiple personalities disorder where the evil personality will introduce bugs in the code base on purpose and the other personality will hunt them down not knowing where they are . 
+  i know what weak typing is and agree with the what you say but i do n't see how it relates to my mistyping . 
+  you may be right since my experience with js is less than my c # experience even though i have used js for many years . 
+  however i still feel that a good statically typed language will give better results in dev speed for large projects . 
+  in my experience the faster development in the languages you mentioned is more of a product of the fact that they are far quicker to get started but once you setup the whole machinery like ioc container , base classes for controllers , etc statically typed languages become faster because the ide points to a lot of mistakes as you type and it has built in documentation in the form of auto complete . 
+  good to know . 
+  i was just about to send you a job application . 
+  no , i do not enjoy finding the bugs i enjoy debugging them and thinking of a fix that wo n't break another behavior . 
+  i made it to diamond after 3 years . 
+  3 years after getting to masters i made it to diamond and am not able to climb back :(, 
+  to be honest when i play i do climb to my level on year 2 and 3 of my masters time which is like top 3 % but battle.net is strict on the 2 % requirement now and back then it was usually around 4 % .

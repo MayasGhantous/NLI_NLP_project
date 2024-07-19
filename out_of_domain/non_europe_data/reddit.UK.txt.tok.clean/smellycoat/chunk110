@@ -1,0 +1,100 @@
+  * do n't use the larger , heavier js ui libraries if you can avoid it, 
+  * do n't use images when you do n't need it . 
+  lots of interface designs use images when they could use css , although people using older browsers wo n't get something quite as pretty, 
+  * make sure your html/css is ( at least vaguely ) valid, 
+  * eliminate any 404s , have a favicon . 
+  * avoid ` document.write ` , or anything that injects ` < script  ` tags into the page, 
+  * . . however , if you use ads , or any external stuff that works by inserting script tags , consider inserting them into the dom with js * after * onload/domready has fired , that way you 're at the mercy of someone else 's crappy webserver to do it 's job before your page can finish rendering . 
+  for server-side scripted sites , blog type sites , etc :, 
+  * use a caching reverse proxy server in front of your appserver ( great for heavier apps , and they let you crank up the keepalive without destroying your appserver at times of heavy load ) . 
+  if your proxy 's ram is big enough to fit all your static content, 
+  * if you need ssl , do it on the proxy, 
+  * stick static components on a separate ( cookie-less ) domain, 
+  * keep cookies minimal, 
+  * do n't redirect if you can avoid it ( except after form posts ), 
+  * do n't overuse `` ajax '' - if you 're serving a page and then immediately requesting the content from the server via js , you 're doing it wrong . 
+  ( remember you can throw json directly into the page if you need to , rather than fetching it in a separate request , but it 's probably going to be faster to just render it on the server ) . 
+  * json is * generally * faster to create and process than xml ( depends on the platform , though ), 
+  * a local database server is much quicker than one running on a remote machine ( although this has scalability implications ), 
+  * for read-only ( or write-rarely ) applications , sqlite is faster than you might think, 
+  * benchmark and optimise your sql , and eliminate all the queries you can . 
+  way too big a topic for a bullet point , but here 's the highlights : if you 're doing queries in a loop , you 're doing it wrong , joins are typically faster than subselects , carefully-designed indexes can work wonders for performance , do n't do inserts/updates if you can avoid it . 
+  for heavy sites/apps ( these wo n't all apply to everything ) :, 
+  * cache the fuck out of * everything * ( memcached is your best friend ), 
+  * return the http header and the html header as soon as possible ( and flush your output buffers ) , that way the browser can make a start on downloading your css while your server is still generating the rest of the response ( and it seems faster , even if it is n't ) . 
+  * if you have a large database , install more ram in your db server . 
+  then install * even more * ram in your db server . 
+  if your server is n't maxed out on ram , and your ram size is smaller than your on-disk database size , install more ram !, 
+  * consider using [ edge-side includes ] ( http://en.wikipedia.org/wiki/edge_side_includes ) on your proxy server , so you can construct pages there from static and dynamic stuff , each with different expiry times, 
+  * consider whether you need to load * all * your js/css on every page . 
+  sometimes it makes sense to do it all together ( as after the first hit , it 'll be cached and you do n't have to worry about it ) , but sometimes you can put off some of the hit until deeper in the site . 
+  the thing is , we all know that when they do get around to releasing another hl game ( as ep3 or hl3 , whatever it may be ) , it 'll be excellent , and worth the wait . 
+  if there 's * one * thing you can count on valve to do , it 's to release a game that does n't disappoint . 
+  a nice theory , but addresses like that will bounce the first time they try to send to them , and they 'll remove them from their list . 
+  no harm done . 
+  if you want to fuck with someone 's mailing list , here 's what i 'd suggest :, 
+  hotmail are one of the most popular webmail systems ( popular website mailing lists tend to be 40 % or more hotmail addresses ) , and one of the hardest places to deliver bulk email to . 
+  the most important metrics hotmail use to identify ( and punish ) bad senders is the number of old dead hotmail addresses they try to send email to . 
+  they even take a proportion of very old addresses and turn them into `` spamtraps '' which silently accept email , but register it as a `` black mark '' against them . 
+  if a site accepts new email addresses without sending an `` opt in confirmation '' email to confirm the address , then they 'll eventually have trouble delivering anything to hotmail , and that makes it very easy for you to fuck them up . 
+  if they try to send email to enough of hotmail 's `` spamtrap '' addresses , and they 'll do stuff like start silently ignoring emails from that sender . 
+  so my advice is to invent hotmail addresses . 
+  ones that are likely to have been registered back in the day , but are now long dead . 
+  do that enough ( and it does n't take much , a few dozen spamtraps will do it - although that 'll take a lot of guessing ) , and you 'll completely destroy their ability to send email to hotmail . 
+  * [ best one i 've used ] ( http://www.amazon.co.uk/griffin-1093-curv-elevator-laptop-stand/dp/b00007l6ia/ref=sr_1_32?ie=utf8&amp;qid=1292169572&amp;sr=8-32 ), 
+  * [ best one for a tight budget ] ( http://4.bp.blogspot.com/_9rdnraxdpu8/s9mfkt_wl1i/aaaaaaaadfe/mon64udllty/s1600/yellow-pages-booster-seat.jpg ), 
+  that is excellent . 
+  who can resist a good polka ? 
+  i particularly like the girl on the left . 
+  half way through her bit , she gets fuckin ' * smooth * . 
+  so , taking a panorama photo of the eiffel tower is cool , * later cropping it * is not cool ? 
+  girl mimics cat 's paw . 
+  the problem i have with it is that it treads a fine line between in-jokes for geeky people who understand them , and a platform for people to point and laugh at intellectual-types . 
+  but then , that might be exactly why it 's successful . 
+  the [ mgopen ] ( http://www.ellak.gr/pub/fonts/mgopen/index.en.html ) site has a couple more copycats . 
+  cosmetica looks like [ optima ] ( http://new.myfonts.com/fonts/adobe/optima/ ) , and modata looks like [ vag rounded thin ] ( http://new.myfonts.com/fonts/adobe/vag-rounded/ ) . 
+  that 's an outer bevel . 
+  photoshop has a layer style for doing it , but you can achieve the same thing by making two copies of the layer , offsetting on by 1px in both directions and making it a lighter colour , and offsetting the other by -1 px in both directions and making it a darker colour . 
+  alternatively , you do n't always need both shadows and highlights , depending on the background colour , so you can achieve the effect with a simple white highlight implemented as a text-shadow ( eg , in css : ` text-shadow : 1px 1px 0 white ` ) . 
+  same goes for windows and os x boxes too , actually . 
+  chupa c * h * ups , but yes , lollipops . 
+  their logo was designed by salvidor dali , interestingly . 
+  but , now i 'm older , if someone gave me a lifetime supply of socks and undercrackers , i 'd be a happy , happy man . 
+  okay , quick question , why 's it a good idea to put a dual core cpu into a phone ? 
+  not with what the tories are [ doing ] ( http://www.guardian.co.uk/politics/2010/nov/15/ministers-privatise-public-sector-community-ownership ) to our libraries . 
+   firefox should be asking the os for what codecs are around, 
+  in an ideal world , you 're right . 
+  but this ai n't an ideal world , and issues with codecs are the main reason we 're now in a world where flash is the primary video distribution format . 
+  codec problems are pretty much the only reason why vlc is as popular as it is - it 's slow and clunky ( at least , earlier versions were ) compared to a lot of other players , but it plays * everything * without anyone having to worry about codecs . 
+  for html5 's ` < video  ` tag to be a viable alternative to flash , it 's going to have to * just work * . 
+  and that really means bundling the codec with the browser . 
+  i do see your point , though , if there 's a codec there , why not use it ? 
+  but i can also see why they 're taking a firm stand on an open format and refusing to endorse a patent-encumbered codec - all they 'd be doing is replacing one proprietary technology with another ( and putting their most popular product 's support for video in the hands of the os or another third party ) , and that 's not helping anyone . 
+  that 's a proxy . 
+  shit exists right now . 
+  your browser connects to the proxy to request a page , proxy goes off to wherever the page is and gets the content for you , and sends it back . 
+  all your connections go out to a single ip . 
+  if you use ssl and http keepalive , there 's really no way to tell how many http requests you 're making - to the isp , it 's just a single opaque connection to a single ip that sporadically sends and receives data , encrypted so they ca n't read it . 
+  you could use ssh to create an encrypted tunnel between you and a remote proxy server ( which i guess is what you 're talking about ) , while that 's handy occasionally ( particularly for ad-hoc encrypted connections ) , simply using an ssl connection to the proxy is achieving the same goal . 
+  advantage being that most browsers have support for ssl proxies already . 
+  look for some alarm clock software . 
+  i do n't have a specific one to recommend , but there seem to be plenty about . 
+  alternatively , you might be able to find a suitable plugin for a media player ( winamp , foobar2000 , or something ) . 
+  i 'm not convinced they placed every single coin in every single frame by hand . 
+  if you keep your eye on a particular pattern caused by imperfect placement of the coins , they ` switch ' on and off without affecting the pattern . 
+  if they were placing each coin for each frame manually , i do n't see how that could happen . 
+  although it 's also true that some coins * do * move , so i 'm not sure quite what 's going on . 
+  regardless , even if they did ` cheat ' ( eg by creating a complete array of coins covering the entire blanket , chopping it up into a grid and using a computer to display the right ones ) , it 's still an impressive achievement . 
+  milk freezes fine . 
+  i always have a pint or two of milk in the freezer for emergencies ( the plastic milk containers expand enough so you can freeze them without causing a messy explosion ) . 
+  i do n't see any reason why frozen milk cubes would n't work . 
+  it does go a rather unappetising beige/yellow-ish colour when frozen , but it 's fine once defrosted . 
+  on the one hand , it does a good job of being a proof of concept . 
+  someone had an idea , and went and implemented it . 
+  i think they did pretty well . 
+  i * do n't * think they 're saying `` this is how all uis should look now !, 
+  '' , it 's just a concept . 
+  on the other hand , i bet they were all `` oh . 
+  when tablet and touchscreen devices started becoming popular . 
+  you miss my point . 
+  the coins are n't all completely centred in their grid square , some are offset a little .

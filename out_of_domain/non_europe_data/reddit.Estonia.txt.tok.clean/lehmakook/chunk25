@@ -1,0 +1,100 @@
+  but nobody really expects to find * live * microbes on mars anyway . 
+  it still seems possible that there could have been life on mars at some point in the past , but the evidence we could find would be some chemicals or residue that ca n't be explained by geology alone . 
+  if there 's a bunch of earth microbes on mars , then we ca n't tell any more whether these chemicals and residue were made by earth microbes , or whether it existed before human arrivals . 
+  also , there 's still about 80 % chance that turkmensat will be delayed to may !, 
+   so now , i am feeling like i am a victim since the lawsuit against this hc is really solid with hard evidence . 
+  that 's between the game developer and the trademark owner . 
+  they might have to change the name of the game , pay some penalties , or perhaps settle to use the trademark for a fee . 
+  but how does this involve you or make you a victim at all ? 
+  you got the game and it worked as expected , right ? 
+  thanks , resizing the height of the frame based on the internal content makes it lot better !, 
+  i think i also * almost * got it to resize when the document inside changes size after the initial load , by re-resizing on events that might add content inside . 
+  technically yes , but demanding payment for just the data is a total sleazebag or scammer move . 
+  it 's not like it 's an ancient treasure , it 's a recent crash and the only potential value from it is closure for the families of the dead and perhaps better airline safety regulations . 
+  he should release the data to the authorities investigating this , and then submit a bid for the recovery work alongside everyone else . 
+  loading the content for the * first * time the modal is shown is easy enough : load it with ajax and splice the resulting html into the modal body . 
+  but i 'm not sure i understand the `` submit to a hidden iframe '' technique ? 
+  i do n't want the entire page to disappear when submitting the form , so if the form has been inserted into the main page , then i ca n't let the usual http post to happen . 
+  i would need to :, 
+  * intercept the form 's submit , and send the data via ajax or the hidden iframe instead . 
+  * get a response which is another html page , and re-splice it into the modal . 
+  * add some error handling or progress notifications or something . 
+  another issue i came across when experimenting with this a bit was javascript state on the page . 
+  the modal inner pages will have a little bit of javascript ( maybe just a bit of client-side form validation or so ) . 
+  but if i splice them into the toplevel page , then the javascript runs in the context of the toplevel page , and perhaps pollutes its state . 
+  after lots of different modals are opened and closed , it might end up a mess . 
+  on a more serious note , op , do you have an android phone with google location services enabled ( most of them do by default ) ? 
+  if yes , see if there 's anything in https://maps.google.com/locationhistory/ without having to subpoena nsa . 
+  perhaps try asking him if you could take over calling the fuel delivery company when the tank runs low , even if he pays for it ? 
+  you would then be able to get fuel whenever needed , and he would have fewer things to keep track of , everybody wins . 
+   and then , in your < form tagets , make the target attribute `` targetiframe '' . 
+  this will submit the form elements to that page . 
+  ooh nice , thanks !, 
+  i did n't realise forms can have targets as well . 
+   as for your issues with javascript states interfering with each other - i would need more details . 
+  i 'm not completely sure about this yet , since i 've only tested the ajax loading as a few quick experiments so far . 
+  the content that i load into a modal might include < script  and < style  tags : loading additional js libraries that are only used in the popups , adding event handlers to the form , adding a few css classes to the form elements , maybe something on a timer , and so on . 
+  there seemed to be two main issues :, 
+  * when i add event handlers , timers , etc , sometimes these are not cleared away properly after the modal is closed , and another separate modal is opened . 
+  * if there is a js error inside the modal , it stops javascript execution in the outer page as well ( because now the modal content * is * part of the outer page ) . 
+  now , i think i could fix these by :, 
+  * loading all potentially required js libraries at once in the outer page ,, 
+  * thoroughly test all pages to make sure there are no js errors ever ,, 
+  * make sure each page and different modal has different prefixes for element ids and classes , to make sure that any event handlers do n't get attached to elements not belonging to the same `` page '' . 
+  but this seems to be a lot of effort for scoping/containing behaviour that iframes provide for free . 
+  as a sidenote , cyclers wo n't be of much use for cargo , only for humans . 
+  a payload launching from earth to mars will first have to expend fuel to match the speed of the cycler , and then expend fuel to slow down near mars . 
+  it does n't actually matter if you dock with the cycler , float alongside it for the journey , or take the same journey without the cycler there at all - the fuel use is still the same . 
+  cyclers are useful for human transport , because you can travel in a small capsule for a few days near earth and mars , but have a nice comfy space hotel that is launched only once for the rest of the 9 months . 
+  for cargo that does n't need living space and life support , there is no benefit from docking with the cycler . 
+  the vasimir is certainly very interesting , looking forward to the test on iss next year !, 
+  however the em drive looks promising only to the extent that `` it would be cool if it was possible '' . 
+  it is impossible according to our current knowledge of physics , and the experimental tests have * serious * shortcomings :, 
+  * the nasa test was not done in a vacuum , so the observed thrust might just from heated air moving around ,, 
+  * if `` critical '' components were removed , the thrust was still observed ,, 
+  * every time it was tested on a more precise scale , the observed thrust was much lower . 
+  i 'm completely convinced that the em drive is just a scifi fantasy and any positive results are due to experimental errors . 
+   this is how theories of physics evolve . 
+  i would not call it impossible . 
+  i would say that our current understanding of the phenomenon is flawed . 
+  sure , i did not mean to say that it 's impossible that this effect is real . 
+  i meant that the effect is impossible according to current physics . 
+  and while surprise discoveries often do advance physics , far , * far * more often they turn out to be a fluke . 
+  remember the faster than light neutrinos from 2011 ? 
+  hundreds of top physicists from cern spent months puzzling over their data which appeared to show faster than light travel , checking and re-checking their equipment , and trying to find any sources of error . 
+  they could n't find any other explanation , so they went public with their discovery . 
+  but four months later , it was found that the result is due to a loose cable in the timing equipment , and after fixing it , the effect disappeared . 
+  i 'm convinced that the em drive will eventually turn out to be a similar fluke . 
+  would be very exciting if it does not though !, 
+   most importantly , this is on top of the tire , what if you have a low car in which you ca n't easily see the markings, 
+  in northern countries , it 's mandatory to switch between summer and winter tyres for every summer and winter . 
+  so you have to take the tyres off at least once per year and get to look at them from all angles . 
+  i 'm guessing op just got their summer ones out of storage for the switch . 
+   can i still call it an mit license with my modifications , are there any parts of it that i should alter , add or remove , and is this a valid license ? 
+  no , it 's no longer the mit license , and it would be extremely confusing if you called it that . 
+  the mit license allows almost anything , including redistributing the code in any form after any modifications . 
+  your additional restrictions make it completely different from mit ( and other open-source ) licenses . 
+  it is pretty hard to accurately write down what you do and do not want to allow in this case , especially because you want to allow modifications . 
+  `` modifications '' cover both changing a logo ... and taking random parts of the source code , and using these in nuclear missile control software . 
+  you would need to find an intellectual property lawyer to actually get this wording right . 
+  a simpler solution would be to offer your launcher under an existing fairly restrictive license , and tell any interested parties to contact you for a full license . 
+  you can then talk to them and see if their plans match what you intended . 
+   i do n't think it is a scam, 
+   apparently the landlord is out of the country . 
+  yes of course it 's a scam . 
+  and even in the * highly * unlikely case that it is not , and in the unlikely case that she even owns this furniture , there is no guarantee that the landlord will want to speak to you , is renting the studio out at all , or is renting it at this price . 
+  all you 're doing is buying some furniture for $ 2500 . 
+   it does sound scammy but i can also see how she 's in the position to be able to `` force '' someone to take over this as a fee . 
+  well , she has no obligation to tell you who the owner of a studio is , so she can technically ask for anything as a precondition . 
+  but you can look that up by address for free online : http://a836-acris.nyc.gov/cp/, 
+   if i do sign that letter of intent , i have a legal obligation to purchase said furniture regardless of what happens ? 
+  entirely possible , get a lawyer to review the exact text of the letter before you sign it . 
+  but in any case , even without the bizarre furniture deal , there are two more red flags that make this a scam :, 
+  * the rent seems to be so cheap that you are willing to pay a $ 2500 fee to a stranger just to get started . 
+  why is the landlord leaving this much money on the table ? 
+  even if they are overseas , they could hire a proper realtor to advertise it for less . 
+  * `` landlord overseas '' is a common craigslist scam . 
+  people rent a house for a week , show it to unsuspecting people , collect money from them - perhaps even signing a `` lease '' , and then gtfo . 
+  shortly after you move in , the actual owner of the place returns and does not know anything about the new tenants . 
+  this would be fantastic - just missed last night 's launch because i forgot about it !, 
+  i wonder if sms is the right delivery method though .

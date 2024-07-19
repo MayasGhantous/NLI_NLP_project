@@ -1,0 +1,100 @@
+  and then skype comes from estonia and the witcher is made in poland , john carmack lives in texas and microsoft made hololens in seattle . 
+  you ca n't compete with berlin in innovation and making great things or in salaries ? 
+  you have no plans to remove it ... for now , 
+  i do n't know . 
+  i only have problems with iqueryable when it is invisible i.e. 
+  hidden behind var, 
+  come on mosh , you can do it !, 
+  all that 's left is to admit that methods that accept expression < t  are just as bad as the ones returning iqueryable < t  and you will have a proper repository tutorial , 
+  bl/service layer is infinitely more important abstraction layer than the data access layer . 
+  i do n't know why so many people who insist on writing repositories are fine with skipping a service layer . 
+  i 'd understand if they ban him from wcs but i do n't see why he ca n't play in smaller events like online cups or even more significant ones like dreamhack ( not getting wcs points of course ), 
+  you can be impressed by skill no matter how bad of a person it is attached to . 
+  in addition how can you crown someone a champion if someone potentially better has been banned from the game . 
+  the second reason is why i am not particularly fond of bans . 
+  why the hell should n't he be allowed to stream ? 
+  and how can you possibly ban someone from streaming ? 
+  technically he can stream from his own computer . 
+  yes . 
+  but being the best requires that you meet only one standard - being able to beat everybody, 
+  good point, 
+  weeell ... this is only because the competition set certain standards . 
+  you are still the best according to the rules of the game . 
+  this is like blizzard banning koreans from wcs europe/us yeah maybe we do have a `` champion '' but nobody takes him seriously because we all know he is only a champion because koreans were not allowed in the tournament . 
+  same with banning life . 
+  yeah maybe somebody is a champion but there will always be doubt what would happen if life was allowed to play . 
+  i understand but if you want to be a professional programmer chances are you will have to learn the non-fun way before you get paid to learn non-fun stuff , 
+  is n't parallel replaced by gpu programming in practice ? 
+  linq methods called on a variable of static type iqueryable will be executed in the database , linq methods called on ienumerable will be executed on the client . 
+  that 's all . 
+  casting does n't cause execution , calling the methods does not call execution only iteration of the result or terminating method ( sum , max , tolist , etc. ), 
+  cause execution . 
+  and btw that var argument drives me crazy . 
+  `` it is very important if you are using ienumerable or iqueryable and therefore it is best if you do n't know which one you are using '' wtf ?!, 
+  these tradeoffs do make sense but are there significant practical parallel problems where a parallel solution is worth implementing ( as opposed to single thread solution ) but investing in gpu solution is not ? 
+  i do n't do repositories at all . 
+  i would if i knew the project would need to change data access technology or database technology . 
+  in practice you ca n't know about changing data access technology because if you knew you would change it you would not start with the lesser choice to begin with . 
+  in addition for 10 years in the industry i have seen a project change database technology only once . 
+  because of this i am willing to take the risk and let ef in my service layer . 
+  if i need to change it i will just change all the places in the service layer where ef is present . 
+  repository is an expensive abstraction that comes with a lot of boilerplate code and some annoying issues and i am not willing to pay that price if i am not sure it will be worth it . 
+  ef today can be unit tested with relative ease so unit testing is not a good excuse for using a repository pattern, 
+  well if you want to do web build a forum , blog engine or something like that . 
+  make sure to build a part ( say admin panel ) with a spa framework like react or angular 2 . 
+  do most people really work at places that hit at least 10 ? 
+  i 've never worked at a 10 place , places i have worked were between 5 and 9 and i ca n't even reliably correlate between the result and how good/bad the place was ( although the one that hit 9 was actually the best ) . 
+  i think pressure , how interesting the project is and using up to date and interesting frameworks and libraries is more important about how great a place is . 
+  i do n't care if deploying a new build takes an hour ( what happens if you can not do a 1 step build/deploy ) if managers do not require that i be productive during that hour . 
+  this is a problem for management not mine . 
+  they were busy marketing the useless team melee ... 
+  i mean archon mode, 
+  the problem with free unranked is that hackers can just make new accounts for free if you ban them, 
+  strange ... valuetuple is added to the framework but valuetask is not ... 
+  are there assertion frameworks similar to shouldly ? 
+  i 'm a big fan and the default assertion frameworks can not match it but i never bothered to see if there 's anything better, 
+  boring changes are my favorite kind of changes , 
+   that 's windows forms . 
+  which is pretty much a zombie . 
+  you 'd be surprised ... 
+  the var solution is better than the <  operator because it not only gets rid of the generic parameters but also from the diamond and even the class name !, 
+  i do n't think it does the shouldly magic that tells me what variable failed the assertion . 
+  all their examples contain an explicit message . 
+  with shouldly if you do product.shouldnotbenull ( ) ; you get a failure that says `` product should not be null but it was '' ( i.e. 
+  it gets the name product from the source code ), 
+  i looked at the full release notes - https://github.com/microsoft/dotnet/blob/master/releases/net47/dotnet47-changes.md#bcl, 
+  i do n't see anything surprising here . 
+  first of all this is what they have been doing for years and second they are known for supporting old tech for a long long time . 
+  recreating the dictionary and specifying the capacity in the constructor is not significantly different from what a built in method would do . 
+  one more thread about repository pattern with ef . 
+  i have to give the same advice again - do not use repository pattern with ef . 
+  even when implemented correctly ( yours is wrong ) it is a heavy price to pay for this particular abstraction unless you know you will need it . 
+  focus on having a proper service layer instead of a repository layer . 
+  i do n't recall any tutorials but the idea is to put your business logic there and let the mvc controllers deal with things like serializing json , converting arguments , setting up view models and so on . 
+  think of it like this - if i build this app in mvc , web forms or as a pure spa app with webapi nothing in the service layer should change . 
+  also do not use things like httpcontext and session in the service layer although they are shared between these frameworks . 
+  imagine that there is a web framework for . net that is not asp.net at all and the service layer should still work unchanged, 
+  it does change things . 
+  first of all you do not need security because by definition the client has full access to the db . 
+  honestly i do not feel qualified to give advice on this architecture . 
+  i would probably still have a service layer , maybe thing of the service layer as the code that you would reuse if the app becomes a web app although in this case you would probably need some changes . 
+  so what if i do want the solution level packages folder and i want it in source control ? 
+  i do n't know about that ... 
+  the recent leftpad drama kind of supports my case, 
+  there is certain interval between being large enough to justify maintaining own server and not caring about the packages at all . 
+   version control systems are not optimised for large binary files, 
+  true if by `` version control systems '' you mean git . 
+  centralized vcs handles large files just fine . 
+  let alone that . net assemblies are hardly large binaries . 
+  game devs put actual game assets in source control , now that 's large files . 
+   what invariably happens when packages are stored is that one or more packages are updated in the project config , but the files stored in source control not updated . 
+  i do n't see how this will happen . 
+  the source control system pokes me that i have uncommitted files so it is hard to forget . 
+   for that , there 's nuget.org, 
+  the interval is between being happy with nuget.org ( not caring about packages ) and maintaining your own server . 
+  i live in that space , 
+   ignoring the package folder is default in most standard . gitignore files . 
+  so you imagine that every time i add or update a package i go and manually force it in source control instead of removing the ignore from the . gitignore file ? 
+  in my opinion yes - there is time . 
+  but planning to become a pro if you are not at least gm level is absurd in any game unless you have been a pro in some other game . 
+  the way you become a pro is just play to improve and then at some point you start to win games against pro players and decide to try to be a pro .

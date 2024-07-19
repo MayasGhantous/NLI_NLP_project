@@ -1,0 +1,100 @@
+  if you 're gon na quote it , quote at least the whole thing, 
+   we are however committed to improve the various aspects of helicopters and will bring a lot of new fixes, 
+  read : a complete overhaul probably wo n't come as the engine was not made for such tasks , but we will see improvements sooner or later . 
+   accidentally bought a russian version, 
+  can you explain how you accidentally buy a russian cd-key ? 
+  i would bet my money it was one of those dodgy sites , were the developer basically gets screwed over . 
+  anyway , do you have the game in your steam library ? 
+  if so make sure you have it set in the properties the game updates automatically . 
+  i am not sure if the 1.26 files are available online , but out of experience i know that most cd key retailers will give you your money back if the key stops working , try contacting them . 
+  you got scammed on steam ? 
+  i 've been on watterott , is it true that you can simply email them the product id from adafruit and they will ship it to you ? 
+  adding to what / u/fishy111 said : there is no scope that 's the best . 
+  some scopes do win over others when it comes to short / long range engagements , but at the end of the day it 's the guy behind the gun to pull the trigger . 
+  i know people who will shoot using ironsights better than using a red dot . 
+  it 's all down to practice, 
+  thank you !, 
+  adafruit has this battery pack :, 
+  could probably very easily build one yourself . 
+  what you need is a shelve , a couple motors on rails that go along those shelves , a robotic arm that picks the pieces , a database to store where each piece is and of course and this is probably the most tricky part , years of experience with coding and a couple hundred hours to build / assemble / code such a machine . 
+   improve tanks before improving helicopters, 
+  well that 's just personal preference though , right ? 
+  by the same token someone who enjoys flying instead of sitting in a tank would also say `` they should have improved the helicopter handling before starting to work on tanks '', 
+  call your isp . 
+  sounds like an issue with your bandwidth , maybe your modem kicks the bucket when you use too much , have them monitor it for you . 
+  this is probably the best answer to your question , op . 
+  contact your isp , i can forward as many ports i want in my router settings , no port scanner seems to pick them up and i could n't connect to my pi from outside . 
+  one phone call to my provider and the problem was resolved . 
+  what type of mod i would like to see next ? 
+  a ) everything eod / combat engineer related . 
+  ied 's , bomb suits , robots that kinda stuff, 
+  b ) something that improves artillery / mortars . 
+  the `` point and click '' thing is easily accessible but not fun if you do it for a few hours in an operation . 
+  right now your possibilities are limited , but using the breadboard and a few peripherals you can literally do anything you can think off . 
+  start off with a few leds and resistors , let them flash make a game using python with them ( i.e. 
+  a reaction game or a math game ) . 
+  later down the road you might want to consider buying a sensor or two so your pi can start seeing hearing and feeling things . 
+  a great sensor to start off is the bmp180 , measures barometric pressure , temperature and humidity . 
+  you can use this little piece of technology to document the temperature in relation to pressure and humidity in the room your pi is standing in . 
+  +1 for calculators . 
+  starts with simple `` enter two numbers , here 's what the sum is '' and goes on to multiple functions , a menu , maybe you can even make a scientific calculator that solves functions for you and plots the graphs . 
+  you could use notepad + + or similar editors to write the code on your main machine and then transfer it to your pi using ftp, 
+  does the light sensor measure the intensity of the light ? 
+  if so : put the light sensor in front of a window , set the temperature sensor somewhere in a shadowy place . 
+  record and monitor intensity of light in correlation to the temperature in your room . 
+  additionally you can let the leds light up if the temp falls below / rises above a certain threshold . 
+  if you have any pets like a hamster in the room you set it up , you can let the buzzer go off if the temperature rises too high , so the little guy is not in danger . 
+  start with one sensor , test it . 
+  if it works , connect the next one then the next one and so on and so forth . 
+  patience , is the key . 
+  this is not an vanilla thing its a mission / script thing . 
+  i had to leave my computer for about 7 minutes with this message open until i could get started ( in wasteland though ) . 
+  it seems to depend on bandwidth of the server . 
+  other than that , there is not really a solution to this . 
+  you could try deleting the mission file in your cache folder to let arma re-download it , see if that helps . 
+  fuck it , in my opinion format < information so here , have an up vote . 
+  what wifi dongle are you using ? 
+  i was gon na suggest tightvnc to remotely access the pi without needed a terminal , but this probably wo n't be enough bandwidth to stream from it . 
+  why not just downloading the movies from your pi to your laptop via ftp, 
+  would n't that also drain if you stream ? 
+  bear in mind that a2 is a seasoned game by now and it 's not optimized for today 's high end hardware . 
+  whenever i play arma 2 on normal / high settings i have the same issues , though i have a 4ghz cpu , 16gb ram and a gtx660ti . 
+  arma 3 runs smoothly at 50-60 fps . 
+  honestly i feel like kickstarters for the pi defend the whole diy purpose , but then again there are people who buy the pi for home automation and other tasks and not for educational purposes . 
+  to each his own i suppose, 
+  thanks for putting up this video , from the written explanation i found it really hard to understand what it does , but your demo shows it really good . 
+  this will definitely boost tvts in regards to immersion, 
+  any breadboard will do , just be sure they are not the small sized ones , otherwise you will run out of space soon . 
+  you also need a pi cobbler to connect the pi to the breadboard . 
+  there are some really good starter kits out there that only include breadboards , some wires a cobbler , some leds and a switch , have a look on adafruit as well . 
+  contact the server admin if they can restore your character from the database but the answer is probably gon na be no . 
+  in your raspi-config try forcing hdmi as standard output, 
+  i use nano to create / alter / save my . py files and i use the python compiler that comes with the pi . 
+  on my desktop however i use notepad + +, 
+  you have a sauce on that ? 
+  if you google `` online portscanner '' you will find a number of useful websites that will scan an ip you give to it and list all opened ports on that ip, 
+  there are youtube videos on nous channel displaying a few features that were present in the original ace ( such as advanced arty systems ) in arma 3 . 
+  you just have to know where to look , 
+  once the script is finished just let the pi execute the poweroff command . 
+  you could use a bash script to first run the python file and afterwards the script would run sudo poweroff . 
+  not sure if this is the most elegant way of doing it but it could work . 
+  i have exactly the same cpu as op and i barely have any fps issues . 
+  i will try turning off the cores though , see if that improves anything, 
+  for reference my full rig :, 
+  amd fx8350 ( not overclocked ), 
+  corsair vengeance 1600mhz @ 16gb, 
+  i would like to see a version of xms2 but to me it seems like you have just overburdened yourself with possibilities and features and stuff you want to implement . 
+  cut down on the size of the project , focus on what you want to be implemented and what makes the core of a medical system . 
+  blood pressure and pulse for example are awesome things to have simulated properly . 
+  but body temperature ? 
+  to me it just seems over ambitious , while having a good cause , a lot of projects have seen their end because of it . 
+  see you are talking about infections here , but most arma sessions run shorter than the incubation of any infection would have a chance to kick in . 
+  cut down on all the deep med sim stuff . 
+  give us a medical system that covers everything we want covered . 
+  bleeding , broken bones , proper tracking of gunshot wounds , a triage card , a couple meds that fix various different things et cetera . 
+  yeah it is registered , on the web panel i can add custom services but none of them are netflix . 
+  the thing is not even a year old , i 'd rather not replace it . 
+  i 'll try to ring up sony on monday see if they can help . 
+  a dashcam would have to be registered and the only case so far of someone trying to register one was denied . 
+  so yes in that sense they are illegal . 
+  honestly , since i am with upc i had to call the customer service multiple times and every single time they were able to help me in a very professional and friendly manner .

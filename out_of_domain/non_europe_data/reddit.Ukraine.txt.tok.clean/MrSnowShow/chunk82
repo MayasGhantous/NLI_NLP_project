@@ -1,0 +1,100 @@
+  fizzbuzz please, 
+  what grep and awk do ? 
+  i read the man pages but it 's like a foreign language to me . 
+  okay so grep for searching stuff and awk also allows formatting . 
+  completely unrelated : sys admin sounds really nice , i love to hang around in shell and using cli stuff . 
+  whenever i think of a line of code , i get a feeling that it can be made much smaller and efficient so programming might not be for me . 
+  #popular distros, 
+  * archlinux is n't as hard as you made it sound . 
+  also mention about godlike wiki and aur, 
+  * debian needs more description , it 's staying strong for over 20 years , a lot of distros are based on debian , runs on pretty much everything ( a lot of architectures and runs with hurd and kfreebsd kernels too ) , has 3 branches ... 
+  * elementaryos ( eos for short ) it aims to copy os x look and devs want money because they forked something and made it look like something else, 
+  * fedora stable distro ? 
+  what ? 
+  * gentoo , you should add that it 's source based so you have to compile every package , also it is solution to any problem on your pc because if you can install gentoo , then you probably can fix whatever problem you had in the first place, 
+  * mint : targets moderately advanced users ????? 
+  mint 's goal is being the best out of the box experience , comes complete with a lot of proprietary software to achieve that, 
+  * opensuse : targets both new and experienced users ( can also be made rolling with tumbleweed ), 
+  * ubuntu yeah pretty much that, 
+  that is unity 's dashboard , the other des do n't have that . 
+  these things are bound to happen because ubuntu is run by a company , canonical 's commercial nature led them to do various controversial decisions whether in a community driven project with no goals of monetary profit such as arch these things do not happen . 
+  because it 's the testing bench for rhel so all the newest packages ship first to fedora . 
+  the arch install is basically instead of clicking next , you input a command . 
+  i 'd like a c solution, 
+  depends on how you approach the install like if you use ` genkernel ` or not . 
+  example : in arch to install the base system you just write a single command ` pacstrap base / mnt ` as in gentoo you have to navigate to gentoo website using cli browsers or use stuff like ` wget ` to download and then extract a stage 3 tarball and a portage snapshot . 
+  whoa that 's fucking amazing . 
+  gentoo has captured my attention for a while but i 'm afraid it will bake my cpu . 
+  i think most people who talk about freedom they mean the freedom of messing around with your system and not being forced to certain choices . 
+  if you believe in random iq tests on the internet then you probably do not have a 3 digit one . 
+  what do you mean by arch 's newer installer ? 
+  have n't the process always been something like :, 
+  partition, 
+  mount, 
+  locale timezone hostname and other config files, 
+  what about this ? 
+  #include < stdio.h , 
+  #include < stdlib.h , 
+  return ( !, 
+  int main ( void ) {, 
+  const char data [ ] = '' % d \\ n \\ 0fizz \\ n \\ 0buzz \\ n \\ 0fizzbuzz \\ n '' ;, 
+  const char * ptrs [ ] = { data , data + 4 , data + 10 , data + 16 } ;, 
+  for ( size_t i = 1 ; i < = 100 ; + + i ), 
+  printf ( ptrs [ fb_index ( i ) ] , i ) ;, 
+  return exit_success ;, 
+  it 's just an unnecessary complication , i 've already seen it done with css, 
+  < title  fizz-buzz < / title , 
+  counter-increment : fizzy ;, 
+  display : inline-block ;, 
+  p : : before {, 
+  content : counter ( fizzy ) ;, 
+  display : inline ;, 
+  p : nth-child ( 3n ) : : before {, 
+  p : nth-child ( 5n ) : : before {, 
+  content : ` buzz ' ;, 
+  p : nth-child ( 15n ) : : before {, 
+  content : ` fizz-buzz ' ;, 
+  frontend developers have no excuse, 
+  this is kinda what i feel . 
+  ever since i learned linux , after coming back to windows i feel like i 'm in a very disorganized pile of mess . 
+  shitty directories and ambiguous names , and cmd is beyond awful . 
+  if you do not count games and programs support , windows does not offer anything good at all . 
+  bbbbut muh 5 hour campaign drm ridden full of microtransactions and day 1 dlc poorly ported aaa gaymes !!!, 
+  common sense 2015 is the best , too bad that a lot of people uninstall it right at birth . 
+   but each time you update your kernel you have to use mkinitcpio after the headers are installed . 
+  i 'm pretty sure pacman already does this automatically . 
+  i 've never ran ` mkinitcpio ` after a kernel update . 
+  oh , i use open source drivers so i did n't have that problem . 
+  it 's because kids are not old enough to remember how amd kicked intel back in 2003 and that fermi gpus were housefires too . 
+  this shit is ruining tifu . 
+  bunch of kids come here with their sexual fantasies and write fake stories so they have a false sense of manliness while in reality they are hideous creeps that girls run away from . 
+  bbbbut muh 5 hour campaign poorly ported ridden with microtransactions , season passes and day 1 dlc epik gaymes !!!!, 
+  must ~ ~ buy em ~ ~ preorder them all, 
+  cubic litres do not exist , 1 cl is 1 centi litre which is x100 smaller than 1 litre, 
+  we use ^ ^ 3 for cubic and not c. like so :, 
+  1 dm ^ 3 = 1 l, 
+  which means that 1 cubic deci-meter ( x10 smaller than a meter ) is equal to 1 litre, 
+  because it comes with almost nothing by default making it a light system , it avoids over engineering so you do n't need to mess around with kernel modules and stuff , so it 's really easy to add all the programs that you need . 
+  you 're using the ubuntu of tiling wms . 
+  [ here 's a handy guide for you all ] ( http://i.imgur.com/ura75nc.jpg ), 
+  edit : made by / g /, 
+  qbittorrent because it was written in c++ and i have more sympathy towards it than python which is what deluge was written with . 
+  according to my handy [ guide ] ( http://i.imgur.com/ura75nc.jpg ) it 's bad , you have a good chance to get banned from private trackers if you use that . 
+  i did n't make it, 
+  i did n't make it . 
+  eh cl cl cl ... probably a typo . 
+  shit , i was in charge of css but / u/minsctheranger made a new css code a while back and i do n't have a mac to test this : /, 
+  edit : just saw that safari can be downloaded for windows , got ta log on windows and try out there . 
+  you say it to somebody else , not to your own comment, 
+  he 's actually right , you 're very limited if your purpose is gaming . 
+  there 's really no argument that windows is the best solution for your average gamer because it supports all the games natively that they want to play . 
+  funny thing is that it 's exactly the opposite both nvidia and intel bully amd from both gpu and cpu sides so that they can get monopoly with shady practices . 
+  one example how project cars is purposely unoptimizable on amd cards because nvidia wo n't allow access to gameworks code . 
+  but in tomb raider , nvidia had poorer performance with tressfx but amd being a bro released the code and nvidia was able to release a driver to work around on it . 
+  shoutout to / r/oblivion, 
+  emerge rekt, 
+  wine stands for wine is not an emulator, 
+  * opens comments and braces for once again another os shitstorm *, 
+  that flair . 
+  yeah i do not understand why they make fun of him it is perfectly understandable :, 
+  * um i was wonderin wats da wecomendd amount of dededotaded wam iz du hav z survur ?

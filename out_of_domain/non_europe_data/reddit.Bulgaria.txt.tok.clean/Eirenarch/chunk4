@@ -1,0 +1,100 @@
+  or wrote the tests to cover their code . 
+  and then contributed these tests so other vendors wo n't have to write them again . 
+  my point is why are n't other browser vendors contributing their tests . 
+  these are not performance tests or anything . 
+  these are tests that verify that certain browser follows the specification . 
+  without tests the specification is nothing and as it happens ms are the only company that cares to contribute . 
+  i still do n't understand what you mean . 
+  even if string can satisfy the interface i still need to implement separate collection for each interface i want to use . 
+  it will be a simple wrapper around the general collection but still ... 
+  if this has been explained many times feel free to give me a link since i 've not seen it explained . 
+  so eee prevents the results of the test from being true ? 
+  i did n't mean to claim they are lazy . 
+  it 's more like they are hypocritical . 
+  if they contributed their tests to w3c ms the results would not be so much in ms 's favor . 
+  what are ms supposed to do write tests for things they do n't intend to implement so that mozilla can be happy ? 
+  ie8 beta 2 was released a week before chrome was unveiled and was the first browser to use multiple processes . 
+  of course i do n't imply that chrome copied it in a week and the implementation differs to this day ( chrome uses a process per tab while ie balances the number of processes based on the amount of resources available in the system ) but the fact is that ie8 was the first . 
+  so what are your needs that you want to see adressed in future versions of soap ? 
+  i 'm not familiar with it . 
+  care to explain what it does and why ? 
+  ie can scale from 1 process to 1 process per tab . 
+  it definitely is the solution to many things in the enterprise . 
+  i do n't see it abandoned in any tech that supported it and the spec itself is quite complete . 
+  are they planning to release it this way ? 
+  wait till you need to chain 3-4 of them , 
+  we can consider anonymous classes the more annoying syntax for java . 
+  you can compile c # 3.0 code for . net 2.0 . 
+  so the answer is `` they do n't want to do the work '' ... 
+  seeing how many times they delayed lambdas i 'd rather see java 8 has this restriction than be delayed to 2014 . 
+  on the bright side they can always allow non-finals later without breaking backward compatibility, 
+  i would n't qualify linq as a toy but yes you can use it in . net 2.0 . 
+  you need to add the assemblies for linq ( from . net 3.5 ) by hand to your project and ship them with the app . 
+  there is a lot of information how to do this on the internet for example : http://stackoverflow.com/questions/2138/linq-on-the-net-2-0-runtime, 
+  the compiler provides the lambdas and hooks keywords like where , select , etc. 
+  to methods named where , select , etc. 
+  it does it in a . net 2.0 compatible way . 
+  if you provide the compiler these methods with the appropriate signature it will compile happily for . net 2.0 . 
+  you can write your own methods ( they do n't even need to be extension methods or even do the same thing ) but it is easier to just copy the assemblies from 3.5 , 
+  i 've never had to do it . 
+  i 've been doing mostly web work so upgrading the framework was not an issue . 
+  check the so discussion it seems like there is a library that reimplements linq with no . net 3.5 dependencies so you wo n't have to ship the . net 3.5 assemblies ( which include system.core ) . 
+  yeah and the jcp is so cool . 
+  making releases take 5 + years . 
+  the filter -  project combination seems to be quite common . 
+  also the . net orms and iocs use a lot of lambdas for fluent mapping apis and configuration respectively . 
+  no it is not an implementation detail . 
+  it is a feature that is missing . 
+  this may be consistent with other things in the language ( or not ) but does not make it an implementation detail . 
+  it bites in the famous case when you close over a loop variable . 
+  i ca n't see how this is different from the `` why i ca n't use this variable here '' that is going to bite java devs . 
+  technically it is not a bug and you can not miss it if you run your code at least one . 
+  it is not a subject to regressions either when someone changes code around it either . 
+  there is an interesting discussions and some believe that this is an issue with the loop semantics rather than the closure semantics :, 
+  obviously it is an important strategic goal for micrsoft to extinguish ocaml . 
+  bastards !, 
+  what are you suggesting that people are using c # because they do n't know java exists ? 
+  now he should add a backend with a compiler , accept code as input and display errors and output . 
+  it would be the ultimate teaching platform . 
+  which begs the question why did you click on a thread that has '' . net tutorial '' in the title ? 
+  and . net dev tools are there by default on windows systems ? 
+  except that the concepts in c omega would work with json as well as xml . 
+  this is what they suggest in he article . 
+  i ca n't recall ms saying that they were pulling the plug . 
+  in fact i expect new version this month which means many more years of support . 
+  let alone that they are quite serious about legacy so even if they do n't release a new version ever the current version will work on windows 20 . 
+  why so ? 
+  winrt is accessible for xaml devs ( as ms now calls wpf/sl devs ) . 
+  or the wpf devs expected to sell their flashlight apps instead of javascript flashlight apps ? 
+  true . 
+  but they wo n't be allowed in javascript either . 
+  i am a web developer ( granted that i work mostly on generating html from the server rather than css styling ) . 
+  also the web is not the internet . 
+  and finally , even if ie did fuck up the progress of whatever for a long time this does not invalidate the facts stated in the article . 
+  none of your feelings will . 
+  and this brings performance benefits . 
+  i am pretty serious about supporting sponsors of things i care about . 
+  as a person who works in it people often ask me what to buy and my family simply lives the choice to me . 
+  wan na guess why the whole house is full of samsung monitors ? 
+  reading your comment i felt like i posted it and then forgot that i have done so . 
+  you are completely right . 
+  this is the exact reason why the web is popular . 
+  not because it is open ( whatever that means ) and not because html and js are any good . 
+  technically there is nothing that makes the web technologies more convenient but as it happens they are sandboxed and the other apps are not . 
+  there is no reason why other technologies ca n't be sandboxed as well . 
+  i am surprised anyone needs to state something so obvious , 
+  i do care about e-sports . 
+  i have played many games competitively including quake and steet fighter . 
+  i love the competition , the community , the culture , the friends i made , the adrenaline when playing in a tournament . 
+  half of the fun i get from starcraft is exactly the `` sports '' part . 
+  if this is not the case for you then i assume you experience only half of the joy i get from starcraft . 
+  i am sorry for you . 
+  btw supporting e-sports is not about going around and telling people you support e-sports . 
+  it 's about paying for streams , buying stuff from sponsors and participating in tournaments . 
+  lets see ... wpf is from microsoft . 
+  yeah and labelled blocks are soooo different from goto statements , 
+  no they are not . 
+  conceptually loops belong to the class of statements known as conditional jumps ( because they only jump if there is a condition like the if statement ) . 
+  goto is in a class of statements known as unconditional jumps . 
+  there are other statements in this class - return , throw , break , continue now they are gotos . 
+  some people want to develop for microsoft 's platform .

@@ -1,0 +1,100 @@
+  now , maybe not so much, 
+  so far by far the best price/perf among the announced cards, 
+  depends on manufacturer . 
+  at least asrock and msi boards support bclk oc with their newest bioses , not sure about asus or gb ( of course if they released a custom oc bios for their boards , you can still use that ), 
+  generally all bonuses for buildings and ships are applied the moment you queue them , so changing a governor afterwards should n't have an effect . 
+  do n't think you can change capital . 
+  bottleneck questions are n't a simple yes/no . 
+  depends on framerate , resolution and game in general . 
+  that said , unless you can seriously overclock the phenom , it 's going to bottleneck most of games, 
+  the temps are fine although it seems a bit high for noctua . 
+  are your fans running at 100 % during full load and/or are you using the low noise adapters ? 
+  you could always clip on 1 more fan if you need more cooling , the dh-14 should n't be a limiting factor for `` normal '' overclocking . 
+  well , i5-2500k along with ddr3 is probably the least future proof you can go right now . 
+  meanwhile if you get the i3 on 1151 , you get all skylake goodies ( usb 3 , full speed m2 and ddr4 ) and are able to get i7 or kaby lake cpus later on . 
+  with a correct z170 board you can also oc the locked i3 ( [ which will by itself perform better than the 2500k ] ( https://www.youtube.com/watch?v=zbygapxiglq ) ) and get faster ddr4 than 2133mhz , which again , gives you a better performance out of the i3 . 
+  ddr4 is worth over ddr3 since you 'll very likely be able to use it again in future for a next build and you can get faster frequencies ( with a z170 board ) that help a lot in cpu bound scenarios , although a stock 2133 ddr4 will probably perform about the same as a fast ddr3 ram . 
+  from what i 've read people with overclocked 2500ks are basically on the edge of it 's lifespan so 2-3 years for it is kind of optimistic i would say . 
+  i think it 's good to invest into a decent z170 board simply because being able to buy faster ram alone improves you performance in cpu bound scenarios , being able to overclock is about the most reliable future proofing you get do on a pc and if you ever want to upgrade to unlocked chip ( from i3 to i7 kaby for example ) you 'll need to z170 board anyway, 
+  what kind of 970 deal are you getting ? 
+  even for a $ 200 it 's way worse than just waiting for a 480 ( even worst case predictions put it above/on par of a 970/390 , you 'll have no async compute and you 'll have 3.5 gb vram instead of 4 ), 
+  if you overclock the 6600k the performance boost will be significant in cpu bound scenarios . 
+  so strategy games that are almost always limited by singlethreading would see significant performance increase and i can see your cpu having problem in games like witcher 3 or gta 5 if targeting 60fps . 
+  if you 're aiming for 100 + fps the cpu will bottleneck a lot . 
+  about new cpu releases , zen 4c/8t is coming out before end of the year and might force intel to drop prices a bit if you 're fine waiting that long . 
+  i 'll probably throw out few controversial opinions , but if you want a longer lasting card wait for 1080ti and/or vega . 
+  if you do n't want to wait though , a 1080 wo n't be overkill for 144hz , even at 1080p ( and people who tell you otherwise are most likely talking about 60hz ) . 
+  keep in mind though that you need strong cpu to back you up at those framerates ( something along the lines of overclocked 6600k at the very least , possibly even i7 for new games that utilize multithreading well like gta or witcher 3 ) . 
+  in your benchmarks you can see that in fallout 4 and gta 5 they hit just about 130-140 frames before getting cpu bottlenecked . 
+  [ you can look at the benchmarks here ] ( https://www.youtube.com/watch?v=jxhhivclbwc ) and see that even at 1080p the 1080 has trouble getting 144hz in a lot of games and it 's not even cpu bottlenecked in most cases . 
+  not maxed but of course you can always lower the details as long as your cpu does n't bottleneck you if you want to achieve those framerates . 
+  most benchmarks are a bit skewed that they almost always target max/ultra so it 's a bit harder to tell what frames are possible on higher resolutions with dropped details ( of course also depends on the scalability of the game ) . 
+  how well will the 2x480 work is hard to say since it will heavily depend on the games . 
+  from what i 've heard cf support has improved this year a lot but for dx11 a single card will always be superior solution . 
+  in dx12/vulcan games you 're not using cf but a native multi-gpu support ( which means cf issues are n't there at all ) but is up to developer how well they can utilize more gpus and it 's quite likely that it will take maybe a year or 2 before you you 'll get great returns when using multiple gpus in dx12/vulcan games . 
+  my explanation might not be 100 % accurate but the issue is that you do n't have native multigpu support in dx11 and so to make sli/cf work you have to do driver optimization for every individual title . 
+  not only this gives you additional overhead compared to just the cpu communicating with a single card but as far as i know ( and i might be wrong here ) , sli/cf works on the principle that the cards alternate rendering frames which can easily cause stuttering , as opposed to dx12/vulcan where the workload is divided more akin to a cpu multithreading, 
+  1 ) gsync/freesync is a solution to smooth out frame drops and remove screen tearing without the latency of vsync . 
+  it works amazing when your fps is fluctuating between like 40-80fps because without it you 'll get noticeable stuttering from halving your framerate ( the more frequent and larger drops you experience , the worse stuttering you get ) . 
+  at the same time without syncing the frames with monitor refresh rate you experience a screen tearing which is extremely visible on 60hz . 
+  that said , once you get past 80-100 min fps in games , it should be noted that the tearing you get from lack of vsync is less and less noticeable the higher framerates you go and the same is with frame drops ( while 80 to 40 drops will be huge , 200 to 140 fps is n't really noticeable ) . 
+  so to sum up , if you 'll be able to consistently get 80 + fps , you 're already dealing with a lot of the problems that adaptive syncs aims to achieve through high refresh rate . 
+  of course , it does n't hurt to have it despite that ( nobrainer for freesync , for gsync it 's up to you if the premium is worth it for you ), 
+  2 ) afaik current display port version only supports up 4k 60hz , this should be addressed with newer gpus, 
+  3 ) yes, 
+  here 's a comparison video of a 6700k and and 3770 : https://www.youtube.com/watch?v=vdo-j00vutw, 
+  there 's pretty good difference even between stock 6700k and a 3770k in games that need a powerful cpu and overclocking makes even bigger difference . 
+  a stock 6600k would perform same or slightly worse in games that can utilize more 4 threads compared to the 3770 but once you oc it it runs over a stock 3770k in pretty much everything : https://www.youtube.com/watch?v=jwxncqbe1h8, 
+  depends on your temps . 
+  a 480 costs $ 200 , even in a worst case scenario it will be faster than a 970 ( while best case it 's faster than a 980 ) and does n't have 3.5 vram and lack of async compute, 
+  buying 970 at all sounds like a pretty terrible deal unless you get it for like $ 160 and even then there 's a good chance of a cheaper polaris card coming out and still giving you a better price/perf . 
+  all this said , do n't expect 970 owners to sell it for $ 160 though . 
+  assuming same refresh rate , probably no . 
+  well if you want to do everything not to get bottlenecked , get a 6700k and overclock it . 
+  newer games that are cpu heavy and can use all the threads ( gta 5 , witcher 3 , crysis 3 ) make the i7 worth it at such high framerates . 
+  the alternative would be 6600k ( or non-k ocing a 6500 ) , you definitely want overclocking for 144hz though . 
+  whether it 's worth spending on gsync depends on your framerates . 
+  if you keep minimum of 80-100 fps in games you do n't really benefit from gsync that much but it helps a lot below that . 
+  for games i 'd get a 6100 over a 6400 . it has very low base clock that unless you want to oc , save for a 6500 instead, 
+  wait for 480, 
+  did you actually change the refresh rate to 144 ? 
+  it will probably struggle to max out recent and future demanding games . 
+  if you 're fine with lowering details to get 60 + , sure . 
+  if you 're looking at a 900 series gpu , you probably want to wait until polaris . 
+  it will have card stronger than 980 ( we do n't know if that 's 480 yet or no although it 's likely ) for a lot cheaper, 
+  do n't expect 970 to ever drop down enough to be worth buying ( at the moment we 're talking about $ 160 ), 
+  480 will simply make it obsolete and there 's a good chance of smaller polaris cards ( and 1060/1050 ) coming out and making even $ 160 970 too expensive . 
+  have an idea what kind of resources the game uses ( ie . 
+  is it cpu heavy and can it multithread well ) , resolution and framerate ( higher framerates make cpu the more likely bottleneck while resolution almost does n't matter for cpu but 1440p is considerably more taxing on gpu compared to 1080p ), 
+  use something like hwinfo to monitor gpu load , if it is running close to 100 % you 're probably gpu bound . 
+  at the same time , if you do n't get a noticeable fps increase by decreasing resolution , you 're probably cpu bound . 
+  finally , open task manager and monitor usage of individual threads ( not overall cpu usage ) , if at least 1 of them is maxed or close to that , you 're cpu bound, 
+  edit : ram is easiest to determine , open task manager and if you 're close to 100 % memory usage you do n't have enough . 
+  also , keep in mind that all games do n't tax both gpu and cpu equally at all times , it 's very possible that with a balanced setup , the bottleneck is shifting depending on what happens in the game . 
+  in the same headers you 'd plug 4 pin fans ( there 's only 1 way to connect them correctly ) . 
+  the difference with 3 pin fans is that they 're regulated by voltage, 
+  if it has enough wattage and the quality is good there 's no reason not to use it until it stops working . 
+  the 480 is such a good price/perf that it 's unlikely any price drops will make the older cards good value compared to it . 
+  overclocking is only way to increase single-threaded performance of your cpu and for gaming that 's basically the single most important thing regarding ( cpu ) performance . 
+  most games that are entirely limited by it ( like strategy games ) also rarely benefit from more than 1-4 threads ( edit : or rather 1-2 threads will get maxed and that limits how well the game runs ), 
+  it 's not complicated at all , just a bit tedious while you find a stable overclock . 
+  all it takes is increase voltage in bios and a multiplier or bclk ( with that you also need to decrease ram frequency ) and that 's all . 
+  stress test until you find a stable oc and you 're done . 
+  if you have the hardware needed ( motherboard , psu and cooler ) there 's really no reason not to do it . 
+  besides cost compared to atx board no . 
+  you only need to install or reinstall relevant drivers . 
+  whether your windows install will work depends on your windows license . 
+  is this for gaming or real estate ? 
+  i would n't recommending it for gaming simply because the 60hz on side monitors will look terrible in games compared the 144hz on main, 
+  at the same time , if it 's just for real estate you should just get ips because the worse latency of ips is irrelevant and you get better colors compared to tn, 
+  i guess you could look into ultrawide monitors to get some kind of compromise for gaming instead , although i 'm not sure if there are 100 + hz ultrawide 1440p monitors yet, 
+  6500 comes with stock cooler that will work just fine unless you want it less noisy or oc . 
+  from benchmarks i 've seen so far , 1070 is n't quite powerful enough to max out very demanding recent games ( and future games probably ) at 60 but if you 're fine with lowering details to reach 60fps , it should work . 
+  stock i5 6500 should work fine for most games at 60fps . 
+  whether you should be overclocking depends if the `` entry cost '' is worth it for you ( in your case you 'd need a z170 board , good aftermarket cooler and sufficient psu ) and how much do you value single-threaded performance of your cores , which is extremely important for some games ( various simulators , strategy games and mmos in general ) because they usually ca n't use more than 2 threads and their performance is entirely limited by 1-2 strong threads . 
+  in most games , overclocked i3 will perform about the same as stock i5 while overclocked i5 will perform comparably to a stock i7 . 
+  you 're not saving money by this if you have to buy everything to be able to overclock though ( that said a good psu and cooler are great investments that will last you over multiple builds ), 
+  faster frequency means faster data transfers . 
+  ram also has latency where lower is better . 
+  ram frequency in games can give you better performance when you are cpu bottlenecked . 
+  no you can use xmp ( to get rated speeds of the ram ) or overclock the ram itself .

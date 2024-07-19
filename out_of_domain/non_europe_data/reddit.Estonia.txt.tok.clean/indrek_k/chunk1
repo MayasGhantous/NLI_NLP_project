@@ -1,0 +1,100 @@
+i watched ~ half of the video before i realized this was a joke . 
+  the situation you describe can easily be solved with custom meta boxes and there is at least one good plugin ( advanced custom fields ) that simplifies the process of creating them considerably if you are n't good with php . 
+  layouts are not a problem , imo . 
+  more complex functionality might be a problem , though . 
+  wordpress is designed for the ~ standard website - pages with static content , stuff in sidebar and a blog . 
+  that 's where it really shines . 
+  of course it 's possible ( and in my experience usually not difficult at all ) to build more complex sites with wp , but i believe a competent drupal developer could have the same sites up and running a bit faster . 
+  did n't watch the video , but looked at your checklist . 
+  here 's my 0.02 $ :, 
+  most wordpress sites are compromised by bots scanning for known vulnerabilities . 
+  most of these vulnerabilities have been , and will be found in plugins . 
+  so the most important thing is to update your wp installation and plugins regularly . 
+  sometimes a vulnerability is discovered and successfully exploited in large numbers before the authors release a fix ( timthumb exploit , for example ) . 
+  if this is the case , some wp security plugins that actively filter/block requests might help you but you ca n't really count on them . 
+  in fact , you probably ca n't do anything at all to prevent this from happening . 
+  oh , and there 's also the chance that something else fails - a vulnerability is found in apache , php , your web host control panel software , whatever . 
+  therefore , the second most important thing is backups . 
+  make regular backups , figure out a way to restore your site quickly in case it 's compromised . 
+  you 'll also need to monitor your site to find out if it 's compromised . 
+  there 's google web toolkit for that , and some other services , have n't really looked into them . 
+  changing the database table prefixes and changing admin username are the last things you should do , in my opinion . 
+  i doubt anyone wants to brute force random wp sites ' admin logins when there are so many wp sites with really old versions of really common plugins - those are the delicious targets . 
+  and do n't use your ftp or admin passwords anywhere else . 
+  the average website is horribly insecure and one day you * will * find the email + password combination you used in genericwebdevforum.com in a pastebin pw dump . 
+  in my opinion , it 's the most cost-effective approach , indeed . 
+  it only works for smaller sites that do n't store user information , though . 
+  i have n't really looked into ( free ) ways to automate backups securely and comfortably - if you do that , please let me know what you find , 
+  are brute force attacks to wp-admin really a problem ? 
+  also , assuming they are a problem , could n't you simply use a longer password ? 
+  assuming a decent username/password combination is used , is it really necessary to protect the login form any further ? 
+  if you use htaccess to rewrite / wp-admin to something else for the sole purpose of hiding wp from attackers , you should also disallow access to wp-settings . php ( and possibly other wp-specific files in the home directory ) . 
+  however , i 'm not convinced this will really help in the long run , as it 's just security through obscurity . 
+  you might still get hit with a bot that does n't check if you 're running wp before testing for vulnerabilities . 
+  i 'd recommend investing your time in a good monitoring and backup solution instead . 
+  i know exactly how you feel . 
+  sadly , my statistics knowledge is n't always good enough to point out the flaws . 
+  thank you , and please keep doing this . 
+  in my opinion , the wordpress team does a great job . 
+  wp is a tool for a specific job , and i find it to be quite good at it . 
+  i think the reason behind security issues and spaghetti code is the fact that wp tries to cater to non-programmer users as well as professional developers - and even for developers , the entry level is a lot lower than other cmss . 
+  in the official support forum , i often see people who only grasp the basics of php , but try to modify a theme or hack some simple functionality together . 
+  and writing plugins has been made really simple ( compared to drupal for example ) . 
+  that 's both a blessing and a curse - on the one hand , you get a huge community , lots of tutorials/documentation , tons of plugins , everything has already been done . 
+  on the other hand , you sometimes/often get spaghetti code that does n't even follow the dry principle , let alone secure coding principles . 
+  i 'm personally not really bothered by that - ca n't expect code written by random people on the internet to be secure anyway . 
+  as for op 's question - definitely not , imo . 
+  it 's a great tool for building small websites , i think it should stay that way . 
+  awesome . 
+  a plugin like that could potentially reduce the number of hacked sites by a large number . 
+  let me know if i can help you out with anything . 
+  the remaining 1 % of your problems will be solved by regular backups and forcing your users to use non-stupid passwords . 
+  textures album drawing circles . 
+  i usually fall asleep at the first ambient-ish tracks . 
+  also , almost anything by opeth . 
+  a fair judgement is my favorite for this purpose . 
+  from the perspective of a tester i can safely say that this is something that should be done with * every * web application . 
+  i 'm not even a `` real '' security tester , but in addition to doing functional and usability testing i usually look for security issues as well ( if the client is interested ) . 
+  there is * always * something . 
+  at the very least , a single xss vulnerability in a field a developer probably forgot to sanitize properly . 
+  but eight or nine times out of ten i can also manipulate a post request to edit another user 's personal details ( including password ) , upload a file containing php code and execute it , and so on . 
+  you 'd be surprised how far simple url manipulation can usually get you ( citibank lol ) . 
+  op is correct - every developer sometimes overlooks things , no matter how good he is . 
+  and if you do n't test , you probably wo n't even know something is wrong until some russian kid `` pwns '' your app . 
+  awesome , i really like the song . 
+  kinda too much kick drum for my taste though , also something about its sound bothers me . 
+  i 'd also recommend you start with something a bit simpler . 
+  however , if you do manage to finish the project , at the very least you 'll need to have someone who knows about web application security take a look at this . 
+  otherwise you 'll leak your users ' personal information / end up serving drive-by trojans to visitors / someone 's going to buy a lot of stuff for $ 0.01 . 
+   wordpress as a open source cms is extremely easy to use and manage but it tends to leak a little thus leaving your blog or business website vulnerable to hackers, 
+   security : 7/10 -- i wont lie , i 've had a couple of wp sites hacked in the past !, 
+  so you are blaming your sites being hacked on wordpress itself ? 
+  in what way does it `` leak a little '' ? 
+  sorry to argue over genres but textures is in no way metalcore . 
+  if you are into heavier stuff only , mayhaps have a listen to their first album ( https://www.youtube.com/watch?v=hd-xx9bbq8a ) . 
+  having said that , i find textures to be quite unique and very different from other metal bands , so if you like more traditional metal you might not enjoy them . 
+  i 'm curious - how is common sense going to save me if one of the websites i regularly visit is compromised and starts serving malware ? 
+  of course , if by `` common sense '' you mean using the latest version of a modern browser with noscript , installing windows updates as soon as they 're out and verifying the signatures of all downloaded executable files - that would indeed be * mostly * safe , i think . 
+  pc security is not really my thing , though , so i 'd be happy to hear counter-arguments . 
+  [ roots ] ( http://www.rootstheme.com ), 
+  i 've been a huge bodom/laiho fan for years and i have to agree with most of your points . 
+  aydy and blooddrunk have quite a few solos that sound exactly like something recycled from their older albums . 
+  ca n't comment on the last album , i have n't managed to force myself to listen to it more than 4-5 times . 
+  not sure what they smoked while recording it . 
+  and the sound/playing on chaos ridden years is just depressing . 
+  laiho used to be great and bodom 's older stuff is still excellent , imo . 
+  i 've never had problems with writing queries like in your example . 
+  $ page = get_query_var ( ` paged ' ) ? 
+  get_query_var ( ` paged ' ) : 1 ;, 
+  $ query_args = array (, 
+  ` page ' =  $ page ,, 
+  ` page ' param might be a typo in the query args , however if the offset parameter is set , ` paged ' will be ignored anyway . . so i 'm also confused . 
+  interesting . 
+  it should n't be a global variable ( http://codex.wordpress.org/global_variables ) , but maybe it 's instantiated by something else earlier in the code ? 
+  it 's good you found this sooner rather than later . 
+  if the only thing you did was clean up the header , your site is probably still compromised . 
+  start by installing a couple of antivirus/malware scanner plugins , go through the results . 
+  odds are there 's a shell on your site . 
+  once you find and remove the shell , change all wp/ftp passwords and try to figure out how it got to your site . 
+  assuming everything 's updated to the latest version , there 's still a lot of possible causes : could be a vulnerable plugin , vulnerable theme or just a weak password ( or maybe even an issue with your hosting provider , but that 's the least likely cause ) . 
+  unless you find and remove the entry point , the shell will be back .

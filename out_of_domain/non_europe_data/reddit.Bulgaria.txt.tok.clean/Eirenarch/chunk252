@@ -1,0 +1,100 @@
+  true . 
+  and therefore they do n't get a license . 
+  it should be illegal if the owner wants it to be illegal . 
+  he designed the plugs i.e. 
+  it is his investment , he owns them . 
+  yes , but consider this - after all the printing is done you ( the usa ) has no debt and everyone else holds worthless dollars . 
+  you are still in the lead . 
+  one thing i have seen people totally new to the game do is queue units and in this way tie resources . 
+  in the early stages make sure you do not queue 5 scvs and therefore have no money for supply depot . 
+  the court will decide if it is fine but my point was that what the license says does not matter in this case . 
+  web api is great but asp.net mvc not so much . 
+  it suffers from a lot of the same convention based configuration the author complains about . 
+  views magically wired to actions based on convention and god forbid you decide to refactor . 
+  also components  the asp.net mvc barebones mvc pattern . 
+  i am happy to see this dev style die out with the death of server rendering . 
+  react and angular 2 all the way !, 
+  irrelevant . 
+  the part that is mvc ( i.e. 
+  the one that has views ) is still a bad idea . 
+  it is not mvc without the v even if you happen to use the same base classes for the so called controllers . 
+  web forms was superior concept to asp.net mvc it was simply aging and the flaws that caused trouble were not conceptual but rather implementation details that made sense in 2000 . 
+  because people got control over their html and they liked it ( in the age of jquery animations ) they decided that component ui frameworks were a bad idea . 
+  i am happy to see components return in the form of angular 2 and react so we can leave the inferior rails/asp . net mvc frameworks behind . 
+  i can bash java - the language all day long and i have a good deal of experience . 
+  on the other hand java ecosystem and especially the jvm are quite good . 
+  well , the first job can be scary . 
+  just build something simple but real world . 
+  web dev is the hotness these days so maybe a blog engine , forum engine , or something like this . 
+  if you run it in production it will be even better since you will be able to find quirks . 
+  my website is still running that thing i built back when i was a junior dev ( in all fairness i built it after i got my first job ) . 
+  i used to put it on my cv ( the source code not the actual site ) but these days i have removed it because i have a large list of projects and frankly the code will be kind of embarrassing if i had wrote it today . 
+  still i learned a lot of things doing it . 
+  when you are building something for the real world you learn to take care for simple things like for example if the user posts a comment and then presses f5 the browser suggests submitting the data again . 
+  preventing problems like this is what makes high quality software different from low quality software and you do n't get to learn about those by reading or even understanding the technology . 
+  android will may move away from java . 
+  google will not . 
+  there is no reason to ditch java on the server and no easy replacement . 
+  web forms was perfectly fine for the times . 
+  it only began to show its shortcomings when mobile and jquery animations became a thing . 
+  for building something like wikipedia ( before mobile ) web forms was perfect and in fact hugely popular in the real world ( i.e. 
+  not your hip startup but enterprises and companies that just built an accounting or inventory system for that one client ), 
+  also asp.net mvc happened in 2008 . 
+  if someone is still overlooking asp.net because it was supposedly bad before 2008 then that 's on them . 
+  the money for windows is tiny compared to dev salaries . 
+  windows is indeed a problem but not the price . 
+  the problem is that a client 's other systems often run on * nix and some clients would reject asp.net because that would double their infrastructure complexity . 
+  also note that today ( meaning 2016 ) you can not deploy . net on linux meaningfully . 
+  asp.net core is extremely immature . 
+  currently you ca n't even resize an image . 
+  tomorrow ( 2017 ) this will probably change but i would n't start a project on core today and in fact i have explicitly started a new project on . net 4.6 recently . 
+  in my opinion the main reason asp.net is not mentioned in these type of articles is microsoft hate . 
+  if you use the full stack you get ... perks . 
+  like great linq providers so people choose sql server because they want the perks . 
+  now if you use something else you lose the perks but on other platforms you ca n't have the perks to begin with . 
+  honestly you did n't miss anything . 
+  for small projects it works like you describe . 
+  for large projects if the license of visual studio and windows server is such a big deal i have to ask what do you pay your devs and what environment do they work in because visual studio pro ( now available as community for free ) costs as much as a reasonable dev computer which should be far less than dev 's salary . 
+  there are tools that solve this problem for java and do hot swap . 
+  not sure what they were called . 
+  sadly for asp.net there seems to be no solution for now ( except a web site project which has other downsides but is still fine for small web sites ) . 
+  asp.net core will however solve this problem but it is not mature yet . 
+  if you change the view - no problem , if you change the controller or something else - too bad . 
+  yes . 
+  but they do n't . 
+  backward compatibility may be king but then you do n't get to claim that php is just fine especially if the broken stuff is not opt-in or at the very least clearly separated . 
+  also it is funny to claim that backward compatibility is king after php4-php5, 
+  they would lose anyway . 
+  their claim is pretty different in the android case . 
+  server rendering will of course stay for seo reasons for the foreseeable future but it 's importance will be diminished significantly and it will become simpler to the point where we will not argue which server rendering framework is better because all of them will be able to handle the simple pages well enough . 
+  my dream is something like react that can render both on the server and the client . 
+  you write c # react for the server it spits the html and the js required to make react work client side . 
+  react has this feature for node and i see no reason why there can not be a c # port that uses one of the c # to js compilers . 
+  the mvc pattern has many incarnations . 
+  the one in asp.net mvc sucks . 
+  you ca n't have a component that encapsulates behavior and styling . 
+  to work around that they added stuff like areas . 
+  there are other things that fail like recursively rendering something ( a tree menu ) . 
+  they invented hacks like renderaction which violate the very pattern they are supposed to implement because a view should not call into a controller . 
+  so `` compatibility is king '' but only 9 years back then it stops being king  at least fix everything before declaring compatibility a king . 
+  viewstates can be turned off since day 1 and they have been off by default since ... 
+  i do n't know 2008 ? 
+  yeah it is bad that it requires you to know you have to pay attention but still . 
+  also in practice they were not a big problem until mobile came along . 
+  the scary 1mb view state horror stories and now we have average page size of 2.5 mb most of it ads . 
+  note that this is the average which means there are even larger pages . 
+  as a matter of fact for 6 years of web forms before moving to mvc i have seen the view state being a problem exactly once . 
+  for hobbyists there was visual studio express which is really good enough ( i never installed pro at home and i did n't find anything missing from express for my home projects even when i used pro or ultimate at work ) . 
+  startups had bizspark programs that give you a ton of shit for free . 
+  it is strange that you will defend mono as good enough but will claim those other things as awful ... 
+  i agree with your last point . 
+  even if asp.net is the best choice sometimes devs will simply not think of it . 
+  people wo n't even research if the barriers of entry still exist . 
+  now the greatest marketing term `` open source '' seems to have activated the crowd that thought you have to get a second mortgage to use . net and they are finding out all the free stuff that 's been there for a decade . 
+  i do n't think edit and continue works if you need to change something outside of a method . 
+  does it ? 
+  like what happens if i introduce a new class and use it somewhere ? 
+  well if he has a house ( btw half a million for a house ?? ), 
+  then at least he does not have to think about rent so i guess he will still have it easier than most people his age . 
+  yeah someone should warn famous people about that . 
+  some of them handle it gracefully and invest the money and others fail miserably .

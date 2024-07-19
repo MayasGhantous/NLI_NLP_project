@@ -1,0 +1,100 @@
+  yeah ... aesthetic . 
+  the aesthetic of `` i am a hipster and i buy old furniture because i think this makes me look more intelligent '' . 
+  i get aesthetics like the one in limbo and there certainly are art styles that provide aesthetics but pixelated bullshit is not aesthetics . 
+  that 's like watching distorted movies to simulate broken vhs . 
+  yeah ... viewstate ... are we going to have a technical argument or you are going to pull the viewstate scarecrow ? 
+  first of all viewstate was never that big of a problem and second it has been turned off by default for almost a decade ( 8 years is the exact time i think ) . 
+  if you are going to pull viewstate as an argument against web forms i can just as easily claim that mvc does not exist because they turned off viewstate before they shipped non-beta mvc . 
+  also viewstate is actually useful . 
+  i miss it every time i have to put a hidden input on those mvc pages which happens a lot . 
+  the fact that webforms provides a good amount of statefulness is actually pretty cool . 
+  we want our ui to act statefully . 
+  this is our business requirement . 
+  web forms moved us away from the protocol and closer to our business logic and mvc is dragging us back . 
+  luckily as discussed in this thread mvc is dead and we are back to the stateful component model with frameworks like react and angular 2 . 
+  the only valid criticism to web forms is the lack of control over the html and the bad state of the auto-generated one ( although they improved things a lot lately ) . 
+  in the time of jquery animations and such it was a serious problem that drove people away from it more than anything else . 
+  no , because it wo n't make the trip back to the server . 
+  i am actually annoyed that games i might otherwise like insist to look like they run on a 286 . 
+  note that i did in fact play and enjoy the games on 286 back in the day . 
+  your biggest issue with web forms is the greatest thing about it . 
+  statelessness is protocol level implementation detail . 
+  my ui is logically stateful and my users want it stateful . 
+  the good news is that react and angular 2 that we are gon na be using in the coming years are pretty stateful and feel like * forms . 
+  i enjoy how my younger coworkers who started with mvc struggle with the concept and i have to teach them those old * forms tricks that work perfectly in the brand new frameworks . 
+  the bad news is that we have to write javascript but i guess we ca n't have everything . 
+  yes , i said that 's what i am doing , did n't i ? 
+  is reddit buggy or something ? 
+  i 've clearly written that i am using hidden inputs as a poor man 's view state and yet two people tell me to use them . 
+  that part is even quoted in one of the replies but obviously it is invisible to other users . 
+  in my opinion and experience junior developer write worst code with mvc . 
+  things like sql queries from the views are much worse than anything i have seen in web forms . 
+  also even experience developers tend to put business logic in the controller . 
+  business logic is part of the model ( as is validation ) but i doubt even half of the devs realize that . 
+  google already does some rendering but i expect rendering things like react on the server to be adopted before engines handle js code perfectly . 
+   you pulled one thing i said and based an entire post on it, 
+  well i actually responded to all your points ... 
+  i think . 
+  and obviously i am using mvc as a short name for the framework . 
+  i do know that it is a pattern . 
+  i can assure you that i fully understand who maintains the state . 
+  web forms never maintained the state on the server . 
+  it maintained state on the client via the viewstate and a couple of other tricks ( like restoring the state of all controls based on the post data ) . 
+  you get your state restored on the server but it is certainly maintained on the client . 
+  the proper way to think of web forms is like a super advanced mvc model binder that did a lot of things automatically . 
+  yes in web forms you can do shit too . 
+  i am just disputing the claim that mvc is somehow better organized and people structure their code more correctly just because they are using mvc . 
+  i do n't understand why the total lack of abstraction in asp.net mvc is considered a good thing . 
+  i will be happy to unlearn all the shit i know about http , javascript and html forms but sadly i have to work with mvc . 
+  give me back my abstraction that hides the worst ui platform in the world from my sensitive eyes . 
+  i do prefer the spa dev model but i 'd rather take a desktop app both as an end-user and as a dev who has to build it . 
+  too bad that i get to work with desktop apps less and less on both fronts . 
+  i 'd say linq is one of the more important topics to master . 
+  now of course to answer this question we need a list of other things you can do instead . 
+  important compared to what ? 
+  `` usable '' should be defined as `` released '' . 
+  c # 6 features blogposts are forbidden once c # 7 is officially released . 
+  i am pretty sure another post about string interpolation will be quickly downvoted at this point . 
+  i mean we should not be trying to replace the community moderation with moderator rules , we should use moderator rules to prevent jamming the community moderation system . 
+  therefore i think c # n is ok up to the point where c # n +1 is officially released . 
+  some time ago i wrote a visual brainfuck interpreter for windows phone . 
+  used it to learn both xaml and windows phone development . 
+  wrote a series of posts about it as a [ postmortem ] ( http://sietch.net/viewnewsitem.aspx?newsitemid=195 ) . 
+  i wonder if i should make a separate thread about it . 
+  used to be really proud about this project . 
+  i guess i still am . 
+  without resharper vs has limited set of features but the usability is the greatest of any ide i have tried including idea . 
+  usability is not the presence of features it is things like discoverability , default configuration , ergonomics and vs is great at that . 
+  you tend to use vs features without realizing they exist . 
+  ca n't say this for eclipse for example . 
+  idea with java is closer but still not there . 
+  the java language may suck by today 's standards but the jvm is impressive . 
+  it optimized on its own what needed a hint from the developer ( struct ) in . net . 
+  and it is not like the clr which it is compared to is some hobbyist runtime . 
+  it may be interesting to test the same code against . net native . 
+  the features from 4 to 5 are incremental meaning that you just learn the new features and add them to your repertoire . 
+  the features in 6 are minor but in a way they make some older patterns redundant . 
+  specifically i tend to use get-only properties everywhere where before i used get ; private set ;, 
+  if you feel you need to learn more c # on this level i 'd say take the course . 
+  it is not like you are learning 2.0 and 3.0 will make a lot of the patterns and practices outdated . 
+  i know that . 
+  they should introduce structs . 
+  but between structs and escape analysis i 'd take the escape analysis . 
+  now of course if you are gon na get both but you get one 20 years later than the other i 'd rather have structs first so that libraries can make use of them . 
+  but what do you do when jon skeet has n't made a 6.0 course yet ? 
+  - agreed about the diff, 
+  - you can do it in the test explorer though i must admit there should have been an item in the context menu, 
+  - there is an option for this ( allow editing for readonly files ) . 
+  also you have edit and continue . 
+  i think the default is correct . 
+  - `` go to implementation '' was literally the reason i was about to buy resharper for home use ... and they put it in vs 2015 . 
+  however i think it falls under features not in user experience . 
+  - never noticed how other ides handle this situation , ca n't compare . 
+  and then the query comprehension syntax makes both options look like ancient hieroglyphs with its far superior readability . 
+  i 'd buy everything just to support starcraft but please no more unit skins unless i have the option to turn them off and not see the weird stuff the opponent uses . 
+  this is not necessarily true . 
+  why ca n't nova pay for multiplayer ? 
+  well that 's expected . 
+  after the release of the new expansion people move to it . 
+  the good news for people who find the price too high is that this is the last expansion so if they buy it there is access to the multiplayer forever . 
+  also it is hard to attack blizzard on this one .

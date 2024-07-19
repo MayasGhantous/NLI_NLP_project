@@ -1,0 +1,100 @@
+  although faster ram does help in cpu bound scenarios the jump from even 1600mhz to 2400mhz probably wo n't be very cost effective seeing you already have 4x4gb ram , but at the same time ocing ram without xmp is kind of pain in the ass so ... i 'd recommend to just try oc the ram a bit instead of buying entirely new one . 
+  yes , assuming it 's not a shitty unit . 
+  that 's a great one and should last you far longer than the build you 're buying it for . 
+  wait for zen and kaby lake . 
+  it 's not worth buying amd processor right now even if you could stay on the same mobo, 
+  if you have unlocked cpu oc 'd with multiplier you do n't have to use base clock ( assuming you mean bclk ) to oc memory . 
+  it has it 's own multiplier for frequency . 
+  ram is always a bit trickier not just because you have timing and frequency to tweak , but also because you have multiple stickers ( in your case 4 ) so you have more elements to be unstable . 
+  that said depending on your board you can try tweaking just some values ( like frequency , voltage and cl ) and let the motherboard adjust rest of the values by itself . 
+  faster ram alone makes a big impact in cpu bound scenarios so calling it overkill is simply wrong . 
+  not to mention a z170 board allows you to overclock even non-k cpus so you 're being way more future proof with it compared to a h110/h170 which has pretty much no upgrade paths and any cpu related upgrade means buying completely new motherboard , so in the long run you 're not necessarily saving money . 
+  it 's basically the same except you 're locked into slower cpu performance with no upgradability . 
+  so in reality there 's actually a huge difference . 
+  it obviously depends on the price difference but in my opinion the 8gb 480 is n't worth it if we 're talking about the ~ 20 % cost increase . 
+  i think talking about adding a few years of viability to aaa games is nonsense , simply because you wo n't be maxing out those games while getting acceptable framerates anyway . 
+  i 'd say the consideration should be whether the more expensive 480s ( which are always 8b ) give you better cooling and oc and if that 's worth paying for but i would n't worry about the vram on a midrange card besides extremely fringe cases ( like heavy texture modding ), 
+  well whatever gpu upgrade you make will result in a cpu bottleneck in a lot of games while the 770 can still run games well enough if you drop down details to low/medium . 
+  i think you 're best off waiting for zen and getting some kind of entry level cpu which should give you the best upgradability in future . 
+  with intel you really need to pay premium for a good chipset ( z170 ) to have any upgrade paths later on which can be hard to justify if you 're on a budget since obviously the money could be spend elsewhere for immediate performance . 
+  i would definitely recommend a cpu upgrade over gpu for the games you play unless you really want graphical fidelity over stable framerate , but zen is probably few months away still so if you 're looking for something to buy now a gpu would be the part . 
+  this is kinda misleading because in this video both of the cpus are oc 'd the 4ghz . 
+  since the i3 has higher stock clocks while the i5 has extremely low stock speeds , this oc means the 6100 only gets 8 % performance increase while the 6400 gets anywhere from 28 % to 48 % ( depending how you count boost ) . 
+  if op is planning to oc then the 6400 is amazing because you can pretty much the oc 'd 6600k performance out of it while saving lots of money ( but you need a z170 board to do that ) , but if we 're talking about stock speeds , the answer is n't that clear and what 's better heavily depends on the application multithreading . 
+  talking about games , games that ca n't fully utilize the 4 cores of an i5 will benefit more from the higher frequency of the i3 and perform better there , then you have other games that can utilize all 4 threads but still prefer the single threaded frequency more and both cpus will perform similarly , and only in the well threaded games that can fully utilize the 4 i5 cores will the i5 perform noticeably better . 
+  it 's not though . 
+  2133mhz to 3000mhz in skylake is equivalent to a ~ 20 % cpu overclock ( obviously depending on games ), 
+  as my response to someone else , see :, 
+  that 's not wrong either . 
+  see the 2 youtube links , both compare ram together with overclocking of locked chips . 
+  here you have several locked cpus , including an i5-6500 running @ 5gh at the top . 
+  oh , so now it 's possible , just not stable or reliable ? 
+  keep moving goalposts . 
+  also downvotes will surely make you right . 
+  some mobos support it with latest official bios and it 's as stable as ocing on a k chip but you 're obviously not interested in facts because they prove you completely wrong so there is n't much point in further discussion . 
+  6950x is n't an improvement for gaming over 7700k . 
+  there comes a point where the better single threaded performance of a 7700k ( both from higher ipc and being able to oc it more ) gives you better performance than adding more cores/threads which do n't scale as well/at all . 
+  you are missing the point . 
+  waiting for zen is worth it simply for the fact that it will be competition for intel and will likely force the prices down , unless zen is a complete bulldozer tier disaster ( which is unlikely just from the 2 benchmarks we 've already seen ) . 
+  then there 's the fact that amd wo n't charge premium for basic features on a chipset ( like intel does with z170 ) so even if the cpus were identical , amd will be have cheaper motherboards . 
+  we know it 's not worth waiting for kaby lake because the ipc is pretty much identical , you wo n't get any more cores from it and at best it will overclock 200mhz more . 
+  i was n't the original poster but that does n't matter . 
+  you 're assuming that `` cpu intensive '' = more cores will help . 
+  the problem is that that 's not how cores work in games . 
+  there 's pretty much always a threshold where adding more cores will give you marginal to no gains but adding single threading performance ( like ocing or faster ram ) will continue to scale well . 
+  just because a game can utilize all threads you have does n't mean that adding more will be better than increasing your st performance , and 8 faster threads of an 6700k/7700k at this point are almost always better than 12/16/20 slower threads of 5xxxx or 6xxxx cpus . 
+  to illustrate this on a simple example , imagine you have 2 cores and are playing game . 
+  c1 has 100 % utilization and c2 has 80 % utilization . 
+  despite being cpu bottlenecked , adding 2 more cores will just result in c2-c4 having ~ 30 % utilization but it did n't help your performance at all . 
+  you need to actually improve the performance of c1 ( by oc or faster ram ) to help the bottleneck . 
+  and while you might say this is extreme case of a poorly threaded game , this is the reality that applies basically to every core vs ipc situation , whether you 're comparing oc 'd i3 to a stock i5 , oc 'd i5 to a stock i7 , or like here , faster 8t i7 compared to a slower 10t + i7 . 
+  here 's a good benchmark of games where pretty much all of them can utilize more than 10 threads but even at same frequency , skylake beats haswell-e just from the higher ipc in pretty much all cases : https://www.youtube.com/watch?v=ocwwavguftk, 
+  one amazingly threaded game is overwatch where 8 core amd fx cpus beat an i3 skylake , but still fall behind compared to an i5 . 
+  but games that scale this well could probably be counted on one hand and even in your battlefield 1 example the i3 beats the 8 core fx . 
+  even if it costs the same as the intel chip and performs the same , the motherboards will be cheaper . 
+  and amd ca n't charge the same premium as intel does on the cpu itself because history showed time and time again that people would rather choose nvidia/intel even if amd has the better product for cheaper . 
+  of course . 
+  people are also forgetting that you are paying a pretty big premium for intel chipsets . 
+  since amd is going with just am4 it means that unless you were already getting the cheapest motherboard available , you will be saving money there . 
+  my bad , my point was rather that with intel the `` midrange '' chipset should be z170 but that 's not really the case and you 're paying a hefty premium for basic features like ram and cpu overclocking . 
+  zen brings this down a notch and will support oc on the `` midrange '' b350 chipset while the premium x370 should be more akin to the intel x99 . 
+  and this talks about oc `` support '' , lack of support does n't necessarily mean the intel way , which is going out of their way to prevent motherboard manufacturers giving you the freedom the oc via bclk . 
+  except there 's no evidence that i5-6600k will overclock any better on average than other locked i5s so you ca n't really prove that they bin their processors to such degree . 
+  of course , it 's not really surprising to see someone called `` skylake '' defend intel with made up claims . 
+   source from december 11 , 2015 on early bioses, 
+  yep , this is completely relevant . 
+  meanwhile from january to present : https://docs.google.com/spreadsheets/d/1wqwymgssnmpkxreesnvusop7hgykfww1ygjsxwx64e8/edit?pref=2&amp;pli=1#gid=0, 
+  locked chips from pentiums to i5s getting same frequencies at same voltages compared to i5-6600k . 
+  this is what actually the `` thousands of sources from google '' show , not `` several cherry picked sources from december 2015 just when skylake came out '' like yours . 
+  also i love how pointing out your bullshit resulted in immediate `` you 're amd shill '' reaction when i have n't mentioned amd at all . 
+  i do n't call people shills but if this is n't projecting , i do n't know what is . 
+  edit : whoops , looks like facts are n't on our side , unleash the downvotes boys !, 
+  it 's called marketing, 
+  well what 's funny is that my response with the ad hominem is at 0 points while my response calling him out and backing it with facts is at -2 . 
+  and to be honest , it was n't fair from me based on his post alone , but he 's clearly extremely biased for intel from other posts i 've seen as well which was the reason for that addition rather than that being my argument . 
+  again , evidence we have ( = results from people overclocking their k and non k cpus ) does n't show any kind of binning happening . 
+  that did n't stop him from making that claim to defend intel pricing and i think it 's dishonest . 
+  pretty sure people here have no problem accepting that intel lacks competition and nothing is preventing them releasing locked chips with 300mhz clock increases competing with each other . 
+  the issue becomes when people will start to make up claims that are n't backed by evidence ( or worse , are backed by outdated articles that look legit but do n't actually reflect the reality ) that clearly benefits no one besides image of intel . 
+  i appreciate your response and reasoning , but we 're not really arguing against each other . 
+  i 'm not assuming he 's rooting 100 % for intel because he 's named skylake , but because i 've seen him several times making bullshit claims that were either pro intel or against amd cpus . 
+  also just to be clear , there are valid claims to be made when comparing products and those are n't an issue , made up claims and/or critiques are what i have problem with . 
+  intel is a business and we all understand that if they can release multiple i5s clocked differently and sell them , they will . 
+  there is no need to defend it by saying it 's due to binning , as if the i5 clocked at 3.5 ghz could n't reach 3.8 ghz of the slightly more expensive i5 ( ignoring the fact that in reality both of them will reach 4.5 ghz or more ), 
+  because unlike nuclear , solar only produces about 10-30 % of the time and wind produces from like 10-40 % of the time . 
+  so if you build nuclear plant that can produce the power 100 % of the time , the only thing you 're achieving by adding the renewables is wasting the plant by not running it fully for 1/3rd of the time because wind is blowing or sun is shining . 
+  american logic : instead of building efficient and functional public transport to reduce cars on road , everyone should buy 2 ton behemoth ( energy heavy product in itself ) that will be recharged by electricity produced by our 80 % fossil fuel power plants, 
+  nice , soon those 25 % of the time when solar power works will be cheaper than the 75 % time when you 'll be burning coal or gas to substitute for it . 
+  yeah , recharging your car with solar panel seems nice in theory , except in practice it makes solar even more ridiculous . 
+  imagine that every american switches to electric car . 
+  goes to work in the morning , comes back in the evening and let 's the car recharge when he sleeps over night . 
+  makes sense right ? 
+  now imagine how much the peak load increases when every one in america does this while you get no solar power at all . 
+  so now instead of petrol everyone is effectively driving on a coal/oil/gas mix that 's even less efficient than combustion engine thanks to batteries . 
+  you 're missing the point completely . 
+  electric cars are n't a solution if you waste enormous amount of energy ( that comes heavily from fossil fuels ) making a huge luxury barge and then you power it with electricity that 's a bunch of fossil fuel mix anyway while losing most the efficiency that comes them in the conversion/storage process . 
+  if you want to limit fossil fuels , you should start with being efficient with them instead of coming up with ridiculous ways to waste them just so you personally ca n't see the mess you made doing it . 
+  the difference is that nuclear energy and public transportation exists . 
+  better energy storage and clean electricity in the us does n't . 
+  but instead of using stuff that works , americans are building stuff that does n't help at all ( arguable pollutes and wastes during production even more than if you just stuck to driving 20 year cars ) while waiting for a miracle that will make the stuff they 're building help a bit . 
+  and while they 're waiting , they 're burning coal and gas .

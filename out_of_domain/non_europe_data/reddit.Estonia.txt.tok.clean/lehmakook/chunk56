@@ -1,0 +1,100 @@
+  alternatively , switch google translate into finnish , to get something that sounds about 90 % correct . 
+  i get the argument that in the end tenants will pay all of the fees and expenses , so it does n't matter * who * pays what . 
+  but that only works in a theoretical efficient market scenario where all fees are published up front , and tenants looking for a house have a big excel sheet to calculate their total cost for their desired rental length for each property they see . 
+  in reality , people look for the per month or per week rates , find a few that are roughly in their price range , go visit to have a look , negotiate , and only find out about the extra fees when they are presented with a lease contract . 
+  in this case , landlords have no motivation to find price-competitive estate agents , as they know that people wo n't back out of a deal and restart house hunting for an extra # 200-300 in one-time ( or more often , yearly ) fees . 
+  it would be possible to make a law that requires all fees to be published next to the monthly rent in similar size text , but it would end up a mess . 
+  if the landlords have to advertise a `` total '' cost , then yes , the fees are still eventually paid by the tenants - but it becomes much easier for them to compare prices , and therefore to prefer properties with lower estate agent fees . 
+  it can also be difficult to obviously say whether someone is estonian or russian . 
+  a few of my friends of friends come from families where they speak russian at home , they speak perfectly good estonian as well . 
+  you notice the accent , but only * after * you find out that they speak russian as well . 
+  and a few from families where one parent is russian and the other estonian , and they grew up speaking both at home . 
+  - no idea how they identify themselves as , never asked directly . 
+  but doing it one-by-one by products is all about appearing to be green , without actually doing much to be green . 
+  it 's impossible to keep up with all the `` wasteful '' things people do , and picking them one by one is too subjective . 
+  instead , there should be a sufficiently high carbon tax on gas and coal . 
+  the price of transport and electricity will go up , and all `` wasteful '' activity and product prices will be adjusted to match . 
+  want to eat red meat ? 
+  fine , pay for it . 
+  or find a farmer that uses wind powered water pumps , biomass for heating , etc and can therefore sell it to you for cheaper . 
+  want to leave lights on all day at home ? 
+  fine , pay for the electricity emissions , or install solar panels . 
+  want to decorate your house with rocks from australia ? 
+  fine , pay for the transport emissions , or take a sailboat to deliver them . 
+  coal would be taxed , since its carbon that comes out of the ground . 
+  wood is fine - as long as you plant enough trees to offset your use , you remain carbon neutral . 
+  you still pay the carbon tax on the transport and processing of wood , unless you do that somehow sustainably as well . 
+  or just use literal cow shit : http://phys.org/news/2015-08-cow-poo-power-profitable-farm.html, 
+  no , i understand that this will have significant economic repercussions - and i think that is a good thing . 
+  everything humans do results in pollution , and taxing pollution directly at the source ensures that we catch all of those activities equally , rather than politicians picking one new `` luxury item '' every month . 
+  and it encourages the producers of this pollution to pick other source materials , other transport methods , other energy sources - to become more competitive in the marketplace . 
+  for example , farmer a can use coal and gas wastefully to produce red meat , and his meat will be expensive . 
+  farmer b can use less energy , or more green energy sources , and his meat will be cheaper . 
+  not trusting the client is easy if you 're writing a web app or a chess game . 
+  it 's * much * more difficult when you want a real-time game at 60fps with physics . 
+  you could write it perfectly securely : upload players ' inputs , process and render everything on the server , and download video . 
+  but then you would have significant input lag , and the server would need to be as powerful as all players ' computers combined . 
+  so most games still only send position and action events ( bullet fired at coordinates xyz ) , not pure inputs . 
+  and have some cheat detection , not absolute prevention to ban users who send impossibly lucky bullet coordinates . 
+  mistrusting the client inputs is n't enough on its own either - if you send all players ' positions to all clients , then in theory they have data even for enemies who are not supposed to be visible . 
+  if they add a wallhack , this does not result in any bad data being sent to the server - it 's an entirely client-side unfair advantage . 
+  the `` automatic refill of my bitcoin balance from my credit card '' feature is a really brilliant marketing move the bitcoin payment processors came up with . 
+  they sell it to the hyped butters as a way to stay invested in bitcoin - while also making it possible for them to avoid doing any bitcoin transactions ( but still charge fees ! ), 
+  for payments . 
+  as you say , people everywhere ( except perhaps north korea ) do have the choice of opting out of a country 's laws - they can denounce their citizenship and leave . 
+  the fact that there are [ very few places left ] ( https://en.wikipedia.org/wiki/terra_nullius#current_terrae_nullius ) where * no * authority exists is n't really the country 's problem . 
+  i 've been working on a saas app for a startup which sells it to about 10 `` enterprise '' clients for a few years now . 
+  enterprise as in pays well , but requests custom features and tweaks often . 
+  based on this experience , my suggestions would be to avoid client specific features as much as possible , they are a huge hassle to maintain . 
+  if a client asks for a feature , try to come up with a variation that would be useful to all or most of your clients , and build it in a more general way . 
+  then * maybe * hide it from the ui for the clients that really do not want it ( but not from actual backend code ) . 
+  for example , it seems that some clients have asked you to add `` search for machines by number of cpus '' or something similar . 
+  instead of adding custom code per client , see if you could :, 
+  * add dynamic extra data for the machine models . 
+  either as a entity-attribute-value model , or a json field . 
+  start with the assumption that the clients employees can add new field types without ever asking you to update code . 
+  * make search work over all extra dynamic fields that machine objects have - not hardcoded per client , but look up the available fields to search over in the search ui . 
+  * if needed , make the list of which extra field names are shown in the `` add extra field '' ui customisable - either in your config files , or a `` account settings '' page for the client . 
+  * if possible , sell this extra fields feature as an upgrade to all clients . 
+  is there a version of the usb-c plug that snaps off when you yank the cable in any direction ? 
+  because magsafe has saved my laptop at least 5 times now . 
+  renting is mostly covered by * v\u00f5la\u00f5igusseadus * , also available in an official but somewhat complicated english translation here : https://www.riigiteataja.ee/en/eli/528032016012/consolide#156d693e-f33b-485c-9222-856f2d7b33fe, 
+  the most important part of it to know for all future rental contracts is : `` all terms in the contract which are worse for the renter than the law are invalid '' . 
+  from my initial reading , it seems that this is * probably * not a good enough reason for them to cancel your contract :, 
+  * if it 's a indefinite contract , they have to notify 1 month for a furnished room or 3 months for a full apartment/house . 
+  * there are special circumstances for ending a fixed-term contract before the term is over : including for example non-payment , the space being dangerous , etc. 
+  but it seems unlikely that `` i 'll have a grandson in 9 months '' counts as one of them . 
+  then again , these rules are not applied to spaces where the owners live in themselves as well - not sure if yours counts as separate or not . 
+  you can ask for help and advice from * \u00fc\u00fcrikomisjon * ( rental dispute agency ) at yyrikomisjon@tallinnlv.ee . 
+  overall , even if you win the dispute , it would be annoying to have to continue living in the same house with landlords who you fought with . 
+   if you can find a lawyer to take your case pro bono, 
+  is that really realistic ? 
+  it might be an easy win , but would lawyers who do pro bono bother with someone 's window tinting tickets , rather than picking a more socially meaningful case ? 
+  anything that implements the otp protocol is a great choice . 
+  the one-time ( hotp ) and time-based ( totp ) codes work completely offline - your server can do the validation without depending on any external services . 
+  and because google uses the same protocol for 2fa , plenty of people already have the open-source google authenticator app installed . 
+  this and most other 2fa mobile apps allow adding extra otp keys for any other services : i have gmail , linode and slack all in the google authenticator app . 
+  what do these agencies * do * anyway ? 
+  i can understand involving them if someone owns a place and hires them to rent it out while being out of the country , but if the landlord lives in the same house , then having an agency and charging agency fees is really bs . 
+   so basically the e-state is just advertisement ? 
+  well , there is a website for everything , and all government services i 've interacted with actually respond reasonably quickly ( 30 min to a few days ) to emails . 
+  you can log into websites and sign documents with the id card , and all government services accept these signatures . 
+  all of this was amazing and revolutionary 10-15 years ago . 
+  but now most countries have websites for government services , most countries have at least a few banks with good online banking , etc. 
+  so it 's not that special any more . 
+  out of curiosity , people who work as freelancers from venezuela online for companies abroad , how do they get paid ? 
+  if you get paid via paypal or bitcoin or something , how do you convert it to local currency to pay for rent or food ? 
+  do n't look for work online , despite it being * possible * to find good clients online ( i have ) , 99 % of it is a shitshow . 
+  * go to startup events & all sorts of businesses-interested-in-technology events in your city . 
+  mention that you do freelance work when talking to people . 
+  * go to hacker hubs , shared offices spaces and tech events in your city . 
+  make friends with other freelancers , and mention that you are looking for work . 
+  most established freelancers have more offers than they can handle , and are looking for partners to subcontract some components or full projects to . 
+  where do you live now ? 
+  many countries , at least all of the four eu ones that i have read about a bit ( uk , belgium , finland , estonia ) , have a tax law that says `` any foreign company 's income whose management lives and runs their business from here is taxed here as a local company '' . 
+  exactly to avoid people starting a business in another jurisdiction only formally to avoid paying tax . 
+  and it seems that us similar rules : http://www.ssacpa.com/having-a-permanent-establishment-in-the-u-s-could-cost-you-money/, 
+  if you want to run a company in a different juristiction from where you actually live and manage it from , then you will most likely need to spend a lot more than `` travel costs there '' on tax lawyers and accountants . 
+  i 'm no tax expert , but my understanding is that most avoiding double taxation agreements mean that you end up being the maximum of both countries ' taxes - still a lot better than paying the sum of both . 
+  for example , i moved from uk to estonia a few years ago , and had to use that . 
+  i paid in uk first , and then could reduce my estonian tax bill by that amount ( but no refunds if you already paid more ... ) .

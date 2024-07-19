@@ -1,0 +1,100 @@
+  i sweat the hard stuff to make it easy for others . 
+  so do n't misinform . 
+  here , it 's called _ the last days of the third age _ : https://tldmod.github.io, 
+  link on the steam workshop , right in the tiny description : http://imgur.com/nalpmuil.png, 
+  link on moddb , in five different places :, 
+  * big ass orange ribbon : http://imgur.com/tw80er5l.png, 
+  * big ass header button : http://imgur.com/bvrhuejl.png, 
+  * another big ass orange ribbon in the main page article : http://imgur.com/kbhfd7nl.png, 
+  * big ass box with a big ass red highlight next to the comment box : http://imgur.com/w54027hl.png, 
+  people just do n't read , and then they help each other . 
+  first time i heard about it . 
+  does not seem like like a tld-specific problem to me . 
+  it could be anything , from hardware problems , like laggy memory swaps , to overheating . 
+  yes , i plan to . 
+  my modding time is limited , i 'm juggling lots of projects in my free time , and one has to prioritize . 
+  tld is totally finished , that 's why i ported it to warband first . 
+  i had problems with linux last year , but they have made changes improving the situation with the texture loader and glsl shaders . 
+  i think their porting job is based in android , that 's why they stripped out so many features . 
+  i actually had tld working in linux pretty solidly until they switched to a new cached shader format , as the preprocessing was taking a * lot * of time at startup , freezing the game . 
+  now the startup times are pretty decent and fonts are n't glitched anymore , but this has slowed down my porting attempts considerably . 
+  i 'd also love having editor mode in non-windows platforms , writing this from arch linux . 
+  one can dream . 
+  okay , cool !, 
+  ping me with a / u/swyter in the thread and i 'll take a look . 
+  well , _ latin american _ spanish is the one mixing up sounds . 
+  over here we do n't have that problem , except andalucia . 
+  well , _ zer _ and _ cer _ always share sound , but there 's not mixing up . 
+  it 's phonetically consistent , they are duplicated . 
+  you wo n't find many native words that are n't using _ c _ , tho . 
+  okay , so it does n't have anything to do with the ` font.dds ` , which loaded just right , it 's a problem with the ` font_data . xml ` file . 
+  that makes it much more difficult to fix . 
+  linux certainly does not suffer from this problem . 
+  i bet the mac engine is using the native ` font_data . xml ` ( which tells the game the position and size of every glyph in the texture atlas ) with the custom mod font texture ( ` font.dds ` ) . 
+  the result being that letters are getting cut out at the wrong place and with the wrong size . 
+  that means that the overriding mechanism for ` < game root  / modules / < mod name  / data ` vs ` < game root  / data ` in the mac engine is just broken , leaving me with nothing to do . 
+  only taleworlds is able to do anything . 
+  can you temporarily replace the common ` font_data . xml ` with the one from tld ( at ` < root  / modules/tld/data ` ) into the game 's ` < root  / data ` folder and take a screenshot while keeping the custom ` font.dds ` in the mod 's ` < root  / modules/tld/textures ` folder ? 
+  if still does n't work we may still have some hope . 
+  it 's unlikely , but they may have changed the xml format for mac . 
+  uploading the original mac ` font_data . xml ` to https://pastebin.com may also help . 
+  download it from the official site : https://tldmod.github.io, 
+  also , what operating system are you using ? 
+  it 's only for windows . 
+  and that , kids , is why you must use proper vertical raycasting when building your real-time ik ( inverse kinematics ) controllers . 
+  sigh . 
+  i corrected it to sound a bit more natural , the structure was pretty englishified :, 
+  pretty good job , better than your average translator . 
+  have fun and give credit where is due . 
+  well , i usually translate in _ proper _ spanish by following rae recommendations . 
+  rae is the ultimate language authority . 
+  unlike english here we have actual standards for everyone , no matter the region . 
+  i took a quick look and the spanish version seemed to follow common anglicism patterns . 
+  in any case the english version is better than its spanish counterpart , which is phrased very poorly ; with repetitive structures and butchered expressions . 
+  pretty ugly and uneducated for a college professor , if you ask me . 
+  the original text is pretty silly . 
+  i probably would . 
+  that 's your problem . 
+  the proximity with usa dilutes the expressiveness and cross-contaminates the language . 
+  the original text lacks the complexity that makes me take it seriously as a scholarly work , improvised or not . 
+  original lyrics transcription | literal-ish translation, 
+  en el pueblo -- en que nac\u00ed | in the village -- i was born, 
+  un marinero -- me cont\u00f3 | a mariner -- once told me, 
+  de un pa\u00eds -- en alta mar | of a country over -- the high seas, 
+  con submarinos -- por doquier | with submarines -- everywhere, 
+  y salimos -- rumbo al sol | and we sailed off -- towards the sun, 
+  encontramos -- un verde mar | we found -- a most green sea, 
+  y vivimos -- bajo el mar | and we started living -- beneath the sea, 
+  en la nave -- sin igual . 
+  | in the ship -- unmatched ship . 
+  \u00a1 amarillo | yellow, 
+  el submarino es , | the submarine is ,, 
+  el submarino es , | the submarine is ,, 
+  el submarino es !, 
+  | the submarine is !, 
+  \u00a1 amarillo | yellow, 
+  el submarino es , | the submarine is ,, 
+  el submarino es , | the submarine is ,, 
+  el submarino es !, 
+  | the submarine is !, 
+  mis amigos -- van all\u00ed , | my friends -- go over there ,, 
+  todos estar\u00e1n -- junto a m\u00ed , | they will all -- stay with me ,, 
+  | and the band -- is about to play . 
+  _ [ trompetas ] _ | _ [ trumpets ] _, 
+  \u00a1 amarillo | yellow, 
+  el submarino es , | the submarine is ,, 
+  el submarino es , | the submarine is ,, 
+  el submarino es !, 
+  | the submarine is !, 
+  \u00a1 amarillo | yellow, 
+  el submarino es , | the submarine is ,, 
+  el submarino es , | the submarine is ,, 
+  el submarino es !, 
+  | the submarine is !, 
+  ) _ | _ ( full steam ahead , my c ` tain , full steam ahead !, 
+  _ t.n. 
+  ) _ | _ ( captain , captain !, 
+  y me siento -- muy feliz , | and i feel -- joyous today ,, 
+  ( x2 ) | they all want ( x2 ) -- all want to share . 
+  cielo azul ( x2 ) -- y verde mar , ( x2 ) | blue skies ( x2 ) aaaand green seas , ( x2 ), 
+  en la nave ( x2 ) -- sin igual .

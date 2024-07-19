@@ -1,0 +1,100 @@
+  especially during summer hollidays for kids . 
+  cool stuff bro !, 
+  but i prefer that : http://www.youtube.com/watch?v=3l-utl_cy2y, 
+  i saw blindside last year , they are from belgium nah ? 
+  ohh shit i am sorry , i was n't sure . 
+  to not care, 
+  that stephano usually does n't care about anything . 
+  `` necro is a great crowd control hero '' , what ? 
+  the only cc he has is his ulti who mini stuns . . 
+  anyhow , you do n't call a hero `` crowd control hero '' when all he has is a ulti stun of 1,5 sec . 
+  yes , we had secret meetings with our government to plan this out . 
+  we were eating croissant , drinking wine and speaking about war , the usual friday night evening . 
+  i was joking around  at first we were suposed to provide assistance and lead the african armies , then it escalated to actual strikes , and it 's getting more and more serious right now . 
+  to be fair it all happened quite fast . 
+  `` the french are not known for their greatness in battle i suppose , but perhaps they are looking to change that . '', 
+  wtf dude , the french have terrorized europe for centuries ... 
+  question is : who cares ? 
+  answer : only those who try to dissrespect the french army and try to prove that we do n't know how to fight . 
+  actually a chunk of the population in america believe that . 
+  thanks to fox news and a bunch of politicians/journalists who thought it was smart to spit on the french . 
+  same when i change the name of the dsfix dll . . 
+  hello !, 
+  thank you !, 
+  when i do this :, 
+  `` still not working ? 
+  set everything as it normally should be via dsfix , then disable the dsfix completely ( put it in a folder somewhere -- dont delete it ) . 
+  this includes getting rid of the d3d9.dll ( move it out of the folder or rename it to something else usch as d3d9.dllkaka ) . 
+  for most people , this will have now helped you fixed your game '', 
+  the game actually works , but i would like to use the dfix , so i guess there is somethiong wrong with my dsfix.ini ? 
+  hello !, 
+  thank you !, 
+  i had already unlockfps 0 , the game works well when i disable the dsfix , so i guess there might be something wrong with my dsfix.ini ? 
+  # graphics options, 
+  # internal rendering resolution of the game, 
+  # higher values will decrease performance, 
+  renderheight 1080, 
+  # the display width/height, 
+  # 0 means use the same resolution as renderwidth/height, 
+  # ( use for downscaling - if in doubt , leave at 0 ), 
+  presentheight 0, 
+  ############# anti aliasing, 
+  # aa toggle and quality setting, 
+  # 0 = off ( best performance , worst iq ), 
+  # 1 = low, 
+  # 2 = medium, 
+  # 3 = high, 
+  # 4 = ultra ( worst performance , best iq ), 
+  # either `` smaa '' or `` fxaa '', 
+  ############# ambient occlusion, 
+  # enable and set the strength of the ssao effect ( all 3 settings have the same performance impact ! ), 
+  # 0 = off, 
+  # 1 = low, 
+  # 2 = medium, 
+  # 3 = high, 
+  ssaostrength 0, 
+  # set ssao scale, 
+  # 1 = high quality ( default ), 
+  # 2 = lower quality , lower impact on performance, 
+  # 3 = lowest quality , lowest impact on performance, 
+  ssaoscale 1, 
+  # determine the type of ao used, 
+  # `` vssao '' = volumetric ssao ( default , suggested ), 
+  # `` hbao '' = horizon-based ambient occlusion, 
+  # vssao and hbao types have a different effect and similar performance, 
+  # scao combines both , with a higher performance impact, 
+  ############# depth of field, 
+  # depth of field resolution override , possible values :, 
+  # 0 = no change from default ( dof pyramid starts at 512x360 ), 
+  # 540 = dof pyramid starts at 960x540, 
+  # 810 = dof pyramid starts at 1440x810, 
+  # 1080 = dof pyramid starts at 1920x1080, 
+  # 2160 = dof pyramid starts at 3840x2160, 
+  # higher values will decrease performance, 
+  # do not set this to the same value as your vertical rendering resolution !, 
+  dofoverrideresolution 540, 
+  # depth of field scaling override ( not recommended ), 
+  # 0 = dof scaling enabled ( default , recommended ), 
+  # 1 = dof scaling disabled ( sharper , worse performance , not as originally intended ), 
+  disabledofscaling 0, 
+  # depth of field additional blur, 
+  # allows you to use high dof resolutions and still get the originally intended effect, 
+  # suggested values :, 
+  # o ( off ) at default dof resolution, 
+  # 0 or 1 at 540 dof resolution, 
+  # 1 or 2 above that, 
+  # 3 or 4 at 2160 dof resolution ( if you 're running a 680 + ), 
+  ############# framerate, 
+  # enable variable framerate ( up to 60 ), 
+  # note :, 
+  # - this requires in-memory modification of game code , and may get you banned from gfwl, 
+  # - there may be unintended side-effects in terms of gameplay, 
+  # - you need a very powerful system ( especially cpu ) in order to maintain 60 fps, 
+  # - in some instances , collision detection may fail . 
+  avoid sliding down ladders, 
+  # use this at your own risk !, 
+  # 0 = no changes to game code, 
+  # 1 = unlock the frame rate, 
+  unlockfps 0, 
+  # fps limit , only used with unlocked framerate, 
+  # do not set this much higher than 60 , this will lead to various issues with the engine,

@@ -1,0 +1,100 @@
+  look around some more . 
+  i within , the last three months , got a 1br for $ 2445 . 
+  not fantastic but not as terrible . 
+  in addition it is in easy walking distance to work , etc. 
+   configuration management systems will be an investment that pays off forever, 
+  i 'd say if you are managing more than a handful of machines , or if you have the barest inclination that it will grow to more than a handful of machines , then i 'd say it is a requirement . 
+  i once foolhardly tried to avoid it with a 30 machine cluster , and it was such a pain in the ass . 
+  both chef and puppet are terrible systems . 
+  but they are better than the alternative . 
+  unmanaged , unrepeatable , unrecorded systems . 
+  i find the syntax to be inconsistent . 
+  the language to be hard to maintain in my head . 
+  i know trying to get non-puppet users to reason about puppet to also be very difficult . 
+  plus there are more than a few `` fuck puppet , forgot a comma '' commits in our tree . 
+  the worst of it though is we have been using puppet since the very very early days . 
+  puppet has gone through multiple `` recommended ways to do things '' which added to a puppet codebase of our size means that we have lots of legacy stuff that is just getting cleaned up . 
+  it is indoctrinated . 
+  every day at school we would recite the pledge of allegiance . 
+  every day we would sing some patriotic song , there was a different song for each day . 
+  the way history is taught focuses heavily on america 's successes , and avoid its mistakes . 
+  eventually it becomes a feedback loop . 
+  someone believes america is the greatest thing on earth and says it and it is repeated so often that people believe it . 
+  few americans drink tea . 
+  most american 's drink coffee . 
+  they will generally use an automated drip machine , which boils the water itself , or a nesspresso which again includes a kettle inside it . 
+  the few times when they would need boiled water , they will use a microwave ( ewww ) or boil it in a saucer on the stove . 
+  so why would they have a kettle . 
+  i 'll agree with you they it is uncivilized , my kettle is one of my favorite utilities . 
+  one of the greatest blessings and curses of the american education system is that what was taught was largely decided at the local level up until about 10 years ago . 
+  this meant that you definitely had schools that focused on `` hippy bullshit '' as you said . 
+  i moved a lot and went to more than my fare share of schools . 
+  i was in one that focused on america 's flaws , another that focused on america 's racism during , but the majority focused on how great america was . 
+  it largely depended upon where the school was . 
+  in the midwest very much about america 's greatness . 
+  in ann arbor , a very progressive area , it was about america 's flaws . 
+  depends where you are . 
+  in liberal areas no one would care , many would agree . 
+  in conservative areas you would be looked down upon . 
+  told that you are being inconsiderate of the sacrifices others have made for the nation , unpatriotic , etc. 
+  i 'm not sure what you are trying to say ? 
+  yes `` hippy bullshit '' can be indoctrination in the other direction . 
+  i guess i was n't clear in my original post , the us is a large country with lots of people . 
+  not everyone believes the same things or act the same way . 
+  some beliefs are more prevalent and things like patriotic indoctrination is more common than naught in american schools ( at least when i was growing up ) . 
+  amongst other songs . 
+  rugby tackles are way safer and just as effective . 
+  they should be adopted by the nfl . 
+  just an fyi that is mormons not jehovah 's witnesses . 
+  many of the watch faces can be customized with little widgets . 
+  one of the widgets is for your worldclock . 
+  so you could put in your worldclock for london , or new york in place of the temperature or your activity status . 
+  samsung produces many of the parts of the iphone . 
+  apple outbid samsung 's own phone business for said parts . 
+  even if there are internal tactical reasons for a decision it does n't always outway business decisions in a large company . 
+  often you have a bunch of loosely connected departments that all have different goals and desires . 
+  it matters what job and where you are . 
+  if you showed up to an interview for a programming job at a startup in sf you would get odd looks if you wore a suit , while no one would care if you wore a nice t-shirt and jeans . 
+  you really should n't do this . 
+  tissues do n't dissolve the same way toilet paper does . 
+  this is going to bite you , or the next tenant as a really expensive plumber visit . 
+  also tampons , they are not flushable !!!, 
+  the sailing was so very terrible . 
+  old article : http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html, 
+  i do n't think they are . 
+  apple has some infrastructure involved in the initial card setup and a step involved in the revoking of cards . 
+  beyond that i believe all transactions are made directly between your phone/watch and your bank . 
+  same way traditional payments are , just instead of a standard credit card number and cvv it generates one time tokens . 
+  * disclaimer : i could be wrong , this written from my understanding of the technical overview of apple pay *, 
+  apple watch in combination with any iphone 5 or newer . 
+  if you do n't want a apple watch you can use an iphone 6 . 
+  please as an ex-sysadmin run it properly . 
+  figure out what your system uses to manage its daemons . 
+  use that . 
+  systemd , upstart , sysvinit , what ever it is just use it . 
+  way way better to nohup , or screen or any of these other solutions . 
+  if you do n't want to do that look into something like daemontools , runit , or even * shudders * god . 
+  the phrasing is a reference to pokemon . 
+  i do n't agree with you but i also do n't disagree . 
+  people like terry pratchett really need ( ed ) to have the option of suicide open to them . 
+  it is obvious that they are n't going to get better . 
+  on the other hand you have a lot of suicide cases where you are suffering from depression or other mental illnesses . 
+  you can get better . 
+  i know quite a few people that have been there either because they were on the wrong medicine , or because they needed medication . 
+  your life is your own but committing suicide hurts all of those around you . 
+  people you might not be able to tell care in the depths of your depression . 
+  that all said i 'm for assisted suicide . 
+  where doctors are able to make sure you are of sound mind and then provide you with a painless passing . 
+  +1 to pathogen . 
+  it is n't a plugin manager , it is a runtime path manager . 
+  it lets you stick each plugin in a folder ( for me ` ~ / . vim/bundle ` ) . 
+  makes it easy to git clone , or copy repos from places . 
+  but i do all of the actual plugin management by hand . 
+  the [ 2038 problem ] ( http://en.wikipedia.org/wiki/year_2038_problem ) . 
+  basically a ton of modern computers and software use a 32 bit integer to store dates . 
+  this means when we hit 2038 time will reset back to 1970 . 
+  all this software needs to be updated to use a 64 bit integer which will give us until year 292,277,026,596 when we will have to deal with this again . 
+  i hope that is sufficient . 
+  the rest of the country . 
+  screw growing almonds , rice and wheat . 
+  particularly wheat that is exported to feed cows .

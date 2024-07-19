@@ -1,0 +1,100 @@
+  both images are taken in the same minute !, 
+  you can even see the screenshot notification on the `` before '' picture , so i guess that you just faked them . 
+  i know that the `` nearest locations buttons are ugly for now - i will make them look nicer . 
+  would appreciate any feedback and it would be great if you could send me screenshots from different cities , 
+  crosspost from / r/androidapps . 
+  i know that the `` nearest locations '' buttons are ugly for now - i will make them look nicer . 
+  would appreciate any feedback and it would be great if you could send me screenshots from different cities and places , 
+  ty for the screenshot . 
+  do you think a white border around the w would be ok ? 
+  do you have any suggestions ? 
+  do you think language selections would be necessary ? 
+  and the number of markers ... too many/not enough/just right ? 
+  any other options you would like to see ? 
+  looking at other locations is a good idea . 
+  how would you do the user interface for it ? 
+  another button ? 
+  it ca n't constantly query wiki as that would be a lot of data and processing ... 
+  the back button always exiting is a bug - i have just fixed it , it will be pushed in the next update . 
+  all the lighter colors are from lists , darker colors are proper articles . 
+  i can add an option to toggle showing lists if that would help . 
+  i guess it is still better to include them , but since they probably do n't have a lot of info , they are marked with a bit different color . 
+  that would work . 
+  to base loading of articles on map focus , not on user location . 
+  then if zoomed in , load articles , if user moves focus for more than x , reload articles around that location . 
+  the only downside here would be a bit of lag ( 0.5 - 1 sec ) when loading markers . 
+  i 'll think about it . 
+  at the moment the new version has fixed `` back '' , new icon with white glow and does not display `` null '' if type of attraction is unknown . 
+  i 'll now try to implement cards , so that buttons on `` nearby '' will look nicer , but it is already 2am here  expect an update soon in a couple of hours  if you have any other suggestions , please post them here . 
+  ( i 'm not an native english speaker , so if there are mistakes in the app description , or you would write differently , feel free to msg me about it ) . 
+  thank you for your suggestions . 
+  swiping is a bit tricky as that is already used to move the map . 
+  next version will load the page when you click on the marker , so the third tab will be populated if you select it . 
+  if you do not select any marker , there will be a text telling you to select something . 
+  does it show any error ? 
+  can you send the report ? 
+  do you have enabled location ( i just noticed that it crashes if you have your location disabled ) ? 
+  thank you . 
+  just added a prompt to enable location if it is disabled . 
+  please try updating and tell me if it works now . 
+  please note , that you need to enable location on your phone for it to display articles around you . 
+  the w logo is as close to `` w `` ikipedia as i could get , 
+  design was currently not my focus , i will have to update screenshots , cover picture and general ui too . 
+  to be honest , i 'm not sure about copyright here , i will probably have to redo it completely . 
+  thank you for the comment . 
+  i will add a loading bar - it is on the list of things i have to improve . 
+  non-location based search is on the list too . 
+  it will load articles automatically , when you are zoomed in enough ... ca n't promise any dates though . 
+  the `` en '' is the source of the article ... it makes sense if there are multiple languages , but you are right , i can remove it if only english is displayed . 
+  the next version will also include an option menu where you can select which languages to display . 
+  about the `` en '' : if there is only one language , i can skip it completely , but if there are multiple languages , do you think it would be better to write type of language ( `` default '' , `` system '' , `` local '' ) instead of actual language ( `` english '' , `` german '' , `` chinese '' ) ? 
+  at the moment it always displays english ( as there are the most articles by far in english ) , system ( the language of your device ) and local ( language of the country you are in ) . 
+  i will add checkboxes to toggle them in the next version . 
+  you can also always change the language on every wikipedia page on the bottom . 
+  can you tell me where are you from , so i can check if it works as it should ? 
+  your wish is my command : http://www.vodopivec.net/donations/ , 
+  this is what i can see for asheville : http://imgur.com/shtgmed . 
+  is this the same as what you see ? 
+  that is true , but the official wikipedia app does not display things on a map and only shows articles in one language . 
+  for example : https://lh3.googleusercontent.com/yxudcwci2rkcgm87wdnvkrnnswdul-bbt7eh-tpud5seifjdbq6_i5tw007fz5evnq=h900-rw blue dots are in english , yellow/orange are in local language ( german ) - you would miss them completely with the official wikipedia app . 
+  i updated the app to include this option . 
+  you can disable lists by going to `` options '' tab and deselecting lists . 
+  done  it now lets you select the languages and it only displays the language if there are multiple languages shown . 
+  i am not sure what you are trying to say . 
+  are you asking about the content or the application itself ? 
+  hard to say , especially when you do get some results ... 
+  try updating - i did some changes to how it detects the language . 
+  are you living in the city or outside ( is it possible that there really are no wiki articles nearby ) ? 
+  fixed , expect update within hours . 
+  i also disabled display of lists by default ( you can turn them on in the options tab ) , when clicking on a marker , you now get a button in the lower right for navigation to that marker , and some other minor fixes . 
+  well , i have n't shared the source code , so no . 
+  but if you ( or anyone else ) are interested in working on it , we can work something out . 
+  it is already missing . 
+  amd used `` never settle '' at least since 2012 for their game bundles . 
+  i think it is still active , btw . 
+  eta : tomorrow . 
+  might get pushed back a bit , though . 
+  yep , tomorrow for sure . 
+  unless they miss the deadline , 
+  weeks , months ... what 's the difference , 
+  hah , i first read that months ago you bought a one plus 2 , 
+  i just got an update too . 
+  it is very small ( cca 20mb ) and i have n't installed it yet . 
+  will install it later today . 
+  i get `` e : zip file is corrupt '' when trying to install . 
+  i also deleted the update file and re-downloaded and got the same ... 
+  using twrp . 
+  ty , i did just that . 
+  does the update change anything for anyone ? 
+  bt is still not working in my car ( disconnects after 10 seconds ) and i see no change in touchscreen ( but i had no problem before except for unlocking in my pocket ) . 
+  the update promises to fix bt issues , but for me it is still the same ... 
+  it pars and connects to my car , but disconnects after 10 sec . 
+  ca n't comment on touchscreen as i did n't have major problems before ( except for unlocking in my pocket ), 
+  wow , just add bluetooth ( which is not working on opo since lollipop ) and shitty customer service and broken promises might be the only reasons not to get it ... 
+  knowing oneplus , i 'll be happy if it is released in 2016 . 
+  best track record regarding helpfulness , or dealing with similar situations ? 
+  i was thinking on ignoring it for the moment and see if the card gets back ... 
+  i hope i do n't have to worry about them using it ? 
+  how does a replacement work ? 
+  do you get a new phone in your own box back , or do they just send a new phone like if you ordered one ? 
+  how many of the replacements are new and how many are refurbished ?

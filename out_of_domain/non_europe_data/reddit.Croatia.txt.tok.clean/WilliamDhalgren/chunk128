@@ -1,0 +1,100 @@
+  so i tried asking around , to see if it was reverse-engineered or not :, 
+  < @gigaherz  dhalgren : of course it was done , i spent a year of my life reverse-engineering the shell components, 
+  < @gigaherz  building upon giannis ' work reverse-engineering before me, 
+   well no , because even reactos is not fully compatible , much of the nt ecosystem 's functionality remains to be reverse engineered . 
+   there is still a difference between observing a blackbox and making a whitebox that is compatible and reverse engineering the blackbox . 
+  * shrug * reactos seems certainly more mature than the best we 've got in reverse-engineering me to me http://me.bios.io/main_page . 
+  as you can see on their homepage , they 're working on it precisely because they do n't understand enough about me 's security , because the blob is too inscrutable . 
+  but whatever - how about this : maybe you 're familiar with the fact a major portion of nt 's source code leaked some 10 + years ago , yes ? 
+  well apparently some crazy and brave motherfuckers made , as their first release , that codebase to compile a minimal nt4 system . 
+  30mb it seems , vs me 's 5mb , hardly a major difference , and you 've got the admittedly illegal source code to check it out , so leagues more easier to subject to so scrutiny . 
+  here 's a recent video where a guy compiles and runs that nt4 in a qemu : https://www.youtube.com/v/fadac3dm0r4 . 
+  are you particularly sanguine about being forced to run in some sandbox under nt4 then ? 
+  or is that still orwellian ? 
+  to me , i 'm still just sandboxed from being actually root on my computer , and so just disgusted by the notion . 
+  maybe you 'd be fine with a secureboot locked to something like that though ? 
+   it 's an isolated coprocessor that has similar privileges to the os . 
+  now this seems technically completely false ; me is not running on a privilege level of your os ; it can protect memory regions to the host system , it hides from the system , it can not be iommued or vtded etc -  it is running on a higher privilege level . 
+  this is the behavior of a hypervisor . 
+  for reference , you have it explained as running on a ring -3 by multiple me & security researchers : http://me.bios.io/images/6/61/ring_-3_rootkits.pdf http://me.bios.io/me:about https://www.youtube.com/watch?v=ck8bijaujge - the term itself is in reference to relationship between say userland , kernel , hypervisor relationships ( such as the one i used in the analogy ) and the parallel is for ex made explicitly in the video linked ( its on a me rootkit they made btw ) . 
+  if they think the comparison is apt , what 's my sin here exactly ? 
+   anyways , some might view this as unfree , some might not , it 's subjective , and these analogies are just fud . 
+   the problem with analogies is that they are just that ; analogies . 
+  they hold no real value . 
+  ok for one as a point of logic , first , to return to a previous accusation - to even be capable of comitting a strawman argument , i should 've stealthily replaced your thesis with some other thesis , and then refuted the latter . 
+  i was rather absolutely explicit in making a comparison . 
+  so the fallacy you must 've meant to claim would 've been false analogy https://en.wikipedia.org/wiki/false_analogy . 
+  however , for an analogy to be false , it is insufficient , as you falsly here maintain , to merely point out dissimilarities as you seem to be doing ; if two things are identical , there is no analogy . 
+  the key question , and the one i 've been trying to make you address , is the * relevance * of the differences * specifically * to the conclusion i 'm drawing from them . 
+  so , i 'm describing a system that runs at a higher privilege level then anything i can do , and sandoxes my system in both cases , with the differences being in what kernel and which cpu does the sandboxing , and offering the dilemma , asking you to posit a conclusion ; is it the same in the way relevant to the conclusion you draw about the relative freedom of these systems or not ? 
+  you seem to be saying no , but provide merely dissimilarities themselves , hell even on something as clearly irrelevant as whether its gon na happen or not , but seem to falter to establish the relevance . 
+  understandability of the code running was the proposed criteria , so i 'm exploring if this is really what you find relevant here , as well as in what way . 
+  security apparently , certainy a very important factor in the practical merits of the system -- but my question on whether freedom and security are n't quite orthogonal , as a totally proprietary thing surely may be secure too is unanswered . 
+  oh yeah , very true !, 
+  i understand that one could isolate it if its usb connected though ? 
+  else , there 's the openssd project for a true solution . 
+  most agree re the text type mess i think . 
+  and partial function in the base are unfortunate default , agreed - though that seems easy enough to explain and avoid . 
+  some of this list seems like a documentation problem though :, 
+  like , surely whatever resource you used to learn the langugae will explain to you the left/right convention and qualified imports syntax ? 
+  there 's surely greater challenges when learninig haskell than this ; like the type system , class hierarhy , the common infix operators etc. 
+  and those seem like good challenges to me , given what the payoff fot the learning curve there is in safety and expressivity , creating custom edsl-like syntaxes etc. 
+  asking for upvotes is prohibited under reddit 's policy as well as discouraged by its etiquette ; please remove this post . 
+  and, 
+  edit : to make a constructive suggestion , create a separate poll and submit a link to it instead , w/o asking people to manipulate reddit voting to do it . 
+  is there any handy utility that just pulls out the file from onedrive ? 
+  i 'd hate to disable tracking protection and load a microsoft js app just to download a damn . pdf via http ... 
+  will it really be less ? 
+  your own link states :, 
+   security-minded individuals and corporations can own a talos \u2122 secure workstation mainboard , complete with an entry-level 8-core 130w power8 cpu , heatsink / fan assembly , and atx i/o shield , for around $ 5,300 usd . 
+  i 'm not a us citizen , so apologies for my superficiality in advance but given what we know from snowden leaks , for example , from the case of james clapper 's blatant lies ( or ` errors ' if you buy his `` i had forgotten about the patriot act and therefore had given an `` erroneous '' answer '' ) even to an official senate hearing about the extent of the domestic nsa program , how can one have any confidence that whatever the us intelligence community claims is actually true ? 
+  i 'm not sure its particularly relevant if its russians or not ( and its certainly plausible given how trump 's relationship seems oddly cozy w them , esp for a republican ) , given that i agree with the article here that the content is hardly damning to clinton anyhow - but the trust to the official word here seems perhaps misplaced ? 
+  edit : i honestly tried to make this as inoffensive an outsider question as i could, 
+  fivethirtyeight mentioned in their liveblog ; people engage in motivated reasoning once they 've sufficiently settled on a choice http://fivethirtyeight.com/features/theres-probably-nothing-that-will-change-clinton-or-trump-supporters-minds/, 
+   as much as we like to think that we use reason to evaluate evidence and come to conclusions , `` it really goes back assward , a lot of times , '' said peter ditto , a psychologist at university of california , irvine . 
+  `` people already have a firm opinion , and that shapes the way they process information . '' we hold beliefs about how the world works and tend to force new information to fit within these pre-existing narratives . 
+  psychologists call this motivated reasoning , and it means that once people have thrown their support behind trump or clinton , they will tend to downplay or ignore things that paint their candidate in a bad light . 
+  eh , they 'd get what they want from the bargain , if trump were to somehow get elected : a judge in the mold of scalia ... its cynical , but darkly rational, 
+  wait , are you sure about this ? 
+  i gathered sputnik editorialized its reporting on the content of the email , making it seem that where the email is quoting an article . 
+  it is actually something stated directly by blumenthal ? 
+  not that the mail itself is changed ? 
+  maybe i 'm misunderstanding :, 
+  sputnik stated :, 
+   `` clinton was in charge of the state department , and it failed to protect u.s. personnel at an american consulate in libya . 
+  if the gop wants to raise that as a talking point against her , it is legitimate , '' said blumenthal, 
+  but the article continues :, 
+   the russians were quoting two sentences from a 10,000 word piece i wrote for newsweek , ** which blumenthal had emailed to podesta . 
+  ** there was no mistaking that blumenthal was citing newsweek -- the magazine 's name and citations for photographs appeared throughout the attached article . 
+  the russians had carefully selected the `` of course '' paragraph, 
+  so , the content is in the email - as a quote - but sputnik makes it into an admission, 
+  or even , is it possible they came to the idea of this spin independently ? 
+  see an email with a nice quote to abuse , misattribute that quote and you 've got a nice campaign speech ? 
+  article states :, 
+   `` this just came out a little while ago , '' trump said . 
+  `` i have to tell you this . '' ** and then he read the words from my article . 
+  sooo presumably he did n't reproduce any sputnik editorializing verbatim on stage ; he just reproduced the email , and misattributed the quote to blumenthal just like sputnik ? 
+  or did he ? 
+  yeah , tbh its unclear how one is supposed to verify the integrity of the content of the mails if they did get here via russian hackers ( if they 'd been gpg signed ... ) . 
+  this certainly seems outside of any procedures of normal journalistic disclosure we 've previously seen like with manning or snowden ... 
+  again bizarrely , given the space that seems to be here for manipulation , what did come out seems to be rather harmless to clinton , and consistent with her positions , and mostly paints her in a reasonable light . 
+  ~ ~ soo , wait surely a crime has been committed here ? 
+  you admit to a crime on radio , and nothing happens for 10 years ? 
+  and then only because you 're running for president ? 
+  is this how things go because the crime is `` merely '' sexual abuse ? 
+  or could one admit to say murder and nothing would happen also ? 
+  seems he 's the one who should be locked up ... ~ ~, 
+  edit : perhaps i misunderstand the circumstances, 
+  yeah , there is no innocent confusion here for sure ; trump saw an email called `` the truth '' , by blumenthal , to podesta , containing a clearly marked article written by eichenwald . 
+  and then saw a quote he could use there . 
+  and intentionally misattributed it to blumenthal , to fit the lie he wanted to tell on his rally . 
+  i 'm just thinking , it seems a sleazy but also trivially simple enough a thing to to , maybe he did n't need to see sputnik to come up with it himself . 
+  great minds think alike right ? 
+  / s but perhaps the russian connection is not necessary to understand what 's happening here ; just trump being his manipulative self . 
+  surprisingly , quite true . 
+  on certain things , seems to me she 's judged just unjustly hypercritically ( benghazi , email `` scandal '' ) . 
+  on the other hand i 'd have to hold my nose a bit to vote for a candidate that claimed snowden would be protected as a whistleblower ( a lie ) and should hence come and face a court in the usa . . but climate change is more important than any of that shit anyhow , and we know what any republican alternative on that front would be . 
+  too bad just 3 % of us citizens think that 's a very important issue at all . 
+  though i guess many nations would a have similarly depressing stat there ; certainly my own shithole ... 
+  but i 'm on a wrong continent and of the wrong nationality to have any relevance ... 
+  good point , there is a pile of those mails , and only hours between sputnik 's story and trump 's use of the same lie .

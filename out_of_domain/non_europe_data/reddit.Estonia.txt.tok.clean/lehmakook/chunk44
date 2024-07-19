@@ -1,0 +1,100 @@
+  you might also be able to get their details from a notice board in the hallways or from neighbours or something . 
+  am i the only one who thinks that the new subscription pricing is great ? 
+  the yearly subscription price is the same as a yearly upgrade price was before . 
+  having or not having a perpetual license does not matter , because i would always buy the yearly upgrades anyway . 
+  and now it 's cheaper to get a single tool for a few months for a random project . 
+  to benefit from a perpetual license , i would need to find enough value in the software to want to keep using it , but not enough value to justify upgrades after a year - a very unlikely special case . 
+  it 's free , and there is n't a global limit as far as i know . 
+  even the facebook app uses it for example . 
+  if you send too many messages per minute to a * single device * , then your messages may be throttled - this is to save battery on the device . 
+  i have n't seen any actual numbers mentioned what this limit is , but you will get a reply from the api on the server telling you to back off when it 's reached . 
+  there is also a limit of 1000 recipients per api call - if you have more devices registered in a chat , then just make multiple api calls , or use the groups or topics features to have 1 `` group recipient '' that actually goes to all devices . 
+  washington post is a serious newspaper with serious journalists who value independence . 
+  if bezos tried to force them to write news in his favour , half of the team would probably quit . 
+  maybe some white heating wire in the shape of a spacex logo on the outside of the lox tank . 
+  invisible at launch , and will get rid of the ice and be painted black during landing . 
+  eh , exposure might help a little bit ... but having working satellites in orbit ( instead of in a hangar , or in small pieces in the ocean ) helps a lot more . 
+  rp1 is pumped out , not vented . 
+  * you ca n't `` vent '' rp1 , it 's boiling point is 147c - most of it will stay a liquid . 
+  * also , ^ ( wikipedia says that ) its less of a fire risk and less toxic than ordinary gasoline in a tank . 
+  * dumping fuel into a wildlife refuge is frowned upon if you can avoid it . 
+  germany has very strong privacy and publicity rights , which are considered to be more important than intellectual property laws . 
+  that is how property works in germany . 
+  i think it 's only used when writing about bezos / amazon in detail , not just mentioning them in passing . 
+  if you are going to have parachutes on board anyway ( you need them in case the superdraco fuel was all used for an abort ) , then what is the benefit of not opening parachutes for landing ? 
+  maybe even on land , with a quick burst of the rockets to soften the landing like soyuz ? 
+   i remember a sign for `` landing complex 1 '' . 
+  now they seem to be calling it `` landing zone 1 '' . 
+  why did this change and has the sign been updated ? 
+  the sign has been updated : https://c2.staticflickr.com/6/5659/23787738692_0d2cd98097_b.jpg, 
+  my guess is that it was renamed to avoid confusion . 
+  launch complex ` es are shortened to lc-1 , lc-2 , etc. 
+  landing complex would need a different abbreviation to avoid also being called lc-1 , lc-2 , easier to just call it a zone . 
+  cookiecutter is probably a bad idea when still learning . 
+  it sets up a lot of useful standard parts for large web apps , but these parts are unnecessary and confusing for small projects . 
+  but wo n't many of the customers for the forty f9 launches on the manifest feel the same way ? 
+  while i 'm hoping for a fh demo next year as well , it seems more prudent for spacex to use all the cores they can build ( or refurbish ! ), 
+  to catch up with the f9 delays . 
+  meanwhile they can work on perfecting reusability , and launch the fh demo when they are sure they wo n't be spending three cores on a non-paying flight . 
+  django has a binaryfield : https://docs.djangoproject.com/en/1.9/ref/models/fields/#binaryfield, 
+  which should map to bytea on postgresql . 
+  before binaryfield was added in 1.6 , i have also used something very similar to https://github.com/niwinz/djorm-ext-pgbytea/blob/master/djorm_pgbytea/bytea.py successfully in a project . 
+  [ perhaps it was enclosed in a dyson sphere by some unknown civilization ? 
+  ] ( http://www.goodreads.com/book/show/45252.pandora_s_star ), 
+  i have n't used it myself , but it sounds like you should also investigate the postgresql full text search features . 
+  it provides data types and functionality to break text into `` bags of words '' ( http://www.postgresql.org/docs/9.4/static/datatype-textsearch.html ) and then match and sort by similarity to other `` bags of words '' from a search query ( https://blog.lateral.io/2015/05/full-text-search-in-milliseconds-with-postgresql/ and http://www.postgresql.org/docs/current/static/textsearch-intro.html ) . 
+  it might not be exactly what you need if you really have arbritary substrings , but there might be ways to translate your problem to the built-in tsvector-based matching ( perhaps with a custom document -  bag of words parser ) . 
+  but it 's not like much of the iss budget goes into spare parts ? 
+  i would imagine most of the yearly program cost is for :, 
+  * science experiments ,, 
+  * flights ( with people , food and experiments ) to the station ,, 
+  * ground crew and operations ,, 
+  etc all which would still be the same for a bigelow station . 
+  sure , it would be cheaper to * build and launch * a large station out of inflatable components because they weight less for the same internal volume . 
+  but once you have the bare rooms up there , everything else would still cost roughly the same as now . 
+   currently i 'm using this raw sql but for some reason the data is not correct, 
+  date ( `` tickets_ticket '' . 
+  `` created_at '' ) at time zone ' -07:00 ', 
+  i have n't used at time zone myself , but could the problem be that you are converting to a date first ( losing all time info ) , and only after that adjusting timezone ( which then does nothing ) ? 
+  does, 
+  date ( `` tickets_ticket '' . 
+  `` created_at '' at time zone ' -07:00 ' ), 
+  work ? 
+   so what 's the in flight entertainment like ? 
+  there are windows , you can look at * space * . 
+  you still need lox as oxidiser when using methane as fuel . 
+  while there is a * legal * right of resale , ebay has been known to remove auctions of designer jewellery , cosmetics , perfumes , etc if sold significantly under the retail price , when the trademark owner asks for this . 
+   if we removed your listing , it 's probably because it either violated the law or one of our policies . 
+  or , it may have been removed because the item 's rights owner ( for example , coach or louis vuitton ) asked us to remove it . 
+  this can happen even if your item is genuine . 
+  it 's shitty , but ebay is n't required to provide a venue for resales if they do n't want to . 
+  fun fact , france ( and therefore the european union ) has a land border with brazil : https://en.wikipedia.org/wiki/french_guiana, 
+   well i guess i should learn from this comment that estonians might not be very personable ? 
+  yep , correct !, 
+  we only do `` genuine human connection '' after three beers . 
+  errxor 's response was indeed a bit curt and direct , which * seems * rude for anyone from a uk/us , maybe also canadian background . 
+  but it should not automatically be understood as rude , estonian rarely uses `` politeness fluff '' when speaking . 
+  for a random example , at a dinner table instead of the long-winded english `` could you pass the butter please ? 
+  '' , you would say `` give butter '' , or * maybe * `` please give butter '' in estonian . 
+  we try to use as few words as possible . 
+   i did read through some past articles , but what about today ? 
+  right now ? 
+  what do people think and why ? 
+  i mean , it 's going to be just an usual monday . 
+  nothing special going on tomorrow . 
+  it started snowing today , but otherwise the things to look at , the places to eat , and otherwise best attractions for 1-day trips have been the same for years . 
+  tourists in all subreddits often ask for local 's `` unique '' suggestions and favourites . 
+  but the guidebooks and tripadvisor and wiki pages and previous reddit threads already contain all these !, 
+  they actually do list good to great places that locals visit as well , not scams or tourist traps . 
+  unless you have very specific interests and a lot of time , 99 % of the time the common suggestions are going to be perfect . 
+  and these suggestions have n't changed from the time they were last written down . 
+  for an enjoyable day , walk around the old town , visit the christmas market in the town centre . 
+  eat at any of the places within walking distance in the first couple of pages on http://www.tripadvisor.com/restaurants-g274958-tallinn_harju_county.html ( all my favourites are on there ) . 
+  also , sorry if all that sounded rude , that was n't the intention . 
+  what i meant was that any guide , list or wiki updated in the last 2 years is going to match what you hear from the responses here . 
+  for good views , climb up to the toompea hill , there are great viewing platforms looking over the bay and old town there . 
+   if i had a `` views '' field to my post model which just gets increased by one each page load , what happens if say 10 people load the site at the same time ? 
+  is that going to break something since it 's trying to increment that model field by 1 each time the view is hit ? 
+  thalgayrt already gave a solution - but i wanted to note that * this problem is not specific to models in the database * . 
+  if you saved view counts in the cache , the exact same issue would come up . 
+  plus the cache could be cleared or overflow at any time , losing your view counts .

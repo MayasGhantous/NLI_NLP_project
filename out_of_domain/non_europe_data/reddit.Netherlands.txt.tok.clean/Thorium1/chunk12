@@ -1,0 +1,100 @@
+  edit : / u/canstopanytime is right . 
+  my life is a lie . 
+  the only nation i know of op could release is fez , but it 's like 4 provinces . 
+  otherwise if you 've destroyed morocco you could release it as a vassal , too . 
+  i believe if you do that they 'll convert , but i 'm not entirely sure on that . 
+  i meant that he has to destroy morocco or algiers in order to release them as a vassal , since they are the only ones with cores there apart from fez , which is just 3-4 specific provinces . 
+  unless he controls exactly those provinces , he 'll still be stuck with those provinces . 
+  even if he does , there 's the revolt risk problem . 
+  if it becomes a catholic nation you 'll have to deal with the giant revolts yourself for them , or if they are sunni you ca n't have a royal marriage and the different religious modifier makes it tougher to annex them . 
+  if the nation becomes sunni however , they 'll most likely accept berbers and you could `` sell '' the rest of the provinces to them for free . 
+  it really depends on which provinces you own and if the nation becomes catholic or sunni . 
+  i have n't released vassals that own only regions with another religion , so i would n't be able to tell . 
+  that 's okay . 
+  now you 'll have to station troops in their lands in order to defend them from rebels . 
+  once they 're your vassal for 10 years , you can annex them . 
+  when you 're in at about 7 ~ 8 years of them being a vassal , improve relations . 
+  it 'll tie up one of your diplomats for a long time . 
+  once their opinion is 190 and you have them as vassals for 10 years you can start annexing . 
+  it goes faster if you have the diplomatic reputation adviser . 
+  also it would be best to avoid huge wars . 
+  war exhaustion reduces the speed of how long it will take to annex them . 
+  the annex time is most likely between 20 to 30 years . 
+  it 's a tough situation but it 's the best without spending administration points that could be much better used to improve stability , ideas and/or technologies . 
+  the ai will generally also improve stability due to the high revolt risk , reducing it . 
+  after the whole annex is done , you lose 10 legitimacy ( not a big deal ) and you gain cores on all the provinces previously owned by the vassal , which you now own . 
+  i 've done the same as portugal . 
+  fabricated a claim , took over all of fez 's cores and released it as a nation . 
+  then i vassalized morocco in the next war . 
+  it 's best to use the warn option on algiers . 
+  they generally take advantage after you beat morocco and will take land away . 
+  the same counts in a reverse situation . 
+  warning them will demoralize them from attacking morocco and ultimately giving you more provinces in the long run . 
+  when you start as a thenn , you are on count level . 
+  this means you can not have other counts as a vassal . 
+  you would need to rise to duke level . 
+  this happens when you have a blue sort of signature around your character 's portrait . 
+  in order to create this , you will have to own 51 % of the duchy . 
+  go to one of your counties , select the shield in the top left of the castle holding . 
+  check the dejure button in the popup . 
+  now you will see in the top right some shields appear . 
+  select the one on the most left . 
+  then you will get an option on the top left to create a duchy . 
+  hover over it and it 'll show you what you need . 
+  once you have the duchy title , you will be able to give people land and they will become your vassal . 
+  i hope it helps . 
+  i have n't been able to find a guide on how to create a duchy . 
+  everyone just assumes you would know it . 
+  ( perhaps it 's in the tutorial but i would n't know . ), 
+  hover over their opinion of you and it 'll show you what influences their opinion of yours . 
+  it 's probably aggressive expansion . 
+  that 's the main reason somebody could be so mad at you . 
+  they dislike you for taking over so many provinces . 
+  i found the event in question :, 
+  # financial ruin, 
+  country_event = {, 
+  picture = bankruptcy_eventpicture, 
+  trigger = {, 
+  num_of_loans = 1, 
+  gold = 2, 
+  is_at_war = yes, 
+  inflation = 20, 
+  not = { has_country_flag = bankruptcy }, 
+  mean_time_to_happen = {, 
+  months = 600, 
+  factor = 0.9, 
+  inflation = 25, 
+  factor = 0.9, 
+  inflation = 30, 
+  factor = 0.9, 
+  inflation = 35, 
+  factor = 2.0, 
+  has_idea = national_bank, 
+  factor = 0.8, 
+  gold = 3, 
+  factor = 0.8, 
+  gold = 4, 
+  factor = 0.8, 
+  gold = 5, 
+  factor = 0.85, 
+  num_of_loans = 2, 
+  factor = 0.75, 
+  num_of_loans = 3, 
+  factor = 1.15, 
+  advisor = treasurer, 
+  factor = 1.1, 
+  treasury = 1000, 
+  factor = 0.95, 
+  not = { treasury = 500 }, 
+  factor = 0.95, 
+  not = { treasury = 250 }, 
+  option = {, 
+  name = `` evtopta3081 '' # we are on the verge of bankruptcy, 
+  set_country_flag = bankruptcy, 
+  add_stability = -3, 
+  add_treasury = -1000, 
+  random_owned_province = {, 
+  anti_tax_rebels = 2, 
+  add_inflation = 5, 
+  it has a big chance of happening if your inflation is very high , you are at war and have a higher inflation than 20 . 
+  it gives -3 stability , costs 1000 gold and adds 5 inflation , plus a peasant revolt .

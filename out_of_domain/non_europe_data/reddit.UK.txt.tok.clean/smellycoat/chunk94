@@ -1,0 +1,100 @@
+  that looks amazing . 
+  i 'd give my left testicle to be able to play [ this ] ( http://www.youtube.com/watch?v=hhpchjoyzo4 ) . 
+  been sort-of thinking about getting a keyboard for the last few years anyway ... hmm !, 
+  you 've discovered something amazing !, 
+  get this shit to valve . 
+  stat !, 
+  there 's a chance that the extra core could be fucked in some way and cause instability . 
+  but i suspect they do exactly what they do with lower-frequency processors . 
+  start off using the less-perfect dies for the lower frequency ( or in this case fewer-core ) chips , then , as demand increases and production techniques get better , start using more and more perfectly good dies for lower-priced products . 
+  it 's exactly the same market force mechanism that makes overclocking cheap chips to higher speeds possible , and the same rules probably apply . 
+  ie , a low stepping probably means it 's less likely to work , but as they mature ( and steppings rise ) , you 'll be more successful . 
+  i 'm saying , early in a production run ( when a chip is newly released ) there will inevitably be a lot of less-than-perfect dies because , as you rightly point out , making cpus is hard . 
+  many of the dies that are n't good enough to make a full-speed cpu can be used on a lower-clocked version , so having several models based on the same dies ( just differing the clock speed ) was originally a way to make use of not-perfect-but-not-terrible dies . 
+  however , as production processes improve naturally over time ( there 's always going to be a higher error rate in earlier production runs , simply because it takes time to perfect everything ) , there 's fewer imperfect dies to use for the cheaper chips . 
+  but , as the cheaper chips are in demand , it makes sense to use dies that would in reality be good enough for more expensive versions to make the cheaper ones ( a sale 's a sale  ) . 
+  in fact , although this used to be used to `` use up '' otherwise unusable dies , increasingly it 's a deliberate choice to create several price points . 
+  this is why overclocking works - dies are of different qualities , and often cheaper chips are exactly the same as more expensive models , but with different frequency/multiplier settings . 
+  it 's also why overclockers go nuts over new steppings ( ie , versions ) , as higher stepping usually means an improvement in production values - which means chips capable of more than they 're sold to do ( by the time later steppings come about , chip manufacturers are often getting ready to release their next chip , so they do n't always want to release a faster version of an old chip ) . 
+  same goes for the three-core things . 
+  originally a way to use up dies with one dead/defective core , but market forces and improved production means that ( particularly later in the product 's life ) , dies with four completely usable cores are being sold as three-core chips . 
+  he released the details 5 days after contacting microsoft , [ after failing to negotiate a fix within 60 days ] ( http://twitter.com/taviso/status/16005411316 ) . 
+  which , yknow , does n't seem unreasonable . 
+  he might have acted rashly , but he did at least try to do the right thing with it . 
+  he , and no doubt many others , understand that it 's * extremely * important to get a fix out as soon as a vulnerability has been found . 
+  if one white hat researcher can find it ( with little incentive , i might add ) , then there 's no reason why black hats could n't find exactly the same thing . 
+  the difference is that if they * had * found it ( and we do n't know that they did n't ) they 'd have a way to exploit pretty much all versions of windows ( including fully patched installs ) . 
+  and nobody would know about it until it someone had written it into a virus , it had spread far enough get some attention , and someone else had reverse-engineered it . 
+  by releasing it , it gets publicity . 
+  people are * aware * there 's a problem , and they can use one of the workarounds available for it - even if there 's no official patch yet . 
+  and av software vendors can detect exploits using it . 
+  note that the negotiations were over `` a fix ** within 60 days ** '' , which i can only assume ms would n't agree to , else this would n't have happened . 
+  they wanted * more * time . 
+  i do n't assume ms were being lazy , i think they were trying to give themselves as much time as possible . 
+  the longer they have to fix it , the fewer resources they have to devote to it ( rapid turnaround in a big company takes effort ) . 
+  but that 's bad for everyone using windows , as there 's an unpatched vulnerability out there that anyone * could * be using for all sorts of scary stuff . 
+  at least if it 's known , then it 's * possible * to defend against it . 
+  it 's also bad for the researcher . 
+  do n't forget his only reward for this endeavour ( and this shit ai n't easy work ) is his name on a press release . 
+  60 + days is more than enough time for the details to leak and end up as a massive virus outbreak that nobody can defend against . 
+  if that happens , then his work will be reduced to a footnote . 
+  but , really , the * right * thing for ms to do would be to patch it * as soon as possible * . 
+  60 days * really * does n't seem unreasonable , and if i were in his shoes i might have considered the same course of action . 
+  dude i do n't even own a shirt . 
+  well , one . 
+  it 's my funeral shirt . 
+  but not owning an iron means i 'll probably be forced to buy a new one should anyone i know be inconsiderate enough to die . 
+  really ? 
+  i bought it in the steam sale , gave it an hour or two but could n't get past the dodgy combat and clunky controls . 
+  edit : on the other hand , i fucking loved dragon age . 
+  yeah i tried that ( i tried all the different view styles ) . 
+  still pissed me off no end . 
+  this is a bizarre situation . 
+  on the one hand , yes , they 're doing `` the vendor 's job for them '' for free . 
+  on the other , unless they 're actively selling this information to black hats , there 's no reason * not * to tell the vendor . 
+  if i were a security dude doing something important enough to pay a company to tell me about vulns early , then i 'd be pissed off if they were n't disclosed to the vendor . 
+  because then i 'd have to work out my own workaround , deploy it , and maintain it forever - without disclosure to the vendor , there would be no official patch in the future . 
+  though i suppose it 's all just down to wanting to make some cash . 
+  to be honest , if it 's just greed , i 'm not sure they 're going about it the right way . 
+  if i were a security researcher i 'd say `` here 's the exploit information , currently it 's just between us . 
+  it will be given to our clients in two weeks , and published publicly in four . 
+  we can delay that , but it 'll cost you '' . 
+  banking on the fact that it 'll cost them less to quietly pay me to delay than it would to mobilise themselves to get a patch out quicker . 
+  it 'd be fucking hilarious if they said `` we 'll release < some cool thing  if 50 wrenches are destroyed '' . 
+  well , ms do n't want to pay . 
+  up until now they 've got this shit for free , if they start paying then not only is it gon na cost them a lot of money , but the incentives to find vulnerabilities are increased - so there 's likely to be a big rash of new bugs to deal with ( and the bad press that goes with that ) . 
+  if they 're paying a charity , then it 's costing ms money , but they do n't get the only benefit that paying per bug brings : a modicum of control over security researchers . 
+  if they were paying researchers directly , they can make them sign ndas or whatever before handing over the cash . 
+  if they 're paying a charity , then the researchers are unlikely to what to do that , 
+  assuming she has custody of the child and you 're not in a relationship any more , i ca n't see why you 'd want to object to this . 
+  i watched my so-called life . 
+  that shit was pretty good . 
+  i had ( and , if i 'm completely honest , still have ) a * massive * crush on claire danes . 
+  i assumed that you 'd agreed for it to have your name while you were together , and she wants to change it now you 're not . 
+  it makes sense to me . 
+  otherwise the kid is going to grow up wondering why its name is different to the rest of the family . 
+  given the kid is 4 , the `` paperwork problems '' are going to be minimal . 
+  different story at 16 or 18 or something , but at 4 it 's not going to cause you much trouble . 
+  particularly if it 's an addition to the name and not a complete change . 
+  i think the benefit to the kid of not having to understand why its surname is unrelated to its mothers ' is probably worth the minor inconvenience . 
+  i 'm struggling to understand why you 'd object to this for reasons other than personal pride , or to object just to deny the mother something she wants . 
+  the kid will still have your name , right ? 
+  she does n't want to remove that . 
+  i * really * do n't see the problem , and unless you can come up with a good reason , then i 'm branding you a vindictive cunt . 
+  the point i 'm trying to make is that if the kid lives with the mother , it 's probably going to be better off having the mother 's surname . 
+  it 's hard enough being in a single-parent family ( or being in a child from a previous marriage ) without having to deal with having a different name . 
+  so i do n't think the mother is being unreasonable in wanting to change the child 's surname to at least include hers . 
+  as far as i can tell , the only reason you 've got for objecting to that is because you do n't like it . 
+  so unless there 's something else you have n't told us , then i can only assume you 're being selfish . 
+  stop it . 
+  you 're only making life harder for the mother ( when as far as i can tell she 's being pretty reasonable ) , and the child will suffer because of it . 
+  yeah i 'm not a fan of 32 player servers . 
+  they can be fun for a bit , but it 's hard to have a balanced game on one . 
+  one of those would be great the first time your drain gets blocked . 
+  but if it happened a * second * time , i think i 'd eye it suspiciously for a moment wondering what kind of state the inside is in ... before going out and buying to drain unblocking liquid . 
+  there are plenty of ambidextrous mice around , but i 've never heard of one that has buttons with adjustable sensitivity . 
+  i seem to recall that the old-school [ microsoft mice ] ( http://images.tigerdirect.com/skuimages/large/m17-1704-main.jpg ) have twitchier buttons than logitechs , and they 're symmetrical . 
+  this is probably obvious and slightly condescending , but i 'll say it anyway : generally , pressing the button towards the very front of the mouse makes it easier ( they 're hinged at the back of the button , so you get a bit more leverage that way ) . 
+  if that 's no help , then maybe modifying a cheap mouse might be the way forward . 
+  most of them consist of a pcb-mounted microswitch like [ this ] ( http://roleepolee.com/products/roleepolee/microswitch6167a.jpg ) that 's operated by a bit of plastic protruding from the bottom of the button . 
+  i realise this might be a bit of a fiddly job for someone with arthritis , but something thin ( like a bit of paper ) stuck to that will make it a significantly lighter button ( as it 'll be under some pressure all the time from the plastic part ) .

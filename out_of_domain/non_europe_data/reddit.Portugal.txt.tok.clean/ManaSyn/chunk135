@@ -1,0 +1,100 @@
+  #do mar, 
+  the fuck , how do you do the flag ? 
+  tyl about chouri\u00e7o assado :, 
+  she 's one of the founding members , we knew about ver . 
+  onde \u00e9 que a big data vale tanto ? 
+  e remote work ? 
+  dave is such an italian name indeed ... 
+  i 'm glad i got to visit istanbul just last year , but i do n't think i 'm going back anytime soon ... 
+  for reference :, 
+   during their four years in power , the khmer rouge overworked and starved the population , at the same time executing selected groups who they believed were enemies of the state or spies or had the potential to undermine the new state . 
+  ** people who they perceived as intellectuals or even those who had stereotypical signs of learning , such as glasses , would also be killed . 
+  ** people would also be executed for attempting to escape from the communes or for breaching minor rules . 
+  if caught , offenders were taken quietly off to a distant forest or field after sunset and killed . 
+  i just had a game as zarya where i ulted and then this happened . 
+  that was one happy hog . 
+  who is hakim ? 
+  reaper is working for hakim ? 
+  but his shield would have been enough ... 
+  yeah , brilliant name . 
+  it does less damage if you jump . 
+  yes , but that 's where rubber comes from . 
+  the magician part was how he pulled soldier 76 and he somehow went back . 
+  the worse is they named a colossus after him back in ancient greece , too !, 
+  that is not how you spell goal in portuguese ... 
+  huh , til that 's how you spell it in brazil . 
+  huh , so they are skyrats in austria too . 
+  i knew i recognised war 's voice from somewhere !, 
+  not required does n't mean you ca n't pay it even if you do n't make that much . 
+  close to your allies ? 
+  well , they all do , no ? 
+  well you did but the game in the first place . 
+  i just rotate the board as fast as i can there . 
+  does yoda recognise r2 there ? 
+  maybe they 're google glasses . 
+  that is not true at all . 
+  plenty use it . 
+  but it works either you say bica or caf\u00e9 . 
+  it 's a pretty big coincidence that the boy arrives with his father 's droid . 
+  one could say the force was at work there . 
+  that 's curious , logro in portuguese means fraud , which is nearly the opposite of it 's spanish translation . 
+  i wonder the historical reasons behind this . 
+  edit : although , to be completly fair , it can also mean `` to achieve '' . 
+  boa manobra de marketing . 
+  ana boosting reinhardt right after ress was great too . 
+   though the portuguese are addicted to their shots of espresso , ordered simply as `` cafe , '' there 's no such institution as `` the cafe '' in the country -- it 's the pastry shops that do double duty . 
+  you can see them in the potg , op just took advantage of the spawning lorry . 
+  about people on the roof , the entire enemy team was standing there waiting for us on the payload , and i was staying with it ( as reinhardt ) . 
+  i would never be able to attack them , but who did ana decide to boost ? 
+  ... i never noticed the rocket lifting off . 
+  carrier has arrived . 
+  the very title states that there were no jump scares ... 
+  and ? 
+  manuel means god is with us , maybe eleven should have been called that . 
+   you know , that 's kinda the point of using a bow . 
+  to get a head shot . 
+  does n't sargeras think those eviler beings are unstoppable so he 's killing literally everything but them so they ca n't corrupt stuff ? 
+  i 'm afraid his wo n't work because he is not accounting for when they appear more than twice ( or more ) . 
+  change all cars to red or just change everything to car and you 'll see what i mean . 
+  a simple way to do it is indeed to track when each combination appears first and then just sum it with the first column in consideration . 
+  column c - if first occurrence ( ie , from top to bottom , there is only one time a # and b # occur at the same time , then show 1 , else show nothing ( or 0 if you wish ) . 
+  = if ( countifs ( a$ 1 : a1 , a1 , b$ 1 : b1 , b1 ) = 1,1 , '' '' ), 
+  column d - sums the 1s for each occurrence in column a. 
+  = sumifs ( $ c$ 1 : $ c$ 12 , $ a$ 1 : $ a$ 12 , a1 ), 
+  hope this helps !, 
+  my best bet would be to create a new column with a match formula and then also filter that for #n / a. 
+  for instance , i will call that column a in both sheets :, 
+  column b :, 
+  = match ( a1 , sheet2!a : a ,0 ), 
+  what this will do is return row number where sheet2 equals first time value occurs if it is already there , or #n / a if it can not find it . 
+  any question just ask . 
+  edit : if your rather show something other than #n / a , just use iferror :, 
+  = iferror ( match ( a1 , sheet2!a : a ,0 ) , `` something other than #n / a '' ), 
+  why not checking if the cells to the left are blank ? 
+  = if ( c2 = '' '' , '' '' , formula ), 
+  would that work ? 
+  what i usually do is just concatenate all common fields into one cell then do a match function to see differences . 
+  maybe add some indexs for discrepancies . 
+  can you not just add an apostrophe before the number ? 
+  sorry , could you please take a screenshot of what you mean ? 
+  i would use an array formula . 
+  on cell d1 to d3 i added the categories , and then on cell e1 i wrote the following formula , after which i pressed ctrl + shift + enter and autofill down to the rest of the categories :, 
+  { = index ( $ b$ 1 : $ b$ 15 , match ( max ( if ( $ a$ 1 : $ a$ 15 = d1 , $ b$ 1 : $ b$ 15 ) ) , $ b$ 1 : $ b$ 15,0 ) - row ( d1 ) ) }, 
+  i did n't write the entire table , only from cell d1 to d15 , so change it accordingly . 
+  #what does it do ? 
+  if you write, 
+  = if ( $ a$ 1 : $ a$ 15 = d1 , $ b$ 1 : $ b$ 15 ), 
+  and press ctrl+shift+enter , excel will create an array in a cell that will return false for every row between a1 and a15 that is not equal to d1 , and will return the value on the other rows . 
+  press f9 on it to see what i mean . 
+  afterwards , max function determines the maximum value , and you can now do a simple index ( match ( ) ) function . 
+  the last part , row ( d1 ) , simply subtracts the number of the category to the returned match , as that 's where the name of the person is ( category zero if you will ) . 
+  as an example , on your table , take age category , where harry is the eldest . 
+  if i press f9 on every part of the formula , where 's what happens :, 
+  = index ( $ b$ 2 : $ b$ 16 , match ( max ( if ( $ a$ 2 : $ a$ 16 = d1 , $ b$ 2 : $ b$ 16 ) ) , $ b$ 2 : $ b$ 16,0 ) - row ( d1 ) ), 
+  = index ( $ b$ 2 : $ b$ 16 , match ( max ( { false ; 20 ; false ; false ; 41 ; false ; false ; 51 ; false ; false ; 37 ; false ; false ; 18 ; false } ) , $ b$ 2 : $ b$ 16,0 ) - row ( d1 ) ), 
+  = index ( $ b$ 2 : $ b$ 16 , match ( 51 , $ b$ 2 : $ b$ 16,0 ) - row ( d1 ) ), 
+  = index ( $ b$ 2 : $ b$ 16,8-row ( d1 ) ), 
+  = index ( $ b$ 2 : $ b$ 16 , { 7 } ), 
+  = `` harry '', 
+  hope this helps !, 
+  i saw d column and just used c column , and since row 2 is usually the first row header one , that 's what i used .

@@ -1,0 +1,100 @@
+  they 're both programming languages but they each have their own rules , and are not much more similar than say c # or something else . 
+  glad you like it !, 
+  that 's what i 'm here for !, 
+  thanks for the compliment , glad you like them !, 
+  thanks !, 
+  i somewhat agree with what the other poster said in that you should n't focus on building say an entire `` engine '' from which you can pull from to make your game , but instead just implement what you need one step at a time . 
+  this will cut down on code that never ends up getting used and will also not make you feel like you * need * to use code just because you 've written it into your engine . 
+  that being said i 'm confident these videos will provide a nice example of how i go about making a game and what works best for me , maybe it is the same for you !, 
+   first off , i do n't think videos are the best way to teach programming . 
+  i think you need to be able to look at code with time on your hands , look it up and down and try to decipher what it means , rather than just saying ` here 's some code , next ' . 
+  if used , they should be supplementary materials to aid the text-based lesson . 
+  different strokes for different folks , i suppose !, 
+  i found video tutorials immensely helpful when i was learning myself , though that was back in a time when they were n't as easily found and 240p made it really difficult to read the text !, 
+   specifics about the first video : you take way to long to get the viewer programming . 
+  you talk about knowing if the computer is 32-bit or 64-bit , what src is , constant mentions of concepts followed by ` but do n't worry about that right now ' . 
+  this just confuses a first time viewer . 
+  you need to start with the println method in my view or something equally basic , this is something people can understand and they 'll think ` oh , that 's not so bad , i just change the words in the quotes and i can make my own stuff . 
+  cool . 
+  if you 're saying ` oh , there 's this , that 's really complicated , and that , that 's really complicated too , do n't worry about that ' for the first 5 mins , most people will just be confused and intimidated . 
+  it 's better to strip everything down to what people need to know get programming . 
+  i noticed a few errors in speech as well , like saying class when you meant method , that is unacceptable , you need to take down the video and re-do it to remove that kind of thing . 
+  unfortunately since the entry point into your first java program is going to be * public static void main ( string [ ] args ) * , that line carries a lot of information that personally i do n't think would fit the scope of a first tutorial about printing a line , so i need to tell people that we will cover that sort of stuff later , which we have , but for now to just focus on printing to the screen . 
+   so , do n't use complicated language , do n't presume your learner knows what you 're talking about , do n't talk about extraneous things , do n't start with something more complicated than necessary ( e.g. 
+  talking about classes before the println method ) , do n't explain ten concepts at once and exercise , exercise , exercise . 
+  thanks for the advice and thanks for your support !, 
+  hey thanks for the support !, 
+  i hope you find the videos helpful and feel free to comment here or on yt if you have any questions , suggestions , etc !, 
+  i 've been pondering this a lot lately , i think it might be easier to start with windows applications just from an educational standpoint and assuming people will be following all of the videos chronologically before progressing into android stuff . 
+  that and i prefer lwjgl to libgdx , but it 's growing on me slowly . 
+  wow i 've actually not heard of udemy , thanks for the advice !, 
+   recording screencaps is pretty good for absolute hand-holding people , especially for the specifics of eclipse and starting a project etc. , but i think for introducing concepts , just showing code is worse than showing some diagrams or something , that is , teaching the underlying concept instead of the surface appearance . 
+  that applies to things like package structure etc. 
+  like you 're talking about classes and visibility without introducing those concepts . 
+  someone who needs to watch a video this basic wo n't understand that . 
+  this is a good idea !, 
+  diagrams , i like it !, 
+   you also break the cardinal rule of teaching programming several times ; `` do n't worry about that right now '' . 
+  `` do n't worry about what that means yet . '', 
+  any lesson ( on any topic ) which includes this phrase needs to be redesigned with a new angle . 
+  i understand the intention is to get people started but this approach fails because it assumes the student has the same understanding of the underlying mechanics that you do . 
+  you want to go ahead and start teaching lines of code or algorithms , but a beginner programmer does n't understand how or why what you 're saying does n't matter , does n't matter . 
+  a beginner wo n't have the understanding you do that `` public static '' is irrelevant to the current example , for instance . 
+  to them it 's all at the same level , but you 're arbitrarily saying some bits of it do n't matter . 
+  perhaps i should have been more clear about the complexity of some lines of code compared to others , but i 'm sure you agree that fully defining and explaining * public static void main ( string [ ] args ) { } * is far beyond the scope of episode 1 for someone who has never programmed before , so i am forced to say `` we will cover that later '' ( we have !, 
+  ) , but i think you raise an interesting point as to how it may appear to a newcomer . 
+   you also might want to introduce concepts like , the java api . 
+  these commands you 're using are n't coming out of thin air and there 's a finite number of them . 
+  i think it 's pretty important to establish that for new programmers ; people who feel lost with programming usually have this problem where the scope feels impossible , because they have n't been given a complete overview . 
+  this is excellent advice as well !, 
+  between episodes 2.5 and 3 i purchased a new microphone and finally set the text size to something i think works well for me and youtube ( this is a learning experience for me as well !, 
+  ) , so i 've often thought of re-uploading the first tutorial knowing now what i wish i did then for the format . 
+  all excellent feedback , thanks for your support !, 
+  i assure you monetization played little into my decision on the formatting for these tutorials . 
+  having taught myself programming via online resources i personally found video tutorials to be immeasurably helpful so i wanted to recreate that magic in a format i wish i had been presented when i was first learning . 
+  of course everyone learns differently and ymmv !, 
+  thanks for the feedback !, 
+   i agree with your third point . 
+  nothing makes me angrier than when an example program has a line or chunk of code that does something and the instructor says `` we 're not covering this right now , just type it in as you see it . '', 
+  i 've responded to this idea more fully in the parent comment if you are interested , but unfortunately sometimes you need to do this kind of thing when teaching at very basic levels of programming . 
+  the entry point of a java program is * public static void main ( string [ ] args ) { } * which carries a lot of definitions that are beyond the scope of an introductory lesson . 
+  thanks for the feedback !, 
+  i imagine that more complex projects wo n't strain the timing of videos but instead each video will just cover a bit less content due to the complexity of the content being discussed . 
+  good idea , i 'm not too familiar with processing but will look into it . 
+  thanks for the suggestion !, 
+  [ not very exciting i 'm afraid . 
+  ] ( http://www.reddit.com/r/gamedev/comments/1w5qx4/hey_everyone_i_am_making_a_beginner_programming/cezk0yp ), 
+  sounds good , thanks for your support !, 
+  i think i 've done a fairly alright job of explaining why we are doing things , and in fact the last two videos i 've made in the series specifically cover concepts that i feel should be explained in more detail than they have been . 
+  let me know what you think and thanks for the support !, 
+  yeah i came to the same conclusion , you 'll see as the videos go on the text gets bigger and the audio quality better , i 'm considering re-recording the first 2 episodes with this in mind . 
+  thanks for the feedback !, 
+  if you got your bachelor 's degree how did you manage to not get a job and just play starcraft for a living ? 
+  as someone who is currently in university for computer science , does this mean there 's still hope that my pro gaming career will take off ? 
+  i know what you , mean . 
+  popularized by the 4chan comic company . 
+  as the other poster said , the only thing they really have in common with one another are the letters in their names . 
+  do n't most cars have a protective shield covering the gas tank unless like a gasoline nozzle is in it ? 
+  solid music, 
+  do you know what season / episode number this is ? 
+   to be honest it starts a bit slow i almost stopped watching before the music started , but i 'm really glad i did n't and before i knew it i had watched the whole thing . 
+  yeah i probably should have had the music start right away but i felt artsy and wanted it to be right after the first hardcut, 
+  sweet hope you enjoy !, 
+  and yeah that is my friend 's and my channel, 
+  yep , there ai n't no room for feelings in the arena . 
+  wow this was surprisingly really funny haha, 
+  well if you work there why do n't you fucking fix that shit ? 
+  you should try cigarettes !, 
+  nice !, 
+  i quit about 19 months ago, 
+  seriously fuck these people who have the gall to complain about presidential candidates when they only even consider two of the options . 
+  i voted for him !, 
+  ^ ^ there ^ ^ are ^ ^ others ^ ^ after ^ ^ all, 
+  i 've been found out, 
+  did they sing that at macy 's ? 
+  i disagree . 
+  i do n't think my interests align near enough to either of the two major parties to warrant me getting out of bed and going to vote for the one i think will be `` less bad '' . 
+  i rather have a clean conscience and feel good knowing that i voted for the person who i truly want to win . 
+  third party candidates have been steadily getting more votes each election and i 'm hoping as people get more and more fed up with the current two parties they will also see the rising results for 3rd parties until one election it all pops off and we have an actual race . 
+  holy fuck mate i hope you are n't redditing while flying an aircraft !, 
+  i was wondering the same thing actually .

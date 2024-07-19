@@ -1,0 +1,100 @@
+  decades of it in fact . . 
+  i find the prospect of them winning , at least some games if not the match , refreshing and fascinating . 
+  i mean , this is just a calculation of the elo rankings of top players based on their recorded wins and losses against other professionals . 
+  the top players themselves are ofc chinese and korean top professionals ( japan has rarely had very strong performance lately , but iyama yuta as you can see is really strong now ) . 
+  you can see their flags next to the names , 
+  and it still is meaningless ; just a webpage calculating rankings . 
+  has no official standing or anything like that . 
+  its just that there is no international ranking system , nor world championship or anything like that - just individual tournament events & titles , national and international , and national leagues . 
+  w/o komi , black clearly wins , since s/he moves first . 
+  a perfect integer komi would be one that makes the game fair , exactly compensating for the first move advantage , so using it the perfect game ends in a draw by definition . 
+  by convention however , draws are avoided by making the komi a fraction , like 7.5 -- so one or the other player will have an advantage simply by fiat . 
+  what , it used a policy network suggesting promising moves in its tree search , evaluated each by monte carlo fast rollouts using a softmax over 3x3 patterns and hand-crafted tactical features , as well as by a value network for winning chances of each position , then mixed the rollout and value network scores 50-50 to calculate the final evaluation of each node in the search tree ? 
+  ~ ~ hint : nope , td-gammon did nothing of the sort ... ~ ~, 
+  edit : i apologise , should n't have snapped like that ... guess i really need to catch some sleep already, 
+  i guess lacking proofs to the optimal value of komi would imply that there 's no proof it ca n't be 0 as well . 
+  not sure . 
+  but negative certainly makes no sense . 
+  still its impossible to belive so . 
+  optimal komi values are proven however for board sizes that have been solved so far , think the largest is 6x7 . 
+  if there is a winning play by the second player , all the first player needs to do is pass , as you said . 
+  or play in one 's own territory ( under chinese count at least , which is what they 're playing - but there are near-equivalence arguments for the final situation for the japanese count too . . ) . 
+  though how could that be possibly better than playing anywhere outside your own territory - like in opponent 's ? 
+  at worst it does n't work ( and chinese count has no prisoners ) , and if there 's any point at all on the board where it can be played and live , it reduces opponent 's points ? 
+  or at worst just opening on the center point ( tengen ) , which is a common way for black to play an immitation game with a slight advantage ( cheesy and ineffective , but certainly familiar ), 
+  at each move , player needs to play where the point value of the move is maximal . 
+  a board where no moves are worth making is a board at the end of the game , ready to be counted . 
+  you 're contemplating an empty board where a move 's worth is 0 or negative ? 
+  all stones are the same , and you can put them anywhere ; your power in a situation is the number and relationship of your stones . 
+  why would one be unable to utilize having an extra stone ? 
+  well who knows what they tried and did n't work , and did n't get published - so i ca n't exactly be sure . 
+  and we do n't know what was happening exactly for the last ~ 5 months . 
+  though they did state the thing runs on about the same hardware as the old program . 
+  and at least what they did to beat fan hui 5 months ago does n't seem particularly grandiose - though clearly it is n't a garage project by a student either . 
+  but little in computer go is . 
+  it was developed during one year ; end 2014 a couple of ppl in oxford got a good result , and a few ppl in google published roughly simultaneously a slightly better one - on move prediction task . 
+  already then a naive first combination of the predictor with tree search at google was giving around ~ 2dan strength . 
+  not too impressive , to be sure . 
+  now their final product had those two components , retrained and with tweaked architectures , plus one completely novel one , and ran on a cluster . 
+  hefty quantity of computational power , to be sure , but nothing previously unseen in computer go . 
+  say already pachi and mogo occasionally ran on clusters with ~ 1000 + cores for big matches , and getting these algorithms to scale sensibly with more hardware hits severely diminishing returns normally - and would hence require better algorithms to even profit from further machines being at its disposal . 
+  the whole thing ended up being trained with just 50gpus . 
+  and they ran the maximal distributed system on 1202 cpu cores and 176 gpus . 
+  and most of that hw made rather marginal contributions to the final power of the system ( < 100elo for the jump from 764/112 ) . 
+  increasing that to a 1920/280 configuration was so ridiculously worthless ( 28elo ) that it was n't used . 
+  overall , using a distributed system rather than one beefy machine ( 8gpu 48core ) boosted them by say ~ 1stone ( ~ 240ish elo ) . 
+  helps , but certainly is n't what makes this thing so fascinating and strong . 
+  well you deleted the followup question , but i already wrote a reply . 
+  so it would n't go to waste , here it is :, 
+  paper states how they trained each component and how long it took . 
+  policy network was trained on a database of human strong amateur player games from the kgs online server . 
+  task is : given a position on the board , predict the next move . 
+  training on 160k games in that database , with ~ 200 moves each , they had ~ 30 million moves to train it with . 
+  that took 3 weeks to happen , using 50 gpus . 
+  this is a kind of thing already done by many teams ; zen bot trained one , facebook 's deepforest trained one , ayamc bot trained one , oakfoam trained one ... 
+  then that famous network that learned by playing against itself ... 
+  they started with the trained policy network , then trained it in self-play for ... 1 day , on 50gpus , self-playing 1 280 000 games . 
+  when they finished doing that , they have a decent player -- but sadly nothing special , 5dan . 
+  they tried using that network for move prediction - but turns out the one they had at the start of the training , before self-play was better at move prediction than this one ... 
+  still , they let it play against itself ( not learning now , just playing -- well actually sampling games from the network , but similar enough i think for this explanation ) , for 30 million games more -  they do n't say how long that took , but given how fast it self-playied and learned above , it ca n't be more than a month on 50gpus , and should be much less , as its just playing and not training . 
+  then they train a value network . 
+  the task is : given a board position , predict who wins . 
+  they take one random board position from each of those 30 million games ( !, 
+  ! incredibly wastefull , but apparently they had some problems with overfitting when using more positions from each game ) , and the information who won the game to train this . 
+  they again use 50gpus and train for 1 week on this . 
+  all in all 50gpus should do all this training in 2 months at worst , and likely significantly faster too . 
+  yeah , by that logic any winner of any large tennis torurnament is a world champion in tennis , and past titles accumulate over seasons ? 
+  you ca n't simply invent what `` world champion '' is supposed to mean because i guess the audience may be familiar with chess and its title structure ; there just is no title of that kind in go . 
+  and yeah , the `` other guy '' would be lee changho ... who has dominated the game what , 91-06 maybe , and you 'd have to seek him around rank 69 . now . . would that be the notion of a world champion anywhere ? 
+  check out the history page for top players :, 
+  is n't it ? 
+  pros were saying it 's gon na be 5-0 for sedol . 
+  and it prob would 've been like that 5 months ago . 
+  hah , nice catch !, 
+  i was simply looking at that ridiculously tiny gain of 28 elo when they tried to go from 1202 cpu cores and 176 gpus to 1920/280 . 
+  and it was , by memory , just aroud 250elo in total from 8gpu/48core to that max setup . 
+  no , i actually do . 
+  read the paper yourself please . 
+  not a single component of alphago as it was 5 months ago actually played against itself for training . 
+  contrary to media simplifications . 
+  though one of them was trained on a dataset generated from a network that did . 
+  simple , unambigously stated fact from the paper , and i offered the quotes below to show it . 
+  no , the non-distributed version was just about on par with fan hui . 
+  the distributed one was about 5p , rank which they calibrated by the score ( including unofficial games ) of 2-8 w hui . 
+  distributed version was still miles below lee sedol ( 500ish elo ? ), 
+   finally , we evaluated the ** distributed version of alphago against fan hui ** , a professional 2 dan , and the winner of the 2013 , 2014 and 2015 european go championships . 
+  on 5 -- 9th october 2015 alphago and fan hui competed in a formal five game match . 
+  well i mean he stated an impossible scenario , and concluded even that with maybe . 
+  that 's just a fancy way of saying `` no '' really , not an actual estimate . 
+  um , and what else do you believe i was even talking about then ? 
+  a reminder :, 
+   admittedly its the old alphago i 'm talking about . 
+  all i know , the new one might just be the iteratively trained neural network . 
+  but the old one did n't even use it directly at all !, 
+  ... and to be a bit nitpicky - no , the system never actually played against itself . 
+  that last bit was what you were answering to ? 
+  ludilo zabavno !, 
+  igra se do 3 od 5 partija . 
+  yes , well , its certainly is not that exact same architecture . . 
+  and it did n't just extrapolate from millions of go moves either . 
+  at core , it constructs a tree search - yes , actually kinda like it does in chess and similar games . . now the problems with trees and go is both their width and their depth .

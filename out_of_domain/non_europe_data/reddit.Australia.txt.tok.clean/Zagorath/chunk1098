@@ -1,0 +1,100 @@
+  that , imo , should be fixed to allow a hierarchy of multiple files . 
+  even better would be if the first thing upon opening the application , the script prompted the user to * enter * a file/directory name to search . 
+  so i could just enter ` . ` and have it search every directory recursively from the directory the script is located in for xml files , or alternatively i could enter ` items ` and it would only search items ( currently , magic , mundane , and valuable items , separately ) . 
+  but in the meantime , it would , as i mentioned above , benefit from both more explanation on how to use it , and also a ** lot ** of error handling . 
+  ** never ** assume a user is going to use your application correctly . 
+  enter number of item or enter 0 to search again or x to see results again :, 
+  at this stage , a note that hitting ` enter ' will return you to the keyword search mode would be helpful . 
+  but if , on that ` enter number ' screen , the user enters something that is * not * a number ( as i did accidentally just now ) , it crashes . 
+  ` int ( ) ` throws a ` valueerror ` if given a string that ca n't be coerced into an int . 
+  some error handling to tell the user something along the lines of `` you have entered a value that is not a number , please enter a valid number or hit enter to return to search mode . '', 
+  would be useful . 
+  it was one of the earliest ones ( either the first or second ) , and to be honest it 's not very good . 
+   reminds me of schools forcing people to build and pack ps4s for free or else they 'd lose course credits, 
+  wait what ? 
+  that 's literally what half of the comment threads on this post are about . 
+  op left off the entire domain from their link . 
+  wowza . 
+  that 's a lot of explanation . 
+  i feel like a comment this long about `` reddit 's formatting '' should probably have the term `` markdown '' mentioned somewhere . 
+  hey , i 've flaired this `` monster '' for you , but in the future , please remember to apply an appropriate flair to your submissions . 
+  odd . 
+  it should n't . 
+  it does n't for me . 
+  what are your dns settings ? 
+  wow that * is * weird . 
+  my firefox is doing it too , now that i try that . 
+  so is safari . 
+  only chrome seems not to of the browsers on my systems . 
+  happens that way on both macos and linux . 
+  i 've never even heard of honor phones before , so they ca n't be very good at it if that 's what they 're doing !, 
+  but it would n't even make sense for people to have been astroturfing for nexus . 
+  it was a brand produced by such a wide variety of manufacturers , including at one point samsung . 
+  google was in general in charge of the whole thing , but not super intricately involved . 
+  more recently , if you were to say * pixel * were astroturfing , that would definitely make more sense logically , as a venture that google is taking a very direct and public lead over . 
+  personally though , the vast majority of comments i 've seen have been negative towards the pixel phones . 
+  suspiciously so , in fact , and over such bizarrely nitpicky details that part of me wonders if at least some of this is n't fuelled at least in part by that same * negative * astroturfing . 
+  the general attitude has turned more positive since the review embargo lifted and reviewers seem to be giving it largely positive feedback , but there are still a lot of comments loudly complaining . 
+  not to mention , google is a company that engenders a * lot * of goodwill from a certain group of fans . 
+  they 're a bit like apple in that way . 
+  they have a lot of ` fanboys ' , if you will , who will say really good things about most things they do without anything more nefarious going on . 
+  wow that 's ... just wow . 
+  if you 're not careful , a well-placed * suggestion * can absolutely destroy virtually any non-combat encounter , and can even * significantly * aid in combat if used well . 
+  they 're far from `` current generation '' , but in my opinion both ** age of mythology ** and ** age of empires 3 ** hold up * really * well with time . 
+  both are available on steam , though my experience with aoe3 's multiplayer has been that you * need * to go through a third-party utility like gameranger or voobly : i 've never been able to connect to games with my friends over the game 's built-in multiplayer lobby . 
+  hi , it looks like you are seeking help with a currently unfinished piece of homebrew . 
+  please use [ the arcana forge thread ] ( https://www.reddit.com/r/unearthedarcana/comments/56rv1j/the_arcana_forge_for_all_your_drafts_ideas/ ) at the top of the sub for questions of this nature , as the main subreddit is for fleshed out homebrew that is ready for critique and balancing . 
+  i 'm removing this post , but hope you find answers in [ the arcana forge ] ( https://www.reddit.com/r/unearthedarcana/comments/56rv1j/the_arcana_forge_for_all_your_drafts_ideas/ ) . 
+  best of luck , and happy homebrewing !, 
+  and the same also applies to weapons . 
+  many ( but not all ) of them do n't specify exactly what type they should be , either letting it be any weapon at all or specifying something like ` any sword ' . 
+  the mandela effect is about misremembering things . 
+  that 's it , plain and simple . 
+  any explanation about changing timelines or whatever is just insane . 
+  i 'm sorry but it is . 
+  there 's a lot of interesting discussion that could be had about * why * you remember things wrong , about what exactly about the way things actually are * lead * to that mistake , but talking about an explanation that makes less sense than santa claus completely removes that possibility . 
+  out of curiosity , what do * you * think the mandela effect is ? 
+  i 've been working on a mini-handbook for duelists . 
+  my main inspiration for doing so was exactly your situation . 
+  [ you can find it here ] ( http://homebrewery.naturalcrit.com/share/4kcj3fbal ) , and in particular , the third page is where the stuff about rapier and dagger is . 
+  the handbook is n't entirely finished and ready to share yet , but the bit about mains-gauches is . 
+  the idea was that to be effective with a main-gauche , you need currently to take a feat . 
+  but if you 've taken a feat , the main-gauche becomes an inferior option to the frankly laughable notion of carrying two rapiers . 
+  so i wanted to make main-gauche viable both with and without the cost of a feat . 
+  without a feat , the main-gauche acts as a normal dagger except that it can not be thrown , and that it is able to be used with two-weapon fighting . 
+  with a feat cost , you get a +2 bonus to ac against melee attacks and you get the same drawing and stowing benefits and the dual wielder feat . 
+  the problem is that with that feat , rapier and dagger is a strictly inferior option to two rapiers , which does n't fit with the flavour . 
+  the ideal solution is to make an alternative feat . 
+  one that 's balanced compared to the ability to have two rapiers , but makes rapier and dagger a viable solution . 
+  my solution to that has been a feat that does the following :, 
+  * you gain a +2 bonus to ac against melee attacks while wielding a main-gauche in one hand and a finesse weapon in the other . 
+  * you can draw or stow a main-gauche and another finesse weapon when you would normally be able to draw or stow only one . 
+  along with the creation of the main-gauche weapon , which is basically a dagger without the thrown property , and with the special property that it can be used in two-weapon fighting if the other weapon is finesse . 
+  1d8 +1 d4 is , as op says basically equivalent to 2d6 , so it should work just fine in terms of balance * without * the feat compared to not taking any feat . 
+  the +2 ac bonus against melee attacks feels fairly well balanced against the +1 ac against * all * attacks * and * the ability to do 2d8 ( rather than capping at 2d6 ) with the existing feat . 
+  maybe somewhat underpowered , but probably not too much . 
+  so , up until coming across this subreddit when it trended yesterday , my * only * understanding of what the mandela effect was , was simply that it 's a lot of people misremembering things . 
+  because , frankly , that 's all it * can * be ; the idea of everything in the world somehow magically changing makes no sense . 
+  i 'm not entirely sure i understand your theory ; whether it is essentially a vaguely worded way of describing that fact , or whether it 's something that involves the same sort of weird magic that your collocutor is describing , only without this ` residue ' thing . 
+   i 'm not sure which i 'd prefer , to be honest . 
+  that , to me , is the sign of good mechanical homebrew , so i 'm really glad to hear you say that . 
+  it means that someone can choose the one they like purely based on the one that better fits the flavour in their mind , rather than needing to sacrifice flavour for mechanics or vice versa . 
+  it 's a complete coincidence , too , since i was trying specifically to balance it against dual wielder , and never really looked at any other feats . 
+   these games are fantastic, 
+  are they , though ? 
+  honestly i really enjoyed playing them as a kid purely because it 's a lord of the rings rts , but if i were to try and objectively analyse the game , i 'd say they 're pretty terrible as rts games . 
+  the economy system is one of the worst i 've seen in any rts . 
+  it 's almost like they 'd rather it were a rtt with rts-like base building , but wanted * some * level of economic management in there and could n't be bothered putting in much more detailed combat strategy mechanics . 
+  bannerlord is n't out yet . 
+  it has n't even had a release date announced . 
+  as much as i absolutely love mount & blade , comparing it to an rts is a little absurd . 
+  on the combat map there is zero resource management , zero unit building , and only very limited more general strategic control over your units . 
+  on the global map , there 's zero combat , zero strategic control of units , no * real * building , and quite a different style of resource gathering to what an rts would have . 
+  they are both absolutely * fantastic * games , but they 're two * completely * different and unrelated genres with only some small amount of * very * superficial overlap . 
+   please do n't recommend other star trek series , i 've tried getting into them , and never found the hook . 
+  damn , that 's worrying . 
+  i absolutely love tng for the same reasons you described , but i only did a full watch through after it got added to netflix a couple of months ago . 
+  i 've been planning to start watching some of the other trek shows for the first time . 
+  so it 's kinda sad to hear that they might not have that same awesome philosophy tng has . 
+  it was youtube videos of those mods . 
+  hi , thanks for your submission .

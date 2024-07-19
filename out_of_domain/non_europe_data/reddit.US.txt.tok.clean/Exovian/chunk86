@@ -1,0 +1,100 @@
+  [ `` new arival '' by novasilisko . 
+  ] ( https://dl.dropboxusercontent.com/u/575558/ksp/laythe2.jpg ), 
+  yeah , i spaded my 410 on b-17s . 
+  it felt damn good getting some revenge . 
+  get back to the keyboard , you know what you need to do . 
+  it was n't just a flood of hatred . 
+  there were actually really well thought out reasons why the proposal was a very bad idea , and a good bit of civil discussion about it . 
+  definitely true . 
+  honestly , they 've been the ideal devs for their game . 
+  i smash venice like a piggy bank in the early game ; it 's much easier to raid than rome . 
+  how does this happen ? 
+  not at all . 
+  actually , i 've found theocracies to be rather docile vassals , but your mileage may vary . 
+  they probably could , but it 's just another chance for someone to miss something . 
+  we ca n't make sticky posts without unseating the tech help thread , because there is a limit of one . 
+  i 'll think about a link in the header , though . 
+  putting it in the header now . 
+  you shameless tease . 
+  up your military tech . 
+  pagan lands have crippling supply limits to discourage their being wiped out early on . 
+  definitely want a link to this . 
+  here you go :, 
+  thanks to footkerchief , lethosor , mrwiggles , putnam , witty , smjjames , knight otu and anybody i missed for helping to answer questions . 
+  i removed some specific bug timing questions -- since they were either confirmed or crashes , there 's not much more to say , anyway , and i should get to them eventually . 
+  there were a few questions about fruit harvesting that also should have answered themselves with the release . 
+   quote from : cybergon, 
+   is the way that time passes in fortress mode ever going to change ? 
+  or did you already put a ring on it ? 
+  i do n't have any plans to change it . 
+  people like to see their dwarves grow up and so on , and i think you 'd have to run the equivalent of a 144 year fort to see a baby turn into a child if you were running at adventure mode speeds . 
+  it 's also difficult to support variable speeds . 
+  nothing 's permanent though . 
+   quote from : dirst, 
+   as for growing up emotionally , do you envision this being part of the caste-like life stages currently planned ? 
+  or are you more interested in researching how people really mature ? 
+  i 'd be more interested in modeling it correctly , loosely speaking , and i 'd like to try to avoid using castes for too many things , since they are bulky and difficult to transition temporary states ( wounds etc. ), 
+  between at the moment . 
+  i 'm not sure how it 'll end up . 
+  there could be transformations that operate on one section of the creature 's body/mind or another , but then the individual unit drifts from its caste entry , which is also a problem that can get out of hand if overused . 
+   quote from : dg, 
+   will goblin invaders be subject to the new personalities/thoughts when invading in dwarf mode or will they be more homogenous brain-wise ? 
+  it all uses the same stuff ... which can be strange and buggy , as you can see with the tantrum-throwing crundles and so on . 
+   quote from : cla, 
+   with the new set of emotions , what will change about status icons ? 
+  i doubt it would be useful to see every emotion , but will some emotions get their own status icon ? 
+  will some not be displayed anymore ? 
+  are `` melancholy '' , `` madness '' , `` terrified '' `` enraged '' , etc even emotions in the sense we 're talking about , or are they special cases ? 
+  any chance we might even be able to set them to other tiles ourselves ? 
+   i 'm not sure if this is the right place for the following question , but here it probably gets most exposure to people that could know an answer . 
+  as the list in graphics_example . txt has n't been updated for a while , which entries in entity_default . txt are eligible for a custom creature graphic ? 
+  i assume all position and permitted_job entries , but some others are possible , even without being listed as position ; namely things like queen , or baron_consort . 
+  they are only referred to as spouse _ < gender  . 
+  can we assume that all these are valid creature graphic tokens as well ? 
+  are there any others ? 
+  we have the new longer temporary states , which use new exclamation points -- every other temporary emotional state uses the dark blue exclamation point , but that 's only for the ones that put a dwarf out of work . 
+  i think the downward red arrow has been claimed by the high stress states . 
+  for graphics , it takes any unknown leftover string and just assumes you mean a position token . 
+   quote, 
+   quote from : zarathustra30, 
+   is widespread multi-item hauling within the scope of 0.40 . xx ? 
+   quote from : pigtailllama, 
+   once the stepladder is done , can wheelbarrows and minecarts get the same carrying capacity/stockpile moving treatment ? 
+  by that i mean dwarves stack hauling tasks upon the container or tool used to carry said hauled item , instead of carrying them one at a time to the stockpile . 
+  whatever job priorities entails is going to be the main post-bug push for 0.40 . xx . 
+  it 's unclear what 's going to get picked up there at this point . 
+  it 's also unclear how potential bugs like `` bring half-full bin to single haul item '' are going to be handled . 
+  so regarding multi-item hauling , i ca n't really hazard a guess . 
+  the stepladder is n't really related to the hauling tasks , since the dwarf carries all the haul items kind of like a pack mule from the caravan does , then they just peel off individual storage jobs which happen to be in related locations because all of the hauled items are of similar types . 
+  i have n't had to address how the dwarves pick different initial haul items to chain together or how they choose multiple destinations , which are the tricky problems . 
+   quote, 
+   quote from : pigtailllama, 
+   does that mean we have to build higher walls thanks to siegers carrying ladders on intent of scaling walls 1 or 2 z-levels high ? 
+   quote from : valtam, 
+   are ladders also useful for engraving second floor 's walls in that 3x3 radius ? 
+  i did n't do anything either of these . 
+  engraving high up 's not really important until we get multi-z room definitions , though i can see how it would be aesthetically useful and how it would make it easier to engrave those rooms without staggering dig jobs . 
+   quote from : cla, 
+   will dwarves use backpacks to carry fruits , too ? 
+  it did n't come up , since they just carry them in their arms . 
+   quote from : pseudopuppet, 
+   when do you decide it 's time to work on the next major update ? 
+  in a general way , i mean . 
+  at what point do you stop bugfixing and adding minor features and think `` yep , i think it 's time to start working on df20xx '' ? 
+  i do n't know that there 's been a uniform way that works , except maybe the part where i say that i hope it does n't happen that way each time before it happens . 
+  ideally , there would n't be large releases , but it has also been the case often enough that we might find ourselves on a long road again before too many months have passed , all effort to the contrary . 
+   quote from : lordbaal, 
+   when do you plan to separate the loading time for ranged attacks , as for example crossbows firing slower than bows , and lend us the values for modding , like for example a repeating crossbow and such ? 
+  it 's in the plans ? 
+  i do n't have a timeline for it . 
+  it 's definitely in the plans . 
+  there are a number of actions that need to be moved over to the new system , and i think the only hiccup with ranged weapons is adding some sort of `` loaded/ready '' state to it that is governed by a new action . 
+  that 's not hard , but it 's just annoying enough to see it bumped a few times . 
+   quote, 
+   quote from : tfaal, 
+   what is the significance of the colors on the new thought screen ? 
+  for example , arousal from talking to spouses , and fondness from talking to friends are cyan , while satisfaction from work and bliss from sleep are both green . 
+  what 's similar about the cyan emotions ? 
+  what 's different between the green emotions and the cyan emotions ? 
+   also is there any difference , in terms of dwarf happiness or behavior , between the many different positive emotions ? 
+  will dwarves who are aroused by there spouses behave differently from dwarves who are feeling fond of their friends ?

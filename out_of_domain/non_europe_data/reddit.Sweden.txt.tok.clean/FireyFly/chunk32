@@ -1,0 +1,100 @@
+  to me ( no colour vision deficiencies ) the first one reads red , orange , yellow , green , blue , purple to me , whereas the second and third one have four shades of yellow followed by two shades of blue . 
+  the difference between the second and third seems mostly to be that the second is less saturated . 
+  would you identify the first four strips in the first/third to be shades of the same hue ? 
+  i do n't know the last remnant , but if you like fft , perhaps you 'll enjoy the [ ogre battle ] ( http://en.wikipedia.org/wiki/ogre_battle_ ( series \\ ) ) series if you have n't played it . 
+  the series consists of three rtt games and two tbt games , though i 've only played [ the knight of lodis ] ( http://en.wikipedia.org/wiki/tactics_ogre:_the_knight_of_lodis ) , the gba game in the series . 
+  there 's a psp port of the other tbt game in the series , [ let us cling together ] ( http://en.wikipedia.org/wiki/tactics_ogre:_let_us_cling_together ) . 
+  it 's worth mentioning that at least disgaea is rather `` oddball '' compared to the others , and probably does n't necessarily cater to the same audience that 'd like fft , to and fe . 
+  much less serious story ; less `` epic adventure '' and more comedy . 
+  do n't get me wrong , i love disgaea , but i 'd suggest to people to check out the first two-three episodes of a let 's play before getting it . 
+  i did n't realise this was n't widely known about already , and i could 've sworn it was linked to in the sidebar or something ... anyway , since it was n't there , i decided to add it , as well as a link to the [ wikipedia article about ambigrams ] ( http://en.wikipedia.org/wiki/ambigram ) . 
+  thanks for the submission . 
+  football , football , cricket , pcmasterrace , oh hey a / r/photoshopbattles submission , more sports posts , fifa , a pun in / r/pokemon . 
+  hmmm , i 'm probably * terrible * at this , but say ... male , something like 17-18 , english , obviously very interested in sports , browses 4chan . 
+  nothing in particular that sticks out to me . 
+  gah , i 'm terrible at this , sorry , but at least i tried !, 
+  now tell me how wrong i am . 
+  edit : oh , and sorry about not being terribly impression-y . 
+  writing down impressions is way harder than i thought it 'd be . 
+  that was . . an interesting read !, 
+  :d thanks for taking the time posting that . 
+  i probably would n't want to be some kind of ruler , that seems like too much work . 
+  * if * i were some kind of ruler , you 're probably right that i 'd try to minimise the time i had to spend actually ruling , though . 
+  i have n't played that , but i should someday . 
+  oh , and i just now created ( well , took over the unused ) subreddit / r/tactics , with the goal of trying to establish a community of people interested in tbt/rtt games on reddit . 
+  ( as there seem to be plenty of them , going by the occasional threads about the genres in various subreddits i subscribe to ) . 
+  so , here 's a shameless plug : subscribe if you 're interested , and i 'd love contributions of additional posts , links and comments . 
+  yay , a reply . 
+  it seems gamefaqs did n't like your hotlinking , so better link [ the list of faqs ] ( http://www.gamefaqs.com/ds/937330-final-fantasy-tactics-a2-grimoire-of-the-rift/faqs ) instead , i suppose . 
+  ( for others : it 's the job chart under maps and charts . ), 
+  with regards to class systems , i like the approach taken in tactics ogre : to unlock a class , you need to fullfil some stat requirements , but also have the character get an emblem . 
+  emblems are awarded e.g. 
+  by killing two enemies with the same spell , dodging an attack that would otherwise kill you , or killing someone without a weapon equipped . 
+  i think to has fewer classes than ff : ta2 does , though , so there 's that . 
+  though , it was quite a while since i last played a fft game , so i 'll have to re-play it to remind myself of the gameplay . 
+  hammarbybacken and flottsbro , please . 
+  i want to ski . 
+  just do q in normal-mode and you 'll enter ex-mode , which is basically a slightly-powered-up ed . 
+  basically , ed is vim 's ex commands without the colon prefix , and only a small selection of commands are supported , and each supported command is a single character . 
+  where did you find it ( assuming you uploaded it to imgur ) ? 
+  that could help in someone trying to figure out the context . 
+  i wonder if there 's a tower just out of image to the right of the picture , from which one could get a view from above of the board ... 
+  edit : searching for the image via google took me to a [ bulgarian page about `` human go '' ] ( http://www.weiqiland.net/sinica/humangames.html ) ( [ translated ] ( http://translate.google.com/translate?sl=auto&amp;tl=en&amp;js=n&amp;prev=_t&amp;hl=en&amp;ie=utf-8&amp;u=http://www.weiqiland.net/sinica/humangames.html&amp;act=url ) ) . 
+  whatever you feel like . 
+  or if you want those function calls ( ` stroke ( 28 , 245 , 61 , 255 ) ` and ` strokewidth ( 5 ) ` ) to be run when the program is run , simply remove the ` function ` and ` end ` keywords around them . 
+  when the program starts , statements are run one-by-one from the beginning of the file to the end . 
+   demo crew, 
+  i 'm pretty sure those [ aim for small size ] ( http://en.wikipedia.org/wiki/demoscene ) usually . 
+  it 's just that they have companies in a lot of businesses , mostly to spread the risk between the businesses aiui . 
+  it 's what is knows as a [ conglomerate ] ( http://en.wikipedia.org/wiki/conglomerate_ ( company \\ ) ) . 
+  ) , commonly referred to as sony , is a japanese multinational conglomerate corporation headquartered in k\u014dnan minato , tokyo , japan . 
+  its diversified business is primarily focused on the electronics , game , entertainment and financial services sectors . 
+  the main difference between a function and a syntactic macro ( the kind of macro the blog post is about ) is that a function receives a list of * values * , obtained by evaluating each parameter before the function body itself is invoked . 
+  a macro , on the other hand , receives a list of * syntax trees * corresponding to the arguments to the macro , and has to explicitly evaluate such a syntax tree to obtain the resulting value ( if it wants to ) . 
+  so , already here there is an important difference : a function always has each argument evaluated exactly once ( and typically in left-to-right order ) whereas a macro may have its arguments evaluated an arbitrary number of times ( including zero ) , and in an arbitrary order . 
+  this is useful , because the value of an expression ( which is what the syntax tree represents really ) might change over time -- maybe it 's the comparison of a while-loop , for instance . 
+  another use is to conditionally execute something : it 'd be easy to implement ` if ` , ` & & ` and ` | | ` as macros in terms of each other . 
+  apart from evaluating these syntax trees , the macro could also inspect and transform them in other ways . 
+  syntactic macros are most notably used in lisp , which makes sense because the syntax tree is immediately obvious ( it 's spelled out with parentheses . . ) , so it 's pretty straightforward how it all works in that context . 
+  i think it 's a neat idea , even if they might hype it a bit too much for my taste . 
+  the part of the idea where they provide an interface for add-ons to use i cool though , could come in handy for a future icontrolpad-like thing for instance . 
+  i 've heard this referred to as `` manual tiling '' . 
+  other similar wms include i3 , ion , musca and herbstluftwm , if you ever feel like trying something new out . 
+  i use herbstluftwm personally , though i 've been meaning to try out bspwm someday . 
+   this behavior of course depends on the syntax of the language you 're using . 
+  more precisely , it depends on ` ` comment ' ` ; ` : help ` comment ' ` explains the syntax of that option . 
+  changing/adding to these would ideally be done via a ftplugin or autocommand . 
+  seems like you have to on linux too . 
+  makes sense , as the ` date ` command outputs a trailing newline . 
+  one shell solution to this would be to pipe to ` tr - d ' \\ n ' ` , i.e. 
+  i wonder if it 'd be worthwile to propose a ` '' ! ` special register as a handy shortcut for ` = system ( ... ) ` ( and with not having to escape things as much ) . 
+  another in the family is herbstluftwm . 
+  i have n't tried either of i3 or bspwm , so i do n't know how they compare to each other , but all three use manual tiling so they 're similar in that regard anyway . 
+  one nice thing with hlwm is that its interface is a command-line tool , which means the config file is just a plain shellscript that the wm invokes when it 's ( re ) started . 
+  gabe has been ranting quite a bit about windows 8 and it locking things in and making things hard for steam , so that 's probably the main reason for valve to push something to replace it . 
+  being open-source means it 's also easier for valve to improve the os side of things , which they ca n't really do with windows . 
+  keep in mind that `` linux '' includes e.g. 
+  android , and i do n't think most people would consider android all that `` alien '' and technical . 
+  i think steam os will be comparable when it comes to user-friendliness . 
+  sure , and you do n't really interact with linux on steam os ( i presume ) . 
+  you just interact with the steam client in big picture mode , presumably tweaked to accomodate for things like `` shut down '' and whatnot . 
+  i would n't say so , given that they seem to only push steam os as a kind of entertainment-machine platform , and they 're still helping the broader set of linux devices out by e.g. 
+  encouraging development of graphics drivers . 
+  i have n't seen any indication of them pushing solely for steam os and getting rid of the steam client from the other platforms . 
+  well , * yet * , anyway -- what the future holds in that regard , i have no clue . 
+  you should probably short the choices alphabetically to make it easier to find your distro . 
+  we 're talking ` o ( log n ) ` vs. ` o ( n ) ` !, 
+  i do n't think the aim is to backport every existing game on steam right now , as much as encourage further games to support linux , and make sure that their own games and engines do . 
+  but sure , it requires quite a lot of effort and prodding on valve 's part . 
+  btw , `` a handful '' is a bit pessimistic i think ; going by [ this search on store.steampowered.com ] ( http://store.steampowered.com/search/?os=linux&amp;category1=998#sort_by=&amp;sort_order=asc&amp;category1=998&amp;os=linux&amp;page=12 ) the count seems to be 291 currently , which is fairly impressive in about a year i think . 
+  nice !, 
+  pardon my incompetence , but which characters are these ? 
+  i 'll confess , i have n't played fft ( the original ) , and it was a while since i played either of ffta/2 and to ( though i started re-playing ffta just a few days ago ) . 
+  i do n't know . 
+  well , one argument would be their local-streaming service , arguing that it 's more comfortable with a controller in front of the tv . 
+  building a barebones living room pc , your average consumer would probably prefer something pre-built that `` just works '' ; i guess that 's what they 're going for . 
+  yeah , you have a point that when it comes to aaa games , it 's mostly just valve 's games at this point . 
+  i guess they 're trying to lead by example and hope other developers will catch on . 
+  yes , but they 've talked about a streaming service , where you would run a game on your windows box but stream video/control over the lan to the steambox . 
+  this should ( supposedly ) give you access to the entire library , with the steambox pretty much acting like a thin client . 
+  of course , that requires you to still have a beefy gaming rig running somewhere .

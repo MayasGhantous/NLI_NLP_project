@@ -1,0 +1,100 @@
+  and according to the video , it 's quite fast . 
+   adding additional levels of indirection such as asm.js that you have mentioned will induce additional performance overhead due to interpretation of the js code which will emit instructions suitable for your architecture . 
+  yes , but they haul away with the need for hardware isolation . 
+  which , according to the video , is a worthy tradeoff . 
+  cool , 
+   i am expecting something to come along in the next 3-4 years that will either fix the glaring problems with javascript or replace it entirely . 
+  there 's es6 , codenamed harmony , which will introduce classes , proper modules , and generally fix javascript as much as possible . 
+  it also has in mind to make javascript a better compiler target language . 
+  welcome to sociology !, 
+  eli5 me on all gore . 
+  he 's always mentioned in this context and in jokes but i have no idea who he is nor why . 
+   well , i do n't think linus would be very much thrilled with having a js vm inside the kernel . 
+  well that 's why it 's open source and we have distributions right ? 
+  the issues are purely technical here . 
+  i 'm not even sure this kind of hypothetical setup has even been made yet , getting it into mainline is not a priority at all . 
+   windows longhorn project ( os based on . net runtime ), 
+  well i do n't know much about that ( would appreciate a link that describes the technical side of things ) , but i 'm not sure that it 's the same thing here . 
+  microsoft themselves did n't know what api they wanted to force on people , but this most likely very different in several aspects , especially the technical implementation . 
+  note that the functions the vms are supposed to replace are very well defined and , if you watch the video , it makes sense ( given that the performance calculations are correct ) . 
+  seriously watch the video , it 's very interesting even if you 're not a proponent of this idea ( i certainly am a skeptic , that 's why i 'm posting here ) . 
+  i also do n't believe history is proof of anything when it comes to it . 
+  sure you should learn from past mistakes - but when has a javascript os on this level been tried ? 
+  any other solution lives in a different context , with different people and intentions behind it . 
+  but you can install wordpress on almost any host ? 
+  and i definitely advise against coding your own cms from scratch . 
+  you ca n't make a website in just that , you need an actual programming language like php . 
+  just use wordpress . 
+  you can get a cheap linux vps at digitalocean ( $ 5/mo . ), 
+  and rock on with your wordpress installation . 
+  thanks , looks promising . 
+  a linux vps is literally the thing you need . 
+  no restrictions whatsoever , you can run wordpress alongside your experimental files , or any other software ( node , php , mysql , apache/nginx , ruby , java , mono , etc etc ) . 
+  if you 're gon na be getting into web development , you will have to learn linux anyway , and it 's really easy and harmless this way ( wipe everything and restart in no cost in under 2 minutes , has snapshots etc ) . 
+  check out [ this tutorial ] ( https://www.digitalocean.com/community/articles/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-12-04 ) to configure a web server on ubuntu ( any version really ) . 
+  do n't forget to gloss over the initial server setup step . 
+  ( i 'm not affiliated with do in any way , i 'm just sharing a positive customer experience . 
+  they 're the best and the cheapest option for developers * and * bloggers around . ), 
+  thanks a lot for the information . 
+  i only ever heard about it on a post by joel spolsky : [ how microsoft lost the api war ] ( http://www.joelonsoftware.com/articles/apiwar.html ) . 
+  i 'll try to search for some documentation regarding the development of longhorn , because it really interests me which problems did they encounter . 
+  but , again , which layers of the system are implemented natively and which are running in a vm really varies based on design i suppose . 
+  currently the divide that seems the most logical to me is to have userland programs running in the vm , while the drivers and the filesystem would definitely be implemented in c. 
+  what a load of bullshit . 
+  requiring to label gmo foods ** is not , by any metric ** , doing the same levels of harm as climate change denialism . 
+  while there definitely are loons that think gmo = bad , the ** majority ** of people have trouble with it being ** intellectual property ** used as a weapon against local farmers . 
+   mine that people are free to make their own decision , or your hubristic belief that you can make things better for others by forcing them to act as you wish ? 
+  quick question - how quickly does the head pain from hitting that strawman numb down ? 
+  i sure hope that dishonesty and agenda pushing act as anesthetics . 
+  you seem to judge everything using the same simplistic ideological position . 
+  [ you might 've been mislead into thinking that an insightful analysis can be a product of that . 
+  ] ( http://raikoth.net/libertarian.html#introduction ), 
+  i 'm sorry but could you elaborate ? 
+  i do n't understand your comment . 
+  that 's absolutely ridiculous . 
+  they 're absolutely terrific live !, 
+  i definitely recommend that you go see them . 
+  i was n't advocating labeling of anything . 
+  personally eating gmo foods does not bother me at all - in fact i think the technology is great , and that attacking the technology is almost always the wrong thing to do , but most importantly , i have other concerns . 
+  i was just pointing out how terribly dishonest it is to equate that with something * that actually does real damage to us all * , especially when it is evident that there are legitimate concerns on the topic . 
+  i live in a country that works quite differently than the us , and actually had to google what an fda is , so i definitely do n't know how the legislative process in the us works . 
+  personally , if it 's a big enough issue to people , then it should be done . 
+  telling that they 're idiots does not help educate anyone . 
+  you misunderstood me , please read [ this comment . 
+  ] ( http://www.reddit.com/r/skeptic/comments/25zc89/gmo_opponents_are_the_lefts_version_of_global/chmxi3c ), 
+  if you prefer graphical editors , i 've found [ geany ] ( http://geany.org/ ) to be better both on windows and on linux . 
+  great post , except that i do n't see how they are guilty of something by association . 
+  sure their posts are dishonest and distasteful , but just because they 're complaining about generally the same thing as that mass murderer is not really an argument against them . 
+  ** edit : ** wtf just went on here ? 
+  was i banned because i critiqued someone ?!, 
+  i do n't understand * any * of the replies below me , what is an frd ? 
+   spotify is currently not available in your country, 
+  i fucking hate this crap, 
+  thanks !, 
+  you do n't * say ? 
+  nice try . 
+   i do n't see how it is unfair . 
+  if the bank googled this man 's history , we can assume it googles everyone 's history . 
+  and if he had a questionable past , we can assume some other people had questionable pasts as well . 
+  everyone is still on the same footing . 
+  that 's quite a long streak of statements that do n't follow from their premises at all . 
+  well you 're trying to argue * very * strict semantics , i do n't see how that 's productive at all . 
+  in fact , i think you 're wrong , because you 're using a specific definition of fair , but the op did n't even specify which one * he * was using , so you really have no reason to criticize him because of that :, 
+   ** fair **, 
+   : ** agreeing with what is thought to be right or acceptable ** * - this definition is what the op could 've been using *, 
+   : treating people in a way that does not favor some over others * - your specific definition *, 
+   : ** not too harsh or critical ** * - this one fits the context as well *, 
+   [ merriam-webster ] ( http://www.merriam-webster.com/dictionary/fair ), 
+   i would n't give a loan to that prick . 
+  namecalling and judging people you 've never met based upon literally one paraphrased sentence , get over yourself . 
+   no , he 's not arguing `` semantics '' . 
+  not only is he arguing the definition of the word `` unfair '' , he is , * as i pointed out in my initial post * , also making completely baseless assumptions about the banks ' business model , and then concluding that the situation is ` fair ' . 
+  non sequitur - if they 're doing that to him , does n't mean that they 're doing it to others . 
+  so no , you can not conclude it 's * fair * even by ** his ** definition of fairness . 
+  in the case banks * really * do find all this information on you , then yeah , i was being uninformed - but then this entire debate makes no sense because who gives a crap if it 's the first or the fifty first search result - if they 're gon na get it anyway ? 
+  strawman fallacy - the point is that the guy is being * overexposed * , so this ** can not ** be happening to other as well , because they are n't ( i myself am making the assumption that credit history details are n't the first google search result for everyone , but an unfortunate coincidence happening to only the guy in question ) - and / u/noholds was arguing that this does too much harm to the guy in question , and used the word ` unfair ', 
+  the rest of your post does n't have anything to do with what we 're discussing here , why do n't you reply to / u/noholds ? 
+   and it generally sucks as a concept, 
+  no , the jvm is a ** very ** secure platform . 
+  what is * insecure * , however , is running random code you download off some random server , automatically . 
+  which is what java * applets * are .

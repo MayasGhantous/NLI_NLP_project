@@ -1,0 +1,100 @@
+  and it is inside the cpu pkg now . 
+  i certainly need to read more on the issue ; as far as i can see its seen just as nightmarish , security-wise , by security focused distro folks - for the attack surface it gives , and the level of control over the entire system it always has . 
+  i think its mad to be sanguine about being deprivileged on your own system . 
+  and unnecessary as well as unreasonable not to be able to run your own code in that mode . 
+  if it were a boot-time initialization , ah , i 'd grunt and live with it . 
+  its live all the time , and hidden from my system though . 
+  so i 'm supposed to be running my system , but actually i 'm a guest under a proprietary rtos or something like that . 
+  hence , i 'm not actually running a free system at root privilege ; the computer is n't really mine to command ... idk , i can only go in circles here , if my original rant did n't sound as describing something unacceptable to you ; this is why i had nothing to say to the poster you highlighted - if one 's skin does n't crawl already from being in such a position , what can one possibly say further ? 
+  i guess the technical arguments about security - i 'm reading a long paper on it , but i ca n't improvise a discussion about it ... 
+  that and the assertion that we 're winning step by step makes no sense to me , if we just lost root over the running system , and used to have it , not that long ago in fact . 
+  seems rather like we just got checkmated , not like we 're making progress ... 
+  now this is a separate matter of it controlling the wifi as well , though ofc avoiding that is at least some defence one can do if one must . 
+  i think i 'll just not upgrate my laptops instead ; an arm chromebook that does n't do this to me is readily available and will cover general computing needs . 
+  and a reasonably up-to-date desktop seems possible still for a while , for any development . 
+  not yet sure where the cutoff is but an amd system somewhere between 2012 and 2014 at this point ( do n't know which ) seems possible , and moore 's law seems to be decelerating a bit . 
+  so even if zen disappoints by including this , should last maybe a decade . . maybe one could find or a group of interested freedom-conscious buyers could persuade an oem to make a dual-socked board for these if bad scenarios happen ? 
+  anyhow , its not like i travel much to need to work from a hotel room or something ( and i can probably manage something via ssh . . ) so , why stick with any modern x86 laptops at all ? 
+  its in an ackward market position anyhow , with lower end machines satisfying more of the general computing task and eating its marketshare , and yet not the greatest thing for the high end to begin with ... 
+  i think patents prevent it . 
+  not exactly sure how , but pretty positive there 's legal restrictions ; was hoping to learn details in the discussion . 
+  idk if this can apply to intel and here , but often various blobs are stuck at being proprietary due to licensing agreements they many have to get some piece of tech or code . 
+  it can be a daunting legal process for something that starts proprietary to get liberated even if the company would n't mind doing so in principle ( but is n't ready to commit significant resources to it ) . 
+  yes , in the eu , the telecom is obliged to give you the key , i think its after 2 years after buying the phone from then on contract . 
+  maybe the timing even changed ; friend was served much sooner than that at tcom recently . 
+  but yeah , one needs to sandbox the 4g stack from the system . 
+  i think this can be done , but i 'd be hard-pressed to dig up a presentation about it here . 
+  some c3 lectures i think ; they visited the topic of 4g stack 's insecurity many times . 
+  i think we can play that game at least . 
+  now if i could only have such a requirement in law for desktop cpus ... :d, 
+  maybe i should 've answered here with what i wrote here : https://www.reddit.com/r/linux/comments/55ij9t/can_we_even_meaningfully_run_a_floss_operating/d8bqngu, 
+  seems to me we just lost the war , so not sure what battles you may be talking about . 
+  but yeah , i def agree a step by step approach to freedom is what works ; for users that play games , better if they 're supported on linux than for the user to be stuck on windows playing the same games ; wifi drivers are generally not available , wrapping a blob so they work is not as principled as buying a free usb one , even though one can reasonably easy obtain such free wifi things , since most users will find non-functional wifi as a tital dealbreaker etc. 
+  i do n't think any of this is even near the league of crap we seem to be in on modern intel though . 
+  could you tell me the difference between what we have now on intel and on amd apus and what we 'd have in a scenario that goes like this :, 
+  all x86 computers come with windows , and secure boot prevents one from installing anything other than the provided version of windows . 
+  we are of course free to start up a virtual machine and run linux there . 
+  windows source code is naturally not available , but we can indeed inspect the binary . 
+  just ca n't do anything to change it . 
+  in actuality , the only substantive difference seems to me to be that the os we 're forced to run is n't windows but whatever intel and amd baked ( somewhere it said it was rtos variant ? ), 
+  and , now lets call the system described above as `` free '' , maybe `` mostly free '' , and the introduction of this feature as `` making progress one battle at a time '' ? 
+  is n't this utterly ridiculous ? 
+  why are you talking about governments and corporations ? 
+  where the hell did i mention any of that shit ? 
+  security is a danger here , sure , but i was simply talking about running a free system and having root control over my machine . 
+   for ime we have a rather small binary and people have reverse engineered it to some extend . 
+  so , is it a strawman , or is the only difference the size of the proprietary root system ? 
+  still , i see that line got a few new models as recently as 2014 . 
+  moves the line for last nonrooted x86 a bit forward . 
+  even if zen fucks up in this regard , think one can then reasonably stretch the lifetime of at least a desktop system substantially forward , with moore 's law slowing down etc. 
+  cuz we prob need a stopgap at least , even if x86 is soon to be unusable freely , before challengers are convincing enough . 
+  are there any dual socket boards for them ? 
+  :d if not maybe freedom-conscious buyers could get together to design/order one , 
+  bugs in it that potentially stealthily root your system - that 's rather bad in itself . 
+   part of respecting that by choice . 
+  do you honestly thing you would run a free software system if the government or any corporations wanted you not to ? 
+  they respect it by default ; in that running your code on your machine at least used to be a normal thing to do . 
+  sure a sufficiently organized conspiracy could likely create a totalitarian scenario , but there is no reason to presume one . 
+  cpu manufacturers have rather obvious non-malicious uses for this trusted microcontroller on the server market , mpaa obviously does want you rooted so that 's at least an openly malicious actor - extremely shitty but at least does nothing if you avoid their products , and while one can never be paranoid enough about what the nsa might be doing , we have no indications that this is the case right at this moment . 
+  but none of this is any reason not to abandon a platform that is creeping into such totalitarianism , to have already banned the user from running their own os !, 
+  this was my main concern , but granted , it is in addition to any security misgivings it may be causing you , as nobody hopefully would want to proliferate a potential rootkiting toolkit like this over the marketplace ?? 
+  and sure , you do increase the risks of any future government abuse the more convenient and common you make it too . 
+  there 's just no reason to go down this path , if obviously , you could simply choose a platform that at least allows you to run a free os . 
+  are we disagreeing here somewhere ? 
+  i really do n't understand why you reacted like i 'm discussing threats , scenarios and adversaries i had n't invoked even once , nor would i. 
+   the difference is that it 's hard to reverse engineer a system that gets patched on a daily basis and measures gigabytes . 
+  and these are really the only things you find objectionable if the scenario i gave were in fact imposed on you ?? 
+   where would i be without my precious entertainment . 
+  ahh i see , but that 's a different discussion , no ? 
+  you were claiming that me is n't actually preventing you from running a meaningfully free system , i experimented with an analogy to being forced to run windows , and getting only vms to run linux , wondering if you 'd feel such a system is in any sense free . 
+  you claimed this is fud and a strawman ; if you 've changed your mind , and now agree that the analogy is in fact fair , it 'd be nice if you stated as much . 
+  so the diffentiator given was the size of the nonfree system , which you claim is significant in what it allows us to understand about what it does . 
+  windows are comparatively opaque . 
+  we can somewhat reverse-engineer what the me blob does . 
+  but in fact we have reverse-engineered much of what windows does too - reactos is semi-usable really , and accepts replacing dlls and the like with the original blobs to some extent , demonstrating significant compatibility of its subsystems . 
+  so it seems to me false to claim that our understanding of the windows system is worse than for the me blob . 
+  prob reverse even . 
+  i agree that the point about the attack surface stands . 
+  but how can you possibly claim this to be relevant to the analogy ?? 
+  surely a secure proprietary system is just as proprietary , no ? 
+  as far as i can deduce , you ended up saying not that there 's any fud or strawman with my comparison , but just that you would n't find such a system to be something you would n't use , for pragmatic reasons , propretary or not . 
+  which is understandable , but a totally different matter . 
+  oh nono , its just a hypothetical - a scenario ; i 'm asking just ** if ** such a thing were the case , etc. 
+  just the first kind of mechanism that came to mind that ** could 've ** been used for the purposes of implementing my scenario , ie to prevent another os from loading . 
+   the analogy you made further does not hold up because most x86 systems run linux or some other * nix/bsd variant , simply by fact of all the server systems out there . 
+   your analogy claims that a niche market , the desktop market , would cause the entire x86 market to suddenly ban everything but windows . 
+  well , this is certainly the strangest answer you 've given me yet . 
+  `` being forced to run winodws is an orwellian scenario , but me is ok '' - `` and why 's it orwellian , and me is n't ? '', 
+  - `` because it 's never going to happen '' ? 
+  what ?? 
+   it entirely depends on how you define free , because free is entirely subjective . 
+  sure , and that 's why i was continously asking specifically you about your opinions on the matter . 
+  and i seem to have gotten the answer ; my scenario is so heinous to be orwellian , yet me is ok . then there 's this meandering task across multiple posts , to even find out what exactly is that difference that makes the difference to you really . 
+  look , i ca n't tell why you 'd have one opinion or the other ; my initial thought was that you 'd be fine running under an nt kernel , seems consistent , maybe you 're like `` if all my stuff is in the sandbox to do with as i please , why care about an extra boot screen before it etc '' . 
+  i could then just shudder , and shrug . 
+  you 've taken a more interesting position , and rather strongly it seems , so i 'm trying to see what 's going on exactly . 
+  personally , i 'm not gon na shoot myself either way ; i 've been condemned to full-blown nt before anyhow . 
+  but apparently to you its a terrible dystopia , in a way me is n't already . 
+  so how can i not be curious ? 
+   or did someone recently reverse engineer the windows file explorer ? 
+  i do n't know what you 're talking about , what do you find particularly objectionable in reactos 's file explorer ; as of course it has it ?

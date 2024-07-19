@@ -1,0 +1,100 @@
+  how cool is that ? 
+  hwtl !, 
+  you can run magicmirror in windows , just install node.js . 
+  i 'm sure there are plenty of answers to how you start running it in a browser fullscreen automatically if you use google . 
+  check out this link : https://forum.magicmirror.builders/topic/548/building-mirror-without-programing/3, 
+  edit : that being said , you laptop will probably use way more power and generate much more heat than a rpi would . 
+  gross income . 
+  27 % of the interest rates will also be deducted from your annual tax report . 
+  i believe that the average norwegian pays about 30-35 % income tax , could be slightly off . 
+  yes i 've heard that , yet i 'm sure he has in fact ref 'd us before . 
+  he had some moles removed, 
+  that took a while ... 
+  honestly , this looks very very good ... apart from that sponsor logo , it 's awful . 
+  could n't they at least used a darker colour , and dropped the chinese part of it . 
+  but this is what i 've been wanting for so long , just plain stripes front and back , a classic look . 
+  no gold or blue or whatever . 
+  good question , been thinking about this myself . 
+  unless we sign some interesting players , i might go with my own name and no 6 . 
+  shearer maybe , but that 's not quite right on a modern kit . 
+  lacelles is probably the best suited player atm . 
+  i believe we have a pretty good track record against chelsea, 
+  i was looking at that , seems like a mistake . 
+  both the name and numbers seems very low positioned on the pic . 
+  king is also considered home grown due to being in the manu academy early . 
+  thanks for your suggestion , i do n't like `` packs '' and total solutions in general either . 
+  so i just did as you suggested :, 
+  format and install [ raspbian jessie lite v4 .4 ] ( https://www.raspberrypi.org/downloads/raspbian/ ) ( not noobs ) . 
+  installed pi-hole using the bash script . 
+  [ hass 0.45.1 installation using virtualenv ] ( https://home-assistant.io/docs/installation/virtualenv/ ) , that went fine . 
+  also added the default homeassistant user and autostart using systemd . 
+  nothing z-wave appeared in hass on reboot , just weather data . 
+  tried to add the ` zwave : usb_path : / dev/ttyacm0 ` to configuration.yaml . 
+  now hass wo n't launch in the browser anymore . 
+  comment out the zwave from the config file and it works . 
+  so all in all , i 'm at the exact same place as i was yesterday with the hassbian setup . 
+  i did again use the ` dpkg -- get-selections * z * ` to see what packages i had installed containing the letter z. 
+  found nothing reassembling z-wave or openzwave now either . 
+  how do i start hass from in the terminal to check for outputs ? 
+  the only command i found was the ` sudo systemctl start home-assistant@homeassistant` which does n't show anything , it only jumps to the next line in the terminal ... 
+  i 've rebooted the pi and waited while i made this post and did some googling , probably 20-30 mins in hope that it was just a slow start after the addition of the z-wave to the config file . 
+  still nope . 
+  omg , haha . 
+  just refreshed again after reading through and editing this comment a couple of times . 
+  it 's all there now , just took quite a while . 
+  did n't check my clock , but i 'd say between 30 and 45 mins . 
+  great timing . 
+  i just `` finished '' my hass setup today , and have a pi1 and both the v1 .3 and v2 .1 pi cams lying around , was thinking of something like this . 
+  the guide does n't say anything about framerate or resolution though ... 
+  yes it did , and it might would have the first time also if i were more patient . 
+  anyway very happy with how far i 've come now , still lots to fiddle with , 
+  i 've only used it for music , but i ca n't see why not . 
+  i 'm almost certain it has a mic for handsfree phone calls , and it 's a bluetooth speaker per se . 
+  if you connect it to your phone , all these should be available , but there might be some limitations connecting it to aw2 .0 . 
+  i do n't know , this is just speculation . 
+  being norwegian and following king , i think he would be a good fit . 
+  what has been his biggest challenge for many years is end product , the finishing skills . 
+  it seems he has figured that out recently . 
+  however , he has been quite injury prone ( is out of the nt atm due to injury ) . 
+  also , he would probably be expensive as he is youngish and considered home grown . 
+  doubt we could get him for less than 25m , and he has only proven himself for half a season . 
+  i always get the comment after i shut off a fuse to intervene : `` i thought the electrician was suppose to fix the lighting '' . 
+  makes me put on a dry yet polite smile . 
+  are you talking about just waiting around , or is it a function that has gone over my head ? 
+  i connected it yesterday , reset it this morning ( a few hours ago ) , no change yet ... 
+  wow , triple click did the trick , thanks so much :d, 
+  i 'm not wondering if this site is ok , i 'm looking for a confirmation that xbox 360 subscriptions does n't differ from the xbox one subs . 
+  what would that mean ? 
+  i just assume they are emptying out the xbox 360 branded ones ... 
+  as a newcastle supporter myself , i 'm considering yedlin and lejeune , will probably go for the american because he goes forward . 
+  anita is out of the squad , so unless we sign another rb , he should be pretty nailed on . 
+  never thought about that being a deciding factor . 
+  do n't you think some basic language ( english ) is enough to hold the line ? 
+  obviously speaking the same language is a benefit , but i 'd be surprised if that ended up being a deciding factor . 
+  depends where you 're spending your cash . 
+  my usual tactics is to pick cheap defenders that gets game time , and splash the cash on midfield and forwards . 
+  it has been pretty successful so far . 
+  this year i 'm ( for now ) spending a bit more on defense with alonso ( 7m ) and trippier ( 5.5 m ) , 3,5 m extra there sacrificed from my previous tactics . 
+  given newcastles `` easy '' fixtures , cheap players and rafa 's tactics , i think the most nailed on can be a bargain . 
+  if we go with 3 at the back , surely yedlin will be our rwb . 
+  that would make him a better fpl option than the others . 
+  however , i 'm pretty sure we will have a back line of 4 ... 
+  we just got manquillo who can challenge both yedlin and dummett . 
+  also lejeune who will probably feature at cb soon . 
+  most voices saying lacelles is mostly nailed on , and i 'm not sure about that . 
+  he was last season , but might not be this season . 
+  if he gets the role this season also , that would be a good sign for sure . 
+  i 'm using a romoss solo 2 4000mah , got it on ebay for cheap . 
+  i 've tested it , and it will maintain power to the pi while i disconnect the power input to the battery bank , unlike a iiglo power bank i have . 
+  the iiglo pocket powerbank 3000mah i have is not designed for simultaneous charging and supply . 
+  why on earth would i want to see them players pardewd ? 
+  i really liked his gray and navy blue away kit , would buy that if it existed . 
+  have to agree with you on that, 
+  manolo gabbiadini ? 
+  then how come iphone with it 's 4,7 '' screen is one of the best selling phones on the market ? 
+  it also greatly outsells the bigger iphone . 
+  i think it has more to do with putting more tech into the phone , it it would be hard to fit in a smaller package . 
+  people want the best spec , but i think the majority would n't notice the difference between upper middle class and premium hardware . 
+  just a lot of one-letter replies , not very interesting imo . 
+  thanks for your reply . 
+  just to clarify , a strict block in the same scenario would not block translate.google.com , correct ?

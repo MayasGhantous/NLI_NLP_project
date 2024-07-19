@@ -1,0 +1,100 @@
+  and fx line was ( cores ) ( generation ) ( performance ) ( 8350 - 8cores , 3 is for piledriver , and 50 meaning better performance than 00 20 ), 
+  why downvotes ? 
+  seriously any productivity app that i know off and ca n't multithread is too old so performance wise you wo n't see much of a difference anyway . 
+  basically any modern productivity app gains performance from multithreading and/or gpgpu . 
+  i 'll be dammed if you are n't astroturfer ... 
+  relatively new account with essentially all the posts being anti-amd ... shady shady, 
+  faster cheaper processors . 
+  more competition . 
+  they never claimed that bulldozer was a great jump in singlethreaded performance . 
+  also keep in mind that amd is right now sued for overestimating how great lanno was in marketing slides ... so i wouldnt think they 'd do that again . 
+  anyway ips isnt the only important thing . 
+  how many amd machines have you built and what were the specs ... just curious . 
+  i built a pc at a similar time sporting phenom ii x4 965 be ( less cores higher frequency and cheaper - which was obviously better for that time before multithreading in games really caught on ) . 
+  and that chip was running like a champ overclocked to 3.7 ghz up until recently when i switched it out for fx8350 ( my old am3 motherboard got beta bios for fx so i said fuck it instead of spending twice the money on i5 + mobo might aswell get the 8350 ) . 
+  so you 've kinda fucked up ... that chip wasnt really meant for gamers but more for video editing and stuff like that :-(, 
+  gpu wise i started with a radeon 5770 then added a second one later because i upgraded my screen to 1080p . 
+  worked ok - framerates mostly doubled so i was happy . 
+  then few years after i got 7970ghz edition which i am running still . 
+  my gpus were all without any problems . 
+  well they are . 
+  for the money they ussually have + -40 % more multithreaded performance . 
+  ( atleast last i checked few months ago ) . 
+  they are n't all that great for gaming though . 
+  wrong . 
+  you forgot steamroller . 
+  steamroller adds 10-15 % ipc . 
+  which means zen should be 62-69 % ( 1.1 x 1.05 x 1.4 / 1.15 x 1.05 x 1.4 ) over excavator . 
+  add to that + -20 % they get from smt and i can easily see 4c/8t zen taking on 4c/4t i5 . 
+  btw : next time please specify what bench are you using ( if you are using cinebench then beware that it is very fp heavy which hurts fx as they excel in integer throughput - which is what most instructions are . ), 
+  new socket am4 for both cpus + apus . 
+  with ddr4, 
+  nobody is talking performance - they are talking ipc . 
+  amd might very well field smt chips ( 4c/8t ) against intel i5 4c/4t to make up the difference or simply add cores . 
+  its not like in 2016 with dx12/vulcan few % in singlethreaded will matter . 
+  remember they are releasing chips without igpu ( which takes up half of the intel die ) ... so that means they can make them cheaper . 
+  thank god its not ... that platform is ancient . 
+  ( hell the chipsets are still from 2006ish am2 + era talking about 760 and so on ), 
+  new am4 platform with ddr4 and it will unify the am3 + and fm2 + - so one socket for both cpu and apu, 
+  you know that ipc is only small part of the equation right ? 
+  i upgraded from p ii 965 to 8350 ... and it was worth it ... and your 4100 is even worse than that phenom . 
+  yep that socket still uses chipsets from the am2 + era ( 2006 ish ) ( 760 ) ... its long past its time to replace :-), 
+  nope you are were saying that excavator is 5 % over piledriver . 
+  it is not ... excavator is 5 % over steamroller which itself is 10-15 % over piledriver . 
+  current fx chips are piledriver . 
+  kaveri apus are steamroller . 
+  edit : now you got it right . 
+  ( single threaded ipc wise . ), 
+  you are sortoff correct . 
+  the problem is amd did n't specify if they mean :, 
+  a ) single threaded ipc, 
+  b ) ipc of 2threads ( 1 excavator module vs 1 smt zen core ), 
+  c ) multithreaded ipc of 8 `` core '' chips ( i.e. 
+  8 `` core '' excavator against 16thread 8core zen ), 
+  it would be strange to compare single thread excavator core against 2threads running on zen . 
+  would n't it ? 
+  intel by gets + -30 % from smt ( hyperthreading ) alone . 
+  yeah it kinda sucks they have n't put steamroller excavator on am3 + :-( but its fault of globalfoundries that could n't get a proper cpu node :-(, 
+  anyway i am perfectly happy to switch mobos afterall my 8350 is running on my 2010ish am3 mobo ( asus m4a89gtd pro ) which i got for my phenom ii :-), 
+  if all you do is play wii games you might be better off buying a wii :-) :-), 
+  and i was not talking only about cores ... singlethreaded performance = ipc x clock . 
+  another stuff to watch out for apart from obvious core count - smt and extension which intel likes to keep out from their low end . 
+  they are talking ipc not performance . 
+  well from that same benchmark you can see that 5960x ( 6cores @ 3ghz ) is better than 4960x ( 4cores @ 3.6 ghz ) . 
+  conclussion being that 6cores that are 20 % slower are better than 4 . 
+  and that is exactly how i expect amd to compete with this gen. ... 
+  it sure helps that amd can make their chips cheaper because they arent putting igpu that takes half of the chip there . 
+  see its not just ipc that matters :-) and doubly so in 2016 with dx12 and vulcan and not dx11 ... 
+  nope am4 with ddr4 ( it will support both the new fx zen cpus and apus ), 
+  both are cpu makers . 
+  amd is underdog . 
+  intel is behemoth . 
+  intel did and does shady anticompetitive stuff . 
+  i 'd totally preorder a cpu :d, 
+  and to be fair amd recent ipc claims ( steamroller ) turned out to be true and they are using a slew of benchmarks to calculate that not just cherrypick a few that look good ( intel sysmark ... ) . 
+  and amd is also being sued right now for overestimating their first apu in marketing slides ( lanno ) so i do n't think they want to get raped again by the legal system . 
+  no rumor this is confirmed . 
+  nope . 
+  that was in the faked slides . 
+  amd confirmed its am4, 
+  i wouldnt bet on that ... am4 is ddr4 afterall . 
+  you are crazy ... 
+  do you have experience with windows 8.1 embedded ? 
+  what are the differences ? 
+  ( its in my dreamspark offer alongside normal 8.1 as a new key ... so thinking if i can convert it to windows 10 after launch ... more licenses is always good :d, 
+  being innovative does n't mean its good . 
+  counter-strike is good proven concept and rule set which is fun and there is a reason why people spend hundreds of hours playing just on dust2 ... 
+  do you think you need to innovate on chess ? 
+  i think people say cod is repetitive because, 
+  a ) they release every year and the games are very similar, 
+  b ) the skill ceiling is not very high - so once you play for a while there is nothing more to learn ... only unlock some guns . 
+  i for one came to ancap ideas through conservatism and economic thinking . 
+  i do n't think you can really classify ancap on left-right scale ... because by itself `` left '' and `` right '' is kinda meaningless and its changes through time ... 
+  they do n't . 
+  you can add eastern servers to your firewall rules and drop any packets going to them . 
+  if i were you i 'd play 1.6 instead . 
+  how does it bottleneck it ? 
+  i run asus m4a89gtd pro ( am3 only with beta bios ) with fx8350 and it works pretty well ( not much overclocking though 4.3 ghz is max it can do without throttling ) . 
+  your mobo should be fine with 8350 and that is what i would do ( heck i did essentially the same thing upgrading from phenom ii 965be ), 
+  but if you are gon na buy a new motherboard and your use is gaming then i 'd recommend going intel cause good am3 + boards are expensive and its better to get el-cheapo intel board with an i5 . 
+  is commodore 64 a pc ?

@@ -1,0 +1,100 @@
+   at $ 100k given a usual 2000 hours per year is $ 50/hour . 
+  the $ 100k is a full-time salary - it comes with an office , equipment , free food , health insurance , paid time off , company events and parties , partially employer-paid taxes and other benefits . 
+  a contractor wo n't have these benefits , and will factor them into the price instead . 
+  the usual rule of thumb for getting a `` all costs and taxes included '' contract rate from a salaried rate is to double it , so $ 100/h instead of $ 50/h . 
+  they say that trips will be cancelled when wind speed is over 15m/s or waves over 3 meters , and anti-nausea medication is recommended with waves over 1 meters : http://www.lindaliini.ee/en/?p=1023, 
+  however , i do n't see this page linked from the menus on their website , so i 'm not sure if it 's recent or not . 
+  maybe it 's for the [ very small winged ships they used to have ] ( http://g1.nh.ee/images/pix/900x585/cchkxtgiqyi/file102362_102362.734x408.jpg ) , not their [ current small catamarans ] ( http://upload.wikimedia.org/wikipedia/commons/a/a4/linda_line_express.jpg ) . 
+  which are still super small compared to [ other companies ' ships ] ( http://www.eksperimenta.net/ohjur/wp-content/uploads/2011/06/tallink_superstaril_naeb_e_kavandeid_foto_tallink.jpg ) . 
+  have there been any clear reports on them being allowed to land at the vandenberg afb ? 
+  so far it has seemed to be just a `` would be cool if we could '' type of plan . 
+  thanks for the suggestion !, 
+  much simpler than i expected . 
+   that they do n't want to . 
+  perhaps , but the main reason is that they just do n't have the money . 
+  their economy has shrunk by 18 % last year , inflation has been 272 % ( !! ), 
+  in the last year , and they are using about 15 % of their remaining foreign currency reservers per month . 
+  being at war on your own territory for a year tends to do that . 
+  i 've made about 100 trips with taxify and 3 with uber so far . 
+  my experiences :, 
+  * uber is noticeably cheaper !, 
+  at least 20-30 % . 
+  i usually take 2.50 start + 0.50 eur/km taxis . 
+  uber is 1.90 start + 0.35 / km + 0.15 per minute . 
+  note that unlike taxis , the time-based fee runs in parallel to the distance fee , not one-or-the-other like in taxis . 
+  but my usual trips have been cut from 5 eur to 3.5 eur . 
+  * the three uber cars have been generally nicer and newer than the type of taxis i usually get . 
+  about the same as tallink i guess . 
+  * the drivers have been just general 25-35 year old dudes . 
+  despite not being licensed , i 'd say that the `` average anyone '' is better than `` average tallinn taxi driver '' ... some of the taxi drivers i 've had during the last year have been extremely dodgy . 
+  like watching tv from a tablet while driving and telling me about how they met an ufo earlier today dodgy . 
+  * i like that you can enter the destination beforehand , get a fare estimate before booking , and the driver gets the destination with navigation directions on his phone . 
+  * i like that uber measures the price with gps in the app , not a taximeter that the driver could mess with . 
+  it used to be that every taxi had a `` kordisti '' , which faked the electronic distance signals from the wheels to the taximeter ... no chance of getting ripped off if the trip is fully gps tracked . 
+  * in taxify , maybe every third to fifth driver has cheaper prices advertised in the app than in their taximeter & window . 
+  taxi shows up , and the taximeter measures a much higher `` tourist street price '' ( 4 eur start + 1 eur km or so ) , and they calculate the discount after arriving . 
+  but if if there was a disagreement over the price , then i would legally still have to pay the expensive rates ? 
+  * no cash , credit card on account only in uber is fantastic . 
+  i 've seen the same feature in taxify as well , but have n't used it there yet , so not sure how it compares . 
+  * the uber driver i had this morning said that taxify people are * really * angry at them :d some taxify person ( employee ? ), 
+  took a trip with him to a police station in lasnam\u00e4e , where an abipolitseinik asked some questions and tried to get him to admit to running an unlicensed taxi service . 
+  tl ; dr : so far uber seems almost as good as tallink taxi while being half the price . 
+  but i would not be too worried about taxify founders . 
+  i 'm sure uber will buy their entire company in a few months . 
+   the usual lease is for 12 months . 
+  i 've usually heard that the usual lease is open-ended , fixed-term leases seem pretty rare ? 
+  it 's worth becoming familiar with [ v\u00f5la\u00f5igusseadus ] ( https://www.riigiteataja.ee/akt/108072011021?leiakehtiv ) ( or [ in english ] ( https://www.riigiteataja.ee/en/eli/516092014001/consolide ) ) if you are renting , since the law is surprisingly renter-friendly . 
+  for example :, 
+  * any terms in the lease that are worse than the law for the renter are invalid ,, 
+  * all penalty fees in the lease are invalid ,, 
+  * you can end an open-ended lease with 3 months notice , or if it 's a single furnished room , with 1 months notice ,, 
+  * you can sublet , and if the landlord does n't like the subletter , you can cancel even a fixed-term lease ,, 
+  * all rent increases have to be based on `` justified calculations '' . 
+  if the landlord warns you that they will end the lease if you do n't pay increased rent , then the rent increase is automatically invalid ,, 
+  * etc. 
+   trying to fit the `` best programmer '' into a business role is wrong . 
+  the cto may be the best programmer , but it most definitely should not be a priority . 
+  eventually yes - but when first starting out , you ca n't and should not spend money on hiring actual developers to be `` following the cto 's technical vision '' . 
+  perhaps when you have a team of 5-10 developers , the cto can either gradually move into a management-only role , or decide to stay the lead developer and hire someone to as the new cto . 
+  it depends on the duration of the mission . 
+  radiation does n't just flip bits in memory that can be reset with a reboot ... it can permanently damage electronics . 
+  the longer the mission , the more statistically likely it becomes that all of your computers get damaged . 
+  not at the moment . 
+  foreign keys can be multi-column ( just like primary keys ) , but they have to be proper typed columns : http://www.postgresql.org/docs/9.4/static/ddl-constraints.html#ddl-constraints-fk, 
+  it might be possible to write something to achieve the same thing with triggers , but for now i think if you have foreign keys then the best approach is to promote these fields out from json to actual columns . 
+   this is probably not going to happen anytime soon . 
+  soon is relative !, 
+  low-level support for writing parallel stuff was recently commited : http://www.postgresql.org/message-id/e1ynu2t-0005ik-gf@gemulon.postgresql.org, 
+  and 9.5 will be using it for parallel vacuums . 
+  parallelising queries was planned for 9.5 ( http://rhaas.blogspot.fr/2015/03/parallel-sequential-scan-for-postgresql.html ) , but it looks like it will be pushed into 9.6 ( so summer-autumn 2016 ) . 
+   while these annotations are available at runtime through the usual \\ _ \\ _ annotations \\ _ \\ _ attribute , no type checking happens at runtime . 
+  instead , the proposal assumes the existence of a separate off-line type checker which users can run over their source code voluntarily . 
+  essentially , such a type checker acts as a very powerful linter . 
+  and from the `` non-goals '' section :, 
+   while the proposed typing module will contain some building blocks for runtime type checking -- in particular a useful isinstance ( ) implementation -- third party packages would have to be developed to implement specific runtime type checking functionality , for example using decorators or metaclasses . 
+  using type hints for performance optimizations is left as an exercise for the reader . 
+  the standard cpython will for the foreseeable future ignore the type hints . 
+  other people may build compile-time or runtime checkers and optimisers that use these - this pep standardises their syntax , so that different checkers and compilers can remain compatible with each other . 
+  could you perhaps tell us more more about the things that are difficult ? 
+  then we could hopefully explain how they work . 
+  you are entirely correct in that django is `` big '' compared to flask . 
+  it 's a big framework with a lot of modules and functionality included . 
+  having these included tends to be extremely convenient when the project gets to a moderate size . 
+  i think working off django-cookiecutter is actually making things worse not better . 
+  it sets up the project with a lot of complex third-party extras and `` best practices '' for big , mature web apps . 
+  if you have a simple app or just want to learn django , you do n't want to store uploaded files on amazon s3 and facebook login and so on . 
+  if you start a plain django project with, 
+  cd fooproj, 
+  . / manage.py startapp fooapp, 
+  then there will be a lot less of the extras included by default , and a lot simpler to understand . 
+   way too many manholes and manhole covers ... ( and a-holes ), 
+   way too many street lights in the center of tartu, 
+  mvcc is not that difficult to reason about , the postgresql documentation page linked in the article does a pretty good job of explaining the possible levels and concurrency gotchas : http://www.postgresql.org/docs/9.4/static/transaction-iso.html, 
+  but the most important distinction between relational databases with mvcc and various `` eventually consistent '' databases is that * you only have to understand mvcc , not implement it * . 
+  you read the docs , choose an isolation level that fits your concurrency and performance goals , wrap database calls in transactions , and you 're done . 
+  if you wanted to get similar concurrency guarantees from many other eventually consistent databases , you would still come across the same gotchas , but now you also need implement the solutions in your application code . 
+  he can put it towards the half a * billion * dollars of other people 's money he lost . 
+  yeah , and the database is changed maybe once during the lifetime of a project . 
+  for example , switching from postgres to oracle will be far , far easier than switching from mongodb to amazon redshift , and becoming familiar with its mvcc quirks will be far easier than the rest of the migration . 
+  yep , there are two different changes that could happen :, 
+  * a row in your results is modified ,,

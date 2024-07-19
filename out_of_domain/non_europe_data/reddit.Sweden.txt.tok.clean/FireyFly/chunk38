@@ -1,0 +1,100 @@
+  what am i supposed to do with the number ? 
+  mostly freenode , but also connected to freequest , quakenet , rizon and moznet for a few channels each . 
+  well , the lightweight wms i 've used have all had some way to `` log out '' ( i.e. 
+  have the wm exit , and thus have x exit ) , but that would have the same effect as killing it ( presumably ) . 
+  i do n't think what you ask for is feasible -- i think once you start an x application within x it expects the x server to be running to communicate with it and stuff ... but , well , my understanding of x is n't all that deep . 
+  good question . 
+  all i can find is that you can use ` < del  ` to remove the last digit , so if you type ` 10 < del  5 ` you get ` 15 ` . 
+  i do n't think there 's any command for it since it 'd probably be n-prefixed in that case ( like ` n < del  ` ) , and i 'm not finding any relevant help topic for that . 
+  he 's not talking about anything in the buffer , but rather the `` n '' count preceding a command to repeat it . 
+  very interesting . 
+  note the copyright too , '' \u00a9 2015 '' . 
+  does n't seem too unlikely to me . 
+  nice !, 
+  i 'd forgotten how much fun this game is . . 
+  i 'll have to try it again someday . 
+  remember any character in particular ? 
+  you could try using giantbomb to find games where a character appeared , [ like so ] [ 1 ] for laharl . 
+  i 've never heard of a game like that , but i 'd definitely be interested in it if you figure it out . 
+  [ 1 ] : http://www.giantbomb.com/laharl/3005-664/games/, 
+  what . 
+  this was the first one that actually surprised me/i did not know about , well done . 
+  hum , i 'm pretty sure i 've joined more than three enemies together in disgaea ds . 
+  i do n't have it nearby to test though ... 
+  thanks for the advice , i 'm planning to buy a poker ii and were contemplating buying a custom keycap set from wasd ... 
+  i guess i 'll stick to my original plan then and get [ these ] ( http://www.banggood.com/pbt-87-blank-white-key-caps-for-cherry-mx-keyboard-p-84084.html ) instead . 
+  your numpad enter looks a bit . . off ? 
+  but otherwise , neat !, 
+  what does it look like in the dark with leds on , with those caps ? 
+  ( a bit late but ) there 's a bonus track that you unlock after you beat rr , if memory serves , some kind of ghost girl . 
+  or maybe it was tied to time attack and not the cups ... 
+  i do n't remember . 
+  well , i 'm not sure what you mean by `` decompress files '' in the context of this file , but just for completion : whenever you view a video or a jpeg image or play music anywhere ( including in a browser ) , there 's a lot of decompression going on . 
+  it was n't clear if your original `` decompress file '' referred to unzipping ( or similar ) . 
+   perhaps if we had better computers we would n't need compression or decompression , because we could input data at 100 % information density . 
+  it all depends on the use case , but in general i 'd say no -- you still want compression because why would n't you ? 
+  in many use cases the cost of decompression is relatively cheap ( that 's how compression for images/video/sound is designed , typically ) , and if you use lossless compression there 's no difference in quality . 
+  and besides , if you drop the compression , your question is moot , no ? 
+  to explain why a computer ca n't just use compressed data directly : first , i 'm going to briefly explain what a [ lookup table ] ( http://en.wikipedia.org/wiki/lookup_table ) is . 
+  basically , you have some operation that you want to perform really quick , so what you do is to make a table of the possible results for the possible inputs . 
+  for instance , maybe you need a super fast binary logarithm function , so you have a table `` 0 1 2 2 3 3 3 3 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 ... '' in memory , so you can simply look up the n : th number in it to get log2 ( n ) . 
+  now , a simple compression method is [ run-length encoding ] ( http://en.wikipedia.org/wiki/run-length_encoding ) , which basically encodes a value and the number of repetitions of that value . 
+  this would reduce the size of our table tremendously , since there 's a lot of repetition in it . 
+  however , if you compress it you can no longer find the n : th logarithm by simple indexing , and the whole point of the lookup table is lost . 
+  does this clear things up ? 
+  good analogy !, 
+  to continue on it , you could imagine disassembling your furnitude before moving to make it take less space ( compress it ) , and then reassembling ( inflating/decompressing ) it after the move so you can actually use it again . 
+  it is pretty easy to see that this has to be the case , in the lossless case ( i.e. 
+  the data is perfectly recoverable ) . 
+  you have an arbitrary array of n bytes and want to compress it down to m bytes ( m < n ) . 
+  since an array of n bytes can hold more possible arrays than an array of m bytes , we have to map multiple input-arrays to the same smaller output-array . 
+  thus , we get a lossy compression ( or , a collision ) -- we do n't know which of the inputs lead to this output . 
+  this is known as the [ pigeonhole principle ] ( http://en.wikipedia.org/wiki/pigeonhole_principle ) . 
+   how do you feel about the state of the rest of the world ? 
+   do you ever wonder why we 're all so fucked up ? 
+  why we can not be more like you ? 
+  do you ever secretly wish we would all just die , so that the earth could be a more peaceful place ? 
+  no , not at all . 
+  i 'm not terribly happy of the swedish government either , it 's just the lesser evil when compared to e.g. 
+  the us ( not that that 's very hard , in my opinion ) . 
+  we 're no golden utopia either , they say the grass is always greener on the other side and there 's probably some truth in that . 
+  for instance , take the whole nsa controverse . 
+  last summer there were reports about fra , the swedish equivalent of nsa , cooperating with nsa and exchanging information . 
+  furthermore , finland [ allegedly ] ( http://www.capacitymagazine.com/article/3344186/finland-to-fund-new-undersea-cable-to-boost-cloud-business.html ) have plans on an underseas cable from finland to germany , in part because of fra 's surveillance . 
+  my point is , we 're more-or-less as fucked-up as the rest of the world . 
+  do n't isolate scandinavia as some kind of utopia ( or closest-thing-to-utopia-there-is ) , because it does n't make much sense . 
+  oh yeah , do n't get me wrong , i 'd still rather live here than most other places ( well , i 'm contemplating moving to iceland someday , but that 's still within the nordic coutries ) . 
+  it 's just that people on reddit seem to isolate scandinavian countries from the rest of the world instead of putting them all on a scale . 
+  it 's gradual , not black-and-white , is what i 'm trying to say . 
+  for good reason , if you ask me . 
+  maybe not exactly a shameful confession , but ... 
+  i honestly do n't see why pad-printing has a reputation of wearing easily . . my laptop has pad-printed keys ( well duh , of course it does ) and i ca n't notice any wear at all from 2 1/2 years of heavy daily use ... the keycaps themselves have worn a lot though , they 're darn blank and have been for forever . 
+  i guess my * actual * confession is that i still do n't have a mechancial keyboard ... and that i 've used my laptop 's keyboard as my primary keyboard for the past 2 1/2 years , even though i have a ( non-mx-switched ) cherry keyboard lying about ... 
+  \u3083\u3085\u3087 are the ones that work like that . 
+  sokuon ( \u3063 ) has the effect of doubling the following consonant . 
+  there are others as well ( in particular , all the vowels iirc ) , but i do n't remember what they do . 
+  edit : yay i got ibus to work again . 
+  edit : more info : [ youon ] ( http://en.wikipedia.org/wiki/y\u014don ) , [ sokuon ] ( http://en.wikipedia.org/wiki/sokuon ), 
+  looks awesome !, 
+  if you ever want to give a go at it , i 'd happily attempt to write the firmware for it -- no guarantees that i 'll manage it , though . 
+  edit : one question though , are there any 2.5 u keys ? 
+  i 'm looking at spacebar/enter and wondering where you 'd get those keycaps from . 
+  i 'm not sure , i just have n't read about 2.5 's before . . but then again , i do n't even * own * a mechanical keyboard !, 
+  but since it 's just a toy idea for now , it 's not too important . 
+  another thing though , i just realised . . ca n't you pretty much dispose of the num layer and just put the numbers on the altgr layer ? 
+  and then move altgr to num shift and have an altgr lock instead . 
+  anyway , i 'd probably use a more traditional layout ( but definitely with the overlay numpad ) , but with that form factor i think i 'd be sure to buy a copy if you ever get to it . 
+  i just love the positioning of everything there . 
+  oh , believe me , i know about that . 
+  it 's just that that particular area does n't seem to be used with altgr . 
+  or would the num layer include more than 0-9 ( the yellow keys ) ? 
+  but sure , do as you like . 
+  if you use the center area for the typical `` alphabet '' area ( 1u keys on qwerty line and below , including the key between z and shift for iso layout ) there is exactly one key left in this layout . 
+  [ this ] ( https://www.youtube.com/watch?v=vr5hjp_xxrs ) is the best slam , imo . 
+  the video is so well done !, 
+  also , use xcape !, 
+  ( or the equivalent mac tool , i do n't remember its name ), 
+  what does `` standard layout '' mean in this case ? 
+  layout is such an overloaded term when dealing with keyboards . . 
+  and when i read `` layout '' my first thought is on the software side of things , as in qwerty/azerty/dvorak / ... heh . 
+  there is a standard , but nobody seems to care about it ...

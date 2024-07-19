@@ -1,0 +1,100 @@
+  according to rocket , third person mode was implemented because the natural view a person has is 180 \u00b0 , while the field of view ( fov ) in arma is around 70 \u00b0 , iirc . 
+  third person mode allows more awareness of what is happening around the player . 
+  the truth is , it does not give you a proper 180 \u00b0 view like in real life . 
+  the camera still has the same fov , wether you are in 1st or 3rd person . 
+  it only allows you to see what is a few meters behind and next to you . 
+  now that we 're on the glimpse of moving on to the sa , let 's take a moment and discuss how third person mode should be treated in the future . 
+  i know rocket has already confirmed that it will stay , but that does n't matter , we can still have a discussion about it . 
+  please express your opinion in the comments , i will , aswell , ** and [ do n't downvote other opinions ] ( http://www.reddit.com/wiki/reddiquette ) ** . 
+  discuss . 
+  since maybe a month or so i ca n't play global offensive at 140fps anymore like i used to . 
+  i got an i7 3610qm , geforce 670m and 8 gigs ram , and i still get constant frame drops if i do n't use fps_max 60 . 
+  i got a 120hz monitor , and i want to use it fully !, 
+  settings all low , of course . 
+  gpu temp does n't go above 70 \u00b0 c either . 
+  i 'm getting pretty tired of this issue now , i 've had it for a month but have n't brought it up yet since i thought it would be fixed within the next few updates , but * nope * . 
+  have n't heard anything about pushing in the streams . 
+  at the moment , there 's no real way to push players around in the mod & sa . 
+  in my opinion , it would add a lot of diversity and interesting situations to melee if you could use an `` attack '' like that . 
+  for example if you get stuck in the barracks and have zombies coming at you , you might be able to push the zombies to the side and ground to get out . 
+  also , i would just * love * to push somebody camping on a building off it if i manage to sneak up behind him . 
+  what do you think ? 
+  maybe it 's just me , but it seems like the moderators on the bugtracker seem to be unable to cope with the amounts of bug reports that are being reported every day . 
+  everything could be very neatly organised and moderated , but you rarely ever see any comments of moderators around there , even on the highest upvoted issues . 
+  another problem i have with it is that resolved issues can not be commented on any longer . 
+  the [ floating loot bug ] ( http://feedback.dayzgame.com/view.php?id=48 ) is not resolved , there 's still a ton of floating stuff around , i have even taken a few screenshots in the newest build of it , but the only way to post them is to open a new duplicate issue which probably will get no attention . 
+  the other one is the '' [ ca n't run while switching weapons ] ( http://feedback.dayzgame.com/view.php?id=1845 ) '' issue . 
+  the current solution is very bad and does n't work half of the time . 
+  it still says `` resolved '' in the bugtracker . 
+  not to be disrespectful of the mods there , but if you actually read every or at least most of the issues , there 's not enough feedback to reflect that . 
+  maybe i 'm just impatient , but i 've reported 20 issues myself by now , most easy to fix , and there 's just no feedback at all . 
+  for example , i reported that you [ could not respawn when you break your legs ] ( http://feedback.dayzgame.com/view.php?id=302 ) . 
+  it 's not that important at the moment , since you can just relog to fix 'em , but it will be once they fix that . 
+  also seems like an easy fix . 
+  anyways , @mods , i do n't want to see you working on christmas though , so have a merry christmas and a happy new year . 
+  i know this issue has been brought up before , but i have n't seen anyone talk about it in a while and it 's getting on my nerves more and more . 
+  anyways , i 've just watched a [ video ] ( https://www.youtube.com/watch?v=lttvoczwjrc ) of an option in battlefield 4 : fov scaling in ads ( aim down sight ) . 
+  turning this off basically means that while aiming down sight your fov will get reset to the default value so that you can see excactly as far as somebody who has changed his fov . 
+  that way you can play with a nice and comfortable 90-100 fov and still actually see enemies from more than 50 meters while aiming . 
+  the same should go for holding down the right-mouse button , it should zoom in more if your fov is high . 
+  i want to use coordinates relative to a command block for selectors like @p . 
+  for example @p [ x = ~ , y = ~ 1 , z = ~ , r = 0 ] to select a player standing on the commandblock . 
+  why does this not work already ? 
+  [ pcpartpicker part list ] ( http://ca.pcpartpicker.com/p/3nfl8 ) / [ price breakdown by merchant ] ( http://ca.pcpartpicker.com/p/3nfl8/by_merchant/ ) / [ benchmarks ] ( http://ca.pcpartpicker.com/p/3nfl8/benchmarks/ ), 
+  type | item | price, 
+  ** cpu ** | [ intel core i5-3570k 3.4 ghz quad-core processor ] ( http://ca.pcpartpicker.com/part/intel-cpu-bx80637i53570k ) | $ 259.00 @ canada computers, 
+  ** cpu cooler ** | [ cooler master hyper 212 evo 82.9 cfm sleeve bearing cpu cooler ] ( http://ca.pcpartpicker.com/part/cooler-master-cpu-cooler-rr212e20pkr2 ) | $ 29.79 @ directcanada, 
+  ** motherboard ** | [ gigabyte ga-z77x-ud3h atx lga1155 motherboard ] ( http://ca.pcpartpicker.com/part/gigabyte-motherboard-gaz77xud3h ) | $ 167.50 @ vuugo, 
+  ** memory ** | [ kingston 8gb ( 1 x 8gb ) ddr3-1600 memory ] ( http://ca.pcpartpicker.com/part/kingston-memory-khx1600c10d3b18g ) | $ 82.99 @ canada computers, 
+  ** storage ** | [ crucial m500 240gb 2.5 '' solid state disk ] ( http://ca.pcpartpicker.com/part/crucial-internal-hard-drive-ct240m500ssd1 ) | $ 129.99 @ canada computers, 
+  ** storage ** | [ seagate barracuda 2tb 3.5 '' 7200rpm internal hard drive ] ( http://ca.pcpartpicker.com/part/seagate-internal-hard-drive-st2000dm001 ) | $ 89.79 @ directcanada, 
+  ** video card ** | [ asus geforce gtx 770 2gb video card ] ( http://ca.pcpartpicker.com/part/asus-video-card-gtx770dc2oc2gd5 ) | $ 379.00 @ vuugo, 
+  ** case ** | [ corsair graphite series 230t orange atx mid tower case ] ( http://ca.pcpartpicker.com/part/corsair-case-cc9011038ww ) | $ 74.32 @ directcanada, 
+  ** monitor ** | [ benq xl2410t 120hz 23.6 '' monitor ] ( http://ca.pcpartpicker.com/part/benq-monitor-xl2410t ) | $ 249.99 @ memory express, 
+  | | ** total **, 
+  | prices include shipping , taxes , and discounts when available . 
+  | generated by pcpartpicker 2014-04-07 14:21 edt-0400 |, 
+  soooo ... 
+  i 've been gaming on laptops for the last 8 years or so since i 've always loved being able to just move my pc quick and easily , but that is getting less important now and i finally want something that can run games at an acceptable framerate at something else than the lowest settings possible . 
+  i 've been saving myself some money for this and finally want to buy my first proper pc . 
+  i picked these parts so far , still need a keyboard and a power supply . 
+  how many watt does it need for my build ? 
+  also , i am not sure if it would be worth grabbing the 4570k or 4670k instead of the 3570k . 
+  in my understanding an i7 for gaming is n't worth it ( at least at the moment ) , is that correct ? 
+  thanks for any help , 
+  this is gon na be a kinda long story , due to our pretty unique situation . 
+  also slightly nsfw . 
+  let me explain ... 
+  a little over a year ago i ( 19m ) met this guy ( 21m ) on a trip to budapest . 
+  we had mutual friends , which is how we both ended up there together . 
+  all in all six dudes having an awesome time in a cool city . 
+  we stayed at an airbnb host , there were 3 double beds and i ended up in one with that guy . 
+  just two heterosexual guys , no big deal right ? 
+  well we got along really well , talked a lot and got drunk one evening . 
+  back in the room he started complaining about a back ache and how much he 'd love a massage . 
+  after some jokes and him massaging me first i returned the favor and all was okay . 
+  a third guy chimed in actually , it all felt alright . 
+  only , i 've been questioning my attraction to men for a while already . 
+  after returning back home i kept in touch and met up with him at the local pub a couple times . 
+  we 'd always end up massaging each other in his student dorm room . 
+  over time i started staying longer and cuddling for a bit . 
+  cuddling longer and more under the clothes , all while talking and talking and exchanging half our life stories . 
+  after getting comfortable one day i just admitted to him that i was very into him and that i had a crush on him . 
+  he did n't take it too well , even though we 've been laying together in our underwears and i 've even slept next to him a couple times . 
+  he just said he was n't into men that way basically . 
+  we still kept meeting up though , and eventually one day he allowed me to blow him . 
+  we both loved it and kept doing that for a while . 
+  soon after , summer holidays began and we stopped seeing each other . 
+  i started soul searching and came to the conclusion i was fully bi . 
+  i fired up tinder and met up with 2 or 3 guys , the last one was pretty cute and i had a three dates with him , pretty romantical ones with kissing at a lake and similar . 
+  i did n't really feel a connection to that guy though , i was just enjoying the experience and thought i 'd maybe feel more after a couple dates . 
+  i still wrote and phoned with the guy from university a lot though . 
+  when he heard about the dates i 've been having , he pretty much cracked down and started crying and said he did n't want to loose me . 
+  it struck me pretty hard and the feelings i had about him came rushing back . 
+  i broke it off with the tinder guy on the same day . 
+  during the summer and the following semester we have been meeting a lot , not quite as much as in the beginning due to me moving into a shared flat and not having the same privacy as in the student home . 
+  but still as much as possible . 
+  then , in april , he boarded a flight to the us ( we live in central europe ) , for an 5 month long internship . 
+  we knew it was coming since we started seeing each other , but it was still though . 
+  we both were n't out of the closet yet and had almost no time beforehand to talk due to exams and my nosy roommates . 
+  we skyped , and decided it was best for us both to be able to experiment with other people during the time , as long as we talked about it .

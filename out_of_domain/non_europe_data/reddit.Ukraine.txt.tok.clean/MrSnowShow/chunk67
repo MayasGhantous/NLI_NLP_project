@@ -1,0 +1,100 @@
+  1 week later she has new bf . 
+  something among the lines of `` what if i told you that your best does not compensate for your worst '' . 
+  somebody fix this with proper english ? 
+  hello , sorry to bother but i just ca n't find it anywhere else . 
+  ( new arch install ), 
+  how do you resize windows in bspwm and is there any default keybinding already ? 
+  i 've tried everything that is in the default ` sxhkdrc ` file but none of them work : /, 
+  oh hi there , you 're running bspwm . 
+  could you please point me out to the resizing windows keybinding ? 
+   for a simple statusbar it 's usually just a matter of piping a bash script and/or conky into a bar like dzen2 or lemonboy 's bar . 
+  could you please post yours ? 
+  i 'm not familiar with bash scripting ( i 've managed to get a clock and battery to show up ) but i do n't know how to do the rest like showing workspaces at the left and stuff . 
+  oh a little question , why my script only works when i type ` bash myscript.sh ` and when i type it without `` bash '' like so : ` myscript.sh ` it tells me `` command not found '' . 
+  i figured it out how to run without `` bash '' . 
+  i simply must do ` chmod + x ` on the script and then give the full path for example it 's in my home folder so i do ` ~ / myscript ` even if i 'm already in my home directory . 
+  what about resizing floating windows ? 
+   it should work if you type . / myscript.sh, 
+  yep , it works now . 
+   it should work with any ewmh compliant window manager such as 2bwm or bspwm . 
+  so if i just copy your ` panel ` file to my ` mybar.sh ` script and then run ` mybar.sh | bar - p ` and it will work ? 
+  where exactly in the ` sxhkdrc ` file is the keybinding for resizing windows ? 
+  i3 's keybindings were much easier to read . 
+  haha same here . 
+  arch + bspwm and before that i had a few days of crunchbang 11 . 
+  installing was easy , the real challenge is making it a functional system but remaining as minimal as possible . 
+  still have n't figured out how to resize windows properly ( for some reason i can only increase the size of window with either ` super + alt + h or l ` so when i want to decrease the size i must focus the opposite window and increase it ) . 
+  and setting up bar-aint-recursive is a nightmare for me because i have 0 bash scripting knowledge , so far i have a clock and battery which code i stole from archwiki . 
+  but overall i 'm enjoying it very much . 
+  elaborate on this please , i 'm on phone atm . 
+  are those basically cli browsers ? 
+  can they run yt videos and flash apps and stuff ? 
+  can you post em please ? 
+  i recently installed arch + bspwm and ca n't resize windows properly . 
+  you misspelled feh, 
+   super + ( drag with middle mouse ) = resize, 
+  thanks !, 
+  that worked . 
+  i understand now that i must have 2 keybinds for resizing . 
+  because for example ` super + shift + l ` increased the window to the right only because it 's binded to ` right +10 ` , so in order to decrease it i must have another keybind ` left +10 ` to decrease the same window . 
+  yes , but i need also, 
+  * super + alt + shift + h , j , k , l *, 
+  to do the opposite motions for the same window . 
+  for example i have 2 terminals , 1 on the left and 1 on the right . 
+  if i focus the left terminal i can only increase him to right with ` super + alt + l' and to decrease him i must use ` super + alt + shift + l ` . 
+  so i see this as ` super + alt + hjkl ` to increase the focused window and ` super + alt + shift + hjkl ` to decrease the focused window . 
+  you do n't need schemer . 
+  you simply must do :, 
+  1 . copy/paste or download the script ( you can do this with either copy pasting or doing ` wget https://raw.githubusercontent.com/vosh/scripts/master/invaders` ), 
+  make it executable with ` chmod + x invaders ` ( or change `` invaders '' to whatever your script is called ), 
+  run the script with ` . / invaders `, 
+  edit : also a question for other people , when i run this script the invaders dudes characters are all '' ????????? '', 
+  how do i fix this ? 
+  i kek 'd a little on both of them . 
+   not using a reddit app, 
+  i see that everybody is sharing their gnu/linux discovery so i 'll share mine . 
+  around a year ago i discovered how you could build a pc with better specs for less money n shit so i browsed pcmr for a while . 
+  then i realized that pc vs console is the same as windows ( console ) vs linux ( pc ) which lead me to this sub and i started gathering intel to make the switch . 
+  call me a hipster but i never liked ubuntu , mainly because it was mainstream and later i discovered that it sends stuff to amazon or whatever and it 's bloated . 
+  call me a hipster again but i also did n't like des because i discovered / r/unixporn and saw how minimal and sexy wms were especially the tiling ones . 
+  i wanted to install arch but since i had 0 experience i settled with crunchbang instead . 
+  i played around with it for maybe 2 weeks , installed i3 instead of openbox but eventually my gayming lifestyle was calling me so i returned to wangblows . 
+  in the last few months i 've been gayming less and less up until maybe, 
+  2 weeks ago i stopped gayming fully . 
+  with no programs holding me back , i grabbed an arch iso and installed dat shet with bspwm ( not i3 because hipsterism ) and bar-aint-recursive . 
+  honestly , installation is easy , and if you want a de all you do is ` pacman - s [ de name ] ` and you got your system ready to use . 
+  the difficult part is making a functional system while being as minimal as possible ( using wms such as bspwm , xmonad , dwm ... and panels like bar , dzen , etc. . bash scripting ) . 
+  sorry for triple reply ( i deleted the other two ) . 
+  the font i was using had unicode support , the problem was with the locale file not using unicode . 
+  i had to make a ` / etc/locale . conf ` file and add unicode support there . 
+  [ here 's the forum post that helped me solve this incase somebody also has this problem ] ( https://bbs.archlinux.org/viewtopic.php?id=149378 ), 
+  just a question does your bar highlight which workspace are you on ? 
+  damn bspwm is getting popular here . 
+   i prefer to add this to . bashrc ; but you could modify it to use . bin , or whatevery, 
+   path = `` $ path : / $ home/bin '', 
+  thank yoi , after 4 months you helped a random internet stranger . 
+  i 'd just like to interject for a moment . 
+  what you 're referring to as kde , is in fact , kde plasma , or as i 've recently taken to calling it , plasma shell . 
+  kde is not a desktop environment unto itself , but rather another free component of a fully functioning plasma desktop made useful by the kde frameworks , applications and qt libraries comprising a full de . 
+  many computer users run a version of the plasma desktop every day , without realizing it . 
+  through a peculiar turn of events , the version of plasma which is widely used today is often called kde , and many of its users are not aware that it is basically the plasma desktop , developed by the kde project . 
+  there really is a kde , and these people are using it , but it is just a part of the system they use . 
+  kde are the frameworks : the libraries in the system that provide ui and desktop functions to the other programs that you run . 
+  the framework is an essential part of a desktop environment , but useless by itself ; it can only function in the context of a complete desktop environment . 
+  kde applications are normally used in combination with the plasma desktop shell : the whole desktop environment is basically the plasma shell that makes use of the kde frameworks . 
+  the so-called kde desktop environment is really plasma desktop shell . 
+  not into gaming anymore but have you tried playonlinux ? 
+  any wm should do . 
+  if you want de then go xfce or lxde . 
+  are you sleeping to level up ? 
+   crossfirex, 
+  i believe it also has an x at the end, 
+  2nd grade and she 's writing `` computer-like '' letters instead of the ones that look like manuscript ? 
+  weird . 
+  z97 mobo, 
+  970 is okay for 1080p single monitor , atleast for now since the games arent using more than 3.5 gb . 
+  but r9 290x is also a beast of card with actual 4gb of vram and wider bandwidth so its better for higher res and shit . 
+  the thing is that i do n't like how nvidia is getting away with providing a handicapped card and people are still buying it and sometimes even defending . 
+  this is a business practice that we as customers should not endorse , that 's why personally , i would n't buy a 970 . 
+  well 4770k is older generation , if you want i7 then take a look at 4790 ( k ) , this depends on the pricing of your country so pick the best value for money . 
+  do mind that if you go either i5 4690 or i7 4790 you will need a 97 chipset board and if you go older gen 4770k that you mentioned you need a 87 chipset board .

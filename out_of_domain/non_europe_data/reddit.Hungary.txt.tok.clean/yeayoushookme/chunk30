@@ -1,0 +1,100 @@
+  * delay vs. flanger : imo , a flanger before the delay will sound very confusing sonically . 
+  maybe that 's what you 'll prefer , but i 'd recommend delay  flanger . 
+  * the looper always goes at the end . 
+  my preferred order would be :, 
+  ** compressor   distortion   amp input   effect send   volume   freeze   delay   flanger   looper  effect return **, 
+  it would be simple to measure and prove either way . 
+  ( i do n't even know what a record clamp is , i 'm just pointing it out ), 
+  i 'm going to register an account on my real birthday just to prove you wrong . 
+  ask them for a restricted shell access and get it via ` rsync ` maybe ? 
+  it 's often preferred when mirroring a lot of data . 
+  or is this just for yourself ? 
+  makers of memory still use binary prefixes . 
+  to quote ` man proc ` :, 
+  this file reports statistics about memory usage on the system . 
+  it is used by free ( 1 ) to report the amount of free and used memory ( both physical and swap ) on the, 
+  system as well as the shared memory and buffers used by the kernel . 
+  each line of the file consists of a parameter name , followed by a colon , the value of the, 
+  parameter , and an option unit of measurement ( e.g. , `` kb '' ) . 
+  the list below describes the parameter names and the format specifier required to read the field value . 
+  except as noted below , all of the fields have been present since at least linux 2.6.0 . 
+  some fileds are only displayed if the kernel was configured with various, 
+  options ; those dependencies are noted in the list . 
+  total usable ram ( i.e. 
+  physical ram minus a few reserved bits and the kernel binary code ) . 
+  ** tl ; dr ** it 's reserved by the kernel . 
+   9 ) each person may submit up to and including 8.0 entries per contest . 
+   each entry must be submitted separately . 
+  how about * dat * precision ? 
+  are n't we all ? 
+   do i simply connect headphone output to the right and left amp inputs ? 
+  nope , you connect the * line output * of the sound card ( the green one ) to the amp . 
+  when you connect it , it should detect the load impedance and automatically select line out instead of headphone out as per the ~ ~ ac '97 / ~ ~ intel hd audio standard . 
+  if it does n't , you will have to select * speakers * or * line out * instead of * headphones * somewhere in your os ' appropriate control panel . 
+   wo n't that cause double amplifying and bad sound ? 
+  there are dozens of amps before the magni , most of them on the recording side of the chain ( before the adc ) . 
+  one more wo n't make a big difference ; but as i said , the xonar headphone amp will be bypassed . 
+  edit : thanks for the downvote , i was indeed incorrect about ac '97 having active sensing . 
+  those are only different connectors , the signal is the same . 
+  you have to get an [ appropriate interconnect cable ] ( http://www.monoprice.com/products/product.asp?c_id=102&amp;cp_id=10218&amp;cs_id=1021804&amp;p_id=665&amp;seq=1&amp;format=2 ) , or use an [ adapter ] ( http://www.monoprice.com/products/product.asp?c_id=104&amp;cp_id=10429&amp;cs_id=1042902&amp;p_id=7189&amp;seq=1&amp;format=2 ) and a stereo rca cable , and it 'll be fine . 
+  not trrs , just trs . 
+  the second ring is usually for a microphone on mobile headset connectors . 
+  otherwise yes , what you said is correct . 
+   when i say distortion i mean a crackling sound when nothing is on , when it 's just plugged in, 
+  we call that noise , [ distortion ] ( http://en.wikipedia.org/wiki/distortion#audio_distortion ) happens when a signal is too powerful , and the top and bottom of the waves get chopped off . 
+  what you have here is what is known as a * ground loop * . 
+  your mp3 player does n't produce this noise , because it 's battery powered and thus it 's only connected to the amplifier ; there 's no loop in the system . 
+  since you use a pc sound card , you wo n't be able to completely eliminate it , but you can reduce its effect by connecting the pc to the same power outlet the amp is connected to . 
+  there 's another way , but that requires some soldering skills as you 'd need to make a special cable that makes use of the samson amp 's professional [ balanced inputs ] ( http://en.wikipedia.org/wiki/balanced_audio ) . 
+  18 on this chart ] ( http://www.rane.com/n110fig4b.gif ) - see how the shield wire is n't connected on the left side ; that 's where the ground loop is broken ), 
+  [ here 's some more info on how a ground loop happens ] ( http://www.harmonycentral.com/t5/technology-computers/ac-and-audio-ground-loops/ba-p/34636337 ), 
+  wait , how many left balls should there be ? 
+  use the existing wireless access point , duh . 
+  let me add one more to the list : constructive interference from a speaker . 
+  standing just the right distance away from the speaker will make certain harmonics ring longer - those whose quarter wavelength coincides with the acoustic/digital feedback delay time ( time for the dsp to process the audio + time for the sound to get to you from the speaker ) . 
+  such feedback can even cause oscillation , sustaining a note indefinitely . 
+  does it , or does it not have drm ? 
+  but there 's still lan multiplayer , right ? 
+  yup , i can definitely see flesh . 
+  the noise is from someone giving you shitty advice . 
+  you have an unconnected wire , picking up who knows what kind of high ( radio ) frequency interference , running directly to the input of the power amp . 
+  the presense knob cuts the high frequency negative feedback of the amp , thus increasing the gain at very high frequencies . 
+  when the interference gets into the less linear regions of the power amp , it gets modulated back into the audible band . 
+  * it also gets less linear as there 's less feedback . 
+  if your amp has a master volume control , then turn that to 0 , otherwise you 'll have to short the input somehow ( which should happen whenever you plug something into the effect send , but whatever , it 's a marshall ... ), 
+  regarding the sample rates : 44.1 khz/16bit is plenty of resolution for filter impulses . 
+  if you happen to be recording at 44.1 khz , use that , there wo n't be any kind of improvement if you use the 96khz filters . 
+  turning the master level to zero . 
+  if you do n't have a master knob , wrap the end of the dangling connector with tin foil so it connects the tip and the sleeve of the jack . 
+  the qrencode utility is also available on windows . 
+  you can either compile it in cygwin , or get the standalone version [ here ] ( http://code.google.com/p/qrencode-win32/ ) . 
+  using ` qrencode - tansi `` text to print '' ` will output the qr code directly to your command line as a text-art image . 
+  this one 's decentralised . 
+  now wrap it in some tin foil so it does n't get noisy when driving by radio towers ( so much copper in the wrong area ) . 
+  nobody overloads their adc 's , that 's just silly talk . 
+  counter-argument : music with more dynamics is more stimulating , slammed tracks are boring . 
+  is it on the same tty the x server is running from ? 
+  just a guess . 
+  if they have a higher rated impedance , then it 's expected . 
+  differences in sensitivity and distance also matter . 
+  use the broadband noise generator in your receiver if it has one to correctly set the levels . 
+  if it does n't come with one , use a multichannel audio file with noise . 
+  you see , it 's difficult to like something if you 're dead . 
+  the difference they 're supposed to make can be also had with a parametric eq . 
+  that , and different pickups have different signal to noise ratios . 
+  please stop perpetuating this myth . 
+  probably true for the wrong reasons . 
+  a pricy low - wattage tube combo will come with a more sensitive speaker than a much cheaper ss combo . 
+  changing to a cab that has a 3db higher sensitivity will be equivalent to doubling the amplifier power . 
+  it 's your router . 
+  exactly . 
+  you do n't expect a 75 watt tube amp to be able to deliver 150 watts . 
+  that 's my point . 
+  and speaker sensitivity can vary a lot more than 3db . 
+  the lowest i 've seen was 94dbspl@1w,1m; and i 've seen cabs rated as high as 105dbspl . 
+  i think you 've just added one to the nsa 's list of weird fetishes . 
+  those are n't its babies , those are parasitic maggots that were consuming its flesh . 
+  you can use any amp , but it 'll sound like shite , as it 's designed so the amp driving it ( the original bose model ) will have an excessive smiley-face eq to compensate for the sub-par speaker design . 
+   is there a good way to hook these up to a normal amplifier , or do i need to buy a 70v pa amp ? 
+  with speaker wires . 
+  think of 70v speakers as regular speakers with a really high impedance - a regular speaker has 4-16 ohm rated nominal impedance .

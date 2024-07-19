@@ -1,0 +1,100 @@
+  i am curious how many people blizzard turned off from the game by demoting everybody . 
+  thank you in advanced / u/sc2innumbers, 
+  i hope they buff terran in a way that is more beneficial to low level players than to pros . 
+  `` dead '' ? 
+  how do you define `` dead '' ? 
+  every time i search for a game on the ladder i get people of my skill level in like 10-15 seconds . 
+  there is a lot of content to watch ( in fact more than i have time to ) . 
+  for me the game is not dead at all since i get most of what i want from it . 
+  would i like to see everyone play sc2 as they do with lol ? 
+  yes !, 
+  but being less popular than the most popular games does not mean dead . 
+  the original coh was the only rts game i ever considered better than starcraft . 
+  i played for quite some time and then i was enraged that they decided to disallow mirror matches and the community supported that decision . 
+  the reason was ... that it was n't realistic to see germans fight germans in ww2 ... at this moment i knew that relic decided to dig in their warm ww2 niche instead of take the world by having the best competitive rts out there . 
+  did n't buy the expansion , did n't buy coh2 and i wish relic go bankrupt . 
+  i hate them so much for killing this opportunity . 
+  the tournament format was that everyone had to play 1 game as each race . 
+  a bit like counter-strike . 
+  if the score was 1:1 the player who got more points got to choose the sides in the decider match . 
+  mind you that in coh points are much more meaningful since they are much different and are in fact a victory condition ( you capture points on the map and when you have more you get points ) . 
+  now that may in theory result in games where the side who has the race that is not the preferred one for both sides just takes the point early and tries to turtle on them and while that side would probably lose chances are it will lose with better score which would allow for race choice in the third game . 
+  i did not wait long enough to see if this really happens . 
+  btw i like when players play more than 1 race . 
+  i play random in sc2 but i did not like this forced way to do it and they had 1 matchup ( now the expansion added more armies for each side so at least they solved the matchup variety issue ), 
+  so lets close our eyes to the insane percentage shift and pretend that the player base skill level doubled and tripled in the past two months . 
+  they also thought it was a good idea to demote everyone despite setting certain expectations for 3 years . 
+  which is pure bullshit . 
+  if you set player expectations on a certain level for 3 years you do n't kick everyone in the balls just because you intended to have 2 % masters league from the start . 
+  `` paralleljs : automatically parallelized javascript code '', 
+  yeah , right !, 
+  does anybody still fall for this ? 
+  unless the collection implements icollection in which case it does not enumerate . 
+  not that i would advise relying on that optimization . 
+  c # does in fact run everywhere ( more places than java because of mono for ios and nacl targets ) . 
+  you can argue that . net does not but c # certainly does . 
+  accidently downloaddataasync is the more correct ( although may be a bit harder ) way to do it . 
+  downloaddataasync will not create threads and probably use io completion ports ( http://msdn.microsoft.com/en-us/library/aa365198 ( vs. 85 ) . aspx ) which would increase maximum throughput of your program . 
+  now chances are in practice you do n't care about this in 99 % of the cases but you should be prepared to defend yourself in case the node.js guys attack you . 
+  if you still insist on one liners the code might look something like, 
+  var tasks = new [ ] { `` http://www.google.com '' , `` http://www.reddit.com '' } . select ( u =  downloaddataasync ( u ) ) ;, 
+  task.whenall ( tasks ) ;, 
+  ( o.k. 
+  two lines but i could n't get myself to put the first line as an argument to then whenall method ... on the other hand you could convert this method to an extension method ), 
+  i actually did read the details . 
+  i wondered if i should point out the lie of `` automatic '' parallelism . 
+  preparing your code for data parallelism is not automatic at all . 
+  yes i understand that the people behind paralleljs are not stupid and having used similar libraries in c # i am sure this one is quite useful but the line in the blog post is quite simply false advertising . 
+  in fact at the end of wol masters went to very high percentage ( like 8-9 ) . 
+  it was never 2 % and in general floated around 4-5 . 
+  the current masters is the smallest masters we ever had ( and the first time i could n't finish the season in masters , and yes that annoys me a lot to the point where i might stop playing , and yes i know how stupid that sounds and i would never say such a thing 3 years ago but 3 years of blizzard ladder conditioning have made me a whinny bitch ), 
+  mmr is actually an ok idea in general . 
+  the problem is that for some reason they messed up with the league percentages . 
+  entirely not true . 
+  masters was supposed to be 2 % but never was ( until now ), 
+  yes i do object to the word `` automatically '' because it makes people think that they do not need to write parallel code . 
+  btw i wonder what happens when you capture a variable in a closure and change it in the map 's anonymous function , 
+  i clearly remember that masters in wol was above 2 % . 
+  i even remember it was discussed how far too many players were in masters . 
+  do you have any reference that it was not the case ? 
+  now i know that blizzard always ( including in hots ) said that masters is supposed to be top 2 % but it never was . 
+  i could n't get any hard stats though but for example this comment from the launch of hots mentions the same ~ 5 % masters i seem to remember for wol, 
+  now while i did read the `` details '' about `` map '' , `` filter '' i did not really read the details . 
+  for some reason even before this blog post i assumed that paralleljs was a library that parallelized things via web workers internally . 
+  reading this other post i learned that it is actually something to be implemented in the js engine . 
+  thanks for making me do it , 
+  now the part we can argue about here is `` on the web '' . 
+  it is more like `` in the browser '' the way you program for asm.js is much closer to the way you program native code ( c++ , memory management , etc. ), 
+  than to the way you program for the web . 
+  still currently masters is like half of what it used to be ( not only in hots but also in wol . 
+  it is not like suddenly the activity patterns changed drastically especially considering the lack of mid-season demotions . 
+  uhm ... so ? 
+  last season i finished masters and at the start of the current season i was placed in gold . 
+  now i was inactive ( in 1 vs 1 ) for a month and i did n't manage to get back into masters this season but i easily went to plat and it was not very hard to get to diamond after that . 
+  i may have been inactive and not masters level but gold ... 
+  it was another guy who said he was placed in plat . 
+  i just supported his case and said i was placed in gold which is even more extreme . 
+  percentagewise i am at the same place where i ever was ( somewhere between top 3 and top 4 % ) but i am out since masters is cut in like half . 
+  yes if you think masters should be 2 % i should be out but the fact remains that they let me be in masters for 15 seasons and decided to kick me out now which is frustrating . 
+  no it is not . 
+  masters was above 4 % throughout wol . 
+  now it is between 2 and 3 % depending on the server . 
+  you think this is not the case this season ? 
+  it is very bad thing that it has changed . 
+  first of all it is frustrating and demotivating and second it is easier to stop playing than explain to people who played an year ago `` i am plat now but this is like masters when you played '', 
+  hahaha what is more it was ranked game for him , 
+  according to percentage stats posted here on reddit several times high plat is now low masters from 2 season ago . 
+  in addition even if you keep your overall level you need to play more now to keep the rating because of decay and aggressive demotions in the start of the season . 
+  i disagree . 
+  i remember very different numbers . 
+  do you have a link for the wol numbers ? 
+  if you like web technologies and web development chances are you wo n't like the way to produce asm.js and vice versa , 
+  and apple, 
+  you ca n't really be demoted to high diamond since seasons start with 0 points and there is no concept of `` high '' when everyone has no points . 
+  frankly i do n't see why a patch would be required to fix the ladder . 
+  placement is determined purely by the server so why patch the client . 
+  after all they did n't need a patch to break the ladder why need one to fix it ? 
+  and how does demoting everyone fit in their grand scheme ? 
+  i thought my `` from masters to gold '' from last season was the record but you beat me . 
+  let alone that getting to masters was much harder the previous season ( i could n't do it for the first time ) . 
+  if they do n't give a fuck why do they specifically pay programmers to implement broken shit ,

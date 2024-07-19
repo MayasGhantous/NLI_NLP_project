@@ -1,0 +1,100 @@
+  this is the exercise : http://codingbat.com/prob/p132134, 
+  so what i wrote :, 
+  public boolean in3050 ( int a , int b ) {, 
+  return true ;, 
+  if ( afourfive & & bfourfive ), 
+  return true ;, 
+  return false ;, 
+  and the official answer :, 
+  public boolean in3050 ( int a , int b ) {, 
+  if ( a  = 30 & & a < = 40 & & b  = 30 & & b < = 40 ) {, 
+  return true ;, 
+  if ( a  = 40 & & a < = 50 & & b  = 40 & & b < = 50 ) {, 
+  return true ;, 
+  return false ;, 
+  / / this could be written as one very large expression ,, 
+  / / connecting the two main parts with | |, 
+  in my example , i clean up the if statements . 
+  but a downside might be big programs . 
+  if a programmer is looking at your code and he sees the `` athreefour & & bthreefour '' he needs to check what those boolean variables are . 
+  am i correct ? 
+  any other disadvantages with my solution ? 
+  thanks, 
+  i am trying to develop a relatively simple app that will provide users information about bus arrivals for a chosen bus stop . 
+  i am doing this for a school project and i am quite overwhelmed even though this should n't be that hard . 
+  the thing is we only covered windows development shortly in two weeks and i have n't learned much in that time . . 
+  to start things off , here is the base design i quickly put together in paint : http://i.imgur.com/j2y61h7.jpg, 
+  ** main window ** : this part should n't be that hard . 
+  i only need a picture on top and two buttons , that redirect user to other two windows . 
+  i was wondering what layouts should i use , that the controls will adapt to other device sizes ? 
+  ** search window ** : this is where most of the action will happen . 
+  i 've already set up classes to pull data from an online api , that i can use . 
+  i was wondering what control should i use for the search field ? 
+  what about the control for results ? 
+  a result consists of a bus number , bus stop it 's heading to and minutes until next three arrivals . 
+  ** favorites window ** : users can add stations to favorites and by clicking on them it will show the arrivals for the stop . 
+  i do n't know how to execute that last part . 
+  should i redirect users to search window and output the arrivals for their favorite stations there or do i do it in the favorites window ? 
+  if i do it in the favorites windows it might be a bit of a hassle since there are other favorites and i ca n't just output results over them ? 
+  ** general questions : **, 
+  * i need to incorporate some kind of a live tile/push notification or something like that . 
+  i was thinking i could update/push next three arrivals for one of the favorite stations on a live tile , would that be a good idea ? 
+  * the application needs to store its data locally too . 
+  so when the user restarts the app the saved data is still there . 
+  would it be easier if i create a database or just store it in a file locally ? 
+  the goal here is to do this on the most simplest way possible , i do n't want to complicate things . 
+  any tutorials/videos/other resources related to what i stated above is more than welcome . 
+  also if there are any good examples or similar apps on github or somewhere i 'd appreciate it too . 
+  sorry for the wall of text , but i only have a week for this and i 'm quite a bit overwhelmed , so any input is highly appreciated . 
+  thank you all and merry christmas !, 
+  * i 'm off to bed , if there are any followup questions i 'll answer in the morning , thanks *, 
+  i just wanted to say . . 
+  i have n't read a book in years . 
+  when i picked up hpmor i just binge-read all of it . 
+  i got my passion for reading back again . 
+  i also picked up an interest into rational thinking . 
+  has anyone read rationality : from ai to zombies ? 
+  if yes , how long did it take you ? 
+  i 'm really into old school rap . 
+  big , pac , eazy , snoop , nwa and all that . 
+  but when it comes into new stuff i just do n't feel 90 % of it . 
+  of the new-ish stuff i guess action bronson is fine , especially blue chips 2 , but when it comes to kanye , drake and shit , i do n't get the hype . 
+  i especially dislike the whiny rap style if you know what i mean . 
+  any suggestions ? 
+  edit : there are some songs i like from kanye like hey mama , stronger , . . but the newest ones i just do n't feel, 
+  [ removed ], 
+  to avoid having to check if the next value is null , we add a sentinel to a skip list . 
+  what would be a good value for a sentinel node ? 
+  here 's two options i considered :, 
+  a value bigger then the biggest element in the skip list ( let 's say we have a skip list with elements [ 1,2,3 ] the sentinel would be 4, 
+  integer.max _ value ( if we have a skip list of integers , there is no such value that is bigger than max_value ), 
+  i 've thought about the first option and i assume it is n't that good , since if we 're adding a value that is bigger then the current sentinel , then we have to fix the sentinel values on all levels . 
+  well i think the second option would be good , but i 'm a bit confused . 
+  let 's say we add a value that is the same as sentinel . 
+  in practice , there is a case where that could happen . 
+  to avoid this we could set a sentinel 's value to max_value +1 . 
+  how do i store that value in an integer if i 'm using java for example ? 
+  we have a skip list of integers and the sentinel is integer.max _ value +1 . 
+  how do i store that ? 
+  if we do n't talk language specific , a good sentinel would be infinity , right ? 
+  i 've uploaded a timelapse with the following song : https://www.youtube.com/watch?v=dwyfbklqswg ( gramatik - tearin ' it up ), 
+  i have huge respect for gramatik , because he keeps all of his music free and he said more then once , that we can use his music on youtube freely . 
+  some confirmations :, 
+  https://www.reddit.com/r/iama/comments/1z0ekx/hi_im_gramatik_i_release_all_of_my_music_for_free/cfpitxl ( reddit ama where he answered about freely using his music on youtube ), 
+  my video got caught with the id claim ( by youtube bot i guess ? ), 
+  i appealed it right away with the youtube integrated dispute form . 
+  i 've selected the `` you have permission from author '' ( or something similar ) and i 've also added the link to the facebook post . 
+  the dispute was rejected today ( after 2 days ) and the claim still stands - http://i.imgur.com/50vn6dy.png, 
+  i do n't know what can i do at this point ? 
+  if i appeal the rejected dispute i can get a channel strike . 
+  do i contact lowtemp ( gramatik 's production company ) ? 
+  any other ideas ? 
+  [ removed ], 
+  motherboard manufacturer is lenovo - intel q45/q43 . 
+  i 've looked through bios , but have n't found an option that looks relevant , so i 'd rather ask here . 
+  if you need any more information , let me know . 
+  i 'm looking to upgrade my msi gp60 laptop . 
+  i currently have a 500gb hdd , but the laptop has a free msata ssd slot . 
+  here 's my plan , and you are welcome to criticize it/suggest better options :, 
+  i have a 500gb hdd now but i 'm looking into 250gb ssds . 
+  i have some money saved up , but i do n't know if i want to spend more than 100 $ ( so 500gb ssd is out i guess . . ) .

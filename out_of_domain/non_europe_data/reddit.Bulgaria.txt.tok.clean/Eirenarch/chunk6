@@ -1,0 +1,100 @@
+  i 'd bet your browser refuses to play h. 264 and even then there are downloads in different formats . 
+  i do n't think it compiles to javascript . 
+  it compiles and runs on the server though i could n't put my finger on how it gets back the result as i ca n't see it in the responses in the ie dev tools . 
+  this thing is just web console for c # built on top of roslyn . 
+  yeah i find it cool but after all this is what roslyn is about . 
+  it does the compiler magic . 
+  i noticed it uses signalr and i can see the validation methods getting called but i just could not see how the result is returned when i press `` run '' . 
+  the response body only contains { `` status '' : `` ok '' } so i am wondering how it returns the actual output . 
+  assuming that someone involved with the project is reading this are there any plans to implement actual classes ? 
+  it 's not web sockets since i am viewing it in ie9 . 
+  also even if it was web sockets i should still se it in the dev tools . 
+  this !, 
+  mutable value types are not recommended by the . net guidelines to begin with . 
+  they should have been , 
+  also the . net guidelines say they should be . 
+  the fact that this is not enforced by the compiler is unfortunate . 
+  i am not aware of a single mutable value type in the framework but of course i do n't know all of them . 
+  on the other hand even if the framework does not have any they ca n't break client code . 
+  obviously they need to increase the amount of connections they accept . 
+  if a couple of hundred connections can bring battle.net down something is really wrong . 
+  it should take thousands before it has any noticeable effect . 
+  i use the nickname stilgar ( a character from dune ) on eu and there is one more stilgar in masters . 
+  i once hit him on the ladder and did not notice the name during the loading screen . 
+  at one point when i ran my mutas in his base when he left his he said that i was `` a random zerg base trader '' ( i play random ) and `` shite player '' also that i should die of cancer . 
+  at first i was wondering if there is a bug and the battle.net displays my name instead of his before i realized i 've hit the other stilgar ... 
+  i guess he does not want to make friends with me :(, 
+  i know this . 
+  my point is that they should not consider a couple of hundred connections suspicious . 
+  i do not claim that there is something wrong with battle.net scaling . 
+  i suggest that they should increase the number of connections allowed from the same ip as it is obviously not a threat to their system even if those were not legitimate . 
+  sorry if i did not make myself clear . 
+  my point was that this number of connections can not bring battle.net down ( otherwise something is really wrong ) so there is no point in blocking them . 
+  cool . 
+  posts from channel9 now come with `` html5 video '' in the title to prevent the obligatory idiot declaring that he will not watch a video that requires silverlight even though it never did . 
+  i have already posted this on / r/programming a while ago but since there is a whole subreddit on the topic i may as well post it here . 
+  also channel 9 has provided downloads in different formats since forever . 
+  can you explain in simpler * terms how do you get asts from scala lambdas . 
+  as far as i know the scala compiler does not build the trees for the lambdas like the c # compiler does . 
+  btw great job !, 
+  * for a person with a lot of c # experience and understanding but very little scala experience, 
+  i do n't get the argument that the language is nothing without the apis . 
+  surely a different set of apis can be invented to work with the same syntax . 
+  making the language free does not mean that the apis are free . 
+  it is entirely different question whether apis are copyrightable . 
+  i meant syntax but it is true for semantics as well . 
+  and syntax is something that can be taken and used elsewhere without the semantics . 
+  you ca n't but you can built your own set of apis completely different from oracle 's and still use the free java language . 
+  the obvious exception are the apis in the java language specification which are a small part of all java apis, 
+  oracle are arguing that the apis ( the method signatures , method names , type names ) are copyrighted . 
+  google says that they are part of the language which they are clearly not . 
+  i can write a java api and it will not be part of the java language . 
+  ok but is system.out.println part of the java language . 
+  i say no . 
+  this may be true but it does not mean that apis are part of the language . 
+  they pull out every possible defense even the most absurd . 
+  their best bet is proving that apis are not copyrightable . 
+  this serves to prove that different apis can exist for a single language . 
+  this is very interesting indeed . 
+  i watched that session a few days ago but did not understand like half the things said . 
+  where does the reflection info come from ? 
+  does it decompile the bytecode into an ast or there is metadata for every piece of code ? 
+  it ca n't generate asts from lambdas at runtime . 
+  you either need to have the tree generated at compile time or build it manually ( i.e. 
+  not from lambda ) . 
+  this is true but obviously oracle think that if you ( as a platform provider ) are using this goodness you need to get a license from them . 
+  google are arguing that you do n't need a license to use the apis because they are free because the language is free and that you ca n't copyright apis to begin with . 
+  i do n't know about the second part but the first part is incorrect . 
+  you can in fact have a java language with different apis ( except for the very few mentioned in the language spec ) . 
+  i do n't know but i agree this is the real question . 
+  google however claim that there are two questions - the real one and the if system.out.println is part of the language . 
+  i think the answer to the second is pretty clear - no . 
+  i am not an expert but i would say that you are incorrect in both these statements . 
+  first of all an api is more than a naming convention , second if apis are proven copyrightable then you can indeed get in trouble if you name your methods the same and relatively small chunk of the . net apis are the same as java especially compared to dalvik . 
+  . net even calls the hashtable dictionary . 
+  and finally i suspect ms had some kind of a deal with sun back then . 
+  as i already said i do n't know if apis are copyrightable but i know that it is possible to use the java language with new apis ( except for the one mentioned in the language spec ) google says you ca n't and they are wrong . 
+  maybe java.util is an api you ca n't use the java language without but you can certainly have completely different concept of system.out.println . 
+  the fact that these apis provide ecosystem for java is irrelevant if oracle somehow proves that only the java language but not the java ecosystem is free . 
+  after all google claim that they are not using java but something else . 
+  the article says how many of the apis are part of the spec and they are a minority . 
+  i accept that google are correct on the apis mentioned in the java language spec but what about the others ? 
+  the problem here is that google claims they are not using java the platform but java the language . 
+  apis mentioned in the language spec are part of the language . 
+  the other apis are not part of the language but part of the platform . 
+  if the platform was free ( as in speech ) there would be no argument here and google would not bother developing dalvik at all . 
+  then you make no distinction between language and platform . 
+  it makes a difference if the language is free for everyone to implement but the api is not . 
+  i really ca n't see how people ca n't make the distinction between an api and a language . 
+  it does . 
+  this is how i make the distinction . 
+  if someone implements completely different libraries ( except for those mentioned in the language specs ) this would still be the java language . 
+  otherwise the different java profiles would be different languages . 
+  language = syntax & semantics rules , simple as that . 
+  as it happens some of the semantics is hardwired to apis like string but the other apis are not tied in . 
+  you 're so naive . 
+  they claim to be motivated by ethics because they are the new kid on the block who does not have enough ip to exchange with the other kids . 
+  computer science is a branch of mathematics like calculus is . 
+  you can enjoy one branch of mathematics and really hate another . 
+  for example i enjoyed discrete mathematics but hated integral calculus with passion . 
+  programming is applied computer science which is kind of different .

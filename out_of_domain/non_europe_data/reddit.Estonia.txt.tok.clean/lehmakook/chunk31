@@ -1,0 +1,100 @@
+  it took them another 6 months to finally find the loose cable in the timing circuits , after fixing it the effect disappeared . 
+  the nasa emdrive experiment is a intriguing result , and i do hope they continue with testing it . 
+  but i 'd put the hope of actually discovering a reactionless drive to still be a billion to one chance . 
+  there is no power involved in throwing you forwards . 
+  you are already moving forwards together with the bus . 
+  when the bus brakes , it slows down , but people inside keep moving due to inertia . 
+  they have to grab ahold of something and push against the now-slower bus to also slow down . 
+  it is pretty similar to jumping off a moving bus - except without warning , so you have not had time to prepare to balance yourself . 
+  but visiting students can register as a resident . 
+   i 've started by talking to the image recognition company we use , cloud sight , and they are willing to help us out to a certain limit ( close to a 200 $ a month plan for free ) . 
+  that 's fantastic . 
+  i would recommend sticking to their api to test out the idea at first . 
+  if you start approaching your quota , then consider :, 
+  * making the app invite-only , give out invitations based on remaining api quota ,, 
+  * add some background task queue where people 's pictures can wait for their turn ,, 
+  * or just add a friendly error message . 
+  but in the long term , you have two options : make more money than the image recognition costs , or make the image recognition cheaper . 
+  if you can start making money from your customers , and this is more than the image recognition costs , then scaling is no problem . 
+  just keep paying cloud sight , and both of you will be very happy about the increasing usage . 
+  but if image recognition is core to your business , then at some point you will want to hire people to build your own . 
+  for a perhaps large , but fixed cost , they will be able to put together an image recognition system that runs on your users ' phones - which is free in terms of resources for scaling . 
+  there is * no * realistic way to guarantee that you get compensated for telling a product improvement idea to a company . 
+  they are never going to agree on payment , nor agree to not use the idea * before * they hear the idea . 
+  after all , they have many employees who work on their products all day - it 's very likely that they already have the same idea in their future plans , or considered and rejected it , or some employee will come up with it in the future . 
+  so your options are :, 
+  * never tell anyone about it . 
+  then nobody can `` steal '' it , but you also do n't get anything in return . 
+  * give it out for free as a suggestion . 
+  your benefit is that if they come out with better or cheaper products , then you can buy those better cheaper products . 
+  * apply for a job there , and tell the idea during the interview . 
+  it might show that you care about their business and increase your chances of getting the job . 
+  your benefit is getting paid for your everyday work afterwards . 
+  * start a competitor , launch the improved product on your own , and start winning over market share from the companies . 
+  your benefit will come from running a profitable business , or perhaps the company will offer to buy you out when you become a sufficiently dangerous competitor . 
+  10 + years ago , sourceforge used to be the best place to host your open-source software projects . 
+  they offered free source code repositories , web site hosting , mailing lists , etc. 
+  they made money with banner advertising . 
+  over time , this advertising got worse and worse - on project download pages , there was advertising that looked exactly like a `` download '' button ( just like on porn/torrent sites ) , etc. 
+  hosting web pages got cheaper over time , and better options for source code repositories ( github ) appeared . 
+  so sourceforge 's popularity declined , and they got more desperate and worse with the advertising . 
+  they started wrapping open-source project installers in their own installer , which bundles malware and adware . 
+  at first the decision used to be up to the project owners ( with some of the money from malware and adware shared with them ) . 
+  but now they have started taking over these open-source project pages without their consent - they decide that your project is `` abandoned '' if your main hosting is elsewhere , remove your access to it on sourceforge , and start giving users the malware installer anyway . 
+  this only accelerates projects leaving sourceforge because of their unethical advertising practices , and * probably * will accelerate them turning to more shittier desperate measures to make money as well . 
+   i understand evolution is a constant natural process but with the advent of technology , survival ( even of those who are n't fit ) has become possible . 
+  evolutionary fitness does n't directly mean `` healthy and strong '' . 
+  whoever has most children with their genes wins at evolutionary fitness . 
+  there are really only two simple parts to evolution :, 
+  * different people have different genes , and, 
+  * some people are more likely to pass on their genes than others . 
+  these have n't disappeared with human culture and technology . 
+  we have changed the fitness function with healthcare , safety regulations , cultural practices , etc. 
+  for example , deciding not to have kids to focus on your career is very unfit , regardless of your health . 
+  and we may be able to influence gene mixing soon . 
+  but no matter what , human evolution will still continue , because some people will continue having more kids than others , just perhaps in a very different direction than what is usually thought of as evolution for the `` natural world '' . 
+  sure . 
+  but lenders do n't get any equity in the company , let alone 25 % . 
+  they just get their money back with interest . 
+   i thought of them as just a property , and not like a new column/field that would thus be included in the modelform 's fields . 
+  ah no , the unique_together is n't a column/field . 
+  it 's a list of fields , and it ca n't really go into the form 's field list ? 
+  what i mean is the following : if you have a model, 
+  class person ( models.model ) :, 
+  first_name = models.charfield ( ), 
+  last_name = models.charfield ( ), 
+  age = models.positivesmallintegerfield ( ), 
+  unique_together = ( ( ` first_name ' , ` last_name ' ) , ), 
+  and then have two different modelforms :, 
+  model = person, 
+  fields = ( ` first_name ' , ` age ' ), 
+  model = person, 
+  fields = ( ` first_name ' , ` last_name ' ), 
+  then forma will * not * check the unique_together constraint , because last_name is not included in the form , and it only checks unique_together constraints whose * all component fields * are present on the form . 
+  instead , forma will happily say that the form is_valid ( ) , and once you try to save the first_name / age to the database , * the database * will complain with integrityerror if the unique_together constraint is violated . 
+  the user will most likely see a django 500 server error page unless you catch and handle the integrityerror . 
+  formb has both components fields of the constraint present on the form , so it will check for duplicates when doing form.is _ valid ( ) . 
+  it will add error text to the appropriate fields , letting the user know that a person with this first and last name already exists . 
+  if you want to for example have a form where first_name is not editable by the user , but is part of the unique_together validation , then you have a few options :, 
+  * add first_name as a field with widget = hiddeninput ( but watch out for people still submitting new values by messing with http post data in the browser ) ,, 
+  * add a custom clean_last_name ( ) function , which does checks the database for the first_name , last_name pair . 
+  perhaps , but betting on delays and slower than expected development is the easiest way to win gold on / r/highstakesspacex . 
+  we need all the optimists to take the losing side of the bets . 
+  this was actually one of the first type of computer memory ever invented : http://en.wikipedia.org/wiki/delay_line_memory#acoustic_delay_lines, 
+  they used pulses of sound in tubes of mercury to store data , with a loudspeaker on one end and a microphone on the other . 
+  i remember there being some sf startup that worked as follows :, 
+  * user a parks on the street , returns , and prepares to leave the spot . 
+  * instead of driving off , they open the app , and publish the `` space opening here '' message to other nearby users . 
+  * user b wants to park , and gets the message . 
+  * the app charges them something like $ 5 to see the exact location . 
+  * user b pays and drives to the spot . 
+  user a now leaves and vacates it for b. 
+  * user a gets a cut from the payment , the app maker takes the rest . 
+  but i ca n't remember what it was called and what happened to it after the obvious outrage at profiting from hoarding of taxpayer-funded public resources . 
+   i take it that unique_together is n't really meant for hidden fields then ? 
+  unique_together is meant for database data validation constraints , and it works very well there !, 
+  the issue is with modelform - it has been decided that if a field is not present on the form , then modelform should not validate its correctness . 
+  and if any field that is part of a constraint is not present on the form , then the form wo n't check that constraint before saving to the database . 
+  the reason why checking partial unique_together constraints would create other problems is best described here : https://code.djangoproject.com/ticket/13091#comment:19, 
+  so for the slugs : you only ask for a name . 
+  what is supposed to happen when the generated slug already exists ( might even happen if names are different ) ?

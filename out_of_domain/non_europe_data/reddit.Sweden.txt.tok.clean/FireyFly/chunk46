@@ -1,0 +1,100 @@
+  :p i 'm pretty sure this is pretty much impossible , unless i 'm missing something . 
+  yeah , that was what i was thinking . . but a qr code must have three positioning marks , yet only one could be discerned in the distorted image . . oh well , i 'll give it a try !, 
+  edit : well , i think i have something near the top-left corner now . 
+  from the size , i 'm guessing the full qr code is either 29 \u00d7 29 or 33 \u00d7 33 . 
+  oops , i was n't paying attention to this subreddit . 
+  yeah , we ( ## fallout on freenode ; feel free to visit ) messed with that during the countdown as well . 
+  i opened it in gimp and noticed that the shading between the different frames is simply done using the alpha channel , so a first step is to just set the alpha channel to 100 % all over . 
+  i did this which gives http://i.imgur.com/kzovjrx.png . 
+  people messed around a bit with it , someone changed the colourscheme to try to emphasize patterns , someone found traces of what they thought were text . 
+  in the end i think it really is n't more than exactly what it is used for on the countdown site -- a kind of glitch effect when the site loads ( if i recall correctly , it 's even the ` glitch ' module in the institute.js -- we looked at that and the css as well ) . 
+  a bit sad that it was n't the start of an arg/a puzzle , but oh well . 
+  in case you 're wondering , you were correct : it * is * divided into a seven-screen animation used for a `` glitch '' effect when one loads the announcement countdown page . 
+  so , good thinking . 
+  the only typos i could find in the body were `` had ** s ** o keep quiet '' and `` proceedi ** m ** gs '' ; the dots are very faint sometimes , but they 're visibly there . 
+  the thing written rotated 90 \u00b0 left below the slash to the right reads '' * jjr iw getting on well * '' . 
+  i guess jjr iw is the sender . 
+  the thing written diagonally in the top left reads `` use this code . 
+  i lost the others '' ( you can still see the `` use '' just left of `` post '' in `` post card '' , even ) . 
+  the thing written across `` post card '' seems to spell out either '' * tcmw * '' or '' * cmwh * '' depending on which way you read it . 
+  probably just a codename/abbreviation , altough cmwh sounds slightly scottish/gaelic , which * might * be relevant considering this seems to be on ireland ? 
+  that 's all i 've got . 
+  how old was your grandfather when he received this postcard ? 
+  see if you can tell a date from the stamp and match with when he was born . 
+  mostly wondering if he was a child or adult at the point ... 
+  ah , that explains why the dots were faint then . 
+  but mostly celebrity . 
+  it 's not qr codes . 
+  might be some other 2d barcode , but it does n't really look like it to me . 
+  sure , why not . 
+  although , tis-100 is * even more * bare-bones and simplified than a modern instruction set ( by design , since it 's meant as a puzzle game ) , which is something to keep in mind . 
+  spacechem did n't stick for me , but i love tis-100 . 
+  but i 'm more of a programmer than a gamer , so ymmv . 
+  well , it really is programming in this case . 
+  does n't mean it has to be hard , though . 
+  and i 'm sure that even without prior assembly knowledge , it should n't be too hard to pick up , just as long as one enjoys problem solving and such . 
+  sounds like a great idea . 
+  i would prefer freenode , personally . 
+  #tis 100 would mirror the name of this ( official ) subreddit , so i think that makes the most sense . 
+  sequence counter : 176/9/35, 
+  are edits fine with your script ? 
+  it 'd be less cluttered if each user had one comment and updated it instead of posting new comments . 
+  assuming you periodically run your script through all the posted comments , i do n't see why it would n't work just as fine . 
+  that is a good point . 
+  i did n't think about that . 
+  for what it 's worth , another approach worth considering is doing the switch in the editor rather than the font . 
+  vim can do this using its ` conceal ' feature , and for emacs there 's something called parfait-mode , but i do n't know about other editors . 
+  just as another alternative ; nothing wrong with implementing it using ligatures . 
+  i 'm not sure if this is the appropriate place , really . 
+  perhaps / r/codes would be more suitable . 
+  either way , treating the domain name as hexadecimal bytes concatenated together yields `` 726-8743 '' . 
+  it has its uses when optimizing for a fast solution , to get the timing between the nodes right . 
+  it 's also handy for keeping a counter while outputting some other value , in case you do n't have space for an extra adjacent node . 
+  in one of the tasks , one of my nodes reads a string of values `` abc '' and outputs `` ab bc '' . 
+  pretty straightforward , right ? 
+  ` mov in , out ; mov in , acc ; mov acc , out ; mov acc , out ; mov in , out ` . 
+  but when stepping through the code , i noticed that the second ` mov acc , out ` was blocking , but the next value from ` in ` was already available . . so i rewrote it to ` mov in , out ; mov in , acc ; sav ; mov acc , out ; mov in , acc ; swp ; mov acc , out ; swp ; mov acc , out ` and the program as a whole ran a bit faster . 
+   10 ) if you get stuck , sleep on it . 
+  remember , the truth is in there . 
+  this is a great tip in general , both in is-100 and otherwise when solving problems . 
+  it also helps a lot when optimising for cycles , if that 's your thing . 
+  throw pokemon cards to see whose got the furthest . 
+  pogs . 
+  maybe even marbles ; dunno if those are still popular with modern technology . 
+  [ 1 ] : https://www.youtube.com/watch?v=vu2d_pld3w8, 
+  i have ` < leader  . ` mapped to ` : !, 
+  ! < cr  ` ( i.e. 
+  repeat last external command ) . 
+  the way my workflow works , i come up with an ad-hoc oneliner to compile & run the current file ( or whatever i want to do with the file , really ) , and then use ` < leader  . ` to try out changes . 
+  i know about the built-in ` : make ` facilities , but i find this workflow a lot more fluid for me -- i can easily change the command to what i see fit ( e.g. 
+  with latex i want ` pdflatex ` most of the time , but sometimes i might want to ` texcount ` the file ) , can easily adapt to different build systems , etc without having to think much . 
+  when asked i tend to say that i think ` : ! ` is vim 's greatest feature . 
+  being able to pipe ranges of text through a shell oneliner is really powerful . 
+  also a secret , undocumented opcode . 
+  it 's up to you to find it !, 
+  but there 's a bit of a hint below ... 
+  notch used the same secret undocumented opcode for his dcpu-16 . 
+  :p and even apart from that , it 's a well-known joke opcode . 
+  should i remove the spoiler ? 
+  maybe it 's more fun if people find it themselves . 
+  based on a brief look , the puzzle definition seems pretty neat . 
+  you did n't specify anything , so . . is it okay to submit multiple puzzles , or is it one per person ? 
+  or it might be for the bonus campaign of the 25 puzzles selected from the contest . 
+  depends , the jro could allow you to forward a diferent number of numbers . 
+  like , maybe you want to forward three numbers from left , then five numbers from up . 
+  you could do ` mov 7 , right ; ( 3 more movs ) ` in the node to the left , and ` mov 5 , down ; ( 5 more movs ) ` in the node upwards . 
+  that is , if the semaphore node contains something like, 
+  jro any, 
+  1 : mov last , down, 
+  2 : mov last , down, 
+  3 : mov last , down, 
+  4 : mov last , down, 
+  5 : mov last , down, 
+  6 : mov last , down, 
+  7 : mov last , down, 
+  8 : mov last , down, 
+  9 : mov last , down, 
+  as far as i know ( that is , what i 've heard before ) , the document itself is copyrighted to notch , but not the architecture/cpu itself . 
+  that is , you should be able to use the cpu itself in e.g. 
+  a game , but would have to write your own spec . 
+  ( that 's how i understand it at least , ianal and such applies . ),

@@ -1,0 +1,100 @@
+  excluding `` open sourcing '' the . net stack has followed the same routine for a decade . 
+  i have watched a couple of videos and read a couple of articles . 
+  it sounds interesting but i can not think of a way that i can apply this in my job as an enterprise web developer . 
+  our services usually do not have a very many simultaneous users and there is nothing i can think of that requires distributed computing . 
+  am i correct in my assessment or there are use cases of these types of frameworks for `` boring '' projects ? 
+  i mean even for boring projects there is a use for the cloud but what about the actor model ? 
+  but decoupling it from windows does not result in cool tech like f # or typescript or improvements in visual studio . 
+  . net was always as cool ( or uncool depending on your opinion ) from purely tech point of view as it is today . 
+  open source and cross-platform are just politics . 
+  honestly my favorite part of my job ( which i admit is not the most interesting job ever ) is debugging . 
+  i love debugging mess code . 
+  of course while i do it i curse all the time but i finally admit i love it . 
+  i think debugging is the most interesting and creative work a regular programmer does . 
+  maybe carmack does creative stuff other than debugging but when working on crud enterprise applications with no notable algorithms or need for optimizations debugging is the joy i find at work . 
+  so long live bad code and death to unit tests !, 
+  no , my girlfriend did it . 
+  maybe it is about fun and not success, 
+  there are better alternatives . 
+  the concept of collectors is debatable in java and it outright sucks in javascript since in practice array is the only data structure you will ever collect into in js . 
+  that is the theoretical view . 
+  as someone who uses linq extensively i can say that in practice i use aggregate ( i.e. 
+  reduce ) 1 per ~ 300 calls to todictionary/toarray/tolist . 
+  i would be really pissed off if i had to do it this way every time . 
+  these exist ? 
+  all examples of streams for java i have seen use collect, 
+  this assumes that we need everyone to know how to code , which in my opinion is pure bullshit . 
+  if we follow this train of thought we should teach repairing cars and plumbing in schools . 
+  software development has the lowest barrier of entry of any non-physical profession . 
+  it is literally impossible to make the barrier of entry lower since you ca n't program without a working display no matter what . 
+  everyone needs to know physics because a lot of practical things depend on physics including programming ( of physics stuff ) . 
+  physics is science , programming is craft . 
+  school should teach practical science but not crafts ( unless it is a school that specializes in a particular craft ) . 
+  i am all for optional courses . 
+  in fact i think everything after 8th grade should be optional except math , native language and a foreign language . 
+  of course students must choose something , they ca n't just not study anything . 
+  ah sorry i did not notice that . 
+  i assumed it was literal port of java streams and just searched for the collect method in the source code to make sure it existed before commenting . 
+  of course everyone needs to understand spreadsheets . 
+  i do n't know how the universal value of working with a spreadsheet can be compared to the very specific craft of software development . 
+  problem is we have to teach everything and specialization of labor is one of the driving forces of society . 
+  this is why we teach core science and let people specialize on their own . 
+  it is a nice dream but i do n't think it will ever work that way . 
+  a little coding in schools will not make people capable of using these tools without learning them specifically . 
+  we do teach math . 
+  this is the `` basic writing '' equivalent of coding . 
+  kinect is just fine for gaming . 
+  i only use xbox for kinect games . 
+  of course the games are not any of the current games . 
+  if you want to shoot things kinect is not for this . 
+  also unless you are in very good shape there is no way to play kinect games for a long time . 
+  people downvoting your comment makes me sad i play a game shaped by this community . 
+  i bet they will be happy if there was no group selection like in dune 2 to increase `` skill '' . 
+  larva injecting is retarded however muling and chronoboosting do require some planning and the penalty of missing the right timing is pretty minor . 
+  with muling you need to make sure you save for a scan if needed and it can even make sense to call supply in certain situations . 
+  chronoboosting is incorporated in many builds so sometimes you save energy and often you need to really think what to chrono . 
+  both muling and chrono can be used at once if you missed them . 
+  two mules at once kind of makes up for that mule you missed and you can chrono several buildings at once as protoss . 
+  while saving energy to transfuse exists it is pretty rare thing . 
+  choosing where to invest attention is a feature of every action in the game so actions that do not require a decision are still stupid . 
+  you are correct but the less verbose syntax makes all the difference . 
+  in one case you use it in the other you do n't . 
+  simple as that . 
+  if it does n't have nice syntax it is unusable so basically they enhanced the use cases of anonymous classes 10 times . 
+  this is big . 
+  depends on what the method is designed for . 
+  if you try to find the object in the database and it may not exist you want the null value . 
+  this is why linq has single and singleordefault one throws if it does n't find the other returns null . 
+  so what ? 
+  the potential damage of misreading it approaches zero . 
+  ok then , what is c # 's main issue and how can the language design team solve it ? 
+  you ca n't return anonymous types from a method . 
+  except that this is not what history tells us about c # . 
+  btw you do not think even half of these will end up in c # 7 do you ? 
+  people do not appreciate the brilliant humor :(, 
+  the fact that xml was replaced by json for most of its uses points out that anders ( hallowed be his name ) was correct to ban this feature from c # . 
+  ok and how do you suggest they change the * language design * to make it first class on linux ? 
+  you seemed to be confused as to what `` language design '' means . 
+  ok , again , what should the c # language design team do to make c # better on * nix ? 
+  by definition they can not change the clr , they can only change how they use the clr by not using or adopting its features . 
+  approaches zero as the number of misreads approaches 0, 
+  ( if i did missed your point i am going to pull my `` not a native speaker '' defense ), 
+  as a c # user and teacher ( i.e. 
+  i teach a course and mentor several interns ) i strongly disagree that c # has any significant issues in this regard . 
+  sadly i need to step outside the bubble and write javascript every day :(, 
+  yes , maybe . 
+  but i only have extensive knowledge and some experience with java and javascript so ... 
+  but turns out mma is not the oldest . 
+  the marine has returned from retirement and wants to fight for his nickname . 
+  marine vs marine is a match as epic as hero vs hero, 
+  some marines died :(, 
+  so what are the good languages i should use ? 
+  seems quite obvious to me that these specific libraries do not count as language . 
+  the linq libraries , the arrays , strings and delegates are things built into libraries with specific language support . 
+  file handling definitely is not . 
+  btw c # has windows specific features . 
+  the compiler has support for com types but i am pretty sure it works on linux regardless . 
+  yes and this has nothing to do with c # . 
+  i enjoyed my limited experience getting to know some of those but i would like to stay employed . 
+  also scala has quite a bit more features and more complex features than c #, 
+  i expect them to .

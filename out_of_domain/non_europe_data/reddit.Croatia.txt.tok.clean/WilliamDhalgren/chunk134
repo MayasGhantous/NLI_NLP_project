@@ -1,0 +1,100 @@
+   the naive approach of predicting game outcomes from data consisting of complete games leads to overfitting . 
+  the problem is that successive positions are strongly correlated , differing by just one stone , but the regression target is shared for the entire game . 
+  when trained on the kgs dataset in this way , the value network memorised the game outcomes rather than generalising to new positions , achieving a minimum mse of 0.37 on the test set , compared to 0.19 on the training set . 
+  ** to mitigate this problem , we generated a new self-play data-set consisting of 30 million distinct positions , each sampled from a separate game ** . 
+  each game was played between the rl, 
+   value network : regression we trained a value network v\u03b8 ( s ) \u2248 v p\u03c1 ( s ) to ** approximate the value function of the rl policy network p\u03c1 . 
+  to avoid overfitting to the strongly correlated positions within games , we constructed a new data-set of uncorrelated self-play positions ** . 
+  this data-set consisted of over 30 million positions , each drawn from a unique game of self-play . 
+  in other words , the rl network already implicitly contains the evaluation of the position ; it is the resulf of self-play game ( s ) it would play starting with that position . 
+  that however is a relatively slow thing to evaluate - having to play out entire games on the fly . 
+  the value net then is merely the approximation to this evaluation . 
+  the self-play dataset is the unrolling of the implicit evaluation of the rl net into a form that can be used for training the value net to such an approximation . 
+  no further learning is happening whilst generating this dataset ; the rl net was finetuned in just one day prior to that - and given this extremely short period spend on it , presumably to convergence . 
+  the perfect valuenet is one that always correctly guesses which positions the rl net is capable of winning and no stronger , even in the limit of it having infinite examples of rl net games , and infinite capacity to its network - because only that is its training goal . 
+  perhaps its interesting to note that they 're quite conservative here in using just one move from each game , as ayamc reports using , think its 32 moves from each game and not complaining about overfitting . 
+  next step in the iteration of alphago has to be more interesting than this recipe in the nature paper then ; perhaps better networks to be able to learn from more data/to learn more subtle patterns , and certainly players stronger than a mere rl net as described in the paper to generate the datasets - possibly a truncated nature 's alphago engine itself , using at least some search and so necessarily much much more compute ? 
+  right agreed ; the key to getting alphago from the strength it had in the nature paper to master ( p ) has to have been in generating a huge dataset of much much stronger games to train the value nets on - and not just a bigger one . 
+  and we can only guess exactly how that was done . 
+  i just like to emphasize it ca n't be just `` more of the same '' of the approach in nature 's paper ; it needs at least one extra twist not described to keep improving further . 
+  um , i ** think ** its against this site 's policy to make polls by asking for upvotes ... 
+   because the neural net query is basically a constant-time operation , whereas the mcts runs as long as it can to continue finding better moves . 
+  that it would find litte purchase from rollouts at this level - this seems rather likely . 
+  but you seem to forget that , mcts or no , the neural nets of alphago make up a tree search algorithm themselves too , so doing everything by the nets does n't mean it can do it in one nn evaluation . 
+  and a searchless algorithm giving something like master ( p ) ? 
+  an approach that does no reading at all ? 
+  hell , that 'd be more of a news than alphago itself , and more of a surprise too , since nothing searchless ever demonstrated more than 3-4d kgs strength ( at best ) . 
+  furthermore , we 'd have every reason to expect a tree search version based on such a neural net would be signifiantly stronger - because it can read . 
+  these ~ 3d kgs networks , when applied to a tree search gave nature 's version of alphago - quite a boost , then , no ? 
+  rollouts themselves giving just a couple of stones to that huge span of strength improvements . 
+  in fact you can say that the genious of the value net was to enable the transfer of positional judgment rl net developed to a tree search framework . 
+  a net can bias the moves to be considered and/or evaluate any considered moves fully , but the point is to build up a tree in memory , or promising moves and promising responses to moves , and promising responses to responses etc. 
+  those are apparently now richard 's top priorities for 8.2 , after they 've punted on type vs constraint thing for this release cycle , according to this mail http://mail.haskell.org/pipermail/ghc-devs/2017-february/013712.html, 
+  ohh , sry ; saw it being high priority and owned by goldfire but did n't notice the explicit bump to 8.4 . 
+  well there 's still hope ; depending how quickly the other stuff gets merged i guess . 
+  orf stuff seems to have a good chance of getting merged apparently so maybe there 's time then . 
+  it 's ofc great when free software is indeed superior and most people want to use it because of it . 
+  it 's rather shitty however to suggest you really should n't use free software merely because its the less popular choice - presumably not because its a particularly bad product , but merely because of what wrong presumptions other people are supposedly likely to make about you the person on the basis of choosing to use - free software !? 
+  like , can you possibly give a shit about the opinions of such apes ? 
+  i think its rather great to personally prefer free software over proprietary alternatives even when its not particularly better , or actually is somewhat worse , on principle alone . 
+  awesome !, 
+  soo , what 's on the repertoire & who 's playing ? 
+  they have n't published their metodologies yet - nothing that allowed them to go beyond the nature paper level that is , which is indeed replicable ( as deepzen roughly does , for eg ) . 
+  if they open their up-to-date training datasets , yeah ag-level play for bots will become normal . 
+  else , its gon na take quite some time to reach this peak again . 
+  indeed . 
+  new/testing versions of hiro , aya , oakfoam , ray , leela , darkforest and ofc zen are all neural and beyond 5dkgs , which used to be a rare rank for a bot ( with just zen and crazystone reaching 6dkgs before the advent of policy networks ) . . no news of what crazystone 's been up to . 
+  then there 's abacus and dolbaram that afak still have no publicised nor publicly tested neural versions . 
+  and we supposedly have a number of chinese bots based on ag 's published work . 
+  anyhow , so you 've got just 3 bots of reasonable strength that are not ( known to be ) neural yet . 
+  but there 's quite a difference between what most of these can do and where ag reached , and w/o big datasets for training value nets getting published , gon na be hard for these projects to do it ; its mostly one or two programmer projects that can hardly afford the compute needed for generating that data . 
+  interesting - so a china mieville novella was on a puppies slate ? 
+  that seems bizzare . 
+  i do n't get it - the article says they seem to have found stromatolites ? 
+  but wait , are n't those deposited by already highly complex diverse prokaryotic ecosystems ? 
+  surely that is an already significantly evolved kind of arrangement , so why would finding them anywhere suggest that kind of place to necessarily have anything to do with life 's origin ? 
+  prokaryotes are incredibly inventive in chemistry , but they have always been incredibly stagnant when it comes to morphology . 
+  they can invent photosynthesis , but are so inflexible in basic shape not to even be able to evolve to envelop another cell in order to eat it . 
+  the really bizzare leap in complexity in the evolutionary history might be / seems to be the invention of the eukaryotic cell , maybe 1.6 - 2 billion years ago . 
+  after that , ( true ) multicellularity does n't seem to be an incredible stretch , given that it happened independently multiple times . 
+  but making a complex cell happened exactly once for all the billions of years before or since , and seems to be a uniquely improbable event of large-scale genetic hibridization between 2 maximally evolutonarily distant organisms , an archaea and a bacteria , that does n't end in an unlivable mess . 
+  so nothing really changes here ; you had indications of prokaryotes existing at least 3.5 billion years ago - possibly as early as 4.2-ish billion years ago - already , and you had a near-complete stagnation in their morphology ( though not chemistly ) ever since , up to the present day . 
+  do you have any reason to think his chances had to have been higher than 5 % ? 
+  think its rather more reasonable to base election bets on actual data instead of mere impressions ; and there lots depended on the details of the model ( correlations between states ) , but 5 % would not be unheard of . 
+  that 's surprisingly early ; did n't think it was that obvious before late 2014 , when clark & storkey published their results on move prediction . 
+  and even then the computer go community could n't really push really far beyond by just using such a better move predictor for a whole year ( zen got 1 stone stronger i think ; though that was nice ) , when the nature paper described its neural positonal evaluation . 
+  i think the computer go community at least really did n't see this having this dramatic an impact . 
+  possibly because the common wisdom focused on better rollouts as opposed to again trying to evaluate a board , since that shift in perspective gave the field its previous large jump . 
+  that depends . 
+  some games of imperfect information seem to work decently if you approach them with just say a perfect information monte carlo tree search with some tweaks , yet in others it seems you need a more principled approach to imperfect information . 
+  kriegspiel and some classic trick-taking games like bridge and skat seem to be approachable as if they were a perfect information game ( and then hacked around some of the limitations ) , yet something like poker not really . 
+  there 's a discussion of why such a theoretically wrong approach possibly could work as well as it seems to in practice for some imperfect information games but not in others in chapter 5 of this theses on kermit , a skat playing bot :, 
+  but having `` vision '' would suggest it will honor visibility constraints in its planning ? 
+  that alone is a somewhat significant difference compared to a perfect information game like go . 
+  they did say alphago sees a slight advantage to white with 7.5 komi ( and chinese rules , i guess ? ) . 
+  supposedly ke jie asked to play white in the last game quoting that statement of theirs as the reason , so as to be able to give his best performance ( and besides he also believed white is favored even before ) . 
+  8/10 does n't seem slight , so i 'd guess the advantage 'll go down substantialy but not disappear for the whole sample . 
+  presuming these are pro ranks which given the context they must be ( he said : if lee sedol is 9 dan ... ) my back-of-the envelope basically agrees w 20ish p , and this reasonably nicely lines up with ( slightly deflated ) self-play differences between alphago versions , despite reservations about extrapolating from those to strength vs humans . 
+  basically it has to have something like 3 amateur ranks beyond human capability for a 64-0 streak ; even that seems somewhat optimistic ; and if 1d = 3p , you 're already at 18p by then . 
+  and even from its self-play results you would n't expect to have beyond 4 amateur ranks more than humans , so that 's close enough for a back-of-the-envelope . 
+  couple of bots are somewhere between alphgo-fanhui and alphago-leesedol . 
+  already . 
+  that range is about 3 ranks in self play . 
+  for the next 3 ranks , seems google is saying the big thing was using self-play of the entire alphago algorithm , tree search itself , rather than just of a single network ( a tuned policy net ) to produce the value net training examples . 
+  others can do that too right now , if they 're prepared to pay the electricity bill ; its not going to be that cheap ... 
+  and ofc the fact google 's going to publish their own architecture tweaks wo n't hurt . 
+  if there 's enough money in all this - and that 's really my main concern - then we should quickly be flooded with master-class bots . 
+  if not , maybe we need something like seti@home to generate the games . 
+  this has to be one of the most disgusting examples of moderator abuse i 've seen publically admitted to on a subreddit . 
+  sir , your actions make me truly sick !, 
+  clearing one 's history redifined as spam , and an obligation to be `` comfortable maintaining history on an account '' -- is this reddit or facebook ffs ? 
+  this fucking service used to have ( at least ) a fair understanding and even support of user 's need of pseudonimity and privacy , and a desire to clear one 's history naturally follows from this . 
+  and claiming deletion of posts is spam is absolute nonsense ; how can removal as opposed to unsolicited sending of communications ever be considered spam ? 
+  give me a definition of spam remotely linked to that word 's meaning in normal use where the witholding of communications , motivated by the desire of personal privacy can possibly qualify ?? 
+  this is orwellian nonsense !, 
+  i hope your moderator privileges are permanently revoked asap , as your actions are a disgrace to this sub . 
+  i rarely have a need to post anything , and probably little of substance to write here either , but just ca n't resist the urge to share my fresh impressions on attempting to quit smoking , using an ecig . 
+  so a tldr is just : having largely given up on the hopes on being able to quit any time soon , this unexpected twist is turning out to be a painless , and moreover even an absolutely delightful experience !, 
+  and more backstory :, 
+  so this saturday , an ecig shop opened right across the street where i volunteer , hang out , and generally spend most of my non-working hours . 
+  prompted me to go on an internet excavating expedition , which seemed quite promising .

@@ -1,0 +1,100 @@
+  make the northern part sami , and the southern part novgorodian . 
+  something all the uralic peoples can unite over : getting terrorized by the russians, 
+  well , us hungarians were also terrorized by the austrians and ottomans more , but we 're not gon na discount 1848 , 1949-1991 , etc. 
+  although the 1960s onward were relatively cordial . 
+  i 'm mostly salty on behalf of karelia , though . 
+  but ... * everyone * in southeast asia is partially descended from the java man , are n't they ? 
+  is this guy like that extremely drug-tolerant artist who had exceptionally large amounts of neanderthal dna ? 
+  0.6 sdes !, 
+  yes !, 
+  sounds like the original jersey, 
+  this is bad for your uterus i think ? 
+  i seriously doubt that microsoft shills make a significant impact on votes any of the time, 
+  i am a hungarian who used to live on the slovak border . 
+  here are some 130 % true facts about slovaks :, 
+  - they are all conceived , birthed , and baptised in barns . 
+  - they drink 10 liters of alcohol for every liter of water they drink . 
+  - this alcohol is often in the form of p\u00e1linka , but slovaks would never admit to liking something hungarian . 
+  - slovaks ski and skate often , and get pointlessly upset about hockey , which is an inconsequential sport for morons . 
+  they do this skiing and skating in popr\u00e1d , which is where everyone else goes for a winter holiday as well ( if austria is too expensive ) . 
+  - they hate the fact that the southern third of the country is made of hungarians , so they do whatever they can to be able to pretend that they do n't exist . 
+  - slovak is not a real language . 
+  it is just badly spoken czech . 
+  - similarly , slovak is not a real nationality , either . 
+  slovaks are just a lineage of czechs who had hereditary mental illnesses and were concentrated by force in the south . 
+  i thought it was caviar, 
+  the slivers thing is kind of like going scuba diving in a place where there are bioluminescent plankton . 
+  fun . 
+  there 's something about the aesthetic that 's so cool . 
+  keep doing this !, 
+  ( i like hockey very much , but not understanding why people get all worked up about hockey is integral to stereotyping slovakia ), 
+  well , there 's rakija and so on , and it would be foolish to pretend that it did n't originate in the carpathian basin or even the balkans somewhere , but claiming that it 's hungarian is a vital component of hungarian nationalism , which i was trying to emulate here somewhat . 
+  yes , and it 's also a [ nationalist song 's lyrics ] ( https://www.youtube.com/watch?v=ortfuczkpo0 ), 
+  i know which map you 're talking about , it was in cod4 . 
+  ca n't remember name either, 
+  wow , people on the internet are terrible at differentiating what is meant to be funny from what is meant to be factual, 
+  would n't the odds be significantly greater because of this process ? 
+  nice of it to take the little crevice instead of a seat, 
+  huh ? 
+  13/14 = 92.8 , which on the standard american grading scale is an a. 
+  and that 's if you round down both sides . 
+  damn , is this from the first scene of * rebel without a cause * ? 
+  that 's an * old * reference . 
+  wait shit no, 
+  i guess it depends on how you grade it . 
+  i personally would n't square it , that 's cruel . 
+  hell , west of the danube . 
+  it would n't look out of place in western hungary . 
+  wait i never read this but i know it 's well-regarded . 
+  why should i read it ? 
+  is it entertainingly bad ? 
+   rounding down the numerator decreases the fraction 's value . 
+   rounding down the denominator increases the fraction 's value . 
+  indeed , but the numerator has a fractional component of 0.6 or so , while the denominator has a fractional component less than 0.1 . 
+  it 's all probably within the margin of error . 
+  if i truly had to grade it , i 'd give it a 100 % . 
+  what ? 
+  ( it 's one fourth of ( 2 cm ) ^ ( 2 ) , but that 's entirely not what 's being discussed here . ), 
+  i thought i might have missed the original measurements being some linear component , in which case squaring would make some amount of sense , but they 're not . 
+  it 's just two areas . 
+  so squaring it makes no sense at all . 
+  the more obvious badling here is that they 're not recognizing the cultural and historical value of linguistic diversity . 
+  the extinction of all the world 's languages would be extremely sad . 
+  unrelatedly : is n't news article comments sort of low-hanging fruit ? 
+  technical limitations, 
+  ### comments, 
+  title explains everything . 
+  neat how they form a belt across asia and across the western americas . 
+  notice that wikipedia does n't like tagging african or philippine languages as agglutinative , for some reason , even though both locations contain an abundance of them . 
+  meanwhile they tagged every single obscure andamanese language , including sentinelese which we know nothing about ? 
+  tsk tsk tsk . 
+  also , glottolog 's locations are * very * approximate sometimes . 
+  you 'd be hard-pressed to find a mansi speaker north of where the ob splits in two , and west of yugorsk , yet look where the hell it puts it . 
+  again , though , it freaking nails the andamanese languages , which do n't even exist anymore ... 
+  ### disclaimer, 
+  `` agglutinative '' is a subjective judgement , and wikipedia is not the best at linguistics . 
+  the article `` old european hydronymy '' is tagged as an agglutinative language ffs . 
+  wals online has a less subjective dataset that goes on two axes ( affixation and fusion , basically ) , but it 's even sparser than this one . 
+  ### recipe, 
+  i used scripts to make this , but they were all in the console . 
+  here 's the gist of it :, 
+  ask wikipedia to export the `` agglutinative languages '' category, 
+  ask glottolog for the languoids csv file, 
+  run the following python :, 
+  import subprocess, 
+  ids = subprocess.call ( r `` cat wikipedia-20160206071531 . xml | grep - o - e ` glotto = [ a-z ] \\ + [ 0-9 ] \\ + ' | grep - o - e ' [ a-z ] \\ + [ 0-9 ] \\ + ' '' , shell = true ), 
+  out = '', 
+  for id in ids :, 
+  try :, 
+  location = subprocess.check _ output ( r `` cat languoid.csv | grep '' + id + r '' | grep - o - e ' , - \\ ? [ 0-9 . ] \\ + , language , - \\ ? [ 0-9 . 
+  ] \\ + ' '' , shell = true ), 
+  location = location.split ( ), 
+  out + = location [ 0 ] + '' '' + location [ 1 ], 
+  out + = '' { '' + subprocess.check _ output ( r `` cat languoid.csv | grep '' + id + r '' | grep - o - e ' , language , [ ^ , ] * , [ ^ , ] * , [ ^ , ] \\ + ' | grep - o - e ' [ ^ , ] \\ + $ ' '' , shell = true ) [ : -1 ] + '' } \\ n '', 
+  pass, 
+  file = open ( `` out.txt '' , `` w '' ), 
+  file.write ( out ), 
+  file.close ( ), 
+  then just copy and paste the contents of the file into the `` bulk add '' box of mapcustomizer , and there you have it . 
+  this could be done for any wikipedia category that contains languages . 
+  i do n't recommend it , though , because wikipedia is not the best at linguistics ( although it certainly tries ) .

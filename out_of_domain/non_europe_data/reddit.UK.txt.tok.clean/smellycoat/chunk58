@@ -1,0 +1,100 @@
+  the modification only happens while the modify headers window is open , so you can close it when you 're done and firefox will go back to normal . 
+  thanks . 
+  but , $ 30 to replace something tiny ( and free ) with something that appears to do a load of things i either do n't really care about or already have covered does n't seem like an offer i 'm going to take up , 
+  well , you got ta understand a bit about http requests to understand what this is doing and why it helps . 
+  when you click a link , bookmark , or type something into your browser 's address bar , your browser looks up the ip address associated with the domain , connects up to it on port 80 ( the default for http requests , although this can be overridden in the url ) , sends an http request , and waits for the server to respond with a web page , or an image , or whatever you were requesting . 
+  it 's a bit more complicated than that , particularly when you get into the subject of caching , but that 's the basic gist . 
+  here 's an example request ( taken from my browser a moment ago ) :, 
+  user-agent : mozilla/5 .0 ( windows ; u ; windows nt 5.1 ; en-gb ; rv :1.9.1.7 ) gecko/20091221 firefox/3 .5.7, 
+  accept : text/html , application/xhtml + xml , application/xml ; q = 0.9 , * / * ; q = 0.8, 
+  accept-language : en-gb , en ; q = 0.5, 
+  accept-encoding : gzip , deflate, 
+  keep-alive : 300, 
+  connection : keep-alive, 
+  referer : http://www.reddit.com/, 
+  the very first line is the actual page you want to get . 
+  in this case it 's ' / ' , the homepage ( i clicked the reddit logo while already on the reddit homepage for this example ) . 
+  following that are a bunch of headers which give the server more information about your browser and the request itself . 
+  for example , there 's a ` host ' header , this tells the server the domain of the url you 're trying to get at , and is the thing that allows you to run more than one website on a single ip address . 
+  after that there are a load more headers telling the server about your browser , what documents it can handle , etc. 
+  i wo n't go into detail , but all the officially supported http headers are described [ in the rfc ] ( http://www.w3.org/protocols/rfc2616/rfc2616-sec14.html ) . 
+  the important one that we 're interested in is the last one . 
+  the ` referer ' header ( it was spelt incorrectly in a really early version of the http spec , and has stayed that way ever since for backwards-compatibility ) . 
+  this contains the url of the page you `` came from '' , ie the page that contained the link you clicked to get to the page you 're requesting . 
+  it also works for images ( since these are requested separately ) . 
+  browsers all put these in automatically , although there are several situations when the browser ca n't put anything useful here ( eg , if you typed the url directly into your address bar ) , in which case , the header is omitted entirely . 
+  this is the information that twitpic.com uses to identify requests that have come from pingwire.com , and ban them . 
+  but , fortunately for us , the browser is running on our own machine , and so is under our control . 
+  the ` referer ' header is the only thing the server can use to identify where the request `` came from '' , so by modifying it before the browser makes the request ( which is what the modify headers plugin is for ) we can trick the server into thinking the request did n't `` come from '' pingwire.com . 
+  so it works properly . 
+  the daily show thing is similar ( i use it for that as well  ) , but it uses a different header , which has a different meaning . 
+  the header in this case is ` x-forwarded-for ' ( the ` x - ' prefix indicates that it 's not an official http header , however it is well known and commonly used ) . 
+  this header is something that proxy servers insert into requests to tell the server where the request originally came from . 
+  it 's saying `` i forwarded this request on behalf of this other ip address '' . 
+  all you 're doing is adding an ` x-forwarded-for ' header , along with an ip address that its region-limiting thing is happy with . 
+  ( oh , a proxy server is a server that sits in between you and the outside world , you send requests to it , and it makes the request on your behalf and sends it back to you . 
+  they 're commonly found in businesses , schools , etc , where the administrators want to control internet usage . 
+  the header is added by the proxy so if you 're up to no good , the server administrator can still work out who you are , even though you 're using a proxy - it 's primarily an abuse-prevention mechanism ), 
+  by adding an ` x-forwarded-for ' , you 're tricking the server into thinking you 've come via a proxy . 
+  so it 's ignoring your actual ip ( thinking that it 's a proxy server ) , and using the fake ip address that it thinks is your real ip to do it 's geolocation and country-limited stuff . 
+  this is actually a major security fuckup on the part of whoever was in charge of their server security , since the header is under the browser 's - and therefore the user 's - control , and can be fucked with ( as you have learnt ) , so any competent webmonkey should know they really should n't be trusting it to contain accurate data . 
+  thanks , 
+   so does ` x-forwarded-for ' mean that you can pretend to be coming from anyone 's ip ? 
+  not really , only if the server software is particularly gullible . 
+  any halfway competent developer should know not to trust request headers that came from the user 's browser . 
+  the daily show site just happens to be daft enough to fall for it ( the same technique , unfortunately , does n't work for other stuff like hulu ) . 
+  well this should be pretty easy to sort out , as it just requires a double-blind trial to identify if this crazy dude 's apparent `` allergies '' are bullshit or not . 
+  a proper trial would be reasonably easy , but to get conclusive results certainly needs to be a bit more complicated than that . 
+  first you 'd need to arrange a test environment where there were absolutely no wifi signals ( or other interference around that wavelength ) . 
+  you 'd probably need the guy to agree that the room was free from any signals and that he was happy to sit in there for an extended period of time . 
+  you 'd also need to agree a test duration up front . 
+  that is , the length of time the dude needs to be exposed to the signal to be able to detect it , plus a bit extra for safety . 
+  i ca n't see any reason why each test could n't be cut short if the subject decides he `` ca n't stand it '' . 
+  tests can be performed randomly , for the agreed duration ( or until the subject decides he wants the individual test to stop ) , some with a strong signal present in the room , some without . 
+  it 's important that neither the subject , nor anyone interacting with the subject for the duration of the tests knows whether the signal is on or off . 
+  then repeat , several times . 
+  do it enough , and you 'll end up with some raw data that either proves or disproves that this guy can detect the presence of wifi , which will be extremely useful ( and probably make or break the case ) for one side or the other . 
+  however , chances of the dude agreeing to have his bullshit allergy tested properly are pretty minimal , unless he really is convinced he has a real problem with this stuff . 
+  yeah , but in order to actually prove whether someone is or is not noticeably affected by a wifi signal , you need to test it without any other variables . 
+  the trial you mentioned might prove that people respond to little red lights that they believe mean something , but does n't go any way to proving or disproving that someone could be physiologically affected by exposure to a wifi signal . 
+  not that i 'm suggesting i believe such things are possible . 
+  but , well , this is science , dammit . 
+  you got ta do it right , 
+  if anything , the presence of the red light amplifies the placebo effect - it signifies when the subject * should * be ` feeling ' something . 
+  simply blinding the test ( ie , running a series of tests with the signal randomly on or off , and not telling the subject or any testers interacting with him whether it 's on or off ) is enough to counteract these effects . 
+  that is , tests that are run with the wifi off are the equivalent of the placebo control in a drug trial . 
+  adding another variable makes it far harder to accurately test . 
+  adding the red light simply changes the test from `` is the subject physiologically affected by wifi signals '' into `` can the subject be mislead into feeling some non-existent phenomena with the right cues '' . 
+  the former is , in my opinion , the more important question to answer ( the latter having been answered several times before  ), 
+  you know why , right ? 
+  getting killed 5 times in a row by the same bastard sniper is so damn frustrating i have to go spy for a coupla rounds just to kill you in the face ( or , well , the back ) a few times , 
+  i do rather like that idea , i have to say . 
+  probably a bit too much to insta-gib ( would mean spies just ignore dispensers that are n't clearly being used , and anything that can make you randomly die is n't much fun ) . 
+  but having it explode and set the spy on fire instead would be very amusing , 
+  the few times i 've used that just meant i got ambassadored in the temple instead of stabbed . 
+  to be honest , i do n't see that many snipers using it . 
+  jars of piss are way more fun , 
+  i love the idea , but i suspect it 'll need some serious balancing to make it anything less than ridiculously overpowered . 
+  i imagine valve would be more interested in making engies more fun for offensive play rather than making them better at defence . 
+  i 'm reading it at the moment ( based on a recommendation from reddit ) !, 
+  now i shall ignore the rest of this thread for fear of spoilers !, 
+  if you 're not overclocking , then you do n't need to drop tons of cash on expensive ram . 
+  it 'll just be wasted running at stock speeds . 
+  kingston value is fine , i 've used it a few times , never had any trouble . 
+  thanks man , that clears up a lot of confusion . 
+  google have stated several times ( during discussions about mandating a video codec in the html5 spec ) that they 're not particularly interested in implementing theora , because h264 gives far better quality at a given bitrate . 
+  so , i ca n't see that happening . 
+  maybe as an experiement . 
+  they were willing to cause trouble for the html5 recommendation process in order to keep theora out of it , so i doubt they 'll be willing to do it now . 
+  i think you 're on the money there , man . 
+  they 've said before they 're not happy with the bitrate/quality of theora , and h264 is a problem for some browser vendors ( mozilla , basically ) due to copyright/patent/licensing issues . 
+  so the obvious solution is for them to make an open codec that 's `` good enough '' for them to use with youtube as a replacement for h264 , but without the licensing problems that stop others implementing it . 
+  bollocks . 
+  pretty much anyone can do pretty much anything - including design - if they have enough enthusiasm/incentive to practice it enough . 
+  practice is the key , not talent . 
+  now i 'll possibly agree that it takes some degree of `` innate talent '' to be be * truly great * at whatever-your-chosen-profession-is , but anyone with the will can become good enough at most stuff to build themselves a career , for example . 
+  here 's what hixie said about it when he [ announced ] ( http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2009-june/020620.html ) the html5 spec would n't be able to mandate a codec ( emphasis mine ) :, 
+   google has implemented h. 264 and ogg theora in chrome , but can not provide the h. 264 codec license to third-party distributors of chromium , and have ** indicated a belief that ogg theora 's quality-per-bit is not yet suitable for the volume handled by youtube . 
+  so whether it 's true or not , that 's the reason google have cited for not using theora for youtube . 
+  edit : [ hixie thinks h264 is better too ] ( http://www.reddit.com/r/programming/comments/8xeo9/hixie_on_the_lack_of_codecs_for_audio_and_video/c0aqpfh ), 
+  * install [ modify headers ] ( https://addons.mozilla.org/en-us/firefox/addon/967 ),

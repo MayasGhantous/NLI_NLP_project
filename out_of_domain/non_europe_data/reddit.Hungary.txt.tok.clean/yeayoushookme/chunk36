@@ -1,0 +1,100 @@
+  the base system without the raid pool was had for a little more than 100 $ . 
+  16 gig is more than enough for your rootfs if you leave / home on spinning rust . 
+  you 'll see faster bootups , and programs will also start significantly faster . 
+  source : i recently migrated my 6gb root filesystem to a 30gb ssd . 
+  i 'd recommend leaving / var on the ssd . 
+  it sees some syncronous writes that will bog down a hard drive . 
+  you can expect the ssd to cope with it for many years to come . 
+  what if they drank vodka instead ? 
+  life finds a way . 
+  did you trim ? 
+  the os needs to periodically signal the ssd controller which blocks are free , and apparently this is n't done automatically in android . 
+  due to wear leveling , the controller translates logical block positions , and it 's completely unaware which blocks are free of not . 
+  so once you write 16gb in total to your device , the controller will start to churn the device by running read-erase-write cycles instead of simply writing to the flash . 
+  run this in a terminal emulator as root :, 
+  # fstrim - v / data, 
+  it will trim the data mount point . 
+  you can repeat it for other mount points in your root filesystem , like / system or / cache . 
+  i 'm not sure where / sdcard is mounted ( i no longer have a n7 ) , but if it is n't bind mounted to / data , you may have to run fstrim on it as well . 
+  how could a unit of measurement get any more silly ? 
+  lol, 
+  should be horspower-fortnights ( 1 hpfn = 902mj -- conversion error is only -57.9825 decibels ), 
+  this could be a file permission error : it 's trying to download something to a place where it does n't have write permission . 
+  check logcat , it should be spamming the logfile . 
+  clearing the app data , and emptying your / cache should almost certainly solve this . 
+  a realtime kernel will only guarantee that audio gets processed without dropouts at the specified buffer size ; it wo n't improve the quality of the playback . 
+  using a regular kernel with a higher buffer size / latency will give you better performance , while achieving the same level of audio playback quality . 
+  so long as you 're using alsa directly , your audio interface will recieve the correct pcm data , assuming the interface supports the playback format of the file . 
+  pulseaudio , the default audio server in most distros , is capable , via the * alternate-sample-rate * setting , of using two predifined sample rates to avoid resampling when practical . 
+  it fails if you want to use a third sample rate . 
+  however it should resample to the predifined one that 's an integer multiple/dividend of the original ( default : 44100 , alternate : 48000 , file : 192000 will resample to 48000 ) . 
+  as a linux user , i doubt that i could improve the quality of my dac by using another kernel/distro . 
+  i 'm awaiting contradictory arguments . 
+  gain is cheap . 
+  you get five tl081 's for a buck , and they have a lot of gain . 
+  get an amp that sounds good , and worry about gain if it does n't have enough distortion when you turn it up to 11 . 
+  spiritualism master race, 
+  dirty materialistic peasants, 
+  the damn thing needs an xorg.conf . 
+  here 's mine ( paste it to ` / etc/x11/xorg . conf.d / 20-nvidia . conf ` ), 
+  section `` device '', 
+  identifier `` geforce '', 
+  driver `` nvidia '', 
+  endsection, 
+  every time i try to use sftp i expose my entire filesystem to anyone trying to login . 
+  what 's up with that ? 
+  that 's a ground loop , a smps should n't have hum . 
+  too many things are connected , to power outlets too far away . 
+  better say goodbye to those files while you still have them . 
+  i hope they wo n't be missed when the drive craps out . 
+  mpd 's great . 
+  it also doubles as a streaming music server ( supports opus and vorbis ) . 
+  love it . 
+  unfortunately laptop screens are freking terrible ( inaccureate colors , contrast ratio below 100 , bad viewing angles ) . 
+  $ 37 plus the work involved is way too much for this kind of a project . 
+  just try it !, 
+  what 's the worst that could happen ? 
+  ^ ( tip : you 'll probably blow both amps ), 
+  all that expensive equipment , just to power a pair of box speakers placed ridiculously close to the corner of an untreated room . 
+  well , you could install xp . 
+  ^ ( j/k ), 
+  parallel can also replace most loops as well . 
+  i use it even when it makes absolutely zero sense , because it 's so hard to get the syntax wrong . 
+  if you have a display that supports hdmi-cec , you can control xbmc with the remote that came with it . 
+  reddit has spoken . 
+  let 's make something clear . 
+  microsoft already makes money with every android sale . 
+  a mobile that can boot both android and windows will make them more money than those that only come with one os . 
+  how could they not want such devices to succeed ? 
+  android is as secure as it gets . 
+  apps have a place to write stuff that only they can read , and no other app . 
+  whatsapp made the decision to write the logs to the folder that can be read and written by every app that has permission to the storage drive . 
+  for its majestic file dialog . 
+  thanks apple for paving the way for alternative technologies to emerge !, 
+  for those of you calibrating your home theater screens , 14 foot lamberts is 48 cd/m ^ ( 2 ) . 
+  ^ ( whether it is 14 one foot lamberts , or a single 14 foot lambert , i do n't know ), 
+  you only need linux ( the kernel ) . 
+  drivers for standard usb audio devices are included . 
+  edit : i guess you also need a music player app . 
+  whatever comes with the gui of your choice will play mp3 's , so no need for any special software whatsoever . 
+  you speed it up 10x times , and reduce the volume by 6db . 
+  edit : / u/doougle has it right , you should convert to mono as well . 
+  * you 're tearing me apart , nvidia !!!, 
+  two machines - a pc and a htpc - one using nvidia , one with nouveau , and both tear whenever they get a chance . 
+  might be something with the new xorg server . 
+  apparently , it can be fixed by disabling compositing , which is unfortunate on a desktop computer , but it fixed my htpc , which has been rendered useless by this bug . 
+  create a ` / etc/x11/xorg . conf.d ` directory , and add this to ` / etc/x11/xorg . conf.d / 20-nouveau . conf `, 
+  section `` extensions '', 
+  option `` composite '' `` disable '', 
+  endsection, 
+  i also have this in my xorg.conf file , which may or may not be necessary :, 
+  section `` device '', 
+  identifier `` nvidia card '', 
+  option `` glxvblank '' `` true '', 
+  endsection, 
+   intel dual-core celeron 1037u processor , nm70 chipset, 
+  cpu 's powerful enough , and the board has hardware video decoding . 
+  it should be able to run plex / xbmcbuntu just fine . 
+  also , very , very cheap hydroelectric power . 
+  running the cpu heats the phone up , and heat kills batteries . 
+  this app will have an unreasonable environmental impact for a couple of rounds of calculations , that could be done about a hundred times faster on a pc .

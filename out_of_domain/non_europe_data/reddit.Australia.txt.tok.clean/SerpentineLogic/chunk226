@@ -1,0 +1,100 @@
+  try not to reuse variables like ` input ' . 
+  depending on your coding style , you probably do n't need that variable at all ; just go ` verificationcode = scan.nextline ( ) ; ', 
+  as indicated , putting lots of code in main ( ) is not good oo style . 
+  you would have lots of methods in evemonitor , like methods like, 
+  * parsekeyid ( input ) - i note you 're not handling strings that do n't parse to integers, 
+  * parseverificationcode ( input ), 
+  * getaccountstatus ( keyid , verificationcode ) to encapsulate all that messy api-related try/catch stuff, 
+  * calculateremainingdays ( datetime in ) ( hint , check out days.daysbetween in the joda library because if you need to strip data from a string representation of a joda object , you 're probably doing something wrong ), 
+  to be fair , vanity stuff usually does cost stupidly unrealistic amounts of rl dollars , otherwise it would n't be attractive to pose in . 
+  sure , no problem . 
+  does n't the address show up in google maps ? 
+  ok , well i 'll do what i can . 
+  to be fair , his aussie accent is pretty strong . 
+  if you 're going to pony up with some cash , you 'd want the [ full-on effects ] ( https://www.pathofexile.com/shop/category/armour-effects ) . 
+  personally , i 'd love some kind of blue laser rifle , or a back banner with ` free hugs ' written on it for my logo suit . 
+  well , the exchange rates have fallen through the floor . 
+  it used to be that 1 dust isk was worth ~ 5.7 eve isk . 
+  these days , you 're exceptionally lucky to get parity and it 's still heading south . 
+  fenrir :, 
+  * shield : 5,625 hp, 
+  * structure : 100,000 hp, 
+  * 80m/s, 
+  * fastest , most agile hauler ( this makes a big difference btw ), 
+  * shield : 5,313 hp, 
+  * structure : 120,000 hp, 
+  * 65m/s, 
+  * most structure , middle-of-the-road otherwise, 
+  providence :, 
+  * shield : 5,000 hp, 
+  * structure : 112,500 hp, 
+  * 70m/s, 
+  * most armour , middle of the road , looks sexiest, 
+  * shield : 6,000 hp, 
+  * structure : 106,250 hp, 
+  * 60m/s, 
+  * most cargo capacity , freaking slow , often mistaken for a hard drive . 
+  personally , i like the fenrir because it hauls a fair bit faster , but who knows what will happen once freighters get rig slots . 
+  i have a lot of respect for hans in particular . 
+  i think it 's no coincidence that he stopped blogging about dust about 6 months ago and clammed up . 
+  i strongly urge you to use your gap year ( between high school and uni ) to backpack around uk/europe and/or canada , check out the places , see some cool things , meet some strangers and have some fun . 
+  for bonus points , go somewhere in the developing world , too ( cambodia etc ) , to get some perspective . 
+   ` cunt ' is used regularly in public and is not always a bad word . 
+  results may vary wildly if you try this in polite company . 
+  another guy on the forums is offering one eve isk for *** ten *** dust isk . 
+  ouch . 
+   shows the confidence people have in dust right now , 
+  i think it 's probably the realisation the ccp is incredibly unlikely to let dust players transfer their mountains of isk to legion . 
+  you 're willing to give him a billion dust isk for one hundred million eve isk ? 
+  i 'll do it for 101m . 
+  i just like arbitrage . 
+  would prefer it to be a variant of salvaging . 
+  i 'd rather wash my neighbour 's car . 
+  and i * hate * my neighbour . 
+  perhaps ... a salvaging [ escalation ] ( https://wiki.eveonline.com/en/wiki/escalating_encounters ) ? 
+  tools of assassination . 
+  how appropriate . 
+  valkyrie is a dogfighting game with a small progression system . 
+  it 's not really meant to be an mmo ( or at least , any more than bf4 is ), 
+  yeah you could just use jackson or whatever to parse it . 
+  so why not have a parse method on each node type ( use a common interface or parent class ) and then you do n't care what type it is ? 
+  just loop through all tokens calling token.parse ( ) . 
+  if things get messy in the node or there 's common code , extract the logic via composition and it can be a strategy pattern . 
+  that 's actually very much like the age of sail , where ships of the line would literally line up ( either line abreast or line astern ) and manoeuvre to cross the enemy 's t etc. 
+  except in 3d , you 'd have ships of the wall instead of ships of the line . 
+  i 'm okay with this . 
+  i 'd wonder what his trick was . 
+  why would it ? 
+  it 's like the only thing dust has going for it . 
+  tldr ; a thing is good , so it should n't exist . 
+  ps it 's not as good as null sec , and it takes a * lot * of effort to keep dust districts . 
+  i would read a lot of books , just like when i was a kid . 
+  smart phones and reddit were designed for those 3 am baby settling sessions . 
+  just be sure to add a colour adjuster app like f.lux so you can get to sleep afterwards . 
+  very different to [ htfu ] ( http://www.youtube.com/watch?v=vgvm7av1o1q\u200e ) . 
+  [ please no . 
+  that 's an * enterprise * - level reference there . 
+  there 's [ more isk ] ( https://eve-central.com/home/tradefind_display.html?qtype=systems&amp;newsearch=1&amp;fromt=30000142&amp;to=30002510 ) to be made . 
+  are you using an ide ? 
+  generally , when one uses eclipse or idea , any usage of libraries in the project have autocomplete popups based on the javadoc in their source files . 
+  edit : looking at that library , though , it 's full of default/generated javadoc so it 's not you , it 's them . 
+  but apply a discount for the lower policing costs . 
+  but then apply another surcharge for the cost of pot license compliance and quality control . 
+  about half the positions are in shanghai , which makes sense - what else are you going to do with the \u00a5 you get from serenity server ? 
+  i would pay large sums of money to have a hedgehog as a pet . 
+  the abbot point coal facility that 's in the news is designed to meet the ship loading needs of the galilee basin 's thermal coal reserves . 
+  since the price of coal dropped , everyone has pulled out of tendering for its construction , except adani and gvk ( the indian companies left with large chunks of the coal mining rights to the basin after gina sold it to them and moonwalked away ), 
+  given china 's push to reduce ( thermal ) coal needs and build train lines everywhere , it 's likely they 'll become ( opportunistic ) net exporters of coal in the next few years instead of a major importer like the last decade . 
+  given that india also has reserves of thermal coal but is just too corrupt/unwilling to build the rail lines to transport it where it needs to go , the demand floor for thermal coal is n't looking good . 
+  oh , and that 's ignoring the carbon costs of coal power generation . 
+  tldr ; outlook not so good for coal . 
+  ccp seems to give employees a fair bit of mobility . 
+  worth a try . 
+  both sides are n't coming out looking good from this . 
+  props to noir for gifting a few pocos to third party players they respect , simultaneously getting some good karma , and making gevlon out to be the bad guy if he tries to take them back . 
+  then again , according to his ` fuck goon ' policy , we would n't try to take them back anyway . 
+  yes , 10/10 is ideal , unless it 's perfect me at a lower me level than that ( e.g. 
+  small rigs etc ), 
+  at the very least , getting ships to 1/1 will save you a bunch of time post-june should you need to whip some up to make t2 versions or whatever . 
+  ammo blueprints will be absurdly quick to research after the change , so probably not worth doing anything with yet . 
+  not sure , but 1/10 is the safest bet .

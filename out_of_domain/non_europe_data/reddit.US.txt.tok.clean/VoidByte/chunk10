@@ -1,0 +1,100 @@
+  when the shortcut is pressed it brings up a terminal prompt in a hud , the pwd for the prompt is that of the application you are launching from . 
+  it also has keybindings for pasting selected items , copied text and a final keybinding for copying the output of the command . 
+  in finder this can be used to select a file , activate the hud , type ` gzip ' , press another keybinding to paste the filename and then press enter to gzip the file . 
+  it bridges the gap between the * gui * world and the * cli * world . 
+  another cool trick i 'll use this for is copy a column from a spread sheet then run : ` pbpaste | awk blah blah | pbcopy ` . 
+  * ` homebrew `, 
+  while not as feature complete or package complete as ` apt ` or ` pacman ` it is n't a terrible package manager and lets you install all of your favorite tools like ` nmap ` quite easily . 
+  i 'm sorry to say but your wants just are n't really possible on a mac . 
+  there is a bright side , it is a unix machine and while the gui behaves in completely different ways you can easily dig into the power of the cli . 
+  oh and install xcode . 
+  it does n't matter if you plan to use it at all but installing xcode will also install the unix header and development tools , things like gcc . 
+  there are several reasons . 
+  perception . 
+  people think it is hard to write viruses for macs so they do n't try . 
+  80 + % of the market uses windows . 
+  of that 80 % most use ie , outlook , flash and adobe . 
+  if you write a worm targeting these apps you get more ` bang ' per ` buck ' . 
+  mac osx is built upon unix . 
+  this adds another layer of complexity to writing a virus . 
+  ( this is not a fool proof protection by any means ) . 
+  unix has strong concepts of separation and privileges . 
+  installing something often takes an administrative password . 
+  particularly processes that run in the background or use the network without user interaction . 
+  this means that the most common types of worms and viruses require you to type your password in order to install . 
+  it should be noted that if you look back over the last few years of hacking competitions mac 's have fallen just as fast as the competitors . 
+  at the end of the day the system is not 100 % secure ( no system is ) . 
+  last but not least human stupidity will always be the biggest factor in security , windows has a larger share of the non-technical population which helps the spread of worms and viruses . 
+  this is not to say that windows users are stupider then mac users simply a matter of numbers . 
+  the browser exploit competitions are what i was referring too . 
+  the browser is one of the major gateways for infection . 
+  i do n't know why or if the mac 's are ` targeted ' i 'm simply using as an example that mac 's are n't perfect and are vulnerable just like everything else . 
+  on average you safer on a mac then with windows but you should always be aware of what you are doing and be security conscious . 
+  there have been a few on stackoverflow that i was genuinely interested . 
+  like the splunk ad . 
+  i 'm a bit confused by your comment . 
+  most likely this is by some webdev who was tired of accidentally going to localhost8000 instead of ` localhost :8000 ` when running * django/rails/mamp / wamp/other dev environment * on their ** localhost **, 
+  i 'm seeing a severe lack of `` realtek '' in this list . 
+  seriously they are the only company i know that make such absolutely shitty drivers ( and hardware ) . 
+  i 've had so many kernel crashes due to their shit that it is n't even funny . 
+  [ his name is the doctor ] ( http://www.youtube.com/watch?v=iuld2qcynpw&amp;feature=related ), 
+  something else to note is that ` . ` will repeat the last action of the last macro . 
+  you can use ` @@ ` to replay the last macro and ` 15@@` to replay the last macro 15 times . 
+  i 'm more of a bsd person so my first reaction is the man pages . 
+  on bsd systems at least the answer to this particular question is ` man hier ` . 
+  i do n't know if your particular linux version includes man page but if not you can google around . 
+  could a player break out of such a room . 
+  it takes x amount of time to break a block . 
+  if the block is moving more often than x the player would never be able to track a block to break it . 
+  particularly if you used a tougher block like coal . 
+  perfect prison ? 
+  woot !, 
+  i suggested this in the other thread  nice to know that it does in fact work . 
+  i 'm a huge fan of zsh . 
+  i have lots of cool stuff like command completion for just about everything from git , to ssh hosts . 
+  i have preexec commands that will set the window title when i ssh into another box . 
+  i 'm a big vim fan and zsh has great support for vi mode while allowing me to also add the few emacs keybindings that i like . 
+  another great feature of zsh is it 's prompts . 
+  they have a lot of customization ability and i even have a bit that updates my prompt to tell me what mode i 'm in . 
+  for normal mode i get a ' [ n ] ' with the n being colored red , for insert i get a ' [ i ] ' . 
+  enjoy , 
+   vi was originally ( so the story goes ) designed for ibm secretaries writing patent applications , etc, 
+  i do n't know if i believe this . 
+  bill joy was one of the original unix hackers at berkley and [ he invented vi ] ( http://www.theregister.co.uk/2003/09/11/bill_joys_greatest_gift/ ), 
+  [ interview with joy ] ( http://web.cecs.pdx.edu/~kirkenda/joy84.html ) . 
+  tldr : joy was adding features to * ed * and after a while it morphed into a new program vi . 
+  it makes it really easy to build the path ( or in this case url ) . 
+  if you just do : ` path = string1 + string2 ` you have to worry about whether string1 ends with a ' / ' . 
+  instead we can do : ` path = string1 + ' / ' + string2 ` . 
+  if we could n't have duplicate ' / ' then we would again have to worry about whether string1 ended in a ' / ' . 
+  cat links | xargs - n1 - p12 wget, 
+  will run 12 copies in parallel . 
+  * edit : * - p -  - p, 
+  thanks for the correction btw . 
+  i did it off the top of my head , 
+  this book is amazing . 
+  though i do n't know about for a sysadmin . 
+  it is more aimed at c programmers . 
+  ios ( apple ) is built on darwin which is a combination of mach ( cmu ) kernel and parts of the freebsd kernel and userland plus large portions of apple specific code . 
+  ios ( cisco ) appears to be built on the linux kernel . 
+  at least recent versions . 
+  though i 'm not really an expert in this area and am waiting for someone to come around and correct me . 
+  seriously apple why the hell did you have to name your os ios , was it just to cause confusion in the tech world . 
+  specifically the source of [ coloson ] ( http://www.youtube.com/watch?v=-r6ny4kl8ms ), 
+  the short and sweet of it is that diginotar either gave the iranian government a copy of their private key or did n't have sufficient security so it was stolen . 
+  whether it was malicious or incompetence diginotar has proven they are not worthy to be a root certificate authority . 
+  google is in no way at fault here , they are solely the victim . 
+  superuser do, 
+  it is a pun on pseudo , primarily it is a acronym . 
+  doctor who was listed under `` heartfelt foreign documentaries '' . 
+  i use a graphical desktop but [ not a gui ] ( http://dactyl.sourceforge.net/pentadactyl/ ) . 
+  this is fine for beginners but if your going to spend a lot of time on linux go learn fstab it will serve you well . 
+  if your going to spend a lot of time on linux your going to hit places where such tools are n't available . 
+  primarily this is servers but i 've also hit them when trying to recover a broken desktop or backing up a virus infected windows machine . 
+  knowing how fstab works and your way around will serve you well . 
+  i 'm not trying to say you should ` vim fstab ` for 100 % of your edits but at the very least have an understanding of how it works and where to find information ( \\* cough \\* man fstab \\* cough \\* ) . 
+  cool did not know that . 
+  ` su ` was originally [ ` super user ' ] ( http://en.wikipedia.org/wiki/su_ ( unix \\ ) ) . 
+  as such i always assumed that sudo was ` superuser do ' . 
+  try using multiple computers works fine . 
+  our family shares one account and we regularly have two or three streams going at the same time in different rooms .

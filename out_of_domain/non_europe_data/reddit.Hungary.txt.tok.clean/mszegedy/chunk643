@@ -1,0 +1,100 @@
+  all other settings were left at `` automatic '' , which , since this is a modular , command-line operated unit , i ca n't get ( can anyone tell me what i should type to reveal these ? 
+  a ` help ` query did n't list anything of the sort . 
+  the utility is good old ` evviix ` ; i 've decided to go retro ) . 
+  anyway , getting to the point , i 'm fairly sure that i can accomplish such a simple , basic experiment alone , but i have some qualms about the epsom salts . 
+  i 'm planning it run it at 1.2 \u2206 ; is this enough ? 
+  it 's a pretty strong bond , and 1.2 \u2206 feels like too little ; however , i 'm worried that at 1.5 \u2206 i 'd get some proton loss , though , and end up with neon and helium ( plus sulphate of course ) . 
+  as cool as that would be , i am looking to do something different , and i know elements separating into constituent noble gases is a recurring problem with relatively high-delta vxing , and damages the instrument . 
+  definitely do not want . 
+  i ca n't find the bond energy anywhere ( meaning that i 've googled it ) , but my donald chart in my manual says that 1.2 \u2206 can be used for energies up to 100 kcal/mole , which seems like enough in this case . 
+  does anyone have any personal experience with this ? 
+  also , would n't the sulphate react with the water , and exothermically make sulfuric acid ? 
+  would this damage my vx ? 
+  the chamber is borosilicate , but it 's surrounded by sensitive instruments . 
+  would it affect them ? 
+  and would the change in enthalpy resonate strongly enough with the flux generator to cause any damage ? 
+  please help ; i do n't want to do anything stupid . 
+  by the way , speaking of  1.3 \u2206 experiments ( to which i have n't gotten yet in the book ) , once i 've isolated the magnesium , i 'd like to transmute some of it into helium and neon , and try to make my own fluorescent tubes . 
+  what sort of flux modulation should i employ to negate the temporary instantaneous release of charge ? 
+  it seems like i should add second - or third-order modulation on the scale of miliseconds , but that does n't seem quite right . 
+  and should i tamper with the caesor-deductor to additionally polarize the gradient and further catalyse the reaction , or would that make the flux modulation coefficient too high for my vx to handle ? 
+  the codfeox 2 's ceiling on flux modulation is 866 mm ^ ( 3 ) / ms/mm ^ ( 2 ) / ms. 
+  one more thing , just curious , why does n't everyone use a modular unit ? 
+  it 's so much more usable if you have keyboard input , and you can define functions for the parameters . 
+  it seems so much simpler and more powerful than constantly twiddling knobs . 
+  i can begin an experiment , walk away from it to microwave myself a quesadilla , and come back to it 20 minutes later to see it finished without a hitch . 
+  why do so many people still insist on using manual , non-modular units ? 
+  edit : for those of you unfamiliar with more modern units , delta readings are multiplied by ten nowadays . 
+  apparently they thought `` 8.8 \u0394 '' sounded better than '' .88 delta '' . 
+  i only know 8 : .88172309, 
+  i know that this is the 412th time but i 'm new so be nice . 
+  i want to know what statistical model to use for any data set , how to get these statistical models , and what inferences to make . 
+  i already know generalized regressional modeling , which i think is off to a good start , but hardly sufficient . 
+  my statistical education consists mostly of beginner-level stat , with the most complicated thing that i know being bayes 's theorem . 
+  my mathematical education hovers somewhere between calc ii and calc iii . 
+  what would be ideal for me to read that will help me achieve my goals ? 
+  being able to accurately predict reality is one of the most important skills to me , and i want to enhance it . 
+  nothing fancy . 
+  it has wheels and sensors and plays soccer . 
+  there 's a lot of interesting math that i 've already done , but surely someone 's already integrated a lot of good principles into one place already . 
+  maybe some equations . 
+  i can definitely handle equations . 
+  do n't ever do this , but it 's too good not to share . 
+  do it like this :, 
+  data = ( * your existing data * ) ;, 
+  datafit = ( * some fit of your data , probably polynomial * ) ;, 
+  randomnumbers = randomreal [ ( * a believable range * ) , ( * a believable but robust number of `` data points '' * ) ] ;, 
+  weights = pdf [ datafit , randomnumbers ] ;, 
+  fakedata = weighteddata [ randomnumbers , weights ] ;, 
+  congratulations , you 've done in five lines what five days the lab would have gotten you . 
+  you 're a terrible scientist . 
+  ( by the way , anyone know how to do this with 8 ? 
+  i wo n't get 9 until christmas . ), 
+  i 'm getting feynman for christmas , but i could n't wait , so i pirated a pdf . 
+  ( the present will definitely be worth something , though . 
+  i tend to mark my books up a * lot * , with diagrams and everything , which i ca n't do with a pdf . 
+  also , words on a page are easier to process than those in a pdf . ), 
+  after reading through the first four chapters or so , i realized that it was `` written '' in the 60s , back when if you asked murray gell-man what a quark was , he 'd ask you why you thought he 'd know anything like that . 
+  i am continually frustrated with how it states that we do n't really know what holds the nucleus of an atom together , and it lists the three leptons as the electron , the mu-meson , and the neutrino . 
+  it says the neutrino does n't have mass . 
+  it also says that mesosomes copy dna . 
+  the most latter does n't bother me so much , even as a biologist , since it 's a book on * physics * , after all , but as for the rest , where can i get equivalent material on particle physics and qcd ? 
+  it 's sort of really annoying , and it 's something that i 've wanted to properly learn from a textbook for the longest time . 
+  or , alternatively , is there an annotated or revised version that fixes these errors ? 
+  either way , i will not stand for hearing that we `` do n't know much about mesons '' , especially now that we 've completed all the quest items in the standard model . 
+  ( did we get an achievement ? ), 
+  i foresee it as a grand and completing experience . 
+  however , it 's always best to get advice from people who have already gone through an experience before going through it oneself . 
+  to those who have read it , how did you feel about it ? 
+  how much do you remember from it ? 
+  did you read it recreationally , or for a course ? 
+  how much pure math did you know beforehand , and how much pure math did you have to learn to complete it ? 
+  i am under the impression that physics in general does not take anywhere above as much math as a level of education that covers pdes ; can you back this up , and does this apply to feynman ? 
+  are there supplementary materials that you would recommend ? 
+  follow-up materials ? 
+  materials that cover different subjects in the same style ? 
+  practice booklets ? 
+  useful notes and addenda , redactions and corrections ? 
+  i do n't want to miss a thing . 
+  do i still pronounce the second `` a '' as `` ah '' ? 
+  is the `` c '' a / s / or a / \u0283 / ? 
+  that 's the `` sh '' sound , not an integral . 
+  would it equaling more than or less than 1 not make sense , like me saying that if i flip a coin then the probability that heads comes up is 0.8 and the probability that tails comes up is also 0.8 ? 
+  ( assuming that all cases are mutually exclusive to each other , or already accounted for in the probability density function . ), 
+  a 3d heat map ( read : a representation of a 4d function ) should be simple enough , but i do n't know how to do even that . 
+  ideally i 'd like to plot 3d ( technically 2d because your screen is 2d ) projections of arbitrary-dimensional data . 
+  it 's possible , just like it 's possible to project a cube onto a 2d screen . 
+  how to ? 
+  if i wanted to learn about the mathematical basis of the standard model , its derivation , and exactly what to expect about any part of it , then what books would you represent ? 
+  i 'd prefer something that starts off simple , without assuming prior knowledge ( although it 's far from true that i have zero prior knowledge ) . 
+  my position : it will either fail to release in the first place , or be mind-blowingly underwhelming . 
+  or it will be underwhelming at first , and then take a decade or two to mature until the developer decides to give up on it . 
+  just in time for low-effort friday , too . 
+  [ 78.4 % of americans are christian , and 1.6 % of americans are atheist . 
+  ] ( http://religions.pewforum.org/reports ), 
+  any level of calculus is fine , although i 'm not confident in my abilities in differential equations . 
+  i 'd prefer that the probability and game theory concepts discussed be relatively simple , though . 
+  i 've read some textbooks on both , but they 've all been pretty basic . 
+  i was thinking `` silence in the library '' / `` forest of the dead '' , but that might be too scary . 
+  it seems like a sort of problem that would arise sometimes . 
+  afaik every position/momentum is possible , just some of them have extremely low relative moduli squared ; that is , the modulus squared at every single point in the configuration space is nonzero , just usually extremely small .

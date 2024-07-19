@@ -1,0 +1,100 @@
+  perhaps you might need some sort of [ character audit ] ( http://eveapitools.com/audit/ ) tool . 
+  [ a post about tanking ] ( http://www.reddit.com/r/eve/comments/s1qp4/passive_armor_vs_passive_shield_tanking/c4ae8hr ) . 
+  heat does not wrap . 
+   i expect within the next year we 'll have official companion applications for ios/android . 
+  tbh they should stop wasting effort and just set ui guidelines and let the community do it for them . 
+  loss mail or it did n't happen . 
+  two posts full of info :, 
+  * [ by me ] ( http://www.reddit.com/r/eve/comments/qsa2j/newb_here_need_a_guide_or_something_to_start_me/c402d46 ), 
+  * [ by someone else ] ( http://www.reddit.com/r/eve/comments/uptqq/to_every_eve_newbie_9_things_to_know_about_eve/ ), 
+   she help teach ray bradbury how to write in the 1940s, 
+  spoiler : it worked . 
+  so you want to be an industrialist . 
+  recognise that anything that 's ** easy and fast to make wo n't be profitable ** . 
+  as a noob , complicated stuff is also out of your reach , which leaves your niche as ` stuff that 's low-profit but above zero profit per hour ' . 
+  recognise that certain items are more glamorous to produce than others , so ** retards will flock to them ** . 
+  everyone wants to build freighters ; nobody wants to build rorquals . 
+  guess where the profits are . 
+  you must get ** production efficiency v ** , unless you have found a bargain item to make ( tip : you have n't for very long ), 
+  ** more manufacturing lines = more profit ** , * provided you can afford to fill them * . 
+  ** keep your production lines filled ** by always having a stockpile of raw materials handy . 
+  ** do n't go nuts with your stockpiles ** . 
+  you do n't know where the market will go . 
+  stockpiling turns you from a manufacturer into a half-assed speculative trader , and you never , ever go half-assed . 
+  ** remap into int/mem ** . 
+  i do n't care which is highest - science skills are int/mem but industry skills are mem/int . 
+  you will probably end up doing both , because a lot of items require science skills to manufacture ( see point # 1 about difficult-to-make items being higher margin ), 
+  ** choose your blueprints carefully ** , or join a corp that will let you use theirs . 
+  ship bpos are expensive ; other module bposs are n't . 
+  it can take a long time until you pay off your bpo , even with ` crazy profits ' . 
+  if you 're going solo , you may find that fuel blocks , ammo and rigs are what you end up making because you ca n't afford the expensive ones . 
+  ** research your blueprints ** . 
+  ideally , choose blueprints that hit zero waste quickly ( rigs , fuel blocks etc ) . 
+  this is where the science skills come in . 
+  note that there 's diminishing returns on researching stuff , and that publicly-available research slots are hard to come by or have long waiting lists . 
+  if you join a corp with blueprints , you can avoid the entire issue . 
+  ** do n't be afraid to change ** what you 're producing . 
+  this is easy to do when your input materials are just minerals , but harder when you 're making , e.g. 
+  tech 2 components from processed moon goo . 
+  unless you 're a experienced trader , do n't second-guess the market ; just stop making it and make something better for you . 
+  ** do n't get ganked ** moving your stuff around . 
+  use a hauler ( e.g. 
+  mammoth ) for cheapish stuff , or use courier contracts for the presumably expensive finished goods . 
+  remember to set collateral unless you fail at life . 
+  ** lern2spreadsheet ** and ** lern2market ** . 
+  [ sites like this ] ( http://www.eve-market-guide.com/manufacturing.php ) are good to get an idea what to build , but wo n't tell you that the reason it 's so good to make thermonuclear trigger units is because some bastard is manipulating the price and it will crash before your production run is finished . 
+  high-volume stuff like ( some ) ammo is more resistant to this problem . 
+  did i mention ** join an industry corp ** ? 
+  turns out hanging around people who know this shit makes it easier for you to learn it , too . 
+  pm me if you want some suggestions ; i know a few corps scattered around high - , low - and null-sec that do this sort of thing . 
+  goonwaffe rules ! = goonswarm federation rules ... 
+  pretty-much no . 
+  well , running missions is good for your corp and faction standings . 
+  6.67 corp standings will save you the 5 % that you usually lose to refining taxes , and the combination of faction and corp standings affect trading fees . 
+  you could probably pay black frog to light you a cyno . 
+  shield boosters usually cycle faster than that ( 2-4 seconds ) so unless you 're getting hit straight into armor by artillery , you should be able to rep your shields back up ( until you run out of capacitor , which is a distinct possibility ) . 
+  if you 're relying on natural shield regen to tank stuff , you need a specialized fit . 
+  * [ more on tanking ] ( http://www.reddit.com/r/eve/comments/s1qp4/passive_armor_vs_passive_shield_tanking/c4ae8hr ), 
+  oh , if you 're really dedicated you can ship in a pos and assemble a dreadnaught in it . 
+  it 's a lot of effort though . 
+  reddit is featured today [ on smh ] ( http://www.smh.com.au/digital-life/games/hellish-nightmare-of-suffering-and-devastation-10yearlong-game-of-civilisation-predicts-grim-future-for-humanity-20120613-208xq.html ) as well . 
+  how is that overtraining ? 
+  t2 sentries are ridiculously awesome compared to t1 . 
+  oh honey , you never pay * retail * . 
+  did you forget that scout sites existed ? 
+  buff scout sites !, 
+  that 's why you have another character on your account go get it/arrange for a courier contract on your behalf . 
+  yeah , i can see how a slit foreskin could catch on things . 
+  faction sentries have better tracking than t2 , and about double the hit points , but damage and range is somewhere between t1 and t2 ( t2s have best range and damage ), 
+  they 're generally not worth it if you can use t2 sentries , but if you ca n't , they 're an ( expensive ) way to get an edge . 
+  eve central is open sourced . 
+  just find the page that displays the market data and add sorting . 
+  much easier and better for the eve community than rolling your own and having only a handful of people use it . 
+  well , eve-marketdata has [ something like that ] ( http://eve-marketdata.com/browse_market.php ) . 
+  a bit of jquery and you can make something snazzy for eve-central , then push it to the [ repo ] ( http://gitorious.org/eve-central ) . 
+  at this stage , anyone who knows is either, 
+  * working for ccp and wo n't tell you ( unless you 're a gaming magazine and they give you a scoop ) , or, 
+  * contractually prevented from telling you ( csm , perhaps nda 'd dust beta players ), 
+  sorry to be unhelpful , but such is the way of sensitive in-development stuff . 
+  eve is in the process of adding/fixing its mercenary-contract marketplace for corporate wars in space . 
+  it stands to reason that dust will be rolled into that marketplace . 
+  certain corps and alliances ( most notable noir. , narwhals and pandemic legion ) have a reputation for successful delivery of merc contracts , to the point where some alliances put them on retainer just so their enemies do n't . 
+  make a name for yourselves and you can have that status in dust . 
+  this topic came up last week . 
+  my answer [ remains the same ] ( http://www.reddit.com/r/eve/comments/uhqho/question_for_booster_makers/c4vgzo9 ) . 
+  [ this ] ( http://tma.eve-kill.net/?a=kill_related&amp;kll_id=13639029 ) is what happens to mining parties . 
+   ** hand ** somely, 
+  t2 nosferatus are expensive because it takes 2.5 m isk worth of t1 and t2 components to manufacture ( also 200k worth of invention costs ) , which is why they sell for 2.8 m a pop . 
+  look at the volume traded : you 're not seeing idiots buying t2 nosses instead of meta 4 : you 're seeing a price floor . 
+  ( it is ), 
+  my noctis is already better-looking than any of your combat ships . 
+  again , look at the volume traded . 
+  there 's about * 25 times * the number of meta 4s sold compared to the t2 version . 
+  i believe you want the stiletto . 
+  azual has this to say about it :, 
+   while there is generally less variation between the tackle interceptors than their combat counterparts , the stiletto is probably the most popular . 
+  while it is one of the slower interceptors , the stiletto has a major advantage in its slot layout - 3/4/3 , perfect for a tackler . 
+  like the claw the stiletto is naturally quite fragile , however of all the fleet interceptors this is the one you 're most likely to encounter fitting a significant tank . 
+  a mwd and warp disruptor are just about manditory on a fleet interceptor , and due to naturally short locking ranges they usually need to fit a sensor booster or sig amp too ( or an eqjuivalent rig ) . 
+  because of the stiletto 's 4th mid slot , it can easily fit a medium shield extender along with all the other necessary modules . 
+  it is also not uncommon for stilettos to fit some kind of electronic warfare ( usually a tracking disruptor ) in one of their mids , which can present a problem for turret ships when caught by one of them .

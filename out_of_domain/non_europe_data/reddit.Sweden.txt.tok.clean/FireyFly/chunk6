@@ -1,0 +1,100 @@
+  ** edit 2 : ** you can replace the multiplication with a recursive function :, 
+  that is quite possibly the ugliest line of code i 've ever written . 
+  now i should probably spend my time on something a bit more meaningful . 
+  wait . . what , really ? 
+  i like it !, 
+  can you concatenate a string and an integer with the plus operator in c # ? 
+  then i 'd argue you have the same problem , albeit a smaller one . 
+  '' + '' for concatenation does n't * really * make sense , since it 's a separate operator from addition . 
+  imho it 's just as bad as c++ using left bitshift on streams to mean `` output to '' , which is an entirely different operation than bitshifting is . 
+  lua has both a separate string concatenation operator , and disallows concatenation of a string and a number without explicitly converting the number with ` tostring ( ) ` ; this is the approach i find makes most sense . 
+  if you allow \\ in the source code , you can use a regex literal :, 
+  haha , that 's hacky ... neat !, 
+  good job . 
+  we should create a list of reachable characters somewhere . 
+  right , that 's true . 
+  you do n't have to reach string through window though ... since string is already ` '' '' . constructor ` . 
+  [ function : fromcharcode ], 
+  they did release a [ japanese-only sequel for the gbc ] ( https://en.wikipedia.org/wiki/pok%c3%a9mon_card_gb2#sequel ) , and then they recently bundled some ds `` learn how to play '' software with some recent ( regular , real-life ) starter tcg deck . 
+  do n't mix them up . 
+  in swedish , i 'd say `` standardv\u00e4rde '' for `` default value '' ; would n't something similar work in norwegian ? 
+  use tmux and its ' copy-mode . 
+  if you want to copy-paste on the command-line , zsh in vi-mode lets you < esc  out of input mode and copy-paste vi-style with '' ` d ` '' and '' ` p ` '' . 
+  there , your problem is now a non-problem . 
+  oh , my bad then . 
+  i thought you could , since you can in java , and the languages are usually quite similar . 
+  these are the more important ones :, 
+  * [ tree style tab ] [ tab-tree ] : tabs goes on the left instead of the top , and is structured as a tree . 
+  * [ load tabs progressively ] [ tab-prog ] : what it sounds like . 
+  great if you like having huge browser sessions with lots of tabs . 
+  * [ pentadactyl ] [ penta ] : vim-like navigation for the browser . 
+  fork of the old vimperator . 
+  these are also pretty neat :, 
+  * [ flashblock ] [ fblock ] : replaces flash stuff with an element that , when clicked , activates the flash applet . 
+  saves some unnecessary ( proprietary ) plugin loading . 
+  * [ download statusbar ] [ dload ] : because the built-in download manager has always been horrible imho . 
+  * [ organize search engines ] [ search ] : lets you bind prefixes such as `` g '' and `` w '' to do searches through given search engines . 
+  as an ex-opera user , this was a must have . 
+  [ fblock ] : https://addons.mozilla.org/en-us/firefox/addon/flashblock/, 
+  [ search ] : https://addons.mozilla.org/en-us/firefox/addon/organize-search-engines/, 
+  as a zsh user , i googled to see how i can enable that function in zsh , and stumbled upon [ this mail ] ( http://www.zsh.org/mla/users/2005/msg01313.html ) . 
+  it 's now part of my . zshrc . 
+  also , what 's up with that blog ? 
+  i 've seen it linked quite a lot recently , and the posts are really interesting too . 
+  edit : eh , just realised it 's your blog . 
+  good work on the material there , i really enjoy reading it . 
+  heh , that house in the background looks similar to my storage room in a local world ... can i get a closeup of it , and possibly an inside shot as well ? 
+  also ` a ' and ` z ' upvotes/downvotes respectively . 
+  do you know why it 's called the `` english '' language ? 
+  [ that 's right ] ( https://en.wikipedia.org/wiki/england ) . 
+  do you know why it 's called the `` english '' language ? 
+  [ that 's right ] ( https://en.wikipedia.org/wiki/england ) . 
+  i should clean up my tabs . 
+  when i need more horizontal space , i usually fullscreen with f11 and then restore the window through my window manager , which still keeps fx in `` fullscreen mode '' . 
+  this effectively turns the tab bar into auto-hide mode . 
+  all right , so i gave this a try . 
+  [ here 's a user javascript ] ( http://pastie.org/3308412 ) which handles inches , feet , pounds and fahrenheit somewhat reliably . 
+  i use [ scriptish ] ( https://addons.mozilla.org/en-us/firefox/addon/scriptish/ ) , but other userjs managers probably works fine as well . 
+  it does n't do the 10 ' 20 '' or whatever notation yet , but i guess support for that could be added with some tweaking . 
+  it should be fairly easy to extend , so if you feel adventurous , give it a try !, 
+  and pimping out his myspace page , apparently . 
+  basically it 's ecmascript 's take on metaprogramming . 
+  a proxy object `` traps '' operations such as retrieving or assigning properties , so when you do ` proxyobject.foo = bar ` a function defined by the proxy is instead run . 
+  [ here 's eich 's slides ] ( http://www.slideshare.net/brendaneich/metaprog-5303821 ) on the topic . 
+  i 'm not sure if metaprogramming necessarily implies code generation ... but you got the general idea right ; the ` get ` trap of es proxies are similar to those functions . 
+  sorry , i should 've clarified . 
+  getters and setters allows you to run a function when * a certain * property is accessed . 
+  proxies allows you to trap * all * property accesses ( reads/writes ) . 
+  there 's also traps for other things , such as whether a property is part of an object ( traps the ` in ` operator , i.e ` ( foo in bar ) ` ) , or the properties that are traversed when you iterate over the proxy object . 
+  the es wiki has a list of all things an object proxy can trap : http://wiki.ecmascript.org/doku.php?id=harmony:proxies&amp;s=proxy#api, 
+  this folder is hosted on that server as well , and it has a couple of images uploaded rather recently . 
+  du syftar p\u00e5 '' . com/notch '' ? 
+  huh ? 
+  no , not at all . 
+  encapsulation in js/es is done with closures , exposing only the properties you wish to expose on the resulting object . 
+  here 's a super-brief example :, 
+  var counter = ( function ( start ) {, 
+  var num = start, 
+  return {, 
+  inc : function ( ) { num + + } ,, 
+  value : function ( ) { return num } / / or ` get value ( ) { return num } ' if you want to use a getter, 
+  console.log ( counter.value ( ) ) / / 1, 
+  counter.inc ( ), 
+  console.log ( counter.value ( ) ) / / 2, 
+  it 's impossible to directly modify ` num ` , since it 's only in the scope of ` inc ` and ` value ` . 
+  now , back to proxies . 
+  say you want to log all modifications of an object for some reason . 
+  for instance , say you want to write a library to help people benchmark their code , so you want to see how many times each property of this object is accessed . 
+  to solve this , you can write a proxy object which `` traps '' ( interrupts , reacts on ) all property accesses on the host object ( the `` real '' object , which is unmodified from before ) . 
+  in the trapping of the property access , you can safely log the access , increment a counter or whatever . 
+  you can the decide what to do with this property access ; the simplest solution is to forward the call to the host object . 
+  as far as the rest of the js environment is concerned , the proxy object `` is '' the real object . 
+  keep in mind that this proxy object traps * all * property accesses , which means that you can plug in this `` property access logging proxy '' to * any * object you wish to track . 
+  proxies are about making the language more dynamic and flexible . 
+  ** edit : ** also , it 's kind of a `` feature for programmers '' , or at least that 's how i think it sould be used . 
+  in that regard , it 's similar to assertions , unit tests , stack traces and other stuff like that : it 's about making it easier for the developer ( in this case , making it easier to write tools to debug your scripts , from inside the language itself ) . 
+  i 'm not sure how you can do `` the same thing '' in `` any other oo language '' ( i suppose that means one of the mainstream classical languages , i.e. 
+  c++ / c # / java/obj-c/python / whatever ) . 
+  `` the same thing '' would involve tracking * all * property accesses to * any * property . 
+  how would you do this with `` simple inheritance and encapsulation '' ? 
+  i 'd love to see some sample code .

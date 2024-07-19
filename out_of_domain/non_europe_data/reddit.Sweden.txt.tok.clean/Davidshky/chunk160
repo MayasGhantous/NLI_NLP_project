@@ -1,0 +1,100 @@
+  correction of a bug causing certain ships to lose their skill and upgrades tooltip in the pregame screen . 
+  correction of a couple mistakes in the name generator of imperial ships . 
+  suppression of a bug causing the chaos space station weaponry to not have any tooltip . 
+  correction of a bug affecting the given value for the detection range of ships . 
+  correction of a bug causing the macro-weapons ' projectiles to explode prematurely . 
+  correction of a bug affecting the camera when it was moved while moving onto a focused ship . 
+  suppression of a bug affecting tzeentch special effects in the cutscene at the start of a mission and deploy phase . 
+  suppression of a bug affecting nurgle special effects in the cutscene at the start of a mission , the chaos dock and the deploy phase . 
+  correction of a bug affecting the `` advanced cogitator linkages '' upgrade . 
+  correction of a bug that made the combination of the upgrade camo and the wind of change favour skill ineffective . 
+  correction of a bug affecting the light cruisers chaos . 
+  suppression of a crash occasionally occurring on missions containing defence platforms or space stations . 
+  suppression of a crash occurring sometimes while in-game . 
+  correction of a bug affecting the bulletpoints of the windows explaining planetary assault , recovery and space station assault missions, 
+  correction of a crash occurring sometimes when the player clicked on ready . 
+  correction of a bug that affected the bomb special fx . 
+  correction of a bug that prevented the augur disruptor fx from disappearing in the guest 's screen in multiplayer . 
+  correction of a bug that allowed guests to repeatedly use skills in multiplayer . 
+  correction of a bug affecting the cooldown of the nova cannon . 
+  fixed a crash that occurred sometimes on the score screen . 
+  correction of a bug that prevented a ship having no weapons and systems available from suffering fire onboard and hull breach critical damage . 
+  correction of a bug that caused the taunt to not cancel the move order if it was queued . 
+  fixed a bug that affected the burn retros manoeuvre that worked half the time it was used . 
+  fixed a bug that occasionally allowed some ships to start at the center of the map . 
+  fixed multiple crashes occurring during space station assault missions . 
+  fixed a crash when a warp should end the game . 
+  screen stuffz, 
+  values in the tooltips about critical damages added . 
+  new heraldic and new favour icons for the imperial navy favour . 
+  repositioning of the victory/defeat text in the scorescreen and capitulation feedback added . 
+  amelioration of the gui buttons for contextual actions ( cancel warp , redeploy , swap , execute . ), 
+  upper case during profile creation now possible . 
+  repair button moved to prevent superposition with other elements . 
+  suppression of the battlefield location line in the pregame screen . 
+  optimiza - ` shun, 
+  vertical synchronization is now available in the options . 
+  in the pregame and briefing screen , the texts wo n't be cut out no matter what the current resolution is . 
+  campaign cinematics can now be skipped with space or escape . 
+  in campaign , once the tutorial for port maw is done , you can now freely navigate in the game screen . 
+  dialogues are now stopped as long as the escape menu is open . 
+  renowned symbol added in the briefing panel . 
+  the background of the main menu has been changed to gain more visibility . 
+  deploy zones are now uniformed . 
+  the guest 's skill interface is now more reactive . 
+  retakes of the environment in the 3rd mission of the prologue . 
+  visual amelioration of the chaos favours . 
+  special effect for all ordnances added . 
+  new special effect for the nova cannon . 
+  adding a teleportation fx on the bomb countdown fx and on the ship deck . 
+  all the choices available in the main menu now have a description . 
+  double tapping the key assigned to a group of ships focus the camera on the first ship of this group . 
+  we deactivated bindings , in order to fix stability issues . 
+  binding will be back soon . 
+  battlin ', 
+  torpedoes now have the armour piercing attribute , considering armour as minimal when they hit . 
+  the slaanesh favour skill promise of slaanesh now silences the target for a given duration . 
+  transport ships are n't visible anymore for the attacker during the deploy phase . 
+  `` brace for impact '' bonus armor now applies to weaponry hit with the `` armour piercing '' attribute . 
+  the minimal armour value used by armour piercing weapon is now 25 instead of 20 . 
+  nova cannons now have more dispersion , the epicenter size of full damage is divided by 2 , and minimal distance now 6.000 instead of 5.000, 
+  the upgrades `` teef surplus '' and `` omnimessiah '' now give +1 upgrade slot to the ship . 
+  the `` crew in replacement '' penalty has been suppressed . 
+  admiral ships are no longer immune to insubordination . 
+  `` executing a captain in insubordination now grant the `` mutiny '' malus, 
+  cooldowns are increased by 20 %, 
+  combustion gauge refill speed reduced by 20 %, 
+  the troop value of the ship is reduced by 10 . 
+  additionally , the ship will randomly suffer from 0 to 2 critical damages . 
+  the mutiny malus lasts until the end of the mission . '', 
+  the cooldown of taunt is now 180 seconds instead of 120 seconds . 
+  ships now have a 45 % chance to be lost in warp if they disengage . 
+  the lost in warp state now only last 1 turn . 
+  the navigator has been modified . 
+  this crew now grant two bonuses : he reduces the disengagement by 2,5 seconds per level and reduces the chances to be lost in warp by 15 % per level . 
+  the cooldown of the stasis bomb is now 180 seconds instead of 120 seconds . 
+  the upgrades `` advanced survival pod '' and `` improved warp engine '' are deleted . 
+  the ships with these upgrades will see them unfitted and their renown cost will be refund . 
+  a new upgrade `` belt armour '' is now available to be fitted on the ships . 
+  this upgrade let the ship ignore the first critical damage on a system ( deck , engine , generator ) . 
+  a new upgrade `` generator security team '' ( `` big mek '' for orks ) gives the ship a bonus of 10 points in crew value against the enemy 's cancel warp . 
+  most ships ' fleet point costs have been adjusted . 
+  bomber damages improved from 25 per bomber to 30 per bomber . 
+  the cooldown of the void shield transfer is now 90 seconds instead of 45 seconds . 
+  the cooldown of the reinforcement is now 180 seconds instead of 150 seconds . 
+  the cooldown of the shokk-attack mega-kannon is now 120 seconds instead of 150 seconds . 
+  huge changes on the chaos weaponry :, 
+  suppression of the heavy lance battery replaced by the lance battery . 
+  rename of the heavy lance turret to lance turret ( stats not changed . ), 
+  creation of the prow launch bay :, 
+  creation of the light missile pod turret for the chaos escort ships . 
+  they now replace the light macro-turrets . 
+  light missile pod turrets have the following stats :, 
+  damage : 3, 
+  rate of fire : 6, 
+  critics : 0.3, 
+  attack : 1, 
+  iconoclast escort ship now have 6 light missile pod turrets instead of 9 light macro-turrets . 
+  creation of various missile pods . 
+  the only difference is the range :, 
+  missile pod turret :,

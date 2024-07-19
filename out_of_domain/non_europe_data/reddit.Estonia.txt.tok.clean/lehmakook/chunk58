@@ -1,0 +1,100 @@
+  it would probably be possible to put together links to already-filtered views in the admin for this , but the end result would still be too confusing . 
+   convert the none to empty string ( not ideal ), 
+  why is this not ideal ? 
+  it is possible to have charfields which allow null values , in addition to the empty string . 
+  however , this can cause considerable confusion . 
+  for example , when the user leaves a form text field empty , the result is the empty string . 
+  so you may end up with a mix of both in your database . 
+  if you want to say `` this product has no supplier '' , then perhaps it 's a better idea to create a separate supplier model , link it to products using a foreignkey field , and allow that to be null . 
+   i heard that a will can just be typed out , but i was n't sure if this would hold up legally in court if it comes to that . 
+  how it 's typed or written does n't matter too much . 
+  but if it looks like you wrote the will and pressured your father into signing it on his deathbed , then * that * is a good reason to have it invalidated by the court . 
+  find him a lawyer who speaks his language , and make sure your father and the lawyer have a private meeting to put together the will . 
+  you or the girlfriend should not be present . 
+  the problem is n't the 20-year exclusive use , but rather the patent office giving out patents for stupid obvious `` inventions '' . 
+  like [ entertaining a cat with a laser pointer ] ( http://www.google.com/patents/us5443036 ) , [ swinging sideways on a swing ] ( http://www.google.com/patents/us6368227 ) , or the thousands of patents for doing whatever people have been doing for 100 years , * but on a computer * . 
+  the other problem is giving out patents for `` inventions '' which are no more than a showerthought , with no working prototype or engineering details . 
+  a patent should contain enough engineering details to make it possible for other engineers to build it with no extra research work . 
+  no need to splurge on a 12-colour set , 4 are sufficient : https://en.wikipedia.org/wiki/four_color_theorem, 
+  with ryanair , the bus to the airport is usually more than the flight . 
+  no , you should not launch . 
+  launching without incorporating is fine for free `` just for fun '' web and mobile apps - if you do n't charge your customers anything , and they do n't rely on your app for anything important , then it 's unlikely that anything would go lawsuit-level wrong . 
+  if you charge money , or pay people money , then you should incorporate for both liability and tax reasons . 
+  an escrow service is even more risky : you are holding your customers money , and you are transferring money between different customers . 
+  it 's possible that you will be considered a financial service with strict legal requirements for identifying customers , doing anti-money-laundering checks , etc. 
+  you certainly need to incorporate , and also consult with a lawyer and an accountant before launching this . 
+   this comment has been overwritten by an open source script to protect this user 's privacy . 
+  it was created to help protect users from doxing , stalking , and harassment . 
+  if you would also like to protect yourself , add the chrome extension tampermonkey , or the firefox extension greasemonkey and add this open source script . 
+  then simply click on your username on reddit , go to the comments tab , scroll down as far as possibe ( hint : use res ) , and hit the new overwrite button at the top . 
+  wtf is this ? 
+  this makes the thread unreadable for everyone else . 
+  make throwaways if you are so worried about privacy , then other people can still read and learn from the posts ? 
+  the boosters already crash-land in a somewhat intact condition : http://spaceflight101.com/wp-content/uploads/2016/05/3643125245-1-390x205.jpg, 
+  maybe a small drag chute would be enough to keep the engines up and nose down when hitting the ground , so that the body acts as a crumple zone and keeps engines in one piece ? 
+  you already write it much better than `` some basics '' , 
+  performance is n't really an issue here . 
+  shaving off a few microseconds per request does n't really matter for things which are called a few times per request . 
+  in web applications , the performance is mainly determined by :, 
+  * how you use caching ,, 
+  * optimizing database queries , and, 
+  * offloading slow computations to background job queues . 
+  it 's just a question of convenience and code readability . 
+  less accessor functions : original code is simpler , easier to read and modify directly . 
+  extending the code without modifying the original requires more copypasta . 
+  more accessor functions : original code is longer and harder to read , and modify directly . 
+  but easier to extend and customise without modifying the original . 
+  so what should you make into accessors and what should you not ? 
+  impossible to say exactly , it 's mostly based on what you * expect * other users of the library to want to customize . 
+  for example , one place where there are too few accessors is this function in filesystemstorage : https://github.com/django/django/blob/1.9.6/django/core/files/storage.py#l203, 
+  i wanted to make a file upload storage that does not add random parts to the end of filenames , just re-uses the already existing file if one exists with the same filename . 
+  changing get_available_name ( ) in filefield is easy . 
+  but this save ( ) function retries in a loop if the file exists ... and to change that , this entire complex function has to be copied and slightly edited . 
+  that 's a difficult question . 
+  based on what you wrote , and a deal between two competent adults , no . 
+  but $ 500 might be a cheap price to get a potentially mentally ill person off your back , plus then he no longer has any argument to why he should still have access to the boat . 
+   what do you mean it would be `` drop-kicked '' by amazon ? 
+  even if it is legal for op to use the name , amazon and other publishing and sales sites can decide on their own if they want to allow him to sell a book under the name . 
+  the famous author 's publisher will complain to amazon , amazon will remove the listing without investigating the details , and op wo n't get very far with selling the book . 
+  this happens often to people selling goods on ebay . 
+  a manufacturer might sell the same item much cheaper overseas , and people can legally re-import and sell it in the us for less than the manufacturer 's recommended us price . 
+  but ebay does n't want to investigate whether it 's a legal import or a counterfeit copy , and they would rather play nice with the big manufacturer rather than a small-time importer . 
+  so they remove the listings anyway . 
+  in terms of the laptop itself , it seems unlikely that there will be major upgrades . 
+  probably 10-20 % faster , 10-20 % thinner , and so on . 
+  the major differences might be in ports : maybe usb-c instead of the old usb-a , maybe removing hdmi and sd-card ports , maybe adding thunderbolt 3 , etc. 
+  some of these might make it more-future proof , but at the same time might make it less compatible with older external devices . 
+  impossible to predict what will be changed really . 
+  but if you can wait a few months , then there is no need to make the decision now . 
+  the 2015 macbook pro might go on sale now , but chances are that it will be even cheaper once the 2016 model is released . 
+  wait a few months , see what the new model looks like , and then decide whether the new one is worth paying extra for . 
+  to clarify , there are n't really scams in the sense of taking your money and not getting a car . 
+  but most used car sellers lie about the mileage and condition of their rustbuckets . 
+  it might look okay on the surface , and need expensive repairs tomorrow . 
+  in the worst case , there are rumours about cars being welded together from parts of multiple severely crashed vehicles , but not sure how realistic that really is . 
+  and if you buy from a private individual , or a `` commission sales lot '' where a company advertises a car but the actual seller is a private individual , then you do n't get any consumer protections . 
+  the only way to dispute the purchase is to go to court . 
+  if you are willing to put in the effort and expense , take the car to a mechanic of your choice for a checkup before buying . 
+  if not , bring along a friend who `` knows about cars '' for the test drive . 
+  is an apron instead of trousers good enough ? 
+  not only a spammer , but a spammer who advertises paid reddit spamming and vote buying services . 
+  with cheap gadgets , shipping both ways + rental fees ( which have to cover your purchase , damaged items , profit , etc ) might be too much compared to just buying it . 
+  although that might work in your favour if you offer a `` like it ? 
+  keep and buy it '' option as well . 
+  renting a vr headset seems like a promising idea . 
+  not by mail : they are expensive , probably easy to break , still need a $ 1000 pc and plenty of space in the living room to run well , and so on . 
+  instead , set up a booth at a mall and charge $ 5 for 5-minute vr demos . 
+  yes , exactly . 
+  it pulls in flavours from the wood of the barrel , so the longer it sits there , the more `` flavourful '' it will be ( but its a really small effect compared to the flavour of the actual ingredients used ) . 
+  some whiskeys use new wood barrels , some use new but burned wood barrels , and some re-use old wine barrels for different effects . 
+  most drinks stop ageing once you put them in the bottle , so keeping it on the shelf at home does n't help . 
+  how about `` reddit platinum '' instead , that lets you delete comments for $ 10 each ? 
+  reddit would overtake google in earnings the next week . 
+  not pictures of animals on paper notes . 
+  just animals instead of notes . 
+   there 's a bit of a catch-22 situation involved : to register a company with the business registry , the company needs to have a bank account . 
+  sure you can . 
+  before the company exists , * it * can not have a bank account , who would own it ? 
+  the order of steps is usually :, 
+  register the company online . 
+  it 's immediately a valid company and can start doing business if you just use cash or whatever .

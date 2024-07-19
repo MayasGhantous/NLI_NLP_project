@@ -1,0 +1,100 @@
+  so for 8 hours , it would be 0.005504 eth and 0.009176 accordingly . 
+  since your balance got to 0.000909 it [ translates into 5 mh/s ( 0.000909 / 8 = 0.000113625 ) ( link ) ] ( http://whattomine.com/coins/151-eth-ethash?utf8=%e2%9c%93&amp;hr=5.0&amp;p=220.0&amp;fee=0.0&amp;cost=0.1&amp;hcost=0.0&amp;commit=calculate ) which is incorrect anyway . 
+  could you try some more reputable pool like eth.nanopool.org ? 
+  \\  redditor for 1 hour, 
+  such legit . 
+  why get a used one for 400-420 while you can buy a new one for 450-520 ? 
+  how people can trust you that you are not going to run away with 0.5 eth ? 
+  anyone can create a new reddit account and submit such ad . 
+  it does not matter . 
+  google `` pool difficulty '' . 
+  if your effective/calculated hash rate is ~ 180 mh/s then you are ok . 
+  here is some quote from https://en.bitcoin.it/wiki/difficulty, 
+   mining pools also have a pool-specific share difficulty setting a lower limit for shares . 
+  so if pool-specific difficulty would be low then your bandwidth would be just flooded with shares and it would not affect your mining revenue . 
+   any info for europe ? 
+  as far i remember there are 28 countries in eu and all they have different tax legislations . 
+  1350w seems to be too high for just 4 rx 580 , it should be around 700-800 if you did not undervolt it . 
+  if i were you i would shutdown it , if it really consumes 1350w then it may ruin your psu at any moment . 
+  try to use watt counter on something that has stated power consumption ( like kettle or fan ) and see if it displays the wattage correctly . 
+   weird that cpu-z states only 80w and my meter says over 3x that, 
+  gpu-z measures only gpu core wattage , it does not measure gpu memory / other gpu components wattage . 
+   i am dual mining , maybe that 's the problem . 
+  still should n't get that power draw, 
+  as i understand you are running windows . 
+  i am usually running linux , but when i run windows my 6 x rx470 ( basically the same as rx580 ) rigs are consuming ~ 900w ( measured via a watt meter ) when dual mining , which comes down to the following ( assume that overhead ( cpu , motherboard , etc ) is 150w ) :, 
+  - my rig : ( 900 - 150 ) / 6 = 125w per gpu, 
+  - your rig : ( 1350 - 150 ) / 4 = 300w per gpu, 
+  if assume that my setup is similar to yours , then your power consumption should be just ( ( 125 * 4 ) + 150 ) = 650w . 
+  also , given that [ rx580 tdp ( thermal design power ) is just 150w ] ( https://www.techpowerup.com/gpudb/2938/radeon-rx-580 ) , it clearly ca n't draw twice more than tdp . 
+  also , if your rx580 has 1 pci-e 8 pin cable ( some gpus has 2 ) then it is even more unlikely that it draws 300w , given that this cable max wattage is 150w http://www.playtool.com/pages/psuconnectors/connectors.html#pciexpress8 . 
+  use https://localbitcoins.com/ . 
+  i am in eu and used them multiple times for bitcoin -  sepa exchanges , each time worked well . 
+  claymore is a new scapegoat here . 
+  besides claymore , there is also ethmienr , qtminer , sgminer-gm , genoil and maybe some other . 
+  i do not get why people think that claymore is something unique . 
+  the article says nothing about claymore btw . 
+  yes , gpu mining is dead . 
+  since 2009 . 
+  also , bitcoin price will never be higher than $ 0.01 . 
+   i 'd refer more to the trading of the alt coins , even if you only trade them to cash out , you 're still trading . 
+   currency trading looks fucking awesome on a r\u00e9sum\u00e9 . 
+  then an interviewer asks a simple question : since you were trading currencies , surely you know what is macd ? 
+  i think answer `` no '' would not help . 
+  i guess someone who has that amount of eth would not ask such questions on reddit . 
+  everyone says that mining is dead since 2009 ( when bitcoin appeared ) . 
+  everyone said that bitcoin will never be higher than $ 0.01 . 
+  ethereum mining is dead since 2015 ( as everyone was claiming ) . 
+  now it is going to die again ... like it did 100 times before . 
+  just ignore them . 
+  i run 35 rx470 since this april , while initially i wanted to buy them in jan 2016 - but i did not because `` mining is going to die tomorrow !!! 111 !! '', 
+  now i see if i would buy them back in 2016 i would have hundreds times more eth 's than i do now . 
+  yes , you can do it . 
+  you can do it even without e-residency . 
+   what do i need to register it without e-residency ? 
+  there are legal companies that can do it for you . 
+  you can search in google something like `` incorporate in estonia '' or `` setup a company in estonia '' . 
+  though , i think it costs around 400 eur - while e-residency costs about 150 eur i believe . 
+  with e-residency you could do it yourself literally within 15 minutes from your home . 
+  however you still would need some address in estonia ( there are some companies that would provide you with such address ) . 
+   can i be a sole member of the company ? 
+  if in `` member '' you mean owner ( shareholder ) , then yes without any conditions . 
+  if in `` member '' you mean `` management board member '' ( juhatuse liige ) :, 
+  at least one member should be a resident of eu . 
+  if you are a resident of eu then you can be the sole member . 
+  if you are not a resident of eu then you can use some nominal services that would you provide with such member , i think it costs 200-400 eur per year . 
+  if you are an owner then nobody can `` steal '' it from you in meaning of changing ownership . 
+  regarding the required local management board member - by default they can represent the company in all transactions which means like signing agreements , etc. 
+  but only owners ( shareholders ) can change ownership . 
+  owners also can remove or add management board members at any moment . 
+  however , i am not actually sure if you need that nominal management board member - there https://www.investinestonia.com/en/investment-guide/establishing-a-company it says * `` if more than half of board members are not residing in estonia then the company must give the commercial register a contact in estonia where necessary documents can be sent . 
+  '' * so probably it could be something like a secretary which does not have any rights or power whatsoever . 
+  so , to sum it up : if you are an owner then only you can change ownership . 
+  also , if instead of a `` management board member '' you have some secretary as a local contact then there is no risk of any unintended `` transactions '' whatsoever . 
+  also , if you have e-residency then you could setup the company yourself which would be more cost/time efficient . 
+  you would still need the address and `` a contact in estonia '' . 
+  as a side note , you probably already know but the tax rate in estonia is 0 % only for undistributed income which means that when you pay yourself dividends you will pay 20 % tax rate . 
+  if your residence country does not have a tax agreement with estonia then it will want you to pay its taxes too . 
+  also , you can pay dividends only once per year . 
+  i do not know russian that much to be able to read such articles , but in google translate https://translate.google.com/translate?sl=auto&amp;tl=en&amp;js=y&amp;prev=_t&amp;hl=en&amp;ie=utf-8&amp;u=https%3a%2f%2fhabrahabr.ru%2fpost%2f244445%2f&amp;edit-text=&amp;act=url, 
+  the only mention of the `` deductible business expenses '' is, 
+   estonia is a member of the oecd . 
+  membership gives the company 's counterparties the convenience of carrying out transactions to the corporate account , and they ( partners ) can easily recognize payments as deductible business expenses in their country without any problems ( in cases established by their legislation ) . 
+  which is not related to dividends . 
+  you can read more about taxation on the official tax board website https://www.emta.ee/eng/business-client/income-expenses-supply-profits/taxation-profits-estonia . 
+  you also could send them an email or call them and they would answer your questions . 
+  they usually respond to emails within a few hours ( as in my personal experience with them ) . 
+  buy gpus , motherboard , cpu , ram and psu . 
+  install them . 
+  install os and mining software like claymore . 
+  you are good to go . 
+  yes , mining is dead since 2009 . 
+  i hear it every day . 
+  \\* gtx 1050 2gb, 
+  their retail price is like $ 200 . 
+  $ 500 for a rx570 is overpriced , go for gtx 1070 instead . 
+  also , difficulty will go up but eth price also may go up . 
+  in terms of $ output , mining is more profitable today than it was 2 months ago . 
+  i have 35x rx 470 and 6x gtx 1070 . 
+  rx 470 are more cost effective but they are out of stock everywhere . 
+  if use today 's difficulty and eth price for calculation then 75 mh/s would be making $ 250 per month and if assume that it remains static = $ 1600 / $ 250 = roi in 6 months .

@@ -1,0 +1,100 @@
+i ca n't get the touchpad working after kernel update :, 
+   bash kz917j, 
+   [ sudo ] password for rr1991 :, 
+   reading package lists ... 
+  done, 
+   building dependency tree, 
+   reading state information ... 
+  done, 
+   e : you must put some ` source ' uris in your sources.list, 
+   reading package lists ... 
+  done, 
+   building dependency tree, 
+   reading state information ... 
+  done, 
+   e : you must put some ` source ' uris in your sources.list, 
+   kz917j : line 14 : cd : linux-3 .11.0 : no such file or directory, 
+   -- 2014-02-22 13:43:50 -- https://patchwork.kernel.org/patch/3078491/raw/, 
+   resolving patchwork.kernel.org ( patchwork.kernel.org ) ... 198.145.19.199, 
+   connecting to patchwork.kernel.org ( patchwork.kernel.org ) | 198.145.19.199 | :443 ... connected . 
+   http request sent , awaiting response ... 200 ok, 
+   length : unspecified [ text/x-patch ], 
+   [ < =  ] 1.330 -- . - k/s in 0s, 
+   ca n't find file to patch at input line 5, 
+   perhaps you used the wrong - p or -- strip option ? 
+   the text leading up to this was :, 
+   | diff -- git a/drivers/i2c / busses/i2c-designware-pcidrv . c b/drivers/i2c / busses/i2c-designware-pcidrv . c, 
+   | index f6ed06c . .816 cbd1 100644, 
+   | -- a/drivers/i2c / busses/i2c-designware-pcidrv . c, 
+   | + + + b/drivers/i2c / busses/i2c-designware-pcidrv . c, 
+   file to patch :, 
+  any suggestions ? 
+  that worked , thanks, 
+  the link does n't work for me . 
+  is it safe just to install over an ubuntu 13.10 installation ? 
+  should i remove previous scripts used in this guide ? 
+  are you stating that you have got everything working under 14.04 ? 
+  would you consider writing a howto ? 
+  this would help a great amount of c720 users who would love to have the full ubuntu experience on their chromebook . 
+  ctrl + l should do the trick . 
+  can ' t answer your second question . 
+  this saves so much time with the installation !, 
+  i must admit though , that i really value the unity and ubuntu desktop experience . 
+  is it safe to install ubuntu-desktop after the bodhi installation , will it not mess up hibernation and sound settings , or keyboard shortcuts ? 
+  i have an c720 , without touchscreen . 
+  is the patch still usable , or will i have bloated drivers running ? 
+  is creating the / usr/share/x11 / xorg.conf.d / 50-cros-touchpad . conf file necessary ? 
+  i 've ran the cros-haswell-modules . sh and after a reboot the touchpad functions quite ok . what does creating this file do ? 
+  so if it did not include the touchpad updates for c720 , is it worth updating to this kernel ? 
+  what benefits are there ? 
+  * edit : i have installed the kernel , and did you patch , works fine . 
+  i actually think that the touchpad works better now than under the standard croshaswell script , can that be the case ? 
+  secondly , now that this kernel is installed manually , can/should i lock the other kernel ( 3.13 ) ? 
+  ubuntu is asking me to update , can i somehow lock and keep my current kernels , for example by ` package  lock version ' in synaptic ? 
+  if so , which kernel packages should i lock ? 
+  i 'm happy you wrote this out , i am experiencing the exact same since i 've installed ubuntu ( both 13.10 and 14.04 give me this bug ) . 
+  i 've just installed kernel [ 3.16 ] ( http://www.reddit.com/r/chrubuntu/comments/2czgxn/linux_316_and_ubuntu_on_acer_c720/ ) , i hope there is an improvement , but i can not report on that yet . 
+  instead of slow , i guess the c720 ( intel ) users are facing short freezes of the system every now and then . 
+  does this mean full support for the entire hardware ? 
+  fixing the touchpad , hibernation problems , assigned keyboard keys , microphone , etc ? 
+  when can we expect this kernel to be released ? 
+  for the c720 , besides the trackpad , what other functions work natively now that did n't work before ? 
+  partially agree . 
+  xubuntu ( xfce ) does n't feel as polished as unity or kde . 
+  for a first-time user , i would definitely recommend unity or kde ( = ubuntu or kubuntu ) , to get the full polished desktop you 'll want to see at first boot . 
+  if you do n't like it ( too resource heavy ) , or want to be able to tweak more , you could consider switching to a different desktop environment later . 
+  unfortunately , i have to disagree with you . 
+  there is still [ this ] ( http://redd.it/2d88dg ) issue that i am dealing with . 
+  secondly , there are the shortkeys , microphone and suspend that need some attention after installation . 
+  the touchpad driver seems to get corrupted every now and then ( fixed with suspend or reboot ) . 
+  apart from the freezing issue , are these all issues the chrubuntu script takes care of ?!, 
+  i always did fresh installs fiy . 
+  [ no progress ] ( https://bugs.freedesktop.org/show_bug.cgi?id=80229 ) it seems , so far :(, 
+  * office : wps office ( sorry , not open source , but damn good chinese software , free for us to use , with a linux community ), 
+  * media : vlc , spotify , popcorn time, 
+  * graphics : inkscape , darktable , the gimp , blender, 
+  * cloud service : copy, 
+  this is pretty much what makes my desktop . 
+  unity . 
+  it works fast on my chromebook and the use of space on the small screen is perfect ( unlike gnome . . ) . 
+  i will reconsider kde plasma 5 when it is more stable , the first kde that does n't look as incoherent . 
+  unity just works and makes me efficient . 
+  is it the dacia sandero ? 
+  it 's most likely [ this ] ( http://www.reddit.com/r/chrubuntu/comments/2d88dg/freezing_on_c720_ideas/ ) issue . 
+  i have the same problem , and many others with us . 
+  there does n't seem to be a solution for now . 
+  priority changed to ` high ' as for yesterday . 
+  if this gets solved , my c720 will be a perfect functioning machine . 
+  i sincerely hope that you are just very unfortunate . 
+  if not , a lot of us are doomed . 
+  in that case ... 
+  i would like to have a full backup of my system ( ubuntu istall , users , preferences and installed software ) . 
+  how do i do that ?!, 
+  i have a nice big external hdd . 
+  which software will do the trick to backup , and be able to restore on an other drive in case of emergency ? 
+  i once read that ` trim ' is enabled by default on 14.04 , but i 'm really not sure whether this is the case . 
+  perhaps ubuntu should be tweaked to work effectively with the ssd to not wear it out too fast ? 
+  this guy is gold . 
+  it took me so long to find all the right fixes , since there are so many bad versions of fixes out there . . 
+  anyway , 128gb ssd , direct boot to seabios through [ this ] ( http://blogs.fsfe.org/the_unconventional/2014/04/20/c720-debian/ ) awesome guide , distroshare ubuntu 14.04 version and some [ ssd tweaks ] ( https://sites.google.com/site/easylinuxtipsproject/ssd ) ( trim etc. 
+  ) , set up some final shortkeys and the c720 is a lightning fast super netbook .

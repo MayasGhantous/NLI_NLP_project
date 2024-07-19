@@ -1,0 +1,100 @@
+  see how far that gets you . 
+  oh no , we wo n't have a bunch of cheap useless junk that spends 3 days being used then goes to a landfill . 
+  what will we ever do ? 
+  i do n't know what it means , actually . 
+  in the us , it specifically means * political staff members * , which are n't really a thing in new zealand , or at least were n't when i was involved in politics . 
+  i 'm not comparing dart and js . 
+  i 'm saying that all languages with the ` ? . ` crap are misdesigned . 
+  nah i mean well before that . 
+  buffing passive gold in 6.79 , more aoe gold and xp for kills , more aoe gold for towers , more powerful support items , making wards cheaper , making sentries cheaper , making teleport scrolls cheaper , adding the high ground easy-mode ward spots simplifying both warding and dewarding , adding more jungle camps , adding bounty runes , adding even more bounty runes , etc. 
+  i personally just think that the game was better when cheap stat items were actually meaningful in the game . 
+  support should be about having bracer , not rod of atos . 
+   the mini jungle is so close that it 's hard not to find justification in taking advantage of it . 
+  i also do n't understand why people do n't pick up a bottle on their offlaners . 
+  not on all of them , obviously , but having a free rune , all to yourself , every two minutes ? 
+  that 's really good . 
+  especially on radiant . 
+  and in that case , they ca n't claim to be journalistic and no longer get the benefits of claiming to be journalistic . 
+  they should be easier to sue for libel , and any political opinion pieces , claims , articles , or anything else of the sort must be simply listed as any other election expense for the parties they 're trying to claim should be elected . 
+  if you made a table from our pile of wood then we would share the profits from selling it because it 's our pile of wood . 
+  non-nullable types are just called ` types ' . 
+  i 've never seen more snobbery from a programming language community than from rust . 
+  these are the same people that go around claiming go is literally the worst thing ever because it lacks generics . 
+  there 's no evidence that this statement is true . 
+  what does ` reduce bugs ' even mean ? 
+  reduce the incidence of bug reports ? 
+  reduce the severity of bug reports on average ? 
+  reduce the number of test failures during development ? 
+  the way they 've tested this is just silly . 
+  it makes absolutely no sense . 
+  you ca n't say that because 15 % of the time when you added type annotations ( which you did knowing that there was a bug there ! ), 
+  it caught the bug , so type annotations reduce bugs by 15 % . 
+  that literally just is n't how logic work . 
+  that does n't follow from the assumption , at all . 
+  it does n't take into account that having static typing changes the way you write code , and we have no idea whether that makes code buggier or not . 
+  it does n't take into account that static type annotations restrict you from writing lots of code that is n't buggy , and force you to write code in a convoluted way to suit the type checker , and convoluted code tends to be more buggy . 
+  so static typing can in fact introduce bugs . 
+  that 's a lovely idea , but it never actually ends up working like that in practice . 
+  in practice , people construct over-complicated type hierarchies , introduce mountains of indirection , and make code more convoluted to suit both the type checker and the ` patterns ' they insist are necessary in statically typed code . 
+  what kind of stating-the-obvious crap is this ? 
+  you should n't have hundreds of implementations of ` getparent ' or * any * class hierarchies . 
+  no you do n't . 
+  this is the problem with people that want to write java in every language , or haskell in every language , or c++ in every language . 
+  you * do not * have to think about ` what amounts to types anyway ' . 
+  if you want to write twice as much code and make it look ugly as sin , maybe . 
+  that 's simply not true . 
+  javascript is weakly typed , but it still checks types at runtime , it just does n't prevent you from having all sorts of disgusting conversions . 
+   ( though the latter is a misnomer , `` unityping '' is a better term ) . 
+  no it is n't . 
+  ` unityping ' is a terrible term . 
+  what a load of rubbish . 
+   another important benefit that 's not enough mentioned is automated refactorings . 
+  they 're mentioned in literally every thread on this topic , over and over again . 
+   most of the code written without type annotations can not be reliably automatically refactored without human supervision . 
+  and yes , this limitation applies to even smalltalk , which only offered trivial refactorings . 
+  good . 
+  automated refactoring is useless . 
+   in the code above , if you rename c.init , the tool can not know if the other two inits need to be renamed as well . 
+  now imagine this limitation on code bases in the tens of thousands of lines . 
+  you should n't rename functions . 
+  it 's both api and abi-incompatible . 
+   because automatic refactorings are so limited with dynamically typed languages , developers are more hesitant refactoring such code bases and as a consequence , the code is left alone and tends to rot and accumulate cruft much faster . 
+  in fact , dynamically typed languages , because they are so dynamic , make it far easier to refactor code in other ways . 
+  they do n't provide ` automatic refactoring ' because that just is n't useful in any way . 
+   dynamically typed code is already much harder to read and understand because of the lack of type annotations but it also turns to spaghetti much faster than statically typed code . 
+  rubbish . 
+  dynamically typed code is much easier to read because it is n't covered in type annotations that obscure the actual code . 
+  god god god i never want this anywhere near my computer . 
+  no please . 
+   the big point of systemd is that you do not need to write services in a special way , you just write a regular console app and wrap it . 
+  funny how so many projects needed to be duplicated for systemd that worked perfectly fine with many different init systems in the past then , is n't it ? 
+   i came here expecting comments telling me that systemd is the most evil thing ever and that le micro $ oft has come to fill linux with evil c # patents , but i 'm pleasantly surprised with / r/programming . 
+  no shit comments !, 
+  the only shit comments here are the ones praising this trash . 
+  the last thing you need on a linux system is microsoft 's terrible language with its terrible runtime designed for terrible ` enterprise ' programmers . 
+   i bet some stupid drivel like this would be top comment in a few other subs . 
+  your comment is stupid drivel and you should be ashamed of yourself . 
+  there are genuine technical criticisms of systemd ( in fact , i 've never seen anything other than one ) . 
+  supports are way too good lategame . 
+  supports should be strong earlygame , but weak lategame . 
+  unfortunately , for carries to be viable they have to be strong early-game heroes now , and for supports to be viable they have to be strong in the late-game . 
+  no , i 'm not . 
+  i just disagree with you . 
+  disagreeing with you and your cult is not trolling . 
+  you fail to understand . 
+  automated refactoring is n't useless because being automated is useless . 
+  automated refactoring is useless because it exists to solve problems that do n't need to exist in the first place . 
+  renaming functions is simply not a useful thing to do . 
+   it 's paranoia . 
+  well it objectively is not . 
+  you should have to be flaired as chinese ethnicity on this forum so we can ignore the opinions of national-voting biased scum . 
+   more than likely your clothes , household appliances and whatever electronic communications device you are using are all made in china . 
+  my clothes are made in new zealand . 
+  my applicances are made in germany . 
+  my electronic devices are mostly made in east/southeast asia , unfortunately , but there 's really no choice there . 
+  that 's completely different from knowing that the ` user ` object has type ` user ` . 
+  ` user.email ` could mean ` user . __ getattribute __ ( 'em ail ' ) ` . 
+  what types are you allowed to do that to ? 
+  all of them ? 
+  none of them ? 
+   or rather than you profiting from my labour , how about i use a portion of the profits to allow you to learn how to make your own table to sell ?

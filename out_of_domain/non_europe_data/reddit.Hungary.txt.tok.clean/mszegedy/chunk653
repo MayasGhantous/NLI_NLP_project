@@ -1,0 +1,100 @@
+  the lack of realism regarding technology in 4x games has long bugged me . 
+  technology is dependent on culture , needs , history , one 's neighbors , and ultimately especially the environment . 
+  having * any * sort of even vaguely linear progression , where everybody eventually ends up with the same stuff , is completely unrealistic except at the point where everybody can communicate with everybody else . 
+  you should n't even get the same technological ideas available to you if you run the game twice from start to finish . 
+  i understand why 4x games do technology the way they do , though ; it 's easy to program , easy to balance , easy to understand , and , most importantly , close enough . 
+  and it might be hard or impossible to do better . 
+  however , i think i 've come up with a way that you might be able to do so . 
+  this will closely approach the pops system in vic ii , but i do n't want to go quite that far , as the mechanic is , imo , needlessly complex for my purposes . 
+  it will also redefine the scope of the game ; the technology and ideas system of eu4 is fine for 1444-1820 , whereas this bundle of mechanics , i think , is best suited if you begin playing circa 10,000 bc ( although not at the current rate of the game , because that would be horribly boring ; i 'd rather have the game gradually slow down , like civ , reaching the current pace in 1444 ) . 
+  ## the core mechanic, 
+  the basic idea is that each province , rather than having a distinct culture and religion , has a population with certain characteristics . 
+  these characteristics include a set of ideas , a religion , and a language . 
+  i 'll explain how each works in turn . 
+  ### ideas ( and what becomes of culture ), 
+  move over , technology , national ideas , and culture !, 
+  here 's ideas instead . 
+  - each idea has a base chance that a province acquires it in a month ( or whatever period of time is currently equivalent to an eu4 month ) , e.g. 
+  - each idea has a number of requirements to be acquired by a population . 
+  requirements include things like , `` province has idea x '' , `` province has environment type plains '' , `` province has more than 10 % woods in its environment '' , `` province produces cotton '' , `` government has 2 or more diplomatic relations '' . 
+  requirements fall into two categories : mandatory ones , and ones that raise the base chance . 
+  this way , you do n't have to get all the requirements to get an idea , but it can be impossible to get an idea without , say , having another one it depends on first . 
+  - ideas have province-level effects . 
+  if the idea is `` hoe '' , it can improve production in that province if produces grain . 
+  - if you get an advisor from a particular province , that province 's ideas can influence your government . 
+  if you get an advisor from a province with many agricultural ideas , they will improve agriculture , or if you get an advisor with a province with many tolerance ideas , they might be good diplomats , and might improve national tolerance . 
+  your ruler holds whatever ideas are present in the capital , some of which might allow you to change your government type . 
+  - as soon as a province borders another province with an idea , its base chance for obtaining that idea increases , usually to somewhere between -1 % and 0 % . 
+  after that , the base chance may further be increased by other ideas ; e.g. 
+  imagine an idea named `` cosmopolitanism '' which makes the base chance for all ideas held by neighboring provinces go to 0 % , or an idea named `` globalization '' that makes the base chance of a province acquiring any idea held by any province in the world with the `` internet lines '' building go to 10 % , as long as that province also has the `` internet lines '' building . 
+  - provinces that speak the same language and have all their ideas in common except three or less are considered to have the same culture . 
+  cultures that first appear in your empire automatically become accepted cultures . 
+  you can spend diplo points to change the culture of a province to the one found at the capital , but some ideas might remain ( and you might * want * the ideas it has ) . 
+  - in the ideas section of your nation overview ( previously the technology section ) , you can get a list of all of the ideas that it is currently possible to acquire in any of your core provinces with accepted cultures . 
+  for each idea , you can control the monthly amount of monarch points you spend on acquiring it . 
+  for each monarch point spent , the chance of acquiring it is raised by 1 % ( or something similar ) in all core provinces of accepted culture in which it is possible to acquire it . 
+  you can raise the amount of monarch points spent on an idea monthly only once a year ( or some other amount of time ) , but you can decrease how many monarch points are spent on it per year indefinitely . 
+  you can not , however , make the modifier negative in exchange for * more * monarch points , or spend monarch points on an idea with a negative chance . 
+  which kind of monarch point you spend on an idea depends on the idea . 
+  - in the future ideas section ( previously the ideas section ) , you can see a short list of the , say , nine ideas whose base chance is closest to zero , and what their requirements and effects are . 
+  you might be able to do something to get them . 
+  ### religion, 
+  pretty much the same as ideas , but separate . 
+  - religions have their own , smaller , ecosystem of ideas , which work exactly like the ideas described above . 
+  their requirements can include regular ideas ( and regular ideas can include religious ideas as requirements ) . 
+  - provinces are considered to have the same religion as long as they hold all religious ideas in common except for two or less . 
+  if the difference in ideas is more than two but equal to or less than five , they are considered heretics to each other , and if the difference is more than five , then they are considered different religions . 
+  ( this creates a certain `` cultural relativity '' between religions . 
+  if there are two provinces with religions 5 and 4 ideas respectively away from yours , one could be a `` different religion '' to you , while the other one is just a `` heretic religion '' , but from their perspective they 're the same religion . 
+  it should n't matter , though ; while they 're sort of the same religion , it 's not too unrealistic for you to call them different things and treat them differently . ), 
+  - religious ideas can not spread from provinces with different religions to each other . 
+  however , when you convert a province , there is a chance that some of its religious ideas are left behind , maybe even enough for it to still be considered a heretic religion if the original religion was different enough . 
+  - you can not control the acquisition of religious ideas at all . 
+  they are , however , acquired at a much slower rate , and in a more random fashion . 
+  - the state religion is whatever religion there is at the capital . 
+  capitals acquire ideas from heretic religions in a much more difficult fashion than other provinces . 
+  ### language, 
+  all of these new cultures , new states , and new religions need names , and drawing from a pre-compiled cache is n't going to cut it . 
+  instead , we need to emulate language to a degree . 
+  - for our purposes , a `` language '' is just a phonology . 
+  and a `` phonology '' , for our purposes , is just a list of phonological characteristics ... which function the same way as ideas , mostly . 
+  - yes , really . 
+  but it 's not exactly the same . 
+  phonological characteristics also have a chance of getting dropped , for one . 
+  and the chances of acquiring them and dropping them barely depend on outside factors at all ; the dependencies are almost purely internal , i.e. 
+  the chance of getting or dropping a characteristic is based almost entirely on what characteristics you have . 
+  the only exceptions are ideas about communication , e.g. 
+  `` globalization '' mentioned above . 
+  - characteristics include phonemes , diphthongs , allophony , and syllable structures , among other things like tonality . 
+  - these * do * spread from province to province , rather virulently depending on the environment and the administration . 
+  - provinces more than 3 characteristics away are considered to have different dialects , and provinces more than 10 characteristics away are considered to have different languages . 
+  ( again , you get a beautiful dialect continuum where all language is relative , but really your perspective is the only one that matters . ), 
+  - language influences what you name your state , what seperatist states are named , what your advisors are named , what cultures are named , what religions are named , and so on . 
+  the only things whose names are n't affected are the provinces , because that would be a headache . 
+  the names of the cities in the provinces do change , though . 
+  - you can spend diplo points to change a province 's language to the language at your capital , but it probably wo n't be very effective at all ( unless you have the right ideas for the job ) . 
+  - starting the game in 10,000 bc , you * should * have the phonological characteristics of whatever language was spoken there at the time , but since that would be too tedious to implement , they 're just randomly generated instead . 
+  ## other stuff, 
+  ### westernization, 
+  europe might not necessarily come out ahead in tech , although there is a good chance that they will , owing to their large amount of resources . 
+  regardless , if you border a nation whose modifiers from their ideas vastly trump your own , it might be possible to adopt their ideas ( and lose a large amount of your own ) . 
+  if you have the right idea ( `` westernization '' ) , you can do this exactly once . 
+  ### government type, 
+  how your government works is heavily affected by your ideas , and it is much more subtle than the current `` government type '' mechanics . 
+  nevertheless , government types * are * divided into large , general monolithic blocks , in order to preserve the fundamental mechanics of government type in eu4 ( like republics and personal unions ) . 
+  your government type will , however , be called '' <your\u00a0culture <your\u00a0general\u00a0government\u00a0type '' , e.g. 
+  `` khoar oligarchic republic '' . 
+  ### starting the game, 
+  you select a single province somewhere on the map , the `` seed '' of your nation , at about 10,000 bc . 
+  at the same time , a number of other provinces are randomly seeded throughout the map . 
+  you slowly expand throughout history ; the `` colonialism '' mechanic will be supplemented by occasional opportunities to gain provinces neighboring yours ( perhaps with a probability proportional to their base tax , among other modifiers ) . 
+  i 'd try to make it so that the old world gets populated effectively but the new world does n't , but that might be hard . 
+  also , i 'd try to have a timeline you can choose different dates from , but it 's practically impossible to make it historical , so you do n't mind if i just use some random run of the game , right ? 
+  ## conclusion, 
+  i hope you enjoyed my speculation . 
+  i 'll try to work on a mod like this in my off time , but due to its scale , it 's almost guaranteed i 'll never finish it . 
+  i 'd like to hear your thoughts on it , though . 
+  i am a protein engineer . 
+  i have a friend who would like to learn the basics of what i do . 
+  however , i do not have time to teach him . 
+  i would rather point him at an online biomolecular modeling course , or any other kind of website with resources on the topic .

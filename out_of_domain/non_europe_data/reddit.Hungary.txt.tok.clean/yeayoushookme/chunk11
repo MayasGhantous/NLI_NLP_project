@@ -1,0 +1,100 @@
+  ** relax guys , you can add a background to your google by using [ this script ] ( https://userscripts.org/scripts/show/149508 ) **, 
+  but it doenst has teh toobs !!, 
+  kidding aside , i would n't consider buying tube equipment below an order of magnitude greater price than that , where they start behaving with acceptable accuracy . 
+  if you have a controlled viewing environment where you can watch movies in a dim room , then get a plasma . 
+  if you want to watch tv , even during the day , it 's better to get an lcd . 
+  bottom line :, 
+  * plasma + : excellent viewing angles , contrast , colors, 
+  * plasma - : not as bright as an lcd , which is a problem in high ambient light situations, 
+  * lcd + : bright, 
+  * lcd - : may be slow , may have worse viewing angles , colors , contrast ( depending on technology : ips has good colors and angles , va has good contrast , tn is fast and cheap ), 
+  + also , please call it lcd . 
+  led tv 's are uncommon , about $ 10000 each . 
+  there 's really no reason to differentiate lcd 's with led back/edgelighting from ccfl edge-lit screens , as the main difference is power consumption and physical depth . 
+  it would make a lot more sense for the standard nomenclature to differentiate tv 's based on the panel technology used , as that makes a significant difference . 
+  just when i finished bleaching that song out of my ears, 
+  * i shall play you the song of my people *, 
+  compression , distortion ( also overdrive ) . 
+  distortion being a special kind of compression where the time constant is zero . 
+  whenever you have to connect balanced and unbalanced equipment , first look up rane 's related application note [ [ note110 ] ( http://www.rane.com/note110.html ) ] . 
+  your case is # 17 or # 18 , rca to xlr or trs blanced . 
+  you 'll need a cable wired just like in the diagram . 
+  problematic , as you would need to feed a master clock to the devices outputing the spdif ; and normally those devices do n't have such inputs . 
+  otherwise clock rate errors will result in over/underrun situations which lead to audio dropouts and pops ( you can not use a pll when mixing ), 
+  unless you resample everything with the amount of the error ( + - 1000ppm usually ) . 
+  which is either slow , or bad quality . 
+  in the end , it 's much much easier to mix spdif audio by using the built-in converters and mixing in analog . 
+  etfw, 
+  that 's a compressor . 
+  there are no steps . 
+   32-bit floating point recording, 
+  the hell are you smoking ? 
+  24 integer bits will cover the dynamic range of anything you have unless you 're dealing with cryogenically cooled instruments in vacuum, 
+  download a vinyl rip done by someone who has proper recording equipment . 
+  a headphone output can have a resistance of around zero to a hundred ohms . 
+  a regular low-z headphone has at least 16 , more often 32 ohm resistance , so headphone outputs have to handle such a load ( smaller resistance = bigger load ) . 
+  a line level input has many thousand ohms . 
+  depending on the actual output impedance of the headphone outputs , you may get the following results :, 
+  * high-z + high-z : things go relatively well , there is a little distortion , but sound will come out of the speakers . 
+  * high-z + low-z : most of the current of the high-z output will end up at the low-z output . 
+  the low-z output will be louder than the high-z source , the difference will roughly depend on the difference of the impedances . 
+  what is left of the high-z output is lowpass filtered and distorted . 
+  * low-z + low-z : the outputs are overloaded . 
+  very little current gets to the input , and barely anything can be heard . 
+  potential loss of magic smoke due to the outputs being short circuited . 
+  note : i used the word * resistance * instead of * impedance * , because i 've noticed that people tend to phase out when they hear that word . 
+  do biamp the fronts . 
+  it will reduce the load on the amp . 
+  maybe it 'll sound better too . 
+  but dont use the 600 's on top of the fronts . 
+  nothing good will come out of that . 
+  biwiring means trunking two cables to the same amplifier output . 
+  it 's used when the available cable is of an inadequately small gauge , or by people who do n't understand electronics . 
+  anyway , i just hope you meant bi-amping when you said biwiring . 
+  i expect it to achieve more than with better quality amps . 
+  dividing the current between the outputs will reduce the thermal effects the output devices might be subjected to . 
+  a better amp will simply have better cooling and temperature stabilization , so there 's not much to improve on it . 
+  although in the end , the power supply will pretty much limit what the system can do . 
+  or the hundreds of millions with android mobile devices . 
+  [ this is what linux looks like actually ] ( http://www.kernel.org/ ), 
+  windows/microsoft elitists ? 
+  what has the world come to !, 
+  you 're asking the wrong question probably . 
+  what are you actually trying to achieve ? 
+  and btw , you should sum in software . 
+  pretty much every media player can do that . 
+  i 'm sorry to hear that . 
+  you can probably achieve this with jack . 
+  i 'll try to set it up in the morning an i 'll elaborate on the config . 
+  the extention cord is a great idea , you will probably find other uses for that too . 
+  bandpass a snareless submix at the snare rattle resonance frequency and use it to control a compressor sidechanel on the snare , like you do with ducking . 
+  this way the snares will be muted when the frequency is hit . 
+  you should tune the levels so the ducking kicks in only when the snares start to rattle . 
+  bypass the compressor with a gate to avoid unintentionally killing the snare . 
+  personally , i 'd either put up with it , or try to fix it by tuning the bottom head . 
+  are n't c2d 's x86_64 ? 
+  if you consider * better * to mean closer to the original , then digital . 
+  even with modest gear , converting from analog to digital and back to analog has no audible , and very little measurable effects . 
+  the same can not be said about converting analog to vinyl groves and back to analog . 
+  vinyl audio is a passion not so much about accurate signal reproduction , but rather about the atmosphere . 
+  you get a huge physical platter instead of invisible bits , and with quality album art . 
+  you get to clean the record before playing it , and watch it go round and round as the needle almost magically transforms microscopic bumps into music you love . 
+  it 's a much more personal experience than pressing the play button on your networked media player , which will then load the music from your nas and play it back perfectly every time you want it . 
+  at least that 's what i imagine vinyl lovers are into . 
+  i never owned a record , i have an htpc with an odac . 
+  i go back and forth with drc . 
+  the sound is a lot more focused , but sometimes i enjoy turning it off . 
+  i ca n't really explain why . 
+  with my setup ( huge old dynaudio stereo kit , polk center , surrounds made by a domestic eeu manufacturer ) it 's pretty much mandatory for multichannel audio . 
+  levels are perfect this way , and it matches the sound of the speakers . 
+  also the room is moderately treated . 
+  drc does n't work well at all with untreated rooms and non-symmetric speaker placement . 
+  anyway , the measurment gear is a calibrated ecm8000 and a borrowed e-mu 0404 , with brutefir on an ubuntu htpc . 
+   while i 'm sure your not planing on pulling out the crossovers on your dynaudio, 
+  quite the contrary . 
+  the reference crossover is still installed , which is a first order network without the speakers . 
+  plenty of room for improvement , as they had a very minimalist approach in the 80 's . 
+  i plan on implementing a digital crossover of some kind in the future , but that will need some expansion as they 're three-way speakers . 
+  what does the driver correction do ? 
+  drc will extend the bass arbitrarily at the expense of maximum volume . 
+  how does it compare to that ?

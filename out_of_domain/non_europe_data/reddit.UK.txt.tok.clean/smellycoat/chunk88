@@ -1,0 +1,100 @@
+   a similarly infected windows file in the wild would be detected within days if not hours after a routine virus scan by someone checking the download before installing it . 
+  bollocks . 
+  this is not an executable infected with one of the bajillions of existing viruses for windows , it 's had its source altered by hand to include a relatively subtle backdoor . 
+  no virus checker would pick that up . 
+  this is a serious issue for anyone who has installed a backdoored version ( although not * that * bad , as it 's limited to whatever user runs the ircd ) . 
+  it 's relatively obscure and unlikely * that * many people will have installed it from a source tarball anyway . 
+  but it in now way justifies the `` omg linux has been hax0red ! '', 
+  crap . 
+  i 've had * some * success with the so-called ` freezer trick ' , although in most cases it 's usually enough to just keep the drive cool ( i use a coupla 120mm fans for the job ) . 
+  by far the most useful thing i 've found is the ntfs-3g driver for fuse ( and , obviously , a linux box to run it on ) . 
+  it seems to be far more tolerant of errors than either the normal read-only ntfs driver , or windows itself . 
+  i 've been able to almost-completely recover drives that windows wo n't even recognise . 
+  i 'm with you man , i do n't think i 've * ever * used a three-arg for ( ) in perl ( and i 've written a lot of perl  ) . 
+  it 's likely to be fucked . 
+  hard drives do just die , and there 's not much you can do about it . 
+  however , the first thing you want to do is find and run any diagnostic utilities the manufacturer supplies . 
+  seagate 's [ seatools ] ( http://www.seagate.com/ww/v/index.jsp?locale=en-us&amp;name=seatools&amp;vgnextoid=720bd20cacdec010vgnvcm100000dd04090arcrd ) is probably a good place to start ( most manufacturers will insist on you running a utility like this before they 'll accept a return anyway ) . 
+  to get your data off it , you 're going to need another hard drive . 
+  you could use an external drive , or just another internal drive ( assuming you have a spare ide or sata connector in your computer ) . 
+  plug the new one in and just copy everything over . 
+  if the fucked drive is your boot disk , then you might want to use a different machine , or maybe something like a linux live cd . 
+  if the drive is under warranty , then you should get a replacement without too much trouble . 
+  the external drive trick might work , but getting a replacement from the manufacturer can take a long time . 
+  might be better off just buying a new 1tb drive instead ( they 're pretty cheap these days ) . 
+  the manufacturer are unlikely to care if you have anything dodgy on it . 
+  i 'd love to see :, 
+  * something to replace derailer gears , without being too heavy , impossible to maintain yourself , sloppy shifting or significantly fewer gears, 
+  * a viable alternative to a chain drive . 
+  there are a few , particularly belt drive systems , but they ca n't be used with derailers , and require frames with holes in them ( as a belt ca n't be split like a chain can ) . 
+  but , i honestly ca n't see either of those things happening yet . 
+  the concept of using belt drives on bikes has been around for at least 30 years , and internal hub gears are at least 100 years old , so there 's not much reason to think that either will catch on significantly in the next 50 years . 
+  i think if they * do * happen , they 'll need to happen together for it to be a compelling alternative to a derailer . 
+  i 'd also be interested to see a sensible continuous gearing system . 
+  but i * really * ca n't see that happening . 
+  i also predict several bajillion attempts to make a bike with hubless wheels , like [ this ] ( http://www.solidsmack.com/wp-content/uploads/2009/01/waugh-bicycle-03.jpg ) . 
+  all of which will ultimately fail . 
+  i suspect it 'll scan the various buses looking for devices rather than relying on windows to detect it . 
+  if your bios detects the drive during post , then it should work . 
+  probably . 
+  if the bios does n't detect it , then you 'll need to run it on a different machine , i suspect . 
+  or at least boot from something else . 
+  try something like this :, 
+  function updatemileage ( ) {, 
+  var total = 0 ;, 
+  for ( var i = 0 , input ; input = inputs [ i ] ; i + + ) {, 
+  if ( ! isnan ( value ) ) total + = value ;, 
+  document.getelementbyid ( ` mileage-total ' ) . value = total ;, 
+  you could tidy that up a fair bit if you had something like jquery , but it 'll work as it is . 
+  importantly , the class on the mileage inputs is necessary to identify them from other inputs ( though you could use something else , like the name , if you wanted to ) . 
+  lies . 
+  thc ( or at least something in there ) will bind to the plastic . 
+  which is why bags that have had weed in for a while them are impossible to clean . 
+  if anything , an air gap will reduce the surface area exposed to the plastic . 
+  stick that shit in a small glass jar or something . 
+  well , to be honest , when i said `` clean '' , i really meant `` desperately try to scrape enough of the remaining dregs out for a last bowl '' . 
+  my mbp is the last generation . 
+  i believe the battery life was quoted as 8 hours , and that seems to be pretty accurate , at least according to the battery life indicator . 
+  in fact with the display on the lowest setting with wifi and bluetooth off is more like 9 hours . 
+  do you have a model with two gfx adaptors ? 
+  using the more powerful adaptor really gimps the battery . 
+  you did n't edit that , you lying bastard !, 
+  i 'll be * watching you * . 
+  water tastes nasty if you 're used to sugary drinks . 
+  it 's very easy to cut out the fizzy sugary stuff and completely switch to drinking water , but you have to bite the bullet and just get it done . 
+  if you drink a can here and there then you 're never going to completely get used to water . 
+  oh , and * do not * switch to diet drinks . 
+  they do bizarre things to your appetite . 
+  after years of living on sugary ( and diet ) fizzy drinks , i stopped completely . 
+  these days , my fluid intake is limited to :, 
+  * tea, 
+  * water, 
+  * beer ( occasionally ), 
+  works fine , and i do n't miss it at all . 
+  as i understand it , it works like this : diet drinks taste sweet , but contain little in the way of nutrients . 
+  if you drink some , your stomach is expecting some sugar , so it produces acid or whatever . 
+  but it does n't gets any , so you 're left with a vague feeling of hunger , but nothing to digest . 
+  this has the effect of increasing your appetite . 
+  i 'd heard about this before , but i really did n't take much notice ( assumed it was either bullshit , or that the effect would be so subtle i would n't notice ) . 
+  at least , until i actually stopped drinking the stuff and noticed that my appetite was dramatically reduced . 
+  the aspartame stuff . . 
+  i do n't really buy , i never noticed any muscle-related stuff . 
+  but the appetite reduction was definitely a real ( but unexpected ) effect . 
+  if you want to try quitting , it 's really not that hard . 
+  the worst part is that you may get headaches if you 're used to ingesting a lot of caffeine ( and they can be really nasty ) . 
+  i recommend replacing the caffeine temporarily with caffeine pills ( work out how much you 're ingesting , and dose yourself similarly with the pills over the course of the day ) . 
+  that gives you a chance to break the habits without also coping with withdrawal . 
+  you can wean yourself off the pills over a two weeks or so without a single headache ( and little in the way of craving , assuming you 've broken the `` i want a soda '' habits ) just by slowly reducing the doses . 
+  also , you 'll want to drink a * lot * of water . 
+  to replace 2-3 cans , you 'll probably want to aim for 4-6 large glasses . 
+  it has a very similar refreshing/invigorating effect , but you need to drink a ton more of it to be as satisfying . 
+  i totally read that as `` we can find the internet kill switch ! '' . 
+  i 'll admit i 'm slightly disappointed now . 
+  remove all traces of that shit , and any referring or related sites from the drive . 
+  then switch your wifi security off . 
+  edit : oh , you 're talking morally ? 
+  well . 
+  chances are law enforcement is either going to do nothing , or try to prosecute you . 
+  i mean `` joe '' . 
+  so that seems kinda risky to me . 
+  if it were me in that situation , assuming it was something bad enough to tweak my internet vigilante gland , then i 'd probably try to get the logs from the ftp owner and chase it down with the anonymiser service myself .

@@ -19,9 +19,9 @@ DO_WE_NEED_TO_EXTRACT_TOP_TRIGRAMS = False
 TOP_TRIGRAMS_LOCATION = 'top_trigrams.npy'
 DO_WE_NEED_TO_EXTRACT_TRIGRAMS = False
 TRIGRAM_LOCATION = 'calculated_data\\charracter_trigrams'
-DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS = True
+DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS = False
 GRAMMAR_ERRORS_LOCATION = 'calculated_data\\grammer_errors'
-DO_WE_NEED_TO_EXTRACT_POS_TRIGRAMS = False
+DO_WE_NEED_TO_EXTRACT_POS_TRIGRAMS = True
 POS_TRIGRAMS_LOCATION = 'top_pos_trigrams.npy'
 DO_WE_NEED_TO_EXTRACT_SENTENCE_LENGTH = False
 SENTENCE_LENGTH_LOCATION = 'average_sentence_lengths.npy'
@@ -39,9 +39,9 @@ def read_files_from_directory(directory):
         files = defaultdict(list, [])
         i = 0
         for country in os.listdir(directory):
-            if i != WHAT_COUNTRY:
+            '''if i != WHAT_COUNTRY:
                 i += 1
-                continue
+                continue'''
             if DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS:
                 GRAMMAR_ERRORS_LOCATION += "\\"+country+".npy"
             if DO_WE_NEED_TO_EXTRACT_TRIGRAMS:
@@ -126,6 +126,7 @@ def extract_pos_trigram_features(dic, top_n=300):
             all_trigrams.extend(trigrams)
 
     top_trigrams = [trigram for trigram, _ in Counter(all_trigrams).most_common(top_n)]
+    np.save('top_300_pos.npy', top_trigrams)
 
     print("Calculating POS trigram frequencies")
     for key in tqdm.tqdm(dic.keys()):
@@ -194,8 +195,7 @@ if DO_WE_NEED_TO_EXTRACT_GRAMMAR_ERRORS:
         grammar_errors = extract_grammar_errors(files1)
         print(f"saving: {WHAT_COUNTRY}")
         np.save(GRAMMAR_ERRORS_LOCATION, np.array(grammar_errors))
-else:
-    grammar_errors = np.load(GRAMMAR_ERRORS_LOCATION, allow_pickle=True)
+
 
 if DO_WE_NEED_TO_EXTRACT_SENTENCE_LENGTH:
     average_sentence_lengths = calculate_average_sentence_length(files)

@@ -1,0 +1,100 @@
+  except for the simple fact that it is uncool to make web forms apps in the eyes of others do you have anything to support your statement ? 
+  at this point you can just use static html pages and the web forms vs mvc debate is irrelevant . 
+  having quite a bit of built-in security ( like event validation for example ) instead of having to include it yourself is an advantage of web forms . 
+  being able to bundle a view with the logic in a control is also very helpful for applications that are built out of widgets . 
+  in some cases having abstractions over shitty html elements like checkbox inputs is also useful . 
+  i really ca n't think of any advantage of mvc over web forms except for the fact that it is easy to control every aspect of the markup which may be very helpful if the team has dedicated front end developer . 
+  you do n't necessary have to mix logic and presentation . 
+  there is nothing stopping you from using mvc-like patterns in web forms ( the most popular being mvp ) . 
+  however you then have the option to build a reusable component out of the parts . 
+  let alone that there is such thing as ui logic and web forms allows you to separate that from the markup . 
+  oh and btw update panels are super cool ... at least for some cases like paging a grid where the main job of the page is to display the grid . 
+  can we at least agree that if you only need server code for these parts there is no much difference between web forms and mvc ? 
+  after all you could even drop the server form from the page . 
+  there is a reason frameworks like web forms are called component frameworks . 
+  btw how come every desktop framework out there use components like buttons , tables , etc ? 
+  i am not disputing what you can do with mvc i just claim there is a value in being able to bundle presentation with logic . 
+  paradoxically mvc has renderaction method that allows you to bypass the pattern because otherwise you ca n't possibly build recursive controls like multi-level menus or nested comments . 
+  what is renderaction if not a control ? 
+  it allows you to call your controller effectively bundling them together ( note how i avoid the word coupling ) . 
+  i do n't count webapi as part of mvc since it effectively removes the `` view '' part of the pattern . 
+  i am a fan of webapi and i think it does not contradict but enforce my original point that rendering html on the server is obsolete . 
+  yes as pointed elsewhere in this thread there are some common parts ( usually headers and footers found in master pages ) but these are a small part of projects and can be written by generating strings in brainfuck which makes the debate of web forms vs mvc irrelevant . 
+  i would n't say its harder per se but all the educational materials produced in the last 10 years promote the non-separated model . 
+  as to the javascript issue it is pretty much solved these days . 
+  in recent versions of web forms ( 4.0 and especially 4.5 ) most controls do n't dump js into the page . 
+  things like bundling and unobtrusive validation are fully supported . 
+  yes i honestly think the game is just fine and what is more as a lead designer he is not the one in charge for the balance . 
+  in fact if i had to point a finger at someone who `` fucked up '' sc2 i would blame the community and the pro/scene who insist on large `` balanced '' maps that are all the same instead of diverse map pool like we had at launch . 
+  also they ask random players about race because supposedly you ca n't play against random which obviously mean that you ca n't copy a pro strat against random because there are practically no random players in pro tournaments . 
+  if you ca n't copy a strat from a pro player then it does not exist . 
+  the only real disadvantage i see is for p vs z where the z is random . 
+  everything else is not big penalty for the chosen player . 
+  obviously it is very risky to use specific race rushes like 6 pool and bunker rush vs zerg because you may hit a race that easily defends it but other than that i do n't see much of a problem . 
+  you just open with safe middle of the road build and try to force a macro game where the random player loses due to lack of experience . 
+  this is of course true but the disadvantage of having 3 times less experience in the late game of any given matchup outweights the value of the threat of cheese . 
+  download ? 
+  why is it not web based ? 
+  for a moment i thought the platform they are promoting is actually not good enough for the product they are promoting . 
+  i 'd bet 90 % of dark soul buyers ca n't tell good graphics from bad graphics in general . 
+  even if you put images side by side most hardcore gamers wo n't know which is better unless we 're talking about generational shift . 
+  most of the times art is far more important for the perception of quality graphics . 
+  on a side note i visited a lan sc tournament the other day and even though the players were high level ( including two grand master players ) more than half of them did n't know what the vsync option does except that they should turn it off because it reduces the framerate . 
+  these people would sense immediately any drop in framerate but not even severe drops in graphics quality . 
+  the only reason i own a console at all . 
+  in fact the only reason i did n't preorder xbone is because i did n't see real equivalents to kinect adventures and dance central with gangnam style . 
+  but every console has r&d costs . 
+  we 're talking about the actual cost of getting the hardware into people 's hands not about inventing it . 
+  r&d costs for the kinect are very high but the product has implications far outside the console . 
+  i believe that motion controls will be everywhere in ten years time and it is certainly good for ms to be the leader in the field and own a ton of patents . 
+  if i were in charge in ms i would certainly consider kinect more important product than xbox and i would be willing to sacrifice one console generation to ensure kinect 's success . 
+  i am sure people were skeptical about the mouse when it first appeared . 
+  in fact it took like 15 years between the first commercial ( i 'm not even talking about prototypes ) mouse and the time when it became standard part of every computer . 
+  same goes for touch . 
+  at some point motion controls will be everywhere and we will accept it in the same way as mouse , sound , microphone and camera all of which were considered unimportant and not really needed when they first entered the consumer market . 
+  you ca n't really make use of 8 cores for graphics however watch dogs seems like a game that can use smarter ai and in this case more cpu power can definitely help . 
+  in other news it does n't work in ie so i thought i was stupid for not being able to find the `` execute '' button . 
+  title is a click bait . 
+  also please apply http://en.wikipedia.org/wiki/betteridge's_law_of_headlines, 
+  it 's not only the backward compatibility . 
+  it is the trade off . 
+  do the users benefit more from fixing this or something else ? 
+  on the other hand because of the new rule of no demotions in the season itself it is getting easier to get into higher league as the season end approaches than it is in the start of the season because everyone is aggressively demoted . 
+  obviously overall it is harder to get in masters than before but it is even harder to be in masters in the first month . 
+  i call bullshit on the 8 core requirement !, 
+  i am sure they just wanted to put more powerful processor on the higher tier of requirements . 
+  gpu and ram i can believe but how they could benefit from 8 cores if they can run on 2 is beyond me . 
+  but then it is not really wc3/sc2 anymore is it ? 
+  the game engine and the box you buy may be the same but the game is something completely different . 
+  i have the problem with not playing when i get back in masters too . 
+  i guess people like us are motivated by negative things rather than rewards . 
+  how come ? 
+  leagues are based around percentages . 
+  if you were in top 20 % but you are now in the lower 20 % you surely will go down several leagues . 
+  you ca n't be demoted anymore midseason so this is why the ladder places you extremely conservatively when you play placement matches or in the start of the season . 
+  if you happen to be gold level ( for example ) you will be promoted from bronze but if you were put in gold and turn out to be bronze player the game could not demote you until the next season . 
+  you are probably not gold but the placement matches are extremely conservative due to the new no demotions rule . 
+  basically if the game thinks you are low diamond it will shove you in gold at the start of the season . 
+  i ca n't wait for part 2 !, 
+  i still believe they will come later and probably he will use a raven to spot them , 
+  i actually think dota killed warcraft iii . 
+  i know all my friends started playing dota and stopped playing warcraft iii and i stopped playing warcraft iii too . 
+  i do n't think custom games have anything to do with the longevity of the core game . 
+  as if anyone watches competitive half-life matches because they play cs . 
+  every time i stumble upon one of these articles or talks i feel the need to shout out loud '' [ programming , motherfucker !, 
+  ] ( http://programming-motherfucker.com/ ) '', 
+  i think that arguing about methodologies wastes more time than having big/bad process . 
+  steam is not a good example because the only way steam prevents piracy is by providing cheap sales of old games . 
+  i am perfectly sure steam has done exactly nothing for preventing piracy in the first 3 months when the game sells at full price and where devs make most of their money . 
+  if you point to steam as something that beats piracy then publishers can point out that they do port their games to pc a year later so people can buy it cheap on steam instead of pirate it . 
+  as if they ever meant anything ... 
+  i do n't think decay is actually correct word . 
+  it 's more like super conservative placement . 
+  remember that you ca n't get demoted mid-season now so they ca n't just throw you in a higher league because you will be demoted if they are wrong . 
+  so your motivation for playing the game was ... internet points ? 
+  i got demoted to plat from masters when they introduced the new system . 
+  fought my way back to masters and have been doing it every season ( i almost always stop playing once i make it to masters ), 
+  balance is overrated . 
+  the community should remove its focus from balance and promote creativity , strategy and tactics instead via more diverse map pool . 
+  stop whining about balance and especially cheese and demand desert oasis back ? 
+  this !,

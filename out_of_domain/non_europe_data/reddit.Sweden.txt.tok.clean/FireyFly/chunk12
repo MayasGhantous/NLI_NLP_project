@@ -1,0 +1,100 @@
+  however , between ` 0x7fff ` and ` 0x8000 ` it is not increasing ( but rather decreasing by a lot ) . 
+  notch :, 
+   @suspended_chord the correct behavior will be 0xffff on underflow , 0x0001 on overflow , 0x0000 on everything else . 
+  i will update the spec, 
+  and you write ( with a link to this tweet ) :, 
+   on underflow , it 's 0x0001 . 
+  on overflow , it 's 0x0001 . 
+  updated spec soon . 
+  notch says '' ` 0xffff ` on underflow '' whereas you say `` on underflow , it 's ` 0x0001 ` '' . 
+  did you mean ` 0xffff ` ? 
+  ( or am i horribly dense and missing something ? ), 
+  i think using the p prefix for that is a bad idea , since i 've seen ` p `` foo '' ` tossed around as pascal-style ( length-prefixed ) string literal syntax as well . 
+  i was going to propose calling them `` compact strings '' instead , but then i realised ` c `` foo '' ` does n't work too well either ... 
+  maybe ` b `` foo '' ` for packed ( `` binary '' ) strings , in the sense that it allows you to specify the data of the whole world rather than only the lower octet ? 
+  treat each word as a signed 16-bit integer ( two 's complement ) . 
+  we want the absolute value of this . 
+  the reason for this is because the data is multiplied with a sine wave , so the sign will vary . 
+  we 're just interested in the magnitude . 
+  this value ( the absolute value of each word , treating it as a 16-bit integer ) is the grayscale intensity/brightness . 
+  if you plot this as a 64x64 px grayscale image , you 'll notice `` 4x1 px bits '' . 
+  this is because each pixel is sent four times ( that 's the * 4 mentioned when opening the psrxblahblah .0 x10c.com page ) . 
+  edit : [ a1k0n explains more about the sine waves that modulates the data ] ( http://www.reddit.com/r/0x10c/comments/t4hri/demodulation/c4jqwho ) . 
+  no it did n't ? 
+  the leaked version did n't have, 
+  * space rendering and windows, 
+  * model editor, 
+  at the very least . 
+  it was just an empty room with a single dcpu monitor thing . 
+  it was closer to that first screenshot with a dark room and a single dcpu monitor in the corner , rather than the level editor we saw in the livestreams ( unless i totally missed the editor part of the leaked version ) . 
+   but without emacs i do n't have parentheses matching . 
+  does n't every modern programming-oriented editor highlight matching parens/braces/square brackets/what have you by default ? 
+  i know for certain that vim does , at least . 
+  also , ` % ` in vim jumps to the matching paren/brace/whatever of the next occurence of such a character , which is pretty handy ( though i 'm sure emacs has something similar too ) . 
+  really cool !, 
+   but i do n't know about doing 16-bit arithmetic in javascript and do n't want to know . 
+  you really just have to do your operations ` & 0xffff ` , and you should be set . 
+  or you can use a typed uint16 array to represent the ram ( + registers as extra cells ) , and get wraparound for free . 
+  :-) ( yes , i totally ignored the last part of your sentence . ), 
+  https://developer.mozilla.org/en/javascript_typed_arrays/uint16array ;-), 
+  typed arrays are required for webgl , so all webgl-supporting browsers should support them . 
+  things like [ fabrice bellard 's jslinux ] ( http://bellard.org/jslinux/ ) makes use of them . 
+  it 's not that hard , just 2 ^ 13 . 
+  vps :, 
+  02:01:13 up 111 days , 9:38 , 1 user , load average : 0.09 , 0.04 , 0.05, 
+  local box :, 
+  10:54:47 up 10 min , 1 user , load average : 0.32 , 0.41 , 0.25, 
+  well , since the dcpu is emulated on mojang 's servers you * have * to upload your code in order for it to actually run ( in-game ) . 
+  i guess it depends on how you define `` better '' . 
+  i 'm very sure that notch is indeed using lwjgl for 0x10c . 
+  yeah , well ... [ everyone uses base 10 ] ( http://3.bp.blogspot.com/_4xmm68f5nay/syeel9vybti/aaaaaaaagdc/pjtb05i2bny/s320/base10.png ) . 
+  ^ ^ ^ * ^ ^ ^ while ^ ^ ^ logged ^ ^ ^ in ^ ^ ^ as ^ ^ ^ me, 
+  the thing at the top is off-the-screen stuff that 's apparently positioned there , i think . 
+  it looks kinda like a header , so maybe it 's the `` real '' header ( since res modifies it ) . 
+  i dunno , i ca n't seem to select it for some reason . 
+  or , if you want to scroll through the file there 's also ` c-u ` and ` c-d ` to skip half a screenful at a time ( i think that 's how much it is at least ) . 
+  this is particularily neat for us dvorak users , due to where ` u ` and ` d ` are located in that layout . 
+  now if only ` ctrl ` was a bit closer ... ( and no , i 'm already using ` caps lock ` to act as ` esc ` , so that 's taken . 
+  ideally i 'd want my caps key to be split in half ... ), 
+  ooh , very interesting . 
+  i do indeed run linux , and i 'll definitely give this a try . 
+  thanks !, 
+  ` \u2980 ` is u +2980 triple vertical bar delimiter . 
+  that 's marginally better than putting all the content in the subject field at least . 
+  i think the windows search thingy can search for ( word ) documents containing a specific sentence , or at least i think it could in windows xp . 
+  not all of us use proprietary oses . 
+  last time i checked there 's no version of unity 's web player for linux . 
+  ( and yes , some people actually use linux as their main [ and sometimes only ] os . ), 
+  i actually enjoyed watching it . 
+  it 's just probably me being strange though . 
+  this sounds like a good plan , i 'll probably do something similar . 
+  unless i get my old gameport joystick working , in which case i 'll give that a try ... 
+  heresy !, 
+  that 's [ where the escape key should be ] ( http://xahlee.org/emacs/i/vi/terminal_adm-3a_keyboard.jpg ) . 
+  it should be pretty easy to convert them to a style similar to the other icons . 
+  i could give it a try if you wish , just pass me the `` wrong '' icons and one of the `` carved-out '' ones . 
+  oh , i had n't heard of it :p , that explains the title . 
+  here 's my take on the nmap one : http://i.imgur.com/zeenp.png, 
+  now i really really wish sweden would still have club nintendo . 
+  stupid [ official nintendo distributor ] ( http://en.wikipedia.org/wiki/bergsala ) for ruining all the fun . 
+  last time i checked , they removed the club nintendo codes from all games sold , at least in sweden . 
+  i 'm happy for those of you that do get the case , though . 
+  it looks great . 
+  it does n't `` use '' any language ; it emulates a computer architecture called `` dcpu-16 '' ( which notch invented ) . 
+  there are a few implementations of `` higher-level '' languages targetting the dcpu-16 already ( e.g. 
+  [ the dcputoolchain c compiler ] ( http://dcputoolcha.in ) or [ hellige 's forth implementation ] ( https://github.com/hellige/dcpu ) ) , but otherwise you have to learn the dcpu-16 assembly language and use that instead . 
+  it 's actually not too hard ; if you check the spec and a few examples you should be able to pick it up ( if you have some programming experience already ) . 
+  i take it you 're not from europe ? 
+  surely hardware , windows and ms office does n't land on $ 10000 per box ? 
+  or was os and office suite just examples ? 
+  one submission per user ? 
+  can you submit another ( newer ) submission before the deadline in order to invalidate the older one ? 
+   at first i was just going to turn them all off , but why not give them a useful function ? 
+  that 's a fair idea , but i think that the same argument for hjkl over arrow keys also works for why no ( significant ) things should be bound to the arrow keys at all . 
+  they 're simply too far away to be useful ( at least imho ) . 
+  i count ( in | de ) denting as a significant thing , and once you get used to it , < and  works very well ( at least for me , but i 'm not on a us qwerty keyboard so i 'm not sure if it 'd work as well for you ) . 
+  personally , i learned touch typing by writing lots and lots on irc . 
+  in fact , i did it while also transitioning from qwerty to dvorak , which i think helped a fair bit with the touch-typing part since i did n't have to battle my muscle memory wanting to do things in a certain way . 
+  but in general , the key is to write lots and lots , and do n't care if you go slow for a while . 
+  one ca n't get better without practice . 
+  oh , i suppose .

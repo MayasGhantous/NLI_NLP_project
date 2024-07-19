@@ -1,0 +1,100 @@
+  ponomarev is a part of the russian parliament and voted for several controversial amendments for copyright laws ( being an active speaker at pirate party events ) . 
+  a question for him would only be ` how do you sleep at night ? ', 
+  our sub reddit might even host an ama, 
+  whoa . 
+  / u/jcaps766 , would you please ask him is he 's interested in emigration to ukraine then ? 
+  that 's okay , thank you !, 
+  i hope the conference was enjoyable, 
+  [ \u0432\u0438\u0434\u0435\u043e\u0432\u0435\u0440\u0441\u0438\u044f \u0430\u043d\u0435\u043a\u0434\u043e\u0442\u0430 ] ( https://www.youtube.com/watch?v=euxqbzdwv0w ), 
+  nov. 29 , 2015 3 dead , 9 injured : colorado springs , colo. . 
+  oct. 1 , 2015 9 dead , 9 injured : roseburg , ore. . 
+  ~ ~ july 16 , 2015 5 dead , 3 wounded : chattanooga , tenn. ~ ~, 
+  june 18 , 2015 9 dead : charleston , s.c. 
+  [ \u041a\u043e\u043b\u043e\u0440\u0430\u0434\u043e \u0421\u043f\u0440\u0438\u043d\u0433\u0441 ] ( https://en.wikipedia.org/wiki/colorado_springs_planned_parenthood_shooting ) :, 
+   he claims to be a christian and is extremely evangelistic , but does not follow the bible in his actions . 
+  he says that as long as he believes he will be saved , he can do whatever he pleases . 
+  he is obsessed with the world coming to an end . 
+   the gunman was described friday as a `` hate-filled '' individual with anti-religion and white supremacist leanings who had long struggled with mental health issues , law enforcement sources said . 
+  karma is a bitch, 
+  i 've set this to upload some photos from `` ` ~ / pictures `` `, 
+  this however can be changed without a rebuild : `` ` flatpak override -- filesystem = xdg-download org.mozilla.firefox `` ` iiirc, 
+  `` ` . / build.sh `` ` sets up a local repo and pushes updates there . 
+  this repo can be shared with other users ( similar to git repos ) . 
+  use `` ` flatpak update -- user org.mozilla.firefox `` ` to pull updates . 
+  \u0414\u0430\u0436\u0435 \u043d\u0435 \u0437\u0430 scorpions - virgin killer ? 
+  yes , you can override default manifest settings without rebuild :, 
+  `` ` flatpak override -- filesystem = xdg-download org.mozilla.firefox `` `, 
+  filesystem options are described in [ the docs ] ( https://github.com/flatpak/flatpak/wiki/metadata ), 
+  i 'm not entirely sure , you probably should ask at #flatpak on freenode - or [ file an issue ] ( https://github.com/flatpak/flatpak/issues/new ), 
+  i 'm using official branding in this package , so i guess i can not even if i wanted to . 
+  i 'd prefer firefox people take care of that, 
+  the repo is 820 mbs , i guess more cleanup patterns should be added to decrease this, 
+  i 'm using mozilla 's repo ( the github mirror ) . 
+  i do n't even want to bother with that - ccache is growing , i wo n't be able to host the repo and can not commit to regular updates . 
+  mozilla folks should pick it up if they are interested . 
+  on my t440s it took about an hour and a half to rebuild it , so it should be pretty much doable to anyone interested . 
+  i 've realized that it gives a writable access to downloads only , other home dirs are read-only . 
+  yes , setting it to xdg-download is a good idea, 
+  mozilla has verified that debian 's version does n't affect the quality significantly and since march debian has firefox package with mozilla 's trademarks . 
+  there are two options here :, 
+  * ovh 's kernel has the same quality as ubuntu 's kernel - this means canonical tries to make ovh pay `` for protection '', 
+  * quality of ovh kernel is significantly lower - you can still call it ` ubuntu ' if you give canonical a couple of bucks, 
+   would they be allowed to call it an iphone ? 
+  they are allowed to call it ubuntu for now , for 1-2eur per month . 
+  if they 'd receive cease and decist letter the discussion would be totally different, 
+   which it clearly was n't, 
+  that 's very debatable - a lot of people in this thread think that ovh did n't modify ubuntu code ( they did ) . 
+  several small bugs did n't misguide people into thinking that ubuntu is buggy and unreliable , so it falls pretty much into nominative use imho, 
+   ovh and dreamhost can simply strip out any ubuntu/canonical references and name their distros , say , ovhuntu and dreambuntu . 
+  i wonder how well their sales depts . 
+  would work after such move . 
+  that 's insufficient . 
+  they have to strip ubuntu name from the whole distribution - package name , changelog , documentation . 
+  ah , sorry , i thought ` simply ' is the keyword , as this task is definitely not trivial, 
+  i wonder what 's dreamhost is paying for then . 
+  their ubuntu images are not modified iirc, 
+  no , a quick google search does n't give me the info . 
+  how does canonical support will resolve in case i 'll ask to resolve a problem with dreamhost 's ubuntu ? 
+  will they take the case or ask me to reinstall ubuntu from trusted sources and reproduce the problem ? 
+  does asking money from ovh means ` we commit to resolving the problems with your modified version ' ? 
+  centos crew rebuilds prepared srpms , replaces three packages - and voila . 
+  its an automated process btw . 
+  its definitely not that easy in ubuntu world . 
+  some say that it was implemented like that deliberately, 
+  that is the best outcome we can expect - making ovh code land upstream ( even if its at least ubuntu kernels ) . 
+  thank you for bearing with me, 
+  i doubt that upstream project will work on issues from such patched packages, 
+  \u042d\u0442\u043e \u043d\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f put your money where your mouth is, 
+  i 've created a manifest and some build scripts [ here ] ( https://github.com/vrutkovs/flatpak-something-for-reddit ), 
+  \u0412\u044b \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435 \u043a\u0430\u043a\u0430\u044f \u0433\u0438\u0431\u043a\u043e\u0441\u0442\u044c [ \u043c\u044b\u0441\u043b\u0438 ] ( http://www.ukip.org/nigel_farage_steps_up_his_criticism_of_reckless_eu_foreign_policy ) :, 
+  this has encouraged brave young men and women in western ukraine to rebel to the point of toppling a legitimate president and led to the utterly predictable debacle whereby vladimir putin has annexed part of the country and now casts a long shadow over hopes of genuine democracy in the rest of it . 
+  * its easy to check if it builds with latest/3 .20 / ... gtk version, 
+  * sharing a build repo for bleed-edge users will help a lot with finding bugs . 
+  since flatpak deploys a prepared binary with defined build options it would eradicate issues introduced by difference in compiler/dependencies . 
+  * it a safer way to run a new and untrusted app, 
+   but it seems unlikely that the tax will be enacted . 
+  the proposal , which would need the support of six of the 11 members of the board of supervisors to be placed on the ballot in november , has the public support of just three . 
+  even if the board approves the measure , it would require the approval of two-thirds of voters in november to take effect . 
+   skeptics say it is difficult to define what a tech company is , and they criticize the measure for singling out companies based in the city while the giants of silicon valley are not affected -- even though thousands of their employees live in the city and have contributed to the income inequality and high housing costs . 
+  \u0415\u0441\u0442\u044c \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 [ \u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b ] ( http://www.bloomberg.com/news/articles/2014-10-08/sanctions-said-to-shrink-loans-to-russian-nuclear-fuel-exporter ) \u0434\u0430\u0432\u043b\u0435\u043d\u0438\u044f . 
+  no true scotsman would do that !, 
+  [ \u043f\u0440\u043e\u0441\u0442\u043e \u043e\u0441\u0442\u0430\u0432\u043b\u044e \u044d\u0442\u043e \u0437\u0434\u0435\u0441\u044c ] ( http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2011/12/screen-shot-2011-12-26-at-18.38.18-515x245.png ), 
+  \u041f\u043e\u043b\u043d\u044b\u0439 \u0437\u0430\u043f\u0440\u0435\u0442 \u0431\u0443\u0434\u0435\u0442 \u0442\u043e\u043b\u044c\u043a\u043e \u0441 [ 17\u0433\u043e ] ( http://www.europarl.europa.eu/news/en/news-room/20131004ipr21519/meps-ban-cadmium-from-power-tool-batteries-and-mercury-from-button-cells ) \u0433\u043e\u0434\u0430 , \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e \u043f\u0440\u043e\u0434\u0430\u0432\u0430\u0442\u044c \u043e\u0441\u0442\u0430\u0442\u043a\u0438, 
+  \u0411\u044b\u043b \u0435\u0449\u0435 \u043f\u0440\u0435\u043a\u0440\u0430\u0441\u043d\u044b\u0439 [ ama \u0441 \u041c\u0430\u0439\u043b\u043e ] ( https://www.reddit.com/r/the_donald/comments/4t267j/i_am_milo_yiannopoulos_the_dangerous_faggot_ama/ ), 
+  during world war ii in 1943 president franklin roosevelt and first lady eleanor roosevelt planted a victory garden on the white house grounds, 
+   `` this morning paul manafort offered , and i accepted , his resignation from the campaign , '' mr. trump said in a statement . 
+  `` i am very appreciative for his great work in helping to get us where we are today , and in particular his work guiding us through the delegate and convention process . 
+  paul is a true professional and i wish him the greatest success . 
+  it uploads only layers which are missing at the registry, 
+   sexual harassment panda, 
+  \u0418 [ paedofinder general ] ( https://www.youtube.com/watch?v=xcywghhqmew ) \u0435\u0449\u0435, 
+   approximately 30 % ( or 300,000 ) of american physicians are members of the ama, 
+   however , the ama is not in a position to take action against a physician 's license to practice medicine . 
+  [ 1a \u043a\u043b\u0430\u0441\u0441 ] ( http://ic.pics.livejournal.com/frankensstein/19869639/349152/349152_900.jpg ) \u0434\u043b\u044f \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f . 
+  can we pre-load specific containers , and ensure sub-level accounts have only simple run/execute access to that specific container ( s ) . 
+  yes , its [ possible ] ( http://www.projectatomic.io/blog/2015/08/why-we-dont-let-non-root-users-run-docker-in-centos-fedora-or-rhel/ ) :, 
+  create a script which runs a new container based on a specific image :, 
+  $ cat / usr/bin/docker-fedora, 
+  now allow user in ` / etc/sudoers ` to run this script :, 
+  user all = ( all ) nopasswd : / usr/bin/docker-fedora, 
+  note , that the container can not run in privileged mode,

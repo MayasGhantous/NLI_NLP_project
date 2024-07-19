@@ -1,0 +1,100 @@
+  happens often when following links to web forums from google . 
+  if you use the `` first id '' method instead , then the content wo n't change if items are deleted from before or after the page in question . 
+   v\u00f5istlus-tel-gi `` in/at/during competitions , as well/even '' . 
+  this seems hard to parse at first . 
+  edit : fixed for v\u00f5istlustelegi vs v\u00f5istlustelgi , nice catch / u/shivlxie . 
+  * v\u00f5istluste - multiple competitions ' ( posessive ), 
+  * v\u00f5istlustele - for/to multiple competitions ( eg . 
+  going to competitions ), 
+  * v\u00f5istlustelegi - even for/to competitions . 
+  the - gi in this case adds sort of emphasis or comparison to it , for example where someone goes places , but also goes to competitions . 
+  or depending on context could be used like `` dude takes his silly hat with him even to competitions . '', 
+  starting new python threads manually from the web app server is usually a bad idea . 
+  an architecture you should consider is :, 
+  * when the big request comes in , save it in the database . 
+  * schedule the processing in a background job queue . 
+  * redirect the user to a `` job status page '' , passing some sort of job id . 
+  the page should auto-refresh every now and then . 
+  * when the background job completes , it writes the result to the database or files , and marks itself as completed in the database . 
+  on next refresh , the status page shows the results or links to files . 
+  * you can launch one job per user request , or for each match criteria , whichever seems more elegant in code i suppose . 
+  then you can create some number of worker processes for the background queue , which do the actual work . 
+  for the background job queue , two popular options are celery ( feature-rich but sometimes seen as complex to set up ) and redis-queue ( easier to install especially if you are already using redis for cache , and good enough for 95 % of sites ) . 
+  but note that in the end , both the web app and background workers both will still access your database , and if that 's the bottleneck , the background queue architecture just provides a more responsive status ui rather than actual performance increase . 
+  postgresql has full regular expression search support , perhaps you can use that to speed up the queries themselves : http://www.postgresql.org/docs/9.4/static/functions-matching.html, 
+  or even better , see if you can use text search indexes for some cases : http://www.postgresql.org/docs/9.4/static/textsearch.html, 
+  could be either , but i think the `` differences '' are overblown . 
+  bigelow is at least 5 years away from having a launch-ready ba-330 module , and spacex is at least 3 years away from having an available launch slot on the falcon heavy . 
+  it 's not surprising that neither party wants to start financing fairing development right now . 
+  but once both of them are ready to start signing launch contracts , i 'm sure making a bigger fairing will not be a blocking issue . 
+  you are now a moderator of / r/buttcoin, 
+   tt\u00dc is the best uni in estonia for studying anything related to computers . 
+  i do n't have experience for a comparison , but it has always seemed to me that tartu is better for the theoretical / mathematics side of computer science , even if tt\u00dc is good at hardware or engineering courses . 
+  i agree , we totally should do it . 
+  starting with an online petition ? 
+  but unless you know who the advice is coming from , how can you tell if it is any good ? 
+  it 's easy to make up 10 different plausible-sounding advice responses . 
+  it seems to me that the number of full-time employees is a better metric of management experience than revenue or profit . 
+  i do n't think it 's that different . 
+  my only comparison is to the uk nhs , and the estonian healthcare system is not significantly worse . 
+  both are mediocre in terms of how much time or attention doctors give you , the waiting lists for specialists are long unless you have a an obvious urgent condition , and the doctors are overworked . 
+  some doctors are rude , some are very thoughtful , depends entirely on who you happen to see . 
+  i do n't see why it would be any different in other nearby eastern and central european countries . 
+  and i would say it 's better for the average person than for example the us system - where you get great medical care if you have very expensive private insurance , and are completely fucked otherwise . 
+  and the very expensive private insurance will do their best to refuse your claims if at all possible if something serious happens , leaving you still completely fucked . 
+  overall , quite a few people in estonia are upset at the quality of social services and low welfare payments . 
+  but their baseline for comparison is finland , sweden and norway ... which is an unrealistic goal for at least 20-30 more years . 
+  when looking at quality of government services , nobody thinks about a comparison to latvia , let alone belarus . 
+  could it be that it fails to use the local network , and still transfers everything over the internet ? 
+  is there a way in the remote play app to see if it 's a local or internet connection ? 
+  you do n't need to activate a virtualenv in the terminal to use it - just call the python in the virtualenv/bin directory instead of the standard system python . 
+  instead of using, 
+  . / manage.py runserver, 
+  use, 
+  ~ / venvs/yourvenv/bin / python ~ / projects/yourproject/manage . py runserver, 
+  python will then use your virtualenv as if it had been activated . 
+  you can put that into a script of some sort . 
+  it is especially useful for cron jobs and startup scripts where messing with the terminal environment is difficult . 
+  i agree that django is overkill for this particular project , various `` barebones '' frameworks will be sufficient . 
+  but on the other hand , there is no huge downside to using django for it anyway , except perhaps being overwhelmed about built-in features at first ? 
+  and when you want to build bigger , more complex web apps in the future , being familiar with them will be useful . 
+  200 watts is almost as much as the average human power over tour de france stages : riders seem to average around 200-250w with peak effort around 300-400w . 
+  it seems unclear for how long the battery would last if the motor would be running at full power , but even a few minutes of extra boost could move the rider up a few places in the ranking . 
+   you have shown your list is countable , but it is only a subset of all the real numbers between 0 and 1 since it lacks decimals with an infinite number of digits . 
+  this is an important distinction that confused me at first . 
+  in most programming languages , `` decimal '' is a number with arbitrary but finite precision ( limited by the amount of memory you have ) . 
+  the whole set of real numbers , including ones with infinite number of digits is of course not representable in computers . 
+  there 's always a smaller , more specific subreddit for everything , but posting everywhere would get a bit spammy . 
+  overall / r/spacex should be a good fit given that most people here would be interested in working for spacex , and at least some of them would have the required qualifications . 
+   it 's a perfect solution for something like transferring files from one machine to another . 
+  wait , really ? 
+  celery is one of the popular `` task queue '' solutions for django . 
+  but it uses a backend ( rabbitmq , redis , memcached , etc ) for storing the messages , and while most of these have no strict limits on the size of the messages , you are limited by the memory of the server allocated to the message backend . 
+  the memcached backend needs a bit of hacking to allow messages above 1mb , and rabbitmq recommends a similar limit : [ anything that takes over 20 seconds to transfer may be lost ] ( http://lists.rabbitmq.com/pipermail/rabbitmq-discuss/2012-march/018724.html ) . 
+  the celery documentation also recommends for example passing database object ids instead of full objects as task arguments . 
+   that said , django 1.9 just released native websockets support with channels . 
+  for django1 .9 , channels are available as a separate django-channels package that is still in beta and under development . 
+  it is planned to be merged into django in an upcoming version 1.10 . 
+  depending on how promptly you want to copy the files , solutions could be :, 
+  make a regular cron job that uses rsync to copy over new files ( it will detect changes by itself ) . 
+  probably easiest to set up , no extra services to keep running . 
+  like option 1 , but use a task queue instead of the cron scheduler to start rsync immediately every time a file is uploaded . 
+  configure apache on server1 to serve the files over http from a directory . 
+  post a message with the url to a task queue . 
+  set up a task queue worker on server2 to download the files over http . 
+  send the file content as task queue messages ... but read the documentation of your task queue and the chosen message backend very carefully to see what the single file & total size limits are . 
+  finally , celery is very feature-rich , but sometimes seen as difficult to set up and configure . 
+  redis-queue is good enough for 95 % of websites and a bit easier to install : http://python-rq.org/, 
+  fie is a terrible form of registered business in estonia , avoid if at all possible . 
+  if you do occasional small jobs , and these are not a regular business , then you do not need to register yourself in any way . 
+  you can sign a time-limited employment contract ( t\u00e4htajaline t\u00f6\u00f6leping ) , a contract for services with a specific goal ( t\u00f6\u00f6v\u00f5tuleping ) , or some other forms of contracts . 
+  your client will then just pay employment taxes when paying you , or if they are not an estonian company , you can declare this income on the next year 's tax returns . 
+  because as you said : developers will prioritise graphics over framerate . 
+  they will aim for 30/60 fps on ps4 .5 , and i 'd bet they wo n't spend the extra time optimising graphics for ps4 .0 , just leave it running at 20/40 fps or something . 
+  if there is one system , developers will put their optimisation effort there . 
+  if there are two , then in a year 's time they will optimise for the new one , and just check that it runs okay-ish on the old one . 
+  i mean , if this happens , i 'll probably get the new one ... but avoiding spending money on upgrades every couple of years is exactly why i finally got a console last autumn . 
+  ah , sorry , i got confused about the usernames . 
+  to explain my prediction a bit better , there were a couple of articles comparing frame rates of popular games on the ps4 and xbox1 recently . 
+  where a game might have had almost stable 30fps , sometimes dropping to 28fps on ps4 , the same game had usually 30fps , more often dropping to 24-26fps on xbox1 . 
+  same thing with games aiming at 60fps .

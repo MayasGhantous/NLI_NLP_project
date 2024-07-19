@@ -1,0 +1,100 @@
+  i think that 's a neat thing , i somehow expected them to lie . 
+  raidz1 user on debian here . 
+  it does not get any better than zfs . 
+  with three disks i think raidz1 is good enough ( weekly scrubs protect against silent data corruption ) . 
+  important data should be bakced up either way , raid is n't a backup solution . 
+  even a low quality amp has negligible distortion if it does n't have to drive a load . 
+  you can specify how much memory you want it to consume by setting the zfs_arc_max parameter in your / etc/modprobe . d folder . 
+  this , and also the md5 hash of the file , maybe it 's a thing . 
+  this certainly will , to varying degrees . 
+  the recovery partition is n't mounted on my nexus 4 by default , so deeply screwing up my device would take some extra effort , like for example running ` dd if = / dev/zero of = / dev/block/mmcblk0 `, 
+  xlr connector with a twisted , shielded pair cable ( a.k.a microphone cable ) . 
+  without balanced interconnection you are guaranteed to have ground loops , which will cause audible hum with cable lengths above 5 meters . 
+  the driver definitely pulled the emergency breaks after seeing the cyclists though, 
+  the one on the left 's moving . 
+  look at the shelter in the tram stop , and see how the tram goes past it . 
+  you sound tough . 
+  i wonder how you 'd feel after shredding a bloke to bits while driving a combino . 
+  i know tram divers , and unsurprisingly , they 're people . 
+  i 'm just gon na put this in my ` / etc/profile ` then , and thank you * very * much !!, 
+  $ w _ { pot } $, 
+  i know about alt-f2 . 
+  i do n't know if super has any default function , and it does n't seem to have any . 
+  i 've defined keepass to autype with super-v , but that 's that 's my own hotkey . 
+  `` line level converter '' . 
+  the pedestrian name for that device is a volume knob . 
+  you need about 10db of gain . 
+  does n't the amp have any kind of volume control ? 
+   -10 dbv to +4 dbu, 
+  just to avoid confusion . 
+  if the amp has gain , ( and yours seems to be the exception for not having enough gain ) then this becomes untrue . 
+  anyways , a di box might help ( some have gain ) , besides having the added benefit of converting the signal to balanced . 
+  honest question !, 
+  will he ever walk ? 
+  can we rebuilt him ? 
+  it 's okay though , i do n't think you can ever have too many typefaces . 
+  this is as far as i 've come . 
+  any help is welcome !, 
+  pcm.whatamievendoing {, 
+  slave.pcm `` plughw :0 '' ;, 
+  path '' / usr/lib/ladspa '' ;, 
+  capture_plugins [ {, 
+  label dcremove, 
+  hint {, 
+  show on, 
+  description `` capture without dc offset '', 
+  slave.pcm whatamievendoing ;, 
+  pcm . 
+  ! default {, 
+  edit : the updated version works if i select ` highpass ` as the device , so i 'm halfway there . 
+  ** next : ** is there a way to tell pulseaudio to use the plugin instead of the hardware ? 
+  the ` ! default ` line does not seem to work . 
+  when i decided to add a second ssd to my root drive ( a measly 30 gig mlc ) , i could convert the system to raid0 without rebooting . 
+  sort of awesome imo . 
+  it 's more than one line . 
+  you ca n't tell by the file name whether it 's aac or alac . 
+  find ca n't tell if an m4a file is aac or alac, 
+  first i also thought of using ` find ` , although with parallel , to run ffmpeg . 
+  but you end up with lossy aac files converted to flac . 
+  that 's no longer a one-liner , 
+  can confirm . 
+  everything 's a one-liner . 
+  doth right !, 
+  tis better than thine . 
+   and using a pa speaker at low volumes wo n't harm anything . 
+  i really wonder where op heard that . 
+  it 's also nsa-compliant . 
+  along with their families, 
+  all you have to do is run an inverse convolution operation on the signal with a `` doubler '' kernel , i.e. 
+  a filter kernel with two dirac impulses spaced apart by the delay time . 
+  the delay time has to be exact to the number of samples !, 
+  ~ ~ in linux ~ ~ * pretty much anywhere * you can do this with matlab/gnu octave 's deconv function . 
+  use sox to convert the audio to a . mat file type that can be loaded into octave . 
+  do it the proper way and get a home theater receiver with at least two digital inputs . 
+  file names with underscores are annoying . 
+  i 'd prefer a tool that does the exact opposite of this one . 
+  okay , so i just tried this with some music , and it 's taking a lot longer than i expected . 
+  i created a 30 second clip with a 500ms 1:1 echo , and octave 's been at it for the past 20 minutes . 
+  edit : i found an fft based deconvolution script , i 'm gon na try it !, 
+  if you have matlab , you should use it instead of octave , it 's probably a lot faster . 
+  to get the audio file into a format usable by matlab , use sox ( http://sox.sourceforge.net/ ) . 
+  the conversion is very simple : run ` sox recording.mp3 recording.mat ` . 
+  that 's it , you get a struct in matlab that has a wavedata variable that has all the sample values you need . 
+  for example , to plot it , first load the file with ` y = load ( ` recording.mat ' ) ; ` then run plot ` plot ( y.wavedata ) ` , or if it 's stereo , plot one channel with ` plot ( y.wavedata ( 1 ,  ) `, 
+  both fail at properly using r128/replaygain . 
+  wow , it worked !, 
+  i used the process using fft deconvolution , with a little twist . 
+  here 's the whole deal :, 
+  i first created the modified audio file with sox : ` sox `` 03 - i 'm bad , i 'm nationwide.flac '' echo.mat echo 0.5 0.5 500 0.5 `, 
+  loaded it in octave : ` music = load ( ` echo.mat ' ) ; y = music.wavedata ( 1 ,  ; `, 
+  a vector with two unit impulses 500ms apart is needed . 
+  this will cause division by zero error after dividing in frequency domain , so i added -80 db noise as well . 
+  i copied and pasted the steps to deconvolve the two signals in the frequency domain :, 
+  lx = length ( y ) - length ( h ) +1 ;, 
+  y = fft ( y , lx2 ) ;, 
+  h = fft ( h , lx2 ) ;, 
+  x = y. / h ;, 
+  x = real ( ifft ( x , lx2 ) ) ;, 
+  x = x ( 1:1 : lx ) ;, 
+  x = x/max ( abs ( x ) ) ;, 
+  octave can play back music directly .

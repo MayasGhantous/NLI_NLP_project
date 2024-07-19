@@ -1,0 +1,100 @@
+  it being a shithole ! = forced labor , widespread mutilations , enslavement , resulting in the death of approximately half of the population of the area , for the personal enrichment of the king of belgium ? 
+  i hope your intention here is not to relativize and whitewash the particularly brutal , genocidal regime of leopold ii ? 
+  idk , so its a religious ritual ; wave a chicken over your head a few times before cooking it for good luck . 
+  yeah why be so contrarian when the state violates your freedom of religion , just pretend that 's not happening at all and go along with it ... 
+  or better yet , why not pretend this fascist pledge-giving is not happening in public schools in a democracy at all and just sit down and read from the textbook until it goes away ? 
+  hmh ? 
+  could you expand on this ? 
+  usually the reasoning given for battery power in context of large scale power generation is handling the variability inherent in many renewable power sources . 
+  so would n't that mean they 're paired on-site anyhow ? 
+  why transport anything physically ? 
+  what i find telling in the comments here is how its precisely those posters recalling typically recent `` noob '' experiences , or current teaching practice , that complain about the confusion of the current situation and favor the change most vocally , while its rather a portion of experienced haskellers that simply prefer the established monomorphic style of coding that oppose it . 
+  all well and good , but seems like it makes the part of the arguments given , relating to presumed superior teachability of the monomorphic prelude at best completely unsubstantiated and likely wrong , and the more substantial arguments remaining should be restricted to the virtuousness/convenience in everyday coding of such a style or agressiveness of the change . 
+  standard process seems so dead , could even just the applicative/monad haskell2015 actually happen ? 
+  it certainly should . 
+  regardless , i do n't think applicative/monad should wait for the standard any longer , so many years have passed for that wart to finally disappear . 
+  and now its in head !, 
+  ... with a similarly viral reference/pun as pep :d, 
+   i was holding out hope that at hac phi in a couple of weeks i could work with richard eisenberg on his version of defaultsuperclassinstances , and see if we could prepare it in time for 7.10 . 
+   if we had that in place we could put in a default superclass default instance for applicative in terms of monad , which would resolve a number of issues . 
+  in particular there is a largish portion of hackage that has n't acted on the applicative-monad proposal warnings , so it 'd enable us not to have to break their code , but it 'd also enable the haskell2010 package users to still be able to define new monads without having to pull us any further away from the standard . 
+  what is the status of that proposal anyhow ? 
+  i gathered the https://ghc.haskell.org/trac/ghc/wiki/intrinsicsuperclasses and/or possibly https://ghc.haskell.org/trac/ghc/wiki/instancetemplates superseded that particular design , based on the note on the top of the article ? 
+  so is intrinsic superclasses the current contender ? 
+  i 've hoped for something like that for ages , and that design seems reasonable , possibly modulo some syntax bikeshedding ... 
+   defaultsuperclassinstances is richard eisenberg 's . 
+  hm are you sure about this ? 
+  goldfire created the instancetemplates trac page , while pigworker created both intrinsicsuperclasses and defaultsuperclassinstances pages ? 
+  right . 
+  if i 'm reading that design correctly , the leaf class with instancetemplates still needs to be coded for the true hierarchy above it , with a `` default instance < classname  '' for each superclass template it inherits . 
+  the example given has monad decl still conscious of the default functor instance in applicative . 
+  and still gets warnings for any generated instances unless doing a `` deriving < classnames  '' for all actual classes on the final datatype . 
+  imho not as scalable as mcbride 's proposals , where final instances apparently freely mix declaration from all intrinsicly-declared superclasses . 
+  there you only get warnings if pre-empting with explicitly created instances , allowable for a transitional period with a pre-empt pragma , or an error otherwise , without excluding these explicitly from being generated . 
+  yup , post-exposure prophylaxis , 
+  gle ne govori dobro o njenim prosudjivackim kapacitetima . 
+  very nice !, 
+  wonder if this can work out . 
+  here 's some stuff on legal vulnerabilities of the directive by clive bates - http://www.clivebates.com/?p=967, 
+  i love the argument on the start - the legal basis used explicitly prohibits making public health related legislation on tobacco on eu level , so all measures in this directive have to be to enable the free movement of goods only . 
+  i am a bit worried how come snus producers have n't challenged it already ( or maybe they did and lost ?? ) . 
+  maybe they did n't think it worth it since they got to continue to operate in places where they had a substantial market ? 
+   but fixing a slightly messy bit of the prelude does n't seem as important as that . 
+  i do n't particularly wish to have any mess in the language forever unchangeable due to mere industrial inertia . 
+  sure , time needs to pass between consolidations , but it is way , way past on things like amp . 
+  whatever happened to avoiding success at all costs ? 
+  we 've been failing in that mission as a community for far too long , time to see if breakage due to simple cleanup might help :p, 
+  does n't seem to me this would ever generate a prelude revision . 
+  the entire point of a prelude is that it is common ground . 
+  people wo n't depend on a new however slightly incompatible one that just does away with a dozen particular import ... and import ... hiding incantations one repeats throughout his/her modules . 
+  yet while made least likely by this proposed procedure , those are precisely the kinds of changes - fairly noninvasive and simple ones - that should rather stand the best of chances for being standardized . 
+  by that metric you can prob find quite a few packages in the wild already manually creating the changes here proposed : basically any using foldable/traversable , basically any creating functor , and applicative instances for their monads ... 
+  if a more substantial breaking reorganization were to be considered , prob a trial period like described would make more sense , though the exact migration path for any particular set of changes should not be fixed but rather a matter of maintainer judgement - and that is the current process for changing prelude , and any other package . 
+  and the right one imho . 
+  the delta between the official standard and haskell in the wild has been steadily growing for some time now , to fairly unsustainable levels . 
+  by 2010 there was significant hope much of the extension will be incorporated into it . 
+  multiparameter typeclasses and an extension to make them workable like fundeps or type families were a blocker at the time - some provisional lists of likely extensions to be incorporated would include the former but not the latter etc. 
+  this failed to deliver , mostly because of the dominance of the ghc compiler making the standard largely irrelevant , and hence few people willing to sink their time into the tedium of precise deltas for the spec nobody really uses . 
+  this makes ghc haskell the defacto standard . 
+  its pretty much impossible not to at least implicitly use a language with a fair number of them enabled , through the libraries one depends on at least . 
+  trying to compile anything of significance on an old standard compliant compiler should easily convince you of that . 
+  haskell in the wild is so saturated with extension-enabling incantations that its fairer to consider a fair bulk of them part of haskell proper . 
+  admittedly this rarely necessitates breakage , beyond reserving some obscure keywords - such is the nature of extensions . 
+  removing n+k patterns comes to mind , or not generalizing local let definitions ( in the presence of gadts and similar at least ) , or removing contexts from datatypes , or the few breakages from roles . 
+  ofc various libraries themselves are not too shy of breaking their clients . 
+  but certainly one library - the prelude - effectively had no maintainer in this ghc-haskell world , so nobody could take charge in acting similarly . 
+  until now , when spj suggested creating a collective maintainer for such cases in order we could move on there as well . 
+  so they did . 
+  popunio . 
+  npr `` peering through the mist '' metastudija il farsalinosova studija o di ima diacetila i koliko , i jos jedna metastudija i jedna koja usporedjuje razlicite baze na razlicitim watazhama ... 
+  its kinda a rule online : unmarked sarcasm never works , for there 's reasonable doubt some nutter meant that for real . 
+  uhh , well 1 line , and the relevant hiding & qualified imports necessitated by name conflicts ... 
+   what happened to being able to write code to a standard ? 
+  probably died along with the standard , about 4 years ago :d, 
+   i think we should just make clear that the core libraries committee should have the freedom to work out details of proposals without the massive noise, 
+  in that massive libraries @ correspondence i think one of the mails concluded , after some 85 % support for the change - that it is a bit ridiculous to demand higher consensus for a change in prelude than what is needed in democratic societies to start world war iii :d, 
+  oh , right , sry for the noise, 
+  i gather bbp as such is considered approved ; the technicalities of how much to expose exactly , and on what schedule look to be up in the air still . 
+  but whatever ends up sitting in head , if not causing trouble , is prob out in 7.10 no ? 
+  you think there would be another round of seeking community input on whether that exact export list is what needs to go into the wild ? 
+  happy birthday from an obscure east european country , if the timezone still fits :d sounds like an intense year ; happy sailing , you 'll surely rebuild your social connections , and with a better crowd , soon enough !, 
+  smells like a poe to me . 
+  look , we went to the moon on caffeine and nicotine ; its a helluva drug , i would n't trade my gear for merely being a nonsmoker . 
+  that said , from a medical perspective there 's surely no cause to recommend it to any nonsmoker . 
+  you seem to have won lottery on a longshot , but there 's no way to give informed opinions on other people 's experiences . 
+  so i try not to say anything on the matter either way unless a fairly explicit question about the medical status of it is posed . 
+  i do wish to avoid sounding like i 'd suggest it to anyone else just because i personally enjoy it , is all . 
+  hm , `` own people '' . 
+  prob neither do they see kurds as such nor do kurds see them as such . 
+  differing ethnicity , and a different religion ( traditional shafi'i vs the most radical among the radical salafi movement ), 
+  no - you run into limitations ( eg no gadt promotion , type families need to be saturated , limited unifier does n't deal with injectivity ) ; you can not write everything doable in agda , yet . 
+  see the icfp 2014 keynote linked in the article for an overview of where it 's at and where it 's going http://www.youtube.com/watch?v=rhwmhtjqzsu . 
+  also hiw 2014 `` dependent haskell '' talk http://www.youtube.com/watch?v=o805yjosqji , and , for lifting some of the restrictions right now , eg the saturatedness of type functions , the haskell syposium 2014 talk on the new additions to the singletons library http://www.youtube.com/watch?v=j47otyarg08 - where they enable promoting functions including unsaturated ones to type level . 
+  further work on the matter linked there -, 
+  some more :, 
+  edit :, 
+  oh , and not sure where this is linked , but making the typenats solver a proper smt solver to support reasoning on the type level is mentioned in https://ghc.haskell.org/trac/ghc/wiki/status/may14 . 
+  sounds like http://www.reddit.com/r/science/comments/2inomi/largescale_aware_study_examines_the_human_mind/, 
+  from comments , seems fatally flawed :, 
+    for a start , the main finding , which is not mentioned in the abstract and quickly dismissed in one sentence in the discussion section , is that none of the 140 patients interviewed were able to identify a single hidden image . 
+   the original intention was to hid images and see if the patients could recall them if they had an obe where they floated high enough to see them .

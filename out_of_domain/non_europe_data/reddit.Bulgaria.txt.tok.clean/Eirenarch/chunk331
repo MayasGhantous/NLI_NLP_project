@@ -1,0 +1,100 @@
+  interestingly this is why i prefer typescript to flow . 
+  i like to see the types stated . 
+  the confusion comes from the fact that weak typing was not defined before becoming widely used term . 
+  now there are multiple competing definition . 
+  strong/weak typing is practically useless wording that should not be used . 
+  i hate to use argument from authority but this is also the opinion of eric lippert . 
+  sadly even anders ( hallowed be his name ) continues to use `` strong '' when he means `` static '' . 
+  i think satoshi has extremely large balls and an iq of ~ 250, 
+  eme has been in 3 major browsers ( i am not sure about firefox ) . 
+  if w3c would `` recommend '' is does not change anything . 
+  i have a problem with that . 
+  i use var only when the type is apparent from the source code and in fact i enforce explicit types when the type is not apparent through editorconfig in the projects i am responsible for . 
+  i have seen people assume the wrong type quite a few times so they do n't hover over var to see the type because they do n't know they are wrong . 
+  it is also quite annoying when helping a colleague on his computer , you have to tell him to hover over that var because he is holding the mouse and keyboard . 
+  deciphering the types from the names is often impossible unless you put the type in the name . 
+  for example variables of type iqueryable and ienumerable are often appropriately named with the same name . 
+  say i have a method getcustomers and i see it used like this, 
+  var customers = getcustomers ( ) ;, 
+  i decide to add paging so i do, 
+  return customers.skip ( ... ) . take ( ... ), 
+  turns out i was wrong to assume that customers was iqueryable and in fact it was ienumerable and my paging is now client side instead of in the database as i intended . 
+  yeah you may see the type while typing customers or maybe not . 
+  surely if you are just auditing the code you wo n't spot the bug . 
+  note that the reverse bug also exists . 
+  you assumed the type was list , but it was iqueryable and you did n't notice that the code was doing multiple queries . 
+  so 4 major browsers, 
+  another electron monstrosity :(, 
+  yes it is but in some languages the value of type inference is much higher . 
+  for example in f # you get significantly shorter code which can be changed much more easily thanks to type inference . 
+  in c # the value of var is much smaller . 
+  as i said you can easily use it only when the type is obvious and get half the advantages for 0 cost . 
+  just to clarify - the reason i am asking is because vs suggest adding a dll via quick fixes . 
+  the tooling pushes people in the other direction . 
+  the path is extremely weird - program files \\ dotnet \\ sdk \\ nugetfallbackfolder, 
+  i doubt you can buy enough land with $ 100 million in a decent area . 
+  it makes no sense to buy it in africa surrounded by illiterate muslim extremists . 
+  you would have to buy an island in greece or something but it will cost more and you will have to convince local patriots to support their government in selling . 
+  if you click on the link you will know that it has not been decided yet . 
+  this is true if everyone has the right to vote and 1 man 1 vote but there are other ways to structure a government . 
+  for now . 
+  being a leftie you probably believe that people are equal and it does n't matter that somalia is populated by a bunch of illiterate muslim africans . 
+  it is easy you just need $ 100 billion not $ 100 million , 
+  you will need land large enough to support a population of a couple of thousand otherwise it will not work . 
+  a population of 100 wo n't be good enough . 
+  iq test voting is stupid . 
+  if we think the higher the iq the better the vote then why not raise the bar even higher ? 
+  in fact why not make the guy with the highest iq absolute monarch and be done with it ? 
+  we have quite a bit more of the fossil fuels . 
+  that being said i agree that we will die in the solar system probably with some colonies on mars but our children the robots will explore the universe forever . 
+  i do n't think there is a problem with an eu member giving land away . 
+  other than the fact that barely any eu member wants to give land away . 
+  i do n't think it contradicts any eu regulations . 
+  `` why do n't you move to somalia if you like anarchy so much ? '', 
+  `` because it is inhabited by illiterate muslims and not by germans '', 
+  great minds discuss ideas , medium minds discuss rest vs soap , small minds discuss json vs xml . 
+  lets hope at least electron dies . 
+  as if web apps do not download themselves on your machine . 
+  web forms was far superior than this . 
+  in web forms you can build a ui component with proper events , encapsulation which can be reused and distributed separately . 
+  this thing they are pushing now is just free form php . 
+  as soon as i saw it i issued a ban in all projects i am responsible for . 
+  will never touch it . 
+  yeah ... except that they accept posts and have some `` model '' to back it up . 
+  also if you have a bunch of controllers with views why would you break the pattern for the simplest pages ? 
+  better be consistent than have somewhat shorter code . 
+  web forms was overly complex and did not predict the direction in which the web developed correctly ( i.e. 
+  the jquery revolution ) . 
+  the latter is always a problem when you are introducing an abstraction . 
+  that being said the concept itself is far superior to what asp.net mvc offers . 
+  the fact that react and angular are component base rather is a testament to that . 
+  i 'd still take web forms over asp.net mvc today if i was n't interested in future proofing the project and hiring devs, 
+  partial view is not a component . 
+  go be incompetent somewhere else !, 
+  i did n't buy an lcd display until i could buy a 120 hz one . 
+  i used my old crt which had began to go dark and i had even scratched it . 
+  people thought i was crazy and i had to give the speech about refresh rate a hundred times, 
+  no i do n't mean lifecycle events . 
+  i mean button click events and the like . 
+  of course page lifecycle events are also needed but i agree that the web forms ones were too conplicated, 
+  events are the best approach period . 
+  there are multiple patterns ( mvp , mvvm , etc. ), 
+  to separate business logic from event handling but event handling is an ui issue . 
+  i can assure you that i have quite a bit of experience with web forms and mvc ( 11 years total but 1 is xaml and 2 are with spas with react , angular and also in house spa `` framework '' based on jquery ) . 
+  mvc is definitely the worst of these and the only one that does not have a button component with a click event , or a grid with onedit event , or the concept of a component ... 
+  i disagree . 
+  as i pointed out in another comment the reason web forms failed is that the abstraction it provided was based on a wrong prediction about the direction of web development . 
+  they thought nobody would want to look at html and js the way nobody wants to look at the generated assembly for their chosen language but they were wrong . 
+  the web shifted gears and the jquery revolution made people care about these things and web forms at the time was n't ready . 
+  yes the page lifecycle was too complicated and yes viewstate should have been off by default ( as a matter of fact soon it will be a decade since it is off by default why do we still bring this up as an issue ? ) . 
+  as for identifiers ... well if you look at your page in react you will see it generates a bunch of identifiers . 
+  surely we do n't claim that react is a failure and incompatible with the web ? 
+  the relative failure of web forms is also up for a debate . 
+  web forms was the framework of choice for . net devs between 2003 and 2009 - 6 years . 
+  mvc was the framework of choice for . net devs between 2009 and 2012 when angular and spas conquered the world - 3 years . 
+  who is the failure here ? 
+  skills i picked up working with controls , components and events are much more useful to me in the react/angular world than the actions and controllers model i picked up with asp.net mvc . 
+  i believe there are more web forms projects running in production than mvc projects . 
+  i believe this will be true forever because new projects go the spa route so mvc will never catch up . 
+  obviously this is anecdotal evidence that i can not back up with actual data . 
+  i used web forms for all my spas for the very same reason you describe .

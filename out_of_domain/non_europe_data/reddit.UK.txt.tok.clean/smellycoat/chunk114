@@ -1,0 +1,100 @@
+  it 's there to put off people that can afford to spend more . 
+  the idea is to create a lower price point to make money selling lower-quality goods to those with lower incomes , without tarnishing their normal brands or reputation . 
+  the packaging also serves to dissuade anyone who can afford to spend more . 
+  the perception to someone who 's never tried the product is that it 'll be significantly lower quality than the more attractively-packaged alternative , so the lower priced item is n't even considered . 
+  it 's worked remarkably well . 
+  tesco ( as far as i 'm aware , the first retailer in the uk to do this ) did an excellent job - to the point where there 's a certain stigma associated with their `` tesco value '' brand ( [ to the point where it 's almost become a `` meme '' ] ( http://www.google.co.uk/images?q=tesco+value&amp;hl=en&amp;prmd=ivns&amp;source=lnms&amp;tbs=isch:1&amp;ei=3yfctazpfovz4qbbtl1r&amp;sa=x&amp;oi=mode_link&amp;ct=mode&amp;cd=2&amp;ved=0cbuq_auoaq&amp;biw=965&amp;bih=1095 ) ) . 
+  nice !, 
+  i got a coupla suggestions on perl style for you , though :, 
+  stick this at the top of your code :, 
+  use strict ;, 
+  use warnings ;, 
+  they produce errors and warnings if you try to use some of the darker corners of the language that can cause bugs . 
+  highly recommended for every new perl program . 
+  unpack your arguments into named variables first , it makes the rest of the code much easier to follow . 
+  like this :, 
+  my ( $ filename , $ search ) = @argv ;, 
+  using lexical filehandles ( ie , variables , rather than bareword ` file ` ) is far less prone to error ( and means you can pass around your filehandle just as you can normal variables ) . 
+  also demonstrated here is the three-argument form of ` open ` ( which is much safer ) , and the use of an explicit ` die ` if the open fails , as perl will quietly continue otherwise :, 
+  open my $ fh , ' < ' , $ filename or die `` ca n't open file ' $ filename ' : $ !, 
+  otherwise , good job man !, 
+  if you can stretch that to ~ $ 250 , the newly-released gtx 560s are apparently very good . 
+  although since they are new , they 're likely to drop in price a little over the next couple of months . 
+  no , not if you 're using them properly . 
+  but something as simple as placing a laptop on a bed or your lap can block up the vents to the point where it 'll quickly overheat . 
+  in those situations a cooler can help . 
+  some laptops also have relatively weak cooling , which has to work hard to keep the components cool . 
+  this can lead to fan spinning up noisily whenever you try to do anything significant with it . 
+  a dedicated cooler can help prevent that , or at least reduce the amount of time the fans spend at full speed . 
+  another concern is the battery , modern laptop batteries are very good , but they 're still susceptible to heat . 
+  overheating them can cause them to degrade more quickly than they otherwise would . 
+  in that respect , a cooler might help keep the temperatures down and extend battery life a little . 
+  but , generally speaking , you do n't need one . 
+  if you 're careful not to block the vents , and occasionally give them a clean ( a blast of compressed air to dislodge dust , and a vacuum cleaner nozzle pushed against the vents to suck it out before it settles again usually does the trick ) , then you 're unlikely to need one . 
+  if you often use your laptop on a bed or something that might limit it 's ability to cool itself , you might want to consider one . 
+  but most people do n't need to bother . 
+  some of them have vents in the bottom and sides that reduces the likelihood you 'll block them all . 
+  at worst , a platform-type cooler will provide a flat surface that 'll help prevent the vents on the laptop being blocked ( although vents on the cooler itself might be blocked if placed on a bed ) . 
+  but i suspect you 'd probably do equally well by placing your laptop on a flat thing ( like a big hardback book ) if you wanted to use it on a bed . 
+  but i love seeing cars with snowhawks . 
+  especially when they fall off when going around tight corners . 
+  just make absolutely sure the firmware will work with that particular model of drive ( and maybe try to get some confirmation from that it 'll work on non-dell-supplied drives - though i 'm not sure how easy that 'll be ) . 
+  other than that , follow typical firmware flashing precautions ( like making sure everything 's securely connected and stable , not fiddling with anything while it 's flashing and holding your breath and crossing your fingers while it 's flashing ) , and you 'll be fine . 
+  well , sounds like it 's worth a go . 
+  depends how bad losing the drive would be ( firmware flashing always has some risk attached , moreso when you 're trying something the companies involved would probably rather you did n't  ) . 
+  i would n't put it past dell to do something evil to protect their marked-up hardware business , though . 
+  good luck man . 
+  make sure you post your results ( and part numbers and stuff ) somewhere , so the next intrepid admin with a cunning cash-saving plan can benefit from your experience , 
+  wrt54g plus [ dd-wrt ] ( http://dd-wrt.com/ ) . 
+  it 'll do static dhcp ( by mac address ) , logging ( and logging via snmp ) , bandwidth monitoring , qos , and all sorts of other interesting stuff . 
+  you could , in fact , pick any router supported by dd-wrt ( or tomato , if you prefer that , but there 's less hardware support ) . 
+  if you need something with decent throughput ( a wrt54g was n't enough for my 50mbit connection ) , then a linksys 610n will do the job . 
+  actually , it seems some revisions of your wgr614 are supported by dd-wrt . 
+  check the revision on yours and look it up in their [ support database ] ( http://dd-wrt.com/site/support/router-database ) . 
+  i love memes so much i want to take them behind a middle school and get them pregnant . 
+  essentially what they 've done is build a distributed system for silently gathering search data from potentially any site , including google . 
+  but the big problem for me is that they 're not providing any means for the site operator to opt out of having their data used in that manner . 
+  they * could * honour robots.txt , for example , but they 're not doing that . 
+  now , while most site operators are likely to welcome bing taking extra data from their site ( as that potentially means more traffic for them ) , search engine operators are unlikely to be quite so accommodating . 
+  to a search engine operator , their index * is * their business , and having a competitor silently deploy a huge , undetectable , unblockable distributed mechanism capable of copying information from their indexes is - quite rightly - going to raise a few eyebrows . 
+  not true . 
+  google added bogus hits for obscure terms , then sent their engineers home to search for those terms * on google * ( using ie8 with the bing toolbar ) , then click on the bogus result . 
+  lo and behold ( some of ) those terms ended up in bing 's index . 
+  they 're not using google 's code , or querying google directly . 
+  they 're looking at what ie8 users search for and what they end up clicking on , and adding that to their index . 
+  so , if i write a smellycoat toolbar that makes a copy of every web page its users visit ( with their permission ) , i 'm free to take the contents of those pages , claim them as my own and use them to make money ? 
+  i 'm not saying they should honour robots.txt specifically . 
+  however , because web search basically revolves around making copies of people 's copyrighted data and using it to make money , there 's traditionally always been opt-out options available . 
+  this mechanism has none . 
+  which is problematic because it means they can essentially copy their competitors ' ranking data . 
+  alright , look . 
+  if someone ninja 'd their way into google 's datacenter , copied a portion of their database and used it as an index for their own , competing search engine , that would be uncool , right ? 
+  and if someone hammered google 's servers with a script making requests for common words , and copying their results for their own search engine , that would n't be cool either . 
+  right ? 
+  bing 's setup is using a distributed army of toolbar-users to collect data , one side-effect of which is they 're collecting ( presumably fairly large quantities of ) search results from google . 
+  how 's that any different ? 
+  no , what it 's actually doing is sucking up the one the user thinks is best from google 's results !, 
+  point is , however you phrase it and whatever crazy distributed mechanisms they 're using to implement it , they 're still using google 's results as a data source for improving their own results , without giving google a way to prevent it , or opt out . 
+  and that really does n't seem fair to me . 
+  the function of a search engine is to associate words or phrases with urls . 
+  of course the reality is a lot more complicated , but at its simplest level , that 's all an index contains : a bunch of words associated with a bunch of urls . 
+  so if a user searches for a word and gets a url back , that 's an association between the word and the url that 's come from the search index . 
+  so by recording the search term , and the url the user ultimately chooses , you 'd be able to make that exact same association between the word and the url . 
+  now i 'll admit that things are more complicated than that , but still , how is that not bing copying google 's shit ? 
+  would n't it be way more sensible to make usb sockets that did that ? 
+  while this is certainly a lovely looking html parser , i really ca n't see any sensible reason why it 's locked up inside the mojolicious distro . 
+  it 's certainly something that could be useful outside the context of a webapp , so why do i need to install an entire web framework just to use it ? 
+  be aware that only the most recent models support audio out over hdmi via the mini displayport , and a lot of the cheaper mini displayport-hdmi cables do n't support it either . 
+  i used to habitually tear the capslock key off keyboards . 
+  they fly a satisfying distance when pried out mercilessly with a screwdriver . 
+  now i 'm all growed up and mature , i disable them in software . 
+  i 've got one , they 're nowhere near as good as something running xbmc . 
+  horribly slow , unstable , and a clunky interface . 
+  as an xbmc user since the early days , i was somewhat disappointed . 
+  what the fuck ? 
+  am i reading this right ? 
+  they left a completely open telnet server running on 1111 ? 
+  that 's fucking ridiculous . 
+  glad i immediately put dd-wrt on my 610n !, 
+  i 'm afraid i do n't have a very good mic , and i 'm only 32 . . 
+  but if it helps !,

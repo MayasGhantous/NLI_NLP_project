@@ -1,0 +1,100 @@
+  plus it means you 're rarely thirsty , so the natural `` i want a coffee '' thing does n't kick in . 
+  apparently the purpose of a lot of slightly crazy-looking modern architecture is to look slightly crazy . 
+  [ more challenging version for those that have already succeeded ] ( http://i.imgur.com/2ynuw.jpg ), 
+  no i did n't . 
+  i told you it was harder , though . 
+  but it seems it was much harder than i anticipated , 
+  if you have visor open ( or focussed ) you can just cmd + n to get a normal window , which is handy . 
+  but i agree it totally needs an `` open and fucking stay open '' option somewhere . 
+  there are options for using and contributing to open source projects in many companies , probably more than you 'd think . 
+  at least in my experience ( developing web apps ) , while the primary product may be closed source , they 're often built on an open source software stack , using several open source components . 
+  employees spending time working on existing projects and contributing back ( and even open-sourcing entire sections ) is n't uncommon . 
+  i know a lot of people are saying `` go for the money '' , but if you 're not spending your paid time writing code ( regardless of whether it 's destined to be closed or open ) , i could n't recommend that . 
+  maybe look for something else ? 
+  your options seem to be :, 
+  * convince them your lifestyle is okay , and that they should continue to support you, 
+  * conform to what they want, 
+  * come to some compromise between 1 and 2, 
+  * lie, 
+  * fend for yourself, 
+  some of these options will be limited by the broken trust between you ( you do n't say whether they 'll be willing to go back to the original arrangement if you `` reform your evil ways '' ) and how far you 're willing to go to keep their support , if indeed that is even possible . 
+  generally speaking , my advice in these situations would be to not let anyone else dictate what you do with your life . 
+  but i appreciate it can put you in a difficult position . 
+  from what you 've said , if there 's any chance of reconciliation ( by whatever means ) , then i 'd probably pursue that if i were in this position . 
+  as for fending for yourself , if you can afford basics ( rent , heat , taxes/bills etc , and have a bit of cash left over at the end of the week ) , then it 's very possible to live extremely cheaply . 
+  it 's not always fun , but it 's definitely possible . 
+  when i got back into cycling i broke * so many * spokes . 
+  like 8 or more of the damn things over the course of a year or so ( and this is just occasional commuting , not hardcore riding ) . 
+  this , i 'll admit was due to a combination of my fat arse , crappy potholed roads , and a tendency to do stupid things like hop up curbs and ride off things sane people probably should n't be riding off ( but mostly the arse , if i 'm honest  ) . 
+  so , yes , it 's pretty safe to ride around with a broken spoke ( well , assuming you do n't have wheels with the abnormally low spoke-count that appear to be fashionable ) . 
+  i did it a lot ( the lbs confirmed that i 'd be okay as long as i was careful ) . 
+  however , if you do it for any significant time you 'll weaken the surrounding spokes , and they may break more easily ( even after the broken spoke has been replaced ) . 
+  you should also check to make sure the spoke is n't going to swing out and impale your leg ; all the broken spokes i 've had were at the hub ( where the spoke is bent ) so they 're held in by the surrounding spokes . 
+  apart from one time , when one broke about a third of the way up , which left a rather nasty-looking sharp pointy thing sticking out at a dangerously leg-impaling angle . 
+  if you 're prone to spoke breakages , i recommend checking your wheels before you ride . 
+  the simplest/quickest test i could find was to give the wheel a spin , and hold your hand such that the back of your fingernail taps each spoke . 
+  a normal spoke will give a nice ` ring ' , while a broken one will make a noticeably different ( dull ) sound . 
+  after the first few , the lbs trued my back wheel properly , which i * think * helped , but did n't stop it . 
+  eventually they offered to rebuild the back wheel using 3 '' steel scaffolding poles \\* instead of normal spokes , which thankfully has solved the problem for a couple of years . 
+  \\* `` 3 '' steel scaffolding poles '' may actually refer to `` spokes designed for tandems '' . 
+  to be fair , they actually do n't look noticeably different unless you hold a normal spoke up to them . 
+  it 's kinda embarrassing , though . 
+  cyclist 's bollock . 
+  an unpleasant , but [ avoidable ] ( http://www.sheldonbrown.com/saddles.html ) condition . 
+  the most recent round of system building was the first time i 'd been able to do without a cd ( freebsd 8 and xbmclive on a fileserver and htpc , respectively ) . 
+  i fucking enjoyed not having to deal with cds or dvds ( not least because finding one is often the hardest part of the task ) . 
+  good riddance to the unreliable , disappearing bastards , 
+  looks like it 's more than perl you need . 
+  the stuff it tells you to download is mostly c source and although there are some perl scripts in there , they seem to be looking for an executable . 
+  which is n't there ( that i can see , at least ) , only source . 
+  so i think you 're going to need a c compiler and build tools . 
+  that essentially means cygwin if you want to do it natively on windows without messing about too much . 
+  maybe a virtual machine running a linux distro of some description would be a better solution . 
+  at least you 'll be using a reasonably expected environment . 
+  [ virtualbox ] ( http://www.virtualbox.org/ ) is free and easy to use ( and you should n't suffer from unsupported hardware problems ) . 
+  edit : i know everyone else is saying you do n't need that , but either they have n't looked at what this thing is asking you to actually do ( ie , it 's not just perl . 
+  it 's not even * mostly * perl ) , or i 've misunderstood something . 
+  which is n't entirely unlikely , it happens a lot , 
+  that 's cool !, 
+  shame they did n't play music through it , though . 
+  or make one with 3-storey high flames . . 
+  * download an install [ virtualbox ] ( http://www.virtualbox.org/ ) . 
+  it 's a normal app windows app , so do n't be too worried by it . 
+  * get a ubuntu iso image from [ here ] ( http://www.ubuntu.com/desktop/get-ubuntu/download ) . 
+  * then just create a new virtual machine in it ( there 's a big ` new ' button that takes you through a wizard ) . 
+  [ this page ] ( https://help.ubuntu.com/community/virtualbox ) seems to cover the details ( note you need to tell it to `` create a new hard drive '' . 
+  this is just a `` virtual hard drive '' in a file on disc ), 
+  * once you 've done that , go to the settings menu ( right click the new vm you made ) , hit the storage tab and find the cd icon . 
+  click that and there should be a browse button you can use to pick your iso image . 
+  that 'll make it act as if there 's a cd in the drive containing the data in the iso . 
+  and that 's it , just start it up and it should boot the cd and you can start the installation process . 
+  then you 'll have a full copy of ubuntu running in a window on your computer , 
+  not a lot , i 'm afraid . 
+  they 'll fade eventually , and maybe disappear entirely , but you might always have some marks there . 
+  the redness will certainly go , though . 
+  how old are you ? 
+  if it 's any consolation , if you 're under ~ 20 , then chances are you 're still owed some body hair . 
+  i went from being relatively hairless to a fucking orangutan over the course of my 20s . 
+  okay i 'm guessing that 's not really helping . 
+  i 'll shut up now . 
+  i am . 
+  but then i never got on with the tiny ones that you plug right into your brain , so i use [ this ] ( http://i.testfreaks.co.uk/images/products/600x400/23/sony-mdr-ed21lp.685847.jpg ) style . 
+  getting them the wrong way round is akin to having your ear canal raped by an angry monkey . 
+  erm . 
+  i 'm not sure what 's going on there . 
+  did the iso file download properly ? 
+  did you get the right one ? 
+  as far as i understand it , the op 's intent is to get this program working . 
+  if it were just perl , then strawberry would certainly be the best choice . 
+  but it appears that it 's not just perl ( there 's a whole pile of c source that appears to need to be compiled before he can use the front-end perl script ) . 
+  while it 's possible to do that natively on a windows box , it 's going to be easier on a proper posix system with a c compiler and stuff . 
+  so that means either cygwin , or a different os . 
+  virtualbox and a copy of ubuntu seemed to me to be the simplest way to achieve this ( at least in theory , using a vm will make the hardware problems go away as it 's all virtualised ) . 
+  but he seems to be having trouble . 
+  if you have a better idea , please feel free , 
+  was n't on songs about fucking , i think it was on the bulldozer ep . 
+  he [ still uses them ] ( http://www.youtube.com/watch?v=iopeq-4ppgo ) . 
+  fucking ridiculous inflammatory headline . 
+  one of the prepackaged distributions of one relatively obscure piece of software has had a backdoor placed in it by someone within the project . 
+  most of the linux distros will have got the original source they used to create their packages for it from cvs , which was unaffected ( we have unreal 's ircd installed , but it was from the distros package management and was indeed unaffected ) . 
+  and let 's be clear , this is an irc server , not something that the typical user would install .

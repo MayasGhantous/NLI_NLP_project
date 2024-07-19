@@ -1,0 +1,100 @@
+  my guess is like 5 % of . net devs target 2.0 and this is not a lot especially if you compare it to people targeting older versions of java or python, 
+  red hat and google provide windows in their clouds ( limited beta for google for now ) . 
+  what 's your point ? 
+  yes but server and tools includes sql server . 
+  the dev tools were not making money . 
+  vs is expensive but it is also expensive to make and companies that buy it get relatively cheap subscriptions and not the 10k per copy price for the boxed version . 
+  well if you do n't take microsoft 's word for it and their architecture presentations there is not much proof i can provide . 
+  if you are one of those people that believes outlook.com ( ex-hotmail ) runs on bsd and bing is technology built at google and given to ms to stimulate competition i wont be able to convince you even if i could take you to an azure data center and show you an admin installing a copy of windows from a cd, 
+  the reasons on both sides are pretty clear . 
+  we 're living in heterogonous environment and customers want to run both windows and linux servers because they have apps for both . 
+  cloud platforms which do n't provide all the options will fail in the long run, 
+  f # 's syntax is a big issue for c # devs . 
+  i can confirm first hand, 
+  i was sarcastic . 
+  on the other hand i have heard people suggest that bing is a gift from google absolutely seriously . 
+  here you go . 
+  i guess windows azure internals is the deepest . 
+  yes . 
+  it was bad . 
+  c # does n't look like a significant upgrade in terms of language features ? 
+  just today the value types proposal for java was on top of reddit but it is not significant ? 
+  how about properties , async/await , dynamic , iterators , generics that actually work ? 
+  so do you claim that . net gc is bad or that it should n't have gc . 
+  because i think i disagree with both statements . 
+  i seem to disagree with the `` 1 year of experience 5 times '' and the `` switch jobs every 18 months '' arguments . 
+  while diversifying the skillset can be quite good diving deep and getting really deep understanding of one stack is also valuable . 
+  i have seen a lot of people who can code in many stacks and while they produce working software and ship i can see them being inefficient and producing somewhat bad code even in the stacks i do n't know . 
+  they just never got deep enough to understand certain things . 
+  as an example i have seen people using python without generators in places where generators can be helpful . 
+  i have very superfluous knowledge of python and i have never used it in a real project but my deep knowledge of c # helped me identify the place where generators can be useful . 
+  i do n't think i would have learned about c # iterators if i had switched to another tech after 18 months . 
+  value types are not significant ... except for the things that they are significant for . 
+  i bet people who do math in java will kill for value types and operator overloading and same goes for game developers . 
+  properties greatly increase readability . 
+  it 's not about writing them its about reading them especially where they are used . 
+  dynamic is pretty cool when you need to interop . 
+  nobody says that you should do dynamic typing but when you interop with dynamic environment ( for example when you generate json ) you have no choice but to go dynamic and then if you do n't have language support you end up representing objects as a hashtable and using inferior syntax . 
+  oh and btw using hashtables in java is quite annoying since java lacks indexers . 
+  by iterators i mean the c # language feature called iterators ( the yield keyword ) that effectively implements coroutines . 
+  i do n't see how type erasure forces you to check everything at compile time . 
+  this is the opposite of what type erasure does . 
+  on the tooling side - well it 's not like you can develop in java for ios and windows phone so you can look at the cost of tooling as an admission fee to those platforms . 
+  the context of this thread is mobile development is n't it ? 
+  obviously people can decide to not improve on a single stack but i claim that you can improve more by digging deep into a stack rather than get experience with a lot of different stacks . 
+  my advice would be to dig very deep on the first stack you work with which would allow for deeper understanding of following stacks for the same amount of time . 
+  if one knows the depths of one stack and understands its real architecture , problems and practices he can get more value from learning other stacks because he will be able to see how certain problems are solved there . 
+  if there is no deep understanding of any stack one may not even notice the really cool parts of the new stack . 
+  except that the argument goes both ways . 
+  i can say that someone has the same year of experience five times because he learned the same things 5 times on different stacks . 
+  i do n't think you can do what iterators do in java . 
+  i am not sure how you would do loops , try with resources or try/catch into an iterator with java 's tools without creating a complete mess of interconnected methods . 
+  i really do n't see your point . 
+  if i understand correctly before java 8 c # provided enough features to make people switch but after java 8 it does not because lambdas are somehow super important and everything else is not ? 
+  i can easily see `` just another syntactic sugar '' argument being applied to lambdas as well . 
+   i bet that most of the guys writing compilers today have degrees . 
+  anders ( hallowed be his name ! ), 
+  does n't , 
+  can you give an example how you implement iterators in java which contains loops ( potentially nested ) try/catch , try with resources and similar . 
+  i am fairly certain that this can not be done without language support otherwise async/await would be a library and not a language feature . 
+  i would say it is significantly worse than yield . 
+  the need for such a construct grows a lot once you have an api like the stream api ( or linq ) and you often have elegant solution if only you can produce an ienumerable . 
+  here is where it becomes beneficial to have iterators support in the language . 
+  i guess up to now there was no pressure to have it in java because there was no stream api . 
+  i did n't feel the need for yield in c # 2.0 because it did n't have linq and i did n't have anywhere to `` plug '' that enumerable . 
+  well when i had git shoved down my throat i responded by using it as a hierarchical version control system . 
+  i never wanted a dvcs so when i was forced to use one i downgraded it to a normal one . 
+  i 've been wondering how ms chooses between github and codeplex . 
+  they continue to host new and important projects on codeplex ( roslyn for example ) so it is not only a legacy thing . 
+  they definitely used to be like this but they are now much more unified . 
+  let alone that teams which are pretty close together tend to publish on different services . 
+  for example the asp.net identity team hosts their project on codeplex and other parts of asp.net ( like signalr ) are hosted on github . 
+  frankly i do n't see why they would care that much to hold them back . 
+  even if it is inconvenient this is so small part of the development that it can not possibly hold anyone back . 
+  well normal source control exist far longer than a decade . 
+  let alone that most people heard of dvcs because of git and it was super niche before that . 
+  i imagine they use tfs or something to look at these directly in visual studio . 
+  the point is that dvcs needs the prefix distributed . 
+  for historical reasons the others do not have a prefix . 
+  they certainly are in terms of features . 
+  on the other hand they are an upgrade for me as a person who does n't know or want to learn about the dvcs features . 
+  i gain in productivity by the very fact that i do n't need to deal with something i do n't use . 
+  its easy to turn that around . 
+  anyone who is not on facebook does n't want to be bothered with party invitations . 
+  i used `` normal '' the same way java docs refer to the `` default '' modifier . 
+  you do n't spell `` default '' in code but you need a word to use in the docs and on reddit , 
+  only people who have n't played wc3 competitively think it is slow . 
+  i know this is a joke but it is not even funny . 
+  surely units move slowly but you are required to control most of them individually in order to be effective . 
+  you know how fast wc3 actually is when you see your hero go from full health to death before you can use town portal . 
+  i actually wish sc2 was slower . 
+  i am sure if it was we would see more beautiful and meaningful micro . 
+  by meaningful i mean things like harassing multiple places . 
+  the opposite is stutter stepping your marines which is the most brainless activity ever performed by a starcraft player . 
+  so basically he has 3-4 times more games in the last year assuming that you played 500 games in the first year and 500 games in the second year . 
+  why are you surprised that he got better results ? 
+  this is of course true but losing a unit in sc is not as important so the penalty is not as big . 
+  wc3 requires as much speed as sc to be competitive . 
+  by as much i mean `` all the speed you have '' . 
+  it is not like either game 's speed cap is within human abilities . 
+  i personally was and am a better sc player than wc3 player and i spent years playing all three of them and i always felt like the reason is that i am relatively slow player .

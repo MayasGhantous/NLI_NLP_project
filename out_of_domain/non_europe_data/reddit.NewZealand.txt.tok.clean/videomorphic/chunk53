@@ -1,0 +1,100 @@
+   you know what immigrants are ? 
+  they 're children who can start work right away and who you do n't need to pay to educate . 
+  and they are n't new zealanders . 
+   it happens to be hugely irresponsible to have a policy of increasing births in the context of environmental collapse and extreme global inequality . 
+  no it does n't . 
+  global inequality and environmental collapse are n't hastened by more new zealanders . 
+   but if you 're determined to ignore that , you can - immigrants are still a better deal than children in a purely nationalistic sense . 
+  they might be better in the short term economically . 
+  they are n't better in any other way - culturally , for example . 
+  have you not read any of my other comments ? 
+   they either take the kids away from parent a , or pay out the arse for child support and live without their kids . 
+  the fact that you are paying to * not * have access to your kids comes back to bite us yet again . 
+  perhaps you should pay for the right to deprive the other parent of seeing their kids instead ... 
+   and we 're assuming that this is a trend that is going to continue for the next 10 years . 
+  all it will take is the australian economy to get back on its feet again and start posting strong growth and all these immigration increases will disappear . 
+  your argument makes no sense . 
+  you can not argue that high immigration levels are okay because they might not be high in the long term . 
+  all you 're saying then is `` well they 're not okay , but they might go away soon '' . 
+  well i want them to go away sooner . 
+   according to your `` expert '' opinion ? 
+  you do n't have to be an `` expert '' to have a valid opinion . 
+  rather than attacking my credentials , attack my argument . 
+   by throwing money at them ? 
+  i 've seen their policy . 
+  and as someone who is young and neet , it wo n't do anything to alleviate my position or anyone else 's . 
+  because there 's very little jobs and it would only perpetuate the competitiveness within the market for the existing jobs there . 
+  no , not by throwing money at them . 
+  by subsidising tradesmen to take them on as apprentices , by training them to do other jobs , by encouraging them to stay in school , etc. 
+  the idea that there 's `` very little jobs '' and yet we apparently have `` skills shortages '' in trades does n't add up . 
+   and you 've just demonstrated you know absolutely nothing about how this works . 
+  how this works is very simple : an `` aging population '' is a very short-term problem due to the baby boom . 
+  we had a population was `` getting younger '' and `` getting middle aged '' and is not `` getting elderly '' . 
+  but that 's horseshit . 
+  what we have is a bump at a particular age range . 
+  it will pass . 
+   so you want your kids being as ignorant , insular and racist as you are . 
+  having a culture and being proud of it is `` racist insular and ignorant '' only if you 're white , i see . 
+  i 've seen many adults argue . 
+  they were all software engineers , and they argue like children . 
+  i 've never seen two people argue that were n't married and were n't software engineers . 
+   we 'll never convince each other . 
+  there is clearly a shortage if there are n't enough people being trained or available for the positions , over time as that increases it becomes a long term shortage . 
+  the idea that new zealanders are suddenly going to fill any position we ever need within any reasonable time frame is unrealistic . 
+  i said * in the long term * . 
+  so no , not unrealistic . 
+  trades training does n't take that long . 
+  certainly if we 'd put in training effort after the earthquakes we 'd have had fully trained tradesmen for several years now , given that it 's been more than 6 years since the earthquakes . 
+   there is a need for migrants for a whole lot of reasons, 
+  i do n't really agree . 
+   from innovation, 
+  new zealanders have a well-earned reputation for being innovative . 
+  we do n't need outsiders to be innovative , we have plenty of innovation and innovative people in nz . 
+   to entrepreneurship, 
+  see above . 
+  new zealand makes it very easy to start a business , to hire people , to pay taxes , to run businesses , etc. 
+  it 's cheap , it 's easy . 
+  we have plenty of entrepreneurs in nz . 
+   to labour shortages, 
+  which we do n't have . 
+  we have an oversupply of labour . 
+  we long as we are above 0 % unemployment we have an oversupply of labour . 
+  that 's ** basic ** economics . 
+  that 's economics 101 . 
+  that 's an excellent point . 
+  i 'm surprised i 've never seen that pointed out in this context before . 
+   it is a well educated country , but is it well educated in the areas it actually needs ? 
+  certainly not . 
+  this is where skilled immigration comes in to fill the gaps . 
+  no , it 's where training the right people in the right areas comes in . 
+  i know that you say that in the next paragraph , but we 've never had such pressing short-term skills shortages that we 've needed skilled immigration , at least in the last decade or two . 
+  even the christchurch earthquakes are a great example of failure on this level . 
+  some short-term , two-year work visas ? 
+  absolutely , but that is n't immigration . 
+  instead we got long-term work visas and new permanent residents in areas that demand will go down in , in a few years , at least if we keep the nat government that does n't want to build houses . 
+  if we get a labour government that wants to build houses , they will be useful . 
+  but we get these immigrants , and we are n't training !, 
+  we are n't training enough builders . 
+  so six years later , we 're still reliant on immigrants to rebuild christchurch , despite that being enough time that we should have people that started training after those earthquakes in enough quantity that we would be going much faster . 
+   you are right though that long term skills shortages should n't be solved by immigration , which is why the solution is to upskill the country in the areas it needs . 
+  unfortunately , this takes time , and the country may invest in skills that we end up not needing , so it 's a bit of a fine balancing act . 
+  it does n't take that much bloody time . 
+  it 's been six years since the earthquake , yet most of the builders doing the work ( and sparkies , drainlayers , etc. ), 
+  are brits and filipinos . 
+   surely you realize that it 's not just impractical ( basically most of your functions will have this parameter ) but pure ( no pun intended ) madness . 
+  well most functions need some sort of context about their overall operation in order to operate . 
+  for example , in an http server you generally need some sort of ` request context ' , in more stateful servers you might have a ` connection context ' , etc. 
+  generally , i have a logger on that context , and that logger forwards to the global logger with an added request id , which is a randomly generated 128-bit number . 
+  that way i can easily filter log messages to a single request to debug prod errors . 
+  now in an ideal world you would do this with dynamically scoped variables , but i 'm not sure that works very well with languages that use async callbacks , as your dynamic scope is unwound and rewound every time you call an asynchronous function ( frequently ) and you have to have some solution to that . 
+  plus most languages do n't have dynamic scoping !, 
+  but if you did have dynamic scoping , that 'd be a good use for it . 
+  if you use a threaded server you can use ` thread_local ` variables , but only if you have strict one-thread-per-request . 
+  but in something like node.js ? 
+  sorry , you 've got to pass them directly . 
+   not only does this completely destroy encapsulation ( i 'm calling a function to get a result , the fact that it 's logging something should be an implementation detail that does n't impact me ) but now i also need to find a way to get an instance of this logger . 
+  i think arguments like `` this completely destroys encapsulation '' are pointless . 
+  encapsulation is a nice idea , but i do n't see this as having anything to do with it . 
+  every operation occurs in some context . 
+  whether that means having a global logger and passing a request id into every function , or passing a logger into every function , is irrelevant . 
+  getting an instance of this logger is done once : when you create a context .

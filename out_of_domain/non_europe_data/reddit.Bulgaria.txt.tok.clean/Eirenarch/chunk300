@@ -1,0 +1,100 @@
+  obviously in the current situation there are problems with scaling . 
+  one side believes that the current devs are unable to solve the problem ( or unwilling ) and are willing to take the risk to try to scale it by increasing the block size even if it is risky . 
+  for starters . net is open source but more importantly - so what ? 
+  for some people failure is delayed transfers and high fees and what is more they do n't think bu will lead to the apocalypse . 
+  what does . net not being open source ( which it is ) has to do with anything ? 
+  i am encouraging `` that '' by watching a video about bitcoin and . net ? 
+  being able to evolve interfaces and de facto trait functionality is interesting but is it worth the additional complexity especially in the presence of extension methods which cover many of the use cases for this feature ? 
+  ok then i 'll be encouraging . 
+  why did he spell hodl wrong ? 
+  but there is no question here . 
+  to be honest , we do n't really care , 
+  it is already on my reading list and in fact an open tab on one of my pcs since june 2016 ( checked the reading list date ) . 
+  still have n't made it past the introduction chapter :( but some day ... 
+  lost temple before they shattered it ( i loved the air expands ) i liked almost all of the beta and first year maps before they started to make everything big . 
+  the count ( ) on ienumerable idea drives me crazy, 
+  i got mine up and running in the classic days for having a comment on / r/bitcoin deleted . 
+  i guess these guys wonder where all the nodes come frome . 
+  this was a proposed feature for c # 7 ( or even 6 ? ), 
+  and is constantly being pushed back . 
+  they could hide it behind a compiler flag which creates compatibility problems with existing code and also if they do it they will effectively declare all existing c # code legacy which is not a good strategy . 
+  very problematic to add this feature so many years later if you care about backward compatibility . 
+  it was oracle who finally managed to add lambdas to the language after 10 years of drama . 
+  what does space complexity o ( n ) mean . 
+  does it mean additional space n on top of the input or it means the input itself ? 
+  how many people really judge the company by their diversity ? 
+  while it is in the last place in the list it is still absurdly high . 
+  80 % of developers are female ? 
+  i work at a company with about 25 % female devs and thought that was a lot . 
+  can someone who supports big design changes explain why ? 
+  i really do n't understand . 
+  if i wanted the game to change significantly i would just play different games . 
+  i personally do not value balance that much but i find beauty in the evolution of the metagame and the most beautiful thing is discovering some detail that changes a game that was thought to be solved and stale . 
+  but the question assumes that even if you get your wanted design changes they will be wiped in a year with more major design changes . 
+  what major design changes happened to cs ? 
+  even patch 1.08 which was the most major patch is much more insignificant than what we got for lotv 's big change patch so basically brood war never got `` major design changes '', 
+  i am rooting for soo to win another second place . 
+  if he manages to win another second place the memes will be so strong . 
+  i have a friend willing to organize one with actual professional casters and all the bells and whistles ( he organizes e-sports events for a living ) . 
+  however blizzard should release the actual api and there should be enough decent ai competitors . 
+  i do n't think a bw tournament would be good enough for bigger event . 
+  they did 17 rcs . 
+  i think this is a world record for the greatest number of rcs, 
+  i 've never heard of influxdb which leads me to believe that the project exists to take the record , 
+  how do you know the economic majority is on core side ? 
+  the economic majority is users and hodlers and i think it is damn near impossible to measure that before an actual fork happens . 
+  to sum it up it is not that you have observed economic majority behind core it is that you observe that the economic majority will have trouble adopting bu because the surrounding tools kind of support core . 
+  in addition exchanges did not claim that they would not support bu but that they would reserve the name bitcoin for core ( those that did claim it anyway ) . 
+  it would be absurd for an exchange not to provide bu trading because at the very least core supporters are expected to sell their bu coins and buy core coins for which they would need a bu-enabled exchange . 
+  i always build my database first but i just write the classes to match it . 
+  maybe if you add a big set of tables you can generate once and then maintain the classes as if they were written by hand . 
+  maintenance without generation is not a big deal because all you do is add a couple of columns that you can easily add to your model . 
+  even if you add a couple of tables it is still easy to just add the corresponding classes . 
+  it is only when you get an existing db with 30 + tables that generating classes is significantly better . 
+  i simply do n't understand why people want to regenerate the model for incremental changes . 
+  please stop !, 
+  just drop the uow and repository bullshit and use the dbcontext directly in your service layer ( you have a service layer right ? ), 
+  i usually put an interface around the dbcontext but even this is not required for testing as ef6 supports testing as it is . 
+  uhm ... no i am not rewriting the same queries over and over . 
+  the same queries usually fall in the same service object ( say customerreportsservice ) and i extract them inside that object . 
+  if i have a query that is shared between multiple services i extract it as an extension method or in a servicebase class . 
+  usually this happens with subqueries like these for paging . 
+  if even that is not good enough i can create query classes similar to those used in cqrs . 
+  with generating db from model ( code first being typical ms poor naming which does n't actually mean that the code is written first or that the db is generated ) there are several issues, 
+  - it is easy to generate suboptimal db or miss a foreign key and not notice . 
+  of course you may have enough discipline to always check what is generated but still a mistake is easier than if you create your db manually, 
+  - you have to include properties on the model you may not need just to facilitate db generation . 
+  for example you might only want the fk property on some model but you still need to add the corresponding entity just to force the proper db generation, 
+  i have tried both approaches and like the to create my db and then write the classes i need by hand the best one . 
+  generating db is not that bad but requires more discipline so my choice is to use it on smaller projects . 
+  immediately downvoted after i saw the title . 
+   at the moment bw uses its own private server ( fish ) and setting up/finding matches is complicated . 
+  this is why i stopped playing sc1 online after playing it since release even before sc2 was released . 
+  it just drove me crazy that i had to lead 10 minutes of negotiations to play a 10 minute game on iccup . 
+  especially annoying for a random player since even less people were willing to play so i was just `` ok tell me what race you want me to play '' . 
+  and even then it was extremely annoying and time consuming . 
+  yes !, 
+  soo managed to win another second place . 
+  i think the quake thing only became true after warcraft iii was released and the rts scene was split between sc and warcraft iii . 
+  in addition because the sc scene was dominated by koreans so hard there were less local heroes to inspire the scene . 
+  this was n't true for quake so it lived on for several more years . 
+  man i hope quake champions brings the quake scene back . 
+  i love this game so much even more than sc although i am much better at sc and played much more sc in my life than quake . 
+  i really do n't understand this . 
+  typescript is a net positive even if you do not use external type definitions . 
+  you just wo n't have type definitions but you would n't have those anyway if you are not using typescript . 
+  you still get typings on the standard library and on your own code and downlevel transpilation . 
+  vb.net is certainly somewhere in those percentages , certainly higher than f # . 
+  btw there are ironruby and ironpython projects but they were sidelined at some point ( not fully abandoned but not advertised ), 
+  yes , the quick and dirty approach should be put front and center . 
+  i 've never seen anyone here being banned for expressing opposing views . 
+  as you have noticed opposing views are often downvoted but also upvoted . 
+  i find the downvoting thing to be a problem but nothing compared to the outright censorship in / r/bitcoin, 
+  because your result is iqueryable ( i.e. 
+  not yet executed ) . 
+  the result is put in the jsonresult object but executed after the action is complete when the serialization to json happens . 
+  because the using closed your db connection the query can no longer be executed . 
+  you can fix it by putting tolist ( ) after take ( 500 ) which will execute the query and put the results in a list, 
+  hmm interesting . 
+  why is that ? 
+  you should probably use async/await too but it seems like the guy is learning or at least hacking an app quickly .

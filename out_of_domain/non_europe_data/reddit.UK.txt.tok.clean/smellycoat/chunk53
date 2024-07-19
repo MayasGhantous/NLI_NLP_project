@@ -1,0 +1,100 @@
+  i stated quite clearly in my comment that neither of us are interested in having children , and have felt that way for ~ 10 years . 
+  why are you assuming i meant to say '' ... yet '' ? 
+  for the record , my reasons for not wanting kids has nothing to do with * maintaining * our financial position ( we 're not rich by any means ) . 
+  my stance is that i 'd feel wrong knowingly bringing a child into a less-than-ideal situation where i could n't be sure we could provide for it adequately . 
+  that was my reaction . 
+  man the fuck up . 
+  being exposed to germs is * necessary * for a healthy immune system , hence the prevalence of allergies in our disinfected , sterilised world . 
+  simply washing your hands and not rubbing your face in other people 's shit is plenty good enough to avoid bacterial infections . 
+  there are far more nasty germs in a typical kitchen tea towel or dishcloth than on or around a toilet . 
+  i did , many years ago . 
+  i love how despite the `` visual '' part of the name , the first thing you 're presented with when you start it up is a command line , 
+  sony could have * completely * cleaned up in the mp3 player market with minidiscs * if * they played it a bit more intelligently and :, 
+  * allowed you to read and write minidiscs directly from a computer, 
+  * allowed the players to play mp3, 
+  before ipods came along to fill the immense gap in the market , there was very little in the way of high quality , high capacity portable players . 
+  sony were perfectly positioned with the walkman brand to utterly clean up with the right device , and with minidiscs they had the ideal technology to get around the fact that flash memory was rather pricey . 
+  * if * they 'd allowed you to write mp3s directly to the md , and play them back without transcoding . 
+  they 'd have sold a shitload of minidisc players and discs . 
+  but they did n't . 
+  instead they fucked about with interfaces that basically amounted to usb soundcards that literally played the audio and the md player recorded it in atrac format or whatever it was . 
+  worthless . 
+  and now what is the walkman brand worth ? 
+  fuck all . 
+  apple kicked their arses , and they deserved it for missing the opportunity . 
+  white stilton ( especially the types with berries/fruit in it ) is a completely different beast to proper stilton . 
+  a firm , mild greek cheese . 
+  slice it and fry it ( really ) until golden brown . 
+  i think , given the name , it 's not an entirely unreasonable misconception . 
+  soap works just fine if you 're using . net , and to some extent java . 
+  but that 's because it makes sense for those platforms , has lots of supporting code , and is a fairly common solution . 
+  once you step outside . net/java environments to more dynamic/scripting languages , things get a lot less convenient . 
+  the available library code is less mature and less well integrated . 
+  because it 's soap , you ca n't even ( usefully ) look at the wire format to sort things out ( well you can , but it 's certainly not a simple or quick task ) . 
+  for the average perl/python/ruby / php/etc programmer , an `` ad hoc json/rest format '' is far more appealing than wrestling with soap . 
+  which is why you still see a lot of xml-rpc and slightly random rest setups . 
+  they 're far , far easier to use if you 're starting from nothing . 
+  yes , clearly if xml appears to be shit , you 're not using enough of it . 
+   so basically your argument is that soap and wsdl is difficult and let 's go shopping . 
+  well your argument was that `` soap is good because it 's easy for me '' , which is a perfectly valid point to make . 
+  i was simply pointing out that it 's not as easy as that * everywhere * . 
+  i think the problem is that for people using dynamic languages , xml-rpc/json/rest / etc offer `` good enough '' functionality , with * far * less complexity . 
+  while you might not accept that as an excuse for the lack of mature , heavily-used generators/library code that are `` easy '' , the fact remains that it 's still * much * more effort to use soap with those platforms than it is to use one of the alternatives . 
+  i was n't trying to start a fight with you , man . 
+  i 'm just saying there are good reasons why many people dislike it and avoid it . 
+  if it works nicely for you , then that 's cool . 
+   let some tool call the thing , copy the xml document and run search/n/replace on it, 
+  crikey mate , that 's a rather hacky method ( and i 'm a perl programmer ! ) . 
+  using soap is not a simple undertaking in many languages/platforms , but there 's usually a better solution than hammering it with regexps !, 
+  rip lux interior . 
+  the man with the single greatest name in rock . 
+  okay this is delving into the dirty and often nonsensical world of `` my personal opinion '' . 
+  which i was trying to avoid doing . 
+  i 've worked with loads of webservices , from truly beautiful ` pure ' restful systems , soap , xml_rpc , to quick-and-dirty `` rest '' - and-json things , and even a few completely non-standard things ( yaml-via-smtp !, 
+  seriously ! ) . 
+  i 've even implemented a few services of my own , and hacked on a few clients and servers . 
+  soap is the one standard for which i 'll always remain a `` user '' . 
+  by which i mean : almost completely reliant on the available tools . 
+  which is fine , as long as they work . 
+  when something goes wrong ( and as you mention , it happens a lot ) you are thrust into a vortex of pain with very little recourse . 
+  the complexity of the standard , and of the code necessary to implement that standard means you 're gambling on your tools being able to cope with what you want to do . 
+  if they do n't , then you 're looking at a potentially horrible job to convince them otherwise . 
+  and basically , that 's my problem with it . 
+  it 's unnecessarily complicated for many , many things . 
+  you can almost always do the same job with something else , and end up with code you can actually * debug effectively * if something breaks ( not to mention , avoid a whole bunch of transport overhead ) . 
+  i do n't have an issue if others want to use it ( but please test your server with some of the more common client libraries for popular platforms !, 
+  ) , and do n't think it 's necessarily bad * in theory * . 
+  but in practice , i 'll do everything i can to avoid it . 
+  `` back up your shit and make sure it works '' ? 
+  yeah , thanks spolsky , oh master of best practice . 
+  i 'd never heard of the film until i watched it a couple of days ago . 
+  great film though , highly recommended . 
+  seriously ? 
+  think yourself lucky you even get bug reports . 
+  i have had to deal with people that `` work around '' bugs ( and telling clients to do the same ) for six months before bothering to mention them ( and when they do it 's always some manager type screaming that it must be fixed yesterday because the client 's kicking up a fuss ) . 
+  after much kicking and screaming , we 've got to the point where bugs are being reported promptly . 
+  but they usually come in the form of a 17-email thread with `` see below '' at the top and only the very vaguest suggestion of what might be wrong ( * if * someone takes the time to wade through the thread and work out wtf they 're trying to do ) . 
+  oh , yes , and that 's if it 's a bug at all . 
+  9 times out of 10 , it 's not . 
+  and , predictably , the very few that use the bugtracker . . 
+  guess what . 
+  yep . 
+  they paste 1000 line email threads into it . 
+  with the bug title set to `` bug pls fix '' . 
+  in comparison , my ( few ) open source projects tend to get . . ** patches ** !, 
+  i love open source developers so much . 
+  that 's a far nicer solution than either catalyst 's i-might-get-a-ref method , or the php/webop . py name-things-in-an-ugly-manner method . 
+  well done , 
+  one question , though : in the case of multiple parameters when you 're only expecting one , why is the ** last ** value considered to be the one you should be given , rather than the first ? 
+  best i can tell , in most cases you 're going to have control over the parameter list anyway , so it does n't really matter whether you get the first or the last ( it 's either going to break or it 's not , depending mostly on luck ) . 
+  but if you 're unlucky enough to be in a situation where extra things are being added to your parameter list that you * do n't * have control over , is n't it far more likely they 'd be added to the * end * of the parameter list ? 
+  meaning by taking the last value by default , you 're setting yourself up for a fall should something append parameters that happen to clash . 
+  and before you say `` that 'll never happen !, 
+  '' , i 've encountered this situation myself while trying to build links to sites that send extra data ( for the benefit of the site 's web analytics system ) . 
+  and had to deal with scripts exploding in interesting ways , 
+  if it helps any , cgi.pm does return the first :, 
+   perl - mcgi - e ` my $ q = cgi -  new ( `` p = foo & p = bar & p = baz '' ) ; print scalar $ q -  param ( `` p '' ) ; ', 
+  he 's suggesting best practices . 
+  it 's very common for programmers to have a few idioms they like to use , even in situations where they 're maybe not the ideal solution . 
+  so as an experienced programmer , the best way to use best practice suggestions is as an opportunity to examine those parts of your own coding practices and see if you could be writing better , clearer code . 
+  in some cases using post/pre increment/decrement operators or ` if ( foo ) continue ` * is * going to be the cleanest way to write something .

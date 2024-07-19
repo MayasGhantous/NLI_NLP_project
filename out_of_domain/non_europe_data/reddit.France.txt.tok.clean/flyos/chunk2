@@ -1,0 +1,100 @@
+  did you compile it from git or are you using a `` git unstable '' image such as neon or krypton ? 
+  damn , that was right under my nose !, 
+  how did i miss it ? 
+  yes , it seems there 's no call for panic , kile is still alive !, 
+  something bugging me is that it apparently was worked on for all that time ( according to git commits ) , but yet , nothing was released for 4 years . 
+  i wonder the reason why ... 
+  back in the kde4 days . 
+  it was introduced around the same time as the `` netbook-workspace '' if i 'm not mistaken . 
+  for having reported a duplicate , i can confirm k_ver found the `` reference bug '' ( if that 's even a thing ) . 
+  possibly ... maybe none of the earlier commits were valuable enough to justify a release until they started the port , meaning until the port was finished the code was too unstable for a release ( apparently the port took 2 to 3 years according to the commits ) . 
+  never heard of it back in the kde3 times , but then , i spent only two years on it and was discovering linux . 
+  since the global menu feature requires qt 5.7 , i do n't think plasma 5.9 would compile against qt 5.6 . 
+  i think you 're mixing up `` apt dist-upgrade '' and `` do-release-upgrade '' . 
+  the latter indeed takes care of changing the repos ( and is ubuntu-only , if i 'm not mistaken ? 
+  does n't also the port of konqueror to kf5 depends alsp on qtwebengine now ? 
+  i 'm not even sure it was released since i do n't use it . 
+  and nobody to thank you ? 
+  i do n't use the kde neon flair , but i thank you in the name of all those spoiled redditors !, 
+  i 've always found it quite comical that the icon used for `` input devices '' in the system configuration ( which is a stylus/tablet if i 'm not mistaken ) is the very one a kcm is missing for . 
+  out of curiosity ( i do n't use a stylus ) , there 's still nobody interested in implementing this kcm ? 
+  not sure about the distinction between old/obscure and modern/common . 
+  the question is aimed at finding the best distribution right , so the constraints for old hardware is that it might be not powerful enough for things like ubuntu , but bleeding-edge hardware might require a ( semi - ) rolling or very up-to-date distrib . 
+  so i 'd change for :, 
+  is you hardware old , common or bleeding-edge ? 
+  ( i 'd leave `` obscure '' for `` special requirements '' ), 
+  just my 2 cents . 
+  community development as its best !, 
+  impressed : the test gave me opensuse , which i use !, 
+  a slight problem : checking `` i want the updates fast '' is a red cross for opensuse , which does not reflect reality . 
+  in opensuse , you can have either stable updates ( the leap series ) or rolling updates ( tumbleweed ) . 
+  also , why `` i prefer free software '' checks only fedora , something i 'm not aware of ? 
+  it would , and it did . 
+  possibly / u/invisibleup had an external repo activated , like / u/kugelkurt suggested . 
+  it depends on what you want . 
+  the look and feel construction features dates back from 5.8 actually i think ( see `` use desktop layout from theme '' option at the bottom of `` look and feel '' in the config ) . 
+  the `` lookandfeelexplorer '' should be available since 5.8 as well . 
+  the only thing that was added in 5.9 is the possibility to include window decoration , as far as i can tell . 
+  ok , but then debian is not checked for `` free software '' ? 
+  i 'm not really aware of the fedora world , but they do have a `` non free '' repo just like debian does , do n't they ? 
+  ( i 'm really asking ), 
+  so , this * is * the justification for fedora being the sole being checked for `` free software '' is what you 're saying ? 
+  ( again , i 'm just trying to see what i do n't know , nothing against this specifically ), 
+  the combo with kaddressbook/carddav is also a must . 
+  had tried to make it work with sogo plugin for thunderbird , but god it was a pain ... that actually triggered me switching to kmail . 
+  i mostly agree except on two points :, 
+  - why aggregate if you default to expanding all aggregations ? 
+  my personal opinion ( it 's a matter of taste , really ) is that aggregation is nice in that it hides long gone e-mails , except ones that are marked ( as todo or as `` important '' , etc. . ) . 
+  i means that expanded aggregations are the ones where something is happening , the `` retracted '' ( not sure what the right inverse of expanded is ) ones are boring , thus hidden . 
+  it 's a good default imho . 
+  for example , if you mark an old message ( say dated from last month ) as todo , kmail will expand the last month to show this to you , and only this month . 
+  it means that scrolling will quickly show you this kind of messages ( when an `` all-expanded '' view would hide those into the flood of all messages ), 
+  - i see your point for `` download all messages '' , but i 'm not sure opt-out is a good default either . 
+  what if your imap is 10go large ? 
+  you might not want this space used and be `` catch out '' by such a default . 
+  not sure there is a universal good default here ... : /, 
+  / u/dvratil , since it 's becoming kind of an `` ask me anything '' : any idea when drag & drop for attached files is coming back ? 
+  it was lost a wee ago ( due to the switch to qtwebengine ? ) . 
+  edit : and by the way , thank you for taking some time to give info users , i love when devs do that , it 's what makes a community !, 
+  i was referring to drag & drop for kmail to dolphin actually , but you 're right , it does work now !!, 
+  would have sworn that i tested it after the 16.12 update ... weird . 
+  anyway , thank you !, 
+  yes , that seems like a good compromise . 
+  edit : je viens de relire mon message , j' ai l'impression que j' ai abus\u00e9 d'un certain mot ... 
+  c'\u00e9tait \u00e7a ma question . 
+  what about geckolinux ? 
+  all the good stuff from opensuse without the hassle for new linux users . 
+  otherwise , there is linux mint kde , but i do n't know about their kde integration . 
+  well , the real scandal is tea actually : you pay often twice the price of a coffee for hot water and a bag of `` lipton yellow '' . 
+  what the fuck france ? 
+  je me trompe ? 
+  merci !, 
+  i do n't understand the lack of upvote on that one ... that 's pretty cool / u/alessandrolongo !, 
+  i 'm thinking about hybrid `` 2-in-1 '' laptop : mouse trigger might not cut it ( depending on how it is implemented actually , but the mouse is always connected in a 2-in-1 laptop ) to switch between `` tablet '' and `` desktop '' interface . 
+  i 'm not sure what the best trigger could be , especially since the hardware triggers are most of the time not recognise in linux ( it 's not on my 2-in-1 anyway ) . 
+  doing it manually in plasma would solve it , of course , in any case . 
+  reddit sure has its own sociology , but i was n't aware of this characteristics !, 
+  well ... their loss !, 
+  negative result \u2260 failure, 
+  cool . 
+  the message :, 
+  `` the following 3 applications are going to be removed : desktop `` grouping plasmoid '' `` system tray '' '', 
+  comes from a bug from zypper . 
+  something like it updates package but it can not be aware that the new packages are provided the applications so it deduces they would be removed though they are not . 
+  somebody will correct me for the origins , but it 's definitely a bug and you can ignore the message ( if the corresponding packages are not being removed of course !! ), 
+  thanks !, 
+  it seems i did n't recall the problem quite correctly , but here it is !, 
+  merci . 
+  what does cantata offer compared to clementine ? 
+  hawaii being volcanic , it does n't check criterium # 2 ( no metamorphic rocks , or at least , not much of it ) . 
+  also , no island alone checks the fourth criterium ( large enough limits ) . 
+  thing is , between new zealand and new caledonia is continental crust , not oceanic floor . 
+  it 's not just about being above sea level . 
+  just like , for example , new guinea is part of the australian continent . 
+  ok . well , i have no idea what mpd is or does , so i apparently have no reason to switch !, 
+  well , it 's behaving very weird for me , like it 's never switching to french ... but still accepting some french words . 
+  i 'm starting to wonder whether it 's because there are too much french words in the english dictionary , but even when i use only french words that are marked as misspelled , it never switches to french . 
+  holy crap !, 
+  6 % in a year is ok ? 
+  in france , we have a cap on the rent increase depending on the market , usually fluctuating between a bit above 0 % and 2-3 % and that is the max of it . 
+  in all places i 've rented i 've never had rent increase of a max of 3-years periods .

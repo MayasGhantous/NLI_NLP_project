@@ -1,0 +1,100 @@
+  i do n't even know what `` casual elitism '' means . 
+  and competitive 2 vs 2 worked fine in bw . 
+  so / r/programming is upvoting the mozilla comment post but downvoting the ie team post ( currently the last thing on the front page ) . 
+  no bias at all , 
+  who cares if they are slow to start up . 
+  nobody expects unreal engine game to start in half a second . 
+  and no , it is not only for gaming . 
+  nobody expects word to start in half a second . 
+  and no , it is not only for ( current ) desktop programs - gmail has `` loading '' splash screen, 
+  you realize that the time till `` mid 2000s '' is half the lifespan of sc1 and its golden years as the most famous competitive game ( before cs replaced it ) ? 
+  casual players ' opinions do matter . 
+  it is not the pro scene that funds the game . 
+  it is the legions of casual players . 
+  cs only got bigger than sc in like 2002 . 
+  before that sc was bigger . 
+  as to my opinion on 2 vs 2 it matters because i have money and ( limited ) time . 
+  i can spend that time and money on sc or on something else . 
+  if the sc scene does not provide me with 2 vs 2 content i will take my money and time elsewhere and pros will complain about `` daed gaem '' . 
+  there is a huge class of applications where initial loading does not matter ( especially since it will be cached for the next refresh ) . 
+  this is for those applications . 
+  my reddit clone will be just fine with javascript ( or more likely typescript ) since all i will need to do with it will be to make a monkey dance when you hover over it . 
+  it is not a big problem if js lives for simple websites . 
+  problem is that we need to write games , word processors and other desktop-like experience in js just to run in the browser . 
+  this is certainly true but the big problem with js are not the 2000 lines of js needed for a public website ( in fact i would argue that websites who have a lot of js downgrade user experience ) . 
+  get a notification without refresh here , add comments via ajax , like/dislike , upvote/downvote and that 's it . 
+  if your website has chat i 'd rather wait than fight the buggy , laggy thing each time ( i am looking at twitch ) . 
+  the problem with js is that people demand that unreal , word and their rich mail client runs in the browser . 
+  this is where the big suffering is . 
+  sony ... `` allows you to automatically preorder metal gear solid ... '', 
+  takes about a second on my machine . 
+  on the other hand i am pretty sure i had it downloaded already , 
+  this is certainly true for korea but not for the world . 
+  correct me if i am wrong but we want a game that the world plays not the 2006 brood war where like a hundred elite koreans competed and everyone else just watched . 
+  i do n't know if i would watch regular 2 vs 2 content and if the strats would degrade into something boring but i if it was extremely fun it makes sense to create more of it until it gets boring . 
+  this seems to be the only sc2 content i will consume this week and it is an online tournament with semi-amateur casters and i watched it off of vods . 
+  this means that i as a viewer am bored with 1 vs 1 content but hungry for 2 vs 2 content . 
+  how long this hunger would last ? 
+  i do n't know , the scene never tried . 
+  there was never offline 2 vs 2 tournament with stage and all and as a viewer i happily skip 2/3 of these for 1 vs 1 because i am tired of them . 
+  yes actually it is . 
+  but this is true for the web too . 
+  you download the files once and they get cached . 
+  i actually do n't mind when companies do this . 
+  i mean we are somewhat behind now but there are companies emerging to take reader 's place . 
+  it is not like google stomped the field forever . 
+  same with microsoft and netscape . 
+  the interesting part here is that people choose to hate one of these companies and love the other . 
+  science in the medieval period did pretty well . 
+  just not in europe . 
+  people who value quality languages and do not care about licenses ? 
+  first of all i do n't think that 's a fact ( as demonstrated by the very tournament this thread is about ) and second i do n't think it is shit . 
+  even one gameplay type still gives more variety over what we currently have . 
+  we can agree to disagree . 
+  the problem is that i feel like the people who disagree swing the scene disproportionally . 
+  i mean certainly the amount of people who would like to watch 2 vs 2 is at least 1 % but we still have n't had a single lan tournament ( even online 2 vs 2 tournaments with reasonable casting happen like once 3 months ) and there is not a single 2 vs 2 pro . 
+  by comparison we have had hundreds of lan events for 1 vs 1 to the point that they run at the same time and you ca n't reasonably watch them all . 
+  something is definitely wrong here . 
+  this does n't make sense . 
+  if you play them more than 1 vs 1 then you obviously think 2 vs 2 is better but you are complaining that they are worse ? 
+  oh i thought you claimed that 2 vs 2 has no place in the competitive scene because it is not macro enough . 
+  gcs these days can work in the background with very minimal pauses . 
+  of course i do not expect apple 's deprecated gc to get these features so ... 
+  ars technica ones are definitely not clickbait . 
+  i mean they do n't have the absurd title this one has . 
+  how is a forkjoinpool different from a taskscheduler - https://msdn.microsoft.com/en-us/library/system.threading.tasks.taskscheduler ( v = vs. 110 ) . aspx, 
+  also why do you care if your concurrentqueue is a linked list or not ? 
+  . net 's concurrentqueue seems to be a linked list of small arrays but this is an implementation detail that i do not expect anyone to care about . 
+   the forkjoinpool uses a pretty great scheduling algorithm , which allows for better cache locality and better handling of blocking io . 
+  so does the task scheduler ( it does work stealing ) . 
+  as far as i know they are pretty similar . 
+  concurrentqueue in . net is also lock free and it is essentially a linked list . 
+  if anything it looks more advanced since it uses segments instead of items which may help with cache locality . 
+  in any case i do n't think they did the additional work to introduce segments if it did n't improve performance over pure linked list . 
+  this is the second time i see something this guy wrote and a second time i see a comment that he should be ignored . 
+  in both cases the content supports the claim that he should be ignored . 
+  i have been an asp.net dev for like 80 % of my career and honestly i only care about dynamic compilation . 
+  i fully understand why some people care about the other features but i personally do n't see much improvement considering that i have already learned how to work around most of the issues these solve . 
+  for example the new project system is totally uninteresting to me , just something new to learn with no value . 
+  i am also a bit sad to see web forms go . 
+  while i understand why it has to go from platform perspective and understand that some of the concepts there are outdated i firmly believe that the component model is far superior to the mvc pattern . 
+  i really hope react.js wins over the angulars of the world since it promotes components over mvc . 
+  i hope some day soon someone builds a component framework on top of asp.net 5 . 
+  it works for websites but if you have a class library project you were referencing you were out of luck . 
+  on the other hand i never understood why people shied away from the web site project template so much . 
+  it felt pretty good to me . 
+  i firmly believe that the main reason wpf and winforms are as good as they are is because they do not try to be cross platform . 
+  i really do n't understand why they are doing that . 
+  in my view rendering html on the server is dead and there is no point to try to improve it unless you are going to provide some kind of isomorphic generation ( react.js on server and client , gwt or web forms with update panels although the latter is quite an early form of this ), 
+  why does it matter if project files are json instead of xml . 
+  it is going in . net 4.6 and does not benefit from any of the other improvements . 
+  i expect it to become a bad choice for future projects . 
+  before asp.net 5 was announced i did not share the popular opinion that it is always a bad idea to start a new web forms app ( for example i would choose web forms if someone asked me to build a wikipedia clone or a blog engine ), 
+  i see . 
+  i was kind of used to deal with the conflicts and could merge reasonably well a proj file so this is why i did not care that much about the project system . 
+  i see the advantages though i just ca n't get too excited about it . 
+  using old version of visual studio ? 
+  it has search in the settings for 2 or 3 versions now . 
+  no although they are similar . 
+  i would n't say `` completely different '' but you certainly wo n't be able to auto-update a project . 
+  well this is actually the biggest one since asp.net 2.0,

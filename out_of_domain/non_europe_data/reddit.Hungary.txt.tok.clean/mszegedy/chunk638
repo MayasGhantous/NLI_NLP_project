@@ -1,0 +1,100 @@
+  the rest of the comments are really clever , telling him to smash the glass with the rock , or referencing `` we want a rock '' . 
+  edit : yes . 
+  hell yes . 
+  comic sans . 
+  ( i asked for it . ), 
+  fffff . 
+  `` hfhfghfbvfghfhbnghfvbngbn '' ? 
+  jjjjjj ? 
+  [ there is ] ( http://www.reddit.com/r/gaming/comments/y8a1p/ermahgerd/ ) a / r/gaming thread ( 1,043 points , ( 52 % like it ) , 12,320 up votes , 11,277 down votes , 18 hours \u00f3ta ) in which the entire `` joke '' is that a thing that 's misspelled sounds like an `` ermahgerd '' - type transcription . 
+  ( though it really does n't . ), 
+  some choice comments :, 
+  [ no replies , thank sagan  ( http://www.reddit.com/r/gaming/comments/y8a1p/ermahgerd/c5ta15e ), 
+   [ -- ] mydenimisraw 39 points 15 hours \u00f3ta ( 52 | 13 ), 
+  [ an entire fucking dolan thread , though  ( http://www.reddit.com/r/gaming/comments/y8a1p/ermahgerd/c5t9m81 ), 
+   [ -- ] bigguy338 74 points 15 hours \u00f3ta ( 101 | 27 ), 
+   accully is rabet, 
+  [ guess what ? 
+  a `` half life 3 '' joke , lame to the point of parody  ( http://www.reddit.com/r/gaming/comments/y8a1p/ermahgerd/c5tba2u ), 
+   [ -- ] tedgag 102 points 13 hours \u00f3ta ( 123 | 21 ), 
+   `` me three '' ? 
+  half life 3 confirmed, 
+  [ this one has a particularly forceful ermahgerd joke as a reply  ( http://www.reddit.com/r/gaming/comments/y8a1p/ermahgerd/c5tbj9g ), 
+   [ -- ] montageryanxd 12 points 13 hours \u00f3ta ( 14 | 2 ), 
+  [ actually , there 's a stupider one that 's almost definitely sincere ( and in fact higher up in the comment thread ) , but it somehow has almost no points  ( http://www.reddit.com/r/gaming/comments/y8a1p/ermahgerd/c5tbg03 ), 
+   [ -- ] bob_fucking_ross 2 points 13 hours \u00f3ta ( 4 | 2 ), 
+  [ acually is aonher dolan thread  ( http://www.reddit.com/r/gaming/comments/y8a1p/ermahgerd/c5t9s90 ), 
+   [ -- ] aaronnoraator 8 points 15 hours \u00f3ta ( 15 | 7 ), 
+  [ ctrl-f ` ed `` am i the only one '' , was not disappoint  ( http://www.reddit.com/r/gaming/comments/y8a1p/ermahgerd/c5taof6 ), 
+   [ -- ] photo 7 points 14 hours \u00f3ta ( 10 | 3 ), 
+   am i the only one that hates this meme ? 
+  the rest is just a harmless nostalgia-jerk . 
+  `` reddit , what controversial opinion do you hold ? '', 
+  threads end up being the same opinions , over and over . 
+  i want to see some fresh answers . 
+  redditors tend to hold a lot of opinions that are controversial to the general population . 
+  this is never a surprise . 
+  instead , i want to find out opinions that you think would meet * genuine disapproval * here . 
+  to restate the question , reddit , what opinions do you hold that are controversial * on reddit * ? 
+  i am not a fan of image macros . 
+  i also dislike xkcd . 
+  edit : i am also byzantine catholic , but i do n't think this is an especially controversial thing to say . 
+  i create and man an account named / u/theuntroll . 
+  ( check ), 
+  use this account to compliment other redditors , and make them feel generally good about themselves . 
+  gain recognition and belovedness until i am effectively reddit 's best friend . 
+  let it slip , maybe during an ama or something , that despite how nice i am , i have never made a single donation , for lack of money . 
+  allow a redditor ( maybe a sockpuppet if no one else comes forward ) to suggest the idea for reddit to raise money for me to donate . 
+  raise a ridiculous amount of money , maybe $ 800k or so . 
+  host a vote on what charities to spend this on . 
+  donate money in some distribution to the top 10 or 15 charities that get voted . 
+  i have a few ideas for the distribution ; if * x * is the rank of the charity , then donate 1/2 ^ ( * x * + 1 ) of the money to it . 
+  or , if * n * is the number of charities we 're donating to , then each charity gets * x * ! / * n * !, 
+  of the money . 
+  success !, 
+  step down as the untroll , claiming that reddit has gotten in the way of your life . 
+  ( probably true . ), 
+  if so , do you live in miskolc , or near it ? 
+  i know of two fans in this country that exist : myself , and a youtube user named [ fromhungarywithlove ] ( http://www.youtube.com/user/fromhungarywithlove ) ( coincidentally , or maybe not coincidentally , also the name of [ an obscure anecdotal book about hungarian corruption ] ( http://www.libri.hu/konyv/magyarorszagrol-szeretettel.html ) ) . 
+  maybe ... just maybe ... there 's one or two more ? 
+  sorry for not following up with a story , but i do n't think i 've ever done anything particularly extraordinary for someone . 
+  :( there 's always time , though , and i certainly want to !, 
+  so , i was rereading john 's spiel about captchalogue codes , and once again noticed the part where he states that `` simpler codes will produce more complex items '' . 
+  by this , he means that when you & & items , they will trend towards a card completely devoid of holes , and when you | | them , they will trend towards a card completely saturated with holes , and both of these operations make more complex items than the ones they were initially supplied with . 
+  based on john 's definition of `` simple '' , i 've created a measly compression rule for storing the information of cards . 
+  it 's as follows :, 
+  there is one initial bit , and this determines which card you 're using as a template : 0 for blank , 1 for all-punched . 
+  imagine the 64 possible holes as numbered from 0 to 63 . 
+  using 000000 for 0 , 000001 for 1 , 000010 for 2 , etc. , list all of the holes that are exceptions to the template card ; i.e. , they 're unpunched if it 's a 1 card , or punched if it 's a 0 card . 
+  keep doing this until you 've listed all of the exceptions . 
+  and then you 're done !, 
+  best-case performance is an all-blank or all-full card , which is 1 bit . 
+  worst-case is a card that 's 32 punched , 32 blank , which takes 193 bits to store . 
+  this rule is better than the usual 64-bit compression when the number of punched holes is either 0-10 or 54-64 , or 184,144,458,889 / 18,446,744,073,709,551,616 , or roughly a millionth of a percent of the time . 
+  pretty bad !, 
+  i 'm sure that there 's a way to improve this , but i would n't bother with it . 
+  i hardly know a thing about computational science anyway . 
+  edit : i 'm an idiot , the number i quoted for the amount of times that it works should be twice that . 
+  so , slightly less shy of two millionths of a percent , or one in fifty million . 
+  it still sucks , though . 
+  damara is a breed of sheep , and was suggested for aradia . 
+  she 's the megido ancestor . 
+  the wiki also says that she 's the witch of time , but i do n't know where that was ever stated . 
+  mituna was suggested for sollux . 
+  it means `` couple '' in sanskrit . 
+  ( thanks , / u/vantaskarkat ! ), 
+  he 's the captor ancestor . 
+  meulin was suggested for nepeta . 
+  also , it 's phonologically similar to the word `` mew '' , a sound that cats are known for making . 
+  she 's the leijon ancestor . 
+  [ no , really !, 
+  ] ( http://www.reddit.com/r/atheism/comments/z5zti/science_gives_me_a/ ) the entire post is a bad pun coupled with more backpatting about how scientific \\ / r/atheists are . 
+  [ the top comment thread calls it out  ( http://www.reddit.com/r/atheism/comments/z5zti/science_gives_me_a/c61rewc ), 
+   / u/beeeeaaaars 161 points 14 hours \u00f3ta ( 215 | 54 ), 
+   post this in a science subreddit , not an atheism one , because this picture has nothing to do with atheism . 
+  honestly ... 
+  [ and so does the next one  ( http://www.reddit.com/r/atheism/comments/z5zti/science_gives_me_a/c61svl5 ), 
+   / u/test12345penis 94 points 12 hours \u00f3ta ( 123 | 29 ), 
+   i love all the atheism in this post !, 
+  [ and so does the next one , with a backhanded criticism of the * other * kind of offtopic submission  ( http://www.reddit.com/r/atheism/comments/z5zti/science_gives_me_a/c61t9eh ), 
+   / u/twentyone _ 21 [ +7 ] 53 points 12 hours \u00f3ta ( 67 | 14 ),

@@ -1,0 +1,100 @@
+  sort key : ( ( time_gps / 10000 ) ) , time_gps, 
+  sort method : external sort disk : 360600kb, 
+  -  bitmap heap scan on parsedcache_gpsfix ( cost = 82964.58 . .2492773.03 rows = 3618066 width = 88 ) ( actual time = 206.111 . .1017.519 rows = 3481288 loops = 1 ), 
+  -  bitmap index scan on parsedcache_gpsfix_series_id_a31c1ce9c62c8a5_uniq ( cost = 0.00 . .82060.07 rows = 3618066 width = 0 ) ( actual time = 194.622 . .194.622 rows = 3481288 loops = 1 ), 
+  index cond : ( series_id = 117 ), 
+  total runtime : 4194.930 ms, 
+  although as just a curiosity , i wonder why the first case does n't use the other index - the ( series_id , time_gps ) one ? 
+   how many self-positioning barges were available before spacex built one ? 
+  i would guess that there are thousands of self-positioning ships available . 
+  usually there are just people on board to do some useful work - they are very common in oil drilling and other maritime engineering . 
+  the self-positioning system for barges that spacex used is a standard commercial product : https://www.thrustmaster.net/out-drive-propulsion-unit/portable-dynamic-positioning-system/, 
+  has anyone really been far even as decided to use even go want to do look more like ? 
+   if i was offered a piece of gold to buy , i would have to test it to see if it was the gold content as stated , or as is stamped on the piece itself . 
+  how does that work for jewellery ? 
+  if every potential customer tests a ring or chain , would n't it be soon ruined ? 
+  you lost the war , so polizei has no jurisdiction in san francisco . 
+   but it also sounded like you were saying that dyslexia is much more common among mechanics . 
+  i have n't found any evidence of that , but you could still be right and my numbers would be off . 
+  could it be that people with dyslexia are more likely to choose auto mechanic as a career ? 
+  it has fewer reading & writing requirements than for example english teacher . 
+  these seem like pretty old discoveries though ? 
+  we already use ground - and space-based telescopes to study gravitational lensing around other objects . 
+  and the sun-observing satellite soho carries a sunshade for creating its own `` artificial eclipse '' to study the corona . 
+  is there any practical scientific value in natural eclipses in 2015 ? 
+  have a read through http://en.wikipedia.org/wiki/united_states_v._scheinberg as a start . 
+  even if your site is based in a country where online gambling is legal , you will end up in a world of hurt if you allow people from countries where it is not to play . 
+   wtf is a `` decorative strategy '' ??? 
+  http://en.wikipedia.org/wiki/dazzle_camouflage is pretty decorative . 
+  his insurance will pay him because he has an insurance contract with them . 
+  his insurance will then go and try to get their money back from the mechanic or the mechanic 's insurance . 
+  op could demand the money directly from the mechanic or the mechanic 's insurance , but it 's usually a lot easier to deal through your own insurance . 
+  so , the next landing attempt is in 20 days . 
+  want to resurrect the bet ? 
+  great !, 
+  i made a new post here in highstakes as well . 
+  if the incentives reward drivers who * do n't even ring a bell to check if anyone is home * over those drivers who do , then clearly they are bullshit . 
+  the purpose of a delivery company is to deliver packages , not `` sorry we missed you '' slips . 
+  i agree that it does n't make sense to second-guess spacex engineers who are obviously more informed and experienced about this . 
+  but it would be really interesting to hear more from them about the expected finances . 
+  reusable fairings could use more expensive , lighter materials ... but now they need parachutes , attitude control systems and fuel , more avionics and radios , etc. 
+  these add both to the cost and weight . 
+  and having recovery ships and helicopters on standby ( perhaps for weeks with launch delays ) is going to be expensive as well . 
+  it just seems really surprising that something as `` simple '' as a fairing ( compared to the first stage ) can be economical to re-use . 
+   i pick the license that fits my need , or do i need to apply both ? 
+  you can choose the license that fits your needs better . 
+  however , dual gpl/lgpl licensing seems strange , there does n't seem to be any situation where picking gpl would have advantages over picking lgpl . 
+  the most common use of dual licensing is for dual gpl and commercial licenses : gpl for free , commercial for a fee . 
+  it is n't . 
+  in fact , coinapult must be doing exactly that - selling your bitcoin and holding your dollars , otherwise they would go bankrupt as the price falls . 
+  even in the unlikely case that you ca n't prove that the agreement exists - you still have to be paid minimum wage , which is close to the agreed rates . 
+  unpaid internships are only allowed in the uk if it 's a required part of an university course . 
+  make it look like wildlife then , for example with the [ drone cat ] ( https://www.youtube.com/watch?v=iqh4ebsz_sa ) ? 
+  china subsidises exports from some special zones , for example hong kong and shenzhen : http://in.reuters.com/article/2015/02/12/usa-trade-china-idinkbn0lg1aa20150212, 
+  chances are that the shipping is free for them as well . 
+  the legal value of emails is as any other form of evidence for the agreement . 
+  i would argue that emails on a popular cloud email service can sometimes be even better than signatures on paper , because there is no way to edit them afterwards . 
+  this sounds like a great way to get your wedding website filled with dickbutt ... 
+  perhaps a better metric would be `` which language has the largest number of speakers who do n't speak english '' ? 
+  this would maximise the number of new people you can speak to after learning it . 
+  postgres is the recommended database choice for django , so all [ django-based cmss ] ( https://www.djangopackages.com/grids/g/cms/ ) should have good postgres support . 
+  but could you please clarify what you are looking for with `` good support '' ? 
+  cmss are usually based on some web framework , and web frameworks usually support multiple databases and often abstract away their differences . 
+  anything built on top of django should be good to go then . 
+  my impression is that all django core developers are ( rightfully ) big fans of postgres , and all database-related updates are written for postgres first and then ported to mysql and sqlite . 
+  oracle or mssql support is only added if somebody volunteers to do it . 
+  the latest version of django even adds postgres-only extra features to the orm . 
+  i have very little experience with django-based cmses , but from reading docs it seems that the popular choices are :, 
+  * django-cms if you want the cms as a re-usable library that you integrate into a complex django site , and, 
+  * mezzanine if you want something more similar to wordpress , that you install as a separate project and maybe customise ,, 
+  * feincms and wagtail also seem to be popular , not really sure what their architecture is like . 
+  yeah . 
+  hijackings used to be a hostage situation - the hijackers usually demanded a million dollars , some of their extremist buddies released from prison , and a flight to a friendly country . 
+  or [ parachutes to jump out of the plane mid-flight ] ( http://en.wikipedia.org/wiki/d._b._cooper ) with your freshly earned money . 
+  the plane and passengers were just hostages , not the target , and almost always ended up released without harm . 
+  when planes * were * bombed , the bomb was in luggage without the owner being on board . 
+  this was/is the reason why flights get delayed a lot if somebody with checked luggage is late for boarding - airlines introduced a rule that the person has to either board , or the suitcase has to be unloaded , because * clearly * nobody would be insane enough to kill themselves along with the rest of the plane . 
+  the most common ripoff is that the business first raises their prices 2x , and then offers a `` 50 % off voucher '' . 
+  so you are rarely * actually * getting something for the advertised discount . 
+  for example , there 's a deal to get 37eur tire change for 20 eur right now . 
+  but most other places charge 20 ... 30eur for this service as their standard price . 
+  some restaurants that i 've visited for years literally doubled their standard menu prices , and started pumping out vouchers every month since the various deal sites became popular . 
+  and it 's the same for the clothes and household crap that they seem to be mostly focusing on now . 
+  their new business model seems to be :, 
+  * get a bunch of people to pre-pay for cheap `` tiimari '' crap ,, 
+  * order it in bulk from china . 
+  i 've often seen the exact same items offered for cheaper on ebay or amazon than the advertised `` after deal price '' with free shipping from hong kong , and the `` original price '' is always a fantasy . 
+  i mean it can be useful if you want european warranty and consumer protection to apply , but advertising it as a `` 50 % off '' deal is still completely false . 
+  no business has ever actually sold the items at the original price in estonia . 
+  besides those groceries , http://www.prismamarket.ee offers `` shop online , pick up bags in the sikupilli prisma store '' without home delivery . 
+  their web forums , http://foorum.hv.ee , are also the biggest used computer parts and electronics market in estonia . 
+  it 's all in estonian , but you can probably get by with google translate and writing posts in english . 
+  tornados are a serious risk only in the us , and to a lesser degree in europe/australia : http://icons.wxug.com/hurricane/chrisburt/worldtor.jpg, 
+  there are no tornadoes where these shelters will be used . 
+  that 's why you need to start writing before boarding the plane . 
+  if you have 8 hours or less , you will probably need to stay in the old town and surrounding city centre . 
+  saku and hiiu are in the middle of nowhere on the outskirts of tallinn . 
+  in the centre , look for :, 
+  * p\u00f5rgu - a beer cellar with great beer and food . 
+  * hell hunt - usually too crowded to find a seat , but pretty good food and house beer . 
+  * restaurants rataskaevu 16 and pegasus for good `` modern '' food , and leib ja aed for good `` traditional '' food .

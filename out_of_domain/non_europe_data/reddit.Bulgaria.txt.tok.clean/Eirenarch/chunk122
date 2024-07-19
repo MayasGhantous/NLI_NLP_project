@@ -1,0 +1,100 @@
+  in my opinion the only way to have something like sc be the most popular again is to have gameplay optimized for 3 vs 3 or something . 
+  pro level competition does n't matter . 
+  people wo n't play unless they play in teams, 
+  if they implement it i expect to see players pay other players to ladder on their accounts . 
+  he does n't . 
+  he is just overdramatic . 
+  i remember reading somewhere that they are self-sustained . 
+  depends on the point of view and the type of app . 
+  first of all most java projects i know of are developed using java 6 and most people have to wait 3 years before they can use certain java version so in practice you ca n't use lambdas . 
+  and if we assume we can use java 8 then my most significant problem with java is the lack of properties . 
+  with getters and setters java code has more parenthesis than lisp . 
+  it is a pain to read . 
+  after being depressed by java and objective-c i would take it and deal with the side effects which apparently include paranoia . 
+  my general feeling from the post is that you are whining too much and unrealistic . 
+  i arrived to this position after reading the claim that compiling once and compiling again yields different results . 
+  i call bullshit on that . 
+  you missed the part where he claimed that the behavior is different between compilations ( with no changes ) . 
+  some people just want to write c # . 
+  i vaguely remember that this created an anonymous class in java which would make it somewhat inferior to the c # version , am i wrong ? 
+  i wonder what the reason was for the new syntax . 
+  anyone happen to know ? 
+  actually you are now guilty of spreading the confusion for c # 6.0 which has never ever been called c # vnext officially . 
+  unlike the . net framework c # was relatively strict with the naming and there is no c # 4.5 for example . 
+  true for . net framework not true for c # . 
+  how do we differentiate methods from properties with this syntax ? 
+  why do you care about exception filters provided that you can do pretty much the same thing by catching the exception checking with if and rethrowing it ? 
+  strange . 
+  my main wish for java would be properties . 
+  far more important than these minor features . 
+  my experience is quite different . 
+  while there are of course legacy projects i have never been blocked to update the . net framework and the c # compiler . 
+  sure old version of mvc , maybe non-razor view engine but still the latest c # compiler . 
+  it also seems to be the experience of people i know in the community . 
+  how is that ? 
+  you do n't use classes with getters and setters ? 
+  i found it absurd that normal java code has more parenthesis than lisp . 
+  it is quite annoying to read . 
+  does someone know what happened with the idea to specify access modifier and have the compiler generate a field for the argument in primary constructors ? 
+  did they drop that ? 
+  public person ( public int firstname , public int lastname ) { }, 
+  i do n't understand why, 
+  class person, 
+  private string firstname ;, 
+  private string surname ;, 
+  public person ( string firstname , string surname ), 
+  this.firstname = firstname ;, 
+  this.surname = surname ;, 
+  public string firstname { get { return firstname ; } }, 
+  public string surname { get { return surname ; } }, 
+  is different from, 
+  class person, 
+  public person ( string firstname , string surname ), 
+  firstname = firstname ;, 
+  public string firstname { get ; private set ; }, 
+  public string surname { get ; private set ; }, 
+  i understand the technical difference but i do n't see any practical difference especially if you do not put readonly on the fields . 
+  even if you put readonly it is still debatable if it has significant value for a private field since it only serves to remind the maintainer that the field was intended to be used in immutable fashion . 
+  as far as i know there are no optimizations that get information from the readonly modifier so i would take the shorter code with the private set any day . 
+  in fact this is what all my classes default to . 
+  is n't that not idiomatic for java ? 
+  i mean does n't libraries and tools expect you to have getters and setters and do proper encapsulation ? 
+  well this is why people use xamarin , not for the brilliant cross-platform ui toolkit . 
+  i mean they are not comparable at all . 
+  the overhead of checking for existing items would be a single if assuming that the dictionary class is implemented reasonably . 
+  you are absolutely correct . 
+  so the information about dictionary initializers is actually wrong . 
+  it is just improved object initialization same like with events . 
+  i wonder if you can call a method . 
+  edit : tried method call in . net fiddle , did n't work :(, 
+  you can set a non-readonly private field with reflection if you feel like it . 
+  in fact it may be possible to set a readonly field but i am not sure . 
+  hmm , interesting . 
+  i am about to work with java for the first time professionally and i wonder if i could write code like this or they will kick me out if i do , 
+  no it does n't but if you want to filter exceptions i assume you can combine the other catch blocks . 
+  i find an exception handling where you want to filter and propagate through the rest of the catch blocks quite complex and not really likely in practice . 
+  i am not sure what you mean by poor community . 
+  the community does not embrace open source and tends to stick to ms tech even when there are better alternatives but it is quite strong as a community . 
+  where i live the local . net user group is many times more active than the java user group . 
+  i am not sure non-foss libraries applies to the . net world these days . 
+  i do n't think i have used a non-open source library except for the bcl or the winrt wrappers in the past two years . 
+  while limited platforms is indeed a problem i do n't see why a hired developer should be concerned with it . 
+  i am paid to develop in c # and it is not my problem where it runs . 
+  it is a problem of my employer and his customers . 
+  i just develop with the tools i find the most pleasant and i get paid for it . 
+  probably race condition but he blames the compiler , 
+  ok but this syntax was demoed at some point and now they do n't talk about it . 
+  i wonder if they dropped it . 
+  i believe people will use this syntax for small immutable classes that effectively are records . 
+  i do n't think people will use it when implementing interfaces , adding generics . 
+  having moral objections against certain tech is ok but then you should just leave and not bitch . 
+  i read the design meeting notes from time to time but ca n't keep up . 
+  i always forget what gets added and removed . 
+  in fact i try to not read articles and only read discussions because things change so often that i do n't want to cement in my mind any syntax that may get removed later . 
+  i found where they removed the feature i mention - https://roslyn.codeplex.com/discussions/546465, 
+  i do n't have much of a problem with writing accessors . 
+  reading code that uses them hurts . 
+  well i choose my employer based on the fact that he hires c # developers so i do not consider it a problem , 
+  you ca n't work with a default constructor if you want immutability . 
+  i doubt the rare cases where this kind of complex handling is needed would justify a language feature . 
+  when i asked in a discussion on codeplex they said that the reason is that throw ( should be throw not throw e to preserve the stack trace ) destroys the memory dump .

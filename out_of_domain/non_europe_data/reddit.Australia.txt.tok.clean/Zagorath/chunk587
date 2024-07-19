@@ -1,0 +1,100 @@
+  if i get a 20 on the die and still fail , then i 'll give up . 
+  that 's not fun for anyone , so if that 20 would have succeeded , the dm instead just says `` you keep trying to knock down the door , until on your third attempt , you succeed '' . 
+  obviously you might want to add some more flavour to it , that was incredibly dry , but it serves the purpose of explanation . 
+   i 'm saying that `` second attempts '' ... are auto-failures, 
+  which is what does n't make sense . 
+  i ask again , why is it that a situation where the first roll * could * have succeeded , repeating identical actions until you get a high enough roll to succeed , do you not allow the players to do this ? 
+   i do n't grant you getting to speak on behalf of the larger community od dnd, 
+  i do n't claim to speak for them . 
+  i 'm stating my observations from what i 've seen others say . 
+  and i 'm not talking about some 51 % either way , i 'm talking about you being the * only * person i 've * ever * come across who disagrees with this . 
+  the point buy vs. rolled stats is a much less one-sided argument . 
+  ( and , fwiw , while i personally prefer point buy in theory , rolled stats is objectively the `` better '' choice in 5e -- in the sense that it results in more powerful characters more often . ), 
+  but you 're absolutely right , i probably should n't have said it 's bad advice . 
+  however , unless you can come up with some reasonable explanation for why trying the same thing over and over again does n't work , i just ca n't see how it * is n't * . 
+  to summarise , because holy shit this got long . 
+  treating every door equal seems okay to me . 
+  set a dc to break it , let them try to break it by any means . 
+  it 's not my preference , but hey , whatever works . 
+  * requiring * them to try different things for no particular reason is * not * okay . 
+  it just is n't . 
+  if it works for you , fine , but please , * please * do n't suggest this to new people . 
+  but absolutely * do * allow them the * option * to try new things , and lower the dc accordingly . 
+  ( if they 're trying with a lever , or working together as multiple people , it only makes sense that the dc would be lower -- well , either that , or what they 're trying would increase the total value of their roll . ), 
+  not one of . 
+  fptp is literally the worst system there is for voting . 
+  and i mean literally in its traditional sense , zero hyperbole or exaggeration . 
+   to one that was only marginally better, 
+  [ was it this referendum ] ( http://www.youtube.com/watch?v=nsukma1cyhk ) ? 
+  because if so , that system was * not * marginally better . 
+  it was * massively * better . 
+  i would argue it 's the best system there is . 
+  there are other systems that are theoretically more proportional . 
+  the systems used in places like germany and new zealand , for example . 
+  but these all tend to have one ( or more ) of two problems . 
+  one is that they give far too much power to the party itself . 
+  they formalise parties as a functional part of the vote counting system , which is , in my opinion , a terrible design decision . 
+  the other is that they often remove local representation . 
+  having members who represent a local specific geographical area is something of value in a representative democracy . 
+  the australian senate ( our equivalent of your house of lords -- but voted , obviously ) uses the system described by john cleese . 
+  its formal name is single transferable vote . 
+  the way we use it is at the state level , each state elects 6 people using this method . 
+  to be perfectly honest , i wish our house of representatives ( not surprisingly , our equivalent of your house of commons ) used stv as well , in exactly the manner described by cleese . 
+  currently we use av , which is kinda the same system , but without the merging of electorates , so you preference , but each area only elects one member . 
+  it has zero proportionality , but at least avoids the spoiler effect , so you could vote 1 greens and vote 2 labor ( or labour , depending on whether we 're talking australia or the uk here ) , without decreasing the chances of your preferred major party winning . 
+  but yeah , it 's really damn unfortunate that the referendum failed , because literally any system is better than what you guys ( as well as america ) have now . 
+   the ~ operator is a weird integer operation that works like so : ` ~ x = = ( x + 1 ) * -1 `, 
+  and there i was assuming it would just be a bitwise `` not '' , which would take '' ` undefined ` '' ( which you mentioned evaluates to ` false ` , which makes sense ) , and turn it into ` true ` ( on account of it being a boolean value ) . 
+  but no . 
+  that would be * far * too logical . 
+  is their implementation some weird sort of way of approximating one 's complement by adding one and then getting the two 's complement of that ( which is what ` * -1 ` is doing ) ? 
+  haha yeah , he actually corrected himself just a couple of minutes before you commented this . 
+   empty arrays are silently converted to zero for some reason, 
+  to be honest , i kinda agree with this . 
+  it makes sense . 
+  if you try to do a boolean comparison with an empty array , you 've got two choices . 
+  either throw an error , or evaluate it to either true or false . 
+  in this case , it seems to me that evaluating it as false seems a fairly logical choice . 
+   then it takes the tilde operator ( bitwise not ) of undefined , which returns -1 because javascript, 
+  i 'll ask the same question i asked the other guy , because this is just so seriously wacked :, 
+  and there i was assuming it would just be a bitwise `` not '' , which would take '' ` undefined ` '' ( which you mentioned evaluates to ` false ` , which makes sense ) , and turn it into ` true ` ( on account of it being a boolean value ) . 
+  but no . 
+  that would be * far * too logical . 
+  is their implementation [ other guy said that they do the ` ~ ` operator by going ` ~ x = = ( x + 1 ) * -1 ` ] some weird sort of way of approximating one 's complement by adding one and then getting the two 's complement of that ( which is what ` * -1 ` is doing ) ? 
+  i 'd be surprised if the greens fizzle out . 
+  greens is a growing movement around the world . 
+  in america it 's one of only two parties ( outside of the democrats and republicans ) that ever get * any * attention . 
+  in australia ( which has the benefit of av voting in the lower house and stv in the upper house ) the greens are almost a `` third major party '' . 
+  they 're currently in a coalition government in sweden , and some mps in virtually every western and northern european national government , as a fair few central european ones . 
+  of course , these are all different countries , and it 's entirely possible that they * could * fizzle out . 
+  but given that the global trend has been a positive one over the past decade or more , i certainly would n't be betting against them -- especially if you guys can get yourselves a better voting system . 
+  oh that 's very cool . 
+  so it turns anything that 's nan into -1 ? 
+   which incidentally evaluates to true anywhere where booleans are expected, 
+  i do n't know why this surprises me . 
+  i mean , it 's how other languages like c deal with things , but somehow i expected js would have that be false . 
+  cheers for all the help !, 
+   ~ ~ x as a faster way to do math.floor ( x ), 
+  just curious , is this faster computationally , or just faster to type ? 
+  haha yeah . 
+  the above two comments reminded me that only as of this year could i legally start drinking if i were in the states ... instead of three years ago . 
+  i do n't really count it as a sequel if it 's part of a series . 
+  to me , a sequel is when the original was a standalone , and * then * they made more . 
+  so things like the harry potter films or lord of the rings films , to me , do n't really count . 
+  that would mean emma watson would ( i 'm pretty sure ) qualify , by this metric , and ian mckellen might , depending on whether or not you count the x-men films as sequels or not ( or , i guess , if you want to consider the hobbit films as a prequel , and disqualify him for that ) . 
+  oh that 's actually really clever . 
+  truncating rather than actually rounding down or up is definitely something that has its uses . 
+   `` do n't be clever , because you will inevitably break something . '', 
+  haha , i have n't done much js work , but that 's definitely the impression i 'm getting here . 
+  it 's such a logical way to go about things , really . 
+  yet i was just debating someone in another thread that seemed * really * adamantly against this . 
+  mostly rational otherwise , but just hated the idea of allowing players to attempt the same thing more than once . 
+  instead , he decided if they try once and fail , then they 're not allowed to try again unless they do it using a significantly different method . 
+  makes no sense . 
+   maybe they 're always giving the higher black die to the 10s spot and the lower white die to the 10s spot ,, 
+  that would create a ridiculously low chance of a success ever occurring . 
+  it 's too early in the morning that i ca n't be bothered calculating the odds , but it would be well under 10 % , i 'm pretty sure . 
+  thing is , with 2 options , it works identically to av or stv , or really * any * other system . 
+  so there 's no scenario where it does * better * than anything else . 
+  hmm ... that makes me wonder , what the hell was cleese talking about ? 
+  apparently his video is from 1987 , and i 've just done a search and ca n't find anything about a referendum or anything like that pushing for stv way back then .

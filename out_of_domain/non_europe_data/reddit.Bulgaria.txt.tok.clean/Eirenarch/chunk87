@@ -1,0 +1,100 @@
+  it is really about the os . 
+  node.js is built the same way . 
+  i vaguely remember that * nix is not significantly different in this area . 
+  is it ? 
+  are n't i/o threads really i/o completion ports ? 
+  you disable the button not the whole ui . 
+  the ui can still be repainted and other buttons like cancel can be pressed . 
+  i believe you can have 4.0 and 4.5 installed side by side . 
+  you cancel the async operation or whatever the user experience dictates . 
+  all languages above assembly are just a syntactic sugar . 
+  syntactic sugar is the only reason languages exist . 
+  what 's your point ? 
+  and yes i have tried using promises ( tasks in . net ) . 
+  using them with async/await is far better than using them without async/await, 
+  oh it does matter . 
+  it 's all that matters . 
+  if you have a loop , try/catch , recursion , etc. 
+  it does matter a lot . 
+  let alone that even if you do n't have these it is still easier to read than a chain of callbacks . 
+  i also dislike how `` this '' is handled in js , i dislike the syntax for anonymous functions , i dislike that it has a combination of weak and dynamic typing , i dislike the lack of things like namespaces and many more . 
+  so you do n't find, 
+  await someasynctask, 
+  await / / do something else, 
+  / / then do something, 
+  significantly better than, 
+  someasynctask ( ), 
+  . then ( function ( ) {, 
+  / / do something else, 
+  . then ( funtion ( ) { } ) ;, 
+  my example even looks stupid because yours does not contain actual code only boilerplate . 
+  and this is even before things like loops and errors . 
+  using coffeescript is a cheat that results in code that is harder to debug . 
+  now obviously if i get a choice i would use typescript but we are talking about js here . 
+  i do n't dislike scripting languages i just dislike the combination of weak and dynamic typing . 
+  for example python is fine since it uses strong and dynamic typing . 
+  obviously for small programs it does n't matter but when you are working on a team with more than 3 people of various skill levels both strong and static typing matters . 
+  i am familiar with the various js patterns which are great and are testament for the power of functional programming but for industrial grade language something as common as a namespace should not require so heavy syntax . 
+  just for the record vb.net is one of the finest mainstream languages out there although in terms of popularity and image it is not doing well . 
+  and befunge will beat even those . 
+  if you have to pull such non-mainstream languages to beat ruby 's complexity then / u/n0tcricket 's point stands . 
+  well in my experience all ruby had was hype . 
+  almost all developers using ruby that i knew have moved to other things like node and clojure . 
+  today i know a single person using ruby and i used to know like five . 
+  ruby is not a language entrenched in the enterprise like java and c # nor is it a language required by an incredibly successful project like objective-c . 
+  if ruby loses the hype what is left ? 
+  yeah , maybe people said that for other players but mkp did win a lot of things . 
+  c++ code in the background ? 
+  working on a map hack ? 
+  ok , i agree . 
+  scala is harder . 
+  that 's not very high bar to shoot for in terms of simplicity . 
+  my impression and comments i have heard from people close to the matter say it was mobile and in particular ios that killed silverlight . 
+  i 've heard that ms tried to convince apple to allow sl on ios but failed and the sources said they tried hard . 
+  that video does n't help . 
+  blizzard decided to demote me for no reason . 
+  i do n't think a video will be enough to make me play again . 
+  setting a machine key to your distributed or restarting services is not a big deal . 
+  after all the machine key is required for many more things , not just the anti-forgery token and chances are you will need to set it for at least one thing . 
+  i wonder how the back button issue can be fixed though . 
+  is there a known way to do it ? 
+  i stopped reading after `` person hours '' . 
+  i find this amount of political correctness offensive . 
+  the only thing i find more outrageous than anti-semitism are jews . 
+  i wonder why you feel they should be even fined . 
+  after all if you did n't think the money was enough why did you go to work for them ? 
+  let alone that there are a lot of other tech companies that were not in the agreement . 
+  i do n't see anything unfair in any of this . 
+  would you please enlighten those of us who missed it with a link, 
+  i know several developers from haemimont games and i can confirm that they find developing for ps3 disproportionally difficult and probably asked the publisher for significantly more money than the 360 version . 
+  based on their comments about ps4 and xbone development i would be surprised if they did not release a xbone version . 
+  note that i do not have any information about the game or xbone port this are just assumptions based on their comments about the development effort . 
+  they seem to think that xbone is not significantly harder to develop for than the ps4 . 
+  they have a facebook page and they actually read it . 
+  i bet they will be quite happy to see the feedback . 
+  i wonder if this will make it feasible to compile c # to js . 
+  current c # to js implementations have a lot of quirks and limitations but if classes , value semantics and operator overloading is implemented in the target language maybe a lot of thing will become straightforward . 
+  the game clock still annoys me . 
+  just fix it already . 
+  on the game side i wish for a more diverse map pool ( from steppes of war to air maps ) and wish they removed the reaper and the swarm host which are incredibly boring units . 
+  i also wish they stop trying to shoehorn units into artificial roles like they did with the reaper and many others . 
+  they can certainly multiply by 1.38 before displaying stuff on the screen . 
+  depends on what you see as fun . 
+  for example i miss the ghost drop + queen snipe + nuke on lost temple . 
+  i want to see strategies like this but sadly the community decided that this is no-skill cheese and we must have `` nice macro game '' . 
+  i am 100 % sure that the majority of players on the ladder are not pros . 
+  btw what i cited was done by a pro in the gsl when lost temple was a ladder/gsl map . 
+  my point is that the changes to the map pool killed creativity in favor of balance and ( mechanical ) `` skill '' . 
+  this is what made the game less interesting to watch ( note that i do not say `` boring '' as i still watch a lot ) and play in my eyes . 
+  i understand that other people can disagree and they may find flash 's macro worth watching far more than the creative ( and potentially imbalanced ) plays i am talking about but since this is a wish list i come with my own wishes , 
+  they could change the build times just slightly to match the closest common divider or even more boldly tweak the game speed so that the multiplier is not that weird . 
+  for example i would n't mind at all if fastest becomes 1.25 xnormal instead of 1.38, 
+  the list of finalists can be found here - http://www.drdobbs.com/joltawards/jolt-awards-coding-tools/240165725?pgno=1, 
+  also visual studio 2013 premium won the jolt award ( which i assume is bigger award than the productivity award ), 
+  do n't worry , the next version of vs will have code lens in premium while another version will be added to ultimate . 
+  also not only fortune 100 companies have msdn subscriptions . 
+  seam carving ? 
+  that is my understanding too . 
+  while the us patent system definitely sucks especially in the case of software patents what circulates on internet forums is exaggerated to the point where it is outright not true . 
+  the most famous example is the claim that apple patented black rectangles which is not what actually happened . 
+  stressful workplace is not related to programming in any way .

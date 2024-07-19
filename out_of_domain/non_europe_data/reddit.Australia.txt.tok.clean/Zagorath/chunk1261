@@ -1,0 +1,100 @@
+   i really do n't care about any of the red content cause it mostly looks like garbage, 
+  it definitely does * mostly * look like garbage , but i reckon there are one or two shows/movies on there that 'd be worth the watch . 
+  and let 's be honest , even on netflix et al. 
+  * most * of the content is garbage . 
+  they just make up for it in volume . 
+  it 's in the title , mate . 
+  oooh . 
+  not needing oauth2util is a pretty big bonus . 
+  still , there 's the problem of dealing with manually working through a problem using a python shell . 
+  my current best idea of how to work through that is to create a new script api account , set that up using default in a globally available praw.ini ( in ~ / . config ) , and then have a bot-specific praw.ini in the working directory of the bot . 
+  would this be the method you recommend , or do you have some other advice ? 
+  on a minor superficial note , i 'm curious why you use . format for simple string concatenation . 
+  is there some particular advantage to that , even in cases where the more advanced or interesting features of that method are n't needed ? 
+  well that 's way less fun . 
+  prestige classes , so mostly 5 levels , but could be other numbers as well . 
+  i think i 've seen a 7 or 10 level prestige class before . 
+  hey , i 'm finding it pretty easy to convert most of my code over , but i 'm a little stuck on the error detection . 
+  all the errors seem to be thrown into prawcore.exceptions , but you do n't seem to be able to actually check against this . 
+  how do you go about detecting a forbidden exception , or a notfound one ? 
+  the intention is yes , although a raw interpretation of it as it currently stands would be no , and it 's a wording i 'd need to fix . 
+  open to feedback on that , though . 
+  oh wait , i just realised i misread your last comment . 
+  i thought you were talking about the dual wielding fighting style . 
+  in that case , the rules as written currently are ambiguous , and the intention is yes . 
+  might need to reevaluate my opinion on the two-weapon fighting style though . 
+  not sure if it 's a good idea or not to be able to go either way ( or * both * ways ) with those two fighting styles and the main-gauche . 
+  a pretty good idea in principle ( making it `` different '' in some way ) , but i 'm worried that opportunity attacks might make it a little too circumstantial to be worthwhile . 
+  plus , the buckler still would be , for all intents and purposes , strictly worse than a shield . 
+  there are some edge cases where the buckler might be more useful in the game ( easier to carry around in unusual circumstances , can draw it out more quickly ) , but for the most part its lack of utility for range makes it strictly worse . 
+  it 's about on par with the rune master that wotc put out . 
+  plus , a huge amount of it is either mostly flavour stuff ( basically all the `` child of the night '' stuff and , to some extent , the vital reserves and blood drinker stuff , although those certainly do play in to the mechanics as well ) , or providing options for a flexible build , but where you only get to choose one from each set , so it 's not going to get crazy overpowered . 
+  [ here 's a link ] ( / r/boh5e/comments / 49mnbi/vampire _ prestige_class_by_uthe_singular_anyone ) , for anyone else here , and also just in case you were reading an outdated version or something . 
+  huh , i could 've sworn i tried that ( well , tried ` import prawcore ` ) and got an error saying there 's no such thing . 
+  i must 've written it wrong and not bothred to double-check ... ah well , it 's good now . 
+  thanks !, 
+  create a new instrument , based on the existing choir , but with a one line staff . 
+  sure it was n't a trademark thing ? 
+   copyright is automatic , so no one `` can copyright '' something . 
+  it 's automatic * on things which are copyrightable * . 
+  and even then , to have much effectiveness in enforcing copyright , you have to have registered it anyway . 
+  i mean , if we 're gon na be pedantic , no it 's not . 
+  you did n't even get the right * letters ** , let alone all the accents . 
+  it 's '' \u0111\u1ed3ng '' . 
+  the cross on the d is super important , because that 's what makes it actually sound like an english d , instead of being more of a `` y '' sound . 
+  \\* in vietnamese , certain things an english speaker would consider an accent are actually considered different letters . 
+  usually the ` accents ' which touch their letter . 
+   i 'm sure there 's words in english that sound like slang words for penis in other languages . 
+  not quite the same thing , but my name sounds very close to a vietnamese slang for vagina . 
+  although somewhat ironically , en.wiktionary.com is listing it as slang for penis in vietnamese ... 
+  holy shit that was good . 
+  i have n't enjoyed this season as much as some here seem to have , but this episode ... holy crap . 
+  easily one of the best episodes the show has ever done . 
+  i mean , literally every aspect of it was so well done . 
+  a couple of corny lines that probably could have been written better ( particularly in the thea/t-guy/felicity plot ) , but all the delivery was top notch . 
+  but really , for me the stand-out aspect was the editing . 
+  holy crap did they do a fantastic job of cutting this episode together . 
+  the climactic fight scene , especially was brilliant . 
+  the cutting between past and present oliver , as well as the other fights going on , was so intense , and every one of the fights was cut in such a way that it enhanced the experience of the others . 
+  i can not say enough about how much i loved that . 
+  here 's how to do what i suggested in my last comment . 
+  to do this , go to the home tab , click the little arrow in the bottom right corner of the `` instruments '' section , click on `` choir '' ( or whatever other vocal staff you want , does n't really matter ) , and then hit `` new instrument '' . 
+  set up all the name properties how you want , set the number of staves you want ( probably just one ) , and then hit `` edit staff type '' . 
+  change number of staff lines to one and hit okay . 
+  now change the sounding and transposing pitch clefs to something other than treble . 
+  percussion , percussion 2 , or null all work . 
+  make sure `` vocal staff '' is checked , because that 's what does the work of putting expression text above the staff . 
+  to make it sound better in playback , you can set its transposing value so that its notes match your key . 
+  remember that one the line is a b , so if you 're in the key of c you need to set the instrument to transpose in c sharp . 
+  basically , set this instrument to be transposing in a key one sharper than whatever you 're playing in , and all its notes will play back as if the tonic . 
+  if you do this , you 'll also need to go back to the edit staff type menu and turn off the key signatures/tuning option , so it does n't display with horrid key signatures . 
+  the other option for playback is to make it play an unpitched sound of some sort . 
+  for this , change its `` type of staff '' from `` pitched '' to `` unpitched percussion '' . 
+  make sure `` vocal staff '' stays checked , though . 
+  then , in `` edit staff settings '' , on the `` percussion '' tab , you can select whatever unpitched sound you want . 
+  snare hit is the default , but something like wood blocks or a snare * roll * might also work for you . 
+  you might also have to change the sounding pitch clef again , because when you change it to an unpitched staff ( instead of a pitched staff with only one line ) , it seems to reset it to treble clef . 
+  hope that helps !, 
+  feats are n't a good replacement for prestige classes because they 're too limited of a design space . 
+  if something can be done as a feat , it should , but prestige classes are for ideas that are too expansive to gain in a single level along with your class progression . 
+  feats have the same problem as trying to use a race from that standpoint . 
+  race is a terrible way to turn someone into e.g. 
+  a vampire or a therianthrope ( werewolf , wererat , were-anything ) . 
+  they 're either way too powerful compared to other races/feats , or they do a bad job of conveying the powers and flavour someone who wants to play that is after . 
+  not quite . 
+  they 're equating gay people to zoophiles . 
+   what happened to the referendum ? 
+  there was ** never ** going to be a referendum on this , because marriage is not defined in the constitution , and referenda are for constitutional changes . 
+  it was going to be a plebiscite . 
+  essentially , a national opinion poll where the government gets people to show what they want , but is under * no obligation to uphold it * . 
+  because a plebiscite :, 
+  would have been accompanied by an enormous amount of hateful messaging being broadcast publicly ( and on the public 's dime , no less -- both sides are legally entitled to taxpayer funding in any plebiscite or referendum ) ,, 
+  2 . would be expensive to run ,, 
+  3 . would not have bound the government to doing anything * anyway * , and, 
+  4 . ultimately , is unnecessary , as the government can easily pass this using a simple act of parliament, 
+  the plebiscite was voted down by labor , the greens , xenophon , and derryn hinch in the senate , on these grounds . 
+  even one liberal senator , dean smith , abstained from the vote on the grounds that , constitutionally , it is not necessary and would undermine the sovereignty of parliament . 
+   it is a country, 
+  i agree it 's a country , but unfortunately our government 's stance is officially that it is not . 
+  got ta maintain those good relations with the authoritarian regime next door to it . 
+   it 's pretty hard to forgot that an island exists,

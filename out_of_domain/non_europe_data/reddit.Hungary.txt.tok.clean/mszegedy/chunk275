@@ -1,0 +1,100 @@
+  as a hungarian , i 'm often blown away by how tolerant america is by comparison , although it 's definitely not perfect . 
+  are you sure it 's easily removable ? 
+  i have had exactly three experiences with a bumper sticker so far , and they all hung on for dear life and left glue on the car . 
+  huh . 
+  thank you !, 
+  do you mean a lighter ? 
+  a hair dryer ? 
+  a photon is the massless gauge boson for electromagnetic interaction . 
+  they are certainly real . 
+  ( `` virtual '' photons do n't count/are different . 
+  i would n't consider them real . ), 
+  yup . 
+  i think i did , though , and that 's what scares me . 
+  if even if i consciously try not to be an excuse-making douchebag i still come out an excuse-making douchebag , how am i going to stop being an excuse-making douchebag ? 
+  maybe it 's actually is better to believe that i can try still harder , so that i will at least try . 
+  but then the thing that i think that i can try still harder to do is not think that i can try still harder , so the problem never gets solved !, 
+  i guess the solution is to think of it cumulatively rather than instantaneously : what i am doing all the time is always my best work , regardless of how i feel about it . 
+  you ca n't compare work to itself , ever , since all the work that you have done up to this point must be viewed as a continuous unit . 
+  the only thing left to do then is to assign a low value to the work from an objective viewpoint : `` i suck at doing xyz , i mean just look at everybody else . '', 
+  this will provide a source of motivation to work harder . 
+  i 'm thinking out loud . 
+  or rather , rehearsing my thoughts out loud . 
+  to show how i came to the conclusion that i said in the initial post . 
+  or a teenager, 
+  want to know , so do n't repeat mistake . 
+  aqueous humor more like , but let 's face it there 's no humor of any kind on those glasses . 
+  i am hungarian , and our food revolves a lot around various kinds of sausage . 
+  i once got english breakfast at a hotel , and they served these small , flat meat patties that looked like they should go in miniature hamburgers . 
+  they called them `` sausage '' . 
+  i said it before , and i 'll say it again : a sausage that is not shaped like a dick is * not * a sausage !, 
+  but ... are n't lipids carbohydrates ? 
+  i feel like my ochem knowledge crusted over in my brain and got liquidy inside , and now you 've poked it and it 's leaking out . 
+  edit : okay , it seems i am mostly technically right , except in the case of phospholipids . 
+   if you continue adding constraints to a problem , it becomes unsolvable . 
+  none of these constraints are binary , though , in the sense that they can only be either satisfied or not satisfied . 
+  they are fuzzy . 
+  imagine a function that takes in a story and outputs a meeting-each-constraint vector , \u2208 [ 0,1 ] ^ ( n ) . 
+  eliezer 's goal is to make the norm-squared of that vector as high as possible . 
+  not necessarily * n * ; that may or may not be impossible to achieve , like you said . 
+  but he can try to look for peaks . 
+  look up , it looks more likely that he is a copepod . 
+  i like the euglena explanation , because they also only have one eye and i like the idea that he 's a protist , but euglenae do n't have antennae . 
+  what do you suggest they do ? 
+  how would you go about getting this ring , for example , back to its owner ? 
+  sorry , it looked serious . 
+  4.5 c is n't even below freezing . 
+  wait , what is wrong with pressing a whole bulb of garlic ? 
+  is that a lot or something ? 
+  code mode like you 've been told is one approach , but you can also encase phrases in backticks ( \\ ` ) for ` inline code mode . `, 
+  floor division , like in python ? 
+  ( obviously not ), 
+  is n't sill the pickled herring , and surstr\u00f6mming the fermented herring ? 
+  even if into german , still speaking polish . 
+  technically , it 's a regex wild card character . ^ ^ i ^ ^ do n't ^ ^ know ^ ^ why ^ ^ i ^ ^ know ^ ^ this, 
+  resizing it is an interesting approach . 
+  i would have used a file-sharing site . 
+  is there any particular reason you were okay with resizing it ? 
+  ( also , fuck those people . 
+  why have n't you given up trying to help yet ? ), 
+   third one, 
+  do n't worry , the console * is * the installer . 
+  you install using the command line . 
+  it 's pretty bare-bones , i know , but it works . 
+  if you just follow the [ beginners ' guide ] ( https://wiki.archlinux.org/index.php/beginners'_guide ) , you wo n't have any trouble . 
+   you know you could actually search the wiki or look on the front page of it ? 
+   the front-page gives a link to [ general recommendations ] ( https://wiki.archlinux.org/index.php/general_recommendations ) that is very well worth checking out . 
+  do n't worry , i 've read it . 
+  it 's just not as useful as it could be . 
+  for example , everywhere i look , the recommended utility for controlling sound volume is ` alsamixer ` . 
+  however , ` alsamixer ` does n't put an icon in my top panel that lets me control the audio easily . 
+  somewhere along the line , i half-accidentally installed a plugin that * does * let me do that , and now i 've added it to the xfce panel and everything 's peachy . 
+  i ca n't say the same for wifi , though : about the only utility that seems to be able to access the wifi card is ` wifi-menu ` . 
+  and even though i installed ` network-manager-applet ` and all its prereqs , it shows no signs of being on my system . 
+  xfce 's built-in ( ? ), 
+  network connections menu is all greyed-out if i pick wifi . 
+  i recently discovered that i have the wavelan applet , and it says `` no such wavelan device '' , similarly . 
+  if the wiki is to be believed , i already have all of the software ... so why do i still have to manually connect with ` wifi-menu ` every time i start up the computer ? 
+    in the wiki pages , it is often not obvious whether a command needs to be run once , added to . bashrc , added to . xinitrc , added to rc.local , added to . xsessionrc , et cetera . 
+   do you have any examples here ? 
+  oh yes , tons . 
+  for example , for getting my computer to be using the dvorak keyboard , the wiki lists only, 
+  but not when i should run it . 
+  i tried adding it to . xinitrc , but that did n't work ( read : do anything ) . 
+  i ended up manually editing / etc/x11/xorg . conf.d / 10-evdev . conf and adding the ` option `` xkblayout '' `` dvorak '' ` . 
+  as another example , i have the drop-down console applet tilda . 
+  how do i get it to run at startup ? 
+  do i just add it to . xinitrc ? 
+  this is n't even on the wiki , although i do n't really expect it to be . 
+  in general , are there any exceptions to the rule that if i want something to start up at login , i add it to . xinitrc ? 
+  how about using ` noop ` instead of ` cfq ` as my i/o scheduler ? 
+  the wiki is actually sort of helpful here , because it does specifically tell me that the command that switches the i/o scheduler to ` noop ` is impermanent and is lost upon restart . 
+  but it does n't tell me what to do about it . 
+  do i put the command in rc.local ? 
+  or installing gnome instead of xfce . 
+  but i do n't want to take the easy way out . 
+  i want to know what my computer is built on , and be able to control it . 
+  that 's exactly what i 'm trying to find out . 
+  well , not exactly ; i see no reason to get the exact same apps , especially since they might not be compatible . 
+  but anyway , it would be nice if there were a list of these somewhere . 
+  i 'm not complaining , i 'm asking for help from more experienced people .

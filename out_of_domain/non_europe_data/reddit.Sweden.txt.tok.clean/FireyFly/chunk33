@@ -1,0 +1,100 @@
+  not as such , but more problems that valve have had with * developing * steam for win8 , and policies and requirements from microsoft that they 'd have to conform to . 
+  i do n't remember the details , but feel free to read up on it if you want to . 
+  here is a post about it , from some quick googling : http://www.pcgamer.com/2012/07/25/gabe-newell-i-think-windows-8-is-a-catastrophe-for-everyone-in-the-pc-space/, 
+  now , i 'm a compsci person and not a psychology person , but two years ago i read a paper ( ish ) about video games and rewards which made comparisons between two video games ( the sims and wow ) and the model of a [ skinner box ] ( http://en.wikipedia.org/wiki/skinner_box ) used for analysing behaviour . 
+  the general idea is that if it 's harder to obtain something ( for instance , looting a very rare item or breeding a very good pokemon ) , then the gratification for the user gets bigger and in the end this makes for players getting `` caught up '' and putting up with the grinding . 
+  as an added bonus ( for the company selling the game ) , the grinding takes time , and play time translates to a feeling of well-spent money . 
+  so in a way , while i have n't played pokemon competitively and really have n't ever iv-breeded or ev-trained either , i think that removing the mechanic * would * make the game more dull -- at least , i think that 's what behavioral/psychological theory says , if i understand it correctly . 
+  i 'll have to back this , but it seems i wo n't be able to play it in a while ( unless it runs well on linux through wine ) ... here 's hoping they reach their 3ds stretch goal ( yeah , it 's definitely a stretch ) . 
+  i do n't think that is the case . 
+  from the faq in the kickstarter :, 
+   ## wait , so are you just going to port your mobile game to pc , mac , and windows tablets if this campaign is successful ? 
+   no , actually the opposite will happen !, 
+   when we originally announced this partnership with yasumi matsuno back in september the idea was to bring it out for ios and android devices , however we saw a lot of people asking us to bring this out for pc and mac ( as well as ps vita and nintendo 3ds ) . 
+   in order to do this we turned to kickstarter , however if this funding is met you are n't going to see an obvious phone game trying to make it 's way into the pc/mac realm . 
+  * the game will be fully developed for agnostic platform play , meaning that the same game will be received on all platforms . 
+  * since we will be able to bring the game out to pc/mac/windows tablets , we will be able to create a much deeper game then we would have if we were just keeping the game on ios and android , so in fact the ios and android users will be able to receive the benefits as well for this successful campaign since the main platform of the game will shift . 
+  and under `` project goals '' , they also mention windows/osx . 
+   upon achieving our initial funding goal , in addition to ios and android , unsung story : tale of the guardians will come to the pc and mac platforms as well as windows tablets . 
+  i think that 's called `` wolframalpha '' . 
+  the instructions he refers to on the site also seem to be useful : http://www.kyokyo-u.ac.jp/youkyou/4/english4.htm, 
+  wait , where in sweden are you living , and does this `` much colder '' include the present winter ? 
+  like , say , due to the [ recent buffer overflow issue in libxfont ] ( http://lists.x.org/archives/xorg-announce/2014-january/002389.html ) ? 
+  that could be pretty bad . 
+  it should also be possible to extend it outside of integers : http://www.reddit.com/r/math/comments/1l5952/noninteger_hyperoperations/, 
+  but . . ` < c-o  ` jumps back in the jumplist !, 
+  that 's why you usually substitute them with [ double-struck letters ] ( http://en.wikipedia.org/wiki/double-struck ) like you suggested in the op . 
+  ` nan ` is a number because it 's a value defined by the ieee 754 specification on floating-point numbers , and js 's ` number ' type implements ieee 754 double-precision floating-point numbers . 
+  sure , js has many stupidities , but that one is silly to complain about . 
+  gah , i hate it when people bring these up . 
+  they point out an issue with js , but not the issue people assume it does . 
+  these are n't all expressions ; the first two are whereas the latter two are parsed as a block followed by a unary - ` + ` expression :, 
+  / / equivalent to the latter two examples above . 
+  oh , and # 2 is actually the string '' [ object object ] '' ( because ` + ` on two objects coerce both to string by calling their ` tostring ` methods , which for ` { } ` produces '' [ object object ] '' , and for arrays join them together with ` , ` as a separator , which results in the empty string for the empty array ) . 
+  this is because the repls try to parse what is input as a statement , and ` { } + [ ] ; ` is parsed as an empty block followed by the expression ` + [ ] ` and ` { } + { } ; ` as an empty block followed by the expression ` + { } ` . 
+  when you assign it to a value , it 's parsed as an expression instead ( due to the language 's grammar ) . 
+  seems rather straightforward ... 
+  * ** j ** : ` ( ( < `` 0 ` uugfedcba ' ) , < ` a * ' ) { ~ [ : < . % & 10 ` ( i 'm not sure how i could improve this one , i do n't like how i 'm building up ` ` u ' ; ` u ' ; ` g ' ; ... ; ` a * ' ` at all though ... ), 
+  i realised i could do something even better and just index a string instead of an array . 
+  hm , i had n't heard about these , i 'll have to try them someday . 
+  from the screenshots it looks like they 're on the rtsy end of the spectrum . 
+  i 'm not much for the wwii setting , but sufficiently interesting gameplay trumps that of course . 
+  it runs the ds 's gba compat mode in the ds compat mode ? 
+  that makes sense as a hacky solution , given the short time schedule for the ambassador games . 
+  nice !, 
+  you might want to crosspost to / r/kirby :3 . 
+  the bitf variant ( the one in the op ) is also a couple of years old . 
+  haha , i had n't seen that variant before . 
+  i agree with / u/mswanco that i do n't find them too similar ... though , the megaton punch track is pretty great , so i 'll take this oppurtunity to share [ warinside 's heavier take on it ] ( http://www.youtube.com/watch?v=jl8xa-9_mga ) . 
+  like , man pages for every gnu program ? 
+  lua allows you to use a table in place of the ` fallback ` function , in which case it 'll index that table and return the corresponding value instead . 
+  ( this is essentially the core of the prototype-oriented school of oop . 
+  i * believe * it 's somewhat similar-ish to perl 's ` bless ` , but i do n't know perl so i 'm not sure . ), 
+  if you 're curious about the language , i suggest you step through [ the online version of programming in lua ] ( http://www.lua.org/pil/contents.html ) ( written for lua 5.0 , but it 's sufficiently up-to-date if you check out the most important changes ( [ 5.1 ] ( http://www.lua.org/manual/5.1/manual.html#7 ) , [ 5.2 ] ( http://www.lua.org/manual/5.2/manual.html#8 ) ) afterwards ) . 
+  it 's pretty short , so an evening would probably be enough to get to know the language . 
+  the one and only . 
+  depends ... when different groups want to do different things i think we 'll still see some chaos . 
+  it 's an interesting experiment anyway , i think . 
+  amazing , is n't it ? 
+  democracy . 
+  :p yeah , but on the upside at least we know * it 's possible * now . 
+  yes , please do !, 
+  i 'd read that paper . 
+  i 'm really enjoying seeing this all develop . 
+  see it from the bright side . 
+  at least we did n't toss it !, 
+  but ... he 's aajst ( ???? 
+  now ... 
+  [ link ] ( http://www.reddit.com/r/iama/comments/1ycs5l/hi_reddit_im_brian_krzanich_ceo_of_intel_ask_me/cfjccww?context=1 ) . 
+  ... darn it . 
+  i read ` windows ( 7 ) ` as a manpage reference . 
+  thank you !, 
+  for a quick-and-dirty way to get rid of browser ux , use chromium 's app mode : ` chromium -- app = http://tpp.cafeoh.net/` . 
+  exactly . 
+  silver has * skarmory * !, 
+  touhou tpp soundtrack ? 
+  i approve . 
+  this just in : we named lapras `` air '' in english . 
+  what games are referenced ? 
+  i got final fantasy , pokemon , doom and ddr . 
+  dunno about the mine cart , platformer & final boss attack thing , although the mine cart reminds me of kirby 's underground adventure , and the platformer looks . . famiilar somehow . 
+  [ ortelius karta fr\u00e5n 1595 ] ( http://upload.wikimedia.org/wikipedia/commons/c/c2/ortelius,_abraham_septentrionalivm_regionvm_descrip.jpg ) \u00e4r lite intresant . 
+   ** ttyrec & ipbt **, 
+   record and play back terminal sessions, 
+  there 's also the not too well-known ` script ` and ` scriptreplay ` programs , provided by util-linux ( system utilities ) . 
+  an example given in the manpage is recording shell/repl sessions for hand-ins/labs in a university setting . 
+  many would probably expect it to fail with the ` * b ` in the middle like that , at least when comparing it to functional languages with a linked-list mindset , like pattern-matching on ` (  ` in haskell . 
+  perl also provides something similar :, 
+  / usr/bin/core _ perl/json _ pp is owned by perl 5.18.2-2, 
+  i do n't really know perl , but one day i stumbled upon that binary and since then i 've used that for my json pretty-printing needs . 
+  another one is ` xmllint ` :, 
+  / usr/bin/xmllint is owned by libxml2 2.9.1-5, 
+  for pretty-printing xml , i use ` xmllint -- pretty 1 ` . 
+  what does it do that makes it amazing ? 
+  just look at team rocket , hiding their secret hideout below a game corner . 
+  ( incidentally , `` the balls are exchanged for tokens or prizes , which are then taken outside and exchanged for cash at a place nominally separate from the parlor '' reminds me precisely of said game corner , where you go to the building next-door to exchange your game coins for prizes ... ), 
+  if you 're worried about hitting the real esc while unlearning , you could map that to nothing in the meantime . 
+  this is what i did with ctrl after moving it to caps lock ( via xcape ) . 
+  also , shellscripts / ` herbstclient ` for configuring ... it 's really powerful , i find . 
+  it 's streamed at http://www.twitch.tv/angrydraco . 
+  keep up the good work .

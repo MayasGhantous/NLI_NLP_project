@@ -1,0 +1,100 @@
+  one of the main advantages of immutable types is that you can always pass it by reference safely , and never have to copy it . 
+  why would they add that copy overhead ? 
+  actually , [ the underlying behaviour of substring ( ) was changed in java 7 update 6 . 
+  ] ( http://java-performance.info/changes-to-string-java-1-7-0_06/ ) it now makes a copy of the whole substring , instead of referencing the ( potentially far longer ) original string . 
+  your general point is still valid of course , but off the top of my head i 'm not aware of anywhere this can happen in practice for java 8 and later . 
+  so , it 'll be bigger 'n shit ? 
+   the only reason to cut is for market segmentation, 
+  that 's still more than enough reason though . 
+  reddit is written in python . 
+  it was originally in common lisp , as someone else has pointed out . 
+  you mean unicode ? 
+  ascii does n't have any of those character , except possibly the parentheses . 
+  these shots make me really want a new computer ... 
+  wow , he actually spent a full five minutes talking about how he prefers clicking the toolbars rather than using hotkeys . 
+  get to the point , man . 
+  you might be giving the author a bit too much credit here . 
+  obviously he knows a ton about semiconductors , and what he said about interconnects limiting scaling has mostly been true . 
+  however , the predictions he * derived * from that , including his main argument in the article , were way off . 
+  his main point , indicated in the title , was that cpu cores would have to get simpler and smaller ( in transistor count , not just die size ) , and keep getting higher clock rates to compensate . 
+  he essentially predicted the continuation of the gigahertz race , at the cost of ipc . 
+  as we all know , the exact opposite happened , and ipc has been stedily increasing with every iteration of intel cpus ever since , while clock speeds have barely nudged since 2004 . 
+  his 22 % number was absolute power consumption as i understand it , not performance per watt , and it seems to have been just an observation , not a predictor for the future . 
+  in fact , based on his chart on page 6 , he predicts that performance per watt will increase by 36 % per * year * , which again was far , far too optimistic . 
+  he was right about the performance of interconnects falling behind though , but that has been the case for a long time - the performance of interconnects is one of the main reason for the end of the gigahertz race , and is a hot topic every time a new process is released . 
+  the author just seems to have underestimated how well the semiconductor companies were able to combat leakage and keep shrinking the interconnects for so long , and that led to his other conclusions being wrong as well , at least in the short ( ? ), 
+  term . 
+  maybe cpus might eventually stop growing transistor-wise , but it does n't seem to be happening this generation either - intel 's broadwell cores have still gotten a slight ipc boost from haswell , and are larger . 
+  who knows , maybe 10nm in 2016/2017 will finally prove him right though ? 
+   also , rust the game will never leave alpha . 
+  they made their 75 million already ; why would they bother finishing it now ? 
+  i hate to go off-topic like this , but the game is being * very * actively developed , and the developers are great at keeping in touch with the community . 
+  the public dev branch is continuously updated all week , and the main game gets a very sizable update every thursday . 
+  cheating is also a non-issue atm due to an external anti-cheat . 
+  rust is not h1z1 . 
+  blueprints are definitely a problem , but making the starter blueprints ( code lock , etc ) even harder to get may not be the correct way to go . 
+  getting those crucial starter blueprints has just become a meaningless grind that everyone needs to go through before starting . 
+  it 's especially tough on beginners , because they need to do this before they can experience any of the fun things in the game . 
+  it 's hard to get someone excited about playing rust when the first thing they are told is `` just go around and look for barrels for an hour or two , and then you can start the game . 
+  sorry , it 's just how the game works . '', 
+  yep . 
+  it 's especially ridiculous when starting out on a server : accidentally go into water or a cold biome for three seconds and you 're half blind until you kill yourself or manage to find food . 
+  at least save the on-screen hemorrhage until we 're * actually * close to dying , not at 49 hp . 
+  careful with that window , if he has a lot of wood with him he could make tools to break it and escape into your base . 
+  you do n't want an angry ex-prisoner running around in your base . 
+  example ? 
+  any chance you could re-take this shots during daytime ? 
+  i pity the poor soul who will have to implement this into the terrain generator ... 
+  that 's just the 6/8-core skylake-e cpus though , at least how i interpret it . 
+  what if they implement some logic so that only building pieces exposed to the outside environment will decay ? 
+  more realistic , and way more convenient . 
+  alternatively , spend $ 150 extra on cpu/motherboard upfront , and then just upgrade the gpu in a few years . 
+  cpus improve slowly enough that futureproofing them is a perfectly viable strategy . 
+  * 1994 : the elder scrolls : arena, 
+  * 1996 ( +2 y ) : the elder scrolls ii : daggerfall, 
+  * 2002 ( +6 y ) : the elder scrolls iii : morrowind, 
+  * 2006 ( +4 y ) : the elder scrolls iv : oblivion, 
+  * 2011 ( +5 y ) : the elder scrolls v : skyrim, 
+  they 've been releasing * roughly * every 5 years . 
+  `` years later '' is a bit too pessimistic imo , especially considering the massive success that skyrim was . 
+  it 's not crazy at all . 
+  an elo rating difference of 200 predicts that the worse side has a 24 % chance to win ( discounting draws ) , which means most games will still be exciting , and certainly not easy wins . 
+  how boring would it be after a week . 
+  you 're just sitting there doing nothing . 
+  me too !, 
+  i ca n't believe it 's already been five years since [ the xkcd strip . 
+  people need to take this with a grain of salt , random health sites are some of the least trustworthy places on the internet , especially when the articles are as obviously one-sided as this one . 
+  i 'd need some good secondary sources before i believe that `` it is simply another case of unelected , unaccountable bureaucrats running amok and crazed with their own power '' . 
+  edit : downvotes , really ? 
+  still awaiting those secondary sources . 
+  it 's the legacy map , but implemented in experimental . 
+  oh god ... it works . 
+  although they 're * used * on mobile devices , they both use servers in the cloud to process the queries . 
+  much like how glados works in portal 1 , if you stretch it a bit and call all her speakers and other communication devices `` mobile '' . 
+  except he did n't have to break the bank to make it happen . 
+  well , he may have broken a bank somewhere , but not in the usual sense . 
+  vishy would beat capablanca , alekhine and lasker 9/10 times . 
+  chess has evolved a lot in the last 100 years . 
+  and a big nightmare for server owners . 
+  server performance is pretty bad already , without people building nintendo 64 emulators on their roofs . 
+  thank god math we do n't write math in javascript . 
+   and knowing intel 's die shrinks it will clock even worse . 
+  you ca n't really say that in general , sandy bridge achieved the highest clocks ever on an intel cpu , while the 4790k has by far the highest stock clock ever . 
+  their 14nm process might very well impress us . 
+  do n't worry . 
+  skylake is n't expected until october , 5 months from now , and it wo n't even be a very big upgrade . 
+  if i needed a cpu , i 'd buy one now too . 
+  well , it * has * been a year and a half since anything interesting happened in minecraft development . 
+  since then we 've only gotten tweets and bug fixes , i would n't give them that much credit . 
+  the author ignores one very important advantage that rust has over d and other proposed c++ replacements , outside the properties of the actual languages : rust has a fairly large company fully backing it . 
+  that matters a lot for marketing and just plain brand recognition , and the fact it is used for servo guarantees it a minimum of tools and libraries from mozilla . 
+  i 'm not saying that rust does n't have a very tough road ahead , but hell , they have a dedicated guy just to write language docs and interact with the community . 
+  they 're off to a good start . 
+  selection bias , his responses only get upvoted when they are good . 
+  by continuing to improve their product to capture browser market share ? 
+  the same way they 're already making money , really . 
+  maybe she means woman grandmaster ? 
+  she might also not be a new yorker , or even american . 
+  there 's * lots * of people rated 2100-2200 in the world . 
+  even if the drivers are totally stable , lots of big titles have come out in the last 160 days . 
+  title-specific driver optimizations can still make a huge difference in performance , unfortunately .

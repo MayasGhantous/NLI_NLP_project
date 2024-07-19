@@ -1,0 +1,100 @@
+  unfortunately [ or maybe fortunately  ] it 's not so useful these days ) . 
+  i 'd advise against being too critical of any sites they currently have up , especially anything more complicated than a cheap package site . 
+  it 's easy to start a project with a pixel-perfect design and clean , valid code . 
+  but that often goes degenerates somewhat when other people get involved , start making content , add analytics scripts , put in that `` cool '' twitter plugin , etc. 
+  and at that point the original designer often has little control . 
+  * look at the design ( not just `` does it look nice '' but `` is it the right way to present that information '' ), 
+  * look at the implementation . 
+  forget about validating html , look at whether it 's structured sensibly , whether it works properly in modern browsers, 
+  * is there anything obviously crazy in there ( unnecessary flash , js navigation , ajax-for-the-sake-of-it , etc ), 
+  * is the css well-organised ( often the only original part of a site that survives intact ) . 
+  you should be able to tell what 's been tacked on later , do n't worry too much about that ( but you can always ask if they did it themselves ) . 
+  ask yourself what kind of person you actually want and focus on that , but be willing to compromise on less-important stuff , particularly if you already have those skills in-house . 
+  you want a hardcore designer ? 
+  forgive some html or js weirdness , they 'll learn . 
+  you want a does-everything `` webmaster '' ? 
+  be willing to accept a few outdated skills . 
+  if you 're on a tight budget , look for someone enthusiastic who you think will fit into the company well above anything else . 
+  most people can learn to do most things reasonably well if they enjoy their job and are enthusiastic . 
+  experience only means they 're a little further along the learning curve . 
+  yeah . 
+  and we 're so pissed off about it that the complaining has leaked into other threads . 
+  only people who ca n't spell `` cockney '' spell it `` cokney '' . 
+  ( brit here ) i do n't have a problem with the accent , more the inflections . 
+  he 's talking as if ( this is hard to explain ) he 's telling a story to a child . 
+  over enunciating words . 
+  it seems a little cheap . 
+   also , the usb thumb drives are not plug and play , which is the freaking point of usb . 
+  it was invented to be plug and play , not to have to install drivers . 
+  i assume you 're talking about usb wireless adaptors here . 
+  how the hell is the os supposed to know it 's got something that provides network connectivity connected to one of its usb ports without a driver ? 
+  everything you stick into your computer needs some software of some description so the os can properly communicate with it . 
+  even usb memory sticks use a driver , it 's just that it 's generally installed on your system already . 
+  the `` plug and play '' nature of usb is that each device carries an identifier code which can be read by the system , which can then select the appropriate driver . 
+  if you do n't have an appropriate driver installed , then it ai n't gon na work . 
+   it reeks of a child 's television host, 
+  worse , he sounds to me like a bad comedy-sidekick in a cheaply-produced children 's tv drama . 
+  hahaha . 
+  yes . 
+  bang on . 
+  i assume every player has an identifier of some description ( presumably vac would need that , and it seems to be the master server that controls loadouts , so there 's got to be some means for the server to identify particular players ) . 
+  so , rather than reporting user counts , why ca n't each server simply return a list of connected player 's ids ? 
+  yes , this is going to be a bit more data than just a count . 
+  exactly how much data depends on how they 're identifying players . 
+  assuming they 're using a uuid ( which is probably the worse case ) . 
+  16 byte uuid x 32 players ( that 's the most i recall seeing ) is half a kilobyte of data . 
+  there 'll be a little bit of overhead to put it into a data structure of some description , but it 's still under 1kb . 
+  as i understand it ( although i 'll admit i 'm mostly guessing and could totally be wrong ) , that data comes from a master server somewhere which does the job of collating the player counts from all the registered servers , and the refresh delays are because you need to wait for ping responses before getting a listing . 
+  but , i suppose it 's possible to combine the ping and fetching the player count/server name from each server individually . 
+  but that begs the question of where you got the list of server ips from in the first place . . 
+  there has to be a master server involved * somewhere * for you to get a list of servers to contact . 
+  a uuid is [ definitely ] ( http://en.wikipedia.org/wiki/uuid#definition ) 16 bytes as i stated . 
+  so even for a full , 32-player server it 'd be 0.5 kb of data to send player ids , and assuming it 's sending them to the master server ( rather than each player ) there 's no reason why the master server could n't just serve a player count . 
+  at least there 's then a central point to do a bit of checking . 
+  but , i have no clue what data comes from the master server ( * some * of it has to , though ) and what comes from the servers themselves . . 
+  my bet : underpowered psu . 
+  he 's probably done something like upgraded his gfx card or added some other random thing that 's sucking power . 
+  given that it 's a slightly shitty systems builder means that the psu they supplied will be * only just * powerful enough to cope with the system as it was purchased , and now it ca n't handle the initial cold-boot power draw . 
+   i do have a reasonable amount of experience, 
+   queering, 
+  yep , you certainly know the lingo , that all checks out , 
+   0.5 kb is much larger then the 1 byte needed currently per server . 
+  more data , yes indeedy . 
+  point i 'm trying to make is it 's not * that much * data . 
+  if the master server is only sending ips and ports , then you still need to fetch server names , tag lists , current map , and whatever else from each server . 
+  which is more than 1byte , right ? 
+  ( although i suspect you only need to fetch most of those things once , while player counts will happen with each refresh . 
+  or have i missed something ? ) . 
+   it 'd be a much large load to give the master server so much more responsibility . 
+  this is likely just one of many complications valve has to consider before `` just pushing out a quick patch '', 
+  depends what , exactly , they do , i suppose . 
+  as i understand it , the loadouts stuff and vac would both require each server to communicate player ids to a master server somewhere already . 
+  if all they wanted to do was identify servers with misleading player counts then they could do so by posing as a server browser and match up player counts to the players they must know are connected . 
+  to be honest it seems they could do that with the data they already get . 
+  but , again , guessing . 
+  i 'm sorry , what ? 
+  i 'm in the uk . 
+  i can get to any site i like , thanks . 
+  now there is an organisation known as the [ iwf ] ( http://www.iwf.org.uk/ ) that does deal with the blocking of * some * content , although their policies are pretty strict so they only target the actually-really-nasty stuff ( `` prohibited images must be pornographic , grossly offensive , and focus on a child 's genitals or depict sexual activity involving or in the presence of a child . '' ) . 
+  and they do it in a relatively non-invasive manner . 
+  requests for known-bad ips are routed via a proxy to disallow particular urls . 
+  unless they fuck it up , ( and admittedly [ they have ] ( http://www.theregister.co.uk/2008/12/07/brit_isps_censor_wikipedia/ ) , [ more than once ] ( http://www.theregister.co.uk/2009/01/14/demon_muzzles_wayback_machine/ ) , but fortunately never for long ) , this does n't affect anyone but people looking for cp . 
+  `` sandisk determined the media 's 100-year data-retention lifespan based on internal tests conducted at normal room temperatures . '', 
+  uh , what ? 
+  unless there 's something very clever going on there they did n't feel the need to share , `` 100 years '' ca n't be much more than wishful thinking . 
+  was the display actually broken in some way before ? 
+  ( has anyone tested it against another phone ? ) . 
+  or are they tweaking the signal strength display to mask the problem a little ? 
+  or , are they making a minor firmware tweak just to say they 're done * something * about it , regardless of whether or not it makes a difference ... 
+  that 's just because you 're covering the antenna . 
+  i imagine other phones would behave similarly in that situation . 
+  the problem seems to be simply that the antenna is exposed , so you can partially short it with your hand . 
+  because , generally speaking , they do n't want to be euthanised . 
+  they 're right that they deserve some compensation for their time and effort . 
+  but i ca n't blame microsoft for not wanting to set that precedent !, 
+  [ virtualbox ] ( http://www.virtualbox.org ) is pretty damn straightforward . 
+  particularly effective if you want to use linux as your primary os and windows/whatever occasionally . 
+  muscle memory . 
+  i have trouble with `` turret '' as well . 
+  there are n't very many common words that start < something  - u-r-r-e where the next letter is n't n . the most common similar word you 're likely to type often is `` current '' , so your muscle memory kicks in , and you get an extra n. 
+  holy shit .

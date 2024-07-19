@@ -1,0 +1,100 @@
+  most of the time the more expensive ones have 8 phases which is critical for overclocking ( the cheap ones with 4 phases wo n't handle the increased load long term ) . 
+  i have nothing to say , good job . 
+  yes, 
+  that 's wrong , it makes difference in `` stutter '' ( higher framerate means less of perceivable stutter when vsync is off ) and also lower input lag which is pretty noticable in fast paced games ( though i guess that 's not visual ), 
+   there was basically not a single game that would be able to bottleneck it in a normal scenario, 
+  so basically you never played a strategy game , any kind of simulator , mmo or a multiplayer game at high frame rate, 
+  i wish people would stop repeating this bullshit about cpus never being a bottleneck . 
+  maybe not in your average aaa game with pretty graphics where your gpu struggles to maintain 60fps if you decide to max it , but it 's extremely easy to bottleneck your cpu in plenty of games simply by lowering the details trying to go above 80-100fps . 
+  huge amount of multiplayer games running on older unreal engines will get bottlenecked at higher framerates unless you overclock because it can utilize only like 2 cores . 
+  mmos tend to be the same , whenever you have lots of people on the screen at the same time , your fps tanks because of cpu bottleneck . 
+  various games where you have option to `` speed up '' time ( think paradox grand strategy games on full speed ) will have low requirement for gpu and how fast will it run will entirely depend on single threading performance . 
+  this is n't something new , various games ( even extremely popular ones so we 're not just talking about some niche simulatior here ) were cpu bottlenecking since forever and people should stop pretending that because they never played anything besides pretty aaa action game at 60fps , cpus were n't a limiting factor for everyone else . 
+   price is dictated by the market . 
+  well since the market is intel monopoly it 's more dictated by intel than market . 
+  it should help with bclk oc but if you can lower it without being unstable then do so . 
+  yes , easily . 
+  the estimated wattage is always higher than the actual required ( headroom included ) because cheap psus usually ca n't delivery the advertised values . 
+  if you only consider kaby then there seems to be no reason to wait since there does n't seem to be any ipc improvement at all ( only higher stock clocks but that 's irrelevant if you buy z170 board ) . 
+  however it should be worth waiting for zen because even if you want to buy intel it should drive both chipset and cpu prices down, 
+  depends , even he does n't plan on overclocking now , what about in 4-5 years ? 
+  either way , it kind of depends on games he plays . 
+  if we 're talking gpu heavy aaa games at 60fps , 6500 will do fine . 
+  for other games the difference could be pretty noticable ( if you save money on mb and pair the 6500 with non-z170 board the lower stock clocks and 2133mhz ram combined makes pretty big difference in cpu bound scenarios . ), 
+  jan-feb is expected afaik . 
+  there is absolutely no way to predict prices since it will be first time in like 4-5 years with amd having a competitive product . 
+  however , since amd also wo n't price gouge with chipset ( only am4 confirmed ) , even if the cpus were identical it 's very likely the motherboards will end up cheaper . 
+  depends on games and framerate . 
+  for 60fps it should be fine besides well threaded cpu heavy games ( in poorly threaded games it would actually perform better than something like i5-6500 since it has higher stock clocks ) . 
+  for higher framerate it could struggle , again , depending on games . 
+  2133mhz to 3000mhz is roughly comparable to about 20 % cpu overclock so 3600mhz should be slightly more ( depending on scaling ) . 
+  i guess calculating your sens in cm/360 and then matching it across games . 
+  both tf2 and bf1 are actually pretty cpu light and i5-6500 should easily handle 60 + fps , i think even an i3 would . 
+  generally for 60fps target i5-6500 will work for games that do n't belong in the `` gpu light entirely cpu dependent '' category ( in those games it will work as well but better single threading directly translated to better performance ), 
+  motherboard has poor power delivery to sustain increased load from oc , get an 8 phase one ( from asus cheapest would be z170a and z170 pro gamin ) . 
+  you can get 750tb ssd if you ditch the hdd for about the same price and 1tb for slightly more . 
+  if you are n't sure you 're going to fill up the hdd it would be a better option for general use . 
+  otherwise seems fine . 
+  i 'd probably pick a bit more expensive cooler for this budget . 
+  edit : misread asrock for asus , for asrock 8 phase is pros4 . 
+  admittedly this is testing from singleplayer and mp will have higher cpu load on full servers . 
+  either way calling it most cpu heavy game seems completely ridiculous to me , but unfortunately not many people do mp benchmarks since they are n't consistent enough ( so instead they make unrepresentative sp benches but what can you do ) . 
+  this is pretty wrong , ram makes the biggest difference in lower end systems since the cpu is more likely to become the bottleneck compared to an i7 . 
+  an i3-6100 with 3200mhz ram will be pretty close to i5-6500 2133mhz performance depending on games ( better in games that ca n't fully utilize 4 cores , worse in games that can ), 
+  the way ssds work you lose some performance if it 's full but your case seem pretty extreme . 
+  try freeing some space . 
+  sounds like something is blocking the signal , try positioning the wifi differently, 
+  is there any visible damage on the pci slot or the gpu contacts ? 
+  the system should still start just without display if it was gpu . 
+  what is your psu ? 
+  usually never hurts to update bios . 
+  check if the oc 'd ram is running at 1.35 v, 
+  what is your refresh rate ? 
+  superuser is as much as a source as if i was quoting myself , not to mention the best answer is this :, 
+   gaming : depends on the game , but usually here is where you might find some real improvement . 
+  using ltt as a source for benchmarks ... anyway, 
+  [ 2133mhz to 3000mhz equal roughly to ~ 20 % cpu overclock ] ( https://www.reddit.com/r/buildapc/comments/5agh8f/skylake_cpu_and_ram_gaming_impact_benchmarked/ ), 
+  [ stock 6100 3066mhz ] ( https://www.youtube.com/watch?v=qksxthucbiq ) vs [ stock 6500 2133mhz ] ( https://www.youtube.com/watch?v=er_fuz54u0y ), 
+  * witcher 3 : both averaging ~ 85fps, 
+  * far cry 4 : again both averaging ~ 85fps, 
+  * ac unity : both ~ 82 fps, 
+  * bf4 : ~ 7fps advantage for i5 but both averaging above 100fps, 
+  * crysis 4 : ~ 5fps adventage for i5 , again both 100 + fps, 
+  * cod : aw ~ 10 fps adventage for i5 , both 150fps +, 
+  * gta5 does n't have bench with stock i3 , only ram + oc but it 's well threaded game that loves cores over ram so needless to say i5 wins there ( not a huge difference though ), 
+  those are averages across relatively well threaded games , that said even there can be seen that in moments where additional threads are n't used the higher clocked i3 + ram pulls ahead . 
+  in situations where all 4 threads are used the i5 performs better of course . 
+  still extremely close performance . 
+  i 'm well aware that mp shooters tend to get heavily cpu bottlenecked with lots of players ( frankly any game with lots of players does ) and people who do benchmarks live in a bubble making pointless benchmarks that do n't reflect real-world usage ( mp games against bots that do n't get the cpu load from a match , testing midrange cards on ultra settings getting 30fps which no one will play at instead of medium/low settings ) but i still would n't consider it the most cpu demanding game simply because mp shooters , while more cpu demanding compared to aaa sp action games , are still miles behind compared to something like strategy games or mmos . 
+  but yeah , hard to argue without usable benchmarks . 
+  quality 650w-750w psu will handle it . 
+  depends how the game interprets the mouse movement . 
+  cm/360 ( mouse movement in cm required to do a full rotation ) is your `` real world '' sensitivity which you need to calculate from the ingame values . 
+  usually these are shared across engines ( so tf2 and cs : go would use same values ) but you 'll have to google how to calculate it for your particular game ( or measure it physically i guess ), 
+  you should probably hold for zen at this point since it should shake up the market a bit . 
+  you should probably hold for zen at this point since it should shake up the market a bit . 
+  have a towel/rag nearby, 
+  it 's kind of wobbly and does n't really feel that secure ( does n't really need to since the cooler is relatively light ) , just set it in position and keep rotating the screws on the side you 're supposed to until they feel at least somewhat `` right '' , if they do n't just rotate it back and try again . 
+  the 6100 will perform better in all but the most well-threaded games , though unless you pay a bit for a z170 board , neither of the cpus will have great longevity ( amd is dead socket and i3 without z170 will have pretty poor upgrade paths ) . 
+  ideally you should wait for zen but i 'm guessing that 's not an option . 
+  6100 is higher clocked at stock than a 6500 so it would perform better in games that prefer single-treaded performance and ca n't utilize the 4 cores full ( or when the 2 hyperthreaded cores of i3 are enough ) . 
+  the test you posted is flawed - guy is gpu bound the whole time . 
+  obviously he wo n't any difference when using faster ram . 
+  gpu load is 99 % the whole time , max cpu single core usage is like 60 % . 
+  why ? 
+  he 's running at 1080p , people vastly overestimate the amount of vram used in most games . 
+  run [ memtest ] ( http://hcidesign.com/memtest/ ) to check for faulty ram, 
+  should depend on os settings but generally it should turn off after some time without use . 
+  mb has only 3/4 phases , bad for overclocking . 
+  go with z170a should costs about the same but has 8 phases . 
+  you should get faster ram on this budget, 
+  i suspect single channel 2133mhz ram, 
+  make complete shit up but sound like you know what you 're talking about , get upvoted . 
+  well played . 
+  wow , we found out that if you 're entirely gpu bound , ram does n't do shit . 
+  next time , tech buyers guru will show us that gpus have absolutely no effect on performance by comparing intel integrated graphics and sli 1080s in dwarf fortress . 
+  pretty much every benchmark where you see only 2 % improvement is a gpu bottleneck . 
+  surprise , fallout and arma are more cpu dependent and thus you can see good improvements . 
+  people already posted tons of benchmarks proving the `` little to no improvement '' to be wrong . 
+  basically every single cpu bottlenecked scenario will see great improvements from faster ram . 
+  if you actually do benchmarks correctly , you 'll see that 3000mhz ram gives you increase equal roughly to a 20 % cpu overclock , like [ here ] ( https://www.youtube.com/watch?v=qksxthucbiq ) , [ here ] ( https://www.youtube.com/watch?v=er_fuz54u0y ) , or [ here ] ( https://www.reddit.com/r/buildapc/comments/5agh8f/skylake_cpu_and_ram_gaming_impact_benchmarked/ ) .

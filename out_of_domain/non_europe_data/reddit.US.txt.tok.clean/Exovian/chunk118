@@ -1,0 +1,100 @@
+  [ file ] ( http://www.mediafire.com/download/eebu3snnwcuzudw/rsp-m16.zip ), 
+  i 'm launching a few planes to laythe soon , but i ca n't settle on an engine . 
+  i know the the turbojets are better for long trips flown high and fast , but are they bad enough down low ( for lengthy close inspections ) to make the basic jet worth it , even if it 's not as good for longer distances ? 
+  i 'm sending a small air force to laythe to support a set of colonies . 
+  i have the design for the planes done , save the engine . 
+  i know the turbojet is better for high and fast travel , but i plan to do a lot of low flying around the islands for exploration , as well . 
+  does one engine have a decisive advantage ? 
+  ** start date : ** year 1 , day 349, 
+  ** end date : ** ongoing, 
+  after waiting half of a kerbin year for an alignment , the `` donner '' probe was sent on it 's way to jool . 
+  after entering the jool soi , an atmospheric probe was sent on its way into a fiery plunge into jool 's atmosphere , where it took 2 sets of readings before succumbing to the pressure . 
+  the orbiter is in a near-polar orbit which is * highly * eccentric , to avoid encounters with the moons . 
+  [ save ] ( http://www.mediafire.com/download/apnzs7csn55tif8/rsp-m24.zip ), 
+  for those who do n't know , the objective of this mod is to allow players belonging to the imperial legion to reclaim and rebuild fort firemoth , roughly similar to the process of building a house stronghold . 
+  most likely , i 'll distribute the mod as a file dependent on the original firemoth addon by bethesda . 
+  for reference , here is a [ map of the islands ] ( http://www.uesp.net/wiki/file:mw-map-firemoth.jpg ) and a [ map of the interiors ] ( http://www.uesp.net/wiki/file:mw-map-fortfiremoth.jpg ) . 
+  without further ado , here are the plans i have so far . 
+  it 's long , but i hope you take the time to read it fully :, 
+  ** changes made to content in the original plugin : **, 
+  - remove j'hanir 's follower ai , instead , add dialoge to give him a divine intervention scroll . 
+  he will then dissapear , and be found with sellus gravius and the census office . 
+  ( also given full final outfit via scripts ), 
+  - firemoth region weather will be made identical to bitter coast , because living in a constant thunderstorm would get old fast . 
+  - channels into archipelago will be deepened to permit ships . 
+  rocks could be added to preserve shallow depth , then disabled later as part of `` dredging '' , perhaps . 
+  - add tribunal journal features to quest . 
+  ** stage 0 ( triggered by ms_firemoth = 100 ) : **, 
+  - disable all skeletons . 
+  - possibly add a few fish in the water . 
+  - anything else needed to make the islands `` safe '' and ready for reoccupation ( rats in the fort will still be there , rendered irrelevant by next stage ) . 
+  ** stage 1 **, 
+  - small sheltered area on the southeast corner of the archipelago gains a small dock . 
+  silm-dar is found here with his ship and provides transport back to seyda neen ( possibly script him to follow the player for a trip back ? 
+  alternatively , introduce a new minor npc at the sn docks . ), 
+  - area around the dock is a staging area , with some guards and crates , along with guarskin tarps for shelter . 
+  - castle courtyard has more crates/tarps/guards . 
+  j'hanir is here . 
+  he is now your steward , and thus acts as primary `` questgiver '' for the rest of the mod . 
+  - exterior doors are closed . 
+  the next stage will replace the closed doors with ones pointing to new `` fort firemoth '' interior cells . 
+  these cells are cloned from the original cells , but with the lighting changed to normal and debris removed . 
+  this allows the fort to be well lit and saves a huge amount of trouble disabling the original content with scripts . 
+  ** stage 2 **, 
+  - the keep and upper chambers are cleared and have all basic furnishings in place . 
+  j'hanir and a few guards are now here . 
+  the great hall is cleared , but contains only boxes and bedrolls for the guards . 
+  doors leading further on are still blocked . 
+  ** stage 3 **, 
+  - the rest of the interiors are clear and accessible , with the guard quarters and dungeon being furnished as well . 
+  - at this point , the options branch out , with j'hanir having multiple options in three categories : expanding the fort , personal addons , and faction-restricted addons . 
+  ** expanding the fort : **, 
+  - mining operation . 
+  this converts the caverns beneath the fort into an active ebony mine , with an overseer gaining an office in one of the two back rooms in the guard quarters area . 
+  this also gives the player a source of income . 
+  - lighthouse . 
+  on the southeast island , there are the ruined foundations of a tower . 
+  this option builds a lighthouse on top of those ruins , and is a prerequisite for a few other options . 
+  - imperial census and excise dock . 
+  requires lighthouse . 
+  this places a larger dock on the southeast island and a census and excise patrol ship next to silm-dar 's . 
+  doing this also causes captured smugglers to periodically show up in the dungeon . 
+  you may also be able to pay the captain to take you to ebonheart . 
+  this also unlocks a few other options . 
+  - fishing village . 
+  requires dock . 
+  located on the northeastern island , this adds a half-dozen or so shacks and small boats/canoes , and also provides a small income for the player , though much less than the mine . 
+  may also be able to pay a fisherman for one-way trips to coastal villages . 
+  provide short hops between the southern , northeastern , and northwestern islands . 
+  sort of on the fence about this one , honestly . 
+  - tavern . 
+  requires fishing village . 
+  small bar , exactly what it says on the tin . 
+  - barracks . 
+  requires dock . 
+  just a place for tired sailors to rest while on shore leave . 
+  - smith . 
+  probably under an awning in the fort 's courtyard . 
+  ** faction addons ( you need to be a member to build these ) : **, 
+  - imperial cult chapel . 
+  possibly devoted to one god , perhaps zenithar . 
+  maybe not . 
+  i 'm thinking about having this next to the lighthouse , with the priests manning the lighthouse . 
+  - east empire company docks . 
+  requires lighthouse . 
+  built out into the water from the northwestern island , this will consist of a small office above a warehouse or two , with up to 4 ships docked . 
+  i am thinking about having the doors to the ships scripted to go to different interiors on a cycle , to give the illusion of frequent traffic . 
+  [ one ship may belong to velehk sain . 
+  not sure yet . 
+  ] ( / spoiler ), 
+  - personal quarters . 
+  this turns the upper chambers into a personal bedroom , with plenty of display space and some storage . 
+  if anyone knows a good mannequin resource , it would be very useful here . 
+  j'hanir will also get his own small room in the antechamber , and will move there . 
+  - storage . 
+  i 'm not sure exactly where to put it , but this will add an area more or less full of chests to store your loot in . 
+  it 's not a dead noble , but it should be adequate . 
+  - cosmetic changes . 
+  little options to change the decor around the fort . 
+  suggestions welcome . 
+  i 'm assuming they were n't trying to bait the us into all out war .

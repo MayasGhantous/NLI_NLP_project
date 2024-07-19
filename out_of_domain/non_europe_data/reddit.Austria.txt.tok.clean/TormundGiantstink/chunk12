@@ -1,0 +1,100 @@
+  no , we definitely need 10 more articles about it , arguing the same points / s, 
+  those are custom annotations , they 've already existed in dagger 1 , 
+  they 're very helpful when you need seperate instances of a class , like the schedulers . 
+  we also used them for our retrofit-instances , because we split our calls into two interfaces . 
+  one with the calls that do not require authorization and one with the calls that do, 
+  i think , in ** dagger2 ** it suffices to write them like this, 
+  public @interface subscribeon {, 
+  in ** dagger 1 ** you have to annotate it, 
+  public @interface subscribeon {, 
+  in kotlin , you could write an extension function . 
+  in java , you could wrap it like so, 
+  public mytoast ( context context , charsequence text , int duration ) {, 
+  t = toast.maketext ( context , text , duration ) ;, 
+  public mytoast ( context context , int resid , int duration ) {, 
+  t = toast.maketext ( context , resid , duration ) ;, 
+  return this ;, 
+  public void show ( ) {, 
+  t.show ( ) ;, 
+  then you could call it like ` new mytoast ( getcontext ( ) , '' '' ,1 ) . setgravity ( 1,1,1 ) . show ( ) ; `, 
+  zenburn with a couple of changes ( because the kotlin-style is attrocious at some points ), 
+  i ordered it like a month ago on amazon , which i assume to be somewhat recent . 
+  the problem is that it 's blogpost content for almost 50 bucks , that 's way too much . 
+  for me , advent of code helped me most with understanding kotlin , but this book ? 
+  might be okay for beginners, 
+    if ( 0 < = value & & value < = 24 ), 
+   if ( value in 1 . .24 ), 
+  am i stupid or are those two statements different ? 
+  the first one allows 0 to pass , the second one does not, 
+  godclasses and proposing polling as a solution to data synchronization between client and server, 
+  you pass context into your presenter and use fieldinjection instead of using constructor injection, 
+  edit : also that `` disposable = d ; '' does exactly nothing . 
+  you should actually dispose it, 
+  i fiddled with a couple of programs , but most of them were rather lackluster/not really saving me much work/time . 
+  in the end , i still use pen and paper to create rough mockups and keep to the material guidelines when fiddling with xml in android studio . 
+  i ca n't speak for sketch myself , but seeing how our designer and pretty much every designer is using it , it 's probably one of the better programs, 
+  i feel the same man : / reading through javadocs in general is a nightmare for me, 
+  i went in expecting nothing , knew nothing about the movie and was not disappointed . 
+  watching it , you pretty quickly understand which tropes and stereotypes will appear and will feel accomplished having foreseen them beforehand . 
+  so to say , if you go in without any expectations , the movie will end up living up to the expectations you develop while watching it ), 
+  the movie was pretty , no doubt about it . 
+  i especially liked the one scene with the [ jellyfish ] ( #spoiler ), 
+  the characters , ouch . 
+  the protagonists are one-dimension clich\u00e9es , smug womanizer and `` i want to be a boss bitch , but in the end my boyfriend has to save me '' . 
+  although the antagonists were revealed very early on , the build-up could have been way better . 
+  the moment you laid your eyes on the antagonists , you found yourself seeing them wearing moustaches and tophats . 
+  the supporting characters were pretty much random npcs , as in `` someone took a couple of dice and a table of random characteristics and made a bunch of zany characters '', 
+  the story had a nice core , actually , but it was poorly executed . 
+  so many inconsistencies , plotholes , plotdevices and outright garbage that made no sense . 
+  ( [ the discount-asari did n't even know math , yet they learned how to build a spaceship and some sort of illusion-machine in 30 years ? 
+  even the real asari took centuries to get to where they were and they needed reaper tech to get to where there . 
+  nobody goes from `` just eat the stuff on the floor '' to rick sanchez in 30 years . 
+  well , rick sanchez did , but that 's a different series ] ( #spoiler ) ), 
+  i ca n't say much about the acting itself , because i watched the movie in german and voice over changes that up a lot . 
+  the only thing i can say is that dehaan was definitely the wrong choice for m. valerian . 
+  he 's supposed to play this charismatic super - ~ ~ spy ~ ~ agent , but you need charisma for that . 
+  well , pretty to look at , her character was n't exactly spectularly written anyway , so i 'll say no more, 
+  id give it 4/10 , 4.5 / 10 if i was feeling kind, 
+  edit : oh , right , almost forgot . 
+  what the hell was that speech at the end ? 
+  you know , [ the one about love by lor\u00e9al ] ( #spoiler ) that totally came out of nowhere ? 
+  edit2 : the thing at the very start with the soldier and the outlook was super-dope , especially when shit goes down later on, 
+  in a different situation , i 'd agree , but in a movie filled with tropes i would expect him to have charisma , otherwise he 's just an even greater mary sue, 
+  if i only use a single tracker-instance for google analytics , can i not simply inject it via dagger ? 
+  we have this old piece of code and i 'm not entirely sure , if it makes sense, 
+  synchronized public tracker getdefaulttracker ( ) {, 
+  mtracker = reportingutil.getanalyticstracker ( mtracker , this ) ;, 
+  return mtracker ;, 
+  public static tracker getanalyticstracker ( tracker tracker , application application ) {, 
+  if ( tracker = = null ) {, 
+  googleanalytics analytics = googleanalytics.getinstance ( application ) ;, 
+  tracker = analytics.newtracker ( r.xml.global _ tracker ) ;, 
+  return tracker ;, 
+  i 'm not 100 % confident about the code ( as i did n't write it ) , but as far as i can tell , the only thing it does is ensure that you do n't create two instances of ` tracker ` , right ? 
+  if i declare it as a singleton in dagger and inject it , it should be fine , correct ? 
+  dope , thanks !, 
+  when injecting fragments , where is the best place to inject ? 
+  oncreate ? 
+  the default constructor ? 
+  not to mention that abandoning the ship was bis best option . 
+  what should be do instead ? 
+  go 1v20 against euron and his crew ? 
+  fucking dexfags all the time, 
+  \\ #levelstr \\ #brienneofbuff, 
+  that would have been such a. ... shaggydog story, 
+  now that sansa is substituting jon as queen in the north , i really hope she ends up executing baelish, 
+  any infos on architecture components while we 're at it ? 
+  in the end , it 's just synthax-learning . 
+  i personally just did the kotlin koans a bunch of times and advent of code afterwards, 
+  are there any popular libraries known for using ` finalize ( ) ` to great extent ? 
+  i have a massive amount of finalizerreferences ( retained heap size is 10 mb ) and i do n't call finalize by myself, 
+  [ my build.gradle ] ( https://gist.github.com/tormundsmember/ca80f6d9fd06a8fc1d1a52a758fb175e ) if that helps ( i know that i 'm using deprecated shit , i ai n't got no time to migrate , i 'm glad i managed to migrate to dagger2 yesterday, 
+  not a lot authors can do here , it 's a medium-article after all, 
+  is room capable of persisting polymorphic objects ? 
+  if so , how would one go about that ? 
+  ` left join ` everything , export into a pojo containing all fields of the polymorphics and use a typeconverter to retrieve the list < superobject  ? 
+  imagine you have these classes : [ gist ] ( https://gist.github.com/anonymous/1e89a34ba82d5c8d258cb78c3cf7403e ), 
+  the object ` base ` will always be either varianta or variantb , itemtype will never be null, 
+  the way you handle polymorphism in sql is by creating more tables who reference back to the base table . 
+  if i wanted to get a ` list < base  ` , i would write, 
+  select * from base,

@@ -1,0 +1,100 @@
+  or maybe battery shorts if they 're both put wrong way and have damaged wrapping , though i ca n't really see that easily happening by mistake . . 
+  its for mitigating these risks that i mentioned my disappointment that better fuses were n't around . 
+  mention of convenience was simply about your comment on not being able to use particular tanks with mechs , not about the required curriculum unless you want to hurt yourself ... 
+   rl learned network is not used for generating moves because it is inferior to the network trained on expert moves . 
+  in that role it is - but its actually a much stronger go player , think its like 5d kgs - with no search !, 
+   this part of network training takes over 3 weeks to run so it is not easy to tune . 
+  well , on mere 50gpus it did . 
+  did google up the resources fot the team ? 
+  did they even try using any pro games for that components - their final net was n't trained on any of them ? 
+   now the real strength of alphago really comes from mcts, 
+  odd thing to say ; what do you find particularly strong about alphago 's version of mcts ? 
+  does n't use even rave , progressive bias/widening , adaptive playout etc , as they did n't find any of these did much to make it stronger in the mix of the nn algorithms it 's using . 
+  and mcts usually does n't scale great ; but maybe google has some new ideas here too , who knows ... would n't call it plain old , but it has stagnated in the last ~ 4 years , not really giving further improvements , as opposed to a great quick run it had mid-late 2000 's , when it revolutionized go-plaing programs ( and a bunch of other fields ) . . 
+  also , if you look at the paper , you can see that the weakest configuration of alphago is the one using just the mcts rollouts . 
+  jusing just the value network or just the policy network was somewhat stronger , though not by much . 
+  combining them 2 by two was stronger , and all 3 components ofc strongest . 
+  as far as i can tell each of its components is contributing about equally to its final strength . 
+  and i 'd expect least innovation in the rollouts , as that 's its most traditional component . 
+  on the other hand , training a value network is completely new ; unique to alphago . 
+  would you consider an unregulated box mod instead ? 
+  provided you get one with fuses , mosfet switches and a master on-off switch , you get all the safety of a regulated mod with reasonable minimalism of a mech , plus more battery life, 
+  ... provided you can find any w fuses and a main switch that is , but should exist ... 
+   the distributed alphago beats single machine alphago 77 % of times , indicating mcts is what really ups the game . 
+  you think distributed alphago distributes just the rollouts ? 
+  why ? 
+  single machine runs the neural nets with 8 gpus , distributed version runs them on 280 gpus , distributing both policy network move generation as well as value network truncated evaluation . 
+  final evaluation of any node in a tree is a balanced 50-50 average of what the value network said and what the rollouts say . 
+  distributed system gets 278elo over a single machine one . 
+  in comparison say , turning off the value network loses them 474elo , turning off the policy network 813elo . 
+   there 's no reason why conv net should work other than that it can mimic human plays and presumably human play patterns provide good enough heuristics , at least against human players . 
+  well , bad asymptotic complexity kills many an `` optimal '' algorithm  if you look at the paper , it states precisely why it works - because move generation reduces the width of the search , and value network reduces the depth of the search , attacking two problems that give tree search such combinatorial explosion . 
+  t is asserted in the paper that the rl network performs worse at generating moves for alphago because it is not as creative . 
+  that is rl seems to have reduced creativity . 
+   it is asserted in the paper that the rl network performs worse at generating moves for alphago because it is not as creative . 
+  that is rl seems to have reduced creativity . 
+  well , sure - for move prediction this is the case , i 'm just noticing how the thing turned out to be a damn good player on its own , as far as computer go programs pre-alphago go . 
+   it is well known that networks alone are not very strong players . 
+  sure . 
+  though a search-less 5d kgs is quite impressive ; only a few programs have yet reached that power at all - dolbaram , zen & crazystone , maaybe abacus . . am i missing something ? 
+  and these are complex fine-tuned beasts . 
+  the rl-net in comparison trained itself ( for the most part ), 
+  oh , yeah , certainly , clearly - distributed version runs the networks many more times , constructing deeper trees that way . 
+  that 's not merely rollouts though , for they run on cpus ; each of the nodes of this deeper tree was evaluated by the value network for eg , and had equal contribution to its final evaluation as the rollout - these nets run on the extra gpus . 
+  to make this scale , they need better tree pruning , both in width and depth , for the hardware they throw at the rollouts alone wo n't cut it , and the pruning they have already has pretty much been scaled as much as it could , given the tiny returns they were getting for extra hw . 
+  and that means creating better nets . 
+  a tree policy with a policy neural network and move evaluation with a value neural network is n't mcts - not particularly more similar than to say alpha-beta search , or the two to each other ( even runs on different hardware !, 
+  ) , and is really just a novel tree search algoritm ; mcts uses rollouts for move evaluation and information from rollouts + random moves ( + possibly some large scale patterns ) for tree policy . 
+  and ** that ** is only a component of the overall scaling . 
+  and , the scaling of the tree search as they have it is horrible . 
+  i mean it is google , maybe throwing ridiculous amounts of hardware , diminishing returns be damned could make sense to them , but i still ca n't see huge gains here - 428cpu/64gpu to 764cpu/112gpu they get 142 elo ; 764cpu/112gpu to 1202cpu/176gpu they get 61 elo ; from that to 1920cpu/280gpu its just 28elo . 
+  making ** that ** scale does n't boil down to making one third of it scale alone , even presuming there 's much to be done there at all , for we 've had large clusters of cpu 's running mcts before , to marginal gains . 
+  they 've got many more variables to play with in network architectures and training regimes - as these are pretty much virgin territory - than in their rollouts , esp since they 've stated they 've tried the typical mcts techniques already ( rapid-action-value estimation , all-moves-as-first , progressive widening , dynamic komi , opening books ) ... you should n't think of this as just giving the nets more time , since obviously they 've trained them to convergence , but in finding a net that can learn better/more , or generating better trainign datasets . 
+  a trivial and prob bad but still illustrative idea -- their value network was trained on a dataset generated by the rl-net , a `` mere '' 5d . 
+  now they 've got a system that plays much stronger than that , and given enough resources , can self-play that , or some sub-configurations of that , for the dataset generation ... 
+  still seems a bit risky to dimly glow the thing at ~ 6w . 
+  would n't it be safer to just do what dr. farsalinos suggest and never glow any metal , esp such at ti , but not even kanthal , and just tolerate somewhat untuned coils ? 
+  for me , the tables turned w tc . 
+  that 's a truly novel safe-vaping feature that does n't have an equivalent in the unregulated world . 
+  i 'm happily waiting for my first regulated device in a long while just for that . 
+  but before i 'd take a mech over a regulated box because the latter is more expensive and/or more limited ( usually varying balance of the two , and both got much better lately ) , in a bigger form factor than it need have ( wasting space on the chips and shit ) , and with a slightly shorter battery life ( though such losses got rather tiny too as regulated boxes got better , but unless there 's a relevant pro , unjustified ) , w/o actually doing anything useful except for having a fuse . 
+  a mighty big and expensive way of finding oneself a fuse . . 
+  i 'd look for an unregulated box mod instead , with the relevant safety features , and be in no worse shape safety-wise . 
+  and i 'm frustrated the mech market is n't more safety conscious . 
+  uninsulated hybrid top-caps , how the hell does such an idea get popular ffs !? 
+  and little to no venting , esp on the top ... its that clouds and showing off and voltage drop obsession that 's driving me nuts in the vaping world , but i digress . 
+  i can tune my vape how i want to just by how i roll the coils ( i 'm not even good at it ... ) , and i know how to take care of batteries , and have no interest in extreme builds . 
+  had to know it , for i started vaping when the regulated boxes were particularly shitty . 
+  ca n't exactly format my memory and lose that knowledge now , so for me the benefits of regulation are non-existant basically . 
+  today , starting over yeah , i prob would n't bother . 
+  yeah makes sense . 
+  re dry hits/burnt cotton , you can turn your temp a bit further down than what you would , work on making your coils better from the start , test with some dry cotton in tc before use ( maybe heating it a bit in tc helps shaping them while being miles away from any glow ? ), 
+  i would like to know however if there 's a way to realistically balance a dual coil w/o any glowing ; seems to me giving the coil more space and wicking - as in , by using two - could enable keeping them at lower temperatures while still getting a satisfying amout of vapor . 
+  still seems sensible as long as one is staying well away from tio \u2082 temperatures . . 
+  very good point re projectiles . 
+  strange how the least safe designs became most popular , such asthin/flimsy top-caps , direct battery connections , uninsulated tops , little to no venting , esp above , no lock rings ... damn . 
+  but ppl fuss about the voltage drop instead ... sigh ... 
+  there are better pipes around though , just not hyped ( or recent ? 
+  ) , and an unregulated box can be just as safe as a regulated device ( though ppl seem to avoid fuses there too - b/c of the voltage drop :( ) . 
+  ie , the user error that gets dangerous is different batteries in the box , and that 's it . 
+  alphago is at core a tree search . 
+  sophisticated one , with neural network fancy pruning but fundamentally yet another tree search . 
+  you 're generally right , but in reality it depends on the beginner . 
+  does his eye glow if you talk about discharge curves at different amperages , pulsed and continous discharge , voltage drop and the basic ohm 's law ? 
+  think such a guy would 've gotten a mech rather soon . 
+  maybe today even then there 's no point . 
+  few years ago though . 
+  certainly . 
+  will you pay through your nose for stuff like provari used to be - or learn some rather basic hobby electronics , which is first of all a fun hobby , and be as good ( hell , be in a much better position , both in wattage and in terms of form factor ) for a fraction of the price ? 
+  i went with a mech right after figuring out my first ego was shit . 
+  never went near doing dangerously high-powered stuff ; no interest . 
+  at that time , i still think it was the right choice . 
+  now , i 'm buying a cuboid , 
+  i think someone in the thread from tomorrow , on an explosion quoted a stat with 25 ecig related explosion ove 6 years in us , 2 of which happened during use . 
+  i 've seen accidents with unregulated devices , ie . 
+  hobbyist-only devices in apparently beginner 's hands , or pushed to their limits , or even worse a hobbyist-built diy device that was improperly designed . 
+  this is clearly dangerous territory , and one where one might venture into only if knowing a bit on electronics , and in particular on battery safety , lest one make a circuit that will effectively turn the thing into a pipe bomb ... 
+  with most models on the mass market though , this is quite unlikely - but still not impossible . 
+  especially unlikely to happen during use as opposed to during charging , which at least is n't as deadly . 
+  i think a further 20 of those cases were all about battery failures during charging . 
+  here 's the quote :,

@@ -1,0 +1,100 @@
+except ashes of ariandel . 
+  i still havent beaten the boss , because holy shit, 
+  obviously the machete ( 2nd from the left ) , because the sawteeth section is longer, 
+  its been a while since i last played d3 , but do you mean the corvian knights ? 
+  i found them less tiresome , once i started using a shield and got the parry timings down ( the claw corvian is especially easy , you block 2 hits and immediately parry ), 
+  from a fuck you perspective , it 's probably like demon ruins ( atleast , the level is mostly linear ), 
+  oh , ehh , i found them easy enough to deal with . 
+  the fire spitters are the most annoying ones , but they 're vulnerable to backstabs while spitting , so there 's that, 
+  the millwood knights gave me nightmares though, 
+  hell yeah , i love proofreading shit !, 
+  ( send me a pm ), 
+  you do you , man, 
+  i mean , 14th level necromancy feature allows you to bring undead under your control forever without expending anything, 
+  ( i mean , technically , their saving throw succeeds and then you ca n't use the feature on the again , but come on , most zombies are n't that charismatic ), 
+  ** definitely read it !, 
+  i attempted to run it thinking it would suffice to read the major parts only and read the minor parts aloud when they came up and it was a mild catastrophe, 
+  especially for castle ravenloft , you should read them to get a proper concept on what might happen , how the castle is designed , how the atmosphere plays out , etc. 
+  oh shiiit , right . 
+  forgot that you can only exert control over one creature, 
+  use emperor palpatine from star wars as your template , he 's 100 % what you described, 
+  it 's a form of acting , which is considered an art , so i do n't see a reason why you could n't call roleplay an art aswell, 
+  and those two tires blow up when you stop the vehicle, 
+  except when you play it like this https://i.imgur.com/igxzw7u.jpg, 
+  i agree on everything but the traveling thing . 
+  i 'll take cars as an example . 
+  you 're not faster , if you can drive to vienna within an hour , you 're simply driving for a longer time . 
+  before people had cars , they worked where they lived . 
+  by introducing cars to the masses , people have started to work farther away from their home, 
+  of course , nowadays people are happy to find a job within a reasonable distance to their home , but if cars had n't been invented , they would still work where they live, 
+  and the same thing about airplanes . 
+  i recently visited a friend of mine and decided to go by plane . 
+  so i drove an hour to vienna , waited for 2 hours , because fuck check in , flew 1hour to munich , waited another hour , flew another hour to hannover , went an hour by train and after 7 hours i reached my destination . 
+  i could have driven my car there and it would n't have been much of a difference, 
+  the standard github repo listing project probably . 
+  you can become familiar with okhttp + retrofit , rxjava , picasso and realm ( which are probably the most used libraries at the moment ), 
+  so , something like [ this ] ( https://github.com/pockethub/pockethub ), 
+  it 's an austrian company and we 're usually pretty relaxed, 
+  hopefully not , he always seems like he ca n't get enough attention, 
+  we 're actually still at minsdk 15 , with ~ 5 % users below minsdk 19, 
+   they need the poor to fight the poor and not engage in class struggle . 
+  this needs to be bold, 
+  it 's not exactly a question , i 'm going to make a statement and would love it , if someone would tell me whether i understood it correctly or not, 
+  i 'm currently going over erik caffrey 's [ mvp spotify app ] ( https://github.com/erikcaffrey/android-spotify-mvp ) and found that while the ** artistspresenter ** is unhooked from the ** artistsfragment ** in order to have gc remove it , the ** artistsinteractor ** has a strong reference to the application , which is never cleared . 
+  because there 's only one fragment in this main activity , there should be no problem , because the fragment will only be destroyed when the app is closed , which would initiate gc on every node . 
+  but if we have more than one fragment and keep switching between those two , there would be a massive memory leak , because every time we switch , we create a new interactor , which has this strong reference . 
+  in order to solve this , we should keep the interactor as a singleton and inject it via dependency injection, 
+  is that correct ? 
+  thankfully not , most likely because the larger portion of our userbase is on android, 
+  i 'm using d&d / trpgs to cope with my depression aswell , but not by having my `` demons '' as npcs in my game , but simply by meeting friends regularly . 
+  i do n't think , i could handle having my problems in the one thing i enjoy , when it 's already so prevalent in my life, 
+  do you not need to feed it souls continuously ? 
+  that would make it a horrible phylactery again, 
+  in no version apparently , i seem to have misremembered . 
+  my bad, 
+  the `` american dream '' sign in the back makes this even better, 
+  what else could it possibly be excepting click bait for dumb people ? 
+  i 'm not that savvy , but i would say , you use ` throws ` when it is not the method 's responsibility to deal with the exception, 
+  for example , you have the method ` add ( a , b ) ` . 
+  it makes more sense to throw an ` illegalargumentexception ` , so the caller has to deal with screwing up , because he called ` add ` with the wrong parameters, 
+  600 range sounds good in theory , but you almost never have to shoot anything past 150 ft already, 
+  the problem is that most people will not actively look for proof that their knowledge is incorrect , which is why humanity went a long time believing that the earth was flat, 
+  depends on the `` composition '' and , like you said , the audience . 
+  i do n't see a problem with including heart-emojicons in the description for a dating app for example, 
+  actually , that 's a german plate , a standrad is one of those stationary bikes, 
+  55 % for samsung and ~ 65 % for sdk 23 for our app aswell with germany and austria as our biggest market ( with 13k daily users total , i should add ), 
+  no offense , but could we please keep politics out of / dnd ? 
+  reddit is already filled with it and i imagine that i 'm not the only one who 's tired of it, 
+  come on , it 's not like we 're not doing that in africa and asia already, 
+  when i help people with something and they offer to pay me , i usually tell them to bake me a cake , if they want , because i fucking love cake, 
+  could work for you , depends on whether or not you like cake as much as i do, 
+  i 'm currently refactoring parts of an existing app to mvp and hit a wall , because i also need to refactor the webservice class . 
+  the webservice uses rxjava and retrofit and has some added logic to reauthenticate the user , once the session token runs out, 
+  this ends up looking like this : [ imgur link to horrible drawing ] ( http://i.imgur.com/ral5bpu.png ), 
+  my problem is that the original code does n't return ` observables ` . 
+  instead i have to implement an ` interface ` with ` success ` and ` failure ` methods . 
+  this is n't really a huge problem , but this forces me to create a ` sub-interface ` in my ` interactor ` , have the ` presenter ` implement the interface and bind the ` presenter ` to the interactor, 
+  now my question : am i already breaking the mvp pattern ? 
+  how can i avoid that ? 
+  ** how can i implement the unauthorized case in one place and use that for every call , while still returning observables ? 
+    i 'm using d&d / trpgs to cope with my depression aswell, 
+   have you tried not being a hateful cunt ? 
+  oh , often , dealing with anger issues is n't that easy either , but i feel like i 've gotten better at dealing with them, 
+  these are what made it click for me, 
+   great story, 
+  no text with a fontsize below 12sp and use a nice enough contrast . 
+  i hate it when people think that it looks good to use #cacaca on a white background , even more so , if it is a light font, 
+  my favorite was a necromancer/army recruiter who would ask anyone they see whether they wanted to join the army , sonetimes in rather bad situations , like when we were fighting a gibbering mouther who was a party member just 5 minutes earlier, 
+  you can start by simply calculating how many people in africa starved so we could keep our wealth , bet you get more hunger deaths in 20 years than communism deaths in 100 years, 
+  `` our son is cancer-free !, 
+  better record it ! '', 
+  jesus fucking christ , i hate people, 
+   you can make a special ability check of a d20 roll plus your charisma modifier, 
+  why not call it a charisma check and be done with it ? 
+   soon, 
+  make that extra bold please, 
+  we 're pack animals , it 's as simple as that , but our society has evolved in such a way , where the line between `` better off '' members and those who are not has risen to a significantly higher level, 
+  mind linking some sources ? 
+  would be great to have those when im arguing with my coworkers about him, 
+  no , interactor is business logic , like retrieving data from the restservice ( you pass the parsed data back to the presenter , which in turn passes it to the view ), 
+  paging / r/latestagecapitalism,

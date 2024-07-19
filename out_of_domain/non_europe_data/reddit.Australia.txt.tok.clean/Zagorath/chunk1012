@@ -1,0 +1,100 @@
+  it clearly describes the character as progressing into becoming the captain of a ship , and then becoming a highly feared captain . 
+  if the players never actually get to owning a ship in their campaign , or if they own one but their activities do n't tend to involve * using * it , the flavour of this option as it is currently goes from awkward to just downright * wrong * in their case . 
+  i vaguely remember calling it that in primary school . 
+  i think `` break '' might have been more common , but that might be me confusing it with the schools i went to overseas ... 
+  anyway , interesting fact : `` petit d\u00e9jeuner '' , which literally translates as `` little lunch '' , is french for `` breakfast '' . 
+  it 's really not that complicated . 
+  if you leave a comment that does nothing but state a fact that everyone already knows , then it 's probably not worth your time to make it , or anybody else 's time to read it . 
+  there 's nothing more to understand . 
+  australian federal elections actually * do n't * require id . 
+  the voting code is also not used for * voting * , only for * counting * votes . 
+  australia 's senate elections are held using a voting system called single transferable vote , which is a beautiful system in theory ( proportional results , allows preferencing , minimises the amount parties are recognised by the voting system ) , but is fiendishly complicated to actually calculate in practice , so software is necessary to do the job . 
+  but yes , it is ridiculous that the code used to do that counting is n't publicly available . 
+   how do you know that the code you 're auditing is even on the voting machine ? 
+  raw data from votes should be publicly available . 
+  citizens could then compile from source themselves and run the votes through it , and check that the results match up with the official ones . 
+  no it does n't !, 
+  i 'll post a brief summary here , but can go into more detail if you want . 
+  voters electronically register to vote . 
+  along with their registration , they send a randomly generated token , cryptographically blinded . 
+  voter registration system checks that they have n't already registered to vote ( as well as normal checks ) . 
+  if not , a blind signature is used to sign the blinded token . 
+  the signed token is sent back to the voter . 
+  come election day , voter unblinds the token , registers their vote , and sends the unblinded token along with it . 
+  vote is only considered valid if the token received has not already been received and if it is signed by the registration system . 
+  that 's not , to my knowledge , the system used by the adida system . 
+  it 's also not actually a * practical * system for a variety of reasons . 
+  but it is * technically * completely sound . 
+  [ it is possible to provide anonymity while still enabling other essential properties of voting systems ] ( / r/linux/comments / 4ojmff/let _ us_test_voting_code_say_academics / d4g9t96 ) . 
+  that system could be combined with blockchain technology like ethereum to easily provide traceability and transparency . 
+   would n't you consider it an oversight if this post did n't mention he was a senator or leader of the greens, 
+  nope . 
+  i would assume most people here know that , and i would n't have even noticed if it had n't mentioned that . 
+  if this were a different forum , it might have been more necessary , but this is the forum for people already specifically interested in politics in australia . 
+   do you hold it against this post that it mentions these things, 
+  it 's certainly not * harmful * to include it , i just do n't think it provides enough benefit for someone else to pipe up and point it out , unless they do so as part of some larger more worthwhile comment . 
+  i just did that same google . 
+  do people no longer use the term popper for `` fruit '' drinks with a little straw ? 
+  they do , and we do n't . 
+  actually , a computer * counting * the votes is and should be totally fine . 
+  the votes can easily be entered in by hand , by trusted people ( just as we currently trust those counting the votes by hand in the lower house ) . 
+  the results of that could then be fed in to the software which performs the calculation . 
+  stv is a * fiendishly * complicated voting system behind the scenes . 
+  it * ca n't * be practically done by hand . 
+  however , the code * is n't * open source or even publicly available , and that certainly is a problem . 
+  there was an foi request by redditor / u/mjec , but unfortunately as far as i 'm aware , it was rejected , and there are no real prospects of that decision being overturned . 
+  this * is * a mistake as far as i 'm concerned , because it means that in practice we * do n't * know that they are being counted correctly . 
+  as for the `` how do we know they 're using the right software '' problem , well , they * could * ( if the software were publicly available ) make all the votes publicly available and allow for individuals to compile and run the software themselves , if they wanted . 
+  or , if publicising all the votes is considered improper , they could at least allow representatives from parties to have access to them for the same purpose . 
+  49 points . 
+  7 points for 6 subjects , 5 points for ee/tok , 2 points for cas . 
+  does it matter their reasons though , if they arrive at the best conclusion anyway ? 
+  [ but yeah , i was surprised too . 
+  ] ( http://www.co2crc.com.au/wp-content/uploads/2016/04/lcoe_executive_summary.pdf ) the thing is though , we have ** no ** experience with nuclear today , so the costs for us to start would be ** enormous ** . 
+  we 'd need people who can design plants , people who can build them , people who can run them , and maintain them , as well as increased efforts in the production of the necessary nuclear material , and in the long-term safe storage of waste . 
+  all of that is super expensive . 
+  other countries already have all of those things to some extent , so increasing the scale of nuclear power , or maintaining it at current levels , is relatively cost-effective . 
+  it was a good call , because had jon died , that would have been a * huge * negative impact on moral . 
+  the bad call was on jon for going out there to begin with . 
+  davos did the smart thing by keeping jon safe despite that . 
+  honestly i was nervous about that happening right up until they cut to the bolton banner falling off the wall . 
+   being trapped and unable to breathe i think evoked some of grrm 's message that war is not glorious . 
+  honestly i thought the whole episode did an * amazing * job of conveying that tone . 
+  to all those people criticising the show for being too glamorous in its portrayal of violence ( including youtubers alt shift x and the guy that does tun ) , after this episode , all i have to say is `` suck it '' . 
+  yeah i definitely get what you mean , it 's a bit annoying . 
+  and if we 'd been open to nuclear a few decades ago it would have been better ( though one ca n't blame the greens for that ... lib/lab are just as against it ) . 
+  and the gmo thing is still annoying . 
+  by independent people being able to verify the results . 
+  you ** have ** to count it using software . 
+  read up on how stv works rather than spouting ignorantly about how `` computers are evil '' or whatever . 
+  it 's just not feasible to do it otherwise . 
+  the only thing that any reasonable person should be concerned about here is that the source code * is n't * publicly available , not that it 's being used at all . 
+   people have done an foi request for the code , and been denied, 
+  then that 's the part you should be angry about . 
+  jesus fucking christ you 're sounding so ignorant right now . 
+   even if you make it an open system , so that anyone can access it , you 've just made it more open for tampering, 
+  what the fuck ? 
+  they do n't have to open source licence it , and they ** definitely ** do n't need to mindlessly accept merge requests . 
+  just make the code publicly visible . 
+   that 's why there are multiple people at vote countings , so that we have people double checking the tallies . 
+  simple . 
+  you do the same with this . 
+  multiple people can compile the software independently , and each of them verify the results . 
+  hell , * anyone * , * anywhere * could do this . 
+  a software system would be far * more * transparent than a paper one . 
+  in fact , anyone could take the votes ( which actually * are * publicised today ) and verify it by hand if they want . 
+  but because of how insanely complicated stv is , they 're far , far more likely to make a mistake by hand than pushing `` run '' on some software . 
+  follow my vote is an interesting implementation , and probably one of the better options out there . 
+  definitely better than , for example , publicvotes or cryptovoter, 
+  but it does n't * truly * fulfil the needs of a national electoral agency . 
+  a system * could * be built without too much difficulty that * does * fulfil those needs , however . 
+  the problem is that being required to set up ethereum on your computer , connect to the right blockchain , correctly execute the right contract , etc. , is * far * more difficult than is feasible . 
+  they could * maybe * get around all this if they really tried , but it 's honestly not likely worth it to them to do this , because even in the best case scenario , they 're going to need some sort of format to allow in-person voting . 
+  damn . 
+  where you at ? 
+  works fine in australia , and from the lack of other comments i 'm going to assume it works in the states and canada . 
+  things rarely get blocked in their own country , so it 'd be a little weird if it 's blocked in the uk -- though on the other hand , maybe channel 4 wants you visiting their official site , where they have it available ? 
+  so i 'm lost . 
+  mainland europe 's my best guess . 
+  is n't that one australia-wide ? 
+  i 'll be honest , i was surprised when i moved overseas and nobody else used it .

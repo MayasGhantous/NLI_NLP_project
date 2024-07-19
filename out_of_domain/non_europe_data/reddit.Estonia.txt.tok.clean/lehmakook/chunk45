@@ -1,0 +1,100 @@
+   with surge pricing like this , it also incentivizes drunk people to consider the costs of an uber fare vs. the potentional cost of a dui . 
+  no matter how high the surge pricing is , there are always more drunk people out on nye looking for a ride than there are ubers and taxis available . 
+  whether there is or is n't surge pricing , all cars will still be filled - so the number of drunks considering driving wo n't increase . 
+  and the higher prices will motivate more people to skip partying and drive for uber . 
+  0th section : your details ( last is date of the refund application ), 
+  1st section : where you paid from ( your bank , account # , date of original payment ), 
+  2nd section : where you sent the money ( ministry of finance details ), 
+  * their bank ,, 
+  * their account # ,, 
+  * yep , the payment reference code or something ,, 
+  * what did you pay for ( maybe registering a company , `` ettev\u00f5tte registreerimine '' ? ), 
+  * how much did you pay, 
+  * why should it be returned ( maybe double payment , `` topeltmakse '' ? ), 
+  you can prooobably fill these text fields in english as well . 
+  3rd section : where should the refund go ( your details again ) . 
+  the last box is the eur amount of the refund ( same as the original payment i guess , or try to ask for a few million ) . 
+  you 're welcome !, 
+  it 's not good or bad , but should be * okay * . 
+  for comparison , the average monthly salary before tax is 1190 in tallinn and 1050 across estonia . 
+  the average in it is 1700 . 
+  the median ( what 50 % of people get ) is around 800 . 
+  so not a luxurious lifestyle , but you wo n't starve or have to skip all entertainment either . 
+  500 seems like a reasonable budget for a small but not shitty apartment not too far from the centre , including bills . 
+  most people do n't spend 500 per month * per person * on accommodation though : you usually get shittier cheaper places or flatmates while young and single , and then split it with a partner afterwards . 
+  it * could * be useful , but ask your accountant . 
+  but keep in mind that your company would have to charge you `` market rate '' for the sublet : if the company rents at full price , and sublets to you at $ 1/year , then that most likely wo n't be legal . 
+  `` this place already had people doing that . '', 
+  free web design is great , but you only need one web designer - or maybe a small team * if they are already used to working together * . 
+   is that for real ? 
+  60 $ / person for 3 days canoeing ? 
+  sounds possible . 
+  but note that cheap canoeing trips are very much a `` do it yourself '' adventure . 
+  you can expect a rental canoe , and to be told on a map where along the river you have to drop it off 3 days later . 
+  bring your own food and a tent and sleeping bags for sleeping . 
+  the organizers usually also provide transport back from the endpoint to the starting point ( where you left your car ) . 
+  i went on a similar 2-day trip with a large group of friends in latvia , it was amazing . 
+  it was very relaxing to paddle for a day , and then set up camp on a riverbank away from civilization for the night , and drink until late around the fire . 
+  two girls who overturned their canoe and sunk their tent were n't as excited though !, 
+   should i register different companies for each of these activities ? 
+  no , it 's fine to have everything under one company . 
+  and it 's perfectly reasonable to hold the company 's assets in something more productive than a bank account . 
+  the principal activity when registering is just your best guess - you will say where you actually earned revenue when filling out the annual reports . 
+  these activity codes are used by the estonian statistics agency for making overall reports on the economy , not the tax office . 
+  it 's mandatory to report various statistics questionnaires , but nobody will care at all as long as you try to put anything half-sensible in there . 
+  certainly nobody will care about the 62011 vs 62021 differences . 
+  also , i would recommend finding a small business accountant . 
+  for a software development consultancy , it should cost somewhere between 30 and 100 euros per month , and is well worth the time saved on worrying about forms like this . 
+  best i can do is 42.1 %, 
+  the top canoeing season is usually july-august , because the weather and rivers are warmer then . 
+  but i 'm sure the businesses will be happy to rent you canoes out of season as well . 
+  the other popular time is for a few weeks around march/april when the snow melts , and rivers in soomaa overflow . 
+  then it 's more of a trippy experience , being able to canoe straight through villages and the forest : http://www.kuhuminna.ee/files/images/2011/03/21/l_175646.jpg https://i.ytimg.com/vi/lldtbil2uuo/hqdefault.jpg, 
+  just as a note , remember to set up backups in addition to replication as well . 
+  replication will diligently replicate all accidental updates and deletes as well . 
+   and i 'll admit that money probably has diminishing returns after a certain point . 
+  like going from $ 1,000 to $ 1,000,000 is probably a bigger change than going from $ 10,000,000 to $ 11,000,000 . 
+  that point is much lower than people expect , for example some study found it to be around $ 75k/year in the us : http://blogs.wsj.com/wealth/2010/09/07/the-perfect-salary-for-happiness-75000-a-year/, 
+  i suspect that it 's around 2-3x of the average income in most places , multiple millions not required . 
+  it should not be possible to insert invalid data into a field in the first place . 
+  this sounds like something worth bringing up on the bugs or general mailing list : http://www.postgresql.org/list/, 
+  the developers will most likely want to see your data and the script importing it . 
+  you could see if you can find the row ( s ) that get corrupted data by cutting the input file in half , then to 1/4 , and checking if the error is still present ? 
+   will geodjango or postgis be smart enough to run precise distance calculations only on houses that are within a reasonable distance , skipping all the houses that are too far away to matter ? 
+  yes , if you set up a geospatial index on the location field ( geodjango does by default for geometry fields ) . 
+   does there exist a less precise method to calculate distance in geodjango/postgis , so we can sacrifice accuracy for speed ? 
+  if not , would it be significantly better to roll our own solution ? 
+  installing and setting up postgis , geodjango , and all the parts * is * pretty tricky for first-time users . 
+  if all you need is lat/long and distance limit + sort queries , it 's possible that rolling your own solution would be simpler . 
+  for example , a simple hack would be to calculate the lat/long min and max values for a 50km box , and filter based on these instead of a circular radius . 
+  but if you do manage to install and learn postgis , then it can be an incredibly powerful tool . 
+  once you start considering lines ( roads ) and polygons ( boundaries of lakes , states , etc ) , distances to more complex objects , writing these queries by hand would be close to impossible . 
+   i could be stuck on for half a day and eventually find out has a simple fix type of situation that you could help me avoid ? 
+  i ca n't think of anything specific . 
+  the difficulty is mostly due to the large number of dependencies ( gdal , geos , proj , etc ) , and their compatible versions : http://trac.osgeo.org/postgis/wiki/userswikipostgresqlpostgis, 
+  but on amazon rds , i suppose all this is already installed for you ? 
+  another thing to keep in mind is geometry ( flat ) vs geography ( spherical ) coordinates . 
+  geometry is faster and has a lot more operators available . 
+  geography is more accurate , and pretty much required once your data spans a continent . 
+  the third to watch out for is the [ srid ] ( https://en.wikipedia.org/wiki/srid ) ( coordinate system ) of your data . 
+  99.9 % of the time you want `` wgs84 = srid 4326 '' , which is the lat/long almost spherical coordinate system used by gps , google maps , and everything else popular . 
+  in some rare cases you might want to convert from the global spherical to a local flat coordinate system , eg to speed up complex queries within a single city or state . 
+   any tips and fun facts are welcome !, 
+  estonia has the most meteorite craters per land area in the world . 
+  not really useful for the internship , but it is a fun fact !, 
+  so , there are three main ways to save coordinates in postgis . 
+  * geography * ( sphere ) with srid 4326 ( = lat & long , same coordinate frame as gps . 
+  also called wgs84 ) . 
+  this does all calculation on a sphere or a spheroid . 
+  so results are accurate and make sense whether they are within a city of on the other side of the world . 
+  but it is `` slow '' ( not sure how slow actually ) , and the operations and queries are more limited : http://postgis.net/docs/postgis_special_functions_index.html#postgis_typefunctionmatrix, 
+  * geometry * ( flat ) with srid 4326, 
+  because the srid is still 4326 , this operates in lat & long gps coordinates . 
+  but geometry is a * flat * data type . 
+  so it behaves as if ( lng , lat ) are just ( x , y ) on a flat plane , which is a bit weird . 
+  distance is measured not in metres but degrees . 
+  distances north-south are longer than they are east-west if you are n't on the equator , all geometry will be stretched . 
+  but it 's `` fast '' , and you get to use all the interesting operators . 
+  * geometry * ( flat ) with another flat srid, 
+  if your points are all in one area ( city , state , european country ) , then you can get the benefits of both options by converting to a * local * flat coordinate system . 
+  this is the uk national grid , a flat coordinate system with the 0-point in the southwest corner , and ( x , y ) are measured in meters to east and north .

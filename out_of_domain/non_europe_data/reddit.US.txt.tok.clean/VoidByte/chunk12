@@ -1,0 +1,100 @@
+  these use lots of time , space or other resources to make computing the key expensive . 
+  the cost is easy to pay on for a login attempt but too expensive if your attempting to turn every word in the universe into a key to attempt to guess it . 
+   public/private keys schemes do n't operate directly on data because they are extremely slow , so they just protect a one-time session key for a faster symmetric crypto algorithm . 
+  pgp/gpg are most likely using aes for the actual data encryption . 
+  you are correct . 
+   salted password hashes are perfectly acceptable for authentication purposes . 
+  i disagree , hashes even with salts are way too fast to be truly secure . 
+  you can get [ general purpose hardware ] ( http://www.win.tue.nl/cccc/sha-1-challenge.html ) that allows you to calculate a couple ** hundred million ** hashes a second . 
+  use [ \\ [ bs \\ ] crypt ] ( http://codahale.com/how-to-safely-store-a-password/ ), 
+  you are correct i was mistaken/misspoke about pgp . 
+  i forgot about the extra layer of indirection and was thinking you could use the public key on the password and compare against a stored version . 
+  you would then only need the ceremony to recover the plain text password in the rare cases it is needed . 
+  still you should n't keep the password around . 
+  a trapdoor function is much better since most people do n't use unique passwords . 
+  just got a bottle of laphroaig , awesome stuff . 
+  have n't tried ardbeg , how is it ? 
+  while the word is often used to refer to other things , the true meaning goes back to the kernel . 
+  the os was split into two parts the kernel and the shell ( get it ) . 
+  the kernel would provide the centralized management , things like sharing hardware across applications , sharing cpu time , limiting access to data based upon users/groups and other services . 
+  the shell is then a layer on top of this . 
+  it provides utilities for interacting with the system . 
+  things like launching programs , and navigating the file system , ( ` cd ` is not an executable ) . 
+  this in addition to the ` userland ` ( things like ` ls ` , ` chown ` , ` mv ` ) build the basis for interaction with the kernel . 
+  back when the concept of the shell was invented there were no gui , desktop environment or window managers . 
+  unity is a shell in the generic english use of the word ` shell ' but not in the standard unix nomenclature . 
+  i agree except one thing :, 
+  homeland security is n't busting websites , * customs * is busting websites . 
+  * customs * is responsible for stopping international piracy . 
+  * customs * happens to be important for homeland security . 
+  to increase communications between departments the us combined all of the different branches under one umbrella this is * homeland security * . 
+  this does n't mean that individual branches do n't still have different duties . 
+  macports likes everything to be run from macports using the newest possible version . 
+  so for example if you want to install git come back in a few hours because first you must compile all of perl + 500 other libraries . 
+  homebrew instead strives to use the system utilities as much as possible . 
+  there are only a few recipes ( ports ) that are duplicates of built in systems installs . 
+  anecdote : the only issue i had upgrading to lion was with ` nmap ` . 
+  there was some conflict with the clang , i believe , that prevented me from compiling a new version . 
+  my old/installed version kept on working . 
+  as an ex-mormon i can confirm georgewchubby is correct . 
+  caffeine is not banned only coffee , tea and alcohol . 
+  i think it is harmful . 
+  particularly to females . 
+  most of what i was taught as a male was pretty harmless but there was a lot of guilt and a lot of authoritative dogma . 
+  things like listening to your elders , and the leaders of the church . 
+  while you are told to `` question '' the things you they tell you , it is very obvious that questioning is not allowed and you must obey the quorum of the twelve ( the main leadership of the church ) . 
+  for females it is really bad . 
+  you are essentially told that your not as valuable as a male in gods eyes . 
+  that you are n't to have a career that your job is to get married and start popping out children . 
+  while the boys are out camping and building fires the girls are cooking and sewing . 
+  males are told to be leaders and to protect their families while females are making quilts and learning to jam . 
+  every ward ( local congregation ) and stake ( regional collection of wards ) is different . 
+  some of this might not hold across the board but you see the general message i 'm talking about in the general church wide conferences . 
+  i 've also moved/traveled a lot and seen this across 10 or so wards . 
+  south park is pretty accurate on mormonism . 
+  at least one of the creators is an ex-mormon . 
+  at one time it was believed that people with dark skin where descendants of cain cursed for his sins . 
+  it was part of the reason why african americans where not eligible to hold the preisthood . 
+  [ wikipedia on it ] ( https://en.wikipedia.org/wiki/curse_and_mark_of_cain#the_church_of_jesus_christ_of_latter-day_saints_.28mormonism.29 ), 
+  the magic underwear is commonly called garments . 
+  i never wore them since i left the church before i was endowed but both of my parents wore/wear them . 
+  you start wearing garments when you go through a special ceremony . 
+  as i stated before i never went through it but have seen depictions online . 
+  i hear it is very similar to some stone mason stuff . 
+  guys go through it before they go on their missions or get married which ever is first . 
+  girls get it for marriage . 
+  the underwear has some symbols on it google if you want pictures . 
+  the general idea ( as far as i 'm aware ) is that by wearing garments it reminds you of god or some jazz and keeps you from temptation . 
+  my sister 's bishop ( local congregational leader ) told her that she should only take them off for the `` three s 's '' : sex , swimming , and shower . 
+  fairly accurate . 
+  at least one of the south park creators is an ex-mormon . 
+  the episode obviously puts it in a more humorous tone than a mormon would but the last time i watched it i did n't see any outright lies . 
+  mormons do n't generally watch south park , it is considered crude and morally unsound . 
+  i do know that some clips from the episode where passed around and enjoyed by my friends and teachers growing up . 
+  the episode on a whole is frowned upon and some would argue that it was mostly false but then in my experience many mormons have a very weak understanding of their history/religion particularly since some parts have been retconned like polygamy , the mark of cain and the world of wisdom . 
+  nah god took them away so we could rely on faith instead of evidence . 
+  not op but ex-mormon . 
+  i stumbled across a small question `` how do you know it is true ? '' . 
+  it kinda hit me and brought up all of my latent fears . 
+  so i dug around a bit and started to find answers . 
+  not the ones i expected and shortly decided i could n't continue to believe in what i was raised to believe . 
+  i shortly thereafter found deism where i hung out for a few months before moving to full on atheism with a dash of anti-theism . 
+  the official church policy is `` hate the sin , love the sinner '' which in practice translates to hate the sinner . 
+  there is a bit of a do n't ask do n't tell situation going on where gay mormons never have sex , have a lot of guilt and somehow manage to go through life . 
+  in addition the church publicly stated that prop 8 was bad and encouraged members to campaign against it . 
+  [ lds newsroom on prop 8 ] ( http://newsroom.lds.org/article/same-sex-marriage-and-proposition-8 ), 
+  i 've been in a few . 
+  they are really nice buildings , beautiful architecture . 
+  before a new temple is dedicated ( blessed ) it is open to the public to tour . 
+  if you like architecture and/or design i suggest if you get the chance to do it . 
+  some of the newer temples are mini to allow a greater distribution . 
+  they are a bit cheaper but still very nice buildings . 
+  temples i 've been in : salt lake , detroit , omaha ( i think that is where it was ) , and nauvoo ( one of the first temple ) . 
+  as soon as my mother heard it was from the guys who did south park she was disgusted . 
+  never took a second look . 
+  checkout transmit by panic . 
+  it uses macfuse to allow you to mount sftp , ftp , s3 and other types of network protocols as local drives . 
+  i use it to mount remote servers as a local folder so i can then use my local editor and tools on the remote files . 
+  you can go and download macfuse or one of it 's alternatives . 
+  then there is someway to do a sftp mount , probably the unix ` mount ` command . 
+  i 'm lazy and have just used the gui on transmit .

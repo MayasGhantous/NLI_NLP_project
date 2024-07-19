@@ -1,0 +1,100 @@
+  in october at least , they tried that for the policy network , but it was worse than the network they started with , that was trained only on 6d + kgs games . 
+  ended up using the self-play for the value net only . 
+  interestingly they did use tygem games to train the rollout softmax in october . 
+  but for some reason , they did n't use it for the policy net then . 
+  unless he seeks political power too , as opposed to merely claiming a traditional title , is this different from any western monarch ? 
+  there 's nothing that can totally solve that problem untill the game of go is actually solved - though it did severely mismanage time at that point ( and is prob something they can attack in the future ) . 
+  its simply a matter of being sufficiently strong to manage to read out a particular situation well enough , but there 's always a situation it wo n't be able to untill it truly can play only divine moves . 
+  by crazy moves i presumed you mean the 16kyu mistakes it did when deciding it has lost , because it was unable to find the winning line of play ? 
+  now , making those as opposed to losing with some sharpness in the game and hence dignity made little difference to a lost situation . 
+  well they called that ai alphago too . 
+   the one it used to generate the matchset that alphago trained against . 
+  did they say that ? 
+  october 's alphago generated the matchset to train this one?can you link to something ? 
+  i was thinking for some time whether they could get a stronger value net this way , but seemed simplistic ? 
+  yeah , the amashi strategy against it seem to give him better odds , but as we just saw in the last match , certainly no silver bullet ; its still at best an even chance for him to outplay alphago within that approach . 
+  realistically it would be fair only exactly as it was done ; neither player knew anything about their opponent . 
+  but perhaps the team would get more valuable diagnostics on what the system 's strengths and weaknesses are if sedol had more chance to explore it . 
+  its not merely an opinion of the comentators ; this is a general feature of any monte carlo go bots when losing ; their discrimination drops below the level noise of their low-probability misevaluations when there 's nothing but low-probability-win moves left . 
+  analogous to slack moves it can do when ahead , giving up points for no reason , since it all looks like win to it . 
+  move ~ 87 is when the value net tanked and it was at the mercy of rollouts and their noise of misevaluations . 
+  i would counterbalance your impressions of its play and what goes wrong with it , with some references in the field . 
+  here 's a classic description of the behavior :, 
+   one common problem of the monte carlo based methods is that by definition , they do not adapt well to extreme situations , i.e. 
+  when faced with extreme advantage or extreme disadvantage . 
+  ... if a strong human player is faced with extreme disadvantage ... , they tend to play patiently and wait for opponent mistakes to catch up gradually ; in even games , they usually try to set up difficult - to-read complications . 
+  ** an mcts program however will seek the move that currently maximizes the expected win probability -- ideally , it would represent a sophisticated trap , but in reality it tends to be rather the move the random simulations mis-evaluate the most , ending up making trivially refutable moves . 
+  here 's a comment on them by other bot developers :, 
+   ** alphago , in the expectation of losing , started, 
+  making 15-kyu threads to avoid the unavoidable . 
+  ** one, 
+  of the leading german players ( fj dickhut ) was so embarrased, 
+  that he made a comment on this in the german computer go forum . 
+  the operators in the alphago team had mercy and resigned on, 
+  behalf of their bot after move 180 ... 
+  so , `` we '' had a double-edged sword : either resigning early or to see terrible bot moves for another 20-50 moves . 
+  ... disclaimer : ** of course , this would not result in higher playing strength . 
+  but it would be good for the go community and their/our pr work . 
+  ** the final phase of the game would look much more natural, 
+  here 's from a thesis on last good response heuristic :, 
+   ** if a monte carlo program is extremely behind or extremely ahead in a game , winning chances of all available moves are so concentrated near 100 % or 0 % that it becomes difficult to distinguish good from bad moves . 
+  to the program , it seems as if it would lose or win anyway , and move choices often start to appear some - what random to the observer . 
+  existing approaches to solving this problem mainly revolve around the concept of dynamic komi : when black is given handicap stones , the outcomes of simulated games are changed by adding a number of points to white 's score . 
+  as a result , a simulation only counts as won if black wins by a large margin . 
+  this margin is gradually reduced through - out the game , so that black aims eventually aims for a win in real , unmodified go . 
+  the higher demands on win - ning the game for black are intended to counterbalance the handicap , and achieve a simulation winrate of around 50 % . 
+  ** however , the technique has been criticized for trick - ing black into taking unnecessarily large risks . 
+  so the solution to playing with a bit more dignity when unable to see a path to victory is well known ( there 's another more recent paper on maximum frequency something , similar to dynamic komi ) but it at best gives a marginal boost to program 's strenght , as its relevant only when in situations that are lost or won already anyhow ( given what it was able to read that is ) - and is a parameter which when tweaked wrongly , can actually hurt its chances of winning !, 
+  but the fundamental issue is not the supression of such noise but the fact that it could n't find the winning sequence !, 
+  in other words , the ultimate fundamental problem of go - that of finding the correct move given a board position . 
+  and failing . 
+  so the team focuses on the core task of making it stronger rather than on making it look less like an idiot when it fails . 
+  right , at that point , it just thought the move did n't work . 
+  after it figured the move out , the game looked completely lost to her , and 16kyu mistakes looked as good or as bad as some sharper play . 
+  beyond simply not seeing it , this is a time management issue . 
+  she should spend it in proportion to how surprising the move played seems to her , so as to explore a situation she did n't consider sufficiently beforehand . 
+  oh you just mean the original nature paper then ? 
+  coming off so pompously , i thought you actually knew the literature , disappointed . 
+  anyhow , yes i know the paper extensively , and if that 's your reference , then no you 're completely misinformed . 
+  fan hui did n't play against a '' the ai before alphago . 
+  the one it used to generate the matchset that alphago trained against . '', 
+  rather it played against a distributed version of then-current alphago , running on 1202 cpus cores and 176 gpus . 
+  using rollouts , value network and policy network , all . 
+  sure , one of its components , the value net was trained on a dataset of games generated by the self-play of another net , trained by self-play ( though starting from a net trained on 6d + kgs data ) . 
+   finally , we evaluated the distributed version of alphago against fan hui , a professional 2 dan , and the winner of the 2013 , 2014 and 2015 european go championships . 
+  on 5 -- 9th october 2015 alphago and fan hui competed in a formal five game match . 
+  alphago won the match 5 games to 0 ( see figure 6 and extended data table 1 ) . 
+   to approximately assess the relative rating of fan hui to computer go programs , we appended the results of all 10 games to our internal tournament results , ignoring differences in time controls . 
+  you can see in tables and text the relative strengths of each configuration . 
+  distributed alphago used against fan hui had 3140 elo , consistent with a 8-2 score , about 5p strength , if the equivalence between the two ranking systems made much sense . 
+  rl network , ie the one used to generate the dataset on which a subnet of that system was trained on was a mere 5d kgs . 
+  ofc , but fan hui was beaten by a product of that whole training . 
+  not by the rl net as the op seems to imply , by claiming he played a precursor network that generated the trainingset . 
+  the precursor network that generated the trainingset is of mere 5d strength , far too weak to beat fan hui . 
+  it was beaten by a 5p strenght distributed alphago of the time , significantly stronger than him . 
+  me too . 
+  like in this paragraph :, 
+   the matches fan hui played were against the ai before alphago . 
+  ** the one it used to generate the matchset that alphago trained against . 
+  matches a subcomponent of alphago ( just the value network ) was trained on was created by the rl network , and fan hui certainly did n't play that . 
+  rl network is way , way weaker than fan hui ; roughly 5d kgs vs 2p , a huge gap . 
+   when played head-to-head , the rl policy network won more than 80 % of games against the sl policy network . 
+   programs were evaluated on an elo scale 30 : a 230 point gap corresponds to a 79 % ... 
+  extended data table 7 gives 1517 elo for the configuration only using the sl network . 
+  so around 1750ish elo for the rl ? 
+  fan hui has an elo of :, 
+   the scale was anchored to the bayeselo rating of professional go player fan hui ( 2908 at date of submission ), 
+  you do n't even have a feeling for the orders of magnitude involved here , to be that off !, 
+  nitpicky i know but still i wonder about the term `` vapor products '' as well . 
+  vapor is the gas phase of a substance at a temperature below its critical point ( so under more pressure it could still be a liquid even at that temperature ) . 
+  what ecig produces is an aerosol ; tiny liquid droplets in a gas , like fog . 
+  is it a legal term in the us ? 
+  i 'm not convinced they 're bugs , well outside poor time management at least . 
+  i think it just its n't that ridiculously strong not to make occasional errors . 
+  i 'll probably be stronger by the next game though , if there will be a next game ( surely ? ), 
+  maybe . 
+  i think they 're largely set in their approach to making it overall better , and just want an occasional stress-test with a human to see if they overlooked something big . 
+  they can prob profit in that department enough by analyzing the games they 've got , whilst keeping the overall direction , in preparations to the game . 
+  they improved this system as long as they safely could approaching the sedol matche , they 'll prob continue to tweak it as long they can approaching the next match too . 
+  imaginable , but i do n't believe it ; sedol deviated rather soon , maybe the system would have as well . 
+  plausible ; it can be simply weaker than top humans in certain readings , so one just needs to consistently find various ways to get it there .

@@ -1,0 +1,100 @@
+  if you put the template in the same file it is a string and you have an option to put it in a separate file . 
+  i have noticed several small things like this with react . 
+  react feels like someone needed to solve a problem in a project and then extracted his solution into a library . 
+  he did n't want to use any other editor or transpiler except the one he built support for so he did n't care that his jsx messes with the tools he did n't use anyway . 
+  i notice similar things with naming . 
+  strange method names that you will write in your product code because you do n't feel like thinking of a name for 2 hours but which are suboptimal ( to put it mildly ) for a framework used by millions . 
+  also flux drives me crazy and i readily admit that i ca n't get the hang of it ( yeah i know these days there is the simplified redux ) . 
+  to me react seems like a simpler , cleaner and in general better idea but angular 2 seems like a framework built with much more care . 
+  i think my next project will be angular 2 since the small things about react annoy me too much . 
+  well microsoft was a shining beacon of capitalism but now an indian is in charge . 
+  i do have a problem with copyright but i do respect closed source . 
+  i do n't see anything wrong with companies not giving away the source code for their products and i happily use closed source products all the time ( in fact more than i use open source products ) . 
+  i do n't understand why you put close source and the copyright mess in the same basket . 
+  the only thing i know is that the patent license is revoked if you sue facebook over any patent ? 
+  was that debunked ? 
+  except flux . 
+  you can spend months on it without making any sense of it . 
+  can you point me to the exact quote that claims this is incorrect . 
+  i clicked on some random links and they seem to confirm what i said . 
+  if i use react and i sue facebook for any patent facebook can sue me for violating react patents . 
+  i read the part of the license and understood any patent claim against facebook . 
+  too lazy to check the actual text now since i do n't intend to sue facebook for patents in the coming years . 
+  basically this issue is absurd . 
+  if you need to avoid using react your company is big enough that your lawyers will tell you . 
+  otherwise feel free to use it . 
+  yeah , did n't have a chance to use redux . 
+  i think it just appeared at the time ( 1 year ago ), 
+  i did look at one tutorial for redux but i do n't have a react project anymore so i have n't tried it in practice . 
+  btw i saw some articles about using redux with angular 2, 
+  so let me get this straight . 
+  1 year ago flux was the consensus for the best pattern to use with react , then came redux and now people are moving to this mobx thing ? 
+  i promise to check it if i end up working on a react project again ... and if it is greenfield . 
+  i do n't know , angular 's default mvvm pattern ( which they insist on calling mvc and calling their viewmodels services ) works for me , 
+  the purpose of the article was not the compare libraries . 
+  as a matter of fact when it comes to validating arguments nsubstitute code is not that much better than moq . 
+  i was just blown away by the stack trick itself . 
+  yeah i am with you on this one . 
+  this is why i did not consider libraries other than react and angular 2 for new projects . 
+  i do n't feel like investing in libraries that are not popular . 
+  in the age when everything has a server backend it is quite viable . 
+  great but if they reverse engineer the backend they can just as well write a new client . 
+  turns out the software was not that special to begin with . 
+  i take wow for example and see that non-blizzard servers are of far lower quality . 
+  yes but that also means that the project needs large developer base . 
+  had wow been open source much fewer developers would be able to do the same work . 
+  because if it was open source then they can just deploy it instead of implement it and then deploy it . 
+  because it greatly increases the cost of the competition copying the product and their time to market . 
+  there would be but still would require a lot of money and a lot of time . 
+  if they had the source they just need a couple of devs to handle deployment . 
+  my argument is that keeping your source closed is a good business strategy in a lot of cases regardless of copyright . 
+  it is harder for the competition to copy your product if you do n't provide the source . 
+  that 's in 2012 , right ? 
+  is this a valley thing ? 
+  i live and work in bulgaria and people of age 40 + who choose to remain coders are still valued including women . 
+  our projects are usually boring and salaries are of course 10s of times lower than in the valley and very few companies care about that hipster image that seems to be so important overseas but we have no problem with old coders at least if you are willing to be in the team lead position ( coding , not management ) . 
+  on the other hand we do n't have many people above 50 as the industry started developing after the fall of communism so most people who are older and can code are in universities and similar scientific institutions and never made the jump to the industry . 
+  still we have several guys over 50 in the company i currently work for . 
+  the only problem is if you are above 30 and want to start now as a junior , that 's hard but if you are 50 and come with 25 years of experience , know your way around modern tech ( i.e. 
+  do n't insist on rewriting the system in delphi ) and are willing to mentor a couple of noobs you wo n't have problem getting a job . 
+  not necessarily . 
+  if you have a hardware accelerated gui and can use a reasonable language you can build whatever gui library you want . 
+  yeah but the article specifically mentions that his wife is a project manager and he makes it sound that this is a problem for managers too . 
+  you can integrate it as a build step for production only . 
+  yeah , but we assume that the library is as flawless as a production grade compiler . 
+  reasonable assumption , is n't it ? 
+  first of all i might like my template and the code that drives it separate ( as a matter of fact i do ) . 
+  more importantly a tool i might like may not support jsx . 
+  for example just about the time i worked on the react project it was impossible to use typescript because typescript did n't support jsx yet ( they released support shortly after ) . 
+  maybe i have that beautiful ide with great support for js that i ca n't use because nobody built jsx specific support ? 
+  note how neither of this is the case with angular 2 . 
+  you can have your template with or without the code , and you can use whatever tools you like because no special support is required for their templating mechanism . 
+  it is not tool blame case . 
+  in fact the react community suffers from reverse of the tool blame - stockholm syndrome . 
+  if react does n't allow something then certainly no one needs it and tools that do not support the react way must be inferior . 
+  do n't worry . 
+  immigration will fix your country . 
+  either that or destroy it . 
+  it is not only african and middle east immigration . 
+  a few months ago i saw a tv documentary ( investigative journalism or whatever is the proper term for this kind of extended reporting ) about bulgarian gypsies who work ( organized ) as beggars in sweden . 
+  they send money home or come back in bulgaria and live like kings ( big houses , big cars ) with the money of the swedes . 
+  of course begging is a mafia-like business everywhere but obviously the swedes are too soft and lived in a good country too long to realize that . 
+  php - where you have to build a framework for scalability that would just come out of the box in java , . net , erlang , go and probably even node.js, 
+  how is it annoying ? 
+  i have hit just one annoying thing where i was using a namespace and the variable name matched something else in the actual javascript ( due to namespacing ) so i had to debug the actual javascript code which mapped cleanly and obviously to the typescript code . 
+  i 'd say that is pretty minor annoyance especially since i am certain i am debugging much less due to the fact that the compiler catches errors and the ide suggest arguments . 
+  wasm is like asm.js v2, 
+  as bad as js is it is significantly better than php . 
+  the additions to the language in the last 5 years are far better designed than the additions to php ( come on who makes \\ the namespace separator ! ), 
+  and because of the highly functional nature of javascript the ecosystem has managed to be reasonable in the timeframe where features were lacking . 
+  if we again take namespaces as an example js libraries all use the function trick ( revealing module pattern ) to emulate them for a decade while php accumulated shitty things like prefixed function names . 
+  same goes for classes and other practices . 
+  also because of the status of js as a mandatory language added to every other stack the libraries and tools are developed of people of far greater expertize and are therefore of much higher quality . 
+  js draws people from all communities . 
+  in addition with js you have the option to share code on the client and the server and node.js is much much faster than php . 
+  while i agree with your approach that 's like saying that experience does n't matter . 
+  who is more likely to pass the interview and the probation someone who has experience with the stack you are using or people who are experienced with bob 's framework ? 
+  a program that prints all ascii characters is extremely beautiful in brainfuck . 
+  you realize that unless it provides significant advantages to other technologies ( performance , being the only thing that works in the browser , easy to use parallelism or asynchronous programming , etc. ), 
+  the requirement you mention makes it a sucky language ? 
+  why would i code in something that requires ( more ) experience and discipline to develop the same thing ?

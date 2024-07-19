@@ -1,0 +1,100 @@
+  i hate people who feel like they need to be nice in traffic , just follow the fucking rules and nobody can get confused as to what you want, 
+  i 'd be fine with being normal sized , i do n't care that much about how i look , the thing that bugs me is that i do n't fit so many of my old pants : /, 
+  my dragonborn wizard kaushik . 
+  i started out simply wanting to play a necromancer and ended up with an army recruiter , who drafts dead people ( and kept asking everyone , even a sheep , if they would join his lord 's army ), 
+  i only played him in a oneshot , sadly , but that was fun nonetheless, 
+  foot injuries being lethal . 
+  i misunderstood the first time and thought this crazy old lady stabbed me through the foot , when in reality she just cut it up a little, 
+  if only patreon worked without a credit card : /, 
+  then i 'd have to stack that up all the time , it would have been great , if i could just use my paypal account without having to add in a creditcard in paypal for whatever fucking reason, 
+  there 's a fine balance between enriching a description and boring your players, 
+  you could put your version codes into a different gradle file ( call it lib.gradle or whatever ) , pull it via git and apply it to your projects, 
+  this mvp-showcase project shows how it deals with it : [ marvel app ] ( https://github.com/mmirhoseini/marvel ), 
+  is it weird that i believed him for the first 3 posts ? 
+  strange aeons sounds like it is balanced , but i feel like being able to chug health pots when you 're down is very powerful, 
+  the bladepact-net has a lot more range than the basic net , it deals tremendous amounts of damage ( 1d10 base , the creature takes damage every round until it is freed and you can increase the damage by expending spellslots , which is n't unlikely , if you 're bladelocking ), 
+  the eyeless watcher is what sounds broken to me . 
+  you get this thing at 3rd level , it is super fast ( 45 ft ) , it 's less likely to be affected by spells , it takes less damage from damaging ones , it deals 1d12 +1 d8 +3 damage per hit and it can use the help action from far away ( 30 feet are a lot , especially if the thing that is helping is fast as hell ) . 
+  it simply does too much too well, 
+   some beg . 
+  some steal . 
+  lots o ' young girls taking up the trade , the way, 
+  girls always do when it 's all they got to sell . 
+  any sources on the actual numbers ? 
+  if we ca n't provide sources for our statements , capitalists will claim them as false, 
+  you could also use an rxbus instead of eventbus ( probably a replaysubject or behavioursubject to prevent data from being lost ), 
+  this is the best thing since the mr torgue ama over at / r/borderlands, 
+  so java 8 is an android o thing only ? 
+  disappointing, 
+  i 'm not terribly optimistic about it , but is there a way to remove files from picasso 's lrucache ? 
+  i have certain situations where i can guarantee that i wo n't need the image again . 
+  like / u/mjhapps said , calligraphy is your best friend . 
+  however , i 've found that calligraphy does not seem to work , if you try to use generics for custom views ( atleast that was the case for me ), 
+  so be mindful of that, 
+  you could also create a global map , initialize all fonts once , save them in the map and apply them to your views as you see fit ( you need to call ` settypeface ` on a view , not your activity ) . 
+  you could then subclass views like textview , edittext and so on and add a custom attribute ( something like `` customfont '' ) and in the constructor of your custom views , set the typeface, 
+  you 're probably correct , in custom views , i see the inflater and constructor as two things that are intertwined, 
+  how should i persist data that only needs to exist for as long as the user uses the app ? 
+  static lists might be lost , when the app is killed for memory and while a database sounds perfectly reasonable , i was wondering , if there was something else i could do , seeing how i literally delete the persisted data on every app-start, 
+  seems to do the trick , thanks !, 
+  it 's not perfect , but so far , i 've found that the as-plugin [ android file grouping ] ( https://github.com/dmytrodanylyk/folding-plugin ) was sufficient, 
+  not only that , google also tends to show you more of the same stuff youve already looked up, 
+   have you experienced any problems related to not having multithreading ? 
+  when i built my first app , i wanted to simultaneously upload two images to an api . 
+  asynctasks run on a single thread , which defeated the whole purpose ( i used a threadpool afterwards and saved a ton of time . 
+  that was before i found about rxjava though ), 
+  architecture has little to do with what language you 're using . 
+  if you design your application in a way that prohibits change , then that 's your fault, 
+  get a mac , if you want to develop ios apps aswell , otherwise it 's probably not worth the extra money, 
+  just an additional layer of abstraction . 
+  the interactor calls your webservice and hands back the result to the presenter ( because the presenter should n't know , where the data came from , it should only get data ), 
+  if only i could update the play services on the emulator . 
+  we 're using version 10 and i ca n't use emulators thanks to that, 
+  i 'm playing around with [ conductor ] ( https://github.com/bluelinelabs/conductor ) but i have n't really found a good way on how to change the activity toolbar . 
+  i figured , i could use ` getactivity ( ) ` , cast that and set it then , but that sounds dirty, 
+  afaik , you need to explicitly set a flag to activate proguard for an app, 
+  `` and now my life begins '', 
+  clixx finally got a bonejob, 
+  if i understood it correctly , it decouples view and navigation . 
+  imagine you have an activity that can display several different fragments . 
+  if one fragment has a method ` gotofragment2 ( ) ` you need to call ` ( ( mainactivity ) getactivity ) . gotofragment2 ( ) ` , which tightly couples the fragment and activity, 
+  if you have hard dependencies , you ca n't reuse or swap modules ( if said fragment was used in 2 different activites , you 'd need to check , which activity added it and cast it and whatnot ), 
+  i wanted to remove realm ( because in this massive project filled with bad code , it 's everywhere and i want to find the instances easier ) , so, 
+  i commented out both the ` classpath ` bit in the project-level gradle and the part where i apply the plugin in the module-level gradle, 
+  2 . cleaned the project, 
+  3 . invalidated caches and restarted, 
+  but it 's still there . 
+  how the hell do i get rid of it ? 
+  edit : realm plugin version 1 , if that helps ( yes , i know that it 's bad , i have to work with this horrible codebase daily ), 
+  tried that , it still compiled and installed the app ( it crashed when attempting to run it , claiming that a certain class was not part of the schema ), 
+   realm-android-adapters, 
+  ah , yes that was it . 
+  sorry , i can be a bit slow sometimes, 
+  not sure , if i understood correctly , but if you wish to update an app in the playstore , you need to sign it with the same key, 
+  in oncreateviewholder , you create the listener once per object, 
+  in onbindviewholder , you recreate the listener everytime you scroll, 
+  probably glued pieces of paper to the window and took a photo, 
+  does anybody have experience with layoutmanagers ? 
+  i wanted to implement a stack of cards using a recyclerview , but i ca n't really find any resources apart from one or two blogposts that barely touch the subject and the javadoc ( and i have difficulties understanding things using written documentation only ), 
+  use accesstokens instead of sending credentials with every request . 
+  you can then use oauth to refresh your accesstoken using a refresh-token or basic auth reusing your credentials ( although oauth is preferred ), 
+  thanks man , i 'll have a look !, 
+  i feel like i should just ask you directly , it seems like you 're always the one who helps me with shit , lol, 
+  that is correct, 
+  i agree . 
+  in fact , `` hype driven developers '' are more of a risk than the ones who stick to stuff they know, 
+  what is this school of grappling , you referred to in # 4 ? 
+  true , but retrolambda does n't depend on android versioning anyway . 
+  i 'm a little bit on the fence about retrolambda , since i do n't know how gradle behaves in non-android projects with retrolambda installed , but then again , i do n't think that you 're going to have many projects that run on android and desktop ( although it would be feasible with the right architecture ), 
+  blaming people without any real power does n't do much . 
+  yes , they 're voting for the `` wrong '' people , but they 're desperate and their sense of pride is often the only thing that is left, 
+  looks good for apps that are simple enough , but i feel like it quickly ceases to be feasible for large projects . 
+  especially the `` staterender '' - function looks wrong to me , as it ends up being bloated, 
+  anyone care to disagree and explain why my view of it is wrong ? 
+  i somehow had it in my head that i would handle all my view-related code in the state renderer , but in the end , the staterenderer is close to a presenter , which does n't become as bloated either, 
+  i 'll look into mvi some more , i frankly do n't understand it well enough yet, 
+  funny , for me it 's the exact opposite . 
+  if i talk to someone , i can either focus on what they 're saying or focus on looking them in the eyes , but not both, 
+  do n't see a reason to use instant run when my code compiles in 20 seconds from incremental build anyway , sorry google, 
+  without decoupling your modules , testing will be a lot more difficult , regardless of what you want to test, 
+  first step would be to remove coupling and afterwards , you write tests .

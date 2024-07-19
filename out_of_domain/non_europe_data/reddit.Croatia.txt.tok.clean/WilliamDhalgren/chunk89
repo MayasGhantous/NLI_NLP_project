@@ -1,0 +1,100 @@
+  you have some european examples of countries with progressively less mainstream religiosity , where it certainly does n't seem to lead to a growth of christian talibanization , but on the contrary to rather timid christianity . 
+  if you 'll allow a necro - i 'm going through the series now , and seems to be both groups are essentially right . 
+  in this sense , reminds me of `` lupin iii : mine fujiko '' - its both quite sexual , and/but also very artistic ( in pretty much all the ways op mentioned , from music , art design , cinematography , especially dialogue/writing , characterization and development ... ), 
+  something merely being mentioned is one thing . 
+  with a [ wt !, 
+  ] , one gets ( or rather , is supposed to get ... ) a longer writeup with emphasis on the strong points of the show . 
+  its practical if you 're considering whether to watch it or not . 
+  i do n't see why [ wt ! ], 
+  would need to be a vehicle for pushing utterly obscure works ; surely many famous ones deserve a recommendations as well . 
+  even rather popular things will not have been watched by many/most ppl around here . . 
+  well , especially since its actually a re-adaptation and not just a remake , it could be a blessing or a curse , depending on how well they do it . 
+  without ishiguro 's directing , i 'm rather scared of the prospect really . 
+  only it does n't - we had this discussion in r/europe : draft resolution on human rights in foreign affairs had some language merely declaratively supportive of marriage equality , but even that got amended away in the final vote . 
+  went from a mere paragraph stating :, 
+   ** welcomes ** the legalisation of same-sex marriage or same-sex civil unions in an increasing number of countries , seventeen at the moment , around the world ; encourages the eu institutions and the member states to further ** contribute to the recognition ** of same-sex marriage or same-sex civil union as a political , social and human and civil rights issue, 
+  to merely :, 
+   ** takes note ** of the legalisation of same-sex marriage or same-sex civil unions in an increasing number of countries -- 17 to date -- around the world ; encourages the eu institutions and the member states to further contribute to ** reflection on the recognition ** of same-sex marriage or same-sex civil union as a political , social and human and civil rights issue ;, 
+  , which says exactly nothing supportive about marriage equality . 
+  see final text within parliament 's proceedings , [ here ] ( http://www.europarl.europa.eu/sides/getdoc.do?pubref=-//ep//nonsgml+ta+20150312+sit+doc+pdf+v0//en&amp;language=en ), 
+  and plz do n't give ops source clicks . 
+  particularly given that they 're simply spreading false info . 
+  re bakemonogatari , its got ta be the park scene for me . 
+  ie just before meeting the snail . 
+  there are some really powerful scenes . 
+  like the one where they speak of griffith 's ambitions in comparison to common ambitions in the metaphor of camp fires with guts theme playing . 
+  there 's an even earlier speech by griffith that totally sold me on his rather passionate outlook on living a life , i 'm not perfectly sure about the circumstances . 
+  't was a decent fap , agreed :p, 
+  sounds like just praise , but yeah , that show does it from ep1 . 
+  from the bedsheet reveal of the bro , to jamming , it shows its hand from the start . 
+  yup , that 's the situation . 
+  just bantering away in the park , very charming . 
+  hah , @fb.com -- so , ppl over at computer-go mailinglist were in fact right to identify the darkforest bot with the recent facebook announcement then ? 
+   http://computer-go.org/pipermail/computer-go/2015-november/008109.html, 
+  though , ayamc 's author thought its strength was more around 1-2k than 1-2d in his short experiment against it : http://computer-go.org/pipermail/computer-go/2015-november/008137.html given the abstract he 's prob right that this bot is w/o mcts . 
+  btw while on topic of computer go , ayamc seems to be doing really well in combining a ( clark & storkey ) cnn with more traditional mcts engine , new code is running around 4d the author claims . 
+  think that 's the best a neural-network using approach did so far , and , outside zen and crazystone , among the best results all-around . 
+  http://computer-go.org/pipermail/computer-go/2015-october/007946.html gets a strong improvement when using the neural net ( ~ 300elo , or around 1.3 stones ) , but not using nn rankings directly but mixing gamma of minorization-maximization with it : http://computer-go.org/pipermail/computer-go/2015-october/008017 . 
+  hm , ca n't find it myself either , just tried . 
+  false memory ? 
+  idk , sry , apparently another reread is in order . 
+  google has yet to claim anything . 
+  facebook claimed just 1 . dan performance . 
+  sota is zen and crazystone hovering usually close to/around 6 . dan . 
+  what both got ( in turn ) was sota on the move prediction task however , which is quite promising going forward . 
+  the article i believe is just wired being wired ... 
+  should mention in this context - a new result on the move prediction task appeared - less than facebook 's but up there ; 54 % on 6d kgs data : http://computer-go.org/pipermail/computer-go/2015-december/008324.html, 
+  btw , ai vs ai matches of go are a regular event on the kgs server . 
+  here abacus is even beating zen with another independent new technique , [ adaptive playouts ] ( https://www.conftool.net/acg2015/index.php/graf-adaptive_playouts_in_monte_carlo_tree_search_with_policy_gradient_reinforcement_learning-113.pdf?page=downloadpaper&amp;filename=graf-adaptive_playouts_in_monte_carlo_tree_search_with_policy_gradient_reinforcement_learning-113.pdf&amp;form_id=113&amp;form_version=final ), 
+  last facebook result is quite inspiring ; i think something along those lines can be the key , if only the damn inference on the network would be a couple of times faster so their mcts + cnn syncronous system could run more simulations per move , do n't see why it would n't be able to rival sota . 
+  zen/crazystone just use a different ml algo after all . 
+  they even mention under `` future work '' ( or something like that ) in the paper what seems like a great idea on improving it beyond whatever it learns from move prediction -- roughly : if the tree search ends up picking a different move than what was predicted by the net on its `` first look '' , take that as a misprediction and backprop the error signal accordingly . 
+  given that david silver is n't even sure if his deep q learning approach to doing reinforcement learning would work ( or diverge ) if playing itself rather than against a fixed opponent ( as is the case w atari games ) , plus is a really poor signal : 1 bit , win or lose and even that only after say order of hundredish moves as opposed to on each one , this seems more promising . 
+  more data would help too ; gogod is not that big , 82300 games , plus its commercial . 
+  and kgs high-ranking games are for one not pro games , and a selection of highest ranking games is ( merely ) roughly double the size . 
+  saw some discussion of making a better dataset from the existing fragmented sources to alleviate this a bit , but fundamentally there 's only so many games ( being ) recorded & even played at a high level . 
+  well , but is this true for the field of computer go really ? 
+  the ** traditional ** way to get sota results in computer go was in fact using a machine learning technique - minorization-maximization and its variants . 
+  remi coulomb 's ( author of the previous-sota program crazystone ) classic description : http://remi.coulom.free.fr/amsterdam2007/ aja huang from alphago 's team worked on previous strong programs ( erica ) as well with this technique ( and in some collaboration with coulomb i think ) . 
+  details of another previous-sota program zen are yet unpublished , but i gather the author 's thesis is near completion . 
+  furthermore , simple neural nets have been used as move predictors - a rather modern architecture if not a modern neural network - in for example in steenvreter , another pretty strong system . 
+  when convolutional neural nets demonstrated sota results on the move prediction task , there was a flurry of interest and activity , as you can see on the computer-go mailinglist ; oakfoam is using it to modest results for now , and a new version of ayamc got significantly stronger using such a technique . 
+  given the modest size of the field , and merely a year of time , i 'd say they were positively enthusiastic , rather than skeptical as you suggest . 
+  and of course then came the results of facebook ( which like previous google 's results were quite promising but quite some ways weaker than the sota ) . 
+  i 'd could 've looked as if this technique can bring a solid boost to the strength of some program - say 300-400 elo , think ayamc got something like that , and that 's rather massive as far as a new twist would go already . 
+  i think you need to recognise just how mind-blowing alphago 's success really is - in comparison to both the sota of computer go , and especially versus previous neural network results , the asynchronous evaluation system also from deepmind a year ago , and facebook 's system . 
+  these neural network approaches were 1-2 dan amateur only ( though facebook 's system improved rapidly too , now around 5d on kgs , ie competitive with previous-sota ) , then alphago jumped over 2000elo points over them , and even 1200elo over actual sota engines . 
+  i mean look at this graph - it 's ridiculous : ( facebook 's and previous-google results are around fuego and pachi strength , and ayamc is say between pachi and the next one ), 
+  i do n't think a comparison to alexnet blowing the competition out of the water in 2012 is inappropriate here - it is exactly such an incredible jump . 
+  wish i had a graph of how the elo rankings of sota programs evolved over time , but this would be a massive spike on it no quesion ; it seems 5 years ahead of the time . 
+  pretty much this . 
+  some showed results that would get , i do n't remember exactly , say 300ish elo points above the non-neural version of the same program ( ayamc comes to mind specifically ) , which is already a pretty big deal . 
+  but to jump over 1200 elo points over sota ? 
+  and what , more than 2000 over previous neural-net results of facebook and google ? 
+  it 's like we jumped 5 years in the future . 
+   myungwan kim says that with all his respect to the google team , he thinks alphago as it played against fan hui will have no chance against lee sedol . 
+  he says all pro 's who 've looked at these games generally agree that alphago would need a one or two stone handicap against lee sedol . 
+  well , apparently google agrees - if you look at how they themselves estimate their strength to be , they seem to think its arond 5-6p , and i guess 4-5 ranks dividing that from a 9 + + + p player like lee could be worth at least a stone , maybe two ( think i saw estimates that in professional ranks , 3 or 4 ranks roughly equal 1 stone ), 
+  see ther graph : http://www.nature.com/nature/journal/v529/n7587/images/nature16961-f4.jpg , with the distributed version of alphago estimated ( internally ) as , if i 'm eyeballing this right , around 5-6p . 
+  other than that , i 'm not sure playing against real humans can give alphago enough matches to progress much given the algorithms used to train it , so i suspect it will just have to do with playing itself , or at best maybe some different tweaks on the algorithms or initializaion datasets . 
+  i mean , they use the entire available datasets of < edit  ~ ~ all professional games ~ ~ strong amateur games on kgs server , about double the size of the dataset of all pofessional games < / edit  to just bootstrap the thing ; its not that large a database for deep learning scales , so i fear while this `` collaborating with peers '' might seem an intuitive way for a go professional to progress , it is n't sadly applicable to machine learning as practiced today . 
+   it 's a safe bet that alphago wo n't win that one - it 'll be a miracle if it wins even one game . 
+  if they do n't improve at all then -- yeah , certainly ; using fan hui 's ranking of 2908 at http://www.goratings.org as anchor , they calculate using bayeselo the ranking of their best system at 3140 elo . 
+  lee sedol has 3516 elo , so almost 400ish elo more . 
+  apparently basic elo as used in chess would suggest that should give 10ish % of chance still , but seems its much smaller for highest-level go play , if how these diminish in egs rankings with the strength of opponents is anything to go by : https://en.wikipedia.org/wiki/file:estimated_win_probabilities_under_egf_rating_system.png, 
+  if i understand correctly the process of anchoring their scale , they used the full sample of 10 games against fan hui to anchor the metric , ignoring the differences in time controls ; alphago won the formal matches by 5-0 , true , but it won the informal matches with short time controls by 3-2 , so they do have an approximate reference point that way . 
+  lee should n't lose 20 % of his games against a 2p pro . 
+  they also ran 4-stone handicap matches against zen and crazystone programs , that should be around kgs-6d amateur strength ( before handicap ) and winning percentages against them from an internal tournament . 
+  its all very approximate , but at least its clear they themselves belive they need and can make advances on what they have before the lee matches . 
+   and it 's already studied professional games extensively . 
+  its funny ; i was sure that was the case too . 
+  then checked the paper . 
+  mind-blowingly , this seems to have never seen a single professional game in all its training !!, 
+  the policy network was trained on the dataset of 160 000 games by 6d + amateurs from kgs only . 
+  and the value network was trained on a dataset created by taking 1 random board position from each of 30 million games from self-play of their , they think , kgs-5dan-ish self-play learned network . 
+  and the fast-rollout module was for some reason apparently trained on a different dataset , the 40-50 000ish game dataset of strong-amateur games from tygem server . 
+  i really do n't get why they did n't use the gogod dataset at least alongside of the kgs dataset ; its stronger and about half the size , so substantial fraction , and significant on its own ( facebook used only it and got state-of-the-art result for this move prediction task ) . 
+  or why tygem dataset they did use elsewhere was n't added and used for policy network training as well . 
+  maybe that 's why they 'd challenge lee ; they 've got significant amounts of obvious lowish-hanging fruit to do in order to improve ? 
+   the only way i can see how to break out of the pit is to self learn even more , as it 's the only way to get enough useful new data . 
+  they learned from playing itself only for 1 day it seems , playing 1.28 million games .

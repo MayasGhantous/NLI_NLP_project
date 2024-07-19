@@ -1,0 +1,100 @@
+in spain , nurses have long lost middle class status specially in madrid due to the regional government selling the hospitals to private corporations . 
+  the new nurses usually have a per day contract and if they are lucky earn around 600 $ per month . 
+  so , precarious legal conditions plus shitty pay plus lack of proper equipment and top it with a country 's government that if something goes wrong will use all his power to make you the culprit . 
+  i can see why they do not want to treat ebola patients . 
+  personally the way to do the offerings changes a lot if it is with the kindred or alone . 
+  kindred : we usually pour beer on the ground in circle while we recite for what we thank the gods and what we want from them . 
+  alone : i simply pour beer and say something like `` you ok ? 
+  i 'm ok too so til next time '', 
+  keep in mind that this is a very personal thing and how you do it is closely related on how you feel towards the goods and your link to them, 
+  for beginners i would recommend to do it alone and let your heart speak for you then , when you feel comfortable talking to the gods and opening your heart to them then try a kindred . 
+  that is the minimum wage for a month of work ( 160hour ) the problem is with the new regulations nurses are hired on a daily or week base . 
+  your sister can be a nurse in spain and count herself as lucky . 
+  my mother best friend and a couple of my exgf are nurses on spain and they make what they can , sometimes a hospital hires for 6 month but the norm is to hire on a daily or week base . 
+  i repeat : that is for new nurses or fired ones , the ones that already had work a couple of years ago are totally fine and have a decent salary . 
+  virtualbox at least on fedora runs using the vt or amdv so its a type 1 . 
+  qemu is a better example because is a type 2 by design . 
+  that is not true :, 
+  type1 : the hypervisor communicates directly with the cpu thanks to the vt or amdv and bypass the so gaining considerable speed . 
+  type2 : everything , and i repeat , everything is virtualized including the cpu using the so as an intermediate to the real hardware, 
+  yes , there are lots of hypervisors type1 that run as an app . 
+  and yes , i felt as a sysadmin specialized on virtualization the necessity to explain it better because not a single response was right because when talking about virtualization the moment you talk about the `` hypervisor being the so '' you gone the wrong way . 
+  the hypervisor never is the so , the so is the so the hypervisor is the one that handles the vm requests , lots of people think that an hypervisor can be an so due to things like vmware esxi when in reality that is only a minimal gnu/linux machine with an hypervisor installed . 
+  even the ibm system z that is supposed to run the hypervisor and only the hypervisor relies on a bsd embedded on its motherboard to run the whole thing together . 
+  you can say the so is the abstraction layer necessary to humans and apps to use the underlying hardware . 
+  does an hypervisor compels with that definition ? 
+  of course not . 
+  an hypervisor is the abstraction layer within real hardware and virtual one ( to put it simple ) so how this affect the definition ? 
+  well , type 1 hypervisor have so like capabilities , like direct access to the underlying hardware but it does n't mean that it is an so . 
+  in the other hand type 2 hardware are simply a set of libraries that provides functions to trick sos into thinking the hardware they are running is real when is only an abstraction created by the so trough the hypervisor, 
+  `` what 's the underlying os on hyper-v ? 
+  surely microsoft would never use linux for that . '', 
+  with a google search of 2 minutes i found that it uses ms windows server core, 
+   wtf is an so ?!, 
+  i 'll let one typo slide , but when you make the same typo every single time on a word that 's critical to your response ? 
+  come on man ... 
+  hey !, 
+  breaking news !, 
+  not everyone in here is a native english speaker , 
+  i like to know how things work from behind and what they do . 
+  i 've installed it via the rpm packages on fedora 20 so far it seems to work but i did n't had the time to test it well enough . 
+  my principal problem is the lack of options on the dashboard . 
+  is it meant to work via api ? 
+  why i am wrong ? 
+  type2 hypervisor is just an emulator if we take in account that type2 uses the os apis to create hardware resources for the vm and that 's pretty much just the same as the definition of emulator . 
+   overall , type 1 and type 2 are wank words often used by someone discussing theoretical merits ( or straight up bullshit ) and ignoring real implementation 's features and drawbacks . 
+  i do n't agree with that , it 's very important to know what kind of hypervisor to use when planing for a production infrastructure , vmware esxi ? 
+  what if you need to modify it to meet your needs ? 
+  then kvm ? 
+  what if one of your departments uses a very old software that only runs on stone age machines ? 
+  then you need qemu but whait !, 
+  what if ... 
+  we can go on and on on that topic but what is true is that knowing what and how does the thing your chosen hypervisor is very important . 
+  http://securitywing.com/types-virtualization-technology/ those guys say about the same that wikipedia but better explained . 
+  type 2 hypervisor does not acces vt or amdv because they are n't capable of knowing what are behind the host os . 
+  then we have type 1 that allows the hypervisor to acces the cpu directly ( or a defined subset depending on the hypervisor ) . 
+  on thos 2 you have then a very bast array of models : like someone said before it is mixed pretty much , for example : kvm it uses type 1 and type 2 capabilities . 
+  then we have what is called baremetal when the kernel os only acts kinda as scheduler for the guests and littler or directly no hardware is emulated as esxi . 
+  then we have paravirtualization ( xen ) that is more a mix of a traditional hypervisor with lxc . 
+  at this point i 'm very inclined to think that here the problem is more semantic that technical . 
+  kvm is a mix of type 1 and type 2 because it can emulate hardware models and not present only the one is running into . 
+  xen is another mix due to being paravirtualized . 
+  the only true type 1 is esxi, 
+  for what i researched today type 2 and emulator are just the same . 
+  my company choose kvm over esxi because of the mixed model that allowed us to create different types of vms to address some problems . 
+  so , yes , the type matters . 
+  then if the code is neat i will read the source code because there is no better way to know how apps do things . 
+  try putting on the mtu the same value that all your lan uses minus 50 , if your lan uses 1500 then put 1450 . 
+  that is because l2tp and gre use 40 bits out of the machine control so when the machine sends the package with 1500bits size the protocol adds his 40bits and turn it into a 1540 package . 
+  what seems fishy is that the connection works and then suddenly stops workings and if the mtu was the culprit it would n't work at all but i guess is worth a shot, 
+  the best answer ever . 
+  they do n't explain why ? 
+  in catalonia , doing it the hard way of putting people on prison and retiring the parents custody while social services have a list of children in potential danger and watch them so if the parents prepare to leave the country depending on the risk they take away the kid . 
+  the above helped ? 
+  a lot , really a lot every year are less and less cases . 
+  printers are one of the best sources of fun !, 
+  some years ago i was working at a helpdesk and someone called saying :, 
+  caller : we have a problem with the printer , whenever someone prints something it crawls the wall up to the ceiling and is a pain in the ass to get it on the table again . 
+  me : wait , what ? 
+  sir , are you seriously not joking ? 
+  caller : of course not !, 
+  send someone please . 
+  me : ok , i will send some tech to look at it . 
+  so i sended a field tech to look at the spiderprinter and later the tech called me laughing hysterically . 
+  tech : it 's true !, 
+  the damn printer goes all the way to the ceiling !, 
+  hahahahahahahahahahaha, 
+  me : for real ? 
+  how the hell is that even possible ? 
+  tech : it 's an old dot matrix printer and the curtain just got trapped inside and when those guys order it to print it just rolls the paper alongside the curtain !, 
+  the worst part is that no one on that floor thought about taking out the curtain !, 
+  everything is created correctly and the namespaces are enabled . 
+  i use ovs . 
+  i 've added a second neutron node and moved the routers that stop working to there and now everything is working again . 
+  maybe on consumer hardware there are a limit to how many virtual routers can a node handle ( it appears to be 10 on my node ) . 
+  a couple of years ago we did an animal sacrifice in our temple and it was almost like you can see the gods taking it from ourselves and the connection we felt with the other realms was so strong that some guys needed help just to stand up due to the overwhelming feeling of the gods . 
+  as advice : not do this unless with an experienced godi and a very good reason to do it because the spiritual force displayed at such event is so strong that changes you from inside . 
+  the difference is that you can not take it out that easily and if you are n't 100 % sure about the meaning and effects of the runes better not to tattoo it . 
+  i find this idea a very bad one . 
+  today society is at it 's worst and has lost all sense and touch from his roots so if we separate ourselves from the rest it will mean our destruction in the future but if we live among our peers living good lives and teaching asatru through our daily actions we can spread our faith or at least make the words of wisdom of the allfather available to the whole of the society . 
+  yes , but a lot of candles in the middle of nowhere serves no purpose .

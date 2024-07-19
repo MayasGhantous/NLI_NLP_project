@@ -1,0 +1,100 @@
+  do you know what virtual address space is ? 
+  would n't the system discard an unmapped resource ? 
+  can someone just give me a code snippet that results in  4gb impact on system commit when run in a 32 bit process ? 
+  because googling this returns some generic articles . 
+  are you talking about directly mapping physical pages for private use ? 
+  i 'm sure poe is n't that demanding . 
+  can someone finally post a nonshit , preferably process explorer , screenshot of this `` leak '' ? 
+  yes , exactly . 
+  you probably want to send this to ggg , along with process explorer screenshots and your system 's description including drivers . 
+  seems like some system , maybe gdi , resources are leaking . 
+   does this system start to thrash or is it able to reallocate resources appropriately . 
+  well , since that session private blob is `` private '' and is listed as active i 'd guess it wo n't be able to do much except swap it . 
+   based on what little i 've gathered from reddit post my own theory is that the memory usage is a red herring related to windows 10 's new memory management . 
+  i think the actual problem was the upgrade in the msvcrt version that came with 2.2 . 
+  the new msvcrt is likely causing more memory fragmentation than the previous version which over time results in a failed mapviewoffile due to address space exhaustion . 
+  i think there are two simultaneous issues : first is fragmentation and exhaustion of address space caused by ever increasing amount of assets and maybe msvcrt update . 
+  second is reported as these `` leaks '' and is seemingly caused by some weird interaction with windows 10 or a particular driver . 
+  i 'm only affected by the first one , and it 's more or less alleviated by running - swa and - gc2 . 
+  i 'm on windows 8.1 and using nvidia 's latest drives too , that were reported causing memory problems . 
+  i 'm also using a creative usb sound card and there 's a known bsod issue with them described on the forum . 
+  the workaround there also talks about - swa . 
+  on the other hand i 've never had a bsod while running poe . 
+  the state is these issues is pretty confusing right now and must be a real pita to figure out . 
+  i hope they 'll share some technical details when they find out the causes . 
+  where do i get it ? 
+  http://evehistory.com/ this just links to the closed kickstarter . 
+  i 'm not saying that there 's a bug in some system software , rather that something changed in a way that poe started to interact with it in unexpected way . 
+  ai is waste of processing power . 
+  in my experience , servers started performing more poorly after the spitfire update . 
+  thanks , ~ ~ obama ~ ~ . 
+  any thoughts on going 64 bit in the future ? 
+  i really would n't mind the game mapping entire content.ggpk into memory and never having to worry about asset loading lags . 
+  although some background loading mechanism would probably be required for that since the game already takes a while to start . 
+  sorry you 're being witchhunted like this . 
+  i do n't like scamming but i do n't hate it either . 
+  what i do not like are vague policies and actions uncalled for by tos . 
+  imo everyone should just adopt ccp 's policy of dealing with scams : leave it to players . 
+  in eve 's trade hubs local chats are probably more spammy than your average poe trade chat , and it is safe to assume that * all * of the messages there are scams . 
+  nobody died because of that yet and it generally is not viewed as something bad . 
+  more like a source of occasional scam memes for / r/eve . 
+   call the out . 
+   you can do neither in poe . 
+  what exactly is this thread doing then ? 
+  just use a brain and remember that if it looks too good it probably is . 
+  you 're way too worked up about a videogame ruse . 
+   time to come clean . 
+  i 've been doing this since day one of this new league . 
+  it 's amazing how people do n't even question it . 
+  are you an eve player , by chance ? 
+  the moment i first heard that cadiro has lucrative offers i knew there 's a room for scams in there . 
+  oh , it 's the usual `` you took someone 's pixels so you 're literally hitler irl '' . 
+  how boring . 
+  eh , this propaganda spam is getting old again . 
+  have n't you learnt to pace it ? 
+  couple of posters is fine , half the front page is annoying . 
+  edit : nice brigading too . 
+  til being annoyed by shitty propaganda = idiot . 
+  also fuck karma lol . 
+  but * muh racing balance !, 
+  sorry to disrupt the circlejerk . 
+  it 's just it 's the same half-assed posters covering the front page every time when someone needs to motivate and hype a bunch of nerds for the boredom that is sov war . 
+  as i said , gets old really fast . 
+   who would of though ? 
+  it says that there 's a dev response here ... but there is n't ? 
+   strangely , it appeared to be a regression in windows 10 that caused previously normal behaviour to now leak system memory . 
+  seems to be a bit more complicated . 
+   but it has plausible deniability . 
+  the guy was `` stupid '' and died , then someone looted the wreck . 
+  i do n't think it stops ccp from investigating these kind of losses the way they do other transaction methods . 
+  give la emps pls . 
+  well , gtfo then , smartass . 
+  it 's not that . 
+  the `` leak '' was caused by interaction with a particular system component/application . 
+  the updated memory management of w10 is not the cause and it says so in the op . 
+   afaik catching exceptions is actually rather slow, 
+  \\* for fast looping renderer code , that is . 
+  how do potentially build enabling ascendancy points not make it mandatory ? 
+  edit : would appreciate an actual answer . 
+  that matterhorn shot is just wow . 
+  so crisp !, 
+  idk , countering and generally using tactics sounds pretty fun to me . 
+  [ bombs internally ] ( / intensifies ), 
+  did n't you know that the surest way to jinx your campaign is to start using wwii analogies ? 
+  amamake by 2020 ? 
+  i do n't give a shit about ea , but why are they hiring managers instead of devs/qa ? 
+   also , remember how columbus nova buys companies , gets money , then sells them ? 
+  remind me ? 
+  something something resolute technique . 
+  how is this a bad outcome ? 
+  it blended in with twitter pretty well . 
+  i 'm not even joking , this looks like a pretty successful example of machine learning . 
+  what is there to be fazed about ? 
+  this is pretty successful example of machine learning . 
+  thanks , the sub was unreadable without a filter lately . 
+  nobody forces you to stop eating your own shit but i for one am going to pass and filter it . 
+  that 's why newbro advices to try a lot of corps sound weird to me . 
+  because then this can happen . 
+  unicode/cyrillic support for chat would be a good start . 
+  especially since ru server had it . 
+  that 's with a lot of mtx on screen .

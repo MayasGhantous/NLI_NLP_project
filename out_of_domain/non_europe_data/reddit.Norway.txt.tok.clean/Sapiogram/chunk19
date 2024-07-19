@@ -1,0 +1,100 @@
+  this was pretty much my life when i was terraforming a desert . 
+  try it with sandstone blocks ... 
+  radioactive elements release large amounts of energy as they decay . 
+  an `` average '' rock in the earth 's crust generates heat energy on the order of [ 10 ^ -11 w per kilogram ] ( http://en.wikipedia.org/wiki/geothermal_gradient ) , which obviously varies greatly with the concentration of the most radiactive elements . 
+  the power generated slowly decreases over time , but because of the isotopes ' long half-lives , it will remain similar for the rest of the earth 's lifetime . 
+  and this is why companies very rarely acknowledges issues like these , even to say they are fixing them . 
+  commenting on them immediately makes four times more people know about them . 
+  often it 's better to just stay silent . 
+  luckily samsung did the right thing here . 
+  also the evo is a really high-profile product that is essential to samsung 's and their tlc nand 's reputation , so i guess that helped . 
+  it means that thousands of developers will learn the amd cpu/gpu architecture in and out though . 
+  it is completely realistic that mediocre console ports in the future ( which describes a lot of games ) , or even * good * ports , will be better optimized for amd than nvidia . 
+  some studios might even release exclusive mantle ports , although i have n't heard any talk of that yet . 
+  and even if neither of these predictions actually come true , a lot of people will consider going amd just because of fud . 
+  that might turn out valuable for amd . 
+  do you have a source for the video ? 
+  it sounds interesting . 
+  it 's definitely from lotro . 
+  people have wanted this since classic , and people are so used to it now it seems unlikely that it 'll ever happen . 
+  also , from a technical standpoint , it requires all blocks that are `` open '' , like iron bars , to store whether they have a liquid flowing through them , whether it 's lava or water , the height of the liquid , which direction it is flowing , etc. 
+  so implementing it would carry a sizable performance/world size tradeoff . 
+  that said , it probably would n't be extremely * challenging * to actually implement it , given all the abstractions that have been applied to the block format in recent updates . 
+  it would certainly be really cool if they did it . 
+  dude , it says you 're getting 4gb/s . 
+  stop and think about that for a second . 
+  sata 3 cables have an absolute maximum of 600mb/s , and you 're somehow getting * seven times that ? 
+  * obviously this benchmark is not very good . 
+  short answer : pattern matching . 
+  example :, 
+  datatype ( ` a , ` b ) either = left of ' a | right of ' b, 
+  fun f ( direction ) =, 
+  case direction of, 
+  left n =  n, 
+  | right n =  n, 
+  if you use case expressions like this , the type checker will figure out that are using the either datatype automatically . 
+  direction is just a name i chose for the input variable . 
+  it could be anything . 
+  case is part of the syntax for pattern matching , `` case direction of '' basically means `` pattern match on direction '' . 
+  the concept of pattern matching is a bit more complicated , but i 'm sure there are many good lessons on google . 
+  may i ask why you are learning ml , anyway ? 
+  it 's not a good language for starting out with functional programming , since it 's kinda old and used very little outside academia . 
+  for instance , haskell would probably be a much better choice . 
+  * wow is n't even 10 years old yet , so that would be 6-14 . 
+  * lots of people started playing in the years after its release . 
+  hell , wow had much less players after its first year than it does even now , and still attracts new players . 
+  not sure why everyone in our generation is supposed to have played wow . 
+  the picture in the thread seems to be deleted , anyone got a mirror ? 
+  my so could say that in bed and i would n't even be mad . 
+   i read an article a while back that just being outside has a calming effect on the brain, 
+  i hate to get all anecdotal , but that 's one of those things you really should n't need an article to tell you . 
+  exactly what property of `` outside '' that causes this is a highly scientific matter though . 
+  human lifespan , with or without cancer and diseases , seems to hit a wall at around 112-113 years . 
+  for people over that age , the mortality rate is well over 60 % * per year . 
+  * hundreds of people have lived to be 113 or older , but only two people have ever lived past 117 . 
+  even if we literally found a miracle cure for all forms of cancer , it seems unlikely that living past 112-113 would ever be common without other means . 
+   version `` numbers '' are a great big hack . 
+  absolutely not . 
+  a version number that 's a single , large int that is incremented with every commit would be a hack . 
+  the current format is nice and instantly human-readable , and parsing one correctly is a task you could give to any first-semester cs student . 
+  bad developers would screw up with any version number format . 
+  how is that article any better ? 
+  it consistently makes it sound like the game does not run at all on modern pcs . 
+   amd gpus will destroy again . 
+  they will yeah , 5 months from now , after the holiday seaon . 
+  until then , they will be decisively beaten in high-end gpu market . 
+  you will never see anything remotely near 1000 x86 ( or arm ) cores on any consumer device . 
+  it makes no business sense whatsoever , not even if moore 's law continues unobstructed for another 20 years . 
+  single threaded performance is what matters for the user , while multithreaded performance will continue to be important only for special purposes . 
+  it 's always about making things simple for the programmer , and that will continue to be true in the future as it has been since the dawn of computing . 
+  do n't take my word for it though . 
+  look at the numbers : intel have had quad-cores in their mainstream lineups for 6 years , and that 's still the best they 've got . 
+  amd also has nothing better than their quasi-quad cores . 
+  the core count will probably trickle up to 6-8 cores eventually , just because it 's a bigger number for marketers , but 1000 cores is just not on anyone 's horizon . 
+   there are uncountably many of them because they can have any real number as their y-intercept . 
+  mathematically , yes , but it 's not obvious whether that 's true in the physical world . 
+  two real numbers arbitrarily close to each other always have infintely many real numbers between them , but is the same neccessarily true for two particles ? 
+  do particles have a finite number of positions they can be in ? 
+  i 'm going to leave that question for someone with a better understanding of quantum physics . 
+  nearly all languages that have been created in the last 10 years have had parallellism as a very high priority . 
+  two recent and particularly noteworthy examples are [ go ] ( http://en.wikipedia.org/wiki/go_%28programming_language%29 ) and [ rust ] ( http://en.wikipedia.org/wiki/rust_%28programming_language%29 ) , which are currently in development by google and mozilla , respectively . 
+  however , programming is * fundamentally * serial ; you do this and afterwards you do that . 
+  consider this elememtary piece of code :, 
+  in order to produce a correct result , the cpu must compute 5 \\* 8 first , * then * take the result and add four , and * then * print it out . 
+  there is no way to parallelize it , neither automatically nor manually . 
+  the next time you write or see a simple program , sit down and really think about which operations could be performed simultaneously , and which operation depend on those that happened before it . 
+  you will discover that nearly all your code belongs the latter category : parallelism is just plain impossible . 
+  therefore , all the mainstream languages created with parallelism in mind still have the same basic design as other languages , they just try to make parallelism easy for when you need it . 
+  additionally , even though it often * possible * to make your code at least somewhat multithreaded on a higher level , doing so can easily take 10 times more time , with 10 times more bugs , even if the language has built-in support for it . 
+  however , developers will always choose the easiest way , and that means writing simple , serial programs . 
+  i can not emphasize this enough . 
+  making things easy for developers is absolutely vital to any product , because where would smartphones , pcs or game consoles be without 3rd party developers ? 
+  when choosing between developing for two fast cores or eight slower ones , nearly all developers would go for the two fast cores , because are they rightfully lazy . 
+  all hardware manufacturers know that , too . 
+  if they did n't they would n't be in business . 
+  i pity the poor developer who would have to develop for a * thousand * x86 cores . 
+  [ pause for dramatic effect ], 
+  this is by far the most voted-on comment in the whole thread . 
+  reddit really knows how to downvote trolls . 
+  i do n't think you realize how fast modern computers are . 
+  if there 's a performance problem with this , it 's just really bad code , which can be fixed without content changes .

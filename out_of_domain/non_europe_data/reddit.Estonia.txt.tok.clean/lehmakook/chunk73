@@ -1,0 +1,100 @@
+  but not if i can only use it while shitposting on reddit on the couch , and have to go back to function keys when working with big monitors and an external keyboard at the desk . 
+  the confusion arises out of whether you look at taxes as `` on top of '' something or `` taken out of '' something . 
+  tax on dividends :, 
+  if you pay yourself 800 euros of dividends , then the company has to pay 200 eur of dividend tax to the government . 
+  the person receiving it gets 800 eur and does not have to pay any additional income tax on it , at least in estonia . 
+  so it is 20 % `` taken out of '' a total 1000 eur , and that is equivalent to 25 % `` added on top '' of the 800 eur . 
+  vat is an entirely separate issue , not added to dividends or salaries . 
+  vat is 20 % added on top of sales to customers in estonia . 
+  if you sell someone a box of rocks with the real price of 100 euros , then you must add 20 eur to the bill , charge the customer 120 eur , and send 20 eur to the government . 
+  vat is a bit more complicated if you are a vat registered company - then you get a discount for the vat you paid when buying things yourself , so you in total pay less vat . 
+  if you are selling to customers outside of estonia , then the rules get even more complex on whether you should be adding it or not . 
+  some people also speculated that the no-touchbar version might secretly be a beast at battery life , despite the equal promised 10 hours . 
+  it has a larger battery than touchbar version , and almost 2x lower power usage cpu . 
+  will be interesting to see tests . 
+  applecare for phones covers accidental damage , but applecare for macbooks does not . 
+  it 's just an extended warranty . 
+  i think where apple went wrong is * timing * , not the actual changes in ports . 
+  * mac moving to usb-c : sure , it 's the future connect-and-power-everything port , makes sense . 
+  * iphone removing headphone port : okay fine , if it really helps making the device 0.1 mm thinner . 
+  * in the future , it is very probable that iphone will also switch to usb-c , or get rid of wires entirely ( even more courage ) : both make sense . 
+  it 's just that they did 1 and 2 together , while leaving 3 for later . 
+  this creates the weird incompatibilities that require rare cables for connecting an iphone to a mac , and introduces wired lightning headphones which will be obsolete in a year or two . 
+  i have n't used the 2015 and 2016 pro 's ( still on 2013 ) , but based on my experience of using a macbook for various work and reading about the new models :, 
+   i sorta also wanted something good for cad , but i 'm not sure if a mbp would be powerful enough for that . 
+  afaik cad programs do n't need much gpu power at all . 
+  rendering the outline of a house or a car is * much * less work than rendering a game at 60fps . 
+   could an egpu fix that ? 
+  if not , i guess i can live with visits to the school computer lab . 
+  if you want an egpu , you need the 2016 model . 
+  but right now it can be more economical and less hassle to buy a low-end gaming desktop + nice gpu rather than a egpu case + nice gpu to complement the macbook . 
+  the products available are n't mainstream enough yet . 
+   important factors to me are good build quality and battery life, 
+  these should be the same between the 2015 and 2016 models . 
+   ports, 
+  here it 's a question of future compatibility vs backwards compatibility . 
+  in the next 3 years , everything is going to be on usb-c . 
+  but the tvs , usb sticks , printers etc that people already have are n't . 
+  if you can live with adapters for a while , the 2016 might be better . 
+  at home you can get adapters and multi-port docks . 
+  but if you often want to plug stuff into it on the go , then maybe not . 
+  overall , the 2016 model is slightly better in many different aspects . 
+  if money is n't an issue , get 2016 . 
+  if money really is n't an issue , get 2016 , and get a new version every external device with usb-c so you do n't need adapters . 
+  people are n't complaining on the internet because the 2015 would be better , but because it 's not a big enough improvement to spend $ 2000 if you already have a recent working macbook . 
+  it 's under [ this castle ] ( http://i.imgur.com/am6xrms.jpg ), 
+  it seems that every argument about bitcoin includes `` hurr durr no chargebacks ! '' . 
+  i 've never heard a business being outspoken about the problem of chargebacks before bitcoin . 
+  and i 've never noticed customers being concerned about chargeback system before bitcoin . 
+  hell , many businesses offer no questions asked money back for 30-90 days even without involving the payment processor . 
+  all posts from startups looking for a payment processor are mostly talking about fees , ease of integration , available currencies and technical support quality . 
+  and customers seem to be more interested in the interest rate on their credit , air miles and other rewards , and whether you can customise the picture on your credit card . 
+  so how did chargebacks end up as a central topic in bitcoin arguments ? 
+  is it just something that is different between bitcoin and other payment methods , and because `` bitcoin is good '' this difference must be good , and chargebacks must be evil ? 
+  it looks like all python modules that i use are finally python 3 compatible , so i 'm migrating my projects from python2 to python3 . 
+  i 'm currently using virtualenv and virtualenvwrapper for every project , and it 's fantastic . 
+  but it looks like virtualenv is now included in python : https://docs.python.org/3/library/venv.html, 
+  does that mean that the old virtualenv package is obsolete , and i should stop using it for python3 projects ? 
+  is there something similar to virtualenvwrapper ( with quick switching using `` workon envname '' ) for the native python3 venv module ? 
+  hi fellow androiddevs ,, 
+  i 'm building an app that has a number of features , accessible from a common `` home '' or dashboard activity . 
+  the top-level feature activities could be for example `` calendar '' , `` friends '' and `` gallery '' . 
+  many of the features have deeper level activities , for example `` one day in calendar '' , `` messages to one friend '' and `` one photo '' . 
+  so the usual navigation flow is going `` home '' -  `` friends '' -  `` messages to one friend '' . 
+  and then backing out and closing activities on top of the stack with the back button . 
+  sometimes there are cross-feature links , for example `` home '' -  `` friends '' -  `` messages to one friend '' -  `` one photo '' if there was a photo added in the chat . 
+  if the user closes all of these in turn with the back button , all is good . 
+  but my app also has a [ slide out navigation drawer ] ( https://developer.android.com/design/patterns/navigation-drawer.html ) , which complicates things . 
+  the sort of flow i would like to get is that no matter where the user is in the app , clicking on an item in the navigation drawer would close all activities down to `` home '' , and then launch the top-level feature on top of it . 
+  so if you are in `` home '' -  `` friends '' -  `` messages to one friend '' -  `` one photo '' , then choosing calendar from the navigation drawer should result in a back stack containing `` home '' -  `` calendar '' . 
+  after this , one press of the back button would take you back to `` home '' . 
+  i 'm not sure how to implement this , since i do n't know which activities have to be closed at any time . 
+  i can call finish ( ) on the * current * activity if it 's not `` home '' , but there may be more below it on the back stack that need to be closed . 
+  some ideas i 've had have been :, 
+  * figure out a way to solve this with some combination of `` android : launchmode '' xml attributes for activities in androidmanifest.xml and flag_activity_clear_top or similar in the launching intent . 
+  but it seems to me that clearing the top only works * if the target activity already exists lower in the stack * ? 
+  * broadcast a `` finish now '' event with [ eventbus ] ( https://github.com/greenrobot/eventbus ) to all non-home activities when launching a new activity from the drawer ,, 
+  * something with [ taskstackbuilder ] ( http://developer.android.com/reference/android/support/v4/app/taskstackbuilder.html ) to construct the back stack i want , but i 'm not sure how to force it to clear the rest of the task 's activities . 
+  taskstackbuilder seems to be more useful for launching the app from notifications , when there is no existing stack . 
+  have you seen any links to tutorials or examples that might be useful , or do you know which of these approaches might be most promising ? 
+  i just upgraded to android studio 1.0.1 , upgraded all build tools & sdks that were offered , and it looks great . 
+  it builds * newly * created projects just fine . 
+  however , i have some projects that were created with previous versions of android studio . 
+  it seems that there are two issues :, 
+  * the gradle setup in these projects is out of date , and it refuses to build them . 
+  i 've updated the gradle version to 1.0.0 in the main build.gradle file ( the one in the main directory , not in app / ) . 
+  however , it 's still complaining about `` runproguard false '' to be an invalid command in the app/build . gradle . 
+  * the project layout looks different . 
+  [ here is how a newly created project looks in as 1.0.1 ] ( http://i.imgur.com/ysyjmtm.png ) . 
+  and [ here is how my old project looks in as 1.0.1 ] ( http://i.imgur.com/n1fpuii.png ) . 
+  is there some obvious conversion or upgrade path ? 
+  or should i just try copying the `` non-code '' files form a new project to the old one ? 
+  or create a new project , and copy code files over into it ? 
+  hi all ,, 
+  i 'm visiting slovenia for a week soon , and i 'd like to get a sim card for mobile internet access & wifi tethering from my nexus 7 tablet . 
+  i checked my local provider in estonia , but their daily reasonable cost roaming limit is only 100mb . 
+  i 'm staying somewhere near bled . 
+  * which would be the best/fastest/biggest data limit providers to look for ? 
+  * do they have any prepaid options which i could get without complicated contracts ? 
+  * bled seems like a small city - would it be available in a shop somewhere there ? 
+  thanks !,

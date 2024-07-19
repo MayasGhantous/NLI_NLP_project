@@ -1,0 +1,100 @@
+  there is no problem to use ef for the normal queries and use sp and raw sql ( even attached to ef ) for the complex queries . 
+  in fact i 'd say that this is recommended . 
+  however in my experience most systems have a great number of simple queries and a small number of complex queries . 
+  maybe . 
+  if i have to work on a project where i can not meet the performance requirements with ef i would not use it . 
+  i do n't know about chain but this is certainly not true for dapper . 
+  just loading related entities ( a single include per related item in ef ) makes ef code much faster and shorter to write . 
+  in micro orms you not only need to add the joins but need to manually build the relationship in c # code, 
+  i can see how you can argue that views and denormalized objects will improve the architecture although i am skeptical . 
+  however i still do n't see how that can lead to less code . 
+  with ef you can skip the roundtrip if you really want to . 
+  i agree that updates are more tedious but how about this, 
+  dbcontext.categories.include ( c =  c.products ) . include ( c =  c.tags ) . singleordefault ( c =  c.categoryid = = id ) ;, 
+  the joins and materialization of the related entities will be quite annoying with manual sql and as far as i know with micro orms you do the mapping manually . 
+  also how about paging ? 
+  a lot of my queries end up with something like . topagedresult ( ) where this method does 2 queries one for count and one with skip ( ) . take ( ) on the query that was already defined . 
+  it seems like the paging would need to be added manually to every query with a micro orm . 
+  i assume you are talking about the bad effects of clauses like offset and implementing paging strategies which somehow mark the last value seen ( like a date ) and using this to page . 
+  in my experience this is not needed in 95 % of paging scenarios ( indexing the order by is sufficient ) and is non-trivial amount of work which even requires changing the way the ui is built . 
+  while this should be done when there are excessive amounts of data it is rarely needed and a good candidate for stored procedure anyway . 
+  ef tends to do an union if it sees more than two joins . 
+  this has been my impression too . 
+  assemblies are somewhat superior to java 's jars but not as advanced as the module systems . 
+  supposedly . net core 's nuget based module system is comparable . 
+  i wo n't even read the fucking article because the title is flawed . 
+  prey was great . 
+  if i got to choose , i 'd rather see germany win over the ussr . 
+  in my opinion communism is objectively worse than nazism . 
+  there are more victims of communism than of nazism and i am not talking about war . 
+  i am talking about state-ordered murder . 
+  more of a case of winners are not judged . 
+  stalin won ww2 and so got to expose hitler 's crimes while hiding his own . 
+  for a decade even the west promoted stalin as the good guy . 
+  some of the mass murders the communists did were covered until the fall of the soviet union and by that time people were already conditioned to treat the nazis as the real monsters and communist crimes were just shrugged off as `` yeah , this is what everybody did back then '' . 
+  objectively communism killed much more people . 
+  stalin killed more people than hitler ( not even counting wars ) . 
+  communism also lead to famine while the nazis were doing quite well economically and technologically . 
+  this works on every scale you want to compare nazism and communism and for some scales there are not even examples of nazism ( there is no nazi equivalent of mao 's murders ), 
+  what did patton suggest ? 
+  sorry not an american and not familiar with this particular part of history . 
+  i studied history from the other side ( bulgaria ), 
+  nope , even if we exclude famines communism has still killed more people . 
+  and even if we only compare hitler to stalin communism has still killed more people ( if we add china , eastern europe , cambodia and north korea nazism is n't even comparable ) . 
+  on the other hand commies were n't targeting people based on origin and race so you wo n't have anything comparable to killing jewish children but i 'd say that does n't make up for all other failures of communism as compared to nazism . 
+  communism killed more people ( directly ) , communism caused famines as opposed to impressive technological and scientific advancement under nazi regime . 
+  obviously numbers are debatable and remember that ussr and stalin did n't lose a war and their crimes were not so thoroughly investigated just a couple of years after they were done . 
+  from the article, 
+   after the soviet union dissolved , evidence from the soviet archives became available , containing official records of the execution of approximately 800,000 prisoners under stalin for either political or criminal offenses , around 1.7 million deaths in the gulags and some 390,000 deaths during kulak forced resettlement -- for a total of about 3 million officially recorded victims in these categories, 
+  these are official archives alone . 
+  note that the soviets killed a bunch of people during the revolution and the immediate purges and also killed people in other countries like poland ( 250k executed officially according to the archives and many more missing ) . 
+  even famine deaths can not be fully excluded because at least some of them were targeted at specific groups . 
+  and again i am only discussing the soviets here . 
+  adding mao 's china will boost the numbers far beyond any other regime . 
+  are you honestly gon na claim that the nazis were doing worse than communists economically and technologically ? 
+  i see no indication that nazis would kill more people than the soviets did . 
+  in fact i see indication of the opposite . 
+  one of my great grandfathers is literally dead because the commies won . 
+  no `` would '' here . 
+  assuming the world would be split between the west and the nazis the same way it was split between the west and the soviets the nazis were better and chances are half of russia would not be dead the same way half of germany was not dead . 
+  the soviets were happy to execute anyone they deemed a threat without even checking if they were a threat . 
+  yes , the soviets did not intent to execute anyone based on race or nationality but one could be executed and often was executed for having for example military education . 
+  hell , in cambodia they literally executed people for wearing glasses and thus supposedly being part of educated bourgeoisie . 
+  can someone who has actually read lovecraft tell me if there are other clear references of lovecraft stories except the ones explicitly mentioned . 
+  the first story indicates that in the game universe lovecraft stories are visions of the same aliens other characters encounter, 
+  and btw ... wtf cordelia ?!?!, 
+  you study `` english and drama '' and have never even heard of lovecraft ? 
+  you in particular should not reveal things  where is the fun in that ? 
+  the community should hunt for references . 
+  on the other hand am i right to assume that the references are not just easter eggs but a kind of tie-in ? 
+  not a question but i really hope the soldiers know each other via a backstory like in jagged alliance and talk to each other , even hate each other . 
+  in addition methods should be named with verbs and classes with nouns . 
+  a class called send is a bad practice . 
+  also avoid variable names such as `` obj '' if you have a validate object ( which really should be validator ) consider naming the variable with the same name ( i.e. 
+  validator ) rather than validatorobj . 
+  there was a page with c # 7.1 , 7.2 , 8.0 roadmap on github but i ca n't find it right now . 
+  anyone know where it is ? 
+  i am quite confident mc is could be the best football player in korea if he wants . 
+  mc is simply the best human being, 
+  maybe it was this one - https://github.com/dotnet/csharplang/blob/master/language-version-history.md, 
+  however if this is one of these two pages then they have been edited . 
+  the one i remember had c # 7.1 , 7.2 and 8.0 in it, 
+  a yes , thank you . 
+  interestingly this differs from what the article describes . 
+  probably not updated . 
+  tobias west voting record `` right leaning and libertarian '' . 
+  please recruit me in new jericho !, 
+  probably referring to the match statement and additional patterns included in the original proposal, 
+  reading the stories i felt like the explanation is that aliens can influence dreams and other forms of out of body experiences ( like the guy who was on acid ) so maybe in-universe lovecraft came in contact with the alien not physically but in his dreams or something . 
+  he turned them into art much like the guy who wrote music from the story . 
+  in the game universe the game universe itself inspired lovecraft from the game universe to write the cthulhu universe , 
+  i am spoiled by c # and i actively dislike using other mainstream programming languages . 
+  i have not used python in production but i have taken a python course and did a cryptography course using python for breaking hashes and such . 
+  i do n't hate using it like i hate using java or javascript but i do n't find it better than c #, 
+  there are two kinds of hatred for java . 
+  one is hatred for the competition . 
+  the two languages are used in the same niche so some people want to prove they made the better choice and thus feel the need to express their hate for the opposite side . 
+  i have some of that flamewar-style hate but most of it is more of an annoyance when you need to use java and you are used to all the sweet things in c # that are missing or done in far inferior way in java . 
+  because in java enums are classes . 
+  this makes them more powerful in some ways . 
+  for example you can override tostring and return meaningful names from enums ( unlike c # ) .

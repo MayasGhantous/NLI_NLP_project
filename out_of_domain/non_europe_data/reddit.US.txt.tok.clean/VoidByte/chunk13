@@ -1,0 +1,100 @@
+  checkout the sshfs section on the [ fuse faq ] ( http://code.google.com/p/macfuse/wiki/faq ), 
+  witch makes application switching great again . 
+  i have ctrl + tab setup to switch between windows on the current space that are non-minimized and are n't adium . 
+  adium is the standard chat client pretty awesome all around . 
+  if your a vim fan macvim is the way to go . 
+  iterm2 is a super feature packed terminal emulator quite fast now too . 
+  dterm is the best thing since sliced bread . 
+  it bridges the gap between the gui and cli world . 
+  particularly once you know mac cli commands pbcopy and pbpaste . 
+  iterm2 has a totalterminal like feature builtin that does n't require you to install weird hook libraries into your system . 
+  but honestly i use dterm for quick commands and a full terminal for anything more in depth . 
+  also homebrew + + . 
+  narnia is always a fun read . 
+  well except for `` the horse and his boy '' . 
+  also the old kingdom trilogy ( sabriel , lirael and abhorsen ) . 
+  can you see by the dawn 's early light, 
+  this is pretty common with technical books . 
+  manning 's includes a code to download the ebook with all their books . 
+  i believe if you order online from them they even give you the download code by email so you can start reading before it is delivered . 
+  no starch gives you a copy of the ebook if you purchase straight from them . 
+  an encouragement over buying at amazon for the discount . 
+  it works . 
+  for instance i 've payed $ 100 , instead of $ 60 from amazon , just for the ebook . 
+  i 'm not sure about the two other big publishers ( o'reilly and pragmatic programmer ) but would not be surprised if they did something similar . 
+  manning 's includes a paper envelope in the front of the book with a grid of codes . 
+  you then go online and select the book and it asks you to enter the contents of a couple of squares on the grid . 
+  it 's awesome because i can pull up a pdf for a book i purchased and reference it from anywhere . 
+  [ source ] ( http://www.zdnet.com/tb/1-31199#1_31199_579066 ), 
+  you quoted it wrong . 
+  age of reason is a very religious and political text . 
+  i 'd say it is much closer to a ` bible ' for atheists than origin of species . 
+  for me the standard reason is every company i 've worked for either has a shared login for all servers or if they have individual logins then you get a skeleton home directory on each server . 
+  this means every server uses the standard config . 
+  you either get very good at behaving in one way on your local machine and another on remote machines or you just stick to the standard conf . 
+  i generally use xargs instead :, 
+  $ ( something resulting in a list of things ) | xargs < command , 
+  it also has a bunch of flags like for doing it in parallel . 
+  if you want to refer to the item by a variable you can use the ' - i ' flag . 
+  find . / - type f | xargs - p 4 - i { } mv { } / new/folder /, 
+  screen saver had crashed on my macbook . 
+  i did n't want to reset my computer so i grabbed an ipad ssh ` ed into the laptop and killed the offending program . 
+   there 's no such thing as `` telling them to apply it to the principal '' . 
+  you ca n't change how your loan works by including such instructions . 
+  when i pay extra on my car loan my credit union asks if i want to put it towards the next payment or against the principal . 
+  so from my past experience you can ` apply it to the principal ' . 
+  granted you have to have a lender that allows you to pay it off faster . 
+  i believed very similar to you until i left the church and was able to look at it from an outside perspective . 
+  while i was taught to be a ` leader ' my sisters where taught to sew and cook . 
+  while i was told i was to earn the paycheck my sisters where told they needed to stay at home and watch children . 
+  while i was given the `` preisthood '' my sisters where denied access to being `` leaders '' in the church . 
+   i have 2 sisters , and at no point in their life have i heard them talk about how they were taught to be not as valuable as men, 
+  of course bloody not . 
+  modern sexism never comes right out and says it . 
+  it 's in the subtext of what is being said . 
+  i 'm not sure why i 'm trying to argue with you . 
+  until you leave the church you will be unable to see the sexism . 
+  ** disclaimer : ** * not sure what you know so i 'm assuming nothing . 
+   also if there is any documentation on understanding the file structure better, 
+  try entering ` man hier ` into a command line . 
+  linux boxes are awesome to debug because you have a lot of good tools at your disposal . 
+  the downside is they are almost all command line . 
+  the foundation, 
+  * ` man ` : lets you read the built in documentation for other commands . 
+  * ` apropos ` : lets you search man pages . 
+  * ` less ` : used for reading documents . 
+  the default reader ( unix speak : pager ) for man . 
+  learn how to search within a document ( ` / ` ) . 
+  those three will provide the foundation for a lot of what you will do . 
+  movement & filesystems, 
+  * ` cd ` : change directories . 
+  * ` ls ` : list files . 
+  lookup the flags : ' - a ' and ' - l' in the man pages . 
+  * ` mv ` : move files . 
+  * ` cp ` : copy files . 
+  permissions, 
+  more than a handful of issues you will run into on linux will be related to permissions . 
+  * ` chmod ` : change permissions . 
+  * ` chown ` : change owner . 
+  * ` chgrp ` : change group . 
+  ` / etc/passwd ` and ` / etc/group ` are the database files that list all users and groups . 
+  while you should n't ( many do anyways including myself ) edit these directly you should at the very least be familiar with the syntax/format of the files . 
+  networking, 
+  * ` ifconfig `, 
+  * ` iptables ` : the default linux firewall . 
+  many use a wrapper around it but i find it pretty easy to use directly for most use cases . 
+  both are technically deprecated but 100 % of sysadmins i know use the old commands and not the new ones . 
+  random stuff, 
+  * ` / proc / ` : lets you read/write system information from the kernel as if it where a filesystem . 
+  lots of gems in here . 
+  * ` find ` and ` xargs ` : more advanced commands that are awesome for scripting . 
+  * ` grep ` : search the contents of files . 
+  particularly powerful with the ' - r ' flag that lets you search a folder of files . 
+  very useful with ` / var/log ` . 
+  * learn about regexes . 
+  * ` dmesg ` & & ` / var/log/dmesg ` : the system log , mostly kernel related stuff . 
+  yes regexes are very powerful with grep and find but they are also used for the search operator in both vim and less . 
+  that is another thing worth mentioning , vim and less have a lot of crossover learning one helps learn the other to a degree . 
+  i 'm quite aware checkout my note under those networking commands :, 
+   both are technically deprecated but 100 % of sysadmins i know use the old commands and not the new ones . 
+  the thing is those commands are pretty much universal .

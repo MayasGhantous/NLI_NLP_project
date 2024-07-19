@@ -1,0 +1,100 @@
+  return s, 
+  ** my problem : ** the function seems to work , but if i have a sentence and a word is in quotes , it returns the word in quotes even if it is n't capitalized . 
+  * i need to create a function that will get a text and split it into sentences ( sentences are separated with dots ) . 
+  then it needs to find out which names are repeated and excludes them . 
+  if there are two names in a sentence , that 's a pair . 
+  if there are 3 names , we assume , that the first name is only a capitalized word . 
+  if there are more or less names , there are no pairs . 
+  the function needs to return a list of all pairs that appear in the sentences ( in the text ) . 
+  * the first function i had to make was a function that returns all capitalized words from a sentence . 
+  if the word ends with comma , you need to exclude it . 
+  that 's my working function :, 
+  import string, 
+  def find_names ( sentence ) :, 
+  for word in sentence.split ( ) :, 
+  word = word.strip ( string.punctuation ), 
+  if word.startswith ( word.capitalize ( ) ) :, 
+  s.append ( word ), 
+  return s, 
+  ok for the actual function . 
+  i am stuck at the beginning already . . 
+  this is how i started :, 
+  def find_pair ( text ) :, 
+  sentence = text.split ( '' . '' ), 
+  for i in sentence :, 
+  and that is basically it , for the code that worked . 
+  i was trying to use my first function ( find_names ) . 
+  and i wanted to somehow use the count method , but no luck . 
+  i 'm kinda frustrated , since i 've spent a lot of time on this task , but did n't manage to do much . 
+  if someone could point me in the right direction , i 'd appreciate it . 
+  i need to create a function that will get a text and split it into sentences ( sentences are separated with dots ) . 
+  then it needs to find out which names are repeated and excludes them . 
+  if there are two names in a sentence , that 's a pair . 
+  if there are 3 names , we assume , that the first name is only a capitalized word . 
+  if there are more or less names , there are no pairs . 
+  the function needs to return a list of all pairs that appear in the sentences ( in the text ) . 
+  the first function i had to make was a function that returns all capitalized words from a sentence . 
+  if the word ends with comma , you need to exclude it . 
+  that 's my working function :, 
+  import string, 
+  def find_names ( sentence ) :, 
+  for word in sentence.split ( ) :, 
+  word = word.strip ( string.punctuation ), 
+  if word.startswith ( word.capitalize ( ) ) :, 
+  s.append ( word ), 
+  return s, 
+  ** ok so the function i 'm having trouble with is currently looking like this : **, 
+  def find_pairs ( text ) :, 
+  sentences = text.split ( '' . '' ), 
+  for sentence in sentences :, 
+  names = poisci_imena ( sentence ), 
+  pairs.append ( names ), 
+  pairs.append ( names [ 1  ), 
+  return pairs, 
+  i just left pairs.sort ( ) in there , but it does n't work obv . 
+  i 've also tried using :, 
+  * return sorted ( pairs ), 
+  nothing seems to work , what am i doing wrong ? 
+  i have a dictionary of dishes . 
+  each dish has its ingredients . 
+  the dictionary looks something like this :, 
+  dishes = {, 
+  `` sandwich '' : { `` cheese '' : 2 , `` salami '' : 3 , `` bread '' : 1 }, 
+  i need to create a function that returns a dictionary of needed ingredients . 
+  the function receives two arguments . 
+  the first one is the name of the dish and the second one is how many people will be eating . 
+  so the input would look something like this :, 
+  dish ( `` sandwich '' , 2 ), 
+  and the output like this :, 
+  { `` cheese '' : 4 , `` salami '' : 6 , `` bread '' : 2 }, 
+  ok i managed to get an output that is almost correct . 
+  where i 'm having trouble is , i only get one ingredient in an output . 
+  this is my function atm :, 
+  def ingredients ( dish , people ) :, 
+  for i , j in dishes [ dish ] . items ( ) :, 
+  d = { i : j * people }, 
+  return d, 
+  one more important detail . 
+  dictionary dishes is global . 
+  any tips would be highly appreciated, 
+  i need to create a function that returns the distance between two points ( the points dimensions are n't known , for what i know they can be 1000 dimensional ) . 
+  this is what i had in mind and it works , but i do n't really like it and i 'm wondering what would be a better way to write it ? 
+  for i in range ( len ( t ) ) :, 
+  return ( dis ) ** ( 1/2 ), 
+  ok , after many hours of trying things out , i think i 'll need help ... 
+  my function gets a list of lists ( a field in list form actually ) and needs to return the field itself ( not print it ) . 
+  example of the ** input ** :, 
+  field = [ [ 1 , 2 , 4 , 4 ] , [ 4 , 1 , 4 , 2 ] , [ 2 , 1 , 4 , 3 ] , [ 2 , 4 , 2 , 3 ] , [ 1 , 2 , 3 , 4 ] ], 
+  ** desired output ** :, 
+  my code only returns the list in the correct order . 
+  if i use it on the same field as above i get this output :, 
+  my code :, 
+  out = [ ], 
+  for i in range ( len ( field ) - 1 ) :, 
+  list_row = [ ], 
+  for row in field :, 
+  list_row . append ( row [ i ] ), 
+  out.append ( list_row ), 
+  list2 = list ( reversed ( out ) ), 
+  return list2, 
+  i 've been trying a lot of things , but i only managed to output all the integers together , but could n't manage to get them in seperate lines .

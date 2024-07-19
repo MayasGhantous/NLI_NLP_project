@@ -1,0 +1,100 @@
+  also used to indicate someone is pushing their luck or abusing trust ( `` yeah you can borrow some money , my wallet is over there . 
+  do n't take the piss , though '' , `` fifty quid ? 
+  are you taking the piss ? '' ), 
+  there are very few words that count as slang that are used universally , but you 'll be hard-pressed to find anyone here that does n't understand what `` mate '' or `` bloke '' refers to , for example . 
+  they just may not use the term themselves . 
+  similar to `` guy '' and `` buddy '' in the states , i assume . 
+  everyone knows what it means , not everyone uses the terms . 
+  `` mate '' = `` buddy '' . 
+  generic term meaning `` friend '' . 
+  almost exactly the same . 
+  you can probably use it anywhere you 'd use `` buddy '' . 
+  `` bloke '' ( almost ) = `` guy '' . 
+  generic term meaning `` man '' . 
+  though less general than `` guy '' . 
+  for example `` look at those guys '' could refer to a group including females , `` look at those blokes '' would be unsuitable in that situation . 
+  also , `` come on guys ! '', 
+  would * not * translate into `` come on blokes !, 
+  sounds it , yeah . 
+  though i have never heard that one myself . 
+  a `` cock up '' is pretty much exactly the same as a `` fuckup '', 
+  sarcasm is a particular application of irony . 
+  `` azz bow '', 
+  not quite . 
+  the character predates the rise of the chav by a couple of years , and was based on what i 'd roughly describe as an emulation of american hip hop or gang culture that was popular at the time ( basically british `` wiggers '' , if that term helps at all ) . 
+  chavs are subtly different . 
+  there 's less of a nod to american hip hop/gang culture as it gradually evolved into its very own identity . 
+  the way i see it is an evolution of late 90s-early 2000s [ `` lad culture '' ] ( http://en.wikipedia.org/wiki/lad_culture ) , which was essentially 18-25 year old lower/middle-class males accepting that traditional male pursuits of porn , sport , cars , drinking , etc , were all `` cool '' again . 
+  there 's also an element that came from `` lad culture '' of embracing what would have traditionally been viewed as `` lower class '' pursuits - being `` poor trash '' was almost fashionable , although the typical `` lad '' was n't especially poor . 
+  the chavs added something new : a sense of entitlement . 
+  material goods such as mobile phones , nice cars , etc were desirable , but expensive . 
+  these kids tend to be poorer , so , much like in american gang culture , they often turned to crime . 
+  but the `` sense of entitlement '' went deeper than that . 
+  changes in legislation ( and culture in general ) made it harder to discipline kids at school , and police officers would no longer get away with `` a clip round the ear '' for minor offences . 
+  parental discipline was suffering as well . 
+  younger and younger kids were getting involved - and often could n't be charged with crimes . 
+  the chavs became bolder . 
+  eventually this lead to what were essentially roaming gangs of chavs hassling people , hanging out in the street vandalising and causing general mayhem - but they felt safe that they could n't be touched by anyone . 
+  which is where the asbo ( anti-social behaviour order ) came from , as an attempt to prevent this not-easily-prosecutable behaviour . 
+  chav `` fashion '' ( the most obvious being [ `` burberry '' shirts ] ( http://xo.typepad.com/photos/uncategorized/chav.jpg ) and caps ) is interesting . 
+  at first glance , it 's almost `` sophisticated '' upper-class clothing mixed with trainers and cheap , gaudy jewellery . 
+  i have my own theories about where it came from ( which may or may not be completely wrong , but i 'll bore you with them anyway ) . 
+  the propensity for chavs to wear shirts ( rather than t-shirts ) is an easy one , straight from `` lad culture '' , where getting into a half-decent club ( in order to `` pull a bird '' ) required a shirt . 
+  over the last 30 years , football ( er , `` soccer '' ) has been extremely popular . 
+  fans follow their teams abroad for `` away '' games , and often engage in a spot of [ hooliganism ] ( http://en.wikipedia.org/wiki/football_hooliganism ) ( which i 'm sure you 've heard about ) . 
+  stealing from shops while abroad was popular , particularly clothing items that could n't be found in the uk . 
+  this lead to otherwise rough football hooligans walking around wearing rather unexpected , upmarket clothing . 
+  somewhere along the line it seems the chavs decided on burberry , and it 's stuck ever since . 
+  they were `` kevs '' when i was younger , 
+  i was just idly watching thinking `` hmm , that 's simple , but looks reasonably polished , given its name '' . 
+  then burst out laughing when the lyrics started flashing up on the screen ( and , at the same time , realised the music was n't generic rock people seem to like putting randomly on youtube videos ) . 
+  genius , 
+  yeah it 's way less general . 
+  interestingly , `` geezer '' is kinda in-between `` bloke '' and `` mate '' . 
+  can be used in place of either :, 
+  `` look at that geezer '' , `` hello geezer , fancy a pint ? '', 
+  but ( oddly ) not :, 
+  `` come on geezers !, 
+  let 's go down the pub '', 
+  i present the british-american slang generic colloquial greeting matrix :, 
+  | come on __ hello __ that __ hi __ s he 's a good __, 
+  bloke | no no yes no yes, 
+  mate | yes yes no kinda yes *, 
+  lad | no no no yes yes, 
+  geezer | yes yes yes no yes, 
+  guy | no no yes yes yes, 
+  buddy | yes yes no yes yes *, 
+  chap | yes yes yes yes yes, 
+  dude | yes yes yes yes no, 
+  \\* is much stronger than the others , closer to `` he 's a good friend '', 
+  i hereby declare `` chap '' the winner . 
+  nice !, 
+  if it did n't cost a bloody fortune to call the states from here , i might give it a go . 
+  so can buddy . 
+  `` hey , * buddy !, 
+  * why do n't you step outside ? '', 
+  have you ever driven drunk since then ? 
+  sorry to say , but there ai n't much difference between inserting a script node and ` eval ( ) ` ing the same code ( except , depending on what you 're doing , the script node might add another http request you could otherwise skip ) . 
+  ` eval ( ) ` * is * ( generally speaking ) something you should avoid unless you actually need it , because doing so means it has to fire up a parser to parse the code you 're giving it , and that 's kinda slow . 
+  sometimes , use of ` eval ` is indicative of bad design , or a misunderstanding some part of the language . 
+  which is another good reason to be wary of it . 
+  in this case however , this is n't ( necessarily ) bad design . 
+  the dude has some code , as a string , and wants to run it . 
+  that 's what ` eval ` is for , that 's why it 's there . 
+  using a separate script tag does * exactly the same thing * behind the scenes ( ie , it 's ` eval ` without actually typing ` eval `  ) . 
+  except the script tag would mean an extra http request . 
+  which means it 'll be * way * slower . 
+  as has been mentioned , many of the frameworks can automatically yank out script tags in html returned by an xmlhttp request and ` eval ` them for you . 
+  that 's probably the easiest way to go . 
+  however , here 's another suggestion , that you might like . 
+  instead of sending back html raw as you 're doing , you could be a bit cleverer about it . 
+  let 's say you send back a chunk of json instead , for example :, 
+  html : ' < h1  hello < / h1  ', 
+  then your client side javascript can receive this message from the server and treat it however you 'd like . 
+  you could stick the html somewhere :, 
+  or , you could do something fancier , for example , add something to indicate you want to run a command :, 
+  command : ` sayhello ', 
+  then maybe have some commands defined on the client side :, 
+  var commands = {, 
+  sayhello : function ( ) {, 
+  alert ( ` hello world !,

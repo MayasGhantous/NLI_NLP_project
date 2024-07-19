@@ -1,0 +1,100 @@
+  i like it a lot but the grey gives me a headache when my macbook 's display is turned all the way up . 
+  i 'm not very good with vim color schemes so anyone know a away to change it to a darker grey ? 
+  i had tried that apparently i had mistyped something . 
+  with your urging i 've reattempted it and it works much better . 
+  thanks . 
+  start with simple commands : ls , cd , mv , rm , man and apropos . 
+  then teach the fundamentals of vim . 
+  how to enter a file , save , quit , enter and exit insert mode . 
+  from there everything else can be slowly learned as they go . 
+  the fundamentals let someone get their hands dirty which will make everything else stick . 
+  need to add a user look up the command . 
+  when they preforming the same action over and over introduce them to bash . 
+  so on . 
+  edit : looking at your name i 'm assuming you are talking about yourself ? 
+  if this is true can you let us know it greatly changes the meaning of the question . 
+  i 'm a linux guy so i 'll focus there :, 
+  as i said before teach yourself the basic commands . 
+  the most important one on that list is ` man ` . 
+  this gives you a manual page for other things , so run ` man man ` and ` man apropos ` . 
+  once you have the basic commands and understand the basics of vim i would setup a linux server to serve webpages , and then to serve dns . 
+  i strongly suggest slackware for the distro . 
+  it does n't hold your hand a lot so you will have to find a few guides . 
+  if you attempt to understand what you are doing as you follow the guide you should start to pick up the system . 
+  i do n't know if my path is the fastest as this has been something i 've been doing over the last 4-7 years on and off . 
+  to start with i was about 13 in middle school . 
+  was introduced to linux played with it for a few days . 
+  lost interest . 
+  came back to linux played with it for a few weeks . 
+  lost interest . 
+  repeat each time increasing the length i played with and the depth i dove . 
+  the last few years i 've been pretty consistently using linux ( well freebsd ) and even work as the senior linux sysadmin for a small company . 
+  patched on ubuntu :, 
+  * nmap -- network scanner, 
+  * telnet -- great for testing/forging smtp sessions, 
+  * dig -- makes debugging dns easy, 
+  * ping, 
+  * netstat -- can be used to show routes , what programs are listening on what port ( super useful ) and many other bits of info . 
+  * scp, 
+   every gnu/linux distribution at the moment ( including ubuntu ) confuses system software with end user software , whereas they are two very different beasts which should be treated very , very differently . 
+  i think this comes up a lot when you start looking at things like python . 
+  there are lots of system utilities that use python version x but your developers are using version y. 
+  by upgrading to version y there is a chance ( not often but it does happen ) you break system utilities that rely on x. 
+  we need to have an easy path for users to install software for the user , a path for the sysadmin to install software for the system and for the distro/os developer to install stuff for the distro/os . 
+  you are correct but none of the major distros that i 'm aware of provide easy ways to install to any but one of these locations . 
+  freebsd is great because it does draw the line between distribution software and sysadmin software . 
+  i do n't think the ports tree lets you install to home though . 
+  and good luck in ubuntu getting it to draw even this line . 
+  if you are aware of a good way to get this level of separation with the default tools on something like ubuntu i 'm happy to be proven wrong . 
+  salts are designed to break rainbow tables . 
+  so say i have 10,000 hashes . 
+  if i want to break them i can just take a dictionary and hash each word in the dictionary . 
+  this gives me a table of passwords -  hashes . 
+  then i can go through the table of 10,000 hashes and reverse them to their passwords . 
+  by appending the salt to the password i must generate a different copy of this password -  hash table for each password i want to break . 
+  salt lake city , utah = s.l.ut, 
+  i had more money but earned less . 
+  i just had no expenses . 
+  i 'm currently working to reduce my expenses so i can rebuild my savings . 
+  dyndns for registration and linode for dns hosting . 
+  i believe you can just launch the livecd and select recovery mode . 
+  it should have an option to reinstall grub . 
+  bullshit , he is being downvoted because he is trying to claim it has n't been prior to this announcement . 
+  as others have said , `` found what ? '', 
+  at this point in time all that it is , is a unsubstantiated rumor . 
+  once evidence has come out to prove that the rumor is true you can start complaining about people not having found it . 
+  completely unrelated to your issue but gives an insight into cool things you can do with the right commands . 
+  basically find all files that are older than 14 days in $ { dir } and delete them . 
+  useful for backup scripts . 
+  so i 'm sure it is a stupid question but how are you making the sticks that ` hold ' up the balcony ? 
+  thanks . 
+  thanks . 
+  woot !, 
+  i was in the room for this talk . 
+  sorry about the orson scott card book , i have relatives who hate me too . 
+  but who ever got you `` code '' obviously loves you . 
+  it is a super awesome book . 
+  i was mormon . 
+  someone has already mentioned amber by zelazny . 
+  so instead i 'll leave sabriel by garth nix . 
+  it 's a young adult novel but has a fun story . 
+  [ tarsnap backups for the paranoid ] ( http://www.tarsnap.com/ ) strongly encrypted dedupping backups . 
+  the interface is basically just using the tar command except the tar is hosted * `` in the cloud '' * . 
+  i 'm not a super big fan of the cloud but tarsnap uses a * trust no one * security method . 
+  i 'm a big fan of [ `` what you 'll wish you 'd known '' ] ( http://www.paulgraham.com/hs.html ) . 
+  probably his best essay , well at least the one that has had the most effect on my life . 
+  edit : corrected title . 
+  thanks fancy_panster . 
+  i 'm not a cryptography expert but should n't you use a key derivative function like scrypt or bcrypt plus a salt . 
+  anyone know if there is a way to tie in alternative diff tools into git . 
+  for instance it would be pretty cool if you could throw [ bsdiff ] ( http://www.daemonology.net/bsdiff/ ) in and set it to only be used on the binary files . 
+  i 'll agree with the first path . 
+  disagree with the second part . 
+  vim and emacs are both great editors with very different philosophies . 
+  depending upon taste of user both can be equally valid . 
+  now then notepad , and textedit both need to die in a fire . 
+   microsoft is the first smartphone platform provider, 
+  i 'd contend that google was the first . 
+  my nexus one has no restrictions on it . 
+  nohup ( 1 ) disassociates the process with your session . 
+  when your session ends it ca n't kill the process because they are n't related .

@@ -1,0 +1,100 @@
+  { \\ ell \\ left ( v _ { \\ mathrm { upper } } ^ { -1 } + v _ { \\ mathrm { lower } } ^ { -1 } \\ right ) }, 
+  \\ end { equation * }, 
+  can i make it go away ? 
+  as a joke , i 've made a deck designed around ruining specifically haunting scream decks ' days . 
+  ( i do n't have anything against the deck or people who play it , i just find it funny to confuse people on ladder , and haunting scream is a common deck that rarely finds direct counters . ), 
+  however , i 'm not very good at deckbuilding . 
+  what i have here is certainly nowhere near the optimal way to kill haunting scream decks . 
+  what changes can be made that further devastate haunting scream decks ? 
+  ( note : i 'd run more stewards , but i only have two . ), 
+  4chan 's / his / enjoys making up silly , fake history . 
+  one such thing they made up is the [ finno-korean hyperwar . 
+  ] ( http://hispedia.wikia.com/wiki/the_finno-korean_hyperwar ) this is interesting , because it has several common elements with the vague history given to us in the dark science plotline :, 
+  - there used to be `` nephilim '' , but they disappeared around 10 kya in an armed conflict, 
+  - there used to be a lemuria , but it is now lost, 
+  - there used to be technologically advanced people 10 kya , but they disappeared around the same time as the nephilim, 
+  - koreans as a source of technological power, 
+  how does this relate to the dark science plotline ? 
+  there are three possibilities , in what is , imo , a descending order of likelihood :, 
+  - they are both inspired by common sources, 
+  - the entry is inspired by dark science, 
+  - dark science is inspired by the entry, 
+  dating the entry distinguishes the latter two possibilities , but there is no way of knowing whether it 's actually the first case . 
+  lemuria as a lost continent is a far older idea than either the entry or dark science , but i dunno how likely it is to find it alongside these other things , if one assumes no direct connection to dark science . 
+  have these story elements been gathered together before , in some third place ? 
+  8/8 that 's hard-countered by the last word : scourge of frosthome, 
+  6/6 that hard-counters the last word : rolant , the iron fist, 
+  this post is brought to you by the time i accidentally killed myself by attacking rolant with the last word , and the time i was able to completely turn a game around after topdecking the last word and killing scourge of frosthome with it . 
+  my parents own a miele combi-steam oven they bought a few years ago , and the only method of input on it ( besides a power button , and a `` reveal water trays '' button ) is a touch screen with a billion different programs you can select . 
+  one of these is `` sous vide '' . 
+  i do not have the money for a real sous vide machine , but i cook for my parents whenever i 'm over , and i 'd really like to try cooking sous vide , on account of it being what i understand is the best way to prepare steak , and an interesting way to prepare a variety of other things . 
+  i am , however , at a loss as to how to actually use this machine to do sous vide , and whether it 's even a good idea to do so . 
+  it did not come with a bin for water , and it does not have any attachments that would let you use it to reliably heat a bin of water . 
+  besides that , by design it can reach a very high humidity when running a `` steam oven '' sort of program , which , combined with the former observations , raises the question of whether they intend for you to use a bin of water at all . 
+  the `` sous vide '' program allows you to set the temperature , humidity , and cooking time , which is exactly like most other programs on the machine . 
+  about a year ( ? ), 
+  ago , i tried putting a vacuum-sealed flank steak , without submerging it in water , in the machine on the `` sous vide '' setting , following [ serious eats 's sous vide steak guide ] ( http://www.seriouseats.com/2015/06/food-lab-complete-guide-to-sous-vide-steak.html ) and letting it cook around 130 \u00b0 f for ... maybe 4 hours ? 
+  the result was unfortunately completely inedible , being some kind of very strong rubber . 
+  i think i will try it again , this time putting the steak in a bin of water . 
+  is this the right thing to do ? 
+  should i not even bother ? 
+  the principle of it seems sound ; sous vide is just vacuum packing something and submerging it in very warm water for a long while . 
+  if i set the oven to a temperature , it 'll keep the water at that temperature ... right ? 
+  especially with the `` sous vide '' program running . 
+  ( i think last time i got the idea to not submerge it from a miele instructional video . 
+  but maybe not . 
+  i definitely did watch some kind of official miele video on sous vide using their steam ovens , but either it did n't indicate the technique , or it told me not to submerge it . ), 
+  sorry , advance disclaimer : i am not a sysadmin , but i figured y' all would be the best people to ask , especially because i 'm trying to avoid involving my own sysadmin in this silly problem . 
+  if this is not the right place to ask about my problem , i would appreciate direction as to where to ask . 
+  i am having trouble tunneling udp packets through ssh to connect two services , and i think it is because i do not understand tcp/ip very well , among other things . 
+  first , an introduction of the elements in play here :, 
+  - a really nice , collaboratively-written , state-of-the-art suite for biomolecular computation is [ rosetta , ] ( https://www.rosettacommons.org/ ) which includes a set of c++ libraries , many standalone binaries , and even its own xml-based scripting language . 
+  - rosetta has a python front-end called [ pyrosetta . 
+  ] ( http://www.pyrosetta.org/ ) it has two top-level modules :, 
+  - ` pyrosetta ` , a clean api implemented in python, 
+  - ` rosetta ` , the entire rosetta c++ backend, 
+  - the preferred molecular visualizer in the field is the python-based foss visualizer [ pymol . 
+  because pymol is so popular , the developers of pyrosetta have implemented a way for pyrosetta to send information about molecules as they are being manipulated to pymol , via udp . 
+  the protocol is mainly intended for a pyrosetta script being run on the same machine as the pymol instance , but there is apparently a way to change the target ip and port on the pyrosetta side , and the listening ip and port on the pymol side . 
+  more on that in a moment . 
+  for me , as for most researchers , pyrosetta runs on a remote server cluster at the university i research at , to which i connect with ssh . 
+  this cluster does not have pymol installed , because it does not have any video capability . 
+  i and the one other guy who works with pyrosetta thought that it 's impossible to hook up a local pymol to a pyrosetta script running on our cluster , but now that we have learned that the ips and ports may be able to be changed , our interest has renewed , because the pymol hookup is pretty much the best thing about pyrosetta , and it may be what we need to sell everybody else in the department on pyrosetta . 
+  the protocol goes something like this :, 
+  - on the pyrosetta side , you have a class called ` pymolmover ( ) ` . 
+  movers are objects that are supposed to perform some kind of operation on a molecule ( a ` pose ( ) ` object ) . 
+  ` pymolmover ( ) ` sends udp packets to the pymol-side listener . 
+  a python program that makes a molecule appear in pymol should look something like this :, 
+  from pyrosetta import * ; init ( ), 
+  pose = pose_from_pdb ( `` some-molecule . pdb '' ), 
+  pymover.apply ( pose ), 
+  upon initializing modern ` pyrosetta.pymolmover ( ) ` , you can specify an ip address and port , with ` pymolmover ( `` 1.2.3.4 '' , 5678 ) ` . 
+  whenever ` . apply ( ) ` is called , it should send a udp packet to its chosen address and port with all the necessary information . 
+  by default , this address is presumably ` 127.0.0.1:65000 ` , but i have no way of knowing for sure , because i ca n't inspect it . 
+  [ the ` pymol_mover ( ) ` tutorial ] ( http://www.pyrosetta.org/pymol_mover-tutorial ) on the pyrosetta website appears outdated . 
+  it seems at some point , the ` rosetta ` module included a ` pymol_mover ( ) ` , with the underscore in the name . 
+  this version of the mover had a ` . link ` attribute , where the outgoing ip address and port could be changed . 
+  [ a forum post from early 2014 ] ( https://www.rosettacommons.org/content/send-output-pyrosetta-pymolpyrosettaserver-remote-computer ) suggests that the linux version does n't have ` rosetta.pymol _ mover ( ) ` , only ` pyrosetta.pymolmover ( ) ` ... but maybe only if pyrosetta was compiled incorrectly ? 
+  my ` rosetta.so ` came precompiled , and was downloaded directly from pyrosetta.org . 
+  - on the pymol side , you have [ a python listener script you can run in pymol . 
+  ] ( http://graylab.jhu.edu/pyrosetta/downloads/pyrosetta_scripts/pymolpyrosettaserver.py ) running the script will tell pymol to start listening for udp packets sent to ` 127.0.0.1:65000 ` . 
+  this address can be changed by running ` start_rosetta_server ( `` 1.2.3.4 '' , 5678 ) ` in the pymol console . 
+  i am not sure of the best way to approach getting this thing working over ssh . 
+  i have tried tunneling the udp packets being sent to port 65000 on the server over to my own port 65000 :, 
+  on client :, 
+  mkfifo / tmp/tunnel, 
+  nc - l - u - p 65000 < / tmp/tunnel | nc localhost 10001  / tmp/tunnel &, 
+  ssh - l 10001 : localhost :10001 username@server.edu, 
+  on server :, 
+  mkfifo / tmp/tunnel, 
+  nc - l - p 10001 < / tmp/tunnel | nc - u $ servers_ip_address 65000  / tmp/tunnel &, 
+  . / pymolmover-test-script . py # should make molecule show up in pymol, 
+  in pymol ( on client ) :, 
+  run pymolpyrosettaserver.py, 
+  nothing shows up . 
+  what am i doing wrong ? 
+  ` $ servers_ip_address ` is whatever ` ip addr show ` tells me for ` inet ` under ` eth0 ` on the server . 
+  i have tried sniffing udp packets clientside with ` sudo tcpdump - i lo udp port 65000 - vv - x ` , but it showed literally nothing . 
+  i also tried ` nc ` ing all the relevant ports , but none of them turned up anything , so i either have the whole tunnel set up wrong , or ` pymolmover ( ) ` is n't doing its job . 
+  i have also tried setting up the entire tunnel backwards , just in case i misunderstood its direction , but no dice there either . 
+  again , sorry this is really long-winded , i just did n't want to leave anything out that may be important .

@@ -1,0 +1,100 @@
+  however if i use razor pages and something requires more complex architecture i would have to introduce mvc which is different from razor pages . 
+  this was not an issue with web forms . 
+  if i needed more serious stuff i still use the same web forms and not mvc . 
+  what is more when you are building a spa you already have the controllers folder and maybe the models folder for api dtos . 
+  at best you reduce the complexity by 1 folder at worst by 0 folder . 
+  you just pointed one more area in which web forms was wild success - transitioning existing devs . 
+  nothing like this with mvc . 
+  there were of course other options that predate asp.net mvc like monorail . 
+  in the last 6 years people barely build mvc apps , almost everything is spa . 
+  of course it is not . 
+  however it is absent in mvc ( this is why mvc sucks ), 
+  i believe more than 90 % of the web projects are spas or should be spas for the same reason nobody will choose web forms . 
+  you are basically in legacy land if you are not using the fancy frameworks and will have trouble hiring people . 
+  as if there is anything here to `` try '' . 
+  they just let me write a method for post and get and populate an object from the form fields . 
+  i think you can use partial view for this ( at least you can with mvc i see no reason why that would n't be possible with razor pages ) . 
+  however this is not what a component is . 
+  a component can have behavior and encapsulation . 
+  this is true if your database does n't have a type for it and stores it as a string . 
+  in addition the queries will not suffer only the inserts . 
+  you revert to method 2 . 
+  people should really stop acting as if method 2 is never required . 
+  there are ways to speed up method 2 like precalculating pages . 
+  luckily in practice if you have 100\u00a0000\u00a0000 records you almost never need numbered paging because you always need search . 
+  nobody user is going to binary-search your million pages for the page he is looking for . 
+  moral of the story - pagination is harder than the article makes it seem . 
+  if you a community ever has discussion about diversity it is lost . 
+  all discussions from then on is about diversity . 
+  npm is a pile of shit . 
+  i do n't take advice on anything from anyone who participated in the creation of the node_modules / ... / node_modules / ... / node_modules / ... mess, 
+  empirical observation . 
+  i built one project as mvc and now have to rewrite it . 
+  not really sad about it since it gave time for the front-end frameworks to mature but i definitely do n't see it going on as mvc in the future so we 're migrating ( migrating to asp.net core on full framework in the process ), 
+  is there any real world application where quantum computing has beaten digital computing ? 
+  i kind of feel like this will be one of those things that everyone knows are the future but then they are forgotten and do not take over the world . 
+  i wan na know if it has delivered results yet . 
+  i know that i am not supposed to have quantum computer laptop . 
+  last i read they only fixed it for the highest version of the package and if a lower version was used as dependency it reverts to the old style or something like this . 
+  and the current state of the art is 5 qubits ? 
+  i see . 
+  still has someone managed to put them to any practical use that beat digital computers ? 
+  yeah but if i understood correctly an incompatible dependency would cause node_modules all the way down even if its dependencies were compatible . 
+  they flatten the dependencies but they do n't use versions for that flattening . 
+  basically there can be only one version in the root . 
+  for some time now i 've been thinking about some small annoyances in starcraft ii that i want to see fixed . 
+  of course i have big requests like everyone else but i know these are hard to agree on so there is not much sense in posting them . 
+  so here is a small list i want to see fixed and believe that everyone can agree to and also that it is not so hard for blizzard to implement it . 
+  * make tight walls more obvious - i sometimes have trouble telling if a wall is tight just by looking at it . 
+  if it was only me i could swallow it but as it seems pro players also mistake tight walls for not tight . 
+  i have seen julyzerg try to run into a tight wall in a gsl match . 
+  in the recent gstl match between prime and fnatic tasteless and wolf were not sure a wall was not tight and they are professional casters . 
+  walls on the bottom of the ramp are most often not obvous . 
+  this is probably the hardest to fix but i guess blizzard can manage it by changing some textures or even introducing minor changes to the edge of the building when it forms tight wall with the terrain . 
+  * get rid of game time !, 
+  no one plays on normal speed so why not normalize the time and use real time ? 
+  the current unit build times will be harder to remember because they will not be integers but they can be tweaked to fit full second without affecting the balance too much . 
+  however if this is deemed too much at least add an option and let the player choose if he wants the fake clock and timings or the real ones . 
+  * require vision for mineral walk on workers - i am a bit annoyed when a player scouts another player despite the fact that the defending player has blocked his ramp perfectly with units . 
+  i believe mineral walk should require vision like it did in starcraft i. 
+  * make unit pathing depend on vision - currently units just turn around and choose another route if there is a block on the road even if they have no knowledge of the block . 
+  in my opinion this is a bit unfair and also surprising behaviour . 
+  i sometimes wonder for a bit why my units disregard my commands until i realize that the oher player has blocked the path and i have not scouted it yet . 
+  it would be cool if units did not magically know of a blocked path . 
+  i know these are kind of minor and not really important but it is hard to find something important that everyone agrees to ( except that we want lan ! ), 
+  do you have any suggestions we can all agree to ? 
+  remember `` remove the mule '' is not a suggestion we can all agree to !, 
+  bonus suggestion :, 
+  * include this song in heart of the swarm - http://www.youtube.com/watch?v=hcvpfbu9n14, 
+  so we had the first real tournament where kespa players faced gom players . 
+  the results are pretty clear although there were some surprises :, 
+  some people expected kespa players to dominate after a couple of months when they switch to sc2 , others expected longer transition period and some said that kespa players will never catch up to current sc2 champions . 
+  how do you feel about todays results ? 
+  did kespa players disappoint or did they do better than expected ? 
+  everybody is posting their threads on `` saving '' starcraft so i decided that i might try as well , after all posting on reddit is free , 
+  i think in threads like this it is appropriate to announce your background . 
+  i am 29 , i love starcraft and i consider it the most important thing in my life . 
+  starcraft determined my choice of education and career ( software dev ) and i know a great deal of my friends due to starcraft . 
+  i have been in masters on the eu ladder since the game was released . 
+  it is important to define what i mean by the words `` dead ( game ) '' and `` competitive ( play ) '' . 
+  `` dead '' is a game which i can not play and discuss with more than three of my friends and for which there are no offline events in 200km radius . 
+  these circumstances greatly reduce the fun i have with a game and no amount of pro scene can compensate . 
+  starcraft i was dead to me long before starcraft ii for these exact reasons . 
+  it was only alive in korea . 
+  `` competitive '' play means playing to win and finding this fun . 
+  it does not mean pro level play or even high level play . 
+  i 've played many games competitively - doom 2 deathmatch , warcraft ii , starcraft , quake 2 , quake 3 , heroes 3 , warcraft iii , company of heroes and of course starcraft ii . 
+  i 've taken part in tournaments in these games . 
+  hell , i once played in a street fighter 4 tournament and even won the first two matches . 
+  most of these games are dead . 
+  the biggest wtf in recent threads for me is the idea that blizzard need to buff the custom games to save e-sports . 
+  how is that ? 
+  dota did not save warcraft iii . 
+  dota killed warcraft iii . 
+  most of my friends who played warcraft iii went to play dota and never looked back and some of them were on pro wc3 teams and had played in wcg finals . 
+  so what do we need to do then ? 
+  ** people want to play with their friends in a team ** . 
+  since the internet became good enough and counter-strike was released team games are more popular than 1 vs 1 games . 
+  cs killed quake , dota killed warcraft iii . 
+  since the release of sc2 the community has been giving the team matches a bad reputation constantly repeating that only noobs play team games , that team games are imbalanced and that no one wants to watch team games . 
+  no team matches streams , no team matches tournaments , no team pro players .

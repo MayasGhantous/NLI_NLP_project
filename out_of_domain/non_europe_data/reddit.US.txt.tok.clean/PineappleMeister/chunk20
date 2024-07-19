@@ -1,0 +1,100 @@
+  / * display : none ! important * /, 
+  remove this 2 things from there, 
+  position : absolute ;, 
+  and remove from this, 
+  #header {, 
+  background : url ( % % top % % ) repeat-x ;, 
+  remove this, 
+  you may also want to remove this if you want to have the tabs line up like in the default stylesheet . 
+  something like this and it should fixed it . 
+  #header {, 
+  background : url ( % % top % % ) repeat-x bottom ;, 
+  write it like this then . 
+  #header {, 
+  background : url ( % % top % % ) repeat-x ;, 
+  background-position : bottom ;, 
+  for the reddit image you can do something like this . 
+  #header - img {, 
+  position : absolute ;, 
+  top : 25px ; / edit this, 
+  for the sub name it 's something like this . 
+  #header - bottom-left . pagename a {, 
+  position : absolute ;, 
+  top : 10px ; / edit this, 
+  left : 50px ; / edit this, 
+  edit the number to what ever you like ( i just guess those . ), 
+  i like this [ titanic ii ] ( https://www.youtube.com/watch?v=vetafnj2tpq ) better . 
+  man that was so good , i mean it was good enough that if it was a movie i would have paid to see it . 
+  seriously people should be watching this show . 
+  with the announcement of the new ceo at microsoft , it was also announce that you will spend more time at ms , will you focus more on the consumer side of ms ? 
+  where it seems that they are not doing as well as the business side of it ( even thought you had a another great earnings report ) . 
+  also heard that satya nadella was your choice for ceo what was your reason for making him your choice ,, 
+  it is that ( afaik anyways ) , you need to remove overflow : hidden ; from there and added it to . link , but you will have other problems with the sidebar if you do , since the sidebar is bigger the the default . 
+  . sitetable.nestedlisting  . comment , . res . sitetable.nestedlisting  . comment {, 
+  border : 0 ! important ;, 
+  margin-bottom : 0px ! important ;, 
+  remove what i said in the other comment but also remove the line that says width :100 % ; from here ( note there are 2 parts with the same code on the stylesheet , one for res nightmode ) this may work but i 'm not sure ... sorry i ca n't be more of more help, 
+  but by that logic if the may sale number are bad and they do n't announce something he would be wrong would n't he ? 
+  that 's true , although since it coming to the 360 and pc it may not be as big . 
+   though tlou is finished ( read : no sequels , no more dlc -- naughty dog 's calling it one and done ) , the lessons learned in the process are far reaching . 
+  `` we have to check in with ourselves as developers and figure out what are we after here , '' straley told us . 
+  i mostly posted this article because of this part of the end looks like there will be no more tlou games . 
+  threatening user with posting their personal information will get you banned . 
+  this is your only warning . 
+  cool pic however post it to / r/ps4mods, 
+  show off or bragging posts . 
+  these include pictures of boxes , trophies earned , console/controller skins , etc. 
+  / r/ps4/wiki / subreddit/rules, 
+  arm wrestling ?? 
+  man amc is producing lots of shit recently hopefully they do n't turn into another scifi . 
+  removed : rule # 5 check / r/pcgamingtechsupport or / r/techsupport . 
+   because nokia is a ms subsidiary now . 
+  i do n't think it 's been finalize yet , this device would have been killed if it had . 
+  ( although if the wp and android apps rumor is to be believe they may actually keep it ), 
+  rule # 5 check / r/pcgamingtechsupport or / r/techsupport . 
+  do you see ms selling a phone that 's not is wp ? 
+  i do n't , unless they have given up on wp as it would split their ecosystem or as i said they do the android app thing that 's been rumor . 
+  removed : rule # 5 check / r/pcgamingtechsupport or / r/techsupport . 
+   htc one ... gold, 
+  that one came out after apple 's gold iphone , i remember people taking shots at samsung and htc when that happen . 
+   the first gold sgs4 was sold two days before the iphone 5s came out ( let alone a gold ip5s ) . 
+  sold ... 
+  here, 
+  fta, 
+   two weeks after apple 's september 10th reveal of a champagne-colored iphone , samsung is launching its own golden phone in the shape of a new gold edition galaxy s4 . 
+  but it was sold 2 day before iphone i guess lol . 
+  everyone was making fun of samsung because everyone knew months in advance that the iphone was coming in gold and samsung just happen to have a gold ? 
+  do n't tell me that was n't because of the iphone . 
+  they are doing a mercedes grand turismo vision speedboat , no joke ... 
+  i wonder if the boat will be playable in gt6 ? ... 
+  do we know if this will be a z2 ? 
+  i see this more as a z1 for verizon . 
+  specially with all the red in that teaser . 
+  rule # 6 : no questions about buying or building computers , including part questions , those go in / r/buildapc, 
+  when i saw this post i thought it was in / r/diy lol , still great post thought and thanks op for posting more than 1 picture . 
+  well that 's creepy . 
+  that dude does n't look like a doctor , so will be watching under the idea that he is lying . 
+  removed : rule # 5 check / r/pcgamingtechsupport or / r/techsupport . 
+  have always dislike this image , it ignores that the complexity and cost of development has risen while the price of games have stay the `` same '' price , [ hell it 's actually lower due to inflation ] ( http://data.bls.gov/cgi-bin/cpicalc.pl?cost1=50&amp;year1=1990&amp;year2=2014 ) . 
+  and yet people want more but do n't want to pay more for it . 
+  we know what games cost to make in 1999 and what they do now , it not my opinion . 
+  unity it 's not comparable i 'm talking about aaa games , but you are right in the sense that the cost of making independent games it 's a lot lower today and easier . 
+  thanks , fixed . 
+  it did n't get hack , i think he is talking about the thing last month ( ? ), 
+  where a site got hack and user who were using the same password as their yahoo password got their email hack . 
+  also yahoo has 2 step authentication which people should be using anyways . 
+  i have adblock off on this site and i hardly ever get ads that are not ads for other subreddits , so i had no problem turning it off . 
+  removed, 
+  do not : personally attack other users . 
+  probably a virus . 
+  this was a spam post . 
+  you need to remove that affiliate tag from you link , if you want your comment approve . 
+  it is what modding is , for the most part and we will not add anyone unless we know they can do the basics . 
+  i used black because that was the main color we had before but if more people one a dark red as the hover color , i will change it . 
+  thank for the feedback . 
+  yea i agree on the red and greed ( i think the sidebar is the only place we had green although ) and that there is lot of red in the sidebar . 
+  changed it some , is it better now ? 
+  another comment pointed out that there was a lot of red in the sidebar so i change it back to black . 
+  removed . 
+  do not : personally attack other users . 
+  there were only 4 fonts , and one was a mistake .

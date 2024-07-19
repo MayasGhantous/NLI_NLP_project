@@ -1,0 +1,100 @@
+  - _ perspective-correct texture projection _ : in the same way you can reconstruct a mostly correct depth buffer by matching a stored z position to a xy screen position pair . 
+  not always perfect ( the game can always change them in the cpu before relaying them to the gpu so there 's no way of finding out the correct z for all of the vertices ) but still better than no depth information , affine texture projection was pretty noticeable in the original hardware , that 's why conscious developers like _ naughty dog _ dynamically tessellated geometry [ to limit the affine error at steep viewing angles ] ( https://upload.wikimedia.org/wikipedia/commons/5/57/perspective_correct_texture_mapping.jpg ) . 
+  think of oblique ground and walls closer to camera . 
+  as a plus you can apply many screen-space effects and get real 3d output from the game , useful for vr and all those trendy fads . 
+  what i 'd really like to see is a similar hle layer hooking the dma commands in the gpu to fingerprint/hash and replace textures by custom hd variants . 
+  that would be neat . 
+  further reading : https://en.wikipedia.org/wiki/playstation_technical_specifications, 
+  you can do the same thing but at an api level . 
+  it 's actually easier than enforcing it in hardware , instead of having a virtual framebuffer you hook all the _ nintendo ctr sdk _ functions that games use and force whatever parameters you prefer . 
+  most modern console games only talk to the underlying hardware and memory through intermediary layers , so hle is actually faster if you have a good understanding of the different layers . 
+  sometimes you can avoid emulating chips altogether . 
+  think of the hle dsp in dolphin that directly parses game-specific ucode . 
+  that 's amazing stuff . 
+  first of all , you can send anyone you want a cease and desist . 
+  you do n't even need a real reason , it 's run-of-the-mill legal bullying scare-tactics . 
+  secondly , yes it 's totally legal in places like europe , with laxer reverse engineering laws . 
+  in places like usa with draconian rules ( stemming from dmca ) things are a little more iffy , but there is some legal precedent from the 90 's where emulators won the [ case against big corporations in the spirit of interoperability ] ( https://en.wikipedia.org/wiki/reverse_engineering ) . 
+  finally , the authors of cemu are anonymous ghosts right now , which is a smart move . 
+  also , the rule of thumb in here is that as long as your program does not use anyone else 's intellectual property ( ip ) you are okay . 
+  _ note _ : there 's nothing intrinsically better or worse with the closed source approach apart from personal preference and beliefs . 
+  and you can always disassemble the emulator to gain insight . 
+  i 'm talking from a legal perspective . 
+  a closed source emulator is not _ less _ legal or questionable because of its licensing model . 
+  you may argue that open source aligns better with your idea of collaborative improvement , but that is a totally different point . 
+  and this comes from someone using linux with open source drivers . 
+  good point . 
+  you may be right . 
+  the response to that is a pretty clear _ no _ . 
+  until now buttons have been the go-to way of toggling functions in devices , and for a good reason . 
+  they are discrete components which have actual feedback , they either work or do n't , are sturdy and protected against accidental touch , and ultimately they can be repaired , replaced or shorted in extreme scenarios . 
+  you know that they will always be there . 
+  think of the apollo mission and the kind of lesson it teaches us , repairing circuits with a felt-tipped pen :, 
+  touchscreens are always sub-par in every single scenario . 
+  this looks more of a designer concept out of _ hey , looks cool ! _ than thinking from an usability standpoint , cramming low density information with pretty images for highly trained pilots who know what they are doing and do n't need to be entertained . 
+  have anyone of you played mobile games with touch buttons ? 
+  do you prefer them to actual gamepads ? 
+  imagine doing that at terminal speed and slipping a finger or breaking the polarization screen . 
+  a button will still work even if many other components are damaged . 
+  less is more . 
+  please tell me that you are joking . 
+  is this real life ? 
+  cef + js for critical aerospace touchscreen guis , we are doomed . 
+  you are right , it 's not mission-critical stuff . 
+  still , looks pretty over-engineered for life-threatening scenarios . 
+  this is more for show , to appeal to the dreamy sci-fi layman idea of what should look-like , than to be actually useful . 
+  i understand that commercial endeavors have to pay more attention to marketing and eye candy to gain funding and popularity , but this is just way too much . 
+  there has to be some distinction between fantasy and reality , and i feel like spacex is compromising a lot of robustness and simplicity in exchange of aesthetics . 
+  time will tell , but i smell tragedy in this direction . 
+  somebody said in another thread that they are using a web-based js interface . 
+  which i find baffling and scary . 
+  i really hope that they know what they are doing . 
+  embedding an entire web browser stack over a compositor and script it using the most bloated language in existence seems like too many abstractions for making pretty sci-fi buttons . 
+  so many layers can go wrong . 
+  we 'll see how that pans out . 
+  hopefully some lessons will be learned from all the innovation . 
+  well , a switch is much more sturdy and hard to break than a large , flat crystal panel . 
+  the lesson i take from this is that is better to have simpler components that allow some degree of improvisation or re-purposing , something that delicate virtual light panels do not give . 
+  minimizing the amount of mechanical and logic complexity to reduce the attack surface is also pretty high in my book . 
+  the less pieces between life-saving equipment and you the better . 
+  the difference here is that you are in a floating tin can in a heavily hostile environment . 
+  every nut and bolt adds an extra point of failure , and here failure entails death . 
+  if that page were to use html5 emulators instead of flash-based ones they could use [ the recent gamepad html5 api ] ( https://www.w3.org/tr/gamepad/ ) to receive all kinds of analog and digital input from your game devices . 
+  to test if your os and browser support it just plug a gamepad and go here : http://html5gamepad.com/, 
+  that works fine for me on arch linux + firefox 45.0.1 even if i plug the usb after the page has loaded . 
+  now the only remaining thing is waiting for someone to implement them in web-based emulators . 
+  neither of them are correct . 
+  you do n't run _ inside _ tuesdays , unless that 's a physical place . 
+  using _ al _ in there is also pretty weird , the only occasion i 'd say something like that is while sunbathing , _ estoy al sol , estoy tomando el sol _ . 
+  _ al _ has the connotation of you physically orienting to point in that direction . 
+  probably the best post i have seen in here . 
+  thank you . 
+  the _ v _ sound in spanish would sound something like : _ vffenga _ . 
+  that seems to be called a fricative , as you pronounce it with the bottom lip slightly touching the top part of your teeth . 
+  in practice we 've ended up pronouncing it like _ benga _ , with an open mouth and a slightly explosive sound at the start . 
+  you can probably find a more technical post about it in ipa notation and with audio samples . 
+  sector aligned . 
+  in fact most console games store their assets into a big monolithic binary pack for that reason , they align their sub-files to always start at a disc sector to make the disk controller cache happy , and sometimes they even duplicate the same file ( the ones used very often ) in various parts of the disk . 
+  all of this to reduce laser seek times and stalling . 
+  they do n't care about leaving many useless padded zones in between , if that allows the game to load faster . 
+  in many cases developers add blank , dummy zero-filled , files just to cover all the available space before pressing the gold disk . 
+  that 's why compressed iso formats are popular . 
+  isos compress extremely well . 
+  _ source : _ reverse-engineered a complex console file format descriptor and made an extractor . 
+  i always liked reading comics in the local library when i was little :, 
+  _ `` zipi y zape '' _ , _ `` mortadelo y filem\u00f3n '' _ , _ `` pepe gotera y emilio , chapuzas a domicilio '' _ , _ `` 13 , rue del percebe '' _ , _ `` superl\u00f3pez '' _ , _ `` tint\u00edn '' _ , _ `` asterix y ob\u00e9lix '' _ , _ `` el gran visir iznogud '' _ , _ `` lucky luke '' _ and _ `` marsupilami '' _ , those were between my favorites . 
+  _ `` el peque\u00f1o spirou '' _ had pretty enticing themes for my younger self . 
+  good times . 
+  you can not go wrong with francisco iba\u00f1ez , he is still kicking ass . 
+  yes . 
+  the linux and mac versions are heavily based on an original port to the nvidia shield they did some months earlier . 
+  i have n't tested it personally , but i have received various reports from players that with some trickery is possible to replace the native files ( normally compressed in a big obb file inside the sd card ) with a standard warband mod if you have the correct glsl shader files ( which now we have ! ) . 
+  you can technically play tld on the go if you have the technical chops . 
+  i ported a warband mod called _ the last days _ to linux some days ago , you may want to take it a look , not many mods are compatible with other platforms yet :, 
+  ( it can be auto-installed from the steam workshop ), 
+  taleworlds should have added a check with a notice to only start mods that have finished downloading . 
+  right now it lets you play them halfway ( making the game go kaboom ) , and that 's not immediately obvious unless you see the download bar in the steam client . 
+  i get this problem from my players all the time . 
+  that 's bad usability . 
+  in soviet russia , dog walks you . 
+  you could translate _ `` mi perro camina hacia m\u00ed '' _ quite literally as _ `` my doggo is walking towards me '' _ .

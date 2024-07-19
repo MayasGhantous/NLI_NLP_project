@@ -1,0 +1,100 @@
+  well , stating that as a benefit is quite misleading , innit ? 
+  i 'd be concerned if a speaker would only operate at a reasonable loudness when driven by 150 watts . 
+  that would imply a sensitivity of around 78dbspl/w/m , which is absimal for a speaker of such dimensions . 
+  so you need 15 watts to drive them to 100dbspl at 1 meter . 
+  that 's about as loud as a jackhammer . 
+   every meter decreases output by 3db, 
+  because of the inverse square law of sound , with a point source , every time you * double the distance * from the source , the level will be reduced by 6db ( with a line source it 's 3db each time distance is doubled ) . 
+  so if at 1m it 's 0db , then 2m will be -6 db , 4m will be -12 db , 8m will be -18 db and so on . 
+  * / in other words , every time you increase the distance by * *** x *** * decibels , the sound pressure will be reduced by * *** x *** * decibels / *, 
+  a jackhammer produces 100dbspl at one meter . 
+  these speakers produce 100dbspl at one meter when driven by 15 watts . 
+  they share the same loudness at 30cm , 1m , 5m and at every other possible distance . 
+  at 10 meters , both will be 80dbspl . 
+  every answer except yours is incorrect . 
+  good wording , you deserve a pat on the back . 
+  you can get more clean output from a speaker if you do n't stress it by excursing it with sounds below the cutoff frequency . 
+  the sub will also provide some nice , clean , undistorted bass , whereas a bookshelf speaker will produce audible port noise and distortion at much lower levels . 
+  i think you should set it to small . 
+  i dont believe this to be true . 
+  a surround receiver * should * send the lowpassed sum of the five channels , along with the lfe channel to the sub . 
+  ca n't back my words up at the moment , but i promise i 'll test how my ht receiver handles bass . 
+  sorry , i must have misread your original post , thought you were saying the opposite . 
+  there must be * some * kind of input on the sub , right ? 
+  that 's two rca inputs right there at the bottom . 
+  the two inputs are summed , therefore you can use whichever you like . 
+  hope they brought some snacks for the journey :d, 
+   bit stale if you like warm tones from what i hear, 
+  can be fixed by putting two 47nf capacitors across its outputs . 
+  there would be no need for this if the apps would start supporting the standard android controller input scheme . 
+  the windows desktop is unmanaged , as the raw pixel values are going out to the display . 
+  * assign * your monitor 's profile to the image , and that should fix it . 
+  if you want a tagged image to be shown correctly on your desktop , convert it to your monitor 's profile first . 
+  listening tests prove otherwise . 
+  basically skia farting out because of broken graphics drivers . 
+  it will keep happening until you get an update with fixed drivers . 
+  wasting light has a peak-to-rms ratio of 5db . 
+  you ca n't get that kind of overcompression from analog gear . 
+  well , nothing you can release , at least . 
+  unless you 're metallica . 
+  why do n't you disable/freeze it ? 
+  and by the way , you can put a script in / system/addon . d / that will do stuff for you , like delete rommanager , or backup your apps in / system / , like the anti-theft apps that get deleted at updates . 
+  the update script baked into the . zip 's already clears them, 
+  the scripts stick until you do a manual / system / wipe , so it does n't matter when you copy it . 
+  you could copy it using adb in android , or adb in recovery ( do n't forget to mount / system ) , or you can use total commander inside android as well , it does n't matter . 
+  it does need execute permissions to run , so run chmod + x script.sh after copying . 
+  the gapps package installs a script that you can use as an example , so you can see what 's going on . 
+  that script is what keeps gapps from being wiped when you upgrade . 
+  yes . 
+  i 'd rather have a 15 '' 720p laptop screen with some contrast , than what 's available now but with higher resolution ( right now laptop screens have contrast ratios of around 70 to 100 . 
+  a normal screen should have at least 500 . 
+  above 1000 is excellent ), 
+  yes , you can do it inside clockwork recovery . 
+  there 's an option for wiping / system / inside mounts . 
+  this will thoroughly remove android from your phone with every system app included , so your phone will be ready for a fresh start ( including a new android-id ), 
+  a word of caution : do n't try to flash a recovery image after wiping the / system , because if you fail , you 'll be left without a place to boot to , and your device will become an expensive paperweight until you find a way to jtag the device , which is a nasty process probably involving soldering 0.1 mm wire onto your phone 's pcb . 
+  in a normal scenario , if flashing the recovery fails , you can always try again from inside android . 
+  [ any bass problems ? 
+  ] ( http://www.acousticfrontiers.com/speaker-boundary-interference.html ), 
+  sell the mac and install macos in vmware, 
+  computers have built-in analog mixers since ac ' 97 . 
+  as long as a machine is on , you can use it as a mixer by connecting the output from pc1 to the line input of pc2 . 
+  you just have to toggle the line-in , so that it gets passed to the output . 
+  then use the front-panel audio for headphones , and the back panel output for the speakers . 
+  to switch between the two , pull out or plug in the headphones . 
+  you do need short cables for this , and the two machines would need to be connected to the same power plug , otherwise you 'd get interference from the ground loops . 
+  as an additional bonus , you get analog level control from your mixer pc over the other machine . 
+  cool , huh ? 
+  no way . 
+  that would be bad a bad approach . 
+  the latest version of foobar2k has playback and encoding support for the opus audio codec . 
+  give it a test . 
+  the fun thig is that i can detect the difference at ~ 80kb/s , but it does n't sound nearly as objectionable as mp3 at 128kb/s, 
+  probably , because most dedicated audio interfaces have power supply filtering , and many are decoupled from the usb port . 
+  however , check the things that are connected to your pc . 
+  power cables to every device should be connected to the same connector to minimise interference from ground loops , and audio cable runs should also be as short as possible , without any loops in them . 
+  also check in the audio device settings if any input is set to `` listen '' mode . 
+  cultprits are cd input header , and line in . 
+  if there 's nothing connected to them , they act like antennas and mix emi into your output . 
+  i 'm saying this because i have a motherboard that happens to have a really quiet dac . 
+  there are many other sources of noise . 
+  [ this article tells you about the effects of pickup geometry and position ] ( http://www.till.com/articles/pickupresponse/ ), 
+  [ this article is about the elctrical characteristics of a traditional high-impedance guitar pickup ] ( http://buildyourguitar.com/resources/lemme/ ), 
+  the cumulative transfer curve will determine how any pickup sounds . 
+  we 're talking about two physical parameters ( position and width ) and two electrical parameters ( resonant frequency and * q * factor - these can be lowered by external loads : wire capacitance reduces the resonant frequency , lower impedence potmeters and amp inputs mainly reduce q ), 
+  edit : other than these there 's susceptibility for picking up noise , and microphonics in rare cases . 
+  enjoy reading !, 
+  the audience wo n't hear how bad you sound when they 're * bleeding out of their ears !, 
+  i like scidavis a lot . 
+  easy to use and draws pretty ( antialiased ) graphs . 
+  its layout and operation is similar to origin . 
+  srv used .14 strings tuned a half note down . 
+  technically , that 's like using .132 strings with a standard tuning ( 648mm scale , 126n tension ), 
+  as a reference , on a strat a .1 e string will have a tension of 72n , so the difference is huge even between .1 and .13 strings . 
+  digital mixing is addition . 
+  a + b = c. nothing more , nothing less . 
+  with analog mixers , you first have a preamp ( which adds supposedly beneficial nonliniar distortion ** sbnd ** - mainly harmonic distortion products for solo tracks ) , then resistors sum many signals ( a+b = c + noise ) , and then that goes through an amp that provides feedback over the summing resistor and sbnd ( mainly intermodulation products in this case ) . 
+  and there will also be an additional da/ad stage . 
+  [ this makes comparison a lot easier ] ( http://www.libinst.com/audio%20diffmaker.htm ), 
+  orbital slingshotting is a thing , it 's not an exploit . 
+  it 's how voyager and the others achieved escape velocity out of the solar system .

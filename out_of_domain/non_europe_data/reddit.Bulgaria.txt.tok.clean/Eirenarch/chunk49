@@ -1,0 +1,100 @@
+  i do n't think c++ mfc programmers are really loyal ( for the lack of better word ) to microsoft . 
+  they work with these technologies because this is what their products use . 
+  i doubt they will develop apps for win8 instead of lets say android . 
+  why does non-trivial f # code require effort porting to mono unless you are using f # for ui or web development which i assume very few people do ? 
+  i am under the impression that very few people disagree with implicit conversions for ints to floats especially for general purpose programming languages . 
+  why is it different ? 
+  0.5 + 1 is also safe and produces a double . 
+  how is it different from assigning an int to float ? 
+  i purposefully avoid dynamic vs static typing in this discussion . 
+  there are things in php that are obviously wrong and not a matter of debate . 
+  for example the implicit conversions especially to bool are totally absurd . 
+  the years during which there was no namespace support ( super simple feature in my opinion ) has greatly damaged the ecosystem . 
+  in addition i am amazed how php consistently chooses to ignore common conventions in programming languages . 
+  for example the namespace separator ... 
+  wtf ?!, 
+  if experienced developer tells me that it is a bad thing that you ca n't add numbers this way i will have him fired . 
+  there is no way in hell this is subjective . 
+  it will concatenate the strings and if someone thinks it should add the number he is a bad developer and this is objective and not subjective , period . 
+  yes you will be a bad developer if you override the operators on string . 
+  good languages wo n't even allow that anyway . 
+  you may override operators on your own class ( let 's say message ) and use it but introducing some arbitrary semantics for extracting numbers out of strings is surely disastrous practice . 
+  in addition depending on the specific case i would argue that your parsing logic should not be in the operator but in a separate member for example message.value + message2.value . 
+  asm.js is in fact quite near to universal web bytecode . 
+  now we only need a better way to call the browser apis and work with the dom from asm.js so we can escape from the need to write javascript . 
+  if i recall correctly the mozilla on asm.js discussed the future of asm.js as a platform for managed languages . 
+  first of all managed languages can reimplement gc on top of asm.js together with the whole platform . 
+  in addition they pointed out that when classes are added in the next version of js they can make this classes target for compilers for managed languages and add them to asm.js . 
+  this would allow managed languages to use the native browser gc . 
+  the languages that compile to js are either very close to js or the result is sad . 
+  coffeescript and typescript work fine but they are not substantially different from js and suffer some of its drawbacks . 
+  languages like c # and java suffer greatly when compiled to js both as performance and as semantics . 
+  in my opinion they have more chance if they compile the whole runtime to asm.js . 
+  operator overloading should be used very consciously . 
+  when overloading an operator meaning of the operator should be very natural for the type . 
+  if a developer has never seen the implementation of the operator he should be able to infer it from the type itself . 
+  examples of types where overloading + would be natural are a class that represents complex numbers , a classes like java 's biginteger , classes that represent timespan . 
+  you should never use operator overloading simply as substitute for methods . 
+  ideas like yours are exactly the reason why java chose to disallow operator overloading . 
+  true . 
+  this is why they will probably wait for classes support . 
+  methods have names that tell the reader what the method does . 
+  nothing in '' + '' tells anyone with any kind of normal education `` it parses random strings extracts numbers from them and adds the numbers '', 
+  so do you claim that every or most languages can be implemented because the ocaml implementation is good ? 
+  i am not defending java 's decision to ban operator overloading . 
+  i am saying they made it because they were afraid someone might override operators like this . 
+  i actually ca n't believe someone would want to override an operator like this and i might change my stance on operator overloading after you suggested that you would do it . 
+  maybe the java way is correct . 
+  i 've seen bad usage of operator overloading in c # but not nearly as bad . 
+  well but we do know that asm.js is not javascript and the only reason it exists is that javascript sucks , 
+  i do n't object to operator overloading in general i object to the way you want to abuse it, 
+  i see . 
+  so do you think this is because the specifics of ocaml or because of the implementation ? 
+  try harder until you see what is wrong with your suggestion . 
+  it is not obvious what the operator does until you look/know the implementation . 
+  with methods this problem is handled by `` explaining '' what the method does via the method name . 
+  he is mu second favorite tech speakers ( after scott hanselman ) . 
+  it will be sad if he really stops speaking at conferences :(, 
+  yeah ... in a universe where + is commonly understood as `` parse two strings extract numbers and add them together '' there is nothing wrong with your suggestion . 
+  i agree . 
+  this upgrade needs to go and while we are at it remove the ability of command centers to load scvs so that air expands ( or dare i hope maps ) are not terran favored . 
+  yes it is rare and depends on the map but it happens . 
+  we deny ourselves a whole class of maps due to this skill which is rarely used anyway, 
+  it is not about languages in this case it is about math . 
+  your argument is that if i have a method that subtracts one date from another and produces the time difference i can call this method whatever i want for example add because you see what we call add is totally subjective and i choose to call add the subtraction of dates . 
+  when you get used to it you will be dine and it will come naturally, 
+  there is no context where plus for the type string means parse and add because the context is string . 
+  if you have your own class to represent some data it may be correct to overload + in the context of the class but with strings the context is strings . 
+  i would probably accept this if + was verifying that the string is a valid number but it goes out of its way to find a number in any string and just ignore the letters . 
+  but i guess the people who work on php ca n't understand what the problem is . 
+  after all they think finally after a catch block is the same as empty catch - https://bugs.php.net/bug.php?id=32100, 
+  what `` reality '' differs from my expectations ? 
+  php is hardly `` the reality '', 
+  yeah . 
+  if you are developing websites for small companies who want to host on cheap shared hosting providers it is the reality in web development ... 
+  facebook is only written in php because when it started it was small website for shared hosting . 
+  i am sure ( in fact i 've heard people from facebook declare it in presentations ) that they do n't really like php but it is there to stay because they ca n't just rewrite everything . 
+  also they created their own compiler which interestingly does not support certain php features ( eval ) . 
+  they also do not develop any side services in php but use java , erlang , python , c++ , etc. 
+  ( for example the chat is python if i recall correctly ) even backend services that feed results to what are ultimately php pages are not written in php ( for example search ) . 
+  there only two reasons php is popular, 
+  it is really easy to get started with, 
+  it is supported everywhere, 
+  there is no practical reason why as of today the language that is supported everywhere is php as opposed to lets say python but sadly this is the world we live in and history turned out this way . 
+  however do n't make it sound like php is popular because it is good . 
+  it is not . 
+  `` good '' as in `` it is possible to find at least one language in the list of top 30 languages that is worse '', 
+  `` good '' as in `` there is at least one task for which there is no better language '' ( outside circumstances such as `` my hosting provider only supports php or our project started as php project 10 years ago should be disregarded '' ), 
+  i find it strange that people are happy to use certain js feature designed to fix some absurd flaw in the language when they can just use language that is not flawed for server side code . 
+  ok then . 
+  a less flawed language . 
+  certainly there are much better languages for server side development no matter what flavor you like . 
+  no it 's not . 
+  it 's a js library for ui controls that follow the windows 8 design guidelines . 
+  basically it is jquery ui for windows 8, 
+  i do n't get why people want the start menu back . 
+  i get why they hate metro , the new settings shit , the new apps model , etc. 
+  but to demand the start menu back ? 
+  start menu was the single worst piece of shit ui in windows 7 . 
+  it was totally useless for anything but search and the new start screen works exactly the same when searching . 
+  i can not understand how someone can want something so bad to return .

@@ -1,0 +1,100 @@
+  * megasatan = last boss is megasatan, 
+  you can upload your mod on the steam workshop so users can download it more easily . 
+  to do so , go in the tools folder , moduploader and open moduploader.exe, 
+  maybe with isaac.getroomentities ( ) and canreroll ? 
+  what did you use ? 
+  what do you mean by `` new '' ? 
+  i think you can use [ levelstage ] ( https://zatherz.eu/abplus/group___enumerations.html#ga94b82cf988747085e77be386560efc68 ) . 
+  afterbirth + is priced at $ 9.99 while afterbirth was priced at $ 10.99 . 
+  plus , you ** have ** to buy it with the binding of isaac : rebirth and afterbirth , so users will never pay $ 9.99 for it . 
+  they 'll get it for cheaper because they 'll already own rebirth and afterbirth . 
+  afterbirth + is priced at $ 9.99 while afterbirth was priced at $ 10.99 . 
+  plus , you have to buy it with the binding of isaac : rebirth and afterbirth , so users will never pay $ 9.99 for it . 
+  they 'll get it for cheaper because they 'll already own rebirth and afterbirth . 
+  afterbirth + is priced at $ 9.99 while afterbirth was priced at $ 10.99 . 
+  plus , you have to buy it with the binding of isaac : rebirth and afterbirth , so users will never pay $ 9.99 for it . 
+  they 'll get it for cheaper because they 'll already own rebirth and afterbirth . 
+  it 's priced at $ 9.99 without the discount . 
+  note that each month , during one year ( maybe even more ? 
+  ) , mods will officially be added to the game , so that adds new content regularly . 
+  i understand , got the same opinion . 
+  tyrone said they 're going to add new things to the api and he 's gon na do twitch streams to explain modding and what we can create . 
+  i 'm pretty impatient for that so we can really discover the possibilities of the api . 
+  what i meant was that rebirth , afterbirth and afterbirth + are now bundled . 
+  with the steam bundle system , whenever you get one item from a bundle , the bundle itself is cheaper . 
+  so no , users will never have to pay $ 9.99 for ab + . 
+  go to the binding of isaac : rebirth directory ( by default : c : \\ steam \\ steamapps \\ common \\ the binding of isaac rebirth ) and open the `` tools '' folder . 
+  this is theoretically possible with the api and lua dependencies . 
+  you can buy it from that bundle even if you own isaac rebirth and afterbirth , and you 'll not have to pay 32 $ for it . 
+  the #modding channel of the / r/bindingofisaac discord server already exists though . 
+  i 'd like to know too , but apparently , it is n't possible yet . 
+  actually , that 's not the name of the mod . 
+  that 's the name of the folder . 
+  ( your pc  documents  my games  binding of isaac afterbirth + mods  folder name ), 
+  you just have to open the console and write `` luamod [ name of the folder ] '' . 
+  the name of your mod folder can be found in the following directory : your pc  documents  my games  binding of isaac afterbirth + mods  folder name, 
+  sorry for not being clear enough . 
+  to be honest , i do n't know . 
+  try to reload it while it contains no space to see if the problem comes from there or not . 
+  go to your the binding of isaac : rebirth installation folder ( by default : c : \\ steam \\ steamapps \\ common \\ the binding of isaac rebirth ) and open the `` tools '' folder . 
+  the documentation can also be found by clicking [ here ] ( https://zatherz.eu/isaac/afterbirth+docs/ ) . 
+  go to your the binding of isaac : rebirth installation folder ( by default : c : \\ steam \\ steamapps \\ common \\ the binding of isaac rebirth ) and open the `` tools '' folder . 
+  then , open the `` moduploader '' folder and moduploader.exe . 
+  isaac battle royale, 
+  local game = game ( ), 
+  local level = game : getlevel ( ), 
+  maybe with [ devilprice ] ( https://zatherz.eu/isaac/afterbirth+docs/class_config_1_1_item.html#a3df37f50dde6a76a6acb360ed6905e88 ) ? 
+  this trick does n't work anymore . 
+  they patched it in the last update . 
+  you have to use it as a `` real '' mod ( but it will disable achievements and unlocks ) . 
+  to do so , go to your pc  my documents  my games  binding of isaac afterbirth + mods and create a new folder . 
+  in this folder , create another folder called `` resources '' and copy the content of the zip archive . 
+  a button for spawning item , like it has been mentioned above , would be really cool . 
+  also , a fast mod reload ( with luamod ) button is needed too !, 
+  wow , awesome !, 
+  ca n't wait to use it . 
+  it would be great if you could write up an example , yeah . 
+  do n't worry , i can wait . 
+  i can also provide you my full code if you need it . 
+  thanks !, 
+  that 's weird . 
+  tried to replace some files like hudstats.png , but they do n't appear ingame . 
+  ah , alright , did n't know the packed folder needed to be renamed . 
+  thanks a lot !, 
+  i agree . 
+  but you can skip the mega satan fight without cursed eye though . 
+  for now , i think you can only modify existing ones . 
+  it depends what mods . 
+  if it 's a graphical mod , for example , it should work , yes . 
+  first time i did greedier mode with isaac , ultra greed phase 2 got killed instantly . 
+  at first , i did n't understand why that was happening . 
+  well , now i guess i got my answer . 
+  from what i know , room are n't impossible . 
+  i created a treasure room yesterday and added it a weight of 99 so it appears nearly every time i go in a treasure room ... and it worked !, 
+  so i guess it would work with a weight of 1 too . 
+  that seems legit . 
+  go to c : \\ steam \\ steamapps \\ common \\ the binding of isaac rebirth \\ resources \\ gfx \\ ui \\ main menu \\ savedrawings and you 'll see that there 's 3 different images for the 3.000.000 % thing . 
+  playsfx permet de jouer un son ( https://zatherz.eu/isaac/afterbirth+docs/group___enumerations.html#ga1a22039e4e87e271f7333d22a8d9e204 ), 
+  mine is 232.6 mb, 
+   changed portals behavior : will spawn between 1 and 5 enemies and disappear, 
+  yes yes yes, 
+  yeah , thought of that some minutes after i posted this comment . 
+  it 's probably related . 
+  replace the sound effect and rename the `` packed '' folder into something else ( packed_old for example ), 
+  this portal mechanic is way better for the basement and greed mode though . 
+  these are spiked chests , not mimics . 
+  mimics look like normal chest ( they 're a bit greyer though and have some blood on it ) , but when you you 're getting close to them , they appear as spiked chests . 
+  keeper is easier in greed mode imo . 
+  but the lost is way easier than keeper in normal mode . 
+  when satan 's legs are slowed ( this bug may occur with other effects ? 
+  no idea ) , they appear as invisible during his final phase . 
+  also , quitting and continuing the backasswards challenge skips the mega satan fight automatically ( i do n't know if this has been fixed yet ) . 
+  but when you click on the button , you take damage . 
+  that 's correct . 
+  [ air for steam ] ( https://github.com/outsetini/air-for-steam ) with the steam blue skin . 
+  you can also modify colors by your own after installing this skin . 
+  i personally changed the top bar color to 27 40 56 ( [ # 1b2838 ] ( http://www.color-hex.com/color/1b2838 ) ) instead of 52 64 91 ( [ # 34405b ] ( http://www.color-hex.com/color/34405b ) ) to match steam store general color . 
+  +50000 players for a 9 years old game is rather impressive . 
+  plus , i guess this screenshot has been taken at a certain time ( most of steam users in the world were probably sleeping or working ) . 
+  at a `` normal '' time ( when the store updates , for example ) , tf2 is often at the 4th or 5th position . 
+  if imagus really wants to make it work with steam , they can do it , i do n't see where 's the problem here .

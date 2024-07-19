@@ -1,0 +1,100 @@
+  what is wrong with these answers, 
+   weak answer : i do n't have to work very hard . 
+   weak answer : there is not a lot of pressure to deliver . 
+  this would be what i would answer and the answers i would be looking for . 
+  working without pressure and having some free time at work is on the top of my list of `` features '' when looking for a new job . 
+  why does it say `` new proposals '' is n't this proposal something that has been in limbo since c # 6.0, 
+  the english language syntax collides with this proposal 's syntax . 
+  this should definitely be reported to the team so they can fix it before shipping . 
+  but all these are personal things . 
+  i mean they are put into the negatives section but other questions note that what is good or bad may vary for each candidate . 
+  there are people who like slow work environment . 
+  good news for you ( bad for me ) majority of places are not like that . 
+  really ? 
+  i did n't follow the original too close but ca n't see significant differences . 
+  what was the main thing that was changed ? 
+  hmmm ... 
+  i thought that one evolved into the current one but maybe it was just comments and articles that i read and the original proposal was never updated . 
+  pretty much everyone agreed that t !, 
+  was absurd . 
+  you are laughing now but the most popular dev platform these days was intended to be a document presentation platform . 
+  powerpoint files can also be generated programmatically . 
+  it is not obvious to me that the best is doing this as opposed to doing nothing . 
+  i have read quite a bit about f # and tried some exercises but never got to use it on a real project . 
+  the thing that i expect to cause the most significant problems for me is the file order thing . 
+  how do people who transition from c # to f # handle that ? 
+  how do you declare classes with parent/child relationship ? 
+  in the same file ? 
+  on the other hand if you use f # for small parts of larger projects the file order thing does n't seem to be that problematic . 
+  will make the code unreadable . 
+  you will have !, 
+  all over the place . 
+  money !, 
+  nah , just kidding . 
+  developing in c # and xaml is more fun than developing for competing platforms . 
+  i can understand ms admitting wp wo n't make it and folding that part of the business . 
+  i still do n't understand why they are investing in uwp then which is bound to fail completely without a mobile part . 
+  you do n't need adaptive interface for windows on arm unless that arm device is phone-sized and only a moron would make a phone-sized device that is not a phone these days . 
+  yeah ... it is for the hololens that is completely different paradigm and has like how many ? 
+  10k units out there ? 
+  i bet that will make a lot of people develop uwp apps that also useful for windows . 
+  and there is the xbox which has sold a lot of units but also has completely different paradigm ( controller ) and super large screen . 
+  phone and pc are much closer than pc and xbox both in the way ui is built and in what apps make sense . 
+  so what 's the cost of printing the poster framing it and shipping it to blizzard hq ? 
+  if this is the end game then `` lose the mobile apps and mindshare we have '' does n't seem like a good strategy . 
+  is there some serious proposal out there about sum types ? 
+  at first glance the results are just issues that somebody opened because he wished there were sum types and not a serious proposal . 
+  he is referring to the eee tree data structure, 
+  even some of the examples are the same ( the expression evaluator ) . 
+  however not everything in this document has been implemented in c # 7.0 . 
+  the proposal for c # was split and the advanced part was left for a future version ( deconstruction in pattern matching for example ), 
+   this feature is going to encourage poorly written java . 
+  another way to look at it is that java encourages poorly written functional programs , 
+  also this has nothing to do with duck typing and is entirely statically typed as are languages like ocaml , f # , haskell , scala and most recently c #, 
+  the languages do not require advanced math but the terminology is often derived from tiny subset of advanced math ( lambda calculus , type theory , advanced algebra ) . 
+  also examples in tutorials tend to be mathematical . 
+  note how this proposal has an example for simplifying an expression . 
+  this is not advanced math but the c # proposal also has an example for the derivative of a function which borders advanced math . 
+  my point is that it is the fp community not the languages that makes it look like fp is math . 
+  in any case you got your answer . 
+  pattern matching has been around in fp since the 70s, 
+  i am a c # dev so i do n't know who `` we '' are  i fully agree with you and think that if i have to use java ( even pre-generics java 1.4 ) and i get to choose just 1 feature to add it wo n't be lambdas or async await . 
+  properties win hands down . 
+  multiple times a day . 
+  both on top of entity framework and to do things with collections . 
+  properties improve readability more than anything else . 
+  my favorite example with properties, 
+  person.age + + ;, 
+  without properties, 
+  person.setage ( person.getage ( ) + 1 ) ;, 
+  i hope you realize that if you want you can call everything above assembly language `` just another useless feature to make everything even more complicated and only leads to more bugs '', 
+  i will concede that you do not need properties in java when i see production java codebase that is not full of getters and setters . 
+  scala is great and all but this proposal is much closer to c # and has to be because java is much closer to c # than to scala . 
+  for example you ca n't copy how pattern matching behaves with statements because there are no statements in scala . 
+  my guess is that he was downvoted because he asked a question , got an answer and then wrote an almost unrelated comment that sounds like he blames fp languages for the fact that he is not familiar with them . 
+  there are no strange things going on under the hood the code does the same as the java code without properties . 
+  this !, 
+  my personal choice on the average project is ef but ef requires a lot of learning and op does not have time so dapper is a better option ( of course many people will say that dapper is a better option always ) . 
+  i am reasonable with sql and have been writing queries on professional projects before ef was even planned . 
+  still i find ef useful . 
+  i do n't feel like doing all the mapping and loading related entities by hand if i do n't have a good reason to . 
+  op did n't have experience with c # until last week and you are sending him to read about cqrs ... come on !, 
+  drop the repository pattern !, 
+  only create a service ( business logic ) layer, 
+  at least you will be learning new technology in the process and one of a higher quality and significantly different from the things you have experience up to now ( which are mostly dynamically typed languages ) . 
+  honestly you will probably create something that you wo n't be proud of if you continue on the . net path in the future but that 's what learning is like . 
+  the learning curve of . net is harder to climb than for the technologies you have listed . 
+  maybe you can keep notes on your experience , write a post mortem and post it here to let us know how it worked out . 
+  maybe you can build small proof of concept - a couple of pages ( maybe one with a grid if you have grids and one with create/edit , and one with ajax ) and show it to an experienced . net dev for feedback before you start the real project even if the . net dev would not work with you . 
+  how is that i do n't get to create the mappings ? 
+  the entities are the mappings and i want to have entities, 
+  yes but it is something to learn and they already have a lot to learn and the pattern is non-trivial . 
+  ok but with ef you do n't do this either . 
+  i do n't know about that . 
+  if it was supposed to be the best linq to database provider it certainly succeeded ( although it took 3 versions before it was able to beat linq to sql ), 
+  the other day i went to a java community event called javabeer ( just beer , pizza and talking with people ) . 
+  there were like 40 people there . 
+  we 're 7 people sitting on one table me ( a . net developer ) , my girlfriend ( a java developer ) and 5 others . 
+  one of them pulls a windows phone and i am like `` ha a windows phone this means on this table 3 out of 7 people use wp '' one of the other guys says `` actually 4 out of 7 and pulls out his windows phone '' . 
+  all this on a java event ... 
+  i do n't see how ef is to blame .

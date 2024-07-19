@@ -1,0 +1,100 @@
+  your only still-doable alternative as you point out , is doing 3 ) as he is , and that 's working out barely better in terms of risks . 
+  you should n't have much hope if trump wins , but a politician can take such a 1-in-10 risk . 
+  nice :d so / pol / became just the trashbin for the shitheads ? 
+  sounds ... remarkably healthy . . 
+  that 's my point ; did n't flee and went through channels . 
+  and accomplished exactly nothing . 
+  internet is a far more encrypted place today , encryption is of better quality , there 's been a substantial shakedown of security practices in key libraries following the revalation of operation bullrun , and the european court of justice quoted snowden leaks when striking down us-eu data flows . 
+  snowden did substantially more than nothing already , and the influence will continue to shape responses of other states and companies , even if the us insists on not doing anything different . 
+  i 'm happy for any damage that can be done to the stasi bastards . 
+  others noted that there 's hardly a conflict ; as they should n't be disclosing who you voted for anyhow , and the purpose is served just by confirming your vote was counted . 
+  but i disagree even more fundamentally ; say your premise is right , and this were an improvement in the average case . 
+  the worst case is far worse though ; voter privacy is there precisely to protect a democracy in the moment when it may be under strain . 
+  systematic coercion is quite possible then . 
+  not even counting some random ballots does n't guarantee nearly as much of a swing ( and some mass disappearance of issued ballots is much more easily verified ), 
+  that last comment goes for your scenario too ; they can suppress some random votes , maybe based on some demographic expectations . 
+  so can they even net half a vote per envelope ? 
+  on the other hand , a coerced voter is a net of 2 votes , as you got one and the opponent lost one . 
+  quite agree . 
+  how do mailed votes work in the us though ? 
+  i 'm thinking , if ppl just fill them at home and mail them , how is the husband prevented from doing it for his wife , or looking over her shoulder to confirm she does it right ? 
+  admittedly making it easy to see electronically makes it also easy for votes to be bought or voters intimidated at scale , which does n't seem as practical if you need to babysit each voter with their envelope . 
+  if even say a simple division needs to return an either , rather than just a number , due to division by zero , it can get just impractical . 
+  so haskell allows both approaches to use them where appropriate ; unchecked exceptions or either types for you to use , and there 's a couple of libraries for dealing with them . 
+  sadly that does make it rather difficult to guarantee the ecosystem is making a sane choice , but in actuality the situation is n't catastrophic either . 
+  so fishmen , like in shadow over innsmouth . 
+  gets his lines from lovecraft apparently , 
+  i would guess its likely a 3 stone difference . 
+  but we ca n't really know unless it loses ; ca n't have an upper bound on its strength otherwise . 
+  so here 's my loose reasoning for that guesstimate :, 
+  nature paper mentioned about 80 % winrate corresponds loosely to 1 stone difference . 
+  i guess that 's a common concept , not their result , but that 's where i saw it . 
+  anyhow , we have a 60-0 result , and lets presume blitz games do count and tell us about its actual strength - because otherwise , what data do we have ? 
+  so then it should be stronger than 2 stones because .2 \\* .2 \\* 60 = 2.4 so it should 've lost 2 or 3 games in that series were it just 2 stones stronger . 
+  note it did have a very close , 0.5 pt game . 
+  admittedly it does n't care about the margin of victory , but i 'm thinking it probably was n't a case of supernatural precision here . 
+  it may be indifferent to having 3pt or 6pt or 30pt score as all of those look like a clear victory to a strong player , but a 0.5 pt ? 
+  i 'm gon na guess that its value nets would see an improvement in a win percentage if they could get it to a slightly more comfortable margin after all , so that it had a signal there , just actually could n't maximize it further . 
+  mostly because , as i 've said , i have to presume something about how often it looses to guess anything about its top strength . 
+  and consider that the value net assesing this is n't at the strength of the entire system , but is just a component of it , so that its ability to asses if its ahead or not should be substantially less superhuman than master ( p ) in total . 
+  so , say that game could 've gone either way . 
+  if it were 3 stones stronger , we 'd have .2 \\* .2 \\* .2 \\* 60 = .48 so just about exactly what we saw . 
+  its quite obvious master ( p ) is not the system described in the nature paper - its far stronger for one . 
+  they 'd be lazy fucks not to try anything in the meantime too , as deep learning is a hot field with plenty of ideas to try constantly popping up -- and clearly they 're not . 
+  the fact they did n't do it for the documented alphago is no indication its something crazy difficult - its just that they had no reason to work on it . 
+  representing komi to a neural net in principle does n't seem like a big deal ; just one more input it needs to learn from . 
+  the trick is whether there 's a decent dataset with different komi values to learn from . 
+  maybe they can just rescore the same dataset with differing komi values and the value net would be able to learn how the wins depend on the komi value its being given ? 
+  maybe new versions of alphago use not just an rl nn for the dataset generation , but low-rollout systems , like the ayamc author recently speculated ? 
+  since the rollouts part can easily take komi into account , maybe its play will be of decent enough quality overall for the dataset generation ? 
+  anyhow i 'm pretty sure they 'd try the obvious things such as these and many more nonobvious ones , if they had a reason to create such a program , and one way or another find a way . 
+  haha , quite possibly ; but what makes you so sure ? 
+  reason i think it might work is because ayamc seems to use games played with 5.5 , 6.5 and 7.5 komi for the dataset it uses to train its value net , and yet its value net can only play at 7.5 komi :, 
+   i also made 19x19 value net . 
+  19x19 learning positions are from kgs 4d over , gogod , tygem and 500 playouts/move selfplay . 
+  990255 games . 
+  32 positions are selected from a game . 
+  like detlef 's idea , i also use game result . 
+  i trust b+r and w+r games with komi 5.5 , 6.5 and 7.5 . 
+  in other games , if b + and 1000 playouts at final position is over +0.60 , i use it . 
+  yet, 
+   my value network can not handle hadicaps . 
+  it it only for komi 7.5 . 
+  so apparently it can get some purchase from a dataset containing wrong komi . 
+  not too surprising , given that a game wo n't be decided by 1pt all too often . 
+  all the value net needs to learn is to see if a particular board position is a winning position or not . 
+  for games with different komi values , you just need to induce it to figure out how the komi value affected these chances . 
+  i think this would work ; ie the value net would figure out what komi means this way . 
+  but the problem is that the dataset would be weaker for the slightly different komi values and basically too weak to be of much use for anything more than slightly off . 
+  but that does n't mean you ca n't do anything usefull this way at all - two ideas :, 
+  you can generate a decent-ish dataset played at a larger komi value , by using a strong monte carlo bot ( and possibly policy net , if that is n't as degraded by komi ) : 6d is definitely possible , 7d kgs probably w a policy net . 
+  this is far above the rl nn used in the nature alphago to generate the value net dataset - just much more computationally expensive too . 
+  now imagine the net got some notion of what komi does to win chances from slight komi deviations like above . 
+  now you add a smaller dataset way outside of what it saw . 
+  maybe this induces it to generalize better - as it would 've guessed at a weaker play level for komi values far beyond the self-test dataset , so this 7d corrective might be used to fixing some of the power lost with small komi changes as above . 
+  or maybe you want to train a value net to just predict the score and , presuming this is worse than a net predicting the win chance , ensamble it with a 7.5 komi net with a weight progressively higher the further you are from the 7.5 komi ? 
+  furthermore , say the concept by ayamc 's author on how deepmind improves the engine is correct . 
+  for background , the way i see it , the problem with what was described in nature paper is that there 's no direct way to scale if further . 
+  if for example you read what they did with self-play , its a terribly marginal component . 
+  the renforcement is presumably converged after mere 3 days of work , and the self-play dataset it generates is basically just an expensive way of making that network 's implicit evaluation of who 's winning given a position explicit , as opposed to actually contributing any actual extra learning to it . 
+  you can see its size is dictated basically by the network size and the desire to avoid overfitting . . 
+  so he suggest that once they have a decentish system , as they did in the nature paper , now they can use a somewhat truncated version of that engine to generate a new self-play set . 
+  now this is significantly better than what the rl nn can do by itself , albeit at a significant increase of the compute cost . 
+  and more interestingly , now you can iterate this further , presumably getting a better and better net at each iteration !, 
+   http://computer-go.org/pipermail/computer-go/2017-january/009786.html, 
+  conversation continues about making a version of this approach that anyone could run on their computer at home to generate iteratively stronger self-play dataset community computer go projects could then use to train their networks ; a distributed computing project a bit like fishtest for chess . 
+  kaminoitte@home i guess ? 
+  well if that 's what you 're doing with your engine , the fact its slightly weaker at slightly different komi values should get less and less of a problem as you iterate . 
+  anyhow , in brainstorming n approaches to make the fudge work , my point is that you can start with a fudge and then hope it works out well enough to be usefull . 
+  hinton said something to this effect : there 's two kind of deep learning experiments : ones where you start with a horrible fudge but the algorithm just wants to work out and so it functions just fine , and the ones where you start with a horrible fudge , and the algorithm exploits exactly that to fail miserably . 
+  yeah , that 's a pretty similar elo to what i was presuming ; nature paper had 79 % win chance = 230 elo = 1stone , so i was implying a 690 elo difference . 
+  and yeah , that 's about what separates weakest pros from strongest pros . 
+  not really sure if the stone equivalence there used holds for the strongest players or not , so perhaps it can be lower as you say -- you can see this point , whether a stone would start to mean greater and greater elo difference as you approach perfect play , generated some discussion here . 
+  anyhow pros do n't tend to play handicap games ... 
+  actually self-play in the nature paper does not create better training data ; it is done just so that there is * sufficient * quantity of training data to train a network the size of its value net well , while avoiding overfitting . 
+  the size of the dataset is simply the function of the size of the network and its tendency to overfit . 
+  the value net learns to approximate the evaluation implicit in the rl net , and so fundamentaly is no stronger than the rl net is ( which was n't particularly strong even for bots of its time when the nature paper was made - its just really cheap to run , as it does not search ) . 
+  this is pretty explicit in the paper , as well as pretty logical :, 
+   the final stage of the training pipeline focuses on position evaluation , estimating a value function v p ( s ) that predicts the outcome from position s of games played by using policy p for both players . 
+  ideally , we would like to know the optimal value function under perfect play v \u2217 ( s ) ; in practice , ** we instead estimate the value function v p\u03c1 for our strongest policy , using the rl pol - icy network ** p\u03c1 . 
+  we approximate the value function using a value network v\u03b8 ( s ) with weights \u03b8 ,,

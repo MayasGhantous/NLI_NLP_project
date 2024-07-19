@@ -1,0 +1,100 @@
+  i do not thing much changed in il since 2.0, 
+  this adds very little to win8 dev tools . 
+  basically adds plugin support . 
+  it is much bigger for desktop and web as these kind of projects often have other parts like windows services and console apps attached to them where it was a pain to use express . 
+  well to be honest i doubt ms said that they would win if linus loses . 
+  seems like their goals may have aligned for now . 
+  linux devs wo n't touch it , that 's true but so what ? 
+  managers will still confidently hire people to develop . net applications because they can his on linux . 
+  . net will be used more widely because it will be hosted on the cheap linux web hosting providers . 
+  who cares what the diehard linux devs think ? 
+  as of know the desktop part of . net is not open source and not portable . 
+  well i am somewhat used to codeplex and am too lazy to migrate projects . 
+  i use it as a free hosting with the added benefit of being able to link to the project . 
+  i do n't care about the collaboration features or code browsing options which are better on github since i do n't actually collaborate with other people on these projects . 
+  if i had to start a new open source project i would probably do it on github but i am much more likely to start a non-open source one and use vs online because it is really cool and free for private projects, 
+  all this happened while i was in the cinema watching interstellar . 
+  i know it is longer than regular movies but still ... 
+  then you should be happy to learn about this thing they announced yesterday - http://www.omnisharp.net/, 
+  however something tells me that you will find another reason to avoid . net , 
+  what would you change if you had the chance ? 
+  i was under the impression that performance and better touch support was the main thing wpf needed . 
+  uhm ... what else would it include ? 
+  i mean it obviously includes something else besides wpf and winforms . 
+  i too was thinking about posting a link and getting some karma , 
+  note that your team can be bigger than 5 people as long as no more than 5 use community edition . 
+  for example if you have 3 people doing hardcore ts development and 10 people that need to see it but make only small changes maybe you can use a combination of vs community edition and express edition where the people who need it the most use the community edition . 
+  do n't try to turn this around . 
+  you said that visual studio was expensive not that vs was not useful . 
+  so either declare visual studio cheap or admit that your company wo n't pay $ 300 for a tool !, 
+  wpf is quite a beast so i doubt that it would be easy in this case especially since nobody architected it to support another graphics tech . 
+  so basically he accelerated it . 
+  he did not start it and it was happening before him just more slowly . 
+  that 's how it always works . 
+  android was so open before google got powerful and now they are closing it by introducing their closed source services . 
+  when you are powerful you close things for profit and when you are weak you open to expand . 
+  swift is very well designed but has a long way to go before it reaches c # in terms of features and it is not obvious if swift 's designers have the skill to keep the damage from the evolution to minimum like c # 's designers have done . 
+  yes but the current announcement only relates to the web stuff . 
+  win forms and wpf are still closed source . 
+  even if they were open porting them may be a significant effort since they depend on windows components very heavily . 
+  on the other hand mono will certainly get better especially on the performance front since they open source the jit compiler and the gc and mono can just take these . 
+  yes but this ceo would not have been ballmer since the whole thing started under his reign . 
+  while . net core would probably involve a lot of mono in the runtime they will open source the jit compiler and the gc which means that mono would be much closer to . net in terms of performance, 
+  i am interested . 
+  terran is hard and drags me down as random so more cheese please, 
+  if we hodl soon it will be gentlemen !, 
+  because we are not hodling enough . 
+  and double the app size for starter, 
+  this is simply wrong on many levels . 
+  please stop repeating it . 
+  simplest example why it is not true is that they could have used another name like windows th or something but they decided to go with the 10 bullshit instead . 
+  because ms marketing department ... 
+  i already did state one reason . 
+  the other is that the marketing name has nothing to do with the version reported by the api . 
+  they might have called it win9 and put the version at 8.9 or something . 
+  in addition the could have let legacy problems happen . 
+  they do that all the time and they add exceptions for important software where the os pretends to be older version . 
+  also this is what compatibility mode does ( but manually ) . 
+  if they thought compat mode was ok up to now why would they change it this time . 
+  and finally , no engineer would solve the problem like that , ever . 
+  please refer to it as `` monadic null chaining '' i think / r/programming agreed on that when c # 6.0 features were first announced, 
+  in addition to legacy systems and a huge ecosystem the jvm is still the best vm out there in terms of performance and stability . 
+  i do n't see why it matters if it is a web app . 
+  when an unexpected error happens you just burn the part of the app that is affected and try to recover from that point . 
+  in web apps it is very easy to isolate the error to a single http request and only nuke that part of the app but this does not mean that you keep it `` up and running '' . 
+  there are far worse things than bad user experience like loss of user data , loss of user money or security holes . 
+  the latter are often a result from an app not crashing when it should . 
+  yes i would . 
+  instead of for example allowing a hacker to access customer data because i decided to keep the app running when that authentication failed with an exception . 
+  yeah , why not use the option type instead . 
+  now we only need to reeducate a million developers and rewrite 12 years worth of libraries and legacy projects . 
+  easy !, 
+  i agree but in general market prefers deferred costs over upfront costs . 
+  the upfront cost of this change is so huge that nobody would take it and if someone does he is out of the market . 
+  of course new languages which do not have decades of legacy code should not have null at all but this is entirely different topic . 
+  just in case you did n't know this has n't shipped as a final version yet . 
+  it is not about the time to write code it is about reading it and java code has more parenthesis than lisp !, 
+  yes . 
+  and the other 5 % is pure parenthesis . 
+  btw it is not always about syntax . 
+  it is much more often that you need to cast in java than in c # due to broken generics and primitive types and rudimentary autoboxing . 
+  it is already patched . 
+  i demand destiny vs aphrodite showmatch !, 
+  if someone organizes it i will participate in the kickstarter , 
+  is there anyone that even remotely understands the technical details around bitcoin believing that satoshi is a single person ? 
+  it makes perfect sense to assume that there was one person communicating . 
+  if i was running the team i would put one guy in charge for communication so he would be consistent . 
+  as a regular programmer ( full stack programmer ? ), 
+  with ordinary database knowledge i have been baffled by the database world tooling for years . 
+  i have used mainly ms sql and some oracle back at the 10g days and it is stunning how poor the tools are compared to regular language ides . 
+  it is almost like everyone working with databases is a masochist and takes pleasure at the pain he feels . 
+  for example sql server got support for declaring and assigning variable on the same line in 2008 ... 
+  i remember being surprised at similar things for oracle although i can not remember the details . 
+  our dedicated oracle experts used that toad tool that barely had something like statement completion that sometimes worked while . net and java ides at the time were already working magic . 
+  i am glad to learn that at least presently postgresql is reasonable but really what is wrong with people in the database world ? 
+  why do they tolerate this ? 
+  maybe buy expensive tools that support normal coding ? 
+  migrate from ms sql to postgresql ? 
+  just choose based on better tooling . 
+  however when i spoke to some of them 4-5 years ago about this issue it seemed like database professionals ( people who specialize in databases ) simply did not think better tools could exist . 
+  they did not notice that they were working with languages worse than php and their equivalent of ide was 10 years behind what normal languages offer .

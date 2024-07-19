@@ -1,0 +1,100 @@
+  having usb charging does n't mean anything . 
+  that 's what i 'm saying , you can power a balance charger from a boost converter , using the base voltage of usb . 
+  the dna200 does it that way . 
+  i can imagine it looks the tits ( i like the patina of the brass button of my ss smpl clone ) . 
+  you give out your email when buying things retail ? 
+  after an e-mail conversation i had with the `` creator '' , i 'd wager he 's just a public face with no or only basic knowledge of electronics . 
+  most likely he 's a distributor . 
+  10wh is slightly more than what a single 18650 holds ... 
+  yihi boards do tc with pwm so it would n't be strange for stepdown to be missing . 
+  maybe , maybe not . 
+  up until now the only yihi board with pwm was the sx130 on the 30w ipv mini/sigelei mini , and you could turn it on and off there . 
+  depending on the efficiency of the board , it 's not unexpected . 
+  the sigelei is not a yihi board . 
+  it 's a completely different one . 
+  if you 've used it it 'd be evident . 
+  also , the boost boards on single-battery devices like the ipv2 and the ipvmini 70w do get hot with usage . 
+  with 90 % efficiency ( a very high number , and variable across the output voltage range ) , at 60w you 're losing 6w on the mosfet . 
+  on a small case with no ventilation , 6w are enough to make it hot . 
+  thank you !, 
+  i tried a loaned squonker once but was less than impressed . 
+  while it 's nice that you do n't have to drip , after 2 or 3 ml residue from the juice accumulated and started contaminating the juice in the bottle . 
+  i was not that happy about that . 
+   i paid a vendor some money and he sent me the things i ordered !, 
+  wow !, 
+  i have two lemo 2s and i enjoy them immensely . 
+  easy top-fill that does n't require removing anything , good airflow and nice build-deck . 
+  oh boy , another sub-ohm clearo !, 
+  how exciting !, 
+  nominal voltage multiplied by capacity equals watthours . 
+  a 3s 900mah pack only has a little bit more energy than a single 18650 . 
+  even being generous and assuming the 18650 will lose capacity operating at high currents ( which it really does n't , the 25r only drops to 2250mah at 20a discharge ) you 're still getting shit battery life at high wattages compared to a dual 18650 device . 
+  your calculations are incorrect . 
+  two 18650s can not output 200w of power . 
+  accounting for voltage drop you 'll be able to pull a maximum of ~ 150w of power from them when they are full . 
+  as they drain , that is reduced . 
+  they wo n't explode but as internal resistance drops output voltage exponentially with current drawn , the actual power you 're getting is not enough . 
+  see http://lygte-info.dk/pic/batteries2012/samsung%20inr18650-25r%202500mah%20 ( green ) / samsung % 20inr18650-25r % 202500mah % 20 ( green ) - capacity.png for example . 
+  even at 30 amps of current , you 're only getting just 100w for a tiny amount of the capacity . 
+  it 's extremely easy to verify if you have the mod , just measure the voltage on the atomizer . 
+  i guarrantee you it will be wildly lower than what 's displayed on the mod 's screen . 
+  i 've handled such a mod , the smy god180 . 
+  it 's a huge beast . 
+  3 18650s side by side are ergonomically cumbersome . 
+  and you have to mount the board on a different place to avoid the mod getting any more wider , making it a bit fatter . 
+  you wo n't hit the required voltage to reach 200w . 
+  it 's trivial to verify in practice . 
+  the cell 's internal resistance starts to become more and more important as you draw more current . 
+  and we 're still assuming we can get 100 % of the power drawn out of the batteries to the coils . 
+  board inefficiencies , 510 connector losses , cable losses , all these come into play at very high currents . 
+  yes , that 's true , but then it defeats the point of using a regulated mod . 
+  i 'd rather use a dna200 in 3s config if i was actually vaping at those wattages . 
+  personally though , china watts are a bit frustrating to me . 
+  i prefer knowing that my device is telling the truth ( within reason obviously ) . 
+  a bit late to the party , but personally i fill my lemo drop with normal plastic-tipped bottles ( not metal needle tipped ones ) . 
+  the hole is big enough and the juice passes effortlessly . 
+  i love twisted coils . 
+  i have 11 atties in close proximity and 9 of them have twisted builds in them . 
+  only place i would n't recommend them is mechs , twisted coils end up having bigger resistance , gram for gram , compared to normal builds . 
+  thank you for the giveaway !, 
+  i do n't understand how they came to the conclusion it 's the `` best '' high drain cell . 
+  2.5 a drain is a useless test for vaping ranges . 
+  a test at 10 , 15 and 20a would be better , and also overlayed voltage charts comparing it with another cell are needed . 
+  thank you for the giveaway . 
+  my local b&m has no issues with their ( authentic ) spinners . 
+  make sure your wholesaler is not cheating you and sending you counterfeits . 
+  check out the dos equis clones on fasttech . 
+  the discussions from owners seem to indicate they perform extremely well . 
+  i do n't know , i find the flavor of the kayfun lite plus anemic compared to that of my lemo 2 . 
+  sometimes it feels like a kind of `` an elegant vape , for a more civilized vape '' circlejerk . 
+  thanks for the giveaway . 
+  `` lipo '' packs are still lithium ion in chemistry . 
+   the second meaning appeared when some manufacturers started applying the `` polymer '' denomination to lithium-ion cells in pouch format . 
+  this is the most extended use nowadays , where `` polymer '' went from indicating a `` polymer electrolyte '' to mean a `` polymer casing '' , that is , the soft , external pouch . 
+  while the design is usually flat , and lightweight , it is not a true polymer cell , as the electrolyte is still in liquid form , albeit it may be `` plasticized '' or `` gelled '' through a polymer additive . 
+  [ 7 ] these cells are sometimes known as `` lipo '' , however , from the technological point of view , they are the same as the ones marketed simply as `` li-ion '' , as the underlying electrochemistry is the same . 
+  if you 're doing tc on a kayfun 4 , this is said to help http://www.steamtuners.gr/products/atomisers/kaufun-v4/c61-accessories/125-kayfun-v4-spring-update, 
+  with juice flow fully open it bypasses the spring completely . 
+  i do n't think you can find something like this . 
+  boost converters are quite inefficient so most high-wattage mods use the batteries in series and use buck converters to stepdown the voltage . 
+  a dna 200 device will work for you , it goes up to 9v , though you 'd need a custom build with a big enclosure to fit a high capacity battery pack or 3 18650s in series . 
+  the typical dna200 pack comes has low energy , not enough for usage at high wattage . 
+  op needs a 2000 + mah pack or 3x18650, 
+  2 ipv4s . 
+  thanks for the giveaway !, 
+  i have an original silverlplay and its sitting unused in a drawer . 
+  it 's a flawed design to start with . 
+  the little metal shelf that the glass tank rests on is too close to the chimney and thick juices can not escape . 
+  so the juice stays in the metal part of the tank and when that fills , the juice escapes from the juice channels . 
+  the reverse can also happen , i.e. , when vaping normally , the steel part of the tank empties but the juice can not pass that constriction between the shelf and the chimney and you have dry hits with what seems like a full tank . 
+  plus the tank design is unwieldy , even with normal juice flow you end up having to tilt the tank all the time to see the amount of liquid left . 
+  i see yours is leaking through the top oring . 
+  mine did n't leak from there but rather , it flooded the build deck and leaked through the airholes. , i run ahead a bit . 
+  but if the clone is faithful to the original , the above stands . 
+  i 'd rather have a cthulhu, 
+  point is that they should n't . 
+  secondaries were designed to deal with small targets that the main battery could n't / did n't make sense to track . 
+  ingame , their effectiveness is extremely limited, 
+  comedy gold . 
+  thank you for the giveaway !, 
+  $ 200 for a board in a diy extruded aluminum enclosure ?

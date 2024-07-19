@@ -1,0 +1,100 @@
+  new zealand 's one is awesome too . 
+  ca n't find any photos online , but all the pages are pretty much a history of new zealand , and have real cool designs showing the discovery by the polynesians and then the development of nz as a nation, 
+  yeah , but what are the chances more than one of them is actually recognised . 
+  look at somalia or the caucasus, 
+  we brought them in following john campbell 's last show , since he deserved a knighthood . 
+  so far he 's the only member , so we need to induct more people ( and actually sort out all the other official shit so it looks fancier . 
+  reddit 's coat of arms is pretty crap ), 
+  oh nah , i meant the official knighthood stuff like designing an / r/nz coat of arms and all that , but the css needs to be sorted out too . 
+  just need to find time for it , and decide on what we 're actually going to do for it, 
+  yeah , the somaliland thing is what i 'm getting at . 
+  they declared independence and are a functioning state , yet have no recognition and are lumped in with the rest of the mess that is somalia, 
+  replace this :, 
+  . arrow.up {, 
+  background-image : url ( % % south % % ) ;, 
+  background-position : 0 0, 
+  . arrow.down {, 
+  background-image : url ( % % north % % ) ;, 
+  background-position : 0 0, 
+  with this :, 
+  . arrow.up {, 
+  background-image : url ( % % south % % ) ;, 
+  background-position : 0 0, 
+  . arrow.down {, 
+  background-image : url ( % % north % % ) ;, 
+  background-position : 0 0, 
+  . arrow.upmod {, 
+  background-position : 0 0, 
+  . arrow.downmod {, 
+  background-image : url ( % % northcolour % % ) ;, 
+  background-position : 0 0, 
+  % % south % % and % % north % % are just grey versions that have n't been clicked , while % % southcolour % % and % % northcolour % % are what we have now, 
+  awesome , looks much better !, 
+  i 'm not against changing the flag - i 've always thought that we should change it at some point , especially since it 's not really part of our national identity as much as other symbols are . 
+  that said , i 'm opposed to this referendum . 
+  as much as i 'd love to change the flag , i do n't think such a proposal should be used as a distraction whenever there 's something huge and controversial going on , like it has been used by key throughout his terms . 
+  and given the current economic climate , and the ongoing issues with inequality and all that , there are definitely better things we could be spending the money on . 
+   no `` christian '' or `` square '' southern cross : stars realigned, 
+  i dunno , i kind of like some of the nordic cross flags, 
+  except for the fact that it 's been on kiwi soldier uniforms since the boer war , but yeah, 
+  it works out perfectly . 
+  we 're an island based nation , and we 're needing to diversify our economy from dairy . 
+  let 's adopt a pirate flag and raid trade routes throughout the south pacific , build an economy based on piracy !, 
+  and lo , upon the seventh day did op deliver . 
+  therefore , the seventh day has thus become sabbath , and upon the seventh day do we honour op and his deliverance . 
+   the ^ ^ ^ attempted ^ ^ ^ character assassination of colin craig, 
+  just a tad overdramatic ? 
+  any chance i could steal this for the new / r/nz css i 'm working on ? 
+  ( which can be seen at / r/nzcss if you want to check it out ), 
+  absolutely , full credit would be given to you and the subreddit , would be nice to make the ordeal a bit more national anyway, 
+  / u/dead _ rooster , mind weighing in on the appearance of the sub now ? 
+  i remember you being hesitant about a taller sidebar , just wanted to check whether you 're okay with this or not ( and whether you prefer the more informal style of the current ` new zealand ' or the older one with the southern cross and futura ), 
+  edit : or / u/ballchynz , since apparently you 're in charge while dead rooster is off getting drunk round the uk, 
+  should still be able to see it if you use your phone 's browser instead of a reddit app, 
+  praise you - fatboy slim, 
+  anyone able to check out / r/nzcss quickly and give thoughts ? 
+  / u / - halcyon designed a slightly less formal header image ( different font and a kiwi ) as well as played around with the header a bit . 
+  wanting to get some feedback before going any further , in case people do n't like the direction or whatever . 
+  figured it 'd be better to get feedback from everyone instead of just making the decisions ourselves ( especially since there 's only two of us , so if we disagree we 're stuffed ), 
+  you sure ? 
+  it 's showing up for me, 
+  just on the top bar , next to hot / top / whatever . 
+  where it normally is, 
+  might be , i dunno . 
+  could also be res acting up , does that for me sometimes, 
+  or we could yell at him for you . 
+  / u/onewhitelight , watch yourself mate, 
+  i 've honestly got no idea what i 'm doing with my social life.i posted about what happened to me a couple years back with the girl that would n't accept no for an answer , but i do n't know whether i 'm fully over what happened . 
+  both of the girls involved are in relationships now , and i guess i 'm happy for them and all tat , but i still have n't had a relationship yet , and i have real trouble even approaching and starting conversations . 
+  i 've got no idea whether it 's got anything to do with what happened , but i do sort of feel like something 's wrong given the other two have moved on with their lives and are happy while i 'm still sitting here alone . 
+  fuck i dunno , does this even count as a whinge ? 
+  there 's an awful lot of things involving you happening here , might want to be a bit more specific, 
+  is you cheating not gon na happen , us yelling at you not gon na happen or you watching yourself not gon na happen ? 
+  or all of the above ? 
+  oh good , just checking . 
+  are we going with the rotating banner , then ? 
+  i thought we were going to do a selectable thing ? 
+  once i figure out how to configure the different themes ( something we need anyway for night mode ) it should be easy enough to rotate out the images and maybe colours , since that 's all that 'd need changing if we get a good css finalised . 
+  oh , that reminds me - might need to up the size of that bar a bit again , i made it bigger originally because people had complained it was too small , and that the buttons were difficult to use on a touch screen, 
+  that depends on when we actually agree on the design we 're going for , and how many bugs rear their heads in the process . 
+  and what features people want in the css , we 've still got a couple that need doing so that 'll take some time too, 
+  what i liked about the old size was that it was just tall enough for the userbar to fit in , but ideally i think it 'd be cool to have one that 's actually built into it instead of one that 's just sitting on top . 
+  not sure how much extra work that 'll be though, 
+  awesome , sounds good . 
+  only concern now is that the sidebar will be too long with the different theme buttons and the link filter added in . 
+  maybe we should add some stuff to the top bar ? 
+  what browser are you using ? 
+  i do n't think it 'd be as much a situation where i 'm still obsessing over what happened - that 'd be weird - but rather more that the experience affected me in some way . 
+  it 's like that askreddit thread from a couple days back of people who have affected you for the worse , i 'm wondering whether as a result of me being friendly to someone and having it blow up so hugely in the space of six / eight months has made me more closed or reserved or whatever . 
+  decent advice though , thanks, 
+  not sure how he 'd think that would work ( although i think i 've accidentally been playing the nice guy role for about six years now ) but that 's a sure fire way to scare anyone off by saying they 're the one like that . 
+  nah , i do n't hate girls or anything like that , hell most of the friends that helped me get through the ordeal were girls . 
+  just ever since i 've found it real hard to actually approach people and start conversations, 
+  not always . 
+  on / r/newzealand it 's safer to assume everything is sarcastic , we never use / s, 
+  nah , you 're looking for / u/nickrivieraphd, 
+  when i was young i wanted the olympics to take place on olympus mons, 
+  if you 're at uc the politics society is hosting an event to watch it , not sure otherwise . 
+  although i would recommend alcohol as a viewing companion to make it more bearable, 
+  i suppose rnz is a much less prolific spot than primetime on one of the major tv stations , so if you 're going to have him in any role it 'd be better to have him there than on tv3, 
+  i thought i got it straight away too , but then i second guessed myself about three times .

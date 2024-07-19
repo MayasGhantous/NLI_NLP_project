@@ -1,0 +1,100 @@
+  no shit . 
+  that 's why it 's called ` concrete aggregate ' and not ` concrete ' . 
+  it 's a component in concrete : concrete aggregate . 
+   holy self-contradiction , batman . 
+  not even slightly . 
+   ... so branches are bad because they make broad-but-shallow changes hard , but feature toggles do n't actually solve the issue of broad-but-shallow changes , so we should use branches for them anyway ? 
+  branches can be troublesome because you have to * merge * the broad-but-shallow changes . 
+  you make them on one branch and then have to merge them back in later . 
+  that 's annoying . 
+  of course branching is still very useful , but present some issues . 
+  if you use feature toggles , you make the changes in the master branch . 
+  you make them once . 
+  you do n't need to ` protect them ' with a feature toggle , because you do n't want to have the option to have those changes or not have them . 
+  they 're refactoring . 
+   i 'm not sure how you do a code review against code that 's just been pushed directly into master under feature toggles . 
+  exactly the same way you do a code review against every other commit in existence ... 
+  they 're not ` frequently overlooked ' , they 're very common . 
+   when i 'm making broad changes to the codebase is especially a case where i want `` protection '' . 
+  `` just push it to master , no branch , no toggle '' just seems a bit dangerous to me . 
+  the protection there is tests and code reviews . 
+  if you want to undo those changes , revert them . 
+  and abandon the moronic idea of just deploying whatever happens to be on master/trunk . 
+   i mean , i do code reviews by selecting which branch i want to merge into master and everyone on my team can look at that single diff and approve the changes as a unit . 
+  i select the commits i want the review to review and the reviewing software gives them one-diff-per-file or one-diff-per-changeset depending on what view they want to use , gives them some comment boxes and gives them ` approved ' , ` needs work ' and ` reject ' buttons . 
+  what branch they commit or commits are on does n't matter . 
+  the master branch is n't special in any technical way , after all . 
+   afaik , neither github or bitbucket have good support for that style ; both seem to assume branch-based development . 
+  then those tools are crap . 
+   there are a lot of people who see immigration as the root of all evil . 
+  is it not , in the uk , the root of most evil ? 
+  planes are not expensive lol . 
+  a flight from auckland to christchurch is like $ 45 . 
+   my wife 's an immigrant and has struggled to make `` kiwi '' friends ,, 
+  no offence , but what sort of immigrant ? 
+  what country is she from ? 
+  because i 've never heard of british people or australians struggling to make kiwi friends . 
+  ( also , why is kiwi in quotes ? 
+  is it not a real culture to you ? ), 
+   but has a good friend network consisting of other immigrants . 
+  probably chinese then, 
+   it depends on your skin color , apparently we 're not a racist country , but the way my ( asian ) wife has been treated ( occasionally , it 's not often , but every time you encounter a racist prick it leaves it 's mark ), 
+  right , so she is asian . 
+  surprise surprise , asian immigrants choosing to stick with their own instead of making kiwi friends , what a bloody surprise . 
+   has really opened up my eyes to how far we still have to go . 
+  confirmation bias . 
+  no we have n't . 
+   it 's an election year here , you should be able to easily find those answers on google . 
+  fwiw , we 're a very left leaning country . 
+  no we are n't . 
+  yeah kiwis seem to think that having lots of non-white people makes auckland `` cultured '' , but it does n't . 
+  because the game itself is actually good . 
+   wff, 
+  barely, 
+   accommodation supplement, 
+  landlord welfare, 
+  everything other than dental * is * covered by the public system , liar . 
+   just his general perception as described through the mainstream media and punditry, 
+  no , * as decided by * mainstream media . 
+  the mainstream media decided he was unlikeable , so they said ` he 's unlikeable ' and so nobody likes him . 
+  that 's how it * always * works . 
+   i am old enough to remember them from the 80 's . 
+  bunch of wanks . 
+  yeah imagine fighting for higher wages for workers , bunch of cunts . 
+  fuck you , you slimy swine . 
+   but let 's not forget that polls were calling a hung parliament in 2015 . . the shy tory factor is strong in the u.k. 
+  no it fucking is n't . 
+  stop making things up . 
+  polling error is not ` the shy tory factor ' . 
+   govt spending rose 54 % in the five years 2004-2008 . 
+  good !, 
+  that 's what government spending needs to do now . 
+  no offence , but maybe she 's unlikable ? 
+  the accommodation supplement is welfare for landlords , working for families increases are very small , and the income tax changes benefit the rich more than the poor by a huge margin . 
+  no , obviously , do you even know what confirmation bias is ? 
+  colonoscopies are covered by the public system when they 're necessary . 
+  i hope you 're trolling . 
+  no , wrong . 
+  brainstorm should not be banned . 
+  it 's the perfect card for legacy . 
+  it 's not grandfathered in , and you have no idea how good recall is if you think they 're comparable . 
+  the format is n't particularly blue , that 's a myth . 
+  the format is n't particularly blue , that 's a myth . 
+  the format is n't particularly blue , that 's a myth . 
+  probe is only in one good deck . 
+  drs does not encourage deck diversity . 
+  before drs was this popular , there were lots of delver decks . 
+  now there are two : ur and 4c . 
+  why would they ban ancient tomb or probe ? 
+  drs is a diversity-stifling and overly powerful card that only costs 1 mana . 
+  it 's broken . 
+  it 's way more broken than led . 
+  brainstorm is fair , it 's how the format works , it 's completely fine . 
+  brainstorm does n't do anything silly . 
+  drs makes every fair deck black/green/blue . 
+   it has only been present in the 1992 general election , but has been discussed in subsequent elections where the conservatives did unexpectedly well . 
+  this ` effect ' happened once , has never happened since . 
+   california legalised medicinal cannabis 21 years ago, 
+  which does n't make it legal , because it 's still illegal in the entire us . 
+  one deck . 
+  cards are n't banned for ` power level ' , they 're banned for warping the format .

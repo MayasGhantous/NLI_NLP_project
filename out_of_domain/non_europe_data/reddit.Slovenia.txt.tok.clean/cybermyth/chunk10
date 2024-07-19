@@ -1,0 +1,100 @@
+  i have the same cut now for almost 5 years . 
+  i just try to keep it short on the sides and in the back and keep the length on the top . 
+  i am too lazy to do my hair so after i get it cut i do n't style it . 
+  i want to change that so here are two pics . 
+  the first one is of a pretty fresh cut and the second one is me at the moment . 
+  i do n't like the `` v-shape '' that is even more apparent when my hair grows longer . 
+  ** help me find a style that would fit my face and does n't require much work **, 
+  also should i shave the beard ? 
+  i will be studying computer science ( so a lot of programming ) . 
+  i also want my laptop to be good for newer games , but mostly that it will run cs : go at higher settings and fps . 
+  sooo ... 
+  i was 90 % about this ** lenovo ** : http://www.computeruniverse.net/en/products/90532010/lenovo-ideapad-z510-59400165.asp[1], 
+  but today i found a sick ** msi ** laptop for the same price : http://www.computeruniverse.net/en/products/90553707/msi-gp60-2pei585fd-v2.asp[2], 
+  what do you suggest ? 
+  if i understand correctly the only plus side of the lenovo is the hybrid 500hdd + 8ssd disc ? 
+  help me out please !, 
+  i have a problem with my wireless connection . 
+  my router is tp-link model tl-wr740n . 
+  after i am browsing or doing whatever i do online , the connection stops working after 10-60 minutes and when i check the wifi it says the connection is limited . 
+  ** things i tried : **, 
+  * i 've disabled the power saving feature on my laptop ( stop connection to save power or sth like that ), 
+  * i updated the router software, 
+  * i restarted the router several times , modem too, 
+  when i restart my laptop after it says its limited , the connection works fine again . 
+  help me out here ? 
+  thanks, 
+  the problem : prove by induction that n !  2 ^ n for all integers n \u2265 4, 
+  [ this ] ( http://prntscr.com/4xcjri ) is an example of how to solve it , but i do n't get what happened from line 3 to 4 ? 
+  also i understand there is another way of solving it . 
+  could you eli5 , cause i am really struggling here , been trying to understand this all day and it 's pissing me off . 
+  teacher asks students if they did the homework on their own ( everyone either did it on their own or copied it ) . 
+  he gets the following answers :, 
+  andy : everyone did n't do their homework on their own . 
+  barry : if andy and cindy did their homework then david copied it, 
+  cindy : andy did it on her own or barry did it on his own, 
+  david : barry did it on his own or cindy did it on her own . 
+  * q1 : can everyone tell the thruth ? 
+  * q2 : can they all lie ? 
+  * q3 : the ones that did their homework on their own are talking the thurth , the ones that copied it are lying . 
+  who copied their homework ? 
+  ** the biggest answer i have here is : what do we say for andy ? 
+  do we use the disjunction or a conjunction ? 
+  i did it [ this ] ( http://prntscr.com/4xlt6o ) way and i 'm wondering if it 's the right way or is the right way to use a conjunction ? 
+  z ^ 3 = -9 + 46i, 
+  the answer has to be in the 1st quadrant . 
+  i tried to transform this into polar form and using the de moivre 's formula , but everytime i get a decimal number . 
+  i do n't know what am i doing wrong . 
+  help me please , i am losing my mind . 
+  i am stuck at the beginning of my homework . 
+  i do n't want you to give me the code , i would only appreciate a hint . 
+  i need to write a program that will ask a user `` how much is x * y '' . 
+  x and y are randint ( 2,10 ) . 
+  if the answer is correct python will print correct if not , then incorrect . 
+  how i started out :, 
+  x = randint ( 2,10 ), 
+  y = randint ( 2,10 ), 
+  result = x * y, 
+  i understand i need to use the if function somewhat like this : if ( user 's input ) = = result ... . print ( `` correct ! '' ) . 
+  what i do n't get is how can i use the input function to ask a user what x * y is , so that x and y are printed as random integers and not `` x '' * `` y '' . 
+  fyi , we just learned strings . 
+  help please . 
+  ** summary of instructions : **, 
+  i have two lists . 
+  i need to make a zip of those lists and find the biggest absoulute difference between pairs . 
+  then i need to send the first element in the second list to the end of the list and delete the first one . 
+  keep repeating the process until we get the ` smallest biggest difference ' . 
+  we need to count and print how many times we had to add the first element to the end and print the ` smallest biggest difference ' . 
+  i need to get that the difference is 24 and the amount of times we had to switch them is 3 . 
+  my difference is 22 , the second part is correct . 
+  code :, 
+  z = zip ( x , y ), 
+  biggest = 0, 
+  for x1 , y1 in z :, 
+  a = abs ( x1 - y1 ), 
+  if a  biggest :, 
+  biggest = a, 
+  y.append ( y [ 0 ] ), 
+  print ( biggest ), 
+   on a small island there are only two villages , upper leadworth and lower leadworth . 
+  when an inhabitant of the island is talking to a person from his or her village , they speak the trurth , but if they come across someone from the other village , they lie . 
+  people mentioned below all live on this island . 
+   * ( a ) andy says to barry : `` you 're from upper leadworth . '', 
+   * ( b ) cindy says to danny : `` it 's not true that we are both from lower leadworth . '', 
+   * ( c ) eve says to francis : `` you 're from upper leadworth and i 'm from lower leadworth . '', 
+   can you determine for each of them what village they come from ? 
+  i am not quite sure how to approach this . 
+  i 've tried doing the table for ( a ) , ( b ) and ( c ) individually , but that did n't work . 
+  should i make a table at all ? 
+  and is this at least a bit correct ? 
+  * ( a ) a =  ( a < =  b ), 
+  * ( b ) not ( c or d ), 
+  any tips are highly appreciated . 
+  i need to create a function that will return all capitalized words from a sentence . 
+  if the word ends with comma , you need to exclude it ( the comma ) . 
+  this is what i came up with :, 
+  for word in sentence.split ( ) :, 
+  if word.startswith ( word.capitalize ( ) ) :, 
+  s.append ( word ), 
+  if word.endswith ( '' , '' ) :, 
+  word.replace ( '' , '' , '' '' ),

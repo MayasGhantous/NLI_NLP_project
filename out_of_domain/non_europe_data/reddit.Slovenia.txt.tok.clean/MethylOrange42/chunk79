@@ -1,0 +1,100 @@
+  and zoroastrian moabadan-moabad . 
+  i edited the history files . 
+  what shattered world does is it empties the history files in / history/titles / , but the titles that are inactive at the beginning of the game need to be specified as such . 
+  i think there 's a line `` active = no '' or something like that in those titles -- i do n't have ck2 installed on this computer so i ca n't check right now , but you can go check into vanilla files . 
+  i think it is possible to add things like this to the ruleset file in shattered world as well . 
+  it 's good to create your own mod , in your documents folder . 
+  that way you do n't mess with vanilla files . 
+  each one of those files contains the default history of the title . 
+  when it is created , who owns it at a certain time , and what laws are active . 
+  one of those tags , which i mentioned , is whether the landless titles are active at some point . 
+  how to mod titles in general , you can check here . 
+  if you need specific advice , ask me , i 'll provide an answer , but it will take me a bit longer . 
+  do n't know , sorry . 
+  i 've decided that instead of using shattered worlds for empty gamestart , i 'll just write myself a mod . 
+  what i 've done is i deleted all the characters , cleared title history files ( with a terminal command , because there 's too many of them ) , and manually deactivated all landless titles ( holy orders and such ) that must not exist at the beginning of the game by adding that line ( and a line that activates them at appropriate date ) . 
+  except for one count that 's dead in 867 already ( so i can pick to start there ) . 
+  the game automatically generates everything when i click the play button . 
+  i still did n't manage to get the pope to be random and start with county of roma though , but i think it would be best to assign it to a pope that is dead when the game starts , similar to the dummy starting character . 
+  if you want to use generated history option , though , there 's no quick solution , rather than going into the files and manually changing them , because any mod that would alter title history to disable those titles from existing at the beginning of the game would also screw up all the other history files . 
+  but , i think you could make a special rule for shattered world generator , so it specifically declares those titles inactive . 
+  there 's a special rule for generating pope , for example . 
+  but i have n't figured out how that works yet . 
+  i think he 's a kid somewhere in scandinavia ( most likely sweden ) in 769 . 
+  probably the game handles him a bit like seljuk , by triggering him to go a-viking at some point . 
+  blazon for the escutcheon i put together :, 
+  * barry wavy argent and vert ; chap\u00e9 ploy\u00e9 per pale : dexter argent , five escutcheons azure crosswise each charged with five plates in saltire ; sinister gyronny sable and argent , cross fleury counterchanged surmounted by an escutcheon azure charged with five plates in saltire . 
+  coa fo county of portugal was just * argent , a cross azure * . 
+  the silver roundels ( plates ) were added when portugal became an independent kingdom , and are supposed to mean silver coins , symbolising portugal 's right to issue its own currency . 
+  but why the cross changed to escutcheons crosswise , is unclear . 
+  there 's a theory it was simply because the original shield 's colours faded away , and it was redrawn in a slightly different manner when portugal became a kingdom . 
+  there 's no reason why exactly five roundels , though . 
+  their number even varied at first . 
+  last anglo-saxon pagan ( petty ) king arwald of wight died in 686 , while ireland and pictland were already christianised in 5th and 6th century . 
+   * coesnascent * is gibberish, 
+  another possibility would be * coenascentes * , which is an adjective ( in plural nominative form ) that would again mean `` born-together '' . 
+  singular form would be * coenascens * , and * nascens * is anglicised as `` nascent '' . 
+  actually , i 'm kind of disappointed by the lack of organised defense against the police ( other than the umbrellas ) . 
+  though ukrainians did set unrealistically high standards this winter ... 
+  well , building barricades , just in case , still counts as peaceful , right ? 
+  how is taking protective measures aggressive ? 
+  especially when the police force is full of dickheads . 
+  edit : also , it only takes one bad apple to spoil a bunch . 
+  well , there 's that thing that you can always be sure about who the mother is , but not who the father is ... so even if a female ruler 's husband goes full promiscuous , everyone can still be certain about her children . 
+  needs more griffins, 
+  done a quick search , they appear to be linked to an online scam that involved `` selling hereditary titles '' . 
+  bloating and gas is exactly because of bacteria activity . 
+  close enough . 
+  ( yes , i know that \u00fe = th-sound ), 
+  it would be nice to also link names with their cognates in other cultures ; for example fri\u00feureiks with names like frederick or friedrich . 
+  umm , they 're gothicised ? 
+  latin names are gothicised as well ; * exempli gratia * `` dauminikus '' . 
+  i 'm sorry , i completely forgot about your request . 
+  and i 'm currently a but busy , so i do n't have much time for playing or modding ... 
+  the thing is , i have also made some other personal adjustments to ck2 as well ( some extra titles , added carantanian culture so i can play as ancestors of my own people ) , so i 'd have to go through the files again to get you a clean copy that would work with vanilla game . 
+  which would take some time . 
+  since i 'll probably have to repeat the whole thing again when charlemagne comes out ... just remind me then , ok ? 
+  i have n't used steam workshop yet , so if it 's fine by you , i 'll just send you the files . 
+  and probably also share them with everyone that might want to use them . 
+  thank you !, 
+  actually parody status was a bit like what i was going for . 
+  somehow i wanted to include as much as possible , and , well , once i started going over the top , i just did n't want to stop . 
+  i did n't really bother with blazoning this properly as i know the whole thing is as controversial as it can be while still staying in the realm of heraldry . 
+  you see , i used the atom exactly to symbolise science 's dominion over all things . 
+  thank you for voting !, 
+  i 'd appreciate getting only the lesser coat of arms in flair , because using the full achievement would be a bit too busy imho . 
+  what about [ ascension 's sea turtles ] ( http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/coat_of_arms_of_ascension_island.svg/517px-coat_of_arms_of_ascension_island.svg.png ) or [ tristan da cunha 's lobsters ] ( http://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/coat_of_arms_of_tristan_da_cunha.svg/448px-coat_of_arms_of_tristan_da_cunha.svg.png ) ? 
+   i wonder if it would be possible to make it so that celibate characters can not marry . 
+  it is . 
+  there 's a bool trait flag `` cannot_marry '' to handle that . 
+  it 's used in * monk * and * eunuch * traits . 
+  the only thing you need to do is go to '' / common/traits/00 _ traits.txt '' , find * celibate * trait ( # 63 ) and add line `` cannot_marry = yes '' . 
+  this wo n't exclude celibate characters from inheriting ( as * monk * and * eunuch * traits do ) , this is handled by a separate trait flag , `` cannot_inherit '' . 
+   common sense, 
+  the only date format that makes sense would be 2014/10/14 . 
+  is this after magyars migrate ? 
+  the only time i checked , i had a couple of russians named putiata spawn . 
+  i think the problem is that when game generates them , they 're all generated from the same seed ( as they 're simultaneously generated ) . 
+  so they 're all the same . 
+  tuvan language is turkic actually ... though their culture is otherwise obviously close to mongolian . 
+  steppes of central asia allowed easy migration on horseback , so there 's always been a lot of cultural crossover in that area . 
+  and from time to time , some of those groups made an impact on regions outside the steppes : for example : huns , oghuz turks , mongols . 
+  it 's kind of like slovenia and austria , culturally there 's less difference than say slovenia and russia , or austria and netherlands , even though slovenia is linguistically slavic and austria is linguistically germanic . 
+  both turkic and mongolic languages are in larger altaic language group though , just like how both slavic and germanic are indo-european languages . 
+  download the [ zip archive ] ( http://www.moddb.com/mods/elder-kings/downloads/elder-kings-015-zip-archive ) ( installer works for 64-bit systems only ) , instructions are inside . 
+  in short , the contents of the archive go to mod subfolder in ck2 folder in my documents . 
+  actually , i 'm not really sure about compatibility . 
+  it 's built for 2.1.4 version and 64-bit os ( which is the setting i list played elder kings on ) , but i heard it works on 32-bit system as well ( but it could cause some bugs ) , and i think it should work with 2.1.6 which is more or less a hotfix for 2.1.4 . 
+  malacath cult does have only one holy site though i think , and religion tab is empty for most religions in game . 
+  it did n't cause me crashes though . 
+  regarding using heraldic designs with * proper * tincture , i can think of * agnus dei * , which is almost always * proper * , human and angel figures are quite often proper as well . 
+  a * mount proper * is actually * vert * . 
+  otherwise , the point of heraldry is to make recognisable symbols , so carefully depicting charges as * proper * kind of goes against this . 
+  but it is n't really forbidden * per se * . 
+  as good examples of use of * proper * tincture i 'd give [ coa of moscow ] ( http://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/coat_of_arms_of_moscow.svg/574px-coat_of_arms_of_moscow.svg.png ) , [ coa of zaporozhian host ] ( http://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/herb_viyska_zaporozkogo_%28alex_k%29.svg/653px-herb_viyska_zaporozkogo_%28alex_k%29.svg.png ) , and [ coa of bishopric of brixen ] ( http://upload.wikimedia.org/wikipedia/commons/5/5d/wappen_bistum_brixen.png ) with * agnus dei * , because they 're still easily recognisable . 
+  a bad example would be [ coa of costa rica ] ( http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/coat_of_arms_of_costa_rica.svg/827px-coat_of_arms_of_costa_rica.svg.png ) -- or just any example of so-called landscape heraldry , really . 
+  a cross ending in * fleur-de-lis * is generally called * cross fleury * . 
+  simply * on a cross sable a cross fleury or * should suffice . 
+  edit : [ neckarsulm ] ( http://en.wikipedia.org/wiki/neckarsulm ) in germany has a coat of arms that is based on the teutonic order one , it does indeed use a * cross fleury or * . 
+   honest question : how is it that all the genes that relate to race are immune to this kind of influence , when it seems like the genes relating to things like sickle-cell disease and cystic fibrosis are strongly affected ? 
+  they most likely are n't .

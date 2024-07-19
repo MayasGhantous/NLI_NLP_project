@@ -1,0 +1,100 @@
+  it was undoubtedly ( along with the extra speed delivered by broadband ) the technology that made universal online video a feasible prospect . 
+  but that web was dominated by microsoft , and was only really usable on a windows machine . 
+  relying on microsoft 's rather quirky browser implementation was a necessity , and flash provided a means for high performance 2d animation and video playback that was simply impossible otherwise - and certainly a step up from the multitude of ` video plugins ' from half a dozen companies . 
+  we have a different web now . 
+  one we can make use of from a wide variety of devices and software ; one where we can even be involved in the design of those devices and software ourselves . 
+  in * this * web , relying on patent-encumbered codecs that require license fees to use and closed-source binary blobs from adobe are onerous restrictions . 
+  hence the push to find alternatives . 
+  html5 , canvas , css3 and ecmascript4 are all technologies that are capable of replacing flash 's 2d animation abilities ( with better integration with the rest of the page ) . 
+  mozilla are trying very hard to push alternatives to patent-encumbered formats like h264 . 
+  you 're right to say these things are n't ready to replace flash . 
+  * yet * . 
+  but they * are * getting there . 
+  kinda . 
+  i do most of my actual work on one of a handful of freebsd servers . 
+  i have two at home ( fileserver and webserver , both low-power mini-itx systems ) and two at work ( each are pretty much the same mid-range rackmount servers , but used for different projects ) . 
+  a normal day 's development ( i do web application programming and some fairly hefty database work ) involves using my workstation as little more than a terminal emulator and a platform for a web browser . 
+  sometimes i 'll fire up photoshop , but not that often . 
+  all the real work happens on the server . 
+  for a text editor i use either something that works via sftp , or vim running directly on the server ( usually a combination of both ) . 
+  this works pretty well as long as i have an internet connection of some description . 
+  i do n't do any remote desktop ( all command line ) , so speed is n't as important as reliability ( although with judicious use of ` screen ` i can get stuff done from even a really shitty connection ) . 
+  my laptop ( recently acquired , so i 'm still getting to grips with developing on it ) is a 15 '' macbook pro . 
+  i use pretty much the same setup there , with the addition of a working copy ( in git rather than our usual subversion ) of all our the projects i 'm likely to need in case i find myself without an internet connection . 
+  to be honest , the laptop is massively overpowered for what i need ( for development , at least  ) . 
+  the biggest problem i 'm having is getting used to the small screen ; i 'm used to being able to spread out over two big monitors . 
+  i gave up on relying on remote desktop many years ago . 
+  i still use it very occasionally to do stuff i did n't expect , but most of the things i need are accessible from the command line - it 's far far more convenient . 
+  what exactly are you doing that needs remote desktop ? 
+  the older and grumpier i get the more i 've grown to love ppk 's occasional rants . 
+  they have 999 ` < option value = `` xxx ''  xxx < / option  ` in there . 
+  they really do have so much fucking bandwidth it 's falling out of their arse . 
+  generally speaking , with a laptop you 're better off almost completely ignoring cpu speed ( and to an extent , graphics performance ) . 
+  the only thing you really need to make sure you have is a decent quantity of ram ( or at least , the ability to upgrade the ram afterwards - a lot of laptop vendors will charge a premium for additional ram ) . 
+  one gig is generally not enough . 
+  two is good and four is better . 
+  more ram will generally give you better `` real-world '' performance than a faster cpu , and even compensate for a slow hdd . 
+  it 'll just `` feel '' faster while in general use - even if it wo n't benchmark particularly high . 
+  but , apart from ram ( cos you can usually upgrade that later ) , focus on the ergonomics of the thing :, 
+  * is the screen big enough for you to work on, 
+  * is it small/light enough to carry around, 
+  * is the keyboard okay for you, 
+  * does it have enough usb ports/etc, 
+  * is the battery life enough for you, 
+  remember , unlike a desktop pc , once you 've bought a laptop , you ca n't change these things . 
+  if it has a shitty keyboard , you 're stuck with it . 
+  agreed past 4gb you 're entering the realms of overkill , but even at moderate load with normal stuff it can help . 
+  the os will turn over any you 're not using to caching the bits of your filesystem that you 're using , so it 'll help it * feel * fast and even compensate for a slow drive . 
+  but i disagree on cpu speed . 
+  my girlfriend 's laptop is many years old and sports a 1.5 ghz single core pentium . 
+  even after a reinstall it was a bit slow and clunky , so we upped the ram to from 1gb to 2gb ( as high as it 'll go , which is a shame ) . 
+  and it 's fine . 
+  even for coding and throwing around big images in photoshop ( i used it for a full day 's web development shortly afterwards ) . 
+  the lack of raw cpu speed is noticeable in places ( compiling , photoshop filters ) , but in general use it 's no issue at all . 
+  i will say it 's worth avoiding the `` cut down '' cheap processors , they usually have gimped l2 cache , which really does negatively affect performance . 
+  but raw clock speed , meh . 
+  i loved them when i was 15 and still love them now ( but i do n't really advertise that - i 'm like 30 now , i 'm supposed to listen to coldplay ) . 
+  i 'll admit , i think they peaked with punk in drublic , ( also , the decline is * amazing * ) , but their albums are * still * really very good indeed , even their latest . 
+  if it saves just one person from fucking up their box , then i 'd say it was worth it . 
+  that 's ridiculous . 
+  it 's not as if it 's something that you 're going to have to type repeatedly every day ( and even if it was , compiling your own copy of apt with a tiny tweak to disable it , or a script to wrap it and take care of it for you is n't a particularly onerous task ) . 
+  besides , if you object so much to `` training wheels '' - type features , why are you even using ` apt-get ` ? 
+  go use ` dpkg ` directly . 
+  or better yet build your own system from source . 
+  edit : here you go :, 
+  alias apt-for-hardcore-linux-wizards = ` echo `` yes , do as i say ! '', 
+  although i suspect that ` sudo ` is unnecessary , everybody knows ( edit : as reverendfrag4 has also pointed out ) that not logging in as root is for noobs . 
+  i have to say dude , that thing looks fucking badass . 
+  or , more likely ( and more depressingly ) , they 'll point you to some obscure part of the contract you agreed to that lets them charge you anyway . 
+  protip : keep a copy of the windows startup sound somewhere handy for when you need to call your isp 's tech support , and do n't want to * actually * sit and wait for a completely unnecessary reboot . 
+  ( or to convince them you 're running windows when you 're not ) . 
+  ] ( http://www.etsy.com/view_listing.php?listing_id=40369077&amp;ref=sr_gallery_4&amp;&amp;ga_search_query=glass+pipe&amp;ga_search_type=handmade&amp;ga_page=3&amp;includes[]=tags&amp;includes[]=title ), 
+  given that bing is the default search engine in ie these days ( as well as on some mobile devices , iirc ) , and considering the fact that most people do n't understand the location bar ( or bookmarks ) and just type what they want directly into whatever search box they 're provided with ... 
+  . . is there any way you 'd be able to tell us how many bing searches there are every day for `` google '' ? 
+  yep , but they doing what microsoft are doing with the `` office open xml '' document format . 
+  that is , make it ridiculously complicated and fill their implementation with bizarre quirks . 
+  because of the complexity , anyone wishing to fully implement the specification is going to have to invest huge resources , and even if they manage it , they 're going to have to work around all the quirks in the vendor 's implementation ( which , at the moment is for all intents and purposes the `` canonical '' implementation ) . 
+  so it 's really only as `` open '' as it needs to be to convince governments and large companies to stay on the adobe ( or ms ) bandwagon . 
+  oh * hell * no , this is all wild speculation and vague hints at unseen conspiracies . 
+  i do know that they 've [ failed to properly implement ] ( http://news.cnet.com/office-2007-fails-ooxml-conformance-test/2100-7344_3-6237855.html ) the spec as written in the past , and because it 's based on their existing document format , it 's a [ fucking huge ] ( http://www.ecma-international.org/publications/standards/ecma-376.htm ) spec ( likely because it contains enough stuff to support all the features in their rather bloated document format ) . 
+  but , neither of those things are damning . 
+  so i admit i do n't really have much apart from a general mistrust of their intentions . 
+  positive pressure . 
+  that is , more intakes than exhausts . 
+  if done well , this will dramatically reduce the gunk that accumulates in hard-to-clean places . 
+  however , although it will lessen the crap that builds up on intake filters , it wo n't eliminate it . 
+  the best way to deal with that is to make the filters obvious , and easy to clean . 
+  i use the cheap-and-obvious method of simply mounting fans and filters in the 5.25 '' bays ( can usually squeeze in a couple ) . 
+  that way you can clearly see when they 're all gunked up , they 're easy to clean ( dustpan and brush will usually do a good enough job ) , and you 're usually going to get better airflow than the silly plastic intakes at the bottom of most cases . 
+  since the drives are typically at the bottom of the case along with an intake , this reduces the cooling they receive . 
+  so i shift the drives up behind the fans with drive adaptors . 
+  the best are the old-school 3.5 '' to 5.25 '' bay adaptors as there 's nothing to impede airflow . 
+  admittedly , if you need to switch drives quickly , they 're not ideal , but they are certainly cheap and effective . 
+  this probably is n't the kind of frankenstein case you want in your study at home , but for use in an office they work extremely well and are cheap and easy to implement . 
+  no matter what the man does , completely eradicate malaria , tear out his own lung with his bare hands so a small orphaned child can get a transplant to keep him alive . . it 'll never make up for ie6 . 
+  how about `` shut up , you fucking hippies '' . . ? 
+  nah , he 's big dude , but he is n't * that * fat . 
+  this is the unfortunate downside of airlines being able to force people that need two seats to pay for two seats or be ejected from the flight ; those rules will be applied inconsistently and sometimes unfairly . 
+  some people have shitty judgement or are simply officious bastards that like to abuse their power . 
+  hopefully , over time , they 'll come up with some proper guidelines to limit that . 
+  ( but , unfortunately , the only way that will happen is if they get bad press over it ) .

@@ -1,0 +1,100 @@
+  there 's been a race going on in the past two decades to produce the loudest record ** evar ** , and this is the consequence . 
+  new records can only be louder if they have musical dynamics removed from them , so they will sound like crap . 
+  pretty much every record since 2000 is shit because of this . 
+  you can get around the jumping volumes by using [ mp3gain ] ( http://mp3gain.sourceforge.net/ ) on your mp3 collection , which will measure the percieved loudness of the track , and evenly ( and losslessly ! ), 
+  apply an integer decibel amount of attenuation to the tracks , so it can match the songs produced in the golden age of digital audio . 
+  the -3 db figure is related to the frequency range : if the driver is down 3db at 40hz and it does n't come back up , then that 's what they specify as lower end of the frequency range . 
+  it does n't mean that the passband is flat within 3db . 
+  \u00b1 10db is my upper estimate . 
+  the ear related transfer functions and the resonances due to the driver being close to the ear canal will amplify or dampen sound at certain frequencies , so the sound level estimate derived from the input voltage will likely be off by a significant factor depending on the type of music you play . 
+  you 've never used it , have you ? 
+  * 2edgy4u *, 
+  you should n't use ftp , it 's archaic and insecure . 
+  how about sftp ( a file transfer protocol based on ssh ) ? 
+  if you can ssh into the box , you should be able to use sftp . 
+  winscp is the app that you can use on windows afaik . 
+  i have it set up on debian with a 3tb raidz1 pool , but i have a bunch of problems with it . 
+  sometimes it forgets the exports ( only one or two ) . 
+  daemons ca n't see the mount on boot , so i have to restart them in the initrc file . 
+  it is n't bad for enthusiasts ( i love it ) , but i find it hard to believe that anyone would be using it where reliability truly matters . 
+  use gnu shred :, 
+  # shred - v / dev/sd \u03b2, 
+  this will replace the blocks with random noise three times . 
+  you can speed up the process by running ` shred - vn1 / dev/sd \u03c7 ` which will only write the device once . 
+  piping ` / dev/zero ` to your ssd could either work or not . 
+  the disk controller in some cases optimizes the writing of zeros and may not clear all the blocks . 
+  playing 24-7 , streaming my music in opus when i 'm not at home . 
+  recommend proprietary applications in another subreddit . 
+  i like cantata the most , but i think it 's for kde only ( it depends on kde-runtime ) . 
+  i also use ncmpcpp a lot when i ssh home from work , and there 's mpdroid for android , which is awesome , because it integrates perfectly with connectbot 's ssh port forwards : when i 'm on the home wifi , it connects to the media box , when i 'm not , it tries the tunnel on localhost . 
+  foobar2k in wine is what i use . 
+  i know it 's cheating , but hell , it works . 
+  it 's the big knob on the right . 
+  any source on the claims regarding the performance of the clients ? 
+  ffmpeg is good because it preserves metadata . 
+  so does sox , but sox mp3 support is n't always guaranteed in every distribution . 
+  instead of using a for loop in bash , i prefer using gnu parallel . 
+  the syntax is easier to get right , and it will inherently use all of the cores in your cpu . 
+  mkdir album [ mp3 ], 
+  parallel ffmpeg - i { } - aq 0 album [ mp3 ] / { . 
+  } . mp3 : : : album / * . flac, 
+  replaygain album [ mp3 ], 
+  the last line is using ` python-rgain ` , a gstreamer based replaygain scanner available in debian . 
+  there should be a coaxial s/pdif output on the display , that you can connect to your receiver . 
+  prologic is an outdated technology that multiplexes surround sound onto stereo . 
+  multichannel audio formats have moved to discrete channels instead . 
+  i think most headphones benefit from basic equalization , but i find that cyanogenmod 's dspmanager is completely adequate for the task . 
+  viper is a bit overboard , even bloated . 
+  * i would n't use a dumb compressor in the playback chain , most music is already overcompressed . 
+  * why would i want to add a reverb to all of my tracks ?? 
+  * having a convolver must be fun , but again , the upstream dspmanager eq is great, 
+  a bunch of undocumented effects of dubious benefit ( cure tech + , viper clarity , xhifi etc ) that feel like feature bloat to me . 
+  i 'm sure to stay away from viper . 
+  here 's something i 'd like to see in viper/dspmanager : multichannel-to-binaural stereo virtualisation using hrtf . 
+  i do n't know if the android audio system can handle multichannel audio though . 
+  you 'll have greater trouble finding an adequate preamp . 
+  many built-in pc sound cards have 192khz playback , for example my pc with the realtek alc-888 chip is down 3db at 82khz ( motherboard is a cheap gigabyte ), 
+  you can think of a jar as a java program package . 
+  it 's somewhat better than an exe because the jvm executes code in a sandbox by default , whereas you have a pretty good chance of turning your pc into a botnet zombie if you run exe files downloaded from the internet - especially pirate sites . 
+  android can run octave natively , or remotely over ssh . 
+  install gentoo, 
+   unless, 
+  even if . 
+  that image is 10 stops underexposed , there 's no way to bring back any information from the noise . 
+  you can install [ linux genuine advantage ] ( http://www.linuxgenuineadvantage.org/ ) separately . 
+  is this only for dd 's ? 
+  i did the same at fra . 
+  i changed the mac address on my phone , and got another session for free . 
+  if it plays fine and stays in tune , it must be a fake . 
+  what does it mean that nistp384 is not safe ? 
+  it 's what was generated by default on my debian box . 
+  should i replace it by something else ? 
+  you 're being downvoted for no reason . 
+  on android , you run ` su - c ` busybox ifconfig wlan0 hw ether ab : cd : ef :01:23:45 ' ` which 'll set your mac address to anything . 
+  if they 're a lighter gauge than what you 've used before , you 'll have to ease the tension on the truss rod . 
+  that , or you might have accidentally lowered your bridge somehow . 
+  loosen the strings before adjusting , or you might damage the truss rod . 
+  you should avoid amd graphics if you 're seriously considering linux . 
+  in a nutshell , the drivers are n't nearly as good as the ones for intel/nvidia chipsets . 
+  hardware video decoding is one of the major issues , where amd released their own api that not many video players support . 
+  if you use an amd gpu , then probably . 
+  switching vt 's clears the video card gamma table . 
+  is there a workaround ? 
+  something like an xinitrc that can execute dispwin whenever i switch between x sessions ? 
+  the n5 has powered host mode usb that nobody seems to care about . 
+  i think it 's a big deal . 
+  i think it 's clay . 
+  is it a good example of a 6bc8 tube circuit ? 
+  on a related note , how should i go about deploying systemd on my computer ? 
+  thanks , i 'm checking it out !, 
+  systemd was in / bin btw . 
+  it should never have come to this . 
+  look for a hypercardioid/supercardioid mic . 
+  they have good off-axis rejection , so you 'll have less ambient noise , but you 'll have to be careful not to move your head away from the center . 
+  i sometimes notice that not all external drives are mounted as rw for every user , which is super annoying . 
+  what 's the output of ` mount ` when the flash card is in the reader ? 
+  it 's got the typical oversized power supply syndrome , although there does n't seem to be anything cheaper that 's also quiet . 
+  you could significantly lower the budget by buying a used office computer . 
+  i got a lenovo dual core box for ~ 70 $ , put in a large semi-broken cpu cooler with a damaged heatpipe , an nvidia gtx630 gpu for hardware video decoding ( used , 35 $ ) . 
+  the ram had some bad blocks , [ but linux does n't care ] ( http://www.gnu.org/software/grub/manual/html_node/badram.html ) ; though it came with a 150 gig wd raptor drive , which is cool . 
+  i installed three 4tb drives for storage that blew the budget out of the water , but that 's beside the point .

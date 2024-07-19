@@ -1,0 +1,100 @@
+  concerto in g # minor, 
+  allegro vivace , based on the ebonpyre theme, 
+  adagio , based on the clockwork theme, 
+  vivace grandioso , based on the beatdown theme, 
+  i might even be able to rope my orchestra into playing it ( badly ) !, 
+  any recommendations ? 
+  does it invlve wifi if so were can i get cheaep, 
+  my computer wo n't turn off ( except two unexceptional times ) , except if i manually hold down the power button . 
+  sometimes it wo n't turn on , either ( a little more than 50 % of the time ) . 
+  both cases culminate in it just sitting there , system lights on and everything , fans running , no signal to the tv . 
+  when it fails to turn on , the motherboard never beeps . 
+  when i tell it to restart , it dutifully turns all the software off , and just ... sits there . 
+  running . 
+  no audio/video . 
+  i have tried plugging in the reset_sw connector every which way . 
+  i assume the pw_sw connector works because it turns on when i press the button . 
+  everything else works fine . 
+  i mean what ? 
+  edit : it just randomly started working . 
+  all fine now !, 
+  ` course , i did default the bios settings , but then i put them back exactly where they were . 
+  wtf ? 
+  yo , remember when we sent that bot that we play df , and now df is the most-played game in / r/gaming ? 
+  and then it attracted a bunch new users ? 
+  yeah , that was pretty rad , was n't it ? 
+  except that those declarations only last 30 days , and our 30 days are about to run out !, 
+  so , for the glory of the mountainhome , resend those messages !, 
+  i would have included links to the previous threads , but damn were those a long time ago . 
+  reddit time moves faaaaast . 
+  anyone have any models for my soon-to-be reprap ? 
+  the way world generation works/will work in the homestuck rpg i 'm programming for/with my friends . 
+  follows first is a list of very interdependent things in the order they are set/done , then a ( holy shit very incomplete ) list of properties to chose from for a majority of those process . 
+  the properties used for these depend mainly on a person 's class and aspect , and a set of six variables ( lightness , heat , tint , saturation , entropy , imagination ) , ultimately determed by the gm . 
+  plus randomness , cause why not . 
+  phase 0 :, 
+  noise : generate perlin grid . 
+  i 'm not smart enough to understand how simplex noise works . 
+  phase 1 ( choose 1 each ), 
+  temperature : decides the temperature of your planet . 
+  atmosphere : decides the properties of your atmosphere . 
+  light : decides how your planet will be lit . 
+  terrain texture : decides material for terrain . 
+  terrain shape : decides what landforms will be prominent . 
+  liquid texture : decides what the liquid on your planet will be made of . 
+  liquid shape : defines your erosion paradigm . 
+  only certain selections are possible for different terrain shapes . 
+  precipitation : defines what sort of precipitation will fall on your planet . 
+  this extends to any atmospheric anomalu , like thunder . 
+  phase 2 ( pick 5 , from any or all ), 
+  flora : what sort of flora populates your planet ( mushrooms count here ) . 
+  fauna : what sort of fauna populates your planet . 
+  structures : what sorts of manmade structures are on your planet ( besides the terrain , if applicable , and besides pregenerated structures that are actually generated after this ) . 
+  objects : what sorts of objects are strewn about your land . 
+  phase 3 ( these are all mandatory and important ), 
+  pregenerations : all of the stuff that has to be on your planet , like libraries and gates and temples and things . 
+  consorts : what intelligent species inhabits your planet . 
+  abstract : determines your planet 's color scheme , and , partially , its music . 
+  ambiance : affect 's the planet 's music . 
+  phase 4 : ( post-generation stuff that does n't affect world map terrain data ), 
+  grist profile : which types of grist are more common . 
+  name : what to name the world ( simply chooses two highest-rated properties from above ) . 
+  books : with what books to populate its libraries ( depends a lot on class and aspect ) . 
+  example :, 
+  temperature : chill, 
+  atmosphere : wind, 
+  light : shade, 
+  liquid texture : oil, 
+  liquid shape : rivers, 
+  precipitation : calm, 
+  fauna : fireflies, 
+  structures : huts , bridges , pipes, 
+  objects : \\ <none, 
+  pregenerations : \\ <stuff, 
+  abstract : destiny, 
+  planetary properties : ( these are incomplete as all fuck ), 
+  light :, 
+  light, 
+  rays, 
+  glow, 
+  suffusion, 
+  beams, 
+  sun, 
+  sunshine, 
+  moonlight, 
+  sunbeams, 
+  moonbeams, 
+  color, 
+  darkness, 
+  hue, 
+  chroma, 
+  luminosity, 
+  dark, 
+  shade, 
+  shadow, 
+  shadows, 
+  saturation, 
+  reflection, 
+  transparency, 
+  luminescence, 
+  phosphorescence,

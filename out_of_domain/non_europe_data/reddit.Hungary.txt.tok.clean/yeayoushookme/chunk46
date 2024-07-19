@@ -1,0 +1,100 @@
+  just turn off the notification . 
+  how i do it ( resizing to fill a 128x128 box ) :, 
+  mkdir . . / resized, 
+  find - iname '' * . jpg '' - o - iname '' * . jpeg '' | parallel convert - resize 128x128 ^ - gravity center - extent 128x128 . . / resized / { }, 
+  it needs imagemagick and gnu parallel , but it 'll use all the available cpu cores in the machine . 
+  in a way , yes . 
+  a high shelf eq will increase the bandwidth of a pickup if the corner frequencies match . 
+  increase the load on the pickup if it 's resonating , because the eq will not cease the bump in the response . 
+  the difference will be marginal . 
+  you can increase the bandwidth of an existing pickup even more if you wire the coils in parallel ( reducing the inductance by a factor of 4 in case of a humbucker ) , or if you replace the ferrite magnets with lower permeability ones like alnico , or neodimium-based magnets . 
+  the spectrum is complex , but that does n't mean that the pickup response is n't simple . 
+  the spectrum depends on the string motion , wood , body , where you picked , which note you play , and i could go on ... 
+  the pickup response on the other hand is only a product of two things : the width of the magnetic field , which has a comb-filter like response , and the lcr response of the coil . 
+  it can be modeled easily , and it * is * modeled : variax guitars and boss gk pickups can have the response of any pickup by having a sensor with a known response , and a dsp that produces the difference . 
+  the second picture is not a spectrum , it 's a transfer function . 
+  if an eq has a spectrum by itself , then it 's because it is noisy , 
+  ^ ( it 's quite typical of / r/guitar that the most voted comment is completely inaccurate ), 
+  you bought them new ? 
+  return them immediately , it 's defective . 
+  here 's a 128k mp3 with the lowpass disabled :, 
+  the lowpass filter is there for a reason though . 
+  it allows more complexity in the more important frequency regions . 
+  the difference is apparent when you see the original :, 
+  see how there are n't any big-ass frequency blocks as in the first picture ? 
+  that does n't change much . 
+  if the issue is with the amp , and not the transducer , then they still have to fix it . 
+  there 's no excuse for bad quality control . 
+  what button ? 
+  where is it ? 
+  so the usual * click previous story * -  * click next page to see if there are more pages * -  * click previous story twice if there was only one page * technique would not work with this comic when traversing backwards in the history . 
+  thanks , this looks great !, 
+  openwrt uses it , and generally , small embedded devices would benefit by it . 
+  in openwrt , you have a read-only squashfs partition in / rom that has the system binaries and the default configuration files , and there is a jffs2 partition at / overlay that has the custom config files , and optionally installed apps . 
+  the rootfs is created at boot by merging the two , overlaying the read-write partition on top of the readonly squashfs partition . 
+  so if you modified / etc/foo . conf , it will be read from / overlay/etc/foo . conf , but by default , / rom/etc/foo . conf is read . 
+  in elementary ( because ubuntu ) , even if the default kraernal version is 3.2 , newer versions are available in the repo , and can be installed simply by selecting the appropriate package in the package management app . 
+  if they do n't work , you can boot the old one by selecting it at boot . 
+  linux-image-3 .16 - something is the name of the package , but i may be wrong . 
+  well yes , but . . wait what ? 
+  screw it to the body instead . 
+  many humbuckers are dull . 
+  you can try to connect the coils in parallel , but you might need to replace the wire that goes to the pickup if you do that . 
+  it 's easy to do it if the pickup already comes with 4 wires . 
+  there 's . onion and . bit - both * reek * of freedom . 
+  low voltage , no ripple , oversized caps for the load - they will be running fine for decades . 
+  i can recommend this one :, 
+  i ssh using my nexus 4 or my pc for the general stuff , and i use yatse for xbmc . 
+  i just did wheezy to sid out of accident ( i had the wheezy netinst instead of jessie ) and it went fine . 
+  a little hiccup with the proprietary nvidia driver , but nothing serious . 
+  i think it 's related to the / media/usb lines in / etc/fstab . 
+  otherwise , my debian boxes do n't automount , though i have n't tried my pies . 
+  what he said ? 
+  / dev/sda is the * actual * disk , presented by the kernel as a file . 
+  / dev/sda5 is the disk plus the offset until you get to the fifth partition therein . 
+  you do n't normally touch these , because you need to be root to read them , and you will cause corruption and destroy the filesystems if you write to them . 
+  check the output of ` df ` . 
+  it will tell you the amount of free space on the partitions , as well as the mount point of the file system root . 
+  if you need to know what occupies the most space , you can use a program called ` du ` . 
+  it traverses through the directory tree , and prints the sizes occupied by directories . 
+  if it 's installed , you can use ` ncdu ` , which will do the same , but it will present the info in a terminal gui . 
+  / tmp should remove itself upon booting , so if uptime is high , start looking for large files there . 
+  they are usually safe to delete . 
+  / var/log has the logfiles , which should rotate themselves daily , and the logging daemon should delete them . 
+  if some config is messed up , it can grow to be big . 
+  use this command to find the largest files below the current working directory :, 
+  find . 
+  - printf ' % s % p \\ n ' | sort - nr | head -10, 
+  ah yes , the good old ipoac ( internet protocol over avian carriers ) . 
+  for those who are interested , it has been described in this rfc doc : [ rfc1149 ] ( https://www.ietf.org/rfc/rfc1149.txt ) . 
+  it works as advertised . 
+  bridge suspension transfer function, 
+  could n't you have the bootloader one a usb drive mounted in a rear port ( or even inside the box ) , and have it boot the pci ssd though ? 
+  i just tried doing this in windows , selecting the ntfs partition labeled as raw , and choosing to format it as ntfs . 
+  guess what ? 
+  it reformated the * first * ( ext4 ) partition !, 
+  what a fucking joke !, 
+  good thing i made a backup . 
+  buy it you cheap fuck , and skip the popcorn next time you go see a movie . 
+  that means , if regular lemons are at least 1 % efficient , then organic lemons are a potential solution to the energy crisis !, 
+  free energy forever !, 
+  the force ? 
+  would n't the sabre benefit from having mass/inertia ? 
+  so you use the force to add weight to your swings . 
+  she was pregnant , so someone must have, 
+  but it 'll see the bios , 
+  mine break less often strung up that way, 
+  those guys left months after the buyout, 
+  9000 hours is * exactly * 28 years, 
+  what he wrote is wrong . 
+  pulse will use either 44.1 khz or 48khz ( decided when you first play back a file ) and it will keep the interface at that word rate until playback stops . 
+  if there is a second concurrent sound source that has a different sample rate , it will get converted . 
+  you can go directly to the audio card with alsa which will provide the optimal sample rate if supported by your interface , but there will be no mixing of audio streams in your system . 
+  i 've used one for the past 4 years . 
+  hit me up if you want to learn some tricks . 
+  it knows quite many !, 
+  negating any benefit you 'd get from using alsa . 
+  dmix works only on a single frequency . 
+  who 's setting up pulse for themselves , if i may ask ? 
+  why are n't you installing it from wheezy-backports ? 
+  the guy 's nuts .

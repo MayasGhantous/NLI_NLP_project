@@ -1,0 +1,100 @@
+   when this kick starter went live all they had was a dream , an idea , and a small crew, 
+  sure . 
+  but the ac is just a tiny portion of the game , it 's essentially a more developed gameplay prototype ( that does n't even feature a ton of intended core gameplay features yet - like multicrew ships , boarding etc. ) . 
+  do n't tell me they could n't work on it from day one . 
+  they had a significant amount of staff even during the early days . 
+  ac is a set of small and pretty much empty cryengine maps with a few basic modes and some ai . 
+  it 's not like they had to build the pu system ( and stuff like rewrite half the engine to support double precision ) and then limit it in some way or cut a part of it for ac , no , they 've built the maps specifically for ac . 
+  when the first ac version was finally out of the door , they did n't even have multiplayer in any shape or form even though one of the main reasons for multiple delays was that they were overhauling the multiplayer system !, 
+  and afaik the multiplayer system was not fully operational for several weeks after the release ( i do n't know how it looks like now ) . 
+  it 's all these little things and when you finally get your hands on something playable , it disappoints you in the most basic ways ( who cares that the damage modelling is so detailed when the movement itself feels incredibly clunky and constrained and not at all like `` flying '' a bsg viper ? 
+  just out of curiosity , how much will they go for ? 
+  ayyy lmao, 
+  top kek, 
+  ** because that fuckwit tito ca n't post the proof , no , there has to be another retarded cryptic bullshit message like `` we 've received evidence that he has harassed some contributors '' . 
+  ** fuck me , this is why gamergate exists , where the fuck is transparency in that . 
+  holy shaved balls jesus fuck shit what a crapfest this is !, 
+  ps : i do n't really care if the harassment allegations are true or not . 
+  that 's not the point . 
+  the fact that the interview was deleted without a proper explanation is a proof that these shitty bloggers ( i refuse to call them journalists ) have not learned a damn thing yet . 
+  comment from that video : `` somebody put drugs in his cocaine '', 
+  fitting user name . 
+  this change is great . 
+  ue4 supports aa ( custom temporal and fxaa ) ... it just does n't support msaa ( as hardware msaa is not possible with deferred rendering ) . 
+  temporal aa is the default in the engine and gives the best results . 
+  also , temporal aa allows for specular anti-aliasing , msaa ca n't do that . 
+  [ no aa ] ( https://docs.unrealengine.com/latest/images/resources/contentexamples/postprocessing/1_14/1_14_01.png ) -  [ fxaa ] ( https://docs.unrealengine.com/latest/images/resources/contentexamples/postprocessing/1_14/1_14_02.png ) -  [ temporal aa ] ( https://docs.unrealengine.com/latest/images/resources/contentexamples/postprocessing/1_14/1_14_03.png ) . 
+  video : [ high quality temporal supersampling - brian karis - siggraph 2014 ] ( https://www.youtube.com/watch?v=ynq47my-eo0 ) ... btw the pixel flicker / shimmering in the first part of the video is a lot more noticeable than in regular games because of the use of pbr , which makes stuff look a lot more reflective ( specular power is set up higher than is usual in older material models ) . 
+  to quote a [ msdn blog post ] ( http://blogs.msdn.com/b/shawnhar/archive/2011/10/31/shader-aliasing.aspx ) :, 
+   specular light aliasing, 
+   one of the most everyday and yet pernicious examples of shader aliasing is the humble specular light . 
+  this is so common and inoffensive that we built it into the standard basiceffect lighting model , and yet specular lighting involves a power computation which is inherently nonlinear , and thus a source of aliasing . 
+  the higher you crank the specular power setting , the shiner the object looks , and also the worse the aliasing becomes . 
+   surprisingly for something that is so widely used , there is no universally accepted solution for specular aliasing problems . 
+  many people just turn down their specular intensity or specular power for whichever models show the worst artifacts , put up with minor remaining flaws , and call it good . 
+  first , official documentation is pretty good so you should check it out . 
+  as for the tutorials and/or unofficial documentation , there 's quite a bit . 
+  youtube playlist of epic video tutorials : https://www.youtube.com/playlist?list=plzlv_n0_o1gacl2xjkluo7n2pmmw9pvhe, 
+  community stuff :, 
+  you can also download [ content examples ] ( https://docs.unrealengine.com/latest/int/resources/contentexamples/index.html ) from the marketplace that has a lot of stuff demostrated , or a few sample games and projects . 
+  one note from me : like u/minedwiz said , you could reimplement methods on the fly before ... plus you can do a lot with blueprints . 
+  they 're an excellent tool for prototyping and quick iteration . 
+  when you feel like it , you just rewrite it into the code . 
+  graphics wizards over at amd helped them ? 
+  anyways , frostbite 2/3 uses a special kind of deferred redering called tile-based deferred rendering that has its own set of problems . 
+  and i think ( do n't quote me on this ) that it requires sm5 ( dx11 ) hardware to do msaa . 
+  most of the times :p ( at least for a coder ) , but you have to know exactly what you 're doing . 
+  fix the burst fire ones and you have new weapons almost for free :p, 
+  yes !, 
+  yes !, 
+  yes !, 
+  i mean this is going on for a month now , it was important to re-state when the hashtag began , but now it 's just annoying as hell . 
+  you have victims ( both victims and `` victims '' ) of harassment popping up every single day ( on both `` sides '' ) and when you see that anita/lw/whoever got a death threat or bomb threat for 15361654656546465652413th time ... and people start to write about how much death threats suck and you have shitty blogs and media reporting on this like it was something made possible by some twitter hashtag ... it wears you out . 
+  i do n't need to re-state that i do n't engage in or support harassment/death threats/killing of kittens just because i dared to use the hashtag while calling out shills in the gaming media . 
+  do muslims need to re-state that they do n't engage in or support extremism/terrorism/stoning / beheading/killing of kittens every single time some psycho from isis kills a journalist ? 
+  my personal opininion on the bomb/death threats :, 
+  i can not imagine anyone supporting gg would do this in the name of gg . 
+  to think that this would help our cause ... you 'd have to be a complete idiot . 
+  this makes me think that these things are being done by people who do n't give a shit about true gg goals and/or are true misogynists . 
+  also , it 's not that hard to imagine these things as false flag operations . 
+  i mean , gg has nothing to gain from threatening anti-gg , anti-gg can be ( or play ) the victim and therefore has something to gain . 
+  pretty straightforward stuff . 
+  * holy fuckballs , obtain 500 kills with the rorsch x1 ? 
+  that 's a lot of batte pickup spawn camping ... 
+  * i hope the bow is not a battle pickup : /, 
+  wait , all pickups have those ? 
+  i did n't know ... after 650 hours of gameplay :p . ( but it kinda makes sense , given the fact that unlocks annoy me . ), 
+  whoa , i like your determination , but damn ... one pickup is what ? 
+  5 kills at the most ? 
+  at 100 + pickups , you have to be a fan :d, 
+  skyrim will take players an infinite amount of time to complete all content ... 
+  ... however , that does n't mean doing procedurally generated fetch quests over and over and over again is fun . 
+  indeed !, 
+   but the game is n't even that good-looking, 
+  it 's unity 4 , jacked up by pushing for a level of fidelity it was never meant to be used for . 
+   optimisation usually comes at the very end of the development , so there is still hope i guess, 
+  that depends on a number of factors , but , in general , this is a very common misconception exploited by the game developers ( or pr people representing the game developers ) when dealing with the customers . 
+  let me explain how it works :, 
+  it is true that you usually optimize at the end of the development cycle , but there are two caveats :, 
+  * you either have to have your own engine solution or be an expert on the given middleware engine you are using ( plus , and this is kinda obvious , but still worth reiterating , you need the engine source code access - the renderer , shaders etc. ) . 
+  you do n't get this with unity or unity pro , as they do not share source code of the engine unless you get a custom deal with them !, 
+  so the interstellar marines guys will have very limited options when dealing with the engine-level issues or performance problems . 
+  * you will never cut deep into the engine close to the release . 
+  i see this all the time when people defend beta releases of upcoming games - `` it 's just beta '' - well , exactly , it 's beta , which generally means that it 's way too late to do any far reaching architectural changes . 
+  `` optimisation usually comes at the very end of the development '' - what is usually meant by that is that you create and perfect lod levels , optimize maps ( game levels ) , go through all the assets and fix anything that is unnecessarily using a lot of drawcalls/shader instructions/video memory/ray casts ... i.e. 
+  nothing that could fundamentally change how the things in the game `` behave '' . 
+  and as far as engine programming goes , you will get optimizations , but in the true sense of the word , i.e. 
+  a method will take 0.1 ms to complete instead of 0.15 ms because you spend a bunch of time with it and `` optimize '' its guts ; not that the game will magically run twice as fast . 
+  do n't get me wrong , these things could add up to a decent boost , but the true gains are in redesigning whole ( or at least parts of ) subsystems . 
+  you can do only so much with a limited amount of time and without changing the apis too much . 
+  one more thing : usually , you set your target framerate and desired fidelity level at the beginning of the production and go from there . 
+  you have to do this so that the artists know how much they can go wild , what are their poly and texture budgets etc. 
+  most games have lod levels made ( or at least touched up ) by an artist ( meaning that if you want them to upres or downres , you need an artist to spend time on them again ) , which means not having a poly and texture budget is a bad idea . 
+  this also applies to the other parts of the asset creation process - how big can your level be ? 
+  can you stream in stuff on the fly ? 
+  how much ? 
+  does it need to be set up manually by an artist ? 
+  i guess what i 'm trying to say is that the general level of visual fidelity is usually decided in production , and then you optimize and play with stuff like shader detail , game resolution , draw distances , micro-optimization of the renrerer etc. 
+  to reach 30/60/xy fps and ship it . 
+  you will never see a game with crappy performance in beta but great performance when released ( unless the beta is a year-long `` beta '' of course :p ), 
+   that ... sounds like a bit of an oversight .

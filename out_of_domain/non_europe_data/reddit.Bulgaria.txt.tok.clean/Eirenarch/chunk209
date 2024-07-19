@@ -1,0 +1,100 @@
+  person.setage ( person.getage ( ) + 1 ) ;, 
+  well , you need to have that contract at least for public types in case at some point you want to add logic in your accessors . 
+  some java devs do expose public fields and maybe it is a reasonable tradeoff but with c # you can have your cake and eat it too . 
+  i expected a lot of swearing but the article does n't have any . 
+  i do n't know why he wrote that . 
+  i have a great distaste for the solution that depends so strongly on what is printed . 
+  in practice what you do with localization and different output to say a rest api and an actual website ? 
+  obviously that do not make the other dota clones unplayable since a lot of people do play them . 
+  btw i am fine with paying for heroes . 
+  it is like paying the price of the game . 
+  just do n't make me grind for experience . 
+  yes but at some point you get to a level where everyone has enough heroes and other people got the option to pay for the game too . 
+  as i see it you have to have certain amount of heroes to be effective and you can either pay with time or with money . 
+  sure i agree but i do n't see why we ca n't just accept that unless you pay you get a demo version and are not a real player, 
+  well i obviously mean `` do n't make me grind the experience if i have already paid for the game '' . 
+  that 's ok but it means that getters and setters should not exist and they exist so we are debating how well they work in a world where they exist . 
+  first of all the cosmetics argument is irrelevant . 
+  as for the actual game i understand your point but if you play vs people who fail to counter pick at some point you will get high enough on the ladder that there will be people with enough heroes to beat you . 
+  my point is that if you are at equal level with your opponent you can still have fun and play to improve no matter why the opponent is at this skill level . 
+  the argument would only make sense if you paid for heroes and nobody could match you because of this . 
+  how is this misleading ? 
+  the example comes up a lot . 
+  in practice people do n't do oop like in the textbooks . 
+  of course the real world example is not about person 's age . 
+  here is one from real world code i just wrote :, 
+  monthlyemployeeworkperiod.overtimehours + = dailyovertimehours ;, 
+  dailyovertimehours is a result of relatively complex calculation that is done in a loop for each day . 
+  monthlyemployeeworkperiod is an entity i am about to save in the db using entity framework, 
+  i do n't even own a suit . 
+  this is gentlemen ? 
+  wtf , guys ? 
+  if one of our junior devs implemented this list of anti-patterns i would personally advocate that he was fired . 
+  repository implementing ienumerable ... 
+  i do n't want people to like me . 
+  if they did they might want to talk to me . 
+  well i really do n't need a real world example on why ienumerable on a repository is bad . 
+  do n't get me started on the bullshit that is exposing iqueryable from a repository ... 
+  my impression is that he is getting a lot of well-deserved recognition . 
+  how do you imagine he gets more recognition ? 
+  children songs for dennis ritchie ? 
+  people do talk about john mccarthy . 
+  i am pretty sure the mainstream media would n't have done this . 
+  did the mainstream media report any more on the death of say grace hopper who did n't die at the same time as jobs ? 
+  i can make a point on how jobs and gates are more important for the lives of non-programmers than ritchie but instead i will ask you - do you know who invented the modern jet plane engine ? 
+  me neither . 
+  so until you start celebrating the guy who invented the jet plane engine day stop complaining about jobs . 
+  it is not hard to make the argument that making computers accessible to normal people via ux design is greater contribution than building an os . 
+  because people did something great we ca n't criticize them when they do something bad ? 
+  the technical merits of their achievements are only significant for tech people . 
+  the fact that without jobs normal people would start using computers say 5 years later is what is really important regardless of whether he invented the technology . 
+  is that so ? 
+  if i am a driver and i know that a certain car drives better and does not break as often do i have to be a car engineer to criticize the car that is not as good ? 
+   you ca n't take a look at the jet engine and say this guy or these 2 or 3 people were responsible for it . 
+  same with computers . 
+  i 'd say jobs . 
+  ritchie himself said that there were a few languages that were competing with c at the time and computing did just fine without unix ( macos was n't unix until the 90s ) until we needed a lot of servers for the internet . 
+  in my opinion there would be something slightly worse to replace unix and c that would drag us 1 or 2 years behind . 
+  i estimate that the lack of jobs would have dragged us 5 years behind . 
+  i do not doubt that 1-2 years is a long time and i do not question the greatness of ritchie . 
+  apple basically made the personal computer a thing and then made the smartphone a thing so 5 years . 
+  gates and jobs predate linux by more than a decade . 
+  imagine if we waited that long ... 
+  microsoft dominated the computer because they smashed apple . 
+  if they did n't apple would have been big . 
+  btw i think gates is even greater than jobs but we were talking about the jobs/ritchie comparison . 
+  i am sure someone would have taken the torch just a bit later . 
+  the same argument can be made for c. c is definitely not perfect and dated from todays standards but because it was so great for the time we ca n't get rid of it because so much software is written in it . 
+  if c did n't exist and some worse language was the language of choice of the time maybe people would have rewritten most libraries in say rust . 
+  see it works both ways . 
+  hots definitely the worst story of any sc game up to now . 
+  because people keep spreading this bullshit about jobs somehow depending on ritchie i used to believe it for years . 
+  as a matter of fact mac os was n't built on unix and was n't written in c up until the 90s so jobs would have been a billionaire anyway . 
+  yeah konrad zuse is great . 
+  also built the first high level programming language . 
+  had exceptions !, 
+  microsoft was all about building software for personal computers . 
+  they could n't care less which concept they would copy . 
+  if it was n't ritchie it would have been someone else . 
+  while we are at it do you support the patent system that allows microsoft to troll the whole android ecosystem with patents on fat . 
+  how about that rubber band patent apple uses to attack android ? 
+  do you also believe that android would n't have existed without microsoft 's work on file systems ? 
+  if any of these players did n't exist the second best would have become popular . 
+  we would have slightly slower and slightly worse computers but we would still have very comparable computers . 
+  and that 's wrong ( assuming they do not do it for legacy , know how and tooling reasons like say no other compiler available for the target ), 
+  microsoft had great impact and got filthy rich not because they made dos or windows . 
+  they got filthy rich because they pushed the concept of software being more important than hardware and they did it faster than others . 
+  it is completely irrelevant if dos would have been dos or something else since all that mattered is that they delivered any os for the ibm pc . 
+  and this is why you ca n't understand why normal people talk about jobs . 
+  you are just stuck in implementation details that are not that important . 
+  they affect the quality and speed of the machine but not the concept . 
+  except that you disagree with the rest of the world about the importance of great marketers . 
+  lets hope he was fired before lotv, 
+  my gf asked me if each of us will play all the commanders or choose one . 
+  she is gathering achievements in hots right now . 
+  yeah i hope so . 
+  wol is probably the best rts single player i have played, 
+  and all that for a language that does n't even have generics !, 
+  not writing javascript and html, 
+  it looks like he deselected the first ling first pulled the rest back and then split the other too . 
+  had he prescouted the location he would have sent 2 lings ahead to activate the mines,

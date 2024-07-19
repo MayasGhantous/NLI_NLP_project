@@ -1,0 +1,100 @@
+  i just do n't know why i am reading stuff like `` more performance '' in their list of priorities rather than `` we 're bringing the stuff you actually need so you may actually use asp.net core for your project at work that must generate word docs '' . 
+  what am i to do in a month when i have to make decision about the stack for the new project ? 
+  probably the same thing i did six months ago declared core to be a toy beta because for practical purposes this is what it is to me . 
+  at least i know why this is hard and why it is not priority . 
+  why real-world business software is not a priority but their techempower benchmarks are is beyond me . 
+  great but the thing is a preview right ? 
+  also does ms officially support it ? 
+   . net core is a hipster framework designed so the cool kids \u2122 at redmond can have a pissing contest with node.js and go microservices . 
+  on the bright side it seems like they are doing quite well on that front . 
+  at least this is on their roadmap, 
+   can you just use a text editor ? 
+  you can . 
+  we just do n't like that . 
+  i understand this . 
+  what i do n't understand is why the roadmap says `` performance '' instead of `` libraries for working with office documents '' and other non-hipster but actually useful things . 
+  of course , i am ok with putting it in nuget packages but it seems these libraries are boring and not a priority, 
+  apis and libraries ( may be non-framework libraries owned by ms ) is an area that scales extremely well . 
+  you can get one person to work on that library and another on a different library and there is a decade and a half worth of . net libraries . 
+  also note that the roadmap talks about `` big themes '' so i assume they are investing more in these areas than the other areas . 
+  is there a . net wrapper for this library or you are pinvoking yourself ? 
+  to be honest there is literally 1 reason i want to use core and this is the edit/save/refresh dev experience . 
+  however the real reason is why are people excited and why does everyone pretend that we should be excited . 
+  performance does not benefit everyone - `` i wo n't be using . net core because it does n't meet my performance requirements '' - said no one ever . 
+  how do you use . net core for building games ? 
+  how many times have you heard someone complain that . net core 's performance is not good enough . 
+  how many times have you heard people complain about missing or immature libraries for . net core ? 
+  yeah great . 
+  those extremely popular applications that ms tells us to build but then refuses to release mobile hardware so we do n't even have any place that actually needs them . 
+  how about by having great and useful libraries ? 
+  also . net core is already faster than node and maybe even go , why should they make performance a priority . 
+  i am complaining because performance is not an issue for me ( i am using the full framework which performs worse ) . 
+  i make decisions about projects and i am forced to choose the full framework because they spend their time on performance and `` making it easier to build from source '' rather than the things that i actually need . 
+  it is almost as if ms does not want me to use . net, 
+  this is what i am complaining about . 
+  seems like . net core is not for me . 
+  i mean it looks like ms want to drive me away from . net . 
+  they are investing in all the things that i as an existing . net developer do not care about . 
+  i just want them to port their shit that used to be there for the full framework . 
+  not necessary backward compatible but i want to be able to download ms supported image processing library like i have in the full framework . 
+  it is not like the gdi wrappers in the full framework are third party libraries . 
+  you are stretching the definition of `` works '' quite a bit , 
+  and they will be stuck on it forever judging by the roadmaps ms are publishing these days . 
+  i like the immortal a lot but maybe the old version with the hardened shield . 
+  it was such a great unit that brutally hard countered things and was brutally hard countered by other things . 
+  it was not the micro clickfest that marines require but you still needed to focus fire in battle if you wanted it to be useful ( i.e. 
+  shoot the roaches instead of the lings ), 
+  let 's take a concrete example . 
+  would you agree that doing a group by on the server is important ? 
+  it is important to me and apparently ef core ca n't do it . 
+  in the meantime their priority is more performance . 
+  so i suppose i just wait three years until they get the top spot on techempower benchmarks so they can start working on the stuff i actually need and have in the full framework . 
+  i do care about performance in the sense that i do n't want my app to pull the database in memory to do a group by, 
+  now this is a good point . 
+  porting ef6 to core should be on the top of their roadmap . 
+  then they can keep working on ef toy, 
+  bring it on !, 
+  go get your railgun, 
+  i am fully justified in criticizing because microsoft marketing claims, 
+  microsoft marketing claims they are doing it for me and i should be excited . 
+  they are investing less than before in the full framework that i can actually use . 
+  i am not even criticizing their work . 
+  i am criticizing their priorities and informing them that their work is currently useless to at least part of their user base, 
+  i find it hard to believe that any real world web application of significant complexity would not require a group by . 
+  if it is that simple what help does ef provide anyway , why not use ado or dapper ? 
+  this is a good point still the fact that the resources are not focused on libraries ( i.e. 
+  out of the core ) and on performance is disturbing . 
+  it is for desktop but there is 0 incentive to build uwp if you are not supporting mobile . 
+  you can just build win32 which is much easier to do and provides more freedom . 
+  as a matter of fact like 7-8 months ago after the indian killed the phone and the usage share was already cut in half devs were still reporting 70-80 % usage of their uwp apps from mobile . 
+  we saw the same with our app in the win phone 8.1 / win8 .1 days . 
+  i guess half windows users do n't even know they exist . 
+  did anyone consider that they may have refused to hire him not because they do n't want people without side projects but because they literally could n't see any real world code he wrote ? 
+  it was never `` required '', 
+  this is simply not true . 
+  i swear i was just about to buy a r # license specifically for this feature and then vs2015 was released for free with the feature out of the box . 
+  goto does n't work in java :(, 
+  yeah , because it was ballmer and the other side was sun spreading fud was ok - slashdot logic, 
+  oracle ca n't even monetize java , most of their attempts failed . 
+  buying sun was a mistake , it was n't worth so many billions as sun 's significant products were free . 
+  the jvm is the hottest vm out there . 
+  they are not trying to monetize the language . 
+  for many enterprise situations there are literally no alternatives . 
+  my point is not that java will be replaced . 
+  my point is that java may be uncool but you want to run on the jvm so you will deal with whatever shit you have to . 
+  the enterprise solution where you need to parse some obscure file format and the only library is in java . 
+  the enterprise solution where you need to interface with that soap service but every other ecosystem sucks at soap except . net but you only run on linux . 
+  the enterprise solution where you can only hire enterprise programmers and some of them have n't even heard of that erlang thing you want to use so you have to use java . 
+  i have no problems with `` ranty '' . 
+  i actually like `` ranty '' , 
+  yeah . 
+  in 5 years time maybe . 
+  some specific oracle libraries are n't free . 
+  i do n't know . 
+  in any case my comment was referring to the suggestion to ditch java entirely, 
+  this hypothesis makes 0 sense to me . 
+  first of all there are many databases competing with oracledb and mysql is not even the one that is their most serious competition . 
+  i somehow do not imagine the question `` oracle or mysql ? '', 
+  coming up very often . 
+  much more common would be `` oracle or db2 ? 
+  '' , `` oracle or sql server ?

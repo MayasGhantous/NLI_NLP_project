@@ -1,0 +1,100 @@
+  so they might be willing to `` overpay '' compared to local , rational investors . 
+  but still , people with $ 1m to spare ca n't exactly be idiots or bad at business or negotiating . 
+  they might accept a deal that is financially slightly worse for them than a local us investor , but not massively worse . 
+   incentives include , or course , return on loan plus interest , 1 % ownership , and a us green card . 
+  i checked the websites for this , and do n't see any mention of a loan repayment or ownership rates anywhere . 
+  the us government is concerned with the minimum amount invested and the number of us jobs created - but the ownership % and any repayments seem to be up for negotiation between each individual investor and company . 
+   return on loan plus interest, 
+  this is also an important point - usually investments are n't loans , and the investors only get repaid together with the original owners when the company is sold or pays dividend from profit . 
+  so if this is mostly a * loan * with a 1 % ownership bonus , then the $ 100m valuation calculation no longer makes sense . 
+  there is a massive difference in `` cost '' between apps developers build for themselves as a hobby , and the contract price for a company commissioning an app . 
+  i can put together a `` map with pins pulled from an existing api '' in a day . 
+  but if a medium-sized company ( e.g. 
+  retail or coffeeshop chain , delivery company , etc ) requests a quote for the same thing , i will need to budget * at least * a month of work for it . 
+  these companies expect a fixed price for the deal that includes :, 
+  * planning and writing proposals before the quote ,, 
+  * working with , and perhaps arranging updates for a poorly-documented internal api ,, 
+  * professional custom design that still matches their brand style - and then multiple iterations when their managers fine-tune buttons and layouts ,, 
+  * support for old android devices and os versions ,, 
+  * fixing bugs for some time period after publishing ,, 
+  * some documentation and hand-holding with the publishing and training ,, 
+  * all the time that 's spent in communication with the many managers , users and other interested parties at the company . 
+  so the time that goes into actual `` coding '' is perhaps at most 20-30 % of the entire total . 
+  app developers already have 10s of their own ideas , that they would like to work on if only they had some free time . 
+  but they work on other people 's ideas instead , because they prefer the stable income of contracting to the risks of running their own app startup . 
+  an app `` idea '' is of no use with someone to manage sales , marketing , partnerships , customer support , etc , and app developers do not want to deal with any of that . 
+  so the process usually works like this :, 
+  * investors and founders negotiate together what the company is worth now , before the investment . 
+  this is called the `` pre-money valuation '' . 
+  the investors usually want to agree on the lowest possible value , and the founders on the highest . 
+  * investors and founders negotiate how much extra cash to put into the company . 
+  * the final ( called `` post-money '' ) valuation is the sum of the two , and shares are divided based on the proportions . 
+  so if a company is worth $ 40 before , and an investor puts in $ 10 , then together with his money it becomes worth $ 50 . 
+  and the founders get 40/50 = 80 % and the investor 10/50 = 20 % of the shares . 
+   initially , there was no investment money . 
+  if 100 % of the funds come from the investors , should n't they be given more than 1 % ownership ? 
+  the fact that there was no previous investment is n't a bad thing by itself . 
+  the work people have already done in the company and the things they have built have value as well . 
+  otherwise the first investor would just take 100 % , which would make no sense . 
+  but how much this previous work is worth will be decided at negotiations . 
+  if the founders want to claim that the work already completed at the company is worth $ 100m , then they will need to back that up somehow with real things to show for it ... signed deals , revenue , patents , stock in warehouses , etc. 
+  not just `` we want your money for 1 % '' . 
+   the founder 's want to give investors 1 % , but is that even reasonable ? 
+  there is no fucking way the investors would agree to put in $ 1m for 1 % of a company with no revenue as its first investment . 
+  it does n't really matter what the founders want to get or give , unless they find someone willing to make the deal . 
+   i mean it 's the founders choice to decide how much investors receive at the end of the day . 
+  i mean sure , but it 's also the investor 's choice to decide whether to accept the deal or not . 
+  and until they agree , there is no investment and no value decided for the company . 
+  happy to help , go ahead , 
+  and every time you smell a fart , molecules from inside someone 's ass have ended up in your nose . 
+  10 metres is reasonable only if the phone has clear view of the sky in all directions . 
+  if you are between buildings , or inside , then it might often be as inaccurate as hundreds of metres . 
+  the single most expensive thing when commissioning apps is being unsure of what you want . 
+  if you have a rough description , then you need a developer or a team who is a great developer , but also a designer , product manager , and can make independent decisions for you . 
+  they will be expensive , and they will also estimate a lot of time for eventual change requests that you will have after seeing the first prototypes . 
+  if you have your app very precisely specified ( pencil-and-paper drawings of every screen at a minimum or better yet a sample made with an online mockup too , description of what happens on every button press , every error condition ) , then you will still be able to get good results from much cheaper developers , and they wo n't need to plan as much time for eventual changes . 
+  there 's a bunch of these mockup tools ( fluidui , balsamiq , and more ) . 
+  try a few out , and ask for quotes with these !, 
+  so regardless of whether `` stealing ideas '' happens or not , we should frown upon asking for advice while refusing to reveal details , because it 's uninteresting and just wastes everyone 's time . 
+  * it wastes op 's time , because the advice will be too generic and irrelevant . 
+  * it wastes the responders time , because the generic and irrelevant advice does n't actually help . 
+  * it wastes the 94669 subreddit readers time , because the discussion contains very few interesting or educational details . 
+  so if someone is ( in my opinion , mistakenly ) afraid of having their idea `` stolen '' , that 's fine . 
+  but you ca n't expect people to put in effort in helping you if you are n't helping them help you . 
+  not necessarily . 
+  if a build has known bugs that you are not willing to leave unfixed in the final release , then indeed it 's more of a beta than a release candidate . 
+  but if there are no * known * serious bugs , then it can be a rc . 
+  rc is published , bugs are found after that , fixed , new rc is published , repeat . 
+  all these could be actual release candidates , it just means that they are either terrible at testing , or just quick at fixing bugs . 
+  yes , that is possible . 
+  but the point of separating the drawing and physics clocks is to keep player input , movement , and other physics-based effects happening as smoothly as possible , even if the drawing can not keep up . 
+  ( numbers made up . ), 
+  let 's say 20hz is the intended rate , so all processing has a 50 millisecond budget to keep running smoothly at 20hz . 
+  in simple situations , physics might take 10ms , drawing on the screen 20ms , so you might be able to draw twice for each physics tick . 
+  if some more complex interaction happens , physics might start taking up 30ms . 
+  now you only have time left over for drawing once . 
+  if the interactions get even more complex , and physics takes 31ms , you no longer have time left over for drawing , so the game starts dropping frames now and then - but movement still happens at the usual speed . 
+  only after a physics tick calculation takes more than 51ms does the game start `` slowing down '' in addition to dropping frames . 
+  this design is based on the assumption that physics is usually faster than drawing , and that you do n't have an overpowered computer . 
+  if your computer can always draw multiple identical frames , then there is no harm in allowing it to do that , apart from perhaps making it run hotter and using battery faster on laptops . 
+  more clever game engines might avoid rendering multiple identical frames to keep the cpu less busy , adjusting the physics tick size to the available computation power , and perhaps including non-physics-based animations that run as fast as the drawing does . 
+  as a comparison ... it 's like microsoft coming out with the latest version of excel . 
+  how do you monetize that ? 
+  if you are an accountant , maybe it will make your work a bit easier and faster . 
+  maybe you can make an excel table that is useful for your business . 
+  maybe you can make and sell plugins for excel . 
+  in a similar sense , tensorflow is a `` collection of tools '' for machine learning experts . 
+  all of these tools existed before , tensorflow gives you well-built versions in a nice package . 
+  if you are a machine learning expert , then it will help you write code a bit faster , and share your work with others a bit easier . 
+  if you are not , then you also need to hire a machine learning expert to use it . 
+  and for the more general `` how to add value with machine learning '' , not specific to tensorflow , that 's an extremely long and vague answer . 
+  https://en.wikipedia.org/wiki/machine_learning#applications has a short overview of things people have built . 
+  there are some famous dropouts who went on to build wildly successful businesses . 
+  but they dropped out only * after * their business was wildly successful , not before . 
+  most businesses fail , and even more business * ideas * fail - most startups change their business idea completely 2 , 3 or even more times before finding one that works . 
+  you might start as a taxi advertising company , find out that there is n't enough money in that , switch to flyer advertising , find out that it 's already too competitive , switch to making an app for people who deliver flyers , find out that they just use google maps , switch to a location-based chat app , and finally discover that it works . 
+  but the original reason for rushing to market and dropping out is gone . 
+   found the gmat test ( graduate management admission test ) which covers english language and mathematics , luckily there are facilities in finland and latvia that allow you to take this test, 
+  the `` academic test '' sande24 is talking about is administered by the tartu university themselves . 
+  gmat sounds like an us-specific thing . 
+    we were told by the building and zoning office that if the apartment is illegal we are entitled to all of our rent back , plus the deposit , plus moving expenses,

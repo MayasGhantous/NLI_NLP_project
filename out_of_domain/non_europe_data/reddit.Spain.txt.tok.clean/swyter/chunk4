@@ -1,0 +1,100 @@
+  nicely portrayed , too . 
+  i updated my arch linux * aur * package . 
+  everything should be in order :, 
+  keep them coming !, 
+  or more literally , `` robacorazones '' . 
+  even if sounds a bit cheesy . 
+  i do n't know if it fits contextually , but i guess you could adapt it to something like `` robamores '' , that rolls a bit better off your tongue . 
+  still quite cheesy , not going to lie . 
+  you ca n't edit the ` parties.txt ` file directly-in game , that 's just for things like the scene editor ( _ ctrl + e _ ) in action mode . 
+  but you can open it with a decent text editor and change the coordenates manually , or just use a map editor like my [ _ cartographer _ ] ( https://bitbucket.org/swyter/cartographer/wiki/home ) or _ thorgrim _ 's . 
+  also , additionally their positions get forcefully stored in every savegame too ( as engine-wise there 's no difference between an army and a settlement ) . 
+  so you will have to start a new game for the changes to take effect . 
+  have fun !, 
+  _ [ the last days of the third age ] ( http://tldbot.bitbucket.org ) _ . tolkien-based , older than you . 
+  ^ ( ( kind of a self-plug , as i did the warband port , works for m&b 1.011 too ) ^ ), 
+  ** edit ** : oh , multiplayer . 
+  nevermind . 
+  funny , i had similar issues going from c to android flavoured java . 
+  often thinking about why everything 's so unnecessarily complex and verbose . 
+  i remember trying to bitshift some ` byte ` s and being forced to having to cast them again and again because they get automatically promoted to ` int ` for no reason . 
+  what 's with that ? 
+  swyter here , we 've made a tiny tidy page for finding and downloading the latest patches in a single place :, 
+  should make installing the mod even easier . 
+  comes with a concise set of instructions for either game . 
+  __ edit __ : by the way , it 's ` wbcompat ` , as in _ warband-compatibility _ , not ` wbcombat ` . 
+  yeah , they just badly projected frame scans from the movies over the original m&b models . 
+  amateurs . 
+  ** shameless plug : ** if you want a decent lotr-based mod take a look to * the last days of the third age * , it 's book based , tho . 
+  so no peter jackson changes . 
+  yeah . 
+  i did the warband port and the new shaders . 
+  you might know me for _ star wars conquest _ , too . 
+  i also made quite a bit of tutorials and modding tools , being a regular in _ the forge _ of tw forums since 2009 . 
+  do i win a modder badge or something ? 
+  we 've [ a faq over here ] ( http://synnaskole.sweb.cz/tldmanual3.3.html#h.dwnhgaupeji8 ) for this kind of answers . 
+  the short and sweet version is that there was n't much going on in eriador at the time . 
+  and the map in its current incarnation is already pretty empty . 
+  so it 's more of a feasibility/gameplay compromise while focusing and detailing more relevant areas . 
+  the mod did reach and surpassed engine limitations in many aspects , it took so many years to develop that the release date turned into a running gag , _ duke nukem forever _ - style . 
+  probably there 's some skinning done in software ( pre-batched ) and other done in hardware using shaders . 
+  that 's why there 's just certain parts of characters whose skeletal matrices are being multiplied correctly . 
+  anyway , fantastic developments . 
+  of course there 's still plenty of understandable problems mainly in post-processing and texture atlasing , see that soup of a 's . 
+  i 'm surprised it runs this fast already . 
+  there 's technically nothing preventing the renderer from rendering in a corrected 16:9 aspect ratio . 
+  some games will probably clip out of bounds geometry before sending it to the rastreriser so there will be missing polygons at either side if the game code is n't patched beforehand to nop out any rough occlussion culling . 
+  the limitations may only reside in emulator plugins . 
+  no idea of current options , though . 
+  i 've read that the n64 landscape is pretty barren , closed source and obsolete . 
+  [ gliden64 was recently open sourced , so it may be your best bet . 
+  the ` . irx ` libraries contained in the ` modules ` folder are the equivalent to windows dll 's or drivers . 
+  so not there . 
+  the ` . pss ` files are well understood proprietary audio/video containers . 
+  the game 's executable/code is ` slpm_551 .55 ` . 
+  the entry point descriptor and launch options are always in plain text at ` system.cnf ` since the ps1 era , basically an ` autorun.inf ` of sorts for sony consoles . 
+  i bet it 's compressed inside the big data container in the root : ` project.bin ` . 
+  probably a custom binary format , checksummed and even xor ` ed . 
+  good luck . 
+  use a templated hex editor like [ 010 editor ] ( http://www.sweetscape.com/010editor/ ) . 
+  if you want something more entry-level , free or less fancy just use [ hxd ] ( http://mh-nexus.de/en/hxd/ ) for simple hex editing . 
+  [ binwalk ] ( http://binwalk.org/ ) is useful to assess the entropy and find traces of compression methods/well known file format headers/encryption . 
+  if the file type is complex you may have to end up disassembling the game 's code to find interesting strings instead of black box reverse engineering . 
+  but that 's on a totally new level of complexity . 
+  apart from depth-ordering problems and bad skinning everything is looking pretty and scarily solid lately . 
+  showing that reverse engineering efforts are exponential in nature and not linear . 
+  implementing 20 % of the console makes 80 % of the games playable , as pareto would say . 
+  you might want to read _ el nombre del viento _ ( the first book of the _ kingkiller chronicles _ ) , as gemma rovira also translated that series . 
+  i really dig her writing style . 
+  i remember reading _ the name of the wind _ in english and i actually liking the adapted lyrical prose of the spanish version more . 
+  both series are thematically related , too . 
+  so you might find them palatable . 
+  do you mind if i proofread it a bit ? 
+  it 's quite understandable , by the way . 
+  almost there :, 
+  mi personaje favorito de _ agents of shield _ es fitz , porque es imparable , inteligente y leal a sus amigos . 
+  oh , and try to daisy chain phrases , having them isolated sounds kind of a bit off . 
+  minor proofreading to make it sound more natural :, 
+  por cierto , una serie _ is a fiction show _ , una temporada _ is a tv season _ . 
+  un programa de televisi\u00f3n _ is a generic , non-acted show _ . 
+  some small problems when gendering and random misuses :, 
+  yep . 
+  a bit tricky , i know . 
+   tengo otro : como se dice ' _ i jumped out of the pool _ ' ? 
+  sal\u00ed de la piscina pitando/corriendo . 
+  oh god . 
+  what a terrible , terrible grammar and syntactic coherence . 
+  this is why you should n't skip highschool to do reggaeton , kids . 
+  i think spanish is beautiful , but this uneducated ghetto bastardization brings the worst of the worst to the language . 
+  people overreacting on unintentional consequences of whitelists . 
+  now that 's news . 
+  should be easy to fix once the webmaster team finally notices it . 
+  ** the last days of the third age ( tld ) ** , is a total conversion modification for mount and blade 1.011 and warband . 
+  the mod is set in middle earth , a fantasy world created by j.r.r.tolkien in his novel `` lord of the rings '' and others . 
+  tld is inspired by the books and is not a mod based on peter jackson 's movies . 
+  our goal is to allow the player to participate in the war of the ring , in which forces of light and darkness battle over the fate of middle earth ( for practical reasons of war intensity , only the part east of the misty mountains is covered by the map ) . 
+  as the focus of the mod is only in the war of the ring , certain traditional mount and blade features have been disabled for role-playing reasons . 
+  these include ( but are not limited to ) becoming a faction leader , starting your own faction , marriages , and so on . 
+  the player steps into the role of a new general of their chosen side ( good or evil ) , rise through the ranks of the different factions , and directly influence the outcome of the war of the ring . 
+  will you join the forces of good and fend of the hordes of orcs , goblins , uruks , and evil men while the fellowship of the ring completes their quest ? 
+  or will you pillage elven cities , collapse dwarven halls , and burn down middle earth with the forces of sauron ?

@@ -1,0 +1,100 @@
+  so the solution to beating ladder anxiety is to have real life problems and then you find it easy to click find match . 
+  nadella is ( was ) a coder and the only other ceo ms had was ballmer . 
+  basically the non-coder ms ceo was an exception . 
+  now if you tell me they never played wolfenstein , doom or quake ... 
+  true . 
+  proof : skype, 
+  yeah , every language can be coded poorly and all languages are the same it is all about the person who uses them . 
+  designing a programming language is super easy since it does n't matter what you do - any language can be coded poorly . 
+  edit : i am quite curious if i am being downvoted because my sarcasm is undistinguishable from stupidity ( https://en.wikipedia.org/wiki/poe%27s_law ) or people think it is stupid statement to say that language design can significantly reduce the amount of poor code written in a specific language . 
+  obligatory reference - https://bugs.php.net/bug.php?id=32100 ( helly@php.net's comment ), 
+  i do n't see why proponents of php point out to facebook ( and even wikipedia ) these days . 
+  after all facebook have been on a quest to get rid of the crap that is php for years first by building their own compiler then vm and finally a new language and the latter is not even fully backward compatible . 
+  they have spent millions because they do not like php . 
+  note that this has nothing to do with the language being dynamically typed . 
+  all of the example languages are dynamically typed . 
+  php just sucks . 
+  sorry , backward compatibility . 
+  the point is that according to the community hackers do not even lie these days let alone when being anonymous . 
+  i would be surprised if the core business of a company valued as much as google is not better than one of the features of so . 
+  so how did he `` take '' the code . 
+  how is it possible to take the code at all . 
+  you can copy it but not `` take '' it unless you hack into the other party 's machines and delete it . 
+  the only correct answer , 
+  you do n't need it for sql injection protection but you also mention that it does html encoding . 
+  maybe you need it for xss protection . 
+  ok then . 
+  a revised version - `` you are the product or there is no way to monetize that product '', 
+  i highly doubt that . 
+  of course he could try but probably the user base is so small that it wo n't be worth it . 
+  i know this is why i do not monetize my mobile app despite the fact that it is highly rated ( visual brainfuck interpreter ), 
+  are you talking about `` dynamic '' ? 
+  hint : it is, 
+  it is possible to have a root type and automatically assign this type to the undefined variables thus defining the variable upon first usage . 
+  i am not aware of any production quality statically typed languages that do this since if you care about types you probably care about undefined variables too so statically typed languages do force variable declaration but it is a question of language design not something that ca n't be done due to static typing . 
+  normally i would not favor a rewrite but if someone used prototype inheritance to build complex things with js i would . 
+  truth is very few people know how to use it effectively or navigate code using it . 
+  most probable result will be `` how did this property appear in this object ? '', 
+  i feel old when i see people compare it to halo . 
+  i would never think of it . 
+  i would say `` just like quake '' and add mentally that i am only saying quake because young people have not played multiplayer doom, 
+  for example kane and kane, 
+  that 's because he only asked for two . 
+  i could have named all 20 of them . 
+  i only played single player halo recently ( meaning in the last two years i played all but halo wars ) and loved it . 
+  can you elaborate on why they are doing this to halo ? 
+  does it mean more sales if they have this cod leveling , unlocking and shit ? 
+  if i was into multiplayer halo i know i would hate it . 
+  hmmm 2008 is not that recent , 
+  you misspelled `` hodling '', 
+  not all . 
+  dune 2 was orange , warcraft was green and wolfenstein was grey and blue . 
+  colors everywhere !, 
+  yes , i am in this camp too after doing it the other way for years . 
+  of course encoding on input does not excuse sqlsafe method that does html encoding and definitely you can do things by encoding on input and this probably reduces the change that you will forget to encode somewhere but you are likely to have quite a few other bugs . 
+  in any case my point was that simply removing it may result in an unsecure system if users expected stuff to be encoded and did not encode on output . 
+  if you remove it you will need to go through all the places where data is output and ensure it is encoded . 
+  as the one who is assigned the noobs at our company i confirm this . 
+  while 2/3 interns do not constitute a full time job they do drain 1-1 .5 hours a day from my time and they are working on a purely educational project . 
+  then they become junior devs and they still need time investment from the team lead on their first project ( probably me again but not always ), 
+  yeah , it seems like it is working since the company somehow functions for a couple of decades and it hires very few people with experience , but some people work here for 10 + years . 
+  in fact i do n't think they hired anyone with more than an year of experience since i work there ( 2 years and i had significant experience when i got there but i had pretty weird reason to go work there ), 
+  the project is of real world complexity and they work as a team ( 2 or 3 ) . 
+  current project is something like an online catalogue/store with products . 
+  it includes paging , some ajax , user authentication , user roles , nested comments ( so they can apply some recursion ) , working with source control , etc. . based on their skills when we take them we give them some tasks to learn basic programming and if someone is more advanced he jumps directly into the project . 
+  keep in mind that we take these guys with pretty basic skills . 
+  basically if they can write a stack on their own they are in . 
+  we ca n't just let them write real world code because we will have to fix everything . 
+  oh you mean pairing with a senior programmer ? 
+  i do n't know i guess we do n't have a culture of doing it although we did some pairing with one of the previous interns on some features of their first real world project . 
+  however i think it makes sense to let them do things on their own so they can get used to searching for solutions . 
+  as a bulgarian i am obliged by our constitution to point out that the cyrillic alphabet was invented and developed in bulgaria for the bulgarian language and later adopted by the russians , 
+  now you can shine with this otherwise useless knowledge in an elite company . 
+  hmmm you are right . 
+  you might want to throw in some insults against the communists and pretend you were just studying the enemy . 
+  like this : `` did ya know that 'em commie bastards stole the alphabet from the bulgarian kingdom ? '', 
+  obligatory zed shaw reference - https://www.youtube.com/watch?v=nei_pj558cy, 
+  [ programming motherfucker ] ( http://programming-motherfucker.com/ ), 
+  it depends . 
+  do you like curse words ? 
+  i am the person who lost the money . 
+  as i said in a comment on the blog post i do understand why using md5 and sha is bad . 
+  i just thought given the requirements it would take like a day to crack the password on a cpu . 
+  i did not know that it would literally take a minute on a laptop . 
+  given my ( totally wrong ) assumption i argued that it is not very bad to use crypto hashes for passwords because it is hard enough to crack them so your blog or forum is fine since nobody cares enough about it to invest in it . 
+  also note that i wanted the challenge to be real-world . 
+  i could have invented significantly harder non-dictionary password but i did not argue that my password is uncrackable under md5 i argued that you could use it for unimportant websites . 
+  this is why i constructed a password that could be constructed by the average user if the website forces him to have a digit and a capital letter . 
+  if anyone cares why i proposed money - i spent my teenage years in internet cafes playing starcraft and quake . 
+  in this environment if you said something and somebody disagreed we started setting up rules for deciding the outcome and putting money on it . 
+  if i said `` the railgun in quake sucks , the rocket launcher is much better '' and somebody disagreed we setup a game where the person defending the railgun uses only railgun and the person defending the rocket launcher uses only rocket launcher and we bet money on it . 
+  if you do n't put your money where your mouth is you just shut up or nobody takes you seriously the next time . 
+  security is so hard :(, 
+  to be honest this article is from 2012, 
+  mono does have a compiler though which roslyn could replace . 
+  the mono people say they would continue to support their compiler because there is a value in having an alternative compiler for a language but i doubt that they will keep it up for a long time when people stop using it and it drains their resources . 
+  why would you think tfs online is dead ? 
+  i am quite happy using it and new features are being added regularly . 
+  note that tfs online ( now called visual studio online ) was never intended for public repos and in fact never supported public repos . 
+  `` a bit '' ? 
+  their whole web stack is on github .

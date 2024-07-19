@@ -1,0 +1,100 @@
+  these strategic decisions does not seem so hard and when you never miss and the human misses 1/20 it is a matter of time to beat him even with slightly lesser strategy . 
+  oh come on !, 
+  nobody cares about uwp . 
+  and i say this as someone who has two uwp apps in the store . 
+  interesting . 
+  i love team games and i play mostly team games these days but i just ca n't understand how people have the patience to play with random team and not arranged . 
+  interesting . 
+  i love team games and i play mostly team games these days but i just ca n't understand how people have the patience to play with random team and not arranged . 
+  i agree . 
+  when it reaches $ 10 000 there will be a correction to $ 7000 for a couple of months . 
+  this is not unfair advantage this is the baseline . 
+  people playing rt choose to put themselves at a disadvantage . 
+  however i was not referring to disadvantage and advantage . 
+  i was referring to the fact that i get so angry when i play a game with random people who do not cooperate according to my vision that it sucks all the fun of playing . 
+  if i was the type of person who would break hardware i would probably do so but luckily i am not . 
+  i get so annoyed though . 
+  3 vs 3 is quite alive in my experience , we usually find a game in a couple of minutes . 
+  i actually love the memes . 
+  this is why i still go there . 
+  memes are not only fun but also an effective way to promote bitcoin, 
+  if i run the core client and want to make a transaction do i get to choose if it is segwit ? 
+  comparing through ladders is fine but there is also team ladder where teams are compared . 
+  i also disagree about the favorite thing . 
+  at is clearly the baseline . 
+  sc skill is usually measured through tournaments . 
+  i 've never heard of a team tournament where people were thrown in a random team . 
+  mass oracle can be fixed by making the maps a little smaller . 
+  also mass oracle has been a thing for a couple of weeks and people are already complaining instead of trying to invent a counter . 
+  so did you guys become libertarians because you got into bitcoin or you were libertarians and this is why you got into bitcoin ? 
+  guys , you should not make fun of people with severe cases of autism . 
+  the value of web assembly is that your implementation does not have to deal with javascript semantics . 
+  the javascript semantics often leak in the implementations and this is one of the main problems with compile to javascript solutions unless the language is designed specifically to be compiled to js like typescript , elm etc. 
+  so how would you return that 404 when the client sends an id that does not exist ? 
+  code contracts are definitely superior but most codebases do not use code contracts . 
+  also even with code contracts you sometimes need actual code to throw exceptions . 
+  i do n't see how code contracts will solve the web api case for . 
+  me too . 
+  but i know for sure that the other kind exists too and this makes bitcoin even greater, 
+  me too . 
+  but i know for sure that the other kind exists too and this makes bitcoin even greater, 
+  because you repeat the if statements everywhere which is repeated code . 
+  also i find it funny how my friends who were into btc to make money were trying to `` trade '' and ultimately failed . 
+  i bought at $ 600 then it felt to $ 220 but i did n't care and held because for me btc is a political statement . 
+  now i have made 7 times return . 
+  and i am just getting started !, 
+  the point is that you throw the same exception on the same condition multiple times . 
+  i have tried your approach and i disagree that it is better . 
+  first of all there is value in indicating that the method returns an user . 
+  i think it is better from pure c # perspective but even if it was not the killer feature is api documentation . 
+  tools like swashbuckle look at the return type of your actions to generate swagger . 
+  by writing the method like this you have thrown away one of the most useful tools in api development . 
+  btw i am the author of the original blogpost . 
+  static class is one way to write these types of methods . 
+  putting them in a base class is another way . 
+  i disagree . 
+  i think 404 is close to exceptional case for an api and is a fine case for exceptions . 
+  in addition if you return some kind of action result instead of say a comment object you are handicapping tools like swashbuckle which can not autogenerate docs and swagger from your actions . 
+  i do n't see how this is superior . 
+  you just typed more things by hand . 
+  what i do to document the different response statuses is that i type them by hand in the remarks section . 
+  your suggestion requires typing more things by hand and adding library specific attributes all over your api ( although i do n't mind this as much but it is another small downside ), 
+  hmm i have to check what the generated swagger looks like with attributes . 
+  still have to write the ok return type elsewhere and not where it actually should be - in the return type of the method . 
+  because for me responses are either success or exception . 
+  non-success responses are the http equivalent of exception . 
+  and yes if we had discriminated unions in c # there may be better representations of the result . 
+  hmmm i do n't know why i never thought of that . 
+  do you happen to have an example ? 
+  no content is also success value ( and as it happens is returned by web api when your return type is void or task ) . 
+  differences between 5xx and 4xx errors are simply different exceptions but in practice 5xx errors are handled automatically in a general error handler and not in each action . 
+  i have not given much thought to the redirects to be honest . 
+  i ca n't recall ever needing one in an api ( unlike mvc actions ), 
+  i have never encountered such a case in practice . 
+  i would probably revert to using actionresults . 
+  a related question is what happens if you can return two different objects as a 200 ok, 
+  can it be done as some kind of filter that is automatically applied to every action until you opt out with a negative attribute ? 
+  i 'd treat it like lowering the level of abstraction because the abstraction leaks in this specific case . 
+  i will look at it for my next project . 
+  in a couple of occasions i have hit a case where if validation fails i still have to do something and construct very specific validation errors . 
+  in addition asp.net mvc and asp.net web api are open source on full framework, 
+  disagree . 
+  while scala is fine because it has option from the start , java 's option is the worst of both worlds . 
+  you get slowly adapting libraries and annoying wrappers that are not enforced by the compiler . 
+  if c # introduces nullability tracking libraries will eventually adapt . 
+  the time it will take will be comparable to libraries in java adopting option . 
+  the reasonable thing to do ( or more precisely the thing i think is reasonable and will do with the projects i am responsible for ) is to migrate your web layer to asp.net core on top of full framework . 
+  hopefully you have separated your business logic and data access in separate projects so this is possible . 
+  this transition is like half the migration so you get some of the benefits with low risk and do half the work . 
+  then when . net core 3.0 comes around you may migrate your business layer which would be less work than migrating your full project . 
+  that argument can be applied to literally every usage of a method call . 
+  for me razor pages is the shitty php style get started quick thing . 
+  i vow to never use it in any project that i am responsible for . 
+  i have vowed to never use them , 
+  i do n't mind the razor view engine especially now that it has tag helpers, 
+  that would amount to a controller with 4-5 actions . 
+  btw in the past few years i was more than happy to use webforms for such a project . 
+  it 's just that razorpages feel like the worst of both worlds, 
+  this is why the convention is to name the method with throw . 
+  everyone knows that this is effectively a return . 
+  yeah .

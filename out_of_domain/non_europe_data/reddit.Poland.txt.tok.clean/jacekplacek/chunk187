@@ -1,0 +1,100 @@
+   the fascists used to openly admire fdr, 
+  ... with reciprocity ... 
+  what about another `` healthcare thought experiment ? '', 
+  the child develops some rare and deadly cancer , there 's a guy in switzerland who has a cure but the cost is $ 10 billion . 
+  should `` we '' pay for it or let the kid die ? 
+  edit : btw , there was a case like that in poland - a little girl very sick , there 's a treatment in us but the cost is over $ 1 million . 
+  the state refuses to pay . 
+  the outcome ? 
+  internet to the rescue - people donating voluntarily and the girl 's family was able to afford the treatment ... 
+  the only `` gotcha '' is the speed . 
+  arduino libraries try to protect the developers from themselves , at the cost of extra checks . 
+  if the speed is an issue , that might not be a good idea . 
+  ... just do n't use it at the distance longer than `` point-blank '' ... 
+   hawaii, 
+  you might want to [ reconsider ] ( https://en.wikipedia.org/wiki/gun_laws_in_hawaii ) ... 
+   nothing has intrinsic value -- value is a function of the valuer and the valued, 
+  that 's true . 
+  but we are talking ** perceived ** intrinsic value . 
+  gold ( and , to a lesser degree , silver ) were through the millenia highly valued ... 
+   those despots you were complaining about also rule only over their own property ;, 
+  you mean we are all their slaves ? 
+  look into [ analog multiplexer/demultiplexer ] ( http://www.ti.com/product/cd74hc4067 ) . 
+  not necessary this particular one - just an example . 
+  there is this famous quote by donald knuth : `` premature optimization is the root of all evil . '', 
+  make the stuff work first . 
+  if you need more speed figure out where you can get the most improvement from and only then try to optimize . 
+   yeah , forbidding labor unions is such a socialistic ideal . 
+  actually , it is . 
+  labor unions are proletariat 's tool to bargain with capitalists . 
+  in socialism there 's no need for unions - who are the workers to bargain with ? 
+  themselves ? 
+  it 's kinda funny how simpletons like you believe that anything they are intellectually incapable of comprehending must be `` retarded . '', 
+  brings to mind certain quote from _ idiocracy _ ... 
+  ... or simply look at what you 're buying before you buy ... 
+  char buf [ 50 ] = { ' \\ 0 ' } ;, 
+  itoa ( buf , integer , 10 ) ;, 
+  strcat ( buf , '' . mp3 '' ) ;, 
+  [ all you need to know ] ( http://batteryuniversity.com/learn/article/is_lithium_ion_the_ideal_battery ) ... 
+  you could pwm them , at 80 % you would n't even notice the difference in brightness ( but would get only 20 % more time . ), 
+  with 50 % pwm you would double the time , but they would be noticeably dimmer ... 
+   if you use a pwm pin and set the duty cycle to 50 % , your leds will be half as bright, 
+  human eye has a logarithmic response to brightness , so it would n't be that bad , probably only something like 30 % dimmer . 
+  do n't spread fud ... 
+  mini might be a good idea . 
+  for power consider one of the portable phone battery packs . 
+  if you can still find closing radioshack around you , you can get one really cheap . 
+  not really simple task on mega ... 
+  instead of sending `` left '' or `` right '' send the pin number as string ( `` 1 '' , `` 7 '' ? ), 
+  you can then do, 
+  void leftorright ( string cmd ), 
+  int pin_no = atoi ( cmd.c _ str ( ) ) ;, 
+  digitalwrite ( pin_no , high ) ; / / etc. 
+   will be restricted to those already on welfare . 
+  hmm ... 
+  i wonder how many new welfare applications will utrecht get before it kicks in ... 
+  both . 
+  bleed it , cut it apart , rinse and repeat ... 
+  [ relevant ] ( http://www.aaanything.net/wp-content/uploads/2011/08/497x434xdad_im_considering_a_career_in_organised_crime_government_or_private_sector.jpg.pagespeed.ic.hzwmfnyex1.jpg ), 
+  iow , we need a government to prevent mcdonald 's from forming a government ? 
+   nowadays what ` gay marraige licensing ' is really about is keeping people stupid and distracted from the terrible shit that is caused by their government on the world and the country 's economy . 
+  it 's a distraction . 
+  a pointless , worthless distraction to get people all worked up over something that does not matter one bit . 
+  the republican 's stance on it is bullshit . 
+  the scotus decision is pointless waste of time and resources . 
+  it 's all bullshit . 
+  to create divisiveness and the illusion that people are picking sides to make it easier for the media companies to maintain their delusional narratives . 
+  well , since there 's really no significant difference between the two parties ( they are both basically fascist , ) they have to find ** some ** things they can ** fight ** about - otherwise even the dumbest of the population would realize the system is a racket ... 
+   where do i get the deed to my fingers ? 
+  for a small fee i can supply you with one ... , 
+  uh huh . 
+  universal and mandatory soup kitchens would be `` demonstrably cheaper '' than the food anarchy we have now !, 
+  guess it 's true that socialists are sarcasm impaired ... 
+   i 'd like more pins :(, 
+  you [ can have ] ( http://www.adafruit.com/products/659 ) more pins too ... 
+  proof of what ? 
+  i agreed with you it would be cheaper . 
+  same with soup kitchens , they would be cheaper too . 
+  and to think of it , mao 's idea about everyone wearing the same uniform was much cheaper than all the degenerate west 's clothing anarchy !, 
+  tell me , btw , how come the canadian politicians almost always go to us for treatment when they get really sick ? 
+  should n't they be happy with the marvelous free canadian healthcare ? 
+   they do n't . 
+   http://www.pnhp.org/news/2012/june/5-myths-about-canada%e2%80%99s-health-care-system, 
+  from your link :, 
+   i do n't deny that some well-off people might come to the united states for medical care . 
+  ** if i needed a heart or lung transplant , there 's no place i 'd rather have it done ** . 
+  but for the vast , vast majority of people , that 's not happening . 
+  _ [ emphasis mine ] _, 
+  kinda hilarious coming from a dude who 's trying to convince us how great the canadian system is ... 
+  and , yes , obviously the majority of canadian schmucks can not afford to go south for treatment , esp after paying trough the nose for their `` free '' substandard healthcare . 
+  lol , and yet , the author of the article would gladly pay for the `` worse '' healthcare instead of getting a `` better '' one for free !, 
+  is he some kind of moron ? 
+  or , perhaps , who ranking is not looking at what ** really ** matters ... 
+   doing away with the current limiting resistor altogether, 
+  do n't !, 
+  generally , sound idea - just do use the resistors , one per each led . 
+  remember , the way it 's wired the 0 in the shift register will light the led . 
+  also , make sure you do n't light up more leds than the shift register can handle ( if i remember correctly , 595 can only sink something like 70 ma total and 20 ma per pin . ), 
+  for the power : i 'm a big fan of the phone [ power packs ] ( http://www.amazon.com/duracell-du7170-000mah-powerbank-black/dp/b00e4fm9y2/ ) ... 
+   the alternative to states is tribes of halfwits murdering each other over tiny patches of land . 
+  that says more about you than about the stateless society ...

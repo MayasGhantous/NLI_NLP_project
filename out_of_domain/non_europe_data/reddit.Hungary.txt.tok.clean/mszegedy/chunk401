@@ -1,0 +1,100 @@
+  ( those control sequences are a whole language in and of themselves , and they 're terrible ), 
+  this is one of the best comics of all september . 
+  great job !, 
+  edit : nvm just read your other comic today , that 's even better . 
+  you 're just full of inspiration are n't you, 
+  philippines acts like forrest gump , saying life is full of random surprises ( intended to mean surprising * good * things ) . 
+  except p 's lot is terrible because all the neighbors are shitty . 
+  i imagined them as a deep , rhythmic war chant, 
+  `` montenegro is lazy '', 
+  i 've been trying to get a genetic algorithm to build spaceships , but the ksp spaceship format is confusing , so that 's been on the backburner for a while . 
+  ( fitness criterion = max height reached ; if one ever gets outside of kerbin 's soi , i 'd revise the fitness function ), 
+  if it ca n't connect , it 'll return an error , and it 'll go beyond the | | to the ` continue ` , which causes it to go to the next iteration of the loop . 
+  that 'll save time that it would otherwise waste pinging google . 
+  guy who wrote it here . 
+  this is how it works :, 
+  # sbcl, 
+  this starts the lisp interpreter , ` sbcl ` , allowing me to type lisp commands . 
+  it would normally be written into the terminal . 
+  the fact that the command is being given to the terminal is signified by the # up front . 
+  * ( format, 
+  this begins a lisp print command . 
+  ` format ` is a powerful printing command ( wherein printing just means writing to the terminal screen ) that allows you to do a huge amount of things , including stuff like print out the english names of numbers . 
+  it 's hard to use and even harder to read , though . 
+  the \\* up front shows that the command is being given to the ` sbcl ` interpreter ( you would n't write it into a lisp code file ) . 
+  after the command name come the arguments , which are values you pass to the command to tell it what to do . 
+  this is the first argument . 
+  all it 's for is specifying whether ` format ` should actually print out the input or not . 
+  ( or if you were printing to a file , you 'd put the variable that refers to the file there , but w/e . ), 
+  if you do n't want it to print it out , you should write ` nil ` , which means `` false '' in lisp . 
+  if you do , you write ` t ` , which means `` true '' . 
+  this is the second argument . 
+  this is what 's known as a `` control string '' : a string ( of characters ) you give to a printing function to tell it what to print out . 
+  this one is made up entirely of `` control sequences '' , special sequences of characters that give particular commands to the printing function . 
+  in the simplest and most ideal case your control string is entirely devoid of these and contains only `` literal '' characters that just mean `` print this character out '' ; e.g. 
+  you could have your control string be `` hello world '' and that 's what ` format ` would print out . 
+  the control sequences should come in handy here , though . 
+  the ` ~ { ` and ` ~ } ` on either side mean `` this printing function will take an extra argument , which should be a list , and for each element in the list the function will print out whatever 's between these braces '' . 
+  the ` ~ a ` means to ** a ** esthetically print out the element that you 're currently using from the list . 
+  the ` ~ % ` means to insert a line break . 
+  ( loop for beginning in ' ( `` fourier '' `` fourier '' ) append, 
+  this is the third argument , as mandated above by those braces . 
+  here we begin a command to construct a list to pass to ` format ` . 
+  this is a loop that computes some sort of ( list ) value ** for ** each element ** in ** a list , and ** append ** s them together . 
+  the list we 're using is ` ' ( `` fourier '' `` fourier '' ) ` ; in lisp , you create a data list using an apostrophe and a pair of parentheses , and putting the elements inside , separated by spaces . 
+  the loop binds whichever one it 's using in the current iteration to the variable ` beginning ` , which we can refer to for the rest of the loop to do stuff with . 
+  what follows is what we want to compute and append for each variable :, 
+  ( loop for middle in ' ( '' '' '' _ '' '' - '' '' '' ) append, 
+  another loop !, 
+  this is the same thing . 
+  it 's still looking for lists to append together . 
+  finally :, 
+  ( loop for end in ' ( `` series '' `` series '' ) collect, 
+  the innermost loop . 
+  this is the same as the first two , but instead of computing lists to append , it just computes anything you tell it to , and then ** collect ** s them together into a list . 
+  and finally , the actual value we want to build the list out of :, 
+  ( concatenate ` string beginning middle end ) ) ) ) ), 
+  we concatenate the beginning , middle , and end to form each password . 
+  the ` ` string ` argument specifies that we 're concatenating strings . 
+  so now this command will return the concatenated string , which the above loop will collect , which the loop above that will append , which the loop above * that * will append , which ` format ` will then print out . 
+  tada !, 
+  sorry , do n't have time !, 
+  so , why niger and bf in particular ? 
+  neither of them really have the right to make fun of living in a box !, 
+  hey , thanks !, 
+  i 'm not strictly computer scientist ; i 'm a protein engineer . 
+  this does involve writing programs to make the computer model proteins for me , but it 's mostly just boring batch scripts ( programs that queue up other programs ) . 
+  some day , though , i 'll get to write some awesome molecular modeling program . 
+  and yeah cs people do really cool things !, 
+  although the best stuff , like computer vision , natural language processing , ai , etc. , seems to be really hard for some reason . 
+  :( ( or maybe it 's just that the novelty of being able to perform a jillion calculations in under a second has worn off ! ), 
+  \\  mfw you think i care if i get banned because someone who calls mouths `` face vags '' does n't like me, 
+  maybe he should teach you about manners and bullying ? 
+  ( if you 're a troll , kutgw , this is an excellent impression ), 
+  how did you get it off by two ? 
+  did you miss entirely , or do you use programmer 's dvorak ? 
+  ( bayes says it 's almost certainly the former ), 
+  you * ca n't * learn russian in 15 minutes . 
+  i 've tried . 
+  ( been able to read russian alphabet forever , too ; it 's basically useless unless you go to a place where they use cyrillic ), 
+  so , like , one person 's worth of debt ? 
+  ( but this is excellent news , i hope they keep doing it ), 
+   0/10 do not recommend . 
+  stay forever if they 'll let you . 
+  hahahahaha suckers i 'm in academia, 
+  and i 'll never leave wheeeeeeeeee, 
+  ( someone please help me :( i can barely do the work ), 
+  reddit is mostly college students , from a wide range of backgrounds . 
+  i guess sometimes reality * does * work like kerbal space program . 
+  well , because they evaluate the consequences of things as they apply to * them . 
+  * they feel that any sane eugenics program would n't sterilize/kill them , so they 're not so worried about them being bad . 
+  it 's an entirely standard lack of empathy that really should n't surprise or disgust us . 
+  did you post this just so we can make fun of it ? 
+  i still ca n't see a thing . 
+  :( thank you for your efforts , though !, 
+  huh , thank you for the outline !, 
+  i still do n't * really * see it in the original , in a `` holy shit that 's creepy '' way , but i do see what you guys are talking about now . 
+  thanks !, 
+  u wot m8 . 
+  people being people ; you 're going to blame them for that ? 
+  obviously something needs to be * done * about it , but having a completely natural reaction to something is not anyone 's fault .

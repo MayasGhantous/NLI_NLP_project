@@ -1,0 +1,100 @@
+   almost 90 % of croatia 's population of 4.4 million are roman catholics and the church has strongly urged a `` yes '' vote . 
+  but , interestingly , only 69 % believe in a god according to eurobarometer . 
+  and there 's some percentage of orthodox and muslims in the remaining 10ish % that do n't declare catholic . 
+  so there 's actually people around comfortable calling themselves catholic , yet not believing in a god ? 
+  catholic atheists ? 
+   the vote has also received support from 104 members of croatia 's 151-seat parliament . 
+  hm , not quite - the procedural decision to schedule the referendum after the conditions for it have been fulfilled and verified carried that majority only - the ruling majority campaigned against , and quite vocally , but claimed it was impossible the constitutional court would choose to prevent this ( the only remaining legal possibility against this ) , due to deficiencies in the current laws on constitutional referenda not giving much power or basis for such a check to the court , so that they 're legally obliged to schedule it . 
+  the very fact this procedural point needed a vote , though the constitution makes the referendum and its decision obligatory if the conditions are met , ends up creating a contradiction with the non-binding nature of the parliamentary mandate , and was already speculated to possibly create a constitutional crisis if its not carried . 
+  apparently they did n't choose to go down that path . 
+  we need patches to our constitution asap . 
+  many claim they were wrong not to check with the court first , though i do think they were right in the claim it would n't have done any good anyhow ( though maybe they should have put them in that tough spot regardless ) . 
+  the court has previously given rulings on sexual education , nominally about lack of due process in consultations ( suspicious , exceptional condition not generally part of the procedure for defining any other curriculums ) , but with a clear subtext of parental right to religious , homophobic instruction not being contradicted by the education system . 
+  and so , by journalistic speculation , simply because of the court 's conservative makeup and bias , after years of conservative majority in the parliament and not many checks on professionalism in naming new judges , which consequently usually became judges by political horsetrading . 
+  some ngos asked the court for the check anyhow , and it did n't prevent it , mostly wiggling out of analyzing the meritum of the question in much depth , by citing that vote . 
+  but clearly it couldve acted anyhow , and simply did n't have the majority of votes needed to stop it . 
+  lens is orthogonal and will work with this extension . 
+  vinyl carries performance penalties . 
+   is somebody trying tot ** re-implement haskell on the type level ** ? 
+  ( and has anyone started re-reimplementing it on the kind level ? 
+  for a very long time now , yes - have n't you seen this yet ? 
+  re kinds , they 're talking of collapsing kinds and types into typekinds in the future . 
+  nope , maybe row polymorphism , but not subtyping . 
+  the former is much more benign . 
+  only , with o ( n ) access in the size of the record , rather than o ( 1 ) . 
+  basically there 's no automatic upcasting to a common supertype , but rather a constraint , just like with typeclasses , that are instantiated only to distinct concrete types . 
+  and apparently this also makes type inference feasable , unlike with true subtyping . 
+  example it gives is this :, 
+  let f x = x with { sum : x.a + x.b }, 
+  let answer = f { a : 1 , b : 2 , c : 100 }, 
+  with ( structural ) subtyping , answer 's type would be :, 
+  answer : : { a : number , b : number , sum : number }, 
+  , ie just the supertype 's , one implied by the definition of f. with row polymorphism , it would rather be :, 
+  answer : : { a : number , b : number , c : number , sum : number }, 
+  another consequence of no subsumption is i think , you do n't get lists to be heterogenous , since each type remains distinct . 
+  so no :, 
+  [ { a : x , b : y } , { a : x , b : z } ], 
+  thx , fixed, 
+  hah , you think he 's atheist ? 
+  after that comment i got this [ reply ] ( http://www.reddit.com/r/haskell/comments/1rpte3/explanation_of_the_new_haskell_records_extension/cdr8i7p ) - so apparently for small records the implementation is smart enough to be efficient . 
+  for the general case , yeah as the other commenter says , apparently o ( log ( n ) ) is doable , but i do n't have any resources on this - simply remember similar discussions about extensible record systems around here , on #haskell etc. 
+  ekmett also mentioned that this extension could be integrated with vinyl as well ( if there 's some way of searching through my past comments to find this exchange , i would ) - though the guy implementing this claimed otherwise on a mailinglist . 
+  i in any case , ova vlast nema vecinu da mijenja ustav . 
+  nema dokaza . 
+  ne sustinski . 
+  untill there 's an actual campaign for true marriage equality , this should n't have any consequences really . 
+  which is why its a stupid waste of time and money . 
+   will they not be able to make laws that give them equal rights , just under a name that is not `` brak '' ? 
+  minus adoption rights , that 's exactly what will be happening in the parliament these days . 
+  i do wonder if they 'll try a constitutional lawsuit against this on the basis of this stipulation , we 'll see . 
+  in the end we will need some protection from that useless constitutional court already , or we 're surely fucked, 
+  salis se surely . 
+  to je bio fig leaf od predmeta , kao mracnih 90ih , kad sam ga imao , bar u mojoj skoli . 
+  you think it 'll need a new petition ? 
+  it will need a new referenda , but prob the parliament can start one too . 
+   the main problem in croatia is that the left loves protesting but when push comes to shove they tend to do very little . 
+  i 'm about to have a quarrel with a number of friends that failed to vote but are supposedly highly supportive . 
+  `` how many days will we have for the vote ? '', 
+  they ask , wtf ... 
+   you must understand that the population of the relatively tolerant capital, 
+  not that tolerant , the referendum passed there , unlike rijeka , cakovec , pula , varazdin . 
+  do n't think so - the law is in procedure , already drafted etc. 
+  he has been stalling it for about a year though . 
+  a bit unfair , since they were also the largest contributor to the partizan forces in the jugoslav area in the same time . 
+  just having a vishy-like regime established on the territory does n't speak to its popularity . 
+  its been a long-running division in croatian society ; whose family was on which side . . 
+  couple of problems here :, 
+  one , the death penalty is banned by the other human rights charter , european convention of human rights , and is a precondition for joining . 
+  second , unlike the strasbourg court charged with upholding that charter , eu 's charter is the domain of the luxembourg court , and unlike it , its not a court of appeals against national decisions . 
+  rather , access to it is limited to eu institutions and member states , for it is tasked with resolving disputes of eu members and bodies . 
+  it is not possible to appeal the decisions of national courts to the ecj . 
+  however its decisions are stronger , in that they have direct effect . 
+  so the comission , parliament or a member state would need to sue to get its ruling . 
+  do they want the eu to define family law in this matter ? 
+  third , in neither court , nor in courts of any member states , has nondiscrimination been interpreted to oblige the legality of same sex marriages . 
+  now its probably not in anyone 's interest for marriage equality to be imposed by juditial action , on the majority of member states , without democratic or popular legitimacy for such a devisive decision . 
+  its one thing to do so with a few leftovers , standardizing a level of protection already achieves , quite another to do so against the collective will of the majority of nations . 
+  almost two thirds majority , with only 10 member states having equality , and 28 members in total . 
+  nor is there support for it on the level of the continent as a whole - ca n't find a more recent number , but in 06 , only 44 % of eu citizens approved of marriage equality . 
+  oh well not this one , but there is no point in it now since the majority is obviously homophobic , particularly that section of it willing to vote on the matter . 
+  i meant , say 5-10 years from now , or whenever the public is ready . 
+  abs za, 
+  agreed with the sentiment , al mislim da si naopako rekao `` legalizacija samo osigurava prihode organiziranom kriminalu '' - valjda prohibicija , ne legalizacija ? 
+  super , thx !, 
+  ffs . 
+  um , as you put it that way , ... , yes it could easily be . 
+  simply depends on the extent of their interference with personal lives under that dictatorship . 
+  but this seems an interim dictatorship anyhow , otherwise why bother ban only some parties ? 
+  and that 's fairly benign considering the alternative of a permanent state of religious tyrany . 
+  actually no , not all dictatorships are equally bad . 
+  the procedure by which power is obtained , coup , inheritence or elections , is fairly irrelevant , to everyday life under this rule , while its actions are crucial . 
+  and the extent of influence desires of people have merely due to having elections is not particularly great anyhow . 
+  and there 's a fair number of elements of the constitutional order of a country that simply dont and should n't depend on majority will at all . 
+  ( eg treatment of minorities , so by extension , secularism of the country ) . 
+  so in a sense there 's a dictatorial component to all modern democracies , though ofc neither this violent nor this blatant . 
+  but this does n't look like the establishment of a dictatorship at all , but rather an interim military coup , in a country where military is tasked with preserving the constitution , into an already flammable and unstable situation . 
+  actually , this is royally fucked up :, 
+   the armed forces will enjoy the exclusive right of naming the defense minister, 
+  so much for civilian oversight ... 
+  can be done ? 
+  is not the same ban in the constitutions of more than half the us states too ?

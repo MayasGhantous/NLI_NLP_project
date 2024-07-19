@@ -1,0 +1,100 @@
+  a term i just made up . 
+  linux does n't seem to mind you trashing its system drive either . 
+  it reminds me of that scene from the silence of the lambs . 
+  you know which one . 
+  i 'll soon need a device to join all my unused usb flash drives . 
+  excellent !, 
+  step 7 achieved . 
+  thank you fwin !, 
+  your google search is significantly better than mine . 
+  i do n't hate it , i just do n't like the unified menu in the top bar . 
+  and the launcher is n't visually pleasing to me ( can one customize it ? ) . 
+  gnome shell for me . 
+  all the criticism it got had me distro-jumping for months before trying it out with fedora 17 , and finally settling with ubuntu + gnome3 . 
+  i suppose it could be better if the gnome guys listened more to the community , but it 's pretty good right now , and i like it . 
+  because there are many package maintainers pushing updates . 
+  and why is this bad ? 
+  this way you have more choice . 
+  if you 'd like a bigger update every month you can just delay the update until then . 
+  anything that is n't a critical security update can be delayed . 
+  your pfsense router can be your openvpn server , with a little help from a free dns service - you router will also update your ip . 
+  then , you just set up the `` server '' to connect to your no-ip address as an openvpn client . 
+  i have an openwrt router setup as both an openvpn server and free dns updater , and i use it to remotely connect with my android phone to access files , control music etc , so this setup will work for you . 
+  one thing : if the `` mobile devices '' support openvpn , then you could use that too . 
+  and since there is a remote machine constantly connected to your network , i would recommend no longer considering the internal network a safe place . 
+  i have many passwordless devices in my lan ( media box , smb share on my router ) . 
+  you should n't do n't do that . 
+  also , the tasks you briefly described can be more easily done with ssh . 
+   is there no way to do this backward ? 
+  ie the remote server is the vpn server ? 
+  not without opening a port . 
+  but yes , it would be the same thing . 
+  about ssh and your family using it : what are the mobile devices ? 
+  if android : you can put a connectbot widget on the launcher which will automatically connect via ssh , authenticate with pubkeys , optionally run a few ssh commands ( etherwake to wake up the media server ) and then set up an ssh tunnel inside the remote network . 
+  all with a single tap of a widget . 
+  if the access is through the webserver , you 'd access it on your android browser by typing `` localhost '' ( connectbot listening to localhost :80 , tunneling it to mediamachine :80 ) , or you can add `` localhost music '' to their hosts file , so then they 'd have to type music into the browser . 
+  many ways to configure . 
+  not even that . 
+  they 'd know you 're sending and receiving data on a tls channel . 
+  just like a website with https , or an email client or whatever else . 
+  were it an ip in a random datacenter , they would n't even know that . 
+  i 'd like to see a social network based on a bitcoin-like mesh-distributed-database . 
+  that would be novel . 
+  note the red squiggly lines under words when you type them . 
+  they appear when you 've made a spelling error . 
+  dear flickr ,, 
+  what have we done to you , that makes you hate us so much ? 
+  sincerely ,, 
+  mobile browsers, 
+  if you ask yourself the question , whether to use one , then no , you do n't need an antivirus . 
+  although you might want to install one on your mom 's phone . 
+  and i recommend avast !, 
+  because of its hardcore anti-theft suite . 
+  format compatibility . 
+  flac has greater support across different hardware than alac, 
+  total waste of time . 
+  also the difference track between pcm and mp3 will not be of any indication of quality loss . 
+  it simply does n't work that way . 
+  you can have a difference track with relatively high levels , and the encoding can still be transparent . 
+  the difference track between pcm and mp3 will not be of any indication of quality loss . 
+  it simply does n't work that way . 
+  you can have a difference track with relatively high levels , and the encoding can still be transparent . 
+   yes , because flac and alac are both lossless codecs , there will be no difference in the decoded outputs . 
+  effectively you are comparing pcm to pcm . 
+  also it is very difficult to line up a wav with an mp3 with sample-for-sample accuracy due to the way mp3 skews transients . 
+  thank you !, 
+  [ here 's an example ] ( http://ge.tt/api/1/files/2le0n3p/0/blob?download ) :, 
+  original pcm ( * zz top - eliminator.flac * ) was converted to ogg with aotuv codec , - q 6.0 ( ~ 192kib/s ) . 
+  it was then aligned to original pcm with [ audio diffmaker ] ( http://www.libinst.com/audio%20diffmaker.htm ) ( * zz top - eliminator.ogg.flac * ), 
+  the two were subtracted , and the result is * zz top - eliminator.ogg-zz top - eliminator.flac.flac *, 
+  the difference file 's level is only 20db below the originals . 
+  do they sound different ? 
+  i think it 's no wonder , the mp3 format nearly approaching its 20th anniversary , that there are better quality codecs . 
+  an interesting new addition is opus , a free format that will be better than all of the current codecs in every aspect ( except compatibility for a while ), 
+  [ here , have an orangered so you see my other post ] ( http://www.reddit.com/r/audiophile/comments/112z3q/is_there_any_real_draw_back_in_converting_flac_to/c6izver ), 
+  sounds that are broadband in nature ca n't be efficiently compressed . 
+  these are sometimes replaced by information concerning their color , and the decoder will use a pseudorandom generator and filter the noise to reproduce the sound . 
+  this will always produce a different output than the original , and it 's possible that the output from the compressed file will be different every time you play it . 
+  think about tape hiss . 
+  it 's a non deterministic noise source . 
+  what happens when you subtract tape hiss from one part of the tape from another part ? 
+  you get a third part of tape hiss that 's different from both ( slightly louder ) . 
+  the two original sounds are entirely different , yet they sound the same . 
+  this is just one thing that can make lossy compressed audio sound the same , yet be different . 
+  but basically yeah , psychoacoustics . 
+  planned obsolescence . 
+  manufacturers can limit a device 's useful lifetime by refusing updates , witholding source code , and ultimately , by locking the bootloader . 
+  and omap , which rule . 
+  i didnt know that . 
+  it made me sad . 
+  cool . 
+  have a zenith-vote . 
+  / r/all is leaking, 
+  you can symlink your % temp % folder to a folder on your hdd . 
+  i recommend doing it for your entire % userprofile % , since it 's usually mostly bulk data ( music , videos , temp , logs etc ) . 
+  [ this should help ] ( http://lifehacker.com/5467758/move-the-users-directory-in-windows-7 ), 
+  things will break if you remove the hdd though . 
+  so do n't plan on removing it . 
+  i see you did n't understand my comment . 
+  symlinking means that you ( and the game , the os etc ) will see files on your ssd at c : \\ users \\ holem \\ application data \\ ... , when in reality the files are on a hard drive at d : \\ myfiles \\ application data \\ ... 
+  * sigh ... *,

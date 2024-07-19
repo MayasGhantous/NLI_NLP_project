@@ -1,0 +1,100 @@
+  i 've got more recent pc ( i7-4770k , 16gb ram and gtx 570 in sli ) but arma is still lagging here . 
+  it 's the game not your comp . 
+  i would start with an ssd . 
+  it does not improve your fps much but it makes everything feel snappier . 
+  a 128gb one should be sufficient . 
+  seems good to me . 
+  i 'm not sure about what 's the latest update on amd microshuttering problem . 
+  the had big problems with crossfire . 
+  last i heard they fixed the it in beta driver . 
+  also - amd will launch new gen of gpus in september . 
+  you 'll definitely get more bang per buck from going to new gpu . 
+  rumor has it amd will release a new generation in september . 
+  how about other items ? 
+  for me , the biggest improvement in graphics department was upgrading my monitor . 
+  i was using a really cheap tn-film panel with gtx285 back then and upgraded to dell ultrasharp ips monitor . 
+  the difference was way more significant than upgrade from the gtx285 to gtx570 sli . 
+  sure . 
+  both your cpu and gpu could use an upgrade . 
+  skyrim is more cpu limited so upgrading cpu would improve framerate . 
+  on the other hand the battlefield 3 is gpu dependent and as such it makes sense to upgrate gpu . 
+  if i would have to choose i would go gpu first and cpu later . 
+  780 should do just fine . 
+  i 'm personally waiting for the amd next gen offer . 
+  it should be out before bf4 ( 20 . 
+  sept ) and rumor has it they made cooperation with dice to support it better and the card may come with bf4 bundled in . 
+  another rumor says the `` hawaii '' card beats titan and costs $ 600 . 
+  your 5770 was a great card . 
+  it 's roughly on par with 7770 ( amd changed naming scheme after 5000 series ) . 
+  i would say pick anything above 7850 or gtx570 . 
+  here 's the updated list for gpus : http://www.tomshardware.com/reviews/gaming-graphics-card-review,3107.html, 
+  here 's the list for cpus : http://www.tomshardware.com/reviews/gaming-cpu-review-overclock,3106.html, 
+  no no no no no !, 
+  traces of rocking horse were found in ikea couch . 
+  he got it all wrong . 
+  what 's your budget ? 
+  the 660 is n't that much faster , definitely does not justify the upgrade . 
+  aim higher . 
+  can you overclock the cpu on h87 series motherboard ? 
+  also please consider an ips monitor such as http://pcpartpicker.com/part/dell-monitor-4691253 . 
+  you wo n't need to upgrade the 4670 for a long time . 
+  my 6y old i7-920 ( when overclocked ) can compete with best modern amd cpus . 
+  not just gaming . 
+  i7-920 overclocks like monster . 
+  i hit 3.8 ghz on air and stock voltage . 
+  at clocks beyond 3.8 ghz it 's competitive with anything from amd out there . 
+  sure the best amd cpus beat it when overclocked , but not by much . 
+  also - 4670 has comfortable lead over amd , it takes time to catch up . 
+  i5 beats 8350 in most tests . 
+  in some of the tests lower is better . 
+  there are rumors that amd will launch next gen gpus on 20th of september and they will ship in october . 
+  the top end , hawaii , will compete with nvidia titan with price below $ 600 . 
+  i guess you 'll need the pc sooner . 
+  there 's nothing wrong with your build . 
+  i went with plus because i needed the extra fan header . 
+  you 'll need to write the disk image to usb . 
+  it 's not as simple as copying files , you 'll probably need terminal for this . 
+  maybe diskutil is sufficient . 
+  you 'll need to make it bootable . 
+  maybe [ unetbootin ] ( http://sourceforge.net/projects/unetbootin/files/unetbootin/585/unetbootin-mac-585.zip/download ) can help ( if you have the iso available ) . 
+  you should be able to do this . 
+  are you really sure you want 8 , not windows 7 ? 
+  use the [ logical increments pc parts guide ] ( http://www.logicalincrements.com/ ) as a starting point . 
+  are you sure you want to format it ? 
+  i mean you can boot windows , install drivers for new stuff and continue working . 
+  if your windows crashes in the middle of the boot process then change hdd mode in bios/uefi from ahci to ide . 
+  if you do want to format it then just reinstall windows . 
+  the setup program will provide all necessary tools . 
+  your gpus will draw [ about 300w ] ( http://www.tomshardware.com/reviews/radeon-hd-7950-review-benchmark,3207-9.html ) in crossfire . 
+  it leaves 450w for the rest of the system . 
+  should be plenty . 
+  i 'm more worried about the psu brand you 're using . 
+  not all psus are equal . 
+  i 'm not from us . 
+  we get money for studying , not the other way around . 
+  yes . 
+  start menu . 
+  i managed to use 8 for whole 20 minutes before uninstall . 
+  this was my second try too , first one was even shorter . 
+  the windows 7 is about equivalent to mac os x tiger feature wise , but it rocks . 
+  pick a cheaper mobo , z series chipset is for overclocking . 
+  edit : also the powersupply is tad too powerful . 
+  and case provides good cooling , but does not muffle sound . 
+  your build is for overclock , except the cpu and its cooler . 
+  wait until wensday , amd will announce new gen. 
+  the same code worked for civ5 : brave new world . 
+  open the stream in other browser if frozen . 
+  for me it completely froze in chrome . 
+  does n't even load flash player . 
+  opening in other browser helped , but you 're right : it does not show current events . 
+  i 've done some compute programming and 4x7970 will blow the titan out of the water . 
+  the total memory bandwidth is much higher as well as the compute perfomance . 
+  also , the titan has reduced dp performance in comparision to k6000 - k6000 has 1/3 of sp , but titan has 1/24 . 
+  looks like you 'll have mountains of data to process . 
+  i turned to opencl in my research and it helped a lot . 
+  amd cards are better at it , the more memory you have on a card the better . 
+  if a program uses threads for multitasking then it supports hyperthreading . 
+  also , new amd cpus have something like hyperthreading on steroids . 
+  a 8 core cpu has actually 4 cores that support this thing . 
+  it 's unfair to compare haswell i5 and ivy bridge e series - the latter has much more cache . 
+  this comparision is more apples-to-apples : http://www.anandtech.com/bench/product/836?vs=837,

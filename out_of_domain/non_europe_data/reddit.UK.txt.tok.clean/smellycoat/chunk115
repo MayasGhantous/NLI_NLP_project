@@ -1,0 +1,100 @@
+  here in the uk , many supermarkets sell generic ibuprofen for prices around one penny per tablet ( about an eighth of the cost of branded versions ) . 
+  although , bizarrely , people who i consider to be otherwise sane maintain that neurofen is somehow better than generic ibuprofen , despite understanding that the active ingredients are identical . 
+  `` lol '' has essentially become punctuation now . 
+  even if you have an account that does n't allow forwarding , gmail lets you [ import mail ] ( http://mail.google.com/support/bin/static.py?page=guide.cs&amp;guide=25413&amp;topic=25414 ) in bulk from other accounts , and [ fetch new mail ] ( http://mail.google.com/support/bin/answer.py?hl=en&amp;ctx=mail&amp;answer=21288 ) regularly via pop3 . 
+  those two things ( plus the fact it 'll let you send email from any address you have access to ) means you can effectively control a different account entirely from gmail , even if it does n't provide any means to forward mail . 
+  well , there 's some benefit in checking email addresses against the spec , but the spec allows lots of stuff that you might not expect , or want . 
+  for example , although backticks , pipes and exclamation marks are permitted by the spec , they are often disallowed by mailservers ( the first two due to old exploits involving shell execution , the latter because it was part of an now-abandoned convention to allow the address to control how the mail was routed ) . 
+  even if you set up your mailserver to handle those two characters , you have no control of the other servers it might be routed through - so no guarantees it 'll be delivered correctly . 
+  another example of vestigial stuff in the spec is the ` local@[&lt;ip&gt` syntax , ( eg , ` smellycoat@[1.2.3.4]` ) . 
+  this syntax is also disallowed by a lot of common mailservers , and i do n't think i 've ever seen anyone seriously attempt to use it . 
+  then you have stuff like ` postmaster@localhost` . 
+  perfectly valid , syntactically correct according to the spec , almost always deliverable , but rarely something you 'd want to accept . 
+  there 's also other code to consider . 
+  most things expect an email address in the form ` name@hostname`, but the spec allows for all manner of other stuff . 
+  one good example is a name may be included too : ` smellycoat &lt;smellycoat@example.com&gt;` . 
+  if the rest of your code is expecting the straightforward ` name@hostname` syntax , then you 're setting yourself up for potential problems elsewhere . 
+  i do n't see why this keeps coming up ( or why people keep citing that massive regex ) . 
+  the majority of the planet agrees that email addresses look like ` < some string&gt;@&lt;some valid domain  ` , with a small set of characters explicitly disallowed in the local part ( simply to avoid things that are likely to prevent delivery or are more likely to be errors , like commas , semicolons , backticks , pipes , ` @ ` symbols , etc ) . 
+  that format is quick and easy to check , catches a few common errors ( incomplete domain , double ` @ ` , commas instead of dots , etc ) , goes as far as possible ( short of actually sending email ) to ensure it can be delivered , while not prevent anything a reasonable person might want to do . 
+  edit : another good one i just thought of : the spec allows underscores in domain names , but the majority of systems disallow them . 
+  using an underscore instead of a dash ( or a dot ) is a relatively common error when typing email addresses - would you really rather blindly accept that ? 
+  fair enough . 
+  although the rfc822 address validator cited above seems to support it :, 
+   perl - mmail : : rfc822 : : address = valid - e ` print `` valid \\ n '' if valid shift ' `` smellycoat &lt;smellycoat@example.com&gt; '', 
+  the ` local@[&lt;ip&gt` syntax has fallen into disuse in the current ipv4 world , because nobody uses it ( and because mailservers have slowly disabled all the old stuff as a spam prevention measure ) . 
+  why would the introduction of ipv6 suddenly mean people would want to send email to ip addresses ? 
+  i ca n't concentrate on reading with that dude staring at me . 
+  well , while it 's certainly possible to set up a mailserver that will send and receive email addressed in that format , it 's syntax you practically ca n't use with the majority of email clients or mailservers out in the world today , at least not if you expect your emails to be received and for replies to get to you . 
+  it simply is n't needed anymore , and as such is rarely ( if ever ) supported by email infrastructure . 
+  so i 'm not sure what else you 'd call it . 
+  it could be you 're talking about something else ( like a connection string for something like an ssh daemon ) , in which case it 's not an email address , and so is n't really anything to do with what i 'm talking about . 
+  nobody uses it , very few things support it ( in fact most things specifically disallow it ) , nobody 's taking it into account when writing new code , nobody wants to keep it . 
+  i 'm sticking with `` vestigial '' , 
+  but , rfc822 ( nor any of the email-related rfcs ) make any provision for allowing the destination port to be addressable . 
+  you were talking about login strings for shit like ssh , were n't you ? 
+  that ai n't an email address ; your square-bracket-syntax will still be there . 
+  test them . 
+  you 've got to see code . 
+  it 's * shockingly * hard to judge how good people actually are until you 've seen something they 've produced ( and on the other hand , you can tell a * lot * about a person from looking at some of their code ) . 
+  we used to send a few simple coding tasks for candidates to complete after we 'd interviewed them . 
+  the number that we thought were okay after talking to them that turned out to be incapable of coding their way out of a wet paper bag was utterly astonishing ( and conversely , the number that seemed like they were n't up to much but turned out to be pretty capable was equally disturbing ) . 
+  now we get them to complete code tasks first . 
+  i do n't think there 's now any situation in which i 'd be happy hiring a programmer without seeing some of their work first . 
+  i 'll just leave [ this ] ( http://uk.lifehacker.com/5524704/laptop+reliability-study-highlights-the-most-sturdy-laptop-makers ) here ... 
+  holy shit it 's $ 45 ? 
+  that means the uk price ( # 27 ) is actually cheaper ( by the current exchange rates , 45usd = 28.02 gbp ) . 
+  i think this is possibly the first time in history that has happened . 
+  i think you could buy it on its own ( $ 20 or something like that ) , but it was far more sensible to get the orange box . 
+  this is a reasonable point , but i ca n't imagine it was valve 's decision . 
+  i ca n't see any upside for them - it 's not as if a significant number of 360 owners are going to buy the 360 version * and * the pc version . 
+  chances are this was either sony 's fault ( only letting them do it in some form of exclusive deal ) , or ms 's fault ( restricting what they can do on the 360 platform ) . 
+  it does n't implement lists of addresses . 
+  ah for fuck 's sake . 
+  i was about to buy that as well . 
+  i 've got two free portalses if there 's anyone left in the world that does n't have a copy ... 
+  edit : one left , but i 'm off to bed now . 
+  edit : both gone . 
+  ah , true , yes , it does indeed . 
+  ( but it * is * a different function at least , which you 're unlikely to use if you 're validating a single address ) . 
+  yep !, 
+  done . 
+  editplus is a great , if underrated , text editor . 
+  sftp support is excellent . 
+  i spend a lot of time sshing between boxes ( work stuff is heavily firewalled so i find myself logging into one then bouncing around to different machines a lot ) . 
+  all this does is accept a commandline for ` ssh ` , but sets the terminal title to ` currenthost -  targethost ` before doing so ( and resetting it to ` currenthost ` afterwards ) . 
+  very , very handy . 
+  my $ host = ` hostname ` ;, 
+  chomp $ host ;, 
+  $ host = ~ s / \\ . . * / / ;, 
+  my $ newhost = $ argv [ -1 ] ;, 
+  # ssh, 
+  system ( ` ssh ' , @argv ) ;, 
+  this totally worked on the shitty payphone at my school . 
+  it was surprisingly easy to do ( at least to dial 100 for an operator . 
+  dialling a full number was a bit of a chore , but possible ) . 
+  except bing 's recent shenanigans with their toolbar users ' data ending up in their search results means while it might be ungoogleable , it may very well be bingable . 
+  crumpty mccrumpton from crumpton , crumpton , crumpton and crumpton ? 
+  you clicky on this thing [ here ] ( http://www.reddit.com/promoted/new_promo/ ) , pay a bit of cash , and your ad wings its way to nerdy types across the world . 
+  but , to be honest , if you 're willing to sit and answer questions about it and the design/manufacturing process , this thing is interesting enough that you might get away with posting a link to [ / r/somethingimade ] ( http://www.reddit.com/r/somethingimade ) , or maybe one of the bigger , more general subreddits . 
+  it 's definitely something that lots of redditors would likely be interested in , and i 'm sure a fair number would have some questions for you about it all . 
+  if they 're the same dimensions as usb and just different for lock-in reasons , then chances are they wo n't have used an off-the-shelf standard connector - they 'll be proprietary , to prevent someone else from making a competing version . 
+  that said , if they * are * pretty close to usb , then you should be able to cobble something together that will work . 
+  usb connectors can be made without the outer shell , directly onto a suitably-sized bit of circuit board . 
+  might not be pretty , but it could certainly work . 
+  here 's some examples :, 
+  * http://hackaday.com/2010/10/29/tiny-usb-business-card/, 
+  * http://www.instructables.com/image/f187bgrv9eev1bep39/the-usb-power-connector.jpg, 
+  * http://dvice.com/assets_c/2010/05/pcbbizccccr-thumb-506x544-39587.jpg, 
+  i imagine it 'd be pretty cheap to put something together to do this . 
+  veroboard might even work , and you could solder a normal usb port to the other end , even . 
+  that might be a little bit more involved than you were expecting , though , 
+  maybe he was referring to [ these ] ( http://www.scifinow.co.uk/wp-content/uploads/2010/03/nbcs-medium.jpg ) . 
+  it is a little overdone , but if used responsibly i think it 's still a useful technique . 
+  a subtle shadow can add a bit of depth and . . `` solidity '' to otherwise flat text . 
+  for example , adding a white ( or light colour ) shadow to dark text on a light background ( at 1px 1px ) , or dark shadow to light text on a dark background ( at -1 px -1 px ) , gives a nice 'em bossed ' look . 
+  i feel large shadows are a little cheap , and tend to stick to 0px size myself , though . 
+  you do n't need to go nuts with them , though . 
+  toning it down ( with rgba , for example ) and/or doing `` apple-style '' shadows ( that is , a shadow 1px above or below , but not offset to the left or right , eg : ` text-shadow : 0 1px 0 whatever ` ) can have the almost the same effect without being too in-your-face . 
+  even shadows you can barely see ( unless you 're looking for them ) can really make a difference . 
+  just do n't use it for any large quantities of text as it 's a little harder to read and has a performance impact ( do n't do it to body text !,

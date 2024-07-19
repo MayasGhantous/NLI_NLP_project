@@ -1,0 +1,100 @@
+  for example lambdas do not improve things as much as properties do although lambdas are a thousand times nicer than anonymous classes . 
+  no i did not go through your comments specifically . 
+  they were just the most annoyingly incorrect ( not the most incorrect but incorrect in most annoying ways ) . 
+  i do n't know what you think the links agree on . 
+  i am telling you that the value of properties in general is not in the shorter syntax of declaration but in the way the client code uses properties . 
+  of course automatic properties are specific kind of properties which are just declared with a shorter syntax but automatic properties are not the important thing . 
+  ok but project lombok will not make person.age + + ; in java more readable and this is where the value of properties lie not in shorter declarations . 
+  i see . 
+  you need your own scheduler for this . 
+  as far as i know there is no predefined collection of schedulers in . net . 
+  on the other hand i do think there is very little need for this since 99 % of the cases you want to either use the scheduler for the specific framework ( asp.net , wpf , etc. ), 
+  or the thread pool scheduler . 
+  what was your reason for not using the thread pool if i might ask ? 
+  well c # 5 and . net core have a repl so they fit the style of development in these platforms . 
+  btw i do expect to see intellij and maybe eclipse support in the future but who knows, 
+  there are some fair points about windows server but i do not think it as big of a deal as you describe it . 
+  the mono blogpost talks about the full windows . net framework . 
+  the multiplatform part is . net core and asp.net 5 ( essentially the future of the . net server stack ) . 
+  they do mention that . net core is developed in the open and that they will contribute to it . 
+  comparing github repositories is not very fair for c # since currently around half of . net open source projects reside on codeplex . 
+  i am not saying java does not win this i am saying that the ratio is not 77/22, 
+  well in this particular case it is incorrect to spawn threads at all . 
+  if you do spawn i believe the thread pool should self adjust in several seconds but i am not sure . 
+  what i am certain is that if you are waiting on an io you do not need threads and implementing waiting via threads is ineffective in not only in . net but also in java . 
+  async apis in both platforms can be used to tell the os to do the waiting . 
+  you fire a request and hook a callback to be called when the operation completes . 
+  this is where c # shines because with async/await the code looks like regular code and not like a bunch of callbacks glued together . 
+  i would post code example to make it more clear but i am typing on a phone . 
+  our religion tells us we should spread the glory of anders ( hallowed be his name ) wherever possible . 
+  i can not disagree more . 
+  in fact i think you are trolling me because literally my last reddit post is about how the first new c # feature i ever disliked is expression-bodied methods . 
+  it is true that due to my lack of experience with java i may be underestimating both the difference in projects count and the importance . 
+  however i had been developing on . net before it experienced the open source revolution and after it and i know that the number and significance of the open source projects including non-ms projects grew greatly in recent years . 
+  i find it hard to believe the difference is that great since i work with js where there is a lot of open source and do not feel that i have easier time finding the libraries i need than i have with . net . 
+  on the other hand i readily admit that i liked the old monoculture days better . 
+  it was easier to get one package from ms and not need to research a bunch of alternative libraries from random people . 
+  i agree about the hidden side effects but do not see how the argument applies to properties but not to accessor methods . 
+  i used to agree about mutable value types but i was given multiple examples of performance gains achieved this way so i changed my opinion . 
+  after all i have only encountered one mutable value type in practice and it was a point class belonging to windows forms . 
+  i have never seen a developer abuse this feature so i guess the risk was justified . 
+  if you really think there is value in expression bodied methods plwase check the thread and explain where do you see that value ( this is what the thread is about ), 
+  i really wish to see those slides . 
+  of course i do not think that the . net way is perfect and no better way can be invented but after all i want to program with real generics before i retire and i can not be sure java will get those perfect generics on the next 40 years . 
+  i also wonder if the current . net way somehow prevents . net generics from being upgraded to the better way . 
+  people have been crucified for far lesser heresy . 
+  because java has an ecosystem built in that way for 20 years . 
+  it would be totally foolish to implement properties in a way that can not leverage existing getters and setters . 
+  in fact i would rather use the no-property version rather than the version which has properties which do not support existing getters and setters . 
+  i find it really strange that people think that . net or even microsoft changed in a few months since nadella became ceo . 
+  the journey towards open source was a slow one that arguably started with asp.net mvc in ~ 2008 and since then things were gradually changing . 
+  i ca n't remember if this is true for java but in c # this particular example would work just the same without the cast . 
+  the foreach loop in c # does the cast anyway . 
+  now if you want to use the list in more interesting code as list < elementtype  what you said is true but i do n't think it justifies having broken generics . 
+  i guess this is the equivalent of a `` i want to believe '' sticker , 
+  i think wcf is confirmed to be open sourced . 
+  what they are open sourcing is basically their future web stack . 
+  this is no small things . 
+  for example it covers 100 % of what i did in the last year . 
+  they could have made them cast when adding generics but even without a cast one more line where i cast the loop variable would not be such a big deal, 
+  they have announced that the runtime of . net core would be open source ( and code from mono will probably be contributed there ) . 
+  they also announced they were open sourcing ryujit and the gc and making it cross platform . 
+  while this will not have immediate effect mono could relatively easily integrate it in less than 2 years which would result in significant performance benefits ( iirc the gc is one of the weakest parts of mono ), 
+  finally i get functional programming !, 
+  i 'm in ( modest $ 25 , would have went for the lunch rewards if i could get to any of the places mentioned ) . 
+  just wanted to give some feedback - i do not have a lot of free time so i would prefer that you produce better content rather than more content . 
+  my bias towards better content is very strong . 
+  i 'd rather have 1 article a month of david kim hacked e-mail quality than 10 lesser ones . 
+  i am curious what do you think kickstarter is if not `` asking investors to help start a business '', 
+  why ? 
+  i have invested ( as opposed to donated ) in several kickstarters and all of them delivered although they did so after a significant delay . 
+  also potatoes . 
+  i love potatoes . 
+  because of hilarious bronze science videos, 
+  you can invest for rewards rather than equity . 
+  this is what you were promised instead of equity . 
+  it is investment because you risk some capital in exchange for a benefit that may or may not materialize, 
+  i certainly think the limited success of ms in recent years ( as opposed to the 90s and 2000-2010 ) plays a big part in this decision . 
+  well maybe if people supporting the other vm had created a language that it at least comparable to c # and a ui framework that makes it easy to develop high quality desktop apps for windows people would n't use . net, 
+  they changed there policy about this type of questions at some point and the old questions were closed . 
+  they have other places like community wikis and programmers.stackexchange.com for these types of questions these days but of course people tend to not look at these other places so these discussions do not become as popular as the old questions . 
+  i do n't know about companies like facebook and google who pay a lot and can pick the best due to their reputation but we are happy if we can get an intern who can write a queue < t  and train him to do asp.net programming . 
+  candidates with multiple meaningful open source contributions ? 
+  we do n't even dream of that . 
+  we only get senior programmers via personal recommendation . 
+  i do not think a senior programmer ever randomly sent a cv . 
+  a correlation that did n't exist in the 90s since there was no mobile space and the web was not as powerful . 
+  ms could just sit on windows and make good dev tools to make windows even stronger and not worry about cross platform . 
+  in theory they can port wpf to linux on top of opengl . 
+  if game engines do it why not wpf . 
+  i have heard monogame works reasonably well . 
+  we ca n't excuse checked exceptions with the age of the language . 
+  it was pretty much java designers trying to be cool or something and failing . 
+  also note their stubbornness as they still refuse to simply remove them and relief the language and the devs of the burden . 
+  people who used it say the work to port an xna game to monogame is reasonable . 
+  the shining example is the game bastion which is ported on everything using monogame . 
+  of course devs of older games are not likely to go back and port to linux but this is not . net 's fault . 
+  they simply do not care about the platform . 
+  they did n't care back then when they chose xna and they did not care now when they refuse to do the work to port . 
+  now if the problem is that linux users simply do not spend enough money or that devs are stupid is up to interpretation . 
+  guess which interpretation i favor ,

@@ -1,0 +1,100 @@
+too bad that i was ( a bit ? ), 
+  late , but props to you !, 
+  what about declining a quest ? 
+  i do n't see any downside in declining even if i have no plans on doing it , because there 's often a small reward given in advance . 
+  am i missing something ? 
+  going after the achievements and worrying about endgame is the hardest part imo . 
+  when you concentrate on just one achievement in a run , it 's pretty easy . 
+  although , my first win came from when i just wanted to unlock a new ship . 
+  you might be right !, 
+  i do n't really care much about aaa titles . 
+  i usually want the game to have a specific ending , which gives me the satisfaction of completing the game . 
+  for example , i deeply enjoyed braid and portal 2 . 
+  two very good games , although the latter follows a very strict linear path ( though in my opinion solving the puzzles is a much better linearity than just killing new enemies with weapons ) . 
+  i 'm usually interested in puzzle games , which require some thinking , but i 'm also very impatient and tend to use help when i 'm stuck somewhere for too long ( especially when i have no idea what i 'm supposed to doing ) . 
+  with ftl i do n't feel like searching for help . 
+  sure i make mistakes and atleast the first 10 runs ended in a defeat but i did n't feel like googling for tips . 
+  there is n't a one and only true answer anyway !, 
+  just finished a 5-hour ftl session , beating the flagship twice in a row , getting the hang of it and i feel like moving on to advanced content and/or normal difficulty soon . 
+  i just achieved my first win on normal difficulty , also , did n't get any damage in the first two boss rounds . 
+  after discovering just how important it is to time the shooting of different weapons the game has gone a lot easier , but there are still many tactics to learn . 
+  edit : red-tail is my favourite ship . 
+  my cup of tea is laser guns and boarding with mantis . 
+  what about leveling your crewmembers against a weak enemy ? 
+  i have n't played on hard yet and this tactic is too time-consuming and unnecessary on easy and normal , but basically you can just idle and let a weak enemy shoot at you while the guys at shields , engine and piloting gain experience . 
+  learn some basic tactics . 
+  the first time i won was around game # 10 , first normal win about game # 20 ( at the moment i have 15 wins out of 46 games , but i have n't yet played on hard . ), 
+  after i found out just how important it is to time the shooting , the game got a lot easier . 
+  if you have , for example , 3 weapons that are kinda weak separately and have different loading times , then do n't shoot each one when it 's ready . 
+  instead , wait when all of them are done loading . 
+  of course , there are many more nuances , but this realization helped me tremendously . 
+  i was thinking the same thing , would really like to watch and analyze a playthrough . 
+  there 's no way that bad luck can be the deciding factor here . 
+  never surrender !, 
+  ignorance is bliss . 
+  well , having no previous experience with roguelike-like games , i was afraid that the game will be very repetitive and get boring really fast . 
+  but thanks to the huge amount of variation , it is still very interesting even after 50 + hours of playing it . 
+  glad to hear everything 's going so well . 
+  rock on guys !, 
+  convoy - ftl meets mad max !, 
+  also , new content to shovel knight . 
+  why not ? 
+  ah , well , i 'm checking the github page daily . 
+  i was concerned that there might be some sort of security issue as was mentioned in another thread ( although \u00b5block is open source so i 'll bet any foul play would be detected rather quickly ) . 
+  look , in my opinion , the best thing you can do is find a person who loves you for exactly what you are . 
+  good mood , bad mood , ugly , pretty , handsome , what have you , the right person is still going to think the sun shines out your ass . 
+  that 's the kind of person that 's worth sticking with . 
+  `` juno '', 
+  feels thin . 
+  the tool will be a small part in a bigger software suite ( which is written in c ) . 
+  as stated in the original post , i am fairly new in programming and rewriting in c is a task that my supervisor gave me . 
+  the tool needs to make small adjustments to binary files ( so that they could be read by the main program ) . 
+  the files that are to be converted are potentially tens of gigabytes large . 
+  edited my code with using the struct module . 
+  it 's faster than before , thank you and novel_yet_trivial !, 
+  why do you convert the input to float though ? 
+  in this program you should convert it to int , even though it does n't change the outcome . 
+  integer = int ( input ( ` enter an integer between 50 and 100 :') ), 
+  it 's okay , did n't mean to sound harsh , just pointing out a small detail . 
+  my ( rather quick and possibly not-so-pretty ) implementation in python 3 . 
+  it has a limitation though , the string to guess can not have a lowercase `` x '' . 
+  def unknown_list ( word ) :, 
+  return [ `` x '' for char in word ], 
+  def string_to_list ( word ) :, 
+  return list ( x ), 
+  def guess ( known_list , unknown_list ) :, 
+  if unknown_list . count ( `` x '' ) = = 0 :, 
+  else :, 
+  while user_guess in known_list :, 
+  placement = known_list . index ( user_guess ), 
+  unknown_list [ placement ] = user_guess, 
+  known_list [ placement ] = '' '', 
+  print ( unknown_list ), 
+  return guess ( known_list , unknown_list ), 
+  if user_guess not in known_list :, 
+  print ( unknown_list ), 
+  return guess ( known_list , unknown_list ), 
+  guess ( string_to_list ( x ) , unknown_list ( x ) ), 
+  print ` hello , welcome to icafe ', 
+  myname = raw_input ( ` what is your name ? ' ), 
+  mytime = int ( input ( ` how much time do you want ' ) ), 
+  if mytime < = 30 :, 
+  print ` you will pay 0.80 p ', 
+  print ` you will pay 1.50 p ', 
+  print ` you will pay 3.00 ', 
+  print ` you will pay 5.00 ', 
+  i used the exact description in your post for the comparisons , but note that if mytime equals 60 or 120 , nothing will be printed because none of the elif statements have `` or equal to '' clause . 
+  it is in python 2 . 
+  what do you mean by ` window ' ? 
+  python will quit after the program has done working . 
+  if a letter occurs multiple times in a string , then str.index ( letter ) gives you only the placement of the first occurrence . 
+  in my script i 'm substituting a matched letter with an empty string ( '' '' ) and rechecking if the same letter still occurs . 
+  a list is mutable , a string is not . 
+  therefore , it would not be possible to just replace a letter in a string . 
+  i 'm not sure if i understand the question . 
+  is the following what you wanted the function to do ? 
+  total = 0, 
+  while total < x :, 
+  print ( ` previous message ' ), 
+  total + = 1, 
+  nr = int ( input ( ` enter any number : ' ) ),

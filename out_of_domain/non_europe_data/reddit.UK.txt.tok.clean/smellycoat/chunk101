@@ -1,0 +1,100 @@
+  idea for people submitting ideas to r/ideasfortheadmins :, 
+  describe your idea in the comments , and summarize it in the title . 
+  what you 've done here is the reddit equivalent of forwarding a massive email thread to someone , adding only `` please see below '' . 
+  which is kinda annoying . 
+  depends on your motherboard , and without a model number or something to go on , you 're not going to get much of an answer , 
+  [ crucial ] ( http://www.crucial.com/ ) have a pretty decent database , though . 
+  look it up there if you ca n't find any info on the manufacturer 's site . 
+  ( btw : it 's `` hz ''  ), 
+  it 's really not that bad . 
+  if you just get the cheapest thing bt provide , then , yes , you will have a crappy connection . 
+  but llu exchanges are really common now , so as long as you 're not living in a shack in the middle of nowhere you can get a decent connection in most places . 
+  20mbit + in most towns and cities is very common , down to about 8mbit in places further from an exchange . 
+  i 'm more than happy with my 50mbit connection ( which is actually 50mbit , and happily puts up with all the [ abuse ] ( http://i.imgur.com/s59te.png ) i can throw at it ) . 
+  as with anything , once it becomes habit , it stops being fun . 
+  fortunately weed has few negative effects and little in the way of addictive qualities . 
+  try quitting for a few weeks , see if it makes any difference . 
+  if it does , great . 
+  if not , well , you wo n't have smoked for a few weeks , so you 'll get * really * fucking high , 
+  thing is , i 'm not convinced that adsl is the answer . 
+  it 's certainly true that we 've got copper running to most places in the country , which makes it a good first choice for deploying broadband . 
+  but a lot of it 's barely good enough for a phone system , let alone high speed internet . 
+  even in towns where the phone system is pretty solid , cable internet is way , * way * better than adsl ( ie : more reliable , and you actually have a hope of getting the advertised speeds ) . 
+  even with some incompetent fuckends like virgin media in charge , it runs rings around adsl . 
+  ideally , we 'd have publically-owned fibre running everywhere . 
+  but that 's not going to happen with this government . 
+  absolutely . 
+  there are hundreds of text editor colour themes that are * way * less ugly than that . 
+  i know man . 
+  each to their own , 
+  but , seriously , i know what you mean . 
+  i like to build everything as objects , and factor out common callback functions into methods . 
+  with a bit of magic like this :, 
+  var self = this ;, 
+  return function ( ) { self.apply ( object , arguments ) }, 
+  . . you can avoid the nested functions ( that are common in event-based programming ) by calling methods , like this :, 
+  var someclass = function ( redis ) {, 
+  this.redis = redis, 
+  someclass.prototype.makerequest = function ( whatever ) {, 
+  this.redis.dostuff ( whatever , this.processresponse.bind ( this ) ), 
+  someclass.prototype.processresponse = function ( whatever ) {, 
+  / / do stuff, 
+  the ` bind ` call there ensures that when ` processresponse ` is called , ` this ` refers to the actual object . 
+  yes it 's a bit less efficient , but it can make this kind of code a lot simpler and more maintainable . 
+  ( apologies if i fucked something up there , that code is untested ), 
+  edit : decent article on the subject : http://alternateidea.com/blog/articles/2007/7/18/javascript-scope-and-binding, 
+  the * stupendously * good adblock + extension is what keeps me using and recommending firefox . 
+  well , that and the development tools . 
+  i know chrome has a version too , but it 's nowhere near as good ( and last i looked did n't work in `` incognito '' mode , which seems a little ridiculous to me ) . 
+  i 'd drop firefox in a heartbeat if something else had an adblocker and development tools that were as good . 
+  wikipedia confirms my fuzzy memories of safari predating firefox ( or phoenix , as it was called back then ) by nearly two years . 
+  before that , the mostly-abandoned and entirely horrible ie5 mac was the browser of choice on apple platforms . 
+  i can * completely * see why they wanted to develop their own . 
+  i suspect the windows version of safari was conceived solely as an attempt to prevent it being all but ignored by the windows web development world . 
+  back when it first appeared , the * vast * majority of the world were still using ie , and many companies acted as if it was the only browser in existence . 
+  no , but it never really caught on ( outside the linux world , at least ) . 
+  to be fair , firefox 's lineage can be traced right back to netscape ( but then safari can be traced back to konqueror ) . 
+  and they probably both have bits of mosaic in them , 
+  maybe i need to upgrade or something then . 
+  thanks , 
+  `` web developer '' is what bad web designers end up calling themselves . 
+  not that being a web developer is a bad job , at all . 
+  just it 's much easier for the layman to criticise dodgy design than dodgy backend code . 
+  you 're right , of course , and every company should work the same way . 
+  but they do n't . 
+  if the same thing happened with a dell laptop , they 'd demand all manner of documentation , procrastinate for weeks , `` lose '' things in their system , and hide behind their impenetrable wall of overseas callcentre staff . 
+  eventually , after much cajoling , if you 're very lucky , you might get a similar ( but not quite the same ) refurbished model , complete with scuff marks and scratches , as a replacement . 
+  i 've somehow managed to arrange my life such that i almost entirely avoid advertisements . 
+  they make me feel dirty . 
+  well , the opera thing over the last few days totally got me . 
+  but i really have no problem with that kind of marketing . 
+  clean ? 
+  erm . 
+  why in the world would mysql store each field name once per row ? 
+  i 'm pretty sure that 's not the case . 
+  ( the post he 's commenting on is talking about mongodb , which i suppose has a better case for storing the fieldnames in each record ) . 
+  but , that aside , assessing storage savings in terms of the cost of consumer-grade ata drives is really disingenuous . 
+  that saving could mean the difference between having to buy a second database server ( and perform the necessary work to make your application work across two databases - not a simple task !, 
+  ) , or having to upgrade all the drives in an existing server ( which can be a lot of work , and represents downtime that could cost way more ) . 
+  i 'm generally perfectly happy to accept manageable inefficiencies if they make development easier - i 'm not writing my code in asm . 
+  but there are definitely times when optimisations make some sense , and although i 'm not convinced that gimping your fieldnames is the right way to fix a lack of storage space , you ca n't naively assess that based on the cost of your usb porn archive drive . 
+  because forms are more complicated than `` put a checkbox here '' . 
+  ignoring the action and method attributes that you 're probably going to want to define , you need to denote what constitutes a form . 
+  what if you 've got a text input , followed by a paragraph , followed by a checkbox . 
+  is that all one form ? 
+  two forms ? 
+  how do you propose to implement select lists ? 
+  what about naming form elements ? 
+  they need names to be able to do anything useful with them ( unless you fancy tying your form processing code to the order of the form elements in the document - eww ) . 
+  what about values ? 
+  radio buttons ( at least ) need values to be vaguely useful . 
+  how do you define default values ? 
+  while html is n't the friendliest of syntaxes for doing common document styling , it 's pretty well-suited to handling all the metadata necessary to mark up a form . 
+  so , yes , you * could * come up with a crazy scheme to make all the above work in markdown , but then you 're into reimplementing html in something else . 
+  just embed the damn html , 
+  if the alternative is using a sata drive , then probably . 
+  but the actual performance benefit you 'll see depends on a lot of things . 
+  for example , if the database ( or at least the bits you hit regularly ) is small enough to fit into ram , then you 're unlikely to see much improvement in read speeds . 
+  ssds also have a hard time writing small changes ( known as `` write amplification '' : entire blocks and associated metadata must be read , erased and rewritten , even if only a single bit has changed ) , which means you might not see much write performance improvement either . 
+  but , given the choice , i 'd probably go with an ssd , simply because they tend to be more reliable than a bog standard sata drive . 
+  something that 's very useful in a cheap server ( particularly if co-located ) .

@@ -1,0 +1,100 @@
+  ** details :, 
+  the game is a sort of 4x , where you control a tribe of humans on earth . 
+  the time period is set from 20,000 years ago to whenever . 
+  the first 10,000 years revolve around the end of the ice age , where the earth goes from looking like [ this ] ( http://upload.wikimedia.org/wikipedia/commons/e/e4/last_glacial_vegetation_map.png ) to looking like the modern day . 
+  the difference is 90m worth of sea level rise , the recession of gigantic ice sheets , and some temperature rise . 
+  the game models the entire earth as a 9192x5957 grid . 
+  ( this means iberia is about a 3cmx3cm square . ), 
+  so far , it stores three maps : [ ecoregions ] ( http://www.worldwildlife.org/science/wildfinder/ ) , elevation , and temperature . 
+  i might add more , but since conditions are roughly constant around an ecoregion , most environmental variables i can just have an ecoregion map to and be done with it , such as lists of what domesticable animals live in a province . 
+  time is divided into discrete units of years , and progresses at the slowest 0.5 yrs/s , at the fastest 5 yrs/s , depending on what the player sets it to be . 
+  every year is a `` tick '' , the atomic unit of time , and every half-century is a `` turn '' ; most gameplay things happen every turn , rather than tick . 
+  the game world is populated with thousands of tribes , most of which are controlled by the ai . 
+  ( this is not a game for weak computers . ), 
+  the task i am having trouble with is modeling the end of the ice age . 
+  the map was not meant to change , but clearly it must , as all three of those mentioned maps would change between 20k ybp and 10k ybp . 
+  ( plus , modeling how massive geological events affected human life is fun . ), 
+  how do i go about this ? 
+  some specific problems :, 
+  - how the ecoregions changed between those two dates is nontrivial , i.e. 
+  ca n't be computed by a simple iteration function like `` add x to so-and-so variable '' . 
+  ecoregions are the basis of most gameplay , so this is crucial . 
+  - even the terrain height changes and temperature changes are difficult to apply , considering that temperature change [ was n't uniform ] ( http://upload.wikimedia.org/wikipedia/commons/1/19/climap.jpg ) , and both changes happened across the entire globe . 
+  - these changes happened gradually . 
+  gameplay is supposed to feel mostly continuous , even if it is fundamentally discrete . 
+  waiting too long between map update events would be clumsy . 
+  some possible solutions :, 
+  - try not to change the ecoregions themselves , but instead try to apply the same sorts of continuous changes to the individual variables that each ecoregion maps to . 
+  this is problematic for at least two reasons : some data is n't numeric ( e.g. 
+  lists of animals , terrain type ) , and there 's no guarantee it 'll end up looking like the stored post-10k ybp it 's supposed to . 
+  - keep exactly two versions of the temperature map , one for the start , and one for the end of the ice age , and take a weighted average of the two whenever i need to figure out the temperature . 
+  - ignore global variation in temperature difference , and just have a constant increasing offset from the post-ice age values for the temperature . 
+  - have a separate map that stores ice sheet elevation at the start of the game , and have a constantly decreasing offset . 
+  - have a separate map that stores ecoregions where the ice sheets are , and use those ecoregions instead for regions where there are still ice sheets . 
+  better ( worse ? ), 
+  yet , have all the ice sheets simply be one ecoregion . 
+  this does n't solve the shifting ecoregion problem entirely , but it 's a step in the right direction . 
+  - segment the world into regions that were actually significantly affected by the change in sea level , and deal with them on a case-by-case basis rather than bothering to figure out which regions are land and which regions are sea entirely algorithmically . 
+  - use a less complex ecoregion map until 10k ybp , perhaps based on [ this ] ( http://upload.wikimedia.org/wikipedia/commons/e/e4/last_glacial_vegetation_map.png ) . 
+  discontinuous change in ecoregions is less jarring than discontinuous change in , say , ice sheets , or sea level . 
+  - use a less frequent update interval than one year . 
+  10 years is nice , but maybe it should be relatively prime to 50 , so that i do n't make the lag at the 50-year mark even longer . 
+  maybe every 11 years ? 
+  - not simulating the entire earth . 
+  this is part of the premise . 
+  - not simulating the ice age . 
+  the ice age is too cool not to simulate . 
+  suggestions ? 
+  i did n't , and i 'm thankful that / u/kris4o1993 clarified . 
+  asoiaf is by far not a universal pastime . 
+  that 's extremely possible and a good idea . 
+  i do need the map data for all the ai-controlled tribes , but giving them less detailed updates wo n't hurt them . 
+  the player can only see a small portion of the map anyway , so shenanigans in the unseen parts are almost obligatory . 
+  i thought of just entirely precomputing and caching the history all the parts of the map that the player has n't interacted with yet , but that takes up lots of space , is very difficult to implement , and too much premature optimization for something that i have n't fully tested yet . 
+  i 'm joking , the only thing historical about that brunei is that it colonized the phillippines . 
+  ( although apparently not manila . ), 
+  the real brunei grew big and then dwindled to irrelevance after the euros arrived , and is extremely tiny nowadays . 
+  it 's lamentable . 
+  that 's brilliant , thank you, 
+   brunei ended up with a colony on madagascar , for instance . 
+  ha , so history repeats itself . 
+  ah , so add the ice and temperature data to the ecoregion data rather than a separate map ? 
+  that 's a good idea . 
+  i might be able to smoosh temperature into ecoregion , and correct it using elevation instead . 
+  elevation ca n't be integrated , though ; it 's too fine-grained . 
+  changing what ecoregion each pixel belongs to is feasible , because it 's stored on a per-pixel basis . 
+  ( each pixel has several characteristics associated with it , some of which change frequently in the presence of a tribe . ), 
+  i just worry that it wo n't end up resembling the prescribed post-ice age ecoregion map , which it definitely should . 
+  while the player is still a tribe \\* , they can only ever see a small portion of the map at a time , and the ice age ends well within that timeframe . 
+  by the time the player can see a significant portion of the map , the number of nodes has been reduced to its former quantity divided by between one and two orders of magnitude . 
+  \\* an extent of time which includes the entire scope of my comment ; the intention is that once the `` tribe '' mechanics are satisfactory , i implement the ability to progress to states , which form the bulk of the gameplay and have vastly different mechanics , but that 's still far off . 
+   however , the culture map remains unchanged . 
+  yes . 
+  where does this practice come from , that hungarians end their usernames with - hun ? 
+  i know at least one other user who does that . 
+  oh my , they ca n't tell two very similar-looking homophones apart . 
+  sound the fucking alarms . 
+   why on earth is [ so and so orthography ] ? 
+  [ i do n't like it ], 
+  who 's the bad linguist now ? 
+   but to answer your question , there 's a semantic difference between the three . 
+  i personally quite like the existence of the em dash at least ; it 's a nice separator . 
+  ~ ~ a pull request is just downloading the repo . 
+  a pull request is always free , and does n't require a github account . 
+  who cares what somebody does with the code for personal reasons ? 
+  ( if they do something you do n't want them to , then there 's licenses for that . ), 
+  for many repos , pulls are the only way to download the software . ~ ~, 
+  ~ ~ with a * merge * request , like this guy 's trying to do , where you * upload * changes to the repo , is more restricted . 
+  merge requests are treated differently depending on how the repo is set up and the authorization level of the one who 's merging . 
+  the owner of the repo can obviously always push onto/merge into it , but beyond that , there 's a lot of options . ~ ~, 
+  edit : disregard that i suck cocks, 
+  it makes sense , though . 
+  plus , it 's not like `` polypoi '' is much different . 
+  i turned your shitty meme into a custom nation , and plan to make an aar with it next week . 
+  qq was always blue , though, 
+  oops . 
+  so then , aq is ... 
+  i do n't think so , it looks * less * ergonomic . 
+  thank you for the suggestion , i 'll test it out on our snes controllers whether it is a suitable fit !, 
+  meanwhile in nj , the water from my hot tap during the winter was in the single degrees celsius, 
+  i can hardly wait .

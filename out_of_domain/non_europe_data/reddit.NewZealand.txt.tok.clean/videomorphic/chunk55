@@ -1,0 +1,100 @@
+  but you could , if you thought the design reasonable , certainly have annotations for dynamically scoped variables . 
+  although at that point they 're not really dynamically scoped , they 're just implicitly passed . 
+  foo ( a , b , c ) # $ logger passed implicitly, 
+  whatever the syntax is is n't important , imo . 
+  it 's a design decision of explicit vs. implicit , i suppose . 
+  explicit is nice , i like explicit . 
+  good compromise . 
+  however , one advantage of being implicit is that it bypasses layers that do n't care . 
+  part of the problem with explicitly passing a request logger with a context attached to everything ( through normal function parameters , i mean ) is that if some function far down into code needs it , i need to change the parameter lists of every function that calls it . 
+  now sure , if you have explicit presence in parameter lists and implicit passing into those parameter lists , then it 's easier to make those modifications - just add ` [ $ logger ] ` , do n't modify the code for the function - but it 's still something you have to do . 
+  one thing is that for example , what happens when you have a callback . 
+  def sort ( things , cmp = default_comparison ) :, 
+  result = cmp ( thing1 , thing2 ), 
+  then if i do this :, 
+  sort ( gpslocations , cmp = ( def [ $ logger ] ( a , b ) :, 
+  $ logger.trace ( f ` comparing { a } and { b } ' ), 
+  return a < b ) ), 
+  where does that $ logger come from ? 
+  that can be an issue . 
+  from one perspective , it 's the sorting module that is doing the comparing , so maybe its logger should do the comparisons , if it has one ? 
+  but on the other hand , the function is declared , from a lexical perspective , in the lexical scope , so what if you want to call ` $ logger.trace ` and you expect that logger to natively handle print gps locations because you wrote, 
+  with loggerthatcanprinttypesinternaltothismodule ( $ logger ) as $ logger :, 
+  at the beginning of every entry point to the module . 
+   anything you do that passes control onto a different thread/stack needs to explicitly copy whatever bits of that unknowable bag of variables can be safely shared , and compensate for the ones that ca n't . 
+  you have to do this anyway . 
+  that 's my point . 
+  you have to , in some way , pass context into things . 
+  that has to be accepted . 
+  at boundaries between subsystems , you have to sort out what subsystem is responsible for what . 
+  i think that the default is usually ` that module should use the logger i 'm using ' and ` that function should be able to access the same authentication token i have ' , so why not make that default easier ? 
+  you have to do it somehow , that 's the thing . 
+   they become new zealanders if they move here . 
+  that 's simply not true . 
+  someone does n't become part of our culture simply by inhabiting the same geographic region as us . 
+  look at places like belgium , or the balkans , or many countries in africa , where different ethnic , cultural and religious groups have been inhabiting the same places for hundreds or thousands of years and * simply have not integrated * . 
+  they will not , either . 
+   the problem politically with cultural nationalist beliefs ( besides the fact that they provide easy cover for ethnonationalist beliefs ) is that they 're entirely subjective . 
+  i can just say that i prefer the culture of immigrants over the culture of nationalistic kiwis , which happens to be true , and then where do we go from there ? 
+  well if you prefer chinese culture , maybe you should emigrate to china ? 
+  there 's plenty of chinese culture in china . 
+  there is no one ` immigrant culture ' . 
+  do you know what a culture is ? 
+   more births in nz definitely does put more strain on the environment . 
+  maybe , maybe not . 
+  it is n't relevant . 
+  there are much , much worse things we could be doing than having more children . 
+  we are below replacement rate . 
+   as for inequality , native born children do n't increase it but the flow of people between rich countries and poor countries does decrease it . 
+  so a policy of births instead of immigrants needlessly preserves inequality . 
+  that is * not * true . 
+  flow of people between rich and poor countries * exacerbates * inequality because it deprives developing countries of their smartest and most capable citizens . 
+  this ` brain drain ' is a well known problem that many developing countries are struggling with . 
+  new zealand has had this problem in the past !, 
+   by that logic then , your argument makes no sense either because we can not predict whether or not this is a long term or short term trend . 
+  of course we can predict that . 
+  we simply look at the numbers and the reasons why they are coming here . 
+  it 's well-established that the policy changes national has made are the main contributors towards immigration to new zealand and that the numbers are n't going to stay this high forever , but will not go down to the previous levels without policy changes . 
+   you kind of have to . 
+  the bare minimum for a valid opinion is an education or knowledge on the subject . 
+  and judging from your knee-jerk reactions and your anti-immigrant stance , i 'm guessing you lack the knowledge to talk about immigration in an objective manner . 
+  i do n't see any evidence that you are an expert , so i do n't see how this point is relevant . 
+  i 've * already * explained this point , you know . 
+  it does n't matter whether i am an expert , because i have nothing to do with my argument . 
+  my argument stands on its own merits . 
+  if you think my argument is wrong , explain why you think that and we can discuss the argument . 
+  to reiterate , salaries in it are much lower in nz than they are in australia , the uk , and the united states . 
+  in many cases , it would be easier to get a job in the us earning more money in us dollars than to get a job in new zealand , earning fewer dollars , each of which is worth less . 
+  the reason that wages are low is that there 's no need for companies to raise them . 
+  if they have trouble getting workers , they can simply bug the government to put it work on the skills shortage list ( hey look , exactly what they 've done !, 
+  fancy that ) and get lots and lots of immigrants to fill positions . 
+  immigrants do n't have high salary expectations . 
+  as a result , trained it graduates in nz go to the us , while [ incompetent indians ] ( http://www.thehindubusinessline.com/info-tech/95-engineers-in-india-unfit-for-software-development-jobs-study/article9652211.ece ) come to new zealand , because they struggle to get into the us . 
+  a virtually limitless supply of cheap labour is * always * going to result in low prices for labour . 
+  that 's basic supply and demand . 
+  if you have an issue with this argument , please take issue * with the argument * . 
+  not with me . 
+  i 'm happy to defend the argument . 
+   how many would consider a trade over going to university if it becomes free ? 
+  how long are you going to keep people in education if there 's no jobs for them ? 
+  the entrance and work standards in universities are currently too low . 
+  as a result , far too many people go to university , do a valueless degree - and i mean from an jobs standpoint , i entirely recognise that it 's good to be educated , learning things can be fun and enjoyable , having an educated population is good , etc. 
+  - and then see themselves as above doing a trade because they have a degree . 
+  but in reality , they should have done a trade in the first place . 
+  people should not be able to just decide that they 're going to go to university if they want to . 
+  universities should have entrance standards , as they always did in the past . 
+  now they 're so low that basically anyone with a few ncea level 2 credits can go to university , do some foundation courses , take 4 years to struggle through a 3 year degree and actually have a virtually valueless degree , even if it 's in an area of demand . 
+  you see , nobody is going to employ someone with a computer science degree if they struggled their way through it and got a c average . 
+  i hate to say it , it feels mean to say it , but it 's true . 
+  you just wo n't get a job . 
+  you ca n't be a competent graduate that people would want to hire with those sorts of marks . 
+  those degrees are worthless . 
+   there 's very little else to do outside of trade work . 
+  not all of us have the capabilities to be able to do trade work , and not all of us want to be shoved into a career that we do n't want . 
+  and the skills shortages are n't really in trades , but in other areas . 
+  so skills shortages are n't really in trades , but in other areas . 
+  but there 's little to do outside of trade work ? 
+  so are there skills shortages outside of trades or not ? 
+  there are certainly trades on the skills shortages list . 
+  are you saying that the skills shortages lists do n't actually mean there are job openings ? 
+  they are certainly meant to mean that .

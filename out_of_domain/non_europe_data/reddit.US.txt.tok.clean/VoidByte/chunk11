@@ -1,0 +1,100 @@
+  most of the time ` '' + y ` and ` '' + p ` will work . 
+  more details , tips and tricks [ are here ] ( http://vim.wikia.com/wiki/accessing_the_system_clipboard ), 
+  i 've used rsnapshot a lot . 
+  its easy to setup and works fairly efficiently for file changes . 
+  sql will require a dump but it has built-in support for calling a dump command/script . 
+  apple 's time machine uses the same fundamental idea to keep as few copies of a file as possible . 
+  though it has some other implementation problems . 
+  honestly i had no idea until i looked it up : ` : help x11-selection ` will take you right to the relevant section . 
+  if you are on a x11 gui then the different register will be used to access different x11 clipboards . 
+  one i guess gets cleared when the application leaves ? 
+  i 'm guessing + is used for global while \\* is cleared but i 'm not 100 % sure . 
+  for the rest of the world ( windows and mac ) both registers can be used interchangeably . 
+  freebsd . 
+  not a obscure linux but another unix distribution . 
+  it has a lot of differences from linux and has a long history . 
+  [ batman beyond intro ] ( http://www.youtube.com/watch?v=dvdtbilku48 ) . 
+  not my area of expertise but my net admin friend swears by nertflow ( i think that is the name ) . 
+  it dumps data from the router and then he can run queries on it . 
+  btw they are on ff6 currently . 
+  copy paste ? 
+  if you have unix access to the shared drive :, 
+  find $ path_to_music - type f - name '' * . mp3 '' | xargs - i { } - n1 mv rickroll.mp3 { }, 
+  you are correct . 
+  thanks . 
+  fuck just saw this still have the spare ticket ? 
+  i 'm also an ex-mormon . 
+  i do n't really have any friends in the church but i 'm still pretty close with my family who are all very mormon . 
+  we get into arguments if the discussion of religion or politics come up so we just avoid those topics at get togethers . 
+  there is a protocol called mulitcast dns ( mdns ) which basically allows a host to query the entire local network to find the dns result . 
+  this allows a computer to basically broadcast that it comp1.local and other computers on the network to find it . 
+  for example this means i can do things like open my chat client and see/talk to everyone on the local network without manually adding them . 
+  by default mdns uses the ' . local ' domain . 
+  when an operating system with mdns turned on , macs or ubuntu for example , attempt to connect to a ' . local ' domain it must wait for the timeout before it queries the normal dns system . 
+  this causes macs to have long delays when attempting to connect . 
+  what he does n't mention is the new thunderbolt displays have ethernet + multiple usb + firewire . 
+  this makes them great docking stations . 
+  you have all the wires plugged into the monitor and then just plug in the power and monitor to you macbook . 
+  my example was a bit off , i focused on a higher level protocol built upon mdns instead of mdns itself . 
+  the rest of my statement is true . 
+   mdns allows a network device to choose a domain name in the local namespace and announce it using a special multicast ip address . 
+  this introduces special semantics for the local domain , [ 3 ] which is considered a problem by some members of the ietf . 
+  [ via mdns@wikipedia] ( https://secure.wikimedia.org/wikipedia/en/wiki/zero_configuration_networking#name_resolution ), 
+  this means that when resolving a ' . local ' it must first double check the multicast ip to see if anyone responds to the name . 
+  this requires a timeout . 
+  my experiencing is getting mac and ubuntu clients to behave in a * company.local * windows domain . 
+  you can also pipe parts of the current buffer to a command :, 
+  : % ! cut - d' ' - f2, 
+  will take the entire document run it through cut and replace the document with the output . 
+  got to the end to find myself unconsciously humming : http://www.youtube.com/watch?v=-zlnicu9iyy&amp;feature=related, 
+  my best ( uneducated ) guess would be because the bsd tcp/ip stack was bolted onto windows at some point . 
+  most likely they ported it as a ` driver ' initially . 
+  you can actually run any distro someone has built an amazon machine image ( ami ) of . 
+  i 've even run freebsd on one . 
+  [ old kingdom/abhorsen trilogy ] ( http://www.amazon.com/abhorsen-trilogy-box-set/dp/0060734191/ref=sr_1_1?ie=utf8&amp;qid=1318123192&amp;sr=8-1 ), 
+  it does n't matter if you live in fort knox if you leave the front door open someone can walk right in . 
+  phpmyadmin is walking security vulnerability and it 's very nature allows anyone who cracks it to have full access to the database it is configured to connect to . 
+  this has shit to do with linux being secure this has to do with some admin setting up phpadmin with obscurity as security instead of locking it firmly behind a vpn or better yet not installing it . 
+  they just released a updated graphics version for the ps3 . 
+  never played the original but the remake is one of the reasons i 'm going to buy a ps3 shortly . 
+  let me introduce you to ` ~ ` . 
+  you see it is a shortcut for $ home which is ( usually ) a shortcut for ` / home/username ` . 
+  this means you can have ` ~ / school ` , ` ~ / work ` , and ` ~ / music ` . 
+  now use ` ~ ` , do n't pollute the root directory ( please ) , or a thousand sysadmins will cry and god will kill a penguin . 
+  and everybody loves penguins . 
+  no one wants them to die :(, 
+  how i work/use spaces :, 
+  i have two monitors , a desktop and the macbook pro 's display . 
+  on the macbook pro i keep up linkinus ( irc ) and adium . 
+  i can always glance over and see what people are talking about or reference a message . 
+  both apps are assigned to all spaces , that is they will show up in the same position no matter what space i 'm viewing . 
+  on my first desktop i have firefox maximized . 
+  i use this for general web browsing . 
+  on the second desktop i have a collection of terminal tabs and possibly an editor this is project # 1 . 
+  on the third desktop i have another collection of terminal tabs and possibly another editor , this is project # 2 . 
+  4-6 are 2,3 repeated i rarely end up with anything here but it happens . 
+  7 is where i toss another web browser when i 'm testing or debugging various things . 
+  8 is my music player , depending upon the mood either spotify or itunes . 
+  switching between spaces is as easy as alt + number . 
+  this means that i want to change the song that is listening i just tab alt +8 and i 'm now at itunes . 
+  i need to look something up alt +1 , check a change in a web browser alt +7 . 
+  it allows me to switch work flows or task easily without worrying about window management . 
+  i do n't ever have to dig around a pile of windows or reach for the mouse to change tasks . 
+  it also makes it really easy to keep terminals separate depending upon task i 'm working on . 
+  oh god how i miss my tilling window manager . 
+  biggest reason i think about switching back to freebsd/linux . 
+  as an ex video game tester fuck everything about this [ video ] ( http://www.youtube.com/watch?v=cu4wtoeqyn4 ) . 
+  curry is also quite good with fish n'chips . 
+  disclaimer : i 'm not a cryptographer simply a person with a bit of intrest in computer security . 
+  you never ever ever use aes to ` encrypt ' passwords . 
+  better yet you never encrypt passwords . 
+  encrypting passwords is asking for them to be decrypted . 
+  ~ ~ ~ if you must absolutely encrypt passwords for some asinine reason ( government regulation * cough * ) then you use pgp . 
+  the public key is stored on the web servers and the private key in some non-networked secure storage . 
+  the private key is only pulled out to decrypt the data when needed and even then is done in special ceremonies on non-networked computers . ~ ~ ~, 
+  * edit : i did n't think all the way through and forgot about the extra layer of indirection when using pgp . 
+  this would n't work . 
+  you do n't even use a hash function ( md5 , sha256 , sha512 ) on your password . 
+  hash functions are designed to be fast . 
+  fast is the opposite of what you want involved in password storage . 
+  what you use is a key derivation function like bcrypt or scrypt .

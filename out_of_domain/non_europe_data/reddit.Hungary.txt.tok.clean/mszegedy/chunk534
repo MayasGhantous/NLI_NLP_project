@@ -1,0 +1,100 @@
+  it 's cold and uses up your air , never mind the uncomfortableness of it being inside your wetsuit . 
+  0/10 would not recommend . 
+  ### comments, 
+  title explains everything . 
+  neat how they form a belt across asia and across the western americas . 
+  notice that wikipedia does n't like tagging african or philippine languages as agglutinative , for some reason , even though both locations contain an abundance of them . 
+  meanwhile they tagged every single obscure andamanese language , including sentinelese which we know nothing about ? 
+  tsk tsk tsk . 
+  also , glottolog 's locations are * very * approximate sometimes . 
+  you 'd be hard-pressed to find a mansi speaker north of where the ob splits in two , and west of yugorsk , yet look where the hell it puts it . 
+  again , though , it freaking nails the andamanese languages , which do n't even exist anymore ... 
+  ### disclaimer, 
+  `` agglutinative '' is a subjective judgement , and wikipedia is not the best at linguistics . 
+  the article `` old european hydronymy '' is tagged as an agglutinative language ffs . 
+  wals online has a less subjective dataset that goes on two axes ( affixation and fusion , basically ) , but it 's even sparser than this one . 
+  ### recipe, 
+  i used scripts to make this , but they were all in the console . 
+  here 's the gist of it :, 
+  ask wikipedia to export the `` agglutinative languages '' category, 
+  ask glottolog for the languoids csv file, 
+  run the following python :, 
+  import subprocess, 
+  ids = subprocess.call ( r `` cat wikipedia-20160206071531 . xml | grep - o - e ` glotto = [ a-z ] \\ + [ 0-9 ] \\ + ' | grep - o - e ' [ a-z ] \\ + [ 0-9 ] \\ + ' '' , shell = true ), 
+  out = '', 
+  for id in ids :, 
+  try :, 
+  location = subprocess.check _ output ( r `` cat languoid.csv | grep '' + id + r '' | grep - o - e ' , - \\ ? [ 0-9 . ] \\ + , language , - \\ ? [ 0-9 . 
+  ] \\ + ' '' , shell = true ), 
+  location = location.split ( ), 
+  out + = location [ 0 ] + '' '' + location [ 1 ], 
+  out + = '' { '' + subprocess.check _ output ( r `` cat languoid.csv | grep '' + id + r '' | grep - o - e ' , language , [ ^ , ] * , [ ^ , ] * , [ ^ , ] \\ + ' | grep - o - e ' [ ^ , ] \\ + $ ' '' , shell = true ) [ : -1 ] + '' } \\ n '', 
+  pass, 
+  file = open ( `` out.txt '' , `` w '' ), 
+  file.write ( out ), 
+  file.close ( ), 
+  then just copy and paste the contents of the file into the `` bulk add '' box of mapcustomizer , and there you have it . 
+  this could be done for any wikipedia category that contains languages . 
+  i do n't recommend it , though , because wikipedia is not the best at linguistics ( although it certainly tries ) . 
+  edit : wait , i just realized . 
+  we get people like you all the time . 
+  this sub is run and populated by people who know what they 're doing . 
+  i do n't feel like getting into an argument , so i 'll leave it at that . 
+  `` you are without a doubt the worst graduate i 've ever heard of . '', 
+  `` but you 've heard of me . '', 
+  \\ ^ -- story of my past couple years, 
+  hah , knew who it was going to be as soon as i clicked it . 
+  i need to start watching his videos again , they 're really good, 
+  such as most of them ? 
+  i 'll give tagalog as an example . 
+  here is the longest word ever coined in tagalog :, 
+  it 's translated as `` extreme anger of someone 's untrue statement '' . 
+  i 'll break down the affixes and reduplications :, 
+  - ** pinaka - : ** superlative/intensive affix, 
+  - ** naka - : ** adjective forming affix , meaning `` in the condition of '', 
+  - ** ka - ... - an : ** ( see below ), 
+  - ** pag - : ** nominalizing affix for verbs ; expresses * the * act of or * an * act of performing the verb, 
+  - ** rep2 : ** superlative/intensive reduplication, 
+  - ** ngitngit : ** ( root for this half of the word , means `` anger '' ), 
+  - ** ka - ... - an : ** noun forming affix , equivalent to english '' - ness '' . 
+  often used redundantly , e.g. 
+  - ** - ng : ** ligature that joins words in a noun phrase together . 
+  found even in proto-austronesian, 
+  - ** x-y : ** way of combining words ; often denotes denomination or possession of y under x, 
+  - ** pag - : ** ( as above ), 
+  - ** rep2 - ... - an : ** reduplication and affix that together mean the act of imitating the root, 
+  - ** sinungaling : ** ( root for this half of the word ; means `` liar '' ), 
+  - ** rep2 - ... an : ** ( see above ), 
+  there are also personal affixes that are treated as separate words in writing . 
+  combining affixes this way is very natural for tagalog . 
+  it 's not as agglutinative as , say , turkish , but it gets the job done . 
+  i found the wals dataset lackluster . 
+  there are half as many datapoints , and the data is at the same time too detailed and too hamfisted for my purposes . 
+  ( for the fusion data , almost all of eurasia is classified as the same . 
+  : / ) i 'm personally not looking for data on how languages are classified on bickel & nichols 's two axes , although i do like their thesis . 
+  i just wanted to demonstrate that agglutinative languages are more common in asia than europe . 
+  edit : one thing the wals dataset has that i wish the wikipedia one did is data points for papua and west africa . 
+  wikipedia has basically none , and it ought to . 
+  edit 2 : one thing i wish * both * of them had is more data points for iran . 
+  there are so many languages there , and the wikipedia dataset does n't even have persian as agglutinative , despite the article itself claiming so . 
+  you do n't link them up , though , you burn them to ash !, 
+  a newton can lift something lighter than 1/10th of a kilo any distance , you just have to keep applying it . 
+  you 're thinking of a joule . 
+  i mean , `` squad '' is sort of used accurately , so that one 's not half bad . 
+  i have no idea what the other one 's supposed to even appeal to , though, 
+  that sure is an oddly-shaped stingray, 
+  ( this gif has actually been my dream since before i even started getting my diver 's license ), 
+  for inception it 's hard to come up w / a more direct translation than `` a orig\u00e9m '', 
+   this is untrue . 
+  language change is not constant . 
+  this is one of the reasons that glottochronology fell out of favor -- it relied on constant rate of change of basic vocabulary , but it turns out that this can very significantly between languages . 
+  do we know why ? 
+  i find this claim more valid in some situations than others . 
+  lithuanian is not particularly close to pie in most ways , although it 's on the conservative side in a lot of respects . 
+  but in other families it 's more clear . 
+  the northern finnic languages are phonologically and morphologically relatively very close to pu , as far as we can tell ( and this may be an artifact of reconstruction , although modern uralicists tend to agree ) . 
+  philippine languages retain many more pan features than post-philippine languages do . 
+  this is a very balanced view of agglutination , but i honestly do n't think there 's much of a difference between the morphology of tagalog and many languages we 'd say are agglutinative . 
+  admittedly it does n't have much inflection , but the derivation gets around that as much as adding extra words does , and to me it seems the line blurs . 
+  plus , being agglutinative is n't all about inflection , either . 
+  i 'd say the essence of an agglutinative language is a wide and often-used selection of productive affixes that do n't change the rest of the word , and that 's a very big part of the morphology of philippine languages .

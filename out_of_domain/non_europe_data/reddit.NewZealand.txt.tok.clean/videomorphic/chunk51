@@ -1,0 +1,100 @@
+  but ` join ` is a mystery . 
+  if i have a ` t : : m int ` , and ` f : : int -  string ` , it makes sense to me ` fmap f t ` is taking every ` int ` in positive position in ` t ` and calling ` f ` on it . 
+  given polynomial data types ( data structures with no functions in them ) , obviously this means taking some sort of tree of ` int ` s and replacing them all with ` string ` s using ` f ` . 
+  it 's a bit more complicated with exponential data types , but higher order functions are in general harder . 
+  if i have a ` t : : m int ` and i call ` tolist t ` , it makes sense to me that it 's grabbing all the ` int ` s in it , and giving them to me . 
+  if i have a ` t : : m int ` and i call ` fold ( + ) 0 t ` it makes sense that it 's going to sum all the ` int ` s inside it . 
+  but if i have a ` tree ( tree int ) ` , what the fuck does ` join ` mean ? 
+  i have a tree of trees . 
+  okay , so apparently a single ` tree ` was n't enough for me , at some point . 
+  i 've perhaps constant-unfolded all my expressions for some silly reason . 
+  fine . 
+  so i 'm calling ` join ` . 
+  what does it do ? 
+  i assume it turns ` leaf ( branch left right ) ` into ` branch left right ` ? 
+  but it could do something else . 
+  it could just return ` left ` . 
+  it could swap them around . 
+  it could return ` right ` . 
+  these are all valid , or they would n't be possible . 
+  which one has the person that came before me chosen ? 
+  join : : tree ( tree a ) -  tree a, 
+  join ( branch left right ) = left, 
+  join ( leaf tree ) = tree, 
+  monad is for people that think that because two things have the same shape , they are the same thing . 
+  but they are n't . 
+   yes , i amended my comment . 
+  that said , this is still not quite correct . 
+  sys.setrecursionlimit ( ) is still limited by the size of the original int - just try it , give it too large a value and it throws an overflowerror . 
+  that 's an implementation issue obviously . 
+   and my point is that the definition does n't even mean anything if you 're just going to pick and choose which parts of the `` language '' are actually part of the `` language '' . 
+  the problem i have with your logic is that you 're basing your arguments for python 's turing completeness on `` its syntax and the reasonably obvious but nowhere-well-defined semantics of the language '' , but yet you wo n't do that for c or this ` powerpoint language ' . 
+  again , python is n't really my point . 
+  i 've said this . 
+  choose scheme if you want , or any other * actually * turing-complete language ( the untyped lambda calculus , for example ) . 
+  but c is n't . 
+  c is ** defined ** by the standard . 
+  there are arguments against c being turing complete ( there are argument that it is , though ) . 
+  this ` powerpoint language ' is also constrained by expressiveness not to be turing-complete . 
+  it 's utterly non-turing-complete . 
+  ~ ~ macros in clojure are n't really macros , though , right ? 
+  they 're basically syntax rewrite rules . 
+  the benefit of macros is that they 're compile-time procedural code . ~ ~, 
+  ~ ~ never mind , looks like i 'm wrong . 
+  i thought clojure had hygenicity , though ? 
+  these do n't look hygenic . ~ ~, 
+  ah i see , the ` ~ ' ` business . 
+  how very clever . 
+  reminds me of ` defmacro ! ` from lol : http://letoverlambda.com/index.cl/guest/chap3.html . 
+  no , it 's :, 
+  far wordier, 
+  much less descriptive of what it actually means, 
+  not appropriate for people without maths degrees, 
+  no they are not . 
+  docker containers and docker images are completely different things . 
+  they are n't ` just directories that you can rsync ' . 
+  instance monad [ ] where, 
+  join : : [ [ a ] ] -  [ a ], 
+  join = flatten, 
+  instance monad [ ] where, 
+  join : : [ [ a ] ] -  [ a ], 
+  join = zip, 
+  both are valid , but the first one is defined in the haskell standard . 
+  the second one is only available through a type wrapper for ` [ a ] ` : ` ziplist a ` . 
+  none of that behaviour is described in the standard , though . 
+  from the language perspective , writing to a volatile int at a particular location just writes to an int at that location . 
+  it does n't * do * anything . 
+  except that if you add logging to a function , that immediately makes it impure . 
+  and in a meaningful way , as well . 
+  i do n't want duplicate log entries written to disk , for example . 
+   however to think that a problem with auckland is a problem with the country as a whole is ridiculous . 
+  net immigration growth is in single figures and it was only at the end of the last decade that people were complaining that new zealand was losing people overseas . 
+  new zealand takes 70k net immigrants a year , basically . 
+  do you have any conception how high that is ? 
+  that 's enormous . 
+  that 's entire * large towns * of people arriving every year . 
+  given that the current immigration growth rate has been basically linear since 2012 , in five years we could be talking about another 30k people per year . 
+  do you want 100k new people per year in 5 years ? 
+  it 's a disgustingly stupid number of people . 
+  we have far too many people arriving already . 
+  we have far too many immigrants here already . 
+  quite frankly there should be a total moratorium on ` skills shortage ' immigrants , because the entire concept of ` skills shortage ' immigration is a sham : there is no lack of supply of workers , companies just do n't want to fucking pay reasonably . 
+  if they were forced to pay proper wages , we would have net negative migration of new zealanders and a ` need ' to import indians to work in it . 
+   an electrician , aged 35 with a wife and two kids . 
+  skills shortage , trade shortage , smart and useful . 
+  no , not smart and useful . 
+  not a skills shortage , not a trade shortage . 
+  we do * not * have shortages in these areas . 
+  we have shortages of ** training ** in these areas . 
+  population growth for the sake of population growth is the ** single most negative policy a country can possibly have ** . 
+   i do n't understand all the hate , $ 1000 can be turned into $ 10,000 with the right mindset and business . 
+  rubbish . 
+  people do n't make money in business by having ` the right mindset ' , they make money through luck and networking and already having money . 
+   please do n't pretend that i am some ignorant yokel who does n't know what he is talking about . 
+  it 's still a net immigration increase of 1.4 % of the total population . 
+  that is n't something that needs to be addressed . 
+  1.4 % is huge , you ignorant yokel . 
+  1.4 % increase every year for 10 years is a 14.9 % increase . 
+  that 's a ** massive ** proportion of our population that will have arrived within the next 10 years , in 10 years . 
+   that is assuming of course that this trend continues as it is . 
+  given that new zealand was experiencing net losses consistently for nearly two decades , this is n't something that could be accurately forecast .

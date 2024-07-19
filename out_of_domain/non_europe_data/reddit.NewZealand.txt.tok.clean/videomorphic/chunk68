@@ -1,0 +1,100 @@
+  they recently banned sensei 's top . 
+  they 've banned survival , which was the best deck . 
+  they 've banned many cards in legacy that were from the best deck at the time . 
+  if you came to legacy for ` no bans ' then you made a very poor decision . 
+  if you want a format with no bans , you should be playing vintage . 
+  that is a format with no bans . 
+  legacy is not . 
+   it 's been less than a week and players are already throwing drs and dark rit under the buss . 
+  anyone that thinks that dark ritual has even the slightest chance of being banned in legacy is an utter fool . 
+  deathrite shaman is also very unlikely to be banned , but it could be . 
+  it should never have been printed - black does n't get mana dorks - and honestly it should have been banned preemptively in every format . 
+  what aggro beat decks ? 
+  there are no aggro decks in legacy . 
+   rust is designed to make things like allocation explicit, 
+  i do n't see how ` `` foo '' + `` bar '' ` is n't explicit . 
+  you 're explicitly adding two strings . 
+  it 's impossible to add strings without allocating . 
+  it always will be . 
+  there 's no situation where someone would see ` & str + & str ` and think ` oh that obviously does n't allocate ' . 
+   [ `` foo '' , `` bar '' ] . concat ( ), 
+  i fail to see how this is any more explicit about allocating than ` `` foo '' + `` bar '' ` . 
+  rust releases far too frequently . 
+  this is great for / u/steveklabnik1 , who gets lost of karma on / r/programming for posting these announcements , but not for anyone else . 
+  why ? 
+  because frequent releases have the well-known side effect of encouraging smaller units of work and discouraging large units of work . 
+  the thing is , though , that rust has quite a few things that need * big * , * serious * changes . 
+  for example , procedural macros is a big feature that shows little to no sign of coming any time soon . 
+  rust still lacks :, 
+  * ` impl trait `, 
+  * procedural macros, 
+  * type-level values, 
+  * higher-kinded types, 
+  that 's not everything , but each of those is a big feature . 
+  look at the last few rust releases . 
+  1.17 's only language feature is not having to put ` ` static ` in a couple of places . 
+  1.16 's got no language features . 
+  1.15 's got custom derive , which is a hack and temporary workaround because of a lack of procedural macros . 
+  1.14 lets you use ` . . ` in a couple of places . 
+  i just find it quite funny that people criticise c++ for not landing things like concepts , ranges and modules ( two of which are features * no other language has ever designed satisfactorily * ) into c++ 17 , while rust has really had essentially * zero * significant language features released since 1.0 and that 's fine ? 
+  stoneforge mystics is still incredibly good . 
+  leovold is an utterly different card . 
+  their only similarity is that they 're both creatures . 
+  they have different roles , different colours , different cmcs , different sorts of decks they go in ... 
+  you 're saying the equivalent of ` obviously dark ritual sucks , people play brainstorm instead ! ', 
+   and javascript went a whole year in which the only new `` langauge feature '' was the ** operator . 
+  your point ? 
+  javascript is an appalling language . 
+   anyway , the trend seems to be towards languages updating more frequently , rather than less . 
+  look at the difference between c++ 03 and c++ 11 vs +14 and +17 for instance . 
+  or javascript . 
+  c++ updates every 3 years . 
+  rust updates every 6 weeks . 
+   as far as your specific examples , imo there are still unsolved issues regarding impl trait and i really hope it does n't get stabilized in its current form . 
+  work through the issues then . 
+  ` impl trait ` , procedural macros , type-level values and higher-kinded types are all absolutely necessary before the language is usable for me and many others . 
+  the issues that are presented are minor . 
+  they 're essentially bikeshedding . 
+  rust needs a bdfl , it needs someone to cut through the long , drawn-out discussions that constantly rehash the same points over and over and just makes a decision about things . 
+  the problem is that imo , in rust , the culture is ** extremely ** conservative . 
+  any discussion of higher-kinded types , of type-level values , of ` impl trait ` are heavily dominated by people saying `` we 'll be here all year if we try to do this correctly the first time , so let 's do a half-arsed job and get something that just barely covers the obvious default usecase and move on to the next thing '' . 
+  of course they do n't literally say that , but that 's what they 're really saying . 
+  higher-kinded types just needs to happen . 
+  it 's not a hard issue . 
+  there have been lots of proposals that absolutely do what needs to be done . 
+  implement one of them , put it in nightly , let people try it out and iterate changes to it based on issues that arise . 
+  same with type-level values . 
+  same with ` impl trait ` . 
+  it should n't be * stabilised * today , but it should definitely be implemented 6 months ago . 
+  none of them are close to being stabilised . 
+  because they should have been stabilised months ago . 
+  they should have been in the original release honestly . 
+  they 're very basic features that every modern statically typed language should have : implementation hiding , macros , and an expressive type system . 
+  it should be the first . 
+  are you memeing ? 
+  deathblade has been the best stoneblade deck for years . 
+  leovold has nothing to do with bug being good . 
+   deathblade is the best stoneblade strategy and it is not the best way to play bug . 
+  well it 's not ubg . 
+  it 's ubwg . 
+  so no of course it 's not the best way to play bug . 
+   there is too few reason to brew something sfm . 
+  deathblade is n't a `` brew '' , it 's an extremely well-established t1 .5 deck . 
+   lmao . 
+  how do you know how skillful legacy players are ? 
+  the decks require more skill to play . 
+  everyone knows that . 
+   have you been around the format at all when bannings happen in modern or standard ? 
+  people are saying they 're getting into legacy to get a deck and to be able to stick with it , not because it 's more skillful . 
+  the people that come from modern or standard after a banning are a tiny part of legacy 's playerbase . 
+  and it 's quite true that legacy is a very stable format . 
+  in the timespan since modern was created , legacy has had essentially two bannings : dig and top . 
+  cruise was too soon and obvious . 
+   when was the last old deck banned out of legacy ? 
+  2010 with sof ? 
+  no the format is n't a format without bans but that 's not the point of contention . 
+  survival was n't particularly old . 
+   you have to realize they same argument you 're trying to push for dark ritual is the same one people have been giving for top for years , right ? 
+  not even slightly . 
+  top was n't banned because it was good , or format-dominating , it was banned because * miracles * was too prevalent ** and ** the card took too much time . 
+  they explicitly said miracles likely would n't have got the chop if top did n't make every round go to time .

@@ -1,0 +1,100 @@
+  the main difference between the two is that trpgs usually focus on levels and stats , usually also equipments , and persistent characters between fights , whereas the wargame kind instead has no unit levels or stats , and units are built in-battle and temporary . 
+  the main difference between the two is the genre difference , and not complexity per se . 
+  you certainly do n't need a degree in tbs games to enjoy trpgs , and since you enjoyed advance wars chances are you 'd enjoy them i 'd say . 
+  also , do n't limit yourself to just fe and aw even if they happen to be the most well-known tbt series ; there 's a whole genre to be explored . 
+  which brings me to another point : i 'm an avid tbt gamer ( and actually most of the games i play nowadays are either from humble indie bundle or tactics games ) , and i 've been pondering whether to create a subreddit dedicated to tbt/rtt for the purpose of sharing news , discussing games of the genre and giving recommendations . 
+  i guess this thread is a good one to ask : would such a subreddit be of interest to anyone else ( other than me ) ? 
+  i use [ this list ] ( http://www.w3.org/tr/selectors/#selectors ) myself , containing * all * the selectors . 
+  fair point . 
+  i just like promoting the specs since people seem to overestimate their `` formalness '' and think it 's * only * for people creating web browsers -- which is n't the case at all !, 
+  but , to each their own !, 
+  yep , presumably since banging ` ^ c ` is what someone would do if they found themself trapped in an alien cli program , and the response is a bit more user-friendly than ed 's ' ` ? ` ' . 
+  it all comes down to preference , as others have pointed out . 
+  my personal choice is to bind < leader  [ 1 . .9 ] to switch to buffers 1 . .9 , and < leader  < leader  to switch to the last buffer ( i.e. 
+  the word you 're looking for is ` text objects ' . 
+  a [ quick google search ] ( http://www.google.com/search?q=text%20object%20latex ) leads to [ this ] ( http://vim.wikia.com/wiki/text_object_for_formulas_in_latex ) tip from the vim wikia wiki , which seems relevant to your interest . 
+  well , if the competition is vim and emacs . . vim has markers , and i 'm sure emacs also has something equivalent -- basically , a quickjump label that sticks to the same line even when intermediate lines change . 
+  that said , i see your point , and it 's always nice to see people make use of the human 's great pattern-matching capabilities with clever design choices . 
+   the cpu and net monitors in xmobar are custom made , they use braille patterns ( \u283f \u283f \u283f \u283f \u282f \u282d \u282d \u282d \u2809 \u2809 ) [ ... ], 
+  clever !, 
+  i had vertical progress bars using box-drawing characters ( 1/8 to 8/8 of the block filled ) for cpu usage before , but that braille variant looks prettier , and also allows for a wider spectrum . 
+  i 'll definitely borrow that idea . 
+  yes , well , kind of . 
+  i have [ soured milk ] ( http://en.wikipedia.org/wiki/soured_milk ) with my cereal , but it 's not so much a substitute as a widely-accepted alternative over here ... 
+  edit : or rather , [ filmj\u00f6lk ] ( http://en.wikipedia.org/wiki/filmj%c3%b6lk ) . 
+  really , it 's just a computer . 
+  your could play games , surf the web , play a movie and do homework on your computer , but it might not be happy with both playing a game and a movie at the same time , because it 's not powerful enough . 
+  the raspi is very limited in power compared to a desktop/laptop computer , so you 'll probably want to `` restrict '' it to even smaller tasks to handle . 
+  machinae supremacy . 
+  swedish , [ in ] ( http://en.wiktionary.org/wiki/ombudsman#etymology ) [ fact ] ( http://www.etymonline.com/index.php?term=ombudsman ) . 
+  i think the older generations ( rby , gsc ) had one , and the newer has the other , of those phrases . . but i do n't remember which has which . 
+  why ` p =-p +4 / i ` ? 
+  ( rather than reordering to ` p = 4/i-p ` ) . 
+  this seems to work for me : ` float p , i = 1 ; main ( ) { for ( ; ; i + = 2 ) printf ( '' % .20 f \\ n '' , p = 4/i-p ) ; } ` ( 57 chars ) . 
+  what firefox ( or gtk ? ), 
+  theme is that ? 
+  i like the rather flat look of the menu button and tabs . 
+  in addition to what the others said , i 'd like to add that you * usually do n't use hjkl that much * when moving around . 
+  there are usually more efficient ways to move to the place you want . 
+  so it 's not just straight-up `` you use hjkl instead of arrow keys '' ; there 's more to it than that . 
+  i 'm guessing you 're thinking of vimtutor ? 
+  i believe in the idea that the most important thing to learn in vim ( as with most things , really ) is how to learn more , i.e. 
+  how to query the help system when one gets stuck . 
+  [ here ] ( https://github.com/dahu/learnvim/blob/master/doc/learnvim.txt ) is a document/tutorial using this idea , starting with teaching the ` : help ` and ` : helpgrep ` commands and how to use them to learn more . 
+  nice idea ; personally i 'd use ` . ` instead of ` + ` for the corners though , i think . 
+  reminds me of the latex package tikz in how it 's used ( `` place that , then this right-of that , then an arrow between this and that , then ... '' ) . 
+  nice , thanks . 
+  like so ? 
+  for me it helped to adjust the dimensions of the lines a bit , like so :, 
+  s x \u2500 \u252c \u2500 \u2500 \u2500 \u2500 \u2500 \u2500 \u2500, 
+  ( x z ) ( y z ) ` ), 
+  basically , draw one horizontal line for each variable captured by a lambda , then to apply e.g. 
+  ` x ` to ` y ` , draw vertical lines down from each of those variables ' lines and connect the two with a new horizontal line . 
+  that 's pretty much it ; each `` bottom-right corner '' is an application . 
+  i believe the lines connecting ` ( \u03bbu.x ) ` and ` ( \u03bbu.u ) ` with what they 're being applied to should go straight down the middle , where you have just a stump ( rather than to the left ) . 
+  this is what i got ( with added labels for the variables ) :, 
+  \u2502 g \u2500 \u2500 \u2500 \u252c \u2500 \u253c \u2500 u \u2500 \u253c \u2500 u \u2500 \u252c \u2500, 
+  edit : well oops , looks like i should 've refreshed before i posted ... 
+   `` on `` hotel california , '' you sing : `` so i called up the captain / ` please bring me my wine ' / he said , ` we have n't had that spirit here since 1969 . ' '', 
+  i realize i 'm probably not the first to bring this to your attention , but wine is n't a spirit . 
+  wine is fermented ; spirits are distilled . 
+  do you regret that lyric ? '', 
+   `` thanks for the tutorial and , no , you 're not the first to bring this to my attention -- and you 're not the first to completely misinterpret the lyric and miss the metaphor . 
+  believe me , i 've consumed enough alcoholic beverages in my time to know how they are made and what the proper nomenclature is . 
+  but that line in the song has little or nothing to do with alcoholic beverages . 
+  it 's a sociopolitical statement . 
+  my only regret would be having to explain it in detail to you , which would defeat the purpose of using literary devices in songwriting and lower the discussion to some silly and irrelevant argument about chemical processes . 
+  there , that 's easier to read . 
+  i do n't know why i read the quote * before * writing this reply though ... 
+  ` : h help-context ` has this info about prefixes used for different kinds of help topics ( as a more general version of morehugs ' reply ) :, 
+  what prepend example ~, 
+  normal mode command ( nothing ) : help x, 
+  visual mode command v _ : help v_u, 
+  insert mode command i _ : help i _ < esc , 
+  command-line command : : help : quit, 
+  command-line editing c _ : help c _ < del , 
+  vim command argument - : help - r, 
+  i guess underscore is nice and all , but it 'd be nice if you 'd also mention the builtin capabilities of functional programming in the ( rather small ) standard library ( namely , the [ array ] ( https://developer.mozilla.org/en-us/docs/javascript/reference/global_objects/array ) and [ function ] ( https://developer.mozilla.org/en-us/docs/javascript/reference/global_objects/function ) objects , and their methods ) . 
+  because [ it does both ] ( https://github.com/alols/xcape ) , perhaps ? 
+  only if you find me [ this beast ] ( http://upload.wikimedia.org/wikipedia/commons/4/47/space-cadet.jpg ) :-), 
+  so . . what 's the game , and what do i do with my freaky fungus ? 
+  so um , my computerized cranial cooling cap does n't seem to be usable on anything ... 
+  other nice things include ` ^ u ` / ` ^ d ` ( for scrolling ) , ` b ` / ` w ` , ` ^ t ` / ` ^ d ` all neatly positioned near the `` opposite '' operation . 
+  `` democratic rights management '' ? 
+  sounds a bit like [ what they do in their elections ] ( http://en.wikipedia.org/wiki/elections_in_north_korea#procedure ) . 
+  yeah , rather bad trip . 
+  siri , not even once . 
+  [ here 's a picture ] ( http://rebrickable.com/img/sets-b/3495-1.jpg ) of said brick . 
+  lua does something close to this , where a string literal is either ` `` foo '' ` or ` ` foo ' ` ( with usual backslash escapes ) , or ` [ ( =*) [ ` as the opening and ` ] \\ 1 ] ` as the closing delimiter ( in pseudo-regex ) and no escapes at all inside . 
+  ( related , the same syntax is used to block comments but preceded with ` -- ` , making it easy to comment out blocks of code with block-comments inside them already . ), 
+  edit : another language ( for data , not code , though ) which also tackles this problem is [ self-ml ] ( https://github.com/fileability/self-ml ) , where there are two ( well , three ) kinds of string literals : ' \\ ` foo \\ ` ' ( backticks ) , ` [ foo ] ` ( square brackets ) or ` foo ` ( undelimited , but that does n't really count in the context of programming languages ) . 
+  ( ironically , i ca n't figure out how to get ' \\ ` foo \\ ` ' inside an inline-code element in markdown , those being delimited by backticks in their own ... ), 
+  what program is it we 're seeing output from in the terminal in the background ? 
+  oh , thanks . 
+  good question . 
+  i got to level 55 with my highest-level character in wow before i stopped playing , and still enjoyed the game a lot back when i played it , even though i arguably never played the game `` the way it 's meant to be played '' . 
+  i 'm not a linguist , but ... in mathematics \u2205 usually signifies the [ empty set ] ( http://en.wikipedia.org/wiki/empty_set ) and \u03b5 the [ empty string ] ( http://en.wikipedia.org/wiki/empty_string ) ( a set being an unordered collection of . . arbitrary things , whereas a string of a given alphabet is an ordered sequence of elements from that alphabet ) . 
+  did you know that ` array.prototype.reduce ` [ is already built-in ] ( https://developer.mozilla.org/en-us/docs/javascript/reference/global_objects/array/reduce ) ? 
+  i 'd recommend not to overwrite it , especially with a function that does n't implement the same behaviour , since other libraries might expect it to be there . 
+  i 've always been partial to [ the club leader duel theme ] ( http://www.youtube.com/watch?v=tlhyugox_oe ) , but all of them are great . 
+  another nice one is the credits theme , especially [ this version ] ( http://www.youtube.com/watch?v=ahadzleaswg ) !,

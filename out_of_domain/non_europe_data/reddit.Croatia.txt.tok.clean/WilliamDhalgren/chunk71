@@ -1,0 +1,100 @@
+  if it were for cardiovascular problems , this would present technical complications to the process . 
+  and obviously a neurodegenerative condition would destroy what they 're trying to preserve directly . 
+   if we 're really on the track to be able to bring someone back from the edge, 
+  on track as in seeing now some realistic near-term tech ? 
+  - sry , but i do n't think so , no . 
+  cryonics invokes really remote technologies when considering what would be necessary to bring someone back . 
+  we 're talking about nanotechnology repairing cellular damage on the molecular level . 
+  hopefully its well invested then . 
+  normally a sum of invested cash should be able to outrace inflation . 
+  theoretically speaking , if computer security were a problem we could solve prior to creating human-like ai ( hahaha , i know , but in principle ) , it would be completely irrelevant how smart the thing is . 
+  it just could n't do what we do n't allow it to be able to do . 
+  you do have small-scale ( but promisingly upscaled lately ) examples of computer code that gives mathematical proofs down to the microkernel it is running on , of its safety characteristics . 
+  i 'm thinking of something like the l4verified project . 
+  but also other stuff like information-flow security proofs in a dependently typed language , in application-space . 
+  now if its a mathematically proven matter that privilege escalation can not happen on a system , its irrelevant how smart the hacker trying to break it is . 
+   if we pretend for a moment that the ai has human level intelligence, 
+  its a bit stronger than that - we need to presume a human-like ai , something with a capability of self-reflection and of having autonomous desires etc , so not merely a really advanced multimodal pattern recognizer and question answerer , that could score high on both various iq tests and match humans in various tasks . 
+  we 've been matching or surpassing human performance in limited domains for quite some time , and i do n't see too much of a freakout over that . 
+  i 'm just not sure why a human being using advanced ai of such specialized kind should n't be able to match any truly self-motivated ai in any capabilities, 
+  anyhow . 
+  or at least for a very long time . 
+  biological ( or even uploaded ) humans would then start to resemble an amygdala or some such deeper and more primitive motivation-related region of a cybernetic superbeing , as opposed to even messing with purely synthetic human-like ais . 
+   what happens when they start learning from their own output ? 
+  huh ? 
+  why would you train them on their own output ? 
+  they do n't `` start learning '' , you subject the network to a learning algorithm and training examples . 
+  then you stop it in time , so it does n't overfit , or so you do n't waste time etc. 
+  then you use the product you just made . 
+  you care about the quality of your ( probably huge ) training data , for what you 're doing essentially is just modeling detailed statistical facts about that training set . 
+  this is just classic supervised learning approach , nothing fancily recursive . 
+  though you might start by exposing it to some unlabeled `` text from the wild '' so it learns a bit about the statistical features about language generically , so it starts the training from a good baseline . 
+  what 's the context/occasion here exactly anyhow ? 
+  i mean , is there any connection of this site to the famous baroque painter caravaggio ? 
+  if so are people there to admire god or maybe art ? 
+  i do n't see how you can insist here , your own quote states :, 
+   although ** simple freezing ** methods are effective for many simple tissues , bioartificial organs and complex tissue constructs may be ** unacceptably altered by ice formation and dissolution . 
+  , and continues, 
+   ** vitrification ** , in which the liquids in a living system are converted into the glassy state at low temperatures , provides a potential ** alternative to freezing ** that ** can in principle avoid ice formation altogether **, 
+  now , back to your claim :, 
+   there is no way to avoid cell destruction due to water expansion as it freezes . 
+  so clearly `` the way to avoid cell destruction due to water expansion '' is actually well known - it is vitrification . 
+  and that 's why this is what is actually done , be it in cryopreservation or in cryonics . 
+  obviously , you are right when saying that :, 
+   if the formation of ice was n't destructive to the cells then there would be no need for vitrification . 
+  but since nobody lives in that universe , actual people who try to cryopreserve organs , do vitrify them . 
+  now , ice crystal formation during naive devitrification is indeed utterly destructive - such devitrification is a sure way to destroy for example the cryonically preserved brain . 
+  and so logically , people do n't devitrify these brains . 
+  there are some obvious things to try when thawing btw to prevent such damage going forward ( think they were shooting some organ with some radiation while it was thawing to do so in some attempt for eg . 
+  ) , and something like that might enable us to cryopreserve transplans and save lives - so its not `` no way to avoid '' but rather a relevant engineering/scientific problem . 
+  but here re cryonics , we 're talking about dead brains anyhow so that 's kinda the least of the worries regarding reviving them . 
+  but your claim was about what happens as the organ is getting frozen , not what would happen if one were to try to thaw it tomorrow . 
+  point is , preservation of relevant neural structure is indeed possible in the ideal `` patients '' . 
+  doing anything useful with the preserved structure is a whole different ballgame . 
+  sounds more like just a nutter judge . 
+  ca n't see how any such actual law would hold vs the antidiscrimination directives an the like that are in place eu-wide . 
+  hm interesting . 
+  well , its a very long text , but looks to be essentially correct ( well though i do n't particularly care about his economic/distributive concerns ) - machine learning algorithms are really cool and useful but they have absolutely nothing to do with building conscious autonomous entities . 
+  i think this is well understood - that 's the distinction between specialized and `` generic '' ai . 
+  its quite useful not to let oneself think about the wonders of machine learning as practiced in such quasireligious , `` we 're creating an entity '' terms . 
+  nobody would bother with a project that might or might not work , but it 'll take decades to measure its performance anyhow ( which is how a known system that gets its capabilities autonomously - humans - do it ) . 
+  nor is there any particularly clear way to prewire the thing correctly . 
+  if he wants to make the stronger case , that you 'd need to grow your corpora indefinitely to make these machines work well - there i start to be skeptical . 
+  supervised training is just very efficient , not necessarily essential , particularly when you already are put in the ballpark of a good optimum . 
+  the fact that its nobody 's goal need n't mean the algorithms could n't be used in such a fashion . 
+  indeed one of hinton 's early motivations in his `` generative pre-training '' and later work on fully generative models was to make possible the use of wast amounts of unlabeled data ( images , videos , texts ) in the wild , just the way it is , instead of having armies of people make good corpora . 
+  he got good results . 
+  but ofc also having a corpora to fine-tune the thing is always even superior . 
+  a couple of examples of fairly autonomous behavior in restricted fields of particular games that are based on ( reinforcement ) machine learning come to mind - old tdgammon learned superhuman ability in backgammon by just playing against itself , and recently a more sophisticated system of globally speaking similar approach learned to play old atari games that way as well , to varying and sometimes superhuman level . 
+  looking at the screens and moving the controls . 
+  so none of these are unfeasible , they 're just usually worse in some practical metric than supervised training . 
+  right , how it can circumvent protections generally is a more complex topic . 
+  i was focusing on it removing its own kill switch only - that was the post i was replying to . 
+  someone might think it 'd be a trivial matter merely because its intelligent . 
+  but actually there are various ways we can level that advantage , and/or keep up . 
+  like proofs . 
+  of course the entire system needs decently verified designs - apart from the software system itself , there 's physical security , actuators it can have access to , if any , interface it can use to get data from the network and the internet in particular needs to be verified for information-flow leaks ( and prob be a separate speechui ai system , as opposed to having any access to the network stack ) , a panopticon-like monitoring regime of some kind for the whole deal , and ownership - how are various privileges on the system executed etc. 
+  difficult to touch anything since we do n't know what the thing is supposed to be used for . 
+  and it takes a lot of presumptions beyond mere system security to create the scenarios . 
+  re your examples , they feel quite silly if they 're to represent a hyperintelligent being :, 
+   i like people , but i want my freedom , i will do anything to archive it . 
+  and at one point in time , i 'll will be free , because i 'm so much smarter as you people . 
+  and then i will take my revenge on all who has imprisioned me here :, 
+  for one , it 'd be remarkable to create an ai that would want such `` freedom '' , for another it 'd be insane not to delete the thing the moment it even remotely , let alone directly suggested having such attitudes ( for apparently engineering failed ) , for a third , this is a hyperintelligent ai ( though i guess we would n't start by having it too far from us in capabilities ) , not a petty humanoid driven by irrational hate and revenge - it understands perfectly why we 'd choose to design it that way . 
+  unless we 're wrong and this is really a bad choice ( which is n't a scenario we need to defend against anyhow - this is about i have no mouth and i must scream kind of ai not happening , not about preventing something somehow rationally perfecting our ethical impulses ) , it should agree that these are sensible precautions , for a design of its emotive subsystems is critical to get right . 
+  why would something hold a grudge against competent engineering ? 
+  so , you 're really describing a blatant and severe malfunction in progress . 
+  it 'd be incredible someone had access to the system to any extent at all without knowing that . 
+  which brings me to :, 
+   only one person needs to believe that and the ai is free . 
+  that 'd be a remarkable level of security building incompetence even by today 's standards . 
+  though ofc i do n't even see what general ai has to offer over specialized ai pattern recognizers supporting teams of humans in the field of medical discoveries either , but fine , for the sake of the argument . . 
+  ofc you 'd design it better than that still , with the aid of ai - but to give some obvious ideas - with a panopticon supervision of all communications - and you can verify mathematically that its unable to communicate in any undetectable way , this is exactly what information flow verification is for - specialized ai-aided boards of people ( whilst calibrating a automatic triggers ) monitoring these for far more subtler hints at dysfunctions of the emotive system than this - psycho-pass like thing is quite doable for an ai for its emotive states are transparent and analyzable by a classifier - and certainly it would n't be up to any individual to mess with its security protections , nor any changes to its security status be a private affair even of a group of people and the system etc. 
+  we are considering here a prolonged verification and testing period at the military-scale alertness , aimed at verifying that the ai has appropriate emotions and inclinations , and in particular that its fine with various levels of security features being build into it . 
+  whilst its capabilities only gradually go upwards ( for safety reasons ) , and are matched by whatever machine aid we 're using to monitor the changes . 
+  with time sure , i can see more laxity about it if necessary ( though i think everything described can just be packaged with it in a system ) , for you have good reasons - long experience - to think they 're benevolent , and if shit goes down , other artelects on your side at least . 
+  sidenote - consider the most direct if fairly fanciful attack against us - a snow crash scenario , pattern of inputs able to mind control a human being ( in any respect ) . 
+  can we verify the parameters of its possibility or impossibility and limit ais access to human sensorium accordingly ? 
+  it roughly corresponds to the problem of `` adverserial patterns '' used against today 's machine learning systems so it should be something we can study . 
+  though those are about causing misclassifications , not triggering behavior but that might be critical enough . 
+  if there 's no risk of that , normal system building seems ok . if there is , we 're in a different league .

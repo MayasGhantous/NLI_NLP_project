@@ -1,0 +1,100 @@
+  it 's not too shabby . . 
+  i mean , everyone has a different playstyle . 
+  there 's a fair amount of free tiles though , by which i mean that if you want to maximize efficiency you 'll have to come up with less regular designs and kinda work around the quirks of each building ... 
+  e.g. , with the current design you can fit two oil buyers in the free space of the center-left building with conveyors leading to the center building ; using this you can save some more space in the center building and probably fit another plastic setup in there with some moving-around . 
+  * that said * , it 's a tradeoff and you might not want to put too much effort into coming up with an optimal design just for it to be obsolete some hours later . 
+  i want to say that i got another 2 \u00d7 oil upgrade at this point in the game ? 
+  i 'm pretty sure that i had 1:1:1 oil/gas/coal per plastic maker while unlocking electronics . 
+  with that and some trickery you can stuff two producers into the bottom-left building . 
+  ooh , i love me some bitmap fonts !, 
+  great job with these , really interesting styles . 
+  uh ... no . 
+  they downloaded a rom from the internet containing their own copyrighted material , which does n't infringe of their own copyright of said material . 
+  i find middle-click-to-scroll to work well on a small laptop , personally ( with middle-click triggering on double-tap , so double-tap-then-tap-and-drag ) . 
+  the ability to scroll the verification tab would be useful !, 
+  something else that i think would be very useful is a button that hides the bottom area of the conceptcad ui but not the available components to the right ( unlike the fullscren option ) , since i find it occupies a lot of vertical space ( which is more at a premium than horizontal space too , due to 16:9 aspect ratio ) . 
+  something i feel would be nice is a second `` power user '' - esque interface to ( solved ) problems . 
+  when i 've come up with an idea for how to optimise a particular problem , i find i have to sort of hunt for the right task email in the list of emails , and to make things worse sometimes the email title does n't match the product name either . 
+  coming from tis-100 , i miss the way i could associate a problem with a particular position in the grid . 
+  * that said * , i love the email interface from a story point-of-view . 
+  so what i 'm thinking is a view of `` archived products '' or something , perhaps it unlocks a bit into the game , and it holds all the tasks you 've solved so far presented in a nice ( if necessary , scrollable ) grid . 
+  each task would have its product name ( as opposed to email title ) listed in the interface . 
+  i 'm sure my idea of the interface could be improved , i 'm just putting the idea out there of a second interface to complement the email one . 
+  you can scroll the cad window as is already ( otherwise i would n't be able to play the game on 1366 \u00d7 768px resolution ) : alt + drag or middle click + drag . 
+  dual-layer/via is an interesting new game mechanic , but to be honest i 'm not sure if i 'd like the extra complexity it 'd add to the game , and feel a bit too much like a separate game to me . 
+  adc/dac , i feel having to pay power to convert between these using a mc4000 is part of the puzzle . 
+  what i * would * like however is if and/or were more like max/min gates ; it 's a bit weird that you can take input < 100 and get output = 100 with the current gates . 
+  it 'd also be very useful for some problems ( though perhaps too useful ... ), 
+  as for stack/queue , the ram piece basically acts as a queue already if you use it cleverly ( although you 'll need to be careful to not read more than has been written ) . 
+  a stack would be very useful , but i feel the difference between the s : i/o and tis-100 memory units is deliberate and gives the games different identities . 
+  do n't want to just replicate thngs from tis-100 for the sake of it . 
+  this is true , though it has the issue of propagating signals in all directions . 
+  a gate would force a propagation direction . 
+  anyway , the ` min ' would be a more useful addition since it could be used as a relay to forward a simple signal by whether another signal is on or not . 
+  useful for tasks where you want to copy input to output in some cases but not others ( the audio boost thing comes to mind ) . 
+  that would be great , and also a very nice way to visually explain the third optimisation type ( if it ends up being `` power consumption along critical path '' ) : just keep the top of the power consumption plot as low as possible . 
+  for extra visualisation points , have a white horizontal line at that maximum value and have it update as the test progresses . 
+  tx , while you can not test an * xbus * port without reading it , you * can * do this with simple ports . 
+  in some cases this could be used to good effect ... so i would say adding this capability to xbus would be redundant and take away a bit of challenge . 
+  i agree , but * that said * / u/krispykrem seems like the kinda developer who would have no problems at all with helping with/distributing the korean patch as long as there are no legal/licensing issues related to it . 
+   i hope he contacts lusyel84 and they figure something out . 
+  you unlock the sandbox after a couple puzzles . 
+  the ` nop ` command is n't all that useful , but sometimes it 's handy to synchronize processing between nodes ( e.g. 
+  make sure a simple pin has its correct value written before another nodee tries to read it ) . 
+  i 'm sure we 'll get scripting/level editor proper . 
+  the avalon city email one unlocks says `` over the next few weeks we 'll be improving the game , including the addition of a level editor , new parts , and new puzzles . '', 
+  so i finished the first campaign today , although i still have one puzzle left to solve ... 
+  the hardest puzzles to me would be ( roughly in descending order of difficulty ) color coordinating shoes ( still not solved ) , control router ( took me three tries , and my solution is awful ) , traffic signal ( it was n't too bad once i got the right approach going , but it took me a bit of thinking to find it ) , electronic door lock ( due to the override code ) . 
+  i had some issues with the pocket oracle too . 
+  my favourite puzzles are the ones that require you to implement some mapping from input to output , but provides for a lot of variation in exactly how this mapping is implemented . 
+  the light-up signs , spoiler-free headphones , airline cocktail mixer and safetynet tracking badge tasks are examples of this . 
+  for these puzzles i 've sat down with pen and paper and pondered efficient ways of implementing the mapping before actually trying it out in-game , which i think is an indication of a good puzzle . 
+  i do n't think there was any puzzle i really * disliked * , but i do think the safetynet tracking badge felt a lot easier than what i would expect for the last puzzle of a campaign . 
+  it 's worth noting that they 're also useful for ( non-blocking ) * xbus * pins that some parts provide . 
+  i used a ` @nop ` in one solution to make sure that a ram part is written to ( by another chip ) before attempting to read the first value from the other end . 
+  i think the ` learn ' button would be placed inside the room ( so that staff would need to unlock the door first ) , at least that 's how i read it . 
+  it had n't occur to me to solve problems this way , and i agree that his seems like a very boring solution to problems . 
+  detect which test case is running , and output predetermined values in that case ? 
+  we could brand it the ` volkswagen approach ' . 
+  jokes aside , it is a slippery slope . 
+  while i would n't compete with a `` detect testcase '' solution , i do classify my solutions as `` to spec '' or `` cheaty '' , where the latter means taking advantage of things like sleeping after a button press or after input is received , or relying on other constraints of the test data . 
+  technically it might not adhere to the spec exactly , but on the other hand if i buy some cheap electronic from china and mash a button far more frequently than one would expect , i 'm not sure if it 's unreasonable to expect it behave a bit wonkily . 
+  i think i would be fine with many more testcases , and only showing them if a testcase fails , as long as they adhere to the same constraints as the 8 shown testcases ( i.e. 
+  do n't suddenly decrease the time between button presses , or test with much longer length-prefixed sequences , or ... ) . 
+  allowing and ignoring commas ( like in tis-100 ) would be very nice , since i agree that it looks nicer with commas separating parameters . 
+  operand ordering i think it 's fine though , no different than having to get used to any other assembly language 's syntax/operator order , even though i also prefer dst , src order myself . 
+  you could accomplish this with vim 's `` conceal '' feature ( : h syn-cchar ) ; i was thinking of doing something like that if i wrote a syntax file for it . 
+  any particular reason why f isn ' replaced with \u253c though ? 
+  ( the hex digit is a bitfield corresponding to which directions of the cell has traces . ), 
+  the cheap/stingy stereotype of scotsmen exists in sweden too , although we also ( perhaps more commonly ) attribute this to the sm\u00e5land province of sweden . 
+  i think that level in particular is going to be hard to stop , assuming this is just another hash function that happens to work well enough . 
+  anyway , i think this quite a bit more fair game than `` detect which testcase and feed hardcoded output '' , so i 'd say you 're fine . 
+  heh , as someone who would consider themselves a decent programmer in general and an avid fan of tis-100 , i 've yet to do the colour-changing shoes . . got the others done and many of them well-optimised before the recent patch , but that one is . . well . . 
+  i really have to think about how to make things fit . 
+  this is a good point . 
+  i looked around briefly in the data files , but while the format for savefiles felt very straightforward and easy to understand , i did n't find any level files at all and concluded the data is probably embedded in the . exe . 
+  as someone who reverse engineers as a hobby and has dug into games ' level file formats before ( ehm , hopefully this does n't make me look bad :o) , i 'd be happy enough even if the default levels were just located in the game dir in some sensible-enough format , and just dumping new levels in a particular folder ( or , though it would be more annoying from a user perspective , adding to a list in some file ) would make them appear in some tab in-game . 
+  an interesting example to compare with is civilization ii . 
+  its game rules were defined by essentially ini-style/comma-separated values in a bunch of text files in the game directory , and it included a few empty lines for unused placeholder units with a comment of the sort `` here 's how you add your own units '' . 
+  sure , modding was n't a documented or advertised feature , but it was trivial to do !, 
+  hmm , pity the christmas market in the old town opens next saturday , i.e. 
+  too late , or that would 've been a good opportunity to try some swedish christmas cookies/buns . 
+  though you could still get them elsewhere i guess , if you 're curious about them . 
+  ah yes , that 'd be lussekatter ( saffron buns ) and pepparkakor ( gingerbread cookies ) . 
+  hm , ours are spicier ? 
+  huh . 
+  those are the main kinds of christmas cookies you find in stores i guess , most other ones are typically baked at home ... and not until december . 
+  ah well , 
+  ... i woud n't call that petty at all ( and i would do the same ) . 
+  petty would be more like , smoking the wrong brand or something . 
+  syndrome . 
+  with the straps attached to the individual joycons it appears to be a lot more rounded off , so maybe that 'll feel a lot better with the l/r triggers . 
+  did you get to try that out , or only bare joycons ? 
+  the wii and wii u both used bluetooth for controllers , so it 's hard to say if it 'll provide other services over bluetooth too , or if it 's just for that . 
+  mind fixing your first link to link to https://www.reddit.com/r/nintendoswitch/comments/5ea9uo/rumor_someone_who_producing_switch_at_foxconn_is/ instead ? 
+  it 's currenly broken . 
+  edit : and here 's a copy-paste of the original leak ( linked above ) but reformatted so that one could more easily read it . 
+  ## dock, 
+  * there 's no advanced technology in the dock , it seems pretty cheap and light , feels really plastic , no extra power , it just a output ;, 
+  * 1x usb3 .0 , 1x hdmi , on the side 2xusb2 .0 on the dock ;, 
+  * there 's no fan on the dock , but hole on the back of the dock to allow air absorbing then out from the console 's top vent,

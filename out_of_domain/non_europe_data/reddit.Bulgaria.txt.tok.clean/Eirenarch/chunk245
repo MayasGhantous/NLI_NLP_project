@@ -1,0 +1,100 @@
+  we can say that windows phone is in a coma . 
+  yeah but my terminology is tilted by the languages i have used . 
+  i think of assertions as something that disappears in release code . 
+  i wo n't bet against you but did you consider that the cost of the license may be scaling with the popularity of their project ? 
+  so did they ? 
+  if `` back '' is js , that 's true but if `` back '' is c # i 'd be back before you could blink . 
+  private is not default in java . 
+  package internal is . 
+  how much does it cost to make me a map ( competitive but not traditional , no custom triggers and such ), 
+  are they out ? 
+  i thought they were out of the video because there is no stable proposal and implementation . 
+  i was thinking of sponsoring ( $ 100 ) a small tournament on non-standard maps probably advertised only to local bulgarian community . 
+  i envisioned map pool with steppes of war , lost temple and an remake of halls of valhalla from brood war ( this is what i would need ) . 
+  i would n't care much for balance because i thought that race picking may be encouraged but of course any balance is a plus . 
+  of course in the hall of valhalla case allowing reapers to just jump off the cliffs would be silly so that should not be 1:1 copy . 
+  see my reply here - https://www.reddit.com/r/starcraft/comments/4d2azn/we_are_sc2_mapmakers_ask_us_anything/d1nnsx7, 
+  repository pattern with dapper is definitely less silly than repository pattern with an orm . 
+  if he implemented the repository pattern properly and did not expose iqueryable , query or something similar . 
+  judging by the posts here , on stack overflow and in general on the internet chances are his repository sucks like the other 95 % of repositories out there . 
+  because the whole point of the pattern is to provide abstraction over your data access strategy . 
+  once you expose iqueryable you are in practice leaking your data access . 
+  you can not switch to stored procedures and raw sql , you can not switch to a rest service that provides the data , you can only switch to another orm with the same level of linq support . 
+  now in theory you could translate the iqueryable yourself to whatever the new data source is but this is pretty much equivalent to writing an orm and is not trivial at all . 
+  so when i use the repository as, 
+  var result = repository.getall ( ) . orderby ( product =  product.price ) . skip ( pagesize * pageindex ) . take ( pagesize ) ;, 
+  how do you replace your data access with say a rest service ? 
+  you pull all the products in a list and page on the client ? 
+  i will do your test . 
+  i enjoy doing tests . 
+  because this is what i can and will do if you return iqueryable . 
+  i mean why do you even return iqueryable if you do n't want me to do that ? 
+  i can do what i did with any iqueryable and what is more if you want to expose ienumerable why expose iqueryable ? 
+  oh i did n't read that correctly . 
+  i want ienumerable and i am right and you are wrong . 
+  your api not only allows me to shoot myself in the foot it provokes me to do so . 
+  well if an api allows some usage without compile-time error or even exception then this use must be correct or the api is broken and should be fixed . 
+  this is reverse thinking . 
+  while testing is probably the most popular use of decoupling it has value on its own . 
+  if your code is decoupled it means that changes affect less places and thus reduce the likelihood of bugs . 
+  it also means that you can switch layers . 
+  say you move from mvc to a single page web app built on web api . 
+  if you decoupled your code you would only change the controllers but not your business logic . 
+  in fact some proponents of tdd claim that the greatest value comes from the fact that you get better oo design because writing tests forces you to decouple . 
+  so java does not have operator overloading because it is too complex and confusing for users ? 
+  several different java professionals i know point this out when asked . 
+  i do n't have an official source . 
+  is there an official explanation ? 
+  first of all generics are much more complex than operator overloading which is basically a static method . 
+  however i was not referring to generics itself but to java 's approach on covariant and contravariant generics which is very complex . 
+  the example you give is easily solved by promoting the int to a complex . 
+   look at any language with op overloading and it gets used in absolutely atrocious fashion . 
+  seems like you have not looked at c # ( in fact scala and c++ are the only cases of operator overloading abuse i am aware of ), 
+   as yet another separate point , name proper use of op overloading, 
+  math and physics libraries alone are a good reason to have operator overloading . 
+  hell , i 'd even say that biginteger/bigdecimal alone are a good reason to have it . 
+  however - '' = = '' makes sense on many , many types . 
+  for example strings . 
+  another example from c # - datetime + timespan results in a datetime , timespan + timespan results in a timespan and datetime - datetime results in a timespan . 
+  works great in practice . 
+  i can come with a lot of math and physics things that can use operator overloading , vectors , matrices , polynomials , expressions ( like in symbolic libraries ) , etc. 
+  however here are some everyday examples that i use in c # :, 
+  = = on strings ( and many other types but most importantly on strings ), 
+  + , - , = = on datetimes and timespans ( i.e. 
+  datetime + timespan results in a datetime , timespan + timespan results in a timespan , etc. ), 
+  interestingly if you do n't know what the operators do you will use the methods and get the docs . 
+  if you know to use them you probably know what they do or know how to check . 
+  sure , there are these problems for the one overloading the operator . 
+  the user does n't have to think about it . 
+  you can upgrade your current computer to windows 10 which supports negative numbers for free !, 
+  10 years here but i have seen it abused once . 
+  a dev on my team ( actually the lead ) decided to override the = = on a business type ( ca n't remember exactly but something like company ) which resulted in a failure . 
+  i was debugging it for like 4-5 hours before i found out = = did n't work as i expected . 
+  told him and he remembered that he overrode it . 
+  these 4-5 hours are a small price for all the benefit of operator overloading . 
+  i have compared countless strings and i sure as hell do n't want to . equals them . 
+  oh i know many libraries that failed , sometimes the standard libraries themselves . 
+  none in c # though , 
+  i think you mistyped that '' % of '' . 
+  you probably meant `` for the 1 time '', 
+  the datetime class in . net does not deserve to be called `` broken '' in any thread about java . 
+  or game developer , or desktop software developer . 
+  i never claimed you ca n't , just that most people who do that probably wo n't choose linux . 
+  what are the advantages of linux compared to windows if you are using qt ? 
+  interestingly despite your dissatisfaction with visual studio you confirm the point made by / u/txdv since you also need to use visual studio and therefore windows is your only meaningful option . 
+  the real game developers i know work on windows . 
+  i do n't count people making card games and such as game developers ( otherwise i may count myself as one for having built a nine men 's morris app ) . 
+  they are just app developers . 
+  scala johansson is still sexy . 
+  we met him in a bus one night after dreamhack valencia 2014 . 
+  the guy seemed to be ok in person . 
+  i wonder if his bm activates only when he loses . 
+  his statement is debatable though . 
+  java tooling is in general more powerful but also has significantly worse ux ( discoverability , setup process , etc. ), 
+  i am not sure delegates are superior to java 's sam types . 
+  is there anything to support that claim ? 
+  i am quite annoyed by the idea that the community is just stupid and not aware of open source projects . 
+  it does not occur to some people that many of us like the monoculture . 
+  it makes us more productive by giving us better integrated tools , easier setup ( as opposed to chasing down endless chain of nuget dependencies ) , faster learning ( due to similar style of apis and documentation ) , faster accumulation of know-how , etc. 
+  like a religious preacher the oss zealots think that we will be like them if only we saw the light and they must make us see it . 
+  the fact is that we simply do n't like that ecosystem and this is why we stuck with . net through the years .

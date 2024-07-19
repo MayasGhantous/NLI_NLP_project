@@ -1,0 +1,100 @@
+  temp {, 
+  { h ( 600 ) f ( 333 ) `` temperature '' `` it 's quite hot . '', 
+  ~ ice + warm ( abt ) }, 
+  { h ( 600 ) f ( 666 ) `` temperature '' `` it 's quite hot . '', 
+  * ice ( `` you wonder why it does n't melt . '' ), 
+  + warm ( abt ) }, 
+  { h ( 800 ) f ( 333 ) `` heat '' `` the air is very hot . '', 
+  ~ ice + warm ( abt ) }, 
+  { h ( 800 ) f ( 666 ) `` heat '' `` the air is very hot . '', 
+  * ice ( `` you wonder why it does n't melt . '' ), 
+  + warm ( abt ) }, 
+  { h ( 400 ) `` cold '' `` it 's rather chilly . '', 
+  + cool ( abt ) }, 
+  { l ( 645 ) h ( 700 ) `` fire '' `` the world around you is aflame . '' }, 
+  { h ( 300 ) `` frost '' `` the terrain is coated in a thin layer of frost . '' }, 
+  { l ( 600 ) h ( 300 ) `` icicles '' `` everything is encrusted with icicles . '' }, 
+  could those descriptions get any more boring !, 
+  so , i was just wondering whether anyone would be willing to contribute to this thing , if even a part of it . 
+  i promise to release it as a standalone for unix-based platforms ( someone 's got ta compile it for windows for me ; it 's a command line tool , so it 's not that hard ; i did it myself back when i had windows ) !, 
+  as well as put the whole thing up on github , obviously , so people can add further stuff to terrain.sburb ( and , later , generation.sburb , which contains the commands to generate the stuff on the grid ) . 
+  i would really appreciate it , and i think some people would even enjoy it . 
+  this has value on its own , and i 'm sure lots of us would really like to see it finished . 
+  so , anyone interested ? 
+  edit : i 'm on my iphone , so i literally just typed this , but here is a short mockup for the code :, 
+  int d = 0 ; / / used for the `` distance '' between the stuff . 
+  char proptable [ 17 ] [ 30 ] ; / / the table of keys used for generation ; that is , the properties the planet will have . 
+  char prop [ 30 ] ; / / the property that you 're working with . 
+  int ideal [ 6 ] ; / / the ideal values of the planet you 're working with . 
+  not to be tampered with !, 
+  int current [ 6 ] ; / / the values for the item that you 're currently working with . 
+  long int a = 0 ; / / scratch space . 
+  / / what follows is a mockup of choosing a single item . 
+  note that tags are n't implemented yet . 
+  while ( isittheendofthecategoryyet ( ) = = 1 ) {, 
+  for ( int i = 0 ; i < = 5 ; i + + ) / / so that if there is n't stuff , it 's neutral . 
+  current [ i ] = 499 ;, 
+  readstuffintocurrentandprop ( ) ;, 
+  a = sqrt ( ( ( current [ 0 ] - ideal [ 0 ] ) * ( current [ 0 ] - ideal [ 0 ] ) ) + ( ( current [ 1 ] - ideal [ 1 ] ) * ( current [ 1 ] - ideal [ 1 ] ) ) + ( ( current [ 2 ] - ideal [ 2 ] ) * ( current [ 2 ] - ideal [ 2 ] ) ) + ( ( current [ 3 ] - ideal [ 3 ] ) * ( current [ 3 ] - ideal [ 3 ] ) ) + ( ( current [ 4 ] - ideal [ 4 ] ) * ( current [ 4 ] - ideal [ 4 ] ) ) + ( ( current [ 5 ] - ideal [ 5 ] ) * ( current [ 5 ] - ideal [ 5 ] ) ) ) ; / / compute the six-dimensional distance between the item and our planet . 
+  i love this part . 
+  if ( a < d ) {, 
+  d = a ;, 
+  strcpy ( proptable [ iteration ] , prop ) ; / / puts prop into the part of proptable that i want . 
+  to recap : this is the thread for additions to the terrain properties file for a program that will generate text-based descriptions for a very wide variety of sburb-like worlds . 
+  in this thread , you can contribute to the production of this file by making `` properties '' , which are to be used by the world generator for not only the name of the planet ( which includes only the top two ) , but the description as well , which includes 17 different properties , each of which has a unique description that gets put in the overall description . 
+  the generator picks properties for 16 categories ( note that these categories are described in such a way that makes this seem like a generator for a game ; not yet !, 
+  this must be done first ) :, 
+  ### phase 1 ( choose 1 property per each ), 
+  temperature ( temp ) : decides the temperature of your planet . 
+  abstract ( abt ) : determines your planet 's color scheme , and , partially , its music . 
+  ambiance ( amb ) : affect 's the planet 's music . 
+  atmosphere ( atm ) : decides the properties of your atmosphere . 
+  light ( lux ) : decides how your planet will be lit . 
+  terrain texture ( ttex ) : decides material for terrain . 
+  terrain shape ( tshape ) : decides what landforms will be prominent . 
+  liquid texture ( ltex ) : decides what the liquid on your planet will be made of . 
+  liquid shape ( lshape ) : defines your erosion paradigm ( that is , water landforms ) . 
+  only certain selections are possible for different terrain shapes . 
+  precipitation ( precp ) : defines what sort of precipitation will fall on your planet . 
+  this extends to any atmospheric anomaly , like thunder . 
+  consorts ( cns ) : what reptile or amphibian the resident consort of the planet will be . 
+  ### phase 2 ( pick 5 total ; these are all treated as one category ), 
+  flora ( flora ) : what sort of flora populates your planet ( mushrooms count here ) . 
+  fauna ( fauna ) : what sort of fauna populates your planet . 
+  structures ( struct ) : what sorts of manmade structures are on your planet ( besides the terrain , if applicable , and besides pregenerated structures that are actually generated after this ) . 
+  objects ( obj ) : what sorts of objects are strewn about your land . 
+  this is based on a set of six variables , each of which goes from 0 to 999 :, 
+  - light ( l ), 
+  - heat ( h ), 
+  - architecture ( a ), 
+  - life ( v ), 
+  in the beginning , when using the generator , you give it these six values . 
+  then , when selecting properties for each category , each property also has a set of any or all of these six values ( ones that are n't there are assumed to be 499 ) , and the generator finds the property ( ies ) that are the closest to the planet 's set of six values , and selects those . 
+  and tada !, 
+  you 've got your planet . 
+  the information for the properties is stored in this format ( this is an example for a single category ) :, 
+  / / light ( l ) , heat ( h ) , architecture ( a ) , life ( v ) , fantasy ( f ) , chaos ( c ) !, 
+  temp {, 
+  & h ( 600 ) f ( 333 ), 
+  `` temperature '', 
+  `` it 's quite hot . '', 
+  ~ ice + warm ( abt ), 
+  & h ( 600 ) f ( 666 ), 
+  `` temperature '', 
+  `` it 's quite hot . '', 
+  * ice ( `` you wonder why it does n't melt . '' ), 
+  + warm ( abt ), 
+  & h ( 800 ) f ( 333 ), 
+  `` heat '', 
+  `` the air is very hot . '', 
+  ~ ice + warm ( abt ), 
+  & h ( 800 ) f ( 666 ), 
+  `` heat '', 
+  `` the air is very hot . '', 
+  * ice ( `` you wonder why it does n't melt . '' ), 
+  + warm ( abt ), 
+  `` cold '', 
+  `` it 's rather chilly . '', 
+  + cool ( abt ), 
+  & l ( 645 ) h ( 700 ), 
+  `` fire '',

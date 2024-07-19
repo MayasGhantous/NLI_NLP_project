@@ -1,0 +1,100 @@
+  i thought i was a genius and that he was senile but it later turned out he knew the whole time and just let me do it . 
+  it 's very poorly worded and has terrible grammar . 
+  it was n't written by a native english speaker . 
+  `` routine receive also ( right argument ) the original value of x for computing error of result '' is not maths , it 's chinglish . 
+  no you just do nothing - you `` fail to find '' them . 
+  remember you do n't reveal the top 10 cards , you just look at them . 
+  no you just do nothing - you `` fail to find '' them . 
+  remember you do n't reveal the top 10 cards , you just look at them . 
+  maybe this will sate your appetite : if i have a function that doubles its input ( ` x -  2 * x ` ) then i can compose it with itself to get a function that quadruples its input . 
+  the first function is a function from real numbers to real numbers , and i compose it with itself to get another function from real numbers to real numbers . 
+  but what if i try this with reciprocal instead ? 
+  recall that the reciprocal of ` 3/2 ` is ` 2/3 ` , the reciprocal of ` 1/2 ` is ` 2 ` , etc. 
+  i map ` x ` to ` 1/x ` . 
+  the problem i strike is that the output of this function is not always well-defined , because division by zero is n't well-defined . 
+  so i ca n't have a function ` x -  1/x ` that takes a real and gives a real , because i have to have a valid value for every input . 
+  some languages , i might throw an exception here . 
+  others , you might have a value that is in every type that you can return instead , like ` null ` : if i get a ` null ` then i know i must have divided by zero . 
+  but that 's a bit undisciplined . 
+  instead we 'll explicit opt into this , by explicitly stating that we might return a ` null ` in the type signature : the function is now ` reciprocal : real -  maybe ( real ) ` . 
+  ` maybe ( real ) ` is the same as ` real ` except it has an extra possible value , which is ` nothing ` , representing in this case that we got an invalid value . 
+  but now i have a problem . 
+  if i want to compose my function with itself , i ca n't do it . 
+  i ca n't compose a function ` real -  maybe ( real ) ` with itself , because the output of my function is a different type from the input . 
+  what i need to do is something like this :, 
+  recipofrecip : real -  maybe ( real ), 
+  if recip ( x ) = = nothing ,, 
+  return nothing, 
+  else ,, 
+  return recip ( recip ( x ) ), 
+  now this is fine , it does what i want . 
+  i get the reciprocal of the input . 
+  if it was a valid value , i return the reciprocal of that . 
+  if i get ` nothing ` , i had a zero as the initial input , so i return ` nothing ` - errors propagate . 
+  but it would be nice if i could automatically make this transformation : if i have two functions ` f : a -  maybe ( b ) ` and ` g : b -  maybe ( c ) ` , it would be nice to be able to compose them as easily as ` f : a -  b ` and ` g : b -  c ` , right ? 
+  and it looks like i can do that automatically : call the first function , and if it returns ` nothing ` then just return ` nothing ` . 
+  otherwise , pass the valid value into the second function and return the result of that . 
+  it turns out that we get a very similar sort of pattern elsewhere as well . 
+  if i have asynchronous functions that take normal values return promises , i want to compose them as easily as normal functions . 
+  another interesting one is if you 're logging with your functions . 
+  i do n't want functions to have arbitrary sideeffects , so i 'll make my functions return an extra string value with every call , and let the caller deal with the log messages . 
+  then i want to automatically compose my functions by appending their logging data . 
+  well in that case , again , this is the same pattern : i have ` f : a -  ( b , string ) ` and ` g : b -  ( c , string ) ` and i want to get ` f . 
+  g : a -  ( c , string ) ` where i just concatenate ( maybe with a ` ' \\ n ' ` ) the log messages . 
+  this general pattern has a name . 
+  it 's a fancy mathematical term that has been adopted by functional programming people , and that term is ` monad ' . 
+  it does n't mean quite what it means in maths at first glance , but it turns out that by being able to write functions that do the same thing for any ` monad ' , you can do some useful things . 
+   nearly 10 years after the iphone we still do n't have a useful , mobile capable web standard for something as simple as a table . 
+  we do though . 
+  it 's called html . 
+  if it works for them , then that 's fine . 
+  even if it 's just placebo . 
+  it 'd just be nice if they did n't call everyone else irresponsible for not doing it . 
+  the linked post literally refutes your nonsense . 
+  literally everyone does . 
+   if you 're an alcoholic , then you 're always an alcoholic . 
+  what a load of crap . 
+  there 's this obnoxious idea , perpetrated by those stupid ` alcoholics anonymous ' groups and by tv shows and movies , that once you 're labelled an ` alcoholic ' you 're permanently an alcoholic , like it 's cancer or herpes or something . 
+  this weird idea that it 's totally binary , and if you 're over the threshold and into the territory of being ` an alcoholic ' then you 're never meant to drink a drop of alcohol ever again in your life . 
+  it 's stupid and offensive , in my opinion . 
+  c did n't need to add ` thread_local ` or ` _ static_assert ` or ` _ bool ` . 
+  use c++ if you want this crap . 
+  it did n't need to add those things * for compatibility with c++ * . 
+  i personally like the idea of the trinity , but it 's always fucking terrible because there are too many dpsers . 
+  if you think about it , ` dps ' is a stupid role , it 's not even really a role . 
+  it 's a lack of a role . 
+  there should be healers , maybe there should indeed be tanks . 
+  but the rest of the group should n't be ` dps ' . 
+  they should be supports of various different types . 
+  maybe there are a couple of classes or roles or whatever that are pure damage , but every single dungeon and raid being 14 damage dealers , 4 healers and 2 tanks is just retarded imo . 
+  i agree with your claim that full loot and totally open pvp is a bad combination . 
+  forcing players into stressful situations all the time is silly . 
+  even eve online has safer areas with large ` police ' presence . 
+  i disagree with the claim that rvr is what is needed . 
+  fuck established unchangeable factions , that 's just obnoxious shit . 
+  i really , really hate it . 
+  i would much prefer a system where the further you are from settlements , the wider the range of players that can attack you . 
+  runescape had ( has ? ), 
+  something like this : wilderness levels . 
+  the more north you go , the wider the level range that can attack you . 
+  i would have this , but i 'd make it a bit more interesting by making the effect radiate from settlements instead of just being a north-south thing . 
+   the problem with full loot is that those item are not lost . 
+  they are still in the world they are changing only owner which leads to griefers getting richer and stronger while most of people get weaker and poorer . 
+  not true at all . 
+  for a start , you do n't take your best gear into pvp zones unless you already have plenty of it , that 's just silly !, 
+  people had a lot of what were called ` iron wars ' in runescape , where clans would organise battles wearing only iron armour , basically the second worst armour in the game . 
+  ` griefers ' did n't exist because participating in pvp was obviously completely up to you . 
+  you ca n't grief people unless the game allows pvp everywhere , and doing that is just silly . 
+  do n't allow pvp everywhere . 
+  the further into the wild reaches of the world you go , the larger the level range that can attack you . 
+  the closer to civilisation , the lower that range . 
+  i really , really much prefer systems like dungeons and dragons ( actual d&d , not ddo , i 've never played ddo ) and runescape : there are special items out there , mostly from quests ( and not wow-style shitty boring quests ) , but 95 % of items are simple : iron breastplate , steel platelegs , mithril scimitar . 
+  it feels so much more sensible in a world where you can lose your items any time you die . 
+   but what hinders a big alliance to just claim the wildest of the wilderness with all the juice high-tier resource for themselves ? 
+  same happened in eve with goonswarm . 
+  this just never happens in reality . 
+  it never happened in runescape , and why would it ? 
+  what , is a group of players going to have multiple players guarding every good resource gathering spot on every one of 150 + servers ? 
+  that would be stupid . 
+  what a waste of time , players and energy , just go gather elsewhere instead . 
+   a rvr has the advantage that there are always two very big blocks / ` alliances ' at war , which leads more easily to organized sieges & battles .

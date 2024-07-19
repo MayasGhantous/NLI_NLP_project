@@ -1,0 +1,100 @@
+  yes . 
+  also , sorry , but i have written the formula in the wrong order . 
+  it should read :, 
+  = match ( b1 , a : a ,0 ), 
+  however , if you do n't want exact matches you can use * for wildcard :, 
+  = match ( '' * '' & b1 & '' * '' , a : a ,0 ), 
+  plus , you need to autofill the entire c column to check for all b values . 
+  not quite sure what you mean but you can use weekday function to check what day of the week it is . 
+  check this out :, 
+  this is easily achievable trough vba :, 
+  sub test ( ), 
+  dim nrow1 as long , irow1 as long , nrow2 as long , irow2 as long , nrow3 as long , irow3 as long , counter as long, 
+  nrow1 = range ( `` a5000 '' ) . end ( xlup ) . row, 
+  nrow2 = range ( `` b5000 '' ) . end ( xlup ) . row, 
+  nrow3 = range ( `` c5000 '' ) . end ( xlup ) . row, 
+  counter = 1, 
+  for irow1 = 1 to nrow1, 
+  for irow2 = 1 to nrow2, 
+  for irow3 = 1 to nrow3, 
+  cells ( counter , 4 ) = cells ( irow1 , 1 ) . value & cells ( irow2 , 2 ) . value & cells ( irow3 , 3 ) . value, 
+  counter = counter + 1, 
+  next irow3, 
+  next irow2, 
+  next irow1, 
+  end sub, 
+  this puts all possible permutations in column d. 
+  do you mean you have something like this ? 
+  name | city | invitation, 
+  bob | new york | hi bob , you may go to new york . 
+  susan | london | hi susan , you may go to london . 
+  sam | new york | hi sam , you may go to new york . 
+  if so , just add this formula to c2 and fill down to the end of the table :, 
+  = `` hi '' & a2 & '' , you may go to '' & b2 & '' . '', 
+  not quite sure what you mean with automating it . 
+  \u00c9dit : could always run this simple macro to do the above for you :, 
+  range ( `` c2 '' ) . formula = '' = '' `` hi '' '' & a2 & '' '' , you may go to '' '' & b2 & '' '' . '' '' '', 
+  range ( `` c2 '' ) . autofill range ( `` c2 : c '' & range ( `` a5000 '' ) . end ( xlup ) . row ), 
+  end sub, 
+  what 's with the alien lobsters ? 
+  tbh , reserving chair with your towel if you 're not actually at the pool is pretty shitty . 
+  according to that , m = j = i and l = n. 
+  since you 're looking at unique bench numbers , you can create a new column that will give you all of them ( plus a bunch of blanks ) :, 
+  = if ( countifs ( e$ 2 : e2 , e2 , f : f , f2 ) = 1 , e2 , '' '' ), 
+  that is assuming it starts at e2 , and you need to autofill it all the way down . 
+  also let 's assume you write that formula on column h. afterwards , on cell i2 you write whichever controler you want to count stuff for and add this to j2 :, 
+  = countifs ( h : h , '' <  '' , f : f , i2 ), 
+  edit : small correction in first formula as it did n't take into attention repeated batch numbers but under different controllers . 
+  it 's not a square matrix . 
+  it is at best possible but you can not solve for all variables . 
+  that was a science vessel , the amerigo . 
+  this gives you want you want all the way down to row 702 ( 26 + 26 ^ 2 ) . 
+  = if ( row ( a1 ) < 27 , char ( row ( a1 ) +64 ) , char ( rounddown ( row ( a1 ) / 26.001,0 ) +64 ) & char ( row ( a1 ) - rounddown ( row ( a1 ) / 26.001,0 ) * 26 +64 ) ), 
+  i do n't see this said , but 1:20 pm central time is 6:20 pm utc . 
+  you could always create two columns ( one repeated for every iteration of the other ) and one header ( or vice-versa ) . 
+  like this :, 
+  location | time | x1 | x2, 
+  you can do all manners of calculations and filters this way too . 
+  which mission are you referring to then ? 
+  kerrigan did board the amerigo in the original starcraft , and it was huge !, 
+  http://starcraft.wikia.com/wiki/the_amerigo_ ( mission ), 
+  i guess i should wonder what it is that you eat that you would n't consider dark chocolate to be bitter ... 
+  ah , fair enough . 
+  not quite sure what 's wrong with your formula , albeit that shows a moving average and not quite every 24th as you wish . 
+  to do that you could do the below :, 
+  = if ( mod ( row ( a2 ) -1,24 ) = 0 , average ( offset ( a2,0,0,-24 ,0 ) ) , '' '' ), 
+  just autofill all the way down . 
+  = { index ( a1 : e3 , sumproduct ( ( a1 : e3 = `` slippers '' ) * row ( a1 : e3 ) ) , match ( `` price '' , a1 : e1 ,0 ) ) }, 
+  array formula . 
+  helps knowing cascais is a city name . 
+  i ca n't see the screenshots but there is a transpose option in paste options - copy column b , right click on a2 , and select it . 
+  could you please provide an example of two different rows ? 
+  is there only one row per agent ? 
+  yes they can !, 
+  if you 're wondering , the inside of that sumproduct returns { ( false , false , true ) \\* ( 1,2,3 ) } , or { ( 0,0,1 ) \\* ( 1,2,3 ) } and thus you get 0 \\* 1 + 0 \\* 2 + 1 * 3 = 3 . 
+  quick question before i look into the rest , are you sure your date function is working properly ? 
+  i copied the first row in your screenshot and it 's showing 07-29-16 , as per cell p2 , which is not yymmdd . 
+  either way , if that 's the date format you want you could just use what you used in the first block to help :, 
+  also , would it be possible to create auxiliary columns in your table ? 
+  edit :, 
+  see if this does what you want . 
+  g7 is the formula inside the len that you provided , i just used one cell because it would repeat a lot , but just substitude g7 for that monster of a formula if you wish . 
+  it would only appear thrice rather than ten times as above :, 
+  = replace ( n7 , find ( '' / '' , n7 ) -1,0 , '' '' ) & left ( p7 ,1 ) & replace ( `` 00000000 '' ,7 - len ( g7 ) , len ( g7 ) , g7 ), 
+  variables come first when assigning a new value . 
+  you may be confused with other language , 
+  sub sheetchange ( ), 
+  dim x as integer, 
+  for x = 1 to sheets.count, 
+  sheets ( x ) . name = left ( sheets ( x ) . name , 4 ), 
+  next x, 
+  end sub, 
+  sounds like a clean clue . 
+  so , september 1st ? 
+  nah , plenty of people just do n't dig the card style , and there 's nothing wrong with it . 
+  i do n't enjoy it or the diablo series , but i have played everything else . 
+  that 's the thing with blizzard , they did n't just invest in one kind of game . 
+  they have rts , mmorpg , rpg , moba , fps and whatever acronym is used for hearthstone , and all of them are great and very successful because they keep working on them . 
+  you want the edate function . 
+  returns 16-09-2016, 
+  check if there 's no macro with it as shortcut .

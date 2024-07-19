@@ -1,0 +1,100 @@
+  * alc-1150 onboard audio, 
+  * supports at least 2 way sli/cf, 
+  * 1 2280 m. 2 slot ( the asus actually has 22110 but no ssds use it yet afaik ), 
+  * 1 usb type 3.1 a and 1 type c, 
+  * vrm that is actually good enough for overclocking , mainly 8 phases ( 4 doubled to 8 ) for cpu, 
+  * intel nic ( as opposed to killer which has driver problems ), 
+  so notable differences between that and other boards :, 
+  * has 2 m. 2 slots, 
+  * has both intel nic and killer nic, 
+  otherwise comparable since it 's same price range from different manufacturer . 
+  same deal as gaming 5 except includes thunderbolt support and better sound card ( sound core 3d ), 
+  asus z170-ar : looks like a variant of z170-a which as far as i can tell is same as pro-gaming but it has worse sound card and different color scheme . 
+  ca n't explain why it 's more expensive . 
+  * 2 m. 2 slots, 
+  * 2x both usb 3.1 type a and c ( and some more type a from front panels ), 
+  * slightly better vrm at least for ram overclocking . 
+  * worse sound card, 
+  * no usb 3.1, 
+  edit : formatting etc, 
+  when you start playing games that care about cpu a decent amount and/or want more than 60fps, 
+  depends on , framerate , resolution and how well can the game use multiple cpu treads . 
+  if it 's a general question , then the answer is no as there is no cpu powerful enough on the market that is powerful enough to not bottleneck the most cpu heavy games . 
+  so for example , if you play a paradox grand strategy game and have basically any card good enough to render the map , it will max 1 thread and that alone will entirely decide your performance . 
+  oc 'd pentium 4400 will run the game a lot better than your cpu ( because it 's one thread is a lot faster than your 1 thread and the second core is enough to handle anything offloaded on it ) but even that will still be bottlenecked . 
+  so this is 1 case where as long as you have a basic gpu , all your performance afterwards depends on cpu and thus you 'll basically always be bottlenecked . 
+  on the other hand you have games that are the opposite and as long as you have a decent cpu your fps will only be limited by your gpu . 
+  so a mid range card may reach 100 fps and a 1080 might get 200 fps . 
+  and unfortunately this is the case people use when they are answering `` will x bottleneck y '' questions . 
+  lastly , there are games that utilize cpu threads very well and are both cpu and gpu heavy . 
+  examples are crysis 3 , gta 5 or witcher 3 . benchmarks show that even in these very well threaded games an oc 'd 6700k will bottleneck high end cards ( oc 'd titan and now 1080 ) when you reach 100 + fps . 
+  in addition to all this , you have resolution . 
+  increasing it dramatically increases the gpu requirement but does n't affect cpu at all . 
+  so to sum this all up and put it into some kind of real world perspective . 
+  think of it as your cpu can get a specific amount of theoretical fps/performance ( it 's important to note that unlike gpu performance which does n't vary much , cpu load varies a lot depending what 's happening and you want a lot bigger fps headroom . 
+  this is why cpu benchmarks that only show average fps are pretty irrelevant since min fps and frame times is a lot more important metric ) out from any game and this theoretical amount depends on how many threads can the cpu use and on your ipc/core frequency . 
+  so if your target is 60 fps , lots of cpus will manage this at stock speeds ( but as i mentioned previously , performance of something like strategy games is n't really measured in fps but in faster ai calculations where single threaded performance will always be most important ) . 
+  and if you want 1440 or 4k at 60fps , your cpu is probably enough to manage that and the you 'll want a better gpu like a 1080 . 
+  on the other hand , if you aim for 144hz ( or anything higher than 60 ) , you 're a lot more likely to hit that theoretical fps limit and suddenly a strong , preferable oc 'd cpu is what you want over a better gpu because you can overcome gpu bottlenecks by lowering graphical settings or resolution while it 's usually impossible to get around cpu bottlenecking in the software itself . 
+  tl ; dr a 1080 paired with your cpu will only be getting 100 % performance on 4k and some 1440p games . 
+  that 's not ddr3 but ddr3l , skylake is n't compatible with ddr3 ( edit : or rather i should say intel warns that prolonged ddr3 use can damage the cpu, 
+  it 's compatible although the board does n't quite have the power delivery for heavy overclocking if you 're into that . 
+  well you can overclock it as much as you want but it probably wo n't last long if you do something like 4.6 ghz oc for 24/7 use . 
+  i ca n't quantify you how long or even if it would n't handle it but it 's more like a reminder that the z170 chip only `` unlocks '' overclocking but whether the board can actually handle the load long term depends on the vrm and cheapest z170 boards tend to have the same one as those on the chipsets that are meant to run the stock chips at like 1v, 
+  that probably would n't make much difference for anyone with a decent gpu, 
+  the ai calculations would n't become less taxing if stellaris looked like nethack, 
+  if you 're not planning to oc immediately , go for it, 
+  with stellaris and hoi4 ( starting with ck2 i guess but i have n't played vanilla and it 's kind of unique game compared to the other 2 which can and will be directly compared to other games in the genre ) , it seems like paradox ' business models is to release a very barebones game and fill the blanks with rather small dlcs ( compared to expansions ) that focus on fleshing out a specific mechanic . 
+  and while that worked for them now with the hype both of these games got , i 'm not sure if it 's a sustainable business model for the audience they currently have . 
+  not all people are okay with the `` dlc will fix it '' approach since people want a decently fleshed out games on release and not after 2 years and $ 200 + dollars . 
+  with ck2 it 's a bit different in that most dlcs really just let you play more stuff and since there is no other game on the market like it but there is no way the game is worth 240eur for everything they are asking right now on steam . 
+  however , when you compare vanilla hoi4 to hoi3 and vanilla stellaris to something like endless space or even 20 + year old master of orion the `` dlc will fix it '' defense kind of falls apart and people are realizing this with the latest 2 releases . 
+  i also think the small but frequent dlc policy is terrible for the games paradox are making and eu4 clearly shows it ( and ck2 too although it 's less affected again for the reason how the game works ) where you have piles of different mechanics where some work well but some not so much and the small dlcs simply have do n't have to scale to make a huge redesign where you keep what works and get rid of what does n't . 
+  great example right now are the various anti-blobbing mechanics in eu4 where they just keep adding new ones on top of the old ones and overall it 's a complete mess because since every small dlc focuses on adding a new mechanic , they do n't bother fixing or fleshing out or even expanding the old ones ( and why would they bother coming back to dlc mechanics instead of selling you something that only needs the base game instead ), 
+  ca n't give you recommendation on water cooler since i do n't know much about them ( i 'm using noctua d14 ) . 
+  for psu , something like 550-650w gold rated evga or seasonic for a single gpu and 650-850 for multi gpu . 
+  that 's not really case specific though . 
+  i think he means draining the motherboard of power . 
+  turn off/disconnect the psu from the motherboard and hold power for 10 seconds . 
+  reconnect the psu and try to start the pc normally . 
+  this is a common fix ( among with resetting cmos ) for boot loops . 
+  people should stop regurgitating this nonsense that x high end card ( 1080 in this case ) is wasted on 1080p 144hz . 
+  [ even a 1080 struggles to get above 90-120fps at 1080p in demanding games ] ( https://www.youtube.com/watch?v=jxhhivclbwc ) , and yes , some of those are cpu bottlenecks but that does n't change that the card is n't in any way `` wasted '', 
+  there is an endgame ( i 'm assumiing 1950 ) and it probably works like in eu4 where you can get achievements before you hit the date but there is a `` continue '' button to continue playing but it wo n't count achievements, 
+  i ca n't confirm this but there was a thread about it and you have to do the purge before 1938 but during the decisions decide against purging anyone, 
+  if that does n't work you probably ca n't, 
+  cpu is fine for 60fps . 
+  1070 struggles to keep 60 in demanding games on max though . 
+  well i do n't consider 50fps the card manages to do when there 's stuff happening in the game to be `` at least 60 fps `` which is what op was asking for . 
+  especially considering these are current games and not stuff 1 year from the now . 
+  and maybe it will look way better but it will play way worse than at 90fps you 'd have at 1080p ( and if op had 144hz monitor it would look way worse in motion as well ), 
+  but i digress as that 's a matter of preference . 
+  i just do n't see the 1070 as a 1440p `` fit '' like everyone else if it ca n't actually do consistent 60fps minimum even in recent games, 
+  1440p will look better when you 're looking at something, 
+  144hz will play better and look better in motion . 
+  do n't think the performance hit comes from number of nations but rather units doing something which naturally increases with years as countries continue to build divisions/ships/planes . 
+  i might be completely wrong but it might actually be it 's possible that russia and eastern front meatgrinder kept performance in check by keeping unit counts lower, 
+  true but assuming germany is at war with asia they now have a lot longer front to move units across and creates battleplans for compared to just poland border . 
+  edit : or i should say my point is that it 's probably more complex for ai to manage huge front even with less units compared to small front with many units . 
+  i just sent you a video of benchmarks showing a 1080 ca n't handle 144hz and you answer with saying a weaker 1070 can perfectly handle it . 
+  what is even your point ? 
+  if you want price/perf , get a 480 and lower details to reach higher fps . 
+  it should be lesser resistance effects ( ca n't tell you if it lessens the increase or the chance to do damage ) and lessened effect of foreign coups and/or party popularity boosts . 
+  do n't buy either now , wait for 480, 
+  even games that can use all the threads still prefer the higher frequency/ipc over even more threads and majority of games ca n't really use well even the 8 threads of 6700k let alone 12 + threads, 
+  plenty of people who are asking here whether to buy a 390 or 970 are actually unaware that a 480 comes out in a month and will be faster and considerably cheaper than both . 
+  unless you have some insane second hand deal for those cards ( ~ $ 160 ) buying them now is simply a mistake and since op did n't specify the price , it 's fair to assume he just wants to buy them retail in which case my comment is relevant . 
+  while you 're right it does n't answer the question i 'd rather remind someone who does n't need to be reminded and is fine with paying more for worse cards to have it 3 weeks earlier than ignore someone who is actually unaware and will regret his purchase in few weeks . 
+  judging from [ this reddit thread ] ( https://www.reddit.com/r/hoi4/comments/4n1gn9/getting_trotsky_in_power/ ) it seems that you can get a flag that allows the event to fire after september 1938 unless you complete the purge before that . 
+  i just tried a test game without taking the focus and in 1941 it still did n't fire but that could be mtth variance, 
+  skylake i3 are great gaming budget cpus because they have hypertyhreading , high frequency and high ipc despite costing a lot less compared to the cheapest i5-6400 which has very poor stock frequency and in games that ca n't utilize all its 4 cores very well will actually perform same or even worse than the 6100 . 
+  there 's also the fact that you can oc non-k skylake chips with z170 boards which will give you roughly equal or better performance from the i3 compared to a lot more expensive stock i5s ( of course whether you actually save money this way depends whether you have parts needed for the oc already like a good cooler ), 
+  the `` issue '' is n't compatibility of win7 itself but rather that the fact that win7 is old and the installation disk does n't have usb 3.0 drivers which is what 1151 boards mostly use . 
+  there are multiple tools available online to help you slipstream the usb 3.0 drivers into the installation and other solutions as well so it is n't really a problem , just a thing to keep in mind . 
+  once you actually have the win7 installed , it works just like on any other cpu . 
+  if you 're not graphics whore you 'll definitely like 1080p 144hz over 1440p and your wallet will prefer it as well . 
+  1440p 144hz has both but even a 1080 just does n't cut and get 's maybe sub-100fps . 
+  the 1070 barely manages 60fps so unless you want to play everything on low details to reach 144hz on 1440p , you 're not going to have a great time with that combo . 
+  also get a different ssd other than kingston v300 , it 's poor . 
+  are you planning on overclocking the cpu ? 
+  if yes you probably want a slightly more expensive board with better power delivery , if not you should n't really buy the 6400 but either pay more for a 6500 and drop the z170 mobo in favour of a cheaper h170 and only get 2133mhz ram or perhaps go even for a i3-6100 instead .

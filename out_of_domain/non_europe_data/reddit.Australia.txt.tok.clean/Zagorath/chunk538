@@ -1,0 +1,100 @@
+   without the ... bad indenting, 
+  what bad indenting ? 
+  op 's image is indenting 4 characters in exactly the right , logical place . 
+  i agree with you that the negative logic and the naming is awful , though . 
+  but anyway , i 'm not sure if doing ` highlightbackground = = true ` is very good style . 
+  seems to me it would be better to go :, 
+  if ( highlightbackground ) {, 
+  highlightbackground = false ;, 
+  } else {, 
+  highlightbackround = true ;, 
+  no need to go ` if ( x = = true ) ` when you can just go ` if ( x ) ` . 
+  also fixes the ugly lack of spacing around operators in your code , though that 's a much more minor issue . 
+  what is dynamic typing ? 
+  imagine if ` isfalse ` is just shorthand for ` buttonpressedisfalse ` . 
+  this way , if the button has not been pressed , ` isfalse ` will be ` true ` , and if the button has been pressed , ` isfalse ` will be ` false ` . 
+  in this situation , it is as / u/bloodshot025 describes : ` isfalse ` refers not to its own state , but to the state of the button . 
+  it 's still not great coding style -- it 'd be better to call it ` ispressed ` and have it be ` true ` when the button is pressed -- but it works logically , and it does n't fit with your description of a boolean having to refer to its own state ( which is , frankly , a ridiculous notion ) . 
+  sorry , could n't help myself . 
+  you 're entirely right in what you meant . 
+   i do n't think c even had boolean types until c99, 
+  this is correct . 
+  and even in c99 , i believe booleans are essentially just an alias for ints 0 and not 0 anyway . 
+  ah cool , thanks . 
+  [ here 's the story you were talking about ] ( / r/dndgreentext/comments / 2178r7/the _ story_of_the_drunken_fighter / ) . 
+   many extremely secular countries , e.g. , japan , vietnam ( 84 % non religious ), 
+  according to what metric ? 
+  i 've lived in vietnam for a long time , and i can tell you that there 's no way 84 % of people are non-religious . 
+  buddhism is really big , but even apart from that , most people have some form of ancestor worship -- not organised religion , but certainly not secular . 
+  touch\u00e9 . 
+  the us remake of a british show is almost always rubbish . 
+  the only example that i can think of that is n't is house of cards . 
+  both versions of that are equally amazing . 
+   i agree that there needs to be more bike lanes within cities . 
+  but that the taxes to do that should be raised from cyclists themselves . 
+  most cyclists i know are loath to pay any sort of tax to bike . 
+  perhaps because in the long run cyclists * save * taxpayer money . 
+  bike paths need almost no maintenance , save perhaps removing leaves and sticks , compared to the impact cars and trucks have on roads . 
+  definitely agree that there needs to be more emphasis on learning the road rules for cyclists . 
+  the only reason i know them in my state is that i paid close attention to it as i was studying to get my learner 's permit to drive a * car * . 
+  but while we 're on that note , there are a bunch of laws that drivers should be made to pay more attention to , especially as rules change over time , and most people only learn them when they first get their licence . 
+  honestly , outside of australia and new zealand , there are only a handful of places where it matters in the least . 
+  it 's certainly not going to matter in most of eurasia . 
+  but definitely , in anz , outdoor cats are an absolute menace . 
+  if current politics is anything to go by , there 's not much in it . 
+  a horn in f will be one key sharper than concert pitch . 
+  an e-flat instrument is three keys sharper than concert pitch . 
+  with b-flat instruments being 2 keys sharper than concert pitch , transposing from b-flat to f is a key flatter , and from b-flat to e-flat is one key sharper . 
+  the simplest raid is raid-0 , not raid-1 , i would argue . 
+  and raid-0 does indeed work in the way / u/dimlighthero described . 
+  each drive only stores half the data , so writing and reading can be done much faster . 
+  raid-1 , of course , does n't have these benefits , but does give you the security of being able to lose a drive without losing data . 
+  raid-5 , on the other hand , has both the data security and the enhanced speed : any one drive can fail and you 'll still be fine , as well as reading being significantly faster than a single drive . 
+  i dunno if they 're still doing it , but a week or two ago github was partnering with a bunch of tech companies ( including namecheap -- that 's why i 'm mentioning it ) to give a way heaps of shit for students :, 
+  from namecheap specifically , a free . me domain for a year , and an ssl certificate . 
+  very true . 
+  i know what dynamic typing is . 
+  i was sarcastically doing the jeopardy-like thing by responding with a question . 
+  implying that the comment i responded to only made sense if dynamically typed languages did n't exist . 
+  i went back to firefox for a while partly because of this issue ( also because of general heavy battery and ram usage ) . 
+  honestly , it 's awful . 
+  after about two weeks i just gave up on it , it just has n't kept up with the other major browsers over time , which is really unfortunate , since it used to be so great . 
+  i 've been having it happen for a month or so now . 
+  i thought it was a ram issue at first , and keeping the number of tabs down definitely seems to help , but even at heavy usage ( which for me is my normal usage ) i 'm still only at about 80 % of total ram ( 4 gb ) . 
+  interestingly , it only seems to be happening in windows . 
+  the os x version is unaffected . 
+  definitely . 
+  i 've heard it said many times that the best way to learn something is to teach it to someone . 
+  it 's the standard syntax that you usually find episode listings in . 
+  special episode * s * ? 
+  i only know about the time travelling one . 
+  are there others ? 
+  i once heard it said that the phrase `` blood is thicker than water '' is actually used the wrong way around , and that it originally was `` the blood of the covenant is thicker than the water of the womb '' . 
+  i 've since found out that this is apparently incorrect , but i still like to treat it as if that 's the real phrase . 
+  unfortunately , there 's very little evidence to suggest that cracked 's article about `` the blood of the covenant '' was correct . 
+  nevertheless , i agree that it 's a good attitude to have , so i treat it as if that really is what was meant . 
+   deoxygenated blood is blue, 
+  this is one that i always see used as an example of common myths . 
+  but i 've never actually met someone who believed it . 
+  it 's so daft i really do n't believe that anyone actually believes it these days . 
+  a better example would be the tongue flavour regions thing . 
+  in this case , everyone should . 
+  it 's a simple matter of `` was this phrase in use hundreds of years ago '' , and if it 's in the bible , then that indicates it probably was . 
+  still , i 'm not aware that the phrase * is * in the bible , though if someone can point me to where it is , then i would , of course , concede that point . 
+  could you point to where in the bible it is ? 
+  i was n't aware that it was . 
+  basically , i found out from some googling that there 's not much evidence that `` blood of the covenant ... '' was ever used until a few decades ago , while `` blood is thicker than water '' has been around for a long time . 
+  there 's also mode ( the single value or range which has the highest frequency ) and * geometric * mean , which is the multiple of all items in a set to the power of 1 / [ the number of items in the set ] . 
+  a lot of people do criticise rich people and companies for finding loopholes , and say that they should n't do that . 
+  but i agree , a company has a fiduciary responsibility to make as much money as possible for its shareholders , and as such it * has * to find any tax loopholes it can \\* . 
+  what people should be getting angry at is the tax * system * , and they should be campaigning to get holes in it patched , so that companies have to pay more taxes to stay within the law . 
+  \\* obviously i 'm grossly exaggerating here , they do n't really have to do this , but it can be looked at as though they do . 
+  there was a single study at some point a long time ago that found a slight tendency for certain areas of your tongue to taste some flavours more than others . 
+  the study has never been able to be replicated , and yet it somehow has gotten so ingrained in the education system that it 's taught as fact . 
+  computers and phone screens are all in inches , but i 've often heard tvs measured in centimetres as well as in feet/inches . 
+  ** nobody ** measures their height in imperial units , or at least , i have never seen anyone do it . 
+  i 'm not using hyperbole for rhetorical purposes here , i mean that literally . 
+  also do n't forget subway sandwiches . 
+  they use 6 inch and footlong to describe their food . 
+  though in their case that 's a trademark , so that 's a special case . 
+  what unit do road signs ( distances to places as well as speed limits ) use ?

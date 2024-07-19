@@ -1,0 +1,100 @@
+  / u/minsctheranger contributed a lot to us so we made him a mod too and he also made our css version 2.0 \u2122 but unfortunately he disappeared without any explanation, 
+  i just wish them the best of luck wherever they are . 
+  another cool dude is / u/bobcrosswise he gave really insightful replies and was definitely knowledgeable of the game . 
+  why would you need a display manager ? 
+  having the shell there is much more useful rather than some `` prettiness '' which to some demographics might not be pretty at all, 
+  but it is just useless aesthetics, 
+  your post was caught in the spam filter because reddit does not allow quickmeme . 
+  school ? 
+  not even my uni has that ... 
+   i need muh poorly ported 30 fps capped day 1 dlc and full of microtransactions epik gaymes !, 
+  this freetard mentality is ridiculous . 
+  thank god the kernel is maintained by linus torvalds and we can have some competition to os x and windows . 
+  if linux did n't exist and hurd was the only option we would only be able to use the `` gnu operating system '' on a 10 year old machine because stallman would refuse to include proprietary kernel blobs and also no proprietary software which means in some areas no real work done . 
+  yes but in the end this is / r/linuxmasterrace and * bsd is not linux, 
+  i really wish apline linux was more popular . 
+  but why you say it is nearly free of gnu ? 
+  my guess is that it still uses glibc and gcc for kernel compilation no ? 
+  the distro that inspired arch . 
+  it is very user centric , bsd-style init system and ports package management . 
+  did n't you see msi ? 
+  skt won with 3-2, 
+  i removed this post to reduce clutter because you double posted, 
+  i know , sometimes it happens to me too . 
+  there were 2 identical posts and i removed one of them , nothing serious . 
+  historically the bsds derive from the original unix from the 70s . 
+  linux was written from scratch as a unix clone to avoid all the fuss going on between bsd and unix at that time , so they 're both unix-like oses . 
+  a difference is how they are developed . 
+  linux ( or gnu/linux ) is basically a collection of different sources producing an os ( linus with the kernel , coreutils by gnu , init system by lennard or whatever his name is , etc. . . ) which is great but also some say that makes the linux ecosystem a bit inconsistent . 
+  the * bsd on the other hand are developed by an approved team of developers and they make sure all the components work in harmony with each other and you have documentation directly from the devs . 
+  as desktop usage it is very behind because when bsd was fighting with unix , everyone jumped to linux so when the fuss ended and bsd was released for free , everyone was already on linux . 
+  bsd has split into several projects ( kinda like distros ) and they do not have good driver support and it is n't even a priority for them . 
+  the license is very permissive , for example you can take freebsd , close source it and you do n't even have to credit where you got it ( playstation 4 is running modified freebsd ), 
+  apparently * bsd has some advantages in the server market and whatnot but i do n't know anything about it, 
+  he 's actually not wrong . 
+  arch does not give you much low level choice . 
+  it is just a `` choose your own de by a cli '' distro . 
+  i just have to say that we 're all very lucky that stallman chose mach as a base for hurd instead of a bsd one . 
+  hurd failed and thus linux took its place . 
+  since linus does not have the freetard mentality stuff like proprietary kernel blobs and all that are being developed and proprietary software ported to linux so we 're actually getting a competitive desktop os . 
+  if hurd succeeded the most recent hardware we would be running the gnu os would be x200 or t400 because stallman would refuse to include proprietary firmware in the hurd kernel . 
+  not sure if it would be that simple, 
+  oh * dd * , also known as disk destroyer, 
+  point was that stallman would n't allow proprietary drivers on his kernel . 
+  well , there 's [ pony os ] ( http://ponyos.org ), 
+  you would n't be able to run on modern hardware because a lot of firmware is proprietary . 
+  the latest full libre laptops are the x200 and t400, 
+  i doubt it . 
+  proprietary software was a thing already and unfortunately free software does not make as much money as proprietary so it is inevitable . 
+  moot does, 
+   i downloaded the tar.gz file from the web, 
+  this is a normal mistake of linux newcomers . 
+  you should be installing packages from your repositories instead of downloading them from the web as you do in windows unless you know what you 're doing which is not the case . 
+  you have to run ~ ~ ` grub-mkconfig - o / boot/grub/grub . cfg ` ~ ~ to generate a new grub config file and it should list all of your os, 
+  edit : previous command was for bios , for uefi i believe it must be / boot/efi/efi / grub/grub . cfg, 
+  i 'd doubt it . 
+  unix certification is only for oses with true unix heritage and linux is a unix clone written from scratch . 
+  well what you added manually the ` grub-mkconfig ` would do it automatically . 
+   never came across that command while searching around, 
+  i learned that command from installing arch . 
+   is there a chance running that now will mess up what i have currently set up ? 
+  i do n't have a linux install ( yet ) on my current laptop to test it out but try running ` grub-mkconfig - o ~ / grub.cfg ` and my guess is that it will generate a grub.cfg on your home directory so it wo n't affect the one that you have in the / boot directory and then you can compare them, 
+  i think the problem is your ` . xinitrc ` file . 
+  you should first copy a default one and only then add modifications . 
+  and then just add in the end whatever you want . 
+  oh and put a ` & ` after each command , like this :, 
+  xsetroot - cursor_name left_ptr &, 
+   fstab is empty, 
+  what did you expect ? 
+  the fstab file contains information about what partitions to mount on boot , without it the system does n't know where and which partitions to mount . 
+  the archwiki clearly states that you need to an fstab and even provides a script ( ` genfstab ` ) to do it for you . 
+  the only significant contribution of gnu is the license and gcc . 
+  xorg for example i believe is also a big part of linux but does n't cry for recognition . 
+  rms says linux is `` just another component '' while in reality it is the most important one, 
+  you forgot your carat nose :\\ ^ ), 
+  but free vs open is much more reasonable discussion than linux vs gnu/linux . 
+  problem with the english language is that free can be free as in freedom and free as in zero price . 
+  other languages do not have this problem as they have a separate word for free as in freedom ( libre in french , livre in portuguese , etc. . . ), 
+  in reddit 's markdown syntax the \\ ^ symbol is used as a switch to write in superscript like ^ this . 
+  so 2 \\ ^ 3 becomes 2 ^ 3 after you post . 
+  if you want to use the \\ ^ character by itself you must backslash it like this : \\ \\ ^ shows up as only \\ ^ after you post, 
+  you 're now an epic memester, 
+  how do you feel with linux compared to os x in the `` power user '' side of things ? 
+  both os x and linux are unix-like oses . 
+  i was wondering what were the main differences, 
+  check the latest thinkpads x1 carbon , t450 ... 
+  also if you do n't want to spend that much consider [ an older used thinkpad ] ( http://ktgee.net/post/49423737148/thinkpad-guide ) . 
+  what about battery life ? 
+  os x is known for being very good with it, 
+  nice . 
+  i was skeptical at first to linux power management with my x220 ( did n't want the already used battery to become fucked up ) but by asking around and now testing myself , tlp and other tools actually do a very good job of power managing . 
+  i was talking about how * important * and not percentage of contribution of gnu . 
+  my point was that gcc and gpl were very important to linux at start and that was pretty much it, 
+  so , how it went ? 
+  this all the way . 
+  in stallman speeches he usually mentions that linux is * just * another component of an os . 
+  while in reality it is the most important one . 
+  just take a look at the status of kernel development and status of libc . 
+  the kernel has much more people focusing on it than to libc and any other component, 
+  love it, 
+  i do n't know how to explain it well but i feel that the kernel has a much bigger `` range '' .

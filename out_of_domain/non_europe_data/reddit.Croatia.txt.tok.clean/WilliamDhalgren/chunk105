@@ -1,0 +1,100 @@
+  though its worth going with at least 2 gpus ; there 's a sizable bump in the graph . 
+  for the old alphago at least . 
+  hah , great setup , brilliant !, 
+  ~ ~ edit : no taste for jokes about binary numbers here it seems :( ~ ~, 
+  very nice . 
+  ~ ~ gorating has n't yet used the last game , so that 's one reason why its off . ~ ~ ah , it just did - now at 3586 . 
+  its method , i ca n't follow it , maybe you can make some sense of it - http://www.remi-coulom.fr/whr/, 
+  i do n't quite understand why its using fan hui games as well , as this is clearly a stronger system . 
+  but at least it could be consistent then ; its using just the 5 official games that alphago won . 
+  deepmind at the time estimated alphago 's rating by using all 10 games , 2 of which it lost . 
+  think it was around 3150elo or so then , should check the paper . 
+  yes but its not like that takes forever . 
+  october 's value net trained 1 week . 
+  but - https://xkcd.com/1263/, 
+  there 's the cgos server . 
+  ofc at the moment no other bot could hope to touch the power of alphago ; there 's a huge gap . 
+  only point 1 seems is really a weakness . 
+  when a move it did n't consider much happens , it should def spend more time to read it better , esp when having so much time on the clock . 
+  time management code seems too primitive still, 
+  point 2 is its strength not a failing ; it needs to prioritize searching through likely plays , as opposed to trying all possible moves , because of how large go search space is . 
+  humans ofc need to do and do the same . 
+  naturally is n't the only thing it considers , as it reads situation more closely , expanding moves frequently visited in rollouts etc. 
+  just as it can ignore an important 1/10000 move as move 78 , not having read anything interesting with it , when able to read into it well it can also bump up a 1/10000 to the most visited move , as was that high shoulder hit it . 
+  just like with a human player . 
+  point 3 is irrelevant or marginal for improving its winning percentage . 
+  if it could read out a winning play it would do so and play it . 
+  when it ca n't it does nonsense . 
+  which changes nothing in the fact that it loses regardless . 
+  when the core algorithms are perfected , they can attack this issue with known techniques , in hopes of the accumulating mistakes of the opponent in an otherwise lost game occasionally giving it a chance at victory after all . 
+  i do n't even understand what you mean by point 4 . the policy network is likely to suggest recognisable patterns . 
+  october alphago was following such suggestions even too much . 
+  just like human perfunctory intuition , these are just moves that pop out from the net based on shapes common in games . 
+  and it definitely should read around them still ; sometimes the result of making such automatic moves is still not the best it could find . 
+  point 5 is false . 
+  reinforce algorithm treats winning and losing symmetrically , +1 is win -1 is loss . 
+  and no , a classic algorithm is not treating probabilistic evidence fundamentally unsoundly ... 
+  re 6 , you start with something they dont care about and proceed with a simple misunderstanding of the algorithm : if the goal of the game is defined as winning , they want to maximize winning . 
+  you simply misunderstand what a good board position here means ; it is trained simply on the basis on which board positions did in fact end up being losses or wins in the games in which they appeared , not by some count of the current score of any kind . 
+  so certainly any potential for the reversal of the situation that it can see is part of what makes some board a winning or a losing board . 
+  furthermore , it does n't simply evaluate the board as it stands ; it evaluates every node of its search tree ; it takes a path in that tree that maximizes its chances of winning given the best responses it can find for the opponent . 
+  so as deeply as it can read the position , it sees the situation to be as good as the best of the outcomes given the strongest of the comebacks it can find . 
+  i am wondering however how strong its reading is when rollouts need to do the heavy lifting . 
+  they 're quite dumb , maybe simpler than in other programs , and even when averaged together in the best of bots , they alone do n't give more than a 6 dan kgs player . 
+  so are they really bad when naked from a top-pro standpoint ? 
+  maybe the odd fighting moves we 've seen , and that were sometimes mistakes , are just this being exposed . 
+  so this article again claims they did in fact use pro matches . 
+  i gather demis stated otherwise ? 
+  can you trust the newspapers in anything they claim about this ? 
+  and puts the higher number on the hw used , that i 'm still trying to see if its actually ever attributed to a statement by deepmind or misread from the old paper . 
+   ps : if any of you are curious about the atmosphere of koreans just ask :d mind my imperfect english, 
+  i feel like a freak in my country ( croatia ) for even caring - nothing in the news anywhere - not in the press , not on tv , nothing ; yet i 'm staying awake from 5 to 10 am day after day to watch this . 
+  i imagine korea is quite different now ? 
+  just how hyped was this thing there ? 
+  what was the reaction to the stunning result ? 
+  also , i did n't know ppl were demotivated at chess because of the power of computers at it . 
+  thought the scene was quite healthy ( and never stronger ) ? 
+  in the nature paper they never used pro moves . 
+  ( facebook did however for their bot so it can be done ) they used 6d + kgs games instead for that network . 
+  and the comment i linked claimed demis is saying this is still the case -- but i did n't check and try to find him saying so . 
+  depends on the conventions used by the publisher in croatian at least . 
+  the ones i avoid do what you say , 
+  do they ? 
+  could be but i 'm not seeing even that - they do say `` expert moves '' but that does n't preclude they 're talking about the same dataset :, 
+   we trained a 13 layer policy network , which we call the sl policy network , from 30 million positions from the kgs go server . 
+  the network predicted expert moves with an accuracy of 57.0 % ** on a held out test set ** , using all input features , and 55.7 % using only raw board position and move history as inputs , compared to the state-of-the-art from other research groups of 44.4 % at date of submission 24 ( full results in extended data table 3 ) . 
+  more detail :, 
+   classification we trained the policy network p \u03c3 to classify positions according to expert moves played in the kgs data set . 
+  this data set contains 29.4 million positions from 160,000 games played by kgs 6 to 9 dan human players ; 35.4 % of the games are handicap games . 
+  ** the data set was split into a test set ( the first million positions ) ** and a training set ( the remaining 28.4 million positions ) . 
+  pass moves were excluded from the data set . 
+  each position consisted, 
+  and check with the referenced data table :, 
+   the results consist of the ** test and train accuracy on the kgs data set ** ; and the percentage of games won by given policy network against alphago 's policy network ... 
+  and indeed the numbers on the table match . 
+  so it has to be the accuracy of kgs 6d + moves prediction , no ? 
+  yeah , thought it was such a big deal . 
+  so , was it top news in all the media ? 
+  were the actual games seen by millions or were they only of interest to a minority of go players ? 
+  were they on national television or ? 
+  what 's the mood after the final score of 4-1 ? 
+  re your formatting issues , its some character encoding trouble you 've got . 
+  you should be using latin letters , but you 're using `` fullwidth '' latin letters - a variant of the latin alphabet made so that it would fit the width of characters in asian alphabets . 
+  this is what i could find :, 
+   some characters from asia are meant to be arranged in vertical columns . 
+  in this case it is crucial to use characters with the same width , otherwise the columns would n't be justified . 
+  in order to allow the use of latin characters in these vertical arrangements unicode has a set of latin characters ` copied ' in to a set of wide range characters . 
+  they are called `` fullwidth characters '' . 
+  i did n't check how to correct your problem , but here 's a correction of the post - you can edit your post and just copt-paste this :, 
+  yes , its quite high here btw , i do not know why my computer is typing these wierd characters ooo , lsd is like legendary player here . 
+  even you do not know go & you are not interested in go we all know lsd as a genious so it was quite astonishing when google said that they want to do go with him and all of us did not expected the losing of lsd in the first game it it was quite shock to all of us . 
+  and by the three consequential loss the interest in ppl became high and high and in match 4 people got so sooo i mean sooooooo exited and as lsd said ( if i won three match and lost the 4th match it would be tregidy but when he lost 3 games and won 4th it became so cheering ) it was very impressing and inspireing . 
+  now here korea people are now re realning go ( we actually learn go when we are young ( past day stories ) ) and it seemsto be a good phenomena but im warried about the consequence ( like the chess its popularity declined after deepblue 's win ), 
+  hah , fascinating that losing 1 game made it unthreatening , even with 4 wins !, 
+  thx for sharing . 
+  oh , could you speak about what happened to the chess world after deep blue ? 
+  i did n't think it had a decline in popularity after deep blue win ? 
+  did you read something about it ( could you link it ) or is it simply your impression ? 
+  huh , kinda but not relly ; there is 1/5 of the hardware power available , but its strength is not diminished to 1/5 , as it scales much worse than linearly with more hardware . 
+  though 1/5 of the system is n't much stronger than just one machine either . 
+  maybe 40 % chance of winning against the full system or so ?

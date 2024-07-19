@@ -1,0 +1,100 @@
+  values in the tooltips about critical damages added . 
+  new heraldic and new favour icons for the imperial navy favour . 
+  repositioning of the victory/defeat text in the scorescreen and capitulation feedback added . 
+  amelioration of the gui buttons for contextual actions ( cancel warp , redeploy , swap , execute . ), 
+  upper case during profile creation now possible . 
+  repair button moved to prevent superposition with other elements . 
+  suppression of the battlefield location line in the pregame screen . 
+  optimiza - ` shun, 
+  vertical synchronization is now available in the options . 
+  in the pregame and briefing screen , the texts wo n't be cut out no matter what the current resolution is . 
+  campaign cinematics can now be skipped with space or escape . 
+  in campaign , once the tutorial for port maw is done , you can now freely navigate in the game screen . 
+  dialogues are now stopped as long as the escape menu is open . 
+  renowned symbol added in the briefing panel . 
+  the background of the main menu has been changed to gain more visibility . 
+  deploy zones are now uniformed . 
+  the guest 's skill interface is now more reactive . 
+  retakes of the environment in the 3rd mission of the prologue . 
+  visual amelioration of the chaos favours . 
+  special effect for all ordnances added . 
+  new special effect for the nova cannon . 
+  adding a teleportation fx on the bomb countdown fx and on the ship deck . 
+  all the choices available in the main menu now have a description . 
+  double tapping the key assigned to a group of ships focus the camera on the first ship of this group . 
+  we deactivated bindings , in order to fix stability issues . 
+  binding will be back soon . 
+  battlin ', 
+  torpedoes now have the armour piercing attribute , considering armour as minimal when they hit . 
+  the slaanesh favour skill promise of slaanesh now silences the target for a given duration . 
+  transport ships are n't visible anymore for the attacker during the deploy phase . 
+  `` brace for impact '' bonus armor now applies to weaponry hit with the `` armour piercing '' attribute . 
+  the minimal armour value used by armour piercing weapon is now 25 instead of 20 . 
+  nova cannons now have more dispersion , the epicenter size of full damage is divided by 2 , and minimal distance now 6.000 instead of 5.000, 
+  the upgrades `` teef surplus '' and `` omnimessiah '' now give +1 upgrade slot to the ship . 
+  the `` crew in replacement '' penalty has been suppressed . 
+  admiral ships are no longer immune to insubordination . 
+  `` executing a captain in insubordination now grant the `` mutiny '' malus, 
+  cooldowns are increased by 20 %, 
+  combustion gauge refill speed reduced by 20 %, 
+  the troop value of the ship is reduced by 10 . 
+  additionally , the ship will randomly suffer from 0 to 2 critical damages . 
+  the mutiny malus lasts until the end of the mission . '', 
+  the cooldown of taunt is now 180 seconds instead of 120 seconds . 
+  ships now have a 45 % chance to be lost in warp if they disengage . 
+  the lost in warp state now only last 1 turn . 
+  the navigator has been modified . 
+  this crew now grant two bonuses : he reduces the disengagement by 2,5 seconds per level and reduces the chances to be lost in warp by 15 % per level . 
+  the cooldown of the stasis bomb is now 180 seconds instead of 120 seconds . 
+  the upgrades `` advanced survival pod '' and `` improved warp engine '' are deleted . 
+  the ships with these upgrades will see them unfitted and their renown cost will be refund . 
+  a new upgrade `` belt armour '' is now available to be fitted on the ships . 
+  this upgrade let the ship ignore the first critical damage on a system ( deck , engine , generator ) . 
+  a new upgrade `` generator security team '' ( `` big mek '' for orks ) gives the ship a bonus of 10 points in crew value against the enemy 's cancel warp . 
+  most ships ' fleet point costs have been adjusted . 
+  bomber damages improved from 25 per bomber to 30 per bomber . 
+  the cooldown of the void shield transfer is now 90 seconds instead of 45 seconds . 
+  the cooldown of the reinforcement is now 180 seconds instead of 150 seconds . 
+  the cooldown of the shokk-attack mega-kannon is now 120 seconds instead of 150 seconds . 
+  huge changes on the chaos weaponry :, 
+  suppression of the heavy lance battery replaced by the lance battery . 
+  rename of the heavy lance turret to lance turret ( stats not changed . ), 
+  creation of the prow launch bay :, 
+  creation of the light missile pod turret for the chaos escort ships . 
+  they now replace the light macro-turrets . 
+  light missile pod turrets have the following stats :, 
+  damage : 3, 
+  rate of fire : 6, 
+  critics : 0.3, 
+  attack : 1, 
+  iconoclast escort ship now have 6 light missile pod turrets instead of 9 light macro-turrets . 
+  creation of various missile pods . 
+  the only difference is the range :, 
+  missile pod turret :, 
+  x1 =  devastation , slaughter . 
+  heavy missile pod turret :, 
+  x1 =  acheron x2 =  desolator, 
+  super-heavy missile pod turret :, 
+  creation of varied new macro-turrets that split the old macro-turrets in different types . 
+  the only difference is the range . 
+  slaughter cruiser speed increased by 50 . 
+  missile pods rate of fire is now 6 . 
+  twin-linked battery rate of fire is now 3 . 
+  heavy macro-battery now have 8 attacks instead of 12 . 
+  twin-linked batteries of the devastation replaced by lance batteries . 
+  macro battery rate of fire is now 5 . 
+  heavy macro battery rate of fire is now 6 . 
+  all point costs have been revised accordingly . 
+  some `` ignore enemy armour '' changed to `` ignore most of the enemy armour '' . 
+  many corrections to tooltips and texts . 
+  sound effects on clicks in campaign added . 
+  matchmaking now tries to match admirals with similar levels, 
+  ok , i posted the patch notes but i ca n't be arsed to fix the formatting . 
+  sure , but i ca n't be bothered to fix the formatting . 
+  waaaaaaaaaagh !, 
+  da orkz ` av hit da beta , redi to smash in sum ` eads !, 
+  unleash da boyz best techy-ology on dose imperial and chaos gitz , n ' smash der little toy ships !, 
+  ` ere 's da patch notes :, 
+  da orkz ( only fakshun wot matterz ) iz now playable in da skirmishes and online multiplaya . 
+  fixed a crash when finding a match . 
+  fixed a bug causing the void-locust cloudswarm to kill ghost ships .

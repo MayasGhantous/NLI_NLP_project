@@ -1,0 +1,100 @@
+  fortunately , it 's very easy to quit , and there are few side-effects from doing so . 
+  i just needed the right trigger to realise i was wasting my life . 
+  excel ( iirc before the 2007 version ) had a 65535 row limit . 
+  * deny access to all the ips you 've seen , using whatever interface iis provides ( sorry , not a windows guy ), 
+  * cut down the bandwidth your site uses . 
+  maybe switch to a lightweight stylesheet , limit the processing each page does , make sure they 're cached appropriately if possible , consider making all or part of the site static html . 
+  * scrutinise the requests . 
+  do they go to the same url ? 
+  do they have a common referrer ? 
+  do they download just the page and not the images/css/js / etc ? 
+  look for anything you can use to identify ( and therefore block ) them . 
+  it may not even be a ddos , someone deeplinking an image on a popular site can cause ridiculous amounts of traffic . 
+  * harass your hosting provider continually for assistance . 
+  they can help , they 're just too lazy . 
+  if it does n't look like it 's slowing down soon :, 
+  * get another hosting account elsewhere , since your host appears to be a bit on the shitty side ( i 'm sure fellow redditors will be able to recommend some good windows hosts ), 
+  * get another temporary domain ( cheap ), 
+  * set up everything on the new domain, 
+  * put a note on the old one ( ideally on a page these requests are n't hitting ) that you 've moved temporarily while you sort the problem out . 
+  * when it 's all done , shift everything over to the new hosting . 
+  good luck man . 
+  it 's not very interesting , but here 's what made me quit :, 
+  i had spent most of a weekend playing , been on a few raids , got some good drops , and saved the day a couple of times . 
+  i was tired , but feeling good about myself . 
+  i was on a bit of a high from it all still when monday rolled around . 
+  i was brought down to earth by a pissed off girlfriend , and a pissed off boss as i 'd managed to get nothing done . 
+  although i understood why they were pissed off , my brain could n't reconcile feeling good about all the `` stuff '' i 'd done in-game with all the responsibilities i 'd discharged in order to play . 
+  i almost felt i was owed some `` credit '' for all the things i 'd achieved in the game . 
+  strange feeling , but that was enough for me to realise the difference between the false feelings of satisfaction i got from the game and real life . 
+  i stopped shortly afterwards and never looked back . 
+   wo n't work , has to be done at the gateway level . 
+  once it hits his box , shared or no , a denial of service has done its job . 
+  not an unreasonable point , but i was under the impression that he did n't have the ability to do that . 
+  i also get the feeling that this is n't a * huge * attack because it 's gone on for a long time ( if you have a botnet capable of a large sustained attack , then you 're probably going to use it on something other than a random small ecommerce site ) . 
+  plus if it was that big , i suspect the host would be more forthcoming with assistance , as it 'll be crippling their entire network . 
+  my assumption was that it is , like many small sites , a relatively inefficient set of scripts that ca n't handle significant load ( that 's not intended as an insult , btw . 
+  nothing wrong with that , if you do n't need the capacity then ignoring issues of scaling can make the job a lot easier ) . 
+  webservers are generally capable of serving static pages orders of magnitude faster than dynamic pages with database lookups , etc. 
+  so blocking that stuff at the webserver may be enough . 
+  the second domain suggestion is more of a last-ditch attempt to retain business that 's lost . 
+  the guy probably should find a new host anyway . 
+  if the attack is relatively naive , then they * may * not spot the new domain . 
+  if they do , then it 's still splitting their attack ( they may even opt to leave one of them alone ) , and it gives the new host a bit of a workout to see how they handle the situation , 
+  yes , this would be the first bit of information i 'd look for . 
+  i agree with pretty much everything you 've said there man . 
+  you 're like a less attractive version of me !, 
+   the fifth element - bruce willis ' 2nd best movie , after die hard . 
+  yes !, 
+  i 'd also like to throw in twelve monkeys ( willis is excellent in that too ) , and children of men . 
+  maybe gattaca , i know some people did n't like it much , but i thought it was a nice bit of scifi . 
+  there was a bbc tv version of hitchiker 's guide . 
+  it 's excellent and highly recommended ( definitely better than the film ) . 
+  the basic idea behind the hypothesis of intelligent design is that of `` irreducible complexity '' . 
+  that is , people who subscribe to the idea believe that there are certain structures in nature that could not have come from something simpler - all the parts need to be there in order for it to function at all . 
+  one example ( although it 's not one that 's cited often , as it 's easily refuted , but it makes a good example which does n't involve talking about obscure bits of bacteria ) is the eye . 
+  without a near-perfect lens in almost exactly right spot , and the cornea arranged properly , it 's not very useful . 
+  the claim is that this could n't have come about solely by evolution , so must have been the result of a designer - or god . 
+  some proponents of the idea go further and suggest that evolution on a smaller scale ( `` micro evolution '' ) happens , which is tricky to refute as there are many examples in our recorded history , in laboratories , and several within people 's living memory . 
+  but evolution on a larger scale ( ie , one species becoming another ) does not . 
+  there 's less direct evidence for this latter case ( dubbed `` macro evolution '' ) , simply because nobody is alive long enough to witness a fish evolve legs , for example . 
+  i hope i 've done a decent job of explaining the idea without ( obviously ) falling onto one side of the fence or another . 
+  i do n't profess to fully understand the current accepted thinking amongst proponents of intelligent design . 
+  however , it 's generally accepted amongst those that actually try to debate this that * some * degree of evolution exists ( there are many examples that you can go out and study yourself , so it 'd be foolish to refute it entirely ) . 
+  without the notion of separating evolution into `` macro '' and `` micro '' , they 're basically invalidating their own hypothesis . 
+  or at least making it significantly more complicated ( which bits evolved and which were designed ? 
+  that and not wanting to lose the `` moral majority '' vote . 
+  good work google . 
+  do n't put your laptop on the floor ... 
+  why would you photoshop that ? 
+  you lazy bugger . 
+  ( the rest of the page is rendered with cleartype , but the name is n't . ), 
+  now go and do it properly , or you 'll never learn . 
+  yeah , that works . 
+  you 're a bit limited in what you can do using designmode/contenteditable , but it works if you only want to make small edits . 
+  designmode was the oldschool method , which applied to the entire document . 
+  ms subsequently came up with contenteditable and implemented it in ie . 
+  unlike designmode , contenteditable could be applied to single elements , and it also ( perhaps inadvertently ) fixed a few bugs . 
+  for a long time , firefox/etc only supported designmode , but they added contenteditable support in ( i believe ) 3.0 . 
+  `` i chose the name bull for a reason '', 
+  `` cos it 's bullshit ? 
+  yeah i know , i 'm psychic !, 
+  i knew that ! '', 
+  i 'm not installing silverlight , at least not right now . 
+  i may put it onto a virtual machine to see how it is , but i ca n't see myself installing it on my main desktop box . 
+  i 'm not going to look down on anyone if they do decide to install it , but i personally have some concerns over it and am ` voting ' the only way i know how - by not using it . 
+  my biggest issue with it is that there 's no full linux version . 
+  i 'm no fan of flash , either , but it has at least been in use for many years , and proven itself to not be * too * evil . 
+  and there is a linux version ( such as it is ) . 
+  i honestly hope that silverlight does not `` catch on '' . 
+  i have never liked flash , i do n't think it 's the right way to produce content on the web , the last thing we need is a similar-but-different thing that does more-or-less the same job . 
+  i 'd rather put my hopes in html5 . 
+  it 's made up : http://www.snopes.com/military/lighthouse.asp, 
+  i know it 's all in vogue to hate it , but i am not ashamed to say that i love helvetica . 
+  i particularly like to see it used in places that are n't really heavily * designed * , like `` business documents '' , invoices , the small functional text at the bottom of letterheads and advertisements , etc. 
+  not sure why , just makes me happy . 
+  in this day and age where any idiot can and does `` design '' documents , signs , etc with little or no training , i think you could do a lot worse than blindly pick helvetica by default . 
+  certainly beats looking at arial . 
+  i do n't profess to know much about rc planes , but surely it 'd be easier to have a controllable , reversible motor driving a fixed prop ? 
+  otherwise that 's going to have to be a pretty intricate mechanism . . 
+  i keep catching the red/orange in the corner of my eye , thinking my envelope is lit up , then look up and feel sad because nobody loves me :'(,

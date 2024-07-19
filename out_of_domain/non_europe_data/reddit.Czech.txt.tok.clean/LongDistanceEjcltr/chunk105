@@ -1,0 +1,100 @@
+  and it 's also what has been used to create ryse 's cinematics . 
+  the conclusion is that `` real-time '' in this case probably is n't real-time . 
+  look up real-time computer graphics on wikipedia . 
+  the entire point of calling something `` real-time '' is that you have a given deadline , upper time limit that is acceptable for the system to generate a frame . 
+  in videogames , it 's somewhere around 30fps . 
+  20fps is pushing it . 
+  0.1 fps is pretty much an offline render captured to a video/image batch . 
+  if your frame takes 10 seconds to render , it 's not much different than when it takes pixar 3 days ( from the real-timeliness point of view that is ) . 
+  this is why you ca n't trust `` in-engine '' game trailers and should always look for that `` real-time '' label somewhere in the description ( or , even better , `` gameplay captured in real-time '' ) . 
+  yes , real-time implies a certain level of speed for the given purpose . 
+  a real-time software system controlling something critical ( like a rocket ) may have a requirement of 1000hz - if that system is not able to do `` a thing '' every 1ms it has failed as a real-time system . 
+  in real-time computer graphics it 's not as strict and 20hz will probably do , but it 's always going to be x or faster , where x is the lowest number of frames you 're willing to call playable . 
+  1fps is not playable by any metric ... so calling something running at 1fps `` real-time '' makes no sense within the expected parameters of a video game . 
+  to get back to the op 's image : the point i 'm trying to make is that the engine can output a tiff image say every 10 seconds , you then take 30 ( or 60 or whatever ) of these , glue them together ( or let the engine do it for you ) and you have one second long video of your scene ... which was generated not in one second , but 300 ( or 600 or whatever ) seconds . 
+  this is exactly how all offline rendering tools work . 
+  so ... this image is n't a screenshot from within the editor while it 's running and ( most likely ) is n't a screenshot of a 3d scene you could walk in any `` normal '' speed - this image may have taken 10 seconds to generate ( and we know cryengine has facilities to make this kind of output easy ) . 
+  while the image looks great , it could take decades of development to produce a gpu able to render this scene in real-time ( with all bells and whistles , 8k resolution and no streaming problems ) . 
+  or a couple of next-gen titans ... we do n't really know , because the image is not accompanied with performance data ( except `` i almost burned the pc '' ) . 
+  tl ; dr : do n't count on this being representative of any game or even ( real-time ) ce itself . 
+   that is why the ships look just as good in-game ? 
+  well they 're the same models with the same materials , why they should n't ? 
+  the basics look the same , it 's not like they 're creating extra assets just for the cinematics . 
+  what is different is :, 
+  a ) absence of any kind of streaming and lod switching artefacts in these cinematics ( which are clearly visible in all space/planet gameplay footage of the game - terrain streams in , room contents stream in ( sometimes the streaming is still in progress while the doors are already half open ) , space stations `` build up '' in front of your eyes as you get out of warp, 
+  b ) absence of aliasing - the game does n't have a robust aa solution yet , but the cinematics are spotless with pretty much zero aliasing ... because they 're downsampled from 8k or 4k, 
+  example : [ this is not possible in the actual game ] ( https://www.youtube.com/watch?v=zg-82takeqk ) ( yet ) . 
+  it 's just not how the game looks right now ( two years after the video ) . 
+  it 's not how the gamescom 16 demo looked like . 
+  the base assets may be the same , but the rendering quality is not . 
+  the game is n't capable of looking like that - not at that speed , not without any lod switching , not with that absence of aliasing , not with that spotless super-high quality sample dof ... 
+   does this mean when i used to play left 4 dead 2 at 7 fps , it was n't real time ? 
+  umm ... 
+   it 's always going to be x or faster , where x is the lowest number of frames you 're willing to call playable, 
+  that 's why pc games have suggested minimum configurations - so you know that the game will be optimized and configurable to such a degree that it will be playable on that minimum configuration . 
+  the absolute number of frames will be different from person to person , but for most people it 's between 20 and 30 fps . 
+  if a real-time system that handles millisecond accurate firing of maneuvering thrusters on a space ship `` misses a clock '' once in a while , the result may be catastrophic . 
+  nothing catastrophic will happen if your framerate drops in a game , but the principle is the same - you 're operating within a time constraint , an interval you should not ( or you must not ) miss before starting a new cycle . 
+  that is the * entire * point of a real-time system . 
+  just like there are [ real-time path tracing engines ] ( https://home.otoy.com/render/brigade/ ) ( path tracing is typically reserved for film production/cgi and hour + frame times ) , the cryengine can be a tool capable of offline/non-realtime rendering . 
+  sure . 
+  if you just want to know what is the maximum possible fidelity the engine can produce regardless of time spent on a frame . 
+  perfect for ~ ~ bullshots ~ ~ screenshots :p ( even though these days bullshot creation is often an [ art process ] ( http://kotaku.com/how-a-fake-video-game-screenshot-is-made-1660404535 ) , some of them are photoshopped creations made by artists who specialize in this kind of work ), 
+   like did they just sit there for half an hour as each frame rendered ? 
+  in this case , the guy could have done just that as the framerate was in the low teens when the barrels did n't interact and during the 10 second frames he did n't really move . 
+   or can you `` record '' an interactive scene at low res/detail , then replay your actions to re-render ? 
+  of course . 
+  scripting is one of the most basic game engine features . 
+  camera movement , player movement , npc movement ... all that can be scripted and/or recorded . 
+  not only that but the npc movement can be driven by ai operating within nav meshes , camera can use curves and/or procedurally generated movement etc. . . 
+  i 'm not an expert on these things ( insert crappy lennyface joke ) , but he seems way out of her league . 
+  and he 's obviously not doing it for money . 
+  they got this far ... 
+  i ca n't imagine she does n't know . 
+  humiliation fetish , same reason `` ass to mouth '' and `` ass to other girl 's mouth '' are popular subgenres of anal porn ... he would n't do it if there was n't market for it, 
+  maybe you 'd forget if you brushed your teeth 3-5 days a month . 
+   they 're still terrible, 
+  maybe in the uk ( i do n't live there , ca n't tell ) . 
+  they 're completely fine in general . 
+   staff need to keep an eye on them non-stop, 
+  there 's one employee for 4 + of these . 
+  the employee is there to watch for thieves and to help people with hard to scan shit . 
+  the throughput is very high compared to standard checkout counters . 
+  i 've critized the ban of political content on r/videos in the past and i continue to have issues with some of the politically charged content being allowed ... but i have to say the ban has been worth it in the end . 
+  retrospectively looking at this election cycle , i ca n't even begin to imagine the amount of garbage and propaganda this sub would be filled with if politics were not banned . 
+  and the amount of interesting vids we would have missed because of that ... yeah , it was a good choice after all . 
+   i am simply sick of hearing about it . 
+  nice of you to project your feelings into the rules of the sub . 
+  this always leads to great things . 
+  i 'm willing to bet that this will be an attempt to compete with the likes of forza horizon and the crew ( i.e. 
+  open world multiplayer racing games ) as these two kinds of experiences seem to be the only strong selling racing game types these days . 
+  ( let 's not count project cars/gran turismo etc. , we know that nfs is never going to be a simulation . ), 
+  somehow people who lost yesterday think that they 'll convince the other half of the country by ... calling them all kinds of names or beating them up . 
+  if after all the things that happened over the last year or so you still think you can shame people into not voting for trump , i do n't know what to say to you . 
+  better hope that trump will become less popular as a result of his presidency , because you 're sure as hell are not convincing anybody to switch sides . 
+  `` theliberallover '' ... `` russians '' ... k then, 
+   i 'm surprised at how many people here are suggesting wikileaks should not have released information they had, 
+  i 'm not . 
+  hillary supporters are butthurt right now and even though their team played dirty , it was still their team . 
+  instead of focusing on the problem ( corruption within the dnc and the election of an unpopular candidate ) , they 're trying to shoot the messenger ( wikileaks ) . 
+  people are trying to find some connection to the russians and ask why there were n't any trump leaks - as if that 's in any way relevant . 
+  but that 's what humans do , tribe mentality . 
+  let 's say the emails would be stolen by the russians and released by the russians ( as in officially ) . 
+  if their authenticity could be cryptographically confirmed , the fact that the russians released them would n't change a thing about the reality they represent . 
+  nyt is 100 % biased . 
+  they were , are and will be as much anti-trump as you can be . 
+  conspiracy theories about snowden being a russian agent or whatever and wikileaks being controlled by putin are just that - laughable conspiracy theories . 
+  your history is full of enoughtrumpspam & co. posts , how can you even begin to paint yourself as unbiased is a mystery . 
+  so , according to you , the very fact that nyt 's editorial board officially endorsed hillary in september is ... not biased ? 
+  they tried to come up with as much dirt on trump as they could while ignoring or under-reporting on hillary 's dirt . 
+  why use ue4 or ce when you can use your own garbage engine . 
+  this keeps fucking up so many titles , it 's not even funny . 
+  i mean , i 'm not saying these large companies should only use ue4 or ce , but at least form your own core technology team and build your own , properly designed and optimized engine like ea does ( frostbite ) . 
+  both bethesda 's and ubisoft 's games suffer terribly from half-baked under-funded engines , it 's not even funny . 
+  and bethesda even has idsoftware and idtech !, 
+  btw this quote from the game 's wiki :, 
+   the game will run on arkane 's new internal `` void '' engine , as opposed to unreal engine 3 that was previously used in dishonored . 
+  the void engine is based on id tech 5 with art director sebastien mitton saying the team kept '' [ roughly ] 20 percent '' of the original engine . 
+  you 're also pc , bro ? 
+  sweet , where from ? 
+  bro , i had no idea there were like-minded individuals in this thread that defended social minorities .

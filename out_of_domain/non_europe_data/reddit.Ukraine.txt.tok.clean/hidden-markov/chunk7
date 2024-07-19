@@ -1,0 +1,100 @@
+  - [ ghs12 ] homomorphic evaluation of the aes circuit, 
+  - [ ln14 ] a comparison of the homomorphic encryption schemes fv and yashe, 
+  - [ gsw13 ] homomorphic encryption from learning with errors :, 
+  conceptually-simpler , asymptotically-faster , attribute-based, 
+  - [ clt14 ] scale-invariant fully homomorphic encryption over the integers, 
+  yes , but i 'd say it 's a consequence of hybrid aes+fhe encryption being only feasible solution for private cloud . 
+  thanks , will have a look . 
+  seems like bgv and dghv are in trouble . 
+  anyway , based on lattices . 
+  yep , the certain organization i mentioned that is providing fhe backend for cryptdb is developing gsw implementation . 
+  i 've never seen any sane public implementation though . 
+  one interesting thing about gsw is that noise growth during multiplication depends on the order of multiplication because of non-commutativity of matrix multiplication , so you can reorder terms in an optiomal way . 
+  regarding gsw being state-of-the-art , i 'm not sure . 
+  it is not clear to me if batching , scale-invariance , and compression can be applied to it , whereas they can be applied to bgv , dghv , and ntru-based yashe and ltv . 
+  also , multiplication on matrices is sub-quadratic whilst multiplication on polynomials is log-linear . 
+  do n't really understand what you mean . 
+  can you send a link ? 
+  i think they mean that without certain compromises you ca n't search in better than linear time on encrypted data ( try it on paper , binary search becomes linear search when computed homomorphically ) , while oblivious ram protocols by definition require that data retrieval is sub-linear . 
+  i 'm using fi too , but do n't understand the connection between hangout and fi . 
+  care to elaborate ? 
+  the transactions you mentioned are not related to wikileaks :, 
+  edit : i have checked all of their recent transactions using coinsecrets api , there 's nothing , see my comment in the top level . 
+  these transactions do not contain any extra metadata embedded using common ways of embedding additional metadata into bitcoin transactions . 
+  i checked this using coinsecrets.org api for 50 most recent outbound transactions from the wikileaks address . 
+  see the script : http://pastebin.com/ypukpkyu, 
+  edit : clarified that i 'm talking about additional metadata . 
+  question : is there any reason why wl would want to release the dms keys without shouting it out loud ? 
+  no , this is some random transaction that happened to be in the same blockchain block that 50 btc transfer made by wikileaks was . 
+  the reward was 20k , but wl have sent 30k ( 41 btc ) to that wallet :, 
+  why ? 
+  the id of the transaction mentioned is in ` txid ` field : ` 2b18fead877adde81b40fbaae3bddb8c5e2c300f2fe369f5820bdd73a6f19c2d ` . 
+  details for the transaction :, 
+  the address of the sender is ` 1prasoshejkfurw6xgb6iywftzqcatrmnc ` , it 's not wikileaks address , is it ? 
+  please explain yourself . 
+  i have checked the ` op_return ` for all of their new transactions using the coinsecrets api , nothing there : https://www.reddit.com/r/wikileaks/comments/5dtl6y/wikileaks_made_some_interesting_transactions/da7e913/, 
+  the whole code blob with ` doc proof ` you have seen is from unrelated transaction from bitcoin address ` 1prasoshejkfurw6xgb6iywftzqcatrmnc ` , as i mentioned in the parent comment . 
+  the ` doc proof ` thing is unrelated to wikileaks transaction . 
+  i 'm almost giving up on explaining it in the other thread : https://np.reddit.com/r/wikileaks/comments/5dtl6y/wikileaks_made_some_interesting_transactions/, 
+  no , they did not so far . 
+  those findings were wrong . 
+  this message is cool , but does not accomplish much . 
+  authenticity will remain questionable until they publish anything signed with their pgp key . 
+  technically , this thing only shows that an entity controlling the wallet that the wikileaks wallet transferred 41 btc to , has put this message to the block chain . 
+  to my non-native-speaker ear these sound the same , but i fixed to plausible , thanks . 
+  no , the model is a binary text classification model . 
+  it is attacked by swapping a few words in each sentence using the model 's gradient towards a target class as a guide . 
+  heh , it is a neckbeard detector . 
+  i 'll train on other more standard data sets later . 
+  this was supposed to be applied to privacy , but 17 % success is n't good enough . 
+  i totally agree with you , it 's not very good . 
+  misspellings were used to fool spam detectors a while ago , and recently to fool google zigzag 's hate speech detector . 
+  i think misspellings are not `` stealthy '' enough against non-trivial adversary . 
+  edit : extra extra word, 
+  nice , i did n't see that one , thanks . 
+  by non-trivial i meant an adversary who knows they are going to be attacked . 
+  sane spam filters are now resistant to misspelling masking because they were adapted to adversarial settings . 
+  it 's easy to correct a misspelling by looking at close words in the vocabulary . 
+  the idea behind the approach in this repo is to produce a good paraphrase , which is not error-correctable like misspellings are , that exploits the structure of the model to flip the classification outcome . 
+  the implementation of course ended up far from this ideal world , 
+  this scheme is not perfect , because the ciphertext expansion factor is o ( 6 ) , which is a lot . 
+  this could be improved if base85 encoding is used , the expansion would be o ( 5 ) . 
+  `` and now it ends '', 
+  grad school : expectations vs. reality . 
+  first year vs second year when you drop out . 
+  the financial support page is here : http://www.helpeuromaidan.info/donate, 
+  you can donate with paypal , bitcoins , and even litecoins . 
+  if you ca n't donate for any reason , then why not up these comments so that more people can see them :, 
+  - http://www.reddit.com/r/worldnews/comments/1vtpa8/dear_subscriber_you_are_registered_as_a/cew15xg, 
+  - http://www.reddit.com/r/worldnews/comments/1vq9vh/ukraines_capital_is_literally_revolting_livestream/cew0f1s, 
+  finally , you can share the link above ( http://www.helpeuromaidan.info/donate ) wherever appropriate . 
+  been on maidan since its very start on 22th of november , 2013 . 
+  it guy , live in kyiv . 
+  used to live in europe for a year . 
+  on maidan i 'm mostly helping in the rear . 
+  edit 20.2.2013 : i have answered all the questions as of 00:50 utc . 
+  thanks for taking part !, 
+  going to sleep now . 
+  edit 21.2.2013 : here again , can answer more questions . 
+  edit 21.2.2013 18:40 utc : going to maidan for now . 
+  you still can ask questions here , i will answer later . 
+  edit 24.2.2013 sorry for not updating . 
+  have no time because of the latest events . 
+  i 'm talking about this [ article ] ( http://hackingdistributed.com/2013/01/29/mongo-ft ) . 
+  is there any help needed with resolving them ? 
+  does anyone know ? 
+  short story in the headline . 
+  long story . 
+  until 2012 , ukrainian was the only official language in ukraine . 
+  in 2012 a [ new law on languages ] ( http://en.wikipedia.org/wiki/legislation_on_languages_in_ukraine ) by party of regions mps was passed . 
+  the main point that made it different from the previous law is that languages that more than 10 % of people in the region speak could be officially used in formal govt documentation , courts , schools , etc. 
+  to say it was criticised is to say nothing . 
+  there were fistfights in parliament , there were numerous petitions and calls against it by government comissions , ethnic minority unions , activists . 
+  there even was a small maidan against it ( called ` language maidan ' ) . 
+  problems with the law :, 
+  it was passed with [ severe violations ] ( http://translate.google.com/translate?sl=uk&tl=en&js=y&prev=_t&hl=en&ie=utf-8&u=http%3a%2f%2fwww.pravda.com.ua%2fnews%2f2012%2f07%2f5%2f6968170%2f&edit-text=&act=url ), 
+  it was poorly written having legal mistakes . 
+  four government agencies concluded that it violated the constitution . 
+  it allowed tv stations to air in any language they wanted . 
+  before , there were quotas , something like , 60 % should be in ukrainian . 
+  since ukrainian language is less popular than russian in ukraine , concerns grew that ukrainian language could become an almost dead , unused language , like belarusian , as a result of the law .

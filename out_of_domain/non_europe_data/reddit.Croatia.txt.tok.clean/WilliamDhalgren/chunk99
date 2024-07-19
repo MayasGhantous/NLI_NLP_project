@@ -1,0 +1,100 @@
+  the only uncertainty here is how many elo points they needed to get . 
+  their estimate depends on ratings of fan hui and in particular the 2 losses in the unofficial games . 
+  and also on ranks of other go programs on kgs , and them + 4 handicap stones , though if you look at the graph there is something strange with these handicaps ; looks to me like those 4 stones gave 3 ranks , from 6dan kgs to 9dan kgs . 
+  now they did something odd with handicaps - value network ca n't play non-komi games , as its evaluation was all trained w komi , so they gave them an extra stone instead of removing komi , if i understood that part of the paper right . 
+  but that should only make the handicap higher not lower ? 
+  anyhow , they knew they need say 500ish elo to be competitive , and they can measure that easily . 
+  they tested 1.0 against other bots with 4 ( 4.5 ? ), 
+  handicap though . 
+  they thought october alphago was significantly stronger than hui . 
+  estimated it at ~ 5p . 
+  so maybe lower % is enough too ? 
+  that 's how i understood it , but is n't komi worth 1/2 a move ? 
+  so getting an extra move but leaving komi should be 1/2 a stone more handicap , right ? 
+  anyhow , this is what the paper says : in the less technical part it states ;, 
+   to provide a greater challenge to alphago , some programs ( pale upper bars ) were given 4 handicap stones ( i.e. 
+  free moves at the start of every game ) against all opponents . 
+  programs were evaluated on an elo scale : a 230 point gap corresponds to a 79 % probability of winning , which roughly corresponds to one amateur dan rank advantage on kgs, 
+  and in the more technical part :, 
+   we also played handicap games where alphago played white against existing go programs ; for these games we used a non-standard handicap sys - tem in which komi was retained but black was given additional stones on the usual handicap points . 
+  using these rules , a handicap of k stones is equivalent to giving k \u2212 1 free moves to black , rather than k \u2212 1/2 free moves using standard no-komi handicap rules.we used these handicap rules because alphago 's value network was trained specifically to use a komi of 7.5 . 
+  so they state their handicap is actually 1/2 a stone higher ( edit : wait , higher ? 
+  no , says it reduces the effective move advantage by 1 rather than by 1/2 , so lower ? 
+  but it says `` but ... given additional stones '' ? 
+  this part was confusing me before too ) than what it would traditionally be . 
+  and that a rank of difference is 230 elo . 
+  then there 's a table of how strong particular opponents were . 
+  crazystone is 1929 elo , zen is 1888 , pachi 1298 . 
+  but with 4 handicaps , crazystone is 2526 elo , zen is 2413 , pachi 1756 . 
+  so crazystone got 597 elo , or 2.6 ranks with 4 stones , zen 525 elo or 2.28 ranks , pachi 458 elo or about 2 ranks . 
+  is n't that quite low for effectively ~ ~ 4.5 ~ ~ 3.5 stones ? 
+  these programs just do n't use handicaps well , or is the actual gain really so low w more stones ? 
+  one person can not play enough games in their lifetime to make a meaningful contribution to the training of these algorithms . 
+  we just do n't know how to train such a large network well with such a sample size . 
+  if they solved that and they were able to train on sedol 's games , i 'd be far more impressed than by a 5-0 win , as that 's a fundamental contribution to the field of deep learning . 
+  where did you get such a low number of 30000 positions ? 
+  alphago 1.0 trained both the policy and the value network on 30 million positions ; the policy network using the database of strong kgs games , and the value network self-play games . 
+  presumably they 've used the database of all pro games for 2.0 ? 
+  its like half the size of the kgs dataset , but obv stronger ? 
+  as a guy dedicated to computer go for so many years , i 'd think he really likes what he 's doing to the world of go . 
+  this has to have been his dream from the start , no ? 
+  what its doing to a top pro is winning against him ; that 's the whole point of making a computer play go !, 
+  that 's certainly how i see it , with just an occasional though recurring interest in computer go , machine learning and go - a true moment of elation !, 
+  ideally it would be a cloud service anyone could play against for a per-match or per-minute fee ( to cover the expenses such as the power bill , whatever the hw could be doing otherwise , and some profit ) . 
+  if they do n't want to develop it further nor use it , why not github the code ? 
+  anyone could create a business on such a cloud service then . 
+  presumably pros would benefit from such an opportunity . 
+  yup , but input 's not the reason why they 'd use an api anyhow -- they need to do vision then to understand what 's on the screen , and on quite a high level . 
+  i could see them liking that challenge , though ; that 's how they approached atari games after all . 
+  interesting !, 
+  but strange ; bw is so much older , how come it does n't have a huge replay library in comparison with sc2 ? 
+  depends to what extent they care to emulate what gimps humans . 
+  maybe they do n't at all . 
+  maybe an apm or reaction limit is all they care to emulate . 
+  vision is hard enough for computers still anyhow . 
+  alphago 1.0 could n't even work in no-komi games . 
+   we also played handicap games where alphago played white against existing go programs ; for these games we used a non-standard handicap system in which komi was retained but black was given additional stones on the usual handicap points . 
+  using these rules , a handicap of k stones is equivalent to giving k \u2212 1 free moves to black , rather than k \u2212 1/2 free moves using standard no-komi handicap rules . 
+  ** we used these handicap rules because alphago 's value network was trained specifically to use a komi of 7.5 . 
+  hm , ppl do n't expect sedol to win even one game ? 
+  that 'd be disappointing to deepmind i 'd think , as they ca n't estimate how strong it is then . 
+   lee sedol is effectively playing against a large team of go players ,, 
+  that 's a totally silly way of putting it . 
+  no , it just means alphago learned from the games of other players , just like every pro does . 
+  but alphago could study a far larger number of games . 
+  the old alphago we saw beat fan hui did n't even seem to use much hardware for training - paper gives 50gpus for each of the 3 stages of training , and they 're done sequentially so it could be the same ones . 
+  now for the tournament to evaluate which configuration is better , they could easily be tapping cloud resources heavily . 
+  and we do n't yet know what they 've done in the last 5 months , and surely google threw some resources their way before an important match . 
+  edit : also i wonder , when they say cpu , do they mean actual separate chips , or just cores ? 
+  cuz in the paper a non-distributed version of alphago ( which is n't that terribly weaker than the final thing btw ; all the extra power buys them maybe just 1 stone , 250elo ) is an 8gpu machine with 48 cpus . 
+  how the hell would one put 48 cpus on a single machine ? 
+   equating alphago to a pro is a totally silly way of understanding what 's going on . 
+  sure ; my intention was n't to imply an equivalence , rather , just to make a comparison . 
+  if pros that 've studied many games are n't by virtue of this a team of pros , why would you understand what alphago learned from studying many games to make it anything akin to a team of pros ? 
+   having studied neural networks myself , i agree with the article 's portrayal of this aspect, 
+  having studied neural networks myself , i find it anything but ; but in any case this is a rather naked argument from authority ; what conclusion is one supposed to draw from the fact that you liked a description in an article ? 
+  so , to be more precise , this one component of alphago trained on a move prediction task ; what 's the most likely next move of a game , given a board position . 
+  this is used to focus its search tree on plausible moves , and it searches the consequences of such plays , evaluating each node by both a value network and conventional monte carlo rollouts . 
+  again , where is the similarity of this rather abstract algorithm and playing against a team of pros ? 
+   by your logic , it follows that the older pros who had more time to study games should beat the younger pros who were alive for less time . 
+  for one , i certainly do n't think alphago 's strength comes from having been trained on many more games . 
+  in fact , if they could train a network with as many parameters to convergence effectively on a smaller sample size , they could prob focus on a sample of stronger games only and thus have better move generator . 
+  another thing is that just a move generator is not the only important component of alphago . 
+  at least two other programs have strong move generators , using similar game samples , last version of zen and facebook 's deepforest . 
+  both are just strong amateurs . 
+  value network is at least as important , and the most novel component . 
+  we 'll see exactly what deepmind did to improve the system when the new paper comes out , but i suspect significant advances were done precisely there . 
+  its just that it would 've been dishonest from me to raise that comparison with how pros learn and not mention the huge difference in the quantity of games studies . 
+  i totally agree that how neural nets learn is quite different to what humans do . 
+  i still do n't understand how anything neural nets do resembles playing against a team of humans though . 
+  hahaha , true , true , but i still think they want some clear datapoints , if they develop the system further , to know how far they 've come . 
+  largely true . 
+  however , the value network is a relatively revolutionary component . 
+  nothing similar has been done before , and the common wisdom was that a good evaluation function for go is not feasible , and avoiding that problem is why ppl did rollouts instead . 
+  the small fast net is nothing new either ; programs like crazystone , zen and aja huang 's erica used that before . 
+  re ladders , are n't they fundamental for the fast rollouts only ? 
+  there 's quite a bit of conventional feature engineering by hand going on there , because that component needs to be extremely fast , and large neural network inference certainly ls n't . 
+  what 's the purpose ? 
+  to calibrate the elo rankings of the machine as it surpasses all individual players or ? 
+  that 's something ppl working on other bots were wondering too ; can it deal with complex ko , seki and i think semeai . 
+  other bots do n't particularly well , and it did n't look like policy & value nets helped .

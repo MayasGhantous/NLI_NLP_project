@@ -1,0 +1,100 @@
+  yeah , but the combat sucked rather in me1 . 
+  the mac stuff will come , but it 'll take a bit of time . 
+  to be honest , i 'm surprised at how quickly they 've got a few mac versions out . 
+  cs is . . an excellent game , but it 's hard . 
+  it 's been around for a while now , so most of the people still playing are the hardcore fps nutcases . 
+  jumping on a public server will likely mean you 'll die rapidly and frequently ( although you might find a few noob players since the max version was released recently ) . 
+  if multiplayer fpss are your thing , and you 're willing to deal with a steep learning curve then you 'll love it . 
+  if you just want to `` dip your toe '' , so to speak , i strongly recommend tf2 . 
+  it 's far easier to get into and play on a casual basis . 
+  i 'll take two !, 
+  wait , you 're actually anti net-neutrality ? 
+  here are some of the things the fcc is trying to do :, 
+  * understand the * actual * broadband speeds available by giving volunteers special [ speed monitoring hardware ] ( http://arstechnica.com/tech-policy/news/2010/06/uncle-sam-wants-you-to-test-your-broadband-connection.ars ), 
+  * set up legal provisions that allow for ( actually ) municipal broadband infrastructures, 
+  * get 100 million people onto 100mbit by 2020, 
+  * make it easier for companies to install fibre ( since few of them are bothering right now ), 
+  * give big institutions in every community access to a 1gbps pipe, 
+  * make sure everyone has access to at least 4mbit connections ( and that means 4mbit of * actual * bandwidth , not some theoretical number generated for marketing purposes ) . 
+  [ more here ] ( http://arstechnica.com/tech-policy/news/2010/03/national-broadband-plan-arrives-quoting-shakespeare.ars ) . 
+  none of this shit seems like a bad idea to me . 
+  none of the problems isps currently have delivering decent service are because of the government or fcc `` interfering '' . 
+  as you 'll see if you read the original article , they 're currently putting all their time and effort into finding new revenue streams rather than investing in their infrastructure . 
+  and exactly none of these proposed revenue streams or other `` innovations '' are actually good for the consumer . 
+  let 's see , what have they done recently ? 
+  dns hijacking so they can serve ads ? 
+  interfering with webpages so they can serve their own ads ? 
+  spending time developing unnecessary software so they can set your browser up to . . yep , serve ads . 
+  and if the government does `` get out of the internet '' , what 'll happen ? 
+  oh yes , they 've already told us their plans , they want to charge website owners , or they 'll deliberately slow them down . 
+  you seriously think the fcc is doing anything bad here ? 
+  crikey , you * are * anti-net-neutrality !, 
+   government-run programs are never more efficient than their counterparts, 
+  `` efficient at what ? 
+  '' , is the question . 
+  a privately-run organisation will * absolutely * be more efficient than government-run programmes * at making a profit * . 
+  but not necessarily better at providing a good service . 
+  [ healthcare is a good example ] ( http://en.wikipedia.org/wiki/veterans_health_administration#evaluation ) . 
+  at least half of those are only there for trolling opportunities . . 
+  i ca n't see a way to have a truly free market for healthcare and still provide actual healthcare . 
+  at least not one that would n't let a shitload of poor people die while throwing tons of cash at lifestyle drugs and cosmetic surgery . 
+  pretty sure we should be long past letting people die because just they 're poor and ca n't pay for the treatment they need . 
+  ah thanks . 
+  that 'll teach me for not trying it first , 
+  i fixed an rrod by repeatedly slapping my xbox on my leg . 
+  did n't really expect it to work , but i thought i 'd try a little `` percussive maintenance '' . 
+  you fucked up , dude . 
+  remember this ? 
+  what 's missing ? 
+  look again :, 
+  bionic arm !, 
+  from what you 've said , most likely he 's monitoring traffic from your box to the outside world ( since that 's the easiest and probably safest method for doing this ) , but it 's possible he 's got a keylogger running on your machine or is even snooping around the contents either remotely or when you 're not there . 
+  sounds like the best thing to do is work out how he 's doing this and gathering some evidence . 
+  the tricky part is doing that without him catching you . 
+  fortunately all these things have weaknesses that you can exploit . 
+  * traffic monitoring ca n't see what 's going on locally , and it ca n't see through encrypted connections . 
+  if you need to use some software to work out what 's going on ( eg wireshark ) , bring it from home , or find it on an ssl 'd site ( or maybe using an ssl proxy ), 
+  * keyloggers ca n't see mouse clicks ( well , some can , but it 's not very likely ) . 
+  maybe using an on-screen keyboard would help in situations where you need to enter a password or something sensitive ( not 100 % sure this will get past a keylogger , but it 's worth a go , and i think a keylogger is actually pretty unlikely ), 
+  * you can check to see if anyone 's connected to a windows share remotely by running ` net session `, 
+  * simply locking or shutting down your machine while you 're not using it will prevent anyone snooping when you 're not there . 
+  the ` event logger ' ( assuming you have access to it ) will log each boot . 
+  so , working out what 's going on . 
+  wireshark will tell you * exactly * what 's being sent and received by your computer and ` netstat ` will show you any open connections , but that wo n't help if he 's simply monitoring your traffic ( which , given the situation , is probably the most likely ) . 
+  for that you 're going to need bait . 
+  best bet is probably something simple like . . setting up a webserver somewhere ( or asking someone to host something for you ) with an interesting-looking url ( would help to have something interest-looking to put there , too ) . 
+  if it were me , i 'd make up a simple bullshit story that sounds like the kind of thing a sad , geeky sysadmin \\* would n't want to pass up ( i do n't know . . naked pics of some girl you know , or something ) , set up my bait url , and get someone to email it to me . 
+  then send it to a few people via im , and probably a couple more emails just to make sure he ca n't miss it . 
+  then sit back and watch the logs . 
+  you 'll be able to get an ip at the very least . 
+  \\* uh , no offence , guys , 
+  unless your bikes are well-ridden and well-maintained , 300 miles is likely to show up one or two problems . 
+  a simple thing like a screw coming loose is n't unlikely on such a long ride , and is usually no big deal , unless you 're 50 miles from the nearest screwdriver . 
+  take a simple toolkit ( one of those pocket-sized foldable allen wrench/screwdriver things will do ) . 
+  i 'd also advise a spare tube or maybe two . 
+  changing the tube can be much less hassle than fixing a flat , particularly in the dark or in bad weather . 
+  also ( and this is a general away-from-civilisation tip ) take a small length of rope . 
+  paracord , if you can get some , is perfect . 
+  you can bodge all manner of things with a bit of rope , 
+  i 'm okay with this in films and possibly some tv ( although really , i do n't see why the bbc should even be buying content from elsewhere ) . 
+  but in things produced for the uk market ? 
+  what about stuff produced specifically for the bbc ? 
+  that . 
+  just a sneaky way to get advertising onto the bbc , which is fucking shite . 
+  damn tories . 
+  for purely-design stuff , get a portfolio from them . 
+  does n't matter too much if it 's stuff that actually exists on the web or not . 
+  if they 've got nothing to show you and they do n't have a * really * good excuse ( that you can check , like `` i worked for x for y years and am not permitted to show my work '' ) , then reject them outright . 
+  if they 've never designed anything , then they suck at design . 
+  i assume you 'll be expecting them to produce at least html/css , so you probably want to spend a bit of time talking about it to at least make sure they 're competent . 
+  trying to test them on how well they know their css attributes or html tags is probably not going to tell you much about the person ( other than how good they are at remembering css attributes or html tags ) . 
+  much better to have some topics to talk about and see how knowledgeable they are . 
+  good questions to start a conversation :, 
+  * which of the various html/xhtml formats do you use ? 
+  why ? 
+  * is it acceptable to have invalid html or css in a page ? 
+  why ? 
+  * what 's your opinion of using flash in modern web pages ? 
+  the actual * answers * to those questions do n't matter very much at all , as long as they have a reasonable opinion one way or the other and do n't say `` uhhh ... '' or `` x is fucking shit , anyone who uses it is an arsehole '' . 
+  you can go nuts with this kind of question , just pick any vaguely controversial or occasionally misunderstood technology and see if they can hold a conversation about it . 
+  ( some years ago , `` tables vs css '' was probably the best ever question of this type .

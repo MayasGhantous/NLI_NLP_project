@@ -1,0 +1,100 @@
+  cloudflare/wordfence/other security plugins would be just band-aid fixes in this case - while there 's a relatively high chance they 'd prevent further issues , you ca n't be sure , as the vulnerability is still there . 
+  please correct me if i 'm wrong , i 'm just a pentester not a malware analyst or something fancy like that . 
+  i do n't have experience with this particular plugin , maybe someone else can comment - but it looks good . 
+  changing passwords now was definitely good , in case a weak or leaked password was how your site was infected . 
+  if you do find a shell , you should probably change them again afterwards , just in case . 
+  you might also want to check the list of wp users on your site . 
+  considering our very small market , do you actually earn anything from the band ? 
+  any new estonian bands worth listening to ? 
+  what 's your opinion on the current state of magento ? 
+  how does it compare to opencart and prestashop ? 
+  asking this as a web developer looking to learn an e-commerce platform . 
+  a backdoor script giving the attacker access to your server . 
+  they come in various shapes and sizes . 
+  could be anything from simply a line of code that executes a command sent via get or post , to stuff like this : http://www.invisiblehackers.in/2012/06/download-wso-new-version-25-web-shell.html, 
+  i started looking for work on elance in oct or nov last year . 
+  i 've been lucky it seems , as i 'm at the point where i have to start turning down jobs ( = raising my rates ) . 
+  what 's worked for me so far is not focusing on myself but on the project when writing the proposal ( assuming the client is providing enough information ) . 
+  giving a brief overview of the tools and methods i 'd use when solving the particular problem ( even if the client does n't understand much ) and asking additional questions about the project often gets me a response from the client and that 's usually all it takes . 
+  i do n't know if this advice applies to you , though . 
+  in it it 's definitely possible to compete with providers from south asia , you just have to pick your battles . 
+  i 'm not entirely sure about other professions , though . . 
+  no , i do n't speak swedish . 
+  `` a predator 's heart, 
+  knows no remorse '', 
+  right now around $ 50/hr . 
+  some excellent ideas . 
+  my thoughts :, 
+  1 ) i personally would n't mind paying a percentage ( though , lower than elance 's almost-10 % - fee ) for someone to thoroughly moderate the projects , solve the trust issues with money ( i.e. 
+  escrow ) and also solve the problem of moving the payment between two countries in a way that does not include paypal ( wire transfer works fine for bigger sums , but what about the smaller projects ? ) . 
+  the escrow thing would also make potential clients feel safer - at least that 's what i 'd assume . 
+  4 ) i 'm so annoyed at elance 's system that gets practically everyone 5-star ratings ( unless they ca n't hide their incompetence until the deadline 's passed ) , so this sounds great . 
+  5 ) i wonder if the manual verification could somehow include an assessment of whether or not the providers are actually capable of delivering something decent within their areas of expertise ? 
+  not sure how that would look like , though . 
+  the only thing the large number of `` newbies '' , or devs and designers with low or no skill have created is a way for people with small budget to get a website or app that kinda mostly does what it should . 
+  i personally would rather not work for people with low budget anyway , so i do n't see how the `` newbies '' really interfere with my business . 
+  and if the client decides to go for a cheaper solution , it means i have n't done a good enough job explaining why a more expensive solution is ultimately better for them , how it will save them time or money . 
+  as for developer salaries , i suppose this varies around the world . 
+  in estonia , it people get paid a lot compared to everyone else and there 's a constant shortage of skilled developers . 
+  there are a * lot * of it students and many of them get jobs after their first year in the uni , so there 's also a lot of `` newbies '' saturating the market . 
+  but still , if you 're a good web developer , you can basically go knocking on a random it company 's door and there 's a decent chance they 'll hire you . 
+  so here not everyone wants cheap programmers . 
+  you might be right about the us though . 
+  anyway , i disagree with almost everything you 're saying , but upvotes for an interesting discussion . 
+   some of the plugin writers tend to write really shitty code , leaving you with packages that are n't very flexible in their use and definitely ca n't be extended . 
+  is n't that the problem of , like , * every * cms out there ? 
+  definitely goes for wp and in my ( limited ) experience for drupal as well . 
+   as soon as you want to do anything slightly out of the ordinary you 're completely on your own . 
+  please elaborate . 
+  i 've built one fairly generic site on c5 and coming from wp it definitely felt much better . 
+  what qualifies as ` slightly out of the ordinary ' ? 
+  are n't zf 's libraries helpful for more complex stuff ? 
+  ( excuse my ignorance on that topic , have n't had the time to research this yet ), 
+  yes !, 
+  this is an issue i have been thinking about for quite a long time , but have n't had the time to research thoroughly . 
+  the main problem seems to be that to a typical user , a * page * is a single entity . 
+  however , the way i build my sites , a page often has a separate secondary loop displaying some custom type posts , and a widget area with a couple of widgets . 
+  so to make a change on what looks as just one * page * , the client will have to know 3 different places where to look . 
+  this is one of the reasons i 'm moving on to concrete5 , but i 'll still have to keep using wp for quite a lot of my projects , so i would love to figure out or build a good solution for this issue . 
+  agreed . 
+  i 've been using it on every project for a while now , it 's a life saver . 
+  setting up the admin meta boxes by hand would be so annoying . 
+  however , while i 've sometimes used the repeater to replace a custom post type , it still does n't help if there 's a lot of data and you need a cpt . 
+  so it does n't really solve the issues i outlined in my first post : /, 
+  but yeah , wp really needs something like that in the core . 
+  yeah , even if i 'd like to use something else , for a large number of projects i 'll just have to use wp , precisely because of the reasons you outlined . 
+  but this is open source . 
+  instead of just complaining , let 's do something about it !, 
+  if the core developers are not interested in a more cms-oriented admin interface right now , we can start with building a plugin . 
+  anyone interested ? 
+  but , then , what * is * art ? 
+  the engineering example does not really apply here - art is subjective , getting from point a to point b in an efficient way is not . 
+   modern art is part of the marxian ( antonio gramsci ) `` march through the institutions '' of western civilization , deconstructing any valuable cultural components by opening them up to every possible bs, 
+  care to elaborate ? 
+  you seem to have very strong feelings on this topic . 
+  i can confirm this . 
+  seen quite a few websites break on a real ie7 in a winxp vm that looked fine when using other methods for testing ( esp ie dev tools browser mode ) . 
+  i mean stuff like javascript errors rendering parts of the site unusable , or kill the * whole * site for some reason . 
+  the testing tools are fine if you use them during development , but if you need to test properly you 'll need the real thing . 
+  i think vms should be fine in general , though ideally i 'd prefer to use a shitty old pc with a shitty old monitor !, 
+   it 's entirely possible to create maintainable , well-engineered themes, 
+  do you mind elaborating more on what sort of methods you 're using ? 
+  this is something i 'm currently struggling with . 
+   as long as wordpress is kept more or less up to date , and the webserver itself is secure . 
+  if you 're not using any plugins or 3rd party themes , this is true . 
+  but if you are , even keeping everything up to date is not enough - the code quality of a typical wp plugin is horrible . 
+  when hosting custom wp sites , i personally operate under the assumption that one of them * will * be hacked at some point . 
+  so lots of backups and something to monitor the sites . 
+  server security is not my thing at all , but ca n't you run the server process as a user with less than root privileges ? 
+  i 've been playing since civ i ( though i was like 7 or 8 years old when i started ) and i completely agree with you . 
+  however , i do feel that the new combat system has more potential than the stack-based system , and that is a huge improvement . 
+  i 'm putting my hopes on civ vi and i really hope they will manage to combine the best of both worlds . 
+  but i do find the look and feel of civ iv to be amazing . 
+  civ v does n't have that feel , and i 'm afraid whatever comes after wo n't either . 
+  ca n't say much without knowing more about where you 're running the code . 
+  are you on rackspace by any chance ? 
+  i really hope it 's the shitty quality of the rip , but it sounds like the same crappy guitar sound they had on rrf . 
+  as for the song itself , it does feel incomplete , like someone on youtube pointed out . 
+  i find the riffs quite boring and the solo sounds like the exact same licks laiho 's been playing for the last 10 years . 
+  but for some reason i still like it more than rrf and i 'm really glad they 're taking a new ( old ? ), 
+  direction .

@@ -1,0 +1,100 @@
+  * whoise bets that the first stage will land on the barge and stay standing upright . 
+  * lehmakook bets that it hits the barge , but explodes or falls over . 
+  * if it misses the barge altogether , it 's a draw . 
+  i currently have about 30gb of sensor data in postgresql , and expect this to grow 5-10x in the next year . 
+  currently the server has 2xhdd in raid1 . 
+  however , various ad-hoc analytics queries on this dataset have gotten annoyingly slow ( they often need a full table scan ) , so i 'm looking to upgrade to ssds . 
+  based on an brief investigation , it seems that 1tb ssds are priced anywhere from 200 to 1000 + eur , depending on write endurance and whether they have battery backup . 
+  all my big tables are mostly append-only , so i 'm not sure serious the write endurance issue is . 
+  are there any recommended manufacturers or models ? 
+  does raid1 still make sense with ssds ? 
+  hi postgresql experts ,, 
+  i 'm exporting samples from a gps sensor data database . 
+  the gps records have up to 1 second time resolution , and this level of detail is sometimes unnecessary . 
+  if the user wants just 10-second or 60-second updates , then the queryset should be filtered to save space and later processing time . 
+  i can do this pretty easily in my export scripts - iterate over the dataset , and output a record if the time from the last outputted record is over a limit . 
+  but this is a bit wasteful , as i still retrieve the full dataset from postgres . 
+  i was looking into ways to filter the data directly in sql , and found [ distinct on ( expression ) ] ( http://www.postgresql.org/docs/9.4/static/sql-select.html#sql-distinct ) . 
+  my timestamp field is integer milliseconds , so this almost does what i want , for example for 10-second ( 10000-millisecond ) filtering :, 
+  select distinct on ( time_gps / 10000 ) * from parsedcache_gpsfix where series_id = 123 order by time_gps / 10000 , time_gps ;, 
+  this is n't precisely the same - it will sometimes output events on seconds 49 and 51 ( two seconds apart ) , since it does a truncation instead of a comparison to the previous row . 
+  but if there is no better solution , it 's good enough . 
+  however the order by is strange and pointless . 
+  distinct on requires the filter condition to be the first sort order . 
+  the table already has a clustering index on ( series_id , time_gps ) , so getting data sorted by timestamp is an index scan . 
+  adding the second order to make distinct on happy makes postgresql re-sort the table :, 
+  # explain select distinct on ( time_gps ) * from parsedcache_gpsfix where series_id = 65 order by time_gps ;, 
+  -  index scan using parsedcache_gpsfix_series_id_21d61565965bdf1b on parsedcache_gpsfix ( cost = 0.57 . .138214.33 rows = 61770 width = 88 ), 
+  index cond : ( series_id = 65 ), 
+  # explain select distinct on ( time_gps / 10000 ) * from parsedcache_gpsfix where series_id = 65 order by time_gps / 10000 , time_gps ;, 
+  sort key : ( ( time_gps / 10000 ) ) , time_gps, 
+  -  index scan using parsedcache_gpsfix_series_id_a31c1ce9c62c8a5_uniq on parsedcache_gpsfix ( cost = 0.57 . .138368.76 rows = 61770 width = 88 ), 
+  index cond : ( series_id = 65 ), 
+  is there a way to hint to postgressql that time_gps / 10000 and time_gps have the same sort order ? 
+  or some better method to prune the results on a row-by-row basis ? 
+  same as last time for discovr : http://www.reddit.com/r/highstakesspacex/comments/2v8803/lehmakook_vs_whoise_will_the_dscovr_first_stage/, 
+  * whoise bets that the first stage will land on the barge and stay standing upright . 
+  * lehmakook bets that it hits the barge , but explodes or falls over . 
+  * if it misses the barge altogether , it 's a draw . 
+  first of all , i 'm not really sure if this post is best fit for / r/webdev , / r/frontend or / r/javascript , but this subreddit seemed like the most appropriate . 
+  i 'm working on a data entry site with lots of different popups . 
+  it displays all sorts of data , and when the user clicks an `` edit '' button next to an element , i show a popup with a form to edit/validate/submit any changes . 
+  right now the popups are implemented as follows :, 
+  * i have a bootstrap modal in my main template , whose body is entirely an iframe . 
+  * when showing the popup , i change the url for the iframe , loading in a separate small page with the edit form . 
+  * the form does a standard http post back to the server , perhaps returning a page with errors displayed , or perhaps returning a success page with a few lines of javascript that calls from the iframe to the parent to hide the modal . 
+  the reason for using an iframe in the modal is to keep the `` display lots of data '' and `` edit form '' navigation and reloading separate . 
+  the form might come back with errors , it might redirect to a different next step form , and so on , without the data display page having to care about this . 
+  but it feels like it 's a hacky solution , and iframes are `` supposed to be bad '' , right ? 
+  one immediate issue is that the contents of the iframe can not extend outside the borders of the iframe , so any select inputs or dropdowns are cut off . 
+  are there any good suggestions on how to improve or change this ? 
+  i 've thought of loading the content into the modal with ajax instead , but this would make * submitting * the form a whole lot more complicated . 
+  i 'm working on an app in a small team , and one issues we have is that android studio keeps changing the project files every time another developer opens the project on their computer . 
+  this leads to a lot of useless spam changes in git history . 
+  my current . gitignore is here : http://pastebin.com/j7jvlrwz, 
+  ` . idea/workspace . xml ` and ` . idea/libraries ` are in there . 
+  but for some reason , also, 
+  * libraries/libraries . iml, 
+  * libraries / <libname / <libname . iml, 
+  keep changing . 
+  the changes seem to be :, 
+  * addition/removal of ` <option\u00a0name=\gradlejvm\\u00a0value=\1.8\\u00a0/ `, 
+  * addition/removal of ` <option\u00a0name=\buildable\\u00a0value=\false\\u00a0/ `, 
+  * addition/removal of ` <option\u00a0name=\source_gen_task_name\\u00a0value=\generatedebugsources\\u00a0/ `, 
+  * addition/removal of ` <option\u00a0name=\compile_java_test_task_name\\u00a0value=\compiledebugtestsources\\u00a0/ `, 
+  * reordering of some lines . 
+  should any of these files be in . gitignore ? 
+  or any ideas on how to get our ide config to be similar enough to stop these changes ? 
+  same as last time for crs6 : http://www.reddit.com/r/highstakesspacex/comments/2zwscf/lehmakook_vs_whoise_will_crs6_first_stage_land/, 
+  * whoise bets that the first stage will land on the barge and stay standing upright . 
+  * lehmakook bets that it hits the barge , but explodes or falls over . 
+  * if it misses the barge altogether , it 's a draw . 
+  i have a database with about 100gb ( and growing ) of sensor data coming from mobile apps . 
+  about 20gb of it is the authoritative source data , and the rest is various denormalised views/caches of easier-to-query versions generated from the source data . 
+  i 'm planning to set up a streaming replica for this database . 
+  my goals are :, 
+  * having a mid-day backup in case of server or disk crashes . 
+  i have nightly backup dumps that are stored for a few months in case of accidental deletions , but a replica would be a nice addition for not losing the data uploaded since the last dump . 
+  * move the dump & backup to run on the replica , so that i do n't have to shut down the web service receiving the uploads for 30 minutes . 
+  * move ad-hoc analysis queries to the replica , so that they do n't disturb the master that 's receiving the uploads . 
+  i 've been reading about setting up replication , but i have n't yet figured out if replicas have to be 100 % identical , or can i add more schemas or tables in the replica ? 
+  for the analysis queries , i expect that i will want to add tables with extra input data , store results for a few weeks in new tables , etc , but still join them with the main sensor data tables . 
+  i would also like to set up views which limit access to a subset of the main data and give out limited access to those for students . 
+  is this possible together with replication for the main tables ? 
+  or would all extra tables and views have to be created on the master server only ? 
+  so far my python programming has been command-line scripts and web development on linux and mac . 
+  now a project is coming up where a windows gui application is needed . 
+  i 've looked at https://wiki.python.org/moin/guiprogramming , but it seems confusing and difficult to determine which of these are the best choices . 
+  do you have any suggestions which gui toolkit and bindings to use ? 
+  * the gui will be fairly simple : a few windows with a couple of input boxes , a couple of buttons , and a window for text output with log messages . 
+  * if it does n't look horrid and 1990 's ( like java awt+s wing used to ) , that 's great , but overall look & feel is not important . 
+  * if possible , being cross-platform with mac would be great , but windows-only is acceptable . 
+  also , i 'm looking for a way to distribute this app to end users together with the python runtime and dependencies from pypi . 
+  a zip file they can extract anywhere , and then click on an . exe or something in there would be best . 
+  an installer ( or separate installers for the app and python ) would be acceptable , but i do n't want the users to have to install and configure a full-blown cygwin or other development environment . 
+  i found http://stackoverflow.com/questions/2933/how-can-i-create-a-directly-executable-cross-platform-gui-app-using-python , but this post is 7 years old , and i 'm wondering if the best practices have changed since then . 
+  thanks for any advice and suggestions !, 
+  i 'm looking to implement a checksum for a `` new kind of 2d barcode '' design . 
+  the data would be around 30-40 bits long , and i can add around 6-12 bits for the checksum . 
+  the purpose of the checksum is to reject invalid readings due to noise / garbage in the camera feed , so that when a match is reported , we have high confidence in the data being correct . 
+  if the checksum mismatches , then the user will have to move the camera closer until the errors clear .

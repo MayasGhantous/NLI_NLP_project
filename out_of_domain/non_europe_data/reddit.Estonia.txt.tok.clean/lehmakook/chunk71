@@ -1,0 +1,100 @@
+  every ad that is personalized based on data that google collects , yes . 
+  they do n't give out data to outside parties , just use it themselves . 
+  that sounds expensive . 
+  can i get a tesco value health plan instead ? 
+   set up estonian ou and pay myself a salary . 
+  a sensible option . 
+  most people who do this pay themselves a `` reasonable '' salary ( eg the national average ) , and take out the rest once per year as dividend to `` optimise '' social tax . 
+   remain an employee of the company . 
+  my company is worried they would need to register in estonia , and they are not willing to do that . 
+  if you get a salary as a resident of estonia , then your * employer * anywhere in the world is supposed to register in estonia and pay your social tax here . 
+  as the * employee * , you do not have any social tax responsibility . 
+  although i doubt that the estonian tax office could or would bother tracking down companies outside of the eu if they just ignore it . 
+   have my employer pay me as a contractor of my own us registered company . 
+  this is probably the easiest ... as long as you do n't pay yourself a salary from your own us company . 
+  if you do , then this us company is supposed to pay the social tax ( but i doubt the tax office will be able to do anything if it does n't ) . 
+   do i absolutely need to pay into the estonian social tax ? 
+  if you are employed here , then * someone * does need to . 
+  but technically that someone is the employer . 
+  they ca n't take it from you , the employee personally . 
+   can i opt out ? 
+   what if i get private health care ? 
+  still the same tax rates . 
+  2/3 of the social tax is used for pensions anyway , not healthcare . 
+  * 30 % is what was speculated in this subreddit based on not having to build a brand new first stage , but keeping the cost of the second stage , testing and maintenance , launch operations , etc. 
+  it 's also what spacex wanted to offer ses for the first reused launch . 
+  * 100x reduction is a far-future goal based on * only * the fuel & consumables cost . 
+  it assumes rockets are good for thousands of flights with almost no maintenance , completely automated or very minimal launch operations , etc. 
+  the `` what if rockets were as reusable as airplanes '' argument . 
+  but it wo n't happen for a long time , if it is even possible to build a rocket that is * this * robust while also being light enough to make it to orbit . 
+   i recall that compustar has something called ez go , which is an rfid remote that will automatically unlock or lock your car within 5 ' as you walk towards or away . 
+  that is a security risk though : https://www.wired.com/2016/03/study-finds-24-car-models-open-unlocking-ignition-hack/, 
+  with a radio signal amplifier or repeater , thieves can extend the range from 5 feet to 300 + feet , and make your car think your car keys ( or phone ) is near the car even if it 's in your house or in your pocket at a restaurant . 
+  a more secure method would be to require some sort of confirmation button press on the keyfob or phone to unlock . 
+  it 's a problem with all systems where `` other device is nearby '' is used to unlock something , and radio signal strength or `` can communicate '' is used to determine if it is nearby . 
+  unlocking a phone if your smart watch is nearby , or unlocking your laptop if a phone is nearby would have the exact same security risk . 
+  you can already buy bluetooth repeaters which would make this easy : http://www.stromgraf.com/sma-bluetooth-repeater, 
+  the issue is mostly a concern in the car industry just because it 's much more profitable for hackers to unlock and steal your high-end car , rather than unlock your phone to read your email after stealing it . 
+  yep , measuring the time of sending a signal travelling to the device and back is a way to prevent this attack . 
+  but it is * very * difficult to do . 
+  100 feet of distance is just 100 nanoseconds at the speed of light . 
+  that is an incredibly short time even for modern hardware . 
+  to do proper time of flight limits , you pretty much need completely custom radio hardware built just for this purpose , standard bluetooth or wifi hardware wo n't respond to network packets fast enough to distinguish their own delays from 100s or 1000s of feet of distance . 
+  so it appears that apple watches and phones do put time information into the bluetooth packets , and i have n't noticed any research papers of successful attacks . 
+  but my gut feeling is that with a repeater built for this purpose ( like the car thieves have done for keyfobs ) , it would be possible to successfully attack this , unless apple has * way * more specialised hardware in the radio chips than would be expected for consumer devices . 
+  but in the end , there is a simple solution : pop up a `` unlock car ? '', 
+  notification , and ask the user to confirm or deny . 
+  tbh there already is a `` pay to win '' strategy in the app store . 
+  there are plenty of services where you * pay * to get people to download your app . 
+  buy a large number of downloads on one day , jump to top list , cash in on the resulting real downloads . 
+  at least this way the real rankings stay relevant and apple gets the money instead of sleazy spamming companies . 
+   the weather channel reported 5-6 feet of surge which is enough to wreck our home . 
+  remember the surge is calculated for still water height . 
+  add 10-25 feet waves . 
+   apple comes up with idea of how to unlock touchscreens, 
+  every new idea should not get patent protection , even if it is new and somewhat clever . 
+  the original point of patents was to avoid tradesmen and engineers keeping their inventions a secret and taking their skills to the grave . 
+  so there is a deal between the inventor and `` the public '' : the inventor tells us all the details , and we agree to leave them exclusive use for 20 years . 
+  but if the `` invention '' is obvious from the outside when released to customers , then there is no benefit to the public for granting the patent - there is no secret revealed . 
+  and its not like companies would stop doing small ui improvements if the patent protection would not exist , so there is no argument for `` it encourages innovation '' either . 
+  i would argue that it is actually the opposite , if everyone can copy obviously good small ideas , then technology will improve faster , and all companies are forced to innovate to stay ahead of the competition . 
+  take for example amazon 's infamous `` 1-click '' patent : its entire point is `` we save your credit card details so you can order without entering them again '' . 
+  how can anyone argue that :, 
+  * amazon would not have spent the engineering effort to develop this amazing idea if they were unable to patent it , or, 
+  * the public would never have seen this amazing idea if they were unable to patent it ? 
+  * gta 5, 
+  * metal gear solid 5, 
+  actually with work and stuff right now , might not get to all of these before holiday 2017 . 
+  i will next few weeks when my psvr gets here , 
+  it 's the opposite really . 
+  samsung , apple , google , microsoft , amazon , ibm etc all get thousands of patents per year . 
+  sue each other for billions , settle for hundreds of millions , make cross-licensing deals , and business goes on as usual . 
+  but for a small developer , software patents are terrible . 
+  it can easily cost over $ 10k to get a patent , and then you still need to pay lawyers 10-100x more if you want to enforce it against a tech giant . 
+  meanwhile you are almost certainly violating hundreds of ibm or amazon or microsoft and other patents yourself , because they are all worded as broadly as possible , and sometimes cover the most inane ideas . 
+  maybe you are just making and educational website with video courses , but still get sued because [ someone patented the idea of having password protected access to educational content ] ( https://www.eff.org/deeplinks/2016/07/stupid-patent-month-solocron-education-trolls-password-patent ) . 
+  not something about a technology for passwords , or videos , or anything - just the idea of putting educational material behind a password . 
+  thankfully the patent for [ method of entertaining a cat ] ( https://www.google.com/patents/us5443036 ) with a laser pointer has expired , so people on / r/aww are safe from being sued for that . 
+  [ soon ] ( https://www.blueorigin.com/ ), 
+  ( also owned by bezos ), 
+   they have to be good at services , though . 
+  otherwise , why not go with a pixel , which has it all ( or has the potential to ) ? 
+  in theory , they would not have to . 
+  i mean , apple is a great hardware company that also makes software to sell more of its devices . 
+  google is a great software and data analysis company that also makes hardware to make sure it does n't get locked out of access to users . 
+  despite the positive reviews , pixel seems to be as expensive but not living up to the hardware quality of iphone 7 . 
+  but i 'm very curious about the new google assistant . 
+  if they `` just got along nicely '' , we could have both of them focusing on what they do best . 
+  but yeah , i do n't see it as a realistic option , neither company would want to make itself too dependent on a competitor . 
+  they usually lock the account for 3-12 months - whatever is above the maximum chargeback duration for the credit cards used . 
+  so that they know that any more chargebacks can not be filed on the funds in the account , and it is safe for them to release the funds . 
+  [ why we should go to mars [ 4:03 ] ] ( https://www.youtube.com/watch?v=pltrdgf-ycs ), 
+   i only need enough for the first month ( it 'd be a paid placement ), 
+  having moved between countries 7 times ( yay eu ) , i would warn that the `` first month '' can be unexpectedly expensive . 
+  so it 's a paid placement , and the offered salary seems enough to cover rent and living costs , and you have cash saved up for the first month and plane tickets . 
+  seems good so far , and * in the long term average * it would be . 
+  but in the first month of getting settled in a new city and country , you will need much more than 1 average month of money . 
+  depending on the bureaucracy at the employer and the local government , it can take anywhere between 2 and 8 weeks from starting working to get paid . 
+  you will need to register your immigration , then provide paperwork to the employer , and then they will probably pay you at the end of the same or next month . 
+  does the placement come with housing arranged by the employer ? 
+  that would be very rare for junior people .

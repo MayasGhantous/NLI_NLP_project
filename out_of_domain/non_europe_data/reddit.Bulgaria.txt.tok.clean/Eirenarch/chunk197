@@ -1,0 +1,100 @@
+  for example if you want all tasks by tag you write a method gettasksbytag ( string tag ) in your repository that executes the query and returns an ienumerable of tasks . 
+  this is real decoupling because you can freely switch the implementation of this method . 
+  want to use raw sql with dapper or something ? 
+  just change the code in gettasksbytag . 
+  maybe you want to call an api ? 
+  that 's fine just put the api calling code in there . 
+  this is what decoupling gives you . 
+  of course as soon as you try to go that road you find out how much iqueryable did for you . 
+  that paging library you used stops working and you need to pass page size and page arguments . 
+  these includes for related objects stop working and you need to add them as arguments on case by case basis and so on . 
+  this is why my default solution is to assume that i will never switch from ef and just use iqueryable in my service layer ( still my service layer never exposes iqueryable to the mvc or webapi controllers ) and put my linq queries in my services . 
+  this way i get the power of iqueryable and reduced complexity ( no repositories ) in exchange for a bit of coupling . 
+  if i have to switch to a rest service later i will need to change my service layer as well but i will take my chances . 
+  note that your solution is the worst of both worlds . 
+  your iqueryable stops you from switching to a rest service backend and you have still accepted the complexity of having repositories . 
+  they started tracking `` assembly language programming '' which seems to be used more than `` assembly programming '', 
+  i do n't know if this is the best way . 
+  this has been my architecture of choice for the past 2 years . 
+  before that i was trying to make repositories work then i declared them useless and i googled around and it turns out that more people declared them useless . 
+  it is entirely possible that in a year i will have a new idea of how to structure things . 
+  in general i try to understand what certain practice or architecture buys me and how . 
+  if i do not care about the result or deem the price too high i do not adopt the practice . 
+  if i do not clearly see the claimed results i do not adopt the practice . 
+  repositories and unit of work failed the second test . 
+  when i tried to imagine how i would replace the repository layer with something else i just could n't so i declared the pattern broken ( in its iqueryable exposing form ) and stopped trying to make it work . 
+  i do not care if people more clever than me recommend the pattern . 
+  if i do not understand the benefits i would probably misuse the pattern anyway so i 'd better simplify the code . 
+  i doubt i will change my mind on repositories at some point because i have been in a lot of arguments and nobody presented meaningful arguments in defense of repositories . 
+  if i ever return to writing repositories it is more likely that the reason is that i stopped using orms or am using non-relational database rather than reconsider my opinion on repository + ef . 
+  that 's basically someone looking at starcraft and building his own thing and putting the sc art in . 
+  i do n't get why people are so excited . 
+  to begin with this is not starcraft . 
+  it is not the sc engine . 
+  it is some guy writing an rts engine in js with its own behavior . 
+  it behaves quite differently from the original . 
+  the only thing that makes this sc in any way is that he used sc 's art ( which may even be illegal ), 
+  i have to ask myself if the web is standing still or even moving backwards . 
+  several years ago we had quake 2 ported to the web . 
+  it was actual quake 2 with its bugs and all ( compiled from the java port jake2 with gwt and webgl for graphics ) . 
+  at the time they managed to run a 12 years old game in the browser and that was an achievement . 
+  why are we excited that someone managed to develop the graphics part of a 17 year old game today ? 
+  if it was actual starcraft it would be useful for historic purposes but as it does not feel like starcraft at all why do we care ? 
+  what is novel about it ? 
+  there are games with better graphics built direct for the browser and they are actual games not just the ability to give move commands . 
+  it 's not starcraft it 's just the art from starcraft . 
+  i do n't see how it is sc that is mimicked it feels like dune 2 with starcraft graphics . 
+  i would say so if the graphics were not copy pasted . 
+  if the guy had drawn them i would maybe say mimicking . 
+  in any case i still do n't see why people are excited about this specific type of mimicking . 
+  yeah but if people are not excited why is it on top of reddit and all over my facebook feed ? 
+  and that 's what i ca n't understand . 
+  in 2017 i see absolutely nothing interesting in this . 
+  i like starcraft a lot . 
+  i think it is the single most important thing in my life ( probably the birth of my child will turn out to be more important with time ) . 
+  it influenced what i studied and my profession and i met many of my friends through starcraft . 
+  i played sc1 for 12 years and since then i play sc2 . 
+  somehow my relationship with starcraft makes this even more annoying because it piggybacks on the fame of starcraft without being starcraft at all and is technically uninteresting . 
+  i still do n't get it . 
+  people just wanted to see pictures of starcraft units is that it ? 
+  i tried . 
+  turns out most of them did n't even run it . 
+  the premise of playing starcraft in the browser is interesting ( mainly for historical reasons ) but i do n't see how this project even moves in that direction . 
+  first of all there is nothing to actually play . 
+  you can move starcraft screenshots with your mouse . 
+  even if it is playable some day it does n't feel like sc at all . 
+  ok but on reddit you have the option to fix your mistake and change your upvote to downvote once you learn that you 've been scammed . 
+  he ca n't sell it but if it is free and open source they have no one to sue . 
+  think of it this way - he is releasing it for european users and he ca n't stop us users from using it as it is free and open source . 
+  doubt it . 
+  wpf is the hard stuff . 
+  if it was winforms it may run . 
+  it is very big project . 
+  the mono team outright refused to do it back in the day and they had ported silverlight . 
+  it was too big of a project to port wpf after having the code for silverlight - that 's how big wpf is . 
+  yeah maybe there is no need to port the ui . 
+  just port the logic and build separate uis for each platform, 
+  depends on how you look at it . 
+  according to the law robin hood was stealing but in fact he did not steal someone 's property , he stole the tax money/grain/whatever and gave it back to the people . 
+  from moral point of view he was returning the property stolen by the state . 
+  so this show works to reinforce the stereotype that linux users are some kind of communists because it has even more left propaganda than linux propaganda , 
+  then he did n't do a good job helping . 
+  should have written `` start with language x , because i tell so '', 
+  i did see it . 
+  the main goal of the hackers is to erase the loan records so people are freed from corporations . 
+  that would be the communist manifesto if it was written today . 
+  they did call it too early but i believe it was 90 % draw . 
+  mana just leaves all his units but the stalkers on the assimilator and goes hunting buildings with the stalkers while scouting with hallucinations . 
+  forgg had very few units at this point . 
+  hallucinations would have revealed everything even if he had doubts . 
+  if we have to be serious artosis has been correct multiple times . 
+  there was a summary of his predictions on tl at some point and he got some absurd number wrong ( like 60-70 % wrong ) to get that amount of predictions wrong you need knowledge ( or something supernatural ) because plain random would yield better results . 
+  yeah but he predicts matches not tournament winners , 
+  imagine you are working on a cinematic for a year based on a certain classic gameplay element and then 1 month before showing it to people david kim basically removes this gameplay element from the game . 
+  fun fact - originally all spell caster units had auto attack in sc1 . 
+  defilers had it too but it was removed before release . 
+  arbiter auto attack seems to be what is left from these times . 
+  just in case anyone is keeping score i vote for strategy over mechanics with both of my hands and collector edition copies of the game . 
+  pylons that are not powering a gateway or close to a nexus have high warp time for units . 
+  forgot the exact value but it is seen in the video . 
+  pylons with gateway or nexus near them warp normally,

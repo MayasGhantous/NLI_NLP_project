@@ -1,0 +1,100 @@
+  if you start working on one task , one thing , you generally will want to have some context associated with that work . 
+  no matter what you 're doing , you need some context . 
+  you either need to pass that explicitly , as a parameter , or have it available implicitly and somehow arrange for everything to access the right one ( dynamic scoping , thread-locals with thread-per-operation , etc. ) . 
+  i think one has to accept that fact and find a solution rather than pretending it is n't true . 
+  this is n't just true of logging . 
+  it 's true of random number generation , for example . 
+  want reproducible seeded rng ? 
+  then you need to carefully ensure that when you split tasks across threads , you give them their own rngs , in the same order every time , seeded from your own personal rng in the same order , etc. 
+  then those tasks need to have access to their own rng , again through some sort of parameter or dynamically scoped variable or whatever . 
+  but you also want to be able to create subtasks without access to your rng , if they do n't need it . 
+  same thing with logging : when you create a ` subtask ' , by calling a function on this thread or another , does n't matter , you need to provide it with some context : request id , etc. 
+  same thing with authorisation : if i have authority , i want to be able to give subtasks the same authority easily . 
+  but i also want to be able to give subtasks no authority , etc. 
+  principle of least authority or whatever . 
+  personally i think the language should be able to do this for me . 
+  the language knows about tracebacks , right ? 
+  when i throw an error , the language knows how to inspect the stack to find the exception handlers , then runs those handlers . 
+  in most languages it unwinds the stack , but you do n't actually need to unwind the stack to inspect it . 
+  why ca n't the language use the same stack to record this contextual information ? 
+  the answer is that of course it can : that 's what dynamic scoping is . 
+  of course old style dynamic scoping had some issues , like being unable to tell whether a variable was dynamically scoped . 
+  but if you made sure to make them syntactically different , it would less of an issue . 
+  then you can call functions hiding certain dynamically scoped variables , e.g. 
+  ` $ ` prefix might mean dynamically scoped variables in some hypothetical python language extension :, 
+  def hide ( name ) :, 
+  __ dynamics __ [ name ] . append ( none ), 
+  yield, 
+  __ dynamics __ [ name ] . pop ( ), 
+  with hide ( ' $ auth ' ) :, 
+  principle_of_least_privilege ( ), 
+  with requestidlogger ( $ logger , uuid.v4 ( ) ) as $ logger :, 
+  handle_request ( req , res ), 
+   so the article puts up the hard numbers and proves that andrew little 's statement that annual net migration should be between 20 and 25 thousand is at best extremely difficult to achieve if not outright impossible . 
+  well that 's what net migration was in 2010 . 
+  why is it suddenly impossible , only 7 years later ? 
+  well that 's clearly not true . 
+  look at historical immigration figures . 
+  we 've had many , many , many years on recent , even relatively recently ( within the national government 's term , within the last labour government 's terms ) , below those figures . 
+  anyone saying we need to get rid of ` entire categories ' is wrong . 
+  it 's not exactly difficult to cut immigration . 
+  high immigration figures are a relatively new thing and contrary to popular belief they have almost nothing to do with returning new zealanders . 
+  80 % of our immigration numbers are non-new zealanders . 
+   in that case , the solution would be to introduce political and economic instability , but i fear that that would have a number of downsides . 
+  that 's the most ridiculous thing i 've ever read . 
+  do n't be a child . 
+  are you kidding ? 
+  this subreddit is full to the brim of people saying that immigration is n't a problem and anyone that says it is a problem is racist . 
+   this despite the fact that our population increase in percentage terms is nowhere near at an all time high . 
+  all time highs are irrelevant . 
+  it 's currently a problem , that 's all that matters . 
+  no , supply is . 
+  no , low interest rates are . 
+  no , property speculation . 
+  no , immigration . 
+  no , foreign investment . 
+  you idiot , it 's * all of these and more * . 
+  immigration is * absolutely * increasing demand for housing . 
+  nobody is saying it 's the only factor . 
+  i 'd rather that he became `` minister for forcing opposition parties to use potentially misleading statistics by preventing any publication or recording of useful statistics on housing '' . 
+  you see , that position already exists , it 's called `` minister of the crown that is also a member of the national party '' . 
+  do n't be intellectually dishonest . 
+  nobody in any party has ever suggested that it would ever be a good idea to base any sort of policy on last names . 
+  well they do n't know what they 're talking about . 
+  well it 's realistically true . 
+  you can deny it all you want , but supply and demand is objective fact . 
+  more supply of labour -  price of labour goes down . 
+  more demand for housing -  price of housing goes up . 
+  the right-wing in new zealand are n't `` classical liberals '' though . 
+  they just have policies that promise short-term benefits to businesses that sound good to business people , despite having no sound economic basis . 
+  ( 90 trial period , for example . ), 
+  the left do n't give a shit about multiculturalism . 
+  the left do n't want to restrict immigration because the left in new zealand have been utterly dominated by neoliberals . 
+  it 's all driven by ideology . 
+  none of it has anything to do with the effects of policy . 
+  ` this is good because it 's neoliberalism and neoliberalism is good ' has been the driving factor behind policy decisions in new zealand for 30 years . 
+  you think that because americans on reddit talk about immigration as if restricting it is ` heartless ' and ` evil ' that that 's the nz left 's point of view . 
+  but it is n't at all . 
+  the nz left and the us left are totally different . 
+  that 's absurd . 
+  labour has dozens of policies on their website . 
+  they 've literally said they 'll reduce the number of work visas . 
+  that is simply a completely wrong way of looking at things . 
+  immigration and emigration are not the same thing at all . 
+  in new zealand , emigration is mostly of skilled , trained graduates going overseas to make more money . 
+  restricting the number of immigrants we get will not affect the ability for new zealanders to emigrate . 
+  people leaving nz are not going to the countries that we are getting people from ( indian , china , philippines , etc. ), 
+  we do exactly what we currently do for electricians : use the ones we already have here . 
+  nobody is proposing to throw out people that are already here . 
+  we 're not exactly in an ` electricians crisis ' though . 
+  we can wait a few years for supply to ramp up . 
+  and sorry if i 've said this a few times , but if we 'd started properly training people immediately after the earthquakes , we 'd have had enough trained tradies * years ago * . 
+  the trained tradies would have transitioned from christchurch up to auckland to deal with the housing crisis there as well , a good natural transition . 
+  nobody is proposing to ` force ' anybody to do anything . 
+  labour 's policy is to subsidise employers to take on apprenticeships . 
+  this will result in many , many more apprenticeships . 
+  remember that you are n't allowed to get an unemployment benefit in new zealand if you are n't seeking work . 
+  if there is an opportunity for you to become an apprentice and you 're an unemployed 21-year-old male , you are going to have to choose the apprenticeship , as you bloody should . 
+  i assume you did n't read my post if you say `` it 's impossible to look at a piece of code and tell what contextual variables it relies on '' , given a provided a mechanism to show exactly that , a purely syntactic one . 
+  i think it 's really the same argument as the checked exceptions one : the argument for them was that it was important to know what could be thrown , otherwise `` who knows what could happen ?? '' . 
+  but in reality , it 's just so cumbersome that nobody bothered .

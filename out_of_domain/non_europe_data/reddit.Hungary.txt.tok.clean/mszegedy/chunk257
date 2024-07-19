@@ -1,0 +1,100 @@
+  how do you know he 's not lying and actually testing for something else ? 
+  anyway , as a guy with a background in computer science and quantum computation , but professionally a biomedical engineer , i once scoffed at the idea of the brain as having quantum computational components . 
+  the suggestion had come from a linguist , anyway ( who * are * good at psychology ) . 
+  i mean , what evidence is there whatsoever for that ? 
+  but if we can pin down the number of steps it takes to perform a computation in the brain , and establish a lower bound on the big o for it computed in parallel , then we can actually rule out the possibility , and make us certain that we 're not missing anything . 
+  autistic savants are perfect for testing these things against . 
+  prime checking is unideal for this , since an abstract neural network could theoretically do it in o ( 1 ) / neuron time given enough neurons ( one neuron for each possible prime factor , and just do the modulus and pipe all of them to a single neuron that ands them together ) . 
+  there 's ways to establish realistic bounds on this for the human brain , but it 's probably easier to just test a different problem . 
+  hmm . 
+  * can * we pin it down ? 
+  that would be really hard . 
+  they 're dimensionless . 
+  personalities ? 
+  that 's hardly anything you can determine from a picture !, 
+  you can see how they dress and that 's it . 
+  and taste in dress does n't indicate personality well enough that you can make an accurate nudgement . 
+  ( and facial expression is 100 % irrelevant . ), 
+  my reason is that they 're impossible to get off and they ruin the car 's aesthetic . 
+  more like shade of mirror . 
+  i 'd rather just have beautiful pictures . 
+  for a good estimate , you should also provide :, 
+  - an alphabetical handwriting sample, 
+  - a sum of how many courses you 've taken that required written homework each night, 
+  - how many of these were number-based vs letter-based ( subtle : a calculus course would be letter-based , and a precalculus course would be number-based ), 
+  - a sum of how many courses you 've taken that required in-class essays periodically, 
+  then , i 'll figure out how many letters/numbers per assignment , and for letters i 'll use the data collected on english so far ( etaoinshrdlu etc etc etc ) ( or if it 's a calculus class i 'll calculate it for d 's , x 's , and integral signs in a 3:4:1 ratio ) , and for numbers i 'll use [ benford 's law ] ( http://en.m.wikipedia.org/wiki/benford's_law ) as a distribution . 
+  then i 'll figure out the arclength of each letter and number from your samples , and multiply them by however many of them you 've probably written . 
+  as a bonus , you also get a rough estimate of how many of each letter you 've written in your life . 
+  he was n't yet giving you a reason as to why , just expressing his incredulity as to you not thinking it is . 
+  not true ; i definitely do n't . 
+  my mother is about to do this * driving from new jersey to central california * . 
+  i 'm 60 % sure she 's not bringing along anything quite as big , though . 
+  also she bought a large mazda sedan for the drive . 
+  but the likelihood that she 'll have something stick out remains , unfortunately . 
+  hmm i 'll need lower case and numbers too . 
+  but anyway , i will get back to you with the calculations tomorrow ; i am on a phone and should be sleeping now . 
+  ( very nice handwriting , btw . ), 
+  edit : however i can provide the following data right now :, 
+  a college-ruled paper is 33 lines long . 
+  assuming you fill up the page for each letter assignment ( not exactly true , but we 're not trying to be super precise ) , and your lowercase letters are about as wide as your uppercase letters ( the difference is probably very negligible ) , and you always write letter assignments in english ( you did n't mention a calculus course or world language course ) , and you always write on college-ruled paper ( probably not true ) , and you fill up half the page in math assignments ( it 's probably less ) , and you leave a space about the width of a letter ( looks about right ) , and you leave a margin on the right of about 1/4 inches , and the first letter of a word has the same probability to be a particular letter as any other letter in a word ( certainly not accurate ) , then i can say this about the amount of each letter you have written in your academic career for homework up from middle school :, 
+  you 've taken 17 letter courses and 5 number courses , each of which have had nightly assignments that consume one side of a college-ruled paper each . 
+  every character you write is about 5/32 inches wide , and the writing space on a line is about 7 inches wide , which means you can fit about 44.8 characters on a line . 
+  the average english word is about 5.1 characters ( thanks wolframalpha !, 
+  ) , so ( 44.8 char + 1 `` virtual '' space ) / ( 5.1 char + 1 space ) = about 7.5 words per line , but you must break the line after each word so that rounds down to 7 words of 5.1 characters each , and 6 spaces between the words , each 1 character long . 
+  this means that one line will contain 7 \\* 5.1 letters and 6 spaces ( the latter of which we ignore ) . 
+  that 's 35.7 letters per line , and there 's 33 lines , but you do n't write in the last one , so altogether that 's ( 35.7 letters per line ) \\* ( 33 lines - 1 line ) / ( 1 page ) = 1142.4 letters per page . 
+  say you get , on average , written homework for 160 nights a year . 
+  that 's 160 pages , so each course will make you write , on average , ( 1142.4 letters per page ) \\* ( 160 pages ) / ( 1 course ) = 182784 letters per course . 
+  ( 17 letter courses ) \\* ( 182784 letters per course ) = 3107328 letters . 
+  the average english sentence is somewhere between 15 and 20 words , so we 'll assume 17.5 words per sentence . 
+  each word is 5.1 characters , but 1.5 of the words ( a number i just pulled out of thin air ) will begin with a capital letter . 
+  we split it up here : 16/17 .5 = 32/35 = 91.43 % of the words you write are all lowercase , and 1.5 / 17.5 = 3/35 = 9.57 % of the words you write will begin with an uppercase letter . 
+  so the amount of lowercase letters you 've written is ( ( 32/35 ) \\* ( ( 5.1 lowercase letters ) / ( 5.1 letters ) ) + ( 3/35 ) \\* ( ( 4.1 lowercase letters ) / ( 5.1 letters ) ) ) \\* ( 3107328 letters ) = 3055104 lowercase letters that you 've written . 
+  3107328 letters - 3055104 lowercase letters = 52224 uppercase letters ( the dimensional analysis there is a bit dodgy , but work with me here ) . 
+  from there you just calculate how many of each letter you 've written using the available distribution :, 
+  ( i generated the following markdown with a python script ; first the script , then the markdown ), 
+  ltrs = ( ` a ' , ` b ' , ` c ' , 'd ' , ` e ' , ` f ' , ` g ' , ` h ' , ` i ' , ` j' , ` k ' , ` l' , 'm ' , 'n' , ` o ' , ` p ' , ` q ' , ` r ' , 's ' , ` t ' , ` u ' , ` v ' , ` w ' , ` x ' , ` y ' , ` z ' ), 
+  for n in xrange ( 26 ) :, 
+  from here it 's a simple matter to multiply by the arclength of each letter , and add !, 
+  thank you !, 
+  i will calculate the arclengths tomorrow . 
+  meanwhile , take a look at my edit . 
+  did you know you 've written approximately 388060 lowercase e 's in your academic career , but only about 511 uppercase v 's ? 
+  i * totally * just lost all my shit over this . 
+  hiiiii , cuties !, 
+  you 're 3 * billion * years old and really tiny and you 're * still here * and i could just stare at you all day !, 
+  i 've always been fascinated by prehistoric organisms , and also by plankton , and i 've always lamented that we 'll never be able to take some seawater from the early carboniferous and put it under a microscope and look at all the fascinating new ( old ) plankton ... this is as good as it gets !, 
+  these little guys lived three * billion * years ago , and yet we can see them in front of us here today , their tiny size notwithstanding !, 
+  ^ ( ( although , strictly speaking , appearifying things from the past would n't violate causality ... it would be as though they disappeared for that time and then popped back . 
+  i guess it violates thermodynamics , though . 
+  i am in part a biologist ( bioengineer really ) , and i approach seemingly unnecessary complexity in a non-designed thing in the following way : it was the first thing that came along to solve a particular problem that once was , and while it was n't necessarily the best way to solve the problem at all , it was better that no solution at all , so it stayed , since language generally transcends individual planning ( and most people just do n't think/want to change it ) . 
+  ( this is obviously reminiscent of evolutionary theory in biology : cells are a mess because they accumulate random changes over time that happen to improve them . 
+  there 's no overall force of coherency that would optimize a cell as a whole . ), 
+  gendered words are good for languages that do n't have a fixed word order , because you can connect words by making them the same gender as each other . 
+  this is called agreement . 
+  you can , as a common example , make adjectives agree with the nouns they modify . 
+  consider the latin sentence , `` m\u012bl\u0113s de\u00e6 magnus est , '' meaning , `` the goddess has the great soldier . '', 
+  i know that the word `` magnus '' , `` great '' , is modifying `` m\u012bl\u0113s '' , `` soldier '' , because it is masculine ( and nominative , which is a case of a noun that marks the subject ) , like `` m\u012bl\u0113s '' . 
+  i can quickly modify the meaning of the sentence without changing the word order : `` m\u012bl\u0113s de\u00e6 magn\u00e6 est. '', 
+  `` the great goddess has the soldier . '', 
+  all i 've done is changed the gender ( and case ) of the adjective to match the other noun in the sentence , and suddenly it 's modifying it , rather than `` m\u012bl\u0113s '' . 
+  this is invaluable to disentangling long sentences with multiple nested clauses , of which the romans ( or their poets , at least ) used plenty . 
+  however , old latin had gender , too , so it 's not like the romans came up with it . 
+  maybe disambiguation is n't even why gender was concocted in the first place along that particular lineage !, 
+  maybe they just genuinely wanted to sort different kinds of objects into different groups . 
+  that is certainly how i see gender in niger-congo languages as having developed . 
+  their noun classes ( which is what you call gender when there 's more than three types ) extend to tens and occasionally hundreds many , distinguishing between different categories of things . 
+  kiswahili , for example , has two classes for people , two classes for natural phenomena ( and trees ) , two classes for groups of things ( like `` eyes '' ) , two classes for artifacts , two classes for miscellaneous things ( and animals ) , and a few extra , the last one of which is for abstract concepts . 
+  while it may seem superfluous to sort things like that in speech , it only occurs to you because you 've only now been exposed to it !, 
+  one who speaks kiswahili would find it very natural and logical to group nouns by categories , extending to speech . 
+  ultimately , though , the evolution of languages is a very chaotic process , like the process of biological evolution that i compare it to . 
+  changes happen for not really any good reason ; features of a language arise from habits and desires that happen to impact communication , not from anything sensible like planning and construction . 
+  it 's a messy heap of stuff built on older stuff , one tiny brick at a time . 
+  so it 's inconsistent and sub-optimal ? 
+  how are you going to convince every speaker ever to change the way they communicate ? 
+  because you as an individual certainly wo n't be able to change it by communicating differently by yourself . 
+  all you 'll get is that people wo n't understand you . 
+  billion !, 
+  early carboniferous ~ !, 
+  thank you !,

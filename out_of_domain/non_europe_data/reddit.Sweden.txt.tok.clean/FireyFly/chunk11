@@ -1,0 +1,100 @@
+   what if a return value is too big to fit in a ? 
+  ( for example , a struct ), 
+  you 'd return that a pointer to some part of the ram that holds your thing , i suppose ? 
+  at least that 's what i do . 
+  tangental to the topic : i 've seen [ this code on github ] ( https://github.com/jtauber/dcpu-16-examples/blob/master/keyboard_reader.asm ) that 's supposedly from notch . 
+  however , i have n't actually seen it posted by notch ; at least it has n't been posted on his twitter account . 
+  does anyone know the * actual * source of it ? 
+  thank you . 
+  i could n't find the tweets in his twitter feed . 
+  very nice !, 
+  i 'm working on one too . 
+  :p got rendering & collision checks working . 
+  very nice picture !, 
+  who am i looking at ? 
+  ( pardon my ill-informedness ), 
+  the data is stored on the server , just like with `` regular '' paste services . 
+  however , the data stored is encrypted , and it 's encrypted * before * it 's sent to the server . 
+  the server never sees the key needed to ( en | de ) crypt it , but instead only returns an identifier that might be used to later retrieve the ( encrypted ) data . 
+  in order to actually view the decrypted data , you need to have the key that only ever exists in the pasting user 's browser ( and is appended to the url that you 're supposed to access the data via , as a fragment identifier which is n't sent to the server ) . 
+  at least that 's how i understood it . 
+  good , interesting points . 
+  random numbers , iiuc ` / dev/random ` is merely a collection of `` noise '' from disk/keyboard/mouse / ... i/o , and ` / dev/urandom ` is a cryptographically secure prng that 's seeded by ` / dev/random ` . 
+  in that case , would n't it be possible to implement a similar cryptographically secure prng in js , and use things like keyboard & mouse listeners to collect `` user entropy '' ? 
+  i realise this would probably result in worse `` random '' data than implementing it on the os level , since you have access to much less sources of `` random entropy '' . 
+  but still , it feels like it 's not necessarily entirely impossible . 
+  or is my logic flawed ? 
+  you likely also need to prevent the shell from expanding the ` * ` glob : ` ` dcpu.jar : lwjgl.jar : jar / * ' ` ( including the '' ) or ` dcpu.jar : lwjgl.jar : jar / \\* ` . 
+  fwiw jars are just zips , so ` unzip ` works just as well to extract the content . 
+  not sure about tutorials , but i 'll make an attempt at explaining jsr & dat . 
+  * ** jsr ** : to quote the spec :, 
+   jsr a - pushes the address of the next instruction to the stack , then sets pc to a, 
+  in other words , '' ` jsr a ` '' could be seen as a '' ` set push , ... ` '' followed by a '' ` set pc , a ` '' . 
+  the ` ... ` would be a pointer to the next instruction after the jsr . 
+  * ** dat ** : you should understand that assembly is essentially a `` human-readable version '' of machine code . 
+  a single assembly instruction corresponds to a single machine-code instruction , and it 's usually very clear exactly how many words in machine-code that the instruction would assemble to . 
+  * dat * allows you to get * even closer * to machine code , in a way . 
+  it allows you to embed data ( of any type : it could be program instructions , or small pixel images , or numbers ) that simply gets passed straight into the assembled machine-code . 
+  usually , the embedded data is either text , numbers or `` images '' ( character information ) . 
+  it 's worth noting that whereas jsr and all the other instructions are * actual * instructions , ` dat ` is merely a pseudo-instruction -- it gets translated by the assembler and is n't part of the actual instruction set . 
+  edit : fixed proper indentation for the jsr bullet ... it looked good with res . 
+  stenberg * :-), 
+   changing a program while it is running it pretty much impossible , even on modern computers . 
+   see windows is installing updates or you need to restart your computer for these changes to go into effect for more information . 
+  disagree . 
+  programs modifying other programs , or for that matter themselves , while running , is definitely possible . 
+  see [ self-modifying code ] ( http://en.wikipedia.org/wiki/self-modifying_code ) . 
+  even for things like operating-system updates , [ there are ways ] ( https://en.wikipedia.org/wiki/ksplice ) to perform the updates on a live running system without requiring a restart . 
+  `` you need to restart your computer '' is probably used primarily because it 's easier and ( as a consequence ) less error-prone than applying the changes `` live '' . 
+  in modern systems , you have to be very careful with dependencies , and this problem gets much more complex when you 're attempting to * update * code , while the updater itself might depend on said code . 
+  see also [ narcissus ] ( https://en.wikipedia.org/wiki/narcissus_ ( javascript_engine \\ ) ) , and more recently [ tachyon ] ( https://pointersgonewild.wordpress.com/2011/08/27/the-tachyon-javascript-compiler/ ) ( [ pdf ] ( http://www.sable.mcgill.ca/~clump/cdp2010/chevaliercdp10.pdf ) ) . 
+  related is also [ google 's traceur ] ( https://code.google.com/p/traceur-compiler/ ) , although it compiles next-generation javascript to an older version , rather than being a javascript interpreter . 
+  it 's written in javascript though . 
+  it usually depends on the kind of game too . 
+  for something like super mario 64 i 'd probably go with upscale no questions asked . 
+  however . . scaling does n't really do pixel art any justice , imo . 
+  in pixel art-heavy games i usually prefer to run the game in the original resolution ( even though it is rather small ) . 
+  all right , so here is what we know :, 
+  there has been both a leaked old copy of 0x10c , and an officially released emulator ( [ highnerd ] ( http://dcpu.com/highnerd ) ) . 
+  these were decompiled and studied , and compared to what we already knew from notch 's earlier screenshots . 
+  [ this document ] ( https://github.com/gibbed/0x10c-notes/blob/master/virtualmonitor.txt ) describes what was figured regarding output , and 0x10co . de was updated to match this new information . 
+  the [ ( default ) font ] ( http://i.imgur.com/lgrzh.png ) used by 0x10co . de reflects the official font.png found in the previously mentioned resources . 
+  however , the font can also be edited during execution , as is documented in the previously mentioned document . 
+  so far , the official specification has n't changed at all . 
+  however , notch has said that a revised specification will be released , and that it 'll at least incorporate [ these changes ] ( https://gist.github.com/2341455 ) . 
+  we 'll have to wait and see what happens . 
+  yup . 
+  the `` 64k '' in his os is even hard-coded into a string . 
+   version 1.1, 
+  maybe you want to increment this ? 
+  awesome :3, 
+  either what exec64 said , or teach yourself how to program . 
+  either try to find a dcpu tutorial and play around a bit at [ dcpu.ru ] ( http://dcpu.ru ) , or start with a higher-level programming language instead ( i 'd suggest scheme via [ sicp ] ( http://mitpress.mit.edu/sicp/full-text/book/book-z-h-4.html#%_toc_start ) ) . 
+  is n't nop easy enough to provide as a pseudo-instruction ? 
+  there are * lots * of nops already . 
+  i agree about hlt though . 
+  i think clarifying what should happen when you write to ` < nextword  ` would be a good idea . 
+  currently , the general consensus seems to be `` it 's a no-op '' , but the spec is n't entirely unambiguous . 
+  since ' `` next word '' means '' [ pc + + ] '' ' according to the spec , treating '' ` set < nextword  , ... ` '' as actually writing to the memory data pointed to by ` pc + + ` does n't seem too unreasonable . 
+  in fact , that interpretation would probably be much more interesting than the no-op one . 
+  maybe clarify what happens when one writes to ` nextword ` . 
+  currently the spec says ' '' ` next word ` '' means '' ` [ pc + + ] ` '' ' , but if that was the case i 'd expect writing to ` nextword ` to actually write to the ram at position ` pc + + ` . 
+  other than that , it looks rather solid to me !, 
+  * edit : * maybe i should clarify that i mean things like '' ` set 100 , a ` '' , which would be assembled to '' ` set < nextword  , a ` '' followed by ` 100 ` . 
+  it seems that most implementations sees this as a nop , but it seems perfectly reasonable to see it as actually writing to ram too ( in fact i think that 's a more reasonable interpretation ) . 
+  i 'm sorry if i 'm dense , but : can you explain why we need an atomic swap instruction as opposed to three-cycle three-instruction xorswap ( or temp-variable swap ) ? 
+  i figure it has to do with interrupts happening in the middle of the swap , but i still do n't see why that is problematic ( assuming the interrupt does n't mess with the things being swapped ) . 
+  ( slightly offtopic , sorry ) re . 
+  string variants :, 
+  some people have pushed for `` smart strings '' , where the string is a ( length , * chardata ) pair . 
+  in the simplest case , you can have the chardata appended after the `` smart string '' pair , essentially having a pstring with a pointer . 
+  this takes one extra word of memory , and is ( very ) slightly more complicated to access , but it makes substring operations * much * simpler , keeping the original string intact . 
+  thoughts on this variant ? 
+  but ` 0x8100 < 0x8180 ` holds even if ` < ` does a signed comparison , since ` 0x8000 ` represents the minimum negative value , and ` 0xffff ` represents the maximum negative value . 
+  this means that a loop which goes from ` 0x8000 ` to ` 0x8180 ` , checking ` i < 0x8180 ` , will work correctly even if ` < ` does signed comparison . 
+  however , if you start before ` 0x8000 ` it would n't work . 
+   on underflow , it 's 0x0001, 
+  ` 0xffff ` * ? 
+  i do n't follow . 
+  ` -32768 < -1 ` , hence ` 0x8000 < 0xffff ` for signed comparison ? 
+  it seems to me that both the ranges [ 0x0000 - 0x7fff ] and [ 0x8000 - 0xffff ] are in increasing order , even for signed numbers ( assuming 2 's complement ) .

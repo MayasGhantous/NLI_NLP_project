@@ -1,0 +1,100 @@
+  i do n't think you really understand that it 's completely irrelevant . 
+  the * only * thing relevant to this discussion is how much apple charges consumers who buy apple products from apple . 
+  if they 're price fixing with regards to their products sold through third parties , that may or may not be legally questionable , but it is n't really relevant to the discussion . 
+  the point is , i compared the price of one apple computer in the us to the same computer in australia , both sold * by apple * , and found that the price difference excluding tax was only 5 % . 
+  when compared to the lenovo someone was commenting about elsewhere in the thread ( i did the same analysis and it ended up at 25 % ) , or all the different examples of video game price-gouging , that 5 % looks very nice . 
+  for the slightly more nerdy-inclined , playing dnd can -- with the right group ( i.e. , one with a heavy interest in the roleplaying aspect ) -- have the same effect . 
+  one of my courses at the moment labels its assignments ass1 , ass2 , ass3 , and ass4 . 
+  not quite as ... interesting ... as this , but amusing nonetheless . 
+  python 's ` for x in i ` syntax works like so :, 
+  it iterates through each item in ` i ` ( if i is a list , it 's each item in the list , if i is a string , then it 's each character in that string ) , and assigns the value of that item to ` x ` . 
+  so in your case , you want, 
+  for name in names :, 
+  it will loop around this 4 times , once with each name . 
+  on the first iteration , it will assign ` name ` the value ` `` adam '' ` , since that is the first item in list ` names ` . 
+  on the second loop , it will assign ` name ` ` `` tanya '' ` , and so on . 
+  inside the loop , you can use ` name ` exactly as you would a variable that you assigned a value manually . 
+  so if you want to just print out the value , you would go ` print ( name ) ` . 
+  thus , what you want as your end result is :, 
+  for name in names :, 
+  print ( `` hello '' , name ), 
+  it 's worth noting that what you 've got at the moment basically loops through the full list multiple times , but it ignores the value of ` name ` each time . 
+  for adam in names :, 
+  will loop through names , and set ` adam ` to ` `` adam '' ` on the first loop , then execute what you put below it , then it will set ` adam ` to '' ` tanya '' ` on the second loop , and execute what you put below it , etc. 
+  thus you get it printing the same thing four times for each for loop . 
+  for the second question , you need to use string indexing . 
+  if you wanted the first value in a list called ` words ` , you could write ` words [ 0 ] ` . 
+  you can do the same thing in python with strings , by going ` string [ 0 ] ` . 
+  so if you go :, 
+  for word in words :, 
+  if word [ 0 ] = = `` q '' :, 
+  it should give you what you want . 
+  line 2 checks to see that the first character of the word matches the value `` q '' , and if it does , then it executes the next block . 
+  hope that helps !, 
+  is he not still wrong about the chinese part ? 
+  or did the movie use chinese actors to play the japanese ? 
+  i disagree with the americas . 
+  they 're connected by an isthmus , which arguably makes them two separate landmasses . 
+  if you count them as a single landmass , then you realistically should also consider afro-eurasia a single continent . 
+  personally i prefer to go with a 6 continent model combing europe and asia into eurasia , and otherwise keeping it the same as the standard 7 continent model . 
+  right but that 's only one of the two things the person got wrong :, 
+  * saying it was the chinese, 
+  * saying that * they * would want to get back at the * us * , as opposed to the other way around . 
+  that makes sense . 
+  it came out not too long after the 15 ' one . 
+  seemed a bit awkward at first because they then had 4 models , and it was n't a clear progression of best to worst , which apple usually likes to have . 
+  13 non-retina was obviously the worst , and 15 retina the best , but which is better , 13 retina or 15 non-retina ? 
+  unfortunately , they resolved this problem by dropping the 15 non-retina version , but yeah , that 's the story behind it . 
+  yes . 
+  ( in all honesty , i do n't really mind how i have my soft drink -- which is what we call it here . ), 
+  your brother ? 
+  ouch , that 's cold . 
+  i hope you at least gave him warnings beforehand ... ( though if you did , and he continued to act out , then fair game . ), 
+  as a programmer i would strongly recommend using some variation of dvorak tailored to programming . 
+  the default makes things like square brackets and curly braces way too difficult to reach ( and even regular brackets are n't in an ideal location ) . 
+  there 's [ the official programmer dvorak ] ( http://www.kaufmann.no/roland/dvorak/ ) layout , which is readily available , but imo somewhat broken , so i adapted it and made my own dvorak for programmers that you 're more than welcome to copy . 
+  [ image showing first layer , but with all the keys in the right place ] ( http://imgur.com/kbd99xg ) . 
+  [ with second layer visible , but the placement of esc and del makes the on-screen keyboard look weird ] ( http://i.imgur.com/fxxvjqm.png ) . 
+  i think dvorak specifically chose to keep all the symbols and numbers on the same shared key , which makes it easier to learn . 
+  all the numbers have the same symbol on shift , the hyphen-minus still has underscore on shift , equals -  plus , square bracket -  curly brace , etc. 
+  he just moved them around to put the more common ones in easier-to-reach locations . 
+  no it 's a writer come detective being speechless , and it 's australian because i said so . 
+  fairly sure he 's parodying the guy calling hailcorporate for nestle . 
+  ( at least , that 's the only explanation i can come up with . ), 
+  to put it quite bluntly , if you are n't capable of doing ib hl maths , you probably are n't really cut out to study physics at uni . 
+  of course , it 's entirely possible that you * are * capable of doing hl maths , but chose not to for any number of reasons . 
+  if that 's the case , i do n't know about in europe , but here in aus you could definitely enter with an easier degree , take a course equivalent to hl maths , and then change your degree later . 
+  you might want to look into if doing something like that is possible . 
+  + / u/compilebot brainfuck, 
+  ftfy, 
+  honestly i ca n't see myself using it unless it has a web interface somewhere , so that i can reach it from any browser on a computer that does n't have chrome at all ( especially public computers ) . 
+   finally , i love being able to share logins with people without them being able to get the password . 
+  how does that work ? 
+  do they need to also have lastpass ? 
+  i 'd be very surprised if they released it en masse without at the very least the ability to specify password length and include/not include symbols or numbers . 
+  but yeah , i 'm happy with lastpass , doubt i 'll switch away from it -- at least until google 's version has been around long enough to prove its security is sufficient , and it has at least feature parity with lastpass . 
+  definitely do n't see any need for lastpass pro , though . 
+  the web interface works well enough on the rare occasion i need to use it on my phone , and i do n't have a yubikey , so that 's not a factor for me . 
+  i took part in a study like this last year . 
+  they took a spit swab on the friday , and had me not use facebook over the weekend , and did another swab on monday . 
+  ( and i 'm assuming they had other people as a control group who got swabbed on friday and monday but continued using facebook as normal . ), 
+  i never got the results of that particular experiment , but they suspected it would result in decreased levels of stress hormones like cortisol . 
+  if it makes you feel better at all , it 's already sunday where i am . 
+  ah right . 
+  where i 'm from we 've moved on from the 1800s , so i 'm not particularly familiar with the system . 
+  that would be tim cook . 
+  and he actually replaced jobs as ceo before jobs ' death . 
+  not at all , i just figured i 'd give you the answer to your query , along with some bonus information on the house . 
+  damn it , you caught me . 
+  i am in fact satya nadella . 
+  i do n't think it has to be that high to be called a beamer . 
+  i 'd probably call a ball a beamer if it 's above waist height without bouncing . 
+  yeah , if the context made it clear what they were talking about , i 'd have no problem understanding them . 
+  it makes a lot of sense . 
+  i wan na know how we scored so damn high in dance . 
+  above jazz and above * hiphop * , which i do n't think i 've ever been exposed to outside of the context of someone dancing to it . 
+  oh yeah , i know there * is * classical dance . 
+  i 'm just surprised that we talk about dance more than hiphop . 
+  most of what i 've seen has been symphonies , concertos , sonatas , etc. 
+  stuff not meant for dancing . 
+  ( maybe the occasional ballet . ),

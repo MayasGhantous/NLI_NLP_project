@@ -1,0 +1,100 @@
+  maybe you just do n't notice them . 
+  i certainly do a lot of these . 
+  well you can combine all data in 1 giant query if you need to but why not split it into several simple queries ? 
+  sure . 
+  if the performance of every screen matters that much . 
+  even then orm can be a good way to materialize the results of sps into objects and save some code . 
+  and lose linq ? 
+  by default i take linq over performance . 
+  then i guess we should all write assembly for maximum efficiency ? 
+  i usually use linq for filtering and paging but the coolest thing is that it is so easy to expose it as an api . 
+  interesting . 
+  i have seen otherwise ( if you disregard performance ), 
+  hmm never thought of the ui code needed but my experience with code gen for sp wrappers is not that good and using untyped datasets ( dictionary/dynamic objects ) has been quite bad as well . 
+  they wanted to align it with office 2012 . 
+  interestingly it does not look stupid to me in office but it does in vs. 
+  i have no idea why . 
+  the . net framework is not open sourced in the `` use our code '' sense most people understand open source . 
+  they have released source code for the framework for reference ( debugging ) purposes and it has been like this for about 5 years . 
+  this is nothing new ... well the source code for 4.5 is new of course . 
+  it 's more for debugging and it is nothing new as they are releasing the source code for the framework several years now . 
+  c # 5.0 and c++ however they version it . 
+  there are many small ide features but my favourite one is the page inspector for asp.net applications . 
+  i wish i had that when i was working as web dev . 
+  do n't forget that if your data can not fit into ints and you are forced to work with longs 64 bit can be faster . 
+  for example if you have more than 2 ^ 32 lines of code in a file . 
+  cool !, 
+  the guy invented outsourcing . 
+  if blizzard listened to top players every time the game would be terrible . 
+  also if they listened to top players less the game would be much better . 
+  top players ' opinions are the reason the map pool practically has one map now . 
+  you know the one with long distance , the ramp to the natural and easy to take third . 
+  how i wish they bring back the beta map pool and i know it will never happen :(, 
+  it is about innovation not about speed of execution . 
+  while ms supports fewer versions of windows they support it the longest and have the greatest responsibility to implement it in a stable way out of any browser vendor because their browsers stick around the longest . 
+  do n't forget multiple processes for single browser instance . 
+  upvote just for using clojure , 
+  hmmm i once wrote an article about this :, 
+  ( contains c # extension method on ienumerable < t  ), 
+  ienumerable.count enumerates the sequence ( unless it falls in some specially optimized case like list ) . 
+  the goal is to enumerate only once in case enumaration is too expensive or can not be reproduced . 
+  `` defeats the purpose '' is missing the point . 
+  the purpose as stated in the posted article and in my article is to enumerate the collection only once . 
+  this is not premature optimization because it is in the requirements ( as stated in both articles ) . 
+  of course if your enumerable is list then the suggested method is not only overkill but also slower because list selecting random number from a list is o ( 1 ) operation ( select random element between 0 and count , get the element with indexer ) . 
+  however this is entirely unrelated because the requirements in this case are completely different . 
+  what is more firefox on x86 metro can jit as much as it wants . 
+  it is only arm metro that is restricted for browsers as metro browsers on x86 are an exception from the general rules for metro apps . 
+  at this point the windows 8 store does not sell desktop apps at all . 
+  also in the original presentation the wats could bite you in practice . 
+  array declarations and integer caching can not . 
+  . net 's implementation takes a boolen argument telling it if empty strings should be filtered out . 
+  if you need to read the docs for every method call the api is just sad and you should switch to a more reasonable platform . 
+  also js has docs as well and you would know about the wat behaviour if you read it , 
+  yes . 
+  it does not remove empty strings from the result :, 
+  well still it is documentation , 
+  i think reading the documentation for everything i call is an overkill . 
+  i just read when there is a problem or when the api is badly designed or very complex ( probably because the problem is complex ), 
+  for visual studio - like 12 % if my calculations are correct based on these numbers :, 
+  and vat in france ~ 20 %, 
+  yes but eu prices are listed after vat and us before sales tax . 
+  he probably downloaded one from pirate bay, 
+  so they are greedy in canada but not in the us ? 
+  there is this crazy theory that ms makes money from windows , windows 8 store , windows server and sql server and may want developers to develop apps on top of these and may not make money on dev tools ... but this is just a crazy theory . 
+  it depends on the state but i believe the average is about 8 % on the other hand vat in eu varies from 15 to 25 % - http://en.wikipedia.org/wiki/european_union_value_added_tax, 
+  you may check the links in my other comment on parent . 
+  i got like 12 % more expensive vs in eu but i do n't know if ms has to pay any kind of import tax and how much that is . 
+  people do n't buy this . 
+  if you need ultimate you probably work for a large team which means a company which means that the company can get msdn subscription for the whole company which is much cheaper per seat . 
+  i 've heard that the dev division is self sustaining but i do n't know what this includes . 
+  also i 've heard that they may be scared of antitrust charges if they give away dev tools for free . 
+  none of these explains why the pricing schemes are so insane though . 
+  i wish i knew . 
+  i 've heard theories that they may be scared of antitrust charges . 
+  keep in mind that vs exists for many years and when they set the pricing ides and even compilers did cost money . 
+  also they are warming up on this . 
+  first the express editions then the dreamspark , bizspark and website spark programs which essentially give vs for free to anyone who really wants it and they are pushing much more features into express with every release especially for windows phone and windows 8 . 
+  making more money from canadians is ... strange . 
+  first of all they will not make any significant amount of money because very few people buy vs ( most get it from work via company subscriptions ) . 
+  what is more the amount of money added to the price in canada is too small especially compared to the enormous p.r. 
+  damage threads like this one cause . 
+  there may be more to this especially since every software maker does something similar ( especially for europe ) . 
+  `` greed '' is not recognized as a term by economics, 
+  canadians are more wealthy than americans and americans are more likely to pirate ? 
+  i found this highly dubious especially since prices in eastern europe are higher than both . 
+  in a real system you may need to verify some input . 
+  it may be something else to which the algorithm applies, 
+  why so much hate for cheesy play ? 
+  cheese strategies are often quite innovative and after a cheese opening the game is often left in interesting and unexplored state that forces the players to think on their feet . 
+  does n't he get bored with casting/watching the same `` nice macro game '' over and over ? 
+  i suggest if they do n't fix the ingame time we file a class action lawsuit . 
+  they promised !, 
+  different ingame time is so annoying . 
+  you will have to relearn all the timings . 
+  maybe some timings will stay the same but you can easily relearn these because they will be like 10 . 
+  option is ok as well . 
+  they can change the timings of the units to fit real time . 
+  it will not change the balance significantly especially in comparison with all other balance changes . 
+  btw i 'd take fractions in the interface over numbers in blizzard time . 
+  even if you are so good that you can tell sub second timings for units ( i ca n't ) this would be the slightest change compared to all the havoc that the new units are going to cause to the balance .

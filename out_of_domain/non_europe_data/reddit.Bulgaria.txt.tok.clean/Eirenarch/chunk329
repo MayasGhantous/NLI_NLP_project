@@ -1,0 +1,100 @@
+  ( like the case with incontrol ) or what about the case where you really want that contract with a large company or the government and they wo n't bend to your terms ? 
+  ( again i have to assume this is the case with incontrol ) my point is that receiving your payment from the client is a kind of service that a regular job provides for you and you need to factor that in when you are a freelancer . 
+  this is why some professions like actors and sport players have managers, 
+  uhm ... there is nothing in ts that forces you to do oop . 
+  types are useful even when you do n't use classes or inheritance . 
+  as a matter of fact type definitions are types on top of existing js patterns . 
+  in this sense typescript is flexible enough to follow the javascript codebase that already exists be it oo or not . 
+  it makes sense that the tutorials promote this because the expected audience really is java and c # devs . 
+  however in order to be frictionless ts must support all existing js patterns . 
+  and it is in fact frictionless . 
+  i assumed that what you do n't like about ts is that it promotes oo-style and wanted to inform you that you can benefit from ts regardless of the paradigm you want to use . 
+  great job but in this case we 're talking about a blogpost detailing the advantages of angular over other spa frameworks . 
+  your comment is pretty devoid of actual argument . 
+  if you are happy with doing server-side rendering which is fine for some projects then go on , angular will just make things worse . 
+  however there are products which benefit from being built as a spa . 
+  these are usually apps that are not accessible to unauthorized users and have a lot of controls in the ui . 
+  for server side apps the ideal example would be wikipedia while for spa the ideal example would be your internal company erp with all the dropdown menus , charts , textboxes , forms with popups and so on . 
+  angular is not supported better . 
+  however angular does not break my javascript editor because the templating engine is not specifically supported in the ide . 
+  if my editor only supports js angular works just fine react does not . 
+  btw do you dispute the fact that there was a timeframe when you could not use react with typescript ? 
+  i am not aware of any first party way to separate the template and the code . 
+  in angular it is out of the box . 
+  typescript ( also ides ) works without any support for angular because angular does not require separate js parser in order to use templates . 
+  i do n't have full support for angular but as it happens angular templates are either valid html or simply a string in js . 
+  i do n't know about separating the jsx from js that way . 
+  maybe it is possible maybe it is not but the fact remains that it is easy for react devs to allow jsx in a separate file or in a js string , they just refuse to do so . 
+  react always felt like a framework they built for themselves which only supports their tools and their ways of doing things and everyone should be doing it their way or get out . 
+  well i got out . 
+  i never said that jsx ca n't easily support separate files or putting it in a string . 
+  as a matter of fact i claim that adding this support is quite easy but it is still not in the box . 
+  i 'd say that better autocomplete is a great value . 
+  when i write js i run a piece of code on average 1 additional time simply because of typos . 
+  this is insane value on its own ( not talking about bugs and documentation just typos ), 
+  `` in the box '' means that i open a react tutorial , guide , blogpost - paste the code in vs and the js editor stops working . 
+  i do the same with angular and everything is fine . 
+  yeah ... if it uses something like typescript ( even if it does so in the background ), 
+  i do n't see a reason to ever use this . 
+  the point of web assembly is to be able to get away from js and use another language . 
+  typescript is great and all but its value is that it integrates with js without any friction . 
+  it is not the best language in the world on its own . 
+  if i do n't need to use js then i do n't need ts as well . 
+  presumably that would be faster than the corresponding js because the ts to webassembly compiler has more type information which allows it to make additional optimizations compared to what the browser would do with the js it is given ? 
+  maybe it can work . 
+  there does n't seem to be any benchmarks though . 
+  if you find any high-quality articles listing angular advantages please let me know . 
+  it seems like it is mostly angular bashing these days . 
+  if by `` just '' you mean in the past month i have to ask why did n't you go for core on top of the full framework ? 
+  i disagree with the notion that more powerful type system is necessary a good thing . 
+  typescript needs that type system to match some of the patterns used in js libraries but with great power comes great complexity so i do n't think that for practical purposes the language with the most powerful type system is the best language . 
+  so in quake live rockets are buggy too . 
+  so many direct hits did n't see any damage indicator . 
+  coupling by structure does not mean you do n't have coupling, 
+  i know that . net core is risky and this is why i asked about asp.net core on top of the full framework ( now that i look at it i forgot to mention that i am asking about asp.net core ) . 
+  i do n't think asp.net core is risky at all . 
+  you can use . net 4.6.2 and ef6 and still use asp.net core . 
+  the point of using asp.net core is to get the di out of the box , to get things like tag helpers , to get the unified controller model , to prepare for future migration to . net core . 
+  i am not sure the save and refresh dev model works with asp.net core on full framework but i think it does . 
+  yes but this is a third party solution is n't it ? 
+  i have no idea ... yet , 
+  it is not so much that i want to use packages built by facebook but that i do n't want to use practices for which there is not enough know-how online . 
+  when i talk to react users on conferences for example and i ask about separating the template they do n't tell me to use this library they tell me to stop using visual studio , or typescript or whatever . 
+  the whole mentality of the react community and developers seem to be that their setup is perfect and there is no reason to change it so you should use their toolchain including the ide . 
+  i saw a session on this and some more 6-7 years ago . 
+  since then i am very cautious . 
+  i even think the billion laughs attack can still crash visual studio, 
+  just open visual studio create an xml file and paste this but save your work before that depending on the amount of ram you have you may need to restart windows, 
+  more like that time of the quarter , 
+  yeah in c they do n't call their out parameters out parameters . 
+  they call them pointers . 
+  tuples before the c # 7 were outright unusable . 
+  clever but i think people will just call him `` the new david kim '', 
+  i will really enjoy seeing this strategy used occasionally . 
+  i have some experience with odata which aims at similar problems . 
+  there are security issues with it . 
+  it is not like it is not secure but the work to add security outweighs the data on the average project . 
+  it seems that graphql will result in even more complexity with its resolver model . 
+  you either have to write extremely complex resolvers ( at least if you target relational model ) or deal with the multiplication of database queries if you do n't . 
+  odata uses existing linq providers for this . 
+  articles tend to focus on how to query data with graphql and people are impressed but the real issues with these flexible query models is how you provide the data . 
+  it gets hairy quickly . 
+  yes odata is actually rest-based graphql . 
+  in my opinion these kind of tools are extremely useful in specialized cases . 
+  for example i saw a government project where the requirement was that all the data was public . 
+  they just swapped a odata service on top of the database and got it done in hours . 
+  it was also great for consumers because they could query as they see fit . 
+  however they did n't need to reshape the data or restrict for security reasons . 
+  yeah i noticed this dataloader thing in the article . 
+  it kind of reaffirmed my impression that the problem exist because apparently a solution is needed . 
+  now of course it is not obvious without actual experience how good this solution is . 
+  maybe graphql is much better than odata and the problem is solved much more easily but this is a problem that is not discussed when selling graphql, 
+  yeah it is not direct access . 
+  it is through iqueryable , 
+  the brand bitcoin must survive and be free from core . 
+  it is just too important for all cryptocurrencies . 
+  50/50 hashpower split will destroy the core chain because the 2x chain will have double the capacity . 
+  the brand goes to whoever exchanges and services like bitpay decide . 
+  i am pretty sure a great deal of the price will follow the brand . 
+  a lot of exchanges and services have signed the agreement . 
+  it remains to be seen if they will follow on their promises .

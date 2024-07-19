@@ -1,0 +1,100 @@
+  they 're * technically * correct . 
+  is that the driver though ? 
+  i googled around a bit and found [ a download ] ( https://packages.debian.org/sid/all/firmware-iwlwifi/download ) ( i understand debian packages work with ubuntu ? 
+  ) , but it seems to be firmwire only , not a driver . 
+  especially since the files for the individual models are 600-700kb uncompressed instead of the 100mb i expected . 
+  i ran the commands , and they both returned a bunch of information about themselves , and seem to be installed correctly . 
+  the wifi works fine in windows , so presumably the firmware is fine . 
+  is it possible that it 's not a driver issue at all ? 
+  i assumed it had to be because i had to install drivers manually in windows , and the wifi button in the taskbar says `` no network devices available '' . 
+  the lshw command does show the network adapter though , with this output :, 
+  * - network unclaimed, 
+  description : network controller, 
+  product : wireless 7260, 
+  vendor : intel corporation, 
+  physical id : 0, 
+  bus info : pci@0000:02:00.0, 
+  version : cb, 
+  clock : 33mhz, 
+  capabilities : pm msi pciexpress bus_master cap_list, 
+  configuration : latency = 0, 
+  resources : memory : f7c00000-f7c01fff, 
+  i 'm not sure how helpful that is , but i feel like i 've spent my whole week on google reading things i kinda sorta vaguely understand to try to get ubuntu into a workable state . 
+  it would be really nice if someone just knew how to fix this . 
+  iwlwifi-7260-9 . ucode was present in the folder , i even had iwlwifi-7260-8 and iwlwifi-7260-7 too . 
+  seems to be in order . 
+  just asked for my password and returned nothing , not sure what that was about . 
+  returns, 
+  seems about right to me . 
+  i have no idea what program is managing my network connections . 
+  i do n't even know what that means . 
+  whatever ubuntu 14.04 uses by default . 
+  sudo iwlist scan, 
+  simply returned, 
+  lo interface does n't support scanning . 
+  pretty weird . 
+  sudo rfkill list, 
+  returned, 
+  1 : asus-wlan : wireless lan, 
+  soft blocked : no, 
+  hard blocked : no, 
+  2 : asus-bluetooth : bluetooth, 
+  soft blocked : no, 
+  hard blocked : no, 
+  3 : hci0 : bluetooth, 
+  soft blocked : no, 
+  hard blocked : no, 
+  i 've actually tried this already , because my keyboard has a function key ( fn + f2 ) to enable airplane mode . 
+  nothing happens when i press it in linux , and its led indicator is always off , so i kinda forgot about it . 
+  hopefully it 's nothing that banal . 
+  still nothing . 
+  not even a line break . 
+  ok , looks like progress has been made : when i first tried the grep command , it returned nothing . 
+  after i loaded it with modprobe , however , it returned :, 
+  the two dmesg | grep commands from your previous posts still return nothing though . 
+  dmesg worked as you said , it printed a bunch of stuff about me plugging in a usb drive . 
+  after loading iwlmvm , grep iwl printed information about it too . 
+  iwlmvm 189774 0, 
+  mac80211 630653 1 iwlmvm, 
+  cfg80211 484040 3 iwlwifi , mac80211 , iwlmvm, 
+  sudo ifconfig wlan0 up, 
+  wlan0 : error while getting interface flags : no such device, 
+  same for wlan1 , wlan2 etc. 
+  yep . 
+  although the airplane mode led on my f2 button is suspiciously being powered again . 
+  i still do n't think that 's it though , it 's supposed to disable bluetooth too and that 's still working . 
+  in windows 8.1 , the airplane mode button interracts correctly with the software too , and flicks the `` airplane mode '' switch in the metro interface . 
+  in linux it just seems to do nothing . 
+  is messages supposed to be a directory ? 
+  it does n't seem to exist there . 
+  if i run grep with just / var/log , it returns :, 
+  grep : / var/log : is a directory, 
+  i 'm not very familiar with grep , as you can see . 
+  upgrade to java 8 64-bit . 
+  seriously . 
+  do it now , right now . 
+  your performance will improve massively . 
+  what ? 
+  java 8 is out for all platforms . 
+  not only did they use the maximum estimate , they quadrupled it . 
+  at least make sure you 're running java 8 . 
+  it 's a shame no one at mojang tries running minecraft in 32-bit anymore , the performance issues there have gotten pretty awful . 
+  is there any way you can install a 64-bit operating system ? 
+  i upgraded two years ago , the minecraft experience was much much better even then . 
+  wow ... this actually tooks my breath away . 
+  so ... beautiful ... 
+  i need to get a new computer . 
+  yep . 
+  / r/dataisbeautiful could really use some moderation sometimes . 
+  my downvote does n't really do much . 
+  the 6th century in the mediterranean is not pre-history by any definition . 
+  `` prehistory '' usually means `` before significant written record '' , which certainly can not be said for the byzantine empire . 
+  not for the roman empire either . 
+  nor classical greece . 
+  nor ancient egypt . 
+  prehistory is much farther back . 
+  from your justinian plage source :, 
+   a maximum figure of 25 million dead for the plague of justinian is considered a fairly reasonable estimate . 
+   the plague of justinian ( 6th century a.d. ) , the black death ( 14th century a.d. ) , and the bubonic plague ( 1665-1666 , which coincided with the great fire of london ) caused an estimated 137 million dead in a world much more sparsely populated than it is today ... 
+  and that 's for all three together . 
+  where exactly did you find that 150m estimate ?

@@ -1,0 +1,100 @@
+  so its strange for the article to ask what follows for ai * after * playing go , when the matter of playing go well has not yet really been demonstrated convincingly enough . 
+  i 'm hopeful , but tonight 's game will be crucial in convingcing the world of that . 
+  and it 'll take far more play against it to be reasonably sure it does n't suffer from such critical blind spots . 
+  still it looked like some terribly sophisticated tactics was needed to confuse the bot so it hopefully is n't doable by much weaker players even if someone of sedol 's calibre can bring the game reliably to such a situation , but the sad thing is that most post-game analysis seem to say that the surprising move by sedol was in fact locally refutable , yet the sequence was not found by the machine . 
+  yeah , i know . 
+  they can still do it for the rollouts though . 
+  value net 's probability of winning has tanked already , so boosting the better plays in what rollouts give is perhaps enough to push up the more reasonable plays overall ? 
+  what it was doing certainly looked like it was coming from the rollouts , as this is a typical way dynamic komi-less monte carlo bots behave when losing . 
+  there 's also the possiblity of training the value net differently in the future , say if the game sample included games at different komi and it was given the value of that komi plus the task of predicting who won . 
+  could even be an interesting regularization of the net , focusing it better on board position evaluation task . 
+  indeed , it it all starts to revolve around anti-bot strategies , it will get silly and disappointing quickly . 
+  its already rather amazing how they apply reinforce to such large scale nets . 
+  hope its not quite as impossible to do go from first principles , as that could prob be the most interesting contribution a bot could make to go - and its clearly a challenging task ( development of generic ai techniques ; highly publication worthy etc ) , so there 's that incentive to do it . 
+  may or may not mean that , depending on how he wins , if he wins . 
+  if post-game analysis shows sedol using a consistent overall strategy to what he did game4 to get his wins , yup , looks like he cracked alphago . 
+  depending on the extent of the similarity , can be more or less difficult to be sure that 's what happened on such a small game sample . 
+  if its still a win but the relationship to game4 is unclear , perhaps they 're just of comparable overall strenght , so should win or lose a comparable number of times , and he happen to play better in his later games . 
+  btw its win probability needs to fall quite low , rather than just a little below 50 % before it starts to make silly moves , and by that time its lost anyway , if its similar to other mcts bots in this respect ( and it certainly looked quite similar then ) . by then , it was convinced it had little chance whatever it does . 
+  this is n't the critical stage ; tricking it in the first place is . 
+  it should in fact be fighting quite strongly when thinking its a little behind . 
+  hopefully we 'll find out ( to the extent one game can reveal so ) if the trick is replicable tonight . 
+  agreed , just confused with you saing `` the leaps required for that bearing fruit in a few days '' - why days , who could possibly expect that and why ? 
+  i was thinking , if they can do it incrementally , maybe it could be done by next year or so ? 
+  that 's an agressive schedule as it is anyhow . 
+  on the contrary ; they tried to build an ai that could play on equal terms with the top human players , and even won that tournament ( whatever the outcome of the final game is ) . 
+  state of computer go has been accelerated ridiculously in a short amount of time ; not even monte carlo tree search discovery improved its strength as quickly as much . 
+  to expect it to be that superhuman is ridiculous . 
+  it would have to be , what 3800 + elo not to lose a game , up from 3100 mere 5 months ago ?? 
+  a more reasonable target was likely closer to 3500-3600 elo . 
+  getting to 3100 was described as 5 - 10 years too early ; getting to 3500 is what ? 
+  15 years too early ? 
+  how can someone possibly be disappointed as opposed to impressed and elated by this accelerated advance ? 
+  talk about the demand for instant gratification ... 
+  if they did n't lose a single game , they 'd also have no gauge to how strong the thing is ; if they did n't find a single weakness , how could they advance ? 
+  the risk was that they should then just say `` well it seems we did that , lets move on '' . 
+  its clear they 've had a bunch of further tweaks to the system to improve beyond the current level , but a human test , beyond this calibration of strength , was also critical to reveal if there are some areas to which they 're not paying enough attention . 
+  fan hui was clearly unable to test it properly anymore , so the need to someone like sedol to do it . 
+  alphago has practically zero connection to diagnosis and forecast ; its a go playing bot . 
+  this pr nonsense is making me puke already . 
+  sure some of its techniques are in principle transferable to other problem domains , but the relationship is quite loose and generic - the overall types of techniques used are proven in other fields already regardless , much more dramatically than what go can offer ( say in vision , speech recognition , certain natural language processing tasks , robotic sensorimotor control etc ) , while the approach to planning using a hybrid neural network + tree search algorithm is modestly novel and rather interesting ; but this is pretty much the only novel thing this system offers . 
+  go is a universe of combinations , that has challenged profound minds for millenia , not a small closed world game . 
+  the latest they prepare by the time of the tournament , surely . 
+  he should ; if the victory in her opinion depends on the move , she plays at her max strength , such as it is . 
+  only if it thinks it does n't matter either way , it 's as likely to make stupid or slack moves as good ones . 
+  and prob start playing like a 16kyu before the resignation too . 
+  yup , in a sense every time - in that it does n't differentiate won games regardless of the margin  . 
+  its risky if it happens to make a crucial mistake later , which can happen . 
+  should n't be often enough to make as big an impact in its win % though . 
+  yup , it uses pondering . 
+  any bot does . 
+  and alphago paper explicitly states it . 
+  nope , it takes the tree it has and simply moves its root to the move made , discarding the branches not taken . 
+  ofc it reads the variatons of possible responses , and these make that tree . 
+  in computer go too . 
+  chinese and koreans apparently just treat it like any other sport . 
+  the connotations of an artform are stronger in japan . 
+  it need n't be the case that near-future alphago will skyrocket in its rating so far not to be able to lose even a single match . 
+  i think 240 elo difference still means being able to lose idk , is it like 20 % -30 % of the games ? 
+  ok so whatever the weaknesses in her game are , its not at least a dumb glitch that can be trivially exploited . 
+  that at least is a relief , it would be terribly anticlimactic and cheesy if this were the case esp after she already won . 
+  mr myungwan could still be right that her fighting is weaker than say positional judgement , and possibly ( early ? ), 
+  endgame had too many mistakes too , but apparently even that 's not so terribly weak either . 
+  not an easy thing to cover up ; its quite possibly systematic . 
+  mr sedol deserves great respect in uncovering its weaknesses in such a small sample size , and finding a rather promising strategy against it in consequence !, 
+  nobody weaker could achieve such a feat so quickly !, 
+  mr. redmond is likely right too in criticizing its time management in the previous game . 
+  whatever machine learning they did since the october match still apparently could n't follow a rather logical heuristic that if a move that it did n't consider much was made , she needs to take a sizable chuck of her sizable remaining time and read it more carefully . 
+  this prob needs to be critically improved . 
+  the score could be taken to mean a rather large elo difference , but she is likely rather evenly matched with mr. sedol , currently . 
+  should n't be a lot weaker at least . 
+  say in the ballpark of 3500ish-3600ish elo . 
+  if the ~ 3150 elo bot was 10 years premature in comparison to the field 's current trend , how premature is this thing then ? 
+  15 years ? 
+  quite an achivement in computer go , and a thrilling set of matches !, 
+  you meant it the other way around ; distributed beats the single machine 70 % of the time . 
+  they 'd run 5 instances of alphago then , as that is a trivially parallelizable task, 
+  could be quite close though . 
+  for eg , less than 200 elo weaker . 
+  he sadly did n't reply on the part about scaling the algorithm to more hardware . 
+  that could 've been at least educational . 
+  sure . 
+  still hard to think up something as silly as the cloning question to put in the packet . 
+  like she does n't know the first thing about what software even is . 
+  dubious whether they 'd bother to fix that behavior even in version 35 . 
+  plenty of lower hanging fruit yet before they need to try and weasel out a win from a clearly lost match . 
+  and its fiddly , they risk decreasing the win % if they set the parameter for this wrongly , for a marginal potential improvement ( another bot got +10 % winrate using it ; that 's some really tiny elo boost ), 
+  if they publish it as a learning tool they 'll have to though , else it ca n't handle handicap properly . 
+  yeah , what kind of validity could it possibly have anyhow ? 
+  alphago is n't even a legal person , so its not like one could demand any kind of recognition of the rank in its behalf . 
+   it 's running a staggering 1920 cpus and 280 gpus . 
+  probably untrue . 
+  october version did n't actually use that configuration ; they simply tried it , to minimal gain - and this number apparently getting repeated with no official confirmation . 
+  all i 've seen deepmind say on the matter is that its using about the same resources as the october version . 
+  could be the maximal tried configuration , sure ; that is about the same ( ie comparable to what they actually used in october , which is ~ 1200 cores and ~ 175gpus , quoting by memory ) , but are they actually quoted anywhere as stating so ? 
+  or is the press just making assumptions based on poor reading of the paper ? 
+  now if a single machine is 48 core/8gpu in maximal configuration , how is the entire thing 400 units in your count ? 
+  should n't it be closer to 20 - 40 ? 
+  and if you are challenged with its weaker configurations too , which practically everyone is , you could further reduce the cost per game to a fraction of even that - running a one machine system should be enough for the majority of pros . 
+  so if it takes 1/10 of your count , we 're around 25 $ to say 200 $ per game for the full configuration ( and maybe less on short time controls ) , depending on the extra costs we take beyond the electricity , and maybe 2 $ -20 $ per game on a smaller configuration . 
+  edit : ofc does n't mean its a profitable business for google to bother with this ; the audience seems quite niche , but in principle ...

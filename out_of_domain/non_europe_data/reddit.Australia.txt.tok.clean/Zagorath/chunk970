@@ -1,0 +1,100 @@
+  even that wo n't work on the latest version of os x. 
+  ` / system ` is unalterable even from root . 
+  ( seriously , mac users , try ` sudo touch / system/test ` , it does n't work in el capitan . ), 
+  the general * idea * of an oathbreaker is n't to be evil , but the `` oathbreaker '' subclass in the dmg * very * clearly * is * . 
+  it 's badly named , and should not have been called oathbreaker . 
+   disregarding the fact that you 're not even comparing anything, 
+  assignment also returns the value being assigned ( at least in c ) , so technically that part * would * work as expected if they 're already jobless . 
+  of course , if they * were n't * already jobless , then now they are , but at least they 'll immediately ` come_work_for_us ( ) ` , so they get a new job pretty quickly . 
+  this is a little bit safer than real russian roulette , since in the real thing , your odds of a `` click '' go down with each iteration , and will be zero on the last one . 
+  at the command line , your odds are always 1/6 . 
+  theoretically , you could go forever and never get anything but clicks , though the expected number of iterations is 6 . 
+  i 'd loop using a decrementing iterator and generate a bit with a probability of 1/i each time . 
+  yours would work too , though you 'd need to do 1 -- 6 or 0 -- 5 , not 0 -- 6 . 
+  supposed to ? 
+  maybe , i dunno . 
+  but i do n't think i 've ever seen that done in any film or television before . 
+   java, 
+  really ? 
+  after reading ladathion 's comment i went specifically to test it in java and it did n't work . 
+  public final class test {, 
+  public static void main ( string [ ] args ) {, 
+  int i ;, 
+  if ( i = 2 ) {, 
+  system.out.println ( `` success '' ) ;, 
+  } else {, 
+  system.out.println ( `` fail '' ) ;, 
+  when attempting to compile that with ` javac test.java ` , it gives, 
+  test.java :4 : error : incompatible types : int can not be converted to boolean, 
+  if ( i = 2 ) {, 
+  it works in c because any int other than 0 is truthy , but java and many other modern languages do n't have the same concept of truthiness . 
+  so much this . 
+  foxtel is eventually going to go the way of kodak . 
+  they could so easily have adapted and become market leaders in the new business . 
+  but , like kodak and many , many other companies in different markets before them , foxtel has fallen prey to the innovator 's dilemma . 
+  a 180 , surely ? 
+  uhh , pretty sure you meant to post this comment as a reply to / u/broskiumenyiora 's comment ... 
+  so , for reference , i 've only * ever * learnt the english system ( crotchets , quavers , etc. , as opposed to the american fractional system ) , and i agree that there 's probably no inherent advantage to either system as far as learning goes . 
+  but the american system does still `` work '' , so to speak , in any time signature . 
+  it comes down to the fact that a `` quarter '' is 1/4 . 
+  when the bottom note of a time signature is 4 , it 's the crotchet or `` quarter note '' that is worth 1 beat . 
+  it 's 1/4 . 
+  in 3/8 , 6/8 , 9/8 , etc. 
+  time , a crotchet is worth 2 beats , or 2/8 , which mathematically is equivalent to 1/4 . 
+  it 's quite clever , really . 
+  not better in any way , and i still prefer the more artistic sounding english terms , but the american system is at least quite clever . 
+   after counting 86 bars rest for a 4 bar moment of glory, 
+  brass or percussion ? 
+  that 's funny , because having played both percussion and wind , i would have said this works * more * for wind than for percussion . 
+  playing wind , i 'm more likely to come in at the start of a new phrase , but percussion could come in at any point , often half way through a phrase or near the end of one . 
+  string player ? 
+  or perhaps a pianist ? 
+  to be fair , 5 years ago the aussie dollar was * unsustainably * high . 
+  it was stronger than the us dollar at that point . 
+  still , makes me glad that i bought my last mac when i did . 
+  i have n't looked at the prices of recent ones , but i shudder to think what they would look like . 
+   at least we should have bbc and cnn, 
+  trust me , the abc is better . 
+  bbc spends like a third of its time on countdowns and house-ads , not the actual news programming . 
+  cnn is much better than the bbc in this regard , but the actual programming is n't as good . 
+  note , this is regarding the international versions of those channels . 
+  i 'm sure in england the bbc is much better than bbc international . 
+   free does n't get you syncing across multiple devices, 
+  it does , but only * either * all your computers * or * all your mobile devices , not both computers and mobile devices . 
+  paid gets you both , as well as desktop apps so that it can ( theoretically , anyway -- i 've never used it myself ) log you in to things like skype and steam , and a few other little things . 
+  if anyone 's interested in learning more , or is hesitant about the security implications of it , i would highly recommend [ watching this video ] ( https://youtu.be/r9q_anb7pwg?t=53m35s ) . 
+  the tl ; dr is , though , that as long as your single master password is fairly strong ( you could even use randall munroe 's model , if you like ! ) . 
+  as for the fact that lastpass itself does n't follow munroe 's advice , that 's because it uses a better one . 
+  fully pseudo-randomly generated passwords are much , much better than a couple of words thrown together . 
+  by the way , premium is only $ 12 per year us . 
+  it 's been something like 5 months since i first signed up for premium , so long enough that i 've forgotten whether they did local pricing or just did currency conversion at the point of sale . 
+  to go off on a little bit of a rant regarding [ the xkcd strip in question ] ( https://xkcd.com/936/ ) ( copying and pasting from an older comment ) . 
+  just ** stop reading here ** if you 're not interested in security enough to want to read ramblings on a topic only tangentially related to op 's question . 
+  honestly i feel like this xkcd , as well-intentioned as it may be , is far less beneficial than it seems . 
+  it does n't solve the biggest problem people have with security : the need to have * dozens * of strong passwords for * dozens * of separate accounts . 
+  most people have multiple email addresses , bank accounts , a work/school/uni account , various social media accounts , accounts for various websites/stores , and the list goes on and on and on . 
+  randall gave us a great way to make pretty good passwords , but not a great way to remember unique equally strong passwords ( and the relative strength of a password is far less if you use it on a lot of sites -- if * one * is doing security badly on its end , you 've just become vulnerable on ** every ** site where you use that password ) for each and every site . 
+  it also places a comparatively high burden on you when it comes to creating a new password . 
+  the * best * solution is a password manager . 
+  it can generate long , pseudorandom passwords for every site you make an account on , and easily remember them and make it easy to sign in on multiple devices . 
+  for instance , here 's one that i 've just generated now : ` 0 { 8 ( rm71ph ~ jaqobf $ hf < ; cy0 -- ' & wcpwq ) ( ( & ` . 
+  if i used that to create a new reddit account , i would never have to remember that myself , i 'd just press a button in chrome whenever i want to sign in . 
+  you get passwords that are actually * better * than randall 's method , since they 're far higher entropy ( using numbers , letters , symbols , and case , as well as not being vulnerable to a dictionary or dictionary-concatenation attack ) , and it 's * less * work for you both at the password generation stage and in terms of remembering things . 
+   likewise , i do n't think ` semibreve ' ( half a breve ) is needed as a fractional description , we could rename it qwerty without any disadvantage, 
+  especially since you never see a breve in post-renaissance music , anyway . 
+  likewise , semi-demi-hemi-semiquavers ( i think i got that name right ... ) are rare enough that the hilariously awkward name they have is n't really much of an issue . 
+  but yeah , you 're absolutely right that in general , whatever naming system one uses , they 're probably thinking about it as just a name for the thing , in much the same way that i know many beginner musicians think of the dots on a page as corresponding to hand positions , rather than being intimately familiar with note names ( though in that case , people are much more likely to learn the actual notes as they get experience , whereas durations are more likely to stay abstract ) . 
+  actually , they were originally only going to do 1 season . 
+  then they were going to do 2 . 
+  then they planned for the last two seasons in one go , more or less . 
+  it 's why the show feels so much more disconnected between seasons than tla did . 
+  i was about to reply asking `` google translate has dothraki ? '', 
+  before i realised you were translating the russian version ... 
+  the reason for all this is that reddit 's markup language uses two underscores to represent `` italicise everything between here '' . 
+  a backslash is the `` escape '' character , which means `` even though this symbol normally does something special , this time , just show that symbol itself '' . 
+  so , you put in one backslash , and it escapes the underscore , and you end up with, 
+  because the backslash is being expended escaping the underscore . 
+  `` a ha ! '', 
+  you think , `` i have to escape the backslash to make it actually show as a backslash !, 
+  '' , so you put in two backslashes , and get, 
+  because now the underscores are no longer being escaped , so everything between them shows up italic , but they themselves disappear .

@@ -1,0 +1,100 @@
+  both cpu and ram have individual frequencies that you can overclock separately ( or both at the same time with bclk overclocking ), 
+  keep in mind you do need a z170 board if you 're using skylake to have faster frequency than 2133 . 
+  besides wishing you had a better gpu to run everything at 100 + fps , there should n't be actual hardware issues . 
+  i probably would n't upgrade just for the ram speeds but with certain z170 boards you can also bclk oc the 6500 which makes it worth it . 
+  at this point i 'd recommend just keeping your board until you find yourself getting cpu bottlenecked a lot at which point you can upgrade to z170 mobo and oc the cpu as well . 
+  2 ) it 's not even clear if oled displays will ever take off for pcs because burn in is a big problem for desktop unlike tvs and smartphones . 
+  i would n't expect affordable oled monitors in 2017, 
+  3 ) hard to say although afaik the issue with high refresh 1440p ultrawide monitors is that there is n't enough bandwidth for it in current displayport connectors . 
+  so with new gpus with dp 1.3 / 1.4 ( i do n't remember what is current revision ) you can expect more uw 1440p monitors i think, 
+  you 'll be bottlenecked in games that like strong cpu and can utilize all the additional i7 threads like gta 5 , witcher 3 or crysis 3 . 
+  if you overclock , you should still be getting at least around 70-80 fps though, 
+  the value of those the cards was already poor compared to just 390/970 and the 480 will very likely make 390/970 simply obsolete . 
+  of course they wo n't suddenly become `` terrible cards '' , but they 'll just not ever be worth buying over a 480 once it comes out . 
+  sure , maybe someone will sell them at their real value second hand ( ~ $ 160 or possible less after smaller polaris and 10x0 cards comes out ) but majority of people wo n't sell you cards they bough for ~ $ 300-400 at such low price . 
+  for wow your performance is more likely bottlenecked by cpu than gpu, 
+  do you have the pentium overclocked ? 
+  i do n't think it will work well with the division but i can see it running overwatch and cs : go well enough . 
+  yes but the available display outputs depend on a motherboard ( usually it 's 1 dp , 1 dvi and 1 hdmi ) so keep that in mind when buying . 
+  wait for 480, 
+  yes although not as much as having more cores/threads, 
+  the limitation of mini-itx board is n't necessrily the board itself but rather the case . 
+  you 'll probably easily fit even something like a noctua cooler and full sized gpus on itx board but most likely it wo n't fit the case . 
+  you 're also limited to one pci-e slot . 
+  the asus board is a better fit for overclocking thanks to better power delivery . 
+  gpu overclocking is independent from cpu overclocking and only thing that could maybe limit you is psu, 
+  as far as reducing lifespan , yes in theory but in practice , it actually prolongs the lifespan as long as the cooling is adequate and you 're within safe voltages . 
+  the reasoning behind this is that cpu that is n't overclocked might last you maybe 4 years before you upgrade it for performance reasons anyway while oc 'd cpu will probably last you 1-3 extra years before you need to upgrade . 
+  despite overclocking you still wo n't hit the lifespan of the cpu before it gets obsoleted performance-wise by newer cpus . 
+  overclocking gpu is mostly dependent on what specific card you buy , that 's why each manufaturers has multiple cards on each chip with different boards ( power delivery ) and coolers ( temps and noise ), 
+  for overclocking cpu , get a good aftermarket cpu cooler and you 're good to go . 
+  ips panel probably never . 
+  tn possibly once dp 1.3 / 1.4 is available on new gpus since 1.2 does n't have enough bandwidth for uw 1440p at 144hz, 
+  benefit of 144hz is a lot smoother motion similar to going from 30 to 60 fps . 
+  maybe it 's not the same for everyone but difference between 144hz ( or i should say 75 + hz ) compared to 60 is visible even on a desktop and after being used to higher refresh rate , going back to 60 is about as painful as going back from 60 to 30 . 
+  i do n't know what do you consider by casual gamer but doubling refresh rate definitely ca n't be compared to golden plated cords in any way because it 's pretty easy to measure and perceive different frame/refresh rates . 
+  i ca n't compare this to audiophiles because i have n't heard $ 1000 headphones so i have no idea how they sound . 
+  that said , headphones are n't everything when it comes to the final sound so i do n't know what the setup was . 
+  i see a huge difference in 60 and 75hz let alone more than that . 
+  also fps and hz is n't the same , higher fps on 60hz monitor still gives you better `` feedback '' ( huge difference playing cs or quake at 60fps or 100 + even on a 60hz monitor ) . 
+  you do n't need 144fps on a 144hz monitor to see the difference , even just 75-80 + on 144hz looks better than 60hz, 
+   i was under the impression that 60fps was optimal for human eyes and anything above or below could add to eye strain/head aches . 
+  is this serious ? 
+  human eyes do n't see in fps and more will always be better . 
+  sure , maybe there is a limit where you ca n't actually see the difference but it definitely is n't 60 nor 144 . 
+  you need to oc locked chips manually through base clock in bios ( try latest or google non-k oc bios for your board ) , the auto overclocking utilities motherboards have ( like ez tuning or oc wizard ) work by increasing multiplier which is locked on your chip . 
+  but yeah it 's possible with the correct bios , just not through multiplier . 
+  i would n't recommend it on stock cooler though , the 6600 has already high stock clocks and ocing it on stock cooler will probably overheat it . 
+  different custom coolers and pcbs, 
+  if you do n't sync refresh rate and frame rate , you 'll encounter screen tearing . 
+  the lower the frame rate is the more visible it is and freesync/gsync aim to deal with it ( there is also `` software '' vsync but that introduces such an awful latency that it makes some games barely playable ) . 
+  that said with higher refresh rates the tearing is less noticeable to the point that running game at 100 + fps on a 144hz monitor means you do n't even need the gsync/freesync in the first place really . 
+  regarding 60hz monitors and headache , if anything it 's the opposite since the lower refresh rate means screen flickers more which creates bigger strain on your eyes compared to less flicker from higher refresh monitors . 
+  for gaming i 'd get the 6300 or save up for 6500 unless you want to oc the 6400 . 
+  most games prefer higher frequency over ( real ) cores and in older ones the 6300 will actually perform better because most games ca n't multithread very well . 
+  there will be exceptions where the slower cores of 6400 win over the higher freq ( gta , crysis , witcher ) but so far those are still exceptions rather than the rule . 
+  honestly if you 're on a budget i would recommend just getting a 6100 , as the 6300 does n't seem to be worth the extra . 
+  or again , save up for 6500 . 
+  i would n't consider 1k euro build `` budget '' ( though your ' e buying lots of extras with it ) . 
+  do n't buy a 960 , wait for 480 which will give you vastly superior performance for similar price . 
+  since you 're getting z170 board , grab faster sticks along with it , memory speed makes a difference when cpu bottlenecked . 
+  finally , get a better psu . 
+  i 'd also recommend getting a smaller 250gb ssd instead of 1tb hdd unless you absolutely need the space . 
+  he 's probably planning ocing the 6500, 
+  skylake is the newest architecture and has all the new features ( usb 3 , m. 2 slots ) and highest single threading performance . 
+  haswell-e has 6 + core processors but lower ipc . 
+  for gaming skylake is the better choice most games ca n't utilize all threads of the 6/8 cores and even if they do , they still like high ipc more . 
+  [ benchmarks here ] ( https://www.youtube.com/watch?v=ocwwavguftk ) , and in this sample lots of games actually benefit from the threads , majority of games still run at 1-4 . 
+  1 ) yes, 
+  2 ) psu , gpu , cpu , ram sticks , motherboard , monitor and peripherals ( m + kb ) . 
+  also case i guess unless you just put the motherboard on table, 
+  4 ) could be overheating ? 
+  edit : forgot hard disk, 
+  just go directly into bios and switch boot priority from the hdd to the ssd . 
+  ( my guess would be + hard disk though ), 
+  cloning is fine but clean os install is never a bad idea . 
+  probably not for average user . 
+  no , from skylake i5s 6500 is the best value ( unless you 're non-k ocing in which case it 's 6400 since you do n't care about the low stock clocks or you want unlocked multiplier and have no choice but to buy a 6600k ) . 
+  6600 does n't give you anything besides like 300mhz faster turbo clocks which is absolutely not worth the price . 
+  either pay premium for the unlocked 6600k or just save the money and buy a z170 board that allows you to non-k oc the 6500 to higher clocks than you 'd get out of a 6600 . 
+  when you compare the i3 to a 6400 you 're actually getting higher clocks for less money , the i5s on the other hand are priced in such a way that buying the 6600 does n't really make much sense ( goes to show you how intel 's pricing falls apart when you can overclock whatever you want ), 
+  it 's fine but you do lose c states ( sleep mode ) and multiplier oc ( although bclk is almost the same except you just have to lower ram frequency afterwards ) . 
+  it 's up to you to decide whether it 's worth the premium . 
+  both chips will overclock the same, 
+  i do n't have much idea about ram pricing since ddr4 prices changed a lot recently ( half year ago sweet spot seemed to be 2666 but that could 've changed ), 
+  that said , do n't skimp on a good psu . 
+  grab a quality evga or seasonic , you wo n't regret it and it will easily last you for your next build as well . 
+  either disconnect one of the harddisk to identify which one is which or simply try both orders . 
+  ca n't tell you about cmos/hd boot since it depends on bios . 
+  if it was first before and you booted normally , just keep it as it was . 
+  if you 're after price perf and 480 delivers , yes . 
+  otherwise depending on how long you can wait you could see how 490 turns out . 
+  it 's identical chip except the k is unlocked and clocked slightly higher at stock . 
+  at same overclocks maybe the locked chip will perform slightly better because you overclock cache as well with bclk ( of course you can do it separately on the unlocked chip but most people do n't ) . 
+  if it actually gives you any real world gains i ca n't say . 
+  no , it just means nvidia pulled their msrp out of their ass despite pricing their poor reference card so high and not having enough chips to meet the demand ( ie . 
+  releasing too early ), 
+  why should the board partners sell for $ 380 when they have superior product to nvidia ? 
+  the base rx480 not being $ 200 wold be more akin nvidia saying their reference card prices as they were but then releasing them even more expensive which did n't happen . 
+  wall of text incoming as usual when it comes to mobos . 
+  i 'll take the asus z170-a pro gaming as a base since it 's around the middle price-wise and in general it 's middle of the road features wise with :,

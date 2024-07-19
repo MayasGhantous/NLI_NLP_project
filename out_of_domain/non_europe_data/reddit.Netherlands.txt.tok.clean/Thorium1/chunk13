@@ -1,0 +1,100 @@
+  that 's something really bad . . 
+  edit : you can avoid this event entirely by not being at war at high inflation . 
+  it happens once in 600 months , modified by the amount of inflation . 
+  so if you had 30 inflation it would be 600x0 .9 x0 .9 = 486 . 
+  meaning it will happen sooner , once in every 486 months . 
+  having multiple loans also increases the chance even more . 
+  having more money than 1000 decreases your chance slightly . 
+  national bank idea also decreases the chance heavily . 
+  having more than 3 gold provinces also increases the chances drastically . 
+  you 're in bad luck . 
+  from the information you gave i would guess the chances are 600x0 .9 x0 .8 x0 .8 x0 .8 x = 276 , meaning it has a one in 276 of happening every month . 
+  there is a second one that can also happens with about the same modifiers :, 
+  gold = 2, 
+  inflation = 15, 
+  has_idea = vice_roys, 
+  not = { has_idea = national_bank }, 
+  not = { has_country_flag = bankruptcy }, 
+  meaning if you had the vice_roys idea ( i believe it 's the exploration idea . ), 
+  and do not have the administration national bank idea ( reduces inflation by 0.10 every year ) you get the same chance of it happening . 
+  even if you are not at war . 
+  i 've tried searching for inflation in the most logical event files , the only one adding a lot of inflation is :, 
+  # debased currency, 
+  country_event = {, 
+  picture = economy_eventpicture, 
+  trigger = {, 
+  has_country_modifier = gold_standard, 
+  inflation = 10, 
+  mean_time_to_happen = {, 
+  months = 5, 
+  option = {, 
+  name = `` evtopta9478 '', 
+  remove_country_modifier = gold_standard, 
+  add_stability = -1, 
+  add_inflation = 8, 
+  add_prestige = -10, 
+  if you want to try your luck , the path to the event files is :, 
+  steam \\ steamapps \\ common \\ europa universalis iv \\ events, 
+  just find add to the front of where your steam folder is . 
+  mine for example is d : \\ games \\ steam \\ steamapps \\ common \\ europa universalis iv \\ events, 
+  you can skip all the files that start with `` flavor '' , those are national events for specific nations . 
+  the tag for spain or castille is spa . 
+  so `` flavor spa '' . 
+  you can guess most of the nations since they mostly start with the first 3 letters ( like rus = russia , tus = tuscany , sax = saxony etc. ), 
+  you forgot the nation `` fez '' which is tangiers , ceuta , fez and casablanca i believe . 
+  it 's in the north of morocco . 
+  you ca n't create the nation of iceland because it does n't have cores . 
+  if the nation is destroyed , there are `` left over '' cores in regions . 
+  you can see the difference since nations that do n't exist yet are grayed out . 
+  you could however create the nation of iceland . 
+  i know it can exist since the ck2 to eu4 converter can include the duchy of iceland . 
+  perhaps you could try on the paradox forums to mod it in if you 'd like . 
+  it was n't my character , but i thought i could do a quick holy war on this 70 year old queen of skotland , a norse/norse , expecting her to die to do another holy war . 
+  she became either 89 or 91 years old . 
+  i was wishing the woman would just die all day long . 
+  it does make sense . 
+  you know how when you 're blind , it makes your other senses stronger ? 
+  she 'll be unstoppable now . 
+  `` not enough minerals '' is correct . 
+  the terran advisor says that . 
+  she merely misspelled `` additional '' in her second quote . 
+  as somebody using meters i do n't get it . 
+  can you explain ? 
+  her long reign bonus was just too much for any plots , and wasting 350 gold for a 13 % chance is not worth it . 
+  it 's a repost anyway , so op should probably kill himself as is the rules . 
+  even before the patch you could select all the boats in the same way . 
+  whatever you do ... 
+  we will rule , once again . 
+  more importantly , what the fuck are they eating ? 
+  it 's like . . animal organs . 
+  or he just ~ ~ read it ~ ~ attempted to read it 2 hours ago . 
+  there 's no real `` victory points '' . 
+  you can view the score as the victory goal , but it 's hard to achieve considering huge nations get a good headstart and , being huge , have hardly any problem with staying ahead . 
+  the ottoman empire , france , castille and denmark are usually in the top 5 . 
+  a lot of paradox games are like this . 
+  they stimulate you to set your own goals , which can be either high or low . 
+  overcoming personal difficult set goals can be extremely satisfying . 
+  personal goals , no real victory condition . 
+  well , obviously it would be more of a challenge if you started as a count instead . 
+  you do n't need to play the `` most interesting/powerful people . 
+  if you listen really closely , you can hear him say `` bananas '' . 
+  you need to have borders match within two sea-tiles . 
+  so you just go 2 sea-tiles far , and check if any of the borders have a dock in the 2nd sea tile . 
+  if it does n't , you ca n't declare a holy war unless they border you directly . 
+  there 's also crown laws to consider but that 's so far away i doubt it 's your problem . 
+  then there is the possibility that the land owner is norse , but that his liege is not , in which case you ca n't declare a holy war on the liege . 
+  i do n't know why i bother to ask but . . op did n't deliver , did he ? 
+  i guess we hear what we want to hear . 
+  such is the way of the prophet . 
+  `` and her pretty cock . '', 
+  none worked for euw and wwy3pffh4jpxx2 was invalid . 
+  hey ,, 
+  i just had two questions . 
+  why ad red marks over armor penetration ? 
+  and, 
+  what is your opinion on the flask jayce with a ward/extra pots ? 
+  in that case , which location do you ward mostly ( mid ) ? 
+  i get the whole `` stand on the side you 've warded '' to be extra safe , but having a hard time protecting from ganks coming from behind , between tower and river gap . 
+  y' know , from your own jungle . 
+  cheers for the advice . 
+  i won it in the stream event at the post below this one .

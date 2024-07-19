@@ -1,0 +1,100 @@
+  the guy claims that source code in assembly is naturally written to be optimized while high level languages can be optimized but the dev must see the optimized assembly and change the code so that the compiler generates the same . 
+  see my response here for his claim - https://www.reddit.com/r/programming/comments/4zr0el/forum_engine_written_entirely_in_assembly/d6zqbqf, 
+  it was quite a while ago and as you can see they took quite some time to argue the test conditions . 
+  even upgraded them later on . 
+  later ( say a year later ) there was another battle for something that was clearly cpu-bound . 
+  i think it was graphics or physics related and i remember that they argued if mmx instructions are allowed . 
+  i did n't even understand what the program does ( i 'm a c # programmer working on boring stuff ) . 
+  what i remember is that he won all the battles including all modifications that the opposing party suggested . 
+  i think he is just a brilliant programmer and has a lot of experience arguing that position . 
+  that is true in my opinion but how do you quantify it ? 
+  his argument is that programs are written once but executes thousands of times so you save a lit of time for the users . 
+  it is hard to argue against this argument seeing that skype loads twice as slow today on my machine that is 10 times as fast compared to my machine 10 years ago when i was using skype that was somehow faster . 
+  again i do n't disagree with you but i find it harder to wrap my feelings in an meaningful argument backed by data . 
+  yeah but when you try to quantify this you fail . 
+  when you try to measure it by competing with him you fail and he builds it faster , 
+  sure but he wo n't tell you this . 
+  he 'll say that assembly is easier and he is mediocre while more clever people use c++ and still ca n't beat him . 
+  if you claim that you are more clever than him why do you lose that code `` battle '' and if you say you are less clever than him why do n't you listen to the clever guy ? 
+  he 'll be happy to get a bug report . 
+  he says that the only reason you do n't need to is because of moore 's law and the free lunch is now over . 
+  if you do n't make fast programs customers will use software from the competition . 
+  his argument against that ( i know all of this because i 've argued with him with the same points ) is that more and more software is written in assembly and soon you will see it too . 
+  he cites some news about software ( that i have never heard of ) being rewritten from c to assembly and points to the rise of assembly in tiobe index ( btw he is also responsible for that because he writes them mails to refine their keywords ) . 
+  2x if you believe the guy , 
+  a lot of people will give you advice and even take a look at pieces of code you show them . 
+  however to get a real mentorship you need to work with the person . 
+  in a lot of cases you do n't know you are doing something wrong and you will not ask your mentor about it but if the mentor works on the same project he will spot it . 
+  so i guess either find a mentor at work or work on someone 's open source project and get him to agree on mentorship in exchange for working on the project . 
+  obviously the open source project should be something more obscure . 
+  ca n't just join . net core and expect this plan to work . 
+  to be honest being half the man his father is is still quite a bit of a man and may even qualify him as the most man in senate . 
+  he did stand up against trump , he ran against him in the primaries . 
+  he lost . 
+  you missed the with method . 
+  the with method is my favorite , 
+  sure they do but it is not about party it is about what he signed . 
+  fulfilling your contractual obligations is certainly a libertarian value . 
+  hmmm i never thought about it as something for the pattern matching stuff . 
+  i thought about it as something to make working with immutable objects easier . 
+  822 people if you are wondering, 
+  when i saw this i was immediately thinking of `` the myth of ram '' which is such a great article ( series of articles ), 
+  while we are on the topic of podcasts , interviews , etc. 
+  please get anders to talk about the internals of the compiler , grammars and so on language things rather than how important it is to add types to javascript . 
+  i am sure he can talk about much more interesting and specialized things than the usual talk about handling large codebases that i can easily give instead of him . 
+  i 'd say that this makes httpclient either buggy or badly architected . 
+  ca n't decide which one . 
+  it would be funny if it is the second and it needs to be replaced with yet another way to do http requests . 
+  so they want him to forfeit his contractual ( even if this contract has no legal value ) obligations ? 
+  very libertarian . 
+  it is fair to criticize him for signing it in the first place but asking him to break the contract is bullshit . 
+  obviously the contract is not enforceable . 
+  it is not like his endorsement means anything legally to begin with . 
+  btw i do n't understand why the us is so obsessed with these endorsement as if people go and vote for someone because rand ( or someone else ) tells them to . 
+  you are missing a lot on the clr side . 
+  there is a php to clr compiler - https://phalanger.codeplex.com/ and you are missing visual basic and visual basic.net ( which should be listed as separate languages ) . 
+  visual basic alone is bigger than 3/4 of the languages on this graph . 
+  also ironruby compiles ruby to clr ( although ironruby can be considered dead but the quality is much higher than most other compilers listed ) . 
+  also boo and nemerle may deserve a mention but that depends on your criteria for inclusion . 
+  there are also several implementations of js that target the clr with varying degree of quality . 
+  here is a full list - https://en.wikipedia.org/wiki/list_of_cli_languages, 
+  i think ironscheme also works reasonably well . 
+  this is my favorite video of the subject - https://channel9.msdn.com/blogs/charles/jeffrey-richter-and-his-asyncenumerator . 
+  using iterators in c # to implement async/await is the most beautiful hack i have seen and helped me understand how async/await works long before it made it into mainstream languages . 
+  the specific trick is used in other languages before c # but this was the first instance i encountered and thought that this particular video was great introduction to the core concepts . 
+  then you get into all the supporting types , dealing with errors , etc. 
+  i 've seen the json.net casing issue mentioned several times already . 
+  i was wondering if there is a setting . 
+  i mean why is everyone so upset just flip a property and be done with it . 
+  i played duke 3d without a mouse ( habit from doom which was ok without a mouse ) and i was quite a bit faster and more precise . 
+  controllers just suck for shooters . 
+  oh ... another intentionally pixelated and badly animated game . 
+  back in the day we did not play pixelated games because we thought it was cool . 
+  that was what the machines could do and we would like our games prettier if it was possible . 
+  pixelated art does not make your gameplay better and does not mean you are creative . 
+  [ raging justice ] ( https://www.youtube.com/watch?v=hs-jglfbcw8 ) is the game people who like the genre should be excited about . 
+  yes it does in the trailer and i hope they have fixed it in the 2 years since the trailer ( they are due to release soon according to the website ) . 
+  that being said i do n't see how collision detection and smooth movement requires pixel art . 
+  how do you know it is unresponsive without trying it ? 
+  yeah . 
+  the problem is `` badly designed '' . 
+  a well designed library is hard to misuse . 
+  they outright violated the idisposable contract . 
+  why the fuck do they put idisposable on something you are not supposed to dispose ? 
+  i 've been saying that since people were discussing how web forms is dead . 
+  i was like `` so what , asp.net mvc is dead too '' and they were all up in arms explaining that asp.net mvc is the future and so on . 
+  that being said there is still room for server generated html specifically where seo matters . 
+  sites like wikipedia that are mainly for presenting data are good fit for good old server side code . 
+  however i expect that the so called isomorphic frameworks will take over this area too . 
+  for example you can render react on the server even today . 
+  this is only true if your client does n't require fancy js features ( say drag & drop stuff around to reorder items ) . 
+  at some point it becomes easier to just build a spa, 
+  i do n't see how this relates to my comment . 
+  we 're discussing if we should render html on the server and my claim is that there is certain interactivity threshold where building a spa is easier than rendering html on the server and sprinkling jquery on top . 
+  never mentioned node . 
+  if you downgrade the requirements enough you are fine with any tech . 
+  i mean if you are not going to do any fancy client side stuff web forms is probably better than asp.net mvc anyway . 
+  no problem . 
+  i 've already absorbed a lot of downvotes for stating this opinion on reddit multiple times . 
+  components with proper encapsulation forever !, 
+  you take your html and c # mix that only works if it is coupled with an action by stringly typed urls .

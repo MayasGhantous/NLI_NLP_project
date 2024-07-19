@@ -1,0 +1,100 @@
+  at one point i was given an assignment to do a proof of concept app as a freelancer . 
+  they later offered me a job and the more i think of it the more i am convinced that they did n't care about the app . 
+  hallowed be his name !, 
+  we do n't really know that . 
+  why are you so sure that working generics would n't be implemented by dev div at some point ? 
+  well to be honest there is that culture thing . 
+  on the other hand i never worked for ms but i am under the impression that there is not anything wrong with dev div culture . 
+  all glory to don syme !, 
+  i did n't find it i just know that don syme implemented the generics . 
+  i do n't have any reason not to believe you that they were going with erasure otherwise . 
+  i agree with you in general but it seems that the author refers to systems that run a single deployment like facebook . 
+  it should be obvious to everyone that you do n't delete release branches if you do n't control deployment since customers may be running older versions . 
+  i am so stealing this . 
+  good points . 
+  now i fully agree with you . 
+  the old testament - turbo pascal and delphi . 
+  the new testament - c # and typescript, 
+  yep !, 
+  always look on the positive side !, 
+  programming is hard :(, 
+  this is all just nonsense and you should use exceptions instead !, 
+  and i do n't care what the author of zeromq thinks . 
+  i wish things like architecture and development process were n't hard and the hard part was understanding how technologies work and algorithms . 
+  you can use the dbcontext via an interface and mock it using that interface . 
+  that may have been true in the 70s when programs were small but today there is much more to building complex systems than algorithms and data structures . 
+  hell it even includes soft skills . 
+  architecture is a way of managing complexity, 
+  i assume you are allowed to look at wikipedia for the general way to break the cypher, 
+  i did n't get that from wikipedia . 
+  i got that you need to guess the key length first but admittedly i found the probability method hard to understand so i may be wrong . 
+  this is exactly the line i was looking at . 
+  this is much bigger than boring collection initializers . 
+  so basically the whole math and physics are not enough of a reason for a feature to exist ? 
+  there are some other uses that are arguable for example . net has overloaded operators for subtracting dates and adding timespans . 
+  this usage is not as clear though . 
+  on the other hand = = comparison for many types ( including datetime and timespan but also strings and most immutable things ) is a no brainer . 
+  i have been using c # professionally for more than 7 years and i have seen operator overloading used incorrectly only once . 
+  i do n't know what 's this thing that `` ends up happening in real codebases '' you talk about . 
+  on the other hand i love comparing strings with = = and do it every day, 
+  yes the c++ abuse of operator overloading sucks . 
+  python is also guilty of similar offenses . 
+  on the other hand as i said elsewhere in the thread i have seen operator overloading abused only once in practice in c # and it was on a specific project not in the framework itself . 
+  the good news is that unless the framework devs want to abuse it it is not likely to be abused . 
+  normal devs often do n't know that they can overload operators and even if they do they do n't care enough to do it . 
+  i am really curious to know where ukrainian progamers live ? 
+  white-ra lives in odessa which is supposed to be somewhat pro-russian but he seems to be pro-eu , bly seems to be from the western part of the country . 
+  i wonder if dimaga or kas are from the east part of the country and have a different pro-russian view . 
+  it would be especially interesting since their occupation requires a lot of travel and they would personally benefit much more from a ukraine in the eu than from becoming part of russia especially if requirements for eu/us visas are hardened for russians as a result . 
+  and maybe this state of affairs is direct result of the lack of operator overloading , 
+  i really think python went too far with some of the concatenation things on collections . 
+  to be honest i am not sure if they were built using operator overloading i just assumed so . 
+  i do n't know what the java culture would do but my outsider opinion is that it is not much different from . net 's culture and nothing bad happened with operator overloading in the . net world . 
+  on the other hand you may be correct the . net world tends to listen to microsoft much more than to `` geniuses with blogs '' for better or worse . 
+  and then built in operators for types for speed , weight , time , complex numbers , rational numbers and all the other types that have not even been written yet . 
+  i do n't get it . 
+  why is this interesting ? 
+  it seems like a course on how to use an os as an end user . 
+  why is the media reporting this at all ? 
+  it was strange that they got so confused . 
+  as soon as i saw a spore building i knew what it was for . 
+  there is not much it can shoot at at this point of the game so it is obvious what it was for . 
+  on the other hand actually inventing this build requires a genius . 
+  good job catz, 
+  so you do n't accept that windows phone is `` mobile '' ? 
+  it supports mobile hardware therefore it supports mobile . 
+  if we follow your logic then opengl does n't support mobile because it does n't work on wp so it does n't support all of mobile, 
+  i do n't get it . 
+  is there some magic number for market share that they need to cover to qualify as supporting mobile ? 
+  let alone that microsoft are keeping directx out of competing platforms . 
+  so if microsoft are keeping opengl out of some platforms it supports mobile . 
+  if ms are keeping directx out of some platforms it does n't support mobile . 
+  double standard . 
+  well ok so you do have set a number in your mind about this `` support '' thing based on market share because i can quote hardware unavailable on other platforms ( the hardware produced by nokia ) . 
+  yes , but by definition in the field of programming languages if you reinvent lisp in another language it still counts as innovation . 
+  i am not aware of any mainstream language that does this . 
+  and no , lisp is not mainstream . 
+  bringing something to the mainstream has huge importance and is arguably harder than inventing the thing . 
+  for example i consider kinect very big innovation because it made the technology available to everyone for a hundred dollars . 
+  i do n't care that it existed for decades and cost many thousands . 
+  i understand the value of making value types immutable and i wish that c # used this approach however i ca n't help but wonder if there is actual value in making value types mutable in some high performance scenarios for example . 
+  i 've been told that value types are useful in game programming and i wonder if their mutable version is also useful . 
+  the eu cares . 
+  they want to protect your privacy . 
+  very helpful these european commission guys . 
+  always make things better . 
+  can you give an example . 
+  the guidelines for the . net framework itself state that value types should be immutable but maybe the framework itself does n't cover the scenarios where this would be useful . 
+  it is good to know that sometimes facebook pays 16 billion for these mistakes . 
+  f # is hardly mainstream . 
+  well, 
+  doing innovation in c # ( or another mainstream language ) is much harder than doing it in f # or another language where the community accepts such things and is generally eager to learn new advanced techniques . 
+  when you introduce something to something widely adopted you 'd better make it simple enough and be prepared to clearly explain the value of the new thing to intermediate devs . 
+  i would argue that the average f # dev is much more qualified than the average c # developer . 
+  i am not sure scala has wider adoption than f # relative to the java and c # communities respectively . 
+  in both scala and f # cases you have to convince your boss and your coworkers . 
+  i will skip arguing if f # or c # is better but i suppose we will agree that java devs have much more reason to look for alternative languages than c # devs . 
+  i do n't think there is anything in c # related to tuples . 
+  tuples are just a class in the bcl not a c # feature . 
+  i do n't see anything strange with async at least anything more strange than things with yield . 
+  if iterators ( yield ) belong in c # then certainly async belongs to c # .

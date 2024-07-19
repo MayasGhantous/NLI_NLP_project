@@ -1,0 +1,100 @@
+  hard disk usage is n't huge , and can be restricted as well . 
+  by default boinc writes to disk every 60 seconds , i believe , and that can be changed too . 
+  the hardware life reduction myth probably has to do with the fact that many boinc users ( or at least the ones you see discussing boinc ) are hardware enthusiasts who run projects at 100 % load 24/7 and often overclock their machines . 
+  when you push your hardware to its limits and keep it there constantly , the risk of hardware failure rises . 
+  also , low-end machines sometimes have undersized heatsinks and bad case airflow . 
+  coupled with the fact that people often do n't clean up the dust that eventually clogs up the fans , attributing overheating to boinc is certainly a natural first reaction , while the real problem is lies elsewhere . 
+  so running boinc at 100 % settings on the cheapest supermarket machine might not always be a good idea ... 
+  things that can actually harm computer hardware are quick temperature fluctuations ( i.e. 
+  powering a machine down from 100 % load ) , power spikes and outages , and overheating and overvolting . 
+  i think most of the flak boinc gets is largely due to this 100 % cpu utilization fetish . 
+  or maybe people just ca n't be bothered to look at their settings ... 
+  then why did you let it use 100 % of your resources at all times ? 
+  settings exist for a reason . 
+  use them . 
+  i do n't know how boinc was like back in ' 99 , but nowadays you can control cpu utilization ( 10 % - 100 % , in steps of 10 % ) , ram , hdd , and network usage , and do some pretty advanced scheduling ( computation allowed after x minutes of idle , when processor usage is less than x percent , only allowed between time1 and time2 , certain days a week , etc. . . ) . 
+  there 's a lot of different projects to choose from , too . 
+  a lot of them have to do with mathematics , molecules , and astrophysics . 
+  i just like to think that i 'm helping to discover better medication to various diseases and finding better materials for solar panels , even if i 'm contributing just a little . 
+   not everyone lives in the usa, 
+  i 'm very aware of the fact . 
+  as someone who lives in northern europe , the usa-centricism of reddit makes many posts and even whole subreddits utterly useless and uninteresting . 
+  so believe me when i say , fellow citizen of not-usa , that i understand why you made the common mistake of assuming i was from the u.s. 
+  it seems that people from all over the world make that mistake , not just people from the u.s. of a. 
+  you keep bringing up this mythic thing called `` cheap electricity '' . 
+  i have actually heard of it myself , from stories passed down by word-of-mouth from generations who lived before the euro . 
+  in these stories , everything is cheap , until the east wind of the euro blows and multiplies prices by five . 
+  anyway , it would indeed seem that in european terms , at least , i 'm in the lower end of the price spectrum . 
+  where i live , the price of electricity is ~ 14 euro cents per kwh , which is little when compared to places such as copenhagen and berlin ( ~ 30 c $ kwh ) , or london ( ~ 20 c $ kwh ) . 
+  however , electricity prices have little to do with my original point , which was that you should n't run boinc in a way you ca n't afford . 
+  the cpu usage limitation is something that will obviously help with this . 
+   its better not to do anything as you will very rarely contribute at all, 
+  this is the sort of cynical viewpoint that i find frustrating and is exactly what i meant when i mentioned the 100 % cpu utilization fetish . 
+  i 'm sorry if this comes off as arrogant , but this is wrong , wrong , wrong !, 
+  who are you to say how people should contribute ? 
+  i 've been helping boinc projects since i got my first machine , a used low-end pentium 4 that made an annoying noise and produced a lot of heat at high cpu load . 
+  i set the cpu load to 30 % which kept the noise and heat output at tolerable levels . 
+  my next one was a quiet machine with a measly 40w dual-core cpu , but i could not give 100 % at all times because tolerable web browsing required boinc to be paused . 
+  by your definition , was i doing it wrong all those years when i was giving less than it was theoretically possible ? 
+  do you frown upon people who give 10 units of currency to charity instead of their whole disposable income ? 
+  of course not , that 'd be ludicrous . 
+  giving a little is better , by definition , than giving nothing at all . 
+  can you imagine the benefits to science if ( for example ) half of the 174 million redditors started helping a boinc project with settings that fit his/her budget and pc usage pattern ? 
+  even if most of them gave 10 - 50 % of their cpu , the effect would be huge . 
+  my wish for boinc to become mainstream is why i would rather see thoughtful posts about different ways to run boinc projects than this generalized `` reduces your hardware life '' jazz from extreme crunchers . 
+  and if this makes me arrogant and small-minded , then i 'm proud of it . 
+  could you post the sha1sum of the zip file ? 
+  the original mirrors are down and i 'd like to be sure i have the right file . 
+  why avoid . mkv ? 
+  it 's the best container there is and mpc-hc handles them just fine . 
+  so the [ internet censorship foundation ] ( https://en.wikipedia.org/wiki/internet_watch_foundation ) is n't on the list of charities this year ? 
+  its inclusion last time was the reason i did n't renew my subscription . 
+  i had a quick glance at the study and did n't see any numbers on emissions of dairy products vs. meat . 
+  it 'd be interesting to see which generates more emissions ( and therefore which we 'll have to cut down more on to slow down climate change ) . 
+  i 've personally been eating less meat , mainly by buying products that last longer ( thin-sliced metworst ) and have less meat content , and by substituting some of the meat in my cooking with soy protein . 
+  but they 'll never have my milk and cheese !, 
+  never !, 
+  we 'll need to ramp up production of contraceptives , then . 
+  did n't mean to imply there was something unclear with your post , just that it 'd be interesting to see how dairy production emission compare against meat production . 
+  if i had to guess i 'd say meat is the bigger offender here . 
+  will update my post to reflect this . 
+  that 's a relief , seeing milk down there with tofu , nuts , and broccoli . 
+  though if you drink 2-3 glasses a day , it does add up . 
+  still a much smaller impact than meat , though . 
+  cheese will probably be fine , too , since i do n't eat it in massive chunks . 
+  just to clarify , this is a feature of adblock , not adblock plus . 
+  people sometimes confuse the two since their names are similar . 
+  i use adblock plus because it 's open source , but each to their own . 
+  you can have a try but i 've never had much success with wine and ocr . 
+  to get acceptable results i had to go the same route as op . 
+  created an offline windows 7 vm , obtained a copy of adobe acrobat xi pro 11.0.9 , installed it . 
+  processed my pages with [ scantailor ] ( http://scantailor.org/ ) ) , converted them into a pdf ( got instructions from [ this fantastic ebook ] ( https://archive.org/details/ebookenlightenment ) , and ran it through adobe acrobat 's ocr ( be sure to select the clearscan option ) . 
+  the better dpi you scan with , the better results you get . 
+  i recommend scanning with at least 600 dpi to minimize ocr errors . 
+  [ this , possibly ? 
+  ] ( https://www.youtube.com/watch?v=pqut-xfyk3o ), 
+  not as much as a mention of linux and mac versions , and it 's early access , so it 's more like 1/3 available . 
+  damn , i was excited for a moment there ... it 's my own fault , really , expecting not to be treated like a second-class citizen . 
+  i should 've gotten used to it by now . 
+  so now duncan and kim have * technically * been on a date . 
+  agree 100 % on the fantasy races thing . 
+  i personally do n't see the appeal of non-human races * at all * since 99 % of the time they 're either direct copies of the archetypes tolkien popularised or human-animal crossovers . 
+  it 's perfectly possible to create interesting fantasy worlds with only human races . 
+  i have n't read much fantasy so the only example i can give is belgariad by david eddings in which the twelve ( ? ), 
+  different peoples ( or ethnicities , if you prefer ) have different traits that define them and make them easily distinguishable from one another . 
+  many of them are based on ethnic groups that exist or once existed in the real world . 
+  examples :, 
+  * tolnedrans are merchants , obsessed with social status and earning money ( to the point of desperation ) . 
+  military unit : legionnares . 
+  based on romans . 
+  * chereks are fierce warriors , loud , and drink a lot . 
+  excellent sailors and shipbuilders . 
+  also pirates . 
+  based on the vikings . 
+  * algars are nomads with the finest horses in the world . 
+  they produce most of the world 's livestock . 
+  military unit : cavalry . 
+  based on the cossacks . 
+  * drasnians are skilled merchants and spies . 
+  if you see a drasnian merchant , he 's most likely also a spy . 
+  military unit : pikemen .

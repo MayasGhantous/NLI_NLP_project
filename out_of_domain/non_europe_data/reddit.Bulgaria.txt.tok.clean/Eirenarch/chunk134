@@ -1,0 +1,100 @@
+  i was like `` hmmm he was kind of negative character but i do n't remember any scams '', 
+  i read somewhere that all problems with software come from either users or data . 
+  if your application does not have users and data you should be fine no matter what architecture you choose . 
+  `` you are so handsome , how do you make so many ultralisks ? '', 
+  i prefer the more colorful and bright maps but i hate parody with passion . 
+  i do n't want them to turn starcraft into wow . 
+  even for these types of methods i do not see significant difference . 
+  one return less and { } being replaced by =  . 
+  where is the value in that ? 
+  in practice it will be more clear but sometimes the type is funny enough to make sense to list it explicitly . 
+  what if the method returns a dictionary of customers where the key is the customer id ? 
+  how about the groupby method that returns igrouping ? 
+  i kind of dislike adding the type ( map in this case ) in the method name . 
+  i do n't see how a subclass would help if it is not written in the code due to var . 
+  this is almost true for the dictionary . 
+  i mean it is not like someone would be confused by a foreach over the . values property . 
+  btw when i work with code that uses var i regularly hover over the keyword with my mouse to check if the type i assumed is actually correct . 
+  i just ca n't stop myself . 
+  i appreciate the irony although i never said it was confusing . 
+  note that each of these either enables more scenarios or results in significant reduction compared to the original . 
+  i can not see these benefits for expression-bodied methods . 
+  this is not equivalent . 
+  if i am not mistaken this results in a generic multiply function . 
+  the c # equivalent would be a multiply method with generics where t : imultiplyiable, 
+  well if in c # operators were implementation of certain interface it would be , would n't it ? 
+  i know but i still do n't see how it is simpler and cleaner . 
+  if i just use it as a cargo cult `` simpler and cleaner '' way i may misuse it . 
+  so i either need to learn what makes it simpler and cleaner or they are wrong . 
+  that makes sense in corporate settings but i do n't see myself installing a certificate my isp gave me ... 
+  my biggest problem with running ssl on my personal website is that it costs additional $ 2-3 per month for a dedicated ip address and it does so on both hosts i have used . 
+  i somehow do not feel like paying . 
+  on the other hand it is beyond me why any serious website would not use https, 
+  exactly !, 
+  in this case it is windows hosting with iis . 
+  i have no idea if this is technical limitation or they are just leeching money . 
+  their service is quite cheap so i ca n't really complain but sometimes i feel guilty for holding the one website on the internet without https, 
+  interesting but on their site ssl is listed under their pro features, 
+  i definitely play more due to the map pool being more fun . 
+  i guess it is me increasing the eu activity for 1 vs 1 , 
+  nah , we are already op . 
+  i was a big fan of lazy loading for years ( including manually writing properties that called into the db in my very early junior years ) but since recently if i start a new project the first thing i would do after setting up ef would be to disable implicit lazy loading . 
+  the most annoying thing is that lazy loading in ef does not work for the one thing i really want to use it - load a single property represented as a column in the db . 
+  google tells me this, 
+  lack of properties is very good reason that we will be able to use for quite a long time . 
+  i like to point out that java code contains more parenthesis than lisp code . 
+  really ? 
+  can you provide a link or in general explain how this is gon na work in a backward compatible manner . 
+  i guess you are not expected to rewrite your classes to use getters and setters as properties ? 
+  this is not what `` industry standards '' means . 
+  the phrase you are looking for is `` design by committee '', 
+  because anders !, 
+  does that make you sleep better ? 
+  it may be a pile of shit , it may have arrived half a decade later and de facto there is a better standard but hey at least it was designed by a committee !, 
+  i am perfectly aware of that . 
+  how does this relate to my question ? 
+  so how are property methods recognized as properties ? 
+  is it by convention ? 
+  as a developer i do n't use any of these except web standards and i would rather use silverlight , javafx or even flash but the nuclear peace of the industry is based on the fact that nobody accepts the other side 's tech . 
+  if it was my choice i would use d or rust over c++ , i would use a better network protocols ( which i am sure exist although i have not done any research ) , silverlight over java , directx over opengl , etc. . . 
+  sadly it is not my choice . 
+  it seems like you last updated your information about the . net world around 2008 . 
+  the part about j # is factually wrong ( all of it including its relation with c # ), 
+  i do n't see anything here that is not present in c # . 
+  there is [ system.collections.concurrent ] ( http://msdn.microsoft.com/en-us/library/system.collections.concurrent ( v = vs. 110 ) . aspx ) where the collections part lives and the task parallel library which in my opinion is a much better alternative to the fork/join framework ( mainly due to lambdas and better generics ) . 
+  maybe the java version performs better i do n't know but the . net api is certainly nicer . 
+  so this is what java devs thing properties are for ? 
+  everyone who thinks the benefit of having properties is not writing getters and setters is really narrow-minded and should go and get experience with different languages and styles of programming because obviously even the simplest concepts are hard to grasp for him . 
+  as i already pointed out i have complete understanding of how properties in . net work . 
+  i can assure you that i can and regularly read il code . 
+  what i am asking is how they could introduce properties in java in a way that old classes written with get and set methods can be used as if the get and set methods were a getter and a setter of a property . 
+  * visual studio support is irrelevant for lock in as many people are happy to develop in multiple languages with an ide and the compiler and the runtime are open source . 
+  they are also open sourcing a project for c # intellisense for text editors ( sublime , vi , etc. ) . 
+  a . net project in vnext would be totally possible to develop and maintain without vs. of course most people will continue to use vs because it is the best . 
+  * what is the magical program you want to install on server core that is ok to be installed but ie is n't ? 
+  * everything in asp.net 5 will be as multiplatform as it gets . 
+  the focus on windows will be on the desktop apps . 
+  * while java definitely has an advantage on the libraries side . net is also pretty strong these days . 
+  there are a few bleeding edge things where java is ahead like nlp for example but if you are a regular enterprise developer the better standard library of . net and the better language are preferable . 
+  j # is created after c # and the end of its development in 2007 is related to the lack of interest by developers rather than any lawsuit . 
+  except this is not what happened . 
+  the main reason to have real generics in the clr was that don syme pushed for them ( and actually implemented them ) because he needed real generics for f # . 
+  work on real c # generics started before java 5 was released and certainly before people were aware how much type erasure sucks . 
+  java came after object pascal but they did not see fit to use anders 's work and implement properties in java . 
+  we can certainly blame java 's designers for being short-sighted and not being able to recognize useful features they could have implemented . 
+  instead of borrowing properties from delphi they decided to work on checked exceptions . 
+  good job gosling and co !, 
+  now you do not have something simple to implement and very useful but you have this anti-feature which not only results in worse code but also pollutes most other aspects of the language including lambdas despite the fact that they were introduced 2 decades later . 
+  tell me again how c # is better only because it comes later . 
+  my point is that pointing to this admittedly useful project as a replacement on properties means that the person does not understand what properties are for . 
+  properties are about the usage not about declaration and this projects provides exactly 0 value in terms of usage . 
+  this is simply not properties and ca n't be compared to properties . 
+  if this `` task pool '' exists it would be news to me . 
+  tasks are executed on the very same threadpool that existed before tasks . 
+  now the async apis changed quite a lot but even the first version was no worse than java and async/await is just awesome . 
+  i am willing to bet it will come to java in 10 years . 
+  this is why i have a picture with don and not a picture with anders !, 
+  i am joking . 
+  i do not have a picture with anders ( hallowed be his name ) because i never met him :(, 
+  not for the computer but it makes a big difference for code readability . 
+  i would argue it makes the biggest difference for readability out of all the features .

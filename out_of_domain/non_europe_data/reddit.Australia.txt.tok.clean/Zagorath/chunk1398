@@ -1,0 +1,100 @@
+  thanks for any help . 
+  specifically , what would be the * difference * between the two above scenarios ( not so much how would things change compared to * today * ) ? 
+  if stv were used to elect the electors under the current electoral college system on a state-by-state basis , what would that be like compared to either nationwide direct election through irv , or a state-by-state winner-takes-all election of the electoral college through irv ? 
+  basically , i want to change my keyboard layout file ( ` / usr/share/x11 / xkb/symbols/us ` ) so that special keys like alt-n = \u00f1 work with both the left and right alt keys -- currently they only work with right alt . 
+  i * think * that this can be achieved by adding in , to the bottom of the keyboard layout , ` include `` level3 ( lalt_switch ) '' ` . 
+  my question is : are there any potential unforeseen consequences of doing this in linux ? 
+  it 's the default behaviour on macos ( whose layouts i am attempting to emulate ) , but i 'm wondering if something in how linux handles keyboard shortcuts or similar might make this problematic . 
+  ( secondary question : is adding that include line actually the correct way to go about achieving this ? 
+  or can you only have one level3 definition ? ), 
+  i 've found how to do it for a whole server , but is it possible to do it to suppress notifications only from a single * channel * that 's kind of abusing the use of these special mentions ? 
+  i 've already got it set to not require a password when turning the computer on , but if the laptop 's lid is closed and then opened again , it * does * require a password . 
+  that 's what i want to stop . 
+  i found [ this guide ] ( http://www.howtogeek.com/howto/7771/prevent-windows-asking-for-a-password-on-wake-up-from-sleepstandby/ ) and many others with similar instructions , but the `` require a password on wakeup '' button does n't exist any more . 
+  or at least , it is n't displaying on the computer i 'm trying to do it with . 
+  we 've just passed 40,000 subscribers thanks to a recent push from [ the trending subreddits of the day ] ( / r/trendingsubreddits/comments / 5k7khk/trending _ subreddits_for_20161225_rfreeebooks / ) . 
+  well done everybody and let 's keep this up . 
+  it 's been fantastic seeing the subreddit grow from completely empty with a single post a day to such a great thriving subreddit with a life of its own . 
+  ## hall of fame, 
+  no new additions to the [ hall of fame ] ( / r/dndgreentext/wiki / hof ) yet . 
+  we have n't had the chance to go through the submissions yet . 
+  nevertheless , submit any posts you think should be added in the comments below . 
+  to qualify , the post must have been submitted in this subreddit , and your link must be to the comment section of that post , not to the link it points to . 
+  please feel free to discuss the submissions and vote up or down ( in this case , ignore reddiquette : feel free to downvote the request if you strongly dislike it , but keep civil in the comments ) , because the popular consensus will play a big part in deciding what gets added . 
+  please provide a short description for the story , and also why you think it 's a great story that deserves to be added . 
+  also a friendly reminder of our [ style guide ] ( / r/dndgreentext/wiki / style ) , as a way to learn how to use the formatting in this subreddit to make posts look like a greentext post . 
+  for those that have actually read through this post , we 're looking for more moderators . 
+  send applications via modmail along with whatever qualifications you think might be useful or relevant . 
+  any questions , feel free to ask in the comments below , or via modmail . 
+  merry christmas , all !, 
+  i was away on holiday when it first came out , and figured when i got back just two weeks later it would still be showing , being such a huge , well received movie . 
+  but i 've looked yesterday and today , and i ca n't find any cinemas still showing it . 
+  cgv , lotte , and galaxy 's websites all seem to say it 's no longer showing . 
+  anyone know anywhere it 's still on , or why they 've cut it from cinemas so soon , if not ? 
+  [ removed ], 
+  i 'm trying to set up a vpn on my parents ' media server ( running windows 10 ) , primarily to enable bypassing isp filtering from my isp ( in a different country to my parents ) . 
+  i 've also got the goal of hopefully enabling some method of grabbing files off of the media server , but that may not need to go through the vpn if not feasible . 
+  the computer i 'm currently using as a client is running macos , but ultimately i want to run clients on macos , linux ( kubuntu ) , and windows as well . 
+  i would much rather be working with a linux server too , but that 's unfortunately not an option . 
+  i installed the windows server and generated keys according to [ this guide ] ( https://community.openvpn.net/openvpn/wiki/easy_windows_guide ) , and installed tunnelblick on my mac . 
+  when i tried to add the config files generated on the server to the client it complained about lacking a ta.key file , so i generated that using the instructions in the config file ( ` openvpn -- genkey -- secret ta.key ` ) and added that file to both server and client . 
+  i then tried connecting to the server from the client . 
+  it said it was successfully connected , but tunnelblick gave a warning saying the public-facing ip address had not changed and sure enough when i tried googling `` my ip '' , it was showing the unchanged one . 
+  some quick googling suggested enabling `` route all traffic through the vpn '' in tunnelblick , or adding ` push `` redirect-gateway def1 bypass-dhcp '' ` to the server config . 
+  i tried both of those separately and combined , and in each case , it resulted in absolutely no internet access on the client while connected to the server . 
+  can anyone provide advice on how to move forward with this ? 
+  get an internet connection through the vpn that uses the server 's network ? 
+  thanks !, 
+  i 'm trying to set up a vpn on my parents ' media server ( running windows 10 ) using openvpn , primarily to enable bypassing isp filtering from my isp ( in a different country to my parents ) . 
+  i 've also got the goal of hopefully enabling some method of grabbing files off of the media server , but that may not need to go through the vpn if not feasible . 
+  the computer i 'm currently using as a client is running macos , but ultimately i want to run clients on macos , linux ( kubuntu ) , and windows as well . 
+  i would much rather be working with a linux server too , but that 's unfortunately not an option . 
+  i installed the windows server and generated keys according to [ this guide ] ( https://community.openvpn.net/openvpn/wiki/easy_windows_guide ) , and installed tunnelblick on my mac . 
+  when i tried to add the config files generated on the server to the client it complained about lacking a ta.key file , so i generated that using the instructions in the config file ( ` openvpn -- genkey -- secret ta.key ` ) and added that file to both server and client . 
+  i then tried connecting to the server from the client . 
+  it said it was successfully connected , but tunnelblick gave a warning saying the public-facing ip address had not changed and sure enough when i tried googling `` my ip '' , it was showing the unchanged one . 
+  some quick googling suggested enabling `` route all traffic through the vpn '' in tunnelblick , or adding ` push `` redirect-gateway def1 bypass-dhcp '' ` to the server config . 
+  i tried both of those separately and combined , and in each case , it resulted in absolutely no internet access on the client while connected to the server . 
+  can anyone provide advice on how to move forward with this ? 
+  get an internet connection through the vpn that uses the server 's network ? 
+  thanks !, 
+  ## official wizards of the coast unearthed arcana, 
+  find the new ua article [ ** here ** ] ( http://dnd.wizards.com/articles/unearthed-arcana/mass-combat ) , which includes the new mass combat rules . 
+  the linked article also includes the survey on the last ua release ; the warlock and wizard . 
+  ## discussion guidelines, 
+  when commenting , please focus on the released content linked at the top of the post . 
+  do not discuss past uas ( unless comparing them to the recent one ) , and do not theorize as to what content might come next . 
+  if you have feedback for the presented options ** please fill out the official wotc survey !, 
+  ** this survey will be available in the post for the next ua . 
+  remember , if you do n't give feedback then the designers ca n't respond to your thoughts , concerns , and ideas . 
+  ## other discussions, 
+  you can find other discussions of the current ua on / r/dndnext , or / r/dndbehindthescreen . 
+  also look out for the [ sage advice ] ( link ) post , which collects official twitter responses to questions about the current release . 
+  #### disclaimer, 
+  the / r/unearthedarcana subreddit is in no way affiliated with wizards of the coast , or their unearthed arcana series of articles . 
+  if you have any comments or concerns about official ua material , please contact wizards of the coast through their feedback survey , available in the article for the next ua release . 
+  ## [ official wizards of the coast unearthed arcana ( 27/02/2017 ) ] ( http://dnd.wizards.com/articles/unearthed-arcana/traps-revisited ), 
+  find the new ua article [ ** here ** ] ( http://dnd.wizards.com/articles/unearthed-arcana/traps-revisited ) , which includes new traps and guidelines for designing and running traps . 
+  the linked article also includes the survey on the last ua release ; mass combat revisited . 
+  ## discussion guidelines, 
+  when commenting , please focus on the released content linked at the top of the post . 
+  this thread is not for discussing past uas ( unless comparing them to the recent one ) , and is not for theorizing as to what content might come next . 
+  if you have feedback for the presented options ** please fill out the official wotc survey !, 
+  ** this survey will be available in the post for the next ua . 
+  remember , if you do n't give feedback then the designers ca n't respond to your thoughts , concerns , and ideas . 
+  ## other discussions, 
+  you can find other discussions of the current ua on / r/dndnext , or / r/dndbehindthescreen . 
+  also look out for the [ sage advice ] ( http://www.sageadvice.eu/ ) article ( usually available several hours after the ua is posted ) , which collects official twitter responses to questions about the current release . 
+  once again , the link to the latest unearthed arcana article is here :, 
+  #### disclaimer, 
+  * ^ the ^ / r/unearthedarcana ^ subreddit ^ is ^ in ^ no ^ way ^ affiliated ^ with ^ wizards ^ of ^ the ^ coast , ^ or ^ their ^ unearthed ^ arcana ^ series ^ of ^ articles . 
+  ^ if ^ you ^ have ^ any ^ comments , ^ concerns , ^ or ^ questions ^ about ^ official ^ ua ^ material , ^ please ^ contact ^ wizards ^ of ^ the ^ coast ^ through ^ their ^ feedback ^ survey , ^ available ^ in ^ the ^ article ^ for ^ the ^ next ^ ua ^ release . 
+  edit : whoops , just realised that when i looked at the calendar it said 28th because midnight passed a few hours ago here . 
+  it 's the 27th elsewhere . 
+  now with more appropriate dates to the time zone wizards of the coast is headquartered in !, 
+  ## [ official wizards of the coast unearthed arcana ( 20/03/2017 ) ] ( http://dnd.wizards.com/articles/unearthed-arcana/wizard-revisited ), 
+  find the new ua article [ ** here ** ] ( http://dnd.wizards.com/articles/unearthed-arcana/wizard-revisited ) , which includes a revisited wizard subclass , and a brand new one : war magic . 
+  the linked article also includes the survey on the last ua release ; the mystic . 
+  ## discussion guidelines, 
+  when commenting , please focus on the released content linked at the top of the post . 
+  this thread is not for discussing past uas ( unless comparing them to the recent one ) , and is not for theorising as to what content might come next .

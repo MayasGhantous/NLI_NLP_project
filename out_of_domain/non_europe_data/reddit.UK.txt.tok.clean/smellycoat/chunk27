@@ -1,0 +1,100 @@
+  then when you receive your json , just run something that will call the relevant command :, 
+  if ( jsonresponse.command ) {, 
+  if ( commands[jsonresponse.com mand ] ) {, 
+  / / run the command !, 
+  you could even be really fancy , and pass some arguments to the command with your json :, 
+  command : ` saysomething ' ,, 
+  arguments : [ ` message ' , ' < h1  hello < / h1  ' ], 
+  and add a command for it to your client side code :, 
+  commands.saysomething = function ( element , html ) {, 
+  var el = document.getelementbyid ( element ) ;, 
+  and update the bit of code that calls the commands to support arguments :, 
+  if ( jsonresponse.command ) {, 
+  if ( commands[jsonresponse.com mand ] ) {, 
+  / / run the command , with arguments !, 
+  commands[jsonresponse.com mand ] . apply ( null , jsonresponse.arguments ), 
+  cool , no ? 
+  but this looks like way more effort than just sending script tags , right ? 
+  well , it is a bit more effort , but it depends what you 're doing . 
+  for small things , sending html with script tags in it is cool . 
+  but as soon as you get to something moderately complicated , it becomes very hard to manage , and hard to track down bugs . 
+  all your logic is split between the client and the server - so finding problems , or even adding new features can become rather tricky . 
+  this way , all your javascript is clientside , and you 're just sending messages to it from the server side . 
+  which makes it * much * easier to develop , maintain and even test ( you can even construct messages in your browser [ try firebug ] directly - without worrying about the server . 
+  makes testing and debugging so much less painful  ), 
+  yeah ` eval ` works fine pretty much everywhere , 
+  in the original example , there 's some html ( a form ) , and a script tag with some inline js , and the poster was having trouble getting the js to actually run . 
+  the person i was responding to suggested using a script tag instead to pull the js from the server , which ( assuming he wanted to send html too ) , would likely mean two http connections . 
+  one to get the html , and another for the js . 
+  however , the actually-important point i was trying to get across \\* was that the chap i was responding to seems to have a misconception about how ` eval ` works . 
+  i suspect he 's read that it 's `` evil '' , and has vowed to never use it . 
+  that 's fine , it * is * kinda evil and often best avoided \\*\\* . 
+  but in doing so , and generating script tags instead , he 's inadvertently initiating the exact same ( relatively slow ) code parsing and compilation process he was trying to avoid in the first place . 
+  and ( depending on the html + js stuff above ) might even be significantly slower . 
+  actually , thinking about it , my point was more about understanding `` evilness '' in relative terms :, 
+  * calling ` eval ` when you do n't need it is * really * evil ( and often makes your code significantly more complicated , for no good reason ) . 
+  * calling ` eval ` when you * do * need it is moderately evil . 
+  a necessary evil , if you will . 
+  if you 've got some code to run , and it 's in a string , there 's not really much else you * can * do . \\*\\*\\*, 
+  * and generating an extra http request ( which is * supremely * evil , in relative terms [ ie , way , way slower ] ) purely to avoid calling ` eval ` ( in what is actually a legitimate use for it ) is just nonsensical . 
+  since we 're on the subject , here 's a couple of points of interest :, 
+  * many ( all ? ), 
+  json decoders use ` eval ` as the basis of the conversion process . 
+  as far as i 'm aware it 's by far the fastest means to decode json . 
+  * doug crockford created json, 
+  * doug crockford is also the author of the `` javascript : the good parts '' book the person above mentioned having got the `` eval is evil '' guideline from, 
+  * and doug crockford wrote * his * js-based reference json parser implementation using ... you guessed it . . ` eval ` . 
+  \\* apart from attempting to demonstrate how and why it 's desirable to keep your client side and server side decoupled . 
+  \\*\\* though , sometime you 've got some code in a string and the only thing you can do is ` eval ` it . 
+  if you need it , you need it . 
+  \\*\\*\\* short of implementing a javascript compiler in . . javascript , 
+  i do n't have any personal issues with people who own guns . 
+  i understand guns have uses besides killing other people . 
+  i do n't have a problem with hunting ( as long as you eat what you kill - it 's only fair ) . 
+  i 'm not particularly anti-guns , and i 'm not about to start calling people names for wanting one . 
+  i do understand the desire to protect oneself . 
+  what gets me , though , is a handgun is a device * specifically designed * to kill people in an extremely efficient manner . 
+  i can not comprehend why any sane person would be okay with * anyone * ( or , at least , anyone that had n't had years of training and under continual oversight ) wandering around with instant-people-killing-devices tucked into their belt . 
+  it baffles me . 
+  thanks for listening , you can go ahead and downvote me now . 
+  my point is , handguns are specifically designed for shooting * people * . 
+  they have many design features to that end . 
+  they 're small , easily carried and concealed , accurate enough at a range which you 'd likely feel the need to shoot at someone , and can be fired pretty much immediately and often repeatedly ( and probably more things i do n't know about ) . 
+  deer rifles are designed for , one would assume , shooting deer , and they have design features for that particular application . 
+  i 'd be far less worried about someone carrying around a deer rifle than i would someone with a pistol tucked into their belt . 
+  unless i was in the woods , maybe . 
+  with my antler-hat on . 
+  actually if they were a bit angry-looking and heading in the direction of a clock tower or something , i 'd probably get my arse out of there . 
+  but anyway , i digress . 
+  handguns are probably not that useful for shooting deer , and probably not very useful for anything other than shooting people . 
+  and if you 're carrying one , it 's really only for the purpose of shooting someone if you deem it necessary . 
+  it 's that aspect of them that bothers me . 
+  i 'll take the point that there are things out there that are more destructive than a handgun , but that does n't really matter . 
+  dropping a grand piano on someone 's head is probably more likely to kill them , but carrying a piano ( and a crane ? ), 
+  around is n't quite as convenient . 
+   lol , in that case you do n't want 99 % of law enforcement or military personnel to be carrying handguns , 
+  that was one point i was surreptitiously making , 
+  oh , and , although i 'm willing to buy your stats ( because i do n't think it matters much . 
+  i still do n't want to get shot !, 
+  ) , linking to a random gun forum as `` proof '' is n't really helping a lot , 
+  i suppose i 'm thinking about it in a more abstract manner . 
+  we do n't have ( many ) guns here , and it 's rare to even see one . 
+  so i have never been in a situation where i needed or even wanted one . 
+  it 's a bit like nuclear weapons . 
+  you do n't want anyone else to have them , although you 'd kinda like them yourself `` just in case '' . 
+  but everyone 's thinking the same thing , so if you get yourself a load of nukes , everyone else does too . 
+  it 's pretty much impossible to be the only guys with nukes ( although i see you chaps are trying your hardest to sort that out  ) . 
+  is it better for * everyone * to have nukes , or for nobody to have them ? 
+  personally , i believe the latter . 
+  maybe i 'm too much of an idealist . 
+  that looks decidedly spamtastic to me, 
+  happens to me , too . 
+  it 's cramp ( or feels like it , at least ) . 
+  if you tilt your head back , or try not to open your mouth so wide , it wo n't happen ( at least not as badly ) . 
+  i find i can also relieve it by . . like , holding my jaw closed with my hand flat underneath , and relaxing my face as much as possible . 
+  except , chances are , your laptop charger does n't have anything connected to the earth pin . 
+  devices with uk 3-pin plugs that do n't need the earth connection often use a plastic prong ( moulded into the plug itself ) . 
+  close , but it 's a physical barrier , rather than a switch . 
+  nothing can be inserted into the live or neutral unless something is first inserted into the earth . 
+  hence earth pins are longer than the live or neutral pins . 
+  they could indeed .

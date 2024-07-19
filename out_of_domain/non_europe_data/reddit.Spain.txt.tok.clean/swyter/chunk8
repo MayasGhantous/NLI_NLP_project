@@ -1,0 +1,100 @@
+  some of them are for specific situations . 
+  do n't use them interchangeably . 
+  _ `` ya , me lo tem\u00eda . '' _ sounds a bit more realistic . 
+  looks pretty cool !, 
+  nice to see modders heading away from photo-realism , with the problematic uv seams and low polygons the only way of making it look good is going full abstract and cartoony . 
+  it kind of makes sense in all those trippy worlds of nintendo . 
+  keep in mind that [ cope is wholly owned by the conservative catholic bishopric ] ( https://en.wikipedia.org/wiki/cadena_cope ) and news are really biased to appeal to the average right-wing christian pp voter . 
+  if that is your jam then go ahead . 
+  there 's also the local bbc equivalent ; rne , and ser , with a slightly less biased agenda . 
+  anyway , just so that you know your options . 
+  playstation 1 _ only _ had exes , but they are not win32 pe files , but a completely different format altogether . 
+  do n't mistake them . 
+  the only thing in common is the ( optional ) . exe extension , the psx disc loader from the bios does n't care as it grabs the name of the main game binary from an ` autorun.inf ` equivalent . 
+  some devs just used their sce game id as name and called it a day . 
+  glad that you decided to bring repository avatars back . 
+  they were really useful !, 
+  you know , you can always make it static in a place like github pages and have it for free . 
+  use a buildbot to generate the site and api from templates , updating it at every changeset using repository hooks and ... you are golden . 
+  fast , easy and open source . 
+  i have a 3gb + repository for a mod in there , i do n't think total size really matters , unless individual files go up 100mb . 
+  split every game into its own json file or whatever , and structure it in a folder hierarchy that makes sense . 
+  nothing beats free . 
+  _ lua _ is not an acronym , it means _ moon _ in portuguese . 
+  it also has a pretty minimalist syntax , and everything works around tables ( arrays of arrays ) . 
+  it was my first programming language and is objectively pretty neat for scripting and all kinds of support jobs against a low level framework . 
+  the vm is portable and tiny , and the c bindings clean . 
+  luajit is one of the fastest interpreted languages , faster than js engines like spidermonkey or google chrome 's v8/turbofan . 
+  i 'm just telling you that learning lua is worth it . 
+  one gets tired of seeing things like l.u.a. 
+  or loua on the internets from people that do n't know their stuff . 
+  i know , i know . 
+  i did n't mean to sound patronizing , i just wish that people knew a bit more about other languages outside of python and all that . 
+  a waiter after being served ), 
+  ( while finishing a conversation after a favor ), 
+  * perfecto . 
+  ( in a low-key voice , subtle , implied ), 
+  you can use variations of the same sort . 
+  _ gracias _ is pretty short by default , handy if you do n't want to complicate yourself . 
+  as others have said before , we tend to verbalize gratitude and forgiveness less than in anglophone countries , where they use them as ` politeness filler ' . 
+  it is implied in many conversational patterns . 
+  you could use it as a wordplay while teasing your girlfriend : _ eres muy mala , pero est\u00e1s muuuy buena . _, 
+  very playful . 
+  i do n't see anything constructive coming from this . 
+  it 's pretty inaccurate for a technical post . 
+   reactos is written in c , some code is written in c++ and can be compiled with gcc , mingw and microsoft visual studio . 
+  reactos also use the code of many open source projects :, 
+   * wine , the windows-compatibility layer for unix-based operating system, 
+  * samba for print spooling , netlogon , lsass and other windows services, 
+  * freetype -- fonts rendering, 
+  * ntfs-3g -- linux-driver for ntfs file-system, 
+  * ndiswrapper -- for running wi-fi drivers for windows in gnu/linux system . 
+  nope , from that list the only actual dependencies are sub-parts of wine in userland and freetype for glyph rendering , everything else is glaringly false . 
+  pierre schweizer completed the ntfs driver all by himself last year using many references . 
+  also , mingw _ is _ gcc ... for ` win32 ` . 
+  there 's experimental clang support . 
+  here 's a better list of third party stuff : https://www.reactos.org/wiki/third_party_libraries, 
+  everybody seems to have missed that the previous release was made about a year ago , and that the constantly repeated ten year anniversary quote was about the last time with a release number bump ( 0.3 to 0.4 ) . 
+  that 's meaningless . 
+  no one seems to look past the facade , i guess that is just that reviewers are n't really qualified to talk about complex vertical codebases like this one , where everything -- from drivers to minesweeper icons -- is built by the same ( small ) group of people . 
+  no one does that in open source , it 's like having linus torvalds simultaneously maintaining the kernel , systemd , gnu libraries , the entire gnome desktop environment and everything on top . 
+  also , i have contributed many patches ( like the virtualbox widescreen support seen in the videos ) and i do n't think there are any active russian developers , most of the core team is european , though ... with their legal foundation being set in germany . 
+  there 's lots of eastern european testers , and alter , the external guy in charge of the uniata driver , is ukrainian . 
+  but that 's it . 
+  so there you go . 
+  end of rant . 
+  is that ssao from the original game ? 
+  makes everything look like someone added jet black drop shadows in photoshop . 
+  sometimes pronouncing isolated english words in castilian tends to sound really pretentious and posh , so yes , you have to . 
+  in fact nowadays `` chavacano '' is used in spain as a synonym for distasteful , vulgar or gross stuff . 
+  i did n't know that it was a language . 
+  well , it 's the variant i speak . 
+  maybe it 's more common for south americans . 
+  they still use many anglicisms and neologisms we do n't . 
+  i 'd like to see widescreen patches and occlusion culling removal codes embedded in emulator databases and automatically applied if needed . 
+  i also miss more hud aspect-ratio correction instead of stretched ones like in sotc . 
+  you are right that many people do n't seem to care . 
+  well , those should be triggered and rolled back by default and not be treated like normal cheats . 
+  most of them change the viewport projection , so i guess doing pattern matching with the actual width/height ratio used for display instead of hardcoding it to 16:9 would be an even better idea . 
+  future proof and all that , we do n't know if this aspect ratio will still be popular in the future . 
+  is that checked by default ? 
+  maybe a thing to consider . 
+  then enable it by default and check the aspect ratio before applying the thing . 
+  that seems more sane :, 
+  / * no floats needed here , m8 * /, 
+  / * 177 ~ = ( uint8_t ) ( ( 16/9 ) * 100 ) * /, 
+  if ( viewport_ratio = = 177 ), 
+  load_ws_patch ( cur_game_id ) ;, 
+  user experience is important . 
+  you can see here that many people missed it . 
+  should n't be much more difficult that changing the viewport projection . 
+  well , maybe a little bit harder . 
+  but still , disassembling is less hard when you have debug symbols , and the psx [ has ida signatures for library functions ] ( http://www.romhacking.net/utilities/771/ ) !, 
+  i 'd like something like that for the gamecube or the wii . 
+  sort of , people tend to confuse both enhancements :, 
+  - _ gte accuracy _ : workarounds the lack of sub-pixel resolution when projecting 3d matrices . 
+  this basically saves into its own hle buffer the result of the gte matrix operations ( done by a fixed function 3d/math coprocessor called the _ geometry transformation engine _ ) , so that when a vertex ( composed by the x and y integer screen coordinates ) gets send to the gpu the emulator can find a corresponding floating value pair so that it can append the correct decimals . 
+  if the game sends _ [ x : 27 , y : 34 ] _ and there 's a pair of _ [ x : 27.304 , y : 34.9502 ] _ in our conversion map then we can use those values instead . 
+  this eliminates polygon wobbling/instability at high virtual resolutions . 
+  the psx had no native hardware support for floats or fixed point decimals to reduce cost . 
+  if every original psx pixel is equivalent to 30px in a modern monitor it gets pretty noticeable .

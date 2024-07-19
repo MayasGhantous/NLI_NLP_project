@@ -1,0 +1,100 @@
+  here 's a cheap way how i work around this . 
+  first ask the user how long the array is going to be and then allocate it . 
+  in theory there is no way to allocate the array to the exact size , because your program ca n't predict the future . 
+  asking for groups is kind of a no no here . 
+  you are better off in / r/findaunit, 
+  it was free but apparently coupon expired and costs 70 euros now, 
+  unfortunately not in vanilla , but i bet there are scripts that can achieve that . 
+  there are also mods with which you can load containers into vehicles and unload them at their destination, 
+  nice idea but i do n't think this subreddit is meant for these challenges . 
+  check out / r/dailyprogrammer, 
+  you 've mentioned a couple interesting things i 'd like to touch on so here it goes . 
+  i think the adjective `` working '' is redundant . 
+  though i get what you are saying bipods and weapon resting is all over the bistudio forums and the feedback tracker . 
+  it goes without saying that is the by far most requested feature in terms of content . 
+  it would surprise me if bi would flat out ignore that . 
+  it 's weird to say you hope that the marksman dlc will bring new rifles because i assume that it very much will do so , since its a dlc with new content and all that . 
+  in terms of features i agree with you . 
+  wind deflection and other weather related factors should come into play . 
+  it 's a nice thing to have and overdue in a `` simulator '' like arma 3 . 
+  never thought about that , if you 'd give it something like very limited capacity it sounds like a very balanced gameplay factor . 
+  here it gets a bit wonky . 
+  ** imho ** there is no real reason to add something like a compound bow . 
+  i would understand a crossbow for challenges but it would be no use in a real sp/mp battle . 
+  their range is limited and damage on modern chest protection probably next to nothing . 
+  additionally they are not as precise as a rifle , and pretty much no military ( that i know of ) would use a crossbow in combat . 
+  it sounds like something coming out of a call of duty-esque title , but it would n't fit very much into the arma series . 
+  i 'm not even sure where to start with this one . 
+  i 'll put it like this : the only times ( in arma 2 and 3 ) i ever got close enough to an enemy to be able to hit them with my rifle or my fists was only in dayz and breaking point , where guns were a non relevant factor . 
+  in modern combat fist fighting or strapping bayonets to your rifle are not as relevant as you might think it is . 
+  and whenver i do get close to an enemy so i could ( in theory ) hit him , i 'd rather use two or three bullets that are equally as effective . 
+  take my statement with a grain of salt , i was never in a real life combat scenario , i take all my experience from my gameplay in arma 2/3 but hand to hand combat seems like something really out of place . 
+  bear also in mind that the engine was not designed for fighting your enemies like this , i do n't even want to think back to the times of arma 2 in which i tried to fight other players off with a hatchet . 
+  with all that being said , i know there are a few mods out there that try to create hand to hand combat and a meele system , can anyone report if they ever used it in a real scenario ? 
+  seems reasonable , given that swapping barrels is something you benefit from . 
+  gameplay mechanics only make sense if they are equal in advantages and disadvantages . 
+   if it 's a possibility then why not implement it ? 
+  you are getting to the core of the issue here . 
+  implementing melee is not as easy as clicking the `` add hand to hand combat '' button in the developers ' office . 
+  it is a very hard task mostly because the engine was not made for combat like this . 
+  breaking it down even further from an economical standpoint you 've got to ask `` is a melee combat system really the scope of this game ? 
+  and if not do we want it to make the scope '' . 
+  as pointed out it 's a very tough task and tasks like this cost * a lot * of money . 
+  rewriting the engine , implementing the system , animating the models , writing calculations for hitpoints , damaging factors and above all , extensive bug testing which is n't really cheap either . 
+  to answer your question , `` if it 's a possibility why not implement it '' : simply because it 's an expensive , time consuming task that will not have any significant impact on the game . 
+   arma is also a sandbox, 
+  yes , i wholeheartedly agree, 
+   meele/crossbows/bows would benefit the whole community . 
+  here i do not agree . 
+  see , rifles would benefit the community , as everyone who plays the game * probably * also enjoys shooting at things . 
+  while not everyone who buys the game , enjoys firing with bow / crossbow and arrow . 
+  as a matter of fact i will go as far as saying only a fraction of those who play arma 3 regularly also enjoy such a weapon system . 
+  as i said it 's nowhere near as beneficial as it looks like in other games and given the size of arma 3 maps and a standard arma 3 battle , the guy with the bow and arrow will always lose . 
+  same also applies just like i explained above . 
+  it 's not as easy as drag / dropping a crossbow.obj to the arma 3 files . 
+  it 's again an expensive task to model and animate these things and make them work properly , a task that might be beneficial for some of the community but not everyone . 
+  think back what happened when the karts were released . 
+  people flipped their shit moaning how the devs would waste their time on these vehicles when there were more prominent issues . 
+  i imagine the same will happen with these weapon systems . 
+  i am usually someone who utterly hates this statement but i think given the nature of this request i will say it anyways : if you really wish bows and crossbows implemented into the game . 
+  either mod it yourself or find someone who can do it for you . 
+  i highly doubt the entire community will benefit from such feature . 
+  the dayz sa fist fight system is rather rough and nothing you 'd expect from trained soldiers . 
+  more like drunk sailors . 
+  so far your `` wish list '' has no points that are either already in the works or not up for discussion because of technical limits , such as 9 . 
+  the only really interesting thing up there i havent heard before is 5 . 
+  things like 11 and 12 should not really belong there . 
+  11 is something they are constantly working on . 
+  12 is already in the game . 
+  look at the 30rnd and 100rnd 5.56 magazines , they already look different . 
+  in all honesty , this list should go in separate tickets on the feedback tracker , thats what the dev team wants and thats what its for . 
+  a `` wish list by the community '' ( which merely represents a fraction of the community * ) on the forums is probably not what they want . 
+  * so far it looks like you put everything up on the wish list , rather than waiting for popular ( upvotes ) and unpopular ( downvotes ) comments . 
+  i 'm just here to discuss , my intention lies at shooting anyones opinion down . 
+  you have however responded to one of my mentioned points . 
+  you did not reply to :, 
+   things like 11 and 12 should not really belong there . 
+  11 is something they are constantly working on . 
+  12 is already in the game . 
+  look at the 30rnd and 100rnd 5.56 magazines , they already look different . 
+   so far it looks like you put everything up on the wish list , rather than waiting for popular ( upvotes ) and unpopular ( downvotes ) comments . 
+   the dayz sa fist fight system is rather rough and nothing you 'd expect from trained soldiers . 
+  more like drunk sailors . 
+  looking at the up and downvotes on your `` wishlist '' the community has not received it very well . 
+  sorry that your idea was not received very well , it was a good initiative !, 
+  maybe dedicate an own subreddit to it , with very clear rules and regulations . 
+  whatever you do with it , good luck !, 
+  [ here 's ] ( https://www.youtube.com/user/7cavgaming ) a link to the youtube channel i highly recommend checking it out , the newest videos are less than a month old and show pretty accurately how we work, 
+  `` does not work '' is usually a very unspecific problem . 
+  same goes for dropping loads of files , it 's great that you wrote it on your own but you would be helping others as well as yourself more if you specifically pin point which functions do not work as intended . 
+  assuming from the pictures op is running windows , i would also recommend downloading the gnu c/c + + or borland compiler . 
+  google will help you finding and installing these if not already installed . 
+  iirc they are allowed to use this piece of code if, 
+  * the creator specifically allowed it, 
+  * they specifically mention it in their code, 
+  so yeah , this is grounds for disqualification . 
+  i wonder if it 's worth to risk that , solely for a chunk of code they could have written themselves . 
+  iirc you need a break statement in every case of the switch statement , not only the default one . 
+  apart from that i do n't see enough code to determine a problem . 
+  what you did is considered bad practice . 
+  return ( pin.equals ( this.pin ) ) ;,

@@ -1,0 +1,100 @@
+  is as low as possible ? 
+  edit : thank you very much for all your suggestions . 
+  i went with slax because i really liked it , but took good note of all other ideas and might use them in the future . 
+  although i realise that for most of history women had little place on the front-line of the battlefield i imagine there were those who took-up arms and fought . 
+  whilst i guess many used the same equipment as their male counterparts i 've always wondered if there were any piece of equipment , specially armour , made specially for women . 
+  chest armour with `` slots '' for breasts , for example . 
+  however a quick research on google got me `` sources '' more apt at appearing in a penthouse magazine than in a history book . 
+  so : are there any known example of military equipment before the 20th century specially made for a woman ( or women ) ? 
+  my old radeon hd4870 has served me well for many years , but the poor bastard needs some rest , so i decided to retire it into my secondary pc . 
+  and that means getting a new gpu !, 
+  however i do n't have much budget and the second-hand market here , in tiny portugal , is pretty much non-existent . 
+  what i 'd therefore would like is a relatively cheap ( 150-200 $ / 200 $ -250 $ ) nvidia gpu ( because i mostly run linux ) . 
+  my current setup has a 700w psu , a q6600@~3.2ghz ( ~ 40 % overclock ) , 8-12gb of ram and 64gb ssd/1 .5 tb raid0/500gb backup drive . 
+  my case is well ventilated , so overheating should n't much of an issue . 
+  obviously the cpu is going to be a bottleneck but i hope to upgrade the mobo ( asus p5q3 ) , ram ( 1333mhz ) and q6600 in the next year . 
+  i plan to use it mostly to watch videos in 720p and 1080p ( which my gpu already does fine ) and do some gaming . 
+  i had my eyes set on the gtx760 , but i 'm not to sure if it 's the best `` bang for buck '' from nvidia and if it 's complete overkill when compared to the rest of the aging setup . 
+  i 'm also aware that it would make more sense to wait awhile and upgrade everything at once , but considering my very limited income and the fact that my poor old friend ( gpu ) is on it 's last legs that 's not really an option . 
+  thank you very much for reading this far and i hope you could provide any hindsight . 
+  tl ; dr : i would like to replace my dying hd4870 with a sub 200 $ / 250 $ nvidia gpu . 
+  preferably the * best bang for buck * ratio . 
+  hello fellow kerbal-orbiter . 
+  after ( painstakingly ) completing my first standardisation series i decided i needed a brake and went for some exploration . 
+  however i quickly realised that exploring each anomaly outside of kerbin would be an excessively time consuming process . 
+  that got my gears turning . 
+  my solution : instead of sending a proper lander , with capacity to go back-up , change inclination and all that why not grab a bunch of leftover ~ ~ scrap ~ ~ guided missiles , strap a btdt ( scansat ) to them , bundle them atop a rocket , get them around whatever you want to explore and fire them at the anomaly . 
+  this way you do n't need fuel to get back up , or even slow down to 0m/s . 
+  just aim , fire , do n't forget to activate the sensor , and let gravity do it 's ~ ~ magic ~ ~ science . 
+  tl ; dr : are you interested in learning all the benefits of throwing several deadly hyper sonic guided ~ ~ bomb ~ ~ scientific equipment from orbit ? 
+  note : [ wikipedia on mirv ] ( https://en.wikipedia.org/wiki/multiple_independently_targetable_reentry_vehicle ) . 
+  a [ video ] ( https://www.youtube.com/watch?v=ml1-e5kaegu ) showing an actual mirv being launched . 
+  a [ mirv ( multiple independently targetable reentry vehicle ) ] ( https://en.wikipedia.org/wiki/multiple_independently_targetable_reentry_vehicle ) is a type of ballistic missile designed to deliver several independent payloads . 
+  in this case highly explosive hypersonic scientific equipment . 
+  in ksp the utility of a mirv comes when you need to explore several and relatively distant parts of a single body ( anomalies on the mun , for example ) . 
+  unlike a lander that needs a lot of fuel to get back into orbit each missile can simply crash/land on the target and stay there . 
+  it 's a more expensive but much faster way to explore . 
+  note that building a mirv is very similar to building a conventional rocket , with only the last stage and payload needing particular attention . 
+  if you are unclear on how to build or fly rockets i invite you to check the [ ksp wiki ] ( http://wiki.kerbalspaceprogram.com/wiki/rocket ) for a great introduction . 
+  also , whilst you do n't need any mods i would still recommend you use mechjeb ( or any mod that display trajectories ) , kerbal engineer redux and scansat ( to facilitate landing and find anomalies . 
+  it 's compatible with mechjeb 's landing guidance ) . 
+  note that mechjeb seems to have issues with landing precisely on target in atmospheric environment so some manual correction may be needed . 
+  let 's go to the vab . 
+  here is [ the mirv ] ( https://i.imgur.com/u2khnzi.png ) i 'll use for this tutorial . 
+  it 's got a decent amount of delta-v ( ~ 7000 ) , with each reentry vehicle having ~ 2700 ( in vacuum ) . 
+  the first stage is entirely conventional . 
+  the second one is simply a ferry for the payload , but features solar panels , batteries , a probe core , sas and a btdt , ( been there done that ) scanner like each vehicles so that it may itself act as a possible reentry object . 
+  this will only work in non-atmospheric conditions however , as it 's not capable of withstanding the heat from atmospheric friction . 
+  it 's also important to remember that your centre of control ( `` control from here '' ) should line up with your centre of mass and thrust . 
+  this means you ca n't rely on the payload 's control systems . 
+  now for the most important part , [ the payload ] ( https://i.imgur.com/7tdnlpi.png ) . 
+  each vehicle does n't need a lot of delta-v . 
+  if you plan on crashing you need just enough to adjust your orbit 's inclination and slow down enough so that you 'll land precisely on your target . 
+  keep in mind however that each unit of mass you add to your vehicles is multiplied by the number of vehicles . 
+  hence a part that * weights * `` 0.1 '' will increase the mass by `` 0.4 '' . 
+  note also that ram and cpu usage increase pretty dramatically so keep the size and number of part of each vehicle to a minimum . 
+  your payload will also need some protection and streamlining during ascent . 
+  that 's the role of the protective shell . 
+  just do n't forget to jettison it once your are clear of the atmosphere ( the exact height will vary depending on your vehicles and mods . 
+  in most cases 25km works fine ) . 
+  finally you are ready to fire your cluster of potentially deadly and highly explosive scientific missiles into space ( something about that sentence seems very kerbalesque ... ) . 
+  the launch and delivery sequence is rather simple but very visual . 
+  so rather than a thousand word please check [ this album ] ( https://imgur.com/gallery/cf2d9/new ) and feel free to ask any questions you may have in the comments . 
+  and with this i conclude this small introduction to mirvs . 
+  if you follow this tutorial you should hopefully be able to make one yourself . 
+  if you have any question , ask away . 
+  keep in mind however that mirvs are an intermediate level craft , i would recommend novice first try single payload devices . 
+  i would also like to thank the mods of kerbalacademy and the modmakers . 
+  you guys rock !, 
+  note : a real mirv does n't actually achieve orbit . 
+  nor do the vehicles feature engines ( at least the one available to the public for study ) . 
+  however the limitations of ksp makes it very difficult to control the reentry of several devices simultaneously . 
+  compromises were therefore made . 
+  also , they do n't go to the mun . 
+  and are n't built by awesome space-fairing green frogs . 
+  as the title implies i am on a ( not so ) grand quest for german culture . 
+  more specifically for german shows that would be good for a foreigner with only a basic understanding of german ( ~ a2 ) . 
+  i looked at the [ great list ] ( https://www.reddit.com/r/german/wiki/filmsandseries ) on the subreddit but it 's very much focused on the artistic merits of the shows , not so much their ease of understanding . 
+  having subtitles would be a great plus as my german vocabulary is quite ... rudimentary . 
+  thank you for reading and for any recommendations . 
+  edit : thank you very much for all the kind answers . 
+  i never thought so many would so kindly help out . 
+  a big thanks to / u/capitalistmarxist ( that username ... ) for his great and very informative post . 
+  i 'll try to watch as much of the recommended shows as i can . 
+  right now i 'll start with watching a few dubs of shows i know well ( japanese shows , mostly ) and deutschland83 ( sundance has quite the reputation , so i 'm looking forward to that one ) . 
+  thank you all again !, 
+  as stated in the title i 'm going to run a `` revolution '' oriented dungeons and dragons campaign . 
+  the idea is to have two large competing factions , one aimed at breaking the `` bondage of class '' and the other at maintaining the status quo . 
+  ** the old ** ( monarchy , nobility and clergy ) vs ** the new ** ( revolutionaries , petty bourgeoisie and religious minorities ) . 
+  evidently that 's an over simplification of the campaign , of which i 'll spare you the details . 
+  as to add flavour to the world i will base some characters of each factions on real persons ; mostly the leaders . 
+  ulyanov , leader of the hardline revolutionaries ( based on lenin ) and his right hand , george ( stalin ) . 
+  linda of the flower ( based on rosa luxembourgh ) , etc. 
+  so my question is : who do you think would make an interesting addition ? 
+  anyone will do provided there is some info available on them in either english or latin language and they were european and somehow influential to europe between the french revolution and the beginning of ww2 . 
+  edit : thank you everyone for all the kind and complete answers . 
+  it will take quite some time for me to go through every characters and their specific background and then convert them into d&d npc with specific abilities ( ulyanov has , for example , a sort of `` spell charm '' voice that can sway people to his side ) . 
+  the world is currently being finished , with the map , start of the campaign and context done . 
+  still to do are the npc and mobs ( monsters ) . 
+  a few nations need refining , however , to reflect more ... europeans values . 
+  some people express interest in joining the campaign .

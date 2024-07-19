@@ -1,0 +1,100 @@
+  ) , and do n't use it purely to increase the contrast of some text over a poorly-chosen background colour ( it looks kinda cheap if you can * see * the shadow clearly , and do n't forget not all browsers [ \\* ahem \\* ie ] support it ) . 
+  if you 're using a shadow colour that 's similar to , or the same as your text colour ( eg black text on white with a grey shadow ) , you 're just making text unnecessarily blurry - it 's best used to increase contrast . 
+  apple are the masters of text shadow ( although their style is being copied a lot now ) . 
+  just stare at os x or ios for a bit if you want to see some examples of the effect done well . 
+  text-shadow on body text ? 
+  really ? 
+  tl ; dr : yes , but only against unsophisticated attackers . 
+  any effect like that is going to have * some * performance impact , but it 'll be negligible for the things text-shadow normally gets used for . 
+  i just mean it 's another reason not to slap it all over huge swathes of body text . 
+  [ these ] ( http://www.eestairs.com/en/36_efficient_stairs.htm ) are the nicest minimalist stairs i 've seen . 
+  just an amazing bit of practical design , there . 
+  people have been saying that for years , and while i can see * some * evidence of why they might say that , i do n't think it 's as much of a problem as people make it out to be . 
+  it 's certainly not going to `` end '' reddit . 
+  i do n't mind mobile sites ( at least when they 're done well ) . 
+  it 's better than choosing between having to quint or scroll horizontally to read . 
+  it 's very , very unlikely you 'll be able to get a copy of a mass produced item custom made for less than the cost of purchasing the commercial version . 
+  only really sensible way is if you have access to a lot of the equipment already and are willing to spend a lot of your own time on it . 
+  you appear to have inadvertently nailed your dad to the wall . 
+  a common newbie mistake . 
+  apart from that , great job !, 
+  having been through it a couple of times , i can confirm that trying to build something that scales to huge numbers from day one is often a waste of time . 
+  it seems like a good idea to start with something scalable , but it 's really not the right time to be doing it . 
+  scaling takes a lot of time , money , expertise , and experience with the quirks of problem you 're trying to solve . 
+  none of which you have when you 're starting out . 
+  besides , when the time comes that you actually * need * to scale , money is rarely issue , you usually have an intimate knowledge of the performance problems , and often a good idea of where to start optimising . 
+  i do n't think it needs to be * that * accurate . 
+  there are short audio clips on the [ seymour duncan ] ( http://www.seymourduncan.com/ ) site , which ( at least , to my rather untrained ear ) give some idea of the differences in pickups . . 
+  i know that 's not what the op asked for , but it does at least suggest it 's feasible . 
+  not if you can speak fluent client . 
+  allow me to translate :, 
+  `` i do n't like the font '', 
+  but , those are all examples of ms not forcing their agenda in situations where it 'd be unnatural anyway . 
+  while i suppose they do deserve * some * acknowledgement for understanding the `` official microsoft policy '' is n't in line with what the rest of the world thinks , it 's really no more than anyone expects of other companies out there . 
+  so while i 'm happy to see there are examples of them not pimping their shit at * every * opportunity , i 'm not really sure they deserve any actual credit for doing what they should be doing anyway . 
+  [ this ] ( http://www.youtube.com/watch?v=azftlkwvfe0&amp;feature=player_detailpage#t=134s ) springs to mind , 
+  for the record , this is why i personally have a problem trusting ms 's intentions :, 
+  even after all these years and all their failed/substandard products ( zune , which they 're finally killing off ; hotmail , a second-class citizen to gmail/etc ; the long-dead msn search ; silverlight ; windows mobile ; internet explorer ; bing ... 
+  the list goes on ! ), 
+  they * still * have n't demonstrated any willingness to innovate when they do n't have to . 
+  their business model is * still * one of buying themselves into already-established markets ( often at great cost , eg : bing ) , using their considerable resources and installed user-base to beat the competition into submission ( eg : internet explorer ) , and then start locking the market down by throwing in features to make compatibility hard ( eg : exchange/ms office ) and increasing prices or `` monetising '' services ( eg : hotmail prior to gmail coming along ) . 
+  this rarely involves any actual * innovation * : most of the time they 're just copying other people 's shit . 
+  now i would n't mind this so much , but once they get to the top of the market - they stop !, 
+  no innovation at all !, 
+  and the only examples i can find where they * do * innovate with market-leading products seem to be simply an excuse to throw in features most people do n't care about so they can charge for updates ( eg : ms office ) . 
+  let 's be clear about this up front : my problems are all with their corporate attitude and their development strategies . 
+  i have no particular beef with the * people * who work there , many of whom are good , highly skilled engineers trying to do cool and interesting shit within the constraints of the organisation . 
+  okay , let 's address these points one at a time :, 
+  * robotics/pos : just because ms gets into a random market means apple and google have to too , or they suck ? 
+  i disagree . 
+  * visio : os x already has [ omnigraffle ] ( http://www.omnigroup.com/products/omnigraffle/ ) , which is very good ( many people claim it 's way better than visio , but i do n't use either so ca n't really comment ) . 
+  if there 's perfectly good software on their platform already , why should apple develop their own version ? 
+  should ms develop their own version of photoshop/illustrator \\* , cad/3d software , audio editing software , or even something like a torrent client just because lots of people use that software on windows ? 
+  * kinect is kinda cool and one of the few examples i can think of where ms has made something actually-interesting that was n't a straight copy of something else ( with one or two added lock-in features ) . 
+  but let 's not forget that the whole strategy behind it is to buy into the casual console gaming market that nintendo forged with the wii . 
+  they 're putting resources into that area right now because they want to own that market - but if they ever get there , they 'll simply stop investing ( as they 've done with many other things ) . 
+  * dreamspark , okay . 
+  that exists as a lock-in device . 
+  yes , it 's nice that they 're giving small businesses stuff cheaply , but do n't kid yourself that they 're doing it out of the kindness of their hearts . 
+  it 's there solely so by the time these businesses are making enough money to have to pay full whack , they 're completely locked-in to ms 's platform and software , and ca n't move to cheaper ( or free ) alternatives without a having to rebuild their infrastructure . 
+  this is pure lock-in . 
+  edit : i missed one : version control systems . 
+  why in the world would apple want to develop their own , when there are tons of great choices out there , many of which are open source ( git/svn , for example ) ? 
+  i want to see them change their attitude . 
+  here 's some of the things i 'd like to see them do :, 
+  * put some effort into ridding the world of ie6 : they * could * develop a standalone version of ie6 's renderer that companies stuck on ie6 could use as a client for their intranet ( allowing them to upgrade the system 's primary browser ) - but the wo n't do that . 
+  * support imap in hotmail , rather than their proprietary thing that works with few email clients . 
+  and cut down on the advertising . 
+  * stop using their army of ie8/ie toolbar users to copy search results from other engines ( and lower the pr distortion shields for long enough to admit that 's what they 're doing - this is n't useful innovation , it 's just copying ) . 
+  * stop using silverlight for their own sites - nobody wants to use that shit . 
+  * commit to making msoffice file formats * actually * something other software has a chance of being compatible with . 
+  all the half-hearted attempts they 've made so far are still deliberately not-quite standard - and as soon as someone makes any headway with compatibility , they release a new version with new quirks . 
+  * put a fucking pdf reader into windows . 
+  everybody needs one , and nobody likes adobe 's bloated pdf reader . 
+  os x has one , hell chrome has one built-in . 
+  why not windows ? 
+  ( i guess they must have some deal with adobe or something ), 
+  * reverse the ridiculous decision to use msword as the html renderer in outlook and go back to something actually suited to . . rendering html !, 
+  * allow ie to be uninstalled from windows - it * is * possible , despite what they say . 
+  why not admit the `` ie is part of the os '' claims were lies and make it easy ? 
+  * drop trident entirely as ie 's renderer and just use webkit . 
+  ie9 is * still * way behind the competition , despite what their pr says ( i * really * ca n't see this one happening , though ! ) . 
+  for balance , though , here 's some things ms have done that i approve of :, 
+  * office 2007 's interface changes ( the `` ribbon '' ) . 
+  while i think it 's badly designed and could be a lot better ( and i suspect it was mostly to make openoffice look `` old '' ) , at least they tried something new . 
+  * accepted the fact that people want to hack on kinect, 
+  * microsoft security essentials . 
+  10 years too late , but at least they got there . 
+  \\* let 's ignore for the moment that adobe could probably use a bit of competition in that area , 
+  i 've taught a few people this stuff with varying degrees of success . 
+  i 've found that jumping right in to `` here 's how to design a complicated multi-column layout '' is less useful than a thorough grounding in html and how it works . 
+  trying to explain how float clearing and absolute positioning helps you make layout x to someone who does n't have a basic understanding of the box model does n't get them very far . 
+  i 'd go in this order :, 
+  start with html :, 
+  * html : what it looks like , what it 's for , and why it is like it is . 
+  * simple tags ( things that only need one tag , h1 , strong , etc ) , and an html `` hello world '', 
+  * links and images ( covering urls and external stuff ), 
+  * block vs inline ( vs inline-block , maybe ), 
+  * some slightly more complicated tag structures ( lists , tables , etc ), 
+  * what a basic page looks like ( example of the more common tags ), 
+  * forms and inputs ( maybe do n't want to go too in-depth here if you 're not covering server stuff .

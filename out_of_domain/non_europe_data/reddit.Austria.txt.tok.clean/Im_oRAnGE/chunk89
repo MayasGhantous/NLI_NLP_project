@@ -1,0 +1,100 @@
+  the website he posted is full of those conversations . 
+  related cgp grey video : https://youtu.be/wfybgdo8e-8, 
+  i think you mean tabs . 
+  that 's not vienna sausages , those are debreziner . 
+  vienna ones look brighter , less red . 
+  yup . 
+  that 's grindr for you . 
+  i 'm happy you can turn off broadcasting your own location . 
+  but people can still see if you are further or closer away to other people in the area that might have it turned on , so they still know an approximate distance . 
+  it 's not uncommon for gay/bi guys to check grindr if i see a hot guy in a bar or something . 
+  wish my gaydar was better haha, 
+  if you make use of undefined/unspecified behavior , you should n't be surprised if the behavior suddenly changes with a new compiler . 
+  undefined behavior allows compilers to make certain optimizations they otherwise could n't . 
+  they are not a bad thing per se . 
+  thanks !, 
+  it 's important to be pedantic in this field . 
+  same here \u00af \\ \\ \\ _ ( \u30c4 ) _ / \u00af, 
+  how do you think bisexual people do it . . ? 
+  watch the whole video . 
+  he does n't stop . 
+  on the other hand , this allows you to quickly check if a key is in a dict :, 
+  if key in dict : do_something ( dict [ key ] ), 
+  i agree that it 's not the most intuitive thing for iteration though . 
+  again , watch the whole video . 
+  there 's a second camera angle, 
+  it 's not only redundant , it 's also completely broken . 
+  it first checks that * i * is some integer and then tries to use the index operator on it . 
+  woops , typeerror unless value = = '' '' or an empty list or something, 
+  tell that to americans . 
+  holy shit , in europe nobody does that shit but here i see it weekly . 
+  they did n't use supervised learning , but reinforcement learning . 
+  supervised learning needs concrete input output pairs . 
+  simplified : given a certain creep and hero position as input , `` show '' the network the correct action ( walk up/left / . . ) . 
+  it can then correct its own mistake and ( hopefully ) do better in the future . 
+  it 'd be really tedious to correctly label enough input frames with the correct move for any convolutional network ( those are used in deep learning to `` see '' images ) to learn anything though . 
+  you would need quite a bit of training data , and who knows if a human could even label those frames optimally . 
+  instead , what you can do is let the network explore actions at the start , ( i.e. 
+  take random actions ) and reward those actions that cause the block to be better by tweaking the weights of the network to favor those moves in the future , while disfavoring moves that let the creeps walk past you . 
+  if we just always take random actions , the network would almost never get to block more than the first couple seconds . 
+  so we gradually start to exploit what we 've learnt before and act less and less randomly , and so our sf will start to walk along with the creeps and fail less and less at blocking them . 
+  there 's a lot of research on how to correctly trade-off exploration vs. exploitation , and about rl in general . 
+  look up q-learning if you are interested , it 's already pretty advanced but cool stuff . 
+  addendum : breaking the game down into parts like this ( buying the right items/blocking creeps/laning/team fighting / . . ) makes solving each of them easier . 
+  this is how many self driving car solutions operate . 
+  they have one network to detect the road and other cars or objects , one separate network for controlling the car . . 
+  but there 's also solutions out there that had great success at doing everything at once , learning directly from the camera images how to steer the car . 
+  while it easier to reach a global optimum for each of the tasks when you separate them , it might actually be better to have one single model with all the information in there . 
+  this might actually make it possible to create a more optimal solution than just a sum of optimized parts . 
+  i say might a lot here because this is an area of heavy active research . 
+  there 's still a lot to be learnt !, 
+  quoting the article :, 
+   we 're not read to talk about agent internals - the team is focused on solving 5v5 first . 
+  source ? 
+  7 years ago maybe ... 
+  it says i 'm not authorized to see these tweets ? 
+  it is though . 
+  berlin or munich makes a huge difference, 
+  cost of living is 10 % lower in berlin . 
+  and that is just between two big cities . 
+  yea i have the same feeling , but i did n't want to claim anything without a source and just found that link after a quick search . 
+  munich definitely feels a lot more expensive . 
+  ** edit : **, 
+  * thanks to / u/irv i managed to fix the problem . 
+  apparently it 's caused by the teamspeak 3 overlay i 've been using , disabling it for csgo fixed the problem . 
+  * to disable it , open ts3 , go to settings  plugins  highlight `` teamspeak 3 overlay plugin ''  settings  select the csgo.exe in the droplist  enable `` disable loading '' *, 
+  as the title suggests already , my game freezes about every second time i load into a valve server ( not sure bout custom ones ) . 
+  also , after alt + tabbing to desktop , i almost always get a black screen freeze with the sound looping 1 second over and over again . 
+  in both cases after shutting down the game via taskmanager , steam gives me the error `` failed to start game ( app already running . ), 
+  as if i had tried to reopen it while it was still running . 
+  running the game in borderless windowed mode fixed the problems , but it also causes other problems ( mouse acceleration , low brightness ) so it is not an option . 
+  also my grafic card drivers are updated . 
+  anything else you can think of that i can try ? 
+  i 'm using quite a few launch options btw , maybe one of these could cause it ? 
+  - novid - noforcemparms - noforcemaccel + mat_vignette_enable 0 + mat_hdr_enabled 0 - high - dxlevel 9 - nod3d9ex - threads 4 - tickrate 128, 
+  the title explains it already , i am not able to use my mouse at all after rejoining a server in matchmaking for the rest of the game . 
+  does n't matter how i left the server , manually or afk-kick . 
+  rejoining does n't help , and it happens everytime , but only since maybe 1 or 2 weeks . 
+  the buttons just get un-clickable . 
+  i can still use 1-9 to buy stuff . 
+  has anybody else noticed this ? 
+  it is very annoying for somebody like me who is not used to using the numbers for buying and does n't have buy-binds , i am much faster with the mouse . 
+  i will open a ticket at http://64bitvps.com/ if i 'm not the only one having this . 
+  [ here 's ] ( https://www.youtube.com/watch?feature=player_detailpage&v=nyzdg1-e4dk#t=42 ) a video demonstrating what i mean , sorry for the bad quality . 
+  i first saw the trick in one of test 's videos , it is basically done by clicking both mouse-buttons at the same time , and i have been using it since , but sadly , i noticed that i does n't seem to work anymore in the newest snapshot : / i know it still worked in 13w39a , unsure about 13w41a . 
+  it was very handy , sad to see it gone !, 
+  i 'm genuinly curious about this one . 
+  i 'm too young to really remember anything about how much stuff cost before , but i 've often heard friends and family going on and on about how everything used to be so much cheaper before the euro came along . 
+  ( for example i recently heard that you could usually get a sandwich for around 5 austrian schilling in a supermarket , which is around 0.36 $ , the same sandwich costing around 2 $ s today ), 
+  i still remember that stuff was _ actually _ more expensive directly after the change , and people have been complaining since . 
+  even just today i heard a guy at work complaining about that , almost 12 years after austria started using euros . 
+  now , my questions , why did everything get more expensive ? 
+  what benefits do we , as a country , get from using the euro ? 
+  do those benefits actually work ? 
+  it did n't seem to have helped countries like greece or portugal very much , for example , although that has probably a completely different cause . 
+  sorry if these questions sound stupid , i 'm very uninformed in things like economics , especially state economics . 
+  thanks for any answers and discussion . 
+  please follow the [ reddiquette ] ( http://www.reddit.com/help/reddiquette ) !, 
+  sooo . 
+  i know most servers on the mod are third person mode servers . 
+  third person has always been there , and the general view on first person has always been rather negative .

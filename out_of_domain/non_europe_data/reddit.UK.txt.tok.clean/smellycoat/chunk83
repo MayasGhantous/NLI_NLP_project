@@ -1,0 +1,100 @@
+  [ placeholders ] ( http://en.wikipedia.org/wiki/sql_injection#parameterized_statements ) ( or an orm ) are a much more sensible solution . 
+  and by `` much more sensible '' , i mean `` will actually work '' . 
+  it fucking baffles me that in 2010 people are still having sql injection problems . 
+  well , that 's half way between placeholders and an orm ( ie , it 's generating sql , but nothing sophisticated like an orm ) . 
+  python has proper placeholder support , decent orms and ( unlike php ) users that do n't think generating sql with string concatenation is a perfectly acceptable technique . 
+  so i really do n't see why using sprocs for everything would help any in python . 
+  no python expert , but assuming you 're talking about [ this ] ( http://mysql-python.sourceforge.net/mysqldb.html ) , then it certainly appears to support placeholders , and [ recommend using them ] ( http://mysql-python.sourceforge.net/mysqldb.html#some-examples ) . 
+  there 's nothing fancy at all about placeholders , it 's just a technique that allows you to separate the sql from the data , which ( importantly ) means that as long as you always use placeholders for user input , you can be reasonably sure you 're safe from the kind of daft sql injection the article is talking about . 
+  there 's nothing wrong with stored procedures ( they 're very useful in many situations ) , but there are n't many people using them in place of * every * query ( using an orm is more typical these days ) . 
+  not least because even simple applications will have several dozen ( if not hundreds ) of individual queries , and writing sprocs for each of them gets unwieldy fast . 
+  i very , very much doubt that . 
+  look at this example from a bit further down :, 
+  c.executemany (, 
+  '' '' `` insert into breakfast ( name , spam , eggs , sausage , price ), 
+  values ( % s , % s , % s , % s , % s ) '' '' '' ,, 
+  ( `` spam and sausage lover 's plate '' , 5 , 1 , 8 , 7.95 ) ,, 
+  ( `` not so much spam plate '' , 3 , 2 , 0 , 3.95 ) ,, 
+  ( `` do n't wany any spam !, 
+  plate '' , 0 , 4 , 3 , 5.95 ), 
+  note the lack of string quotes around the ` % s ` in the sql statement . 
+  if the strings being passed in were n't being quoted by the system , then that would be a really broken-arse query . 
+  also note in the docs for paramstyle :, 
+   parameter placeholders can only be used to insert column values . 
+  they can not be used for other parts of sql , such as table names , statements , etc. 
+  not only does it call them placeholders ( and parameters !, 
+  ) , is also says you can only use them for values . 
+  if it * was * just something akin to sprintf , then why would that be the case ? 
+  that 's a tricky one . 
+  going to be tricky to find something `` the same but different '' , as games like that are few and far between . 
+  had similar problems finding games for my dad , so i know how problematic it can be . 
+  in the end i got him into rtss ( starting with starcraft ) , so there 's a ton of new games he can move on to . 
+  i also get how much the style of the game matters - my dad wo n't go near warcraft ( `` i do n't want no bloody wizards !, 
+  '' ) , despite loving starcraft to death . 
+  best suggestions i can come up with are ( in no particular order ) :, 
+  * world in conflict . 
+  its 3rd person ( it 's kinda like a traditional cnc-like rts , but you have no bases , so the playstyle is a little more direct ) . 
+  it 's alternate-universe ( russia invading the us ) rather than sci-fi . 
+  there are tanks . 
+  * mechwarrior . 
+  first person , but not so much strategy . 
+  sci-fi , and kinda tank-ish though . 
+  if he likes this , there are a lot of mechwarrior style games out there . 
+  * battle engine aquila . 
+  fps-ish , sci-fi , but has a healthy dose of japanese-style mech-tank-things ( and you can fly ) . 
+  bit of strategy , but you only have control over a single ` hero ' unit ( although it 's tricky enough that `` shoot everything '' is n't enough of a plan ) . 
+  it 's more dependant on reactions and skill than some of the others though , which may not appeal . 
+  * supreme commander . 
+  traditional 3rd-person rts , very strategy-heavy . 
+  only reason i mention it is you have control over one mech/tank `` hero '' unit , which may work for him . 
+  * freelancer . 
+  this is a bit different ( spaceships not tanks , little strategy , but a good story ) . 
+  despite the differences , it 's still a very good game with a healthy dose of sci-fi . 
+  it * might * appeal to him . 
+  good luck man , 
+  absolutely . 
+  they 're both excellent games , and hl2 refers back to hl1 a fair bit ( although you 're not going to miss * that * much if you skip hl1 ) . 
+  if you 're going to play them both at some point anyway , then you may as well do them in the correct order , 
+  if you 're very , very lucky and do n't tell them that you fucked with it , then maybe . 
+  but , to be honest , the cap getting knocked off in the first place was probably you 're own fault for not being careful with the card , so i imagine they 'll tell you to fuck off . 
+  and if they get wind that you 've been messing around with the cooler they 're almost certain to refuse . 
+  but , it 's worth a go . 
+  your best bet is probably to come up with a good story about the cap ( or play innocent ) , and just do n't mention the heatsink at all , hoping they just sling it on the ` dead card ' pile and send you a new one without looking too closely . 
+  yeah , sounds like you 're fucked , mate . 
+  having thought about it , i reckon playing dumb is probably asking for trouble . 
+  see this clause in their warranty t+c s :, 
+   evga reserves the right to claim for shipping fees along with a service charge * from the customer for any incomplete or modified product that is returned and requires repair or replacement , or when the customer is not entitled to any coverage under this limited lifetime warranty . 
+  so , if you send it to them , and they discover it 's fucked . . you 're potentially setting yourself up for a bill . 
+  if it were me , at this point i 'd probably consider the card dead and gone . 
+  only chance i can think of is to come clean , tell them exactly what happened and ask them very , very ( very ) nicely for a replacement . 
+  you can probably up your odds a bit if you mention that you 're active in some hardware-related online communities and you `` would n't even have bothered getting in touch , if it was n't for < some forum/community or other  saying your customer service was excellent '' . 
+  long shot , but it 's worth a go . 
+  if they do sort you out , be sure to make an `` evga are the bestest evar '' post , 
+  essential ( in vague order of importance ) :, 
+  * tape ( duct tape , insulating tape , masking tape , etc. 
+  anything is better than nothing ), 
+  * oil or some random lubricant ( grease , 3-in-1 oil , wd40 , etc ), 
+  * bucket, 
+  * screwdrivers ( either a small set , or a bit holder and bits . 
+  at least one # 2 phillips and 4-5mm flat head . 
+  ideally a # 2 pozidrive too ), 
+  * a container of random nails , screws , bolts , nuts , plugs and other random fixings ( scrounged or bought , anything will be eventually useful ) . 
+  * set of allen keys ( 3mm , 5mm and 6mm seem to be the most useful ), 
+  * a drill of some description , and bits ( plus ideally at least one masonry bit ), 
+  * sandpaper, 
+  * a saw ( if i had to pick one saw only , a junior hacksaw . 
+  fuckers will cut through anything . 
+  eventually . ), 
+  second to a drill , the single most useful tool i 've bought is a compound sliding mitre saw . 
+  good ones cost a lot , but a cheap one does a good-enough job , and are much , much cheaper . 
+  i 'm said it before , and i 'll say it again , sony completely fucked up with minidiscs . 
+  they were trying really hard to push them at around the time mp3 players were becoming popular , but flash memory was so expensive that 64mb or 128mb were the most common , 256mb being an expensive option . 
+  minidiscs could store 170mb or so , which is plenty for coupla albums . 
+  the fact they were relatively cheap , removable , and easily-available with an existing market made them a fucking ideal alternative to expensive flash memory . 
+  sony even had the fucking walkman brand . 
+  it was so close to perfect it 's ridiculous . 
+  all they had to do was make the discs writeable directly from a computer via usb ( they had briefly sold `` minidisc drives '' with ide connections in japan , so it 's not as if the technology did n't exist ) , and stick some mp3-decoding hardware in the players . . 
+  if they 'd done that , ipods might never have existed . 
+  but what did they do ? 
+  thaaaaat 's right , fuck all . 
+  they tried releasing a minidisc player with a usb connection , but it was a fucking usb * soundcard * .

@@ -1,0 +1,100 @@
+  if he was right that the attack is purely theoretical then it would n't happen in practice . 
+  i love these . 
+  i love linus rants and i love this one ( first i 've seen ) against linus himself . 
+  ca n't wait for his response . 
+  make sure to post it here , 
+  he may not but he is linus he may get angry and insult the guy in response . 
+  if he imposed his decision on security specifically and did it by insulting others it does make sense to hold it against him . 
+  i support linus ' rants for the very same reason i support this rant against him . 
+  if someone is wrong you have to tell him in the most unpleasant way so that the mistakes never happens again . 
+  of course linus is rarely wrong . 
+  i do n't think the article undervalues practical concerns . 
+  he comments on linus ' comments . 
+  i only get to interview for junior positions but i always thought a good question for a senior candidate is `` what is the hardest bug you have fixed '' or alternatively `` what is the hardest technical challenge you have overcome '', 
+  i do n't see the practical value of this question ( yes i know the answer ) . 
+  i do n't think i ever needed to do what you ask in practice although i have used hiding to implement covariant return types . 
+  never needed to force call the method on a from a variable of type b. 
+  as far as i know the main problem with devs from india is that they never tell you if things are hard or can not be done . 
+  they will always agree to do whatever you ask and then deliver something absurd . 
+  how do you expect the hello world task to work ? 
+  are they allowed to google ? 
+  if yes what 's the point if not how would they even know what the syntax looks like ? 
+  why is it called `` night watchman '' ? 
+  i had my own definition that i came up with because it just seemed logical . 
+  then much later i discovered that it had a lot in common with the ideas of ayn rand and libertarianism . 
+  my logic is simple - the greatest value of all is freedom , not human life , not wellbeing , not peace but freedom ( or liberty as they like to call it in the us ) . 
+  therefore we want to build a society that protects freedom . 
+  the most important freedom of all is that a person owns his own body and mind ( a.k.a. 
+  natural rights ) . 
+  from there follows that a person owns everything he has produced or invented and is free to trade it as he sees fit . 
+  there should be no restrictions that stop me from selling under specific terms ( like minimum wage ) . 
+  taxes are equal to armed robbery because i did not explicitly agree to contribute my property . 
+  things like drugs should not be illegal because i own my body and i am free to destroy it if i see fit . 
+  the only thing the state is useful for in my opinion is so that the hypothetical libertarian society organizes itself to protect its private property ( including human life ) and enforce the contracts the members of the society make . 
+  this does not exclude things like charity or social system but it should be 100 % voluntary and not a part of the government . 
+  i do n't know where that puts me in the accepted scale . 
+  minarchism ? 
+  so based on the title satoshi should return and show the middle finger to blockstream . 
+  how about censorship and ddos ? 
+  true but we should not pretend it is a good thing and the good guys do it . 
+  i came up with this rule by myself and found out that many people came to the same conclusion . 
+  i only use var when the right hand side expression is either a constructor call or a literal . 
+  basically the type should be obvious by the statement . 
+  var customers = getcustomers ( ), 
+  is not a good idea in my opinion, 
+  oh yes , it does tell me . 
+  it tells me i have an ienumerable < customer  rather than ienumerable < customerdto  or pagedlist < customer  or something like this . 
+  i can claim that this code sucks because the original instance should not be created unless it is needed but instead i am just going to point out the fact that you can not use var everywhere . 
+  the old syntax will still work and you should fallback to it on occasion . 
+  this wo n't compile . 
+  you will use, 
+  var list = new arraylist < string  ( ) ;, 
+  instead . 
+  there is no benefit from the diamond syntax in the presence of var . 
+  seems like they ca n't ddos everyone all the time so they rotate . 
+  when they bring a node down they stop ddosing that ip and move to another one . 
+  then you are back online and can run your node again until they rotate to you . 
+  this is why the more people run classic the less it makes sense to ddos because the ddos will hit each user less and less often . 
+  i do n't want to have to move the mouse over the var keyword or something like that . 
+  also i have tried that empirically with interns . 
+  while it is true that interns are far worse than experienced programmers i have seen them make a bunch of mistakes from not knowing the type of the variable under var ( most often ienumerable vs iqueryable and examples like the one i gave ) . 
+  they wrote the code and a week later i ask them to tell me the type of the variable without pointing with the cursor and they fail . 
+  the real problem is they do n't even know they have to look it up otherwise there would be no bug to begin with . 
+  i do n't claim that only interns do this i just point out that i have empirical observation . 
+  even if only the most junior programmers are confused by hiding types it is still worth to leave the types there . 
+  it is not about typing it is about reading the code . 
+  while many of the types are obvious you simply do n't know when the type is different from what you expect . 
+  maybe that foo is actually foobar but you just assumed it is foo because similar code elsewhere has the type of foo . 
+  btw in practice while prototyping the code i just go var everywhere and then when i am happy with the design i go back and add the non-obvious types . 
+  great , we 're young again !, 
+  while your code may be fine your approach does not work well as a rule . 
+  it is far better to simply say that the type should be mentioned either on the right side or the left rather than `` write the type when there can be a confusion '', 
+  well , var is n't telling you anything so you are left at the mercy of my poor naming . 
+  yes but as i already pointed out you simply do n't know when you need to drag that mouse cursor . 
+  you assumed iqueryable but i was returning ienumerable . 
+  sucks for you , you just pulled all the data from the database and did paging on the web server . 
+  looks great . 
+  sadly the only real feedback i can give is that gpu in class names is supposed to be gpu ( ilgpumodule ) according to . net conventions, 
+  you have access to the code that returns the ienumerable you can change it . 
+  the code is not polluted it contains valuable information . 
+  as i already said i have seen people ( admittedly junior ) fail for precisely this reason . 
+  i also find myself needing to point my cursor at various vars just to make sure the code works as i expect it to work . 
+  for me this is enough of a reason to instantiate this rule whenever i am in charge for conventions . 
+  btw i was pleasantly surprised to find that the . net core conventions follow the same rule . 
+  this definitely fall in the category of well-understood acronyms, 
+  silverlight was more popular than java applets for some time still had much fewer vulnerabilities discovered . 
+  well it is not . 
+  i know . 
+  from real code . 
+  i hate how they wanted to upgrade zerg drops compared to hots but ended up with almost removing zerg drops . 
+  if you are gon na move it to lair at least make it a normal instead of individual upgrade again so we can see mass drop strategies . 
+  first of all - because the real problem is that sometimes it is unclear simply unclear what the type is , period . 
+  in addition if i accept the type is clear but the developers who wrote the code suck then we 'll have to fire people and there will be no one to write the code . 
+  and finally if the prior argument is true this means that the developers on . net core suck and should be fired because strangely they have imposed the same restriction in their code conventions . 
+   i doubt that their linux version will have ** any ** of that stuff . 
+  willing to bet $ 1000 that it will have at least one of these . 
+  i call it `` the play button '', 
+  wtf ? 
+  the build tooling consists of a play button on visual studio . 
+  yeah underneath there is msbuild but there is no reason to go there and in 10 years as a professional c # dev i have touched msbuild scripts literally once . 
+  also the part where it is not javascript,

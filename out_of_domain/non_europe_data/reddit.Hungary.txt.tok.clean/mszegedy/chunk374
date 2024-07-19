@@ -1,0 +1,100 @@
+  you may not get to `` prove '' it , but until you can get more information you should use it , because it is the likeliest , while knowing that it could be false . 
+  if you can actually mathematically evaluate the probabilities of the different hypotheses , then instead of believing any particular hypothesis , believe the probability distribution instead : e.g. , with two hypotheses , if one is 4 times more likely than the other , then you should know that there 's an 80 % chance that the first one is true , and a 20 % chance that the second one is true . 
+  but if you have no data about the probabilities , then you should just go with the least complex one , since chances are it 's far more likely than the other hypotheses , since each literal bit of additional information that needs to be true for your hypothesis makes it half as likely . 
+  believing something that you know could be wrong is part of the modus operandi of science , anyway . 
+  each observation that supports a hypothesis does make it more likely , but never actually makes its probability 1 . 
+  we can get absurdly high probabilities for easily-testable hypotheses with repeated observations ; for example , anyone can establish beyond reasonable doubt that em follows an inverse-square law , whether by testing it directly or observing some emergent phenomenon . 
+  but it 's never conclusive ; maybe it 's actually inverse-quartic , and we 've been the victim of experimental error so far !, 
+  the probability of that is pretty much nil , but it 's technically possible ( that reality as we know it is a great accident of every particle ever , against all odds , behaving as though em were inverse-square and our luck could run out at any moment ) . 
+  it sounds like a stupid thing to think about , but this is important to understand for the cases where the chance that you 're wrong is significant enough to matter . 
+  if you 've established your hypothesis to p < 0.05 , you 've * not * proven it ; you 've established that the probability that it 's true is over 0.95 , and ideally you should gather more data to make sure that that 's the case . 
+  for laypeople , it 's especially important to understand this , because often they 'll see a single observation that supports a hypothesis and think that it proves the hypothesis . 
+   elisp does n't resemble pretty much anything, 
+  it resembles lisp , which people should know !, 
+  one thing i do n't like about my emacs is whereas gvim took no time to open at all , emacs takes several seconds to open for me . 
+  it 's ome , i know it . 
+  if i did n't have ome , it 'd load instantly too . 
+  cheating !, 
+  yes !, 
+  the basic trick is to put the program 's text into a string , leaving out the part where you declare the string . 
+  then , when you print the string , insert an escaped version of the string where you would have declared it . 
+  this can be vastly simplified from language to language ( most notably where the escaped string is the same as the regular string , and almost as notably where you can use data structures other than strings ) . 
+  here is a needlessly complex python quine i just wrote to illustrate the idea :, 
+  final = '', 
+  for c in s :, 
+  if c = = ' \\ n ' :, 
+  final + = ' \\ \\ n ', 
+  final + = ' \\ \\ \\ '', 
+  final + = ' \\ \\ \\ \\ ', 
+  else :, 
+  final + = c, 
+  return final, 
+  program = ' # ! / bin/python \\ n \\ ndef escape ( s ) : \\ n final = \\ ' \\ ' \\ n for c in s : \\ n if c = = \\ ' \\ \\ n \\ ' : \\ n final + = \\ ' \\ \\ \\ \\ n \\ ' \\ n elif c = = \\ ' \\ \\ \\ ' \\ ' : \\ n final + = \\ ' \\ \\ \\ \\ \\ \\ \\ ' \\ ' \\ n elif c = = \\ ' \\ \\ \\ \\ \\ ' : \\ n final + = \\ ' \\ \\ \\ \\ \\ \\ \\ \\ \\ ' \\ n else : \\ n final + = c \\ n return final \\ n \\ nprogram = \\ ' \\ ' \\ nprint ( program [ :280 ] + escape ( program ) + program [ 280  ) ', 
+  print ( program [ :280 ] + escape ( program ) + program [ 280  ), 
+  it 's possible to make this much shorter by taking advantage of python 's string formatting capabilities , or its ability to print out lists , or lists in general , but this type of quine should work in any language . 
+  * you * are . 
+  3599 is `` prime-looking '' because it is not divisible by 2 , 3 , or 5 , so it 's kind of hard to figure out whether it 's prime or not . 
+  fermat factorization lets you figure out whether it 's prime or not . 
+  but 3596 is obviously not prime , because it 's even , so you do n't need fermat factorization . 
+  also * potest * or * posse * unless you want `` could into space '' . 
+  have you seen the size of its memory ? 
+  i 'll go with the 50s mit mentality and say , yes , in fact it 's very simple . 
+  the perfect answer to your question is dwarf fortress , but it 's important to realize that it does n't have to be that complicated . 
+  ai writing only * ever * has to be as complicated as you 'd like it to be . 
+  when you think making a chatterbot , you 'd think about complicated things like consistent internal narratives , and natural language processing , and semantic networks . 
+  but even a beginner lisp coder can write [ shrink ] ( http://web.cecs.pdx.edu/~mperkows/class_robotics/lisp/tanimoto/shrink.cl ) . 
+  look how short it is !, 
+  look at a [ sample conversation ] ( http://courses.cs.washington.edu/courses/cse341/03sp/slides/patternm/sld020.htm ) . 
+  it 's not even bad , is it ? 
+  and if you have more time than the hour or two it takes to implement shrink ( for beginners ) , you can write an [ eliza ] ( http://en.wikipedia.org/wiki/eliza ) ( [ sample eliza-like program ] ( http://web.cecs.pdx.edu/~mperkows/class_robotics/lisp/eliza/eliza.lsp ) ) . 
+  and pattern matching is still only scratching the surface of what you can do with ai like that ; these do n't even keep any kind of memory . 
+  you can reduce any ai problem to tasks as simple as you like . 
+  shrink and eliza may not pass the turing test , but they demonstrate that the problem is n't * impossible * , just as difficult as you 're willing to make it to get a more lifelike ai . 
+  recently , as a joke , i wrote a program that makes comics for a website that hosts a particular kind of comics . 
+  it intentionally made terrible comics , to prank the mods with . 
+  they were none the wiser !, 
+  it was just a matter of drawing shaky circles and lines , bucket-filling here and there , and slapping text on it generated by a markov chain . 
+  if i wanted more sophisticated comics , i 'd make the generator more complicated , but i did n't need to . 
+  so where would you start generating a story ? 
+  what first comes to mind for me is randomly generating a setting , then randomly generating characters , then randomly generating a list of actions the characters do in that setting , and finally presenting it in a neat way . 
+  this can be as simple as picking a single string from a list of strings for the setting , or as complicated as dwarf fortress 's geological engine that generates entire unique continents . 
+  you decide !, 
+  the mid-atlantic ridge is a divergent boundary . 
+  it is , geologically speaking , the future . 
+  ( you were referring to the uk claiming ascension island , right ? ), 
+  there must get a comic made that jokes about how the seychelles flag is the exact combination of the flags of two countries that hate each other ( but spatially arranged such that you 'd have to be looking at them from inside earth 's mantle to conceive of them that way ) . 
+  there was already `` flag math '' , but it made no mention of how ironic the combination would be . 
+  ( maybe a comic where romania and hungary decide to put apart their difference and unite ? ), 
+  seriously , those girders are indestructible . 
+  but please do n't fuck over mobile users !, 
+  even if compressed impressively with html video , long gifs are frustrating to download using mobile . 
+  people would rather prefer it with streaming video . 
+  while in oxygen , precisely , is n't it ? 
+  otherwise i do n't want to think about what happens on eve , jool , or duna . 
+  if i recognized it , i would n't mention it . 
+  and with shitty numbers , too . 
+  good job !, 
+  yes . 
+  i do n't use in-browser java or even os x , but i greatly anticipate the day that it comes , so that all of my relatives will get off of my back about putting java in their browsers ( after i recommended chrome in the first place ) . 
+  they list luxembourg but not hungary ? 
+  how can they -- oh , it says `` first world '' . 
+  well , they * did * think they were helping . 
+  no one is the villain of their own story . 
+  but , this guy is just a little bit off on the details ... 
+  yes , please !, 
+  plutei are so cute !, 
+  never seen such an artful pic of one , though . 
+   adn, 
+  huh . 
+  i have a great method !, 
+  problem is , i ca n't share it , because someone would find this and break into some account of mine . 
+  i just had a very american moment where i thought , `` huh , i did n't know romania counted as part of the caucasus . '', 
+  can niger even into shopping ? 
+  in some sort of economic ranking i do n't remember , it rated at the bottom of sub-saharan africa except for south sudan . 
+  but ... the things he is saying are par for the course for polandball . 
+  how is it indicative of butthurt ? 
+  this would make an excellent polandball comic . 
+  i encourage you to do it . 
+  he should just strike out the `` i like '' , it would be funnier . 
+   pronouncing dutch names is worse than pronouncing anything else . 
+  danish names beg to differ .

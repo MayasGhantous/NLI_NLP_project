@@ -1,0 +1,100 @@
+  hoorah day for the earth . 
+  we will be just a blip . 
+  why only the bathroom ? 
+  what you can do is have the same mirror installed on the wardrobe , long tall one for dressing up . 
+  then , same as msqrd is combining your face with masks you can virtually try various peaces of clothes and see how they would look on you before you wear them . 
+  when buying a new clothes you can connect that the mirror directly with amazon or ebay and try before you buy !, 
+  or even digitize your own clothes collection . 
+  ( dont ask me how  ), 
+  i want 10 % . 
+  glorious machine , i have read it was quite hard to fly at low speeds . 
+  killed more pilots then enemy did . . 
+  awwww . . already have 4 . . all of them saved ... cant fit the 5th one in the apartment :(, 
+  great for prototyping and testing scenes !, 
+  thanks man !, 
+   any advised us against using it at the time as it lacked a few key features we needed for our data . 
+  i do n't know if they are implemente, 
+  what was missing ? 
+  also try qliksense desktop , trust me you wont regret it . 
+  and if you go qlik sense there is no need for dax ... 
+  go for qlik sense , not power bi . 
+  if you did not try qlik sense now is the time . 
+  new 3.0 version will aslo come out in june . 
+  btw you do know power bi is cloud only solution ? 
+  ( desktop version is not enterprise grade - so no security , etc. . . ), 
+  for on prem ms now uses ssrs with zen technology ( they had to use that so they dont look foolish after buy ), 
+  `` qlik sense is nice but it 's going to lose out to power bi over and over '', 
+  how is loosing over and over ? 
+  can you please explain in more details your claim ? 
+  `` has to be privately hosted and licensing is expensive . '', 
+  you can easily deploy it on any iaas - azure or amazon , make your choice . 
+  licensing is list price 1500us $ per user - no matter the size of servers or data . 
+  that means you can have 55 servers in a cluster , work with 50tb of data with 10 users and u pay 15k dollars ( list price mind u ) . 
+  how is that expensive ? 
+  whit that license u get full enterprise level , security wise + fantastic engine and more product . 
+  with power bi you need to use sql server to satisfy all of the enterprise needs and that per 2 cores some 20k + usd . 
+  minimum is 4 cores and recommended configuration is minimum 8 . thats 80k for single server config . 
+  baby bi how microsoft calls it . 
+  `` but the problem is qlik sense has a custom scripting language you need to learn where power bi has a visual interface which is intuitive . '', 
+  you mean to say qlik sense has powerful visual interface where you can do all and has for analyst professionals very powerful , agile and lets be honest not that hard at all scripting language . 
+  if you know how to write some excel formulas you will be fine with qlik scripting language too . 
+  not to mention full open api support and easy embedding of qlik sense charts to any html5 running peace of software . 
+  ( oh and . net too ! ), 
+   `` $ 15,000 + the iaas cost . 
+  power bi is only the licence cost which is $ 120 per use per year . '', 
+  you are mixing apples and oranges , power bi ( even pro ) licenses are not enterprise ready . 
+  8 refresh per day ? 
+  lol you have to be kidding me . 
+  sharing of dashboards ? 
+  what about section access ? 
+  what about enterprise level security and governance ? 
+  what about dashboards that are connected to 10 different sources and each of those sources needs its own security ? 
+  how u are going to manage all of that across the enterprise with power bi ? 
+  you cant . 
+  for that you need sql server and sharepoint combo . 
+  do not mix candy power bi dashboards with qlik sense enterprise ones . 
+   `` there is also a free version which is quite usable unlike qlik sense cloud ( 25mb per app and 5 users only ) . '', 
+  how is exactly power bi ( free ) more usable then qlik sense cloud free version ? 
+  please do enlighten me . 
+   `` you do n't need sql server . 
+  power bi can have data loaded into it in the same way you can load data in qlik to a qvd . '', 
+  and how you are going to refresh it ? 
+  8 times per day max ? 
+  good luck with that in enterprise environment . 
+  also how you are planning to manage user credentials for the dashboards you want to share ? 
+  section access ? 
+   `` it supports odbc plus many different native connections to databases and web services . '', 
+  sure it does . 
+  so lets have one user case scenario :, 
+  10 business analysts , 5 different data sources , 100 users of those dashboards . 
+  a ) how you going to manage user credentials for those 5 bas ? 
+  b ) lets say all of bas have access to all of the sources ( great security lol ) how are you going to manage what those bas show to all of those 100 users ? 
+  c ) of those 100 users how you will manage on the granular level if they are able to edit those dashboards , change data , add sources , restrict access to certain charts , etc etc. . ? 
+  as you can see in _ proper _ enterprise environment where all of those are concerns power bi has no place . 
+  that 's why you need sql server - that is ms end game idea with the power bi - to sell you more sql server . 
+  ( yeah i know that first hand ), 
+   `` the cost is $ 0 . '', 
+  of course there is . 
+  read above the reasons why is so . 
+   `` however , if you want to load up 50tb of data you would need extra power like maybe sql data warehouse . 
+  but most users do n't need that which is why i think power bi wins in this area . '', 
+  my dear tim , you are completely unaware of the enterprise requirements of the bi solution ... 
+   `` sure . 
+  it 's pretty good . 
+  but power bi has q&a , cortana integration , mobile dashboards , quick insights ... qlik sense is n't good enough to beat all those features . 
+  it 's probably better if you disregard all those . '', 
+  mobile dashboards ? 
+  oh man  qlik sense is the only solution from top 3 garter leaders that has html5 , responsive design of mobile dashboards . 
+  qlik sense is the only true `` create once , run everywhere '' bi solution today on the market . 
+  there you go : `` mobility with qlik sense '' - https://www.youtube.com/watch?v=-qsh4r5lgok, 
+  cortana integration ? 
+  sure , great stuff but how much usable ? 
+  but thanks to qlik sense open api tadaaa :, 
+  `` qlik sense voice control with amazon echo '' - https://www.youtube.com/watch?v=1lt1xjc5zpw, 
+  also , i thinks there is something cooking similar for new qlik sense 3.0 that comes out in 2 months ( including similar thing to quick insights ), 
+   `` that depends on the user . 
+  most people wo n't be able to do it . 
+  analysis and devs will be able to but the point of power bi is that enables the business . 
+  those people like power bi because they do n't need an analyst . '', 
+  well power bi visualization functionality is actually worse then qlik sense one , so i do n't understand what is your point here . 
+  also when you are adding data to power bi xvelocity engine you need to know what are you doing if your data is more then just a simple excel table ( or two ! ) .

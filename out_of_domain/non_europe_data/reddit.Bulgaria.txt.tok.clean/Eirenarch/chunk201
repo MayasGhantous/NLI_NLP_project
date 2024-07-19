@@ -1,0 +1,100 @@
+  that 's ok , still you need to identify that there is something wrong with the code so it needs a comment . 
+  then you can decide if you can fix it or need to add a comment . 
+  my point is that a comment means something wrong with the code ( most cases ) or extremely complex algorithm ( usually explained by a long comment at the top of the function ), 
+  no it ca n't because by definition you do not know what is wrong with the code at that point . 
+  chances are that you will be explaining something irrelevant and not help the person who reads the code at all . 
+  welcome to comments like, 
+  c = a + b ; / / sums a and b and assigns the value to c, 
+  documentation is dangerous too as it can also rot . 
+  however the use for documentation is quite obvious because it is usually meant to be consumed by people whose job is not to work with the code . 
+  that 's my point . 
+  the reason to have documentation is so that someone wo n't have to look at the code . 
+  therefore documentation is useful and we swallow the downside that it can rot . 
+  comments ( excluding the ones i mentioned ) are not useful because to see them means you are already looking at the code . 
+  oh well doc comments on a public api are fine of course ... if you are shipping a public api to another team . 
+  comments explaining what the code does do not help ever unless the code is bad . 
+  the code explains what the code does . 
+  also am i the only one who has seen incorrect comments where the code changed after the comment was written but the comment was n't updated ? 
+  that has wasted me more time than code that could legitimately use comments but did n't have any . 
+  visual studio online is so great . 
+  i do n't believe i ever said that code should never have comments or that all code that needs comments is bad code . 
+  in fact i listed several exceptions, 
+  usually these comments are different from the first kind . 
+  they are usually at the top of a function or a file and are quite long . 
+  - comments used to generate public api documentation ( say javadoc ) ( i did n't originally mention that but i agree with it ) . 
+  my claim is that regular code that does not fall in these categories does not benefit from comments . 
+  in fact it is harmful to add comments to regular code . 
+  i think we can agree that the cases i listed are normally a small part of the code base . 
+  so what happens if you do n't learn build orders or do n't know what a certain unit does ? 
+  you play in silver or something and you learn what the unit does when you see it . 
+  and do n't get me started on 100 + heroes with 3 skills each in dota and lol and even items to learn about . 
+  how is sc2 hard to get into compared to these games is beyond me . 
+  it is more appropriate to list the hours invested since some people can easily play a hundred games in a week . 
+  just play the campaign . 
+  it is worth the time on its own . 
+  make sure you play on fastest speed even if not on the highest difficulty . 
+  it has a nice learning curve . 
+  if you play on average difficulty it should take about 20-25 hours assuming no prior rts experience . 
+  then play a couple of games against an easy computer or a friend to test how each unit works in multiplayer ( they are not the same as campaign ) . 
+  should take like 2-3 hours to try all three races . 
+  at this point you have reached the lowest level of `` getting into '' . 
+  from then on the sky is the limit . 
+  choose a race , watch a stream of some player that plays that race for a couple of hours , start playing ranked , play like 20 games ( 7-8 hours , you 'll probably lose like 19 of these ) then go watch a couple of more streams and find 1 build per matchup and try to learn it and execute it just so you have a plan in the game . 
+  at this point you 'll probably understand high-level competitive matches with commentators and have a lot of fun watching tournaments . 
+  yeah i realized this . 
+  the main problem with this achievement is that i never knew if the place i had chosen is correct and i simply ca n't execute or it is not the correct place at all . 
+  the youtube video i copied was quite elaborate setup . 
+  not sure if it was what was intended by the designers either . 
+  involved sacing some of the heroes . 
+  that 's fine of course but you have identified a problem with your code that needs commenting . 
+  you did n't simply start adding comments everywhere just in case . 
+  it is for me and you because we know how long a game is but what is the person asking the questing thinking when he reads this ? 
+  1 ) will probably fix itself for a while with the release of lotv . 
+  the couple of months following the release will be the best time to get into sc if the person cares about this . 
+  2 ) you do n't need many resources . 
+  you need one quality resource and more than 1 exists for sc, 
+  3 ) that 's seen as a good thing for sc , is n't it ? 
+  note that your objections are only valid if the person wants to get to the middle of the player base fast . 
+  one can get into the game and be happy playing in the lower leagues . 
+  starcraft takes pride in being easy to learn but hard to master . 
+  we can argue if blizzard kept `` easy to learn '' in sc2 but it should be obvious that it is a good thing and `` get into '' certainly does n't mean `` master '' . 
+  i did n't downvote ( actually i never downvote people i reply to ) but i do n't see why people claim that the only difference between sc2 and a dota is macro . 
+  do you really not see any other difference ? 
+  5 person teams ? 
+  buildings , controlling multiple units ? 
+  i even feel like the strategy in sc is more complex than the one in dotas although i do not have enough experience to say that . 
+  is say company of heroes ( an rts with pretty limited macro aspect ) same as dota to you ? 
+  why the hell do people run these things ? 
+  i do n't mind macro mechanics . 
+  in fact i think chrono boost ( the wol/hots version ) is genius . 
+  it requires actions but every time you have to decide based on the situation in the game what those actions will be . 
+  you can even stockpile energy to use the chrono at once . 
+  on the other hand larva inject is just extremely stupid . 
+  it just requires actions and no decisions . 
+  it is the same in each and every build order ( only difference when you get your queen and when you drop your first creep tumor ) . 
+  larva inject is simply bad game design . 
+  macro mechanics, 
+  removed, 
+  shattered hopes, 
+  chrono boost is about multitasking too ( although not that intensive ) . 
+  there is no need to make something stupid and pretend that multitasking makes it interesting . 
+  hmm the wikipedia examples contain other versions . 
+  i modeled it after this one, 
+  snow in my shoe, 
+  abandoned, 
+  sparrow 's nest, 
+  thanks, 
+   i never really understood what a mathematical function was until i took a programming course, 
+  strange . 
+  it has always been the other way around for me . 
+  i always mapped cs concepts to math concepts . 
+  the average argument is bullshit . 
+  you are the same either way ( assuming equal talent for both games ) . 
+  the fact that the sc players are more elite and the dota community is so large that it has people who play very rarely and thus it is easier to be average is only a good excuse for very mediocre people . 
+  also sc is not more complicated than dota . 
+  dota has more units/heroes , more spells , more items , more everything . 
+  can someone explain what is the advantage of bower . 
+  it seems to me that npm contains all the client libraries as well so i can get say angular from npm . 
+  why then add bower to the stack ? 
+  i get the argument about attention and multitasking but i do not see why the macro mechanics need to be as stupid as larva inject or spreading creep . 
+  if game designers insist on the attention splitting aspect they should invent something that is not so stupid .

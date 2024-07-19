@@ -1,0 +1,100 @@
+  unity is not using double precision either . 
+  and it makes sense , double precision is generally not needed in most projects , but it 's more computionally expensive than single precision ( this will depend on individual usage patterns etc. , but the titan , for example , can do 5.1 tf in sp but only 1.3 tf in dp , so you get the idea ) . 
+  it 's just a waste of resources in most cases . 
+  and back to star citizen : even for interplanetary distances , you generally need to start partitioning your space into chunks and then cleverly mask the transitions ( as wormholes/jumps/etc ) - this is what sc will use ( at least for the initial release ) or design your whole engine around procedurally streaming in assets on demand like infinity universe does ( i.e. 
+  move the planets/stars/whatever around and keep player fixed ) . 
+   does that mean 32bit processors/operating systems could n't even run a game using double precision , or is that something that can be emulated ? 
+  nah , it just means that on a 32-bit platform it will take longer to read/write a double compared to a float ( because 64-bit double wo n't fit into a 32-bit register/bus ) . 
+  performance depends on the processor , especially since any modern cpu uses simd extensions ( like avx ) to handle fp intensive calculations . 
+   infinity universe, 
+   lowering that requirement to two players , but increasing the `` multiplier '' that is added to the score you earn by being more players, 
+  i approve !, 
+  because reasons . 
+  gametrailers ... people still visit that site ? 
+   i 'm having a hard time figuring out what makes this game stands out from the other fps shooters, 
+  that 's the thing . 
+  as much as wolfenstein fans want this game to be good , there is nothing in these 30 minutes that made me want to play it , let alone shell out 60 bucks for it . 
+  murrica ? 
+  i cry evertim . 
+  so it seems memory leaks and gradual degradation of server performance are still a problem . 
+  what i find interesting though is that console guys did n't have regular restarts before this ? 
+  that could explain most of the extreme rubber-banding issues ( other than simply under-powered server hardware ) . 
+  more `` arcadey '' dark souls ? 
+  why not . 
+  i thought this has already been estabilished last year ... but then again it 's ign so i guess any flammable headline is a good headline . 
+   this is so disappointing to read, 
+  because you should base your opinion on an internet random guy 's assesment . 
+  an internet random guy you have no previous knowledge of and an internet random guy who did not mention any reasons why he thinks the physics will be on the level he thinks they 'll be . 
+  many people say the cars hadle close to shift cars ( = bad ) , many other people say that , especially recently , the physics/handling in the most developed cars feel the best on any game they ever had a chance to play . 
+  including ac . 
+  btw the hardcore pc sim community generally agrees upon the fact that the physics engine of rf2 is not that great , especially in the low speed grip area , so i would n't take it as some holy grail of handling you should strive for in a hardcore sim . 
+   my breakfast preferences have been leaning toward whole fruit , such as bananas and apples . 
+  i do n't know how much you 're used to eat ( quantity ) , but that 's a terrible advice for a grown man used to fast food . 
+  both bananas and apples are jam-packed with sugars and not that much filling ( in the amounts we generally eat them ) , which means only one thing : elevated blood glucose and feeling of an empty stomach . 
+  which in turn always equals cravings . 
+  not many people can resist those for long . 
+  what 's more , even if you have an iron will , it 's almost impossible to keep muscle mass with calorie-deficit diet of such a composition . 
+  any low-fat , moderate-carbohydrate diet will burn through muscle first and fat second . 
+   maple syrup , oat meal, 
+  i 'm not seeing this as helpful . 
+  sure , it 's cheap and oats do contain healthy minerals and nutrients ... but maple syrup with oatmeal is like a carbohydrate bomb that will always just spike your blood sugar level and therefore this will do more harm than good . 
+  vast majority of people used to fast food will not be happy with the meals you described ... they 'll just have a bad mood for half a day , feel tired , eventually quit and get all the perks of a yo-yo effect . 
+  this is not just my observation , most people actually fail at keeping their new diets because of these reasons . 
+  i 'm a big proponent of low-carb , high-fat diets , since i , just by myself ( and the help of the internet and [ r/keto ] ( http://www.reddit.com/r/keto ) ) , managed to lose around 30lbs of fat ( while not losing any muscle mass ) , while having more energy and feeling better than ever before . 
+  also three of my friends successfully lost a lot of their weight just by seeing my success and trying the same . 
+  it 's not really about my story or your story , all that is anecdotal evidence and therefore devoid of any scientific backing . 
+  it serves as a nice illustration , but you need arguments , scientific arguments , because anecdotal evidence by itself is just fluff ( and so are random books that do not present evidence ) . 
+  most people will try your way because they do n't believe that one can feel full by eating tons of meat with greens , stuff like eggs and bacon and butter and cheese , while not exercising while losing weight ... and it 's suggested by several studies that they will fail more often on a low-fat diet than on a low-carb diet . 
+  and that they will lose less on a low-fat diet than on a low-carb diet . 
+   in oct. 2013 , after reviewing 16,000 studies , sweden 's council on health technology assessment concluded that low-carbohydrate diets are more effective as a means to reduce weight than low fat diet , over a short period of time ( 6 months or less ) . 
+  however , the agency also concluded that over a longer span ( 12 -- 24 months ) , there are no differences in effects on weight between strict or moderate low carb diets , low fat diets , diets high in protein , mediterranean diet or diets aiming at low glycemic index . 
+  source : http://en.wikipedia.org/wiki/low-carbohydrate_diet#studies_on_health_effects, 
+  `` the us military outclasses russia hands down . '', 
+  - typical american attitude . 
+  the same one that got you smacked in the both the korean war and the vietnam war . 
+  now lets not even talk about nuclear war , because russian rocket systems are hands down the best and most advanced in the world ( e.g. 
+  rs-24 yars and they also taxi your asses to space :p ) , so the mutual destruction would be very much guaranteed . 
+  talking conventional warfare , the russians are no pushovers , their spending on military is one of the highest in the world ( 3rd iirc ) - it 's nowhere close to what 's us spending , but one us dollar will get you much , much further in russia than in the us ... and the us military r&d programs tend to get super-expensive , for example , just compare the unit costs and the program cost of these fifth generation jet fighters :, 
+  better this than profanity filters filtering normal words . 
+   it is one central world no matter what the platform ,, 
+  that reads like cross-platform gameplay . 
+  controllers vs mice . 
+  it would ruin the game for most ( but select few ) console players . 
+  in-fucking-deed !, 
+  one of the best produced machinimas i 've ever seen . 
+  lol you fail bro, 
+  camera tools , nothing to do with spectator, 
+  it 's more about traction, 
+  i 'm always called mg4 noob , can i play ? 
+  borderlands 2 has sold [ 8.5 million copies ] ( http://www.ign.com/articles/2014/02/03/borderlands-2-now-highest-selling-2k-game-ever ) , so let 's say 9 mil over 18 months . 
+  factor in all the discounts and gradual decrease of the price over time . . 
+  activision may have bitten off more than it can chew . 
+  some articles out there have a fitting word in the title - `` betting '' . 
+  depends on the genre really , but rpgs and online shooters generally sell well . 
+  afaik ( and this is a [ player count ] ( http://bf4stats.com ) based number ) bf4 sold at least as many copies on the pc as it did on any other platform . 
+   which is basically the whole audience of gamers minus pc exclusive gamers, 
+  that assumption is incorrect , imo . 
+  many pc gamers of course have consoles too , but i doubt many play fps games on them . 
+  mouse is just a far superior control device for a fps game and it 's very hard ( well , more like frustrating than hard ) for any seasoned pc gamer to go play shooters on a console . 
+  i have ~ 50 hours of dsii ( using xb controller ) under my belt , but aiming in first person mode ( binoculars ) still sucks badly . 
+  stick is just not a very precise control method . 
+   the only people who hate ea are fanatics . 
+  this type of ridiculous post is why you have to take anything on reddit with a metric ton of salt . 
+  $ 4m - 50 % ( 30 % for valve , 20 % taxes ) is still $ 2m for the company . 
+  if they decided to cash out ( i.e. 
+  pay yourself a huge wage ) almost all of it ( which , according to the article , they did ) , then they 'd have to pay income tax , further reducing that $ 2m to about 2/3 ( depending on the country they operate in ) ... but that 's still at least $ 600k per person . 
+  they took the money and run . 
+  simple as that . 
+  i get where you 're coming from , but 150 may be too low ( unless it 's an average of several samples ) . 
+  sometimes i want to play with na guys and due to physical limitations the best ping i can have is around 120-150ms . 
+  btw official `` ping filter '' will never happen on consoles , because console vendors wo n't allow it ( they literally have ps network/xb live agreements that contain pings your game must support and it 's something like 250ms ) . 
+  wow makes that every 45 days . 
+  all 420 of them !, 
+   i can see why he has so many haters . 
+  spoken like a true hater . 
+  every day nvidia 's proprietary , closed off tech gets left behind is a great day for all of us . 
+  even nvidia fan club . 
+  the ( retarded ) reddit way . 
+  this is very bad news and it will only lead to censorship and even more filtered web . 
+  ** this ruling is a wolf in sheep 's clothing . 
+   emma carr , acting director of the privacy rights campaign big brother watch , said : `` the principle that you have a right to be forgotten is a laudable one , but it was never intended to be a way for people to rewrite history .

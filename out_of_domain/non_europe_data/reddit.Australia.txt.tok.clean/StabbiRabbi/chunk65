@@ -1,0 +1,100 @@
+  the main place explicit variable type declaration for interfaces still crops up is with regards to collections where i will often specify ienumerable < t  or ilist < t  instead of list < t  as the type , but then obviously have to use a list < t  !, 
+  i think the ubiquitous use of resharper in the industry has kind of killed this debate . 
+  i mean , for a lot of devs the fact that resharper says use var means they use var . 
+  in my team i now just let resharper take care of simple coding standards such as variable naming rules and , yes , use of var and etc , whilst the coding standards we do have specified deal with issues at a slightly higher level such as application of patterns and preferred coding constructs for different scenarios . 
+  i 've already made my position clear i think , but as further reinforcement it 's worth noting that , unlike dynamic , var has absolutely no performance or type safety implications as the compiler simply resolves it to a static type anyway . 
+  so there is literally no reason i can see * not * to prefer it whilst on the flip side there are plenty of reasons to prefer its use over explicit type declaration . 
+  ( barring certain , pretty specific , cases covered in the article and my previous comment . ), 
+  yep i bet that gets old quickly . 
+  i guess people coming from a web background , such as js or php ( or , god help them , vbscript ) might have been traumatised by their experiences in those trenches ; equally battle-scarred c++ warriors probably * think * of vb and eschew var due to sheer prejudice !, 
+  it must be remembered , however , that a js/php/vbs var is an * entirely * different beast to the c # var as the c # var simply compiles to a static type anyway ... 
+  hopefully they 'll use these to bomb those rogue states in the me , especially the two current putatively `` allies '' , back to the stone age ... 
+  this does n't relate specifically to your enum extensions sorry , but more of a question about others usage of enums ... 
+  i know enums are occasionally unavoidable , but i tend to implement value objects ( in ddd terms ) that are concrete implementations of an abstract base class , implement iequatable < t  and can be serialised/deserialised from their string representation for persistence , messaging and etc. 
+  i do so because i like to keep my model implemented using objects , such an object can contain much more information than an enum ( my canonical example is a display name - as well as the `` enum '' value - that can be formatted for display ... ) and to solve the generic constraint issue you are solving here . 
+  i 'm just interested in knowing how much others are either using enums or replacing their use with objects such as i just described ? 
+  sorry to hijack your post . 
+  of course they do , given israel 's habit of bombing `` apostate '' shia iranian , hezbollah and syrian government forces ( if the shia are apostates do n't get the salafists/wahhabis started on the alawites ... ), 
+  well then , we 're agreed isis and israel share strategic goals then at least ... 
+  the `` promised land '' comes from the bible too . 
+  now we 're discounting biblical `` evidence '' could the illegal settlers * please * give up on their campaign to colonise `` judea and samaria '' ( ie the west bank area of palestine ) which they justify `` because the bible says so '' ? 
+  so you 're discounting the inconvenient , but keeping the bits you like in other words ? 
+   samaria and judea were the historical names of the place . 
+  however , those names long since fell into disuse . 
+  the area is now called the west bank and is within palestine . 
+  as i understand the hyskos * hypothesis * is entirely what it 's name suggests : an unproven hypothesis . 
+  i 'm not saying that there was a rape of the canaanites , only that any argument based on biblical `` evidence '' is inherently deeply flawed . 
+  a clear example is that despite all of the effort placed into the search by israeli archaeologists ( though i must say at this point they 're starting to resemble that `` ancient aliens '' guy more than serious academics ... ) , not a single scrap of proven evidence has ever been found for the existence of david or solomon , perhaps the two most notable figures in the story aside from moses ( who also can not be proven in any sense ! ) . 
+  so how can anything based on `` biblical evidence '' be taken seriously ? 
+  ergo , how can the ideological claims of the colonising illegal settlers be held in any credence ? 
+  where exactly were they supposed to go for the baby to be safe from the idf ? 
+  by staying inside , in shelter where they * should * have been safe , they were doing the best they could . 
+  does this mean , in your opinion , that if an israeli is stabbed on the street that it 's their own fault for being on the street in full knowledge that the palestinians are currently performing such attacks in response to the israeli occupation/illegal colonisation project ? 
+  or is that different because in the case of the baby the * other * palestinians * outside * were throwing rocks , ergo palestinian criminal actions brought about a predictable and perfectly reasonable response from the occupying forces ; similarly is the israeli not to blame because they were simply going about their normal life when , entirely unprovoked , a terrorist attacked them ? 
+  is resisting occupation terrorism in your view ? 
+  does that mean the warsaw ghetto uprising against the nazi occupiers was also terrorism ? 
+  if not , wherein lies the difference ? 
+  is n't the baby 's death within its home proof that the gas was within that home ? 
+  what proof do you want ? 
+  despite appearances , it 's * not * racial discrimination ; * certainly * not an apartheid style policy . 
+  even though there are n't actually arab israeli illegal settlers ( for a myriad of reasons ... ) , so this * does * de facto separate arabs and jews , if not de jure . 
+  as the ynetnews ( a right-wing israeli publication ... ) headline explicitly states . 
+  so it 's totes cool right ? 
+  it would be dangerously irresponsible to just carry a baby around in the middle of a protest whilst that protest is being violently suppressed . 
+  the baby should have been safe in its home ; should n't * any * child be safe in its home ? 
+  whether the gas was deliberately * fired * ( not thrown , the idf * fires * tear gas grenades from launchers ... ) into the home is immaterial ; the fact that sufficient gas entered the home to kill a child clearly demonstrates that the idf displayed a wanton disregard for the safety and rights of non-combatants ... as i said above , children have the right to be safe in their homes . 
+  if you are trying to stop protesters then target them , not innocent people living nearby . 
+  if the difference is obvious please provide some differences . 
+  in both cases people are simply fighting against the oppressive regime occupying their homeland ... 
+  the taliban situation is more by way of being a civil war , with one side supported by foreigners . 
+  how are the intentions of the illegal settlers different from that of the nazis ? 
+  the motivation for both colonisations is the same : to take the territory of another people and settle it for profit and gain . 
+  the germans caused it the quest for lebensraum ; the illegal settlers claim it is the quest for the biblical `` promised land '' . 
+  edit : the intention of those fighting the occupation forces is obviously the same : the return of their normal lives and homes . 
+  you obviously have difficulty parsing basic english ; is it your second language ? 
+  you write it passably well , although in a style that would never be mistaken for that of native speaker . 
+  try to tone down the melodrama . 
+  anyway , the family * were * inside their home . 
+  the occupation * is * recognised as such by international law : the occupation itself is legal ; the settlements most assuredly not . 
+  i think now palestine is a member of the international criminal court , however , you will hopefully get to see israeli politicians and idf officers facing trial for war crimes sooner than you imagine . 
+  perhaps you are right about palestine . 
+  a single-state solution * would * be ideal , despite currently being such anathema to zionists . 
+  israel/palestine would still be a homeland for the jews ; just not a jewish homeland once it absorbs the palestinians into its citizenry . 
+  roughly 5m people wo n't just disappear you know . 
+  i realise the scenario you describe is the situation israel is trying to bring about , but moral outrage around the world at israeli crimes is mounting fast . 
+  the eu are already talking about sanctions and forcing the israelis to sit down to genuine peace talks , that if not successful in a year would bring swingeing sanctions into play that would cripple israel 's economy . 
+  i personally believe the us will be forced into taking action due too before long . 
+  israel may be smug now , but their position is not as solid as netanyahu and his thuggish cronies would have you poor , indoctrinated denizens of that state believe . 
+  anyway , we shall see , sha n't we ? 
+  worth remembering is the last time a foreign culture was imposed upon palestine : the crusader state known as the first kingdom of jerusalem . 
+  * that * state lasted in jerusalem from 1099 to 1187 , ie less than one hundred years . 
+  it is highly analogous to israel in many ways : i wonder if longevity will prove to be another point of comparison ? 
+  there are some valid differences , some spurious ones and a couple that are plain wrong in there , but i will give you points for effort . 
+  comparing the west bank to warsaw * is * valid : ultimately both occupations are brutal and immoral ; however , * gaza * , which you brought into the discussion , is an even better parallel !, 
+  in gaza the calorific intake of the inhabitants is restricted by the oppressive occupiers ( yes , yes the illegal settlers left , but gaza * is * still occupied - there were no nazis actually inside the ghetto either remember ! ) . 
+  many settlers work in israel because they have not achieved their crazed `` religious vision '' ( and i do not believe they ever shall - international opprobrium is gathering strength and hopefully soon all illegal colonisers will be turfed out ! ), 
+  that would allow them to steal what remains of the palestinian 's economic resources ... or in other words they have not yet gained the lebensraum they seek . 
+  no , the party i voted for would * never * enter into a coalition with a crazed , pathologically lying , psychopath like netanyahu . 
+  i do n't think you can draw a direct comparison between any israeli political party and any australian one . 
+  no australian party would even countenance the operation of an apartheid state in a country it was brutally occupying and colonising although no australian political party would countenance such an occupation either so i guess the apartheid issue would never come up in the first place ... 
+  you 're being disingenuous . 
+  there are hundreds of articles on record of how during military operations the israeli regime - like soviet russia and another notorious regime i shall refrain from comparing israel to so as to avoid the risk of offending you - calculated the minimum number of calories the gazans needed to survive . 
+  your icrc document does nothing to disprove that gaza is still occupied ( though it does specifically mention that occupation forces are banned from moving their civilians into occupied lands , which as we all know is why eventually the illegal colonist settlers have to go - not as a matter of discrimination , but one of law ... ) ; why did you link it ? 
+  it merely describes the behaviours that the occupation forces must adhere to - almost all of which the idf break !, 
+  it also provides the following interesting quote :, 
+   after effective occupation of territory , members of the territory 's armed forces who have not surrendered , organized resistance movements and genuine national liberation movements may resist the occupation, 
+  that actually provides a legal framework for palestinian attacks on idf soldiers !, 
+  ( i will not condone attacks on civilians by either side . ), 
+  as to whether gaza is still occupied , occupation is generally accepted to include situations where the hostile forces ( idf ) maintain effective control of ingress and egress from the territory and conduct military operations within it at will . 
+  as israel controls all entry and exit , including airspace over , to gaza and idf troops still conduct operations within gaza whenever they feel like it i would say gaza is occupied still . 
+  the wb has supported its native population with farms and other economic enterprises for generation upon generation which is why they do n't want to move . 
+  again by claiming there is nothing of value there you are being highly disingenuous . 
+  sorry if i did n't express myself very well ( oh , the irony ) : it was meant as a compliment , not an ad hominem , but i should have chosen my words more carefully . 
+  please do accept my most heartfelt apology . 
+  you 're wrong about the moral outrage . 
+  i speak to people here in australia and in europe and it is definitely a genuine phenomenon , not linked to anti-semitism in any way , shape or form ( except for the lowlife bigots who are dyed-in-the-wool bigoted idiots , but they are a tiny minority ... ) . 
+  the arrogance of israel 's supporters never fails to amaze me . 
+  i know you 've all been thoroughly indoctrinated with bullshit propaganda and lies throughout your lives ( especially younger israelis ) , but even so ... 
+  just never forget my friend that things change . 
+  israel may have already crossed a line you ca n't even see . 
+  netanyahu and his vile bigotry are doing you no favours .

@@ -1,0 +1,100 @@
+  changes the background color of the inside of mod/recent link/mod tools box . 
+  ( not including titles ), 
+   changing what the submit button says and background color/border . 
+  you change what the submit button says on the subreddit settings . 
+  background : red ;, 
+  background-image : none ;, 
+  background : blue ;, 
+  background-image : none ;, 
+  with this it removes the background image and change the color of the background . 
+  . morelink . nub , . morelink : hover . nub { display : none ; }, 
+  this removes the triangle thing on the right . 
+  . side { color : blueviolet ; }, 
+  changes the color of all text on the sidebar, 
+   i have a custom header and would like the text on top of it to be removed, 
+  i do n't know what text you are talking about here but to make the name of the subreddit and alien not show up on the header . 
+  #header - img { display : none ; }, 
+  #header . redditname a { display : none ; }, 
+  hmm , add this ! important before the ; ( on the #header - img ) and see it it works . 
+  this changes the background, 
+  #header - bottom-right a { color : red ; }, 
+  this changes the text inside it . 
+  changes the background color and text color of the menu, 
+  . tabmenu li.selected a {, 
+  color : orangered ;, 
+  background-color : rgb ( 255 , 255 , 255 ) ;, 
+  this is for the one that is selected . 
+  this is for the karma, 
+  #header - bottom-right span.userkarma { color : blue ; }, 
+  the banner should go on the #header you uploaded it where a custom snoo / reddit alien would go you need to upload the banner on the stylesheet page and use something like this , that should fix your menu ( probably ), 
+  #header { background-image : url here no-repeat ; }, 
+  you need to add solid to it , should look like this . 
+  no problem , if you are all done , mark this post as resolved by clicking where it says flair . 
+  you probably have something that is overriding it try adding ! important so it should look like this . 
+  if that does n't work give me a link to your sub so i can look at the stylesheet . 
+  . sidecontentbox { background-color : black ! important ; }, 
+  btw you may not want to used the 2 lines in the comment above together , you can but ul will be on top of the other . 
+  wow ben francisco actually did something . 
+   sony is first and foremost an insurance company, 
+  this is not true , although in recent years the sony financial services is the most profitable ( also selling insurance it just one thing the division does they are also a bank , and holdings company and a few other thing ) but they are not the biggest part of sony or foremost part of sony . 
+  sony electronics is the biggest division of sony by size and employees they are just not making money . 
+  did you even read what you link ? 
+  or do you not know the difference between profits and revenues ? 
+  that 's talking about profits , here is from sony themselves financial services `` only '' account for 13 % of sony revenue for 2012 while electronics account for 62.1 % of it . 
+  you can search this reddit we get this question a lot , we are going to start removing this type of questions starting next week ( after the faq is finish ) but there are many answers ( in this sub ) if you search for them . 
+  i actually like xpost i have found a couple of cool reddit 's that way but like you said i do n't think it serve a purposed other than advertising for the other subreddit . 
+  woot thanks i forgot there was a game today . 
+  remove this from . res . commentarea . comment , thats should fix it . 
+  you can add this to the same place as what you remove above . 
+  unrelated but if you add this it can look even better imo . 
+  hopefully they include something like a revamped playstation suite with access to the sen store , so we can buy games that work on our phones , with cross-buy/cross-play . 
+  but i 'm just dreaming here it most likely just a messaging app / profile viewer . 
+  looks like you are trying to post a link , you need to click the first buttons where it says `` submit a new link '' you made a self post . 
+  i remove it so you can submit again . 
+  what is dragd.is ? 
+  i going to remove this if this is one of those pay link shorteners, 
+  edit : not sure what this url is but this is the last time it will be allow for the future please do n't use url shortener, 
+  yep looks bad , i thought this game was going to be call . 
+  looks like the rain is already over , now all we need are some runs !, 
+  remove : do n't post personal info . 
+  just tune in to the game and cano hits a homer , i think this is going to be a good game . 
+  the box will be black ... but really i think they will relaunch the sen store ( the one on the web ) and make it so we can see profiles and stuff similarly to how they show profiles [ here ] ( http://i.imgur.com/ncs7sbqh.jpg ) on the ps4 ui , and since we infer that we be able to access it via the [ phone/table app base on this shot . 
+  ] ( http://i.imgur.com/kufefut.jpg ) i think they will do it . 
+  remove : do n't post personal info . 
+  the color of the text inside or the titles ? 
+  for the text inside it is this, 
+  . sidecontentbox a { color : white ; }, 
+  for the title, 
+  . sidecontentbox . title h1 { color : black ; }, 
+  add this next to ; but before the } like this . 
+  / * link flair * /, 
+  div.side div.usertext-body table, 
+  div.side div.usertext-body table td , div.side div.usertext-body table th, 
+  here you go , you only need to make the flairs on the moderation tools . 
+  no with this you do n't need to add anything on the css part . 
+  to apply the flair , turn flairs on where it says `` link flair position '' choose left . 
+  you can apply them manually ( there is going to be a flairs option on links ) , the / r/all flair can be done with automoderator . 
+  here you go . 
+  . sidebox.create . morelink { display : none ; }, 
+  background-position : right ;, 
+  add this to the #header . 
+  you may want to make that image smaller . 
+  . sidebox.submit . spacer , . sidebox.create . spacer { display : none ; }, 
+  this ? 
+  if are you talking about the text thing . 
+  . titlebox form.toggle , . leavemoderator { background : transparent ; }, 
+  this should do it . 
+  a tip : if you right click on any site ( or subreddit ) and hit inspect elements on chrome ( on firefox is call something else i think ) you will see the code and replicate it if you want , or just google what you do n't understand it . 
+  this is the url see the name of the jpg ? , it is not the first pic on google images when i search caucasian ovcharka . 
+  same pic another site . 
+  i really hope this pans out , i want race close to me , even if it 's in new jersey . 
+  upload this to on your stylesheet page . 
+  this goes in the sidebar, 
+  this goes in your stylesheet, 
+  . side a [ href * = ' / #btn ' ] {, 
+  display : block ;, 
+  position : relative ;, 
+  background : #ffffff none repeat-x scroll center left ;, 
+  background-repeat : repeat ;, 
+  background-repeat : repeat ;, 
+  oops i made spelling mistake it should be / #btn i put / #bts , sorry it is fixed now .

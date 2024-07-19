@@ -1,0 +1,100 @@
+  can you explain ? 
+  ok i found out that chad jones is minigun but what 's with the `` motherfucking '' reference ? 
+  i see . 
+  i did n't know he had this kind of `` nickname '', 
+  i wonder how the author would comment on the situation these days . 
+  we have effectively standardized on the web for compatibility and some small but important details have changed and others have gone further . 
+  for example windows posix services have been deprecated and the new winrt api seems to deemphasize win32 even further . 
+  guidelines are value types should be immutable so you should n't care . 
+  on the other hand the . net framework itself violates the guidelines although not in the bcl if i recall correctly . 
+  1 to 4 are never a problem in my experience . 
+  they either do not happen or are debatable . 
+  i was surprised to find that i agree with the rest . 
+  i am especially annoyed by the mass use of `` as '' in the c # community . 
+  i get really angry when i see a speaker at a conference cast with `` as '' without reason . 
+  i am always `` that guy '' who asks why the cast with `` as '' is used although it has nothing to do with the session . 
+  i know this annoys people but someone has to do it . 
+  oh yeah , these too !, 
+  also worth noting using first instead of single . 
+  i am surprised i am the only one seeing people use as for casts . 
+  btw the very fact that there is a null check does n't mean that as is used correctly but i guess you are talking about the correct case anyway . 
+  ~ 95 % of the casts are wrong with as . 
+  a real world example might be if you are building a windows forms application and you want to get the sender object for an event and you know it is a button and you do something like, 
+  button buttonpressed = sender as button ;, 
+  i do n't think so . 
+  even if you check for null what are you gon na do ? 
+  by definition there is an error in the code ( somehow a button click handler ended up being called by non-button ) . 
+  it 's not like you can do anything better than crash or display generic error and then close the program . 
+  certainly is but normally you do n't catch exceptions . 
+  did you see me catch an exception in the example above ? 
+  you surely do n't want to continue running a program that randomly calls incorrect event handlers . 
+  your program is in a state it is not supposed to be which means you can corrupt user data or create security vulnerability if you continue running . 
+  exceptions that are unexpected should always terminate the program or at least nuke some large part of it ( like the request in the case of web apps ), 
+  i would say that this is appropriate use of as . 
+  he is asking about inappropriate . 
+  you do prefer the program to quit you just do n't know you do ... 
+  yet !, 
+  and most high quality software will crash . 
+  you may do something to appear to be working like restart the application or isolate things in app domain and kill the app domain but to continue working is a practice that is so bad it can be made into a php feature . 
+  post the advanced articles then . 
+  what i meant is that you could have skipped posting this one on reddit . 
+  mono desktop apps are definitely cross-platform . 
+  in addition the mobile apps can share a good portion of the code when using xamarin . 
+  they even have their own wrapper for the backend services that is provided for ios , android and wp . 
+  are n't there countless other engines which allow c++ coding ? 
+  i always thought that what differentiates unity was that it is very high-level engine . 
+  i have nothing against real world developers doing real work but this was definitely no real work . 
+  i 'd rather read hello world type blog posts about haskell than about c # and i surely prefer c # to haskell . 
+  java does n't have operator overloading but then again java is not supposed to be a new and better way to solve problems in 2014 . 
+  java is ok to use today because it was somewhat better than the competition in 1995 and it accumulated massive know-how , ecosystem and tools in the two decades since then . 
+  you ca n't bring a new language with a type system that is less expressive than java 's type system and expect people to be happy about it . 
+  so go sucks because it was designed by people who chose to be stuck in the 70s and we should tolerate it for that ? 
+  strictly speaking sanitizing means removing dangerous input . 
+  if this is what you mean and it surely is the popular practice in php circles you are doing it wrong . 
+  input should not be sanitized input should be encoded . 
+  remember that next time <  are gone from your comment on a website and stop giving bad advice . 
+  frankly if ms are not developing their desktop platform ( i.e. 
+  no new ui controls or ways to use desktop windows ) i do n't see many reasons for wpf to be changed . 
+  all we could ask for is performance improvements and tooling improvements and the article does mention tooling improvements . 
+  i would hope so but i have tried to paste code as a comment and it has gone missing far too often so i am not convinced that most developers understand `` encode '' when they say `` sanitize '' . 
+  let alone that the very word `` sanitize '' implies removing stuff from the input, 
+  and cheese is perfectly legit strategy especially if you have a large pool of cheese strategies . 
+  correct me if i am wrong but support for charms is not available to non-winrt apps at all . 
+  after all both winforms and wpf are glorified wrappers around windows features exposed through win32 api and directx and if windows does not provide these features to anyone they ca n't possibly come to winforms and wpf, 
+  ok but this is a windows problem not wpf problem . 
+  there is nothing the wpf team can do to fix that . 
+  he says in the video he is 29, 
+  nothing can beat the david kim inbox screenshot !, 
+  i wish people stop acting as if getting somewhere with cheese is less of an achievement than getting there without cheese . 
+  well it 's not like macro players can cheese on the same level that cheesy players can cheese . 
+  if you choose to cheese your way to whatever league then you have just chosen one path to this goal . 
+  i can see why macro is the most sustainable style on high level but it is still not enough if you wan na be the best . 
+  cheesing your way to gm is not easier than macroing your way to gm it is just less sustainable . 
+  you are free to contribute code for the asp.net tests . 
+  in fact the asp.net tests are contributed by asp.net devs like most of other framework tests . 
+  the maintainers only do small number of tests that interest them . 
+  on the other hand if i was on the asp.net team i would make sure to contribute the best possible test code for this benchmark . 
+  the guys behind it seem serious and they have persisted in improving the test suite for years . 
+  since struct appears only in type declaration it can be made into contextual keyword . 
+  no code using the name `` struct '' in this particular place compiled in the past so no code would be broken . 
+  well the first installments of the benchmarks did not include asp.net . 
+  someone from the asp.net community decided to submit benchmarks . 
+  were they supposed to refuse the pull request ? 
+  also yes , this is how it works . 
+  they get work done for free ... except that they do n't make money from these as it seems . 
+  want your favorite tech or the tech your company builds on the benchmark ? 
+  go ahead do the work !, 
+  well ok . microsoft make money of asp.net . 
+  they should do the work to provide adequate benchmark code . 
+  you are probably right but the c # team does not shy from this approach and does it all the time everywhere so i guess it 's not a big deal, 
+  i do n't know a single . net dev who targets . net 2.0 . 
+  i do n't know who these `` a lot of people '' are . 
+  just as possible as today and as last year . 
+  they will still be built with mono . 
+  nothing really changes for the end user what changes is that it will be easier for xamarin to develop mono, 
+  i am perfectly sure windows powers some quite serious data centers in that azure thing . 
+  i remember reading somewhere that the ide and the tools does not make money . 
+  it costs money and they make back what they spend but they do n't turn a profit . 
+  yeah right ... and still there are only 200 people in gm on each server despite everyone being able to get there with proxy rax , 
+  i do n't doubt that some people do target 2.0 . 
+  i just doubt there are a lot of them .

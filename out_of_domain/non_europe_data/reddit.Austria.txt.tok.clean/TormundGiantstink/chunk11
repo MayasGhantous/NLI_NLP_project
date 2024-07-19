@@ -1,0 +1,100 @@
+  the correct term would be presentation layer . 
+  the whole point behind mvp is to keep your business logic in pure java , in order to test it on the jvm . 
+  what 's the point of writing your presenters , when you need to run them on a device or emulator ? 
+  edit : if you 're going to move it into a different layer at all ( which a lot of people do n't , simply because the amount of work is not justified for small projects ) , then you may use your wrapper-class in your presenter , but then you would n't pass in activity context , but rather inject application-context via di, 
+  i 'm not talking about mvc here , i 'm talking about full-blown application architecture . 
+  like `` clean architecture '' ( or viper , as it is called in the ios world ), 
+  for most smaller projects , it suffices not to worry too much about architecture ( it 's usually crammed into what 's known as `` model '' in mvx ) , that 's what i intended to say with my comment, 
+  using paper , was a good choice to switch to from realm, 
+  so , imagine the following :, 
+  you have a git repo of your project from 8 months back and a new one , which picks up exactly at the same time you abandoned the old one ( we had to switch our hoster for several reasons ) . 
+  now , in order to find a critical memory leak , you open up the old repo and go back through the history commit by commit , while having both the old project and the current project open in android studio . 
+  you keep an eye on the memory meter and it climbs . 
+  you close one of the two android studio instances , restart the app and the memory meter does not climb . 
+  did anyone have a similar experience ? 
+  i just spent 16 hours going through git , only to discover that the memory meter is buggy, 
+   ringed city knights : fun to fight . 
+  there lothric knights , but on steroids . 
+  i actually find the ringed city knights a lot easier to fight, 
+  we make a dating app and sometimes i go through our userbase to find catfishes , so i can assure you that it happens, 
+  google image search is usually enough , if you ca n't find duplicates there , use tineye, 
+  because he 's likely not a 15-year veteran, 
+  absolutely !, 
+  every now and then i search for fake accounts and catfishes in the database of our dating app and use tineye frequently, 
+  just say `` fuck it , give everybody sliders ! '', 
+  and appease everybody, 
+  everything that 's about `` sexual education '' is considered not safe for children ( which is absolutely bogus ), 
+  edit : not by me , by the systems in place . 
+  if you used something like k9 web protection , you 'd know what is considered harmful within these systems, 
+  ios only , android ratings persist between versions, 
+  we do n't have enough of them to make that worthwhile and even then , a ton of them would find out and make new accounts . 
+  we need to find a way to get rid of the problem as best as possible , this would only delay it : /, 
+  just report trash content , it 's against the subreddit rules either way, 
+  we use this one :, 
+  * copyright ( c ) 2015 { company name } - all rights reserved, 
+  * unauthorized copying of this file , via any medium is strictly prohibited, 
+  * proprietary and confidential, 
+  * created by { user } on { date }, 
+  sorry for being offtopic , but the website really hurts my eyes, 
+  i do n't even know why we do it, 
+  i just copied it from the guy who managed the codebase before i took over \u00af \\ \\ \\ _ ( \u30c4 ) _ / \u00af, 
+  setting the font to something darker is always good . 
+  last time i checked , you had a contrast of 1:3.9 ( was it #a 2a2a2 ? ), 
+  it seems , you 've done that already though , which is good . 
+  the font itself is also a bit sleek , but that 's not as bad as a low contrast, 
+   i can paste any other information you 'd like . 
+  best start with the actual error message, 
+  use the [ singleton-pattern ] ( https://en.wikipedia.org/wiki/singleton_pattern ), 
+  correct me , if i 'm misunderstanding , but using something like this should work :, 
+  ` def loaddata ( offset : int = 0 , amount : int = 25 ) : list < data  `, 
+  the sqlite-query would look something like this, 
+  ` `` select * from data limit $ amount offset $ offset ; '' `, 
+  the only issue i could see with this is , that you could potentially load data multiple times , if you insert records in the middle somewhere . 
+  in the end , it 's not really a matter of application architecture , but rather about the implementation of your persistence layer ( i can imagine that this would be harder to implement using realm and impossible for special cases , like when you use paper and save a list < t  in a certain key , because you will always get the entire list, 
+   but how the heck do i test my method which for example changes the appearance of a specific layout item ? 
+  espresso is the tool for that . 
+  you call a certain method on your activity and check if the views that should be visible are visible and display data you want them to display, 
+   seems like a ton of hardcoding to me . 
+  that 's pretty much the nature of tests , is n't it ? 
+  everytime you change your business requirements , your tests will need to change to accomodate for them , otherwise they 're useless, 
+  for testing in general , you should go with some sort of architectural ui pattern , like mvp or mvvm . 
+  javadoc for documentation of functions is fine , but for larger apps , you should also write a specification on what your app is actually supposed to do ( joel spolsky has an awesome blogpost-series about writing technical documentation . 
+  you can find it [ here ] ( https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/ ) ), 
+  retrofit 2/gson, 
+  is there a way to write a `` generic '' typeconverter to retrieve the payload from an envelope ? 
+  there was the [ converter ] ( https://gist.github.com/tormundsmember/29ee84947c861e426607f65b3f8f7033 ) stuff for retrofit1 , but retrofit2 does n't seem to allow you to do that generically , only type-specific , which is not an option , when you have 70 + different response-bodies, 
+  an app where you could upload two images into the app , tap a button `` compare '' and it would upload the images to an api that compared the two and gave you a result in percent, 
+  afraid i ca n't provide a link to the repo ( company property ) , but the api i used was [ betaface ] ( https://www.betaface.com/wpa/ ), 
+  found it !, 
+  now charge it with a lance from horseback, 
+  maybe his name is tammy, 
+  jesus christ frank , you always do this, 
+  tito was a nickname , my dad told me that it came from his time in the military , but as far as i know , there 's no evidence to any theory behind it, 
+  i 'd much rather code in swift than java . 
+  thank jetbrains for kotlin, 
+  make sure to tour the apartment when people did not have the windows open the whole day . 
+  when i first toured my apartment , the couple before me were in the process of moving their shit out of it and had the windows open the entire time ( in febuary , mind you ), 
+  that way i had no idea that they were heavy smokers , who smoked inside the apartment and i had to fight with the landlord for a month to have the walls painted, 
+  also , make sure you have air exchange going when opening your windows . 
+  when i open my windows , my apartment only gets warmer , it 's still stuffy 8 hours later, 
+  i wonder if the author actually read the books , because i have # 3 and it 's not worth the money, 
+   what should i try next, 
+  posting to r/android , the subreddit you posted in is related to app development, 
+  it also sounds like a severe invasion of privacy , i wonder how they 'd get past that, 
+  javascript is just a standard that has not yet been answered with something better . 
+  just because everybody uses it does n't mean it 's good ( like american isps ), 
+  sorry for being so off-toppic , but am i the only one who 's tired of the same blogposts/articles ? 
+  most people are already familiar with rxjava , no need for a 1856th take on it, 
+  i used to use hungarian notation , but the ide shows me whether it 's an member variable or not anyway, 
+  maybe i 'm just a huge cynic , but for an opening episode i found it rather bland . 
+  the only scenes i genuinely liked were the scenes with sandor burying the folk who fed him and arya sitting with the lannister soldiers , but aside from that ? 
+  the scenes felt empty to me, 
+  i highly doubt it , i 've seen german reviews with english replies often enough on the playstore, 
+  okay , maybe not everyone , but do we really need 500 articles about the same damn topic ? 
+  i feel like at this point , people just create content for the sake of creating content , i 'd much prefer it , if it were less content , but higher quality ( like someone writing an in-depth article about conductor or a usable example of mvi or really any real-world example of certain coding-concepts like inheritance ( because you ai n't gon na have an app abouts animals making sounds ) ), 
+  the only time i check source control is to see what changed in a certain piece of code i 'm currently working with . 
+  so i probably know pretty well , what 's what in said class, 
+  in addition to that , i have only a few member variables who are mostly shared between classesof the same kind, 
+  you 're ** observing ** changes on ` schedulers.io ( ) ` , that 's why it all happened on the mainthread . 
+  if you want the work to happen on ` schedulers.io ( ) ` you need use ` subscribeon ( schedulers.io ( ) ) `, 
+  i personally only ever user ` schedulers.io ( ) ` and ` androidschedulers.mainthread ( ) ` ( http requests yo ) , so i actually inject them ( because i use them in multiple places ) , like [ so ] ( https://gist.github.com/tormundsmember/0268bfc57ea3de0ec74f1ec25e7e5c99 ),

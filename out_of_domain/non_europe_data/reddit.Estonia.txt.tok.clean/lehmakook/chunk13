@@ -1,0 +1,100 @@
+  if it 's a wifi-only tablet , or if you do n't care about using mobile internet , then you are all good . 
+  if the tablet has a 3g/4g mobile internet , then there are two potential issues :, 
+  * many cellphones and tablets are sold at a discount by a carrier , with a 1-3 year contract . 
+  during this time and perhaps even afterwards , the tablet is `` locked '' into the carrier 's network . 
+  if it 's locked to for example verizon , then you wo n't be able to use an estonian carrier 's sim card in there . 
+  * 4g networks have different frequencies around the world : http://en.wikipedia.org/wiki/list_of_lte_networks#europe check that the tablet supports the 4g frequencies in use in estonia before buying it . 
+  for example , some google tablets were sold with different mobile chips in the us and europe , making imports difficult . 
+  you should make an account at http://www.warlizardforum.com/ to finally end this . 
+  i would be interested in finding that out as well . 
+  i do n't think i 've ever met anyone who agrees with those commenters , but they must come from somewhere ? 
+  the id-card system is pretty poor for encryption . 
+  there are more popular open-source solutions out there ( gpg , etc ) that can be for backups , sending files , etc between people who might not all have id cards . 
+  the worst issue with encryption is that any time you get a new id card , the encryption keys are changed , leaving any old files undecryptable !, 
+  digital signatures can be useful , if you live in a country where the government officials or your business partners actually understand them . 
+  maybe , but unlikely . 
+  the single most useful purpose of being an e-resident is being able to register a company in estonia over the internet , get a bank account for it , and manage its accounts & taxes it entirely over the internet . 
+  since estonian business taxes are pretty low and paperwork is pretty quick and easy compared to most of the eu , this can be beneficial for small business owners . 
+  this is more of a marketing than technical question . 
+  do you think you would benefit more from having many apps searchable with the team name in google play ? 
+  or from sharing a single brand name and your own icon ? 
+  overall i would say that a single app is feels more right . 
+  app families with an app for each city , wikipedia page , book , etc tend to be much lower quality , designed to just spam the play store with hope that one of them is downloaded ... 
+  but for sports teams , it seems unlikely that the users would care about many at the same time . 
+  separate apps would also allow you to investigate interesting sales opportunities : get in touch with the current and new teams , and offer to `` make '' them an app for a big up-front payment . 
+  for this , all of them are going to want their own app instead of a page in someone else 's app . 
+  if you do decide to go with separate apps , have a look at http://developer.android.com/sdk/installing/studio-build.html#workbuildvariants, 
+  you can use this to describe the different app flavours in build.gradle , and android studio will make you multiple apks from one codebase without editing any files every time . 
+  he still has obligation to pay in the us . 
+  if he ever gets income or assets in the us , these could be seized . 
+  if not , then it depends on how willing the mother is to go through the considerable effort in getting the judgement recognized and enforced by a foreign court , or sue to get child support according to the rules of that foreign country . 
+  just as an aside , / r/legaladvice is for asking how the law * currently * works . 
+  if you do n't like the answers , then debates on how the law * should * work in your opinion are best handled in / r/politics . 
+  it depends . 
+  even if all the code and art is licensed under the gpl , they may own separate trademark rights to the * name * of the game . 
+  most forks of gpl software change the name to avoid any confusion to users and/or legal issues . 
+   the gnu gpl license is a license for free distribution . 
+  it does n't mean that you can distribute the game for a profit . 
+  sorry , that 's entirely incorrect . 
+  gpl allows charging anything you want for distributing software , * but you have to pass the gpl rights along to anyone who receives the software from you * . 
+  this means that you can sell someone else 's app - but anyone who buys it from you can also re-sell or distribute it for free themselves , so it 's rather pointless to try to charge money for it . 
+   just like mapping a million human genomes would be extremely expensive 15 years ago , but now it costs 1000 dollars per genome and a million of them will be mapped with private capital over the next few years . 
+  it did n't get cheaper just because time passed . 
+  it got cheaper because researchers were willing to pay for even the initial expensive methods , and there was a competitive market for ever improving genome sequencing equipment and tools . 
+  if everyone had just waited until now , then it would still be expensive today , and it would still take another 15 years to get cheaper . 
+  various technological advances in other fields over the last 50 years have already made rocketry cheaper , and various advances can do it in the future . 
+  but in the end , someone needs to spend money on designing and building new , better rockets to make significant changes happen in rocketry . 
+  this is the case for * orbital * motion though . 
+  but there is no need to ever go as fast as the escape velocity from the surface of a body to escape that body , * if you can continue applying enough thrust downwards * . 
+  a rocket that puts out 1g of thrust can hover on earth , with no orbital movement at all . 
+  a rocket that puts out slightly more than 1g at start can lift off from earth at walking speed , continue moving directly away from earth at walking speed , and eventually escape earth 's gravity at walking speed . 
+  it just wastes a lot of fuel . 
+  but it seems from the physicists ' answers here that black holes are different from other bodies due to general relativity , and the same approach is n't possible there . 
+  surprisingly , the rocket would not to be * that * huge . 
+  i did some calculations of ship ( passengers , capsule engines , empty tanks , etc ) to fuel mass required for reaching low orbit from different bodies based on the delta-v numbers given online :, 
+  * from the moon : 1 unit of fuel for 1 unit of empty ship mass ,, 
+  * mars : 3-4 units of fuel, 
+  * earth : 20-30 units of fuel . 
+  so a rocket that can take people off mars would be somewhere closer to the moon lander or a second stage of usual rockets , not the size of a rocket at launch on earth . 
+  but * landing * anything this big on mars safely and without breaking anything would still be a huge challenge . 
+  mars does n't have enough atmosphere for slowing down much with parachutes - but still enough to require everything to be behind a heat shield . 
+  if you use rockets to slow down , then the fuel-before-landing to empty-ship-after-takeoff ratio gets closer to 7-10x . 
+  that 's already looking like a massive rocket that you have to get to mars orbit first . 
+  i switched to intellij + android plugin about 2 years ago , before android studio even existed , so i 'm not so sure about comparing it to `` modern eclipse '' . 
+  but in my opinion , there are n't any amazing additional features . 
+  everything just feels 20 % faster , more responsive and more polished . 
+  the things i remember from the first impressions with intellij were :, 
+  * code completion felt less laggy . 
+  * navigation in code is better . 
+  there are keyboard shortcuts to start typing a file/class/method name , autocomplete , and jump to it anywhere in the project . 
+  * setting up the android sdk and plugin was way easier than adt , even before android studio existed . 
+  * about every 6 months , eclipse decided to corrupt my workspace , and i had to wipe it and re-configure everything from scratch . 
+  has n't happened with intellij yet . 
+  * the android ui editor seemed better . 
+  edit the xml and see a live preview . 
+  the graphical editor also seemed to generate more reasonable layouts . 
+  overall , it 's still about * polish * : intellij seems to run faster and lag less than eclipse , and there are just these tiny usability improvements everywhere . 
+  i 'm still not completely convinced . 
+  if looking up records by weekday is a common query , then you 'd want to create a functional index on `` weekday ( create_date ) '' . 
+  after that , a query by any weekday is just an index scan . 
+  for `` data on last business day of previous month '' , you could just compute the date for that day , and then insert the literal value into the query . 
+  overall , it feels like the query optimizer * ought to be * clever enough to see that if your table 's range of possible date values is small , then it would precompute the interesting values , and then look them up from an index on the date field - as this video suggests doing manually . 
+  but i suppose that cleverness might be too much to ask for . 
+  and having the date table might let you keep all the `` business day / business quarter / etc '' calculations in one part of the codebase which writes cached results to the date table , and then keep all other queries simple . 
+  it also seems to me that when backing up claims , people seem to take random comments elon has made in interviews far too seriously . 
+  i would not consider elon 's casual comments as an acceptable source of what 's happeing in the future ^ tm , unless he makes it clear that they have done serious simulations or prototype testing already . 
+  it 's not like elon has a complete secret plan , and is teasing us mere mortals by revealing small bits of that plan at a time . 
+  it 's more likely that many of the numbers and details he gives out is just an abstract vision or something he discussed with his engineers over lunch . 
+  the designs will change way too much during actual engineering work and testing to make speculations from these comments nearly meaningless . 
+   this is incorrect despite the upvotes . 
+  a b-tree index that simply splits a sufficiently large set of data into 7 parts most likely will never be used by the optimizer and will be a waste of space . 
+  hm , good point . 
+  but does n't that then mean that the join with the dates table also wo n't use an index on the foreign key ? 
+   the indexes are not free , the variety of access/grouping is great and in a generic case the date table ( or dimension ) is the right answer . 
+  besides , the very same indexes ( bitmap or btree ) could ( and should ) be built on the date dimension . 
+  sure . 
+  but in one case you need an index on a foreign key to the dates table ( or do a full scan ) , in the other case you need an index on the date column itself ( or do a full scan ) . 
+  and most likely the primary key of the dates table would be * the date * , which means that the data table already has an indexed column of `` date '' type . 
+  my main point is sort of philosophical : it feels a bit wrong to * write the date table to disk * , or have it actually represented as a table . 
+  if it works well as an actual concrete table , then in theory it should work just as well with the list of interesting date values generated on the fly - either in app code or by the query engine itself ( if it 's clever enough ) . 
+  but i agree that the query engine would most likely not be clever enough , and it might be convenient to move the `` business rules '' about dates somewhere other than the code that 's doing the queries .

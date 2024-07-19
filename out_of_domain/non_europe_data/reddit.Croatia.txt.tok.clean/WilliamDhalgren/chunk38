@@ -1,0 +1,100 @@
+  the latter , again , seems fairly easy for the legal system to handle . 
+  exactly .2 ? 
+  say its .15 and your ohm meter is just misreading it , then you 've got no safety margin vs the ostensible 30a rating . 
+  if its exactly .2 , you 've got it , in comparison to the declared rating , and you 're ostensibly fine . 
+  worry if the body of the mod is getting substantially hot . 
+  not from the atty down , but from the body ; battery . 
+  at around 30a continuous , which is what .15 is almost taking at the beginning of its drain , that cell would get as hot as 100deg celsius ( that 's what vtc4 had , they did n't even put out the 30a curve for vtc5 in the spec , but other curves seem very close ) - not even that is thermal runaway danger , but damaging nevertheless as the operating temperature range is to only 60 . 
+  voltage should drop by that time and be giving only about 20a by the time it crosses that mark , so it should n't go quite that hot actually . 
+  at 20a continuous discharge , it gets to 80 deg celsius in the second half or last third of its capacity ( this is discharging all the way to the 2.5 v cutoff ) , delivering full capacity so i 'd say this is the sane maximum . 
+  which is just around .2 before voltage drop . 
+  say 17 after . 
+  so let 's say autofire you never catch would take you to 80-90 deg celsius if the actual resistance is .15 , or 70ish celsius if its exactly .2 , pulling 28a at start , and 22 by the end in the first case , or 21a at start , and 17 by the end in the latter . 
+  and neither should cause too much sagging either . 
+  so , juust about ok , but i would n't go even a notch lower if i were you . 
+  and would feel much better about say .3 and you really really really should be calculating and checking and considering this kind of stuff for yourself easily if you are playing with low subohms . 
+  no way ? 
+  its not as big a risk as cobalt ones , and just venting and leaking is the more likely failure mode , but catastrophic thermal runaway is still far from impossible for an imr cell . 
+  so you ca n't really say this with any confidence . 
+  unless you keep well below the continuous discharge rate - and confirm you 're really looking at the continuous discharge rate since some are advertised for their `` max '' discharge , which could be burst - ideally looking for an independent test showing various curves demonstrating certain discharge is not taxing the battery in any way - then in case of autofire this is the scenario you 're risking . 
+  and be mindful of possible errors in any measurement you 're making , like on resistance , and use appropriate safety margins to compensate for the worst case . 
+   and even the sony 26650 has a 50 amp max . 
+  there 's a dangerous trend with the producers advertising max discharge , rather than continous discharge , with the former often being a burst rating - and people start thinking its their continuous rating . 
+  40 amp continous autofire could still detonate a sony 26650 , theoretically , since its only 26amp continuous . 
+  organizers of such events could mark places where you can quickly get some lipo bags ( or whatever would be necessary , i 'm just presuming these can handle the mech as well as the battery itself ) to contain the explosion and aftermath if something like this is about to happen . 
+  essentially . 
+  that is oversimplifying things , but surely the design space of how to put batteries in metal tubes is limited , and we 're collectively giving it an exhaustive search . 
+  ie small scale workshop-produced designer series ... what a luddite way for society to produce otherwise simple and mass producible battery containers . 
+  bah , if one wants to claim counterfeiting , pay up for protecting the design and lawsuits to enforce the protections . 
+  why should the community subsidize your overpriced business model by essentially doing this for you ? 
+  lawsuits , not petitions . 
+  ... that 's presuming you can give it enough time to sufficiently cool down . 
+  which usually is n't the case . 
+  the way ppl vape is closer to the continuous discharge usecase , than true burst , which would ideally give it some minutes between pulses . 
+  and you 're risking an autofire being more catastrophic than could be . 
+  even at 30a continuous discharge these reach problematic temperature by the end of capacity , if discharged from completely fresh all the way down , around 100 deg celsius , so one could argue they 're rather overstating their rating ( given the operating temperature of up to 60deg , and certain degradation starting around 80deg ) , and a more realistic one is around 20a . 
+  vtc5 spec does n't even show 30a discharge and temperature curves , while vtc4 one shows these slightly troubling results . 
+  ali imaju npr preferencijalne liste i potpuno proporcionalan parlament , ne koriste d'hondtovu metodu nego modificiranu sainte-lagu\u00eb metodu etc. 
+  super ; liberalna drzavica uspije progurati legalizaciju trave . 
+  i 'm not entirely sure about any wicking material - organic ones char , and should they be sterilized and is any way of them being bleached safe to vape . 
+  then there was some concern on whether maybe chromium oxides get created on ss wicks when oxidized and might leach into juice . 
+  what you said re silica . 
+  maybe ceramics ( or wickless obv ) is the safest then ? 
+  am on cotton currently , wonder if i should search for these . 
+  re other risks unrelated to wicks , also w/a possible acrolein production with esp high vg juices , and is this maybe how some formaldehides get found in the vape in some studies . 
+  if any vg is reaching its boiling point ( say thx to some fractional distillation ) , then it should be getting produced . 
+  there apparently is some deposit of whatever composition , buildup from vaping it . 
+  sucks cuz i ca n't comfortably vape more than say 50/50 pg . 
+  a little bit of water , and some pg to minimize the risk . 
+  but at least here , even if we 're getting some , must be much less than w cigs . 
+  another is possible lead leaching from any brass in an atty. 
+  i just avoid brass in attys for this reason . 
+  apparently the risk is much less from copper , though not quite eliminated - no reason to risk it beyond the contacts though . 
+  certainly would n't put either on a drip tip . 
+  speaking of metals , w/a kanthal itself ? 
+  could nichrome be safer , or worse , or is there any known concerns on either ? 
+  now i have no idea re how safe various flavors are . 
+  i just go by taste here , since finding this out seems hopeless . 
+  i do often vape just the flavorless base though , but often i crave for a few drops of flavor . 
+  i think this covers all non-battery related risks or potential risks i 'm aware of , beyond just the nic content itself , and possibly how to limit them . 
+  i would love to know if i missed some , and also arguments against some or all of these not being worth even such precautions as described . 
+   granted there are no controls and very little data collection . 
+  yeah , well that there kinda defeats the entire point you were trying to make . 
+  what worries me there is that most studies will be examining mass-produced items like cartomizers . 
+  things like different wicking materials or metals from atty caps , posts , drip tips are specific for the world of rebuildables or hobbyists generally . 
+  does n't seem like we 'll have hard facts on those soon . 
+  so , this would properly be called an emulsion , of the peg400 etc and wax , right ? 
+  damn proper data on this stuff is difficult to google , lots of personal stories , little lab specs . 
+  what i 'd like to do is a simple extraction in a suitable solvent - simply dissolve thc directly from plant matter in whatever is both vapeable and a decent enough solvent - apparently vg is not that - so pg , peg400 , if it need be cut w alcohol etc - do this w/o using a process that would cause too much smells - hopefully not too long heating of this mix is not excluded by this criteria since whatever the extraction process heat is likely to speed things up - strain the stuff out after not too long a time - days is ok , weeks or months not really , and then use a sufficiently powerful subohm or whatever build on an rba to get as high as i care to be . 
+  even if i need an aggressive cloudchaser build just to get as high as a week spliff is fine by me - my usual preference anyhow , and provided not much thc is wasted by the extraction since i 'm budget-constrained . 
+  but if i could go all the way up to a true psychodelic levels if i were to choose such a build , all the better . 
+  i 'll source plant matter much easier than oils , and doing an oil extraction myself , w/o wasting too much stuff is likely to be as inconspicuous as a meth lab . 
+  plus that 's two steps , first the extraction , then making it into an ejuice , each of which might be wasting thc . . 
+  for one i ca n't find proper data on the solubility of the thc in vg , pg , peg400 , ethanol . 
+  i 'd rather not buy a `` undeclared proprietary blend of peg this and that '' if the basic task can be done well by say peg400 or pg/peg400 or that plus some alcohol etc. 
+  i just want that level of control over this if possible , from kief to coil , and am likely to avoid some price markup this `` proprietary blend '' is adding . 
+  is this even in the realm of the possible ? 
+  is some less conspicuous extraction first ( say a tincture ? ), 
+  necessary after all ? 
+  or i really need to depend on proprietary blends and/or custom attys ? 
+  fair enough , but still w/o actually designing true long term longitudinal studies on ecig users - ie using proper controls and collecting the data - you barely learn anything just from the fact of how long and how many people are doing something . 
+  i 'm not getting the asparagus reference sry . 
+  google only gave me some work on phylogenetic of asparagales heavly citing an author with a similar surname ( dahlgren ) . 
+  username is a reference to samuel delaney 's controversial new wave sf novel . 
+  dhalgren being its title , and the name william dhalgren appearing in a certain significant list of names in it . 
+  or did i forget something about asparagus going on in that book ? 
+  hah , fuck , thx for the reminder !, 
+  exactly . 
+  hah , its artichokes actually !, 
+  google gave me a mention of asparagus fern on pg 151 ( these pg numbers seem off ) , thought that ca n't be it . 
+  but the thing is online , wee !, 
+  i 'll go check how it deals with the layout of last part :d, 
+  edit : meh , breaks it completely . 
+  i 've got his hogg waiting for a first complete read too , but that scatophilia grossed me out after all . 
+  and re spoiler - nah , nobody gets is , they 'll either think its just a normal name , or i 've got nothing to spoil . 
+  but practically nobody notices it , at least not enough to comment . 
+  interestingly , 't was a vaper the last time too . 
+  nah , only nova and dhalgren , and the story aye , and gomorrah . . in dangerous visions . 
+  nova 's the only one translated to ( serbo ) croatian before the collapse of yugoslavia , so that 's what i had in the library . 
+  dhalgren - that was something i just had to get and read . 
+  i 've got a huge backlog of other sf classics to work through too , :(,

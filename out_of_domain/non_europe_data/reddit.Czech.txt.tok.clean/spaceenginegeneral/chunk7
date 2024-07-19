@@ -1,0 +1,100 @@
+  why ? 
+  because you say so ? 
+  pay for convenience is the same thing as pay2win , especially in a game like this where time not spent picking up means more killed mobs , which means more money and better gear . 
+  comparing `` convenience '' in heavily instanced game like gw2 with equalized gear compared to open world pvp focused grinding game like bdo is completely missing the point . 
+  someone being able to buy items that save time ( like costumes with xp boosts or breeding resets ) and make your farming more efficient ( luck underwear or pets that massively increase your farming speed ) might be irrelevant in gw2 , but will make a huge difference in bdo that alone will make a huge power gap between a paying and non-paying player assuming they play the same amount of time , resulting in a pay2win game . 
+  unfortunately a lot of people do n't understand how non-instanced mmos work and that someone else paying for convenience directly affects everyone else on the server . 
+  convenience depends on context and i 'm not sure there 's a single item in bdo cash shop that 's `` truly looks '', 
+  depends on the game and on your graphical settings and resolution . 
+  if you want to measure it , pick a game and try changing your resolution , if there is little or none increase/decrease in performance you 're cpu bound, 
+  size/weight usually depending on your grip and what sensor it uses, 
+  there 's no reason to lower the refresh rate . 
+  only reason to cap the framerate would be if you feel the frame drops cause some kind of stuttering . 
+  stock cooler should always be good enough for stock speeds . 
+  if you 're overclocking , only reason to get aftermarket cooler would be to decrease noise, 
+  intel ca n't really prevent you from ocing the 6400 and you simply ca n't get same let alone better performance from even an unlocked i5 haswell . 
+  you can just uninstall or not install the update . 
+  if you ca n't do that , maybe the problem is n't having locked chip but having os you have no control over . 
+  vast majority of games prefer strong single threaded performance over hyperthreading/more cores . 
+  and intel ca n't just `` install microcode '' and brick your cpu ( or prevent overclocking in this case ) whenever it wants to . 
+  the microcode `` update '' has to either be applied via bios or loaded through os each time you boot into it ( in practice , windows simply wo n't boot if you oc ), 
+  so all you have to do is revert your overclock , boot into windows , delete the update that causes it and you can happily go back to your $ 180 6600 `` k '' . 
+  alternatively , you can scare people on reddit with false information so intel can happily keep selling 300mhz overclock for $ 50 . 
+  this issue is completely overblown . 
+  the only thing that really happened was windows update that will bsod your pc if it detects overclocked non-k chip . 
+  all you have to do is revert your oc , uninstall the update and you 're good to go really . 
+  in theory there should be bios update with the microcode , but the only manufacturer that actually put the `` updated '' bios out was asrock and from what i can see they most likely removed it after the backlash they got on a forum so you should n't even have to worry about having a wrong bios ( for reference microcode 0x74 fixes actual problems like the prime bug , microcode 0x76 removes oc ) . 
+  you need a z170 mobo to oc , from what i can tell you have h170 ( also the reason why your ram runs at 2133 , not the cpu ), 
+  i ca n't find anything about your psu and it does n't even seem to be 80 + so i would n't recommend pairing it with the card . 
+  otherwise good 650w psu is good for any single gpu system . 
+  edit : it 's `` just '' 80 + and gigabyte itselfs recommends it for `` advanced entry level user who focuses on office and home application '' . 
+  definitely not something with enough headroom for 390 . 
+  try f5c bios , i think yours is outdated . 
+  every skylake has max ram clock listed as 2133mhz , the actual limit is determined by your motherboard . 
+  the ram should run at 2133mhz by default , use xmp to set it to rated speed . 
+  try to use this as a step by step guide how to oc https://www.youtube.com/watch?v=o7aupyz2koa&amp;feature=youtu.be&amp;t=, 
+  try following https://www.youtube.com/watch?v=7cobaw_9u3a, 
+  do n't see why they would n't , source ? 
+  noticed in the thread that gigabyte made a tool for installation , not sure which mb you 're getting but perhaps other manufacturers have something similar as well . 
+  good to know , i switched to z170 without reinstalling win7 so i did n't encounter this issue, 
+  yeah ram is a component that will make your os unstable very quickly if it 's not set up correctly . 
+  that 's what xmp profiles are for - already tested settings that should guarantee stability and be safe to use , although unless you go overboard with voltage you should n't run into any long term issues just from bsods . 
+  update your bios to the latest version i do n't think you have one that supports bclk overclocking, 
+  this might warrant a specific thread . 
+  with this budget you might be able to do anything from a simple switch to unlocked haswell and motherboard while keeping your ram to getting something like 6500 with z170 board and 8gb ddr4 for slightly better overclocking potential and future upgrade paths . 
+  at least i hope so , not completely sure about na hw pricing . 
+  i think you should make new thread . 
+  to make it somewhat short , i do n't think now is the best time to buy a `` future-proof '' gpu considering pascal and polaris are coming out soon . 
+  i7 is not cost efficient over i5 but in games that utilize ht , it does help . 
+  and if you want to maximize fps over graphics , cpu is the most important component of your system , because you can always lower details or resolution to get more fps but besides oc , there is n't much you can do to overcome cpu bottleneck . 
+  oc 'd 6700k will give you the best single threaded performance right now while still having 4 cores + ht but if games will utilize more cores in the future , you 're probably better off getting the 6 core haswell refresh . 
+  tl ; dr with your budget , i7 is fine . 
+  i would wait for new gpus to come out . 
+  make a separate thread . 
+  well , technically you can overclock the 6500 to get better performance out of it . 
+  in general yes , although there are times when windows does have problems with it . 
+  you really just have to try it . 
+  what cpu do you have ? 
+  buying better memory ( timings and if your chipset supports higher frequency ) might give you better performance for not a lot more money . 
+  that said , if you really want to get the cheapest part available , then the brand probably does n't matter that much, 
+  not really , both will overclock to around 4.6-4 .7 on average and rest is silicon lottery . 
+  at same clocks , skylake will perform better . 
+  edit : i7 generations at 4.4 ghz https://www.youtube.com/watch?v=4sx1klgvaf0, 
+  and by `` all their weight '' you mean a windows update that will make 1 bsod before you promptly uninstall it never to be bothered by it again , right ? 
+  from what i 've read and seen the only chip intel is actually binning is the 6700k . 
+  so getting 6400 , 6500 and 6600k gives you the same odds for oc . 
+  this chart combined with plenty of reviewers hitting 4.4-4 .6 with everything from pentiums , i3 , 6400s to 6600ks and tons of topics about people not being able to get even 4.5 from their 6600k seems to be pretty convincing evidence that that 's the case . 
+  in fact i do n't think i 've seen any skylake not be able to hit at least 4.2-4 .3 so i do n't understand how can you claim it 's supposed to be an average . 
+  2666mhz should give you the best bang for you buck since i assume you 're buying a z170 motherboard to support it . 
+  and from my other responses you probably know i 'd recommend saving money by getting 6500 ( in fact i got 6400 myself ) and overclocking that over getting 6600k . 
+  keep in mind the `` oc ban '' already happened before with g3258 and people got around that in pretty much the same way . 
+  the 74/76 could just be how asrock calls it and it might be called differently on your motherboard ( i have the `` 0x74 '' and it says 6a in hwinfo on gigabyte ) . 
+  either way , you get it by updating your bios . 
+  from a quick search it seems to be pick 2 depending on what do you consider `` decently priced '', 
+  even if you apply bios that would prevent you from overclocking , you can just flash to an older version that allows it . 
+  overclocking 6400 to 4.5 will give you a whopping 67 % increase in power while saving ~ $ 70 by not getting 6600k ( which will give you about 28 % increase at 4.5 ) . 
+  i do n't think you can get this kind of value from any other chip on the market right now . 
+  so if you 're buying an i5 with the intention of overclocking it anyway and care about value , why would you not buy it ? 
+  of course , there are inconveniences like the windows update and locked multiplier and i think it 's for everyone to decide whether it 's worth getting less value and paying more for the 6600k and not having to deal with any this . 
+  that said there 's a lot of misinformation regarding the non-k oc in general and people are way more scared of it then they should be . 
+  as far as the i3 or even pentium oc goes , well , if you have the cooler , why not oc ? 
+  if you do n't have the cooler , then the question is whether it 's worth buying it over investing more money into cpu . 
+  either way , i think it makes skylake a lot better choice than haswell ( especially if you would have to buy ddr3 ram ) because even the 6400/6500 has potential to get faster than the 4690k while being considerably cheaper . 
+  yes i read it from the speccy screenshot . 
+  update to the latest version and report back, 
+  there 's really nothing to it and it 's basically about as difficult as removing something from a slot and putting something different in there instead . 
+  the only annoying thing about switching cpus is having to remove the cooler first but unless you have something huge like a noctua cooler it 's not a problem at all . 
+  120hz for sure, 
+  but i have 144hz monitor ( and previously overclocked 75hz monitor ) and 60hz for gaming is not something i want to ever go back to . 
+  i just ca n't see curved outweighing something as impactful as smoother motion during gaming . 
+  pretty sure the beta bios actually means working oc . 
+  grab the newest one, 
+  ram overclocking is basically the same as cpu overclocking . 
+  it has it 's own frequency multiplier and voltage you can increase . 
+  you can also `` overclock '' it by lowering timings which is a bit more involved although there are good articles about that as well . 
+  what chipset do you have ? 
+  seems that asrock has multiple extreme4 mbs for different chipsets . 
+  if it is ddr4 motherboard and not ddr3 then yes , it will support it . 
+  yes, 
+  something with llc/vdroop causing the cpu to undervolt when utilizing all cores perhaps ? 
+  edit : from http://www.overclock.net/t/1247413/ivy-bridge-overclocking-guide-with-ln2-guide-at-the-end max voltage is 1.52 v so if you really want to get 5ghz you still have some headroom .

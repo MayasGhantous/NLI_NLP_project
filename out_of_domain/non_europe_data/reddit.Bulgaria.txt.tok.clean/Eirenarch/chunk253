@@ -1,0 +1,100 @@
+  well ... how nice of a house ? 
+  i live in a cheap country but even those houses on the fine living channel rarely cost that much . 
+  well if the main hurdles towards adoption have been gone for 7 + years i 'd say it is only ms hate that is left . 
+  strange . 
+  sounds a lot . 
+  but i guess seoul is expensive . 
+  where is that ? 
+  do people who live in such areas move to cheaper ones or other countries . 
+  it seems like for that amount of money you can live elsewhere for the rest of your life without working . 
+  hmm then i guess i should start to use it more . 
+  so do you suggest that accounting and inventory will not pay salary ? 
+  or maybe you suggest that there were not million of devs employed doing asp.net ? 
+  in fact much more than the number of people employed doing ruby . 
+  btw you are right i think the real world is boring , 
+  ok i guess one of the most expensive regions in the world . 
+  on the other hand seoul is probably right there on the top too . 
+  i realize that . 
+  in fact i make similar life choices where i live ( i chose the smaller town just like you ) . 
+  i just did n't realize prices for property in sf or seoul were that high . 
+  when i asked about moving out i meant like retire . 
+  sell your house at 45 and go live somewhere quiet with that million for the rest of your life . 
+  that 's certainly not rational . 
+  if my product has the best chance to succeed with asp.net then it is not rational to choose something else because ms are extorting google . 
+  regardless of whether asp.net is open source the license under which you use it is clear . 
+  it is either good enough for your product or not . 
+  this is not the case with android where ms claims that their patents are used without a license . 
+  in a way you are better protected from ms if you use . net . 
+  they ca n't sue you they already sold you the right to use the tech . 
+  oracle 's reputation ? 
+  you must be new ... 
+  for the oracle haters downcoting this consider this : at the time google built android and decided that a java license was too expensive sun were in serious financial trouble . 
+  had google paid for their use of java sun would be better financially and would not end up a property of oracle . 
+  basically the fact that oracle owns java and mysql is all google 's fault for being too cheap , 
+  ok but still inferior to the experience of other stacks . 
+  i am not saying it is a deal breaker just that it is annoying . 
+  yeah ... also sun were n't much into charging . 
+  now observe how oracle charges , 
+  yeah , right ... a language without generics . 
+  if they use it for anything complex ( complex as in logic , not complex as in many requests ) they will fail . 
+  well ... it is wrong . 
+  craig wright has no private keys . 
+  at least not the satoshi ones . 
+  or flee out of core ... hey , we should promote the idea !, 
+  sure , but i would n't bet a penny that you have one . 
+  also have you promised to the world that you would show your dick ? 
+  it has if you are using ruby instead of proper statically typed language that can show you where you used a class . 
+  something something generics ... 
+  the real world works the other way around because of occam 's razor and shit . 
+  i do n't know but i am certainly not worried that he may show his dick anymore . 
+  i am not sure he is a male . 
+  also it is obvious than the metaphor does n't stand because half the population has dicks so there is 50 % chance that a random guy has one . 
+  not true for satoshi keys . 
+  male pronouns are the default when you do n't know the gender . 
+  at least they used to be . 
+  btw should i also assume he is satoshi because i ca n't prove he is n't ? 
+  now i need to know what they said . 
+  here is my plan :, 
+  - mc wins the gsl, 
+  - mc decides to unretire, 
+  i hope reality agrees with it . 
+  here - https://www.visualstudio.com/pricing/visual-studio-team-services-pricing-vs, 
+  free up to 5 users but still cheaper after that . 
+  you should check visual studio team services . 
+  if there is no sc2 scene in 2 years we will restore it just so mc can come back !, 
+  still his word order was grammatically wrong . 
+  say you want to write a filter method that takes a list of something and a predicate function and returns another list of something . 
+  the predicate function itself takes something of the same type as the list and returns boolean . 
+  in c # it would look like this, 
+  list < t  filter < t  ( list < t  source , func < t , bool  predicate ), 
+  lets say we have a list of employees and we want to filter the ones with salary less than 1000 . 
+  we call it like this, 
+  list < employee  highlypaidemployees = filter ( employees , e =  e.salary  1000 ) ;, 
+  note how the generic argument t ties everything together . 
+  no need for unsafe casts and you get compile time errors if you mess things up . 
+  also type inference ( i did n't say that e is of type employee but the compiler knows ), 
+  i am happy the practical hand won . 
+  well you say yourself that you have a runtime cast ( the . 
+  ( employee ) thing ) . 
+  it is a point where one can make an error that the compiler could catch had go supported generics . 
+  there are of course more elaborate examples than filter that will result in more possibilities for errors but even this one demonstrates the problem . 
+  you can pass a list of apples and provide a function that compares oranges and you will end up with runtime error . 
+  the lack of generics results in more errors and more boilerplate ( like your additional function because you would need one more cast of the result otherwise ) . 
+  there is literally no downside of having generics in a statically typed language . 
+  it has been tried and tested for decades and it works well in a lot of industrial languages . 
+  the only meaningful objection is that it makes compilation slower . 
+  everything else is bullshit . 
+  btw my main use of generics is to write methods that the junior devs are supposed to use . 
+  i am super happy that when they make a mistake they ca n't compile . 
+  of course i would like to have non-nullable types and the fact that in go you can pass nil is also bad . 
+  however unlike generics non-nullability is entering the mainstream languages just now so it is hard to blame them for that ... but generics ... 
+  i was just looking at that and thinking `` wtf ?!? '', 
+  that approach has one severe downside though . 
+  you need to write javascript . 
+  also there are certain things that still suck via ajax . 
+  for example sending a file and data together via ajax is still annoyingly complex . 
+  it is debatable how much the current platform could be advanced with backward compatibility but my guess is that when they started core they had a more optimistic release schedule in mind . 
+  to be honest it stands fine to compete with node.js . 
+  at least i wo n't meet people who claim i should infect my project with a node service for performance reasons . 
+  i am willing to bet less than a third of all c # programmers can use yield without looking it up or explain how it works without looking it up . 
+  it is a pain on the server too ( at least in webapi/mvc ) and it is hard to make it reusable because the whole point is to send the file and the other data together ( as opposed to uploading a file first and then sending the data ) .

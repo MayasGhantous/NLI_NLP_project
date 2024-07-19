@@ -1,0 +1,100 @@
+  i do n't know how you justified selling a 390 to get 980 with new generation coming out . 
+  i have a hard time thinking of something less cost efficient than sli 980 . you 're probably better off just getting a 390x or a fury instead . 
+  getting a cheap card and sticking with it until the next generation is probably the best idea in your situation . 
+  at this point ssds are superior in every way except price . 
+  deluxe has onboard wifi + bluetooth , better sound card , 2 m2 slots instead of 1 , more 3.1 usb ports and better power delivery ( only relevant for 24/7 max cpu overclock ) . 
+  the only standout feature of the deluxe seems to be the wifi + bluetooth and 6 usb 3.1 ports so unless you 're looking for exactly that , probably not worth it considering you can get other features for cheaper in other boards . 
+  ~ 25 % performance, 
+  you can oc locked chips on skylake with z170 . 
+  6600 is still poor value though, 
+  i would say they provide significant benefit anytime you 're hitting 75 + fps in anything . 
+  it does n't matter if it 's fast paced multiplayer game , every game is smoother . 
+  the only argument is that choppy gameplay ( which 60fps is when you 're not used to it ) actually harms you in competitive games whereas in singleplayer games you might want to choose higher resolution or graphics over it since you do n't need the responsiveness, 
+  120/144 is basically similar jump as from 30 to 60 . 
+  so play a game and lock fps to 30 and if you feel that increasing your fps to 60 is worth it , 144hz will be worth it for you . 
+  this is assuming you prefer fps over graphical fidelity and will lower your details to get at least 80-100fps as opposed to maxing at 60 . 
+  if you currently play games and put them on max settings despite getting only 30-40fps , get a 1440p monitor . 
+  explain why the comparison is n't valid . 
+  in both case you 're seeing the effect of doubling the framerate . 
+  `` each frame rate is different and needs to be seen individually . '', 
+  obviously this is just an assumption from my side but it really sounds like something you would say when you have n't used a 144hz monitor . 
+  from my experience ( and i 've read this multiple times from other people ) , you can absolutely make the comparison and going back to 60fps is comparable to going from 60 to 30 . 
+  you do n't need to reach constant 144hz to enjoy the benefit of higher refresh rate though . 
+  even 80fps on a 144hz is amazing compared to 60fps monitor . 
+  problem with your reasoning is taking the `` worst case '' scenario ( extremely demanding game maxed out ) and using it as average scenario . 
+  even in witcher 3 , bumping few settings down will give you those 20fps easily and it probably wo n't even impact the graphics that much . 
+  most games will run at far greater framerates even maxed out . 
+  the 144hz monitor will also last him a lot longer than the 970 , taking that for current benchmarks is also kind of short-sighted . 
+  you were looking at vid probably which does n't show correct values with manual voltages . 
+  not sure about hwmonitor but hwmonitor shows both show you might want to use that ( it also shows max voltage so you can see actual spikes over time ), 
+  also you can oc it with z170 board unlike haswell, 
+  again , i assume that 's vid , not vcore , so you 're reading a different thing completely . 
+  it 's probably switched then . 
+  you can try hwinfo which should label it better but either way , it 's not an issue with voltage , just sensors . 
+  you should get a 390 instead \u2122, 
+  prime95 generates even more heat then you 'd have on 100 % cpu load . 
+  if you want to have more realistic test temp wise , switch , or just keep monitoring when you play something cpu heavy . 
+  1.26 v sounds correct . 
+  gigabyte llc aims for a bit lower vcore then you set in bios so if you set 1.33 you should be getting around 1.32-1 .33 during load . 
+  any reason for not just getting a 512gb 950 pro instead of 2 ssds ? 
+  i 'm last person to recommend buying hdd to anyone but if you really need those extra 200mbs you can still buy like a tb hdd and it will cost about the same . 
+  edit : the mobo will have some preset and do it itself but you can adjust it yourself in bios . 
+  there probably is n't one that is cost efficient . 
+  you 're better off just switching to newer architecture, 
+  eventually you should reapply it obviously but monitor your temps and if they 're fine , then you have nothing to worry about . 
+  i recall manual specifically saying to not turn them around . 
+  i cant tell you if you blow your gpu/mobo if you do it or nothing will happen but i assume they have a reason for it . 
+  that 's a common misconception . 
+  in general , ssds increase performance in games that load a lot of stuff from harddisk when playing . 
+  so while in something like dota or cs : go it wo n't make a difference aside from faster loading times , [ in other games it can have the biggest performance impact compared to upgrading anything else in your system ] ( https://www.youtube.com/watch?v=vd6kljhhr_o ), 
+  market probably adjusted the prices a bit so they are closer than they should be but it 's really pretty clear cut feature-wise . 
+  compared to the z170-a , pro gaming has better sound card and more usb ports . 
+  hd3p is basically the lowest-end z170 board from gigabyte and is worse than the a. it 's basically like tier or half a tier lower than the a and it is n't really even fair to compare them since they should n't compete against each other . 
+  are you planning to upgrade gpu or oc ? 
+  gaming-wise ? 
+  expect smaller differences for i7 and bigger for i3/pentium . 
+  also this is small sample of games where like half are not even cpu bound , [ in something like arma 3 the differences can be as big as 15 % ] ( http://i3.photobucket.com/albums/y83/dasa09/armaaltisramtimmings_zps3d224f9f.png ), 
+  edit : also in some outliers like ryse there 's a whopping 50 % fps increase when using higher ram frequency . 
+  ram speed definitely matters but the sweet spot price/perm seems to be 2666 . 
+  if you get a good quality 550-650w psu ( like 80 + gold evga or seasonic ) it should easily handle whatever card you buy now and you wo n't have to buy a new psu if you ever decide to buy a new cpu and overclock it . 
+  wait for polaris . 
+  any card should fit but check if your psu is good enough to upgrade gpu . 
+  if you want it completed around fall , simply wait for pascal and polaris benchmarks really . 
+  it 's simply too early to make judgements how the new gen turns out, 
+  while true , the low/mid range should benefit the most from the new generation and at least from my experience anyway , if you 're already using udnerpowered cards for so long , waiting a bit longer should n't be that big of an issue . 
+  yes . 
+  also the 3dmark benchmark is something , but far from being a good indicator of real world performance . 
+  wait for unigine heaven and gaming benchmarks for that . 
+  you can try lowering the resolution slightly to see if you 're really gpu bound ( if you do n't get any kind of fps gain , you 're actually cpu bound and overclocking should solve it ) . 
+  but other than that yeah , 970 is n't ideal for 1440p . 
+  what kind of games do you play ? 
+  in general sli 970 seems like a bad value either way while overclocked cpu will basically always be useful so i 'd go for that . 
+  for high framerate cpu is more important than gpu . 
+  planetside makes the answer extremely simple - get a better cpu and oc . 
+  well , i wanted to elaborate but your edit allows me to say you 're simply wrong . 
+  so let 's say i have decent gpu and decent cpu and have 60fps in game . 
+  but i want to have 120fps . 
+  option 1 , buy a better gpu : i achieved 90fps and now i 'm cpu bound until i upgrade my cpu as well, 
+  option 2 , buy a better cpu and oc : i still have 60fps on ultra , however i 'll bump settings down to medium and voila - 120fps . 
+  get a z170 motherboard to have the possibility to oc in future if you want future proof . 
+  i5-6600 is very poor value compared to 6500 . as i already mentioned , invest the money into z170 board instead . 
+  it will also allow you to get slightly more clocked ram like 2666 which again , gives you a bit more juice in the long run, 
+  if you want to improve frames in arma 3 , you should upgrade your cpu and ram frequency since it 's extremely cpu heavy . 
+  any reason for fx8320 ? 
+  overclocking i3-6100 will give you considerable better performance in games and even with z170 board the price should end up rather similar . 
+  if you overclock it should be borderline passable . 
+  couple more years is probably optimistic ( depending on your framerate expectations ) but cpu cooler is a good investment in general . 
+  i found gta5 on that site and the supposed `` cpu benchmark '' was run at 1600p . 
+  anyway , from my googling , 4670 should have similar performance to stock 6500 and [ here 's a great comparison of 6500 overclocking and it 's impact ] ( https://www.youtube.com/watch?v=er_fuz54u0y ) . 
+  only about half of the tested games are still gpu bound with a titan x on max settings . 
+  the issue with most benchmarks is that they encompass relatively small amount of gpu heavy games ( aaa shooters basically ) where cpu matters from basically not at all ( tomb raider , star wars ) to on par with cpu ( gta 5 , fallout 4 ) and people assume that applies to everything . 
+  do you ever play strategy games ? 
+  cpu bound on low end card . 
+  mmos ? 
+  cpu bound on midrange card . 
+  but back to my original point , cpu is more important because if you 're gpu bound , all you have to do to increase framerate is decrease graphical settings and/or resolution and you get fps increase . 
+  if you 're cpu bound , there 's little you can do to increase your fps besides buying a new one or overclocking . 
+  not until zen . 
+  you could also look at ocing a 6400 which would be quite significant improvement ( but a bit more expensive than just a 6500 ), 
+  nobody expects to to completely destroy skylake , it might give you a better deal for more cores , but for gaming , that 's kind of irrelevant since you want the best single threading performance you can get . 
+  as for kaby lake , there 's basically no info so far but i would n't bet on being able to overclock locked chips like you can on skylake so there 's simply no way you 'll be able to beat a 6400/6500 value wise .

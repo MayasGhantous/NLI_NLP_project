@@ -1,0 +1,100 @@
+  third , and most important , it is entirely possible that it was rebels who shot down mh17 . 
+  what bugs me is that media immediately jumped to conclusions and accusations without any facts , just because some guy saw a plane going down , assumed it was another ukrainian transport and posted some bullshit in social media . 
+  and no , we do n't have nearly enough evidence to be sure what happened , not beyond any reasonable doubt . 
+   my criticism of rt stands . 
+  criticism ? 
+  we know that russian government funds rt. 
+  you have also stated that it also completely controls what rt says , providing no proof for that . 
+  that 's not criticism . 
+  9 bits actually , you forgot to divide last 1 ( results in zero and 1 as remainder ) . 
+  do you know the algorithm for converting from decimal to binary ? 
+  you divide number by 2 and write down remainder , like that :, 
+  next bit = 10 % 2 = 0, 
+  n = n / 2 = 5, 
+  next bit = 5 % 2 = 1, 
+  n = n / 2 = 2, 
+  next bit = 2 % 2 = 0, 
+  and so on . 
+  bits are stored from right to left , so 10 becomes 1010 . 
+  programmatically it would be something like that ( in c-like pseudocode ) :, 
+  int n , b ; string result = '' '' ;, 
+  enter n and b ; ( the number and the max . 
+  number of bits ), 
+  ( note : 1 < < b is c/c + + trick for finding out 2 power b ), 
+  if n  = ( 1 < < b ) then say that the number is too big ;, 
+  else while n  0 {, 
+  if n % 2 = = 0 then result = `` 0 '' + result, 
+  else result = `` 1 '' + result ;, 
+  n = n / 2 ;, 
+  or alternatively , using another algorithm with substractions ( like in your program ) :, 
+  int n , b ;, 
+  enter n and b ;, 
+  if n  = ( 1 < < b ) then say that the number is too big ;, 
+  else {, 
+  / / we 're going to represent n as sum of powers of 2 ,, 
+  / / starting with biggest power that is still lesser than n. 
+  / / b is number of bits , but bits themselves are numbered zero-base, 
+  / / so we decrease b by 1, 
+  while n  0 {, 
+  while n < ( 1 < < b ) {, 
+  b = b - 1 ;, 
+  / / we found a bit which value fits in n. print 1 , decrease n by 2 ^ b, 
+  / / and repeat . 
+  n = n - ( 1 < < b ) ;, 
+   go ahead and try to find rt being critical of putin . 
+  having one topic that is off-limits and being completely and thoroughly controlled by government are two completely different things , you know . 
+   reporters have criticized rt after leaving there . 
+  yes , one of them infiltrated rt with the sole reason to make some drama of it , and other complained that she was prohibited to report `` truth '' about allegedly russian missile that shot down mh-17 like some western media did ( and , by the way , serious western media restrained themselves from throwing baseless accusations ) . 
+   i mean reporters who saw it with their own eyes . 
+  please do cite . 
+   all of a sudden militia is more professional ? 
+  why `` all of a sudden '' ? 
+  ukrainian army is well-known for being completely corrupt , it 's not hard at all to be more professional than that . 
+   russia has been involved in far more airliners being shot down with their help . 
+  that does n't matters . 
+  russia did not had sam systems deployed in the region , ukraine did . 
+  nope , that 's not about russian vs english textbooks . 
+  there are russian textbooks that use non-russian fairytale characters , apparently it is not patriotic enough . 
+  ( please note that i did n't check that story , it 's just how i understood it . 
+  none of my colleagues had such complaints , although i teach in senior grades and know little about books for kids . ), 
+  as i said , i do n't know . 
+  i 'll ask around if you 're interested . 
+  `` the crash site of malaysia airlines flight 17 , which went down yesterday afternoon after being shot with a missile , is now being looted . '' `` being looted '' is a link , let 's follow it . 
+  a bunch of usual accusations with another link : `` officials have no idea how many items have been mercilessly stolen , but the raids could interfere with the investigation into the airline disaster , usa today reported . '' ok , let 's see what did usa today reported . 
+  sensationalist title : `` looting at jet crash scene may hamper investigation '' . 
+  note the keyword `` may '' . 
+  moving to the actual article ... `` a beige wallet lay next to it , open , near credit cards and photographs carefully lined up next to each other '' . 
+  does n't looks like ` looting ' to me by description , like , at all . 
+  `` the scene was replicated across the field -- camera holders missing cameras , wallets missing cash , cosmetics and other items scattered in random patterns after a jet disintegrated and fell from the sky . '' so cameras were apparently collected by somebody , it is assumed to be looting . 
+  wallets missing cash ? 
+  i 'm sorry , this journalist inspected personal belongings ? 
+  doubt so . 
+  cosmetics and other items scattered after plane crash ? 
+  is that something unnatural ? 
+  `` in some areas of this field , near the small town of grabovo in a remote eastern ukrainian farming region close to the russian border , backpacks and other carry-on luggage were grouped together . 
+  it was clear that looters had opened and rifled through some of them . '' yeah , of course it was looters , not rebels ordered by their commanders to gather anything that can theoretically contain valuable information . 
+  also notice that nowhere was documented any case of actual looting in process . 
+  well , let 's now return to the original article . 
+  next interesting phrase : `` there is n't a single cellphone , wallet with money or camera to be found in any handbag or on the bodies . 
+  it 's like they all mysteriously disappeared overnight . '' why is it insteresting ? 
+  please explain how that would be possible if the site was looted ? 
+  or may be , just may be there was `` not a single cellphone or camera '' because they were collected in single place so it would be easier to analyze them for information and return them to relatives ? 
+  ( and as for wallets without cash , journos going through personal belongings again ? ), 
+  so no , i do n't buy in looting unless there is a single case of said looting documented in process , or at least people in posession of things that clearly belong to the victims of that catastrophe . 
+  i believe in innocent until proven guilty , not other way around . 
+   rt is caught completely creating news using actors as witnesses . 
+  [ nobody 's perfect . 
+  ] ( http://www.intellihub.com/cnn-caught-staging-news-segments-on-syria-with-actors/ ) by the way , i found this link while googling for ` rt caught using actors ' . 
+  i never found anything on rt , so a link would be appreciated . 
+   they continue to push any bullshit they can to distract the reality of web web is happening inside of ukraine, 
+  i 'm not an rt fan ( or any other news channel fan for that matter ) , so i tried and looked through rt article tagged ` ukraine ' . 
+  may be my definition of bullshit is different from yours , so a link or two would be appreciated . 
+   especially with the fighter jet shooting down mh17 nonsense . 
+  [ `` the chief investigator with the dutch national prosecutors ' office fred westerbeke said in an interview with the german magazine der spiegel published on monday that his team is open to the theory that another plane shot down the malaysian airliner . '' ] ( http://rt.com/news/199891-dutch-investigation-mh17-crash/ ), 
+   http://www.dailymail.co.uk/news/article-2574131/how-russian-television-used-actress-pretend-five-different-people-opposed-revolution-reported-normal-ukrainians-backed-kremlin.html, 
+  are you aware that this is not about rt ? 
+  i 'm not even going to discuss that all those women look somewhat similar at best ( especially last one ) . 
+  even it 's the same woman , it is about different tv channels , at least one of those is kind of shitty ( lifenews ) and , most important , none of those is rt ( at least if i 'm not mistaken ) . 
+   yes i understand that the dutch investigator that . 
+  he was being diplomatic . 
+  everyone knows it was a ground missile .

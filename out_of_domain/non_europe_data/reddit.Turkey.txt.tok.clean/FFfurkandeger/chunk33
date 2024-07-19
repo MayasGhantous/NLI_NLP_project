@@ -1,0 +1,100 @@
+  it 's a religious text either way . 
+  he is identified as mevlut mert alt\u0131nta\u015f . 
+  he was a member of turkish riot police of ankara . 
+  22 years old , born in s\u00f6ke , ayd\u0131n , turkey . 
+  the exact word is not belediye , but belde , which means ( small ) town . 
+  that 's what erdo\u011fan wants you to believe . 
+  they are all jealous etc. 
+  there is nothing in turkey to be jealous of . 
+  source : i 'm turkish . 
+  you can additionally buy virtualhere , which is supported by link , to be able to use xbox one controller wirelessly even though it is connected to link . 
+  steam link supports 360 wireless dongle , however it does n't support the xbox one controller wireless dongle because microsoft wants to make it exclusive for windows 10 . 
+  also , for virtualhere , you have to buy it from steam to install it on your host pc . 
+  virtualhere support is there for the steam link ( therefore the virtualhere menu ) , but to use it you have to have a server on the pc as well . 
+  the latest version of the xbox one controller ( xbox one s controller ) supports connection through bluetooth and therefore can connect to steam link directly via bluetooth without the need of a wireless dongle etc. 
+  and to be fair xbox one controller has a couple of superiorities over the 360 controller , which is also a great controller ( better than all other controllers in the market imho , except xbox one controller ), 
+  ok , i am gon na be the one to ask the question : what is it and why is it good ? 
+  sorry if a dumb question but what is this and what is it good for ? 
+  link could definitely use some of these games and perhaps some apps as well . 
+  oh i know what vulkan is . 
+  what i did n't know about was asynchronous reprojection , 
+  fyi , fcs pack has a joystick , throttle and a pedal set ( thurstmaster tfrp flight rudder pedals to be exact ), 
+  well , i just bought the a10-c pack for dcs , so x52 and thrustmaster pedals seems to be the winner then , eh ? 
+  still wan na hear other opinions though . 
+  how different is the sensor ? 
+  i do n't know much about this whole hall effect sensor and potentiometer stuff so what are the differences ? 
+  as far as i know hall effect sensor is better but how is it implemented on these sticks ? 
+  i think at this point i want my setup to be more reliable for future use . 
+  i 've heard over time these sticks lose their capability due to wearing . 
+  which one is more prone to this ? 
+  could also be 768 mb ( gtx 460 had a 768 mb version ), 
+  if i move 50 km away from my city , the taste of baklava gets worse 300 % . 
+  the further you go , the worse it becomes . 
+  it is indeed traditional , but due to the nature of the dessert , it is so hard to make it properly . 
+  butthurt must be you in that case . 
+  for real and proper baklava , check : http://i.radikal.com.tr/150x113/2015/06/03/201506031402_kocak.jpg, 
+  ok i can get wanting to have small apps and screen record back , but asking 4k back seems a bit weird since it should n't be gone anywhere . 
+  nope , sorry . 
+  thank you for your insights . 
+  pretty sure the origins of baklava is officially registered to my city and protected by laws though . 
+  so , there is that ... 
+  it 's officially registered as antep baklava , antep being the city in question . 
+  service menu ( \\* # \\* # 7378423 # \\* # \\* )  service tests  security, 
+  the first three lines should give you ok and active and fido line should say provisioned . 
+  that means drm keys are not restored properly . 
+  how did you restore them exactly ? 
+  on what version did you try this on ? 
+  was it the one you got the backup from ? 
+  if not , try flashing that specific version and do lovyroot restore batch command file ( by either using it via command prompt or dragging your backup . ta img into the restore command ) . 
+  on some occasion , you may need a reboot . 
+  also note that even if you do restore , you need to flash stock from flashtool . 
+  although it may depend on your device , there must be two photos for comparison . 
+  when there are no drm keys active , there will only be one . 
+  on some phones the code is different . 
+  this should work on xperia z5 . 
+  it looks like it is the same code . 
+  you might wan na try again ( you might have typed in wrong etc. ), 
+  you lose patched kernel anyway . 
+  if you 're aiming to use a customised kernel/rom and have the drm features , restoring is not your way to go . 
+  for that , you have to use a patched kernel . 
+  you can also flash the devicekey.ftf file via flashtool as well . 
+  this is for unlocked bootloader . 
+  if you want to have your original keys and use a locked bootloader , it is not possible to have a patched/customised kernel . 
+  it has to be 100 % stock otherwise you will end up in a boot loop . 
+  this is because restore command also relocks the bootloader . 
+  if you just want to have drm features with an unlocked bootloader , forget what i said . 
+  since your kernel is patched , drm features will work whether your drm keys are loaded or not . 
+  afaik , you can still flash your devicekey.ftf you create via the tool with flashtool to let the patched kernel actually use your original keys rather than `` emulating '' them . 
+  this as far as i know does n't have any apparent advantage over emulating option but you can stop worrying about what works or not this way . 
+  at this point your drm features are active but there are no keys ( hence not provisioned ) . 
+  you should be good to go . 
+  ok here is how it works ; the kernel patcher patches the kernel so that it does n't use any drm keys , but emulates them so phone actually thinks there are valid keys while there are n't any , hence it allows you to use drm features without actual keys . 
+  but apparently if you emulate the keys instead of using your backup , some of the features like widevine ( honestly do n't know what it is ) do not work but you can still use other features like x-reality or camera noise filter . 
+  so , to use your backup you use this command to convert your img ta backup to a ftf file and flash them in flashtool :, 
+  this way the patched kernel will pick up your actual drm keys and use them instead of emulating the keys to enable all the features that require drm keys to be active . 
+  for what you want to achieve , you should get a ta backup , unlock bootloader , flash drm-patched kernel and flash your ta backup ftf file to get a phone with an unlocked bootloader and fully functional drm features . 
+  tarestore file included in iovyroot is only for relocking the phone to put it into its original condition . 
+  and , this code, 
+   rootkernel kernel.elf newkernel.elf ta-123456 . img, 
+  must not have done the trick . 
+  i do n't even know what this command would result into , but it does n't look fun . 
+  original version of this command ( rootkernel kernel.elf newkernel.img ) is for converting the kernel.elf file extracted from stock ftf file to an . img file , which is the patchable and flashable format for the tool . 
+  at this point , it looks like you have achieved what you were trying to , but that last command is probably not responsible of it . 
+  as a side note , please make sure your ta backup is backed up on several places . 
+  losing that file will permanently make you unable to revert back . 
+  you flash someone else 's backup , you will end up hard bricking your device . 
+  please make sure that last command you used did not create a new . img file of the kernel.elf with the same name of your ta backup , therefore overwriting your backup . 
+  this is crucial . 
+  hope everything turns out ok . 
+  fyi this headline is slightly misleading . 
+  the committee is not the parliament and that they approve it does n't mean the constitution has changed . 
+  they just approved changes in some of the draft articles , which will go to the parliament later for voting once the committee has done its job . 
+  the main opposition and hdp are strongly against this new constitution while akp and mhp are in favour of it . 
+  they need to as far as i know have at least 367 votes in the parliament to change the constitution but they can only surpass 330 , which again as far as i know the necessary amount of votes for a referendum . 
+  tl ; dr : they wo n't be able to approve the new constitution and we will go to a referendum , where the result is going to be no . 
+  well , true . 
+  i 'm just being optimistic . 
+  if we can not stop him now , there is no stopping him later . 
+  it 's not actually a suit , it 's an exoskeleton . 
+  that will and should be no different at sony or any other brand for that matter . 
+  keep in mind , while charging you do n't just charge your battery ; you also run your phone from that power source .

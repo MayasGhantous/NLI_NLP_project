@@ -1,0 +1,100 @@
+   online documentation , frequently updated ides , etc. 
+  you can get offline documentation too . 
+  also , if the ide works out of the box you do n't really need updates to work with it . 
+  how are you reading it ? 
+  most barcode scanners will already give you the right characters ... 
+  why not ? 
+   i ca n't see a use case for generating a new password on reboot . 
+  training his paranormal abilities ? 
+  you need to multiplex . 
+  show one digit for a short time in a sequence , over and over . 
+  if you do it fast enough , the eye can not see blinks , just a little dimmer digits . 
+  so , you are just getting a number for each character ? 
+  if the numbers are consecutive , you can set an array of characters ( preferably in flash memory ) and just index into it . 
+  you can look at [ this site ] ( https://www.arduino.cc/en/reference/progmem ) for reference . 
+  no , you need to display ` h ' for some 10 ms , then ` e ' , ` l' , ` p ' and back to ` h ' ... 
+  edit : i might have misunderstood ...  if you are already doing that but want the `` help '' itself to flash then , yes , you need to display it for , say , 1 s and then display nothing for another 1 s. 
+  you need to clear the ` p ' before the delay ... 
+  _ the moon is a harsh mistress _, 
+  you need to loop through displaying `` help '' for 1 s , and then clear it and wait another 1 s. 
+  so , he was slightly less socialist than strasser or roehm , big whoopie !, 
+  stalin also killed lots of the old commies and was regarded by some ( like trotski ) as a traitor to the movement . 
+  does n't mean he was a right-winger ... 
+   did the nazi 's hand over ownership of porsche and volkswagen , mercedez-benz , messerschmitt , ig farben , and siemens , etc. 
+  to the employees of these corporations ? 
+  the soviets did n't turn over their factories to the employees either !, 
+  proof positive lenin and stalin were right-wingers !, 
+  set up two functions show ( ) and hide ( ) . 
+  in show ( ) set up a timer for 1s and do your looping through letters with 5 ms delay , checking the timer . 
+  when the timer expires return . 
+  in hide ( ) just call delay for one s . in the loop call show ( ) and hide ( ) . 
+  just write them ... , 
+  bjarne 's book is not really good for a beginner ... 
+  i would recommend _ accelerated c++ _ by koenig and moo , it 's a little bit dated now but it teaches the `` correct '' way to do c++ and is much easier on a newb ... 
+   without ? 
+  that 's not entirely correct . 
+  it can run on internal oscillator ( 8 mhz top ) without any external components . 
+  although decoupling capacitor is recommended . 
+   worst case scenario , someone picks up your dna at a crime scene , runs it against a general database , and calls you to ask if you were at the scene of a particular crime during the window of opportunity . 
+  ... and you can not prove you were not there ... 
+  would [ this ] ( http://www.swarthmore.edu/natsci/echeeve1/ref/singlesupply/singlesupply.html ) help ? 
+  ss is active low , is n't it . 
+  that should 've not worked at all ... 
+  that 's weird . 
+  spi does the ss active low ... 
+  nah ... it 's just kinda universal stockholm syndrome . 
+  granted , if you call psychopaths evil , they are ending up in governments . 
+   once insurers became linked to employment ... that 's when the free market forces really started to falter . 
+  the government really is n't responsible for that move . 
+  you could n't be more wrong , 
+  [ the act authorized and directed the president to issue an order stabilizing prices , wages and salaries to the levels they had had as of september 15 , 1942 , and to issue additional regulations related to the act . 
+  ** the act excluded from stabilization `` insurance and pension benefits ** in a reasonable amount to be determined by the president '' . 
+  ] ( https://en.wikipedia.org/wiki/stabilization_act_of_1942 ) _ [ emphasis mine ] _, 
+  that 's why employers started to offer generous health insurance , since they could n't offer more money . 
+   instead what the studies show is that one person acts outside the normal behavior of everyone else . 
+  it 's not that everyone acts a certain way . 
+  if one person is being held by force by a small group then this one person likely will `` act outside the normal behavior . '', 
+  if it is a group of persons they likely will ( either all or the majority of them ) `` act outside the normal behavior . '', 
+  when the whole society is subjected to it , what is a control group and how do you establish `` the normal behavior ? '', 
+  i 'd say the fringe elements like us are the `` normal , '' the rest is suffering from a stockholm syndrome ... 
+   i 'm using a nodemcu board in place of a bare esp8266 module, 
+  does n't it already have the regulator ? 
+   yes it 's nice to say that we 're the normal ones and everyone else is delusional ,, 
+  oh , i 'm not saying that at all !, 
+  quite the contrary , we are the freaks , 
+  humans are basically herd animals and instinctively cling to the herd behavior . 
+  stockholm syndrome is just a manifestation of that - when held captive humans perceive their captors as the alphas . 
+  we , otoh , are freaks of nature with messed up instincts , 
+  unfortunately for humanity , the environment that promoted the herd behavior is no longer there for humans ( except , perhaps , some secluded tribes ) and the ancient instincts tend to work against the interest of the masses ... 
+  they are all bad for liberty ... trump has lots of entertainment value , though . 
+   however , the differences between java and c++ are not exactly enormous . 
+  except for the superficial similarity in syntax , they are two completely different languages . 
+  16mhz crystal is already a `` full swing , '' no need to change the fuse . 
+  the only problem will be with the baud rate or functions like delay_ms ... if programming in atmel studio , you need to #define f_cpu to the correct speed , not sure how involved it will be in arduino ide - perhaps a change to boards.txt ? 
+  ... or , just forget the bootloader altogether ... 
+  if you know how to burn in a bootloader , you can just burn in your firmware . 
+   is there a boards.txt per ide version, 
+  i 'm not sure , but that 's what would make most sense . 
+  ok , you are right . 
+   look into something such as an atmega1248p , which is a 40 pin dip with 124 kb of flash memory . 
+  ( my question here is , does an arduino bootloader exist for this chip so i could continue to program it with the arduino ide , or do i need to dive into atmel studio ? ), 
+  you can look into [ this ] ( https://github.com/maniacbug/mighty-1284p ) ... also , you can still do the isp programming with arduino ide - just select the programmer you are using ( do n't recall now where it is in the ide 's menus but it should n't be hard to find . ), 
+  how about using known value current sensing resistor ( ref ) in series with the tested one and current limiting one . 
+  take the voltage drop on the ref as a reference and measure the voltage drop on the tested one ? 
+  it might be a stupid idea  but i think it could work ... 
+  something like this :, 
+  enum inputcategory { normal , needs_attention , too_high , dangerous } ;, 
+  unsigned int sensordata ;, 
+  / / do whatever it takes to read your sensor, 
+  return sensordata < attnlevel ? 
+  normal :, 
+  sensordata < highlevel ? 
+  needs_attention :, 
+  sensordata < dangerlevel ? 
+  too_high :, 
+  dangerous ;, 
+  void loop ( ), 
+  switch ( readmysensor ( ) ), 
+  case normal :, 
+  flashledgreen ( ) ;, 
+  break ;,

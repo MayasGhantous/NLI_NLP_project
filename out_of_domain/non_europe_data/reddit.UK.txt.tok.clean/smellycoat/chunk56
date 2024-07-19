@@ -1,0 +1,100 @@
+  i 've saved loads of drives that windows just refused to read with the fuse ntfs read/write driver . 
+  works brilliantly . 
+  better , even , than the oldschool read-only ntfs driver . 
+  do n't fuck with it more than you need to , if the drive is a bit unhappy , then any attempt to do stuff with it will just make it worse ( particularly with windows , which has the tendency to grind away repeatedly if it ca n't read something . 
+  which means if the drive has some mechanical problem , or a head crash , it 's probably just scraping away at the platter ) . 
+  it 's also worth setting it up with a fan pointing at it . 
+  do n't know why , but fucked drives tend to get really hot when you 're trying to recover them , and if they get too hot it 's impossible to read anything from them ( and i guess it ca n't be good for them in general  ), 
+  okay , that 's it . 
+  someone take one for the team and attempt to bludgeon a pilot to death with a screaming baby . 
+  i remapped the sensitivity increase/decrease buttons to middle mouse and close window respectively ( and the thumb buttons to ctrl and shift ) . 
+  i find that * far * more useful than the defaults . 
+   jacket hoods are a no-no , as air funnels in as you move , inflating a hood like a sail . 
+  i recently started using my hood when it was cold out ( but not cold enough for a wooly hat ) . 
+  although , yes , there 's an element of `` inflating like a sail '' , it still works pretty well . 
+  the biggest advantage is it keeps the wind away from your ears , so you lose the constant `` whooosh '' of air past your head , which is much nicer . 
+  i suspect that could be done entirely client-side without adding any extra server overhead . 
+  the server has no more data than the client ( they both get the same voice data ) . 
+  just depends how cpu-heavy such a process is , and i 'd guess it would n't be too bad . 
+  not that i have any experience with that kind of thing . 
+  problem you 're going to have is it 'll prompt more people to shout random shit , and people turning up their mics to the point of distortion because it 'd look funny or something . 
+  ca n't see it being a good move , to be honest . 
+  i 'm surprised you 're having trouble . 
+  my current setup ( an older 3ghz core 2 duo , and a gtx 260 ) gets decent framerates ( like 50 + ) at 1680x1050 with 4xaa ( even with motion blur enabled ) . 
+  despite being a far crappier setup , 
+  in fact my previous 8800gts ( older 320mb model ) was fine as long as i kept it to 2xaa or no aa . 
+  as with any graphics issue , start with the basics . 
+  first switch off sli . 
+  it 's a nice idea , but driver/game support still is n't perfect even now . 
+  make sure your motherboard drivers are up to date , same for your graphics card drivers . 
+  try turning off multicore rendering ( i had trouble with it ) . 
+  if you still have trouble , then i 'd look at the hardware bit by bit . 
+  drastic as it sounds , if it was me , i 'd start from scratch . 
+  pull everything except 2gb ram , one gfx card and one system hdd . 
+  install a fresh os ( i 'd do it on a different drive just to see if it helped ) . 
+  put the newest drivers on ( never install from cds , always download the latest ) , and just chuck steam on there and nothing else . 
+  see what happens . 
+  tweak it until you 're happy . 
+  then start adding hardware bit by bit . 
+  i 've experienced this . 
+  not often , but often enough for me to go and research it a bit . 
+  it generally only happens when i 'm stoned ( and not only when i 'm falling asleep , although when it happens i 'm always tired ) , so it 's not all that much of a problem . 
+  it 's a strange sound ( although not really a sound , you can kinda tell it 's coming from inside your head ) . 
+  it 's . . kinda `` digital '' in nature , like a computer game explosion or something . 
+  they 're not always the same , but they always have the computer game/digital feel about them . 
+  yes !, 
+  `` 8 bit '' is an excellent description !, 
+  fuck , i thought it was just me !, 
+  motherboard drivers are pretty important to keep updated , particularly if the board is pretty old . 
+  not as important as the graphics card drivers , but still worth doing . 
+  odd combinations of motherboard and gfx drivers can cause random problems ( and performance issues ) , so i 'd get that done . 
+  the bios * can * make a difference , but because it is possible to fuck your shit up by getting it wrong , i would n't generally recommend updating them speculatively . 
+  unless there 's some compelling reason to do so ( it 's worth doing a bit of googling to see if other people have had problems with your bios version ) . 
+  to actually update it , well , that depends on the board and the bios that 's already there . 
+  some have a built-in flash program , some want you to flash using a dos program on a floppy . 
+  if you can avoid using a floppy , then do so . 
+  they 're extremely unreliable . 
+  it 's generally possible to set up a flash drive to do a bios flash , but it 's a tiny bit more involved . 
+  but anyway , do n't do that unless you can find a good reason to do so . 
+  as for doing a complete rebuild , well , if you have a spare hdd laying around , it 's not as much effort as it seems . 
+  take out your drives , unplug everything apart from the bare minimum , plug in a new drive , and install a new system onto that . 
+  that 's like an hour or so 's work , and will often answer a lot of questions . 
+  because you 're doing it on a different drive , you 're not losing anything . 
+  although that 's assuming you have a spare drive kicking around , 
+  it 's generally what i do when i 'm trying to work out odd problems like this . 
+  if you have the same performance problems with the fresh install , then you have nice clean slate to work on , and you can fiddle around with anything you like , without worrying about ruining your system . 
+  and if performance is better - it 's usually just a case of adding hardware/software until you work out what the culprit is . 
+  best 2009 movie i saw was state of play . 
+  was n't expecting to really watch it , i just threw it on late one night while i was coding , but got completely sucked in . 
+  could be many many things , and it 's probably impossible to guess what . 
+  first step is to identify whether it 's a software or hardware problem . 
+  if you have a spare hdd you could stick that in place of your system drive and install a new copy of xp on it and see if it still crashes . 
+  failing that , a linux live cd ( ubuntu is a good bet ) is worth trying . 
+  if it 's stable using a different os/install then chances are there 's some software/config problem ( which are hard to track down , try safe mode and look at all the startup stuff in msconfig ), 
+  if it still crashes with a different install , then unfortunately it 's a hardware issue . 
+  try stripping back to the bare essentials . 
+  just a system drive , cpu , ram , and a gfx card ( unless the motherboard has on-board graphics ) . 
+  disconnect everything else ( including all your usb stuff - try a different mouse/keyboard if you can ) . 
+  it 's also worth resetting the bios to defaults if you 've been fucking around with it . . 
+  edit : a quick thing to check is that all your cooling is working properly , as that can often cause problems like this . 
+  open the case and ( carefully ! ), 
+  stick a finger on all the heatsinks while it 's running ( or while switched off just after it 's crashed ) . 
+  make sure they 're all reasonably cool ( they should n't ever get too hot to touch , but if something 's not working properly they could be very hot - be careful !, 
+  if the cpu was knackered , it 's unlikely you 'd make it as far as booting windows . 
+  if you can keep your finger on the heatsink for a while , then it 's probably working well enough ( assuming it 's seated properly ) . 
+  might be worth taking it off and reseating it , if you have some thermal compound . 
+  but , sounds like it 's more likely to be a software problem , and trying a live cd will tell you if that 's the case or not . 
+  if that works , the next step is really an os reinstall . 
+  if you want to try to fix the existing installation , it 's likely doable , but probably neither quick nor easy . 
+  i strongly recommend reinstalling , as it 's generally where you end up anyway with problems like this , and saves a ton of trial and error . 
+  if you have ( or can get ) a second hdd , installing the system onto that is sensible , then you can connect up your old one and copy anything you want over . 
+  ok , good luck man . 
+  at least it 's not an expensive hardware problem , 
+  i continue to use , and recommend , html 4.01 strict . 
+  if you want to use something else , that 's cool , as long as you have a good reason to do so . 
+  if you 're generating output with xslt , then that 's a decent reason to use xhtml , and to be honest , wanting to play with html5 is a good enough reason to use html5 . 
+  if you have no special reason to use something else , then html 4.01 strict is a very good default choice . 
+  i 'm an old javascript hand , been working with it on and off since the ie4 days ( and right through the period when everyone was telling me how evil and nasty it was ) . 
+  so i do n't use frameworks all that much , having spent bloody years of trial and error developing techniques that makes stuff a bit less painful . 
+  that said , i do use frameworks in most of my new code ( mostly jquery these days , but i 've done projects with prototype , mootools and a bit of yui ) . 
+  even so , i do n't really use them `` to their full potential '' .

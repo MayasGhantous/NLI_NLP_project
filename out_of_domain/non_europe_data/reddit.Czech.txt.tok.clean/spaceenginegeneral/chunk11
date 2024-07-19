@@ -1,0 +1,100 @@
+  i wish people stopped repeating this nonsense . 
+  nothing about non-k oc changed , in some ways it 's even more `` unofficially '' supported than before . 
+  the windows update either did n't happen or for some reason did n't affect anyone who bothers to respond when it 's brought up . 
+  gigabyte z170x gaming 3 is the best motherboard of them by decent margin ( should be a lot more expensive compared to them but i guess canadian market . 
+  i do n't have win10 to test it , but i recall someone saying it 's the same deal as with g3258 - all you have to do is delete/rename a single . dll file and it fixes the problem . 
+  then i 've read plenty of people saying they did n't encounter any problems at all and i 'm myself running oc 'd 6400 on windows 7 and no problems either . 
+  i 've seen tons of doomsaying as well , presumably from people who read that one news article . 
+  unfortunately , that 's apparently all you have to do to be an expert on the matter on buildapc or hardware subreddits seeing from the parroting and downvoting when you bring it up . 
+  and do n't get me wrong , there are quirks about the non-bclk oc compared to multiplier and i wo n't say it 's for everyone , but people do n't discuss that , they dismiss it because an article said intel released a microcode ( which people assume is something that gets loaded into cpu forever ) and leave it at that . 
+  what 's most dumbfounding about it all is that people have the best price/peformance chips available in years thanks to bclk oc and instead of rejoicing they simply completely forgot about it . 
+  thanks to an article and nothing else . 
+  i find it completely bizzare when a consumer friendly `` mistake '' from intel happens and people not only choose to ignore it , but actively help intel do the damage control . 
+  if you 're not overclocking a ton , the cheapest boards are fine . 
+  i 'd recommend i3 6100 + gigabyte z170 ud5 or asus z170-a and overclocking . 
+  this will ( sadly ) completely run over anything you could get from amd at this time and depending on game [ will perform comparably to lower clocked i5 ( like a 6500 ) ] ( https://www.youtube.com/watch?v=rxzwlz7enm8 ), 
+  you can use migration software to clone your old ssd onto new one . 
+  definitely feasible since you can switch out gpus at any time without any trouble ( besides reinstalling drivers ) to pretty much any motherboard . 
+  maybe needless advice since you actually built the pc but remember to have good enough psu to handle potentially more demanding system . 
+  get into grand strategy games . 
+  beware , you wo n't even want a gpu afterwards . 
+  but in all seriousness , if you have something like intel hd510 you should be able to ~ ~ run ~ ~ start pretty much everything . 
+  and if it 's not gpu heavy in a first place , on lowest details and maybe sub 1080p resolution , you should get passable to decent framerate . 
+  the hd3p , msi z170a and asrock z170a are basically the cheapest entry level boards for the chipset . 
+  keep in mind , z170 by itself already has pretty much all `` basics '' you could want from skylake so even entry z170 boards are perfectly adequate . 
+  i mentioned gaming 3 is the best , not the matx gaming 5 . 
+  you 're right the matx board has slightly less features then equivalent atx board and atx gaming 5 is like a tier better than the gaming 3 , while the matx gaming 5 is comparable or slightly worse than the atx gaming 3 . 
+  anyway compared to the hd3p , the gaming 3 has :, 
+  1 ) better sound card, 
+  2 ) killer nic ( has problematic drivers so i would consider this a negative ), 
+  3 ) supports sli ( both support crossfire ), 
+  4 ) 2 m. 2 slots instead of just 1 ( useless at this price range ), 
+  in short , if you want slightly better sounds , grab the gaming 3 , otherwise hd3p is absolutely fine . 
+  nope , $ 20 gpu is worse than your integrated graphics . 
+  yes it does . 
+  you just need a correct bios ( asrock has them on website , look for the one with microcode 0x74 ) . 
+  you might need to delete a . dll file in win10 but i ca n't confirm that since i do n't have win10, 
+  cool . 
+  do you have a motherboard from intel or from a third party manufacturer that is happy he sells more z170 boards and benefits from letting the consumer overclock his non-k chip ? 
+  i 'm talking about intel not having some kind of magical patches that suddenly appear on your mobo and disable your overclocking , since i imagine that 's what you think is actually happening judging from your responses . 
+  and 2 motherboards in the world that allow non-k oc , just lol . 
+  i 'll just assume that was a joke . 
+  and if that happens to you ( which is n't even well documented yet , supposedly it happened to some but for others it never happened ) , you can just uninstall the update . 
+  what 's your point ? 
+  itt : everyone assumes slavery is overpowered based on few let 's plays with empires specialized in enslaving before the game is even out . 
+  is it hard to wait those several hours before the game is out and you can actually play it ( and presumably get rekt by that fallen empire that hates slavers ) to make an educated opinion how strong is a certain playstyle compared to others instead of raising pitchforks and boycotting that playstyle already ? 
+  afaik all these windows based overclocking tools just change the multiplier . 
+  on non-k chips the multiplier is locked and you can only overclock via bclk which is set during boot . 
+  you most likely need higher voltage for 4.6 . 
+  whether it 's good depends only what is your goal , the chip can almost certainly go higher although 212 will push the temps during heavy use . 
+  most games rely on a strong single threaded performance and overclocking is basically the only way to increase it ( besides getting processor with newer architercute but overclocking is almost always more cost efficient than getting a new cpu and motherboard ) . 
+  also if you already have aftermarket cooler and good enough psu ( which are both great investments that will last you multiple systems ) , you already have everything you need to overclock so it becomes pretty much a free performance boost . 
+  i can almost guarantee you that in your case , overclocking will increase your performance in both sims games . 
+  in other games you probably wo n't notice it unless you have 144hz monitor . 
+  i 'd recommend just setting everything manually in bios because you can clearly see what target frequency are you getting and in generally let you get a better overclock than the automated solutions that tend to play it safe ( and not even manage to do that in your case ) . 
+  find a stable cpu overclock first before trying to overclock anything else . 
+  also i 'm not sure what should xmp achieve on a stock 2133 memory but try 2400 if you want to oc it ( i 'm kinda puzzled why you did n't buy a higher clocked memory in the first place considering the price of your setup but that 's just me ), 
+  your overclock is unstable and triggers error during windows startup which in turn assumes your installation is corrupt . 
+  same thing happens to me on skylake and windows 7 on some overclocks . 
+  you 're just hitting a spot that you 're stable enough to boot but not stable enough to get into windows and crash there . 
+  this is probably one of my my big `` problems '' ( it 's more like unrealized potential ) with the game currently . 
+  i understand the design decision to make only relatively few planets colonizable but for a game that is trying to focus on variety of species you are able to encounter i find it striking that as far as `` regular '' species go ( ie excluding fes , crisis species etc ) , all of them are extremely `` human '' rather than `` alien '' . 
+  consider that every planet on the `` habitability wheel '' is already present on a smaller scale on earth . 
+  even the ocean worlds are n't presented as being 100 % water but rather a ~ 90 % water with islands and easily habitable for humans compared to a tundra or arid ( while in reality , plenty of people live in arid and tundra climates and nobody lives in oceans ) . 
+  so in practice the habitability wheel currently not only does n't even make sense from a human perspective , it also restricts all these supposed unknown and varied aliens to have to be able to live somewhere on earth in theory . 
+  this `` lack of world variety '' for lack of better term is further strengthened by the fact that the game already has species that do n't need earth-like atmosphere to live , namely the various space `` fish '' . 
+  and i realize paradox makes a point they are not sentient but come on , you made a species that is able to ftl space travel and eats gas giants yet you consider a sentient silicon based lifeform that breathes venus atmosphere impossible ? 
+  your suggestion is exactly what i 'd like to see developed in future , having to choose between few biochemistry structures of your species first which would then present you with a habitability wheel that would decide how well can your species live in the planets similar to current system but less restrictive . 
+  so for example player would be able to choose between nitrogen-oxygen atmosphere based species with a habitability wheel similar or same as current one ( perhaps switching planets a bit to make it more similar to human preference since as i mentioned currently it does n't make much sense , as 0 % habitability should be ocean and arctic rather than tundra and arid ) . 
+  other choice could be co2 based which would have planets based on venus and mars but to earth-like species those would be considered toxic and uncolonizeable . 
+  there could even be more extreme example like a species that prefer heavily radiated planets close to stars ( and tomb worlds ) , the possibilities are endless but they all end up with species that are truly alien to each other instead of every one of them being earth-like . 
+  and while having more colonizeable planets than you have now , the important part is that it still goes along with the design decision of not being able to colonize everything - because you ca n't regardless what species you take , you just get a different kind of selection of colonized planets ( which could even have some overlap to make border friction more interesting ) . 
+  of course robots and pops would have to be rebalanced to reflect this since otherwise you could colonize everything using them . 
+  tl ; dr biology is what makes alien truly alien and diverse , not ideologies that are already feasible in a human society with 100 different portraits of species that all have to live on an earth-like planet anyway . 
+  unless you get bsod hint it 's gpu ( like the cause being a gpu driver ) , it 's hard to tell . 
+  you should test cpu stability in a stress test to make sure it 's stable before doing gpu overclock so if you start crashing after ocing a gpu you can pinpoint it on that . 
+  from quick googling hiring orchestra could cost about 1000eur/h , very rough number of course , price of any art will vary wildly . 
+  it 's been some time since i overclocked amd , i imagine there 's going to be a forum about overclocking your chips somewhere on overclockers so look around . 
+  stress test with prime95 ( keep in mind it can produce unrealistic temps though ) or x264, 
+  i think your cpu is probably unstable but you can easily just rule out the gpu by reverting the oc and seeing if you still crash without it . 
+  the problem is that being threaded and utilizing all cores are 2 completely different things . 
+  yeah , games are threaded but only 1-2 cores affect your performance because it 's irrelevant if you have 2 cores at 100 % and 2 cores at 50 % or 2 cores at 100 % and 4 cores at 30 %, 
+  if you 're only gaming 6700k is hands down better choice . 
+  will overclock better , has slightly better ipc and games ca n't properly utilize those extra cores of 5820k, 
+  that completely depends what cpu are you ocing and what games do you play to be honest . 
+  [ overclocked i3-6100 will match or beat a stock i5 in majority of games ] ( https://www.youtube.com/watch?v=zbygapxiglq ), 
+  slis midrange cards tends to be very cost ineffective ( especially since at the moment you need driver support to even use it in the first place ) . 
+  you 're almost always better off getting a higher tiered single card than sli ( especially a 3.5 gb 970 because sli does n't increase vram ), 
+  yeah it 's possible and nothing really changed if you use the old bios ( some motherboard manufacturers made more updated bioses that still allow oc while others did n't touch it anymore and not even all their mobos have non-k oc bioses . 
+  be wary if you have win10 as you might need to delete certain . dll to get it running but i ca n't go into details since i do n't have win10, 
+  with z170 board you can overclock even the locked chips , can use faster ram than 2133 and even the cheapest ones have basically the whole skylake feature set ( m. 2 slot mainly ) . 
+  depends really whether you want the option to overclock in the future . 
+  if you 're planning to keep your cpu for years to come , i 'd definitely recommend getting z170 even if you do n't plan on overclocking right now . 
+  if you 're certain you will never overclock , it 's safe to go with h170 ( and are ok with 2133 memory which will make performance difference in some games ), 
+  there 's no reason to get unlocked i5 if you get a 6500 and a z170 motherboard though . 
+  did you set the hdd to not boot/boot after the ssd in bios ? 
+  yeah though if you do n't have a decent psu a 970 might push it on the edge . 
+  the only gpu worth grabbing `` asap '' is the 1080 because amd wo n't compete with it . 
+  buying 1070 before polaris benchmarks are out is too soon since we do n't know if the cards performance will overlap or not . 
+  but of course , that 's why nvidia is rushing out to get everyone buy it before amd plays its cards . 
+  what exact cpu do you have , also overclocked or not ?

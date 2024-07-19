@@ -1,0 +1,100 @@
+  for games , the 6700k will be better . 
+  it simply depends on what do you want more from the cpu , more cores or faster cores . 
+  you can easily try to test fps affecting screen tearing for yourself . 
+  run a game with native frame limiter where you can reach 240fps ( quake or cs 1.6 are great for this ) . 
+  disable vsync, 
+  now since your gpu frames are n't synched together with the monitor , if you lock your fps to 60 on a 60hz monitor , a tear line will periodically run across your screen . 
+  now if you increase fps lock to 120 , the line will run across the screen twice as fast and be a lot less visible . 
+  and finally , when you increase fps limit to 240 , the line will be almost completely invisible . 
+  this is easily reproducible proof that increasing fps above your refresh rate produces visible effect on your screen, 
+  if you want to maximize framerates , it does make a difference in games that can utilize the hyperthreading , but in strategy games this is n't often the case . 
+  for most strategy games , single threaded performance is king so definitely overclock the cpu . 
+  some newer strategy games supposedly utilize multiple cores well ( tw : w , c : s and presumably civ6 ) but unfortunately most tech sites still ca n't do proper cpu benchmarks and i did n't google enough to know how much difference does i7 make over i5 there . 
+  for others like paradox gsgs , you could probably run the game on oc 'd pentium and it would perform the same as oc 'd i7 because the game maxes out 1 thread and that dictates how well the game runs . 
+  i do n't think you 'll regret the i7 if you have the money . 
+  from those benchmarks you ca n't exactly say the i7 does n't help because they focus on wrong parameters . 
+  the c : s benchmarks has the right idea but simply does n't have a big enough city to push all those cores to max and we have no idea if the thread scaling goes beyond 4 cores or not . 
+  the civ 5 benchmark is completely useless and basically a huge waste of time . 
+  nobody cares about average fps in a tb game , what 's relevant is how long are ai turns during late game on a large map with many ais . 
+  tearing happens even if you run at fraction of your monitor refresh rate ( as you will see at 60hz 60fps vsync off ) because even if your gpu produces same amount of frames as the monitor displays , without vsync the gpu does n't keep the frame until the monitor is ready to display it . 
+  i ca n't explain to you exactly what refresh : fps ratio produces what kind of tearing ( and frankly , you can just try it for yourself ) , but for example 100fps on a 60hz produces entirely different tearing compared to 60/120fps . 
+  either way , higher framerates cause less visible tearing ( and also lower input lag between the frames ) even on a 60hz monitor so saying that any higher fps than 60 on a 60hz monitor is useless or even placebo is just plain wrong . 
+  on a z170 board the m. 2 pcie lines are independent from from actual pcie slots ( usually they are shared with sata-e ) so you can use m. 2 drive without worrying about it affecting your gpus or other cards . 
+  decent difference in cpu bound scenarios depending on the game . 
+  in something like ryse the difference was 50 % but that is an outlier . 
+  psu is the one part you do n't want to save money on because if a low quality psu fails , it can fry other components in your system as well . 
+  i 'd recommend getting a gold rated psu but which one reallly depends on the gpu you will get in the future . 
+  for your build you can just get like a 300-400w gold rated seasonic , but if we add 100-150w from a low end gpu , you might want something around the 400-500w range ( again , i 'll recommend seasonic because not many psu manufacturers have good psus when it comes to low wattage since they are harder to make ), 
+  i do n't think any games will benefit from 32gb , if you want to spend money on ram , get a faster one with better timings since that actually makes a difference in some games [ arma being a good example ] ( http://www.techspot.com/articles-info/1171/bench/arma3.png ), 
+  for the cpu , if budget is n't an issue , there is n't a reason not to get a 6700k . 
+  in games that support more than 4 threads , it will give you a noticeable fps increase over and i5 . 
+  it should be noted though that not all or even many games will necessarily take advantage of i7 's more threads and in games that do n't ( and i think arma 3 and dayz are such games ) , you wo n't really see any performance gains over an i5 . 
+  paradox games are even worse with threads and will max just 1 , which means an i3 at same frequency will perform same as an i7 . 
+  for these reasons , for most cpu intesive games , overclocking is usually way more important than having more threads and i 'd recommend you to do that . 
+  i7 will give you longevity for all games that will utilize more than 4 threads . 
+  this is becoming more common but that does n't mean that all games in future will . 
+  looks like overheating , i had the same issue with phenom 965 on stock cooler and had to get aftermarket otherwise it would throttle . 
+  sure , if you have a decent psu and motherboard you might even be able to oc a bit , giving you slightly better performance . 
+  use a program to make a bootable usb installation from the disk . 
+  edit : unless you ca n't now access the disk at all , but i think the only relevant thing from it ( if it 's windows ) is the license key anyway so you can really download an . iso from anywhere and use that legally . 
+  it 's easier to be more efficient with higher wattage , so there are n't many manufacturers making efficient ( gold rated ) low wattage psus, 
+  the cpu has weak singlethreading so it will never have huge fps in games that ca n't use all those cores ( which is majority ) , but 30fps seems a bit too low and i think it 's simply throttling from the heat and aftermarket cooler will make it better ( at the very least it should remove the stuttering entirely ), 
+  unless windows 10 does it automatically for you , you 'll need to install the gpu drivers as well afterwards, 
+  6700k will have marginally better singlethreading performance but i do n't think it 's good enough to justify buying new ram and motherboard so go for the 4790k, 
+  try increasing ram voltage to 1.4 or 1.45 before you put new sticks in . 
+  if it was 1080p it would be an easy yes but with 1440p you will be getting anywhere from 50-100 fps in modern games ( ~ 80 in the games you mentioned ) and ~ 80fps will be when the cpu starts bottlenecking . 
+  you 'll probably have to see for yourself since it will depend from game to game and whether you will play everything maxed or lower details in favor of fps ( causing more bottlenecks ), 
+  i 'll always recommend 144hz over 1440p for games but you 'll need a good cpu to go with otherwise you 'll get bottlenecked a lot at high framerates . 
+  i 'm not the type of person to give a lifespan estimate to hardware ( since it 's highly subjective when it 's time to upgrade depending on your budget , what are you doing with it and what do you expect from it ) but it 's slightly weaker than 6700k and oc 'd 6700k is the best cpu you can get for gaming right now . 
+  so if you can overclock it that 's probably the most cost efficient upgrade you can make . 
+  1.2 v is what stock sticks use , 1.35 is what oc 'd memory uses and 1.4 is very conservative safe voltage recommendation . 
+  you need to post first hence giving it more than it potentially needs , if you actually post with all sticks in there you can tweak the voltage further . 
+  yeah try that . 
+  and make sure the sticks are at 2133 defaults , not their rated speeds . 
+  if it does n't work try the other pair of sticks first . 
+  whether there 's a big difference in latency depends how big the difference is and what are you doing . 
+  that said , the 5ms/1ms numbers is a very misleading number to consumer and does n't really tell you much more than the technology used ( ie it 's not ips if it has 1ms latency listed ) . 
+  look up review at tft central to see actual real world latencies of the panels . 
+  stock coolers have the paste pre-applied . 
+  not even gtx 1080 is a good enough card to run demanding modern games maxed 144fps, 
+  1070 can run maxed demanding games at 1440p at 60 average fps, 
+  480 will be weaker than those ( how weaker ? 
+  wait for benchmarks ), 
+  for 1080p 144hz it will work fine ( you can always lower graphical fidelity and at higher framerates cpu tends to become the bottleneck in cpu demanding games ) . 
+  that said , even reaching 80 + fps is considerable improvement in how the game looks and plays on 144hz compared to 60hz . 
+  for 1440 , you can expect to run games at 60fps on lowered details ( 390/970 or better performance ), 
+  i 'd probably be happy with 480 for 1080p 144hz ( i actually use 144hz monitor with a 270x but i do n't care about playing on low and rarely play aaa games anyway so cpu does all the work for me besides aaa games ) . 
+  it really depends how much fidelity do you want and how demanding games do you play . 
+  definitely wait for 480 benchmarks and how well it ocs first since those are pretty big questions to know before deciding on paying more for stronger gpu ( right now it can be anywhere from a better 970 to a better 980 at stock frequencies ), 
+  480 should be stronger than a 390 ( by how much ? 
+  wait for benchmarks ) and it will also remove the big cpu overhead amd cards currently suffer from which is important for 144hz . 
+  from those cards the 980ti is the best choice but whether it will be worth buying over a 480 depends on how good exactly the 480 is and the price difference . 
+  i5 4400 is a decent amount slower than a 6500, 
+  i5 6500 give you the best best bang for your buck . 
+  so people who want that buy a 6500 and people who want performance buy a 6600k and get unlocked chip with it . 
+  another problem with the 6600 is that you can overclock locked chips on skylake . 
+  this means that instead of investing those $ 20 into a 6600 , you can invest them into a z170 board instead and simply get those 300mz back with overclocking , except now you can overclock even more for higher performance gains and you can also use faster ram than 2133 , which again makes a difference in cpu bound scenarios . 
+  for z170 you do n't have to worry about it at all . 
+  the chipset itself has extra pci lanes individual from those that your pcie slots use and having m. 2 ssd wo n't share anything with a gpu for example . 
+  the performance boost is there but do n't expect same jump as you get from hdd to ssd since in a lot of cases the bottleneck is no longer the disk but the cpu instead . 
+  there is something better than 1440p or 4k , it 's called 144hz . 
+  1440p 60hz monitors cost around the same a 1080p 144hz . 
+  do you have a high refresh monitor ? 
+  the high refresh being only relevant for `` super competitive '' games argument comes often from people who never actually tried it . 
+  60hz does n't in any way look nice and crisp the moment anything moves on the screen compared to even 80fps on a 120 + hz monitor . 
+  and sure , there 's an element of preference as well , some people who have consoles genuinely prefer 30fps at 1080p over 60fps at 720p , but i do n't think many pc gamers who are used to at least 60fps would play many games at 30fps even it they looked better compared to 60fps . 
+  and with 120/144 or more it 's the same . 
+  you 're wrong about locked cpu not supporting more than 2133mhz ram . 
+  that only depends on the chipset ( you need z170 for oc 'd memory ) . 
+  also whether he will notice a difference or not depends entirely on games , but whenever he is cpu bottlenecked faster ram generally helps [ 1 ] ( http://www.techspot.com/articles-info/1171/bench/arma3.png ) , [ 2 ] ( https://www.youtube.com/watch?v=er_fuz54u0y ) . 
+  you can argue that he probably wo n't get cpu bottlenecked with that processor if he 's targeting 60fps but that 's entirely different matter from the claims you made . 
+  you see benefits of high refresh monitor starting at 75-80fps which at 1080p is entirely doable with the components people buy for 1080p60hz , on older and less demanding games ( which is what people spend most of their time on generally ) 100-200 fps is a realistic goal . 
+  i guess i was wrong and in us they are n't . 
+  in my country the cheapest 1440p monitors cost the same as the cheapest 144hz . 
+  i 'm running a 3200mhz ram with a i5-6400 , care to explain that then ? 
+  higher refresh rates makes a difference even when moving cursor across your screen at windows , of course not saying that 's a good reason to spend money on it . 
+  of course for tb games you can argue higher refresh rate is n't necessary but as long as you get those frame rates , everything will be smoother as with anything else . 
+  you can get a 144hz monitor around that price or even slightly cheaper but it will be tn ( unfortunately no high refresh rate 1080p ips monitors , only 1440p ) so if you really want a budget monitor , you have to choose one or the other . 
+  price , if you can afford it ( and the gtx 1080 to get at least those 80-100 at 1440p in demanding games ) , go for it . 
+  you just said i ca n't get higher ram frequencies than 2133 unless i have unlocked chip , which i do n't . 
+  also , what if i tell you that i can overclock the cpu frequency of the locked chip as well with my motherboard ?

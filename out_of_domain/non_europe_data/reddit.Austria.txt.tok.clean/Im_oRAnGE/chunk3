@@ -1,0 +1,100 @@
+  edit : bind q `` incrementvar cl_crosshairgap -6 -2 4 ; lastinv '' works , but not if you just had the knife or nades equipped , that will mess it up a bit . 
+  i guess you ca n't let it detect what weapon it switches to with `` lastinv '' and select a corresponding crosshair size , so it 's not a perfect solution . 
+  i think i will only use what banbop wrote before , it works quite well , as long as you do n't use q or mousewheel . 
+  i do n't like having a cross , i 'd like to have a small gap still so i can actually see my target . 
+  sorry , but i ca n't get the alias thing to work . 
+  there 's one pair of quotes too much btw , it only `` works '' like this :, 
+   alias `` qtoggle1 '' bind q `` cl_crosshairgap -2 ; slot2 ; qtoggle2 '', 
+   alias `` qtoggle2 '' bind q `` cl_crosshairgap 0 ; slot1 ; qtoggle1 '', 
+  but even like this , my game just crashes once i put in the command for the second alias . 
+  maybe you want to try it for yourself , i could n't get it to work . 
+  and even if i only try the first one on it 's own , it does n't seem to work . 
+  i 'm not really used to the console in cs , so i might be doing something wrong , maybe you can get it working ? 
+  i will keep trying for now . 
+  looks like linking to the second alias in the first one and back creates a loop or something which crashes my game , even though it should theoretically work . 
+  thanks for sharing , 
+  one of the best wallpapers i 've used in a while . 
+  intel i7-3610qm, 
+  not on normal valve servers , but on custom 128 ones . 
+  i 'm not using mumble nor windows 8 buuut ... 
+  win7 an ts3 with overlay . 
+  and actually i 've only noticed the crashes when using ts3 . 
+  let me try disabling the overlay . 
+  yes , 
+  it worked , i disabled the overlay from teamspeak , and now i can alt + tab again without the game crashing . 
+  thank you very much !, 
+  we got the issue fixed , in case you still have it . 
+  if you are using an overlay from teamspeak or mumble , try disabling it for csgo . 
+  that fixed the crashes for me . 
+  credits to irv , 
+   thanks to / u/irv i managed to fix the problem . 
+  apparently it 's caused by the teamspeak 3 overlay i 've been using , disabling it for csgo fixed the problem . 
+   to disable it , open ts3 , go to settings  plugins  highlight `` teamspeak 3 overlay plugin ''  settings  select the csgo.exe in the droplist  enable `` disable loading '', 
+  i remember winning my first 5 games straight , then having a loosing streak just as long , after that i got my rank pretty fast . 
+  so overall it took me about 17 games maybe . 
+  since then i 've been ranking up steadily , lost a rank maybe twice , but i 'm definetely getting better  started off as nova 3 or so , now i got this shiny star, 
+  i 'd really like to know how w : l and k :d influence your rank , i know both do , but not how much and how excactly . 
+  usually how you are doing and if your team is going to win/loose are 2 completely different things  you can do shit but have 1 guy on your team who is completely owning the other team and still win , or do very well but have 1 or 2 guys in your team who are just dragging you down and still loose . 
+  the whole team counts , as well as the team you are up against . 
+  as long as you do n't have a fix team for yourself it 's all up to luck and valves matchmaking ( which usually does a good job , but sometimes fucks up big time ) . 
+  i 've been in matches where our whole team just got completely destroyed , but i 've also witnessed the opposite . 
+  usually games are more or less balanced though , which is nice . 
+  why do i have you tagged as `` csgo cheater '' ? 
+  i would n't trust this guy . 
+  the lower the rank , the less people are communicating with each other . 
+  everytime i played with a guy that used voice chat and was about as good as me i added him on steam so we could play together more , now i have about 10 active csgo friends to play with , all of them speaking my mother language and on a teamspeak server , 
+  i rarely play with random people anymore now . 
+  keep in mind that if you have a premade group , your group will be matched against a little bit higher ranked people , since you have the advantage of good communication . 
+  it 's still a minor difference though usually . 
+  same here , sometimes you just unleash hell on the other team and then get called cheater . 
+  i just say `` thanks for the compliment '' and keep playing . 
+  i 've seen a few blatant hackers myself , [ here ] ( http://www.youtube.com/watch?v=e1nerj0h6dy ) 's a match i recorded when my friend got grouped against some cheaters ( speedhack , aimhack , wallhack ), 
+  think you got called out in a different thread ~ 1 month back . 
+  i 've done it twice now , did n't loose a rank in both . 
+  but ca n't say that you never do either . 
+  as i said , i just added people i met while playing that use voice comm and seemed nice . 
+  usually the know a fee otger guys too and so you can get 5players together pretty quickly, 
+  yup , thats when i tagge him . 
+  to be fair , shouldve dug that thread out myself before making accusations , but i knew i didnt tag him for no reason and i couldnt rememver the thread name at all . 
+  there 's no risk involved for the last guy . 
+  after he leaves , the match just ends , and he wo n't get a ban . 
+  probably wo n't be long until valve fixes this method though , as you can simply avoid loosing with it . 
+  have n't found that out yet . 
+  it 's caused by his hacks , not sure why , though . 
+  his comment ? 
+  something about that he did what op suggested once and got ranked down for it . 
+  never happened to me though , i 've done it twice now against obvious hackers . 
+  does n't mean it ca n't happen though , has this happened to somebody else ? 
+  seems reasonable . 
+  i 'm really surprised how much freedom programmers have with those hacks , that they can even turn the screen around , not for the player , but only for spectators . 
+  makes you question the efficiency of vac once again though : /, 
+  makes sense , but does k/d influence this at all ? 
+  i 've been on master guardian 2 for a long time , then , after doing really well for ~ 4-5 matches in a row i ranked up twice within those matches . 
+  sounds pretty decent to me . 
+  i 've gotten ranked gold nova 3 after my first 10 wins , now , after ~ 180 games i 'm distinguished master guardian . 
+  i really started progressing after playing a lot of deathmatch ( not on valve dm servers , but on custom servers with aim maps or the old deathmatch mod ) , and always going for headshots . 
+  people on those servers are infinite times better than you when you go there for the first time , but after 1 or 2 weeks ( maybe half an hour of deathmatch daily ) you will see your progress already , 
+  this is just for training your aim though , things like gamesense comes from playing pugs !, 
+  hmm . 
+  wikipedia says it belongs to `` eurasia '' so i guess you are right . 
+  ( \u2310 \u25a1 _ \u25a1 ) trying my best . 
+  upvote for the vid . 
+  downvote for the music . 
+  what if i told you, 
+  you can still shoot at the enemy while being a meat shield ? 
+  it 's not just italy , i have those on almost ever map occasionally . 
+  especially inferno and nuke from what i remember now , but those are just the maps i play the most . 
+  they are really frustrating , you ca n't hear real steps properly over them and they just distract you so much . 
+  i 'd also like to see a fix in the next patch . 
+  if you know this guys youtube channel , then this is not unexpected at all ^ ^ you guys should check it out . 
+  he 's wasting a lot of food though . 
+  what ?!, 
+  do n't make me rage !, 
+  thanks dude !, 
+  nice , 
+  `` now '', 
+  yes . 
+  [ 5 months late ] ( http://www.amusingplanet.com/2011/02/house-in-island-of-elliaey.html ) but hey . 
+  not sure if it 's the same image , but there 's a few on that site . 
+  or one in central europe , maybe germany . 
+  although the london and stockholm ones are quite good for us too .

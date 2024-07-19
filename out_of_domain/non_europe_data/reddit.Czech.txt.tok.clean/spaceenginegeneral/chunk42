@@ -1,0 +1,100 @@
+  you can get a 6 core , just save money and get the 28 lane 6800k ( no other difference between them as far as i can tell ) because you have no possible lane combination to use those lanes with 2x 1080 and 2x ssd if you want to run the ssds at 3.0 4x, 
+   in this case , the ssd and the gpu 's in sli should all run at full speed . 
+  is that correct ? 
+  from what i can tell there is simply no way to have 16x sli and 2 ssds running at 3.0, 
+  the reason is that if you run the 1st and 2nd slot at 16x , you are left with either :, 
+  * a ) 8x 3.0 pci slot , u. 2 slot disabled and m. 2 slot running 2.0, 
+  * b ) no other pci slots available , u. 2 running at 3.0 and m. 2 running at 2.0, 
+  * c ) no other pci , m. 2 running at 3.0 and u. 2 disabled, 
+  this means one of your ssds wo n't be able to get 3.0 lanes no matter what you do, 
+  so the most efficient scenario for you is to buy a 28 lane 6800k and set it up like :, 
+  * 1 ) 1080 in 1st pci slot running at 8x, 
+  * 2 ) 1080 in 2nd pci slot running at 8x, 
+  * 3 ) m. 2 adapter with ssd in 3rd pci slot running at 8x ( using 4x ), 
+  * 4 ) m. 2 ssd in m. 2 slot running at 3.0 4x, 
+  * u. 2 is disabled, 
+  the 8x sli should n't very noticeable compared to 16x and both of your ssds will run at full 3.0 speed . 
+  if you 're struggling to make budget for cpu upgrade , wait for zen . 
+  it should lower down prices of both cpus and motherboards . 
+  fx-6350 is n't worth buying , even an i3 will destroy it in vast majority of games . 
+  asus pro gaming is the only one of those that has good enough components to handle anything more than mild overclocks long term , that 's also what makes it expensive . 
+  the cheapest z170 boards have vrms designed for stock skylake voltages . 
+  afaik every atx z170 board has at least a single m. 2 and usb 3.1 ( not sure about type c ), 
+  the 3200mhz sticks are faster . 
+  if you buy 8gb 3200mhz stick twice it would the same as buying 2x8 3200mhz sticks ( they are basically just bundle together because 2x8 sticks will be able to use dual channel which means access to more bandwidth compared to 1x16 ), 
+  you 'd reach the same framerates as before but whenever you pass 60fps ( starting from ~ 70fps there will be bigger and bigger difference compared to the 60hz monitor ) in any game everything will be a lot more responsive ( thanks to lower latency from both the display and the higher framerate ) and a lot more smoother because the screen is refreshing faster . 
+  in fast paced games the difference is night and day but it 's visible even when moving cursor on desktop, 
+  you should definitely at least wait to see what zen offers . 
+  from what we know so far it looks like the i3-7350k will be horribly overpriced . 
+  currently it looks like it will be priced similarly to i5-6400 and it loooks like there are pretty much no ipc gains over skylake . 
+  so as it stands you could pay i5 price and premium for z170 board and overclock the i3-7350k to get roughly stock i5 performance ( better in games that do n't utilize 4 cores well ), 
+  or you can buy an i3 6100 for i3 price , same premium for a z170 board and overclock it for identical performance but way cheaper . 
+  or you can buy i5-6400 for the same price , buy same z170 board , overclock it and completely destroy the 7350k for the same price, 
+  or you can buy a 4 core zen ( and let 's assume worst case scenario here - it costs the same as i3-7350k and perform the same which would be terribly overpriced ) , buy am4 board without paying a premium for z170 , overclock it and what 's that ? 
+  same performance for cheaper . 
+  this chip came 1 year late and will be terrible value unless it can reach like 6ghz on air ( which of course it wo n't ) or cost only slightly more compared to a 6100 . 
+  spend a bit more on a motherboard if you plan on overclocking . 
+  cheapest z170 boards do n't have good enough power delivery to withstand increased load from higher voltage . 
+  cheapest 8 phase motherboards : asrock extreme4/k4 , asus z170a or pro gaming , gigabyte ud3 and msi gaming m5, 
+  if you ditch hdd you can spend the money to get a 500gb ssd . 
+  you should benefit from it more unless you absolutely need the 1tb storage to live and if you 're running low on space there 's nothing easier than add the hdd later on . 
+  otherwise the build looks good . 
+  for overclocking you should pay a bit more to get 8 phase motherboard . 
+  cheapest z170 boards only have 4 phases which are n't suited for the increased load you get from overclocking and higher voltage will kill them after some time . 
+  cheapest 8 phase motherboard : asrock extreme4/k4 , gigabyte ud3 , msi gaming m5 , asus z170a or pro gaming . 
+  yeah if you 're getting the 6850k for cheaper than you 'd get 6800k then it makes no sense not to get it . 
+  turns out the gigabyte does exactly what you were looking for . 
+  it has both 3.0 4x m. 2 slot and 3.0 4x u. 2 slot which both get lanes individually from cpu and then you have 16x and 16x with 2 cards in pci so you can run everything full speed even with 2 ssds and sli on that one . 
+  * motherboard is fine . 
+  * get 550w evga g2 instead of the nex , it only costs few bucks more but way better quality . 
+  the wattage is enough even if you upgrade your gpu in future . 
+  * you can save about $ 50 if you get a 500gb ssd instead of a 750gb although i do n't know about your space needs . 
+  * you might be able to save some money on case but i 'm not expert on that, 
+  * get faster ram ( like 3000mhz ) , it should cost only a bit more and the performane increase is significant, 
+  * if you 're not set on nvidia , msi 4gb 480 costs about $ 180 and the performance difference is pretty small on average ( though it varies depending on games ), 
+  * i 'd heavily recommend investing into 144hz monitor ( even tn over 60hz ips unless you need the color accuracy for work etc ) , you wo n't regret it and it will bring out the potential of your oc 'd cpu . 
+  this heavily depends on what games do you play and what framerate are you looking for . 
+  you can get high framerates with good cpu even with relatively weak gpu because most games will run pretty well with poor gpu if you turn down the graphics , even modern games that people would consider demanding . 
+  this makes a strong ( ideally overclocked ) cpu critical for 144hz gaming for example because if your gpu is n't good enough , you can squeeze more frames out of it by lowering details . 
+  if the cpu is the limit when it comes to framerate , you could have the most powerful gpu in the world but it wo n't help you push the framerate . 
+  on the other hand when we 're talking about low framerates like 60fps it 's the opposite . 
+  even a relatively weak cpu like an i3 will be able to output 60 frames and with a good gpu , you can increase resolution and max out the graphics while still getting 60 frames . 
+  in the end it depends what kind of gamer you are , are you after maximum possible framerate you can get ? 
+  buy the best possible cpu , overclock it and pair it with a cheap gpu . 
+  gpus advance extremely quickly and it 's better value to buy a cheap gpu and replace it with one similarly priced in 2-3 years . 
+  cpus on the other hand advance relatively slowly and stepping up from an i5 to an i7 will cost you significantly more for significantly less performance increase compared to replacing gpu so it makes sense to buy the best one you can . 
+  if you prefer graphics , are happy with 60fps and would rather sharper image from higher resolution , get a decent cpu and buy a more expensive gpu that will reach 60fps at your desired resolution . 
+  edit : also people talking about i7 being pointless for gaming never heard about 144hz apparently . 
+  i think my reasoning is pretty well explained , not sure why would n't you pair it that way for a 60fps target . 
+  i 'd like to know how do you make a skylake build scalable without a z170 board . 
+  you ca n't upgrade it in any way without buying a new motherboard ( unless you call a switch from stock i5-6500 to a stock i7-6700 scalable , which would be hilariously cost inefficient upgrade ) . 
+  but i get it , we are building a pc , we have to put i5-6500 inside !, 
+  we do n't know why but everyone does it so we 'll do it as well . 
+  anything else would be surely stupid since everyone picks i5-6500, 
+  and then you end up with a shitty system that you ca n't upgrade in any way [ which will be outperformed by the i3 build anyway because we picked the cheapest motherboard to save money and it only has 2 ram slots so we only picked a single stick to be able to add a second one later and it turns out it cripples our i5-6500 ] ( http://i.imgur.com/qhdgolg.png ) . 
+  but hey , at least we did n't pair a dual core and a z170 board so we did good . 
+  nope , you do n't want h170 chipset . 
+  look for asus z170 pro gaming , gigabyte z170ud3 , msi gaming m5 and asrock z170 extreme4 or k4, 
+  all of these are equivalent in features and overclocking capabilities to the z170a , should be around the same price too, 
+  yes , you want some overhead but at the same time the wattage estimates tend to be higher than they really are because cheap psus might say they are 500w but ca n't actually deliver anywhere near that . 
+  trend with hardware is energy efficiency so even if you purchased a high end card later down the road , the psu will handle it . 
+  well that 's up to you then , for gaming the difference in refresh rate is huge but obviously it will have no effect on movies where the ips would help more . 
+  it 's up to you , but if you play any faster paced game , i can guarantee you you wo n't regret the refresh rate . 
+  if you play slower paced , especially single player games maxed out and keep your framerate around 60 anyway , you 'll enjoy the ips more . 
+  not good for overclocking . 
+  edit : http://www.microcenter.com/product/452118/z170-pro4_lga_1151_atx_intel_motherboard here you go, 
+  edit2 : this one is better and cheaper if you count the rebate http://www.microcenter.com/product/452104/z170_extreme4_lga_1151_atx_intel_motherboard, 
+  you 're guaranteed that the advertised speeds work . 
+  sure , you might be able to oc a 2133mhz stick to 3000mhz and save money but you might not be stable or might have to loosen the timings and end up with a slower ram compared to the one rated at 3000mhz . 
+  in addition to that , the higher rated memory will have an xmp profile which means that with few clicks in bios you have the rated speeds up and running while manually ocing the ram is a bit more involved , especially if you 're not guaranteed stability . 
+  finally , you really want to run 2 sticks in dual channel , and buying 2x2133mhz gives you even bigger chance to have a slow stick that might not be able to hit the target 3000mhz . 
+  buying 2x3000mhz still guarantees you both sticks will reach it . 
+  tl ; dr advantage is convenience and guarantee that the sticks will achieve rated speed and the price difference is n't that big nowadays . 
+  not to mention you can try ocing the higher rated sticks as well and presumably they 'll hit higher speeds than 2133mhz sticks would, 
+  i have no idea how the canadian market prices are but in us prices the best value is probably 480 4gb  470  480 8gb/1060 6gb  1060 3gb, 
+  performance wise it depends on games ( nvidia cards gain slight advantage in some dx11 games while amd cards perform better in dx12/vulcan ) , but in general it would go like : 1060 6gb  480\u00a04/8 gb  1060 3gb  470 ( but the difference in each step is very small ), 
+  if you have n't yet , you might consider overclocking your cpu as well ( though you probably have if you have noctua ), 
+  i have no idea how the canadian market prices are but in us prices the best value is probably 480 4gb  470  480 8gb/1060 6gb  1060 3gb, 
+  performance wise it depends on games ( nvidia cards gain slight advantage in some dx11 games while amd cards perform better in dx12/vulcan ) , but in general it would go like : 1060 6gb  480\u00a04/8 gb  1060 3gb  470 ( but the difference in each step is very small ), 
+  if you have n't yet , you might consider overclocking your cpu as well ( though you probably have if you have noctua ), 
+  edit : looking at canadian pcpp , seeing the cheapest 470 is $ 230 , 480 4gb is about $ 285 and 8gb 480 and 1060 6gb are for about $ 320-330 , the 470 is by far the best value but if you want better performance you can consider an 8gb 480 or 1060 6gb as well .

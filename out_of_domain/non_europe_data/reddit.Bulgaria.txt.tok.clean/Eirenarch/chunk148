@@ -1,0 +1,100 @@
+  suddenly the spa solution is n't working that well anymore . 
+  ienumerables were not designed with parallelism in mind but because they were designed well they work with parallelism . 
+  you just add . asenumerable ( ) and you get an enumerable that works in parallel . 
+  let is the main reason i think people who avoid the query syntax are misguided . 
+  i use it heavily . 
+  i did n't even know about into . 
+  now i can add it to my arsenal and make fun of people who write linq with lambdas . 
+  because controls are self-contained and you could just switch different control within a single page . 
+  also web forms controls that do callbacks manage their own url . 
+  ajax.beginform and actionlink require url which sometimes differs ( common pager partial view that can be used with multiple grids is a good example ), 
+  yes , this is how it works and it seems to be extremely effective business model . 
+  how the hell is one thread per core terrible for asp.net but good for node ( since 1 process per core is all that node allows ) ? 
+  sql is a functional programming language . 
+  also it seems to me that the query syntax is closer to languages like haskell and f # except that with these languages you could actually build the query syntax rather than have it in the compiler . 
+  your example is both uglier ( i guarantee front end devs will hate digging the c # code and tools wo n't help with the html when it is in the c # string ) and harder to build than the web forms version . 
+  the update panel does post the entire page . 
+  so what ? 
+  how often do you want to post 5 inputs but happen to have 50 more on the page ? 
+  i have never seen such a page in practice and the only time i have seen it was an artificial page that someone made up to demonstrate that update panels were slow . 
+  i do not see how this differs from my claim except that there are additional threads involved from iis . 
+  since the number of threads ( he says 2 additional threads ) is constant ( as opposed to proportional to the number of requests ) this will not affect scalability much . 
+  even then this is why we have had self-hosting option for years and will have katana soon to do all this in 1 thread . 
+  this particular library is server side one ( with a client side component ) . 
+  web forms is very hard to master and i this is a big problem . 
+  i am sorry that so many people , you included , do not understand it . 
+  there are so many gross misconceptions that are spread around . 
+  for example people tend to think that the code behind is equivalent to the controller in mvc and complain that they ca n't separate view from controller code with web forms ... yeah you ca n't ... when you are writing your controller code in the view . 
+  web methods are an after thought ? 
+  mvc is just a bunch of web methods . 
+  to be honest i have very little interest in arguing about the differences . 
+  in any case all that sql does is filter , map , fold , etc. 
+  - basically the linq operators . 
+  that last thing is not true . 
+  there is a sort method overload that takes a delegate and you can pass a lambda or build a helper method just like the comparing method in the java example . 
+  the problem is that this comparing method does not exist in the standard library . 
+  and then people hate cheese . 
+  i have not seen the game yet but i notice 3 threads about great cheese games in the past week . 
+  ca n't wait for the vods of this one . 
+  i did n't need the history lecture . 
+  i was there working with web forms ( and later with mvc ) . 
+  web forms did a pretty good job in shielding the developer from the web . 
+  i would take that protection even today . 
+  for example i have no interest in writing code to detect if a checkbox does not exist or is not checked ( which according to the people who built the web is the same thing ) . 
+  i do n't see how the fact that someone graduated in the 2010 knowing some piece of crap like php suddenly makes web forms bad and especially how this changes the fact that something is easier and better in web forms than in mvc . 
+  it is funny how your comment gives more real information than two crappy articles on the subject i have read ( including the linked one ) . 
+  so lets see ... you got a job on a 10 + years old project which has become very hard to maintain which happens quite often with 10 years old projects and you blame web forms for this despite the fact that the project actually runs the whole company and manages to make a decent amount of money . 
+  then you used your asp.net mvc background to do something that ( at least looking at the link ) has exactly 0 asp.net mvc in it but it got refused probably because consistency is more important than quality ( and i can understand that ) . 
+  which of these means that web forms is not the better tech to build a wikipedia clone ( note that i say clone and not modern version ) which was my original claim ? 
+  if your code is client side then you are not using asp.net mvc . 
+  asp.net mvc is a framework for generating html on the server . 
+  btw [.net fiddle ] ( https://dotnetfiddle.net/ ) supports mvc projects, 
+  introducing just a new set of collections and slightly modified syntax for declaring generics may work just fine . 
+  you do n't need to break backward compatibility in million ways like python did . 
+  in the java world this is comparable to the new date api . 
+  while most of this is correct it is totally unrelated to the issue at hand . 
+  saying that . net devs started using the new . net collections because microsoft told them to is like declaring that java developers only used generics because sun told them to . 
+  cheese produced an interesting game therefore we should promote cheese . 
+  i do not care who cheeses and who defends . 
+  so no reified generics ? 
+  i was about to write a list but turns out oracle already wrote one -, 
+  you should have avoided the hots spoilers ... for all we knew in sc1 the overmind was purely focused on survival and expansion . 
+  not exactly evil but driven by evolutionary powers like an animal with no regard for the wellbeing of any other species but the zerg . 
+  why do n't you play sc1 ? 
+  it is worth it . 
+  because the jvm knows nothing about generics . 
+  the java designers decided that they could n't be bothered to change the jvm and put generics only in the compiler while the jvm still sees every t as an object . 
+  i got all of these right . 
+  i do n't know if this is good or bad ... 
+  since c # 5.0 you can actually use a foreach variable in a lambda . 
+  did you notice that i said `` foreach '' and the example is a for ? 
+  it is `` fixed '' for foreach . 
+  there is a good reason why it can be `` fixed '' for foreach and not for for . 
+  the question is where the variable is declared . 
+  there are strict rules that say where the variable is declared with for loop and with for loop the developer owns the declaration while with the foreach the actual declaration is hidden . 
+  they changed the declaration for the foreach to be inside the loop . 
+  note that in both cases this is not a bug in the c # compiler or language . 
+  this is a matter of variable declaration and how the syntactic sugar that is foreach declares the loop variable . 
+  they did break backward compatibility when they changed the same behavior for foreach loops . 
+  yes it is one of the rare breaking changes in the language . 
+  on the other hand i have n't heard anyone complain . 
+  i also do n't think that anyone ever wrote the corresponding foreach code on purpose so worst thing is they fixed someone 's bug . 
+  does n't make much sense to me but if this is how you prefer to do it ... 
+  what if you needed to accept a json where the structure may change ? 
+  or if you needed to send such a json . 
+  well , of course you can . 
+  after all according to turing you do n't need the if , for , do/while and foreach as while is enough to emulate all of them but we still use different constructs for different tasks because they are easier to write and read for the specific case . 
+  how the hell is one kind of string ( dynamic ) less robust than another kind of string ? 
+  why ? 
+  i often downvote submission on the basis that they are not interesting to me . 
+  i thought that was the whole point of reddit to promote the posts that most people find interesting . 
+  if i do not find a submission interesting for whatever reason ( including that i do not care about the technology ) i downvote . 
+   it would be another thing if dynamic offered a way to override the resolution behavior , but it does n't . 
+  uhh ? 
+  yes , it does - http://msdn.microsoft.com/en-us/library/system.dynamic.dynamicobject ( v = vs. 110 ) . aspx, 
+  in fact this is what the json libraries are doing otherwise they wo n't be able to function . 
+  just for the record it is a life-saver when working with com ( the compiler binds dynamic to com objects ) . 
+  not that anyone wants to work with com but sometimes we have to . 
+  but on this subreddit there is no shortage of good content so we have to select based not only on the quality of the content itself but also on what would be interesting for the masses . 
+  i do remain neutral on many threads if i feel they may be interesting to people of all backgrounds interested in the topic . 
+  for example i never downvote threads about graphics programming ( i have no experience with graphics programming ) but i do downvote threads on web programming with specific language that i am not interested in .

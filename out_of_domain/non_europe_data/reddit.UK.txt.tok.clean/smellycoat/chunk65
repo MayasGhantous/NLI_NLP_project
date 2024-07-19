@@ -1,0 +1,100 @@
+  although it was a total dick move on the part of the security guys , i suspect it 's an attempt to maintain their ( rather invasive ) receipt checking policies . 
+  well , unix has had the suid bit for years to allow administrator-approved binaries to be executed with root privileges . 
+  there 's also sudo , which can be configured to give users access to particular commands ( without having to authenticate themselves ) . 
+  using application signatures is kinda the same thing , but lots more effort , harder for end-users to make use of ( i 'd guess , though i admit i 'm assuming they do n't provide an easy way to use the system for your own programs ) . . and it 's clearly not entirely foolproof , 
+  i do agree . 
+  with one exception . 
+  sudo , in the form it 's used in ubuntu , is actually pretty good for single-user machines . 
+  the alternative is , what ? 
+  having two passwords ? 
+  however , you 're right to point out that sudo is often misused on multi-user machines . 
+  maybe it 's because the typical way to use it is a `` command at a time '' , rather than logging i as root or getting a root shell with eg ` su ` . 
+  i 'm not sure why people do n't realise they can get a root shell with , eg , ` sudo bash ` , making it pretty much exactly the same as giving people the root password . 
+  i use , on an almost daily basis ; windows xp , ubuntu , freebsd and os x. vista/win7 ( and to some extent xp ) are * by far * the worst offenders for popping up random shit and interrupting me when i 'm trying to get shit done . 
+  i had an old webcam that i replaced because it had shitty focus . 
+  some years later i took it apart to see if i could use it for a random project ( i wanted to mount it to my window as a security camera , but it was pretty big , so was just seeing how much of the casing was actually necessary - not much , as it turns out ) . 
+  once i got it apart , i found that the lens actually had variable focus . 
+  the lens was screwed into a plastic part and fixed in place with a blob of glue , after pulling off the glue i could twist it to ` screw ' it in and out and alter the focal length , but there was no way to do it with the casing on . 
+  a couple of minutes of fucking about later , i 'd fixed the focusing problem . 
+  but , as a kid , i 'd often lay in bed with my eyes tightly closed and try to convince myself i was sleeping at the other end of the bed . 
+  it 's actually rather tricky to do , and can take some time , but it 's just a case of imagining yourself in the new position . 
+  it helps if you mentally run through all the locations of the stuff around you . 
+  my bed had a window above it at one end , and a wardrobe behind it at the other . 
+  picturing the window or wardrobe and all the other stuff around it helped a lot . 
+  as does imagining your body is slowly turning on the bed ( sounds odd , i know ) . 
+  once i managed to do it ( and it 's very odd , your brain just suddenly snaps to thinking you 're the other way up ) , i 'd open my eyes very slowly - and enjoy the slightly bizarre sensation of everything snapping back into place . 
+  once achieved , the illusion is so strong that it 's just as hard to to ` undo ' it ( at least without opening my eyes ) . 
+  and , very bizarrely , if i fell asleep without ` breaking ' it , i 'd occasionally wake up thinking i was at the other end of the bed . 
+  in fact , i 'm going to have a go at that tonight , 
+  why , if i [ scale this pic down a bit ] ( http://i.imgur.com/moern.jpg ) , does there appear to be a regular `` grid '' pattern in it ? 
+  now i 'm the grandpa !, 
+  maybe . 
+  though scaling it in photoshop does n't do that . 
+  that 's from firefox 's scaling - it 's just how it appeared when i clicked it . 
+  yep . 
+  15 '' macbook pro , my first mac . 
+  i actually use lots of different oss . 
+  almost daily , in one way or another , i use : windows ( xp ) , os x , freebsd and linux ( ubuntu and debian ) . 
+  in terms of the os alone , os x is definitely the most polished and immediately usable convergence of the four . 
+  unixy things are hard work ( or sometimes impossible ) on windows , and configuration can be painful on linux/bsd ( although usually * possible * , eventually ) . 
+  os x is light years ahead of windows in terms of general usability and the cohesiveness of the interface . 
+  but , for me at least , it 's definitely not perfect . 
+  i struggle a lot with the keyboard shortcuts , and even key locations , being different . 
+  i 've sorted out most of them ( with a combination of a few 3rd party programs , a custom keyboard map , and a custom cocoa shortcuts file ) , but not completely , and it does have an effect on my productivity . 
+  i still have n't found a text editor that satisfies all my needs , either . 
+  the lack of a nice gui for many customisation options ( and some things actually being apparently impossible to customise ) is one of the areas that bothers me slightly . 
+  but in all , it 's a great machine . 
+  lovely hardware , and out of the box os x is miles ahead of anything else . 
+  one thing that does bother me a little is apple 's `` magic mouse '' . 
+  in almost every way it 's harder to use than a typical mouse . 
+  while i consider my macbook to be an excellent example of functional industrial design ( and the trackpad is fucking amazing ) , the mouse seems like it 's just style-over-substance . 
+  i love the work you 've done here man . 
+  love it . 
+  it 's fucking amazing . 
+  part of the success of your subreddit ( apart from the obvious quality of the lessons ) is the low barrier to entry . 
+  everyone could get into and follow the lessons at their own pace , regardless of how serious they are to begin with , and without getting themselves into a position where they were paying money . 
+  the simple fact that there 's money involved will turn a lot of people off immediately . 
+  there 's plenty of free resources for this kinda stuff , and without being able to see the quality of your content , many people will likely look elsewhere ( there 's also the problem that , to a newbie , quality is hard to judge  ) . 
+  that 's not a reflection on the quality of your content , it 's just the way people work . 
+  i can see a lot of people going through a lesson or two , getting interested enough to pursue it , realising they 're going to have to pay and saying `` fuck it , i 'll torrent a programming book '' . 
+  monthly fees are a huge , * huge * turn-off for many people - even if they 're relatively small amounts of money . 
+  i 'd strongly advise rethinking that , or at least providing some form of flat-fee option . 
+  one major problem with locking content away is that you lose most of your google-fu ( and thus lots of casual visitors ) . 
+  the setup you 're proposing lacks any significant opportunities for marketing , so your user base will be growing very slowly and almost-entirely by word-of-mouth . 
+  if this is what you want , then that 's cool ( but bear in mind that of the ~ 5000 subscribers to this subreddit , i think you 'll be lucky if you get 10 % to sign up for a paid account . 
+  again , not a reflection on the content ! ) . 
+  have you considered attempts to monetise this stuff without actually locking away or restricting the content ? 
+  that would solve many of the slow-uptake problems i suspect you 'll see , but will mean you 'll be building a site for several thousands of people , rather than a small community of a few hundred . 
+  i can see tons of opportunities : affiliate links for programming books , related software , etc. 
+  ads for relevant products/services . 
+  you could even keep the fee structure in return for a few benefits ( personal help , early access to new content , ad-free site , etc ) . 
+  hell , the job-related stuff alone could be enough to make you a tidy profit ( stackoverflow charges $ 350 per ad for 21 days , and that 's considered cheap ) . 
+  even donations - a site like this will by its nature have plenty of engaged members , so would probably be able to keep a trickle of donations coming in , and be able to raise a few thousand dollars every so often with `` donation drives '' ( one entirely random idea off the top of my head : `` donate a coupla dollars or more to vote on the subject of the next lesson ! '' ), 
+  you have excellent content , man . 
+  i suspect if you open it up to the masses and build a little community around it , you could make yourself a tidy profit from it . 
+  `` demagnetised '' ? 
+  your colleague was talking bollocks , 
+  data corruption can happen for a variety of reasons , software-related or hardware-related . 
+  if a drive identifies a bad block , it 'll mark it as such and not use it again . 
+  this happens from time to time , and is n't necessarily a problem . 
+  sounds like you 've been doing the right thing , testing it by reading and writing large quantities of data will tell you if the drive is a problem . 
+  you probably want to try that in the machine you intend to use it as well as in another machine , as it could easily be a problem elsewhere . 
+  it 's worth testing your ram , by the way ( lots of linux distros ship with something to do this ) . 
+  you 're right , this is a common situation , but usually power-related problems will manifest themselves when cold-booting ( as that 's when power draw is highest for most devices ) . 
+  a machine that fails to boot first time , but starts up okay after a reset or two is the traditional indicator of an underpowered psu . 
+   i do n't think that $ 9.00 / mo ( max ) is a significant barrier, 
+  while i absolutely agree that $ 9/month is a * perfectly * fair price for the quality and quantity of material you 're offering , charging * any * money at all ( even a token $ 1 one-off payment ) will immediately and dramatically reduce your potential audience , and a monthly fee even more so . 
+  i 'm not saying you do n't deserve to make good money from your work - it 's excellent , and you absolutely do . 
+  the point i 'm trying to make is that i do n't think you 'll get very people paying that $ 9 . 
+  for example , here are some very vague , pulled-out-of-my-arse numbers : let 's say 50 % of the people subscribed here are still following lessons , posts , etc ( ie , they still care enough to follow what you 're doing to another site ) . 
+  and 50 % of those are not eligible for free accounts . 
+  and 10 % of those are * willing * to pay . 
+  if those numbers sound low , consider that out of 5000 subscribers , you get around 50-75 ( up to a coupla hundred ) upvotes on your posts here . 
+  so , that 's ~ 125 paying subscribers , $ 1125/month . 
+  and server hosting , etc will eat a chunk of that . 
+  churn rate will knock out a percentage of your subscribers every month , although the actual number is much harder to estimate and will likely depend on whether you 're able to produce content at a fast enough rate to keep people interested long-term . 
+  but it 's safe to say that most people wo n't continue paying forever , eventually they 'll have learnt enough to go out on their own . 
+  if i were looking at this as a business , my concerns would be that :, 
+  * your starting numbers do n't look healthy enough to pay your costs plus a living wage for yourself, 
+  * limiting access to lessons for free accounts means limiting access to search engines . 
+  that 'll severely reduce casual traffic , and kill stuff like traffic from blogs etc , severly limiting opportunities for growth ( think about how beneficial a link to one of your lessons from one of the many high-traffic programming-related blogs could be for your subscriber numbers ),

@@ -1,0 +1,100 @@
+  while in this case you would probably be fine , it is a very bad habit to develop when learning the correct way does not take any more effort . 
+  your post had some good information in it . 
+  the technical bits of it where spot on . 
+  i have a kettle on my desk at work ( in the us ) . 
+  i get lots of weird questions about what it is :( . 
+  i always preferred using ` cat ' over ' < ' because cat provides a consistent command . 
+  it allows building a pipeline that is read as a pipeline . 
+  it is also very easy to do things like :, 
+  cat file.txt | head | ... 
+  which allows you to test the rest of your command pipeline on a subset . 
+  then you just delete the head and run it for real . 
+  this is an extremely common convention in technical circles . 
+  we label servers ` blahx.yvr1 . < company  ` or ` blahx.lhr1 . < comapany  ` all the time . 
+  makes for a nice logical naming system . 
+  an absolutely fantastic produce store that also sells european candy , jams and other imports . 
+  sorry , i meant the boat he is on not the one you can see . 
+  i use macvim but i selected gvim . 
+  i have around forty plugins . 
+  many of them are syntax highlighting , code completion etc. 
+  many for languages i do n't use nor ever have ( wtf is vim-cucumber doing in my plugin folder ? ) . 
+  i only use a few that significantly adjust the vim experience : minibufexplorerpp ( i could drop this and probably should ) , ctrlp , gitgutter , and fugitive . 
+  so in your home directory you should have :, 
+  * ` ~ / . vimrc ` : your personal config, 
+  inside of ` ~ / . vim/bundle ` you git clone the plugins you want . 
+  i 'm not familiar with any ' ~ / . vim/pathogen / ` directory . 
+  you should have ` ~ / . vim/bundle/delimitmate / { . git , ... } `, 
+  oh and in your . vimrc you should have :, 
+  '' load the pathogen package manager . 
+  there is a bug that causes vim to return 1 instead of 0 if filetype is not, 
+  '' on when you attempt to turn it off . 
+  it must be off for pathogen to work, 
+  '' correctly . 
+  so turn it on then turn it off there by ensuring it is off and, 
+  '' that vim returns proper status codes . 
+  filetype on, 
+  filetype off, 
+  call pathogen #infect ( ` bundle / { } ' ), 
+  call pathogen #helptags ( ), 
+  call pathogen #incubate ( ), 
+   i 'm a little confused by { . git ... } in your first comment . 
+  if that 's refering to simply cloning the git into delimitmate / if so , i 've done that . 
+  i also did n't have execute pathogen #incubate ( ) after helptags ( ) . 
+  sorry i was trying to say ` deliminate / < contents of the deliminate git directory  `, 
+   i had nothing other than execute pathogen #infect ( ) . 
+  should i have an ` infect ' statement for every plugin in which the plugin is specified ? 
+  you are correct that an infect statement is needed for each directory . 
+  but to make this simpler pathogen provides a helper . 
+  specifically the ` { } ` in ` bundle / { } ` tells pathogen to infect every directory in bundle directory . 
+   execute pathogen ... and some refer to call pathogen ... what 's the difference ? 
+  is there a difference ? 
+  which should i use ? 
+  ` call ` calls a specific function with arguments . 
+  execute takes a string and runs the entire thing even if there are multiple function calls . 
+  if you are familiar with c then think of it as the difference between execv and system , if not ignore this sentence . 
+  i personally reference the language as golang around 60 % of the time . 
+  it actually is less confusing . 
+  i 'd be more in favor of renaming the language . 
+  you are in fact wrong . 
+  the ip is set in the packet by the os/application . 
+  this is really useful for somethings but has allowed people to do amplification ddos attacks using a dns server . 
+  basically i send you a dns request that is a small number of bytes big with a spoofed ip . 
+  the result is a much larger number and gets sent to the spoofed ip . 
+  you get a few thousand dns servers responding then you can crush the spoofed ips connection while yourself only sending a very small number of bytes . 
+  spoofing is commonly done at the udp layer . 
+  udp and tcp are on equal layers . 
+  tcp does n't work because the three way handshake requires that both sides are able to successfully make requests and receive responses from each other . 
+  you are correct about ftp and scp being at a higher layer from tcp and requiring tcp to work . 
+  i just implemented this at work for github : enterprise . 
+  the biggest problem was intercepting requests to github not generating the meta tag . 
+  ` column - t ` . 
+  will sort input into nicely organized columns . 
+  kernel interface table, 
+  i 'm pretty sure i 'm misunderstanding what you are saying . 
+  awk ' { print $ 2 } ' will work without sending it through column first . 
+  i use this feature of vim all the time . 
+  sorting , etc. 
+  upstart/daemontools/runit / god/systemd/init all solve this problem . 
+  i personally am a big fan of daemontools once you have it configured it has a very nice simple ( shell ) api for doing things . 
+  i think it is just will call only . 
+  hmm that seems really cheap to me . 
+  i was expecting 10k minimum . 
+  openopenssl, 
+  there was a pretty decent one ( cjones.org/hg/go-xmpp2.hg/xmpp ) but it only really implements the very core of the language but not things like muc . 
+  it looks like it recently disappeared . 
+  git is absolutely 100 % not a gnu program . 
+  it is registered under the gpl but has no affiliation with fsf . 
+  as for your other point hosting git yourself is a pain . 
+  every git solution ( github , stash , gitolite , gitlab ) have their own collections of advantages and trade offs . 
+  making a decision is not as simple as do it in house or do it on the cloud . 
+  * edit : updated wording on second paragraph *, 
+  source : just rolled out github : enterprise for a 100 + person org . 
+  a young girl gets a visitor from beyond the grave who gives her a sword and set of bells that belonged to her father . 
+  to discovery her father 's fate she has to travel across a wall from the late 18th century country where technology rules to a 10th ( ish ) century country where magic rules . 
+  along the path she battles the undead , meets companions and explores her families history . 
+  does the walker choose the path , or the path the walker ? 
+  chai is often used to refer to a very specific type of tea . 
+  which is a indian blend of black tea and spices often mixed with milk . 
+  where are you in the us ? 
+  likely you will have to find a local import store . 
+  in sf bay area you can try draegers , and cameron 's pub .

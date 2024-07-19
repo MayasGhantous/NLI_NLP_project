@@ -1,0 +1,100 @@
+  [ this one . 
+  ] ( http://www.thisdaylive.com/articles/science-of-gay-marriage/158265/ ), 
+  the definition of an illness can not be completely objective . 
+  you could also argue that being fat or ugly is a disorder because it 's detrimental to procreation . 
+  it 's a fat people thing . 
+  holy shit , he 's like [ max human ] ( http://reddit.com/r/humanfanclub ) . 
+  but unix is like super secure by design , it 's impossible to design any viruses to attack it !, 
+  uncomplicated compared to other distros , but not to osx/windows . 
+  be prepared for using shit-tier foss alternatives for common software , spending hours on configuring basic things such as a touchpad , installing software by browsing stack exchange etc. 
+  i 'm a software developer and i switched to ubuntu 3 months ago , because windows sucks at everything bash-like . 
+  it 's really great to use if you take the time to learn it , but it 's a hassle when you actually need to get things done . 
+  i 'd recommend osx if you want to make the switch . 
+   which means you likely operate outside the use case of a normal windows user . 
+  that 's true , my experience is different from that of a regular user . 
+  but it does n't wholly invalidate my critique , as installing software still requires the user to interact with command line tools to some extent , which scares your regular gui-fond user . 
+   sure , if you did n't check the certified hardware . 
+  my hp elitebook is on the list , but ubuntu still does n't provide the same level of support as windows does . 
+  can not disable horizontal two-finger scrolling without disabling scrolling as whole , hibernation does n't work , no built-in support for different power modes etc. 
+  not to mention that i had to manually install a wifi driver that actually came with the installation , but was lacking a dependency . 
+  we get it , you vape . 
+   kiss whoever you want , i do n't give a fuck . 
+  good for you , but it does n't change the fact that gay people still face hardships that straight people do n't . 
+  gay guy living in tartu here . 
+  the lgbt are okay here . 
+  estonians are quite reserved , so while some people might voice their disapproval of anything gay-related , you 're probably not going to be harrassed or even less , physically attacked because of it . 
+  having a darker skin would put you in more danger than that . 
+  tallinn has a few gay clubs , though most of them appear to be russian-dominated ( at least that 's my experience in both x-baar and g-punkt ) . 
+  tartu has a monthly lgbt party which is much nicer , mostly youth-oriented and also attracts many people from tallinn . 
+  thus , nightlife options are limited , but not non-existant . 
+  what 's useful to know though is that while many people are not out in the sense of having a picture of them kissing their so as their fb profile picture , they are not very closeted either . 
+  just find yourself a few non-closeted gay friends and it 'll get the snowball rolling from there . 
+  that 's not truncation - 3.5 gets rounded to 4 . 
+  my hs math teacher messaged me on grindr a few days ago , ama . 
+  does it really surprise you that high-ranking officials have above average iq ? 
+  since you already promoted the use of promise.try ( which is not es6-compliant ) . . 
+  * use promise.method instead of promise.try to wrap methods that throw exceptions . 
+  * it 's not a conventional method , but sometimes you do need to break out of a promise - in that case , make a custom exception to throw and use . catch ( ) with return or . catchreturn ( ) . 
+  * a promise actually can be converted to a synchronous value with the use of generator methods . 
+  * whenever possible , flatten the promise chain - e.g. 
+  if you always return a promise from a then-handler , chain the next then-handler to the outer promise , not the one that you return/pass on . 
+  * remember that catch/finally links in a promise chain do not terminate the chain nor are pushed down the chain . 
+  a finally-handler that is put before a then-handler makes the finally-handler execute first . 
+  * remember that when returning a promise from a link/handler , only its resolved value is passed along . 
+  this is important when you think you can pass it a context with . bind ( obj ) . 
+  * remember that each link in a promise chain creates a new instance . 
+  this is important when you wish to push a handler down a chain that is returned from a function and is appended new handlers to outside that function . 
+  for example :, 
+  function transaction ( ) {, 
+  var tx = promise.method ( db.starttransaction ) ( ), 
+  . then ( function ( client ) {, 
+  this.client = client ;, 
+  process.nexttick ( function ( ) {, 
+  / / trying to append this to the chain after execqueries ( ) has appended all of its handlers . . 
+  tx.finally ( function ( ) {, 
+  this.client.autocommit ( ) ;, 
+  return tx ;, 
+  function execqueries ( ) {, 
+  transaction ( ), 
+  / / . . but it gets executed here ( and only if the returned promise has not, 
+  / / already been solved by the time nexttick adds a new handler ), 
+  . then ( function ( ) {, 
+  this.client.query ( . . ) ;, 
+  oups , you 're right . 
+  [ it is in another article that references the posted article , though . 
+  ] ( https://en.wikipedia.org/wiki/disco#1979.e2.80.9381:_backlash_and_decline ), 
+  sorry , not a native speaker . 
+  junior software developer at a robotics company , also studying cs full time . 
+  if i got paid as much working in academia/doing theoretical research , i 'd quit in a day . 
+  the classic rutherford model is still the one that 's taught the most , because it eases the explanation of many other phenomena ( e.g. 
+  energy levels , valence electrons , em radiation generation etc. ) . 
+  the cloud model is mentioned too , but more througuhly studied together with orbitals , which is more an advanced topic . 
+  [ this sub right now ] ( https://i.redditmedia.com/vfettfl_x8r6vfquhdyjnxuqjooc8cpnpu4fsa0w2p4.jpg?w=575&amp;s=3c1673748c8cf3a9d29c424186d19664 ), 
+  did somebody mention web scale ? 
+  the best part ? 
+  a lot of them have horrendous documentation , so have fun exploring these libraries in a dynamically typed language that js is . 
+  le faith in humanity = lost , amiright ? 
+  the opposite of a bear - a young , slim gay guy , usually with little body hair . 
+  [ i know gays the best ] ( https://65.media.tumblr.com/4993628fa95ab5e9c4d0f7f3e8fe59af/tumblr_inline_ni8fwdg3zb1qebsjk.gif ), 
+  yes , as is hillary / s, 
+  you get a tiny adapter for your 3.5 mm headphones with the phone . 
+  unless you 're constantly charging your phone while wanting to use the headphones , it changes literally nothing . 
+  you ca n't deny that competition was the main driver behind both nations ' space programs . 
+  there was n't much to gain from sending a man to the moon other than showing the middle finger to the other and boosting the morale of the population . 
+  innumerable ? 
+  in what sense ? 
+  how can you take the value of a series for granted if the proof of its value relies on the notion of a limit ? 
+   since the series is bounded, 
+  so we 're back at limits . 
+  oh , you too ? 
+  this title is the new low . 
+   only 8 % of people can correctly guess the number of squares in the picture . 
+  are you one of them ? 
+   are you part of the minority that can guess the number of squares in this picture ? 
+   `` you are just parroting the media narrative . '', 
+   proceeds to list trump 's vauge , meaningless campaign promises alongside with infowars-level conspiracy about `` shillary and obongo creating the isis !, 
+  seriously , what the fuck is up with these putin-apologists ? 
+  sanctions were imposed on russia due to their military invasion of ukraine . 
+  people are acting as if russia is a victim of an international conspiracy . 
+  check his comment history , he 's dead serious . 
+  i 've always found it ironic how anti-globalists claim to be super woke and aware of everything around them , yet they all parrot the bullshit propaganda their alternative news sources provide to them .

@@ -1,0 +1,100 @@
+  edit ; reloaded the page , here 's a couple new posts :, 
+  - [ oh man look at this ha ha so funny ] ( http://i.imgur.com/7xeitlv.png ), 
+  - [ come on they 're not organizing for real !, 
+  - [ this happens on other sites all the time !, 
+  you think that 's a joke ? 
+  they 're just trolling ? 
+  come on i 'd like to see you come up with some relativization for it or something . 
+  get real , the place is packed with racists and far-right extremists . 
+  not all of them , but the general atmosphere is like that . 
+   4chan leans to the left for the most part, 
+  there are a couple of boards that lean to the left but they 're very unpopular , like / lit / or / sci / . 
+  the most popular ones , like / b / , / g / , / v / , and / pol / , are heavily involved in right-wing internet presence and schemes . 
+  they fucking originated and fueled gamergate for the most part . 
+  it 's irrelevant what you and i think about that for the moment -- but if that 's possible on a left-leaning site then i shit fucking rainbows . 
+  i 've been a regular on / g / for quite a long time and there 's definitely been a change in sentiment over the last couple of years as a result of quite direct invasions from / pol / and other sites . 
+  you can see threads about sjw 's destroying tech on a daily basis , and everything from more cunning politics to * very outright * misogyny and racism . 
+   has it occurred to you that most posts are coming from places where english is the primary language , yet everything is written in perfect english ? 
+  you mean where it 's not a primary language ? 
+  because of the flags that the posters have ? 
+  still i do n't see how that 's relevant . 
+  look i 've been checking out / pol / on an almost monthly basis since it was instituted , i 've seen the board transform from trolls to ron paul supporters to what it is now . 
+  there have always been all sides of the political spectrum , but most of it is not harmless trolling , it 's actual racists and nazi biggots , and i do n't really see the point in denying that . 
+   pro-gg and vote democrat, 
+  even if you are , most of what was happening was not at all representative of left-leaning political views . 
+  especially not the part at 4chan . 
+   instead of trying to answer 12 x 11 , just break it down a different way . 
+  figure out what 12 x 10 is -- which should be easy -- and then just add another 12 onto that to get the answer of 132 . 
+  this is what i was doing for as long as i remember , i mean it 's not like there 's a billion equally efficient times you can multiply by , this is the most intuitive . 
+  technical defects are n't consciousness lol, 
+  this is a great problem !, 
+  essentially my solution is this : there is a difference between a purely computational process , and a physical one . 
+  a computational process is an abstraction of a physical process -- and the difference is that two computational processes can be * identical * ( they 're sequences of abstract state changes ) , while two physical processes , even if equivalent in everything we can measure -- are still two ** distinct processes . 
+  consciousness requires this distinction exactly because of this `` cloning problem '' , as i 've begun calling it . 
+  once you clone a conscious object , it becomes a * distinct physical entity * , with its own * completely distinct * subjective experience . 
+  imagine if you simulated two conscious processes on two napkins , in parallel . 
+  if this is really possible ( if it can be done on a computer , it can be done on a napkin ) -- then the two processes , even if the sequence of state changes are the same , have to be `` fundamentally distinguished '' . 
+  which means it 's not about information or computing , but physicality of the computing device . 
+   is that from something else or is that yours ? 
+  unfortunately both the cloning problem and the napkin example are something i came up completely on my own , meaning that i do n't really have any further resources that examine the subject in more detail . 
+  that was why i was really excited when i saw someone else had the same intuition about the issue . 
+   it separates the calculations from the machine . 
+  yes , that 's the heart of the matter . 
+  there would be rules for calculation ( the program ) , memory ( the napkin ) , and the processor for applying concrete rules ( a human or a simple machine ) -- so where in this simulation does the consciousness arise ? 
+  moreover , how would two equivalent napkins produce separate consciousnesses ? 
+  note , the consciousnesses do n't observe the napkin 's environment , but whatever is fed into the simulation , which is artificial and equivalent for both napkins . 
+  so it has to be about some * physical * -- not computational -- phenomena . 
+  ** something ** has to sense , and sensing requires identity and physicality . 
+   but only if you 're willing to allow for the possibility that technical defects might follow a pattern that indicates something more than technical defects . 
+  but nobody does . 
+  we know why most technical details happen . 
+  are you trolling ? 
+  you can say that about literally any phenomena . 
+  this is n't philosophy it 's supernatural woo . 
+   not trolling . 
+  ok then , i was honestly suspicious , but i 'll try to be less arrogant now . 
+   the crazy-soundingness of an idea does n't determine its value . 
+  it 's not about the idea , it 's about the `` epistemological assumptions '' it requires . 
+  an idea could have huge explanatory value -- for example `` god did it '' is a marvelous idea , truly , if you accept it you can really get far in all your life-philosophical struggles . 
+  but i have higher epistemological standards . 
+  i 'm not saying your idea would be a bad basis for an sf novel , or is n't interesting * in general * -- i 'm just saying it 's literally an ad hoc `` what-if '' explanation of things i will assume you 're probably not very technically/scientifically familiar with in the first place ( electronics , and certainly consciousness ) . 
+  furthermore , the idea * really does n't * make much sense . 
+  we know what causes those technical defects . 
+  in fact they happen in isolated cases in mostly artificial scenarios -- we know it ** much better ** than we know the rest of nature . 
+  so if you 're looking for some dark , unexplored area to use for ad hoc explanations -- *** electronics is one of the worst places to go to . 
+   haskell has gadts , which are not like classes , but are a functional cousin of classes . 
+  i do n't see how those two are related at all . 
+  there 's no truly analogous concept to oop classes in haskell . 
+  if by `` class '' you mean `` grouping data '' , then yes almost any type system can be said to be analogous to them , so why choose gadts specifically , and not focus on more familiar nong-adts ? 
+  ok , here 's some clearing up of confusing terminology then :, 
+  - gadt -- generalized ** algebraic ** data type ( [ wiki ] ( https://en.wikibooks.org/wiki/haskell/gadt ) ), 
+  - algebraic data type -- types formed by combining other types ( regular haskell types you can define with ` data ` ), 
+  - adt -- *** abstract *** data type , by convention that 's what `` adt '' refers to , nothing to do with the two above . 
+  they 're essentially the opposite of algebraic data types in that their structure is hidden from the programmer and embedded into the language itself . 
+  haskell example : ` int ` , ` float ` , etc. 
+  classes are really a whole other thing , no use in comparing them . 
+  you could say that they 're product types , i.e. 
+  they are algebraic in the sense they combine their member types , but i do n't see any particular use for that analogy . 
+   choice is completely irrelevant unless pro-choicers believe everyone should have a choice on whether or not they are allowed to commit murder . 
+  not at all . 
+  imagine you wake up in a hospital , tied down , with various tubes pumping your blood to some other unconscious person next to you . 
+  then the doctors come in , apologize , and explain that the person is the most virtuous violinist in the world who has an exotic condition and can only be saved by 9 months of therapy with your blood . 
+  if you go , he will die . 
+  so would you like a choice ? 
+  no you 're completely wrong , it 's about choice . 
+  let me quote myself from another post :, 
+  not at all . 
+  imagine you wake up in a hospital , tied down , with various tubes pumping your blood to some other unconscious person next to you . 
+  then the doctors come in , apologize , and explain that the person is the most virtuous violinist in the world who has an exotic condition and can only be saved by 9 months of therapy with your blood . 
+  if you go , he will die . 
+  so would you like a choice ? 
+  no you 're completely wrong , it 's about choice . 
+  let me quote myself from another post :, 
+  not at all . 
+  imagine you wake up in a hospital , tied down , with various tubes pumping your blood to some other unconscious person next to you . 
+  then the doctors come in , apologize , and explain that the person is the most virtuous violinist in the world who has an exotic condition and can only be saved by 9 months of therapy with your blood . 
+  if you go , he will die . 
+  so would you like a choice ? 
+  it 's kind of shitty to completely ignore my example and provide an alternative of your own , usually people in discussions actually engage their opponents directly . 
+   so would you like a choice ? 
+  are you asking whether adult me does n't want to get killed ?

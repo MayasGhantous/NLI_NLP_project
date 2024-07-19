@@ -1,0 +1,100 @@
+   extremely weak typing ( not sure if this is a good or a bad thing ), 
+  i do not have strong opinion on static vs dynamic typing but dynamic + weak seems like very bad combination to me . 
+  i like static + strong like in python . 
+   code hot swapping, 
+  available practically for all server side languages except c # which will get it in the next version . 
+   relative high performance, 
+  true but java and c # perform even better . 
+  still seems to have the best performance if you prefer dynamic typing . 
+   ability for functional / functional reactive programming, 
+  like every other major platform ? 
+   very easy for beginners ( makes it possible to develop frameworks that are usable by experienced programmers and beginner / casual devs ), 
+  true but comes at the cost of being much harder to control the junior programmers on your team and detect their mistakes in time . 
+   ability to run on server and client and communicate between the two seemlessly with libraries like socket.io, 
+  agreed althoung c # 's dynamic + signalr are very close to the ease of use of js and socket.io . 
+  still js is stronger at this due to being able to reuse literally the same code . 
+  as i said - a result of the sad history of the industry that let the crappiest language be the only one running in the browser . 
+  to sum it up - these advantages may be advantages compared to php but certainly do not provide a lot over what java and . net have and if you have a big team with various degrees of expertise the disadvantages seriously outweigh the advantages . 
+  why ? 
+  how many people at your job are not using vs ? 
+  what you describe is not what the sample does although the sample could be more clear . 
+  what it actually shows is that you can find something for the cpu to do ( you are not required to do so ) . 
+  in fact this gives you yet another advantage compared to node callbacks ( it is roughly equivalent to promises ) . 
+  and no , await does not block the thread it releases the thread to be used by another request . 
+  when the async operation completes the method is handed a thread and continues execution where it left off . 
+  basically you get to write synchronous code while having all the benefit of asynchronous code . 
+  for example you can easily write a loop with async calls inside it where the loop continues after the async call completes or have a try/catch block with async calls using the regular language constructs and all this without blocking any thread . 
+  my first 3 minute attempt to implement parallellimit in c # without even running it is this - https://dotnetfiddle.net/twml1l of course i do use task.whenany which does most of the work . 
+  also note that there may be cleaner implementation that i did n't think of . 
+  nothing ever dies and it would be stupid for ms not to provide a migration path for what is essentially 6-7 years of web service development in their platform . 
+  note that even winrt has a wcf client . 
+  if they included it there chances are they will include it in some form in their future web stack if only to provide compatibility with legacy systems of which there are many . 
+  as far a i understand the existence of . net core ( open source . net ) would n't change anything for you which basically supports my point . 
+  did i get this correctly ? 
+  btw this approach is possible with ecmascript 6 generators and appropriate libraries . 
+  it wo n't be that clean and you still ca n't have multiple threads ( there is value in parallel programming for cpu intensive stuff so it is good for a platform to support threads ) but it may be good enough . 
+  my point is that ms can not skip wcf . 
+  first of all i find it absurd for an enterprise stack ( or any serious stack ) to lack a soap library and second i do n't see how they can not provide transition path for people who have investment in wcf . 
+  this is why i am willing to bet that at minimum there will be a wcf client for . net core . 
+  well it seems that the whole workflow idea has died out . 
+  i first heard of this kind of tools in a java conference but it seems that these days they are not doing it in the java world either . 
+  this is certainly true . 
+  i am disputing the claim that `` they are finally starting to get it '' . 
+  they knew it all along . 
+  at the start it was not good for them to open up because they were strong and now they have finally admitted that they are weak and should be more open at least until they are strong again . 
+  business as usual for the it world . 
+  i see . 
+  if you want to use vim and another os i understand but most . net devs just declare they are excited because open source sounds cool but most of us really do n't get any value from the changes . 
+  i just assumed you were a typical . net dev , 
+  requiring a function with certain signature sounds very close to an api to me . 
+  hmm ... and i do not see any projects being converted from . net to other web frameworks . 
+  you could say that visual studio was somewhat of a cost . 
+  if the mono guys can build a largely compatible framework through reverse engineering what makes you think they ca n't handle the maintenance of the original . net . 
+  i mean i somehow feel that reverse engineering is harder than building your own thing or developing on a solid foundation . 
+  no sane person will migrate a project to another stack . 
+  there are very few examples of this and none of it was from a stack as healthy as . net . 
+  probably some were migrated from cold fusion . 
+  as / u/lenessia pointed out twitter is an extreme case but yes , it is one of the very few examples, 
+  every corp likes spending less but they have a different definition of `` spending less '' . 
+  how do you think we ended up with so many corps using . net over java ? 
+  the clr is definitely not as optimized as the jvm . 
+  it seems like it could be ( value types and generics ) but currently the investment in the jvm is much greater ... for now . 
+  `` not taking patches '' is not true in the context of the conversation ( which is asp.net 5.0 and . net going open source which caused the author to evaluate ) . 
+  various benchmarks point that way, 
+  you can also test yourself i guess . 
+  if you try you can make c # faster . 
+  for example if you force java to box a lot with generics the clr may win but chances are real world code would be some percentage faster on the jvm . 
+  that makes no sense since ms ca n't and never have spread any fud about patents concerning java . 
+  after all java predates . net and if anything . net will be in violation . 
+  notice the past tense i have used in my previous statement . 
+  in the first benchmark there are at least two working . net implementations . 
+  also you can check previous rounds where they do not check for correctness . 
+  you will also notice that the top of the chart is occupied very consistently by java implementations . 
+  of course these benchmarks are not conclusive and end of all benchmarks but i had yet to see any benchmark where . net wins over java . 
+  not even one . 
+  while i agree with the general idea i think we can and should make exception for php in particular . 
+  makes me sad every time i read about it . 
+  and i do need to read about it because i periodically forget the details . 
+  btw while we were talking another benchmark got linked on reddit - https://github.com/dsl-platform/json-benchmark, 
+  . net lost again :( ( yeah i am rooting for . net ), 
+  i have known about with for quite some time . 
+  fun fact - you will break the optimizations of most current javascript engines if you use with . 
+  i think with enough with it should be possible to make chrome slower than ie8 , 
+  please let me know if you find any benchmark you consider meaningful or any benchmark where . net wins . 
+  i was nodding in agreement with the article up to this point . 
+  then i experienced a powerful facepalm . 
+  my forehead still hurts ... 
+  how are we `` ignorant '' of desktop concerns ? 
+  truth is nobody cares about the desktop these days . 
+  it is not like the java world has made great investment in the desktop . 
+  did you read what you just wrote ? 
+  `` nobody cares about the desktop on windows anymore '' . 
+  nobody cares about the 90-something % usage share ? 
+  even if this is true i can claim based on that that nobody cares about the desktop in general since nobody cares about the vast majority of the desktop . 
+  and even if we ignore these two arguments against your hypothesis then still you have not provided anything relevant to the discussion since even if mac desktop software is of higher quality it did not drive any improvements in the frameworks used to develop it . 
+  name 3 programs developed in javafx, 
+  to be honest i do not argue about the importance of the desktop . 
+  i argue that nobody cares to develop tools for building desktop apps . 
+  i understand that . 
+  i was arguing that there is no competition in dev tools for the desktop not that nobody uses the desktop . 
+  i was wondering about that .

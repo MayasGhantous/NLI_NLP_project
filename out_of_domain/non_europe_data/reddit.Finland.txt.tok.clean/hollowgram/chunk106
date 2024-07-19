@@ -1,0 +1,100 @@
+  -- check if itunes is running, 
+  tell application `` system events '', 
+  if process `` itunes '' exists then, 
+  set okflag to true -- itunes is running, 
+  end if, 
+  end tell, 
+  if okflag is true then, 
+  tell application `` itunes '', 
+  set currentvolume to the sound volume, 
+  if ( player state is playing ) then, 
+  repeat, 
+  -- fade down, 
+  repeat with i from currentvolume to 0 by -1 -- try by -4 on slower macs, 
+  set the sound volume to i, 
+  delay 0.01 -- adjust this to change fadeout duration ( delete this line on slower macs ), 
+  end repeat, 
+  pause, 
+  -- restore original volume, 
+  set the sound volume to currentvolume, 
+  exit repeat, 
+  end repeat, 
+  else, 
+  set the sound volume to 0 -- 2007-03-20 script update to fix startup glitch, 
+  set pausepoint to player position, 
+  if pausepoint  1 then, 
+  set player position to ( pausepoint - 1 ), 
+  end if, 
+  play, 
+  repeat with j from 0 to currentvolume by 2 -- try by 4 on slower macs, 
+  set the sound volume to j, 
+  end repeat, 
+  end if, 
+  end tell, 
+  tell application front_app, 
+  activate, 
+  end tell, 
+  end if, 
+  - copy this into your applescript editor ( protip : \u2318 + space , typing `` applescript '' and hitting enter is the fastest way ) and save it somewhere ( eg . 
+  - now open [ quicksilver ] ( http://blacktree.com/?quicksilver ) , call up preferences ( \u2318 + , ), 
+  - select to triggers , go to custom triggers, 
+  - add a new hotkey ( small + at the bottom ) , type the name of the script , hit ok, 
+  - see the newly added command , click on the hotkey tab , go to settings and assign a key . 
+  - fading pause and play !, 
+  congrats , i hope you enjoy the bliss it has given me . 
+  now if anyone knows a way to bind that to f8 without hitting fn as well , let us know !, 
+  so i have some peeps i could ask to send an iphone to me , i 'm ready to take the risk that it wo n't get caught in customs ( = pay lots of taxes ) , any advice for that would be equally appreciated . 
+  what i want to know is that it 's probably mandatory to create a 2 year contract with at&t to get an iphone , but is there a plan you can take that would have zero innate costs , or is there a minimum i 'd need to pay each month ? 
+  how would you go about this in my situation ? 
+  [ joseph campbell ] ( http://en.wikipedia.org/wiki/joseph_campbell ) was a brilliant man who wrote a very influential book called the hero with a thousand faces where he laid the groundwork of unifying all cultures by showing that they all share the same underlying mythological structure in their stories . 
+  we experience through stories . 
+  if i were to ask you `` what happened '' or `` who are you '' you immediately relate a story to me . 
+  we naturally explain things to ourselves and this follows to the core of our being . 
+  we have a reason for why we think the way we do , why we hold the values we hold , and underlying all of this is our personal mythology : who we tell ourselves we are . 
+  i personally thought i knew my mythology . 
+  i held that i came from a hard childhood and sought to better the world by not only being kind to others , i would learn about the world as much as i could and help others understand issues , because if i would n't , who would ? 
+  it was only this weekend that i was able to delve deeper and discover that in fact the lack of a father in my childhood made me assume unrealistic expectations for what a man should be , watching gi joe and other cartoons when younger that molded my motives in ways i did n't even consider until this point , that i was seeking to show that i am mr. alpha , the leader , who does so much without asking for anything in return except admiration and acknowledgment on a subtle level that there is something superior within me . 
+  i was blind to my ignorance on basic human thinking , as i was striving for heights but did n't know the lowlands , i.e. 
+  how to be ` normal ' and compensated by trying to be great . 
+  by not actively seeking a more humane level of comfort and love from others i in turn made myself cold and did n't allow myself to be `` normal '' as i wanted to be seen as exceptional . 
+  as the chosen one . 
+  this is of course the tip of the iceberg and only a part of my personal mythology , but a part that i can illustrate well . 
+  i 'd say my current overall personal mythology is that life is eternal , existence is my infinitely complex dream , my challenges are there because i want them . 
+  * i am a holder of wisdom most do not grasp , i am misunderstood and i misunderstand . 
+  if only people knew my history , if only people would know the conditions most people live and suffer in , then they would see . 
+  * ( italics = added later ), 
+  mythology is a similar term to metaphor in this context . 
+  everyone is telling a story , most are n't aware of it . 
+  hardest thing for fish to see is water , do n't settle for not knowing what drives you . 
+  more resources :, 
+  [ the hero 's journey ] ( http://video.google.com/videoplay?docid=5703012694089642558# ) - an excellent documentary on campbell and his work, 
+  [ introduction to campbell 's bio ] ( http://mythosandlogos.com/campbell.html ), 
+  [ your personal mythology ] ( http://greek-myth.com/your_personal_mythology.htm ), 
+  ** tl ; dr ** there 's a mythology driving you in your life , most do n't know it . 
+  do you know yours ? 
+  edit : my ` overall ' personal mythology is perhaps throwing people off a little . 
+  it 's not merely articulating how you view the world itself , more of how do you view yourself in the world you see yourself in . 
+  bah , just watch the documentary . 
+  today i went to the gym after a week of hiatus and after doing my set i could barely get my clothes off and shower . 
+  hands are still slightly trembling . 
+  this made me wonder how close you 've been to feeling weak , i guess i 'd say the most enduring experience i had was when i had the flu ( maybe the h1n1 , they did n't test anyone after a while in finland where i was living at the time ) , 5 weeks of feeling 60 % during the day , 30 % in the night . 
+  this is a tight track that 's mostly centered around the bass line , very sparse instrumentation . 
+  i thought it was rage against the machine since the dj used the instrumental version of the track and put zach de la rocha into some places saying `` and they try to '' or something similar . 
+  [ me humming the bass line ] ( http://www.zshare.net/download/7850411678ba715e/ ), 
+  ** edit : ** [ an . mp3 conversion ] ( http://dl.dropbox.com/u/5612065/bassline.mp3 ), 
+  edit2 : i 've gone through all of ratm 's studio albums and have n't found the track . 
+  it 's a very thick bass that * could * pass for ratm but i 'm thinking the dj just overlayed rocha 's vocals on a few parts . 
+  it sounds quite ` new ' if that makes any sense , more polished than what ratm is known for . 
+  this is driving me insane , i want this song to put it on my mixtape !, 
+  ** edit3 : ** could conceivably be in 300 or clash of the titans . 
+  nin but without the electronica . 
+  very tight rhythm , not a lot else going on except one of the fattest bass lines i 've heard in ages . 
+  has that `` name of the game/battle without honor '' feel going on . 
+  this is strange . 
+  i used to be able to do [ this ] ( http://themegatrondon2.com/2008/12/07/the-lesson-pt-1/ ) without a hitch , i.e. 
+  drag multiple audio snippets from tracks into the exs24 editor , [ select the ( default ? ), 
+  contiguous mapping ] ( http://imgur.com/5n9fb.png ) and it would assign them each to progressing keys from c-1 . 
+  nowadays when i drag multiple samples it gives me [ this ] ( http://imgur.com/hwm6a.png ) . 
+  what gives ? 
+  may my enemies ( do i even have any ? ), 
+  never see this .

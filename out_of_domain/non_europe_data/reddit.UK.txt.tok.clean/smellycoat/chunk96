@@ -1,0 +1,100 @@
+  [ table fail ] ( http://www.blogcdn.com/www.engadget.com/media/2010/07/iphone-reception-pc-0852-rm-eng.jpg ) ? 
+  or am i misreading it ? 
+  unlike apple to make a fuckup like that in a jobs presentation . . 
+  [ s ` not ] ( http://www.urbandictionary.com/define.php?term=chaps%20my%20ass ), 
+  it does n't have elves either , 
+  i have one that 's ~ 3m , and the quality is noticeably worse . 
+  that certainly seems plausible . 
+  the one i have was * really * cheap . 
+   what , the millions of years of evolution did n't catch ? 
+  masturbating with a too-tight `` death grip '' is often associated with a difficulty reaching orgasm during sexual intercourse . 
+  my personal theory is that this down to widespread circumcision , and the tendency for modern video-based pornography to depict relatively rough sex . 
+  corsair , antec and seasonic all make good quality psus . 
+  i do n't understand why people are so confused on this subject . 
+  any phone will lose some signal if you cover the antenna , and most phones have an internal antenna near the bottom where you 're likely to cover it . 
+  the iphone 4 has bigger , but exposed antennas . 
+  this makes it more effective ( there are several demonstrations out there showing an iphone 4 getting better reception than other devices ) . 
+  but this in itself cases a problem because you can short the two by placing your finger on `` the gap '' . 
+  i do n't think it 's a massive deal . 
+  it 's fixable with a simple case to cover the antenna ( which , to apple 's credit , they 're now giving away for free ) . 
+  personally , i 'd rather have the option to get a better signal by contorting my grip than have an antenna that is less effective but does n't have any ` danger spots ' . 
+  too much food and not enough exercise . 
+  this requires more upvotes . 
+  while `` being the best '' probably requires some talent or innate aptitude for a particular skill , most people are capable of doing most things well * enough * given sufficient practice . 
+  practice that shit . 
+  the problem with being paid for building a computer is not so much the time it takes to research components , select them and put it all together , but the potential technical support burden you 're setting yourself up for . 
+   while i appreciate your attention, 
+  `` hell yeah , it 's working ! '', 
+  like most things in unix-land , text files are used for configuration because they 're infinitely more flexible than the alternative , albeit harder to use . 
+  here 's some of the things you can do with a text-based config file that you ca n't do with a gui :, 
+  * grep it to find particular items, 
+  * edit it remotely with nothing more than ssh and a text editor, 
+  * insert comments to explain why something is set as it is, 
+  * comment out parts temporarily without losing the details, 
+  * have several alternative configurations you can swap around quickly, 
+  * find out when it was last modified, 
+  * check it into version control system to track all changes, 
+  * easily copy it from one server to another, 
+  * diff it against another copy to identify the differences, 
+  . . and probably loads of other things i have n't thought of . 
+  they 're just text files so you have a huge array of text processing options available to you . 
+  but you 're right that text based config files have a steeper learning curve , some systems force you to use bizarre formats , and there 's little standardisation . 
+  however i 'd argue that there 's still a learning curve with gui-based configuration editors , it 's just a hidden away behind an interface that lets you guess . 
+  you can still make a mess with a gui if you do n't understand what the options are !, 
+  i 'd rather have the flexibility of text based config files . 
+  if you * really * want a gui , then the best-of-both-world ( and very unix-like ) solution is to build a gui that edits the config file for you . 
+  there are several things that do this ( webmin , for example ) . 
+  but i suspect that their relatively low popularity is down to the fact that all they really offer is a less scary interface that might make it easier to guess - you still have to understand what it 's doing to do anything significant . 
+  once you understand how a system works well enough to configure it via a gui , learning a config file syntax really is n't that much of a hurdle . 
+  shit man , that looks like an excellent alternative to eating the same nasty-arse sandwiches every day . 
+  write a ( gasp ! ), 
+  function to do it !, 
+  edit : downvoted ? 
+  really ? 
+  reusing code so you do n't have to copy the same stuff over and over again is * how programming works * . 
+  look , here 's a quick implementation in php ( i 'm really not a php guy so it 's probably lacking in some manner , but you get the idea ) :, 
+  function numericselect ( $ name , $ min , $ max ) {, 
+  echo '' < select name =\\ `` $ name \\ ''  '' ;, 
+  for ( $ i = $ min ; $ i < $ max ; $ i + + ) {, 
+  echo '' < option value =\\ `` $ i \\ ''  $ i < / option  '' ;, 
+  echo '' < / select  '' ;, 
+  numericselect ( ` foo ' , -10 , 10 ) ;, 
+  if you do anything frequently ( some would argue if you do it more than once ) , write a function for it , and build yourself up a common library . 
+  you 'll dramatically increase your productivity !, 
+  but a subscription for what ? 
+  reddit only works because users generating the content , so content subscriptions are n't really feasible ( at least not without changing the balance here ) . 
+  so it 's a subscription for additional features ? 
+  well , the site works well enough as it is . 
+  unless someone 's got an idea up their sleeve for an absolute killer feature , that 's really worth paying for every month , then it 's not the best value for money . 
+  taking features away from the proles and making them `` gold members '' - only might work , but may also negatively effect the site . 
+  so , as far as i can tell , the only people that are going to subscribe will do so because they * really * like reddit . 
+  which , to me , makes it a donation . 
+  well , i 'm pretty sure he was making a joke , but it 's not * that * far off . 
+  `` give us some money so we can keep going '' is really more of an investment proposal than a subscription . 
+  but getting very little in return really makes it a donation . 
+  that 's some fucking crazy-arse logic right there . 
+  wait , hold up . 
+  conde nast is predominately a magazine publisher , right ? 
+  magazines being publications for groups of people interested in a particular topic . 
+  groups like . . subreddits ? 
+  why in the world do n't they have subscription affiliate links in relevant subreddits ( like gq in / r/fashion , as you mention ) ? 
+  slap in a `` free reddit gold for n months '' or `` free random reddit swag '' in exchange for subscribing through reddit 's affil link . 
+  then track that revenue back with a bit of web analytics magic so they can see if reddit links actually make them any money ( then hopefully assigning a portion of the profit to reddit 's numbers ) . 
+  i 'm actually shocked that has n't happened already . 
+  the whole chain existing within the same company surely makes this a ton more appealing than trying to find external advertisers . 
+  honestly , it had n't really clicked in my head that conde nast were a publisher until you mentioned gq . 
+  how the fuck my brain dealt with knowing the reddit chaps work out of the wired office * before * it made that connection , i do not know . 
+  i find it 's best not to think too hard about it . 
+  i 'm not sure , but we 're almost at the point where `` lol '' is considered punctuation . 
+  he closed the gmail account , so at least that exe will not work any more until he alters it . 
+  everyone loses a game of `` solid , liquid or gas ? '', 
+  once in a while . 
+  it 's not `` elitism '' . 
+  it 's not `` console gamers vs pc gamers '' . 
+  it 's just that an analogue joystick is less effective than a mouse as an input device for some games genres ; fpss in particular . 
+  that does n't mean you ca n't play an fps with a controller , nor does it mean you ca n't learn to be * good * at playing fpss with a controller . 
+  it just means that a mouse is a little better . 
+  it 's also true that controllers are better for some genres . 
+  driving games spring to mind as an example . 
+  this is probably obvious , but just in case : assuming you bought a model with two graphics adaptors , are you using the lower-power one ? 
+  must ... steal ...

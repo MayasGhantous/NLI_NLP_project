@@ -1,0 +1,100 @@
+  sure , but `` foot '' meaning `` played on foot '' does n't seem very useful today , even though that is the etymology . 
+  there 's also e.g. 
+  handball , which is in fact not played by walking on hands , and calling that sport football as well would probably be even more confusing . 
+  the b has changed a lot as well , and there 's minor changes to c , e , and o at least . 
+  i think they should 've sticked to the old one but adjusted it a bit , instead . 
+  [ somewhat related twitter thread ] [ 1 ], 
+  `` register '' usually refers to memory locations inside the cpu itself -- the ram is far slower than than , in part because it 's physically * a lot * further away ( since it 's a separate component that you attach to the motherboard ) . 
+  the ( general-purpose ) cpu registers are 32-bit on a 32-bit processor and 64-bit on a 64-bit processor ; this is what the `` number of bits '' mean essentially . 
+  looking at the ram instead , it 's conceptually a huge array of 8-bit bytes ( a more precise term would be ` octets ' , for eight ) . 
+  that is , you can only ever look at 8 bits at a time , or a multiple of 8 bits , in both cases aligned to 8-bit boundaries . 
+  as mentioned , the ram and the cpu are separate pieces of hardware . 
+  both are attached to the motherboard , and to communicate the cpu has to send requests on a bus , which is essentially a bunch of wires connecting different components together . 
+  specifically , the bus has a `` width '' , the number of parallel wires , which means you can read that many bits at a time in parallel . 
+  i think the memory bus is usually 64 bits wide on modern 64-bit computers , meaning reading 64 bits is just as fast as reading 8 , 16 or 32 . 
+  there 's another complication though : inside the cpu , attached to its end of the memory bus is a cache . 
+  the idea is that because sending requests all the way to ram is really slow since you have to go over the memory bus , and also wait for the ram hardware itself , so there is a really tiny but fast piece of memory that saves ( caches ) things being read so that if you read the same location again it could retrieve it from the cache . 
+  writing things back to ram also takes time , so the processor also tries to save pending writes in the cache until it really has to send the data back to the actual ram , and keeps track of what 's just a mirror of ram and what needs to be written back again . 
+  this is a bit of a simplified view -- in practice it 's a bit more involved , and honestly i do n't know it well enough either ; i 'm not as much of a hardware person as i wish i was . 
+  so yeah , this should be mostly correct but i might 've gotten some details a bit wrong -- please correct me if so . 
+  hope it gives you some idea at least . 
+  the lack of bitshift and bitwise operations in general is a bit pericular , but i feel it adds character to the instruction set , and certainly adds challenge as well . 
+  plenty of the tasks depend on these limitations , at least if you want to optimize for cycle count . 
+  in part , i think the -999 . .999 thing might be because it 's convenient to use at most three digits ( + sign ) for numbers , rather than having just a few extra four-digit ones . 
+  or maybe just because it 's meant to be an odd machine . 
+  about the first question , well , that relates to one simplification i made when explaining the cache . 
+  in practice the cache is sneaky and does n't just fetch the part of memory that you ask for , but also the surrounding memory locations as well . 
+  specifically , the cache is divided into `` cache lines '' of some size , say perhaps 64 bytes , and the ram is then divided into multiples of 64 bytes . 
+  each time you access a piece of memory , the entire 64-byte chunk is loaded , even if you just ask for 8 or 16 bits . 
+  why would it do this ? 
+  does n't this cause a lot of unnecessary transfer ? 
+  yes -- it does !, 
+  however , it 's very common to access lots of nearby memory locations at the same time , and by fetching all of it into the cache at once you speed things up by not having to wait for a roundtrip for each thing read . 
+  so what this boils down to is that i do n't think you 'll ever read less than the bus width in practice on a modern computer anyway . 
+  [ 1 ] : https://en.wikipedia.org/wiki/cache_coherence, 
+  another simplification about caches is that in practice there 's multiple of them , so that you have a really small but really fast cache closest to a cpu , then a slightly slower but bigger cache one step further out , etc. 
+  it 's just more of the same , though . 
+  about whether registers and ram are implemented as sram or dram in hardware . . 
+  i 've no idea to be honest . 
+  :\\ i 'd really like to know , too !, 
+  because of the way the cache works , even since you 're just trying to retrieve 4 bytes , it 'll actually fetch 64 bytes . 
+  this means that it 'll first fetch the first 8 bytes ( 64 bits ) of the cache line , then the next 8 bytes , and so on for 64 bytes . 
+  then , you can read off the 32 bits you actually wanted to read . 
+  is that more clear ? 
+  if we pretend that there were no cache ( which would really kill performance in general ) , then i guess the remaining 32 bits would just be set to garbage and ignored ( or they might be set to the next 32 bits and ignored -- i do n't know ) . 
+  but i 'm really out of my comfort zone now , and this is more semi-qualified speculation than anything ... 
+  aah , i 'm certain i 've heard a cover of this melody at some point , but i ca n't figure out where . 
+  wikipedia 's list of popular culture references to it does n't help either . 
+  it might use both titles ? 
+  korobeiniki is what i know it as , and what wikipedia uses at least : https://en.wikipedia.org/wiki/korobeiniki . 
+  apparently insults are cross-linguistic . 
+  [ rubicon ] [ 1 ] is a little java game in somewhat the same genre as well , for what it 's worth . 
+  a bunch of fun puzzles to solve , at least the first time around . 
+  ah yeah , that , now that you mention it that sounds familiar . 
+  for x86 operations ( i.e. 
+  the 32-bit isa ) operations on part of a register only affects that part , but for x86-64 operations ( 64-bit ) the top 32 bits of a 64-bit register gets cleared when you do an operation on the lower 32 bits , i think ? 
+  nice !, 
+  can you upload a version somehere without jpeg artifacts ? 
+  i think apart from cameo appearances , and with the exception of disgaea 1 \u2192 disgaea d1 , there 's no real connections ? 
+  at least , i 've played almost the full main storyline of d2 and it does n't feel connected to d1 to me . 
+  i have n't played either 3 or 4 , but as far as i gather , there 's some cameo appearances like with laharl/etna in d2 , but not any more connected than that . 
+  but if you found d2 to feel like a sequel story-wise , you might want to play d3 before d4 i guess ? 
+  and what did they do to europe ?? 
+  i have no idea how they managed to include this map at all . 
+  neither of `` reverse engineering '' or `` vulnerability assessment testing '' do ( or at least , should ) refer to something illegal , though ... not by default , at least . 
+  i do n't think it 's much of an improvement over `` hacking '' ( even though they 're at least ` closer ' in meaning ) . 
+  oh , you mean in that direction !, 
+  i thought you suggested those as alternatives to the `` cracking '' sense , not the `` tinkering '' sense . 
+  on the other hand , if you enjoy tis-100 style puzzles , chances are you 'd find joy in programming rather than just consider it work like any other , i think , precisely * because * it requires `` clever '' code and tricks . 
+  same with if you enjoy other kinds of programming puzzles . 
+  interesting , i very much enjoy tis-100 but spacechem did n't really suck me in . 
+  fair enough , then . 
+  afrikanska svalor . 
+  well , it 's per capita so i do n't think the population matters too much . 
+  still , props . 
+  that is not really about light per se , but rather about ( sine ) waves in general . 
+  i would start on the wikipedia article on [ sine waves ] [ 1 ] . 
+  the `` number of ups and downs per second '' is literally what the frequency is . 
+  if you prefer , you can also think in terms of * wavelength * , which is what would be the `` diameter '' in your case -- the distance between two wave tops . 
+  if you increase the frequency , the wavelength decreases , and vice versa . 
+  the `` height '' of a wave is called the * amplitude * . 
+  higher frequency does n't necessarily imply higher amplitude , so it does indeed become more compact . 
+  a good reference when thinking about sine waves is sound -- the amplitude corresponds to the loudness , and the frequency ( or wavelength ) to the pitch . 
+  you can of course have a really loud high-pitch sound like perhaps a trumpet , or a not-very-loud low-pitch sound like maybe a bass . 
+  as you identified yourself , there 's a tight relationship between sine waves and circles : if you draw a circle , and then place your pen in the rightmost point on the circle and rotate it clockwise , the y position ( that is , vertically ) of the pen gives rise to a sine wave . 
+  if you instead look at the x position ( horizontally ) , you get a cosine wave , which is the same thing but shifted so that it starts at a hill rather than just in-between a valley and a hill . 
+  as an aside , there is a nice post [ on xiph.org ] [ 2 ] which explains how sound works , and how the human ear senses it . 
+  anyway , this is getting pretty physics-y , and i 'm way outside my comfort zone . . 
+  i suggest / r/askscience for going further down this track , perhaps . 
+  [ 2 ] : http://xiph.org/~xiphmont/demo/neil-young.html, 
+  [ 1 ] : https://en.wikipedia.org/wiki/sine_wave, 
+  disgaea ds does something similar , where it keeps an isometric perspective on the bottom ( `` main '' ) screen and an overhead map on the top screen . 
+  [ ( screenshot ) ] [ 1 ], 
+  [ 1 ] : http://www.hardcoregamer.com/wp-content/uploads/2013/02/disgaea_ds__12_.jpg, 
+  it might not look like it at first , but the map is surprisingly useful at times and sometimes i navigate with only the map . 
+  i believe there 's also one battle where you only have the top map available , but that 's more a novelty thing . 
+  anyway , the point is that those things can be more useful than they appear ; it might well be the same with this one . 
+  hmm , but ca n't you read/write saves using the gateway launcher ( in addition to the romfs ) ? 
+  i wonder why that would n't work instead of using a dongle . 
+  there 's also been some work towards this with freeciv : [ spherical world ] [ 1 ], 
+  [ 1 ] : http://freeciv.wikia.com/wiki/sphere,

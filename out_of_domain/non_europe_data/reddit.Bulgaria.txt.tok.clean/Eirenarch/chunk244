@@ -1,0 +1,100 @@
+  i am not so much defending patents as saying that if we agree on the need of patents apis should be patentable too . 
+  also this is orthogonal to free market . 
+  you can claim that you i am not a fan of innovation or progress but certainly claiming that someone 's work should be exclusive property of the one who did it no matter how many other people would suffer from this is not against free market . 
+  still a cloud service may not allow export of user data . 
+   obviously merely the fact that something requires effort to create should n't automatically grant exclusive rights to the creator, 
+  i am not arguing that . 
+  i am arguing that either the implementation and the api gets the same protection or there is no protection at all . 
+  the current situation is like being able to patent the proof of a theorem but not the theorem itself . 
+  makes no sense to me . 
+  and no , real free market contains no compromise . 
+  in fact copyright only serves to regulate the default contract . 
+  you can still have an explicit contract where you are required to give up all your money should you leak the data you are given access to but in most cases it is not feasible to use anything but the default contract . 
+  imagine if you have to sign a real contract every time you buy a music cd !, 
+  as i said the free market only requires voluntary contracts and enforcing them . 
+  it does n't care about the impact of these contracts . 
+  sure this is true . 
+  i just point to the fallacy of making implementation copyrightable but not the api . 
+  it is especially silly to claim that the judge does n't make this decision because he is not a programmer . 
+  any programmer should know that creating an api requires a creative work just as much as creating implementation ... if the programmer is objective rather than following his open source beliefs and hate for oracle . 
+  the question is if you should be allowed to write an api compatible implementation and how this differs from say pirating windows where you just copied binary compatible bytes . 
+  both are creative work , both are important and the api is arguably harder . 
+  i do n't say that either of these is right or there are proper laws . 
+  i am just saying that arguing that implementation is worth protecting and apis are not is either hypocrisy or clouded judgement . 
+  ok so what if i copyright the implementation of leftpad or something ? 
+  nobody can implement this function because the implementation is obvious ? 
+  that is a good point , please send it to google 's lawyers and the court will decide . 
+  i am only arguing that apis are not somehow inferior to implementations and the fact that judges are not programmers does n't mean they are wrong . 
+  i am pointing out that `` what people decide '' is not logically consistent and what is more the court seems to disagree with your view on what people decided . 
+  if the court determines that people decided to let oracle claim copyright then it is what people decided . 
+  well , that 's too bad but the argument still stands . 
+  if implementations can be copyrighted so can be apis because there are `` a small number of ways '' you can implement it . 
+  i am not defending copyright or patents i am just saying that implementations and apis should be treated equally . 
+  that 's my whole point . 
+  implementations and apis should be treated the same way . 
+  either both are patentable/copyrightable or none of them is . 
+  the comment i was originally replying to made it sound like the decision of the court is made because the judge does not make the difference between an api and implementation . 
+  ok but i do claim that apis and implementations are the same thing fundamentally so if something applies to one it should apply to the other no matter if it is copyright , patents or some concept not yet invented . 
+  so your point is that copyright over apis would not promote useful arts and science but copyright over implementations does . 
+  i find it hard to process . 
+  the court seems to side with me on this one , 
+  except that i am not defending the existence of neither patents nor copyright . 
+  i only claim that apis and implementations do not have properties that make them different in respect to these two things . 
+  oracle seems to claim otherwise and the latest decision supports their claim does n't it ? 
+  that 's cheating  i guess i can make a better argument if i use the motion by oracle 's highly paid lawyers , 
+  so how does protection over the implementation promote useful arts and science ? 
+  and copyright on the implementation prevents other authors from using the same implementation via another api . 
+  the state enforces your exclusive monopoly on your property . 
+  having your private property protected is the most important requirement for a free market . 
+  you reminded me to do my part today . 
+  just cast 4 reopen votes ( one deciding ) . 
+  i actually looked at the questions i voted to open . 
+  i looked at ~ 10 in order to find 4 suitable for reopen . 
+  they completely missed the point of fizzbuzz . 
+  it is not supposed to evaluate anything about code quality or readability . 
+  i 've done it so many times ... 
+  so rules are just fine , it is zealous users that make it suck . 
+  also closing a question seems to be easier than reopening ( less people looking at the question once it is closed so harder to get reopen votes ), 
+  my answers are usually well received as are my questions . 
+  i have 11k reputation with no `` hit '' answers . 
+  i 'd suggest requiring more votes to close than to reopen . 
+  maybe 8 vs 4, 
+  this is a fair view that i respect but again if we strip apis from copyright protection it only makes sense to strip implementations too . 
+  more all-in more fun . 
+  pros are here to entertain me , i do n't care if they are stressed . 
+  i want maps that provoke games like the life vs s0s finals, 
+  you only want to run closed source software that microsoft has had its hands in ? 
+  to run this you need windows to begin with . 
+   are you using python 3 for your development ? 
+  it has been out for 7 + years at this point . 
+  so , if you are n't using it , why not ? 
+  and on the line directly above, 
+   in 3 months , python 3 will be better supported than python 2 . 
+  i am a bit disconnected from this field but bash vs powershell looks like javascript vs c # to me . 
+  the first sucks but is everywhere and everyone is used to it and the second is nicer , well-thought and learning from past mistakes but microsoft-only, 
+  as someone who is too lazy to setup fxcop or similar style tool i welcome the analyzers that will allow me to enforce my view of when to write `` var '' and `` this '' on the entire team . 
+  fuck them , they are wrong anyway !, 
+  was i the only one who thought op was complaining that the unit skins are too similar to the background and should be changed to something that stands out ? 
+  i just hope this does not spell the death of powershell ( although it is not like we need newer versions anyway ) . 
+  as a programmer long names and object orientation feel much better than bash 's acronyms and string typing . 
+  do you use both regularly because it may be prefetching ? 
+  microsoft - heading for bankruptcy and being bought by oracle ... like that other open source company . 
+  so 2003 if you ask me . 
+  do n't worry , js still sucks . 
+  this is how capitalism works . 
+  are you insane . 
+  they talked like 10 time more about android and ios on build . 
+  windows phone is in dire straights ( although probably not dead ) and this is because nadella wants to kill it but ca n't do it outright . 
+  this is actually a good practice . 
+  when your code reaches a state you thought was impossible you throw a useful exception rather than simply mix up the state of the application . 
+  i do this all the time ( except that i write custom messages ) . 
+  for example each and every switch i write on an enum ends with a default that throws an exception just in case someone adds a value to the enum and forgets to add a case to the switch . 
+  if this was a presidential campaign i would not only vote but also contribute money to the candidate that pushes the most diverse map pool . 
+  well , you should always name code with names you are comfortable to show to the client . 
+  i had a coworker who put things like `` faggot '' in the code  i do put messages like `` unexpected user type '' . 
+  your delusional brand of insanity can hurt you . 
+  do n't invest in windows phone until nadella comes to his senses or they get a new ceo . 
+  and i am saying this as someone who is a fan of windows phone , has published wp apps and intends to push more ( because i like developing with c # and . net , not because windows phone makes sense these days ), 
+  except that they are not selling phones . 
+  well they are selling them in the sense that if you ask them and beg them they will take your money and give you one but they are not making any effort to advertise them or distribute them to various carriers . 
+  windows phone is not dead but their `` strategy '' is to act as close to what they would do if it was dead without actually killing it .

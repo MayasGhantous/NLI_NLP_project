@@ -1,0 +1,100 @@
+  it supports a large number of [ devices ] ( http://wiki.openwrt.org/toh/start ) , you 'll probably find a router that will fit your needs which is supported . 
+  put ` redirect-gateway ` in your client config file to route all traffic through the vpn . 
+  [ rolling shutter vs turboprop ] ( https://www.youtube.com/watch?v=lvwmtwzlg88 ), 
+  [ grammy award for best engineered album , non-classical ] ( http://en.wikipedia.org/wiki/grammy_award_for_best_engineered_album,_non-classical ), 
+  anything before 2000 is a good bet . 
+  that picture is missing the line of purples ( mix of blue and red ), 
+  no , that 's just the author tapering off the short wavelength light into violet . 
+  you ca n't have purple on a straight scale because you have to mix colors as purple is non-monochromatic . 
+  anyway , i was just wondering if dogs can see the different hues of purple or not . 
+  use an eq . 
+  you can boost the bass as long as it does n't cause distortion in the drivers , for free . 
+  tga = a wtf raster format used by old dos games, 
+  png and tiff are quite similar , even if technically they are vastly different . 
+  the most notable difference in regards to photographs is that tiff supports embedded profiles , while with png you have to assume srgb ( d65 ) and hope for the best . 
+  both support transparency , and tiff has better metadata support and it can handle higher bitdepths . 
+  tiff can have multiple layers in a single file , but you should probably use pdf if you need that . 
+  what libcrypto said , but also :, 
+   . tiff files do n't support transparency and . pngs and . gifs both do, 
+  notable difference between png and gif transparency is that gifs have a single bit of transparency , while pngs can have 8 bits , and tiffs can have 32 bits ( maybe even more , not so sure ), 
+  after you 've managed to log into the store , this is the link you 'll be looking for to download the game : [ saving you a couple of clicks that will probably time out ] ( https://kerbalspaceprogram.com/kspstore/amazonredirect.php?os=linux ), 
+  * assuming you already have an account and you 've bought ksp !, 
+  for the sake of the server , please do n't click this unless you 've logged in . 
+  you might have some unneeded low quality sample rate conversion going on in there . 
+  to verify :, 
+  * record a linear sine sweep in a loopback config just like this, 
+  * examine a spectrogram of the sweep . 
+  [ this is what extreme aliasing looks like on a spectrogram ] ( https://upload.wikimedia.org/wikipedia/commons/7/73/spectrogram-of-swept-triangular-wave.png ), 
+  to draw a spectrogram of a wav you can install [ sox ] ( http://sox.sourceforge.net/ ) and type, 
+  sox recorded_sweep . wav \u2212 n spectrogram, 
+  in a command line in the same directory that the file is at . 
+  you 'll get a png , and it works with all kinds of audio files . 
+  also , try a different sample rate and repeat the test . 
+  what 's next ? 
+  wine with 200 % more alcochol ? 
+  man you have time on your hand . 
+  be sure to write a recovery os to a thumbdrive because this * will * break your pc . 
+  kernel modules wo n't run if built for a different architecture than the kernel . 
+  you 'd pretty much need to replace every package that is installed to the ones in the x86_64 repo . 
+  what os ? 
+  comfortable with cli ? 
+  you should use [ ffmpeg ] ( http://ffmpeg.org/trac/ffmpeg/wiki/create%20a%20thumbnail%20image%20every%20x%20seconds%20of%20the%20video ) / [ mplayer ] ( http://www.noah.org/wiki/mplayer_notes#convert_video_file_to_a_sequence_of_images ) to extract . png 's from the videos , that you could easily download using [ youtube-dl ] ( http://rg3.github.com/youtube-dl/ ), 
+  then imagemagick will concatenate the frames with minimal effort if you type, 
+  convert - delay 20 - loop 0 first_video_frames * . png second_video_frames * . png output.gif, 
+  delay is in multiples of 10ms , so 20 is 5fps , 10 is 10fps etc. 
+  i 'm not sure if it 's a native binary , but i compiled qrencode on cygwin at work , and it functions flawlessly inside the cygwin terminal . 
+  i 'm going to try it from the regular command line , but i think it should work . 
+  ` . / configure ` , ` make ` , ` make install ` , and it was running in under five minutes . 
+  now opengl might be a completely different thing , and i have no idea how it will interact with your hardware . 
+  maybe cygwin1.dll needs to be in a directory that 's in the path variable . 
+  every battery is replacable , only some devices will need a screwdriver . 
+  my only concern is bloating batteries . 
+  the aging batterry in my i9100 popped the cover off . 
+  i can only wonder what could happen if a battery started to expand in a sealed enclosure . 
+  would n't that make everyone understand ancient sumerian though ? 
+  so sumerian is basically the human jtag . 
+  does a statement become false by default when stated by a hypocrite ? 
+  it builds character . 
+  do n't be fooled by the fact that it has n't been updated for two years , it 's actively developed alright . 
+  you might lose a few decibels of dynamic range if the preamp and compressor greatly outperform the converter ( and the room is dead silent ) . 
+  not that it 'll sound any different , a protools conversion loop is pretty close to a unity function singal-processingwise , so * mic * =  * analog processing * =  * adc * is most likely indistinguishable from * mic * =  * adc * =  * dac * =  * analog processing * =  * adc *, 
+  if you replicate the analog processor with effects in the daw you lose even less , and gain a lot of control in the meantime , as it 's not possible to undo anything done to the signal before recording it . 
+  basically a gazelle . 
+  because there 'd be a flicker and you 'd have to cut that out in post anyway . 
+  why not stop recording , adjust the aperture , and resume recording afterwards ? 
+  this way you ca n't accidentally change the aperture ( you also ca n't accidentally leave the ruined part it in the video ), 
+  story and gameplay mechanics . 
+  it 's a great game even if the engine itself is outdated . 
+  that 's exactly how i 'm launching components to my space station in kerbal space program . 
+  this ca n't possibly be a new thing , i do n't think i 'm * that * smart . 
+  instead of realising , people who search for bass guitars will miss those listings , so you can undercut the sellers significantly due to the reduced demand . 
+  nah , linux is the bees ' knees . 
+  but if you really want a non-free os , i hear daz 's loader will work with windows updates . 
+  use it with an official iso from ms so you do n't download one bundled with ^ \\ ( * additional * \\ ) malware . 
+  it will never get as real as this with conventional effects . 
+  you ca n't mimic the response of the phone 's speaker + the plastic enclosure without convolving your vocals with the phone 's impulse response . 
+  linux : if you omit bs = 4k it 's gon ' be slow , cause most often cards are formated to have a sector size of  4k bytes , and dd defaults to 512 bytes ( it 'll write each block four times ), 
+  just put bs = 4k to the end . 
+  torches are made from coal and sticks . 
+  do you have both ? 
+  wait , people still believe publishers push drm to stop piracy ? 
+  that has been proven to be false many times . 
+  drm exists to limit what you , the consumer can do to the game . 
+  if it comes without drm , you own it . 
+  if it has drm you do n't own it , and the content owners can take it from you whenever they feel like it . 
+  ** dude **, 
+  ** possums **, 
+  ** play **, 
+  ** dead !!!, 
+  ps - e - ocmd, 
+  use the - o switch to add more columns , like if you also want pid , then, 
+  ps - e - opid - ocmd, 
+  ` ps l ` will list the possible columns . 
+  for more info , check out ` ps -- help a `, 
+  edit : ` lsw ` is good too , but it was n't installed on my box by default . 
+  it 's subtly different , as ps will print the command , while lsw will print the title of the window . 
+  what does whatsapp do ? 
+  yes , it supports zrtp and srtp , as well as otr for chats . 
+  amd drivers are far from being good on linux . 
+  i suggest you choose a notebook with nvidia graphics . 
+  sincerely ,,

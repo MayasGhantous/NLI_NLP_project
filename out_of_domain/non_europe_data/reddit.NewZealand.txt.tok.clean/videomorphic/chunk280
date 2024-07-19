@@ -1,0 +1,100 @@
+  they are completely different . 
+  one is a general-purpose , very useful programming construct . 
+  the other just does n't mean anything or have any real use . 
+  a loop is a solid , concrete thing that always means the same thing . 
+  promises and linq have nothing to do with ` monad ` . 
+  at all . 
+  that 's like saying that having a ` flatten : : [ [ a ] ] -  [ a ] ` function is ` borrowing from ` monad ` ' . 
+  you are misinformed . 
+  that does n't mean they ` borrow from monad ' . 
+  promises are not monads . 
+  you can write ` then : forall a b. 
+  promise a -  ( a -  promise b ) -  promise b ` and ` resolve : forall a. a -  promise a ` that satisfy the monad laws . 
+  that does n't mean ` promises are basically monads ' at all . 
+  promises have nothing to do with monads . 
+  ` [ 1 , 2 , 3 ] ` is a list . 
+  it is not a monad . 
+  lists are n't monads . 
+  the type constructor ` list ` is a monad , but saying ` lists are monads ' is ridiculous . 
+  you do n't understand what ` monads ' means . 
+  using a fucking array , or linq , or futures , or any particular thing that you can write a ` monad ` instance for , is n't ` using monads ' . 
+  using monads is * writing code that works regardless of monad * . 
+  it 's not useful . 
+   selecting role you want to play before searching pub game . 
+  it 's been like that forever . 
+  why do retards continually bring up such stupid shit in this discussion ? 
+  community has always been toxic . 
+  game has always had bad tutorials . 
+  game has always been hard . 
+  the difference is that post-6 .81 , we 've had pretty much non-existent player growth , because every patch since 6.81 has made the game worse . 
+  quite the opposite : those are * not * useful , and that is what is not useful about ` monad ` : those meaningless functions make code much harder to understand . 
+   i did n't say that they borrow from , i said that they basically are . 
+  conceptually promises are very similar to monads . 
+  no they are n't . 
+  they 're an entirely different category of thing . 
+  promises are absolutely nothing like monads in any way , shape or form . 
+  ` promise ` ** is ** a monad , but that does n't mean that ` promises are very similar to monads ' . 
+  that 's like saying that lists are very similar to monads , or that optional values are similar to monads . 
+  they are not . 
+  it 's like saying that functions are similar to monads . 
+  no , they are not . 
+   ienumerable < t  is also a monad just look at the selectmany method . 
+  the way linq was designed used knowledge of category theory and monads . 
+  it is a monad , but that does n't actually matter , nor is it relevant . 
+  list < t  is a monad . 
+  almost all container types are monads . 
+  that does not make monads a useful concept for programmers . 
+  many things that happen to be able to have ` monad ` instances are useful . 
+  nobody is disputing that . 
+  clearly lists are useful , promises are useful , optionals are useful . 
+  that does n't mean that monads are useful as a programming concept . 
+  linq was not designed using ` knowledge of category theory and monads ' . 
+  monads have nothing to do with it . 
+  c # does n't even have ` monad ` . 
+  you can not write a typeclass like ` monad ` in c # , it 's not syntactically possible . 
+  again , that 's like saying that arrays were ` designed using knowledge of category theory ' because the flatten function exists . 
+  that 's just nonsensical rubbish . 
+   you are arguing that monads/category theory are a useless abstraction but there 's many examples of these abstractions being used in the wild sometimes intentionally sometimes not . 
+  perhaps the knowledge can be useful . 
+  no , there are many examples of * concrete implementations of that abstraction * being used in the wild . 
+  people use * concrete monads * i.e. 
+  ` list < t  ` , ` optional < t  ` , ` future < t  ` , ` iterator < t  ` , ` enumerable < t  ` , etc. 
+  in code all over the place . 
+  nobody is saying that these are not useful . 
+  what is n't useful is * abstracting across all of these * . 
+  ` monad ` , abstractly , is n't useful . 
+  again , no . 
+  you are n't ` using monads ' . 
+  writing code that uses a list of things somewhere is n't ` using monads ' regardless of the fact you can write an instance of ` monad ` for ` [ ] ` . 
+  writing code that uses futures is n't ` using monads ' . 
+  ` using monads ' means writing code that * abstracts over arbitrary monads * . 
+  that is what is n't useful . 
+  \\  no tarmogoyf, 
+  \\  true-name nemesis, 
+  son this is n't rug delver . 
+  fuck them . 
+  why would they care about my feedback if i plan to buy their products anyway ? 
+  the people they should care about feedback from are ** exactly ** the players that used to buy product and now do n't . 
+  no , drafting is fucking garbage with no good removal spells . 
+  this set is absolute garbage . 
+  i do n't see anything ` beautiful ' about these . 
+  what would be beautiful would be a data-querying language where you could just write what you want ( the max of this , the min of that , etc. ), 
+  and have that turned into an efficient query that doesn - oh right just sql . 
+  uncurry hashmap.singleton . 
+  second minmax ) petdata, 
+  let 's be clear , that is * revolting * code . 
+  select type , max ( legs ) , min ( legs ) from pets group by type, 
+  that is * not * revolting code . 
+  either make it possible to write something like that directly as language syntax ( see : c # ) or make it possible to write something like that and have macros turn it into the above or something like the above ( see : lisps ) . 
+  reddit seems to be obsessed with this supposed difference , when there really is n't a meaningful difference between the two . 
+  concurrency has nothing to do with sharing memory . 
+   node is n't really meant for the kinds of computation that block the event loop for any noticeable amount of time . 
+  because it 's badly designed . 
+  no , you really really are not . 
+  did you read any of my comment ? 
+  are you trolling ? 
+   linq was written by one of the designers of haskell98 ,, 
+  that means ** nothing ** . 
+  linq has nothing to do with ** abstract ** monads , just like lists have nothing to do with ** abstract ** monads . 
+  it 's just sql syntax in c # . 
+  nothing .

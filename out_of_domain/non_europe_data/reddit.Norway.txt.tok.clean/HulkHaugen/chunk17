@@ -1,0 +1,100 @@
+  i must admit that the list chapter is boring because i struggle to see the practical use of it . 
+  anyway , trying to implement it in my game . 
+  her is the code :, 
+  import random, 
+  minste = 1 # minimum guessing number in range, 
+  hoyeste = 1000 # maximum guessing number in range, 
+  antall = 10 # amount of attempts to get it right, 
+  feil = [ ] # list of wrong inputs, 
+  # cheat : displays the correct answer, 
+  for forsoek in range ( 1 , antall + 1 ) :, 
+  forigjen = antall + 1 - forsoek # calculating remaining attempts, 
+  print ( ` gjett , du har ' + str ( forigjen ) + ' fors\u00f8k igjen :') # displays remaining attempts, 
+  feil.append ( gjett ) # adds attempt to list , supposedly, 
+  try :, 
+  if gjett  hoyeste or gjett < minste : # out of range, 
+  elif gjett  hemmelignummer : # guess to high, 
+  else :, 
+  break # correct guess, 
+  except valueerror : # error : display at non-integer input . 
+  if gjett = = hemmelignummer and forsoek = = 1 : # correct at first attempt message, 
+  elif gjett = = hemmelignummer and forsoek < = antall / 2 and forsoek  1 : # correct at < 1/2 of the attempts, 
+  # print ( ` dine fors\u00f8k var ' + feil [ gjett ] ) # error : printing a list of wrong attempts, 
+  elif gjett = = hemmelignummer : # correct within attempts, 
+  # print ( ` dine fors\u00f8k var ' + feil [ gjett ] ) # error : printing a list of wrong attempts, 
+  else :, 
+  #game over looser, 
+  sorry about the norwegian variables, 
+  i 'm not happy with the kits puma has provided us with as our sponsor . 
+  ideally i would like to see adidas , they 've been very good with kits lately . 
+  also nike has a lot of nice ones , but they also have some horrible misses . 
+  would n't mind swapping out wonga either , say for newcastle brown ale . 
+  or at least a discrete sponsor whit black/white text or logo . 
+  so i have some inspiration and a draft : http://imgur.com/a/ewkwe, 
+  what i wonder is if it will be strong enough ? 
+  it 's pretty big in size . 
+  also about the joinery , how will i go about it ? 
+  is my idea gon na work in the long run ? 
+  i 'm thinking of using several of those wooden pieces in each joint . 
+  the ana white instructions suggest pocketholes , but those sounds too weak with so heavy materials if you ask me . 
+  ( http://www.ana-white.com/2013/09/plans/4x4-truss-beam-table ), 
+  i intend to use treated materials for the legs , and the top will be untreated , but i 'll apply some nice oil to it . 
+  wood will be spruce or pine . 
+  i 'll paint the legs white after it 's dried for a while . 
+  so , i 've bought a couple of z-wave products ( fibaro dimmer 2 fgd-212 and z-wave multireg thermostat 3600w ) and intend to make my home smarter . 
+  i do n't have any smarthub yet , but i want to use a rpi . 
+  i have the pi1b , pi2b and pi3b , dunno which one i should use . 
+  i 'm also gon na use one of them for a magic mirror later on . 
+  i 'm thinking of buying a razberry 2 extension module . 
+  i have a few questions about this setup :, 
+  what communication module is the best choice ? 
+  i 'm thinking of [ razberry 2 ] ( http://www.ebay.com/itm/z-wave-me-razberry-2-z-wave-plus-extension-module-for-raspberry-pi-/112181091607?hash=item1a1e839d17:g:m70aaoswhsryd5cw ) . 
+  is a usb stick a better choice ? 
+  which software is the `` obvious '' choice ? 
+  i have looked at [ homeautomation ] ( http://karpero.mine.nu/ha/ ) which looks nice . 
+  is there any recommended usb battery packs/ups that i can use from ebay , dx or similar ? 
+  since the pi sd cards have a tendency to die , i 'd like to have some backup power if the fuse pops . 
+  edit : so after some googleing , i went with the ( z-wave . me - razberry 2 , z-wave plus extension module ) [ http://www.ebay.com/itm/112181091607] and the ( romoss solo 2 4000mah power bank ) [ http://www.ebay.com/itm/121986069303] . 
+  i 'll probably use the pi2b , and ( homeautomation ) [ http://karpero.mine.nu/ha/] , at least to begin with . 
+  looking forward to try this setup out and add more modules , 
+  i 've been using my own startpage for years on desktop , just a bunch of links to the sites i use the most . 
+  now , i 'm trying to make a mobile start page looking like an android launcher . 
+  i 've been doing this on my windows pc , and using the materializecss framework . 
+  this framework considers my page as a mobile page up to 600px width . 
+  in windows , icons set to 64x64 in css and actual resolution looks good , and i 've been using pixels as a measurement . 
+  but opening this on my nexus 5x , the width is 1080px and the icons are scaled to ~ 168x168px , yet everything looks like in windows . 
+  the icons are blurry though , guessing this has to do with dpi . 
+  how can i properly handle this without scaling and distortion ? 
+  link : http://bstart.net/indexmob.html ( ps !, 
+  resize window to see mobile site ), 
+  edit : pretty happy with the result so far : http://bstart.net/m/index.html, 
+  i 've been thinking about replacing my htpc , and naturally the intel nuc line looks like a good fit . 
+  however , with amd ryzen showing a lot of promise , i 'd like to spend my bucks on them instead . 
+  that is , if they have a somewhat similar product . 
+  i 'm not much up-to-date but last time i checked , amds igps owned intels igps big time . 
+  is this still the case ? 
+  so home automation is new to me . 
+  i 've just installed the latest hassbian ( 0.45.1 ) along with pi-hole on my pi2 . 
+  following this guide : https://home-assistant.io/docs/z-wave/ i should already have python-openzwave from pypi installed . 
+  i did install libudev-dev and added `` zwave : usb_path : / dev/ttyacm0 '' to my configuration.yaml file . 
+  but doing so , hass wont start and i ca n't access the gui . 
+  i ca n't find any log file either :( i suspect that python-openzwave is n't installed at all , contrary to what the guide says . 
+  i did run `` dpkg -- get-selections * z * '' but the few hits it brought me , anyting zwave was n't on that list . 
+  so , assuming i 'm correct , how do i get open-zwave installed ? 
+  is there something else i should be installing ? 
+  so i 've invested in a lot of z-wave devices lately , but i 'm struggling with this motion sensor . 
+  i 've added it , and it shows up in ha . 
+  but no sensors shows up , it just shows up as a device on the zwave card . 
+  when i go to z-wave settings and select the node , the only config option i can change is predifined value 3600 with the option to change that value and press the `` set wakeup '' button . 
+  i 've tried to unpair it with my aeotec z-wave usb stick gen 5 eu , reset the sensor and re-added it , but still the same issues , just now under a new node number . 
+  i run ha 0.48 on a pi 2 , did not install using aio or hass-image . 
+  everything else seems to work fine . 
+  as i 'm working on my fantasy team , i really want a united defender to feature . 
+  i see a lot of posts mostly about lacelles , and quite a few shouts for yedlin . 
+  until now i 've been thinking yedlin myself , but after the acquisition of manquillo , i 'm not so sure . 
+  centrally , it will be between lacelles , clark and lejeune . 
+  i 'm not convinced lacelles will be nailed on . 
+  i guess dummet will feature on lb unless someone else comes in . 
+  what do you think ? 
+  apparently i 'm not quite getting the grasp of the wildcards . 
+  what i want to do is to blacklist like this :,

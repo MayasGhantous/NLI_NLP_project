@@ -1,0 +1,100 @@
+   i would also argue that `` theoretical powerpoint '' allows for an unbounded number of cards - only the implementation requires you to specify the number of cards necessary . 
+  you could argue that , but i do n't find it particularly convincing . 
+   targets and dependencies are files only . 
+  well what if i want to make a docker image ? 
+  or run any other task which does not produce any file ? 
+  why does docker not produce a file ? 
+  a file you can do anything with . 
+  a file is a generic object , to which i can do anything that i can do to anything on my computer . 
+  do n't blame the poor design of docker on make !, 
+  there are lots of things that you ca n't do with docker images that you should be able to , but can not , because of its poor design . 
+  you ca n't rsync your docker images elsewhere . 
+  you have to use proprietary ( not in the sense of closed source , but in the sense of only-works-with-docker here ) methods . 
+  docker repositories or something ? 
+  whereas for example , you can rsync git repositories . 
+  they 're just a ` . git ` directory . 
+  you * can * use ` git clone ` to clone them over a network , but you can also just use rsync . 
+  the language is not turing complete . 
+  turing completeness is thus irrelevant and should n't have been mentioned in the presentation at all . 
+   so your arguing based on a `` python '' that has no spec describing it and is not implemented anywhere in the way you have described ? 
+  no , i 'm arguing based on python , the language : a language that very clearly and obviously has general recursion and nothing inherent in the language that restricts recursion depth or integer length or anything else . 
+   again , you 're basically just making the augment that `` in a python language that provides unbounded lists , it would be turing complete '' , but that python language does not exist anywhere . 
+  unbounded lists have absolutely nothing to do with turing completeness : they are neither sufficient nor necessary . 
+  no language exists anywhere . 
+  only implementations do . 
+   yes , but neither is `` python , but with without limitations '' . 
+  python is cpython , there is no such thing as a `` python language '' that is not compatible with cpython , because cpython defines what the python language is . 
+  that 's just silly . 
+  you know very well that python was used as an example because it 's a well known language without pointers . 
+  scheme would have sufficed , as it also have arbitrary-precision integers , but is less well-known ( sad ! ) . 
+   on that note though , c has general recursion just like python , so does n't your other argument apply to c as well ? 
+  you can take the address of any object in c , and distinct objects are guaranteed to have distinct addresses , so ultimately recursion depth must be limited by ` size_t ` as well . 
+  as said elsewhere , it 's a disputed point , and there are strong arguments in either direction . 
+  i think ` register ` variables have been brought up ( as you can not take the address of one , at least as far as i am aware ) . 
+  whereas nothing in python 's language ( its syntax and the reasonably obvious but nowhere-well-defined semantics of the language ) suggests any such limitation . 
+  there 's even ` sys.setmaxrecursionlimit ` , which takes an ` int ` , which is arbitrary-precision , which suggests that you can set it as high as you like . 
+  i remember people complaining about images being over 2 mib ( a fairly arbitrary but nevertheless quite common limit ) about 15 years ago . 
+  surely a 1.5 mib book cover on a webpage is fine ? 
+  python refers to the most recent version of python . 
+  ` sys.sizemax ` could be any ` int ` , and ` sys.setmaxrecursionlimit ( ) ` could take any ` int ` , which is the same as a long , as python 3 is over a decade old . 
+  anyway , my point is not that python is some `` super goodest language evar ! '', 
+  or that no other language is turing complete . 
+  the point is that c is probably not , python probably is , this language certainly is n't necessarily turing complete ( nothing shown in the video indicates that it is ) and scheme absolutely certainly is . 
+  note that ` sizemax ` in python does n't constrain the number of objects in a python programme , only the number of objects in a list , a totally different thing . 
+   no one has ever created an actually turing complete machine . 
+  there is no such thing as a ` turing complete machine ' . 
+  there are turing machines ( a theoretical construct , that nobody can ever make ) and there are turing-complete languages . 
+  a language is also a theoretical construct . 
+  you can not create a physical language . 
+  what you can do is * implement a model of a language * . 
+  a scheme implementation is scheme modulo some implementation-defined limits because this is the real world . 
+  that is not the same thing as the language , and does n't affect one iota whether the language is turing complete . 
+  the implementation is n't turing complete just because the language is : the implementation could be * on * a turing machine , it could be written * in * a turing complete language , but it is n't itself turing complete . 
+  turing completeness is an * inherently * theoretical construct . 
+  it has nothing to do with the real world at all . 
+   i could execute literally any program on the powerpoint ( provided i added enough `` memory '' beforehand ), 
+  * precisely * . 
+  * provided you added enough memory beforehand * . 
+  that 's what prevents it from being turing complete as a language . 
+  you can not request new memory at runtime . 
+  you can not compute functions that require unbounded memory . 
+  it 's a linear bounded automaton : you get memory that is a linear function of the input size ( by the linear speedup theorem ) . 
+   i still do n't understand what it would gain by discussing the differences and without mentioning it at all it would just be a different talk, 
+  nobody has to discuss the differences . 
+  the title could be ` on the ability to compute interesting functions in powerpoint ' and nobody would have a problem with it . 
+  however , it is n't turing complete . 
+  he does n't have to discuss what turing completeness is ( although , given the quality of responses in this thread , maybe he should , if he knows them ) , but he should n't make claims that are n't true . 
+  `` turing complete '' is catchy , and that 's why he used it . 
+  i get it . 
+  i do get it . 
+  but it is n't actually * true * . 
+  i 'm not even really bothered that he used it . 
+  i 'm bothered that someone pointed out that it is n't strictly true and got massively downvoted for it . 
+   why is oop always held up as the absolute opposite of functional programming , an inescapable cesspit of mutable state ? 
+  because the * entire * point of oop is tying functions and data together into a neat little package , and few mainstream oop languages give you any real control over mutability . 
+   i also doubt turning programs into large mathematical formulae is going to make them any easier to reason about . 
+  well you 're demonstrably wrong . 
+  i knew it was you without looking at your username . 
+  just the right mix of belligerence and dislike of dynamic dispatch to be / u/combinatorylogic . 
+  and yet again you 're right , of course . 
+   your argument has changed from `` it 's impossible to define functions in an imperative language '' to `` you ca n't prove via the type system a function is pure '' . 
+  that does sound a few magnitude of levels different in terms of implications . 
+  it 's precisely the same thing . 
+  if purity is not explicit in the type of a function ( or impurity , equivalently ) and strictly enforced by the compiler then they are n't pure functions , they just * happen * to be pure . 
+  someone could change them to not be pure ( logging output , for example , or any other impurity ) and all and any assumptions based on their purity would cease to hold true . 
+  yeah i agree . 
+  i find it very difficult to use haskell code that uses ` mapm ` and other functions like this because it makes it really difficult to know what 's actually going on . 
+  people go on and on and on about how monads are n't about side effects , and then because they fail to find a better name for things of type ` m a ` they call them ` monadic actions ' all over the documentation . 
+  why do they not have a better name ? 
+  because , as you very rightly have observed , you have a bunch of functions that have completely different semantics in different contexts . 
+  ` functor ` is not nearly as bad . 
+  neither is ` traversable ` or ` foldable ` . 
+  they 're quite intuitive concepts : you can map over it , you can reduce it to a single value , and you can call ` tolist ` on it . 
+  right ? 
+  i think they 're fine . 
+  ` functor ` is a bad name though . 
+  but ` monad ` ? 
+  ` monad ` is silly . 
+  ` monad ` has multiple possible implementations , and one is chosen seemingly at random by the community . 
+  what 's more , you can only have one implementation for each type . 
+  if i have ` m a ` , it 's pretty clear what ` foldr ` , ` tolist ` and ` fmap ` are going to do to it , i think .

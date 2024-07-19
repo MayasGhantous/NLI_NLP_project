@@ -1,0 +1,100 @@
+  you had classier friends than i , 
+  generally speaking , they do n't . 
+  but given macs used to only have a single button , and the interface is still set up so you can use it with a single button , it can make mildly amusing joke fodder . 
+  i am doomed to ( attempt to ) reinvent almost every bit of library code i look at . 
+  it 's a fucking curse . 
+  it generally goes like this :, 
+  * deem the existing code to be `` ridiculously overcomplicated '' and `` badly implemented '' , or possibly `` shit '', 
+  * start coding up a replacement , imagining it 'll take `` a coupla days at most '', 
+  then a week or two later , having not got very far , i realise it 's actually far more complicated than i thought . 
+  then re-approach the original code , with a far greater understanding and appreciation for the problems it 's solving . 
+  sometimes my wheel-reinvention missions result in a better solution , sometimes patches or bugfixes for the original software . 
+  more often than not they just get abandoned . 
+  but i 've come to embrace my curse as a generally good thing . 
+  as long as i do n't lose the humility necessary to abandon my attempts when they turn out to not offer any real benefits , then it 's generally a positive process that i 'd recommend to others . 
+   right click on a magic mouse : right clicking on it * while making sure your index finger is n't touching the left hand side * . 
+  ftfy . 
+  i fucking love the new trackpads , but i was extremely disappointed with the `` magic '' mouse . 
+  agreed . 
+  i do n't know how apple managed to get mouse acceleration * completely * wrong , but they have . 
+  it uses a plugin . 
+  so it 's ( almost ) as much a web-based game as a flash game is . 
+  i suck at all multiplayer fps games . 
+  i mean really suck hard . 
+  but quake live has managed to provide me with a decently balanced learning curve . 
+  give it a go man . 
+   the idea is that object relational databases like mysql and postgresql have lapsed their useful lifetimes , and that document-based or schemaless databases are the wave of the future . 
+  no it * fucking is n't * , and i 'm tired of hearing that shit all the fucking time . 
+  the idea is that * some * things do n't need a full acid-compliant rdbms backend to do their job , and that many of the things that make rdbmss hard to scale are also the things that many apps do n't actually need to care about . 
+  now , i 'll grant the man that there are a few people out there jumping on the nosql bandwagon without really understanding what the differences are - many of which might be better off sticking to a more traditional rdbms . 
+  but there are people out there solving real problems with this shit . 
+  nosql is still in its infancy . 
+  the hype ( and mindless bandwagon-jumping ) will eventually die down , and the nosql world will take some ideas from the traditional database world , and vice-versa . 
+  and then we 'll have better software and more tools to solve our problems . 
+  everybody wins . 
+  this guy is just whining because he 's worried his ms sql server course certificate might be worth a bit less . 
+  i 'm pretty sure he just brought up rails because it was the last big hype thing that made him feel out of touch for not using . 
+  but there 's some truth to the fact they 're related . 
+  rails , and the whole `` rediscovery '' of mvc for the web , highlighted the problem of where your business logic should live . 
+  dbas say `` in the database '' , rails/mvc guys say `` in the model '' , using the database as little more than a dumb data store . 
+  i 'm not suggesting one way is better than the other , but the mvc guys have been successfully writing apps for a few years that do all their business logic in the model , and it works well enough . 
+  doing that allows a degree of portability between database backends ( or even other types of data store ) , keeps everything in one place , and lets your logic layer expand beyond the database into other things that a database would n't be able to manage alone . 
+  because this new breed of mvc apps are using the model layer to enforce the business logic , but are still paying the performance cost for all the database features they 're not using , the next logical step is to look for a different storage system with features they do care about , like simpler design with less overhead that 's ( theoretically ) easier to scale . 
+  well . 
+  that 's how i see it anyway . 
+  i did n't word that well . 
+  when i said `` rails , and the whole `` rediscovery '' of mvc for the web '' , i did n't mean rails itself was the first thing to do this , more that there was a definite shift in mindset away from the asp/php everything-in-one-place model towards mvc , and that rails was part of it . 
+  although i think it 's fair to say that rails was one of the more visible projects . 
+   anyone who thinks relational databases do n't scale really does n't have a clue about relational databases at all . 
+  i do n't think ( and did n't say ) they * do n't * scale , but they can certainly be * really fucking hard * to scale . 
+  i 've tried . 
+  that shit ai n't easy . 
+  many of these nosql things come with easy-to-implement horizontal scaling solutions built in . 
+  they certainly do make * some * forms of scaling pretty damn simple . 
+   which means : not only sql , it does n't mean : ! sql, 
+  actually `` not only sql '' is a ` backronym ' of sorts to backpedal the negative connotations , originally it was indeed intended to mean '' ! sql '' ( although strictly is should be `` norelations '' or something , i suppose ) . 
+   . . lots of stuff about what nosql dbs/kv stores are bad at . . 
+  you 're right , i 'm with you . 
+  they should not and do not replace traditional rdbmss for every problem , and anyone that saying they should are at the very least being shortsighted . 
+  in fact many people who are doing good things with nosql systems ( ie , solving real problems , not just bandwagon-jumping ) are in fact using them in conjunction with traditional rdbmss . 
+  but there are definitely problems that can be solved effectively with nosql databases . 
+  the only question is where the line between the two lies . 
+   the more you come up with lame remarks like the one i quoted from you above , the more your favorite side in the debate will lose, 
+  i do n't have a `` side '' . 
+  i think it 's fucking stupid to take `` sides '' in a debate like this . 
+  if there were an obvious `` side '' to take , then there would be no debate in the first place . 
+  there are people in both camps who are far more skilled , experienced and knowledgeable than i , and they all have good points to make . 
+  it 's the people that sit on the fringes claiming that `` x is the one true way !, 
+  y is evil and you will be damned ! '', 
+  that make these things worse . 
+  i used `` shit '' a lot too ... 
+  yeahman i 'm sure he must have done . 
+  i do n't think there 's anything particularly special about rails itself other than the fact it was probably the most hyped/visible project around the time those ideas were becoming mainstream for web app development . 
+  the mvc concepts ( and really , that 's a relatively small part of it ) originally came from xerox parc in the 70s , iirc . 
+  i 've been trying to design an api for a system that deals with lots of large datasets , and have been struggling with this problem myself . 
+  creating massive soap/xmlrpc responses has caused problems for lots of users ( their rpc clients expect the response to be small enough to fit into ram , and run into trouble with very large responses ) . 
+  and i do n't really want people making hundreds of requests just to pull down a few dozen meg 's worth of data . 
+  the solution i 've come up with is to limit soap/xmlrpc responses to a coupla thousand records , and provide a separate ( currently read-only ) rest api for getting large datasets in one go ( that way i can serve them as a delimited flat file , and saying `` dump it to disk before you process it if you 're having memory problems '' is n't a particularly onerous workaround ) . 
+  does anyone know of any more sensible ways to do this ? 
+  go get yourself an inline lamp switch , and just cut the wires and replace it . 
+  those pumps are like 5 watts , i ca n't imagine them pulling more current than a 60w table lamp , 
+  i ca n't see any problems with the switch . 
+  even if it only switches one of the conductors , it should be fine . 
+   is it true that catnip turns them into druggies ? 
+  no , but i 've read that very young cats are n't affected by it . 
+  rather than working yourself up into a paranoid and depressed state , fucking talk to him !, 
+  cold boot problems of this type are almost always down to shitty or underpowered psus . 
+  edit : although the ram thing does n't really fit well with that , so maybe not !, 
+  if it 's not going to change often , is n't going to get very big , and you do n't need to have a web interface to alter it , then mysql is overkill . 
+  if you do need to change stuff via the web interface , or you expect usage to grow significantly , then using a static file might potentially cause you one or two problems . 
+  if you want a nice half-way house between a proper database and a static file , try sqlite . 
+  it 's actually very good ( and pretty fast ) . 
+  if it helps any , i had to switch back between your post and the picture twice before i noticed what the problem was . 
+   videos are not that polar . 
+  [ oh , really now ? 
+  ] ( http://youtube-global.blogspot.com/2009/09/five-stars-dominate-ratings.html ), 
+  our cats are allowed out , and so usually crap outside ( well , in other people 's gardens ) . 
+  one of them has had a bladder infection for a few days , so he 's been pissing in random places around the house ( after running around in a panic for a bit , presumably looking for somewhere to piss and getting caught short ) . 
+  i put down a litter tray for him a few days ago , to limit the damage . 
+  which seemed to help . 
+  he 's was a bit better last night , so we took the tray away again .

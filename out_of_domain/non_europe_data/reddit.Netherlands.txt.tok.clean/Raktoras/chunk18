@@ -1,0 +1,100 @@
+  yes , they 're called [ intrusive thoughts ] ( http://en.wikipedia.org/wiki/intrusive_thoughts ) and are perfectly normal, 
+  unless you have trouble dismissing these thoughts and actually want to carry them out , i would n't worry about it, 
+  thank you for that , i used to think that sonic booms were caused by sound waves ` piling up ' so to speak , because the essentially could n't get away from the object ( in the direction that the object is going , at least ) as it is going the same speed , and that made sufficient sense to me that i did n't question it, 
+  so as this pressure increase would be even higher at supersonic speeds , is there really just a sonic boom at the moment of breaking the sound barrier , or does it persist after breaking it ? 
+  i suppose the standing wave would n't continue to exist , and you made it sound like that was the only thing causing the boom , are there any special effects like sonic booms at even higher speeds ? 
+  are those distances to scale ? 
+  i always assumed two stars would not be able to get really close without colliding so that planet 's orbit must be enormous, 
+  thanks for the numbers !, 
+  so why do some companies still physically destroy hdds ? 
+  is it just being overly cautious and do they acknowledge that it is n't really necessary ? 
+  or is this due to raid configurations in which there might be enough redundancy that it becomes somewhat more likely to recover data ? 
+  ( not that this would affect the odds significantly on the whole ), 
+  well , the characters are introduced in the first one , as is the love story between thor and jane . 
+  they also make some references to the avengers movie in which loki was the bad guy and it is what landed him in asgardian prison . 
+  other than that the story is its own and the antagonists are entirely new . 
+  it probably did n't for demonstration purposes, 
+  right ? 
+  why were they so excited ? 
+  this makes a lot of sense , actually, 
+  thanks !, 
+   you can actually feel when you drive from the netherlands into belgium, 
+  i like belgium , i really do , but this is so true, 
+  that 's interesting , peanut butter is pretty common in plenty of countries i think ( i know it is here in the netherlands ) and when i tried some root beer when i was in america it tasted pretty good, 
+  edit : although i have to admit , we do n't put it in our candy and chocolate like you do with reese 's cups and such ( found that to be a bit much ), 
+  nah , born in 1980 i believe, 
+  i may be off by a year , but that would mean he 's still 34 at most ( as his birthday is in july ), 
+  i do n't think he was honoring the anthem , but the athletes it was playing for, 
+  could just be me , though, 
+  a hippo could probably kill a tiger without too much trouble , those things are dangerous as fuck, 
+  but i do n't know if hippos and tigers share any territories, 
+  that makes sense , kyros probably revealed his true identity but after being turned into a toy , people only remember him from when his identity was unknown, 
+  i quite like the look of your keyboard , i 'm not a fan of mechanical keyboards either, 
+  what does a torch do ? 
+  wow , none of those percentages correspond to the size of the slice, 
+  why not ? 
+  is n't that what they 're called ? 
+  so what is it called then ? 
+  oh okay , so why is the term clay pigeon frowned upon ? 
+  it 's what we call them in dutch , so it 's definitely not just some nonsense term, 
+  dutch guy here , what provider do you have ? 
+  i pay quite a bit for 2.5 gb , though it made the phone a lot cheaper so it was worth it in the end, 
+  pretty sure this is what came with the collector 's edition , you could try ebay, 
+  cue *, 
+  would n't normally have pointed it out , but you claimed to normally be a grammar nazi so i thought i 'd help you out !, 
+  i 'm guessing the great wall of china or some pyramid or temple, 
+  edit : or , you know , skyscrapers, 
+  the for loop on line 64 has an int j that goes up to the last index of the matrix , but in your checkcolumnforsameness ( ) method you then try to access matrix [ j +1 ] [ i ] , which wo n't be possible in the last iteration of the for loop on line 64, 
+  at least that seems to be it, 
+  since you 're comparing array values to the one that comes next , you do n't actually have to compare the last one to the one that comes next , you could do what you 're doing in the for loop on line 130 ( and remove it on line 130 as it is unnecessary ), 
+  so on line 62 turn this :, 
+  for ( int j = 0 ; j < matrix.length ; j + + ), 
+  into this :, 
+  for ( int j = 0 ; j < matrix.length - 1 ; j + + ), 
+  and on line 130 turn this :, 
+  for ( int i = 0 ; i < matrix [ j ] . length - 1 ; i + + ), 
+  into this :, 
+  for ( int i = 0 ; i < matrix [ j ] . length ; i + + ), 
+  you can remove the - 1 on line 130 since you never attempt to check an index higher than i , so you should n't have to worry about the index going out of bounds, 
+  well , i think that could just be random chance , but i also think i know what 's skewing the odds, 
+  look at your code , here, 
+  public static int checkrowforsameness ( int [ ] [ ] matrix , int i ), 
+  / / if all values in row i are the same , then return that value . 
+  / / otherwise , return -1 . 
+  int intreturn = 0 ;, 
+  for ( int j = 0 ; j < matrix.length - 1 ; j + + ), 
+  if ( matrix [ i ] [ j ] ! = matrix [ i ] [ j +1 ] ), 
+  intreturn = -1 ;, 
+  else, 
+  intreturn = matrix [ i ] [ j ] ;, 
+  return intreturn ;, 
+  your idea here was probably to go through all values and set intreturn to a 1 or a 0 if they 're all the same , and at the end return that value or otherwise return -1 . 
+  unfortunately you keep rewriting intreturn without doing anything with it , until at last after the loop is done you return the value that was last set . 
+  to remedy this , i would make one change , like this : ( line 9 in this snippet ), 
+  public static int checkrowforsameness ( int [ ] [ ] matrix , int i ), 
+  / / if all values in row i are the same , then return that value . 
+  / / otherwise , return -1 . 
+  int intreturn = 0 ;, 
+  for ( int j = 0 ; j < matrix.length - 1 ; j + + ), 
+  if ( matrix [ i ] [ j ] ! = matrix [ i ] [ j +1 ] ), 
+  return -1 ;, 
+  else, 
+  intreturn = matrix [ i ] [ j ] ;, 
+  return intreturn ;, 
+  this way you immediately return -1 if you encounter a difference instead of overwriting the -1 you may have set earlier by keeping on checking . 
+  you should do the same thing for checkcolumnforsameness ( ), 
+  i must admit i have n't been looking at your whole code , just until i came across something that did n't seem right . 
+  i 'm running your code myself , and there are a few things that need changing :, 
+  * when you write row and column in your output , you use their index , which means `` all 1 's on row 1 '' is really referring to row 2, 
+  * when checking the major diagonal and sub-diagonal , you only check the first row and first column against the second row and second column , when instead you want to print `` not same numbers on sub-diagonal . '', 
+  and exit out of the method when you come across a difference , but otherwise not return anything and print `` all 0 's on sub-diagonal '' ( or whatever value ) at the end of the loop . 
+  * you only check if nocolumncounter is equal to 3 , instead of comparing it to matrix.length on line 73, 
+  * on line 165 you do matrix [ i +1 ] [ matrix.length-i-1-1 ] , but instead of -1 -1 you could just do -2, 
+  honestly , it 's pretty late for me and i do n't even know if your method of checking the sub-diagonal makes sense ( or what the sub-diagonal is ) but at least the rest of the code should work . 
+  as soon as anything inside a method returns a value that stops the method from executing further , so it 'll just stop there . 
+  this means the for loop does n't iterate any further , and the program will never get to that last line in the method . 
+  ( unless , of course , it never has to return the -1 ), 
+  no problem , if you change the checkmajordiagonal ( ) to have a similar structure as checkrowforsameness ( ) it should work ( so print a value when you encounter a difference and exit the method , and otherwise keep going and print something at the end ) . 
+  seeing as system.out.println ( ) does n't actually return something you can just write a return ; after it and it 'll stop the method , since you 're not actually returning a value this works even though the method is defined as void . 
+  you just made me realise i 've had the subreddit style turned off , i 've been missing out, 
+  this is how i got myself through rock tunnel the first time , before i learned flash was a thing,

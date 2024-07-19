@@ -1,0 +1,100 @@
+  that 's where the op links to too . 
+  according to the source cited in the english article , that article is correct . 
+  funnily enough , the finnish & danish articles cite the same source ... 
+  the third one certainly is n't swedish . 
+  edit : and i * did * look up the sources . . which means i checked [ da : george fisher ] ( https://da.wikipedia.org/wiki/george_fisher ) and [ fi : george fisher ] ( https://fi.wikipedia.org/wiki/george_fisher ) :p . 
+  well , yes and no . 
+  you can definitely have multiple sd cards with different oses , and shut down the raspi and switch card . 
+  the problem is that the raspi runs on an arm processor , which works entirely different than x86 processors ( the kind of processors in your desktop computer ) . 
+  traditionally , windows ( regular windows ) has n't been sold for arm , though i think they 'll start with arm versions with windows 8 . 
+  if you can find an arm copy of osx or windows , what you explained should work though . 
+   json format is identical to js syntax for assigning a variable . 
+  no , but it 's * based on * js ' syntax . 
+  just like s-expressions are n't `` identical to lisp programs '' . 
+  it ' quite a different thing . 
+  using something like `` eval '' to `` parse '' json is discouraged , and modern browsers supply built-in json parsers that only parse json and nothing else ( [ json.parse ] ( https://developer.mozilla.org/en/using_native_json#parsing_json.c2.a0strings ) ) . 
+  as far as i know , json has n't been standardised by any `` official '' standards organization such as w3c or ecma . 
+  it 's just a `` de-facto '' standard . 
+  that said , i do n't see any * problem * with basing the data format on the syntax of an existing language . 
+  it 's definitely not * necessary * to do so though . 
+  one potential benefit is that people might already be familiar with the syntax , and can relate to it . 
+  many other dynamic languages use syntax similar to js ' object - and array-literals , too ( e.g. 
+  lua and python , and also perl i think ) . 
+  my opinion on the matter can probably be summarised with a counter-question : why would one want to * avoid * basing the data format on the syntax of a specific programming language ? 
+  since 1.2 , to avoid the problem with abandoned mine parts floating in the air when generated inside a ravine , i believe . 
+  i find the [ wikipedia page on b\u00e9zier curves ] ( http://en.wikipedia.org/wiki/b\u00e9zier_curve ) top-notch . 
+  it was how i finally leraned how they actually work . 
+  well , you only covered one digit ... so there 's only ten options , and most likely not all of them are volvos . 
+  exactly . 
+  i usually suggest people new to linux to start with ubuntu . 
+  when they have some shell experience , and if they feel powerless/want more bleeding-edge stuff/are confused by ubuntu 's way of structuring things , then it might be a good idea to introduce them to arch . 
+  i have [ one of these ] ( http://www.cherrycorp.com/english/keyboards/security/smart_card_keyboards/index.htm ) , and it 's all right for my requirements at least . 
+  it 's rather clicky though . 
+  so bloated . . :( i tend to try to remove unnecessary packages when i notice them during ` - syu ` 's , but it looks like i need to do more than that to keep my system uncluttered ... 
+   new regexp ( ` keyboard ' , ` gi ' ), 
+  you want ` / keyboard/gi ` . 
+  :3 otherwise it looks good . 
+  definitely the first thing i noticed when i saw the comic . 
+  agreed on first , second and fifth gen. 
+  i think i went with treeko in third gen first time i played , and i do n't care too much for generation four ( or five for that matter ) . 
+  there * are * quite a lot of actions and motions though , and many of them are used so rarely that it takes a while to remember them ( e.g. 
+  ` ~ ` for inverting case , which i 'd forgotten about until today when i saw it in a blog post ; i 've used ` r ` instead ) . 
+  i do agree though that learning them is easier than many seem to think at first ( including what i thought before i tried myself ) . 
+  i 've had that happen to me . 
+  was a while ago ; i casually climbed down the ladder and dropped right down at a bunch of slimes . 
+  i like doing that as well , but instead of relying on a vim feature i 've modified the x keyboard layout ( in / usr/share/x11 / xkb ) and added custom characters for the third and fourth levels ( altgr + key and altgr + shift + key , respectively ) . 
+  the upside with doing it that way is that those shortcuts work in all programs , and not just vim . 
+  the symbol files are in ` / usr/share/x11 / xkb/symbols / ` . 
+  the format is loosely documented in [ this rather huge guide ] ( http://www.charvolant.org/~doug/xkb/html/index.html ) , but you do n't have to read through all of it . 
+  it 's a good place to look up stuff when you 're curious what something in a symbols file means , though . 
+  the key `` names '' ( like `` p '' , `` comma '' , `` tab '' , `` adiaeresis '' and so on ) are called `` keysyms '' , and there 's a list of them in ` / usr/include/x11 / keysymdef.h ` . 
+  in addition to those , you can also use e.g. 
+  `` u1234 '' as a keysym for the unicode character u +1234 . 
+  i also remember that these two resources has helped me before :, 
+  * http://hektor.umcs.lublin.pl/~mikosmul/computing/articles/custom-keyboard-layouts-xkb.html, 
+  * http://people.uleth.ca/~daniel.odonnell/blog/custom-keyboard-in-linuxx11, 
+  good luck , have fun . 
+  i totally thought this 'd be a link to [ this article ] ( http://en.wikipedia.org/wiki/metal_umlaut ) ... which is probably the * silliest * metal-related article i 've read . 
+  if you mess around a bit , you can probably get it to run . 
+  at least , i got it to start on linux by copying lwjgl/jinput & their native libraries from my minecraft installation . 
+  i did n't get any dialogue text for one reason or another though , so it was rather unplayable . 
+  there has n't been a lot of multiplayer trpgs , but i 'm pretty sure it could work out with some tinkering . 
+  there 's been quite a lot of tactical wargames with multiplayer support though ( e.g. 
+  advance wars ) . 
+  as a fellow tbt fan , i 'll second the tactics ogre and disgaea series already mentioned in this thread . 
+  i 've been meaning to give bahamut lagoon and radiant historia a try , but as i have n't played them , i do n't know whether they 're good . 
+  you can probably find plenty of gems if you read through [ this section ] ( https://en.wikipedia.org/wiki/tactical_role-playing_game#history ) . 
+  there 's also [ this sortable table ] ( https://en.wikipedia.org/wiki/chronology_of_turn-based_tactics_video_games ) of tbt games . 
+  [ this upcoming pok\u00e9mon game ] ( http://youtu.be/u34bzh5eo04 ) looks pretty interesting as well . 
+  definitely beats showing some scrolling c code for a couple of seconds while people are mashing the keyboard . 
+  haha , priceless :3, 
+  the [ the ds remake ] ( https://en.wikipedia.org/wiki/hoshigami_remix ) of that game is another game that 's on my to-play list , but i have n't gotten around to play it yet . 
+  hopefully it 's as good as the original . 
+  i guess you just bump ` ed it in my mind a bit though . 
+  not too keen on the difficulty level ... but all tbts are at least * worth a try * imo . 
+  that does n't make any sense on any of qwerty , dvorak or colemak . 
+  pretty much the only option left is that you 've rolled your own layout ? 
+  i 'm using a variant of [ dvorak ] ( https://en.wikipedia.org/wiki/dvorak_simplified_keyboard ) and have moved wasd to the corresponding buttons on this layout , but i kept the drop/inventory buttons on their original letters ( i did this back when inventory was still at i ) . 
+  rather handy i think , since this means i have `` drop '' on the equivalent of qwerty `` z '' , and inventory on the equivalent of qwerty `` g '' , both of which are close to the movement keys but still not buttons you 'd hit accidentally . 
+  drop on `` delete '' also sounds like a pretty good idea , because as you say there are n't many occurences when you need to drop something quickly . 
+  i 'd want inventory closer to the movement keys than qwerty `` i '' though ... 
+  hopefully it 's a water lake and not a lava lake . 
+  i actually thought of a lava lake when i first read it , probably due to lava being one of the background textures or something . . 
+  add 4 spaces of indentation for code block mode . 
+  also , for multiline strings you 'd use ` '' '' '' string '' '' '' ` , not \\ `` string ` \\ ` . 
+  i think the second graph is far more interesting than the first one . 
+  that said , i 'd probably say javascript is my favourite language . . but i * do * enjoy haskell , c , scheme , lua and a plethora of other languages . 
+  yes , but javascript is n't `` ahead of '' c , c # or haskell if you look at the fav / ( fav + dislike ) ratio , i.e. 
+  the way the second graph is sorted . 
+  since you said `` javascript ahead of c , c++ , c # , haskell and perl '' , i assumed that you were judging by the vote count , i.e. 
+  the way the first graph is sorted . 
+  [ undecimber and duodecember ] ( https://en.wikipedia.org/wiki/undecimber ) , at least if you are to trust java . 
+  it fits the knuckles perfectly !, 
+  yes . 
+  i 've had that happen in javascript , and i do n't even use code folding . 
+  it was a while since last time now though . 
+  i 'm on linux , so it 's not a macvim thing either . 
+  wow , it even contains the entire codebase of [ vapor.js ] ( http://vaporjs.com/ ) embedded inside the library . 
+  mine has [ * both * ] ( https://en.wikipedia.org/wiki/file:kb_sweden.svg ) . 
+  i have no problem writing long strings of uppercase letters while holding down shift . 
+  i almost exclusively use left shift for some reason , and while i generally touch-type , i find that i write e.g.

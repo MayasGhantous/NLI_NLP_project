@@ -1,0 +1,100 @@
+  obligatory depends on what you play disclaimer . 
+  digital foundry has plenty of videos comparing the newer skylakes and even a [ 2500k related video for your question ] ( https://www.youtube.com/watch?v=frnjt5r5xi4 ), 
+  here is [ comparison of i7s between generations ] ( https://www.youtube.com/watch?v=4sx1klgvaf0 ) and here 's [ comparison of i5s at stock speed ] ( https://www.youtube.com/watch?v=wz_5p9wd2dk ) . 
+  i would probably wait until the end of the year for zen and newer intel cpus before making the switch unless you know you play games that utilize single threading heavily with little regard to anything else ( mmos and strategy games ) and would strongly benefit from the increased ipc of skylake which the digital foundry benchmarks do n't quite reflect since they only have games that are either gpu heavy or both cpu and gpu heavy . 
+  they way you described should be possible ( although i have n't try it with win10 ) , the migration does what it says it is doing , simply clone everything and the win10 license is tied to your motherboard which is n't changing . 
+  from your post it sounded like you want a fresh os install rather than migration, 
+  that 's hard to say when the game is n't even out, 
+  true but specs are a ballpark that does n't necessary reflect how well the game actually plays . 
+  that said no man 's sky should n't be very demanding from the looks of it, 
+  i have n't checked the files how the leader generation works but first you 'll have to make sure to allow xeno leadership ( since gene modding makes them xenos which would prevent them from being available at all with primary species pnly ) and after that it will probably be proportional to the amount of them in your empire . 
+  nope besides picking long lived species . 
+  you 'll get event to convert them to pops later on . 
+  if you decline it i 'm not sure whether you get it again, 
+  can you specify what you mean by that ? 
+  i doubt there will be a single optimal way to tech up ever ( possibly except for people who play multiplayer without ais exclusively ) and you ca n't even plan it completely because the tree is semi randomized . 
+  in general the best techs depend on your general playstyle , government ethos and situation, 
+  if you lose continuously to the ais with starting advantage you 're doing something seriously wrong . 
+  i play with ai aggressiveness increased 40 times and the only way to straight up lose against advanced start would be to spawn next to fanatical purifiers . 
+  almost everyone else can be for the most time kept in check with an embassy and being careful about border friction, 
+  the hotfix appears to fix the game slowing down in the late game , but there are still `` pauses '' presumably caused by sector ai trying to shuffle pops every few days which will hopefullybe addressed in future patches as well . 
+  you definitely get it if you choose the first option ( or rather eventually judging by how paradox handles events ), 
+  i 'm not arguing with it . 
+  i was merely pointing out that sometimes `` minimal '' means being able to barely start the game and other times it actually means still being playable ( and similarly recommended specs differ what they actually mean ) and i do n't think it 's a good idea to build a system solely around minimal specs of a game that is n't out yet and you ca n't see how would it actually run the game . 
+  if you 're planning to buy the other parts anyway there is n't really any reason to wait until the gpus come out because anything else in your system does n't depend on that part . 
+  i do n't think i said that ( and i 'm not saying it 's hard either ) . 
+  however the base ai is extremely tame in declaring wars in general and paradox made the ai really transparent thanks to their personalities and the ability to see their stance against you . 
+  i 'm not saying that you ca n't get unlucky and spawn next to fanatical purifiers advance start and no one friendly around to get alliance with and get destroyed . 
+  but saying this is somehow something that happens every game and is unavoidable is n't my experience at all . 
+  update your bios, 
+  if you have multiple ram sticks , use a single stick and try different slots in motherboard . 
+  if it 's not the ram , it 's probably faulty motherboard ( and there 's extremely low chance it 's cpu but motherboard is much more likely ), 
+  bad ram slot or one of the sticks being bad are the most likely causes . 
+  the reason you want use 1 stick is to narrow down the possibilities ( because if you switch to the other dual channel config and nothing changes , you did n't exactly learn anything ), 
+  well , you found out something is causing instability by playing dota . 
+  so you change variables ( different ram sticks in different ram slots ) and play some more to narrow it down until it stops . 
+  memtest will find errors depending on how bad the ram is and if possible , you should try leaving it overnight to give it more time to find anything . 
+  most likely suspect would be the board and if different combinations of sticks/slots wo n't narrow it enough to know for sure , you 'll probably have to rma, 
+  no because the m. 2 lanes are n't shared with the gpu/pci-e lanes . 
+  the m. 2 lanes are usually only shared with sata-e lanes so if you somehow had an m. 2 drive along with a sata-e drive one of them would n't run at full speed, 
+  if you 're overclocking they should have equivalent power delivery to handle it . 
+  cheaper z170 boards with 3 or 4 phases can still be oc 'd but i would n't recommend it besides some extremely light oc since the boards ca n't really handle it in the long run . 
+  from what i 've seen unless you want to actually run something gpu heavy on your second monitor at the same time , it 's not worth doing at all . 
+  not to say that it is n't possible but you wo n't be getting any meaningful performance from you gpu by offloading a desktop render from it . 
+  have ethics and policies they like ( or do n't hate ) and be stronger . 
+  depending on their personality and ethos some ais will be more willing than others ( and few will pretty much never ally you ), 
+  as for tips , do n't neglect your military if there 's someone around who does n't particularly like you ( wary opinion or worse ) and especially if you do n't have a strong alliance to back you up . 
+  difference between 3 , 10 and 20 corvettes at the beginning is big when the ai is deciding whether to attack you or not, 
+  i doubt gpu would cause this kind of bsod . 
+  you could also try increasing ram voltage a little ( 0.05 to 0.1 v ) since gigabyte boards tend to undervolt everything a bit . 
+  i know from experience these freezes can be frustrating and hard to truly pinpoint unless you have a spare cpu and motherboard to just switch between them . 
+  if memtest does n't come up with anything and a single ram in any slot wo n't do the trick , the only thing left would be to rma the board ( or temporary get a different one to test it with but unless you know someone with a 1151 board , it 's unlikely that 's an option ), 
+  i 'm not sure what do you mean by `` crunch '' but other than that it does need a bit of force and if you place the cpu on the socket correctly you ca n't hurt it just by closing the latch, 
+  with ddr4 recommended is to stay under 1.4 v, 
+  stock 2133 usually runs at 1.2 v while overclocked xmp profiles will set voltage to 1.35 v. 
+  try increasing it to 1.3 v in bios to see if it helps at all . 
+  i 'd recommend flashing it from usb stick since it 's by far the safest way ( especially since you know your system is n't stable ), 
+  right , if you had the socket cover on it that makes sense . 
+  it makes sense once you realize they do n't care as much about your borders rather than the distance and number of your colonies close to them . 
+  it 's also probably better that way otherwise you 'd have situations where a peaceful fe would declare war on you just because you researched border tech or your colony grew a bit . 
+  the biggest difference is that the z170-a actually has enough phases for overclocking . 
+  edit : though the estimated overclocking gains for cpu/ram are pretty wrong since they assume gpu is always the bottleneck, 
+  you need something to put all the stuff you buy into to make them work together, 
+  i think i 'd rather call the z170 chipset too expensive . 
+  i 'm not an expert on circuitry to give you a good short summary so if you want to read a long one here it is http://sinhardware.com/index.php/vrm-articles/82-vrm-guide . 
+  and these reviews ( same author basically ) of z170 boards include a look `` under the hood '' and explain what components those boards use for the vrm and although there are n't many reviews of the cheap z170 boards , some of the wifi/itx boards use same or similar vrm implementation to give you an idea . 
+  ( edit : forgot link http://www.tweaktown.com/cat/motherboards/socket-lga-1150/index.html ), 
+  from what i 've seen it does n't even use the resource during the terraformation , the resource availability is only checked before you press the terraform button . 
+  edit : to answer your question directly , you keep all your resources, 
+  select the fleet and right click on the science ship , that will make the fleet follow it . 
+  you 'll probably want to set the fleet to aggressive stance though so they go after any threats immediately because otherwise the ship will get shot down before the following fleet enters the combat . 
+  i 'm also not sure if they resume following after combat . 
+  3rd party vendors will produce their own pcbs and coolers ( usually with some out of the box overclock to on the card to go with it ) . 
+  since the differences of the cards depend on the implementation of above , you wo n't get identical card from 2 different vendors ( except the rebranded reference cards right after release ) . 
+  that said you probably will get cards with similar features from different vendors that will be comparable to each other . 
+  not same cpus but a comparison you might find interesting, 
+  that said , i would strongly recommend against buying a locked haswell since you can oc locked skylake chips with some z170 boards and even if that might not be what you 're looking to do right now , it could prolong the life span of the cpu greatly in the future ( people are still getting decent performance with oc 'd 2500ks several years later which is something that ca n't be said for locked chips from even newer generations ), 
+  i hope you meant 6600k because 6600 is terrible value, 
+  yes . 
+  discovered non-sentients are labeled in the species tab and you can switch between galaxy and empire filter . 
+  what motherboard do you have ? 
+  i believe all 1151 chipsets should be able to work with win7 and nvme fine ( at worst it could require a newer bios ) but i 'm not sure about older chipsets . 
+  you might also need to download a separate driver from samsung website for win7, 
+  it 's pretty barebones . 
+  i would n't recommend it to you if you want to have good upgrade choices in future but if you 're on a budget , it should do the job . 
+  it 's 5 % per scientist level on the basic tech and the advanced tech give you 10 % per scientist lvl . 
+  so that is +50 % planet modifier for with a lvl 5 scientist ( and they get experience pretty fast when assisting ) which is huge for planets with even just decent research output, 
+  faster ram definitely does give performance boosts compared to 2133 that can bottleneck pretty hard ( digitalfoundry has several videos testing this ) , however it should be noted that i5 and i3 ( and pentium ) will benefit from faster ram a lot more than i7 so do n't expect to get such huge gains like digitalfoundry does . 
+  in fact as far as i can the reason why people always considered ram speed irrelevant are these benchmarks where they pair it with top of the line i7 and got rid of the cpu bottlenecks where ram speed makes a big difference in the first place that way, 
+  i 'm looking at the specs of the motherboard and i ca n't see m. 2 slot , am i missing something ? 
+  i think you got trapped in having too many vassals . 
+  the issue is they should rebel but thanks to a bug where they only compare their individual strength compared to yours they wo n't . 
+  i think the philosophy behind vassals in general is same as in eu4 and once you have too many strong vassals they would rebel against you ( if it worked properly ) and when vassalizing you have to make sure that you do n't cross the line where the vassals are too strong compared to you and will get into a state where everyone is disloyal, 
+  i 'll put a disclaimer that my reasoning is based mainly around experience with vassals from eu4 and may not necessarily be 100 % same with stellaris vassals ( since i only vassaled one empire so far and that was peacefully ) but in both games there 's a liberty desire that affects their behaviour . 
+  in eu4 you have 2 thresholds for the liberty desire ( less than 50 % is loyal , more is disloyal and 100 % is rebellious ) . 
+  in stellaris the libert desire is most likely based on their opinion and while -140 for their power is a lot , there might be different modifiers to balance it out slightly ( and at worst , you 'll probably be able to lower it down a bit by building even bigger fleet ) . 
+  i ca n't tell you if the modifier currently is too harsh ( again , have n't used multiple vassals ) but if you vassalized them in a war there might be more modifiers that make them disloyal rather than loyal ( namely different policies and ethics ), 
+  either way , especially since you can vassalize anyone no matter how large are they , it might not always be a good idea to do it because similarly to eu4 , there 's a certain threshold how strong your vassals can be and still have them loyal and if you cross that line , all or most of your vassals will get disloyal and it 's sometimes very difficult to get out of that situation . 
+  same thing is possible in stellaris but it will probably be even more difficult because currently there are n't any special mechanics to interact with your vassals . 
+  i think you need to remember it ( aside from wormhole species since it 's usually easy to see the wormhole generators on the map ) . 
+  if you want it for the form factor there probably is n't anything wrong with it but keep in mind the speeds will be the same as if you got a sata ssd,

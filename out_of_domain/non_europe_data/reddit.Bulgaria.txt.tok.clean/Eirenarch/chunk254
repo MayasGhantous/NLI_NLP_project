@@ -1,0 +1,100 @@
+  with pure web the file is just another input on your form but with ajax you usually use json and you ca n't do that with json so multipart forms , blah blah blah ... 
+  quick we should build an extension method that returns lines in a file one by one in an ienumerable so / u/mirhagk can write his magic code and be efficient . 
+  i find it annoying that they never get anders to do full sessions on the big conferences on this kind of stuff . 
+  he should be showing and explaining the internals of the compiler instead of these `` what is new in typescript '' sessions . 
+  it is not useless but it seems useless to me in this particular situation because he could have just used all 3 oracles and killed the mine before it shot . 
+  of course you will waste energy but still ... 
+  i always thought this was intentional design decision . 
+  generics/templates are simply non-negotiable in a statically typed language . 
+  the boilerplate and runtime casts required to make up for the lack of generics increase the complexity of the code ... unless of course your goal is reduced complexity in the compiler rather than in the codebase of your users . 
+  i must be the biggest fan of anders ( hallowed be his name ) in the whole world but i am not sure he should get a turing award . 
+  his work is always extremely practical and the turing award is more of a science thing . 
+  he is the kind of person that takes what the scientist did and makes it so mortals can benefit from it . 
+  a kind of prometheus . 
+  i fully agree that he is underrated and is probably the language designer that saved the greatest amount of man-hours in history via his work . 
+  maybe they should make an anders award for purely practical computer achievements . 
+  just in case you are really asking about async/await - i think he did invent the mainstream implementation . 
+  the one that is being implemented in javascript , python and dart ( i am willing to bet it will come to java in 10 years ) . 
+  of course the coroutines date back to simula and they were used for asynchronous operations for a decade including in the form of generators/iterators . 
+  now there is a chance that i fail at programming language history and one of the reasons i write that is that i am sure that if i am wrong somebody will correct me , 
+  yeah , but it does n't have generics ... oh wait , wrong thread . 
+  this one is not about go . 
+  to be honest 99.9 % of developers are not nearly as good as rob pike but this does n't mean we ca n't handle fucking generics and even if you thought so in the 80s we 've been handling languages with generics just fine for decades . 
+  the anonymous method syntax is definitely not needed but it is pretty much harmless . 
+  i have not seen a single discussion where the problem for a new feature is interactions with anonymous methods so its cost is minor . 
+  i am also sure that newcomers have no idea that this syntax exists at all . 
+  i know because i happen to mentor the interns , 
+  i quoted simula as a source . 
+  it came in 1967 . 
+  these things probably happened internally before . 
+  we just never heard of it . 
+  yeah and a lot of people happily use php . 
+  i even have fun writing brainfuck problems ? 
+  what 's your point ? 
+  the impression that there is boilerplate code is based on this discussion just a day ago on the same topic . 
+  the other person gives an example which in my opinion has an insane amount of code - https://www.reddit.com/r/programming/comments/4inxha/today_i_accept_that_rails_is_yesterdays_software/d31ial0, 
+  i do n't know if his code is a good go practice but i assume this is how you deal with lack of generics . 
+  i firmly believe this is a result of legacy codebase and pure stubbornness ( i do n't claim that maintaining legacy code is stubbornness but starting new projects without legacy constraints in c is stubbornness ), 
+  `` non-negotiable '' assumes that there is a side negotiating in this case the side is me  however to elaborate i think that there is no objective argument in a real world situation that will defend the position that go as it currently is is better than a hypothetical version of go where everything is the same but it has generics and there are a lot of arguments for the opposite . 
+  as for that comment thread i am really curious how you would solve the problem of providing a filter function in go . 
+  i find it doubtful that go users do not need to solve the problem of filtering a sequence . 
+  lets see how these people that i respect a lot had made my life better . 
+  erik meijer - he worked on linq which is great but it is still in anders 's language . 
+  he built rx which i guess counts but not nearly as useful as c # . 
+  his work on haskell is irrelevant to me since i never got to use haskell in production ( not that i am any good with haskell as my experience is limited to a set of lectures by meijer ) . 
+  anders wins this one hands down . 
+  gilad bracha - he worked on the inferior java language which i have chosen not to work with because i am spoiled by c # and even somewhat higher salaries for java in my area will not make up for the fact that writing java annoys me . 
+  newspeak may have been great , who knows . 
+  i have never met anyone who has used it . 
+  it is possible that i never met anyone who knew that this language exists ... well maybe don syme knows , i met him once . 
+  dart is a failed project already so although it was a noble go , the reality of the web platform crashes noble dreams . 
+  typescript still more useful to me in practice and i have actually used it to make my life as a web dev less painful . 
+  even if i believed that dart was better than typescript as a compile to js language i would n't be able to sell it . 
+  i do n't personally know any dart user and i happen to know the guy who started definitely typed for typescript ( we live in the same area ) . 
+  definitely anders wins this one . 
+  lars bak made a great js vm ... 
+  i guess this is important but still my main language of choice is much more important and i am not sure i actually like that the web became `` good enough '' instead of dying . 
+  i already discussed dart which is useless to me . 
+  i do think anders stands above his peers in terms of practical usefulness to mere mortals . 
+  certainly it is possible at least in c++ . 
+  the same way as in c . you write your own . 
+  the value here is that you take this control only when you need it and the rest of your code can happily use things like templates and catch errors at compile time . 
+  i strongly disagree with naming a variable c. sure `` collection '' may be a useless name ( . net uses `` source '' which is better because it tells you which collection it is in case there are several collections around ) but with names like `` c '' it makes it harder to read the code as a sentence and i firmly believe that reading like an english sentence with some math symbols thrown in is the most important quality of a good naming . 
+  edit : after reading this i decided to finish my [ article on code readability ] ( http://sietch.net/viewnewsitem.aspx?newsitemid=257 ) that i have been preparing for a while where i elaborate on this opinion of mine . 
+  well encapsulation is a good thing , 
+  and if i want to filter collection of a different type i write another function ? 
+  this is what i mean when i say that there is a lot of boilerplate code . 
+  he is a lousy presenter which makes it even better to have him do a deep dive . 
+  good presenters are good even with simple topics ( like `` what is new in typescript '' ) because they can throw enough jokes and speak fluidly but a deep topic does n't need this to be worth watching . 
+  it is a good thing they are conservative then . 
+  i 'd like to see more unit that focus on controlling space instead of harassment like tanks before they could fly . 
+  i guess lurkers are ok but in starcraft i they were more beautiful since they were produced earlier in smaller numbers and there were some quite technical pushes where you fought for space rather than damage . 
+  you can use multipart forms but then you have to send form data instead of json and the default web api model binders do not work and you need to write your own ... annoying, 
+  this is of course true and i do n't even think of it as an exception . 
+  after all if i was making a sentence in the real world i would pronounce v and t rather than velocity and time . 
+  track record . 
+  wherever anders is useful things happen , turbo pascal and delphi ( before my time but my older coworkers swear it was the greatest thing of the time ) then c # and now typescript . 
+  as it happens these are the most pleasant technologies that i can get a real job with ( at least in my area ) . 
+  i do n't know what he did . 
+  maybe he has an aura but there certainly is correlation between anders working on something and it being the best option for mainstream programming . 
+  i dread the prospect of doing java with babel . 
+  well too bad having two operators for the same thing is not very cool and you will surprise most of the readers of the code . 
+  resharper seems to be eager to suggest lambdafication for every loop but i do n't think the result is always better than the original . 
+  i personally often use linq to put things in dictionaries with the todictionary method that takes a lambda for the key and the value which is often useful if you need fast search by multiple keys or reverse search with the value as key . 
+  what happened in that game ? 
+  yeah , fuck encapsulation !, 
+  real men make all the fields public !, 
+  also i wonder why somebody wo n't come up with an optimization in the compiler or the jitter to optimize the property or accessor calls to a field access ... 
+  if apis are already established as copyrightable why it seems like both sides are only concerned if google knew this ? 
+  why does it matter ? 
+  it wo n't make it `` fair use '' if google did n't know that apis were copyrightable . 
+  automatic conversions refers to js but of course in c ifs accept numbers so there is there is a similar issue . 
+  edit : i will remove that part since it is technically wrong and i do n't want people to focus on that . 
+  congratulations on your interface epiphany , 
+  if it is an industry practice will it make it fair use ? 
+  i find it strange that i should defend encapsulation ( which in my opinion is the most beneficial property of oop ) . 
+  it is simple - you protect your invariants and in this way prevent errors . 
+  for example if the array list had a public count field the user could change it in a way that would break the implementation in a subtle way like say enumerate more items than are actually in the list . 
+  i understand that there are no booleans in c but this results in checks like if ( 0 = = something ) to avoid writing = instead of = = . 
+  c # , java and many other languages only accept boolean expressions in ifs . 
+  yes it may very well result in something else than a crash if the count does not exceed the bounds of the underlying array .

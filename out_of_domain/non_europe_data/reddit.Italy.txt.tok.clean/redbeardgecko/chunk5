@@ -1,0 +1,100 @@
+  it 's one of my favourite subjects !, 
+  also yes , i did all the research . 
+  judging from all the opcode lists i 've found around the internet , the only other registers that can be added to are sp and hl , but that 's for 16bit arithmetic . 
+  this page lists all the opcodes , and the first operator for add is always a , except for the cases i mentioned above . 
+  i wonder if the disassembler you used worked around it with some weird macros ? 
+  this page also only lists a as the first operator for add , while e.g. 
+  ld lists a generic `` r '' . 
+  thanks !, 
+  all the positive feedback is motivating me to make the next one as soon as possible . 
+  that is actually pretty great !, 
+  awesome find !, 
+  yeah , i remember back in university all of my friends hated the course on assembly , but i loved it because it gave me the tools to understand something practical that i loved . 
+  the world of programming and technology is incredibly fascinating if you show what it 's used for !, 
+  that 's awesome . 
+  i 'm a huge fan of chiptunes . 
+  you ca n't imagine how happy this comment made me . 
+  right ? 
+  once those steps click , assembly immediately becomes 10x easier !, 
+  your comment helps a lot . 
+  when you make stuff , it 's incredibly hard to keep an objective view about how it will be perceived by others . 
+  i 'll make sure to keep the same style for the next episodes !, 
+  that dude is nuts !, 
+  i could n't imagine tackling a project like that in assembly . 
+  totally deserved recognition . 
+  thanks !, 
+  animation is indeed very time consuming . 
+  this one took me nearly a month of on-and-off work . 
+  hopefully , now that the general aesthetics are set , animatin the next ones will be a bit more streamlined . 
+  would you mind telling me what you found hard to understand ? 
+  i 'm trying to make the series as informative as possible without becoming too complex , so i 'd love to get some feedback on the explanations !, 
+  thanks !, 
+  i gave all of that a good read before posting . 
+  i know it 's dangerous territory , and for good reason . 
+  nobody wants reddit to turn into an advertising platform !, 
+  go ahead and cross-post it if you 'd like !, 
+  :d i do n't wan na invade too many subreddits with self-promotion . 
+  it 's my wife narrating . 
+  i 'm italian , and while my accent is not nearly as strong as the stereotypical bippity boopity , i still did n't want to make you endure listening to me enunciate imperfectly !, 
+  if you wan na listen to me talk , just watch the italian version : it 's on the channel too !, 
+  i know , i know , i should advocate python 3 !, 
+  sorry about that !, 
+  it 's a necessary introduction to be able to explain most of the gb-specific stuff . 
+  the next videos will definitely focus more on the game boy itself !, 
+  urgh , you 're right . 
+  i used the right numerical values , at least !, 
+  if anything the off-by-one error tells you that i 'm a real programmer :p, 
+  that is what we in the video-making trade technically call a '' _ mistake _ '' . 
+  i should n't have been working on it late at night . 
+  good catch !, 
+  a lot of ground to cover for a short video !, 
+  i had to jump a little bit here and there . 
+  you 're right in general , although i did show what operators were and explained that registers are super-fast memory cells located directly inside the cpu . 
+  it 's always hard to cover * everything * in educational videos , because you can always go deeper . 
+  in this case , i thought that since hexadecimal was only mentioned in passing it was really needing a thorough explanation , which might happen in the next video instead !, 
+  in any case thank you for your criticism !, 
+  it 's always good to receive feedback . 
+  nice detective work there !, 
+  i am indeed italian , and i wrote the script and animated the video , while my wife narrated it in english . 
+  it 's mostly a one-man job here , with a great collaborator for linguistic matters . 
+  given the response i 'll definitely get to work on part 2 asap !, 
+  unfortunately no , for a couple reasons ( apart from the obvious disparity in computational power ) :, 
+  - assembly language actually differs from cpu to cpu . 
+  kind of like every tv is made to watch tv , but they all work differently and offer more or less functions , different cpus have more/less/different assembly instructions , more/less/different registers , etc. 
+  interestingly , intel has been supporting the same basic assembly instruction set ( called _ x86 _ ) since their 8086 cpu released in 1978 , and this is why you can still [ run a copy of ms-dos from 1992 on a modern i7 ] ( https://www.youtube.com/watch?v=gbuc0pvyzhq ) . 
+  - as an extension , assembly is also completely tied to the kind of device you write it for : your assembly code will be directly referencing stuff ( e.g. 
+  a graphics card , a hard drive , windows dialogs or dos functions ) that only exists on the system it 's designed for . 
+  i actually do n't !, 
+  my only foray into `` game boy '' programming was hacking a version of visualboy to allow hooking custom functions in the code for generating more modern graphics/sound . 
+  i ended up making a veeeery rough proof of concept with pok\u00e9mon red that looked [ something like this ] ( http://i.imgur.com/du61j54.png ) . 
+  to make it i had to actually read the original disassembled source code for the game , in order to find what parts of memory/code i had to monitor to know when textboxes were opening , sprites were being moved , etc. 
+  i have a huge respect for the demoscene community , though . 
+  if you want to see a system pushed to insane extremes , look no further than the demoscene for it . 
+  i definitely plan on mentioning demos in the next few videos , because they show what real control of the hardware allows to do , and are great to explain hardware quirks and why proper emulation is so darn difficult . 
+  yeap , that was actually my mistake . 
+  i got operand and operator confused . 
+  i 'd like to claim esl , but i feel that that 's cheating . 
+  my bad !, 
+  after effects !, 
+  haha , it 's english as second language :p, 
+  you 're right . 
+  i made the mistake of using strong/weak instead of static and dynamic , which is what i meant to convey . 
+  thanks for clarifying !, 
+  i have actually been using strong/weak as definitions for a long time , and just now i discovered they 're not the proper terms . 
+  the more you know . 
+  i also agree about the virtual machine thing , but i just did n't want to add another definition , as i felt that part was rather marginal compared to the broader discourse . 
+  thanks for your feedback , though . 
+  i 'll try to be more precise in the next video !, 
+  hahaha , it 's actually italian , not spanish . 
+  close enough !, 
+  but yes , i narrated it . 
+  yeah , other people pointed it out too . 
+  i mixed up the terms a bit !, 
+  holy crap , people . 
+  thanks for the amazing feedback and the double gilding !, 
+  i really do n't know what to say . 
+  you have made my day . 
+  all of that will likely go into the next video , because it 's probably going to be about memory mapping : i think it 's easier to go into execution , rom , and all of that stuff while showing how it 's all organized as a continuous memory space !, 
+  you are correct about both things !, 
+  they 've been pointed out in other comments too . 
+  i apologize once again about the binary thing .

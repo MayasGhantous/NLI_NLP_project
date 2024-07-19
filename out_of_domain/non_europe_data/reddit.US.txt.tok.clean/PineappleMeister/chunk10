@@ -1,0 +1,100 @@
+  that 's for sprite-reddit image above i told you to uploaded in on the stylesheet page then paste the code on the url where it says background-image . 
+  you can add color but that would require changing the code a bit . 
+  ( removing background images etc ), 
+  that 's different than what you ask on this thread . 
+  to move it together would require to moving both buttons to the top of the search , because the search moves the sidebar when you selected it and the wiki buttons would not move if you want to place next to the submit button . 
+  it is not that hard but i do n't have time to do this right now . 
+  sony released a bunch of screenshots . 
+  that 's a cool reddit , i 'm one of the mods at / r/cameras , did n't even know it existed will be adding a link on our sidebar . 
+  looks like it was made by former admin / u/jedberg but there is no mod list , so not sure if he is still the mod there ( very doubtful he is ), 
+  damn it bot again , you suck !, 
+  i think it will be included but looking at the press release for the ps4 event it does n't mention it will be bundle in , like the headset that specifically says that it will be bundled with ps4 , if it not on the top end ps4 ( the one i 'm planning to get ) i 'm not sure i want it . 
+  ** press release ( pdf ) **, 
+  . bottom-area : before, 
+  replace this ^ with this here that should get you what you want . 
+  ( although i 'm not sure i understand what you are asking , i only see one notice ), 
+  . usertext-edit : before, 
+  remove , 
+  i thought that was what you wanted ? 
+  but if you only want it on the first comment box , should be something like this . 
+  / * the note under direct response comment box * /, 
+  . commentarea  . usertext . usertext-edit : before {, 
+  content : ` direct responses to cmv posts must challenge at least one aspect of op 's view ( see rule iii ) ' ;, 
+  display : inline-block ;, 
+  shit !, 
+  down by one already . 
+  cano !, 
+  fuck yea . 
+  now we are tie . 
+  op your account is shadow ban . 
+  you may want to contact the admins, 
+  it means no one can see what you type unless a mod approves it , ( i ca n't see when you reply to me ) go / r/reddit . com and message the admins from there . 
+  i do n't see a problem with what they are doing , it is their games after all . 
+  it like trying to rebroadcast a baseball game , actually that happens all the time in sports but tv stations still pay the team for that rebroadcast even if the commentary is different . 
+   watching the same baseball game is going to be the same everytime , no matter what , but a video game is different, 
+  fundamentally stories in games are the same ( with the excepting rpg and choice base games ) for linear story-driven games the story never changes like baseball , the ending are almost always the same not matter who is behind the controller . 
+   people are n't going to not buy a game just because they watched a let 's play instead . 
+  why are you so sure of this ? 
+  i for one play many games just for the story but if i know the story why would i buy it ? 
+  if i know climax and ending i would personally not care for the gameplay some particular games . 
+   this is bad because lps are main parts of some people 's channels and now it could be hard to sustain the channel . 
+  come on , let 's play videos are some of the lowest form of creative content on the web . 
+  however there is a market for them , and i think the real creative people behind those videos , ( the game makers ) should get a fair share of the money youtubers are making . 
+   overall this was a bad move for nintendo, 
+  i do n't , i think this will be the standard for game publishers/developers . 
+  nintendo is just the first to do it but i do n't think they will be the last , especially since lets play videos are likely be more common with the ps4 having the capabilities to do it built in . 
+   the makers of an original ca n't take money from parody makers , because the parody makers are protected under derivative works law . 
+  only if it fall under `` fair use '' . 
+  mosts let 's plays are the whole game that 's not fair use . 
+   the makers of a video game should n't be able to take money from a video maker , because that video maker should be protected under derivative works law . 
+  [ `` who can produce derivative works ? 
+  only copyright owners have the exclusive right to produce derivative works based on their original , copyrighted works . 
+  copyright on original works of authorship is automatic , and registration -- while it does carry significant benefits , like the right to sue for infringement -- is not required for a work to be protected ; protection attaches immediately when the work is completed . 
+  however , a copyright owner can grant permission to someone else to make a derivative work based on his or her original -- if permission is granted \\ ( in the form of a license or assignment \\ ) , then creation of the derivative work is not infringement . 
+  but if the original is n't yours and you do n't get permission to use the original from its creator , then you 're infringing that author 's copyright . 
+  '' ] ( http://www.legalzoom.com/intellectual-property-rights/copyrights/what-are-derivative-works-under ), 
+  the excepting being fair use as stated above i do n't think lets play videos fall under fair use . 
+   sory , used the wrong term . 
+  game videos are * transformative * works which qualifies them as fair use . 
+  video about this : http://youtu.be/bxocqwthkag, 
+  i would have if you had link to something less bias than a video title `` the death of the let 's play '' but we are going to have to agree to disagree , it 's late and i want to sleep . 
+  in the subreddit settings page where it says look and feel just click upload file . 
+  relate see / r/logos, 
+  well we do n't even know if this thing will actually be in production , sony only said the technology ( e ink mobius ) will start production this year . 
+  you should probably get a table , samsung note tablets have pens if that what you want for note taking . 
+  looks like it was made by former admin / u/jedberg but there is no mod list , so not sure if he is still the mod there . 
+  you can used images to recreate that , i wo n't go through the trouble of getting this working for you but here is the code ( this will not work for you without many changes ) . 
+  you need to create a sprite images for the menus , you will also need to recreate the background but since i do n't want to do the work of recreating the images i ca n't tested it for you , you will need do that one out yourself . 
+  . single-page . tabmenu {, 
+  position : absolute ;, 
+  top : 160px ; / * change this to what you need * /, 
+  left : 270px ; / * change this also to what you need * /, 
+  z-index : 10 ;, 
+  . single-page . tabmenu li a {, 
+  display : inline-block ;, 
+  margin : 0 ;, 
+  background-color : transparent ! important ;, 
+  background : transparent sprite image no-repeat left top ;, 
+  . listing-page . tabmenu li.selected a , . single-page . tabmenu li.selected a {, 
+  background-position : 0 0 ! important ;, 
+  . listing-page . tabmenu a [ href $ = '' / saved / '' ] {, 
+  . single-page . tabmenu li : nth-child ( 1 ) a {, 
+  . single-page . tabmenu li : nth-child ( 2 ) a {, 
+  . single-page . tabmenu a #viewimagesbutton {, 
+  . search-page . tabmenu { display : none ! important }, 
+  / ************ end ************ /, 
+  you can also do that with css only but you wont be able to get that font . 
+  no , im talking about the black border around the menu . 
+  make a sprite image of the menus and put it where it says `` sprite image '' ( just ctrl + f , and replace it with the url ) there . 
+  as for the / change this also to what you need / that 's for you to move the menu around to fit your reddit . 
+  if you make the sprite image i will finish ( most of it ) for you . 
+  nice !, 
+  i know someone who bought one they are not `` that '' expensive iirc i think they go for $ 1000 to $ 1500 each . 
+  no , you should get the original file create individual picture for hot new etc [ then take it here ] ( http://csssprites.com/ ) to make the sprite . 
+  you need 3 sprite images one that will show when you hover the other when selected and the normal . 
+  if you make the individual images in i 'm willing to do the rest but i do n't want to do the images . 
+  just a note to op , you do n't need '' . side a [ href * = ' / #btn ' ] '' unless you are making a link into a button ( on the sidebar ) also that 's missing the page button , big editor ( res ) , and if you want to make the reddiquette and formatting help into buttons you can , see how i have it on / r/awesome . 
+  edit this was not supposed to be reply to this comment ... 
+  sony india site you can add anything after the + so that does n't mean anything . 
+  the spanish and german site are only linking to this as their `` proof '' this is link bait . 
+  edit apparently something was link to the india site but no one seems to have a screenshot ... so yea i 'm still skeptical .

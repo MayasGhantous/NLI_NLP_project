@@ -1,0 +1,100 @@
+  yeah honestly it 's an absolutely fantastic episode . 
+  if it had been made while harmon was still at the helm , and the episode itself was n't any different , people would have loved it . 
+  i doubt anyone would have reasonably thought a 12 year old was the one who created it , but my first thoughts definitely went to a highschooler or undergraduate uni student . 
+  far too often , the question is n't a duplicate anyway . 
+  it 's around a similar topic , but it 's different , and the answer for one situation does n't make sense applied to the second situation . 
+  ** marked ** as duplicate by zagorath sep 20 '15 at 6:00, 
+  this question has been asked before and already has an answer . 
+  if those answers do not fully address your question , please ask a new question . 
+  ** this question already has an answer here : **, 
+  [ has the team at stackoverflow ever seek help from others on stackoverflow for issues on stackoverflow ? 
+  ] ( https://www.reddit.com/r/iama/comments/3ljqkk/iama_software_developer_at_stack_overflow_ama/cv6v93g ) * 1 answer *, 
+  unless otherwise specified , if someone says `` vi '' i assume they 're talking about vim . 
+  on os x , the command ` vi ` is even automatically aliased to ` vim ` . 
+  as far as i 'm aware , the guy was n't hired as an employee of google proper . 
+  that is to say , his job would n't have been engineering , or design , or marketing strategy or anything serious like that . 
+  he was essentially a retail employee , not a role that would have needed someone with the especially high level of skill google is typically famous for . 
+  vimeo is not and * should not become * a real competitor to youtube . 
+  their niche is quality artistic content , not vlogs , news programmes , or educational content . 
+  i agree with you regarding sorcerer and warlock . 
+  they 've obvious good fits . 
+  i might say that the cleric is another good fit , particularly a type of cleric that does less up front combat and more support type stuff . 
+  * maybe * a wizard if they 're a sort of child prodigy . 
+  as others said , rogue works , especially the thief archetype . 
+  [ order of operations , dude ] ( https://en.wikipedia.org/wiki/order_of_operations ) . 
+  just remember bidmas :, 
+  * brackets ( that 's `` parentheses '' if you 're american ), 
+  * indices ( aka exponents or orders ), 
+  * division, 
+  * multiplication, 
+  * addition, 
+  * subtraction, 
+  at least in c ( and derivative languages ) , the value for an `` array '' is actually just a pointer to a spot in memory . 
+  the value of the array itself is the value of the memory address of the start of the array . 
+  indexing into the array is simply adding to the memory address being referenced an amount that shifts you over that many places * . 
+  doing ` array [ i ] ` is the same as ` * ( array + i ) ` . 
+  this makes passing arrays around different functions very simple and intuitive . 
+  \\* note that the compiler is smart , when doing ` array [ i ] ` , the actual memory address it dereferences for you is ` array + ( i * sizeof ( array [ 0 ] ) ) ` . 
+  [ here 's some code that shows examples of each of the above ] ( http://pastebin.com/czjddavf ) . 
+  edit : fixed mistake pointed out by zantier . 
+  theoretically , i 'm going to guess that they could . 
+  i * know * for example that non-integer bases can theoretically exist . 
+  ( [ by some metrics , for example , base `` e '' could be considered the most `` efficient '' base . 
+  ] ( https://en.wikipedia.org/wiki/non-integer_representation#base_e ) ), 
+  that really is sad :(, 
+  beethoven 's 5th has certainly been way overused in popular culture , but i still get great joy out of hearing a good recording of it . 
+  unfortunately having heard so many recordings , my preference for styles of playing it are now really specific , so far fewer recordings of it really do anything for me , but the good ones are as great as ever . 
+  it 's still my favourite piece of music . 
+  glad to know you 're doing okay . 
+  your presence has definitely been missed , especially as far as posting interesting news and discussion pieces . 
+  but i guess the rest of us will just have to step up our game in that regard !, 
+  i really do want to thank you for everything you 've done for this subreddit . 
+  i 've had a love for classical music for a long time , but the time when you were a common presence in this subreddit provided some absolutely brilliant conversations , and i saw a number of people having their first introductions to the beautiful world of classical music , which made me really glad to be a part of this community . 
+  so thank you for everything you 've done , and i hope life continues to treat you well . 
+  that gif makes me think of respighi 's * pines of rome * . 
+  god damn it , disney . 
+  i love a good `` 4 ' 33 '' joke as much as anyone , but i really do feel that more people need to see this , or read in to the real thoughts behind the piece . 
+  because the piece itself is not a joke , it 's actually really wonderful and thought-provoking , if you come to it with the right mindset . 
+  surely if you have a router at home ( which these days most people do ) , even the most na\u00efve implementation would not involve going out onto the internet , unless all communication were being done through a central server ( i.e. , unless it was * not * peer-to-peer ) ? 
+  when i wrote that line , i was not referring to code that the user could enter to see the result , but merely describing using logic the way to work out what the address will be , so i do n't see the cast as necessary . 
+  but you 're definitely right that i should have used ` sizeof ( array [ 0 ] ) ` rather than ` sizeof ( i ) ` , since the latter should always be an ` int ` , but the values in the array may not be . 
+  ever heard hugh laurie when he 's not playing an american ? 
+  yeah , every time this comes up , i see people saying `` oh , but you 're not supposed to slather it on , you 're meant to spread it really thin '' , and i just think ... well , yeah , that 's great advice for giving it to someone who 's never tasted vegemite before , but if you 're a true blue aussie you had better be slathering it on real thick . 
+  butter is essential even for the advanced vegemiter . 
+  but yeah , really spread is necessary for newbs . 
+  you can work them up to being a true blue aussie with it spread as thick as one might peanut paste or jam or something . 
+  when it gets slightly hot over there , there really * is * panic . 
+  not about barbecuing , necessarily , but over the heat . 
+  i was on holiday in england a few years ago , and the temperature was like 28 degrees , and there were warnings on the train about how you need to make sure you drink a lot of water and keep out of the sun and stuff . 
+  fyi , no . 
+  this is not the way the words are used outside of america ( and even within america , there is a lack of consistency ) . 
+  that 's not to say that america is wrong , of course , because they 're * not * . 
+  but it * is * wrong to correct someone and say that the only correct way is the one you described . 
+  most aussies do n't eat it at all after the age of like 8 , unless they have younger siblings or children . 
+  i 'm fairly sure the british take on indian food is what people in most of the world really * want * when they think of indian food . 
+  that 's not how language works , mate . 
+  oh god yes . 
+  typing things like `` i.e. '', 
+  or `` e.g. '', 
+  in swiftkey is an awful experience . 
+  also , for some reason the `` australia '' layout puts `` pound '' as the primary currency symbol ( the one reached when long pressing from the letter page , or with a short press on the symbol page ) . 
+  when someone asked on their forums why this is , they basically said `` deal with it '' . 
+  absolutely no good reason for this , it 's just lazy as fuck on their part . 
+  i just wish swiftkey could learn things with unusual capitalisation and punctuation . 
+  i use `` i.e. '', 
+  a lot , but it * refuses * to learn that this is a thing , and makes it impossible to fucking write . 
+  `` ios '' is equally difficult to make it do . 
+  basically have to write a lower case i , enter that , backspace , capital os . 
+   i should not be confused when i look at infographics, 
+  i agree, 
+   i should not have more questions then i had to begin with, 
+  i do n't agree . 
+  if the infographic is informing you about something , but it can only * possibly * scratch the surface of whatever it is . 
+  if it 's well-made , it 'll give you a good overview , but leave you inquisative enough to want to learn more about its subject matter . 
+  but anyway , i do n't see your problem with this infographic . 
+  it 's pretty basic , but it 's also really simple and easy to understand . 
+  of all children who die under the age of 5 , 80 % die from preventable causes . 
+  14 % die of non-communicable diseases . 
+  and 6 % die from injury . 
+  the only bit of that which could * possibly * be confusing is `` non-communicable diseases '' , which is easy enough to google and find out that it 's diseases like cancers , asthma , and other chronic diseases for which no cure exists . 
+  even so , the infographic clearly gets its point across .

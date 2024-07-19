@@ -1,0 +1,100 @@
+   can we restrict user ability to download any other containers from the docker hub, 
+  that feature was [ not accepted ] ( https://github.com/docker/docker/pull/13450 ) upstream , however red hat applies that patch , so `` ` -- block-registry `` ` would work on fedora/rhel/centos . 
+  you can either disable full docker access ( see point 1 ) or try blocking it in ' / etc/hosts ' maybe, 
+  \u0410 \u0432\u043e\u0442 [ \u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0438\u0439 \u043e\u043f\u044b\u0442 ] ( https://meduza.io/shapito/2016/09/13/norvezhskiy-blek-metallist-poshel-na-vybory-s-lozungom-ne-golosuyte-za-menya-ego-izbrali ) . 
+  \u0421\u043f\u043e\u0439\u043b\u0435\u0440 : \u0431\u0443\u0434\u0443\u0442 \u043f\u0440\u043e\u0434\u0430\u0432\u0430\u0442\u044c [ intex aqua fish ] ( http://gadgets.ndtv.com/intex-aqua-fish-3345 ) . 
+  \u041a\u0440\u0438\u0437\u0438\u0441 , \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f , \u0432 [ \u0414\u0430\u043d\u0438\u0438 ] ( https://g.redditmedia.com/kugjcjydp_37swhd1bvwysib_jawyper-glyog5zi3a.gif?w=600&amp;fm=mp4&amp;mp4-fragmented=false&amp;s=b8ec5caf41bd1d811f0b87f4adfe4186 ), 
+   could n't find an alternative telinit implementation to spawn . 
+  that 's weird , most likely its selinux policy error . 
+  anyway , arch linux does n't seem to have oci hooks installed , so this instruciton wo n't work yet, 
+  switch to a different tty ( ctrl + alt + f3 ) and run it there . 
+  in this case a x/kde/gnome crash wo n't affect the dnf . 
+  another option is to run it in screen/tmux, 
+  instead of a crontab you can also put a php script in cmd/run instruction of the container and use host cron to restart the container ( or use systemd 's timer if available ) . 
+  the rest of the structure looks sane to me, 
+  sure , you can set cron to restart the container every 5 mins, 
+  yeah , it wo n't work in this case . 
+  you can however use daemonset if you use kubernetes . 
+  ctrl-alt-f1 or ctrl-alt-f2 ( if you use gdm ) will take you back . 
+  you probably should n't be doing things recommended by some stranger on the interwebs before reading docs, 
+  the syntax for ` config.ini ` is described at https://github.com/willthames/ansible-review#configuration and its usually placed in ` ~ / . config/ansible-review/config . ini `, 
+  ` lint ` should point to a directory, 
+  lint rules are similar to standards , but used for a bit complex structures . 
+  i 'm not entirely sure about this , but in ` standards.py ` we have :, 
+  selinux_is_enforcing = standard ( dict (, 
+  name = `` selinux must be in enforcing mode '' ,, 
+  types =[ `` task '' , `` handler '' , `` playbook '' ], 
+  and a lint dir has ` selinuxenabledrule.py ` :, 
+  from ansiblelint import ansiblelintrule, 
+  shortdesc = ` selinux should be in enforcing mode ', 
+  description = ` selinux should be in enforcing mode ', 
+  tags = [ ` security ' ], 
+  def matchtask ( self , file , task ) :, 
+  return task [ `` action '' ] [ '' __ ansible_module __ '' ] = = ` selinux ' and \\, 
+  task [ `` action '' ] [ `` state '' ] in [ ` permissive ' , ` disabled ' ], 
+  iiuc rules can be described either in functions in ` standards.py ` or in classes in lint dir . 
+  `` that makes him smart '', 
+  war on drugs, 
+   does the container have to shut down to get the new code from github ? 
+  or how can i make it so that if i change code in my hub , the docker container keeps running and updates dynamically ? 
+  best practices recommend creating a new image with code snapshot and recreating a container, 
+  \u0410\u0432\u0433\u0443\u0441\u0442 2015\u0433\u043e , \u043f\u0438\u0448\u0435\u0442 [ \u042d\u0440\u0438\u043a\u0430 \u0413\u0440\u0438\u0434\u0435\u0440 ] ( http://www.texasmonthly.com/burka-blog/the-trump-problem/ ) :, 
+   it 's no coincidence that he keeps casting himself as the victim . 
+  his supporters have already succumbed to the premise that trump is a conservative outsider -- a noble underdog , determined to fight the establishment and to speak truth to power . 
+  having accepted that premise , they are predisposed to take any criticism or disagreement as further evidence for trump 's claim that he is surrounded by powerful enemies who are determined to thwart him for their own selfish or corrupt or ideological reasons . 
+  his ultimate failure will be taken as proof that the game is rigged -- against the candidate , but also against people like themselves , his supporters . 
+   it was from the rand study that the false rumor started , claiming that the arpanet was somehow related to building a network resistant to nuclear war . 
+  this was never true of the arpanet ; only the unrelated rand study on secure voice considered nuclear war . 
+  however , the later work on internetting did emphasize robustness and survivability , including the capability to withstand losses of large portions of the underlying networks, 
+  [ \u0414\u0432\u0430 ] ( http://ic.pics.livejournal.com/kampfflieger/2741532/82550/82550_original.jpg ), 
+  1 . http://www.tablespoon.com/posts/12-ways-to-serve-hot-dogs-without-a-bun/e581fff7-be62-4013-90b6-954fb2ba3cd2, 
+  1 . https://www.reddit.com/r/the_donald/comments/5b2ecu/there_is_no_evidence_that_pasta_pizza_or_hotdog/, 
+  \u0422\u043e\u0436\u0435 \u043e\u0442\u043f\u0440\u0430\u0437\u0434\u043d\u0443\u044e - [ sisters of mercy \u043e\u0431\u0435\u0449\u0430\u043b\u0438 \u043d\u043e\u0432\u044b\u0439 \u0430\u043b\u044c\u0431\u043e\u043c \u0435\u0441\u043b\u0438 \u0432\u044b\u0431\u0435\u0440\u0443\u0442 \u0422\u0440\u0430\u043c\u043f\u0430 ] ( http://teamrock.com/feature/2016-06-21/andrew-eldritch-sisters-of-mercy-will-make-another-album-if-trump-is-elected ), 
+  [ \u0410\u0440\u0445\u0438\u0432 ] ( https://archive.fo/1p8d0 ), 
+   in a facebook post that was later removed, 
+  its more about exposure part - drawing attention to the problem and finding the people able to solve it . 
+  thanks , https://github.com/catarse/catarse looks good, 
+  there are many ways to get manager approval after the discussion is over and engineers havce agreed on the approach . 
+  i really hope we wo n't end up like that though , as the plan is to fix small papercut-like issues or work on infra-company services . 
+  \u041d\u0443 \u0434\u0430 , british people are tired of experts . 
+  [ `` president barack obama was born in the united states . 
+  period , '' trump said , ignoring reporters ' questions despite earlier indications he would hold a press conference . 
+  `` now we all want to get back to making america strong and great again . '' ] ( http://edition.cnn.com/2016/09/15/politics/donald-trump-obama-birther-united-states/ ) . 
+   without advance notice and at any time , we may , for violations of this agreement or for any other reason we choose : ( 1 ) suspend your access to reddit , ( 2 ) suspend or terminate your account or reddit gold membership , and/or ( 3 ) remove any of your user content from reddit . 
+   except as expressly provided otherwise in the privacy policy , you agree that by posting messages , uploading files , inputting data , or engaging in any other form of communication with or through the website , _ you grant us a _ royalty-free , perpetual , non-exclusive , unrestricted , worldwide _ license to _ use , reproduce , _ modify _ , adapt , translate , enhance , transmit , distribute , publicly perform , display , or sublicense any such communication in any medium, 
+  it proprietary and can not be ` transferred ' to another phone , thus its not available on community ports . 
+  note , that it emulates android 4.4 , so some new apps may not work . 
+  \u041d\u043e \u0431\u0443\u0434\u0435\u0442 \u0435\u0449\u0435 [ \u0432\u0435\u0441\u0435\u043b\u0435\u0435 ] ( http://www.rbc.ru/rbcfreenews/5829d3e99a794751ca090ac6 ) :, 
+   and tell the believing women ... to wrap [ a portion of ] their headcovers over their chests, 
+  [ therefore ] ( https://www.theguardian.com/business/live/2016/nov/30/bank-of-england-stress-tests-opec-meeting-oil-business-live?page=with%3ablock-583ec4c9e4b049350cc94867 ) getting this deal done may be down to russia in the end -- there is still potential for an agreement to come unstuck . 
+  russia seems to be considering a 200k a day cut and opec wants 600k a day less from non-members, 
+   to make the daraprim , the boys worked through a number of steps with their chemistry teacher , dr malcolm binns . 
+   `` we could n't use the patented route as it involved dangerous reagents , '' he said . 
+   dr williamson , dr binns and the boys had to find an innovative pathway from the starting compound to the end result . 
+  \u0422\u0430\u043c \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u043e '' we may add or remove functionalities or features , and we may suspend or stop a service altogether . '', 
+  \u0412\u0438\u0434\u0438\u043c\u043e , \u0432\u043e\u0442 [ \u044d\u0442\u0430 ] ( http://arstechnica.com/security/2016/11/tor-releases-urgent-update-for-firefox-0day-thats-under-active-attack/ ) . 
+  \u0427\u0442\u043e \u0441\u0430\u043c\u043e\u0435 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e\u0435 , \u0432 2000\u043c \u0422\u0440\u0430\u043c\u043f [ \u043f\u0438\u0448\u0435\u0442 ] ( http://www.independent.co.uk/news/world/americas/donald-trump-interview-reveals-he-backed-iraq-war-despite-claiming-otherwise-a6883756.html ) :, 
+   consider iraq . 
+  after each pounding from u.s . 
+  warplanes , iraq has dusted itself off and gone right back to work developing a nuclear arsenal . 
+  six years of tough talk and u.s. fireworks in baghdad have done little to slow iraq 's crash program to become a nuclear power . 
+  they 've got missiles capable of flying nine hundred kilometers -- more than enough to reach tel aviv . 
+  they 've got enriched uranium . 
+  all they need is the material for nuclear fission to complete the job , and , according to the rumsfeld report , we do n't even know for sure if they 've laid their hands on that yet . 
+  saddam hussein would n't let un weapons inspectors examine certain sites where that material might be stored . 
+  the result when our bombing was over ? 
+  we still do n't know what iraq is up to or whether it has the material to build nuclear weapons . 
+  i 'm no warmonger . 
+  but the fact is , if we decide a strike against iraq is necessary , it is madness not to carry the mission to its conclusion . 
+   the prevailing russophobic mood today means tillerson 's professional relationships with russia will be interpreted in an antagonistic way . 
+  sen. john mccain ( r-ariz . ) has taken the lead on this . 
+  `` vladimir putin is a thug , bully and a murderer , and anybody else who describes him as anything else is a liar , '' mccain said on fox news . 
+  such an attitude runs counter to any diplomatic strategy that privileges friendly , productive relationships over self-serving sanctimony . 
+  there is a [ el7 ] ( https://copr.fedorainfracloud.org/coprs/amigadave/flatpak-epel7/ ) build , which works fine to build flatpaks for me , although i did n't try running those on centos7, 
+  \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e [ swiss shooting : three wounded near zurich islamic centre ] ( http://www.bbc.com/news/world-europe-38363602 ), 
+  \u0418\u0437 [ live-\u0442\u0440\u0435\u0434\u0430 ] ( https://www.reddit.com/live/y4kse2ib8b37/updates/7873c398-c62c-11e6-bcaf-0e636ad58756 ) : ariel \u017burawski , owner of the transportation company to whom the truck belongs , told tvn24 that he had last contact with the driver around noon . 
+  `` according to me , they did something to the driver , hijacked the truck and they did what they did . 
+  this was n't my driver . 
+  i vouch for him , he was my cousin '' - he added, 
+  \u041f\u043e\u043b\u0443\u0447\u0438\u043b\u043e\u0441\u044c \u0432\u043e\u0442 [ \u0442\u0430\u043a ] ( https://pay.reddit.com/r/bottesting/comments/5kjcti/rliberta_report/ ) . 
+  [ dacha sweet dacha ] ( http://www.easternbaytrading.com/dasha.html ),

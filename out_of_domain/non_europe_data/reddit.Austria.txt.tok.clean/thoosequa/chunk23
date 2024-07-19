@@ -1,0 +1,100 @@
+  * either remove parameter from setid , let the user enter the id in your main method and pass the entered value to the method in the student class . 
+  * fix your return statements . 
+  imho all of these functions could be void , but thats a design choice at this point . 
+  * also your getaverage ( ) has a parameter void , but there is no such thing . 
+  void declares the return value for the function - none, 
+  thank you for that link !, 
+  lol , rechter wappler . 
+  first timer , c++ with some c++ 11 features . 
+  probably not the most efficient way but the best i could do without thinking more about the problem :, 
+  #include < iostream , 
+  #include < string , 
+  int main ( ) {, 
+  int i = 0 ;, 
+  for ( char & c : input ) {, 
+  arr [ i ] = c ;, 
+  for ( int j = 0 ; arr [ j ] ; j + + ) {, 
+  switch ( arr [ j ] ) {, 
+  case ` a ' :, 
+  std : : cout < < `` t '' ;, 
+  break ;, 
+  case ` t ' :, 
+  std : : cout < < `` a '' ;, 
+  break ;, 
+  case ` g ' :, 
+  std : : cout < < `` c '' ;, 
+  break ;, 
+  case ` c ' :, 
+  std : : cout < < `` g '' ;, 
+  break ;, 
+  default :, 
+  break ;, 
+  std : : cout < < '' \\ n '' ;, 
+  thanks for the feedback . 
+  i was thinking about delete [ ] when i left my house . 
+  my train of thought though was , since the program terminates anyway , the memory should be freed again . 
+  if i would implement this in a larger program , it would be a horrible leak though , especially when there multiple inputs . 
+  my reasoning behind arr, 
+  is the extra challenge . 
+  i feel more comfortable manipulating iterating over characters when i have them in an array rather than in a string . 
+  need a compiler ? 
+  sure install a full blown ide as beginner . 
+  thank you for your in depth reply , as you probably noticed i am still a beginner . 
+  i appreciate your helpful responses !, 
+  there are a lot of reasons why you would want to encourage a student to use cli based compiling rather than doing it through an ide . 
+  one of them is getting to understand how a compiler works . 
+  i am not saying op should avoid ides all his life but when you start coding the command line is a good place to start , hence why most tutorials , books , schools and universities start exactly there, 
+  it takes some time for the ai to zero in on you . 
+  just let it pass and keep flying , stay on its radar and you 'll get your dogfight rather quickly , i 'm sure, 
+  running a fx8350 and multiplayer works just fine . 
+  custom missions more so than public ones , but keep in mind that most public servers run more scripts , so they drag down the framerate . 
+  if you want it , get it . 
+  while it 's not the smoothest of all games most people complain a lot more than what they experience in reality, 
+  there is exactly this discussion in hundreds of threads . 
+  short answer without going into too much detail : the game wo n't run at 60-90 fps but it will run fine . 
+  intel users do get better performance but saying the game is unplayable on an fx8350 and up is a lie . 
+  sucks for the people that donated to get in but still good . 
+  wish they would have released the source code so someone could make this project open source for the community . 
+  after all it was a good idea , just bad execution, 
+  content . 
+  it was a collection of mods , had its own map , vehicles , weapons , and scripts . 
+  not gon na lie , when i saw the videos of a3life it looked very tempting , but the rumors going round about the owners were putting me off . 
+  and i do n't even like rpg servers . 
+  coming to / r/arma asking if we would recommend it , seems like a weird question . 
+  asking why we would recommend it would get you more useful information . 
+  fair enough . 
+  well as others said if you 're really only interested in the dayz type of gamemode then i would discourage you from buying a3 . 
+  the way it is handled ( meaning mostly through scripts ) is imho unsatisfactory . 
+  while the game ** is ** very much indeed a sandbox intended game , it ca n't deny it 's military simulator heritage and you feel it 's pedigree when playing the game . 
+  adjustments to address that issue are , again , mostly done via scripts and as such , they can be sometimes buggy and are not the best thing to look at . 
+  dayz standalone offers you much more in that perspective . 
+  it offers you more interaction with objects , pretty animations and completely different intention than arma 3 . 
+  that 's exactly the pickle i was in . 
+  on the one side the mod sounded amazing , on the other hand it was a bunch of stolen assets , hence why i refused to play it . 
+  as i said , if this was made open source ( upon the agreement of all mod makers , that were involved in this ) i think this would make for a great game mode . 
+  its a shame that the creative heads behind this project were greedy and bailed with the money . 
+  gon na go out on a limb here and say 90 percent of public servers are not on the dev build . 
+  opt out and you should be good to go, 
+  you simply ca n't . 
+  they 'll either make the trio an offer or they wo n't . 
+  netflix is not a person , it is a company and as such they make decisions and moves * like * a company . 
+  they weigh in on the pros and cons ( read : mostly costs and earnings ) and make their decisions based off that . 
+  if ( and i 'm not saying this is the case ) netflix deems the top gear presenter team as not viable , there is no amount of tweets , hashtags , or change.org signatures that will change their minds . 
+  please stop posting that as his new bio . 
+  he had that for a week now, 
+  i 'm still fairly new to c++ but iirc every new statement also needs a delete statement , otherwise you 'll have a memory leak . 
+  is there any reason to initialize your array like that ? 
+  would n't string name [ 6 ] be sufficient ? 
+  the problem is if your delete [ ] occurs after return it will never be reached , thus creating a memory leak . 
+  i looked at your triangle2 function and i am a little bit confused . 
+  there 's a lot of reassigning going on and i 'm not entirely sure you know what the loops are doing . 
+  comment seperate loops out and look at their behavior individually , maybe that helps you . 
+  this . 
+  you need weapons , tanks , cars , artillery , uniforms and possibly a map . 
+  also voice actors for the german side . 
+  this is nothing that can be done easily, 
+  reddit is written in python, 
+  do n't use hola . 
+  either zenmate or a client straight away . 
+  hola is known for having some bad juju , using you as exit node if you 're not a premium user . 
+  agreed , i enjoy this so much more over king of the hill .

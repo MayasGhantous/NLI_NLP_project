@@ -1,0 +1,100 @@
+  if you ask me they got the best case ( best case in my view is to make a lot of money ), 
+  according to xamarin 's guidelines it should be platform specific . 
+  this was the original way to build xamarin apps . 
+  you share the business logic and build platform specific ui ( in c # but with platform specific control wrappers ) to get the most native and high-quality feel for your application on each platform . 
+  xamarin forms was introduced to make creating screens non-core to your app easier so you can also build the ui once . 
+  the example they give is a settings screen . 
+  i suspect that their recommendations are based on what they were able to offer rather than what they thought was ideal but still ... 
+  it is a matter of taste but for me c # beats js no matter the other parts of the toolchain, 
+  my impression is that in this timeframe you either make insane amount of money or disappear . 
+  i do n't think cobol was a factor in this . 
+  fair enough . 
+  i have seen some presentations that claimed otherwise . 
+  even then i feel like my version is what xamarin forms is useful for in practice . 
+  obviously there are benefits to breaking everything that was working fine before in the game . 
+  you probably break the hacks too . 
+  i wonder what will happen if they try . 
+  people claim that this is impossible but it seems that no one ever tried . 
+  there will be some lag issues with things like scans but in general it may work out if the info is sent only for units close to the fog of war boundary . 
+  it 's client/server simple as that . 
+  i do n't know where people get the idea that it is p2p . 
+  the guy is right . 
+  to some people waterfall is a dev methodology and to others water falling off a cliff . 
+  i am pretty sure the server validates the game . 
+  tank vs tank tvt is one of the coolest things in sc since sc1 . 
+  making the siege tank so dumb is certainly a bad idea . 
+  i am actually old enough to remember how they changed the text color from white to yellow for system messages in sc1 because of this . 
+  i think it was before brood war . 
+  yeah but if the server does not validate the game state there would be ( trivial ) drop hacks like there were in sc1 because there would be no way to tell which client desynced . 
+  worth noting that mono is another runtime option just like full framework and core clr, 
+  jetbrains are awesome even in their blogposts . 
+  they start with a useful tl ; dr ;, 
+  i do n't think the latter happens in sc2 . 
+  i think since warcraft iii the server validates the state and knows which client to drop . 
+  otherwise drophacks would be endless . 
+  this really makes 0 sense to me . 
+  even if you lost motivation just try playing in a couple of tournaments . 
+  because he already wasted his time training . 
+  he might as well go to these events . 
+  he can just take his chances and play just a couple of games a day to maintain his shape . 
+  he has nothing to lose . 
+  he does n't say he does n't like to go to events so what losses ? 
+  going to tournaments is stressful ? 
+  strange . 
+  i have a lot of fun doing so . 
+  if you think it is important to win it is probably stressful but if you are gon na retire anyway ( or are just going to win a match like me ) then why get stressed ? 
+  playing 3 games a day is enough to maintain shape for a while and qxc does n't seem to be that busy . 
+  yeah paying for the trip may be a significant problem . 
+   proggit was singing a very different tune a month ago when jetbrains wanted to switch to a subscription model ... 
+  well first of all i was n't and second their subscription model even if it is flawed does not reduce the quality of the things they produce . 
+  if you are not happy with what the company provides just leave . 
+  unions make sense to protect workers who have hard time finding a new job because say there is just one coal mine in the area . 
+  with programmers they would be just parasites ( not that unions in professions where it makes sense are not parasites more often than not ), 
+  strange . 
+  the same happens in bulgaria . 
+  as a libertarian i agree . 
+  i do n't know why and how but somehow the us version of the unions is essentially the same in my country . 
+  depends on your definition of `` right '' . 
+  the left-right scale is based on two things ( usually depends on the context of the conversation ) . 
+  one is the economic right ( i.e. 
+  free market , no regulation ) vs the economic left ( socialism , communism , etc. ) . 
+  there is also the social issues right which is in general conservative and even religious . 
+  the social left is pro-choice , for legalizing drugs , etc. 
+  libertarians are on the economic right but on the left on social issues . 
+  as a libertarian i think this is the most consistent position . 
+  after all if you want to live in a free society why would you want one freedom but not another ? 
+  strange how this seems to happen in most countries . 
+  sure , if they do n't like money . 
+  instead you should like the idea of leaving . 
+  while gamedevs are more highly qualified than the average dev there is an oversupply of gamedevs since the field is cool and attracts many smart people willing to work in bad conditions and for less money just to make games . 
+  unions wo n't help in a state of oversupply . 
+  so the large primes are hard to generate and the programs avoid doing it ? 
+  what is the fix ? 
+  have a set of ~ 200 primes and choose one at random ? 
+  why ? 
+  i mean this is not very close to the top of my list of terrifying things that the state does . 
+  for example i find it much more terrifying that they have the right to demand you introduce a backdoor in your system or hand customer data and you do n't have the right to say it happened . 
+  i also find it extremely terrifying that society in general is not disturbed by this . 
+  the fact that commonly used cryptography can be broken with a billion dollar investment is very unpleasant but not nearly as terrifying . 
+  certainly there can be some list of primes large enough that it would n't make financial sense to crack it this way , no ? 
+  there are two large differences . 
+  first of all they managed to break my system ( with a lot of resources ) because my system was already vulnerable . 
+  if i know how to fix it i am free to do so . 
+  also if i know i am vulnerable i can tell this to my customers . 
+  with a gag order i can not do any of these things . 
+  it is one thing if the state breaks a system that is not very secure and another if i am forbidden from building a secure system . 
+  second the guy that had to flee was working for them , contracts , oaths and all . 
+  with a gag order i have to do what they say despite the fact that i never agreed to their terms and did not want to know or do what they told me . 
+  yes but you can not limit this supply . 
+  the enthusiasm is just too large . 
+  there are people who would work for free only to work on games . 
+  i do n't know how things are in your area but in general there are a lot of programming jobs around and freelance over the internet is also an option . 
+  this is why there are no programmer unions . 
+  the demand is much greater than the supply and an employee can demand more from the employer without the help of coworkers because in case the employer does not agree there is probably another employer nearby who would . 
+  my guess is generating primes so large is computationally expensive . 
+  it is not like we really want to add 1-2 seconds of lag to every initial web request ( assuming other resources like css and js will use the same connection ), 
+  source ? 
+  it is not very convenient to require that libraries like openssl can write to storage . 
+  so you ca n't do it runtime , you have to do it in advance . 
+  then you go to 2048bit numbers . 
+  but / u/kush131 was worried that they would get a set so large that you would n't be able to find a safe set .

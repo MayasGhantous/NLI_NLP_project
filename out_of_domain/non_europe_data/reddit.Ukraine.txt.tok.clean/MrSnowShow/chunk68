@@ -1,0 +1,100 @@
+  when i talked about high res i meant multimonitor setups and 4k . 
+  the 970 will do fine with just a single monitor , atleast for now . 
+  i do n't know much about mobos but if you want to overclock then pick a `` k '' ( those are unlocked ) processor and z87 or z97 mobos . 
+  no idea , but atleast in my country they teach us to write like manuscripts and the kids eventually might change later maybe at 6th-7th grade to the type of writing in this picture . 
+   i had this posted maybe 5 mins and people are saying it 's cluttered , horrible and i should switch to something like awesome , i3 , etc. 
+  soooo i took it down and use that subreddit as a `` look but do n't touch '' area . 
+  yep , they like minimalism and yours is just too cluttered ( you have alot of redundant and useless stuff ) + unity circle jerk . 
+   how do you even close windows ? 
+   heck , how do you even start programs ? 
+  dmenu ( shortcut ) or make a specific keybind if it 's something used often ( ex : firefox ), 
+   what is it about this lifestyle you find appealing ? 
+  you feel like a haxor . 
+  jk it 's minimal and i like it . 
+   what kind of things can you just not do , or miss from a traditional de ? 
+  a gui file manager sometimes would be useful, 
+  let me give you an example, 
+  at the disks part in conky you got in the circle some numbers like 2-2-0 they 're unreadable and then you have a 0b free and 0b used , they 're useless . 
+  ( in my opinion that whole part is useless , do you really need to always know how much free and used space you have ? ), 
+  no wonder why they did n't like it , it 's pretty much stock with a wallpaper change and a conky . 
+  people there want to see riced up stuff , if you browse around a bit you will understand what they like . 
+  i heard a variation, 
+  `` i never learned anything by talking '', 
+  wow , i now can force my brain to see it as wolf head or a heart ... 
+  then you probably are playing the game wrong . 
+  if things are too easy then consider sliding the difficulty bar a bit higher . 
+  i 'm living in portugal at the moment and that 's how it 's done here . 
+  imagine if you installed gentoo . 
+  bspwm represent here, 
+  hurd is not an os , it is the kernel that would have been in place of linux . 
+  do mind that you 're comparing amd chips that were released in 2012 , i 'm sad that amd has n't made new high performance to compete with intel since then . 
+  the simply took the horizontal count this time instead of the vertical . 
+  so far the vertical count were melodic and good for marketing `` seven twenty p '' , `` nine hundred p '' , `` ten eighty p '' but now it would be `` twenty one sixty p '' or something like that which sounds awful so they adopted the horizontal count instead --  4k ( k = 1000 ) . 
+  by the same logic 1080p would be called 2k . 
+  1920 is closer to 2000 ( only difference of 80 ) than 3840 to 4000 ( difference of 160 ) . 
+  not sure what kind of logic you 're having there . 
+  and the next standard will probably be 7680x4320 and be marketed as 8k despite being 320px difference . 
+  underage ? 
+  glorious archbang ? 
+  that conky does n't fit the rest of le numix theme . 
+  just a question why your kernel is still 3.13 if last stable is 3.18 ? 
+  oh btw , the ubuntu logo on the conky is a sexy touch . 
+  now we need to do a `` 45 years of unix and it 's derivates '', 
+  hopefully lucien lachance < 3 i love how deep and badass his voice is and people irl comment sometimes how my voice is also deep . 
+  that copy paste, 
+  great dank meme m8, 
+  ( why do people still upvote this shit ? ), 
+  so how do i use bitmap fonts ? 
+  in my . xresources i have :, 
+  but the gohufont page says it 's a bitmap font , so how do i switch to bitmap mode ? 
+  how do you make screenfetch say `` font : ubuntu 11 '' ? 
+  because my screenfetch says `` not found '', 
+  what would i need to change in your ` workspaces ` script to instead of showing those bars , it shows the workspace number or whatever is in the ` bspwmrc ` file ? 
+  crunchbang introduced me to linux :(, 
+  it was the perfect middle ground between user friendly distros that i did n't like and the advanced ones like arch/gentoo . 
+  and # !, 
+  furfilled that role pretty well and i learned a lot fucking around with it, 
+  mod + ctrl + h ( or left arrow ) and it will leave a yellow semi border , and then just launch your program . 
+  i 'm fairly new user but i 've been using . xinitrc exclusively . 
+  what am i missing from a display manager ? 
+  that script by itself works , but it does n't change colors when i switch workspaces . 
+  i tried to implement in into the rest of my script with clock and battery but does n't work and shows `` desktop1 '' instead . 
+  here 's my script incase you want to see . 
+  # define the clock and battery, 
+  clock ( ) {, 
+  date = $ ( date '' + % a % b % d , % t '' ), 
+  echo - n `` $ date '', 
+  battery ( ) {, 
+  batperc = $ ( acpi -- battery | awk - f , ' { print $ 2 } ' ), 
+  for workspace in ` bspc query - d `, 
+  if [ $ workspace = '' ` bspc query - d - d ` '' ], 
+  then, 
+  workspaces = `` $ workspaces % { f #ffff 0000 } $ workspace '', 
+  else, 
+  workspaces = `` $ workspaces % { f - } $ workspace '', 
+  done, 
+  # print the clock and battery ( and workspaces ), 
+  while true ; do, 
+  echo '' % { l } $ workspaces % { f - } % { c } % { f #ff 888888 } % { b #ff 151515 } [ $ ( clock ) ] % { r } [ $ ( battery ) % ] '', 
+  sleep 0.6 ;, 
+  done, 
+  ` screenfetch ` or ` archey3 `, 
+  just a quick question . 
+  how do you set a font for bar ? 
+  i currently have ` - f - * - gohufont-medium-r-normal - * -11 - * - * - * - c - * - * -1 ` but it is n't showing unicode characters , what do i need to change in that in order to support unicode ? 
+  wow thanks alot , that worked . 
+  i just have one little question more, 
+  i wanted to add \u4e00 \u4e8c \u4e09 \u56db \u4e94 instead of i ii iii iv v for the workspace counter but it seems bar-aint-recursive does n't support those , according to some people on irc . 
+  is this true ? 
+  can you do quick test to see if it shows up on yours ? 
+  common sense 2015 is out and it 's amazing . 
+  too bad a lot of people uninstall it right at birth . 
+   it doesnt feel like an elder scrolls game, 
+  that 's because bethesda did n't develop it , it was zenimax . 
+  while morrowind , oblivion and skyrim were developed by bethesda . 
+  that 's why i 'm pretty sure i will enjoy fallout 3 more than fallout new vegas , simply because nv was n't developed by bethesda and fo3 was . 
+  i played it a lot it 's my favorite mmo and maybe will in future ( i stopped gaming alltogether ) but what turns me down a bit is the typical asian rng and endgame grindfest for +3638292 weapon and armor with 473818 slots of crystals and each piece of gear has 292792 stats that you can roll randomly , etc etc ( obviously an exagerration but you get the idea ) . 
+  and having pvp and pve gear sucks . 
+  the 2.0 update ruined everything, 
+  try feeling lateralus by tool, 
+  oh okay , i just wanted to confirm that .

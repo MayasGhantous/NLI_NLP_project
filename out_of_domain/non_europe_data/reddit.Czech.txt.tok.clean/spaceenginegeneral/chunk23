@@ -1,0 +1,100 @@
+  no , samsung 950 pro is roughly 2-4 times faster than any sata ssd assuming you have m. 2 that uses pci-e 3.0 4x , which afaik at the moment only 1151 chipsets do ( older chipsets that support m. 2 will usually have pce 3.0 2x for m. 2 slots and will bottleneck the 950 pro ), 
+  of course , it 's pretty expensive at the moment and whether it 's worth it depends on how much you value the speed . 
+  but in general i would n't recommend getting a `` slow '' m. 2 ssd that wo n't utilize the full bandwidth when you can get one for sata since most motherboards only have one m. 2 slot . 
+  it should be also noted that g-sync and freesync are mostly a solution to frame drops and tearing . 
+  however if you have a 144hz monitor without any adaptive sync technology and good enough hardware to get consistent minimum of 80-100 fps , the tearing is there but it 's not even comparable to the tearing you get at 60hz . 
+  at the same time , if you 're not getting ridiculous drops from like 100 fps to 50 all the time that would cause the game to stutter ( and usually the cause of such drops would be having a weak cpu with a strong gpu ) , the adaptive sync really does n't give you a huge benefit . 
+  tl ; dr if you have a good enough machine to drive a 144hz at consistently good ( 80 + ) framerates , you 're already doing a good job combating most of the issues that adaptive sync aims to deal with, 
+  yes you can pretty much freely switch between the sata inputs . 
+  the only issue would come up if you have multi bootable disks connected where you 'd have to go into bios and set the correct boot priority, 
+  i might be wrong in this case but generally any emulation is almost exclusively dependent on your cpu and since you have a 970 , getting a better card probably wo n't give you much if any performance benefit in this case ( if you have n't already , overclocking the cpu will be a lot more beneficial ), 
+  for overclocking , the quality and `` power '' of the vrm on the motherboard does matter a lot , especially in the long run . 
+  i would advise against buying a cheapest z170 boards that despite allowing ocing on the chipset level , are really designed to run at the stock voltages and wo n't handle the increase voltage that comes from overclocking that well if you use the pc a lot ( which you probably are if you consider overclocking worth it in the first place ), 
+  anything from mad catz, 
+  at the very least you 'll get polaris cards that will easily match or beat the 970 for fraction of price . 
+  getting a system with a 970 is pretty bad idea right now . 
+  hard to say more when we do n't now what of the end price of the build you tried to do to match it and whether there were some components that could 've lowered to price ( aside from not getting the 970 as i mentioned above ), 
+  skylake has slightly better ipc and will perform a bit better at the same frequencies compared to haswell cpus . 
+  1151 chipset uses some newer hardware like ddr4 ( odds are if you buy ddr4 sticks now you will be able to use them in your next build , you almost certainly wo n't be able to use ddr3 ) . 
+  another noteworthy feature is out of the box support for m. 2 at full speed ( pcie 3.0 4x ) . 
+  lastly , on some z170 boards you can overclock any locked skylake chip which might be something to keep in mind when you 're choosing between 2 locked chips with the intention of keeping them for several years . 
+  you wo n't be able to get any more juice from the i5-4460 ever . 
+  these are the differences out of context . 
+  now whether your little brother will benefit from any of these things i ca n't judge . 
+  obligatory `` wait for polaris '', 
+  at that price range you 're getting the full package almost regardless what manufacturer do you choose . 
+  the gigabyte board should have the best sound ( sound core 3d , other 2 use alc1150 ), 
+  all of them will support dual gpus ( most if not all will actually support 3-4way ), 
+  gigabyte and msi both have 2 m. 2 slots . 
+  the hero only has 1 but all the boards should support the u. 2 adapter, 
+  and all of the boards will have at least one type a and type c usb 3.1 in the back , with msi having even more, 
+  if you mean whether you can have 3 battleships each having different aura component , yes it should work just fine, 
+  it 's probably by design except the design is extremely lazy . 
+  so you could call it a bug, 
+  it depends on games and how much do you value reaching high framerate over graphical details . 
+  in general , the graphics card will give you bigger gains at 1440p than the cpu but in tons of games you might be able to lower details to reach 144fps with oc 'd skylake that you might not with your 2500k . 
+  so it really depends on your fps/gfx preference and on the games but if you consider ideal scenarios ( being 100 % cpu bound and upgrading cpu vs being 100 % gpu bound and upgrading gpu ) the 1080 will give you bigger gains, 
+  edit : post is a mess but i hope it 's understandable, 
+  speccy is great to give you quick rundown what do you have installed . 
+  otherwise , you determine it by noticing it 's missing, 
+  cheapest `` upgrade '' would probably be overclocking , if your cpu and motherboard support it and psu can handle , you only really need to invest into a good cooler that you can reuse in your next build with no problems . 
+  if you 're not overclocking there is n't much to check ( maybe start up speccy/cpu-z that all runs at frequencies it should ) . 
+  otherwise if something is wrong , you should notice it just from gaming if you 're not stable or getting very poor performance, 
+  edit : also it might not be bad to run something like hwinfo while you 're playing a game and check quickly temps to see if everything is fine during load, 
+  sli tends to scale pretty badly and it only works in supported games in the first place . 
+  i 'd always recommend a single stronger card than sli if it 's possible ( so unless you 're getting a 1080 and want even more power , get a single card instead ), 
+  do n't think so , most sata ssds will perform about the same nowadays ( aside from exceptions like the bx200 ) . 
+  the samsung is just always recommended because it 's reliable and decent value . 
+  here is overview of the bioses ( aside from msi it 's from the boards you 're looking at but in general , manufacturers use the same bios across all or most motherboards with the same chipset ), 
+  at the moment i only tried asus and gigabyte bioses for z170 and found the gigabyte bios easier to use but it has the worst fan control from all the manufacturers ( afaik msi and asrock both have similar fan control options to asus which everyone praises ) . 
+  it also had only one llc level but it was consistent and worked really well so i actually preferred that to the asus which had multiple levels and you had to find one that works best for your oc . 
+  in general , you 'll find nice touches and quirks in every bios and you 'd have to try each of them to really create a strong preference for one so it 's impossible to give you a recommendation based on that , best i can do is to tell you to look at the tweaktown overview and look at the screenshots and compare whether you find something lacking from them, 
+  planetary buildings that use rare resources are empire unique, 
+  starport upgrades only work on the starport it was built in so you ca n't really stack the bonus on 1 ship but you can have multiple starports that make ships with the bonuses in your empire, 
+  the bonuses are applied only when you build the ship and stay with the ship until it 's destroyed . 
+  upgrading has no effect on it . 
+  no , i do n't think you can influence the speed of robot construction in any way currently, 
+  it does sound like ssd problem but you should try changing sata cable , sata slot and try turning off disk related power saving features before you write it off, 
+  check http://www.overclock.net/t/1348623/amd-bulldozer-and-piledriver-overclocking-guide-asus-motherboard, 
+  i think freesync only works in fullscreen , try changing to windowed fullscreen ( or windowed , so it no longer works ) and test the difference across multiple games . 
+  adaptive sync works the best in scenarios where you have inconsistent framerate and fixes screen tearing that is very visible at 60fps but the more fps you get , the less noticeable it is . 
+  if you 're getting good and consistent framerates ( not dipping below 80-100 ) you 're already almost eliminating the problems that adaptive syncs aims to deal with . 
+  no but i think it should be 10 , not 5, 
+  no , racism is racism because some people dislike other people based on nothing else but race . 
+  stop making it something it is n't . 
+  select fleet and mouse over a ship . 
+  you 'll get a tooltip listing all modifiers the ship has, 
+  i 'd always recommend 144hz over higher resolution for gaming ( especially for action games ) , after you try it you 'll never be able to go back to 60 again . 
+  it 's also easier to scale back graphics and get a decent fps increase with a good cpu on 1080p compared to 1440p where you 'll always need a decent gpu to be able to reach higher framerates, 
+  i ca n't recommend you a specific one because i did n't research all the options there are but here 's a list to choose from, 
+  after you narrow it down ask here or on r/monitors for opinions on specifics models, 
+  i 'm going to copy-paste my opinion for similar question below . 
+  i 'd always recommend 144hz over higher resolution for gaming ( especially for action games ) , after you try it you 'll never be able to go back to 60 again . 
+  it 's also easier to scale back graphics and get a decent fps increase with a good cpu on 1080p compared to 1440p where you 'll always need a decent gpu to be able to reach higher framerates, 
+  probably not . 
+  that is 4 core without hyper-threading . 
+  probably because of 0 % base habitability since that translates into max happiness ( and you probably get +5 % from technology ), 
+  yeah you have people from both `` sides '' and unless you give someone both a 1440p monitor and a 144hz monitor for a week and then take them away and tell him to pick one ( and even if you did , you 'll have different people picking different monitors because it 's a preference ) . 
+  from my perspective , since i still have the old monitor a real estate of a 1440p is n't really a benefit for me and at the same time , i 'm sitting close enough that for vast majority of games i do n't even use fullscreen @ 1080p . 
+  not saying this is common , but as i mentioned best you can do is give opinions since some people do prefer higher res at 60fps over lower res at 144hz . 
+  personally i ca n't stand 60hz and even my older second monitor is overclocked to 75hz, 
+  well , what increased resolution does is increase gpu load by a good amount but it usually does n't effect the cpu load a lot or at all . 
+  it 's basically a question whether you want to lower details to get 60fps , or if you want to lower them to get smoother motion ( 75 to 144fps ) , except you 're getting more fps from lowering details on 1080p than you get on 1440p ( until you hit a cpu bottleneck which is more likely on a 1080p since you 'll be hitting higher framerates ) . 
+  and my reasoning behind 144hz over 1440p is that smoother motion actually affects gameplay directly while higher resolution `` only '' makes things looks nicer ( you could argue you can have larger viewpoint in some games , but still ) and for me gameplay  graphics . 
+  well , same way he made the post about it here, 
+  that 's why i think it should be default, 
+  sounds like doa, 
+  edit : you could try another power socket, 
+  colonize - you have to actually own the planet , just having it inside your borders is n't enough, 
+  conquer - planets that you get from war goals count towards the goal , you do n't have to be the person that colonized it for it to cout, 
+  - yes , planets from your subjects count, 
+  - you need to actually own the planet for it to count , occupation is n't owning it . 
+  depends on the game , some prefer strong gpu , some need both strong cpu and gpu and some games almost do n't care about gpu at all which means that they run almost entirely depending on what your cpu is . 
+  but yeah , the fx-8350 has such weak single threading that getting a 6600k will improve the performance in most games, 
+  yes, 
+  sure , but why should you be penalized for having more fun in the game ( as in being able to have `` core planet '' and develop new colonies at the same time ) . 
+  my issue with the current limit is that you can either develop new planets , or keep your `` core '' ones but ca n't do both things . 
+  and this leads to a boring midgame because if you have no planets to develop , there 's simply little to do at all except waiting for new research . 
+  it 's not about not being able to play with the limit , but rather that i found it just limits what you can do in the game instead of adding anything meaningful or interesting and makes it overall less fun . 
+  and i 'm not even complaining about sectors as a design decision , i think once the ai is fixed and they wo n't basically sabotage your empire they will work fine , but as i mentioned forcing you to use them so soon detracts from the game heavily . 
+  i will also point out that if you wait until end of the year amd should come out with zen and that might shake up the processor market a bit so it is n't a bad idea to wait .

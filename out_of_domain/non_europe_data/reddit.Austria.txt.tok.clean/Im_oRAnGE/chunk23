@@ -1,0 +1,100 @@
+  hint : none . 
+  they still can mine around the door . 
+  there 's plugins to protect doors and blocks for bukkit servers . 
+  no , you ca n't integrate the scoreboard variable into a commandblock-command like that sadly . 
+  it would be a good idea for mojang to implement that though . 
+  made it !, 
+  took longer than expected , but works really well and is quite easy to expand . 
+  i abandoned the idea of using minecart ( i hate those things ) , and used only redstone instead , plus some lamps to indicate where it 's placing blocks at the moment . 
+  here 's some [ screenshots ] ( http://imgur.com/a/8dmyx ) , and here 's the [ world download ] ( https://mega.co.nz/#!jnlxnacd!ygeczdobvb7gd1aqf2ocnma1wb4tt5hy-adb-u4zszi, 
+  there 's some other crap in the world since it 's my redstone testing one , but oh well . 
+  hope you like it, 
+  i placed them by hand , but copy/paste for the commands was very useful , 
+  really ? 
+  small text is just normal sized for me on alien blue . 
+  same with crossed-out text, 
+  no problem , was a fun project , 
+  if you want to learn some more redstone , look at the other stuff in my world , there 's some interesting things around , try figuring out what they do :p, 
+  for example i built a weird noise-maker , it 's just two diagonal command-blocks somewhere in my world ( 410 -1555 ) , if you place a piece of redstone dust on the lower one and then a redstone-torch on the lower one 's side beneath the upper one , it starts making the noise a redstone torch makes when it burns out - repeatedly . 
+  not sure why . 
+  could you reupload the forge + . jar file ? 
+  it 's down ... 
+  the video is set to private . 
+  edit : yea , just downvote me , it was set to private when i wrote this comment ... 
+  picture 2 ? 
+  hey there , salzburger here !, 
+  your questions have been answered already , i guess , but if you want to go out in salzburg i recommend the gst\u00e4ttngasse , it 's popular among the students here and has the most 18 + bars . 
+  along the river are mostly 16 + bars where the kids hang out , 
+  haha good to know !, 
+  augustiner would be great , raschhofer would be my second choice !, 
+  that 's not really a bug though . 
+  if you hit f3 and look at your coordinates , there 's a number in brackets next to the x and z coordinate . 
+  just use that one when you want to find out what block the coordinate is you are standing on . 
+  such an old glitch , really nothing new here . 
+  the redstone is nice though . 
+   [ 19:12:21 ] an unknown error occurred while attempting to perform this command, 
+  i know that feel . 
+  redstone in general can get pretty confusing , if you do n't plan your stuff and just build along ( like i usually do ) i end up with things that work but i have no idea why they work or how \\ ^ \\ ^, 
+  why would `` reddit '' be obsessed with cringe ? 
+  there 's subreddits for cringe , just like there 's a sub for almost everything . 
+  e : yea do n't answer , just delete the post ... 
+  they could be falling sand entities riding a minecart hidden beneath the floor . 
+  and yes , you can walk through those . 
+  ever seen a water cutter ? 
+  that shit will split your hair in 2 in seconds . 
+  i like the wallpaper but i 'd get annoyed by the transparacy after 5 minutes because everything gets very hard to read, 
+  ~ ~ still the same thing , not sure what 's going on ... 
+  i tried looking for formatting errors , but could n't find any . 
+  mrcheeze 's worked for some reason ~ ~, 
+  edit : nvm , got it working , turns out there was a mountain where it tried spawning the minecarts . 
+  did n't know i needed that much space around it . 
+  e2 : your version is pretty fast , but leaves behind lapis blocks ( in the latest snapshot ) and can not cut through walls like cheeze 's version . 
+  again , it 's alot faster though !, 
+  age can be just leftout . 
+  also , commandblocks are a lazy way of doing it :p, 
+  i just said it 's lazy because you ca n't build it in survival . 
+  do english ads aimed at kids always have such annoying songs ? 
+  it makes me want to punch somebody . 
+  it 's not perfect . 
+  when he walks away from the door , the window in the right side changes quite a bit . 
+  yup , it 's quite old actually . 
+  good idea , but you would notice the teleporting since the world has to load and so on . 
+  also , teleporting in minecraft is n't really teleporting , it 's just moving your player to the desired position really fast . 
+  you can still notice that though . 
+  it 's a nice effect , but looks kinda weird . 
+  tried the first thing already , you can still see a few odd frames as you are being teleported . 
+  it just is n't instant , you are being moved through blocks and stuff , which looks weird . 
+  pretty sure setblock would work quite well though . 
+  it 's a bit more work though . 
+   as for the keeping it loaded , there actually is a way to keep chunks loaded in vanilla minecraft, 
+  keeping chunks loaded server-side and client-side are 2 different things . 
+  still thanks for that video , it is very interesting . 
+  it still gives off light through the piston then , but you would n't notice that during daylight anyways . 
+  i would n't like this to be mandatory or even a rule . 
+  if i 've seen the post , then 5 minutes later somebody else comes and posts his version in the comments , i 'm never gon na see that version because i do n't go to that same post again . 
+  if it 's good enough to deserve it 's own post , please , go ahead and post it . 
+  if it 's not good enough , it 's gon na get downvoted anyways . 
+  do you know the difference now ? 
+  i can ( kinda ) explain it if you wanted to :p, 
+  well , but how do i know that there 's a new one ? 
+  i 'm not gon na check every post i 've seen here daily that i was interested in to see if somebody came up with something better that is similar . 
+  ahh i see . 
+  then the light sensor would need 1 light-level more to activate though . 
+  not necessarily a bad thing !, 
+  well , i 'm no programmer or anything , and it 's a bit difficult to explain , but i 'll try to . 
+  the stuff your client loads is only the things you can `` see '' , while the server is actually controlling things . 
+  for example , if mobs are loaded on the server then the server controls the mobs and sends the mobs ' position to every player 's client that is near enough to see the mob . 
+  if the mobs get unloaded * on the server * ( i think it happens when they stay in unloaded ( by the server ) chunks too long ) , they are completely gone . 
+  the client loads the chunks , the mobs and the other entities from the server and displays it to you . 
+  your client only loads chunks up to whatever you set in the optionsmenu ( 2-16 in the current snapshot ) in each direction , even if there 's more chunks loaded on the server ( by other players or the way you posted earlier ) . 
+  if it loaded up all chunks that are loaded by the server on the client , and there 's a lot of players on one server , your client would likely crash or run very slowly because it would have to keep so many chunks & entities loaded . 
+  ever wondered why exp orbs are so glitchy and kinda weird ? 
+  for example it sometimes looks like the orb is flying towards you and then teleporting back again ( happens often with exp farms ) . 
+  in my understanding this is because entities like exp orbs are getting calculated server-side * and * client-side . 
+  because they jump out into random directions from the mobs , they are in a little bit different position on the server than on your client . 
+  if you get close enough to the orb on your client so that it flies towards you , but it 's too far away on the server to reach you , it will look like it 's flying towards you and then teleport back when it gets an update from the server . 
+  pretty sure that 's also the reason why boats act funny from time to time . 
+  they only stay loaded on the server , not on your client . 
+  tbh , i have no idea how leads work technically . 
+  they might be entities , but i have no idea actually . 
+  sorry , but your title is just plain wrong .

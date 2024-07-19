@@ -1,0 +1,100 @@
+  best thing you can do is opening the developer console ( ctrl+shift+i ) , going in the `` elements '' tab , and adding a font-size property for every text thing ( for example , if you want to make the discussion text bigger , search for `` markup '' and add the font-size property to that element ) . 
+  you 'll have to do this everytime you restart discord , though . 
+  however , you can automate that with [ betterdiscord ] ( https://betterdiscord.net/home/ ) and its css style feature . 
+  finally , you can upvote this suggestion on the [ discord feedback website ] ( https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/10313193-allow-me-to-adjust-the-font-size ) . 
+  user settings  text & images  disable `` automatically convert emoticons in your message to emoji '', 
+  explain yourself, 
+  check [ this faq ] ( https://support.steampowered.com/kb_article.php?ref=8379-ryip-2998 ) . 
+  when you 're clicking on the `` turn into gems '' button , it clearly says `` did you want to convert this item into gems ? 
+  ** it can not be undone . 
+  thanks a lot !, 
+  we 'll get this fixed soon , thanks for the report !, 
+  also , thank you for playing in french : please tell us if some more translations should be modified . 
+  everyone can become a volunteer dota 2 translator . 
+  for more information , [ click here ] ( http://translation.steampowered.com/ ) . 
+  pls explain the mango meme, 
+  betterdiscord has more features than css styling though . 
+  that 's just ascii art , except that this person replaced blank spaces with characters and the reverse . 
+  custom plugins and emotes to name but two . 
+  refunds are a part of what things have been done in this area . 
+  they also created a whole new help website where you can solve problems by yourself , so you do n't have to contact steam support every time . 
+  for me , they made great progress . 
+  you know there 's still a legal battle between australia and valve about refunds , right ? 
+  i do n't think you can really know if you 're banned . 
+  your future refunds will just be refused : you ca n't know if it 's because you made too much refunds or because steam support decided to not grant you a refund for some other reason . 
+  a help website where you can solve problems by yourself is primordial nowadays . 
+  do you really want to write a long email just because you forgot your password or because you 're encountering issues with your steam link ? 
+  i do n't think so . 
+  most of the customer services now got that kind of service . 
+  valve can now check * important problems * faster . 
+  that 's also why they introduced refunds : you could refund games before the `` real '' introduction by contacting steam support and asking them politely for a refund . 
+  now , it 's an automated service . 
+  ( by the way , gog introduced that in march 2015 while steam already provided refunds by tickets . ), 
+  you can already do that without mods ... 
+  tons of tools for unlocking achievements exist . 
+  not all mods give advantages to the player . 
+  player reskins , for example : do you think they give some kind of advantage ? 
+  edit : okay , sorry , that was a bad example . 
+  what about item reskins or modifying item descriptions ? 
+  at some time there was a mod detection in rebirth . 
+  achievements could n't be unlocked if files related to characters , rocks , rooms , and others were modified . 
+  otherwise , for other mods ( like music ones ) , achievements could be unlocked . 
+  so i do n't know if the same system will apply to ab + , but i hope so . 
+  their decision is weird though : they made the same exact thing for rebirth , but disabled it after users complained . 
+  this immortal treasure can be obtained from the fall 2016 battle pass which is ending today , i guess that 's why it 's getting more expensive . 
+  no , but you can craft the badge till ** february 3rd ** . 
+  well , i do n't know where you heard that , but it 's releasing in exactly 4 hours . 
+  that 's not a reason to do the same for the pc version . 
+  there 's no kind of score for steam achievements . 
+  my bad !, 
+  as far as i 'm aware of , there 's no workshop support . 
+  okay, 
+  best post 2017, 
+  can you report me , pls ? 
+  an item you get by default when you start a game , and that can be used like a tp scroll in dota ( you press an assigned key , you choose a room where to teleport and voil\u00e0 ) . 
+  the most difficult thing here is creating the gui imo . 
+  number of tp scrolls in basement 1 and 2 : 1, 
+  number of tp scrolls in caves 1 and 2 : 2, 
+  number of tp scrolls in depths 1 and 2 and the following floors : 3, 
+  there also could be an item ingame which , when you would pick it up , increase the number of tp scrolls by 2 , whatever floor you 're at . 
+  [ attach a debugger ] ( https://www.reddit.com/r/themoddingofisaac/comments/5lw81j/you_can_attach_a_debugger_to_your_lua_code/ ) . 
+  to do it , go to your pc  my documents  my games  binding of isaac : afterbirth + , open options.ini and change the value of `` bosshponbottom '' to `` 1 '' . 
+  hm , i think that 's because you declared two variables that are named the same . 
+  change the second `` local cuack '' by `` local cuack_item '' for example . 
+  also , `` cuack '' is misspelled at the last line . 
+  could you upload it on the workshop even if it 's not quite finished yet ? 
+  i know some guys that are already interested about this . 
+  it does n't work with things like this though : http://steamcommunity.com/sharedfiles/filedetails/?id=834317560, 
+  i 'm just downloading it from the workshop . 
+  does it work if you replace it directly within the ab + files ? 
+  where are workshop files downloaded though ? 
+  ca n't find anything in docs  my games  ab + mods or steamapps  common  boi : r. 
+  edit : nvm , found it after i disabled it ingame, 
+  goto steam \\ steamapps \\ common \\ the binding of isaac rebirth \\ resources, 
+  open challenges.xml in a text editor, 
+  there 's a whole comment at the top of the file, 
+  challenge format :, 
+  * name = challenge name, 
+  * startingitems = comma separated ( nospace ) item ids that will be added at the start, 
+  * startingtrinkets = comma separated ( nospace ) trinket ids that will be added at the start ( max 2 ), 
+  * startingpill = effect id of the starting pill ( -1 for no pill | default ), 
+  * startingcard = card id of the starting card ( can include runes ) ( -1 for random tarot card , 0 for no card | default ), 
+  * playertype = player type id for player type to start with ( 0 for isaac | default ), 
+  * endstage = the last stage of the challenge ( use elevelstage ids ), 
+  * roomfilter = list of room ids to not be generated in challenge [ not all room ids can be used ] ( normal - 1 , shop - 2 , error - 3 , treasure - 4 , boss - 5 , miniboss - 6 , secret - 7 , supersecret - 8 , arcade - 9 , curse - 10 , challenge - 11 , library - 12 , sacrifice - 13 , devil - 14 , angel - 15 , dungeon - 16 , bossrush - 17 , isaacs - 18 , barren - 19 , chest - 20 , dice - 21 , bmarket - 22 ) . 
+  * cursefilter = bitmask for curses to be removed ( darkness = 1 , labyrinth = 2 , lost = 4 , unknown = 8 , cursed = 16 ), 
+  * getcurse = bitmask for curses to be forced ( same id 's as curse filter ), 
+  * achievements = list of achievement ids that are required to be able to play the challenge, 
+  * altpath = alternative floor for light/dark path ( isaac/satan ), 
+  * canshoot = determines if player can shoot ( true | default ), 
+  * redhp = add red hp, 
+  * maxhp = add hp container, 
+  * soulhp = add soul hp, 
+  * blackhp = add black hp, 
+  * coins = add coins, 
+  * maxdamage = maximal damage or more ( clamps at min 100 ), 
+  * adddamage = + damage up, 
+  * minfirerate = minimal fire rate or more, 
+  * minshotspeed = minimal shot speed or less, 
+  * bigrange = big range, 
+  * difficulty = game difficulty ( 0 - normal | default , 1 - hard ),

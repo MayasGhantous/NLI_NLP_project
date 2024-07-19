@@ -1,0 +1,100 @@
+  edit : every * other * z-level , sorry . 
+  so , to put it simply , i 'm proposing 4-gravity so that one w-level is n't immediately accessible to the next . 
+  ( that was a joke . ), 
+  i do n't see why they should n't be able to comprehend the fourth dimension . 
+  dwarves are incredible creatures ... 
+  processing power . 
+  i 'll draw a diagram and put it in the main post once i get home ... 
+  well , but they mean the actual `` direction '' that the fourth dimension adds . 
+  and it 's totally true that i ca n't comprehend that . 
+  it 's impossible to process with the human brain ... or maybe just having seen the third dimension . 
+  but i think it 's inherent in the brain , not the eye . 
+  kind of , but it 's supposed to be fluid . 
+  this being df of course , it 's not , but the actual fourth dimension is indeed being sliced like that . 
+  yeah , basically !, 
+  except certain tiles can only be connected to certain other tiles . 
+  but that 's only in a grid like this one . 
+  absolutely . 
+  they grow , what , exponentially ? 
+  carefully and accurately . 
+  but holy shit , i have n't thought of weird stuff like that . 
+  that 's gon na be tough ... 
+  what if we dial back the number of cells ? 
+  like , fix embark size to below 500 x and y , and reduce the number of z-levels to , say , 100 . 
+  how many w-levels could i add then ? 
+  we can project it into 3d fine ; it 's relatively easy . 
+  about the only thing a human * ca n't * do is visualize the extra direction . 
+  at the time i wrote it , i was at the 20-hour sleep-dep mark . 
+  but at the time it was conceived i was in a perfect state of mental health ( besides a little caffeine ) . 
+  no , candy . 
+  not anymore . 
+  children . 
+  exactly what i was thinking . 
+  holy shit , this would be epic . 
+  but pathfinding . 
+  never mind , diagram turned out to be a massive fail : turns out i ca n't draw in blender for shit . 
+  you 're not off completely at all but i 'm gon na start at the beginning for clarification . 
+  so , say you have a zero-dimensional world . 
+  that 's one tile : there 's no tiles to it , in any direction whatsoever . 
+  now say you have a one-dimensional world . 
+  that 's a line of tiles ... the only way to get from one tile to another is either left or right ( although i usually visualize this as up or down , in the top of screen/bottom of screen sense ) . 
+  that 's one directional axis . 
+  now say you have two dimensions : multiple lines lined up next to each other on a new directional axis . 
+  your dwarves can traverse in all of the directions that they normally use : north or south for the y-axis , west or east for the x-axis , and all four of the diagonal directions as a combination of the two . 
+  this is what is represented on your screen when you play dwarf fortress : a 2d grid of tiles . 
+  now add a third dimension . 
+  it 's the same principle as the other two evolutions : take what you had originally , and copy it over arbitrarily many times in a new direction . 
+  our new direction is z , up or down . 
+  you now have several layers of x by y superimposed over one another . 
+  since this is a bit complicated for df to render , instead it lets you view one xy layer at a time , having you flicking through the different layers and putting them together in your mind . 
+  note that we do not have to necessarily understand in what direction the third dimension is , so long as we 're only viewing cross-sections . 
+  this constitutes all of current df . 
+  now say we add another dimension on top of that . 
+  we take our three dimensional world , copy it many times over , and sort them into stacks ( of 2d layers ) . 
+  we have one new axis to play around with . 
+  we distribute these stacks along that axis . 
+  to the `` left '' ( ana ) and `` right '' ( kata ) of each stack , there is another stack . 
+  there is an exact one-to-one correspondence between each tile between stacks ; from a given tile , if you move only ana or kata ( that is , excluding other things like left and right , up and down , etc. 
+  ) , only two tiles are accessible to you that are not on the stack you are currently on are the ones directly ana and kata to you . 
+  so , you know , just like adding any other dimension , except this time with more tiles . 
+  anyway , we have this totally boss set of tiles and stacks and layers . 
+  how do we visualize this ? 
+  simple . 
+  you can still only view one layer at a time . 
+  you can simply view more layers , and on two axes now : the up and down , as you have always done , plus the new ana and kata . 
+  you can go through them either way . 
+  these axes are also connected similarly ; you need stairs to move from one z-level to the next , and you need marquee stairs to move from one w-level to the next . 
+  i hope this clarifies it for you . 
+  off to fuck around with blender !, 
+  sounds about right . 
+  so , this is doable !, 
+  if one could actually mod df in this manner . 
+  yes . 
+  thanks to the creators thousands of times over !, 
+  meh , it 's just a net three downvotes . 
+  it 's not like fifty people came and unanimously cast it down to hell . 
+  three people is , like , nothing compared to the rest of the world . 
+  hey , i made something similar as well !, 
+  i half expected it not to work . 
+  saved . 
+  this is worth it . 
+  uh ... what ? 
+  there is no talk of alternate realities here ... 
+  i can help with the language . 
+  actually , i 've constructed two languages based on df dwarves . 
+  here 's a copy/paste from one of my notes :, 
+  the dwarven tongue [ v1 ], 
+  word order : vos , with the indirect object before the object or with postposition * ok * , adjectives before words , adverbs before verbs and adjectives , prepositional correlative conjunctions , and postpositional adpositions . 
+  vowels :, 
+  rounded : / y / y , / u / u , / \u028f / \u00ff , / \u028a / \u00fc , / \u00f8 / \u00f8 , / \u0254 / o, 
+  consonants :, 
+  plosives : / p / p , / b / b , / t / t , / d / d , / \u0288 / c , / c / tj , / k / k , / g / g , / q / q , / \u0262 / qg , / \u0294 / ', 
+  nasals : / m / m , / n / n , / \u014b / \u0144, 
+  fricatives : / \u03b8 / th , / f / f , / v / v , / s / s , / \u0283 / \u015b , / \u0292 / z , / \u0282 / \u0161 , / x / x , / \u03c7 / xh , / \u0127 / hh , / h / h , / \u0266 / ' h, 
+  approximants : / w / w , / \u0270 / wj , / \u0281\u031e / wg / \u0295\u031e / hw, 
+  allophony : unrounded vowels tend to assimilate in position to the consonant following them . 
+  how completely this happens depends on region . 
+  if a fricative follows a nasal , [ \u0259 ] is inserted . 
+  all unvoiced plosives are aspirated , always . 
+  stress : the first syllable is stressed , dutifully and constantly . 
+  the enclitic suffixes - o and - a are treated as part of the word , and receives no stress or lapse in pronunciation .

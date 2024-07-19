@@ -1,0 +1,100 @@
+  5 ) i 'd recommend getting at least a 240gb ssd first before you think about any other storage . 
+  trust me , it 's worth it . 
+  you might get a lot more mileage from your cpu in the future by getting z170 mb to oc it even if you do n't want now , but it 'll cost you a bit more and you 'd have to get a cooler ( eventually ) . 
+  just something to think about because getting a cheaper non-z mb now will lock you out of the option to get what is basically the best cpu for the money for gaming atm ( which is any oc 'd skylake i5 ), 
+  let 's see, 
+  1 ) i do n't really see any reason why would you get a 6600 . if you want easy oc , get a 6600k . 
+  if you want cheap oc , get a 6400 . if you do n't want to oc , get 6500 . 
+  2 ) if you 're planning to oc , i think you have the budget to get a better cooler like noctua instead of a budget solution . 
+  if not , you do n't need a cooler . 
+  3 ) get at least 2666mhz ddr4 ram . 
+  4 ) 850w is a huge overkill for single gpu . 
+  unless you 're planning to sli in future , 650w is enough for a single card setup . 
+  5 ) aftermarket coolers usually include thermal paste . 
+  sounds like your cpu is overheating . 
+  in short , many games prefer strong singlethreading performance in favour of multiple cores and that 's the biggest weakness of current amd architecture when it comes to gaming . 
+  very likely not worth it . 
+  getting a z170 mb with the 6500 and ocing that will give you better performance than oc 'd 4690k and it will probably cost the same . 
+  plus , ddr4 + z170 might allow you better/cheaper upgrading in future as you said . 
+  1 ) i5-6500 is probably the best cpu for the money now , h170 board with 2133hmz ram is enough if you do n't want to oc, 
+  2 ) radeon 380 or 380x should be the best fit for 1080p . 
+  950 is n't good enough and 390 is overkill . 
+  3 ) get a good quality 550w psu to go with it . 
+  the ingame stuttering is either caused by cpu throttling because of heat , or it 's issue with the game itself . 
+  if it does n't happen in other games , you can try googling fallout 4 stuttering for a fix . 
+  you can also try running prime95 test to see if your temps are under 80c during full load, 
+  more and more games start to utilize 4 cores and if you have `` only '' 2 +2 , performance usually suffers . 
+  oc 'd i3s still make a great budget build though . 
+  while you 're absolutely right that for tons of games , oc 'd i3 or even pentium will have same performance as i5 with same clocks , people do n't want their fps to tank when something like gta5 or witcher 3 comes out . 
+  you can oc any skylake cpu with a z170 motherboard through base clock to same frequency as a k chip through multiplier ( usually 4.5-4 .6 ghz ) . 
+  sure , if you want fully supported overclocking , you can pay the premium for a k chip , whether it 's worth it is up to you . 
+  if it was higher quality psu it would be fine , now it 's just enough i would say . 
+  it might depend on your bios version . 
+  check cpu-z what is your current ram frequency to see if it 's running at 1600 or 1333 ( might show as 800/667 ) . 
+  if the latter , download latest bios and check again . 
+  is paying 55-70 $ extra worth it so you can reach the same clocks in bios by changing just 2 values instead of 3 ? 
+  for some people it is , for some people it is n't . 
+  if it shows 1600 in bios then it 's probably not supported . 
+  get and i3-6100 instead of fx-6300 , it 's a bit more expensive but the performance in most games will be way better . 
+  the liquid cooler also seems to be complete overkill , without oc stock cooler is fine and if you really want to make it quieter , get hyper 212 instead . 
+  can you overclock the ram in bios ? 
+  if yes and it changes anything in cpu-z , it could be supported but you just had it underclocked . 
+  if cpu-z wo n't go over 667 regardless the bios setting , it 's not supported . 
+  sorry if it was n't clear, 
+  your info is outdated , skylake cpus no longer increase pci-e clock with oc ( on z170 boards with bios update ) which was the main reason why locked chips could n't be overclocked a lot . 
+  the only difference in overclocking with bclk is that you have to decrease the ram multiplier ( that 's the 3rd value ) . 
+  that 's it . 
+  yes , for some people this is complicated , scary and unnecessary that they 'd rather pay $ 50 + to need to change 1 less value . 
+  for others it 's extremely easy way to save 50-70 bucks on a cpu . 
+  here are some `` mild oc '' videos of locked pentium , i3s and i5s, 
+  i 'd go with i5-6500 instead of haswell cpu . 
+  if you get a more expensive z170 motherboard , it will give you an option to overclock it or upgrade it in the future if you wish . 
+  if you do go with z170 , get at least 2666mhz ddr4 ram . 
+  even if you do n't want to oc now , but maybe 1-2 years later , only thing you 'll have to do is get an aftermarket cooler and you 'll be able to get a lot more mileage from your cpu . 
+  390 is slightly overkill , 380x would probably be a better fit for your budget . 
+  overall , this build should n't cost a lot more ( maybe even less without the 390 ) and will give you a lot more flexibility in the future , whether by giving you option to go for oc , or being able to buy a skylake i7 for it , or even if you end up buying completely new pc , you 'll almost certainly will be able to use the ddr4 rams . 
+  you take mbs with chipset you need , then you think about what features you need/want and then you pick the cheapest ( or brand you like ) that meets your needs . 
+  what different features various mbs have you ask ? 
+  form factor , better/worse on board sound card , pci slots , usb slots , ddr slots , faster supported ddr frequencies , sli support and so on . 
+  depends from what you 're upgrading . 
+  if you 'd have to buy new motherboard and rams anyway , you 'll probably be able to use the ddr4 in your next upgrade and save some money down the road . 
+  if you have a good oc 'd i7 from previous generation , skylake probably wo n't offer you that much . 
+  yes , it 's faster and easier to oc in general , but the difference is n't mind blowing . 
+  tl : dr if you 'd have to buy ddr3 rams for your new build , probably worth going for ddr4 setup . 
+  just a heads up , with a z170 motherboard you can overclock non-k chips now anyway ( through bclk instead of multiplier ) so if you invest in it , you 're not necessarily losing the option in the future if you wish to get a bit more mileage from the cpu . 
+  either way , the 6700k is n't worth it just for the base frequency . 
+  i would recommend it if you are n't getting some amazing deals on the older hardware and want better/cheaper upgrade options in the future . 
+  unfortunately amds architecture has weak single-threading performance which most games prefer to number of cores so at least until zen ( which will require new mb anyway ) , you 're pretty much forced to go with intel . 
+  so the answer is no , upgrading to amd is probably not worth it atm for gaming unfortunately . 
+  ca n't go wrong with z170 mb , i5-6500 and 2666mhz ram . 
+  seems to be the most bang for your buck currently while giving you most room to upgrade in future and being able to oc via bclk if you get aftermarket cooler, 
+  yes . 
+  psu should n't be a problem because the 970 is newer and a lot more efficient so it actually consumes slightly less watts compared to the 560, 
+  it 's hard to recommend anything without having the exact specs of it . 
+  in general , if you actually want to upgrade a prebuild , first thing would probably be buying a quality psu . 
+  of course to decide how powerful it needs to be you have to choose what gpu and future system are you actually planning which is a bit probably out of scope for this thread . 
+  that said , both psu and gpu are things that will easily carry over into anything you want to build in the future so they 're great things to upgrade . 
+  something from tier 2 , you need about 550w for 380x, 
+  ssds are a lot faster but not as cost effective for storage ( where greater read/write speeds do n't give you many benefits ) so people buy ssds for applications , os and games and get hdds for storage space . 
+  considering you can overclock locked chips like 6500 or even 6400 to same speeds as unlocked ones with almost no effort on z170 motherboard , the answer is no . 
+  unless you value `` officially supported '' overclocking through multiplier enough to pay the premium . 
+  here 's a decent summary https://www.youtube.com/watch?v=yutpgwytqyk, 
+  it 's not as easy as just increasing multiplier and has few quirks because it disables the pcu to overcome the `` lock '' , but in the end the performance you get out of it is the same, 
+  i have n't really looked into it yet , are there any thorough benchmarks of m. 2 vs sata ssd tests you could recommend ( that are n't on gen2 ) ? 
+  while people saying the difference is n't huge is believable and i wo n't argue it 's worth the price at the moment , i still hear people saying that regular ssd is not worth it for games to this day , so i 'm a bit skeptical because i still consider getting ssd as one of the best performance upgrade i ever made . 
+  for what 's it worth , the msi has better soundcard, 
+  yes, 
+  390x if you have good enough psu, 
+  quality 650w is enough for a single gpu system, 
+  yes you need aftermarket cooler to overclock . 
+  no it 's not dangerous if you stay within recommended voltage ( ~ 1.35-1 .4 for skylake ) . 
+  only thing to keep in mind when overclocking via bclk is that you overclock ram that way as well so you have to decrease the ram multiplier afterwards . 
+  i do n't think there 's really any consumer grade hardware that would need aftermarket cooling solutions for stock settings . 
+  everything that needs cooling comes with coolers or passive heatsinks, 
+  edit : also i forgot to add that you can overclock with bclk to same clocks as k chips and be sure to have a quality psu when you do it, 
+  390 has more vram so it will perform better with higher resolutions and in games that can benefit from it ( which at the moment is n't that many @ 1080p but that will probably change in future ), 
+  970 is more power efficient and nvidia has better drivers . 
+  it also has better optimization for some titles ( and gameworks make amd tank in others ) , but do n't expect nvidia to keep doing that once pascal comes out . 
+  if more games come out that require more than 3.5 gb vram , you 'll performance will also suffer . 
+  my recommendation would be to wait for what pascal and polaris will offer ( if nothing else , maybe discounts for older gpus ) . 
+  if i had to choose , assuming same price i 'd probably pick the 390 since i think the 970 will get a lot worse as time goes on but if you value what it currently has to offer more and are happy with 1080p , i can see the appeal of 970 .

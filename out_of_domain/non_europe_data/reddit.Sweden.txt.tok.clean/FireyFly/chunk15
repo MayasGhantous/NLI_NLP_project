@@ -1,0 +1,100 @@
+  ... actually , maybe you already are . 
+  slightly related , [ this page ] ( http://graphics.pixar.com/library/ ) contains a bunch of papers on rendering/animation by pixar . 
+  but it 's great to see that they 're also releasing working code as well . 
+  : % ! for ( ( i = 0 ; i < 1000 ; i + + ) ) ; do echo `` i wo n't make vi jokes '' ; done, 
+  a favourite of mine is, 
+  set fillchars = vert : \u2502 '' that 's a vertical box-drawing character, 
+  which , with a fitting setting for ` hl-vertsplit ` , gives you a nice , thin vertical separator between splits instead of the ( imo ) ugly two-colour one consisting of pipe characters . 
+  another handy one that i 've borrowed from somewhere is the superuser-write alias, 
+  w ! sudo dd of = %, 
+  a shortcut that i use for pasting large chunks of text is, 
+  nmap < f8  : set paste < cr  i, 
+  imap < f8  < esc  : set paste < cr  i < right , 
+  au insertleave * set nopaste, 
+  press ` < f8  ` , paste stuff , ` < esc  ` out , move on . 
+  when you press ` < f8  ` in normal mode , enter paste mode ( see ` : h ` paste ` ) and then go back to insert mode . 
+  when you press ` < f8  ` in insert mode , ` < esc  ` out to normal mode and do the same thing , then back to insert mode ( not quite sure about the < right  , but i suppose it 's to fix an off-by-one problem with the cursor position ) . 
+  when you leave insert mode in any buffer , always exit paste mode . 
+  i 'd say it should n't matter from a. . `` preference '' point-of-view . 
+  instead , it 'd depend on how the game mechanics work . 
+  i think the battle of wesnoth is a great example of a game where hexagonal tiles work really well , due to the zone of control mechanics it employs . 
+  zoc also works with orthogonal ( square ) grids , but not as well imo . 
+  one particularily useful case is the one mentioned under the heading after the linked one . 
+  in this scenario , if the unit on the tile highlighted with a : s is of team a , and the ones highlighted with x are of opposing team b , then a ca n't move anywhere because all tiles it could move to are under zoc from the team b units . 
+  hm . . have you tried playing with something similar to the wasd mapping but shifted further to the right ? 
+  such as ijkl , or maybe even further to the right than that . 
+  that feels like the most `` natural '' way for me if i 'd play with the mouse in my left hand , but then again i 'm right-handed and already used to wasd , so that probably influences me . 
+   ` listchars ' set character to show in ` list ' mode for end-of-line , tabs and [ ... ], 
+  oh , huh , odd name , but that does sound like what i 'm looking for . 
+  cool !, 
+  let me introduce you to [ super-sed ] ( http://sed.sourceforge.net/grabbag/ssed/ ) , a fork of gnu sed with pcre regexp support ( amongst other things , but that 's the most important difference ) . 
+  i actually know quite a few tea-drinking vim users !, 
+  ... not that we tea-drinkers would n't want a fancy vim mug ... 
+  or rather , perhaps to onity for releasing insecure devices with very weak security and calling them locks ? 
+  i use the shell verison of vim , and let my window manager take care of the task of maximizing windows instead . 
+  works like a charm for me . 
+  i guess the reason is that you should n't be able to mark cards by changing their orientation in the deck . 
+  yeaah ... last time i checked , you have to connect the calculators by a two-way communications cable , and i doubt the teachers would allow that during a test . 
+  i 've never had that happen for me , either in [ gymnasium ] ( http://en.wikipedia.org/wiki/gymnasium_ ( school \\ ) ) or university . 
+  and i sort-of agree with gnur that it 'd be annoying since you might 've programmed stuff on it for fun or whatever , and would have to wipe it . 
+  especially since the calculators we used in gymnasium were ti-82 stats , and they do n't even allow connection to a pc with the standard cable ... so you ca n't even backup your stuff :\\ \\ . 
+  i 've actually utilised the fact that they did n't clear the memory of our calcs ... but not so much as `` cheating '' , mostly to store useful constants that we had on paper anyway . 
+  i usually just drop to the real shell with ` ^ z ` and do my work from there . 
+  no need for vim to take care of the version-control when the vcs already has its own specialised tool for it , imo . 
+  lots of keys actually work * better * under dvorak ( or so i 'd argue , at least ) . 
+  my personal favourite is the ` < c-u  ` / ` < c-d  ` bindings that i use a lot ; the equivalent keys ( in position ) on qwerty are f/h respectively . 
+  another nice one is ` b ` / ` w ` . 
+  looks like a variant of [ westminster ] ( http://en.wikipedia.org/wiki/westminster_ ( typeface \\ ) ) . 
+  ( data 70 seems to be the precise variant , but i thought it 'd be interesting with a link to where it `` came from '' , so to speak . ), 
+  another variant is, 
+  $ x = condition ? 
+  value, 
+  : condition ? 
+  value, 
+  : / * otherwise * / value, 
+  ... giving it a bit of a ` cond ` - style look ( again , assuming proper operator precedence ) . 
+  looks awesome !, 
+  i really like the minimalism and the colours/hues ( although i might 've gone for a tad darker for the vim bg ) . 
+  really clever prompt too . 
+  ( do you use ` \\ e [ a ` to go up a line & overwrite the previous prompt in your ` $ ps2 ` ? ), 
+  i 'm not much of a fan of multi-line prompts in general , but this one 's almost enough to convert me ... maybe i should try multi-line prompt for a while and see how it feels . 
+  to add to the list of tools already mentioned here , my personal weapon of choice is [ regex101.com ] ( http://regex101.com ) . 
+  it 's fairly new though , and might be a bit buggy . 
+  oh , i definitely agree with that . 
+  unfortunately the author finds the full pcre support important for the site , so it 's pretty much the only sane approach fullfilling that requirement :\\ \\ . 
+  and here i was happy that i beat my old record and met * 6 * people a few days ago ... 
+  f = : * : @  : @ i. 
+  usage :, 
+  btw , i think whitespace will win on this one . 
+  now i 'm curious -- what keyboard layout do you use now , and if still dvorak , do you still get that feeling of being lost in the vim commands ? 
+  have you remapped any keys to their qwerty-equivalent position ( e.g. 
+  hjkl to htns/dhtn ) ? 
+  ( for the record , i use dvorak ( a regional variant of it , more precisely ) , but i learned vim after i made the layout switch , so i never had any issues like that . ), 
+  i 've used vim for ~ 1 year , and dvorak for ~ 2.5 years ( if memory serves ) . 
+  i have n't had to use vim on qwerty yet , but whenever i type on a qwerty keyboard i usually have to think a bit about where i 'm placing my fingers . 
+  i imagine that 'd be the case with vim-bindings too ( like for you ) . 
+  i was thinking of remapping to hjkl at first , but got advised not to do so by another dvorak vimmer who i happened to meet shortly after starting to learn vim . 
+  i think this was a really good suggestion , and generally suggest people on dvorak who want to learn vim to at least use the standard keybindings for a couple of weeks before deciding it 's terrible . 
+  i find that many of the default bindings actually seem to work * better * ( imo -- though i 've no hands-on experience of the qwerty equivalent , so i 'm biased ) on dvorak than on qwerty . 
+  ` b ` / ` w ` and ` < c-u  ` / ` < c-d  ` comes to mind , for instance . 
+  canto looks neat -- i had n't heard of it before ; i 'll have to check it out . 
+  i 've no experience with either , though . 
+  vim also has built-in support for something similar , see ` : help abbreviations ` . 
+  that is n't `` a ` catch ` '' -- you 're passing a function ( a `` callback '' , or possibly an `` errback '' , but a function nonetheless ) to ` pagemethods.delete ` , which then seems to call your provided function with ` undefined ` as its first argument . 
+  we could n't tell you why ; check the docs for ` pagemethods.delete ` . 
+  it might be an error in the library you 're using , or it might be the expected behaviour . 
+  what is a webmethod ? 
+  what is web.config ? 
+  again , sounds like you should consult the documentation for whatever tool you 're using . 
+  for what it 's worth , it 's actually possible to catch ` undefined ` in a proper ` catch ` block :, 
+  try {, 
+  var a, 
+  throw a, 
+  } catch ( err ) {, 
+  console.log ( err ) / / prints ` undefined ', 
+  ... but that was n't what you meant to ask ( even if that seems to be the question it the title ) . 
+  where is that , if you do n't mind me asking ? 
+  the fact that you need to jailbreak/root a device in order to run arbitrary software on it ought to be enough of a reason , in my opinion . 
+  android seems to be way too locked-down for my taste . 
+  this mirrors my experience as well ( also former n900 owner ) . 
+  i 'm confident that jolla will support meego ; after all , it 's their only platform whereas for nokia it was just a small side project while the real money came from symbian -- for jolla it 's much different .

@@ -1,0 +1,100 @@
+  the symbols and things in df are done with a graphical rendering engine anyway . 
+  they 're bitmap files , not real letters . 
+  but the way that they 're stored ( picture vs. raw text ) does n't make them not text , since they 're still symbols meant to be read . 
+  there 's no fundamental difference between reading raw text and reading images of raw text , especially if the images are on a character-by-character basis anyway . 
+  get a rom of unhacked smw, 
+  get lunar ips from the `` tools '' page on http://www.smwcentral.net, 
+  get the ips file, 
+  open lunar ips , use patcher to apply ips file to unhacked rom, 
+  rom is now hacked, 
+  if i were more of a sjw , i 'd comment on why the males are in the font and the females in the back . 
+  dude , this is great !, 
+  i love their creative and very characterizing postures !, 
+  the artist sure succeeded in making them expressive . 
+  i wish i could draw like that . 
+  i like their interesting clothing , too . 
+  it looks comfortable , and complements their spunkiness . 
+  the lack of eyes is slightly unnerving , though . 
+  i 'm also not a fan of the ugly and cluttered way the artist decided to deal with writing out `` beta kids '' on top of the sburb symbol . 
+  it 's a freakin ' digital medium , just increase the canvas size upwards . 
+  i like the imagery with the wind blowing through the glass forests and shattering stuff . 
+  do you also envision the ground as glass ? 
+  i would n't have a planet , since i 'd prototype with a nuclear explosion . 
+  ( it can be done , assuming you can alchemize 2x5kg of plutonium-237 , and make a device that harnesses the meteor 's impact to activate a gun-type nuclear warhead you improvised from the plutonium . 
+  ( you just need to build a thing that uses the impact to smash the two bits of plutonium together . 
+  preferably made of something like graphite , so you do n't accidentally reflect neutrons anywhere . ), 
+  the downside is that i die , and the plus side is that if i do n't die , i can self-prototype and become a god . 
+  the idea was that i definitely need to self-prototype , and i should first prototype with something that would make me as powerful as possible . 
+  i 'm assuming i would n't have the luxury of a first guardian to prototype , so i settled on a nuclear explosion instead . ), 
+  maybe my planet can be `` land of asteroids and frogs '' . 
+  i 'm not sure whether i 'd have any consorts . 
+  if i did , they 'd have to be radiation-resistant , like tortoises . 
+  ( there has n't really been much research done on radioresistance in reptiles . ), 
+  also , be able to navigate an asteroid field . 
+  i do n't know who my denizen would be , because denizens have n't really been characterized a whole lot up to this point . 
+  well , personally , i liked it not because of the screaming ( which i think it could have done without ) , but because it was nice that someone noticed a connection between that song and '' [ s ] jade : enter . 
+  '' , and took the time to synchronize hand-drawn pictures with it , to make the song feel as though it 's about homestuck . 
+  i also appreciated the interesting compression effects they used on the singer 's voice , which gave the song a novel quality . 
+  so , there 's that reason , too . 
+  although i 'll admit i only smiled , not laughed . 
+  you ca n't use the ` = = ` statement multiple times in a row like that . 
+  you have to do ` ( a = = b ) & & ( b = = c ) & & ( c = = d ) / / etc ` . 
+  also , a couple tips : putting all your declarations in one massive statement is pretty hard to read . 
+  also , if you have a lot of variables that are the same type , you can store them in an indexed array . 
+  look up `` arrays in c '' . 
+  instead of declaring ` i1 , i2 , i3 , i4 , / / etc ` , you can just declare an array :, 
+  int i [ 17 ] ; / / 17 is the number of slots in the array ; you need an extra one at the end for the one that signals that it 's the end of the array ; integers go in the slots, 
+  then you can assign to it at indices ` i [ 0 ] , i [ 1 ] , i [ 2 ] , i [ 3 ] , / / etc ` . 
+  it looks like more typing now , but the advantage is that you can use actual numbers , like integer variables , as the indices . 
+  this is a stepping stone to something that i 'll mention later . 
+  also , you can simultaneously declare a variable and assign to it , in the form ` int a = 71 ; ` . 
+  this means that you can declare your sums as you are computing them . 
+  and you should only have declared them right before you were using them , anyway . 
+  otherwise it makes the code hard to read . 
+  imagine how much more of a problem it would be if your code was even ten times longer . 
+  never mind a hundred or a thousand . 
+  you can also make the program more friendly to the user by asking them to enter the integers one at a time . 
+  this is what arrays are good for , since you can just put it in a ` for ` loop :, 
+  for ( int k = 0 ; k < 16 ; k + + ) { / / k will go from 0 to 15, 
+  scanf ( '' % d '' , i [ k ] ) ; / / it 'll store the integer at the k ` th index of i, 
+  whaddaya think ? 
+  if you know some form of programming language , a fun thing to try would be programming your own version of it . 
+  the only two numbers , out of the entire complex plane , that you get to use the singular with , are 1 , and -1 . 
+  all the other numbers are plural . 
+  ( even i and - i for some reason . 
+  i think it has to do with the actual word that precedes the word being `` one '' . ), 
+  right . 
+  although , that does n't actually patch a rom file last time i checked , so if you open up the rom in lm2 , you 'll get a vanilla rom . 
+  my text color is 680 nm . 
+  ( that 's slightly deeper red than dave 's text . ), 
+  i type with correct capitalization and punctuation , usually , because that 's what expresses what i want to say . 
+  if i want to give a slightly different effect , to maybe make it seem like i 'm more busy , i 'll type in lowercase , with no punctuation . 
+  i put unnecessary commas before the word `` that '' , when it 's being used as a conjunction . 
+  i like to use awkward grammar , because i think it 's funny . 
+  ( it 's not . ), 
+  this gives me the idea to prefix my chat entries with a hash symbol . 
+  it does n't mean anything in particular . 
+  just , that if i ever want to begin my sentence with `` sudo '' , i wo n't need to . 
+  those are pretty standard for lots of programming languages , though . 
+  i dare you to make it more codelike , by putting parentheses after verbs and putting the verb 's objects in the parentheses . 
+  or put the verb-function directly after the direct object , and put a period in between them . 
+  and put the indirect object as the argument of the verb-method , if possible . 
+  also , use preprocessor commands . 
+  like if someone asks you a hard math question , you could go `` hmm ... #import & amp ; lt ; calculator.h  '' . 
+  and never use fractions , only floats . 
+  i 'd prefer to come up with something similar based on scheme . 
+  but alas , lisp has difficult-to-distinguish syntax . 
+  it 's all parentheses followed by words followed by more parentheses . 
+  sometimes you use an apostrophe , comma , or quote , but rarely . 
+  not fun at all . 
+  but it 's an elegant language , at least . 
+  why would you be so cruel . 
+  at least the nonsense words are distinguishable from the non-nonsense ones because they are caps . 
+  i am learning so much about colors from this post . 
+  specifically , how people perceive and relate to them . 
+  how did you find out about the phrase `` od green '' ? 
+  your character and i are opposites . 
+  i used to use ellipses , and then i decided , that there are very few cases where the sentence would n't look better if i used a period instead . 
+  i dunno , i feel a little insulted , that you assumed , that i did n't know what an axolotl was . 
+  edit : hungarian punctuation makes english look unnatural . 
+  ah it 's you again .

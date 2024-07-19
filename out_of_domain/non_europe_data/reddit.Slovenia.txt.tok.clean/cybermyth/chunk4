@@ -1,0 +1,100 @@
+  i 'm from slovenia, 
+  ofc he has . 
+  he invested a looooot of money in marketing . 
+  and i guess it 's paying off . 
+  do you live in a state where medical marijuana is legal ? 
+  you could give it a go if you have n't already, 
+  me too man . 
+  my mothers uncle has an uncle named richard . 
+  i kinda feel bad for him . 
+  poor guy . 
+  the `` gg easy '' kind of players . 
+  yeah i know , it 's not that hard to style when the hair is short but when it gets longer i 'm lost . 
+  what hairstyles do you suggest for my hairtype/head ? 
+  yeah was thinking about it , maybe i 'll get one for christmas and i 'll experiment until then , usually i just let it grow during holidays cause i 'm too lazy , but now that college is near i 'll probably shave it once or twice a week . 
+  i 'm deciding between these two :, 
+  i think both are great for the price , do n't know what to pick though . 
+  yeah i 'm pretty much decided about the msi . 
+  it looks amazing too . 
+  thanks . 
+  sometimes it wo n't connect back at all . 
+  it took to long to connect ... 
+  but usually it just connects and stays limited until i restart the computer . 
+  same problem with my roommate and his laptop btw . 
+  ok some of this makes sense , but tbh i still do n't get it . 
+  why do you divide it with 2 here : ( n +1 ) / 2  = 5/2  = 1, 
+  and how do you get ( n +1 ) / 2 * n !, 
+  sorry but this is all really new to me . 
+  ok that all makes sense , thanks , but how could i solve it using the polar form and de moivre 's formula ? 
+  my schoolmate has almost the same [ problem ] ( http://prntscr.com/4xq7xr ) , but the + and - are flipped . 
+  no matter how long i stare into the solved problem , i do n't know how he got the end result . 
+  any idea ? 
+  oh god , i think i know what i was doing wrong . 
+  instead of dividing the angle ( 101.1 ) by 3 , i was calculating cos ( 101.1 / 3 ) . 
+  i feel like an idiot , thanks for the help , really appreciate it . 
+  ok this is my program atm . 
+  it is working , but i highly doubt it , i did it the way it was meant to be done . 
+  from random import *, 
+  x = randint ( 2,10 ), 
+  y = randint ( 2,10 ), 
+  result = x * y, 
+  print ( `` how much is '' , x , `` times '' , y , '' ? '' ), 
+  answer = int ( input ( '' '' ) ), 
+  if answer = = result :, 
+  else :, 
+   it seems to work fine , but i really wanted this line : print ( `` what is '' , str ( a ) , ` times ' , str ( b ) + '' ? '' ), 
+  to also get the input and assign it to a variable ( c ) . 
+  i could n't work out how to do that , though . 
+  ( i 'm doing python 3 btw . 
+  same here . 
+  great  . 
+  this part was the first part of the exercise . 
+  now i needed to add the following things :, 
+  * the program has to repeat the questions for 20 seconds, 
+  * user gets a point for a correct answer, 
+  * at the end the program has to print the number of points, 
+  and ** extra homework ** :, 
+  * let the guessing end when user makes his first mistake, 
+  * the answer after the 20 seconds time does n't count, 
+  this is my program atm :, 
+  from random import *, 
+  from time import *, 
+  now = time ( ), 
+  points = 0, 
+  while time ( ) - now < = 20 :, 
+  x = randint ( 2 , 10 ), 
+  y = randint ( 2 , 10 ), 
+  result = x * y, 
+  print ( `` what is '' , x , `` times '' , y , '' ? '' ), 
+  answer = int ( input ( '' '' ) ), 
+  if answer = = result :, 
+  points + = 1, 
+  else :, 
+  break, 
+  print ( `` you scored : '' , points , `` point/s . '' ), 
+  i 've got everything up and running except the last thing . 
+  i do n't know how to exclude the last answer . 
+  i 've tried the following things :, 
+  adding : while time ( ) - now < = 20 and answer = = correct : , but i 've realized that wo n't work, 
+  adding an elif time  20 : n - = 1 and adding the break too, 
+  also tried a couple of other things , but none of them worked . 
+  i believe i 'm running out of ideas . 
+  any tips ? 
+  if a user answers the question correctly , but after the 20 seconds time , he does n't receive a point . 
+  we are supposed to do the homework without functions , since functions are the next thing we learn . 
+  i 'll try to write it later using the function , thank you , 
+  hmm i 'm not for us , so the things are probably a bit different . 
+  i assume xnor gate is an exclusive disjunction ? 
+  in that case , how do i know when to use it ? 
+  do n't even start . 
+  i 'm just `` doing '' my homework . 
+  doing = staring into the problem for a few minutes , then getting nervous , because i do n't know what the hell i 'm supposed to do . 
+  after that i take a quick chocolate/water/pee break . 
+  and get back to `` doing '' the homework . 
+  i love discrete math . 
+  find_pairs ( `` a and b. 
+  a and b and c. a. 
+  a and b and c and d. b and a. '' ), 
+  ** desired output : **, 
+  [ [ ` a ' , ` b ' ] , [ ` b ' , ` c ' ] , [ ` a ' , ` b ' ] ], 
+  thanks , i get it now .

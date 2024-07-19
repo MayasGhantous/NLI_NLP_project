@@ -1,0 +1,100 @@
+  * ** bayesian interpretation of probability ( philosophy ) ** : interpreting probabilities as a subjective degree of certainty . 
+  the word `` subjective '' does n't refer to `` pulling it out of my arse '' or `` gut feeling based '' , but that it 's subject-dependent , it depends on the state of knowledge of a particular individual . 
+  according to this stance , the probabilities are not out there in the world , but in the mind of each observer . 
+  this is in contrast to interpretations like frequentism , propensity theory , symmetry-based etc. 
+  * ** bayes ' theorem ( also called bayes ' rule or bayes ' law ) ** . 
+  this is mathematics . 
+  probability theory is a mathematical model that does n't depend on interpretations and philosophy . 
+  it has a set of axioms and bayes ' theorem is a consequence of these axioms . 
+  bayes ' theorem is a mathematical theorem ( and a very simple one ) like any other , for example the pythagorean theorem , so it is accepted by all statisticians , not just `` bayesians '' ( whatever that would mean in this case ) . 
+  * ** bayesian methods in statistics ** . 
+  these are modeling techniques and statistical methods aimed at calculating conditional probabilities of the form p ( hypothesis | observation ) . 
+  in these models , the parameters of a hypothesis are modeled as random variables themselves , which have probability distributions . 
+  the main alternative , frequentist methods , do n't model the parameters of hypoteses as random variables , they model them as unknown constants and make statements like '' * if * the parameters are like such and such , then we 'd observe such and such , with such and such probability '' . 
+  * ** bayesianism as a basis for science ** : there 's a movement among scientists to shift from the classic statistical-significance-based approach in research ( especially clinical trials and psychological studies ) to a more `` bayesian '' approach , meaning that we should n't think in a binary way , either rejecting or not rejecting a fixed null hypothesis , but we should calculate probabilities for different hypotheses . 
+  for example , researchers would report likelihood ratios or something similar , instead of p-values . 
+  there are many issues with current research methods ( publication bias , p-hacking , massaging data ) and this is one branch of the proposed solutions . 
+  * ** `` internet bayesianism '' ** : this is a mashup of different bayes-related ideas , mystified and worshipped by bloggers , commenters , youtubers etc. 
+  it 's proposed as a panacea , as psychological self-help ( to sort out your life 's issues ) and also as an alternative to the `` scientific method '' for understanding nature , i.e. 
+  instead of guessing hypotheses and trying to falsify them and trying to replicate experiments , they want a more principled way to approach this , where we 'd formally keep track of p ( scientific hypothesis | all experimental observations to this day ) values and update them with each new experiment ( there are merits in this idea , but it 's often presented a bit naively and it 's not readily applicable in its pure , idealistic form ; also they make it seem like this would radically overturn `` science '' and replace it with `` bayesianism '' ) . 
+  just like it happened with e = mc ^ 2 , some people try to sell not-so-groundbreaking ideas or outright quackery , under the banner of bayes ' theorem and bayesianism and bayes , bayes , bayes . 
+  [ some more info on the quackery side ] ( http://blogs.scientificamerican.com/cross-check/bayes-s-theorem-what-s-the-big-deal/ ), 
+  when i was around 14 , i got `` the matrix and philosophy '' ( perhaps not the same series ) . 
+  i was very new to philosophy and i loved it , i recognized so many things that i had thought about . 
+  i read it quite slowly because it was somewhat like reading the solutions to riddles , somehow it made it less exciting than coming up with my own theories , so i tried to come up with some idea first , and then either feel verysmart when the book also contained that , or i 'd argue against the book and argue in my head how it 's nonsense . 
+  it definitely made me dizzy sometimes . 
+  like kicking you out from your normal daily operation . 
+  it was weird to see that respectable adults wrote down ideas like this , it 's not just fantasizing and that life is n't necessarily just about the mundane going to school , going to work , going shopping , paying the bills , repairing the car etc. 
+  stuff that my rather pragmatic family was doing . 
+  i had a somewhat difficult time reconciling these differences , like why people kept doing the stuff they did , when we have these ideas out there that we , as humanity , have realized etc. 
+  i guess it 's just the common phase among some teenagers , thinking that everyone is sheeple and `` why do n't we just ... x , y , z. . . '', 
+  i think there 's no need to be too harsh on these books . 
+  they can be a good introduction and it 's good to have a concrete example , a reference point to reach back to , instead of just talking in the abstract and listing which old-guy-in-a-wig said what in which century . 
+  tldr `` being a philosopher is hard , hard , it needs discipline , it 's a title that 's earned , philosophers determine natural laws etc etc. '', 
+  i think it 's elitist . 
+  it 's like when photographers complain that `` ah , now every kid with a dslr thinks he 's a photographer '' or when web designers are like `` ah , now clients just install some wordpress site with the help of their nephew '' . 
+  or when gamers complain that `` now everyone who play farmville thinks they are a gamer '' . 
+  do n't boast about how hard it is . 
+  it 's circlejerk-y and it 's misplaced authority-respect . 
+  everything is hard . 
+  being a philosopher is not unique . 
+  rather , try to do better philosophy that people will recognize as good . 
+  or if you think people are stupid to know that , try to explain your idea ( not your `` philosopherness '' , but your specific proposal ) better , so they recongize how good it is . 
+  or if mortals are all too stupid to get it , then they definitely wo n't get it if you talk down to them about how they do n't get it . 
+  it might be true that people do n't get it , but saying this is just venting , it does n't achieve much . 
+  the story already contains the prior when he says that the guy picks the coin `` at random '' from the bag ( which means 50/50 , colloquially ) . 
+  but let 's say we did n't hear that . 
+  the frequentist approach would say that he either picked this or that , it 's a fixed but unknown constant and not a random variable . 
+  so they would calculate likelihoods . 
+  they would say : * assuming * he picked the fair coin , the `` heads '' result is something that would happen 50 % of the time in the long run , which is a pretty large number so we do n't reject this hypothesis , our observation is pretty compatible with the fair coin hypothesis . 
+  in other words , our result would n't be a rare case in the hypothetical scenario where he picked the fair coin . 
+  and then : * assuming * he picked the biased coin , the `` heads '' result is something that would always happen , so we also do n't reject this hypothesis because it 's totally compatible with our observation . 
+  so they would n't assign probabilities to the fair vs. biased case , they would simply say that they ca n't reject any of the two hypotheses , both explain the result fairly well . 
+   where 's the line when you move from student of philosophy , or spiritual seeker , or stoner intellectual , and firmly into the rank of philosopher ? 
+  when you come up with original thoughts that shed new lights on problems and inspire new research , satisfyingly solve some problem or point out some genuinely new reason for why the problem is ill-posed or does n't have the significance that was previously assumed . 
+   for example , if i 'd never read a single philosopher , but conquered my emotions and wiped my slate clean for learning , am i already a philosopher ? 
+  i never thought that conquering emotions ( whatever that means ) had anything to do with being a philosopher . 
+  i 'm also not sure what it means to wipe your slate clean . 
+  does it mean some kind of moral purity ? 
+   the word used to mean love of wisdom . 
+  how can you get a degree in loving something ? 
+  humbleness is a virtue and most people who are good at things try to downplay it . 
+  so you 'd just say `` i just really love to cook '' and let the people decide if they like your food or not . 
+  prancing around like `` but mooom , i 'm a really serious philosopheeer '' wo n't achieve much . 
+  people will judge whether they like your output or not . 
+  if not , you can still like it but complaining that you 're so not understood even though you 're a genius is * usually * a sign of not being a genius . 
+  and even if it 's not , your only hope is that later generations will understand your great ideas . 
+  there 's no use in forcing it down their throat . 
+  we should really have a sticky about this . 
+  this exact same question pops up every few days . 
+  ( it should also include `` the hidden gems '' and the `` non-touristy things '' ), 
+  you mean it 's becoming fashionable/cool to say that you 're colorblind ? 
+  where ? 
+  well , kids/adolescents like pretend-play . 
+  i would n't be too harsh on them , as long as they are n't older than teenagers . 
+  after that age , it 's pretty annoying and childish . 
+  with gluten , i 've seen people ( mostly women ) in their twenties saying they are gluten sensitive just to seem special , but i 've never heard the same about color blindness . 
+  yeah , it 's not supposed to be sad and melancholic ... 
+  it makes it all seem cheap . 
+   internet piracy is rampant in countries like china and india, 
+  just like in eastern europe . 
+  mainly because people are poor there and can not afford buying games that costs like 10-20 % of their monthly salary . 
+  there are many people in hungary who make like 300 $ / month and a movie costs 20 $ , a game costs 30-40 $ . 
+  in india and china it 's even worse for many people . 
+  due to this , many services like spotify or netflix have n't been available in these regions for a long time ( only recently , some ) . 
+  for americans , 10 bucks seems like loose change , but in other countries it 's a significant amount that you have to think about before spending it . 
+  there is n't some deep philosophy behind it , just economics . 
+  also , the framing of the issue as `` intellectual property '' is not simply the `` default western thing to do '' . 
+  it 's backed and pushed by the movie/music/game producing companies mostly . 
+  some people , [ most notably richard stallman ] ( https://www.gnu.org/philosophy/not-ipr.html ) , even call it simply propaganda . 
+  about naming things : funny that i just read [ an article ] ( http://loup-vaillant.fr/articles/smartphone-is-the-wrong-name ) today about how `` smartphone '' is a misnomer , and it also brings the intellectual property/monopoly thing up as an example . 
+   what a symbol refers to and what meaning is and how we can know what the meaning of a symbol is , is pretty controversial and there are n't any simple answers . 
+  ask a non-philosopher how they know what `` dog '' means . 
+  they 'll say , because they learned it as a child from their mom or someone . 
+  pretty good answer . 
+  now you could counter , but how did the child get the precise concept of what is a dog and how did n't he think the `` dog '' concept also includes wolves or cats as well ? 
+  answer : he probably did n't get it `` perfectly '' the first time and would have misidentified a jackal as a weird dog . 
+  in most cases he 'd be corrected like `` no , that 's a kitty '' . 
+  in some cases not . 
+  indeed , this is how languages change . 
+  each generation learns things a bit differently and concepts shift around .

@@ -1,0 +1,100 @@
+  obviously sun was n't worth the money oracle paid for it because i am pretty sure they did so with the intent to get some of these money back from google, 
+  of course but the value is less . 
+  i find it ironic that skype ( a closed source im client ) costs more than sun . 
+  i realize skype is a service too but come on ... sun had an os , the most popular programming language in the world , an insanely popular database and a hardware business . 
+  is n't that what orms do ? 
+  i understand the argument against the whole entity vs only a tuple but you can certainly map different classes representing the different tuples over the same table . 
+  did anyone already mention i = i + + + + + i, 
+  way cooler , 
+  does n't code generation solve this problem ? 
+  i know it is considered bad but i always thought it was far better than reflection which is in essence runtime code generation . 
+  i prefer actual code generation ( the one where you get to see the generated code ) to both bytecode manipulation and reflection based subclassing by the orm . 
+  exactly what i was wondering . 
+  after all the next version of c # is all about async and in many ways better than the languages compared here . 
+  he said view/procs . 
+  i assume `` proc '' is stored procedure . 
+  as a developer with strong love for gui tools , designers , etc. 
+  i wish to inform you that it is not the typing that we hate . 
+  it is remembering all the boring shit we need to type . 
+  i do n't see why i should type something that a software can type for me when i click a button, 
+  i understand this benefits but keep in mind that you can optimize your gui usage as well with things like shortcuts and workflows that requires you to use the mouse for prolonged periods of time instead of jumping between keyboard and mouse . 
+  for example i sometimes move text around in the ide with the mouse instead of using copy/paste . 
+  i do not pretend i am much better or faster than people who dislike gui but i do n't feel like i am that much slower that i should consider a career switch . 
+  i also believe 14 years of playing competitive starcraft may have upgraded my ability to use mouse + shortcuts . 
+  i have no doubt that if i have been using linux for the last 14 years instead i would be better with the command line . 
+  the main motivation for not including checked exception in c # is that average developers often end up with catch ( exception ex ) { } in their code . 
+  sometimes it is because the api should have used unchecked exception instead of checked and sometimes it is because the developer just wanted to make the compiler shut up . 
+  anders ( hallowed be his name ) is not opposed to the idea of checked exception but he claims that their current implementation in java creates more problems than it solves for the majority of developers . 
+  please explain to me how, 
+  result < myobject  value = await makeremoteapicall ( ) ;, 
+  if ( value.wassuccessful ), 
+  processsuccessfulresult ( value.result ) ;, 
+  else, 
+  processerror ( value.errormessage ) ;, 
+  is any worse than, 
+  makeremoteapicall (, 
+  result =  processsucessfulresult ( result ) ,, 
+  error =  processerror ( error ) ) ;, 
+  the first solution is just 1 more line of actual code ( not counting the braces ) and one can argue that it is more clear . 
+  if this summarizes the `` problem '' with async i 'll gladly pay that price . 
+  uac was done intrusive on purpose so all those apps that required administrator access would be fixed . 
+  they had to sacrifice a windows to make the ecosystem better . 
+  funny thing is that they ca n't depend on developers who use express to drive the platform . 
+  still they make sure they generate so much hate . 
+  vs web developer express 2010 did support class library projects . 
+  unless they have removed the support ( which i doubt ) your first point does not come into play . 
+  i have some doubts if developers who develop open source libraries use express editions extensively . 
+  i have downloaded several open source libraries and i have n't been able fully work with the source code in express mainly because they used things like unit tested that was not available in express before ( my understanding is that vs 11 express will have unit testing built in ) . 
+  also the developers who create open source libraries are usually experienced professionals who have access to vs pro for other reasons . 
+  i do think ms 's decision about the desktop express version is incredibly stupid but web development is hardly the reason . 
+  if ms depends on people using express to fill up the store ( as opposed to companies and hardcore devs who have access to vs pro ) then they have already failed . 
+  after all they did not remove the ability to create desktop apps from vs , they only removed it from express . 
+  what kind of fud it this ? 
+  the current ides will not be pulled and you will be able to continue to support existing apps . 
+  let alone that the discussion is about the free versions of the ide . 
+  the paid versions of vs will ship with all the features needed for desktop development . 
+  what kind of enterprise development depends on a version of visual studio explicitly trageted at hobbyists ? 
+  because we all know that sap ide or whatever is the best choice for developing general purpose desktop applications for windows ( which is what has been removed from the free editions and what is discussed in this post ) . 
+  what is your point ? 
+  java is better if you are using sap backend ? 
+  we know that . 
+  did you mean `` while java keeps getting update delays '' ? 
+  so how exactly do you edit a schema mapping for an orm with multiple tables and relationships with tab ? 
+  i just drag & drop stuff around . 
+  oh i completely agree . 
+  for example i only start applications in windows via search ( winkey + type ) which is very command line style but i can not be bothered to commit code with the command line . 
+  i ca n't even remember the folder i use for my projects if there was not a shortcut on the desktop . 
+  i was very disappointed when oracle announced the split of java 7 into java 7 and java 8 and then announced further delay for java 8 . 
+  i expected that after they got java from community-oriented sun they will push for more aggressive and feature-rich release cycle . 
+  i ca n't see how the availability of the very limited free ide will weaken the enterprise position of . net . 
+  of course it will weaken the general position of the platform especially for new developers that are currently learning . 
+  i agree that the deployment of the ide is a mess but i do n't see how the express edition relates to that . 
+  if anything the availability of express editions makes it more messy ( more installs and choices ) . 
+  it is true that deployment of vs is a pain . 
+  other things you say about . net are also true for vs express ( the free version ) . 
+  everything else you say is wrong for the paid version ( there is integrated source control in the face of tfs including a free edition of the server , there are countless of addons for everything , there is deployment from the ide ), 
+  i do n't think vs express is in any way related to the enterprise since almost every big company has some kind of msdn subscription because of windows , office and exchange licenses . 
+  in many cases they also have sharepoint . 
+  vs ( also sql server , etc. ), 
+  comes in these subscriptions . 
+  deploying visual studio is a pain and a big problem for the ms stack . 
+  this is basically the only relevant thing to your point ( . net getting abandoned ) . 
+  however removing support for desktop apps in vs11 express is in no way related neither to the complexity of the deployment nor to the position of . net in the enterprise ( since no enterprise would use express edition anyway ), 
+  yes . 
+  in case you really want to sideload metro style apps which i do n't see why anyone would want to but then again i never saw any reason to root my phone either . 
+  i consider the app stores kind of a service . 
+  they filter some of the not so serious apps for me . 
+  look at elder_george 's comment . 
+  same with the callbacks . 
+  the caller need to know that he needs to pass two different handlers . 
+  of course they will be required but the very fact that you can not extract the actual result without diving into the properties of the return value serves the same purpose . 
+  the caller will learn that there are two distinct states of the result when he tries to use it . 
+  maybe he is afraid that artosis will not love him anymore if he uses dishonorable cheese and all in builds . 
+  sometimes i think they are just trolling us for distraction from other issues . 
+  they make some big `` blunder '' and that they can rollback and they declare that they act on feedback . 
+  i think they were just distracting us from other issues . 
+  now everyone is happy they added some color and brought back the express edition for desktop that other issues will be easily forgiven . 
+  a duck - http://blogs.msdn.com/b/cdndevs/archive/2010/05/09/new-programming-jargon.aspx, 
+  i do n't know . 
+  i was too busy raging about the colors and the lack of express for desktop , 
+  it is important but the theory is that they were n't planning on skipping it anyway .

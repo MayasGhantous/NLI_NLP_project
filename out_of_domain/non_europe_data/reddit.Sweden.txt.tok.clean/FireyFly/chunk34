@@ -1,0 +1,100 @@
+  it 's in the sidebar !, 
+  what . 
+  i 'm in a region where `` intenational edition '' is the standard version , and our books all cost like $ 80 . 
+  yes , but i assume the players typically keep some kind of mental image of the board ... 
+  i imagine having to maintain eye contact would make that hard task even harder . 
+  minus weekends , so i guess at least 22 characters ? 
+  are you saying yoshi is female ? 
+   where you can procreate and breed the perfect fighter by using any * male * character with a * female * character . 
+  / u/leo94x apparently . 
+  well uh , unless falcon is female ? 
+  looks good to me , although i 'm terrible at pixel art . 
+  by the way , her name is [ pleinair ] ( http://en.wikipedia.org/wiki/pleinair#pleinair ) in case you 're curious/want images from other poses . 
+  to save a bit of time for others ,, 
+   function f ( s ) { return string.fromcharcode.apply ( null , s.match ( / \\ d + / g ) . map ( function ( n ) { return parseint ( n , 2 ) } ) ) }, 
+  ` besuretodrinkyourovaltine ', 
+  ` son of a bitch ! ', 
+  he could 've gone with hexdump-style maybe :, 
+  0008 74 6f 20 64 72 69 6e 6b, 
+  0010 20 79 6f 75 72 20 6f 76, 
+  0018 61 6c 74 69 6e 65 21 0a, 
+  it 's like the desert bus of fpses . 
+  at first i could n't be bothered , but i decided to write a morse decoder in the end anyway . 
+  i think the markdown parser ate your initial ` t ` . 
+  that 's a h2g2 quote btw , is n't it ? 
+  `` lossless '' is n't a relative term , but it is a term related to compression and not audio quality . 
+  if you convert from a lossy format ( format with lossy compression ) to a lossless one , the conversion is still lossless even though all you 've done in practice is blow up the size of the data ( which is just stupid ) . 
+  very nice , thank you . 
+  i 'm currently fairly happy with envy code r , but it 's always good to learn about other nice monospace fonts . 
+  looks vaguely like a mix of * metall * and * st\u00e5l * . 
+  ... maybe . 
+  now i want to know what steel metal sounds like . 
+   bonus , the original q_rsqrt from quake iii arena, 
+  on that topic , [ this ] ( http://blog.quenta.org/2012/09/0x5f3759df.html ) is a pretty nice writeup on the mathematics behind it . 
+  since nobody seems to have brought it up yet , i just want to say thank you for supporting linux !, 
+  i found a few sevens , but darn , is it hard or what . 
+  7 : determinization of automaton \u2192 quartering, 
+  also , this one was surprisingly short : 2147483647 \u2192 duodecimal \u2192 j. r. r. tolkien \u2192 prose edda, 
+  i have no clue why anyone would n't do this . 
+   if you know both german and english , dutch is very intelligible . 
+  the same applies if you know german and a scandinavian language . 
+  heck , i have an easier time understanding dutch than german , and i even learned german in school . 
+  actually , something that 's always baffled me is that the unicode character called `` approximately equal to '' is \u2245 ( equals sign with tilde above ) , with the typical \u2248 ( double tilde ) instead called `` almost equal to '' ( and apparently with `` asymptotic to '' as an alias name ) . 
+  i 've always thought that maybe other countries ( * cough * usa ) uses \u2245 for what i 'm used to using \u2248 for , but i dunno . 
+   i hope this [ ... ] reddit [ ... ] thing wo n't interfere with my studies & working too much, 
+  haha , i have some bad news i 'm afraid ... 
+  wow , kingler 's big . 
+  i ca n't think of any good reason to * write * directly in machine code ( as opposed to one level up , in assembly ) , but i can think of multiple reasons for * understanding * the machine-code level which would motivate your point about cs programs teaching the disassembly process to students . 
+  the main reason is probably for the student to learn the `` big picture '' , so to speak , and more-or-less that 's also the motivation for learning the assembly level as well . 
+  i guess you could compare it with something like knowing a bit about how a car works if you 're a motorsport driver . 
+  one practical use that / u/whackamolee brought up was chip designers . 
+  another related use would of course be emulator authors ; of course they 'd need to know how the instructions are encoded if they are to decode and emulate them . 
+  yet another use would be related to computer security : maybe you 've found a buffer overflow somewhere but the input , while not length-restricted , is still restricted to a certain alphabet , say printable ascii . 
+  you want to inject some shellcode , but your encoded instructions are limited to the printable ascii range , so suddenly it 's very important how the instructions are encoded . 
+  this reminds me of the [ pok\u00e9mon yellow total control hack tas ] ( http://aurellem.org/vba-clojure/html/total-control.html ) , where the author had similar restrictions because his buffer was a list of items and the set of obtainable item ids and counts was limited . 
+   [ ... ] when writing the bootstrapping program , we must be careful to only use numbers that are also valid items and quantities . 
+  this is hard because there are n't many different items to work with , and many machine instructions actually take 2 or even 3 numbers in a row , which severely restricts the types of items you can use . 
+  i ended up needing about 92 numbers to implement a bootstrap program . 
+  half of those numbers were elaborate ways of doing nothing and were just there so that the entire program was also a valid item list . 
+  now , i realise that cs programs are n't intending to prepare people for writing tases , but still , it shows that there are still `` somewhat practical '' uses of knowing about the low-level details . 
+  definitely , i agree completely . 
+  for instance , i 've known of e.g. 
+  the concept of optimizing tail-calls for long , but it was still enlightening to essentially `` reinvent '' it at assembly level and see exactly how i could cut out the middlehand by jumping to the function without pushing a return address of my own first . 
+  another thing , it makes it blatantly obvious how structs and unions ( in c ) work after having essentially replicated it by hand in assembly . 
+  are you saying someone has to write and hand-assemble a first assembler to bootstrap it ? 
+  but that 's not true -- you could write a `` cross-assembler '' , i.e. 
+  implement an assembler in some higher-level language ( like c ) that targets whatever platform you want to bootstrap . 
+  ( of course , in order to write the assembler you need to know about the opcodes . . but that falls into the `` understanding but not writing '' category . ), 
+  implementing an assembler with an instruction set reference in hand , containing information about instruction encoding and opcodes , without having manually written programs in binary by hand ? 
+  yes , i think that 's doable . 
+  no , i have n't done it ( unless you count [ dcpu-16 ] ( https://raw.github.com/gatesphere/demi-16/master/docs/dcpu-specs/dcpu-1-7.txt ) , but that 's not a real instruction set ) . 
+  however , i suspect we agree but simply mean different things by `` being able to write '' -- of course you need intimate knowledge with the instruction encoding and opcodes ( or at least a reference ) if you 're going to write an assembler targeting , or emulator emulating , the instruction set . 
+  that 's a new one for me . 
+  looks pretty good !, 
+  the ` r 's are a bit weird though , and in general it does n't seem as sharp as i 'd like . 
+  i agree with you about bitmap fonts ; i like sharp fonts but i 've never been content with bitmap fonts for some reason . 
+  i 'm currently using envy code r , which i think works remarkably well even at small sizes . 
+  here 's a comparison with fira mono with my current font setup , if you 're curious : http://i.imgur.com/y2jd775.png ( envy code r to the left , fira mono ot to the right ), 
+  i think that 's mplayer, 
+  the only thing i can think of is [ the guide ] ( http://jolla.com/guide/ ) , which a lot of people seem to have missed back when it was first released . 
+  there 's plenty of useful tips there . 
+  otherwise , learning the interface was all pretty straightforward . 
+  that 's all i can think of , apart from a general `` i 'd still consider the os to be in beta '' disclaimer thing ... 
+  i know that they supposedly released version 1.0 stable a while back , but honestly i would n't say they 're there yet . 
+  it feels roughly as stable as symbian ^ 3 , maybe slightly more stable . 
+  for pdf viewing i use ` katarakt ` , it 's rather minimalistic but i 'm happy with it . 
+  apart from what has been mentioned , remember that you can configure your shell ( ` bash ` / ` zsh ` ) to use vim-like mappings , and also that ` less ` has a very vim-like set of motions ( although things like ` ^ u ` / ` ^ d ` are available without having to hold ctrl ) . 
+  i ditched dzen2 for a terminal-driven panel . 
+  because really , it has all the functionality i use anyway except with escape sequences i already know , and does n't barf on unicode . 
+  i 've been missing a setting for default layout as well , so i asked in #katarakt and now it 's added . 
+  if you install the latest version from git , you can set ` default_layout ` to ` grid ' . 
+  the other two do n't bother me much , but i 'm sure they would n't mind more suggestions from users . 
+  joey ? 
+  and ... here 's the older youtube upload of the video , which includes a list of all the songs played in case you 're curious : https://www.youtube.com/watch?v=s74tczmj9ri, 
+  list of nanairo nico nico medley tracks : ( list double-checked by reddevils500 & amyvitality66 ), 
+  01 : black rock shooter original song for vocaloid ( hatsune miku ) by ryo/supercell, 
+  02 : heavenly star original song by genki rockets, 
+  03 : do-dai song from the idolm@ster live for you !, 
+  game, 
+  ( w ) ta ( www ) \uff08 shinobue prohibition symptom l5 \uff09 / ( alt . 
+  name : minagiru series ) original song by shimashimap,

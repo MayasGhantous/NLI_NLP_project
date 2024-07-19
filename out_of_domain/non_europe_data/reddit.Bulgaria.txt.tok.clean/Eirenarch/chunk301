@@ -1,0 +1,100 @@
+  i did n't feel like complicating things with async/await . 
+  basically it allows you to scale to more requests per second on the same hardware assuming the web tier is your bottleneck . 
+  note that it will not make a single request faster . 
+  in a web context there is no such thing as `` main thread '' . 
+  you have a pool thread assigned given to the request to do its work . 
+  in this case the task will not be done on a new thread . 
+  it is an io task that is not executed on a thread ( it is just waiting ) . 
+  your expectation would be correct if the async operation was doing cpu intensive work . 
+  this is not true . 
+  dbcontext returns the connection to the pool after each query . 
+  the connection pool will not be exhausted here . 
+  in this particular use case there is no downside . 
+  as far as i know disposing the dbcontext only gets rid of object tracking ( i.e. 
+  the thing that keeps track of what changes you made to the entities so that when you call savechanges it knows what to update ) . 
+  still i 'd put the using there . 
+  if you do n't and i am reading your code i will assume you had a specific reason to leave it like this and will go around investigating what weird thing you need the context for . 
+  things related to performance and scalability are rarely `` always advisable '' . 
+  in most cases yes , you should have async actions when fetching data and the io calls should be async . 
+  however this is just the default , in reality it should be measured and there are cases where async will reduce performance . 
+  for example consider an api where you only have 1 caller which calls you a lot but always calls you after he got the result from the previous calls . 
+  in this case there is no point in using async you can just block the thread because there will be no other requests until the current one is served . 
+  it will probably improve your throughput because async/await generates a state machine and a small amount of garbage . 
+  but in general you should default to async/await for these scenarios but make sure you are using async apis . 
+  starting up a new thread just so you can await the resulting task is harmful and plain synchronous is better . 
+  wtf ... economic majority is the most important thing but it is not known what the economic majority would do until it actually does it . 
+  now i do not go to people 's repos to comment and i do not think that things should be rewritten in rust but new things should definitely be rewritten in rust . 
+  also if you rewrite for another reason , better do it in rust . 
+  i am talking about low level stuff of course , nobody is suggesting rewriting jquery in rust . 
+  first material - it is called brood war not brood wars, 
+  remember that idiomatic c # optimizes for maintainability . 
+  idiomatic c optimizes for speed , idiomatic python optimizes for faster development but c # 's main design goal is maintainability so in the absence of special requirements your code should be written for maintainability . 
+  if you wonder why something is done in a certain way in c # and is different in javascript the answer is probably maintainability . 
+  i am stunned by the argument `` it makes a great difference if you are using ienumerable or iqueryable therefore you 'd better not see clearly what the code you are reading uses '' . 
+  as a matter of fact this is the example i give when defending the point that var should be used only when the type is apparent . 
+  as a matter of fact i have seen junior devs completely mess up and fail to answer the question `` what is the type of this variable '' in examples precisely like this . 
+  say hello to the whole database table in memory . 
+  do n't worry you are doing paging later on the resulting ienumerable . 
+  please use the phrase `` statically typed '' instead of `` strongly typed '' the second being defined so loosely that it does not have much of a meaning . 
+  anyone else not seeing much of a difference with the dark archon ? 
+  as a matter of fact i always thought brood war units had somewhat higher quality graphics than vanilla ones . 
+  maybe this contributes to the amount of difference we 're seeing . 
+  is that true in the current meta ? 
+  i remember that there was a period they were used in pvz to mealstorm the zerg . 
+  they were also used on air maps for mind control but air maps are not seen anymore, 
+  me and my girlfriend play a lot of 2 vs 2 but because of the kid and work i doubt we can commit to a tournament ( i.e. 
+  particular timeframe where we can both be online and play for say 3-4 hours ) . 
+  i 'd be watching if there are stream/vods . 
+   i 've seen large projects that , because they created their own abstraction layer of ef , were able to completely remove ef in a day . 
+  sure . 
+  how many days to build the new db layer ? 
+  i can remove ef from my projects in a couple of minutes by removing the nugget packages but they wo n't work after that , 
+  well then i bet there would be no problem to do the same thing if the queries were in the service layer . 
+  it makes me upset that i will have to go and move my inactive projects . 
+  like that unpopular service google reader that they once shut down . 
+  i really want to see some auto migration tool to vsts . 
+  i have 2 codeplex projects . 
+  i want to move one of them to github but the other ( that i wrote 10 years ago and i am not very proud of today ) to vsts and keep it private there . 
+  now of course i can download the project and upload it again but i 'd rather just click a button and enter credentials . 
+  as a vsts users i am not worried at all . 
+  the amount of updates to vsts is very reassuring , vsts is tfs under the hood and tfs makes actual money from actual customers and i hope vsts is also in the red financially . 
+  why chop something that makes money ? 
+  what i am worried about is that they will remove tfs version control and force me to git, 
+  they did it very gracefully this time . 
+  first of all it served a purpose ( 11 years ) then there are very few users currently and finally they will keep it up as an archive which is the important part . 
+   they left it running for a long time after they announced it and gave you migration tools . 
+  you mean like the things described in ms 's blogpost . 
+  also does google code have a live archive ? 
+  what about that redirection service ? 
+   i honestly thought codeplex had been shut down years ago . 
+  you are thinking of google code, 
+  it was popular with . net devs doing open source work and it was where ms published their open source things . 
+  basically it was the github for . net stuff before github existed . 
+  these days most active project have migrated to github including microsoft ones . 
+  does gitlab have free automatic builds ? 
+  i also use other features on vsts like the task management and the ci with deployment to azure but to be fair i do that on a paying account . 
+  yeah i will if i have to leave vsts for some reason ( like if they shut it down or force me to pay for hobby projects ) . 
+  i also prefer centralized source control but i can live with git if need be . 
+  yeah but if i want to commit i will have to move them . 
+  also it is not clear to me from the blogpost if i can access them through svn/tfs or only through file download . 
+  yeah this is how i use git but it is annoying that i have to do two steps . 
+  i know that but strongly typed is not well defined even then and is often misused instead of statically typed . 
+  first of all strong vs weak typing is not a boolean but a slider . 
+  you can be more strongly typed ( for example f # has stronger type system than c # but both are considered strongly typed ) . 
+  in addition there are different kinds of strong typing and c is weakly typed in different way than javascript . 
+  for example c is weakly typed because you can treat an array of 4 bools as an int but this is different from javascript 's weak typing which can change the shape of the object ( implicit conversions being another form of weak typing ) . 
+  the only reason anyone uses google + is because linus uses it , 
+  typical microsoft messaging, 
+  you should take this slowly . 
+  when i taught a c # course these concepts were introduced over the course of 5-6 weeks ( 8 hours per week course with expected 16 hours of homework/study at home but most students did less home study ) . 
+  this also means that you will get a lot of false negatives which you can only allow if you are one of the best companies in the area and do not suffer from qualified candidates shortage . 
+  `` popular with . net devs '' means that in the set of . net devs codeplex was popular . 
+  the statement will still be true even if there are just two . net developers in the world . 
+  and yes , . net is super popular . 
+  like 8th on github . 
+  i do n't think learning to code by making games is a good idea . 
+  it makes sense after you spend 2-3 months learning the language and solving demo problems in console applications . 
+  of course i mean absolute beginners . 
+  it is a great way for e second step . 
+   that 's why aspiring writers move to new york city , and even directors and actors who found international success are still drawn to l.a. like moths to a klieg light . 
+  now it is true of tech too .

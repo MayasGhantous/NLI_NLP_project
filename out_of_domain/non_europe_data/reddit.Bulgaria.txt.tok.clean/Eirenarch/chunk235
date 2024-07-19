@@ -1,0 +1,100 @@
+  it is a well defined not-enough-users problem . 
+  also if you get the ios apps why the hell do you want the android apps which are almost always of lesser quality ? 
+  microsoft can of course drop the plans but i tend to have more faith in plans that are not dropped rather than plans which are already dropped . 
+  the legality of the bridge situation is not as clear as you make it sound . 
+  first of all apple and ms have a decade old deal for sharing mobile patents . 
+  have you ever heard of ms vs apple patent dispute ? 
+  on the other hand to make the android bridge work ms would need to implement google 's non-open source services and not only dalvik . 
+  google and microsoft are fighting a patent battle right now . 
+  and we have n't even mentioned oracle who claim that dalvik i fridges their patents and are suing google over it for some time now . 
+  why would ms want any of this ? 
+  sure but how do they make those android and ios devs build apps with xamarin ? 
+  microsoft does n't care about people who speak french but do n't speak german . 
+  german technology is better anyway . 
+  yeah that is not the same but even this part means slightly higher quality . 
+  having android apps run on windows wo n't solve this problem either . 
+  hell , paying $ 1000 per app published wo n't solve this problem . 
+  i know a number of . net devs that use android phones but not a single one that would rather write android apps although some of them do because of the market share . 
+  hell , i know . net deva that build wp apps and they do n't even have a device to run the app on because they have an android phone . 
+  but the lack of hobby apps is not the problem of the ecosystem . 
+  the problem is second tier professional apps like apps for banks . 
+  i am sure ms made whatever deal was needed with apple . 
+  also with ios apps you actually need to recompile unlike the android thing . 
+  we can file this one under `` microsoft is listening to their customers and users '', 
+  this is correct . 
+  for example the ars technica article mentions that 60 people were working on the android bridge as opposed to 6 on the ios because the android one included a full linux subsystem . 
+  it is quite possible that there were significant technical difficulties . 
+  we add to this the fact that all current devs hated this bridge with passion and possible legal issues and it is dead, 
+  you ca n't run it if google does not publish it . 
+  the bridge was supposed to run apps without changes not to connect to the android marketplace, 
+  what did you skip on ? 
+  porting an android app ? 
+  google kills products people their users like . 
+  a lot . 
+  however this is not the reason google are called evil . 
+  yeah . 
+  except that this was never actually released . 
+  what point are you trying to make that they dropped this philosophy ? 
+  the ios bridge requires recompiling ios developer 's source code ( in certain cases it even requires small changes ) . 
+  the android bridge ( the one they killed ) was intended to run android binaries without any change . 
+  completely rebuilding the app means that you are likely to use platform features ( i.e. 
+  better quality ) . 
+  the ios support requires recompiling your app with microsoft 's objective-c compiler . 
+  it does n't run the ios binaries . 
+  the android bridge was supposed to run the binaries so it is technically much harder project . 
+  what is so surprising ? 
+  this guy sucks . 
+  he 's basically been going around releasing things built under ballmer and killing other things built under ballmer . 
+  not many people know this but microsoft sells mobile phones , 
+  does remind me bot support 10 years reminders ? 
+  if you ask me the strategy of supporting competitors apps on their platform is bullshit to begin with but if they are gon na do it at least get the high quality ios apps instead of hundreds of thousands of android craplications . 
+  neither of the bridges is related to . net and does not involve extending . net . 
+  they are just implementing the apis needed in windows ( the winrt apis are not . net to begin with ) . 
+  just like you i doubt that they would get many ios applications but i claim that the android applications they would get would be precisely the one they ( or more likely we , the users ) do not want . 
+  it is not like google will be publishing youtube . 
+  now the ios bridge may have one positive effect . 
+  it is quite often that important windows phone applications are published and then abandoned because the market share is small . 
+  a good example is spotify . 
+  as i said already and was severely downvoted there is not a problem with the availability of app it is a problem with users . 
+  companies have ported their apps and they were of good quality when they were ported but there were no users so the apps got abandoned . 
+  if companies could use their existing ios codebase they could keep feature parity on much lower cost . 
+  i am not talking about each and every small hobby app out there . 
+  i am talking about the apps that matter like spotify . 
+  now i personally am skeptical that this will happen but at least it is a possibility . 
+  microsoft better think of a way to get users rather than apps . 
+  no matter how many apps they get they will be abandoned in 6 months if they do n't get users . 
+  simple as that . 
+  interestingly i thought they were getting there under ballmer with aggressive marketing slowly crawling to 4 % market share and then nadella came and killed a bunch of phones , then killed nokia and practically stopped selling even the phones they were actually making and now they are back to 1.5 % . 
+  if they had just kept pushing 3-4 more years to 10 % the app situation would have solved itself . 
+  definitely interesting work and i am curious if they will make use of it . 
+  how would n't it be google choice ? 
+  who will put google 's youtube app in the windows store and what will they do when google force microsoft to remove the app ( like they already did when microsoft developed high-quality youtube app ), 
+  well first of all it is not about the desktop . 
+  the desktop windows has enough apps . 
+  they want apps on phones and tablets . 
+  also the android bridge ( as well as other bridges ) were never supposed to run outside the store for end users ( you can sideload if you enable dev mode but it is a checkbox hidden deep in the settings and off by default ) . 
+  in addition running android apps on the windows desktop is already a solved problem ( https://en.wikipedia.org/wiki/bluestacks ) . 
+  and finally they even have a bridge to put win32 apps in the store and package them as store apps . 
+  the supposed effect is that users are more likely to install a store app because installing a win32 app is considered dangerous and users love the store sandboxing and i do agree with this reasoning , given the choice i will install a win32 app through the store rather than in the classic way assuming that the app does not lose functionality . 
+  while i agree that nothing was ever of value i disagree with your premise that had these projects ran outside the store they would have any value . 
+  that is true but how would android/ios apps running on windows desktop help windows phone ? 
+  microsoft has declared that they are willing to communicate in german with people who speak german and wanted to speak french but announced that they are dropping plans to speak french . 
+  both these projects are unrelated to learning polish . 
+  the silverlight project was in fact a success before it was killed by hitler who disallowed silverlight projects in germany . 
+  uwp means windows store apps if you are not aware and you declared that apps in the store are useless . 
+  the comment you are replying to is part of a thread where another user claims that there is 0 value in android or ios bridges if they do n't work outside the store . 
+  windows phone only runs apps from the store . 
+  again how would running android or ios apps on windows 10 desktop help windows phone ? 
+  uwp does have limitations like sandboxing . 
+  you ca n't build an antivirus software as uwp . 
+  the store limitation is purely microsoft 's choice but it is not like users are gon na buy a windows phone and download ios apps from pirate bay anyway . 
+  you underestimate how big poland is . 
+  in fact there are more writers speaking polish than writers speaking german ( sorry this is where the analogy breaks ) according to practically every statistics out there from tiobe index , stack overflow and github to various jobs websites . 
+  of course this does not matter because there are not enough readers for polish language books so even polish native writers are publishing german books . 
+  but really no reader cares about french if they can have german . 
+  silverlight was a success story up to the point where hitler invaded it . 
+  i mean poland is cool but germany was stronger . 
+  yes . 
+  please point how running outside the store would increase their value . 
+  because non-store is only option for desktop . 
+  nobody gets apps outside the store even on android where it is an option .

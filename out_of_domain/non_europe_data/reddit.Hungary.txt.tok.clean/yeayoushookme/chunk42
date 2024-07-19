@@ -1,0 +1,100 @@
+  you do n't need a half terahertz transistor in a circuit that has a bandwidth of 20-30 khz, 
+  powerline interference is not a perfect sine . 
+  if you remove the fundamental , you 'll still have harmonics that are integer multiples of the fundamental , and thus they have the same variations in frequency . 
+  you can use a comb filter to remove a tone . 
+  similar to the vuvuzela filter used during the 2010 world cup . 
+  as long as there is n't any ac current flowing in the vicinity , yes . 
+  solar powered lights ... 
+  i calls them windows . 
+  ` nvidia-driver ` is the proprietary binary driver for nvidia cards , you can install it with apt-get . 
+  jessie has 331.67 , which is fairly recent . 
+  you do n't normally need an xorg-conf . 
+  umm . . just install it the same way you 'd install anything else , i guess . 
+  the quick way is to run * apt-get install nvidia-driver * as * root * ( the \u00fcber-user / admin account on the computer ) , which will download the package from the debian servers , and set it up automatically . 
+  how experienced are you with linux ? 
+  i do n't know , but you can get a tree-like process list by running ` ps auxf ` in a terminal . 
+  see what 's executing gksudo or kdesudo . 
+  ignore the `` save '' button , and use `` export '' instead . 
+  `` save '' has been broken for a while . 
+  as an rpn lover , i recommend the ti89 ( * not * the titanium ) . 
+  the rpn interface made by lars frederiksen is unparalleled . 
+  you need a serial cable to load it though . 
+  many calculators run in emulators , so it might be wise to take them for a test-drive on a computer before getting one . 
+  i had one . 
+  the ti89 is much better . 
+  it 's not compatible . 
+  the rpn upgrade only exists for the ti89 and the ti92 +, 
+  actually , if you put a tilt-shift lens on the hst , it would come out like these . 
+  what you 're thinking is about an actual miniature universe you 'd macro -- or taking pictures using a telescope with an * f * / 10 ^ -20 lens . 
+  it uses either kwallet or gnome-keychain to store the password . 
+  you need either . 
+  sometimes it 'll pop up if the sync client starts before kwallet , and logs in if you close the prompt . 
+  i guess this is a known issue . 
+  what if i want to exclude * foo/bar / * but not * baz/foo/bar / * ? 
+  note that whenever the vps is running , you are technically logged in . 
+  i do n't think apps are maintained by devs on f-droid . 
+  freedom means you can maintain a repository of free software and distribute them any way you like ( as long as you provide the source code and mention the license ) . 
+  yes it is . 
+  why have two boxes , when you can have one ? 
+  i 've had the best luck with ` multibootusb `, 
+  unetbootin 's created a bunch of non-booting live drives for me the last times i 've used it . 
+  there 's plenty of analysis in it . 
+  my htpc/nas is a debian box with a raidz2 storage array underneath , running xbmc and mpd all the time , streaming music to any connected device i have near me wherever i may be . 
+  how would a separate nas box improve this ? 
+  i do n't think i lack flexibility at all . 
+  why do you bother with prologic at all ? 
+  that 's only for some special tracks that have surround sound encoded into stereo tracks . 
+  i hear it was a thing in the 70 's . 
+  or do movies that have 5 channel audio include additional channels encoded into them ? 
+  boss or ibanez stompboxes work okay as preamps . 
+  you scum, 
+  not dumping private keys into the entropy pool will also likely reduce performance in some cases . 
+  buy a nexus if you care, 
+  tekken 7 for linux confirmed !!!, 
+  apart fron android , your router and tv 's also likely to be running linux . 
+  elixir strings . 
+  i only change them when they break \u263a, 
+  use roomeqwizard to get the response of the whole system . 
+  do n't bother doing anything without a fairly flat omnidirectional mic . 
+  you should n't be using proprietary software when the free alternatives not only exist , but are vastly superior . 
+  deluge has the pieces plugin for that, 
+   high quality gif, 
+  that 's an oxymoron , the right way is to encode the sequence into video with the x264 encoder . 
+  ffmpeg can help you :, 
+  well . . you probably have your reasons to use gif . 
+  imagemagick is likely to give you the best results . 
+  mount / home on the hard drive just to be sure . 
+  it does n't matter for boot speeds . 
+  also , i 'd mount / tmp as a ram disk . 
+  since you do n't need a de , the system drive should n't exceed one or two gigabytes . 
+  read https://wiki.debian.org/reducedebian on how to strip out languages and documemtation from the os to make it significantly smaller . 
+  if you go with btrfs , you can have instant snapshots essentially for free . 
+  look into apt-btrfs-snapshot for automatic snapshots of your fs on ubuntu , and see [ here ] ( https://btrfs.wiki.kernel.org/index.php/conversion_from_ext3 ) on how you can convert your ext4 partition to btrfs . 
+  `` sine sweep '' by * the function generator * is my favorite . 
+  what do you mean ? 
+  installing a printer on my gramps ' pc was as easy as plugging it in . 
+  ( elementary/ubuntu or whatever ), 
+  wowsuchlinuxkernel 's just trolling . 
+  gimp works better on the linux desktop . 
+  porting is n't the number one priority i guess . 
+  darude - sandstorm, 
+  this can happen with the digitizers . 
+  it needs to be replaced . 
+  reflashing is not a thing . 
+  do n't expect anything to happen after you overwrite a file with the same file . 
+  neither . 
+  scientists hardly ever go into politics . 
+  you can share diffs for updating old data if it 's that important . 
+  otherwise git or other dvcs applications will be the best for this kind of job . 
+  kmail is good . 
+  that would only increase piracy . 
+  * time for always online drm !!, 
+  does anyone like that pumping sound ? 
+  like when everything ducks at every snare hit ? 
+  i ca n't get over it . 
+  would it be better if i listened to trash metal more often ? 
+  not soundproofing . 
+  it will kill some upper midrange reflections though . 
+  make some bass traps out of rockwool instead , it 's a better start . 
+  warning : gif contains unlabeled axes, 
+  you 're missing the kernel , that 's why the computer wo n't boot .

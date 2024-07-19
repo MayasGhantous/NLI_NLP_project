@@ -1,0 +1,100 @@
+  edit : livestreamer is now having the same problem as flash . 
+  my livestreamer did n't behave normaly . 
+  i 'm using a little exe to automatically call livestreamer so i do n't get to see the command prompt an the ouptut messages , but i had to wait a solid 2 or 3 minutes , instead of the usual couple seconds , before the stream started playing . 
+  do n't know if that helps , i could start livestreamer from the prompt and see if i get 403s before the stream starts . 
+  edit : i am doing it and again the stream loaded after a long time of loading , but no 403 from the prompt . 
+  maybe op 's cat is the one making all these cats . 
+  hey op it 's me again , have you tried this [ solution ] ( http://www.adminsehow.com/2014/10/how-to-watch-twitch-streams-without-lag-or-stutter-in-source-quality/ ) ? 
+  as i said yesterday my livestreamer started buffering and then reached the same unstability as flash player . 
+  this morning i could n't watch a stream normally , so i added, 
+  hls-segment-threads = 10, 
+  hds-segment-threads = 10, 
+  at the end of my appdata \\ roaming \\ livestreamer \\ livestreamerrc file and now it works . 
+  it started from / u/linenoise [ comment ] ( http://www.reddit.com/r/twitch/comments/30fhqy/suddenly_cant_load_any_streams_using_any_method/cps304c ) to use hls protocol . 
+  i could n't , even with installing safari on my computer , get hls protocol to work in my browser . 
+  but whatever the two lines i added do to the protocols used to stream , it 's stable now even though it still needs 2 or 3 minutes to connect . 
+  this flair is n't so bad , makes it easier to find my targets \u0e88\u0644\u035c\u0e88 _ \u2022 \u0337 \u253b \u033f \u2550 \u2501 \u4e00 \u2580 \u033f\u033f\u0139\u032f\u033f\u033f \u2580 \u033f, 
+  i just assembled the stands , and there seems to be a big problem of stability . 
+  i do n't see how the thing can stay stable enough to not absorb half of the pressure i put on the stick . 
+  i think i 'm going to have to toss the base out to find sometihng much more robust , heavy and symetric . 
+  i see , i have a warthog flight stick and it is tight and heavy . 
+  i have though about adding weight to the base but its uneven geometry might be problematic still . 
+  its not a problem to me ( \u2580 \u033f\u033f\u0139\u032f\u033f\u033f \u2580 \u033f \u033f ) \u4e00 \u4e00 \u4e00 \u2501 \u2550 \u253b \u033f \u0337 \u2022 _ \u0e88\u0644\u035c\u0e88 _ \u2022 \u0337 \u253b \u033f \u2550 \u2501 \u4e00 \u4e00 \u4e00 ( \u2580 \u033f\u033f\u0139\u032f\u033f\u033f \u2580 \u033f \u033f ), 
+  ( \u0ca5\u0c6a\u0ca5  \u251c \u252c \u2534 \u252c \u2534 i may not have thought this one through ( \u0ca5\u0c6a \u251c \u252c \u2534 \u252c \u2534, 
+  you can detect earthquakes with aerial and satellite imaging using [ image cross-correlation ] ( http://www.tectonics.caltech.edu/slip_history/spot_coseis/pdf_files/leprinceigarss2007.pdf ) . 
+  you can achieve sub pixel precision and see faults of couple centimeters that have formed during an earthquake . 
+  i have a 1gbps connexion that streams at several mo/s on several website , and i ca n't watch twitch properly starting a couple days ago ( i 'm in france ) . 
+  as i wrote in another thread using livestreamer and using options, 
+  hls-segment-threads = 10, 
+  hds-segment-threads = 10, 
+  i can get stream to connect through vlc , after waiting often 1 or 2 minutes . 
+  once connected the stream remains stable . 
+  \u30fd \u0e88\u0644\u035c\u0e88 \uff89 how can you not recognize him , it 's the great dong d. mcdonger !, 
+  if you 're interested in this , i have a fiber connexion with sfr and twitch has been unwatchable for the last pas days for me too . 
+  currently it 's working fine !, 
+  no more constant buffering . 
+  i can report back tomorrow evening during the rush hour too . 
+  \u266b \u250c \u0e88\u0644\u035c\u0e88 \u2518 \u266a cause your dongs do n't raise and if they do n't raise . 
+  well they 're are no dongs of mine \u266b \u250c \u0e88\u0644\u035c\u0e88 \u2518 \u266a, 
+  how does it compare in term of viewers ? 
+  ( or , what was the ratio of the prices of ticket and cosmetics ? ), 
+  appak, 
+  ( * \u30fb _ \u30fb ) \u30ce \u2312 * \\ ` * \\ ` * this is a great extension \u0669 ( \\ ^ \u203f \\ ^ ) \u06f6, 
+  right now , i am trying to watch twitch.tv / beyondthesummit and it is buffering every ~ 30sec . 
+  i had been watching twitch the past hours with no problem today . 
+  i do n't know if you have noted that i can watch very decently ( maybe one or two seconds of buffering a few times per hour ) by bypassing flash , using livestreamer + vlc . 
+  the connexion is not instantaneous like it used to . 
+  i have to wait for one or two minutes before livestreamer finds a connexion . 
+  edit : beyondthesummit turned their stream off , and now twitch does not buffer any more when i watch from the website . 
+  [ \u0332\u0305 $ \u0332\u0305 ( \u0332\u0305 \u0361 \u00b0 \u035c\u0296 \u0361 \u00b0 \u0332\u0305 ) \u0332\u0305 $ \u0332\u0305 ] [ \u0332\u0305 $ \u0332\u0305 ( \u0332\u0305 \u0361 \u00b0 \u035c\u0296 \u0361 \u00b0 \u0332\u0305 ) \u0332\u0305 $ \u0332\u0305 ] [ \u0332\u0305 $ \u0332\u0305 ( \u0332\u0305 \u0361 \u00b0 \u035c\u0296 \u0361 \u00b0 \u0332\u0305 ) \u0332\u0305 $ \u0332\u0305 ] [ \u0332\u0305 $ \u0332\u0305 ( \u0332\u0305 \u0361 \u00b0 \u035c\u0296 \u0361 \u00b0 \u0332\u0305 ) \u0332\u0305 $ \u0332\u0305 ] sorry this is all i have left after my donger enhancement operation \u1566 \u0e88\u0644\u035c\u0e88 \u1564, 
+  looks like when i remove or even sometimes add an intersection in cities : skyline . 
+  \u0e88 \u251c \u252c \u2534 \u252c \u0644\u035c\u51f8 \u2534 \u252c \u2534 \u2524 \u0e88 do you want to become my pet spidong ? 
+  \u3064 \u25d5 _ \u25d5 \u3064 maybe a ( \uff61 \u02d8\u0437\u02d8 ) \u15e1\u10da = = 8 would relieve you from your hassle ? 
+  i already have the perfect name for you . 
+  completely remove downvotes . 
+  you only can `` like '' a post or comment . 
+  \u0b67 \u0361 \u25d5 \u0434 \u25d5 \u0361 \u0b68 of course not , who do you think i am ? 
+  \u0b67 \u0361 \u25d5 \u0434 \u25d5 \u0361 \u0b68 i see that nazi mods are already on it ( \u0ca5\u0c6a\u0ca5 , 
+  sometimes the donger list has its background become transparent and then it 's chaos \u30fd \u00b0 ~ \u035c\u0296 ~ \u00b0 \uff89, 
+  beside this it 's good work , even from a filthy mod like you ( \u2580 \u033f\u033f\u0139\u032f\u033f\u033f \u00b0 ) \u0e07, 
+  \u0b67 \u0361 \u25d5 \u0434 \u25d5 \u0361 \u0b68 what is this madeness ? 
+  how could a peaceful donger be infected with the idea that we should strive becoming filthy moderinos ? 
+  \u4e41 ( \u0ca5\u0c6a\u0ca5  \u310f tell ... tell us the story of how you lost your donger ; \u00b4 \u0eb6 \u06dd \u0eb6, 
+  \uff3c ( \u00b4 \u25d3 \u0414 \u25d4 ` ) \uff0f you ca n't copy the copypasta box , what kind of sick joke is this ? 
+  otherwise i like it \u3064 \u21e7 \u25d5 _ \u25d5 \u3064 \u21e7, 
+  \u00ba\u0644\u035f\u00ba \u00ba\u0644\u035f\u00ba \u00ba\u0644\u035f\u00ba if you want to raise ... you came to the right dongerhood \u30fd \u0e88\u0644\u035c\u0e88 \u0e88\u0644\u035c\u0e88 \u0e88\u0644\u035c\u0e88 \uff89, 
+  i love spidongs !, 
+  i actually own a pet spidong myself / \u2572 / \\ \u256d ( \u0e88 \u251c \u252c \u2534 \u252c \u2534 \u252c \u2534 \u252c \u2534 \u2524 \u0e88 ) \u256e / \\ \u2571, 
+  \u4e41 ( \u25d4 \u0c6a \u25d4 ) \u310f why the moderinos would even need a discount ? 
+  i heard that the secret why they became moderino is that they ca n't raise at all \u256d ( \u2022 \u2323 \u2022 ) \u256e, 
+  meet my pet spidong , spidong / \u2572 / \\ \u256d ( \u0e88 \u251c \u252c \u2534 \u252c \u2534 \u252c \u2534 \u252c \u2534 \u2524 \u0e88 ) \u256e / \\ \u2571 \\, 
+  downloading a crappy comms software that steals your info is nothing new unfortunately it 's been around for a while . 
+  or maybe it 's like the title says , and that it 's not about the objects but about information . 
+  i think that 's the point of leaving them in a museum in iraq . 
+  to show that whatever isis or others think and do , places will contain objects that tell about their past . 
+  \u0b67 \u0361 \u25d5 \u0434 \u25d5 \u0361 \u0b68 do n't talk about op 's mom like that . 
+  she has the best prices on the whole block ( \uff61 \u02d8\u0437\u02d8 ) \u15e1\u10da = = 8, 
+  i give him 30 % chances of actually not wanting to risk to escalate the issue or appear rude by keeping filming after seeing the cop started to answer in a kind manner . 
+  70 % chances he 's a hypocrite trying to get views with an inflamatory video . 
+  i upvoted him but he is still vertical \u3064 \u21e7 \u25d5 _ \u25d5 \u3064 \u21e7, 
+  that being said he looks good raised like that ( \u0361 \u00b0 \u035c\u0296 \u0361 \u00b0 ), 
+  that does n't look very schizophrenic , it 's pretty efficient i 'd say , but just not at defending local population interest . 
+  i own one myself / \u2572 / \\ \u256d ( \u0e88 \u251c \u252c \u2534 \u252c \u2534 \u252c \u2534 \u252c \u2534 \u2524 \u0e88 ) \u256e / \\ \u2571 \\, 
+  in combination with addblock , you can use ghostery to prevent trackers and make your webbrowsing more intimate . 
+  it also serves as an add blocker sometimes when some websites wo n't let you browse with adblock on , but ghostery is usually not detected . 
+  you can just enable blocking everything , and once in a while you 'll see a video player being blocked , and you can allow it to play with a single clic . 
+  your comment is extremely vague , could you provide some sources ? 
+  you seem to imply that trackers and cookies make no difference in tracking people , which makes no sense . 
+  by refusing trackers , you considerably reduce the information about your browsing that you leave behind . 
+  thanks , corrected the link . 
+  thank you for your suggestion , i will test it the following days and see how it compares . 
+  here is the chrome link https://chrome.google.com/webstore/detail/ublock/cjpalhdlnbpafiamejdnhcphjbkeiagm, 
+  you know what ( \uff61 \u02d8\u0437\u02d8 ) \u15e1\u10da = = 8, 
+  nobody is watching , go back to sleep ( deilluminati \u035c\u0296 deilluminati ), 
+  cource 2, 
+  what is this madeness ? 
+  i 'll never switch to windong 10 !, 
+  we now have definite proof , the moderinos must be eliminated , everyone of them !, 
+  \u1d40\u02b0\u1da6\u02e2 \u1d57\u1d49\u02e3\u1d57 \u1d9c\u1d43\u1db0\u1db0\u1d52\u1d57 \u1d47\u1d49 \u1d9c\u1d52\u1d56\u1da6\u1d49\u1d48 \u30fd \u0e88\u0644\u035c\u0e88 \uff89, 
+  [ depends on the monitor ] ( http://i.imgur.com/kajt1fu.jpg ) kappa, 
+  nz has nothing to be jealous of , they have kiwis .

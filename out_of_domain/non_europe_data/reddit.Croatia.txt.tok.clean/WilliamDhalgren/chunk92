@@ -1,0 +1,100 @@
+  ( i think pdf is easy enough to find too , but this was the top result ) . 
+  comparisons here are to mandated occupational exposure limits , the major remaining toxins in significant concentrations that can be found are merely in the lowish single digit percentages of these limits , and are -- precisely formaldehyde and acrolein , the details dependant on the temperature and composition of the medium a particular ecig and liquid used . 
+  significant exposure to these is also possible actually , but not under realistic use conditions ( ie in dry-hit conditions , untolerably disgusting to the users ) . 
+  this is pretty old news , and i 'd expect anyone informed on ecig dangers to have heard of it . 
+  maybe more interesting stuff from a public health perspective is how one can still easily find particular flavors from particular manufacturers that introduce small amounts of diacetyl and related toxins , essentially unnecessarily - in that other producers have demonstrated even same kinds of flavors w/o introducing such unecessary extra risk . 
+  this study is great news for any e-cigarette users !, 
+  formaldehyde and acrolein emissions have been the most significant identified toxins at somewhat significant concentrations in e-cigarette aerosol . 
+  here we can see how the industry has helped lower this risk . 
+  progressively more advanced atomizers here show a reduction in such emissions . 
+  best performers reduce the exposure , under a reasonable assumption of a daily use of 3ml of liquid , to around or below 1 % of the tlv , and is at least such 2 orders of magnitude better than a conventional cigarette as well , even ignoring all the further risks associated with them . 
+  another good news to many will be that the clear best performer is apparently a moderately sub-ohm vertical cotton build , and tested on wattages from 10w to 25w - a rather popular set of choices among vapers , and also is tested with voltages that a mechanical mod could produce as well ( an apparently smaller but still significant subpopulation might choose those ) . 
+  this is first i 've seen on testing realistic high-performing builds similar to what a diyer might choose to create as well , and its great to see such good results . 
+  there was a reasonable chance such harder-hitting mods would turn out to be far worse than the stuff that most studies to date have concentrated on . 
+  i 'd like to know this as well ; i 've not tracked the developments over the last year well . 
+  still , today i 've seen ( and commented on ) an interesting study linked over at r/science ; it was looking into aldehyde production over different settings and various atomizer models . 
+  and interestingly , the convincingly best performer ( but persuming a fixed , 3ml/day consumption -- which seems a reasonable number to target in your consumption anyhow , imho ) was the strongest hitter among those tested - a bottom-coil tank ( i forget the brand & product name , think its sub-something ) using a vertical coil of i think it was around 0.72 ohm , with cotton wicking , on wattagest in like 10-25ish w. 
+  anyhow formaldehyde was clearly below 1 % of workplace exposure treshold , and best among tested , and the rest as good or much better . 
+  as these are rather similar parameters and consumptions as what i usually build , and most of the voltage range is what a mech would give , which is what i 'm using , i 'm quite happy about the result , 
+  ofc this is still rather moderate compared to the crazy stuff ppl do , but still seems like a reasonable design point for a longer-term vaper . 
+  clearly , given any single atomizer and with fixed settings , the risks will rise linearly with the liquid quantity inhaled , and i would n't bet my health on dramatic further improvement in aldehyde production per volume vaped with different , and esp with warmer builds sufficient to revert this basic relationship . 
+  i would like to add that i really think you 're needlessly skeptical about the science in this field -- ignoring how the media presents various findings , and sticking to secondary peer reviewed sources like large metastudies etc -- as one generally should , paints a picture that is rather positive about e-cigarettes -- though not one completely devoid of damage/risks - which is only reasonable . 
+  seems best advice today is to build good efficient coils , for apparently the better it produces vapor , the less crap there is and to build for the lower end of vape temperature you 're still comfortable with , as aldehyde production can quickly rise with temperature , and to not go through huge amounts of juice a day ( regardless of its nicotine content ) , as it 's the pg/vg that turns into aldehydes , so the bad stuff you inhale is directly proportional to how much pg/vg a day you vape . 
+  and while its generally much less than in cigarettes , its not that irrelevantly small a quantity - at best around 2 orders of magnitude - so one really should pay some attention to these variables . 
+  quantity relationship is easily predictable - and presumably nobody 's going to vape 30-300ml / day ( i hope ) , but temperature relationship could be more subtle and could grow more quickly -- though in this study the good coils apparently did n't show this dependency , but there 's at least a risk it might be a silent factor . 
+   also , we can see that while distributed alphago is just barely above, 
+  the range of estimated skill levels for fan hui , non-distributed alphago is, 
+  not ( distributed alphago is the one that actually played against fan hui ) . 
+  it looks like fan hui may have won at least some , if not all , games against, 
+  non-distributed alphago . 
+  that hole looks `` barely '' to the guy ? 
+  that 's around 3 professional ranks of difference !, 
+   note that in january of this year , zen19x was, 
+  briefly ranked in the 7d range on the kgs server ( used for human and, 
+  computer go ) , reportedly due to the incorporation of neural networks . 
+  what the hell is this guy talking about ? 
+  zen19x has held , is [ holding ] ( http://www.gokgs.com/servlet/graph/zen19x-en_us.png ) its 7d rank steady for 2 months now . 
+  hasn ' dipped below it for a milisecond . 
+   tian and zhu said that they would, 
+  have won against a zen variant if not for a glitch ( contra hassabis who said, 
+  darkfmcts3 lost to zen - he may not have read the relevant footnote ! ) . 
+  ah , yes , i remember that match . 
+  darkforest lost on time in a winning position , and that match costed him the tournament !, 
+  still , one game does not make one 's rank ; we can still see its some 2 stones below zen , due to their overall performance vs various opponents on kgs . 
+   and this would slightly, 
+  reduce the delta in the figure above ( which was probably produced a few, 
+  months ago ) , but not eliminate it entirely . 
+  yeah , by 1 stone ; from ~ 5-6 to 4-5 ... for comparison , computer go has advanced by about 1 stone in the last 3-4 years . . 
+   after a brief search into the clusters currently, 
+  used for different go programs , i was unable to find any using more than 36, 
+  or so cpus . 
+  clearly a really brief search ; ; distributed pachi uses '' ( 64 machines , 20 cores each '' , though its been a while since i 've seen it play in that configuration . 
+   if it were to show the 48 cpu/1 gpu version , it would be only, 
+  slightly higher than crazy stone and zen - and possibly not even higher than, 
+  the very latest zen19x version , which may have improved since january . 
+  this is not completely unfair , but making the mtcs scale well is rather non-trivial , and as these graphs here show as well , it hits diminishing returns with more resources rather easily beyond a certain point . 
+  it is quite likely other algorithms have been used with as much power as they 're able to utilize , just as alphago has been here . 
+  still i 'd like to note what an arbitrary limit the author chooses ; see that big dip in the performance between using 1 or 2 gpus ? 
+  yeah , so the author talks about 1 gpu performance : / . 
+  a 40thread , 2 gpu alphago from this paper - a perfectly reasonable and comparable power to what has powered go algorithms today - is still at least 9d kgs , at least 2-3 stones stronger than zen ( and actually on this graph , looks clearly stronger than zen even after giving it 4 handicap stones ) -- i 'm eyeballing that bar at clearly over 2700elo , where 7d seems to be around 2000elo , 9d 2500elo . 
+  again we 're in a field where a ~ 200-300elo improvement of the top program has slowed to happening once in the last 3-4 years , and we 're getting a gaping hole of ~ 700elo even on comparable hardware , not to mention better scaling than ever before demonstrated , and the author finds this being hailed as a massive jump as exaggerated , even while looking at those very numbers ?????? 
+  i just ca n't understand ... 
+   i have not yet looked carefully at, 
+  what data other comparable ais have used to train on in the past , but it, 
+  seems possible that this dataset , too , helped enable alphago 's performance . 
+  carefully ? 
+  rofl , in other words the author did n't even skim the deepforest paper , where it clearly states it was using gogod dataset , i.e. 
+  historical professional go games , as opposed to the high-amateur dataset used by google . 
+  only other prior art besides that are the oxford and google papers on move prediction , that were using those two datasets as well . 
+  and this has been replicated and integrated into go playing probrams by at least detlef for oakfoam , who made his trained model avalable ; and in ayamc . 
+  these are examples of training the policy network . 
+  the rollout is at least partly trained by zen and crazystone too . 
+  re tc , i believe you 're right, 
+   would be interesting to test 100pg/0vg eliquid as well . 
+  well i mentioned the test they did with pure pg -- watt for watt it does n't look bad really ( formaldehyde is better in both 10w and 20w case ) , though it does introduce acetaldehyde which is n't produced at all with vg in the test . 
+  but judging by what happens in the mix case , degree for degree , pg seems significantly worse , 
+  well depending on your actual build that need n't mean your experience is similar to what 's happening here at 20w - like maybe you 've got a bigger coil , in contact with more wick , which is in fact likely if your resistance is much lower than the 1.6 ohm they 're using here ( given how ppl usually seem to build such coils ) . 
+  i mean , they need to run their coil at 5.66 v to push 20w through it ; that 's prob quite a lot of heat flux . . 
+  edit : though looking at it , does n't look too bad ; this is what they say they did :, 
+   throughout all of the measurement a 11 cm long nichrome 80 type ( 0.3 mm diameter ) wire was used to wrap the coil ( 11 wraps ) . 
+  the resistance of this coil corresponded to approx - imately 1.6 ohm . 
+  putting that into steam engine gives a rather moderate heat flux of 205mw/mm \u00b2 ... not sure what 's going on here . 
+  poor wicking ?? 
+  / edit, 
+  for eg , another recent study measured a couple of tanks against each other , and compared the aldehyde production , and one of the tanks used was a kanger subtank with a 0.72 ohm coil ( that 's what the text says , but are there 0.72 ohm coils for it ? 
+  thought it was 0.5 ?? 
+  anyhow ... ) and they tried 10 , 15 , 20 & 25 w on it -- and none gave out worrying amounts of aldehydes . 
+  on the contrary , if you look at it from the perspective of efficiency , it was giving less aldehydes per amount of vapor produced on the higher settings ( though ofc that 's still somewhat more in absolute terms ) . 
+  so given some fixed daily consumption ( big if , i know , but . . ) , it looked better to vape the thing at higher power . 
+  yet here , with the coil these guys put in they kayfun , they manage to self-ignite the vapors at 25w ( when the cap if off ) ... quite a different scenario . 
+  nope , you 're quite right . 
+  and it gets even better - recent study by gillman et all , `` effects of variable power levels on the yield of total aerosol mass and formation of aldehydes in e-cigarette aerosols '' quotes osha occupational exposure limits of 0.92 mg/m \u00b3 ( i 'm sorry i 'm wrong on the 3 orders of magnitude claim above ; had it written down wrong it seems ; but still one order of magnitude ; ~ 1000 vs ~ 100 ) . 
+  and this study right here quotes 0.37 mg/m \u00b3 as a limit that would avoid sensory irritation even among asthmatics and those with a formaldehyde sensitivity . 
+  but to be fair you really should be looking at the emissions at 10 and 15w , as it was barely doing anything at 5w , and was clearly overheating the juice at 20 + w. 
+  that was giving out 1.436 mg/m \u00b3 and 6.208 mg/m \u00b3 during the puff , or 71.8 ng/puff and 310.4 ( \u00b1 71.2 ) ng/puff respectively . 
+  so i guess if we never inhaled except by vaping during the day , or decided to live in an atmosphere wholly produced by an ecigarette , we 'd exceed the level at which asthmatics are irritated by formaldehyde by \u00d7 4 to \u00d7 17 , or acceptable workplace atmosphere conditions by between ~ +50 % to \u00d7 6.75 . 
+  and the 80 % vg/20 % water mix should be on or below the lower of those numbers even for 15w . 
+  ... yeah , that 's exactly how silly the comparison is when counting in m \u00b3 inhaled ... 
+  that other study took the air volume inhaled at osha limits ( 8h work ) at 5.8 m \u00b3 ( rather conservatively ) , which gives a daily intake of 5.3 mg formaldehyde . 
+  let 's play with the numbers further ; this study is going by an equivalence of 15 puffs = 1 cigarette , so a 20cigarette a day equivalent of puffs is 21.54 micrograms or 93.12 micrograms , which is \u00d7 57 to \u00d7 246 times less than the osha limit . 
+  but ofc , this is far from precise , as its not actually measuring the aerosol volume vaped , so we know nothing about the efficiency of the device .

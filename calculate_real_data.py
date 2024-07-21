@@ -11,7 +11,7 @@ import language_tool_python
 
 
 
-UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams2'
+UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams'
 ERROR_HELPER_LOCATION = "calculated_data\\error_count2"
 FUNCTION_WORDS_ARRAY_LOCATION = 'calculated_data\\function_words.npy'
 
@@ -169,7 +169,7 @@ def save_the_rules():
 def get_the_grammer_feature():
     rules = np.load(RULES_LOCATION)
     return_dic = defaultdict(list,[])
-    for grammar_error_file in os.listdir(GRAMMAR_ERRORS_LOCATION):
+    for grammar_error_file in tqdm.tqdm(os.listdir(GRAMMAR_ERRORS_LOCATION)):
         current = np.load(os.path.join(GRAMMAR_ERRORS_LOCATION, grammar_error_file), allow_pickle=True).item()
         for key in current.keys():
             for value in current[key]:
@@ -214,14 +214,14 @@ def get_Function_words_Pos_Trigram_Sentence_length_Feature():
     return new_values
 
 def get_grammer_spelling_features():
-    grammer = get_the_grammer_feature()
+    #grammer = get_the_grammer_feature()
     spelling = get_the_error_feature()
     edit_disteance = get_edit_distance()
     new_values = defaultdict(list,[])
     for key in spelling.keys():
         for i in range(len(spelling[key])):
             new_values[key].append(spelling[key][i])
-            new_values[key][-1].extend(grammer[key][i])
+            #new_values[key][-1].extend(grammer[key][i])
             new_values[key][-1].extend(edit_disteance[key][i])
            
     return new_values

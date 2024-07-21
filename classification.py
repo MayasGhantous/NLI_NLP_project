@@ -43,6 +43,8 @@ def create_NLI(feature):
     X = []
     for key in feature.keys():
         lablel = key[0][7:-14]
+        if lablel == 'Ukraine':
+            continue
         if lablel in English:
             y.extend([0 for _ in range(len(feature[key]))])
         elif lablel in German:
@@ -91,6 +93,7 @@ def create_NLI(feature):
             y.extend([22 for _ in range(len(feature[key]))])
         else:
             print(f"Error: {lablel}")
+            continue
         X.extend(feature[key])
     return X, y
 
@@ -99,6 +102,8 @@ def create_binary(feature):
     X = []
     for key in feature.keys():
         lablel = key[0][7:-14]
+        if lablel == 'Ukraine':
+            continue
         if lablel in English:
             y.extend([0 for _ in range(len(feature[key]))])
         else:
@@ -116,6 +121,8 @@ def cereate_family(feature):
     X = []
     for key in feature.keys():
         lablel = key[0][7:-14]
+        if lablel == 'Ukraine':
+            continue
         if lablel in Native_English:
             y.extend([0 for _ in range(len(feature[key]))])
         elif lablel in Germanic:
@@ -128,6 +135,7 @@ def cereate_family(feature):
             y.extend([4 for _ in range(len(feature[key]))])
         else:
             print(f"Error: {lablel}")
+            continue
         X.extend(feature[key])
     return X, y
     
@@ -140,7 +148,7 @@ if __name__ == '__main__':
     #feature = get_the_sentence_length_feature()
     #feature = get_CharTrigram_Tokens_Unigram_Spelling_Feature()
     feature = get_CharTrigram_Tokens_Unigram_Spelling_Feature()
-    FEATURE_NAME = 'CharTrigram_Tokens_Unigram_Spelling_Feature'
+    FEATURE_NAME = 'CharTrigram_Tokens_Unigram_Spelling'
     KERNEL = 'rbf'
     print(f"Feature {FEATURE_NAME} loaded")
     if DO_WE_NEED_NLI_MODEL:

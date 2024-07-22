@@ -80,8 +80,8 @@ if __name__ == "__main__":
     device = torch.device('cuda' if torch.cuda.is_available else 'cpu')
     print('device: ', device)
 
-    countries_list = [5,6,7]
-    countries_names = ['Bulgaria', 'Croatia', 'Czech', 'Estonia', 'Finland', 'France']
+    countries_list = [7]
+    countries_names = ['France']
     index = 0
     for i in countries_list:
         WHAT_COUNTRY = i

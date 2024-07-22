@@ -77,14 +77,14 @@ if __name__ == "__main__":
     model_path_2 = fine_tune_location + "\\Croatia"
 
     validation_path_1 = os.path.join(fine_tune_location, "Bulgaria_validation.txt")
-    validation_path_2 = os.path.join(fine_tune_location, "Croatia_validation.txt")
+    #validation_path_2 = os.path.join(fine_tune_location, "Croatia_validation.txt")
 
     unseen_texts_1 = load_texts_from_file(validation_path_1)
 
     eval_results = evaluate_fine_tuned_model(unseen_texts_1, model_path_1)
     print("Evaluation results for model's language (Bulgaria):", eval_results)
 
-    unseen_texts_2 = load_texts_from_file(validation_path_2)
+    #unseen_texts_2 = load_texts_from_file(validation_path_2)
 
     eval_results = evaluate_fine_tuned_model(unseen_texts_1, model_path_2)
     print("Evaluation results for different language (Croatia):", eval_results)

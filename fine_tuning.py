@@ -80,6 +80,7 @@ if __name__ == "__main__":
     device = torch.device('cuda' if torch.cuda.is_available else 'cpu')
     print('device: ', device)
 
+
     # Update countries_list to have lists of country IDs
     countries_list = [
         [20],  # romania
@@ -92,7 +93,7 @@ if __name__ == "__main__":
     ]
     countries_names = ['Romania', 'Poland', 'Netherlands', 'Mexico_Spain', 'Greece',
                        'Austria_Germany', 'Australia_UK_US_NewZealand_Ireland']  # Update names accordingly
-
+    
     index = 0
     for country_ids, country_name in zip(countries_list, countries_names):
         files_data = defaultdict(list)

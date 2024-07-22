@@ -1,0 +1,100 @@
+  ah the grunt-baffle . 
+  excellent . 
+  keep eating , they 're working . 
+  any locking blade is illegal in the uk . 
+  i do n't object to it . 
+  it means people who are not familiar or skilled with < whatever it is you 're talking about  , either because they lack experience with it , or because they 're wilfully ignorant and have refused to learn anything new since the java course they took . 
+  well , with non-locking blades under three inches long , the law is discretionary . 
+  if a copper believes you 're up to no good , then they 'll take your knife ( or worse ) . 
+  so if you 're carrying a ukpk ( a knife specifically designed to be as big and scary as possible while still being * just * inside the legal boundaries ) , that does n't mean you can wave it around with impunity . 
+  and it 's not much of a surprise that people have got busted with them . 
+  i carry a small knife occasionally , it 's a lock knife , but it 's very obviously well-used ( and not for the purposes of stabbing people  ) . 
+  i 've been stopped a coupla times with it , but never had any trouble . 
+  `` they learn the value of a dollar '', 
+  i fucking hate that phrase . 
+  it 's only ever people that are living comfortably that use it , and it fucking pisses me off . 
+  being poor sucks . 
+  there 's no `` life lesson '' there . 
+  man . 
+  i want to go there . 
+  if the connectors are not fixed to the pcb , then you 're not getting a good connection . 
+  it might be enough for power to get through , but it 's not going to be good enough for data . 
+  best bet is to solder that fucker back together . 
+  it does n't actually sound like a particularly hard job for someone with some electronics or soldering experience . 
+  even if the pins could n't be soldered on where they are , you can always just solder in a wired usb connector . 
+  wo n't be pretty , but you 'll at least be able to get at the data . 
+  find someone who 's handy with a soldering iron and bribe them ? 
+  it might even be feasible to do it yourself . 
+  take some pics and see what people think ... 
+  no , it is indeed illegal for them to `` work '' . 
+  a company taking on unpaid interns can not derive any direct benefit from their presence . 
+  they 're there to learn . 
+  yeahman as long as the drive itself is okay and the guy is n't * completely * incompetent , it 'll be fine , 
+  interesting !, 
+  here 's the entire top row of keys with both shifts held down on my apple keyboard :, 
+  seriously !, 
+  i hate writing in ink at all . 
+  i use a pencil ( an extremely cheap 0.7 mm lead disposable automatic pencil ) for pretty much every writing task that i can . 
+  i have a foreskin , lube is unnecessary . 
+  safari has it 's own built-in font rendering , ie has its own setting for cleartype , independent of the system cleartype setting . 
+  firefox has neither , and relies on your system cleartype setting . 
+  so i suspect ( as has been mentioned ) that cleartype is switched off . 
+  to switch it on :, 
+  * right click on your desktop, 
+  * hit properties, 
+  * click effects, 
+  * tick the `` use the following method to smooth ... '' checkbox, 
+  * select `` cleartype '' from the dropbox below it, 
+  * okay out of everything and try again, 
+  edit : i 'm assuming windows xp here , as running ie8 on a mac or anything else ai n't easy , and i doubt very much you 'd have cleartype switched off in vista/win7 . 
+  what the fuck is going on here ?!, 
+  his `` super fast raw javascript omg ! '', 
+  version of :, 
+  $ ( '' #element '' ) . animate ( { left : 100px ; } ) ;, 
+  is this :, 
+  theelement = document.getelementbyid ( `` element '' ) ;, 
+  for ( i = 0 ; i < 100 ; i + + ) { theelement.left = i ; }, 
+  what the fuck is that supposed to be ? 
+  for a start , nodes do n't have a ` . left ` property ( he 's probably thinking of ` . style.left ` ) , they do n't accept a raw integer ( well , they do in ie , but every other browser requires units ) . 
+  but worst of all , even if those problems were fixed , that loop will run in its entirety without the display being updated . 
+  so the element will not `` animate '' , but instead will jump by 100px , after wasting a few cycles incrementing a property for no particular reason . 
+  if you want that to work , you need to make with some timeouts ( or an interval , maybe ) and callbacks to allow the display to be updated between steps , and if you want to it to be vaguely consistent across machines you need to jump through even more hoops to work out how quickly the animation is going and adjust the step size in each iteration accordingly . 
+  oh and then you might want to think about easing algorithms , final callbacks , etc. 
+  this is why most people do n't typically write their own animation functions . 
+  is this post a joke ? 
+  please tell me it 's a joke and `` addy osmani '' is n't actually wasting his time writing ridiculously misinformed fucking rubbish that he could n't even be bothered to test . 
+  hmm . 
+  so why do people talk about using lube then ? 
+  i always assumed it was because typical quantities of natural nobjuice would be woefully insufficient for my prepucially-challenged \\* brethren . 
+  have i been misinformed , or are you a statistical outlier ? 
+  \\* til [ foreskins from circumcised babies are used to make a commercial anti-wrinkle skin cream ] ( http://en.wikipedia.org/wiki/foreskin ) !, 
+  yes indeed . 
+  `` user interface ninja '' or not , addy osmani is spectacularly clueless . 
+  nah , not really . 
+  the object system ( prototype-based rather than class-based ) is definitely a stumbling block for many people once they get to it , but you can go a long way with js without actually needing to worry about that particular oddity . 
+  and even then it 's relatively simple to put something together ( or more likely , find something ) to patch over the differences . 
+  in my opinion , the trickiest thing about javascript ( at least in a browser ) is that it 's event-based . 
+  that is , there are no ( well , very few ) blocking functions . 
+  no ` sleep ` , for instance . 
+  no way to pause execution of your code while you 're waiting for user input , no way to make an http request and have execution halt while it 's being performed and have the content in a variable on the next line . 
+  but * that * is n't really complicated either ( once you grasp that a function can be assigned to a variable , passed around and executed later , at least . 
+  maybe some confusion while you get your head around closures ) . 
+  so that , plus the complexities and ( ahem ) inconsistencies of the dom across different browsers is what makes it tricky to grasp . 
+  but the language itself is extremely simple ( and actually very c-like ) . 
+  i suspect most halfway competent programmers would be able to pick up enough of the language to get going inside of an afternoon . 
+  that 's a bit different . 
+  cleartype is * probably * going to be enabled on the vast majority of firefox users ' systems ( as it 's on by default ) , but there are still some subtle rendering issues with embedded fonts on windows , so you might be talking about something else . 
+  post some screenshots and we 'll be able to tell you what you 're seeing . 
+  try what ? 
+  being circumcised , fapping with lube , or rubbing baby-foreskin cream on my wrinkles ? 
+  shit . 
+  tonight 's gon na be an interesting night . 
+  hell yes , it makes juice !, 
+  in fact , i 've been bottling it for many years just waiting until the right time to market it . 
+  you interested ? 
+  not really . 
+  last year , i gave up eating sweet food ( including artificially-sweetened food and drinks , etc. 
+  but not including savoury foods that contain sugar . 
+  or fruit . 
+  not that i eat much fruit ) . 
+  do n't really miss it .

@@ -1,0 +1,100 @@
+  that 's what the student did . 
+  nothing in the question says anything about `` identical '' or `` equal . '', 
+  and , since neither answer is `` identical '' to the `` 5x3 '' i assume you bring it up only to confuse readers ... 
+  anytime you defend the notion that 5x3 ! = 5 + 5 + 5 ... 
+  anytime you defend the teacher 's marking the answer to `` 5x3 '' being `` 5 +5 +5 '' as incorrect ... 
+   giving segmentation fault teaches me the same !, 
+  nope . 
+  segfault teaches you you have fucked up , has nothing to do with bjarne or even the c++ standard, 
+   c++ may be the worst choice for first language in the short history of computing, 
+  you 've been trolled ... 
+  1234 is not a valid identifier ... 
+  you mean trudeau paid off their debts , got them decent paying jobs and the downpayment on a house ? 
+   `` math people '' use a symbol which looks similar to \\ ^ . 
+  you mean the cia bought out all the toilet paper ? 
+  and all the beer ? 
+  bastards !, 
+   since the arduino language is not the full c++ anyway, 
+  yes , it is . 
+  does n't mean it 's not `` full c++ '' ... actually there 's no such thing as `` arduino language '' - it is c++ and bunch of libraries . 
+  it seems op wants it the other way around - he wants to replace pots with arduino ... 
+  yeah , that 's what libertarian party needs - more neocons ... / s, 
+  does n't seem like neocons are all that favorite with the voters - perhaps lp should embrace trumpism-sandersism , that 's where the votes are !, 
+  there 's a difference between `` looking for purity '' and not embracing outright fascists/communists, 
+  `` for what is a man profited , if he shall gain the whole world , and lose his own soul ? '', 
+  not sure about that . 
+  you have to remember - bunch of trotskyites and straussians managed to pretty much take over the republican party and change it from basically conservative to more or less p, 
+  `` progressive '' ... now they are switching to lp , you sure they will not pull the same schtick ? 
+  sure , there 's plenty of libertarian leaning republicans and i have no beef with them switching to lp . 
+  but mary-fucking-matalin ??? 
+  sure . 
+  you can use it to talk between aduino and raspi . 
+  either directly in case of 3.3 v arduino or with level converter like [ this ] ( https://www.adafruit.com/product/395 ) ... 
+  you probably wanted to say `` brewtime ** = ** 16000 '' not '' = = '', 
+  other than that see comment of / u/galorin, 
+  yes . 
+  '' = = '' is an equality operator it returns true when both sides are equal and false otherwise , '' = '' is an assignment operator . 
+  c # strings are stored as 16 bit wide characters , try :, 
+  and send the bytes instead . 
+  you are n't gon na get any decent battery life from arduino - i would suggest going bare chip or something like [ bareduino ] ( https://www.virtuabotix.com/product-bareduino328-barebones-microcontroller-guide/ ) and for wifi esp8266 which you want to keep off until you need to send an alarm . 
+  also you would just check the sensor every so often and sleep between checks . 
+  or you could follow / u/012673 's advice and just go with esp8266 alone , although i have no idea how good it is at conserving the battery ... 
+   right now i am using a hd webcam, 
+  you made me curious how did you manage to do any image processing with arduino ... 
+  if you want to stick to the webcam you need something with much more processing power , perhaps raspi ? 
+  you might want to take a look at [ opencv ] ( http://opencv.org/ ) and with consistent distance from camera , lighting and object orientation you should be able to get a decent measurement ... 
+   there are definitely things that statist societies do better : capture economies of scale , deter negative externalities and a couple other things . 
+  _ [ citation needed ] _, 
+   worse economies of scale, 
+  what does it mean ? 
+  are you saying the monopoly can not be less efficient than competing companies ? 
+  looks to me that in the real world it is just the opposite ... 
+  `` people are herd animals , they do n't desire freedom they desire competent alpha who will tell them what to do . '', 
+  counterargument : small part of us are born `` lone wolves , '' you force us at your own peril ... 
+   infrastructural redundancy, 
+  there 's a severe `` infrastructural redundancy '' with gas stations , grocery stores , car dealerships , you name it . 
+  what is your argument again ? 
+  should n't government run everything to avoid `` infrastructural redundancy ? '', 
+  alliterative aplenty ... 
+  ftfy, 
+  what is the type of ` message ' ? 
+  if it 's a string you can not just cast it to uint8_t * ... 
+   i would love to see how he explains what is going on now . 
+  i bet you it 's cia ... , 
+   `` developing hardware is just like developing software , except that every time you hit ` compile ' it takes weeks and costs thousands of dollars . '', 
+   note : wireless charger pad only , you need another receiver which have to installed into your phone to make wireless charger work . 
+  any idea how to make arduino to actually get the power ? 
+   op was talking specifically about the dip package of the atmega328 microcontroller and so did i, 
+  still , you are assuming his uno ( if he even has one ) is also dip . 
+  not to mention the dip socket is not really meant for lots of insertions/removals - if you keep doing that , sooner or later , you will damage your uno ... 
+   raw pointers are used when it is clear that its lifetime will surpass the context its being used at, 
+  ... and sooner or later ( most likely sooner ) you will lose track of who owns what and who is responsible for deleting ... 
+  string input = serial.readln ( ) ;, 
+  crgb variable = input.toint ( ) ; / / assuming crgb is just typedef for long, 
+  analogwrite ( variable ) ;, 
+  no shit !, 
+  surely , donald clinton is much better ... or is it hillary trump ? 
+  i do n't know the library you are using but from the syntax ( crgb : : colorname ) it looks like it is an enum . 
+  that was my assumption . 
+  after googling the library this morning and the cursory glance , the type of variable should be long , not crgb . 
+  also i assume you are sending the color 's numeric value over the serial , not the name as / u/danroad assumes . 
+  with those assumptions , the second and third lines should be, 
+  long variable = input.toint ( ) ;, 
+  analogwritergb ( variable ) ;, 
+  you want to extract the color numeric value from the string and pass it to the analogwritergb function . 
+   will boolean operators be a good replacement for strcmp ? 
+  only if you store both in string . 
+  but what 's wrong with strcmp ? 
+  powering ? 
+  driving ? 
+  yes . 
+   the republicans need every vote . 
+  then maybe they should n't pick a certified asshole and buffoon ... 
+   i think if the house voted on abolishing income tax [ ... ] republicans would try really hard to pass it, 
+  the last time i 've checked , repugnicans had both houses and if they really wanted to they already would . 
+   now the `` libertarians '' ( at least , many in this sub ) believe that gays need to go back in the closet because of the poor cake bakers . 
+  til , not forcing unwilling bakers to bake a cake = going back in the closet ... 
+  i guess nobody ever snorts coke - it ** is ** barred by law in all 50 states plus dc ... 
+   who cares about `` earning an electoral vote ? '', 
+  are libertarians so accustomed to failure that they think that 's a big accomplishment ? 
+  [ in this event , the house of representatives is limited to choosing from among the three candidates who received the most electoral votes .

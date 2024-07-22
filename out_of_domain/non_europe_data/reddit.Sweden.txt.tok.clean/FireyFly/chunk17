@@ -1,0 +1,100 @@
+  i also probably wo n't buy the console for a couple months , but i 'm pretty sure i 'll eventually get one . 
+  then again , all of my consoles thus far have been nintendo consoles ... ( it 's not that i inherently dislike other consoles , it 's just that i 'm in a similar situation there -- not enough interesting games to warrant buying a whole new system . ), 
+  well the ground * is * literally java in [ java ] ( http://en.wikipedia.org/wiki/java ) ... 
+  not saying it warrants the downvotes of your post , but this time since landline has also been cut off i think dial-up/fax is n't an option , unfortunately . 
+  huh ? 
+  i used it once or twice , but i found it more inconvenient that just plugging the wire in so that 's what i 'm doing now . 
+  great choice of sprites !, 
+  well , ` bc ` * is * the arbitrary-precision calculator . 
+  i 'm pretty sure it does have to truncate at * some * point ; it 's not symbolic and i think does n't have the concept of fractions . 
+  i do n't know ` bc ` very well either , so i 'm not sure if there 's a way around having to declare ` scale ` every time . . 
+  no , you 're pretty_insignificant . 
+  for me hanging out in the irc channel ` #vim ` on freenode has helped a lot . 
+  whenever i see an answer that i think i know the answer of , i could help others , and if not i learn from when other help the person ( and i make sure to look up things mentioned that i 'm unsure of with ` : h ` ) . 
+  ( of course , that assumes one has gotten used to browsing the help pages ... for which i recommend checking out ` ^ ] ` and ` : h help-context ` . ), 
+  250gb a month ? 
+  spread it out and it 's 8 1/3 gb/day , which is n't all * that * much considering modern video games are usually quite a bit bigger than that and available on steam . 
+  especially if that connection is to be shared between family members , and also encompass other media as well ... 
+  i agree with tim mccormack 's comment on the blog post -- i think an issue here is the * need * for a main language . 
+  i think one should aim to learn multiple languages from a diverse set of paradigms , and only after considerable experience should one think about which one is fitting as one 's `` main '' language . 
+  that is , it 's not an interesting goal in itself to make sure that one 's `` main '' ( or first ) language is really good/useful , but it 's instead more important to get a taste of the variety of languages . 
+  ( that 's not to say that learning go is a bad idea ; it probably is a good idea , but only as long as one is still willing to learn other languages as well . ), 
+  [ fine ] ( http://en.wikipedia.org/wiki/yule ) . 
+  eh , it 's christmas . 
+  i 'll give you an upvote for each post actually . 
+  you mean ` alert ` . 
+  ( edits : improved the code a bit . . ), 
+  why yes , indeed it is . 
+  a slight adjustment : if only the identifier ` cout ` is to be matched , it might be desired to instead use either ` / \\ < cout \\  / ` as the pattern ( to hook it to word-boundaries ) , or simply use ` : syntax keyword mygroup cout ` instead . 
+  ( i 'm not completely sure what the difference is between ` : match ` and ` : syntax match ` ( the help-topic ` : syn-match ` ) , and judging by the help pages they seem to be mostly the same ... apart from priority , i guess . ), 
+  i 'm not a linguist either , but i happen to be swedish and i agree that some of the words are strikingly similar and probably borrowed from old norse . 
+  i took a look at the `` original '' transcription [ on this page ] ( http://www.nvcc.edu/home/vpoulakis/translation/beowulf1.htm ) , and here are some of the words that i associate more with swedish than with english ( beowulf \u2192 swedish/modern-english-translation ) : gyldene \u2192 gyllene/golden , sigores \u2192 seger/victory , byrnan \u2192 brynja/byrnie ( chain mail ) , manige \u2192 m\u00e5nga / many . 
+  ~ ~ so yes , i do think you have a point about it probably being easier to understand with knowledge of a nordic language ( and possibly also a gaelic language ) . 
+  though , even if you understand more of the words , i think the bigger problem is how different the grammar is compared to modern english . ~ ~, 
+  ~ ~ edit : and here 's a word that seems to be of gaelic origin , which also occurs in the `` original '' transcription on that page : [ m\u00e6re ] ( http://en.wiktionary.org/wiki/m%c3%a6re#adjective ) . ~ ~, 
+  edit 2 : probably not as interesting as it seemed at first ; see replies below . 
+  oh , that makes a lot of sense -- thanks for the corrections !, 
+  i do ` < esc  kisudo < cr  ` personally , with zle configured to use vi-mode . 
+  that 's only one modifier key and i can retain my hands in the keyboard area , but it adds an extra keystroke it seems . 
+  ( my ` < esc  ` is on the caps lock physical button . ), 
+   kate has the largest collection of syntax highlighting support of any other open source editor . 
+  that 's a rather bold claim . 
+  i do recall being impressed by kate 's diverse set of syntax-highlighting schemes back when i used it , but the same applies to when i started using vim , which clocks in at 552 languages by default from what i can tell . 
+  that said , i agree that it 's nice seeing kate get especially the colourscheme feature ; being able to configure a text editor to look just like i want it to is an important feature to me . 
+  maybe it 's time to give kate a new try ... 
+  i feel like i should add a link to the source code of [ fungot ] ( http://git.zem.fi/fungot/blob/head:/fungot.b98 ) , an irc bot implemented in befunge-98 ( that actually sees daily usage ) . 
+  mostly due to ` arguments ` in non-strict-mode code , as pointed out by [ the harmony page ] ( http://wiki.ecmascript.org/doku.php?id=harmony:proper_tail_calls ) linked in the blog post -- although it might be worth mentioning it in the actual blog post too . 
+  ( that is , previously it * was n't possible * to perform tco ; in es6 it 'll be * required * [ as far as i understand ] in some cases . ), 
+  hm , fair point . 
+  thinking it through a bit more i agree -- i ca n't find any standardised feature that 'd prohibit tco in non-strict mode ( the major crux would be the ` caller ` property of course , but it 's non-standard and hence irrelevant ) . 
+  reading the latest es6 draft , it also does n't seem to limit the tco to strict-mode ( unless it 's somehow meant to be incorporated into the definition of a tail position ) . 
+  this post along with [ hughfdjackson 's shorter ( shortest ? ), 
+  introduction ] ( http://hughfdjackson.com/javascript/2012/01/05/prototypes:-the-short%28est-possible%29-story/ ) is what we usually suggest in the ## javascript channel on freenode . 
+  killdream 's post is more theoretical and complete , whereas hugh 's is more practical . 
+  starting with the shorter introduction might be a good idea , but i 'd still recommend reading through the * understanding javascript oop * post at some point as i think it 'll lead to a more . . complete understanding . 
+  heh , i 've always read the name as `` lg '' ( lowercase l ) , and thought it was some sort of pun on logarithms ... damn you , proportional fonts with desceptively similar lowercase l 's and uppercase i 's !, 
+  student in stockholm , living in a suburb south of the city . 
+  my average day is pretty similar to what others in here have written , but i guess it might be noteworthy to mention that i usually have [ filmj\u00f6lk ] ( http://en.wikipedia.org/wiki/filmj%c3%b6lk ) ( soured/fermented milk ) to go with my cereals for breakfast . 
+  this is a distinctly nordic thing to my knowledge ( and the wikipedia article seems to agree ) . 
+   negative numbers are just an extension which lets you count backwards , still not so difficult to wrap your mind around, 
+  one thing i 've thought of w.r.t. 
+  this is how when we add the negatives we 're still just operating along a number line -- * one * dimension -- just like before . 
+  with the introduction of complex numbers we 're suddenly operating in a * plane * , * two * - dimensional numbers !, 
+  i believe this change might be part of what makes them more tricky to `` get '' . 
+  true , but i 'm pretty sure these methods do n't conform with the op 's requirement of efficiency . 
+  it 's also worth considering the reliability of the transfer . 
+  [ this ipoac implementation ] ( http://en.wikipedia.org/wiki/ipoac#real-life_implementation ) shows that pigeons ca n't be trusted to deliver packages reliably . 
+    what 's your first ` memory ? ', 
+   keywords : first , memory , your ( possessive pronoun ) . 
+   answer : being powered on in ibm labs . 
+  i 'd think it 'd be something along the lines of eight 16gb sticks ... 
+  oh , cool , i have n't heard of anyone else being able to do that . 
+  i do n't see why this 'd make more sense in python than in javascript . 
+  both are high-level scripting languages after all , so i 'd say pointers ( i.e. 
+  64-bit addresses as numbers ) is foreign to both of them ( or should be , anyway ) . 
+  to add to this , the main difference between irc and other im such as wlm or skype is that irc is generally centered around `` channels '' , or chatrooms . 
+  some channels are social in nature ( and usually a bit smaller ) , others are more supportive in nature . 
+  another rather big difference is the concept of `` idling '' ( staying in a channel even when afk ) . 
+  it 's not uncommon to see channels of about 500 users , where only maybe 5-10 are active at a given time . 
+  it 's also not too uncommon with channels being `` dead '' ( as in , no ongoing discussions ) for hours in a row , even for larger channels . 
+  i hope this does n't come off as too ranty -- i 'm certainly a linux user , and i actually haven\u02c8t had windows installed in several years . 
+  i try my best not to be biased and narrow-minded . 
+   if you decide to go off the beaten track you end up being unable to centrally manage your software ( and , by extension , goodbye updates ) . 
+  depends on the package manager . 
+  some package managers try to make it really easy to write your own packages ( not much harder than `` make & & make install '' ) . 
+  this 'd register it into the package manager , but of course your point about updates still holds ( you 'd have to make a new package from the same configuration file to update ) . 
+   windows programs either a ) end up in add/remove or b ) are portable . 
+  the * a ) * alternative here is basically because the setup exe is the equivalent of a package on linux . 
+  it 's somewhat common to find `` loose '' deb files ( packages for the apt package management system ) , which i 'd consider equivalent to windows 's setup files . 
+  i do n't think comparing building from source in linux vs. in windows would be for windows 's favour . 
+   [ ... ] ( / lib , / usr/lib , / usr/lib64 , / usr/local/lib as a simple example of where you might have to hunt ) . 
+  on windows you know where to find your program files . 
+  i 'd say this is sort-of equivalent to how there 's a bunch of dll files scattered in ` c : \\ windows ` and ` c : \\ windows \\ system32 ` . 
+  it 's also worth mentioning that some classes of applications install themselves to ` / opt ` , which is commonly used similarly to windows 's ` c : \\ program files ` ( one directory per application , with subfolders for binaries/libraries / ... inside that directory -- a bit of a middleground actaully , i guess ) . 
+  in my experience this is most common in proprietary software , especially games . 
+  there 's pros and cons with both approaches though . 
+  windows 's approach means less problems with having the wrong version of a shared library , since each program supplies its own file . 
+  however , this sort-of defeats the sharedness of them , since if two programs require the same library , both have to provide the same dll and thus it has to be stored twice on the disk and be loaded twice in ram . 
+  linux 's approach pretty much requires good package-management , so that the package manager will make sure that the right verison of a library ( or multiple versions ) is installed to satisfy all the programs needing them , but the same version of the same library is only stored once at one location . 
+  again , sorry for the semi-rant ... :p as long as the os works for you , that 's great . 
+  ninja-edit : welp .

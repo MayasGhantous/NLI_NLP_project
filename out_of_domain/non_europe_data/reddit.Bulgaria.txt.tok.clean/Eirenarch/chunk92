@@ -1,0 +1,100 @@
+  that 's true . 
+  therefore there are more rules of multithreaded code , 
+  i know . 
+  i actually write quite a bit of multithreaded code although nothing of the depth or the performance requirements of the things listed in the article . 
+  the `` rule '' is of course paraphrased advice from eric lippert ( http://ericlippert.com/2014/01/28/questions-from-tuesdays/ ), 
+   1 . do n't write multithreaded code !, 
+  seriously , multithreaded code is in my opinion a bad idea to begin with . 
+  having multiple threads of control in the same program is confusing . 
+  while this is a good advice if you can avoid it i do n't think he takes it literally . 
+  of course there are situations where you need multithreaded code . 
+  i was making what i thought was a humorous remark but it seems like it was not good enough so now i am punished with downvotes which of course i deserve for not making a better remark , 
+  except that this is not user defined operator overloading but built into the language . 
+  i believe java does this too . 
+  in c # they did a lot of thing that are kind of strange to keep a good level of c++ and especially java compatibility to facilitate easier porting of code . 
+  i believe this was an explicit design goal back then . 
+  they even went as far as making the arrays covariant while admitting even then that it is a bad thing in general but compatibility was more important . 
+  it is hard to judge if all this was worth it . 
+  maybe c # would n't be adopted as largely as it is if it was n't similar enough to java . 
+  now i want to see what this comment said so badly , 
+  i think this is the most impressive collection of c # teasers i have seen so far, 
+  i wrote some non-trivial amount of java code in intellij which has a reputation of being the best java ide and compared it to writing c # with visual studio . 
+  what i found was that it was not so much that intellij lacked features but it was the defaults in vs that made it so much easier to work with . 
+  i found myself fighting with intellij on many occasions while i rarely experience this in visual studio . 
+  on several occasion i tried to reason why they had certain defaults and if it was the fact that i was used to vs that made intellij feel strange but i came up with the conclusion that vs is just more refined . 
+  for example i can not possibly think of a reason why an option like break on uncaught exception would be off by default in java and i would have to hunt it through the menus . 
+  i suppose many people do n't even know it exists because it is off by default . 
+  i complain to my girlfriend who is a java programmer about this and she says that she has seen this option and it is bullshit and not needed . 
+  next day she comes back from work and declares `` automatically breaking on exception is quite cool actually '' . 
+  this is what i like so much about vs. 
+  it not only has features but they `` just work '', 
+  while some of these are in fact true others are either exaggerated or outdated . 
+  * i do n't see how sql server express is a problem for `` any reasonable size '' especially compared to mysql . 
+  i never ran into the limitations of sql server express on a project that could not afford the full version without even thinking of it . 
+  if the project is big enough to need full sql server then it is probably expensive enough that the cost of sql server would n't be an issue . 
+  of course there are exceptions to this but in general that 's what happens . 
+  * all ms software has been powershell enabled for at least 3 years . 
+  no gui required . 
+  * i fully agree about the insane licensing . 
+  at one point i had to choose what sql server license we needed for a certain project and after a day of reading i just declared defeat , said that i ca n't handle the task and someone else should do it . 
+  epic do not write javascript . 
+  they write c++ . 
+  not that i support the original statement but your argument is totally invalid . 
+  just yesterday i was wondering if i could do a freelance software development job for bitcoins not because i really want to freelance but because i badly want to do work that skips the system and in the same time is not illegal ( i.e. 
+  if i am paid cash and do n't declare it i would be in for tax fraud ) . 
+  i did n't know this subreddit existed . 
+  i will definitely hang there . 
+  in the eu . 
+  i know you were doing that . 
+  i was pointing out that while it is not a big deal it is * some * deal . 
+  a small country outside the eu is less of a deal than small country inside the eu because it means that whatever law is applied there is 1 ) compatible with eu laws in general and 2 ) available to all eu citizens ( i.e. 
+  if germany bans the sale of cars in bitcoin but bulgaria allows it german bitcoin users can buy cars from bulgaria in bitcoin and they will be perfectly legal in germany ) . 
+  you update wikipedia by clicking the `` edit '' link next to an article section . 
+  feel free to try it , 
+  the start menu was the most disgusting part of windows . 
+  i do n't know why anyone would be happy that it is coming back . 
+  metro apps in a window is a cool thing though . 
+  yeah like all that node.js innovation that scales !, 
+  yes , nhibernate related indeed although they wo n't qualify for nastiest but still annoying . 
+  for some reason i never had to fix entity framework or linq to sql related bug . 
+  well if i needed to connect to mysql i think i have greater problems than the orm, 
+  except that with php you have the choice of not using php in your new project . 
+  with javascript you do n't have this luxury so typescript can help a lot more people . 
+  haxe is definitely better but it is not a drop in replacement of javascript . 
+  it is not like you can take your existing js files and start using them and modifying them in haxe, 
+  how would we read his joke if he just saved the comment ? 
+  so in 2014 we still need articles explaining what a closure is ? 
+  is n't this taught in beginner programming courses somewhere between explaining what a function is and explaining what an interface is ? 
+  in addition the . net foundation has been created for open source . net contributions . 
+  all ms open source . net stuff is contributed without platform restrictions . 
+  well ideally we would n't need to write or generate js at all so we all place our bets . 
+  i for example bet that js wo n't be fully replaced so typescript will always be a better option . 
+  microsoft does n't really hate anything . 
+  they are not google , a company governed by the personal feeling of a couple of founders and a bunch of engineers . 
+  microsoft is a business run by serious people who try to maximize profit . 
+  if yesterday fighting open source was what was profitable and today loving open source is profitable they would switch sides but microsoft as a company does n't really have feelings and is incapable of hate or love . 
+  this is what a company should be . 
+  capitalism  all . 
+  obey the market !, 
+  google is slowly changing but they are still the same spoiled children . 
+  at least with ms if you pay them money you can have some trust in their products . 
+  so as a student you think that the student company is better fit for you and that somehow contradicts my point ? 
+  the company i work for uses google apps and gtalk for chat . 
+  everyone is so frustrated that currently you ca n't send offline messages with third party clients . 
+  so much for the great hangouts transition . 
+  the official messenger is gtalk based , company domain jabber chat but everyone uses skype . 
+  microsoft 's bad decisions are just that - bad decisions for which they suffer financial losses . 
+  google do things out of pure hate like the recent debate over the youtube app for wp . 
+  they demanded that a perfect app that served youtube ads and provided great user experience developed by microsoft be removed and forced users into the absurd mobile web site . 
+  i have not seen a single wp user blame microsoft for the bad youtube experience and google get all the hate but they still insist on losing money that way . 
+  i personally know people who have never been burned by microsoft but still hate them with passion and even openly admit this is the case . 
+  i claim that ms management tries to make rational decisions to maximize profit . 
+  i do n't claim that they always succeed in making such decisions . 
+  in fact my personal opinion is that they are wrong more often than normal . 
+  for example i think that the xbone fiasco was absurd decision and i can not fathom how any executive agreed with the idea to drop used games without any support from publishers or the competing platforms . 
+  that does n't mean they were doing it just because they hate gamers or something ... 
+  so what changed ? 
+  and buys things people like then shut them down . 
+  so you think office for ipad was developed in the timeframe since they chose the new ceo ? 
+  so na\u00efve . 
+  let alone that `` devices and services '' microsoft was ballmer 's child .

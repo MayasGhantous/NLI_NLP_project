@@ -1,0 +1,100 @@
+   metal is incapable of running native code . 
+  there is no such thing as a native binary . 
+  in fact , if you try to run native x86 code , or a native any kind of machine code , it will transpile the code into asm.js , chuck the asm into the kernel ... 
+  finally , when comparing the cost of running everything through a vm , and the benefit from getting rid of hardware isolation , he arrives at the conclusion that such systems would indeed be faster . 
+  is this a realistic prediction ? 
+  should we really be moving towards running everything in ( javascript ) virtual machines ? 
+  to me it looks a tad bit silly because implementing something in hardware usually means it ends up orders of magnitude faster , that 's the whole reason why specialized hardware exists . 
+  i 'm not saying that the numbers are false , but i 'd be really glad if someone shared some insight with me here : ** what is this magic way that the vm does all the work current hardware isolation is doing , but only at a fraction of the cost ? 
+  i have recently built a pc with the amd fx-8320 proc , using the default cooler , but i find it too loud and maybe ineffective . 
+  i would like a new cooler , but i know next to nothing about the different brands , and need some help in choosing the right one . 
+  the maximum i 'd be willing to spend on this cooler is about $ 50 . 
+  also , my gpu gets quite loud when playing games !, 
+  it is the msi radeon hd 7790 . 
+  drivers are updated . 
+  is there anything that i can do to cool it less loudly as well ? 
+  first off , i do n't identify with any ideology , i just like to research this stuff , and my personal beliefs are much less idealistic than anything posted in discussions . 
+  however , i have troubles understanding the communist/socialist argument that capitalists are oppressing the workers - because , in a capitalist society , the worker has a choice of various employers , or other means of acquiring goods ( starting his own business , for example ) . 
+  * i do understand that switching jobs is usually quite problematic , and sometimes outright impossible * - but i do n't see how the * lack of alternatives * is not a ** unfortunate reality ** , but oppression by the capitalists . 
+  note : i 'm not asking whether a system where this alleged oppression is tackled ( i.e. 
+  socialism ) is * better * for the workers ( in fact i 'm certain it is ) - i 'm asking , essentially , whether such policies are justified and moral . 
+  half-life is video game i liked a lot , and here 's the [ picture of the hoodie ] ( http://ecx.images-amazon.com/images/i/610lo5jowll._ux522_.jpg ) i want to buy , for reference . 
+  my explanation :, 
+  i like half-life, 
+  `` i want to broadcast my identity '' ( quotes because that 's the generic answer ), 
+  however , i am still unable to rationalize the feeling . 
+  i can not associate it with the two reasons i cited . 
+  i like half-life separately , how is it connected with wanting a piece of clothing with its imagery more ? 
+  i know what broadcasting an identity means - but i do n't consider it to be the reason because i can imagine myself wearing it alone while no one can see me and go `` aha !, 
+  this guy likes the same stuff as i do ! '', 
+  - i do n't think that broadcasting an identity is something i want . 
+  what is going on ? 
+  so about a year ago i built a pc with the following components :, 
+  - proc : amd fx-8320, 
+  - mobo : asus m5a97, 
+  - graphics : amd radeon ** hd 7790 **, 
+  however , since i 've switched to linux , i 've found that this specific card still does not work very well on it . 
+  i can use it for daily stuff like accelerating my desktop , watching media , etc - but forget about games or even a smooth experience . 
+  i want to get a better card and my primary criteria is ** linux compatibility ** , and of course compatibility with my other hardware . 
+  i do n't plan on any kind of heavy gaming , but i 'd like to be able to run the latest games on medium quality . 
+  the price range should be around the 7790 's . 
+  is gtx 750 ti a good choice ? 
+  ( i 'm ok with using proprietary drivers ), 
+  any other cards i should consider ? 
+  additionally - is there any way to utilize the card i 'm replacing ? 
+  i 've got another pc but i do n't really use it that much , and it 's ancient - not sure that its mobo is even compatible with the 7790 . 
+  can i use both the old and the new card somehow ? 
+  these terms are usually thrown around when discussing video card drivers , and i 've probably left some important ones out - please include whatever you find relevant enough . 
+  ** edit : ** my problem seems to have been caused by enabling 3d acceleration [ like this ] ( https://www.reddit.com/r/firefox/comments/2h40o3/any_indication_of_hardware_acceleration_coming_to/ckp9f28 ) ( not normally supported in linux ), 
+  each time i open a new tab to load a web page , the browser slows down for a fraction of the second ad practically nothing can be done . 
+  i have a relatively powerful computer and ubuntu 14.04 . 
+  is this normal expected behavior or is something wrong ? 
+  [ solution ] ( https://www.reddit.com/r/firefox/comments/2h40o3/any_indication_of_hardware_acceleration_coming_to/ckp9f28 ), 
+  i have the hd radeon 7790 card and i can normally play games on my linux system . 
+  but firefox kind of refuses to cooperate - when i open about : support , it says `` 0/1 basic '' for hardware acceleration ... 
+  which kind of sucks - the browsing experience is n't very smooth , and especially when actual 3d is needed ( e.g. 
+  street view ) . 
+  is there any way to force enable it , or an indication that it will soon be supported ? 
+  hi , are there any plans to create a custom css for this subreddit ? 
+  or are there any explicit decisions as to why it does n't exist ? 
+  i think it can be quite pleasing to the eye and maintaining a unique visual identity is a neat thing to do on reddit . 
+  i recently got two more monitors , so i now have three of them . 
+  in what way should i best arrange them ? 
+  i 've tried all portrait , but that 's pretty awful - now i 'm on all landscape . 
+  do you maybe keep one portrait and others landscape ? 
+  ( asking here since it 's my dev machine and programmers are usually people with more monitors . ), 
+  i 'm really annoyed by `` most visited '' pages browsers love to display for you . 
+  i know which shortcuts i want ... 
+  is there an addon or an option which would let me customize which pages are shown on the new tab ? 
+  preferably by selecting them from my bookmarks . 
+  and sync with other firefox instances would be great . 
+  ads are an incredibly important propaganda and marketing mechanism to corporations . 
+  however , everybody these days seems to have an ad blocker installed . 
+  to me this seems like a * huge * problem for the advertisers that would have to be addressed asap . 
+  additionally , ad blockers seem incredibly simple software . 
+  they just block certain domains , usually having `` ad '' somewhere in them or being on some filter list . 
+  this seems trivial to circumvent . 
+  certainly someone must be able to create some kind of a dynamic ad server , or create a mechanism where ads are served from the application server and not directly from the advertiser . 
+  where 's the catch ? 
+  i have the pushbullet firefox extension installed on my laptop and my desktop - but see only a single `` firefox '' device in the application . 
+  is that expected behaior or do i need to change some configuration ? 
+  the extension was automatically installed on the laptop by firefox sync , so they could be sharing configuration or something like that . 
+  i have the pushbullet extension installed on both my laptop and my pc - however in all pushbullet menus i see a single `` firefox '' device , and not two . 
+  is this intended behavior ? 
+  i do n't like it because i want to specify the device that i 'm pushing to specifically . 
+  if it 's not intended , how can i solve it ? 
+  i have https everywhere installed in firefox and any website that offers both http and https protocols does n't switch to https by default , and stays on http normally , just as if the add-on was n't there . 
+  what 's causing these issues and how can i investigate them ? 
+  hello everyone . 
+  i 'm trying to reconcile my goal to get more mass and my unpredictable diet , and i 'm wondering whether i should , and how , stick some protein shakes into the mixture . 
+  i 've read some documents describing the basics of a healthy diet , however my problem is that my meals are quite unpredictable - i often eat outside with other people , at family occasions , or just get random stuff when i have the time . 
+  sometimes i do prepare it myself but it 's usually just a simple dinner . 
+  i do believe i 'm eating too little , so i think i should try taking some supplements and/or eating more . 
+  my goal is to get more mass . 
+  i 'm too skinny and undeveloped . 
+  i lift three times a week and have no problem bookkeeping that - but i do have a problem figuring out what i should be eating . 
+  anyway , i 'd like some general advice about what to do in this situation . 
+  i also have a ** concrete question : ** is it a good idea to drink some protein shakes after lifting ? 
+  practically everyone i trust in my gym said that i should be doing that , but am i at danger of eating too much of it , or is there no such a danger ? 
+  i do n't really understand that scene where she shows him her book and he laughs at it , making her leave . 
+  it feels out of place and like the only sort-of mean drop in their otherwise nice romance ?

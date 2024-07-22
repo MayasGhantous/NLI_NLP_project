@@ -1,0 +1,100 @@
+  ( pretty sure it 's not just me that happens to ), 
+  how many times have you responded with `` no , but how about < this  instead ? '', 
+  i agree the chap could probably have been less antagonistic , but it does sound like he was * right * . 
+   less ( 1 ), 
+  in think if i was in in that situation , the above may have been my one and only response . 
+   third , you seem to be like many unix gurus that object to anything other than text characters in his e-mail . 
+  that is a luddite that ca n't move forward with the new technologies . 
+  seriously ? 
+  you 're calling someone a luddite because they object to html email ? 
+  for the record , i have no major qualms about html in emails , my email clients supports it , and i do n't mind people sending it to me ( although i generally send text-only emails myself ) . 
+  but let 's just have a look at what an html email contains :, 
+  * a text version ( yes , when you send html email in the vast majority of clients , they automatically generate and include a text/plain version too ) . 
+  in html emails , this is typically encoded as quoted-printable , which increases the size marginally . 
+  * a multipart/alternative mime container , necessary to include both text and html versions, 
+  * the html itself , again ( usually ) encoded as quoted-printable . 
+  * the extra html boilerplate crap added by your client . 
+  for example , outlook 2007 adds 85 lines ( or ~ 4kb ) of html to every message . 
+  to be clear , that means even an empty html message contains 85 extra lines . 
+  this means that an html email is , on average , somewhere between 3 to 6 times larger than the text-only equivalent ( depending on the amount of content , client used , etc ) . 
+  now imagine you get dozens , maybe hundreds of them every day , the vast majority containing unstyled text . 
+  now imagine at least half of them contains a large , but mostly-unnecessary footer/signature ( usually with a ton of html styling , making them even larger ) . 
+  often duplicated several times in large email threads . 
+  now imagine you 're trying to download them on your phone ... 
+  it 's really not much of a surprise for a programmer - who ( unlike most email users ) has the ability to understand that this is n't really an efficient solution to the problem - to feel slightly dirty about people using html all the time when plain text is quite often good enough . 
+  really ? 
+  i. . can see what you 're saying , but i 'm really not a fan ( and the button thing in the top left is a horrible bit of ui design ) . 
+  i 'd be happier if they made a little pop-out sidebar , though , that seems like much better use of available screen space ( given that documents are usually portrait , and monitors are more often than not widescreen these days ), 
+  i use foobar2000 , and i too rarely look at the interface for more than a few seconds at a time . 
+  here 's what sold me over winamp :, 
+  * no-nonsense interface ( you can go nuts configuring it , but i just tend to remove everything but the basics ) , configurable text size ( winamp 's tiny interface annoys the hell out of me ) , small , fast , stable . 
+  no stupid `` skins '' . 
+  * excellent media library support * without * trying to reorganise your music for you . 
+  * decent search function, 
+  * multiple playlists ( without having to explicitly save/load the things ), 
+  * playback queue ( which lets me set up a jump to a different playlist/album/whatever to happen after the current song finishes . 
+  very handy ), 
+  * ability to edit id3 tags on groups of files ( even while one of them is playing ), 
+  i took a bit of time to set it up so it can be entirely controlled from the keyboard . 
+  i can open the window , switch playlists , add an album to it , add the first track to the queue ( so it 'll jump to that track when the current one finishes ) , and hide the thing away again , without my hands leaving the keyboard . 
+  i love it , 
+  you do n't give a lot of detail , but , generally speaking , if you can get the maintainer 's support for what you want to do , then working on the existing project is probably your best bet . 
+  that way you 've got a solid codebase , likely a decent community , and possibly even a few ` experts ' around to assist if you get stuck . 
+  if you 're very lucky you might get some help , 
+  if the maintainer is n't interested in your ideas , then using the existing codebase is less attractive ( as you 'll be solely responsible for maintaining your fork , all the while working with unfamiliar code ) . 
+  that said `` code yourself '' and `` modify existing code '' is n't really a binary choice , there 's several possibilities within that . 
+  you could , for example , lift entire chunks of code from the existing project and build your own structure around it . 
+  it 's really quite hard to say what 's best without knowing a bit more . 
+  if it was me , i 'd probably have a crack at doing it myself , just to see how far i get and see what i can learn . 
+  although i 'd be fully prepared to give up and go back to modifying the existing project if ( when ?! ), 
+  it turned out to be harder than it looked , 
+  but , i always used to enjoy the theme tune to star trek : voyager . 
+  not something i 'd listen to out of choice , but i would n't skip past it if i was watching an episode . 
+  until i saw [ this ] ( http://www.youtube.com/watch?v=qfaicb7ymmy ) ( sfw ) . 
+  if you plan on watching any voyager in the near future , then you are warned : it can not be unseen . 
+  i know what you 're saying mate , but to me ( at least based on the version we 've been given , which you rightly point out may be biased ) the dev seems like he 's being either unnecessarily arrogant or wilfully ignorant . 
+  the admin did n't really do himself any favours by pushing it as far as he did ( although , in all honesty , i would have been far more scathing  ) , but that does n't change the fact that the dev was n't listening to sound advice ( which is a worse crime , in my opinion ) . 
+  also , coupla things to note :, 
+  * it seems like using ` less ` would have solved his original query . 
+  it 's not a hard thing to learn ( and verging on necessary if you 're a unix dev who wants to analyse server logs ) . 
+  * as has been pointed out elsewhere , if the dev has an ssh connection to the box , he could get a local copy of the logs with a single command . 
+  so , while i do agree that making assumptions about what someone actually wants rather than just doing what they ask can be frustrating ( and the admin probably pushed it too far ) , i do n't think the admin 's actions were worse than the dev 's . 
+  my library is relatively well-organised ( ` band/band - album ( year ) / tracknum . 
+  band - track.ext ` ) . 
+  it runs on a freebsd server that provides read-only access to various systems throughout the house ( and a few other related services ) . 
+  although i 'll admit that i recently allowed read/write access from my workstation so i can edit bad id3 tags via foobar . 
+  previously i maintained them mostly-automatically using some perl scripts , but that solution has become overkill since i 've found better sources of music . 
+  i make no apologies for keeping my music collection reasonably organised , even though you seem to have labelled me as a crazy-person for doing so . 
+  occasional ( i mean like a few seconds of editing once every 20-or-so or so albums ) id3 tag editing is not an onerous burden , and doing so helps out others that use my server . 
+  i also maintain album art using a few scripts , but do n't use it myself . 
+  playlists , for me , are temporary things . 
+  just what i 've been listening to recently . 
+  i usually have a couple open that are roughly different styles ( i tend to maintain a playlist of instrumental music to switch to when i 'm programming something that requires a bit of extra concentration ) . 
+  i find that more convenient than groping through the filesystem regularly . 
+  i have a coupla hundred gigs worth of music ( which is either way more than you , or i 'm getting old  ) , so i do occasionally make use of a search function . 
+  one of the apps i work on does that , but also stores the password as a salted hash . 
+  the email is triggered as part of the user record creation process , and does n't happen when altering your password ( so if you do n't trust your mta , you can change it ) . 
+  this was deliberate , as we were getting lots of support requests from users who had accounts , but had never logged in ( and presumably did n't know they could reset their password through the interface ) . 
+  so that simple change saved our support people a fair amount of hassle . 
+  problem is more that people who actually bother setting decent passwords usually use some kind of process to generate that password . 
+  adding unreasonable or unexpected limitations to what their password can be makes it harder for them to come up with a decent one that they 'll remember . 
+  that 's usually deliberate ( i do that when i 'm writing authentication systems ) to limit the information available to people who might be trying to break in . . 
+  ~ = squiglen, 
+  ( = bracket, 
+  { = squicket, 
+  that 's pretty damn close , though . 
+  the original looks like it 's that , with `` faux-bold '' and an extra little flourish added . . 
+  my hope is it will completely fragment ( as has already started happening ) into `` music '' and `` pop '' . 
+  the labels keep the horrible manufactured pop bands , their stupid marketing , and talentless singers . 
+  real musicians self-publish , or group together into small independent companies to do so . 
+  ( this is before i moved out ) she would n't wake me up . 
+  she instead passive-aggressively vacuumed the carpet outside my bedroom door . 
+  if there was a god , and he was proven to be real , and he said `` worship me or you 'll go to hell when you die '' , then yes . 
+  i 'd probably worship him . 
+  i would n't be happy about it though . 
+  that guy is a dick . 
+  i think we 're genetically predisposed to finding patterns , and assigning meaning . 
+  even when sometimes there is none . 
+  this leads to superstitions ( ie , perceived patterns of cause and effect ) . 
+  sometimes they turn out to have a basis in reality ( eg , medicinal herbs ) , sometimes not ( eg , homeopathy , `` crystal therapy '' , witch burning , etc ) . 
+  look at all the bizarre superstitions ( and let 's face it , that 's all religion is ) around the world .

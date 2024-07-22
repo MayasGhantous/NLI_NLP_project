@@ -1,0 +1,100 @@
+  if by cpus you mean cpu only parts with no igp then yes . 
+  if not then the mobile kabini is the first . 
+  well not really . 
+  cause the 28nm shp procces is tuned for low power applications and doesnt scale well into high frequencies . 
+  so the chip would propably be a lower tdp version of piledriver that achieves the better performance on lower frequencies but you could n't drive it to frequencies you can drive 32 soi so would lose overclocking potential . 
+  chip like that would be pointless . 
+  the reason they are releasing 860k and so on is that they have some kaveri chips with bad igp so they just disable it and sell it like cpu only . 
+  right now amd does n't really have a good procces for high performance cpus :-( they kinda need to wait for glofo and tsmc to make something new avaliable . 
+  just like it always was -- do n't use wep and do n't use wps ... 
+  have a strong wpa2 password and you are allright, 
+  alternatively lots of led screens have a button to display 4:3 so its not stretched . 
+  the problem with 9590 is that you would propably need a whole new mobo to support the massive 220w tdp :-(, 
+  i just upgraded my phenom x4 965 with 8350 on the same old 890fx am3 mobo and i am very happy with it :-), 
+  its meant for people with cheap am3 + board that dont support 125w tdp cpus . 
+  so it makes sense :-), 
+  well i aint aware of a gpu that needs more bandwidth than 16 pcie 2.0 lanes have so i would ` nt say that its a problem . 
+  what gpu are you using ? 
+  unless you are running multiple 780ti 's 290xs or titans then you are fine with pcie 2.0 and if you want such a overkill gpu solution then you obviously shouldnt pick budget/mainstream oriented solution such as am3 + . 
+  so i still think pcie 2.0 is non issue in am3 + . 
+  and am3 + is propably gon na be eol soon anyway . 
+  they are either gon na release their new cpus ( when the time comes ) on fm2 + ( or succesor ) or release am4 . 
+  arent you cpu bottlenecked ? 
+  you need to tell us more ... i.e. 
+  what software are you using to monitor/control fans . 
+  and i would strongly suggest you get an aftermarket cooler . 
+  they are not that expensive and they run much more quiet and cooler that stock solutions . 
+  280x is 7970 ghz edition rebranded - look at those graphs there is like 2 % difference between pcie 2.0 16x and pcie 2.0 8x and of course no difference between pcie 3.0 and pcie 2.0 16x so yeah you are definitely not bottlenecked by pcie 2.0 . 
+  what you are experiencing is most likely a cpu bottlenecked due to a badly optimised game that is not utilizing all your cores ( such as skyrim ) . 
+  but going forward you should see less of that due to consoles having 8core cpu . 
+  well cpu utilization is not that simple . 
+  because games do n't stress all the cores / threads the same . 
+  so while overall utilization might seem lower it does n't mean you are not cpu bottlenecked . 
+  the other possibility might be psu bottlenecking . 
+  go and try some mantle game and see if it gets better ( for instance i get 100 % gpu utilisation in thief but not in a lot of cpu heavy games ), 
+  i do n't think intel has any incentive to do that - they have no competition in the highend so people who need a workstation will bear the price . 
+  and ddr4 will propably come down in price soon enough anyway . 
+  few things to consider :, 
+  if the rumors are correct only windows 9 will support dx12 . 
+  so that would mean pretty damn low install base in the begining . 
+  we do n't know how much performance increase will there be with dx 12 . 
+  mantle has benefits over dx :, 
+  mantle can be more close to metal than dx 12 ( due to being made specifically for amd architecture ) . 
+  mantle supports having multiple gpus without crossfire ( so theoretically one of them can be computing physics while other is running the graphical stuff ) - this can be big selling point of apus . 
+  but depends on developers . 
+  intel is rumored to support mantle and amd with its apus is overtaking nvidia in gpu shipments , that would mean nvidia would be minority market . 
+  mantle currently has more games than dx 11 had the same time after release so i 'd say its pretty succesfull . 
+  imho mantle is here to stay - atleast for the foreseeable future . 
+  are n't you by trying to install x64 drivers on x86 system ? 
+  well its the fastest gpu on the market ... so its not a bad price at all . 
+  of course in a few years its gon na lose lot of value but that is always the case with the best enthusiast parts . 
+  i dont think 9590 is worth it especialy if you gon na have to buy new mobo ... 
+  either oc your 8350 or get an intel ( and i say that as an amd fanboy who has been running amd only system starting with original duron ) . 
+  what mobo do you have ? 
+  i have a fricking old am3 890fx and i run my 8350 overclocked ( slightly ) . 
+  and to tell the truth i would n't have upgraded my phenom x4 965 to it if i had to buy a new board . 
+  because am3 + is a dead platform that wont be getting anymore upgrades . 
+  overall performance of 8350 and i5 is not that far off but if the game is badly coded to not use all the cores i5 is better . 
+  but seeing the new consoles all having octacore cpus i 'd simply save the money keep the 8350 and play the few bad games without aa , because imho the new multiplats will be using all the cores . 
+  but if he really needs more performance intel is sure as hell better opinion than 9590 . 
+  there are no integrated gpus in am3 + fx cpus however there are some mobos that have integrated gpu inside them . 
+  however amd started calling the best of their mobile kaveri apus fx . 
+  one more reason to hate nvidia ... 
+  imho :, 
+  they have trouble competing with amd and intel in the desktop market so they are trying to make qualcomm/samsung countersue and in the end reach some agreement about patent sharing so they can seriously get in the mobile market . 
+  nvidia has larger market share in dedicated gpus but if you count all graphics shipments ( i.e. 
+  gpu integrated into cpu ) the numbers are different . 
+  and nvidia has been trying to push into mobile market for a long time with its tegra chips ... 
+  the thing is that majority of people do n't buy dedicated gpus ... that is a fact . 
+  we are not talking just gamers we are talking the whole damn pc market . 
+  according to jpr market watch only 33 % of pcs have dedicated gpu . 
+  and of those and of these 1/3 its like 60:40 nvidia : amd so no nvidia does n't dominate desktop . 
+  not to mention nvidia chips not being in any console this or last gen. 
+  workstations are what ? 
+  like 3 % of the pc market ? 
+  gaming pcs are what ? 
+  like 30 % of pc market ? 
+  do you understand what i am trying to say ? 
+  with integrated gpus getting better and better less people feel the need to buy proper dedicated gpu . 
+  so yeah if nvidia does n't get a foothold in other markets they will fade away slowly . 
+  that is not the case with 295x because of the watercooling . 
+  it is actually faster than 2 full fledged aircooled 290xs ( it is overclocked ) and good lock overclocking two aircooled 290x if you do n't have really really really good air flow in your case - you 'll see bunch of thermal throtling, 
+  also 295x is imho better bang for your back then 2 290xs, 
+   nster card , i overclocked it for a buddy of mine and i managed to get 1200mhz out of it . 
+  i have just become convinced that double gpu cards are an absolute waste , having two dis, 
+  well the card you are talking about has a open air style cooler that means it leaves all the heat in your case ( as oposed to blower style that blow it all away from case but ussually are louder and not as effective ) . 
+  so if you have 2 of those cards next to each other it is really massive heat output and unless you have pci-e slots far away , use pcie bridges or have a massively good airflow . 
+  you will not be able to overclock both of them . 
+  295x can do it at good temps and silently because it has watercooling unit . 
+  and it is almost the same price as 2 290xs so i think it is pretty damn good deal . 
+  ( however ussualy double gpu cards are not full fledged and throttle so 2x the top of the line card is better . ), 
+  watch dogs is badly optimized ... and its not a good game anyway . 
+  what about overclocking ? 
+  the gains would be marginal . 
+  imho not worth it . 
+  if you overclock your cpu `` by hand '' you are generally able to overclock it more/better ( not by huge margin though ) but it takes lot of time ( you generally need to dedicate a whole day + 24h burn period to make sure its stable ) . 
+  what phenom do you have ? 
+  ( i 've been runing x4 965 up until recently ) and what clock is it runing at ? 
+  btw when you are ready to upgrade you might be able to keep the am3 motherboard . 
+  for instance i run asus 890fx usb3 am3 mobo and recently upgraded my phenom 965 to 8350 on the same board ( it has support for buldozer with bios upgrade ) . 
+  so yeah you can maybe save some money on your board :-),

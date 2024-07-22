@@ -1,0 +1,100 @@
+  i think most of the functionality you 're planning to build already exists in various wp security plugins . 
+  i 've been using wordfence for quite a while and it covers most of my needs nicely ( i 'm not sure how efficient their malicious code scanner actually is , though ) . 
+  what would excite me about your scanner is if it could really alert about using known vulnerable plugin and theme versions ( sometimes you just ca n't update , for whatever reasons ) . 
+  however , as you most probably ca n't find all the ( known ) vulnerabilities by scanning ( think w3tc latest vuln ) , i would expect such a tool to use other sources of information as well to determine which versions are vulnerable . 
+  i do n't know if that 's even realistic , but i would probably pay a monthly fee for that . 
+  anyway , thank you for doing this . 
+  wp ecosystem is horrible in terms of security , so we need all the help we can get . 
+  as someone who lives in a country formerly occupied by the soviet union , let me remind you that we 're talking about a government that has a history of murdering people they do n't like and sending people who say the wrong things to prison camps in siberia . 
+  and let 's not forget the occasional genocide . 
+  i do n't think there was any trust anyway . 
+  only fear . 
+  check out this video :, 
+  this guy is just amazing at explaining stuff . 
+   i 'd hate to get a month into development and find i have to hack things to meet my objectives, 
+   i also need a system that will be forgiving enough to allow me to easily add in new ideas as the site evolves . 
+  it depends on the size of the projects you 're working with . 
+  for small to medium size websites , i do n't think there 's anything that 's more * efficient * than wordpress . 
+  if you 're looking to get sites built fast or if the client does n't have a really good budget , i definitely recommend going with wp . 
+  yes , the code sucks , the architecture sucks , etc , but you 'll deliver . 
+  you 'll probably want to use an mvc-ish theme and/or plugin framework , though . 
+  there 's a couple of them out there . 
+  as for bigger projects , i ca n't really say . 
+  i just got started with laravel4 and it looks * awesome * , so i recommend looking into that . 
+  which theme are you using ? 
+  do you mean '' [ nextgen smooth gallery ] ( http://uninuni.com/wordpress-plugin-nextgen-smooth-gallery/ ) '' or just the '' [ smoothgallery ] ( http://wordpress.org/plugins/smoothgallery/ ) '' plugin ? 
+  the former appears to be taken down from the plugin repo and a quick google search tells me there was an [ sql injection vulnerability ] ( http://www.securelist.com/en/advisories/40858 ) . 
+  also , which exec-php plugin are you using ? 
+  [ exec-php ] ( http://wordpress.org/plugins/exec-php/ ) has n't been updated since 09 , while [ wp-exec-php ] ( http://wordpress.org/plugins/wp-exec-php/ ) is still maintained . 
+  if neither of these plugins are the problem , i 'd also investigate whether or not any of your users have weak passwords , or if there 's any other ( old ) software or scripts lying around on your server . 
+  also , definitely get wordfence . 
+  this is great , thank you !, 
+  wow, 
+  whether or not using wordpress in this context is a good or bad idea depends a lot on the details and complexity of the project . 
+  if it 's something more difficult , i 'd recommend at least considering a modern mv * framework instead . 
+  wordpress * does * have a lot of features available out of box , even more with plugins . 
+  however , if this is a reasonably large project , you 'll quickly discover that wp core code quality is very poor in some areas - if you do n't believe me , take a look at wp-login . php . 
+  same goes for plugins - some of them are built well , most are not . 
+  if you build an important feature around a poorly coded plugin , you will have a very hard time if it turns out you actually need to modify something later on ( as it usually happens in it ) . 
+  if you go with wp , do your research , esp . 
+  about the 3rd party plugins you plan on using . 
+  you 'll probably want to make sure they use actions and filters and that you can create custom templates without too much trouble . 
+  good luck !, 
+  never thought i 'd say this , but i actually think i like her growls more than alissa 's . 
+  awesome . 
+  one question though - are you including all the plugins in the site 's git repo ? 
+  assuming there 's just a small number of sponsors/contributors/friends , i would go with advanced custom fields + repeater add-on . 
+  it 's just as easy to set up and you can put everything on the same admin page . 
+  repeater costs a bit , but it 's saved me so many hours , totally worth it . 
+  if you 're serious about security , you 'll probably want to hire a professional pentesting company/freelancer . 
+  i think this is pretty much the only way to make sure your app is reasonably secure . 
+  but without revealing the specifics , there 's not a lot i can tell you . 
+  any specific reason you 're already worried about performance ? 
+  http://habitforge.com/ sends you reminder emails and tracks your progress . 
+  works pretty well for me . 
+  any specific reason why you think wp is not good for a small e-commerce site ? 
+  the only reason wp is considered less secure in general than other platforms is the plugin/theme ecosystem . 
+  wp in itself is not in any way more insecure than any other cms , so if you know what you are doing , it 's not really an argument . 
+  i do n't see why the fact that you need plugins for additional layers of monitoring is bad in any way . 
+  which features are missing - can you bring any good examples , in the context of smaller e-commerce sites ? 
+  i 'm not trying to prove you wrong or anything , i 'm genuinely interested because i ca n't think of any reasons why i would prefer , for example , magento over woocommerce . 
+  sorry , i 'm not very familiar with magento - does it really provide all these things out of the box , with no coding required ? 
+  i know that it 's relatively easy to implement most of these things on top of woo . 
+  maybe except some stuff that you might need for bigger stores , but woo is not meant for that anyway . 
+   woo does not natively support proper imaging . 
+  that 's just a shittily coded theme , unfortunately . 
+  wp supports multiple image sizes . 
+   the admin system is insecure for what i mentioned above . 
+  as someone with experience in pentesting , i disagree . 
+  wp is just another typical ~ cms , not much more secure or insecure than other popular platforms . 
+  i 've done some work on elance , investigated the competition , considered hiring from there and also fixed quite a few projects that were screwed up by southeast asian developers from elance . 
+  90 % of the client comments and 5-star ratings are meaningless . 
+  `` will go above and beyond to deliver blah blah , highly recommended '' is something you see very often . 
+  but in most cases it 's not in correlation with the quality of the work . 
+  many ( most ? ), 
+  of the clients are simply not technical enough to be able to understand what the developer actually delivered , so incompetent devs get easily get 5 star ratings for a good attitude and a low cost - as long as the result * mostly works * and the couple of small bugs the client will actually notice get fixed or hidden in a reasonable time . 
+  the only way to really figure out whether or not a developer is capable is to talk to them yourself and have them write real code . 
+  there definitely are good developers on elance , but the volume of ~ spam is very high , so the finding them will take lots of time , energy and possibly some luck . 
+  how does that even make any sense ? 
+  sure thing , `` you '' started the crisis in ukraine `` just to fuck with russia . '', 
+  it 's not like the people of ukraine have anything to say about it . 
+  apparently they were ok with living under the rule of a ridiculously corrupt government until murica decides that hey , let 's shake things up a bit , just for shits and giggles ? 
+  in 2012 and 2013 , ukraine ranked 144/177 in the world corruption index . 
+  in their situation , i 'd happily go and riot without any backing from the cia ( or whatever the current narrative of kremlin is ) . 
+  estonian here . 
+  / u/punasoni is completely right . 
+  nato did n't `` expand '' here , we happily joined them because we are afraid of russia . 
+  and one of the ( many ) reasons we joined the eu was definitely getting out of the russian sphere of influence . 
+  i do n't have enough information about crimea to be able to judge if it was a good thing for the people there or not , but the * way * it happened has made us really scared over here . 
+  many of the more vocal anti-americans have shut up and are now probably happy that the us brought troops here . 
+  in that sense , russia is definitely encouraging its neighbors to form military alliances . 
+  estonian here . 
+  yes , we happily joined nato , and only because we were afraid of russia . 
+  everyone here knows about the `` good old days '' of deportations and repressions . 
+  and as we can see now , this was a very , very good idea . 
+  absolutely not , it 's not enough . 
+  even being part of nato is not enough , practically everyone i know are still feeling very uncertain about the situation . 
+  i personally do n't think russia would attack us . 
+  however , i can totally see a militia `` spontaneously '' forming in eastern estonia , backed and armed by russian government , even though the russians living here have been more or less content with the situation so far . 
+  i agree that nato is an anti-russian organisation , that 's what it was created for . 
+  however , it 's a purely defensive organisation - although i can see how that might be difficult to comprehend when you are on the other side .

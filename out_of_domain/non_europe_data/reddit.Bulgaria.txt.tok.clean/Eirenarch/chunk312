@@ -1,0 +1,100 @@
+  most people who speak out against repositories do it because people who advocate for repositories ( and practically every single tutorial on repository pattern with ef on the internet ) are doing it wrong . 
+  however there are more reasons to dislike repositories even when the repository is implemented correctly . 
+  people who use repositories are often tempted to let the iqueryable out because it is convenient . 
+  without it you end up with a lot of parameters to your query methods and a lot of specific query methods . 
+  people instinctively dislike writing this code so they just release the iqueryable . 
+  problems like loading related entities ( include in ef terms ) and transactions are kind of annoying and result in somewhat complex methods with a lot of arguments when writing a proper repository . 
+  my view of the subject is that the repository implemented correctly is a heavy abstraction that has significant code and it should be considered carefully if the price is worth it . 
+  most projects never need to change a data store . 
+  if your project has clear indications that you might need to change data store go ahead and implement proper repository . 
+  if not just write the queries in the service layer against ef ( again the service layer is much more important than the data access layer ) . 
+  what happens if you are wrong and the data store needs to change ? 
+  well you just rework all the queries in the service layer ( possibly adding proper repositories in the process ) . 
+  it is a risk assertion problem . 
+  one thing that i am quite confident does not require implementing repository is unit testing . 
+  ef supports unit testing just fine . 
+  you may have heard that a dbcontext is an unit of work and a dbset is a repository . 
+  this is true in a way . 
+  you can mock these objects just fine and provide lists of objects that pretend to be a dbset . 
+  this way you can test your services . 
+  very few things do not work this way for example related entities are always included even if you do not add include so effectively your includes are not tested but this is also true for repositories . 
+  one argument against this approach is that queries should be tested separately from business logic but i do not think i agree with this . 
+  queries are super closely related to the business logic in almost every sense . 
+  i even think it a bonus that when testing with ef in memory data i get to test my queries together with my business logic . 
+  since they decided to not implement generics from the start i ca n't sympathize with the fact that they need to change the standard library . 
+  as i see it it is another reason their language sucks, 
+  this has been true for more than 15 years . 
+  i do n't see an increasing trend , the real explosion was some time ago ( when people realized they could easily target jvm and clr for new languages ) and the fire is still fueled with new languages, 
+  yes and also to js as compilation target, 
+  the author has not studied computer science and does not write code for a living but still knows how to modify the linux kernel in rust ? 
+  i think i have to go and read 10 the daily wtf articles to get my self-esteem back . 
+  women who care about it actually do . 
+  they often despise these type of professional victims, 
+  how bulgarian women in tech handle the parasites - https://www.youtube.com/watch?v=ok0vk3orlmc&amp;t=2120, 
+  how bulgarian women in tech handle the parasites - https://www.youtube.com/watch?v=ok0vk3orlmc&amp;t=2120, 
+  what are the criteria for uasf ? 
+  what percentage of nodes ? 
+  this site says current support is like 11 % - http://uasf.saltylemon.org/, 
+  i have linked a specific time in the video . 
+  the part is just a couple of minutes . 
+  an awesome lady tells the presenters that she owns an it business and when she hires women it does n't go well in various ways like for example the employees being lazy or expecting special treatment for being a woman . 
+  the look on the faces of the presenters is priceless, 
+  yeah and elsewhere she said that women specifically in bulgaria sometimes claim that they are being paid less than men with the same level of experience and she had observed that a woman claims 10 years of experience when in reality she took the extremely long maternity leave in bulgaria ( up to 3 years , and women in it usually take 2 because the money you get is severely reduced after the first year compared to it salaries ) and in some cases took it twice so they had like 5 years of experience spread over 10 years of time but they complain that they are not paid as much as men who practiced the full 10 years . 
+  as a language the advantages of c # over php are not easy to see when you build a new project or when you look at existing project . 
+  the power of c # comes in maintaining projects over a long time or in large teams . 
+  static typing and proper patterns while keeping the code short and readable via constructs like properties makes evolving existing project less painful . 
+  other than that the main thing you are going to notice in a new project is probably how powerful the auto-completion becomes when the ide has full type information . 
+  now if you are talking about the . net framework then it has some strengths compared to php like when writing desktop programs or games with unity 3d, 
+  what you talk about is a feature of the web framework not of php . 
+  one could build a web framework in c # that acts like php . 
+  i am not aware of any that do not have the concept of application but some of them are compiled on the fly ( i.e. 
+  you deploy . cs files on the server ) . 
+  and yes , asp.net is a request/response pipeline . 
+  web forms and asp.net mvc are frameworks for generating html on top of asp.net . 
+  shared memory is usually used for things like caches . 
+  how do you know `` copy if newer '' does not work for you ? 
+  you should n't be able to tell . 
+  if the file is unmodified then it will not be uploaded if the file is modified it will be uploaded . 
+  in any case you end up with the same file . 
+  is your application modifying the file ? 
+  if the file is modified at runtime you should put the original in the project but use another location for the actual file which the app uses . 
+  when the app start it should check if the file is there and if not copy the original . 
+  at least this is one way to do it, 
+  i really really want to see coop campaign ( like the nova campaign but coop ) with story , cinematics , and so on . 
+  no need to level up commanders and iterate the same missions endlessly . 
+  why ? 
+  this guy knows microsoft marketing !, 
+  good luck with that intel !, 
+  microsoft has lawyers too and they are not new to the patent litigation game . 
+  do the lawyers make the database ? 
+  which only goes to show that patents are not as powerful as expected and also google disregarded warnings and risked violating the patents . 
+  i ca n't imagine microsoft being careless about patents . 
+  this is entirely possible especially if you add the sales guys . 
+  interestingly / r/bitcoin blames jihan and bu for the problems . 
+  even if bu is inferior solution the blame still falls on core for letting the problem escalate without a solution . 
+  no matter which side one supports technically the failure in governance is still on core, 
+  no one will be able to buy back btc because of slow transactions , 
+  i always wondered what i liked about her . 
+  it was probably the fact that she is a psycho . 
+  too bad she did n't stream sc anymore ( or at least i ca n't catch her stream sc , only other games ), 
+  well , obviously their governance has failed . 
+  why is not the solution solving things ? 
+  in addition team games should display the border for the league you are in the current game mode, 
+  i am not sure how typescript and angular 2 protect you from the js ecosystem mentality . 
+  i love typescript as much as the next guy but i 'd not bet the farm that the community wo n't switch to something they find cooler . 
+  maybe typescript has more staying power but angular ? 
+  interestingly i think vs has less features compared to eclipse for example but the way they are setup by default is superior . 
+  for example when writing java in eclipse i have to force auto complete with while in vs it is always there . 
+  specifically i notice this when choosing an overload for a method , typing 2 arguments and going back to the first one to choose another overload . 
+  there are many things like these that just feel wrong in other ides, 
+  which has the same features as pro, 
+  it is technically possible . 
+  google tried this in one of their chrome experiments . 
+  they called it strong mode or something and experimented with some subset of typescript . 
+  the main benefit they cited was predictability of performance . 
+  in general the js engines are pretty good at inferring types and optimizing for the type a function generally accepts . 
+  if they see another type they deoptimize . 
+  the problem with this is not so much the small amount of time they spend profiling and deoptimizing but the fact that a small change somewhere may block the optimizer . 
+  the developer changes something that he deems small in js and the whole optimization process comes down crashing and burning . 
+  if the user is forced to pick a type then the performance hit would become more obvious like when you switch from list to dictionary in c # , you kind of understand that it will be slower . 
+  google dropped this experiment .

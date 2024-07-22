@@ -1,0 +1,100 @@
+  hell , i would prefer python 3.0 + in the browser but js just resists . 
+  adding library code , generating js code closer to the original source and backward compatibility with js matters a lot because it makes debugging and using external libraries easier . 
+  there have been many attempts to replace js . 
+  gwt , script # , coffeescript all failed to replace javascript for the masses although all of them are better . 
+  silverlight was one of them if you wish . 
+  all of them have failed . 
+  i have debugged a lot of js . 
+  it is far from the worst part of js . 
+  i usually debug in visual studio though . 
+  frankly at this point we can just speculate about the future but i still believe debugging raw js , library compatibility and smaller footprint is more important than the language improvements dart brings . 
+  after all c # is even better than dart ( in my opinion ) still almost no one uses script # . 
+  in your opinion what should be on the front page of / r/programming when ms announces new programming language ? 
+  i do n't work for ms but do work with ms tech ( i pay them not the other way around ) and i upvoted both threads on my own free will . 
+  i guess you can not possibly outperform typescript on this point . 
+  if no other browsers implement dart vm is it safe to say they win ? 
+  they are putting a lot of effort into js but the curse of `` open standard '' is that it is very hard to get everyone to agree . 
+  if you do n't need it do n't use it but as a vs user i doubt google will release dart support for my ide of choice so dart is no good for me . 
+  also it is much worse when compiling to js . 
+  yes . 
+  you think this is wrong ? 
+  what country are you from so i can organize protests to burn your embassy ? 
+  interesting . 
+  i 'll wait to see . 
+  it still is if you have to develop 2005-style websites that webforms was designed for . 
+  you know the kind of websites that are useful and do n't pretend to be desktop applications - sites like wikipedia . 
+  yes since 10 . 
+  i ca n't remember if 9 to 10 will be automatic when it is released for windows 7 . 
+  so they should n't implement it because you ca n't see the benefit now ? 
+  btw the case with ie is such that even the most aggressive auto update will be blocked by companies and `` clever '' users . 
+  after all windows update prompts you to install newer ie but so many people simply disable it . 
+  true . 
+  also 8 is the new 6 . 
+  in fact in the first days it was a superset of c and was translated to c instead of directly generating assembly just like typescript . 
+  how about this niche for a language for people who want as much type safety as possible but want their code to be consumeable and debuggable from javascript and also want to consume the js ecosystem ? 
+  except that these days javascript is used for developing server side applications and also developing client logic for web applications like google docs for example . 
+  i am not sure about google docs to be honest . 
+  i was just giving example of the type of app but i am remember a session on gwt where they said gmail was not using it so you are correct that it is team by team decision . 
+  g + is not gwt either despite having java backend, 
+  well if c with classes is not considered c++ i stand corrected . 
+  although for practical purposes it is very close to superset . 
+  i meant c++ although as others pointed out at this point it was still called c with classes http://www.cplusplus.com/info/history/, 
+  one of the coolest tech talks i have seen was on development methodologies . 
+  it used the religion metaphor ( complete with bible , sects , followers , etc. ), 
+  to describe development methodologies . 
+  waterfall was the one true religion ( christianity ) and it was the right way , then somebody said that it was not the right way and they started to split . 
+  they published bibles and each religion has a bible where the principles are stated . 
+  these days it is easy to start a religion because you can publish your bible as e-book , 
+  i opened in ie9 and saw nothing . 
+  obviously it is a language not supported on my system so i do n't care about it . 
+  strange . 
+  i 've always been told that it was the first methodology invented when someone had to invent methodology to describe the process for government contracts . 
+  never cared about it ( or any other ) to do my own research on the subject . 
+  someone got open source totally wrong and put the solutions on github , 
+  not bad . 
+  on the other hand you can just create asynchronous asp.net http handler and you have the . net version of node.js right there . 
+   async http handler creates new thread every time . 
+  false, 
+  requests in iis do not spawn a new thread . 
+  they use a thread out of a thread pool which by default has 25 threads per core so there will never be thousands of threads unless you have hundreds of cores ( in which case you do want thousands of threads ) . 
+  the problem is that regular requests take up a thread and even if they do not do cpu bound work they still block the thread and new requests will wait . 
+  this is where the async handlers/pages/services / controllers come in and they work the same way as node.js works except that node.js has only one thread and iis has 25 per core ( by default , you can set this to 1 if you want to ) . 
+  this benchmark looks realistic . 
+  the difference is relatively small ( ~ 10 % ) . 
+  if he had n't used async node.js ( or the async asp.net version for that matter ) may have been able to handle hundreds of times more requests . 
+  i do n't know what is the possible overhead of web api and why node is faster . 
+  my guess is that there are more things happening in the web api pipeline that probably have some use . 
+  node.js has almost zero overhead out of the box but then you manually add all the things for security , processing complex requests , etc. 
+  also in the real world . net may pull ahead if the computation favours the clr ( static typing , etc ) over v8 . 
+  it is interesting that the benchmark shows that the web api is using multiple cores and in this way producing higher cpu usage but still it can handle less requests . 
+  i want to know the reasons but do n't want to do the research myself . 
+  in any case webapi performs reasonably on this test . 
+  as i already said asynchronous operations are about increasing the throughput hundreds of times so for practicle purposes you do n't have a reason to switch from c # to node.js especially if you have some other part of the system running on . net . 
+  remember that the async stuff is part of asp.net which means that you can share security code , sessions , cache , etc which you will have to duplicate on node side . 
+  node can not even share memory with node instances running on other cores so you will need some other means to share data between them which increases the complexity of the solution . 
+  especially seeing that skyrim is released on the xbox which is even more closed system than the win8 store and requires even more severe certification . 
+  oh and apple are doing just fine with their closed ecosystem . 
+  i am absolutely sure that it is better for the market leader . 
+  you open up your ecosystem if you need to catch up ( like google ) . 
+  if you are confident that you have the critical mass needed to accumulate software as a platform vendor you 're better off closing your ecosystem like apple does . 
+  now if ms has this critical mass is entirely different question . 
+  i am not sure if you are better for consumers . 
+  surely power users may not be happy with closed ecosystems but for majority of users the fact that installing an app from a vendor store is so secure and painless is a big win . 
+  i also have my doubts if closed ecosystem is better for developers . 
+  it certainly is worse for big name developers like valve for example because people trust them one way or another . 
+  it is also worse for developers of certain types of apps like web browsers ( as we can see apple just prohibits other rendering engines on ios ) . 
+  however for indie developers it may be much better . 
+  first of all users do n't need to trust your app . 
+  they only need to trust the platform vendor . 
+  apple did the checks and made sure the app has some reasonable quality . 
+  i would do a lot of thinking before installing software from no-name vendor on windows . 
+  stores also help with discoverability . 
+  the experience browsing a dedicated store is much better than looking for software on the web so users are much more likely to discover the app . 
+  yes but they do require you to use the store to buy ipad apps and if in the future ms do in fact require you to install all apps via the store i bet apple will arrive in this future first with the mac . 
+  seeing that android has security problems as well i think technical design has very little to do with this . 
+  why not ? 
+  its not like they do it behind my back . 
+  this is part of the deal . 
+  like ads in google , mining my information on facebook and paying for the product . 
+  besides i sometimes look at this as a service - `` please apple filter the crappy apps for me '', 
+  very useful .

@@ -1,0 +1,100 @@
+  i do n't know of any, 
+  nope , the benchys ( benchies ? ), 
+  are n't supposed to be cleaned up , they 're for helping in calibrating your printer, 
+  i 'm not a guru , but i 'd say :, 
+  1st layer too far from the bed , adjust your z endstop . 
+  increase retraction . 
+  lower the extrusion multiplier a tiny bit . 
+  the mk3 is thick , like 3mm , and it has a metal ( alluminium ) side and a black side, 
+   go to the dollar store , buy a picture/diploma frame that is about the size of your bed , and take the glass out of it . 
+  it should be a few dollars at most . 
+  use that glass to print on . 
+  i spent 1 $ for a 200x200x3mm piece of glass at the glazier . 
+  i 'd suggest going there instead . 
+  better glass , less money . 
+  in my experience , it depends on the filament . 
+  i 've had some that warped no matter what and others which did n't . 
+  lately i 've been buying from ice filaments , and by heating the chamber to 35 c ( which you can reach just by enclosing it ) and being careful with adhesion , i 'm getting great results . 
+  the only problem is that they require an higher extrusion temperature , near to 250c , so make sure your hotend can manage it . 
+  just do n't try it on a standard j-head , you have to extrude it at 1100c, 
+  yeah , but once you got it on your parts it dissolves most other lubricants you add until it 's gone itself . 
+  well , as long as it 's airtight , cardboard is probably enough . 
+  you should try preheating the chamber with an hairdryer , this way you get everything warm , chassis included . 
+  you could point it toward the bed to help it heart up , after all a normal hairdryer is 2kw !, 
+  just be careful not to overheat it and do n't point it to plastic parts of the printer . 
+  just put some tape over the gaps . 
+  and be careful with the hairdryer !, 
+  you should add the location , otherwise most people will assume you 're on the other side of the planet, 
+  well , the hotend is more dangerous than the bed ... 
+  can you check if the extruder is prone to skipping steps ? 
+  be sure to note the number of benchys you possess, 
+  honestly for what i use them they 're kind of inconvenient most of the time , but i have n't gathered the courage to spend the money for better ones yet !, 
+  i 've seen a kit that converts between normal ( thin ) ones and alligator clips which would be pretty useful . 
+  yes , iirc marlin for example has a mintemp setting of 5 degrees . 
+  you can change it in configuration.h and recompile the firmware . 
+  idk about other firmwares . 
+  i do n't know whether cura lets you move an object vertically . 
+  you may have to use a 3d editor to make a new model from multiple ones . 
+  yep , it looks nice . 
+  the alligator clips could be better , though . 
+  [ see fluke 's ] ( http://www.fluke.com/fluke/sgen/accessories/test-leads-probes-and-clips/tl220.htm?pid=56735 ), 
+  my 115 only came with the ones pictured, 
+  i want to build a corexy with a duet board , but they 're expensive :(, 
+  blender , inventor , autocad, 
+  that 's something i 've been thinking about for some time . 
+  i 'd like to build a corexy out of laser cut steel , like my p3steel . 
+  it would be heavy as fuck !, 
+  i think most people build corexys out of aluminum extrusion because it can be easily modified . 
+  [ a repstrap is a 3d printer cobbled together from whatever parts you can find , which will eventually allows you to print the parts for a reprap printer , or to simply use as a stand alone machine . 
+  derived from the term bootstrap , as in `` to pull yourself up by your bootstraps '' ] ( http://reprap.org/wiki/repstrap ), 
+  something 's wrong , the image is incredibly tiny, 
+  sometimes you just end up with bad filament, 
+  sony . 
+  sukate coreani , japan numbah one !, 
+  material ? 
+  you 'll have to follow up one year from now and show us how it held up !, 
+  yeah , that 's what i meant, 
+   but apple were the first to completely get rid of the 0-9 keypad, 
+  they were n't, 
+  i seem to remember watching jobs announce the original iphone [ with this in my pocket ] ( https://en.wikipedia.org/wiki/htc_p3600 ) , so there were actual phones like that before . 
+  and it had umts , which the first iphone did n't . 
+  also a proper gps chip . 
+  remember that this happens to the rods also . 
+  i suggest switching to brass nuts, 
+  their main purpose is to prevent seizing, 
+  he 's from the fallout universe , and has nuclear heating !, 
+  there goes the 10 moneys limit, 
+  breathtaking . 
+  this was not at all a form of promotion for design software . 
+  what 's your microstepping setting ? 
+  'cause they 're made to allow you to use the tips on small parts close together , without the fear of touching the banana plugs and causing a short, 
+  if you connect both motors to the same driver it 's very unlikely that one will miss steps and the other does n't . 
+  hell , if you turn one manually , the other one will try to follow . 
+  using a belt instead will add play , i would n't suggest it . 
+  if only your fingers were n't covering most of it ... =p, 
+  dragon 's got a mouthful of noodles !, 
+  try browsing `` new '' sometimes, 
+  the arduino is n't the problem , it 's ramps ... 
+  they sell for 3 $ on aliexpress , you ca n't expect quality or safety . 
+  as a suggestion , never program the arduino while ramps is powered , and maybe do it through a powered usb hub . 
+  [ that 's an easy question to answer ] ( https://www.reddit.com/r/tiko ), 
+  we need action !, 
+  if i were him [ i 'd buy a set of proteins online ] ( http://www.ebay.com/sch/i.html?_odkw=prusa+i3+proteins&amp;lh_prefloc=2&amp;rmvsb=true&amp;_sop=12&amp;_fspt=1&amp;_mprrngcbx=1&amp;_osacat=0&amp;_from=r40&amp;_trksid=p2045573.m570.l1313.tr0.trc0.h0.xreprap+proteins.trs0&amp;_nkw=reprap+proteins&amp;_sacat=0 ) , that way you leave the qa to somebody else . 
+  if you check the link there 's also an interesting kit with a p3steel frame , which , as the happy owner of a self-sourced one , would be a great option . 
+  with the stuff from the one he bought ( provided the hotend is good ) he could have a great printer for 100 $ . 
+  [ here you can download it , by the way . 
+  i 'm posting the link because it can be hard to find sometimes . 
+  i think ramps has z motors in parallel and it seems to work fine, 
+  the current going to the motors should be limited by the trimpot on the driver board , so i do n't think that 's the issue . 
+  maybe you just got a couple of defective drivers , it happens . 
+  if there 's one, 
+  well , the p3steel rods are unfortunately of a different length , so you 'd need those too . 
+  as for printing by yourself ... are you going to be doing that personally , or will somebody do it for you ? 
+  printer parts are better if printed out of abs , and abs is tricky . 
+  otherwise you can go with pla , but do n't expect them to last as long ( and careful when fitting the bearings , the part may crack ) . 
+  if you go with the p3steel and want to print your own parts , you may be better off printing the [ toolson edition ] ( http://forums.reprap.org/read.php?406,569018 ) , except with a geared extruder instead of of the bowden setup . 
+  it 's a shame you threw the original proteins away , tape , glue and metal wire can go a long way towards making a printer work again , 
+  if you 've got the tap you can ( carefully ) use an adjustable wrench . 
+  drills ( non press ) tapping something soft like aluminium are highly discouraged . 
+  wd40 is not good on iron or steel but actually better that actual cutting oil on aluminum, 
+  source : metal worker,

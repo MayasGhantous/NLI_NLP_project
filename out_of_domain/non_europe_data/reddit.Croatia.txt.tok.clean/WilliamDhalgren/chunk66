@@ -1,0 +1,100 @@
+   but again , no explicit maximum listed, 
+  right - maximum is a matter of definition . 
+  if it sags so much that it ca n't deliver most of its capacity , its likely too much for it . 
+  also , if it heats up too much during the discharge . 
+  how much sag is too much and how high a temperature is too high is a bit arbitrary . 
+   tl ; dr - from all this , i believe that the vtc5 is realistically rated at a maximum continuous discharge of 20a , according to the same standards used to rate other cells . 
+  under the criteria you 've chosen yes . 
+  there really are no industry standards for continuous ratings . 
+  check this out too http://www.e-cigarette-forum.com/forum/batteries-chargers/592339-comparison-vtc4-vtc5-lg-icr18650he2-samsung-inr18650-25r.html, 
+   without active cooling , any continuous discharge above 20a may damage the cell because the organic electrolyte will start to decompose above 60 degree c. 
+  see the chart below showing how hot a cell becomes under discharge ( almost 80 degree c @ 20a and a whopping 100 degree c @ 30a ) :, 
+  i 've mentioned this ratings inflation in many modern batteries a few times around the subreddit too , as well as that i would n't like to push vtc5 to 30a - thx for bringing it up again . 
+  well if rhaenyra became the queen , in the next generation there could 've been another succession war between aegon iii who is no doubt a legitimate son of a queen , and jacaerys `` velaryon '' , had he lived . 
+  bastards do n't inherit . 
+  if that andal trait is dominant over valyrian , and rhaenyra carried it to pass to her children , it should 've been dominant in her too . 
+  she should 've looked like an arryn . 
+  but this could work if the trait is recessive to valyrian ones , and both she and her husband are carriers of that recessive trait . 
+  and happen to get that one out of four combination every single time they have kids together ... 
+  maybe her husband 's an illegitimate son of some vale blood and they just got unlucky in the gene combinations ? 
+  basically if the mother admits to having bastards , as opposed to the child being accepted both by her and her husband . 
+  i meant , undenied bastards like blackfyres are proven as such . 
+  yeah , to someone not privy to the information readers got in the books , joffrey really shoud be the legitimate king . 
+   and ned was yet another hand usurping the wishes of the dead autocrat , for rob clearly did wish joffrey to inherit the throne . 
+  niti cini se treba zakonski regulirati da bi bilo rijetko : http://en.wikipedia.org/wiki/cousin_marriage#mediaviewer/file:global_prevalence_of_consanguinity.svg, 
+  would be fairly anticlimactic if it goes down too . 
+  built after the long night , so untested for its true purpose ; stood there defended by a brotherhood for millenia , and just collapses when finally needed without doing shit . 
+  hope whatever they do to get past it does n't involve a magic horn just deux ex machina collapsing it . 
+  joramun had that horn , woke the giants supposedly ( of some sort with it ) , yet anyhow , still his host broke on the wall . 
+  ideally it would be of help but ultimatelly insufficient to prevent the others/some of their force from moving further south . 
+  it has been effectively used as a political tool up to now - by mance to bind the wildlings and give them confidence , searching for it even though he does n't intend to use it , the false horn , as a negotiating chip with john , and by melissandre to impress the wildlings . 
+  and the legend about it seems merely like a wish-fulfilment legend of the wildlings . 
+  and joramun had it , yet his host broke on the wall ultimatelly . 
+  oh this is so devastating to hear confirmed , though i suspected as much . 
+  well , i really hope 7.12 w it happens after all . 
+   the tl ; dr is the patch feels complex for what it 's supposed to accomplish , and this is the main hold-up from what simon told me . 
+  i honestly do n't see how a decent overloaded record system could be anything other than fairly complex . 
+  i presume this will become future release notes - https://git.haskell.org/ghc.git/blob/refs/heads/ghc-7.10:/docs/users_guide/7.10.1-notes.xml, 
+  surely incomplete but still :, 
+  language :, 
+  - there is a new extension , staticpointers , which allows you to create pointers to expressions which remain valid across processes . 
+  this is useful for referencing higher-order values in distributed systems . 
+  the pointers are created with a new keyword static as in, 
+  x = static ( `` abc '' + + `` 123 '' ) : : staticptr string . 
+  all processes which dereference x get the same result , that is , the body of the static form . 
+  - added support for binary integer literals, 
+  - simplified rules for implicit quantification . 
+  in previous versions of ghc , it was possible to use the =  arrow to quantify over type variables in data and type declarations without a forall quantifier . 
+  for example , data fun = fun ( ord a =  a -  b ) was identical to data fun = fun ( forall a b. ord a =  a -  b ) , while data fun = fun ( a -  b ) caused a not-in-scope error . 
+  this implicit quantification is now deprecated , and variables in higher-rank constructors should be quantified with forall regardless of whether a class context is present or not . 
+  ghc 7.10 raises a warning ( controlled by - fwarn-context-quantification , enabled by default ) and ghc 7.12 will raise an error . 
+  see examples in ghc documentation . 
+  the change also applies to template haskell splices such as [ t | ord a =  a | ] , which should be written as [ t | forall a. ord a =  a | ], 
+  - instance contexts inferred while processing deriving directives attached to data and newtype declarations now forbid equality constraints . 
+  this is a regression in obscure cases , but it will yield better error messages in more common cases . 
+  users caught by the regression can simply use standalone deriving , where you specify the context yourself . 
+  compiler :, 
+  - ghc now checks that all the language extensions required for the inferred type signatures are explicitly enabled . 
+  this means that if any of the type signatures inferred in your program requires some language extension you will need to enable it . 
+  the motivation is that adding a missing type signature inferred by ghc should yield a program that typechecks . 
+  previously this was not the case . 
+  this is a breaking change . 
+  code that used to compile in the past might fail with an error message requiring some particular language extension ( most likely - xtypefamilies , - xgadts or - xflexiblecontexts ), 
+  - - fwarn-tabs warning flag is turned on by default with this release of ghc . 
+  it can be suppressed either by using ghc_options pragma or by specifying - fno-warn-tabs flag . 
+  - a new warning flag , - fwarn-trustworthy-safe has been added and is turned on with - wall . 
+  it warns when a module that is compiled with - xtrustworthy is actually infered as an - xsafe module . 
+  this lets the module author know that they can tighten their safe haskell bounds if desired . 
+  - the - fwarn-safe and - fwarn-unsafe that warn if a module was infered as safe or unsafe have been improved to work with all safe haskell module types . 
+  previously , they only worked for unmarked modules where the compiler was infering the modules safe haskell type . 
+  they now work even for modules marked as - xtrustworthy or - xunsafe . 
+  this is useful either to have ghc check your assumptions , or to generate a list of reasons easily why a module is regarded as unsafe . 
+  for many use cases , the new - fwarn-trustworthy-safe flag is better suited than either of these two . 
+  - - ddump-simpl-phases and - ddump-core-pipeline flags have been removed, 
+  - many more options have learned to respect the - ddump-to-file . 
+  for example you can use - ddump-to-file with - ddump-splices to produce a . dump-splices file for each file that uses template haskell . 
+  this should be much easier to understand on a larger project than having everything being dumped to stdout . 
+  - compiler plugins ( with the - fplugin flag ) may now modify the behaviour of the constraint solver , to add new functionality to ghc 's typechecker . 
+  - a new warning flag , - fwarn-missing-exported-sigs has been added . 
+  the behavior is similar to - fwarn-missing-signatures but ghc will only, 
+  flag exported values . 
+  this flag takes precedence over - fwarn-missing-signatures so it can be used in conjunction with - wall . 
+  template haskell :, 
+  - added support for generating line pragma declarations, 
+  - the type pred ( which stores a type constraint ) is now a synonym for type , in order to work with the constraintkinds extension . 
+  this is a breaking change and may require some rewriting of template haskell code . 
+  - pattern splices now work . 
+  - reifyinstances now treats unbound type variables as univerally quantified , allowing lookup of , say , the instance for eq [ a ] . 
+  - more kind annotations appear in reified types , in order to, 
+  disambiguate types that would otherwise be ambiguous in the presence of polykinds . 
+  in particular , all reified tyvarbndrs are now kindedtvs . 
+  ( this does not affect template haskell quotations , just calls to reify . ), 
+  - various features unsupported in quotations were previously silently ignored . 
+  these now cause errors . 
+  - lift instances were added for many more types : all of the intxx and wordxx types , ratio a , ( ) , float , and double . 
+  - all template haskell datatypes now have generic and ord instances . 
+  - ppr instances were added for lit and loc, 
+  - two new declaration forms are now supported : standalone-deriving declarations and generic method signatures ( written using default in a class ) . 
+  this means an expansion to the dec type . 
+  - template haskell is now more pedantic about splicing in bogus variable names , like those containing whitespace . 
+  if you use bogus names in your template haskell code , this may break your program .

@@ -1,0 +1,100 @@
+  amdgpu-pro from aur works fine for me . 
+  have you downgraded xorg-server and xf86-input-libinput ? 
+  you can disable all optimization , but it 's not a good idea . 
+  default ` - o2 ` flag with ` - march = generic ` should be fine for all cases . 
+  gcc flags can do magic tho too , i got a nice fps boost in minecraft by rebuilding openjdk with a flag that makes the executable use 128-bit fp whenever possible . 
+  edit : the flag i used is ` - mprefer-avx128 ` btw , in case anyone wants to try if it makes a difference , ca n't test myself anymore . 
+  recommended cflags for amd fx 81xx in gentoo wiki are : ` '' - o2 - march = bdver1 - mprefer-avx128 - mvzeroupper - pipe '' ` , if you have an fx-83xx , change bdver1 to bdver2, 
+  ` - ofast ` masterrace c :, 
+  i prefer monodevelop for c #, 
+  i think clear linux is built with intel c compiler . 
+  check benches on phoronix , it does perform well . 
+  classic briar from killing floor 2 . 
+  press enter twice or it wo n't make a new line :p, 
+  my fetish, 
+  do xeons game fine ? 
+  been looking at some cheap used xeons , 12-14 core models are interesting . 
+  also trying to do game development as a hobby , would probably benefit from more cores :p, 
+  some sites say feb 28 , some say march 2 . 
+  which is it ? 
+  or is the latter eu launch ? 
+  replacing linux kernel ? 
+  kinda miss my 1st gen xcover . 
+  hard bricked it lmao, 
+  hoping vega 10 comes first . 
+  i do n't give a crap about android pay as i have a contactless card anyway . 
+  ah , thanks . 
+  so what the hell are we supposed to get , realtek ? 
+  native is recommended if you do n't know the cpu model i think . 
+  if you do know it , you can check what 's recommended , it might boost performance . 
+  yeah but i think it leaves out some flags . 
+  not looking for dual cpu , just single . 
+  i 'm sure 14 cores would be enough for my uses . 
+  alternatively i could wait for ryzen . 
+  yeah in most apps, 
+  you do n't have to obey truck speed limits at all either . 
+  i just go as fast as i can without getting a ticket lmfao, 
+  that said , it 's very risky ( and fuel inefficient ) going 160kmh in the autobahn with a truck . 
+  nope , i get tickets when i go over car speed limits . 
+  i hope some of that team is working on linux drivers : <, 
+  nope , but fury is . 
+  not all games will run at that framerate , but it 's enough . 
+  i usually run story games maxed out , getting 60-ish fps . 
+  multiplayer like gta online and fps games i try to get 100 + fps . 
+  of course , it 's subject to personal preference and what 's enough for you :p, 
+  romania probly, 
+  why not run 75hz full time ? 
+  i use my monitor at 144hz all the time . 
+  what, 
+  well i 'm using an r9 nano , it 's like 30 % faster than a 480 . 
+  getting 140-ish fps at 1440p so i imagine it 's possible . 
+  i wish all games were like doom . 
+  edit : at least in terms of optimization . 
+  id software is a bunch of fucking magicians . 
+  yes, 
+  i just want an upgrade . 
+  i hate this quadcore trash . 
+  why is everyone against root ? 
+  higher dpi wo n't make it smoother , higher polling rate will . 
+  carbon was great imo . 
+  after that , steep downhill . 
+  my friend 's razer mouse gets interference from his logitech headset occasionally , and it drives him mad . 
+  i told him that he shoulda bought a g900 and he just says `` logitech sucks lole '', 
+  480 delivered what was promised . 
+  i wish there was a product like this with linux : <, 
+  \\  believing rumors, 
+  too long . 
+  i do n't think there 's any technical limitation , other ue3 games have had better aa , like smaa and taa in the vanishing of ethan carter . 
+  maybe they 're just focusing on different things . 
+  you can use mlaa if you force it from amd control panel . 
+  i used it for a while and it worked fine . 
+  i get medic smg on round 2 for extra heals , then sell it to get shotgun ( or straight to ar if i have the dosh ), 
+  nailgun can be good on support tho , i like to use it if i hold a corridor . 
+  smaa is good though . 
+  this is why vrr monitors should become a standard . 
+  for that to happen , nvidia needs to stop being greedy . 
+  freesync pls, 
+  freesync uses the scaler too ... 
+  it just can be implemented into any scaler , does n't need to be nvidia specific hardware . 
+  usually stick with the biggest bunch , or the best players , leave everyone else dying alone . 
+  might be crap cpu . 
+  there 's kdirstat for linux, 
+  i learned that when i got a laptop from a german friend lol, 
+  has n't happened to me , but has happened to my brother with an amd cpu . 
+  i only tried amd-staging kernel and it seemed to boost framerates . 
+  others might boost general desktop usage ( like linux-ck ) but doubt they 'll do anything for gaming . 
+  some games just crash when you apply settings , i dunno why . 
+  like gta v would crash if i try to change from fullscreen to borderless . 
+  and that 's fine . 
+  if you like consoles , you can play on them . 
+  just do n't be a blind fanboy :p, 
+  and i 'm here wondering if i should get a 1080 . 
+  you gain an unfair advantage from using a better os . 
+  no disruptive updates etc, 
+  where in the fuck can you find a 1080 for 700 $, 
+  so ... am3 and am4 coolers fit ? 
+  i 'd recommend a high-end aircooler , if aesthetics are n't an issue . 
+  they 're ugly , but more reliable , more silent , cheaper . 
+  nh-d15 vs h100i v2 , 90 $ and 130 $, 
+  it did n't work for my friend at all : /, 
+  it got stuck , he had to kill steam and redownload the whole game .

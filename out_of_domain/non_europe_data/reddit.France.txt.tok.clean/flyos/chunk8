@@ -1,0 +1,100 @@
+  i solved this by manually configuring the dns servers for this connection using a working resolv.conf file ( in kde , you can do that in the ipv4 and ipv6 tabs of the connection configuration : just insert that ip addresses of the dns servers and search domain if provided in the resolv.conf ) . 
+  not be the best workaround though . 
+  could n't you just do that with the find and replace utility ? 
+  the word `` user '' is in 3 of 5 paragraphs of the vision . 
+  the whole second and third paragraphs are about the vision for the user experience . 
+  see [ here ] ( https://www.reddit.com/r/kde/comments/5eyqh2/plasma_5_on_a_touch_screen/ ) and [ there ] ( https://www.reddit.com/r/kde/comments/6c7uav/help_making_plasma_usable_on_my_convertible/ ) . 
+  hope this helps !, 
+  vendor stickiness would be a better way to manage that , would n't it ? 
+  it keeps all the packages installed from the same repo and does n't touch the rest , unless conflicts appear . 
+  dijon `` progressive '' ?!!, 
+  mais effectivement , les [ derniers r\u00e9sultats de la pr\u00e9sidentielle ] ( http://www.lemonde.fr/bourgogne-franche-comte/cote-d-or,21/dijon,21231/elections/presidentielle-2017/ ) montre que la ville a \u00e9t\u00e9 plus favorables \u00e0 m\u00e9lenchon qu ' \u00e0 fillon . 
+  as far as i know , latte dock simply follows the plasma theme , apart from its specific options ( like where the `` dots '' are supposed to be placed , etc. . . ) . 
+  hm ... good question . 
+  vendor stickiness would ensure you stay within the same repo for update , but when you install a new package ... yeah , i guess it would select the highest version wherever it comes from . 
+  you might be right on that . 
+  maybe some experts will come by and enlighten us . 
+  maybe i 'm overworrying then ... , 
+  even in december you think it 'll be easy enough ? 
+  that 's what worries me a bit actually . 
+  i trust you that i do n't , but may i ask why ? 
+  random thing : the landlords are actually french !, 
+  that 's good to hear , thanks !, 
+  the website information is much more vague than that . 
+  good to know , thanks !, 
+  what i understood ( apparently wrongly ) is the hardship was if due to unforeseen events , it would very harmful to keep paying the rent until the end of the tenancy . 
+  of course , getting a job is not the hardship per se . 
+  not the best venue , but i forgot to include that in my response to the study . 
+  there 's something that has been bugging me for a while : the first time you open an e-mail in its own window ( like when you click on the notification ) , you ca n't delete it . 
+  the trash icon is greyed out . 
+  is that on purpose ? 
+  yes , on imap . 
+  sorry , i was n't very clear . 
+  when clicking on any e-mail already in the e-mail list , the trash icon behave normally without issue . 
+  it needs to be an e-mail freshly received . 
+  i think the best way to reproduce is to directly click on ~ ~ `` view mail '' ~ ~ `` show mail '' on the notification `` popup '' of a new incoming e-mail , which opens a window for this specific e-mail . 
+  on any version of kmail i had , when doing this , the trash icon is greyed out and be clicked . 
+  it would be nice to be able to click on the pop-up , look at the e-mail , decide you could n't be bothered and delete it . 
+  right now , you ca n't delete it directly from the e-mail window . 
+  hope it 's clearer . 
+  i can try and provide screenshots if not . 
+  edit : just tested ( difficult to trigger a test , kmail seems to be too smart for its own good and not show the pop-up if the e-mail is sent by one of the identities , nice feature btw ) and `` file  move to wastebin '' is greyed out as well . 
+  what made we switch to kmail was contact sync using carddav . 
+  it was soooo easier to do using kmail than thunderbird at the time and a needed feature for me . 
+  but despite acknowledgeable bumps throughout my history with kmail and akonadi , i still think it works better for me than thunderbird ( which i admittedly have n't used in a while , but it does n't seem it 's really gaining new features nowadays ) . 
+  many nice features in kmail . 
+  i 'm not saying kmail is better than thunderbird . 
+  both have their own strength and weakness , and it 's very likely the latter is more reliable right now , it 's just no progressing anymore , at least that was my feeling when i left it . 
+  i can install it on tumbleweed and test it a bit if you 'd like . 
+  what kind of feedback are you interested in ? 
+  there was a bug with this a while ago ( i think it was kmail 5.3.0 , but not sure ) . 
+  it 's been corrected since . 
+  you can ask your distribution to backport the fix ? 
+  ( whole thread is [ here ] ( https://www.reddit.com/r/france/comments/6lkrxq/ce_quon_pourrait_appeler_un_melting_pot_bac_2017/ ) ), 
+  churchill \u00e9tait populiste ? 
+  will do ( not now , but in the coming weeks hopefully ! ), 
+  merci . 
+  it 's supposed to be the plasma logo on the launcher nowadays . 
+  does n't work for me here ( the `` in '' part i mean ) . 
+  could the keyword be localised ? 
+  i tested some french words like `` en '' or `` vers '' , does n't work either ... 
+  i just meant the `` 100usd in euro '' part . 
+  i can convert by typing `` 100usd '' , say , but if i want to convert to nzd , then `` 100usd in nzd '' does n't work , contrary to what / u/kbroulik states , so i wondered if it was something about the french locale . 
+  where can i find this ? 
+  i think having a hud-like feature was discussed along when global menu was being worked on . 
+  i can swear i 've seen a mockup of it ... 
+  found it !, 
+  it 's called [ kactionrunner ] ( http://www.angrycane.com.br/en/2017/04/11/kactionrunner/ ) , more update [ here ] ( http://www.angrycane.com.br/en/2017/04/18/updates-on-the-kactionrunner-thinkering/ ) . 
+  no news since april though ... 
+  when did fiber die ? 
+  have n't followed that piece of news ... 
+  apparently , the big fuss with ff55 is that it 's supposedly ( did n't test myself ) more responsive and fast than the previous versions . 
+  ok , thanks !, 
+  seems that there is an encoding issue , i 'm seeing this :, 
+  msgid `` in ; to ; as '', 
+  also , the spaces should n't be there , should they ? 
+  i do n't have any knowledge about how to test that though ... 
+  merci qui ? 
+  according to / u/rbrownsuse , the difference is that canonical , while not making profit , is not really solvent , so not really a good target to sue , while suse would be . 
+  ^ the ^ cake ^ is ^ a ^ lie, 
+  praise to you my dear sir !, 
+  to be thorough though , leap is more conservative than ubuntu is . 
+  i agree generally with your post , but i just thought it was worth pointing out that release dates ( especially a `` minor '' release like 42.3 ) are not super easy to compare between the two !, 
+  so ... how often do you rollback ? 
+  i 'm pretty sure my disk usage increases with time and fall back down with a rollback ( just happened today actually ) , but since i 'm not sure i understand how snapper and btrfs works , i 'm not sure it 's not because something 's rotten in my config somewhere ... 
+  no , but every time i run out of disk space , rolling back to the current snapshot and removing all other snapshots allow to get back my disk space . 
+  i do n't understand this , really , especially if you tell me your disk usage is stable . 
+  well , it varies of course , but i keep them low . 
+  right now , i have this :, 
+  sudo snapper list, 
+  single | 0 | | | root | | current |, 
+  single | 1379 | | lun . 
+  28 ao\u00fbt 2017 17:14:45 cest | root | number | rollback backup of # 1378 | important = yes, 
+  single | 1381 | | lun . 
+  28 ao\u00fbt 2017 17:40:39 cest | root | number | zypp ( zypper ) | important = no, 
+  post | 1391 | 1390 | lun . 
+  28 ao\u00fbt 2017 17:41:23 cest | root | number | | important = no, 
+  edit : i have nothing in cron.weekly , but i have `` suse.de-snapper '' in cron.daily . 
+  ok , i can confirm this command did create those files for me ( without reboot ) . 
+  so , these should now keep the disk usage in control ? 
+  i ran btrfs-balance , not surprisingly it did n't change much the disk usage , but since the rollback , i was `` back to normal '' already ( meaning between 7go-8go free is what i expect from my filesystem ) .

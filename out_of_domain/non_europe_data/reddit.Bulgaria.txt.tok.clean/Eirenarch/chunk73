@@ -1,0 +1,100 @@
+  if you have this problem just quit . 
+  there are so many job offers ... for 6 years professional programming i 've worked past work hours on a total of 4 occasions . 
+  i loved the walking dead and i even think it is significantly better than the tv show . 
+  however i was really annoyed by the fact that the game does not feel like a game . 
+  the adventure elements feel not like puzzles but like something i should click on to hear the next conversation or watch the next cut scene . 
+  they were just too easy and obvious to the point where i do not consider them puzzles at all . 
+  i realize that you must appeal to the mass market but do you think it is possible to provide something for hardcore , old-school adventure fans . 
+  maybe the game can have easy and hard mode or something ? 
+  in 5 years someone will post an article about using auto in c++ . 
+  auto is still young var is mature , 
+  weeks ? 
+  are you a bad programmer or what ? 
+   i once got fired . 
+  they told me they were not happy with my performance at the time but just a month later fired 1/3 of the company because of financial problems . 
+  i called my coworkers to tell them ( we were in a different office in different city ) and i do n't know who managed to leak the info but i got a job offer for more money and a headhunter call an hour later before i even managed to get home . 
+  i do n't know . 
+  how small city ? 
+  i live in a relatively small city ( 340k population ) and there is quite a choice of companies . 
+  not like the major cities but i guess if i change the company every 3 years i will have enough companies to work for until i retire , 
+  if we are talking about software developer i have to ask - why ? 
+  did the salaries crash for developers over there ? 
+  here a few companies closed local offices or just went bankrupt but the developers found jobs easily without significantly reduced pay . 
+  also it was 3 years ago . 
+  when i saw the title i was determined to complain that this article does not contain code and therefore does not belong to this subreddit . 
+  however after reading it i can no longer do that . 
+  i was truly impressed . 
+  i felt like the article conveyed that eastern feeling of patience and that everything moves slowly . 
+  you know , the kind of philosophy that the old shao lin monk teaches the young student in kung-fu movies . 
+  i find this rather strange . 
+  on the other hand even a pay cut may be worth it if your current job sucks . 
+  on the other hand did you consider that the business in this areas may not be sustainable without severe overtime . 
+  if the area is so hard to get a job maybe it is hard for the employees too and maybe the choice is either move or work in these conditions and no amount of social bullshit will help if free market competition can not help . 
+  assuming i was in charge ( i am not ) of such a company i may just fire them and move to another area . 
+  i 've seen this happen . 
+  are the workers better off without a job or with overtime ? 
+  if they are better off without a job why do n't they just quit ? 
+  i am a firm believer in free market especially having lived in actual communism i have seen only improvements during the transition to ( somewhat ) free market . 
+  what is a bandwidth cap ? 
+  surely they can reduce the base pay so the overall result is the same . 
+  obviously not paying for the overtime is breach of contract but why would the employees stay and work overtime then ? 
+  can the employer fire them for not working overtime ? 
+  ( not a rhetorical question i really do n't know ), 
+  and no one uses it because the . net standard library really is good enough . 
+  java 's is not . 
+  btw according to jon skeet ( the author of noda time ) noda is in a way better than joda because it provides a perfect use case for value types which java lacks . 
+  i have my doubts on this . 
+  i think someone at a very high position takes microsoft very personally . 
+  i believe they would n't use ms tech even if it came for free and i am perfectly sure they never bothered to ask for a price . 
+  so how many more 6 month periods before the author is disgusted by the fact that he is using php ? 
+  what ? 
+  i thought noda was supposed to provide better api for working with time zones and such not increased time resolution . 
+  was i wrong ? 
+  obviously i am guessing but i did not say that googlers are taking personally all competitors . 
+  i said they have this attitude specifically towards microsoft . 
+  also i think it is someone higher up and not the regular google employee . 
+  some things google do simply do n't make business sense . 
+  for example i am convinced the youtube windows phone app fight hurts google more than it hurts microsoft but they insist on doing it . 
+  yes , the damage is very minor on both sides but still i think google lose more money/influence than ms as a result . 
+  the attitude seems to be specifically against microsoft ( on multiple occasions ) and never towards apple or even facebook . 
+  someone do a katana version for . net already so i do n't have to explain like 5 people around me why . net is so far down the chart . 
+  my impression is that the asp.net stack on iis is really fat both because of the stack itself and because of the web server . 
+  the iis pipeline has a bunch of modules that are on by default and will slow down request . 
+  these modules handle logging , url rewriting , etc. 
+  on the asp.net side we have security layers , sessions , view engines , etc. 
+  that slow down each requests . 
+  these modules are useful in the real world and especially the security stuff needs to be there by default . 
+  in the real world in general you do n't care if your web requests takes 50ms more unless you are building google or facebook but you do care about security and other stuff that comes out of the box with asp.net . 
+  the asp.net approach is `` here , have everything and manually remove what gets in the way '' . 
+  in addition it may be hard to remove something because maybe something else depends on it and nobody found out because nobody ever removed the particular module you want to remove . 
+  now compare this to node.js for example . 
+  it contains the absolutely minimum web server and you add modules on top . 
+  this is one of the main reasons node.js is in general fast and scales better than asp.net ( the other is async io which asp.net supports since version 2.0 and i would argue it is even better than node.js since c # has async but most people do n't care to use it ), 
+  owin/katana ( owin being the specification , katana the implementation ) is microsoft 's attempt to create a . net web server that works like node.js ( i.e. 
+  it is barebones and you add modules on demand ) . 
+  for obvious reasons this approach allows for very good performance on this type of `` empty page '' benchmarks . 
+  note that 50ms overhead in the pipeline is insignificant when you serve your page in 500ms and add 1 more second of internet lag but really matters when you do the type of tests they are doing here . 
+  i believe if the benchmark uses katana . net should stand behind the native languages and java but beat dynamic languages like php due to pure clr performance . 
+  disclaimer : i am in no way expert in this nor did i conduct any tests but this is my best explanation and what i choose to believe until i see a better one . 
+  no , i do n't . 
+  but i may have to :(, 
+  hallowed be his name !, 
+  currently the problem is not the developers but the users . 
+  i can bet wp has the highest ration of devs per user of any mobile platform . 
+  obviously devs will do only so much without being able to sell enough . 
+  i think wp has the top 2 brainfuck applications ( one of them being mine ) on any mobile platform because people make them for fun . 
+  on the other hand the local apps ( like your local bank app ) do not come to wp because there are not enough users to justify the cost . 
+  they actually do . 
+  they have a column for the os and you can even filter by os . 
+  i agree . 
+  in fact i would gladly pay for xamarin tools if i have to do an android app even if no one asks for a port . 
+  good thing you can use noda then , 
+  how is security not something that slows down things ? 
+  for example request validation has to parse all the input for potentially dangerous requests ( injection ) and is on by default . 
+  i do n't see how 500ms is that slow . 
+  for example if i exclude one project i worked on i never had any speed requirements . 
+  i did n't even measure the performance but as long as the page loaded in under 4-5 seconds nobody complained . 
+  obviously this does not apply to all projects but most projects are not speed sensitive . 
+  yes they are projects that are hidden from the public internet like crm systems , internal inventory stuff and sharepoint systems but they exist and there are a lot of them . 
+  one thing to support my theory is that the http listener implementation ( i just noticed there is a . net one in the benchmark ) performs similarly to my prediction ( i.e. 
+  java and native languages are faster , php is slower ) even though it compares windows server to linux ( it looks like the linux deployment is generally faster ),

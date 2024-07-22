@@ -1,0 +1,100 @@
+  yes , the garbage collector is a big part of it , with its pauses and overhead , but i wo n't really go into that , because imo the language itself is just as much of a problem . 
+  fundamentally , java does not provide any abstractions that are n't based on objects hidden behind references . 
+  you want a coordinate datatype that just contains three ints ? 
+  sorry , you need to make a 30-byte object and place it on the heap , with all the gc and cache overhead involved . 
+  oh , you wanted an array of those objects ? 
+  sure , here 's a pointer to an array of pointers for you , complete with lots of memory indirection and cache misses . 
+  once you get to the three-dimensional array , which is what you really wanted , you 're pretty much busted . 
+  you * could * fix this manually with a single massive int array , with lots of helper methods to make sense of it , but you probably wo n't , because your code is now completely unmaintainable . 
+  in any sane game development language , the compiler would do this for you * anyway , * it 's really just java-the-language 's fault . 
+  i could go on with examples like this , but java was never made to be a high-performance language , and it wo n't be anytime soon . 
+  i do n't particularly like c++ , but it 's a far better choice than java . 
+  edit : do n't take my word for it though !, 
+  my coordinate example is actually based on a real change in minecraft 1.8 , when they started using blockpos objects everywhere instead of three stack-allocated ints . 
+  [ see here ] ( http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272953-optifine-hd-a4-fps-boost-hd-textures-aa-af-and?comment=43757 ) for an analysis on the subject by sp614x , the creator of optifine , who probably knows more about this than everyone in this thread combined . 
+  seriously , read it , it 's really interesting . 
+  do you even know what that means ? 
+  apparently value types are not going to make it into java 9 , meaning we probably wo n't see them until java 10 around 2020 . 
+  honestly , given how long this has been talked about , and the scope of the changes , it would n't surprise me one bit if it gets delayed well into the 2020s . 
+  at that time-scale i 'd be excited about new hardware paradigms rather than oracle finally fixing java . 
+  and do n't even get me started on text posts !, 
+  they 're just a bunch of words , like really , who upvotes that ? 
+  and how would you design it ? 
+  i still do n't get why they did n't just save themselves the work and spent all their time on skylake-e instead . 
+  they 've probably had finished skylake chips in their labs for 6 months already , so lots of time to work on them and aim for a q2 2016 release or something . 
+  thom hartmann , host of the left-leaning news show the big picture , has actually suggested that trump is/was running not to actually get elected , but for the sole purpose of bringing down bush . 
+  this way , he paves the way for a candidate who is less well-connected and in greater need of funding from him and other billionaries . 
+  he 's basing it on the observation that trump seems to spend all his time and energy taking down bush , but is going very easy on other candidates like scott walker . 
+  not saying i agree with him , but it 's kinda interesting how obsessed trump seems to be with bush , when he 's not even 2nd in the polls anymore . 
+  [ link to thom hartmann discussing it . 
+  ] ( https://youtu.be/5avokdwlrio?t=1m56s ), 
+  i assume you mean january 2017 , because that 's what i would place my bets on . 
+  and an easily googlable error code . 
+  it could be much worse . 
+  how do i do this on ubuntu ? 
+  am i supposed to get a dialogue box to choose a name ? 
+  what 's the context for this ? 
+  do n't start your comment with `` as a programmer '' just because you wrote a few hundred lines of code once . 
+  obviously this is far more complicated than that . 
+  actually no , you 're much more likely to travel through the same or similar biomes in a spiral . 
+   - allows the user to set piece value and minimum elo of the games they want calculated, 
+   - determines move strength of every game in every pgn fitting requirements, 
+  does this mean you are using a simple piece count to evaluate move strength ? 
+  stockfish integration seems like a natural next step . 
+  communicating with stockfish through the uci interface is surprisingly easy , at least if all you want is for it to evaluate a positions for n millseconds . 
+  interestingly , stockfish 6 correctly reports mate in 15 after only 3 seconds , even from cold cache . 
+  actually , for modern chess software , limiting the time for each move actually does surprisingly little for playing strength , you really need to constrain them in other way . 
+  sure , they get measurably weaker , but their game never tends to fall apart completely like human games do . 
+  when given a few second or less per move , even the best players in the world will make tactical mistakes all the time , sometimes even hang pieces outright . 
+  even if given 1 millisecond per move , good chess computers * never * hang pieces , and will miss only fairly sophisticated tactics . 
+  stockfish would still be an impossible opponent for most people at those settings . 
+  he left the world 's highest valued company in 2012 , i do n't think that leaving successful companies scares him . 
+  it 's just a cool proof of concept , an interesting novelty , and maybe someone could use his ideas for something useful one day . 
+  however , it 's 2015 now , and even the shittiest , cheapest smartphones have hundreds of megabytes of memory . 
+  nobody needs this when a 20kb chess engine could be orders of magnitude stronger . 
+  i think calling this `` efficient '' is being very nice to the author . 
+  it 's like spending 300 hours trying to create the tiniest guitar in the world , and calling it `` efficient '' . 
+  sure it 's cool and maybe it kinda sorta works , but no one is ever going to use to actually play music , because anyone who wants to play guitar is at least going to be able to make room in their home for a ukulele . 
+  i 'm still probably being nice , because imo a miniature guitar actually sounds a lot cooler than a tiny piece of software , if only as a novelty . 
+  as for your second point , well ... in theory you are right although i suspect most of the techniques he used are far too ad hoc to really be transferable to anything else . 
+  it 's the same if you disconnect for a connection reason too . 
+  it 's really annoying , because the game has pretty bad load times too . 
+  only if players actually tell the developers it 's what they want !, 
+  i 'd guess that they are probably not delaying because of unfinished content as much as technical problems and glitches , and perhaps they have been questioning some core game mechanics . 
+  also , separating content into multiple releases late in development , when everything is intertwined and interdependent , quickly becomes way more work than it 's worth . 
+  everyone 's first impression ( and the reviews ! ), 
+  also just become better . 
+  novice c/c + + programmer here , please enlighten me . 
+  that 's ... terrifyingly simple . 
+  i feel like even i should know that , and i 've written maybe 200 lines of c/c + + in my life . 
+   he literally programmed the fix in binary, 
+  well , not * literally , * but i get your point, 
+  i love how these threads pop up every few weeks and always go straight to the top . 
+  like , for the last three years . 
+  really speaks to how badly people want this . 
+  landing lights are also very useful , unless you want to be restricted to landing somewhere facing kerbol . 
+  and do n't forget extra ladders , they may not be strictly necessary but you 'll wish you brought them . 
+  to be fair , anyone getting far in a tournament of this format is going to get a really high performance rating , if not in standard then at least in rapid . 
+  you come out of each round with a positive score in either . 
+  zen is still more than a year away though , and if this rumour is correct , it was n't necessarily a recent decision . 
+  pretty much . 
+  the farther away an object is , the less of its photons hit your eye . 
+  edit : spelling, 
+  is it really , though ? 
+  those two africans could easily have much more different skin colours than the frenchman and thai person . 
+  it 's probably just a lot easier to see differences when one of the persons looks a lot like yourself . 
+  they become more common at higher rating levels i think , since they by definition play very high level chess . 
+  this subreddit has really gone down the shitter recently . 
+  people just upvote political or plain misleading posts without thinking , instead of actually voting for the kind of beautiful photos that made me subscribe here . 
+   we 've got a donation here ... we 've got some donations for my anal reconstruction , we have to start a new fund here . 
+  i think it was more about those comments , but i see your point . 
+  i do n't think hansen would do that well otb . 
+  it would be really hard for him to do his usual 15 moves in two seconds miracles with real chess pieces . 
+  looks like you found your problem !, 
+  the whole point of elo ratings is to match you with appropriate opponents . 
+  interestingly , stockfish actually quite likes that move , rating it only slightly inferior to nc3 . 
+  i never bothered to analyse why though , maybe black gets really rapid development as compensation . 
+  eric hansen has been all over the place because of all his twitch stunts , and he also plays on several accounts . 
+  he is * insanely * good in bullet though , i think he 'd easily be 2800 on lichess if he played seriously for a while . 
+  i can recommend this , it 's where i first started playing chess . 
+  i actually found even the easiest level a bit tricky , harder than the easiest level on chess titans on windows , but it was fine as soon as i started actually thinking about my moves .

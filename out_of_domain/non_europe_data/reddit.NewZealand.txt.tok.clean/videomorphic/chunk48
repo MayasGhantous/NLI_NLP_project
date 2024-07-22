@@ -1,0 +1,100 @@
+  cs is cs . 
+  physics is physics . 
+  engineering is engineering . 
+  leave them as they are , and move the students to the right programmes rather than pushing cs to become just the same thing as seng . 
+  there 's a button in the url bar that puts firefox into ` reader ' mode , so you do n't have to make this comment on every article . 
+  i 'm not talking about his specifically . 
+  but there are comments about this on virtually every article here . 
+   this is a ridiculous assumption !, 
+  why should n't i be able to see language x in the url bar just because i changed my keyboard layout to language y while i speak both ? 
+   if you are reading a russian website , then change your keyboard layout to chat with a friend in korean , does it seem logical to you to have the russian url change when you refresh the page or click on a link ? 
+  are you reading anything i 'm writing ? 
+  keyboard layout and locale and completely unrelated things . 
+  i never said use a keyboard layout . 
+  of course the keyboard layout should have nothing to do with the url bar . 
+  your current locale should determine what scripts can be shown , and they should * always * have the language if your locale supports more than one script . 
+  i get why , but it 's still a bit silly . 
+  python 's parser is not simple , and this is almost certainly quite a lot slower . 
+  `` 6 min read '' at the top . 
+   doggerland, 
+   doggland, 
+  are you making this up ? 
+  well that 's quite objectively untrue . 
+  you 're changing your opinion in every post , honestly . 
+   gaymathman and myself were saying that the best idea would be to follow ie/edge algorithm , which uses the list of keyboard layouts that are set on the machine . 
+  that 's the only sane idea i can think of , and am glad he pointed it out to me . 
+  except it 's not a sane idea at all . 
+  many people have both latin and cyrillic keyboard layouts , which defeats the entire point . 
+  the only people it protects are white pasty americans that only need to type ascii , the sort of people that curse the existence of other cultures every time they fix a bug they introduced due to a lack of understanding of unicode . 
+   then i wrote that it might not be easy to retrieve the list of installed layouts in a cross-platform way , and here you arrive saying `` it 's trivially easy '' . 
+  it turned out that you were not talking about the same thing , and now it 's me who is n't paying attention . . ? 
+  it 's trivially easy to set the allowed url characters based on the user 's language settings . 
+  you thought , incorrectly , that keyboard layout was the best language setting to use , but it obviously is n't . 
+   except that it should . 
+  it absolutely should unless you want ff to stay a crap browser at handling these kinds of things . 
+  no , it should n't . 
+   do you think people change their locale environment locale every time they want to send a message in another language ? 
+  that does n't make sense . 
+  it has nothing to do with ` sending messages ' . 
+   that does n't make sense . 
+  my user locale is not related to the locale in which ff operates , and both are not related to which languages i know and want to use . 
+  the locale that firefox operates in is ** precisely ** the same locale as your computer 's locale , unless you 've changed it . 
+  changing your keyboard layout does n't change every bit of localised text in your computer to another language . 
+  why would it change the url bar ? 
+   the other is not , but i know it , and i sure do not want to see websites in that language to show up in puny code . 
+  well it does n't matter unless it 's greek , latin or cyrillic , because those are ( as far as i know ) the only alphabets with confusables . 
+  you certainly do not want everyone that can type in both cyrillic and latin alphabets to be vulnerable to this , as they 're basically the only people that are vulnerable to it already !, 
+  i feel that this is not useful . 
+  for example , let 's look at the options it gives you :, 
+   end_of_line , insert_final_newline, 
+  a final newline will be inserted by git automatically , and eols will be automatically converted by git to the native platform settings whenever you ` checkout ` . 
+  charset should always , universally , be utf-8 . 
+  preferably for everything , certainly for source code !, 
+  there are very strong standards for these in every programming language already . 
+  python is 4 space indents . 
+  makefiles and c ? 
+  that 's all there is to it . 
+  no discussion , no . editorconfig . 
+   trim_trailing_whitespace, 
+  another option that should be on by default and never off , as it 's clearly insane to have meaningful trailing whitespace . 
+   max_line_length, 
+  what do you expect the editor to do ? 
+  automatically set a highlighted column ? 
+  automatically wrap code ? 
+  flash up an alert ? 
+  what the user wants to do when a file goes over maximum line length depends both on their preferences and on the project . 
+  some projects are very strict : absolutely no lines may go over n characters ( usually 80 ) under any circumstances . 
+  some projects are less strict : it 's a general rule , but it 's not absolutely required . 
+  some people are more or less strict than the project itself . 
+  for example , my vim will automatically wrap markdown to 65 characters for me , but i do n't want any indication at all for json , and for python i have a colorcolumn . 
+  but that 's my preference , and i know people working on * the same things * that have different but compatible settings for python , and other languages . 
+  personally i always fix 80-char problems in python before pushing if working with people that find it bothersome , but i do n't do it when working on personal projects and i do n't do it when writing the code , i do it later , when cleaning up before a commit or before a push , because it gets in the way of writing code for me . 
+  how can i encode that into . editorconfig ? 
+  that 's not the same thing , though . 
+  server-side dynamic content is well out of favour these days , client-side dynamic content is the hot thing . 
+  it 's not about practice . 
+  nobody is talking about practice . 
+  turing completeness is n't a practical concept , it 's a theoretical one . 
+  it 's not about implementations . 
+  turing completeness is an entirely theoretical concept . 
+   think about everything that 's going on under the hood : machine representation of integers , memory allocation , pointers , call stack . 
+  none of this is happening . 
+  we 're talking about the language python , not some implementation . 
+   first , generally speaking , when talking about turing completeness we assume some limits on resources , otherwise nothing is turing complete in the real world . 
+  that 's false . 
+  this has nothing to do with the real world . 
+  the language python does not impose arbitrary constraints on memory . 
+  neither does the language scheme . 
+  this powerpoint , on the other hand , does : it has a fixed , predetermined number of slides . 
+   a finite state machine ca n't have any memory . 
+  this would be a pushdown automata . 
+  finite state machines have memory : the state they 're in . 
+  that is memory . 
+  any finite amount of memory can be represented by a single state for every possible value that memory could hold . 
+  it 's not a joke . 
+  this is n't a joke . 
+  it 's a serious , but fun , claim . 
+  no , you 're confused . 
+  the language demonstrated in the video is not turing-complete . 
+  there is always a fixed number of memory cells , even in theory , which means it 's a finite state machine . 
+  there is a fixed , arbitrary limit that must be determined before any programme can be run on the number of memory cells .

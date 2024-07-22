@@ -1,0 +1,100 @@
+  about the only part you can keep is the models . 
+  although i * have n't * done something similar , i am sort of regretting not going the same route now . 
+  i have a large app that has grown over two years , and recently it was decided to give it a visual look update and some ajaxification to make it react `` faster '' in the client . 
+  a full rewrite seemed to be too expensive , so i decided to go half way : render page components as html snippets on the server side , load these with ajax from the client , and swap them into an existing html page with jquery . 
+  in the end , the result was a huge mess of unorganised javascript with random bugs here and there . 
+  i would guess that the update took longer in the end than actually learning angularjs and doing it properly . 
+  random jquery will be fine if it 's just a few small animated details on a page . 
+  but if you want to have client-side navigation between pages , forms and data entry , then do make use of some modern client-side javascript framework like angular . 
+  if you want to stick with shared hosting , do check out webfaction . 
+  they support django deployments out of the box . 
+  i 've hosted about five `` nobody ever visits '' hobby sites on a single $ 10/month plan there for years , and have n't had any issues yet . 
+  there 's a difference between cost benefits and going with the lowest possible advertised costs . 
+  at 50 % of u.s. rates , you can get a pretty good team on the other side of the globe , and still save on costs . 
+  at 10 % of u.s. rates , you ca n't , and will end up paying more to get it redone afterwards . 
+  the main problem is in finding the people though - for a good outsourcing outcome , you need to interview , test and approve/reject each individual member of the overseas team just like you would when hiring locally . 
+  first , you have to find a buyer . 
+  then , offer the same price to your family . 
+  if the family matches it , you sell it to them , if not , then you can sell it to the buyer you found . 
+  but you wo n't find a buyer on the open market . 
+  no outsider will want 20 % ownership in a family business , especially if it was sold to them without the approval and invitation of the rest of the 80 % of the owners . 
+  the 80 % shareholders will have a lot of leverage to screw the new owner , so you will discover that the `` fair market value '' of the shares is close to zero . 
+   do my overseas counterparts have much worse living conditions ? 
+  i guess worse if you go for actual purchasing power comparison , but not worse as in living much worse . 
+  i 'm from estonia in eastern europe . 
+  the national average salary here is $ 14k ( usd/year ) . 
+  competent developers usually get $ 25k - $ 40k , and the absolute best ( lead architect of a large project with 10 years experience ) maybe $ 50k + . 
+  now you are right that the cost of living is also lower - but not * proportionally * lower . 
+  electronics , cars , etc still cost the same . 
+  surprisingly , food and clothes are more expensive than they seem to be in the u.s. 
+  i think the difference is mostly in terms of `` less luxury '' : people usually have one compact euro car per family not a couple of suvs , the houses or apartments might be smaller , no granite countertops , stay at home spouses are rare , etc. 
+  on the other hand , there are other kind of benefits available which might actually balance the subjective standard of living : taxpayer funded healthcare and education , at least 4 weeks of vacation per year . 
+  and pretty much everyone has a summer home or grandparents ' farm converted into a country house already in their extended family , so there 's no need to buy one . 
+  [ earth for scale . 
+  based on my measurements of the sun from the image , earth should be 29 pixels there . 
+  the sun is huge . 
+   what does marriage / divorce have to do with this ? 
+  shares in companies is property that can be split in a divorce . 
+  so even if you start out 50-50 , a divorce can leave it as 50-25-25 with one partner being an ex-spouse , with voting rights and all . 
+  this was actually an issue for one of my freelance android development clients some years ago - his ex-wife had to approve all substantial payments out of the company . 
+  this is probably not an issue if the company is started before either of you gets married , but if not , it 's worth getting professional legal advice for a shareholders agreement . 
+  but the main issue for which you * really * need legal advice on is the medical aspect . 
+  if the app advertises itself as a medical ( and not sports or joke ) app , then it might be subject to fda regulation and very severe liability if it gives bad advice to an user . 
+  the same kind that browses and comments on / r/roadcam ? 
+  germany and all of europe is surprisingly far north though . 
+  ksc in florida is as far south as middle of egypt or north india . 
+  thanks :-), 
+  i was obviously rooting for a soft landing as well , just not as hopeful . 
+  maybe we can have a rematch in july ? 
+   that kind of impact would possibly destroy the barge . 
+  possibly , but it still seems like a good tradeoff if it helps with landing ? 
+  when spacex eventually gets reusability working , each re-used first stage could save them at least 10 million . 
+  or equivalently , each failed landing attempt that delays getting reusability working costs them 10 million . 
+  looking at prices of random barges , it seems that you can buy a similar-sized one for 1-5 million : http://www.maritimesales.com/barges%20for%20sale.htm, 
+  theirs is a much nicer ocean-going barge with gps positioning and thrusters and telemetry all - but very roughly it still seems that a single-use barge is cheaper than a single-use rocket first stage . 
+  someone who viewed it on a windows computer could test out http://www.nirsoft.net/utils/video_cache_view.html ? 
+  they have a flight termination system for that . 
+  if it looks like the rocket is heading for populated areas , an air force officer will press a button to blow it up mid-air . 
+  even the manned space shuttle had a remote self-destruct just in case something goes wrong during launch and it flies towards disneyland instead of the atlantic . 
+  http://loodusegakoos.ee/booking is one site for rental huts in forests . 
+  in addition to the booking page , take a look at the `` where to go '' page for more interesting places . 
+  the rental huts tend to be proper houses , while the `` forest huts '' under `` where to go '' are much simpler ( usually without running water ) : http://loodusegakoos.ee/where-to-go/search-options?element_holder%5bobject_type%5d%5b%5d=forest+hut&amp;search=1&amp;search_type=puhkeala&amp;element%5btitle%5d=#tulemus, 
+  note however that jaanip\u00e4ev will be the most popular day of the year for renting a place somewhere outside of cities , so not sure how many are available . 
+  the best experience would be if you can find a local friend organising a party who would like to invite you along . 
+  there are public events , but they are usually very `` impersonal '' compared to sitting around a fire and grilling with friends . 
+  others have already commented on the performance issues . 
+  but something that springs to mind : why is the price field a varchar ( 20 ) ? 
+  the numeric ( ... , 2 ) type , or perhaps if performance and table size are important , just the number of cents as a plain integer seem like a much better choice . 
+  here you go : http://exoplanet.eu/diagrams/?t=h, 
+  the popular opinion seems to be that spacex needs to demonstrate a few successful landings on the barge before they are given permission to land back in florida . 
+  but is there any actual solid information on what they would need to do or what tests they would need to pass before the landings will be approved ? 
+  any word from spacex , faa , usaf , or whoever else has to approve the landings ? 
+  according to sad tv adverts , $ 2 could feed a kid in ethiopia or something for an entire 2 days . 
+  so if the loan is not useful even to them , who the hell with internet access and good written english skills would want $ 2 ? 
+   so my question is : is there any place for a lawyer when it comes to space ? 
+  maybe , but specialisation in `` space law '' seems extremely limited . 
+  right now , `` space law '' is mostly just contract law . 
+  contracts between rocket manufacturers , launch providers , satellite manufacturers , satellite operators , insurance companies , telecommunications companies , and so on . 
+  perhaps in 20-50 years when more people are living , working and doing business in space , things will be more `` space specific '' . 
+  but i am certain that once that happens , existing laws and treaties that cover space stuff will be completely rewritten . 
+  but are you willing to pay double for a taxi driver that is `` attentive and knowledgeable '' ? 
+  i would be okay with a few missed turns now and then and sometimes having to explain the directions to the driver if it still ends up cheaper . 
+  maybe i should give it another try then . 
+  i watched the first 8 episodes and gave up because of the high-school teen angst . 
+  the concept premise ( recolonizing an uninhabitable earth , which turns out to be inhabitable after all ) was great . 
+  if only it had * competent adults * as characters making * adult decisions * on * adult problems * , not fucking `` who kissed the popular guy '' , it could have perhaps matched battlestar galactica 's first seasons . 
+   0.05 % chance of elon 's little greenhouse on mars . 
+  i 'd give it 0 % chance of greenhouse on mars . 
+  nasa and the rest of the scientific community would be super-upset if you sent something unsterilized to other planets , let alone something with tons of life and microbes inside . 
+  it would make any further search for past life on mars difficult or impossible . 
+  sure , once humans get there they will bring microbes along as well . 
+  but at least that has a reasonable purpose , rather than a publicity stunt . 
+  you could . 
+  but what would the point of a sterile greenhouse with nothing alive in it ? 
+  no , my point is that * when * we get to actual human visits or colonisation , then scientists will be okay with contaminating mars with earth-based life . 
+  a greenhouse on mars might be cool , but once any life is transferred from earth to mars , future attempts to discover native mars bacteria will become difficult or impossible . 
+  it makes sense to delay transferring life as long as possible . 
+  but until there is an actual plan well in progress to get humans to mars , and until this plan requires a greenhouse on mars , then nasa will not allow spacex to send a greenhouse there only as a publicity stunt . 
+  if a parachute or landing burn fails , it 's going to smash into mars at high speed , and spread soil bacteria all around the crash site . 
+  if we had good enough equipment on mars right now , and found actual live microbes , then we could sample their dna to see if it matches earth lifeforms , or `` holy shit , aliens exist '' . 
+  if there 's a bunch of earth microbes on mars , then it would be difficult to filter out the martians from earthlings .

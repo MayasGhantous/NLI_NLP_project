@@ -1,0 +1,100 @@
+  [ like this ? 
+  ] ( http://h.dropcanvas.com/yzebt/blackskaiahypothesis.png ), 
+  what are you , stupid ? 
+  torches do n't * ever * appear in world generation . 
+  ** ever ** . 
+  i love this . 
+  the new world generator for the win . 
+  actually , at most , 576 . 
+  ( although i know you were exaggerating ), 
+  no one wants to hear you say `` lol '' . 
+  add something to the discussion instead . 
+  good point . 
+  must suck for huge servers . 
+  shut up . 
+  ** ever . 
+  ( i am mimicking the deleted comment . 
+  i tried to make my posts so egriegiously offensive that no one would interpret it as not a parody , but sigh . ), 
+  [ problem is it sucks ] ( http://h.dropcanvas.com/yzebt/screen%20shot%202012-05-26%20at%2010.40.35%20pm.png ), 
+  ( it did a good job with the curves on the left side , though ), 
+  ah , thank you for this ; somehow i did n't remember this . 
+  another way in which karkat and uu are related !, 
+  holy shit , you actually just blew my mind . 
+  nepeta is related to cats, 
+  yeah , i figured that out after i read his comment . 
+  [ ok ] ( http://h.dropcanvas.com/yzebt/turnways.png ), 
+   do both characters need to possess the same fraymotif for it to work ? 
+  logically , based on my experience with rpgs , i think that once someone buys a fraymotif , it 's available for everyone . 
+  yeah . 
+  that much self-loathing . 
+  you made me think there was an update !, 
+  d : how could you have been so cruel ? 
+  i just cheat for the calculations and use wolfram | alpha . 
+  it 's not like i do n't know how to multiply or factor things . 
+  `` nothing on reddit is or ever will be me '', 
+  just learn to interpret it . 
+  do you mean null or zero ? 
+  'cause i 'm using zero for other things . 
+  the problem with null , really , is that i 'm concatenating strings , and strncat only concatenates to the end of the array . 
+  stuffing the array with nulls will be pointless if they just get overwritten , no ? 
+  edit : i mean * not * overwritten . 
+  like , not ignored . 
+  as in , be interpreted as part of the array . 
+  edit 2 : huh . 
+  til how arrays are stored . 
+  i thought it was :, 
+  but turns out it 's, 
+  this is much more useful . 
+  also any instance of `` irregardless '' ? 
+  sburb fortress ? 
+  like , homestuck + dwarf fortress ? 
+  holy shit ... 
+  i do n't even know that one . 
+  what is it ? 
+  but i am talking about the things that the players live in . 
+  not the things that prototype stuff . 
+  copy/pasted from my file ( note that this will eventually become part of an actual terrain generator , which may become part of a sburb roguelike ) :, 
+  phase 1 ( choose 1 each ), 
+  temperature ( temp ) : decides the temperature of your planet . 
+  abstract ( abt ) : determines your planet 's color scheme , and , partially , its music . 
+  ambiance ( amb ) : affect 's the planet 's music . 
+  atmosphere ( atm ) : decides the properties of your atmosphere . 
+  light ( lux ) : decides how your planet will be lit . 
+  terrain texture ( ttex ) : decides material for terrain . 
+  terrain shape ( tshape ) : decides what landforms will be prominent . 
+  liquid texture ( ltex ) : decides what the liquid on your planet will be made of . 
+  liquid shape ( lshape ) : defines your erosion paradigm . 
+  only certain selections are possible for different terrain shapes . 
+  precipitation ( precp ) : defines what sort of precipitation will fall on your planet . 
+  this extends to any atmospheric anomaly , like thunder . 
+  phase 2 ( pick 5 total , from any or all ), 
+  flora ( flora ) : what sort of flora populates your planet ( mushrooms count here ) . 
+  fauna ( fauna ) : what sort of fauna populates your planet . 
+  structures ( struct ) : what sorts of manmade structures are on your planet ( besides the terrain , if applicable , and besides pregenerated structures that are actually generated after this ) . 
+  objects ( obj ) : what sorts of objects are strewn about your land . 
+  there is another category , `` consorts ( cnst ) '' , that i left off . 
+  furthermore , see the sburb planets quantified ( also copy/pasted ) :, 
+  land of wind and shade :, 
+  temperature : chill, 
+  atmosphere : wind, 
+  light : shade, 
+  liquid texture : oil, 
+  liquid shape : rivers, 
+  precipitation : calm, 
+  fauna : fireflies, 
+  structures : huts , bridges , pipes, 
+  objects : < none , 
+  pregenerations : < stuff , 
+  abstract : destiny, 
+  land of light and rain :, 
+  temperature : balm, 
+  atmosphere : wisps, 
+  light : light, 
+  liquid texture : saltwater, 
+  liquid shape : oceans, 
+  precipitation : rain, 
+  flora : shrubs, 
+  structures : crypts , castles, 
+  objects : secrets, 
+  abstract : mirth, 
+  land of heat and clockwork :,

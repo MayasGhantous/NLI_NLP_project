@@ -1,0 +1,100 @@
+  the question was whether there 's am etymological relationship between `` said the actress to the bishop '' and `` that 's what she said '' . 
+  no doubt the political compass will come out with an updated version closer to the election , and the abc probably will too . 
+  personally , i put little value in the political compass 's placement of the parties . 
+  they seem a bit out of whack to me . 
+  it 's a * fantastic * tool for comparing yourself to other * people * who have taken the test themselves , but the place they put parties does n't seem quite in keeping with where the parties actually are . 
+  if it rolls between 0.33 and 0.34 , the first one returns `` scissors '' , for some reason . 
+  the second case has an unnecessary condition within it . 
+  since you know it ca n't be less than 0.33 , they should * just * say ` computerchoice < = 0.66 ` , leave out the lower bound , that is defined by the previous conditional . 
+  if they have done that , it would have been a good demonstration of how the flow of conditionals works . 
+  as it is , it 's teaching bad habits . 
+  i do n't know how that shorturls website you used works , so i ca n't help very much . 
+  i 'll suggest one possible thing , though . 
+  assuming you 're using apache , go to ` / etc/apache2/sites-available / ` and look at the ` . conf ` file that relates to your site and see if there 's a redirect going on . 
+  for example , on my site , i have the following lines :, 
+  alias / wiki < document root  / w/index . php, 
+  redirectmatch ^ / $ / wiki /, 
+  the first is the line that 's doing the part that you wanted ( removing the ` / w/index . php / ` in favour of ` / wiki / ` ) , and the second is the one that i 've got that automatically redirects from ` < website  . com / ` to ` < website  . com/wiki / ` . 
+  if you do n't want that , remove the line . 
+  if that 's not what 's going on in your case , i do n't think i know how to help , i 'm afraid . 
+  wow that is weird timing . 
+  i swear , i started up the bot just * before * seeing this . 
+  you should remember to include a reason , so that people know what it is they 're being paged for . 
+  yeah , i usually wo n't point out any given mistake if someone only does it once , but when i see a person making the same mistake multiple times , they lose the benefit of the doubt . 
+  the exception is when there 's not a high chance it 's a typo/autocorrect issue , and is more likely just a misunderstanding of the actual word/phrase , like if someone writes `` here , here ! '', 
+  or `` could care less '' . 
+  tongues does n't make a whole lot of sense from a flavour perspective , either . 
+  aasimar , remember , are not angels , nor are they even half-angels . 
+  they are the celestial equivalent of what fiends are to tieflings : just a touch a celestial influence on their bloodline . 
+  why would someone that 's * almost * human not be able to speak common , the tongue that literally every other playable race can speak ? 
+  the spell progression some races get is a very standard one . 
+  a cantrip , a first level spell ( tieflings can cast * hellish rebuke * as if it were a second level spell , though ) , and a second level one . 
+  you should not break this convention . 
+  * especially * not for * revivify * , which is insanely powerful . 
+  is this not a part of most western cultures , as well ? 
+  maybe not as formally laid out as in east asian cultures , but it 's still a thing , or at least it seems to me to be one ( in british and australian culture , specifically ) . 
+   please do n't say `` your still young , you 'll change your mind '' it 's by far one of the most annoying things someone can say to me, 
+  well of * course * it 's annoying . 
+  you , of course , have impeccable grammar , and it is intensely annoying to see someone else use the wrong homophone of `` your '' . 
+   the way it 's supposed to be consumed, 
+  you mean slathered on thick , on top of some buttered toast ? 
+  i mean , sure , you do n't want to start out someone like that , but for an experienced aussie , that 's clearly the * best * way to consume it . 
+  i never used a single textbook for physics and got a 6 despite having a teacher in my first year that was utter crap . 
+  you do n't * ever * ** need ** some specific textbooks in any of the ib subjects . 
+   universities require higher ib scores compared to others programs, 
+  that 's not ib 's problem , it 's the fact that universities are over protective of their country 's local curriculum . 
+  sure , but that 's not on the ib , that 's on your teacher . 
+  what significance does that have ? 
+  you look at the average over all subjects , of course it 's going to arrive at some value . 
+  the ee marking system is one of my personal biggest gripes with the ib . 
+  external marking of exams , and external moderation of ias is fantastic . 
+  even the ee * could * be done better than it currently is externally ( a simple thing they could do to vastly improve ee marking would be to require the marker actually be an expert in the subject of the ee ) , though it may perhaps be more cost effective for the ib to switch to internal ee marking with external moderation . 
+   i had to do that too for ib music and it was a sort of fly by night operation, 
+  interesting , what year did you graduate , and how did the curriculum for music change compared to previous ? 
+  like it or not , english is * the * lingua franca . 
+  add to that the option to take exams written in spanish and french , and the language becomes a non-issue as far as the internationality of the ib . 
+  i ca n't speak for the wording of recent questions , but certainly my 2012 exams and the past papers i did before that had no language that was n't manageable . 
+  which is totally fair . 
+  i just do n't think it 's something that should be in any way used as a gripe against * ib * per se . 
+  in ** inherited ** i would suggest changing `` it will manifest '' to `` it may manifest '' or `` it could manifest '' . 
+  both the other possibilities are presented as possibilities ; this one should be too . 
+  it 's considered normal for prcs to have a stat requirement or two . 
+  a lycanthrope could very reasonably be required to have constitution of a certain level ( maybe 13 ) . 
+  the d12 hitdie makes sense for most lycanthropes , but not really for wererodents or werebirds . 
+  i do n't know if you could perhaps give different hit dice for different forms while somehow still keeping things balanced , but if there 's a way to do it , i 'd highly suggest you do . 
+  the unusual moons sidebar is a nice thing to have . 
+  i like most of the abilities gained under the animal affinity heading , though some feel like the hybrid form should gain a different ability to the beast form . 
+  for example , werehawks ' flight seems like it should not be as powerful in hybrid form as in full beast form , maybe only half speed , or perhaps even just a sort of glide ability for hybrids . 
+  you 're using a * lot * of static bonuses . 
+  +1 to ac for the werebear , +1 to all rolls of your associated abilities while in beast form , +2 in hybrid form . 
+  this is not the 5e way , and is generally frowned upon . 
+  i 'm not sure what a better option is for you , but static increases should be avoided as much as possible . 
+  but while i 'm on the topic , i 'll raise the issue of balance . 
+  i do n't really know enough to be able to say with great confidence , but i am * very * wary of the strength of these bonuses . 
+  +1 or +2 to * all * rolls with associated abilities ? 
+  ** yikes ** that seems like it could be powerful . 
+  it feels to me like a werebeast going into beast form should not get the same item melding properties that druids , polymorph , and other shapeshifting abilities do . 
+  it 's probably best for smooth gameplay to leave this in by default , but maybe have a sidebar stating that ( optionally , players/dms can choose to make it so that ) lycanthropy is different from other shapechanging , and clothes will be ripped , and items dropped , when one changes shape . 
+  one moon * die * . 
+  two moon * dice * . 
+  never one moon dice . 
+  you need to go through and look at every time dice is used , because many of them ( mainly if it 's preceded by `` a '' or `` one '' ) should say `` die '' . 
+  considering how powerful everything else is , i feel like the silver weakness should be more substantial . 
+  give vulnerability to damage dealt by silver weapons , and maybe make it 1d4 ( or maybe just 1 ) damage whenever in contact with silver otherwise . 
+  beast channeling is a large number of powerful options . 
+  maybe consider limiting it so that a player only gets one of these , possibly based on their lycanthropic type . 
+  ditto spirit channeling and moon channeling . 
+  this would be an insanely good multiclass for a barbarian , but i guess that makes sense flavour-wise . 
+  what 's more concerning is that this just feels very , very powerful overall . 
+  i would strongly encourage you to make a few of the easier more minor changes i 've suggested and then resubmit this , because i 'd really like to see it get a more thorough balance-based critique from someone who knows what they 're talking about and can give better suggestions on how to bring balance in line . 
+  one possibility would be to shift it around so that hybrid form is the capstone ability . 
+  it seems to come with basically no drawbacks , as opposed to the wilder beast form , so it seems logical to me that it would be a capstone ability . 
+  but i 'm still not sure this would , on its own , be sufficient to fix the balance . 
+  some art would also not go astray . 
+  i really like the basic framework you 've got going here , so i really hope that you can work to make it a more well-balanced player option . 
+  best of luck !, 
+  yeah , tok is n't great , either . 
+  to be honest , i * love * what the ib is * trying * to do with all of the core , but i think the way that they go about it needs a serious makeover . 
+  the way the ee and tok are marked needs to be * radically * fixed , they need to do some serious campaigning around how cas is supposed to work ( i * still * see people talking about `` 50 hours '' , when that was removed * at the latest * for classes taking exams in may 2011 , but probably earlier ) , and they could probably do something to make the core actually feel like it 's worth it . 
+  make ee and tok 's matrix 5 marks rather than 3 , and give cas 2 points ( going from fail , to 0 , 1 , or 2 , based on how much effort students put in ) , so all up they 're worth the same as a normal subject . 
+  those few little changes would , in my opinion , go a * very * long way .

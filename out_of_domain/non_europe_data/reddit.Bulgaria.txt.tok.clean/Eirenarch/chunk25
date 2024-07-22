@@ -1,0 +1,100 @@
+  then again it may have been the local distributor that set the quota . 
+  this is true and makes me really sad . 
+  starcraft ( and warcraft ) used to have a community built from the ground up . 
+  i think forced e-sports and recent grandomania destroyed that . 
+  first the team games were killed not only by the lack of tournaments but by the insulting attitude that community figures had towards these type of games ( i remember artosis explaining that the team league has nothing to do with joke team games but was instead serious ) . 
+  then there was so much money poured in top tournaments just to make it into the news instead of being spread to smaller events . 
+  sadly the lowest common denominator is pretty low . 
+  i wish java or silverlight and not html had won . 
+  it is shit because i have done it and ... it is shit . 
+  not because it does n't work but because it is annoying to develop in language like javascript and deal with browser differences and awkward moments of the dom . 
+  and still android has some control . 
+  imagine if there was no control at all . 
+  i am sure you know that i know . 
+  it is sad that the web platform won based on politics and not on technical qualities . 
+  however even if the web was in fact the best multiplatform dev tool the idea that it is suitable for all kinds of apps is just wrong . 
+  that was brilliant . 
+  i will use the term from now on and update my cv with jacsht right now . 
+  yeah and every language can be optimized to the same maximum speed so there is no way they can actually make a vm for dart faster than a vm for js . 
+  to be honest native client is kind of sort of web bytecode . 
+  i certainly can but it was never up to me . 
+  i understand why the web won and why the big players agreed to this kind of compromise but i just wish i would n't be forced to write html and js for the rest of my life . 
+  i feel guilty when i do it . 
+  you know that feeling when you write some bad code and do not plan to fix it or even tell somebody about it ? 
+  this is how i feel when i write web applications ( as opposed to sites ) . 
+  i feel like i am doing it with the wrong tech in the wrong way . 
+  even if we assume that the kind of people who write html/js are somehow less qualified we can still give them better tools than html and js . 
+  practically every mainstream language is better than javascript . 
+  why not python for example ? 
+  it is not harder than js . 
+  there is a lot wrong with js but you are correct that it is not worth it and this is why it will not happen . 
+  this is exactly what makes me sad . 
+  politics forced us into worse technology and we 're stuck with it until the next big shift so we 'll probably have to wait like 15 years to program for the client in something better or just more suitable for the task at hand . 
+  for web development or if i had a choice ? 
+  you do n't need to convince me , 
+  i am not sure how nacl works but i notice they are porting stuff like mono over to nacl ( including big projects like the game bastion ) . 
+  i do n't understand how nacl could be pure machine code if it works on different oss and processor architectures . 
+  i 've used asp.net web forms and mvc . 
+  i 've used jquery with various plugins and signalr for real time communication on the client . 
+  however my objections are not related to the quality of libraries in the web world which is generally pretty high ( for popular libraries ) but with the underlying tech ( i.e. 
+  using document format for building application ui and a language that was built in two weeks for programming ) . 
+  if you are building web apps you are using a document format to build ui . 
+  this is already using it in a way it was n't meant for . 
+  building apps in html and js is like building them in word 's doc with vbscript but because everybody is doing it and we 've built an enormous know how ( including tools and libs ) the whole operation does not sound so absurd . 
+  well the mono guys are doing pretty good job running on android , ios and even chrome 's native client so ... 
+  i recently switched jobs from web development to xaml development just so i can do something different before we 're all forced to write html and js for the rest of our lives . 
+  the main think i find broken about the web tech is that html is not a document format . 
+  it is not analogous to xaml it is analogous to word 's doc . 
+  this is important because it means that html has semantics in it 's elements ( controls ) and you can not just use something because it looks like you want it to ( layout via tables ) . 
+  in xaml you can do this ( and in fact people are using listbox to present any list of items ) and this is just fine . 
+  in html if you do this you risk that the browser will change how it renders the element . 
+  the rendering engine is free to do this as long as it provides meaningful representation for elements that are used in semantically correct way . 
+  basically in a document format you need semantics and it is useful . 
+  in app development you do n't need semantics and it gets in the way . 
+  in addition even if javascript and html were the best possible platform for developing ui ( haha ! ), 
+  do you think that one such framework and language is the best choice for all kinds of applications , developers and teams ? 
+  if the future really is what mozilla wants it to be then game devs , business apps devs , desktop software devs , etc. 
+  will all have to build their software with the same platform no matter if it is good or bad for them . 
+  i doubt that mono for ios includes the data access system of . net  i think in each profile they are putting only what makes sense . 
+  now if you have problem with something in system.string for example and you want it removed then it is a different problem . 
+  i explained what i mean in more detail in this comment : http://www.reddit.com/r/programming/comments/15ya2b/how_mozilla_plans_to_save_developers_from_the/c7r3rcb, 
+  html tries to avoid mixing presentation with semantics from the late 90s . 
+  before that mixing the presentation in the html was the thing to do . 
+  css is ok but my point is that the next version of the browser may choose to completely alter the behavior of the control . 
+  for example a select control on mobile often becomes a full page selection list ( depending on the os ) . 
+  if you used the select in semantically correct way you are ok with this but if you used it for something completely different your app breaks in a very bad way . 
+  it does n't ? 
+  then what purpose does it serve at all except load normal programs in a browser window ? 
+  for example i am really annoyed by the meaning of `` this '' . 
+  i believe this can not be changed in the language though it can be resolved by compile-to-js languages . 
+  the fact that i can not write the opening brace on a new line is also annoying for me . 
+  to be honest i do n't know how many improvements they can bring with language enhancements . 
+  there are very clever people working on the problem and i can only wish i was half as clever . 
+  for example i was really impressed by how they introduced strict mode and effectively removed parts of the language while allowing older browsers to execute the code . 
+  maybe there are many tricks like this that will allow for changes to the language that i never thought possible . 
+  btw when i started work as a web developer it was cool to hate js . 
+  i read a couple of good and detailed tutorials and a couple of tricks ( like namespacing with functions ) and was actually defending the language . 
+  it was definitely not as bad as people described it . 
+  however now that people are claiming that js is the best language ever and have to be used for all applications at all times i stand on the other side of the barricade . 
+  interesting . 
+  i just read and tested that google redirects windows phone users based on user agent string for no obvious reason . 
+  google maps works just fine in desktop ie which is the same engine . 
+  cross platform but x86 only ? 
+  the other things sound the same as flash/silverlight to me . 
+  so you are saying that it is a good practice and you can completely ignore element semantics if you just use css resets ( i thought they are used just to remove browser differences ) ? 
+  i was laughing more at the idea that js is the best programming language but i doubt html is the best platform for building ui either . 
+  ios will be stuck with cocoa if they want to but other vendors can implement their solutions in their oss . 
+  the political landscape and business realities currently force everyone the html route . 
+  the jvm bytecode did not change for almost 20 years . 
+  they just added a single instruction with java 7, 
+  those apps developed for a mobile device are often not portable for a variety of reasons ( screen sizes , native ui features of the platform , etc. ), 
+  if i need to have different codebase for different platforms why would i do write it in javascript instead of java , c++ or c # ? 
+  i am perfectly sure any developer with at least an year of c # and js experience will write less buggy and more maintainable app in c # than in js . 
+  if facebook can not do it who am i to think that i can ? 
+  and they 've `` trained/educated/attracted '' ( pick a word depending on your attitude towards apple ) users to pay for apps which can not be said for android even if they have more users . 
+  so we now have competition in operating systems and devices but no competition in programming languages and ui frameworks ... 
+  nope . 
+  they redirect to google.com and they do it only when they find `` windows phone '' in the user agent . 
+  shut up !, 
+  soe is super hot !, 
+  she does n't even have to wear the silly boobs outfit to be hot ,

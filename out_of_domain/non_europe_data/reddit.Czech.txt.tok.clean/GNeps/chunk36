@@ -1,0 +1,100 @@
+  i just did exactly what you want to do a week ago . 
+  i chose to install arch linux , and i think it is the best choice . 
+  it 's a minimalistic install . 
+  you add what you want . 
+  which is great because :, 
+  a ) it is light and will run fine even in a vm on an old machine ,, 
+  b ) and you learn a lot by assembling the system by yourself . 
+  it has probably the best documentation of any distro out there . 
+  the [ arch wiki ] ( https://wiki.archlinux.org/index.php/main_page ) is such a great resource that i 'm actually considering switching my main machine to arch . 
+  it 's brilliant . 
+  it 's got great and large comunity so there 's great number of packages for it in the official repositories . 
+  more then for mint in my experience . 
+  and if something is n't in the official repos , there 's aur , which is an unofficial repository anyone can add , and it 's got probably everything . 
+  it 's blastingly awesome . 
+  good luck , 
+  have you tried while in the login screen selecting awesome session instead of kde ? 
+  if that does n't work , make sure that you remove the kde start exec from . xinitrc , but on some systems , . xinitrc is not used . 
+  and lastly , i 've never been on a fedora based system , but this should be the same . 
+  if you stop the [ display manager service ] ( http://en.wikipedia.org/wiki/x_display_manager_%28program_type%29 ) , then kde will shut down and wo n't start by itself . 
+  so you 'll be free to try awesome . 
+  stopping the service is done by `` service [ name ] stop '' on linux mint and `` systemctl stop [ name ] '' on linux mint , where [ name ] is your display manager ( kdm , mdm , ... ) . 
+  maybe one of them will work on fedora , 
+  ok then , try these instead of kdm : mdm , xdm , gdm , wdm . 
+  also , `` disable '' disables it from autostarting , i 'd do `` stop '' which just stops it now . 
+  if none works , maybe one of these : https://wiki.archlinux.org/index.php/display_manager, 
+  come on . 
+  for an it person sure , arch and its derivatives is great . 
+  but for a person that is just going to give linux a try ? 
+  if you put him in front of arch , he 'll run into issues the first week , turn back and will be back on windows . 
+  you have to transition to arch from something easier . 
+  i actually do n't agree . 
+  sure , the distros themselves are mostly same and it 's not that different . 
+  but what makes the choice different is that some distros come with greater user base then others . 
+  mint is the highest rated linux on distrowatch , and therefore googling any problems will have greater chance of finding an answer . 
+  go with mint , it 's brilliant for starters . 
+  sure , i just really disagree and wanted to provide a counterpoint . 
+  any linux has a very very steep learning curve for even an above average windows user . 
+  without a person you know to guide you , it 's painfully hard . 
+  going straight to arch linux which tells you to right away to watch every update for messages so you can manually make changes to the system accordingly , is just going nuclear for such a novice . 
+  i do love arch linux , but i think the first install of it should be by a linux user into a vm , so you can get the hang of it safely , 
+  yeah , i 'm starting to hate cannonical , the whole xmir fiasko and many others . 
+  thankfully mint undoes almost every bullshit ubuntu creates and they also have a lmde - linux mint debian edition , i suspect for when ubuntu really goes full retard , 
+  that 's why i used the phrase `` highest rated '' , and i do agree that we can not state it is the most used . 
+  i do think , however , that it is a relatively good indicator of usage . 
+  a bit of a forward indicator ( or what is the opposite of delayed indicator ) , but a good one . 
+  and i think you too have noticed the buzz about mint everywhere , especially in novice and switch-from-windows related circles . 
+  arch linux has the best documentation out there , it 's easy and fun !, 
+  unfortunatelly the current wayland hype is very premature . 
+  it will be cool ( though not as much as the hype for sure ) , but it is far away from being able to be used in a stable desktop . 
+  so it 's kinda pointless to mess with it now . 
+  yet it is omitted in newspapers and such pretty frequently . 
+  :d :d, 
+  for christ 's sake get a blank dvd , dvd-rw or an actual flash drive . 
+  leave you phone the fuck alone . 
+  just switched and i was very surprised by the amount of games that run on linux . 
+  besides minecraft i have like 15 big titles just among the games i have bought on my steam that run on linux . 
+  it 's brilliant . 
+  left 4 dead 2 , team fortress 2 , kerbal space program , all the half lifes , counter strikes , protal , etc. 
+  they 'll surely will , because i believe the rumors about valvebox , valve 's own , linux-based console to be very likely . 
+  and then there 's plenty of customers , therefore plenty of incentive . 
+  hopefully . 
+  they always release when ready . 
+  just you wait . 
+  it 'll also benefit them to be a year newer then the ps4 and the xbone fail anyhow , since the console generations last long , and valvebox will run the games better . 
+  sublime is cool , used it for a bit . 
+  but i just wo n't shell out 70 or so bucks for it . 
+  and the trial is annoying as hell with the reminders . 
+  250 gb is way too much for anything linuxy . 
+  30 gb root partition will be enough whatever you might install into your system . 
+  and then i suggest making a separate partition on the ssd for / home for your data and such . 
+  and you might leave a bit of space at the end for possible other oss , different distros , windows for gaming . 
+  and do n't forget a swap partition of equal size as your ram . 
+  for your other disks ... my 2tb and 3tb drives hold mostly films , tv series , music , games and virtual machine files , 
+  well , it would be quite odd for a program to lose functionality with never versions . 
+  i 'd suggest looking around in the documentation to find how to zoom . 
+  and if not , try first searching for older versions of the program itself , it 's a bit better solution then trying several different oss because of it , 
+  i 'm not sure what you mean by application for the site , never used something like it . 
+  question is , do you really need some `` application '' for reddit , gmail , etc. ? 
+  would n't a simple bookmark be enough ? 
+  that way you can chose whether you want to open it in a new window or not . 
+  i 'd go with mint , which is maybe the most windows-like distro out there with the added benefit of being ubuntu-based , which means everything works on it . 
+  you can add the nas and nfs stuff . 
+  read up on it , it wo n't be that hard . 
+  but first install mint and get used to it for a bit . 
+  damned , me too !, 
+  i was very disappointed , and a bit hungry . 
+  [ thanks , the guide is awesome !, 
+  i know that bogomips are ... bogus . 
+  but i ca n't find any better measure . 
+  since you 're powering it via the 5v , did you have one such charger laying around , or did you buy because of issues with powering through usb ? 
+  i really need to know if the device is using just half its potential speed . 
+  but have no idea where to get the 5v charger . 
+  thanks , did n't know that . 
+  so / sys/devices/system / cpu/cpu0/cpufreq / cpuinfo_cur_freq says 100000 . 
+  can i thus rest assured that i do not need to buy a new charger ? 
+  i went through my barrel chargers laying around , and they 're all 12v unfortunately . 
+  and i 'm not versed in changing connectors on a cable . 
+  damned , my mistake , that was a typo , it indeed does say 1 million . 
+  ok , thanks !, 
+  thanks !,

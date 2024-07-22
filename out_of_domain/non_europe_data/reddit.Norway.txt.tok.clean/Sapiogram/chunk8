@@ -1,0 +1,100 @@
+  now imagine it gets hit by another ball , and another , and another and after a while the craft builds up quite a lot of speed . 
+  this is basically what happens with the light . 
+  the photons from the sun constantly slam into the space craft , and eventually push it slightly off its course . 
+  this effect is called radiation pressure , because the light is essentially exerting a constant pressure on an object . 
+  astronomers are obviously aware of this , and it is completely neccessary to take it into account when launching long-range spacecrafts . 
+  in space , there are very few external forces that disturb the spacecrafts , so even if the radiation pressure only constitues a minute force , it can change the direction enough to make the craft completely miss its target . 
+  an example from wikipedia ; if the effects of the sun 's radiation pressure on the spacecraft of the viking program had been ignored , the spacecraft would have missed mars orbit by about 15,000 kilometers . 
+  further reading : [ radiation pressure . 
+  ] ( https://en.wikipedia.org/wiki/radiation_pressure ), 
+  they are massless , but they still have momentum . 
+  in classical ( newtonian ) physics , momentum = mass * velocity , but photons simply do not work that way . 
+  you can calculate their momentum depending on their wavelength instead ; momentum = planck 's constant / wavelength . 
+  arbitrarily using different formulas may seem like a somewhat inelegant solution , but this can actually be done for all particles , since all particles have wave representations in quantum mechanics . 
+  physics is beautiful . 
+  yes , and that is the main motivation for compiling 64-bit versions of software . 
+  however , there can also be performance improvements , particularly with software that does lots of math with numbers larger than 2 ^ 32 , which can see up to 2x improvement . 
+  programs running in 64-bit mode also have access to twice as many cpu registers , which can help in many types of code . 
+  however , 64-bit code takes a lot more space , since all memory references and direct values etc need to 64 bits of memory instead of 32 . 
+  this influences how much of your program can fit into the cache , and can reduce performance . 
+  64-bit programs generally see a small boost , but it 's a mixed bag . 
+  how can i tell good psus from the shitty ones ? 
+  ahh , the good old days when fire was actually dangerous . 
+  looks like it , fire was n't nerfed until beta 1.6 in 2011 . 
+  the first 1tb drives launched were actually based on mlc , and samsung is still the only company that sells tlc drives . 
+  the rapid capacity increase has mostly been due to shrinking the cells , not increasing the capacity of each cell . 
+  of course , shrinking cells has the same implications for speed and life span as you mentioned , so the end result is the same . 
+  however , it still looks like it will last for a few more generations . 
+  if the trend of halving cell size every two years continues , you could be seeing the first 6tb ssds in 5 years or so . 
+  it 's a good time to be alive . 
+  not a stupid question at all . 
+  3.5 inch models are not uncommon in enterprise and server solutions , but they are not any bigger because they all use slc flash for life span and performance reasons . 
+  for consumers , there are a few models , but it 's not really common anymore . 
+  they could probably make a larger 3.5 inch model if they really wanted to , it probably just does n't make economic sense . 
+  designing a whole new case and making the thermals etc work out is not a trivial task , and the 2tb drive would probably end up costing more than twice as a much as the 1tb offering . 
+  i 'd much rather buy 2x1tb and put them in raid 0 at that point , and get much more performance on the buy . 
+  there could also be other technical challenges , like how well the controller scales to 2tb , but as i said , i 'm sure they could be overcome if they really wanted to . 
+  i just do n't think there 's enough market for consumer 2tb ssds to justify the cost . 
+  but the iron farms stayed nerfed , right ? 
+  i seem to remember them changing the way they spawn , so that you ca n't make them spawn so quickly anymore . 
+  story ? 
+   more seriously , if in directx 11 and lower your rendering code performance is not bound by the gpu driver then probably your code sucks . 
+  can anyone elaborate on this ? 
+  being bound by the driver software seems like a bad sign to me . 
+  i posted this in / r/science a week ago , it seems appropriate to re-post here :, 
+  people often tend to think of light as waves , but this is an incomplete description - light simultaneously has properties of both waves and particles . 
+  this is obviously extremely simplified , but physists either think of it as lots of waves , or as a shower of particles ( photons ) , depending on the situation . 
+  it essentially has properties of both , but keeping one of the models in mind at the time can make it a lot easier to gain intuition . 
+  for this situation , if you see light as a wave , it does n't make much sense that light can push a space craft off its course , even though the phenomenon has been confirmed numerous times . 
+  however , if you think of light as a particle , it seems perfectly logical !, 
+  consider this thought experiment : a spacecraft is standing completely still in empty space , with engines off and nothing pulling it in any direction . 
+  then , it is hit by a ball - the impact will nudge the space craft very slightly , and it will start to slowly drift in that direction . 
+  if the ball is heavy and the craft is light , it will move faster . 
+  now imagine it gets hit by another ball , and another , and another and after a while the craft builds up quite a lot of speed . 
+  this is basically what happens with the light . 
+  the photons from the sun constantly slam into the space craft , and eventually push it slightly off its course . 
+  this effect is called radiation pressure , because the light is essentially exerting a constant pressure on an object . 
+  astronomers are obviously aware of this , and it is completely neccessary to take it into account when launching long-range spacecrafts . 
+  in space , there are very few external forces that disturb the spacecrafts , so even if the radiation pressure only constitues a minute force , it can change the direction enough to make the craft completely miss its target . 
+  an example from wikipedia ; if the effects of the sun 's radiation pressure on the spacecraft of the viking program had been ignored , the spacecraft would have missed mars orbit by about 15,000 kilometers . 
+  further reading : [ radiation pressure . 
+  ] ( https://en.wikipedia.org/wiki/radiation_pressure ), 
+  with the right library , you could write that one line in pretty much any modern language . 
+  the rest of the code was extremely short and clean though , it 's a great thing to use python for . 
+  it 's extremely unlikely that we will ever see mainstream cpus with general-purpose alus and registers wider than 64 bits . 
+  people who need 128-bit and wider will keep getting better and faster special instructions for that , but 128-bit alus are big , power hungry and slow . 
+  you really do n't want to have to do all your regular 3456 + 9824 / 6 math on a 128 or 256-bit alu . 
+  the only reason 64-bit happened was because of the 32-bit memory limit . 
+  moore 's law would have to continue for around 50 years before we start running into the 64-bit limit , which seems a bit optimistic to me . 
+  hell , it 's already slowing down . 
+  2 ^ 64 bytes of memory is a long way ahead . 
+  considering hdd prices are barely any lower than they were 3 years ago , and max capacities are increasing depressingly slowly compared to 2010 earlier , that 's very unlikely . 
+  give it 3 years at least . 
+  where can i find more information ? 
+  they 're not in intel 's official spec sheets yet . 
+  if that $ 281 dual-core 2.0 ghz is ~ ~ 17w ~ ~ 15w , that 's an insanely good offering . 
+  that 's patently false . 
+  firstly , [ the first consumer 3tb drives were released in 2010 . 
+  ] ( http://www.anandtech.com/show/3858/the-worlds-first-3tb-hdd-seagate-goflex-desk-3tb-review/1 ), 
+  secondly , i said three years ago , not two . 
+  two years ago , hdd prices were artificially high because of the thailand floods . 
+  in 2011 , they were * significantly * lower , often as much as 30 % . 
+  using your numbers , that means we 've seen a 30-40 % decrease in price the last three years , which is certainly far behind the 50 % every two years that we are used to . 
+  unless you want the +10 % performance given by haswell ( with worse overclocking potential ) , you 're pretty much set until 2015/2016 when skylake arrives . 
+  a good buy , that cpu . 
+  not 700 times harder . 
+  normally i would automatically assume that this is satire , but then again i am not american . 
+  also reddit is being weird today . 
+  i hope i never have to live somewhere where that is the prevailing attitude . 
+  devs pls, 
+  that 's haswell-e , the enthusiast lga 2011-3 cpus expected later this year . 
+  it 's those that come with all the good new stuff like ddr4 . 
+  these refresh processors are just new lga 1150 mainstream cpus that are almost identical to the ones already on the market . 
+  that is very likely . 
+  the pricing of all haswell cpus so far has been nearly identical to their ivy bridge and sandy bridge counterparts across the board . 
+  in addition , the 5960x is rumoured to be priced at $ 999 , just like the 4960x and 3960x , so i would n't be surprised if the 5930k launched at exactly the same price as the 4930k . 
+  definitely wait . 
+  the lga 2011 platform is almost two and a half years old at this point , waiting 3 months for an updated platform is n't something you 'll regret . 
+  the extra performance and features of haswell is just a bonus at that point . 
+  seriously ? 
+  source ?

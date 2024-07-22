@@ -1,0 +1,100 @@
+  in sc i can compensate for that with better positioning before the battle , better decision making and better risk management ( i.e. 
+  choosing which battles to look at and control ) . 
+  in wc3 these elements are not as important . 
+  it is far easier to know which battle to watch but if you do n't react really fast you lose your hero and the game is over . 
+  the game is only too slow if your speed does not give you an advantage over your opponent . 
+  now intensity is another thing . 
+  intensity in sc comes from the fact that you are always under pressure to do something at least on higher levels . 
+  in warcraft iii there are moments when the game is quite calm for example when both players just go creeping . 
+  what i mean by meaningful is that there is no thinking involved in it because there are no decisions made . 
+  you just want your troops to move and shoot at the same time . 
+  when you do drops at multiple places you must constantly choose what to attack when to leave , etc. 
+  this is much more meaningful . 
+  i will as soon as it becomes bigger than sc2 , 
+  no it is not . 
+  it will result in more micro . 
+  after all it should be obvious to everyone that there is a point where faster game would not result in more skill . 
+  for example what if the game was 10 times faster than it is now ? 
+  would it require more skill to play it or less ? 
+  i think it will have a lower skill cap because nobody would be able to control their units adequately so the control element would be gone . 
+  well in my view a perfect game would have endless skill cap by introducing endless potential for smaller and smaller decisions not by having things that your hands ca n't handle . 
+  i know that the community does n't agree with me in general ( i see those downvotes ) but i see micro which does not involve decisions as something that makes the game worse not better . 
+  for example chrono boost is something that requires micro and apm but also decisions . 
+  it 's not like you can just set the chrono boost on auto cast on a certain building and forget about it even if there was such an interface option . 
+  with marines if i had the option to make them move at half speed and shoot at the same time i would just activate it and go do something else with my apm . 
+  i am not criticizing marine micro i am criticizing stutter stepping . 
+  i can compare stutter stepping to the mechanical part of chrono boosting but then it makes things even worse . 
+  mechanically chrono boosting uses the standard interface of the game which the rest of the game uses as well . 
+  to my knowledge better interface for transmitting commands in a rts game does not currently exist . 
+  on the other hand if we treat stutter stepping as interface for transmitting intention this surely must be the worst part of sc2 interface . 
+  surely . 
+  wpf utilizes gpu acceleration and visual studio is written in wpf . 
+  let alone that many fonts on windows are rendered with directwrite, 
+  not the language but the platform . 
+  why is n't the platform blocking this input by default and throwing errors ? 
+  this is what a good platform should be doing - secure by default . 
+  you do n't make this decision on every click so most click are pointless . 
+  anyway in my opinion the animation cancel mechanics are boring and exchange thinking for muscle memory . 
+  ideally the game will replace them with actions that require both micro and decisions . 
+  by turning off the security checks for the specific input and escaping it manually . 
+  when you turn off the checks for specific input the chance that you forget that it should be escaped are pretty slim . 
+  it does n't take a moron to forget to escape the input all it takes is for him to forget a certain place in a large system . 
+  nobody criticizes c++ ? 
+  come on !, 
+  i do n't know what you are referring to but i believe i would be on sirlin 's side . 
+  sql injection is not the only type of malicious input one should be worried about . 
+  every part of the platform should take care of the specific input it is processing . 
+  database connection code should take care of sql injections , the web framework should take care of html/script injections , etc. 
+  if it is true that no user input should be trusted only morons would create a platform that trusts input by default . 
+  passing raw input should be significantly harder and require additional work since it is not the default . 
+  btw was he ever a pro in wc3 ? 
+  well you mark it in some way depending on the specific technology . 
+  the most primitive way is to have to call unescape function or something . 
+  as i said in another comment the part that communicates with the database should escape database stuff and the part responsible for the web should escape web stuff ( html/script injection ) . 
+  i am not suggesting that every get parameter should be database escaped but the query functions should escape everything . 
+  at the very least there should be completely different functions to pass escaped and unescaped input to the database and the way to pass unescaped input should be significantly harder to write ( say require a call to unescape function ), 
+  as an example i do n't think anyone ever managed to write code vulnerable to sql injection with java 's hibernate unless he tried to do exactly that . 
+  well , it 's the problem of the person who reads the question . 
+  i have used this type of new answers multiple times and am happy how the system works . 
+  if people ca n't be bothered to read all the answers then they deserve to produce crappy code . 
+  `` kindly provide me the codes '', 
+  do n't forget `` kindly '' , 
+  no it is not . 
+  that 's like saying that movement commands should only allow movement in 10 pixels range because you may want to change the direction at any point so you must decide constantly the direction your units move in . 
+  that change would certainly increase the skill cap . 
+  i do n't know what this is even supposed to mean since the game is only slow in competitive terms if you have hit the max you can do and additional apm will not be of any benefit . 
+  yes the units in warcraft iii move more slowly and die slower but this does not mean that the game is slower because the punishment for not reacting is much higher therefore even if it is easier to control one unit individually it is required that you control multiple units individually . 
+  you still need to use all your speed and more . 
+  because the term php often includes not only the language and the interpreter but also a standard library , frameworks , etc. 
+  because when you stutter step you make 10 clicks in one direction . 
+  if there was a stutter step command like there is attack move command you would only click once . 
+  rule of thumb for meaningless micro - if there was a single click command and auto cast would you use it to perform the action or you would still do it manually ? 
+  for example if psi storm had auto cast nobody would use it because you have to decide every time you do it and you ca n't depend on the ai to do that . 
+  with stutter step if there was a command to stutter step i bet nobody would click like crazy all the time to perform the action . 
+  this is undisputedly true . 
+  i do n't see how it invalidates my other opinions though . 
+  because not everyone thinks the win32 api is better . 
+  i 'd be glad to hear ( read ) what you have to say when you word it , 
+  so what . 
+  it requires at least as much speed from the player if not more . 
+  well , it does . 
+  i happen to know some people who 've been wc3 pros for a short time that do n't . 
+  in addition i do n't see how being pros gives them authority on that . 
+  if anything we should ask slow players ( like me ) and see if they did better in warcraft iii or in sc, 
+  as i said that only makes sense if you think that the speed cap for wc3 is within human abilities but even for a slow player it is important where he does better . 
+  obviously the game where the slow player does worse requires more speed than the game where he does better . 
+  you seem to be biased against wpf . 
+  mind you that winforms is not deprecated . 
+  it is in legacy mode . 
+  there is a huge difference . 
+  i am willing to bet that wpf will be at least that around in 5 years if not more . 
+  win forms will surely be updated less or equal to wpf . 
+  after all it just got what wpf had from the start . 
+  so what if the creator of the platform does n't want interoperability ? 
+  is n't he entitled to that by virtue of owning the platform ? 
+  they mean the methods , classes and packages in the java standard library that google copied . 
+  no it does n't mean that . 
+  it means that whoever wants to implement a java environment needs to license the apis . 
+  it has nothing to do with using it to write programs . 
+  you have no idea what you are talking about . 
+  i am not aware of a single class in c # that is api-compatible with a java standard library class .

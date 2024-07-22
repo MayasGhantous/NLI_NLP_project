@@ -1,0 +1,100 @@
+  if it is n't a performance-critical portion of the code , and `` more important in the long run '' is measured in terms of maintenance , then that might well be the case . 
+  why would n't i use a o ( n \u00b3 ) algorithm in , say , program initialisation code that iterates over maybe a hundred values , if it helps with code clarity ? 
+  let me try a slightly different one , then . 
+  once i was working on a thing where i had a set of `` layers '' that are to be rendered bottom-to-top on a canvas , and the possibility to add a new layer to render with a specified ordering priority . 
+  the number of layers would be in the range of maybe 10 maximum . 
+  the solution here complexity-wise would of course be to implement a priority queue , add stuff into it for the `` add layer '' routine and iterate over it for the rendering routine . 
+  however , in a combination of laziness and code clarity , and the fact that the language already supplies an array type with a ` sort ` method , i instead opted for doing push + sort in the `` add layer '' routine , without even knowing if the sorting algorithm used would notice that the array is mostly sorted already . 
+  edit : actually , there 's a second point here i guess , where i chose the simpler api { add , render } over { add , prepare , render } , where in the latter case ` prepare ` would take care of the sorting . 
+  this would also have simplified the time complexity , but at the expense of a more complex api and having to remember to call ` prepare ` before ` render ` . 
+  or maybe i could 've used a flag to keep track of whether the array has been re-sorted , and otherwise re-sort it at the beginning of ` render ` ... come to think of it , that 's probably what i ended up with . 
+  anyway , the point itself is still valid , i.e. 
+  that there 's a tradeoff between code clarity and simplicity , and runtime performance ( and development time , and still other parameters ) . 
+  oh , this is wonderful ; those are some new letterlikes i did n't know of . 
+  to add to this , i recommend liberal use of \u1690 \u01c0 \u01c3 \u01bc \u142a \u15ee \u1427 \u1428 \u1424 \u1426 \u144a \u14bf \u1540 \u1541 \u156f \u2d32 \u2d3a in your identifiers , and do n't forget about the whitespace character ` ` ( renders as a dash in most fonts , but not all unfortunately ) . 
+  these allow you to write beautiful code , like, 
+  var \u1690 = function ( a , b ) { return a + b }, 
+  console.log ( [ 1,2,3 ] . reduce ( \u1690 , 0 ) ), 
+  as well as tricky code . 
+  quick , what does [ this code ] ( http://xen.firefly.nu/up/tricky.js.html ) do when run ? 
+  ( external because reddit ate my whitespace ), 
+  edit : darn . 
+  well , this is interesting , seems reddit normalises consecutive whitespace because my ogham whitespace gets replaced with a regular one when i save ... oh well :(, 
+  some people actually learn japanese , for a variety of reasons . 
+  some of these reasons might include wanting to enjoy some japanese-only media ( like certain games or animes ) , so i do n't think `` people would n't want to import anyway '' is a really good argument . 
+  especially considering they have to go out of their way to implement the region locking . 
+  they might be aware of cds , and have just not stumbled upon the word `` dvd '' yet . 
+  though it amazes me that they 'd find reddit before a dvd , no matter how you cut it . . 
+  i. . . believe the op is a joke . 
+  your suggestion is still good though ; i actually * do * have my editor setup to substitute some things visually ( ` function ' \u2192 ' \u03bb ' , ' . prototype . ', 
+  edit : oh , and only `` letterlike '' characters are allowed in identifiers . 
+  hopefully tools like js { h , l } int have proper parsers that do n't incorrectly complain about valid identifiers . 
+  i believe they found log files in his computer from the intrusion , though i do n't remember what kind of log files . 
+  bravo . 
+  how was it made ? 
+  looks vaguely like the source filmmaker thing to me . 
+  80 * g pa = slightly less than 800 pa ? 
+  not sure about continental europe ( that is , south of us :p ) , but in sweden we use measurements for cooking that seem somewhat similar to the imperial system with cups etc to me . 
+  we have * kryddm\u00e5tt * ( `` spice measurement '' , 1ml ) , * tesked * ( `` teaspoon '' , 5ml ) , * matsked * ( `` tablespoon '' , 15ml ) and * deciliterm\u00e5tt * ( `` dl mesaurement '' , 1dl ) ; [ here 's a picture ] ( http://commons.wikimedia.org/wiki/file:matm\u00e5tt.jpg ) of what a set of them looks like . 
+  my view is obviously skewed in favour of the system i 've used , but it seems to me that the main difference compared to the imperial equivalents is that ours are defined in terms of metric units . 
+  ... wait , seriously ? 
+  i assume this is the same in the older games of the series as well ? 
+  i just recently finished the main story + etna mode story of the first game ( playing the ds version ) , and here i thought the limits on specialists were total values * per character * ( i.e. 
+  maximum of +300 % bonus from items ) rather than * per specialist * ... o_o, 
+  welp , i 'm off to the item world . . 
+  hm . . is pal vs. ntsc still relevant though , considering modern game consoles just plug into the tv via hdmi and essentially use it as a monitor ? 
+  you mean for the power supply ? 
+  i think that 's just a matter of supplying different power supplies for different regions . 
+  i recall japan having both a 50hz and a 60hz power grid , with each one serving approx . 
+  half the country , for some reason . 
+  clever attempt though . 
+  this only * declares * ` a ` though , so it 's a tad confusing at best ... 
+  i 'd avoid it and go with a more explicit, 
+  var a = 5, 
+  , b = a, 
+  , c = a, 
+  ( modulo preferred indentation and code style . . ), 
+  well , it 's added for a reason . 
+  the benefit for nintendo is finer control over which games are accessible in which regions , and control is always nice ... 
+  this does n't recurse though , as far as i can tell ? 
+  so the real issue here is of course that your home directory is too cluttered . 
+  the remakes of disgaea : hour of darkness ( one for ds and one for psp ) support local multiplayer . 
+  it seems kinda neat , but alas i have n't tried it since . . well , * local * multiplayer would require me to know someone else with the same game , and given it 's a somewhat niche game to begin with ... 
+  not exactly clone , but it 's heavily inspired by aw . 
+  the player has a fixed amount of `` cash '' ( ap ) to spend per turn , and movement , deployment and attacks all cost ap , so there are some fundamental differences between the two . 
+  i 'm curious , what makes hex cells harder to implement than an orthogonal grid ? 
+  i do n't have much experience with it , but you could still represent the hex grid as a 2d array , but indent every other row ( and * render * them as hexagonal cells ) . 
+  if you do , hexagonal movement becomes up/down/left / right in the 2d array , plus up-right and down-right for indented rows and up-left and down-left for the others . 
+  sure , it 's slightly more complex , but not that huge of a difference i think ? 
+  the wording `` a fair bit more difficult '' sounded like i was missing something to me ... 
+  by designing their own platform , nintendo can further try to prevent piracy . 
+  for instance look at how the 3ds still does n't have any flash cards released for it . 
+  i think most people would agree that pirating a pc game is easier than pirating a 3ds or wii u game . 
+  by targeting a console ( or a set of consoles ) you only have one ( or a few ) sets of hardware configurations to care about . 
+  this is a big one i think . 
+  with a pc game you have to cater for many , many possible hardware configurations and combinations , and these days probably also different operating systems ( windows , osx , linux ) . 
+  with , say , the wii u , nintendo ( or anyone else targeting the wii u ) knows that all users will have a gamepad-tablet-thing , and with the wii they know that all users will have a wiimote , and the game could be designed with these assumptions in mind . 
+  you could n't do the same with a pc game . 
+  ( i think this actually also sorta helps prevent piracy , or rather , helps prevent emulation , because in a game where the wiimote plays a central role it 'd probably be more enjoyable to play with a real wiimote than with a gamepad + mouse . ), 
+  i think consoles fill a purpose . 
+  your example with movies is interesting , because we actually * do * have dvd+r as well as dvd-r , which * are * completely different to each other , and players end up having to license both ( i think ) and market themselves as playing both ... 
+  that said , i wholeheartedly agree that the way sony and microsoft seems to brag about who has the most exclusives is pretty silly . 
+  it seems to me that those companies pretty much * bribe * other producers into not developing for competitors ' platforms , which of course hurts the consumer . 
+  but i think it 's important to differentiate by targeting only one or a few platforms by choice , and by getting paid to do it . 
+  nice . 
+  what wallpaper is that , and from what series is it ? 
+  the look of it reminds me a bit of se : lain . 
+  it really fits the `` cold '' theme ; good choice . 
+  you managed to make the title even more confusing than the linked post 's title . 
+  :\\ ( i mean , the value nan certainly exists in all js implementations ... ), 
+  [ caret ] ( http://en.wikipedia.org/wiki/caret ) , not carrot . 
+  the maps look amazing though , and it 's really useful as a reference and tutorial as others have pointed out . 
+  great work . 
+  but the issue is n't the latency between players ( which would be as much of an issue as it already is today ) , but rather the latency between the server rendering your frame and your monitor actually presenting it to you . 
+  this is about the input/output lag between the server processing the game and your box acting as a thin client . 
+  that looks like the boot-up screen asking about setup information ( name , birthday , current time and date , stuff like that ) , though i 've no clue why it 's in japanese . 
+  the clock battery probably got shorted or something , causing that info to have been reset . 
+  fill it in and it should work just fine again , i believe . 
+  i usually turn it on for cutscenes , but otherwise keep it off . 
+  it was never that much of an attraction for me , anyway . 
+  there 's an alternative c too : move away from the pok\u00e9mon universe and replace it with new creatures and moves and replace the pok\u00e9balls .

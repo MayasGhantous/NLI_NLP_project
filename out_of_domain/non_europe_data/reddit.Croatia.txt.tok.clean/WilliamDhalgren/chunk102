@@ -1,0 +1,100 @@
+   alphago , however , is powered by 1920 cpus running 64 search threads , with 280 gpus . 
+  that cluster is insane . 
+  and it is all being dedicated entirely to one game , playing just one human . 
+  if that 's the source of that number , wiki needs to be corrected on that point - it quotes the table from the paper , yes , but the strongest configuration is n't the one they used 5 months ago at least ( and that 's what the paper is about ) . 
+  the paper is not perfectly clear in this but consider :, 
+   the final version of alphago used 40 search threads , 48 cpus , and 8 gpus . 
+  we also implemented a distributed version of alphago that exploited multiple machines , 40 search threads , 1202 cpus and 176 gpus . 
+  then the fact that this variant w 176 gpus is the one grayed out in the table , which in all other tables identifies the variant used , then the fact that elo and resources of that 176gpu variant are quoted in another table , `` results of tournament between different go programs '' , and the fact that the additional resources beyond this only bought them mere 28elo . 
+  completely agreed !, 
+  but , am i right in thinking this win in go is seen as more decisive than the late 90s win in chess , if the match continues like this ? 
+  ie , that humans could still be about on par with computers in chess into the middle 2000s and find various blind spots ? 
+  these games otoh look terribly clear . 
+  idk . 
+  it would be great , but for example the shogi community reaction to having top pros lose to computers was limiting allowed competitions to one event ( which is apparently a team thing , so one needs multiple strong programs & teams to be able to win it ) , and there , banning clusters completely and additionally freezing the program version some time before the match , then requiring access to it for weeks so the pro might study it in detail to find some weaknesses . 
+  and sometimes it worked in giving humans the upper hand . 
+  sometimes not . 
+   on 14 october 2005 , the japan shogi association banned professional shogi players from, 
+  competing against a computer . ^ [ 49 ] the ** japan shogi association said the rule is to preserve, 
+  the dignity of its professionals ** , and to make the most of computer shogi as a potential, 
+  business opportunity . 
+  the ban prevents the rating of computers relative to professional, 
+  players . 
+   from 2008 to 2012 , the japan shogi association did not permit any games between a male, 
+  professional and a computer . 
+  ** an ** incredibly powerful gpu ? 
+  heh , try 8 of them  48 core ( says cpu but its got ta be core count not chip count if its one system , right ? 
+  ) , 8 gpu system . 
+  well i think a 2gpu system is still decent though . 
+  edit : idk , all the numbers for hw used in training they give are `` just '' 50 gpus . 
+  and waiting a bit longer to train it , it could prob be done w less . 
+  i guess they needed the clusters to verify elo ratings and tweak parameters in the bot tournament though . 
+  whenever they 're done with making this monstrosity stronger ( and hence having a superhuman single-machine system , if they do n't already ) , there 's still gon na be possible optimizations to try to make it run on less hardware . 
+  bengio 's group is working on binarizing all weights and activations , so its 1 bit rather than 32 per each as now , plus convolutional operations are an order of magnitude faster . 
+  and hinton has that `` dark knowledge '' paper about transferring the training from a larger net to a much smaller one while preserving most of its precision . 
+  and new nvidia 's will have fp16 instructions etc. 
+  edit : a more radical idea is circuits with imprecise arithmetic that can be much smaller/faster than common floating point operations , yet good enough for neural nets ; which might be used if neural network acceleration on devices is of great interest . 
+  go can profit here from the need of large companies to run neural net inference on mobile platforms ; money will flow in this kind of research . 
+   it might be instructive to give alphago a modified goal of trying to maximize some combination of safe win and big win . 
+  she might then play more brilliant moves , or at least more moves whose brilliance can be appreciated by a human audience . 
+  such an experiment might contribute to the development of the game . 
+  yeah - it might even improve its actual win % as sometimes the poor moves are a problem of it not being able to discriminate between two situations , both almost assuredly wins or losses , due to the noise or misevaluation in simulations ( and presumably in the network too ) . 
+  one way of doing that is called dynamic komi . 
+  pachi bot has an implementation :, 
+   one common problem of the monte carlo based methods is that by definition , they do not adapt well to extreme situations , i.e. 
+  when faced with extreme advantage or extreme disadvantage . 
+  4 this is due to the fact that mcts considers and maximizes expected win probability , not the score margin . 
+  if a game position is almost won , the `` safe -- active '' move that pushes the score margin forward will have only slightly higher expected win expectation than a move with essentially no effect , since so many games are already implicitly won due to random noise in the simulations . 
+  ... an mcts program however will seek the move that currently maximizes the expected win probability -- ideally , it would represent a sophisticated trap , but in reality it tends to be rather the move the random simulations mis-evaluate the most , ending up making trivially refutable moves . 
+  ... mcts program will make moves with minimal effect on the safety of its stones or territory and carelessly engage in sequences with high danger of mistakes ; it will maximize the win expectation ( of however biased and possibly misevaluating simulations ) without regard to score margin , creating the danger of losing the game . 
+  the approach in short is to adjust the internally used komi value to make the game more even . 
+  old version of alphago did n't use it . 
+  pachi could get a small winrate boost ( 59 % ) after some tweaking of that komi 's parameters . 
+  alphago would need more radical changes to incorporate it due to having a value network . 
+  though i think i 've seen criticism of this kind of tinkering on the mailinglist , but i would n't know to repeat it w/o digging for it . 
+  what does he think disfavors the human in these conditions ? 
+  any idea why ? 
+  i mean what 's wrong if some more audience wants to look at a raw feed ? 
+  no , there are many kinds of machine learning algorithms and models , and neural networks are just one of the models that could be used . 
+  could be they 're using any other technique - some techniques are : random forests , support vector machines , hidden markov models , knn etcetc . 
+  i 'd have to think which even make sense for time control but . . 
+  um , but we 're talking about an ** unpublished ** addition to the system , since the paper , improving its time management . 
+  there was nothing fancy about time control in the old alphago , on which they published the last paper , and which i read god knows how many times . 
+  and it involved no neural nets nor machine learning :, 
+   time controls were otherwise shaped to use most time in the middle-game 56 . 
+  and that 's a reference on time management in any monte carlo go algorithm , paper `` time management for monte-carlo tree search applied to the game of go '' , that has nothing to do with any kind of learning , but just with hand-crafted heuristics :, 
+   monte-carlo tree search ( mcts ) is a new technique that has produced a huge leap forward in, 
+  the strength of go-playing programs . 
+  an interesting aspect of mcts that has been rarely, 
+  studied in the past is the problem of time management . 
+  this paper presents the effect on, 
+  playing strength of a variety of time-management heuristics for 19x19 go . 
+  results indicate, 
+  that clever time management can have a very significant effect on playing strength . 
+  experiments demonstrate that the most basic algorithm for sudden-death time controls, 
+  ( dividing the remaining time by a constant ) produces a winning rate of 43.2 \u00b1 2.2 % against, 
+  gnu go 3.8 level 2 , whereas our most efficient time-allocation strategy can reach a winning, 
+  rate of 60 \u00b1 2.2 % without pondering and 67.4 \u00b1 2.1 % with pondering . 
+  yeah , i missed a fair chunck of the start being confused by seeing reruns on the stream , 
+  i do n't think they care about handling losing situations . 
+  they 'll continue to push for better evaluation function not to end up in them in the first place prob . 
+  remember , their validation metric is winning % against other bot versions . 
+  there 's no reason it should n't be possible . 
+  k10 is prob simply ag 's fatal blunder there . 
+  it misread . 
+  yes , ag can make a blunder ; probably any future bot will , as go is nowhere close to being a ( weakly ) solved game ; ie one for which we can play a perfect game . 
+  we simply know now that it is n't of superhuman strength . 
+  even if the weakness is n't systematic and it is actually a very strong player , still it can at least lose often enough to a top human to be of comparable strenght ( say within one stone or so ) . 
+  i was just commenting on how the algorithm might behave when it figures it 's losing just before this game started . 
+  the quote is from a paper on dynamic komi . 
+  a technique to make a bot tighten up its game when its ahead , and not do silly shit when behind :, 
+  edit : i 'll reformat the quote a little bit as i apparently did n't quote the parts that identify which behavior happens when behind vs ahead / edit, 
+   one common problem of the monte carlo based methods is that by definition , they do not adapt well to extreme situations , i.e. 
+  when faced with extreme advantage or extreme disadvantage . 
+  4 this is due to the fact that mcts considers and maximizes expected win probability , not the score margin . 
+  if a game position is almost won , the `` safe -- active '' move that pushes the score margin forward will have only slightly higher expected win expectation than a move with essentially no effect , since so many games are already implicitly won due to random noise in the simulations . 
+   edit : if a strong human player is faced with extreme disadvantage ... , they tend to play patiently and wait for opponent mistakes to catch up gradually ; in even games , they usually try to set up difficult - to-read complications . 
+  / edit, 
+   an mcts program however will seek the move that currently maximizes the expected win probability -- ** ideally , it would represent a sophisticated trap , but in reality it tends to be rather the move the random simulations mis-evaluate the most , ending up making trivially refutable moves . 
+   edit : similarly , a strong human in position of large advantage will seek to solidify their position , defend the last remaining openings for attack and avoid complex sequences with unclear result ; then , they will continue to enlarge their score margin if possible . 
+  / edit,

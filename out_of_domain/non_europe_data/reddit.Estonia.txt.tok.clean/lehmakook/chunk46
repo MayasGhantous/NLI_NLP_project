@@ -1,0 +1,100 @@
+  this means that you can use fast flat calculation , the units of distance are metres , and * as long as the points are in the area * the distances , angles and areas are all almost correct . 
+  the downside of this method is that it only works on small almost-flat slices of earth . 
+  if the points are outside of your coordinate system 's intended area , they will be very wrong . 
+  you convert from the gps lat & long into another srid using the st_transform function . 
+  you just need to find a coordinate system that works best for you , which can be a bit tricky . 
+  http://spatialreference.org/ has a list of valid numbers , but you need to find what is a good choice from elsewhere , for example https://en.wikipedia.org/wiki/ordnance_survey_national_grid for the uk . 
+  so a summary :, 
+  * if you are unsure , start with geography . 
+  it will just work correctly no matter where your points are . 
+  and it 's pretty much the only choice when you have data that spans a continent . 
+  * if you are sure that your points are all in one city or state , and you want the extra speed or complex geometry operations , then convert to a local flat coordinate system . 
+   using a local flat coordinate system in geodjango , does the entire model have to use one point of reference ? 
+  yes , when you create a pointfield or a multipolygonfield or so , you must choose geography/geometry and a srid . 
+  all data will be saved and indexed in that coordinate system . 
+  so if you want to save and index each city in its own local coordinate frame , then you will need separate models and database tables for each . 
+  you can of course save everything in geography , and convert to local coordinates in queries - but this will do the conversion every time . 
+  i would suggest the following :, 
+  * save everything in * geography * at first . 
+  this will be the easiest to use , no special cases needed . 
+  * ignore performance issues until you actually have enough data and visitors , and then profile to see where the best place to spend time optimising code is . 
+  * when optimising , check to see if the geography queries are using indexes as expected , etc. 
+  you can do this only when you have enough data - if you have just small test datasets , then postgresql will often ( correctly ! ), 
+  decide that full table scans are faster than using indexes . 
+  * if you need to use the more complex geometry operators ( polygon intersection , clustering , etc ) , then write a query that first fetches only the useful points from your geography field , then converts them into a local coordinate system , and then applies the operators . 
+  * add models with local coordinates specific to cities only when your app is so popular that all other methods are too slow . 
+   i already figured out that i need to live in the centre ( kesklinn i believe ), 
+  seems a good idea . 
+  it 's cheapest to live the three apartment block districts ( lasnam\u00e4e , mustam\u00e4e , \u00d5ism\u00e4e ) , but then you need to commute and they are boring as hell . 
+  you could try the `` hipster district '' kalamaja , but that would then be a 30 + minute walk to work . 
+  so for a three-month internship , i would suggest finding a place in the centre , within walking distance of the office and old town , even if you have to compromise on quality or size of the room . 
+  going out to any events in the city will be much easier and spontaneous that way . 
+  unhappy people , obviously !, 
+  you could easily make a longer list of `` rules '' for buying a coffee at a cafe for a foreigner who 's never been to cafes before . 
+  all of these rules really boil down to `` yes you are naked , but this is not sexual , do n't be weirded out about it '' . 
+  apart from that , it 's not that different from sitting & drinking with friends in a living room or a bar table . 
+  no , but they will eventually change the version number . 
+  and then checks that check for, 
+  if py3 :, 
+  else :, 
+  # stuff expecting python2, 
+  will break , because python4 wo n't be compatible with python2 , even if it is with python3 . 
+  if your small child is taller than 3050 mm , you have bigger problems than getting onto theme park rides . 
+  you might want to add a question about location - plenty of people here are from countries without death penalty . 
+   is there any downside in a rocket engine development program to doing a scale version first ? 
+  i ca n't think of anything , besides that scaling an engine up is non-trivial , the fuel mixing and combustion flows could be radically different . 
+  therefore a smaller prototype version followed by larger version can be more expensive than starting directly with the larger version . 
+  but if you have a real use case for the smaller version , * and * someone else is paying for it , then there are no obvious downsides . 
+  keep reading past the confusing/slightly clickbait headline , the article is actually very insightful . 
+  the best way to install django 1.8 is, 
+  which picks the latest 1.8 . x series release . 
+  can subplots have sub-sub-plots too ? 
+  i would recommend keeping the common fields and area models separate . 
+  something like, 
+  class plot ( models.model ) :, 
+  name = ... 
+  address = ... 
+  class subplot ( models.model ) :, 
+  parent = models.foreignkey ( plot ), 
+  area = models.decimalfield ( ), 
+  and then making sure in your forms or views that you are always forced to create at least one subplot for each plot , even if it 's a `` covers everything '' subplot . 
+  you can sort of do this in pg : http://www.postgresql.org/docs/current/static/sql-cluster.html, 
+  but it does not auto-update , you need to re-run cluster table_name after adding or removing a lot of rows . 
+  because that installs django 1.8.0 , not 1.8.8, 
+  nah , too bored to write a tl ; dr, 
+  please tell us more about what sort of embedded devices this runs on ? 
+  without knowing more details , it seems to me that if you want to update firmware on a device completely automatically , not logging in via ssh to do manual upgrades , then sqlite might actually be a better choice than postgresql . 
+  it is n't impossible to manage postgresql without any interactive human admins : amazon , heroku , etc must be doing it somehow . 
+  but it might be tricky to automate it all , it 's not a use case that 's often mentioned in instructions or documentation . 
+  that said , postgresql disk format is stable within major versions , which get security fixes for 5 years . 
+  so if you go with version 9.5 now , you have until january 2021 to figure this out . 
+  between major versions , pg_dump to a file + pg_restore is usually the easiest approach , although pg_upgrade sometimes also works . 
+  so i do n't really have suggestions on how to run postgresql with zero human administration , never tried it like that . 
+  but some notes :, 
+  * i thought sqlite was reasonably reliable even with concurrent users ? 
+  yes , it locks the whole table for each write ( not great for performance ) , but if the transactions are used and the filesystem provides some locking guarantees , it should still work correctly from multiple processes ? 
+  * pg_dump is supposed to have a very stable custom format : it 's recommended as the most reliable way of upgrading between major versions . 
+  and for even more stability , it 's possible to pg_dump and restore as plain sql text . 
+  * pg_dump on shutdown and pg_restore on reboot might be slow depending on how much data you have . 
+  for reference , on some hdd-equipped servers i saw around 10gb/minute for dumping , a bit faster with ssds . 
+  * there is also pg_upgrade , which upgrades the postgresql data files in-place . 
+  this should be a lot faster than pg_dump & restore , and documentation says that it works from old -  current for all old versions since 8.4 . 
+  it seems probable that it will keep compatibility as long as you upgrade postgresql versions more often than every 5 years . 
+  but for these devices , it seems slightly fragile : if something goes wrong ( disk full at upgrade time , etc ? 
+  ) , then fixing it without human interaction is probably impossible , and now you do n't have a full backup in the form of pg_dump . 
+  overall it seems that the pg_dump way is the most reliable if you do n't have too much data . 
+  as an added benefit , this could be used for providing multiple restore points or backups ? 
+   pg_dump custom format , i have n't seen anything written about version stability , and it 's scary to think about `` that it might come '' . 
+  i have n't either , but i 've always seen it mentioned as the final approach to use when other upgrade methods do n't work . 
+  people need * some * way of migrating between major versions , so they ca n't break it between any single major version bumps . 
+  and it seems to me that this is the most supported/tested upgrade path , with pg_upgrade being a performance optimisation . 
+  you might try asking on pgsql-general or pgsql-admin at http://www.postgresql.org/list/ , i think more developers are present there . 
+  if you do , please do link or copy your findings to here as well . 
+  nobody in estonia will be able to distinguish between welsh and english . 
+  to 99.9 % of people , wales is just another county in england . 
+  i bet it 's the latvian kid on mdma again . 
+  but i think https://www.reddit.com/user/estonedia/submitted/ is an alt account for him , look at his oldest posts . 
+  sometimes people remember that scotland is `` somewhat separate '' , but not wales and northern ireland . 
+  but great britain and england are pretty much used as synonyms here . 
+  they do n't, 
+  saldejums or ledai dude ?

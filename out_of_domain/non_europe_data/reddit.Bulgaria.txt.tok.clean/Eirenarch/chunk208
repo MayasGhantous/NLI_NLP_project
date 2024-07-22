@@ -1,0 +1,100 @@
+  oh so they empirically found out what i was thinking since reading the announcement . 
+  so does that mean that all timings like rates of fire are a number decided by an integer between 1 and 16 ? 
+  i actually do n't know . 
+  many people claimed that lock step games can not work on multiple threads so i was just imagining why this could be the case and how other games could suffer less from this if they allow for more time between each step . 
+  that 's great . 
+  i am trying to remember when the game was released and why i did n't try it . 
+  hm is definitely the best feature in f # and what puts it above scala in my list . 
+  they are not necessary but they enrich the game and i find the realism motivation totally absurd . 
+  i am sure they made many more decisions like these . 
+  also in my experience there was a difference between factions . 
+  not as pronounced as in sc but some people were definitely better with one of the factions . 
+  yeah my point is not that it is something that ruins the game on its own . 
+  it just shows the direction relic decided to take . 
+  if they wanted coh to be a competitive game it had the potential to be better than sc2 but with relic running the show there is no chance . 
+  i swear i was about to make a thread request for content creators to compile precisely this list . 
+  i have played like 20 games in beta and have trouble keeping track of changes . 
+  some more obscure once like spore damage change are easy to forget . 
+  on the other hand someone who is into videos can make a video out of this . 
+  oh i thought that by business you mean customers and not xamarin, 
+  i have learned and have used all of them but you really should structure your code so that you avoid the need for 6 ( ? . ), 
+  and 9 ( is and as ) because this need indicates a problem with the code most often than not . 
+  i was careful to use `` most often than not '' . 
+  there are of course valid uses . 
+  i have used as/is in similar ways too but in general i would prefer a common base type and some form of polymorphism where you call a method and the object acts on itself depending on its type . 
+  of course i have traded off the correct oo design for common sense on more than one occasion but if you find yourself doing this too often you should really think about your design . 
+  here is a rule of thumb that i just invented - if you do is/as in more than one place on the same type you should switch to polymorphism . 
+  sure but it does n't happen that often in my experience . 
+  people being excited about this operator makes me think they just write bad code . 
+  i already managed to use it a couple of time but i was never excited because in the two cases i used it in the last two months i may have used ifs without any problem . 
+  of course it may be the case that your main job is to work with apis like this but why are so many people excited by this ? 
+  only true if your structures allow nulls and in general you should not . 
+  the most obvious cases are using empty string instead of null and empty list/ienumerable instead of null . 
+  of course sometimes a null object is more elaborate and often it is not worth implementing but again if you find yourself doing this often then something is probably wrong with your design . 
+  but if people are putting nulls where there are not supposed to be nulls that indicates a bug and should result in exception , not in someone covering it . 
+  it is very hard to source `` ever '' , 
+  you must have sinned a lot to be punished in this way . 
+  of course i am not saying that you should never null check and of course you do n't have control over external apis . 
+  what i am saying is that you should design your apis to not require nulls and also that many things that are null do not need additional processing . 
+  for example if i allow let 's say name to be null i do not usually need to check if it is null since i just put it in a textbox and get it from a textbox . 
+  i do not do processing on it . 
+  what i am saying is that if you follow these rules you end up needing the monadic null checking operator less often . 
+  note that i am not against the operator i am just against the mindset that now that we have this operator we should use it everywhere just in case something is null ( although it is not supposed to be ) and that we do n't need to evaluate the null-object pattern even for the simplest cases just because the user of our code could use the operator . 
+  what he means is that you could do, 
+  catch ( sqlexception ex ), 
+  if ( ex.type ! = number ) / / or whatever i do n't know the api, 
+  throw ;, 
+  you get the same behavior except that the stack is broken ( the stacktrace property is fine though ), 
+  i would definitely consider this use case an abuse and go for the traditional catch/if/throw, 
+  sure go ahead but it is obvious to me that you are fixing a code smell this way . 
+  if you were building the api you consume would you still build it this way ? 
+  sometimes the complexity of introducing oo polymorphism is not worth for the 1 time small use case . 
+  in general i agree i am just not as extreme in my views , 
+  because of null reference exceptions and the need for completely different code paths to handle them as opposed to a null-object ( i.e. 
+  empty string , empty list , etc. ), 
+  if your work is like this feel free to get excited . 
+  i usually work with one such api in a project and i can bare the ifs . 
+  again i am not against the operator i am against designing your own code around nulls with the excuse that the client code can just use this operator or using the operator `` just in case '', 
+  some are not different for me ( say firstname ) and some are . 
+  in cases where they are null results in exception and i go hunting for the bug that allowed the null value in to begin with . 
+  yeah i was referring to php , 
+  in cases where i need the difference between not set and empty i do in fact check for nulls . 
+  in my experience i rarely need to process such strings for something more complex than saving in db . 
+  well they have stream api now so this kind of mitigates it but the need for asstream ( ) and collect still makes it ugly . 
+  in addition i simply love the query comprehension syntax . 
+  so much better than the lambda version if you are using methods that have corresponding keywords, 
+  interestingly i find the operator useful only in cases where there is more than one object in a hierarchy accessed . 
+  i still thing if is more clear if there is only one object that can be null . 
+  i have inherited projects to maintain too but usually the same constraints that prevent fixing them prevent me from upgrading to the latest version of the framework/language . 
+  but i want an exception so i can fix my bug if the value is null . 
+  that 's the whole point . 
+  swallowing errors silently is not `` the safest thing to do '' . 
+  the goal of a program is to function correctly not to not crash . 
+  no , i already mentioned a few times . 
+  what i mean is that you should not design your apis ( usually meaning oo apis not so much web services ) to require the use of this operator . 
+  allowing nulls all over the place just because there is a convenient operator is not a good idea . 
+  in addition i am against using the operator `` just in case '' on values that can not be null since you would be just covering an error if they somehow become null at some point . 
+  like that statement about the amount of memory ever needed ? 
+  perfectly valid use, 
+  interestingly the article proceeds to contradict this point . 
+  they claim they outsource to companies who pay $ 4000 per month to their programmers . 
+  i am quite certain there are far cheaper options . 
+  i remember doing that back in the day . 
+  i guess eventually those terran forces ran out of ammo . 
+  battlecruisers are not good against lings . 
+  once marines in your bunkers run out of ammo and tanks run out of shells kerringan is dead, 
+  of course they do n't make that much in india and probably for that money you will get ukraine 's top programmers and they will do the job just fine . 
+  i assume that 's not net salary ? 
+   all salaries are discussed as gross income before tax, 
+  that depends on where you live . 
+  omg this is going to be so great !, 
+  i am such a big fan of linus and i do n't even care about linux . 
+  because of shit linus says !, 
+  i think his no bullshit attitude is how projects and society in general work best . 
+  i personally live in bulgaria and here it is discussed as in net salary . 
+  there are other countries in europe that do it like this but i ca n't remember which ones . 
+  i have a suspicion that ex soviet block countries might be like this . 
+  i am talking about things like interviews and people discussing income . 
+  official statistics are still reported as gross salary . 
+  the problem is not writing them the problem is reading, 
+  person.age + + ;,

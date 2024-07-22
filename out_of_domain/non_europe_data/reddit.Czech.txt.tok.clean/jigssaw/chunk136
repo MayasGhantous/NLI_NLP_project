@@ -1,0 +1,100 @@
+  so what do you guys think ? 
+  i am looking to rebuilding some old machines and i found out that this particular motherboard has unpopulated ide header . 
+  ( ok i know it would be much smarter idea to just spend few bucks and get cheapo ide to usb / ide to sata or ide pci card from ebay . 
+  but i just want to know :-) ), 
+  so i was wondering - would it work if i soldered ide header from old motherboard in there ? 
+  it seems almost the same size and miniusb seems lot sturdier and easier to tell which side to put it in . 
+  so i just finished the game ( fergus line ) and i have to tell you guys i dont remember playing better crafted storyline in any game ( maybe mafia 1 comes close but that more then decade ago ... ) . 
+  so any games with great stories you can reccomend ? 
+  hello everybody , i 'd like to start a small discussion here :-), 
+  so you 've all propably seen some of the ridiciliously good benchmark amd has been showing about how hsa ( heterogeneous computing ) can accelerate lot of computing operations ( f.e. 
+  and with all the major silicon vendors ( except intel and nvidia ) joining hsa foundation it really seems like its gon na be the future . 
+  so i was wondering if there are any projects to unlock this potential and bring it to the world of software routing ( i 've seen some cuda acceleration and the packet shader project , but nothing really groundbreaking ) . 
+  also feel free to post any experiences you guys have with gpu acceleration ( be it cuda or opencl ) in this area . 
+  so this is propably the wrong subreddit to ask this but can you give me some ideas ? 
+  i work for a local wireless isp so i have acces to bunch of hardware and i do n't want to be something purely theoretical . 
+  my first idea was web caching but since only miniscule percentage of our traffic is static webpage trying to cache it would be a waste of electricity . 
+  i am running l2tp vpn server on my mikrotik router and i wanted you guys to reccomend the most secure options ( i do n't want to get into openvpn casue of dealing with certificates and overall ease of seting it up on client machines ) . 
+  i 've got two places where algorithms are setup :, 
+  1 . ipsec peer settings - hash algorithm with options ( md5 , sha1 , sha256 , sha512 ) and encryption algorithm ( 3des,aes-128 , aes-192 , aes-256 , blowfish,carnelia-128 , carnelia-192 , carnelia-256 , des ), 
+  2 . ipsec proposal settings - encryption algorithm - with the same options as before + twofish and aes has 3 options cbg , ctr , gcm ), 
+  so which of these would give me most secure connection ? 
+  i am running l2tp vpn server on my mikrotik router and i wanted you guys to reccomend the most secure options ( i do n't want to get into openvpn casue of dealing with certificates and overall ease of seting it up on client machines ) . 
+  i 've got two places where algorithms are setup : 1 . ipsec peer settings - hash algorithm with options ( md5 , sha1 , sha256 , sha512 ) and encryption algorithm ( 3des,aes-128 , aes-192 , aes-256 , blowfish,carnelia-128 , carnelia-192 , carnelia-256 , des ) 2 . ipsec proposal settings - encryption algorithm - with the same options as before + twofish and aes has 3 options cbg , ctr , gcm ), 
+  so which of these would give me most secure connection ? 
+  hello guys i am currently running a 1080p 24 '' ips panel and was thinking about getting a second screen for productivity . 
+  i did some calculations and came up with solution - 19 '' 4:3 1280x1024 should be very similar in size ( vertical of course ) . 
+  anybody running similar setup ? 
+  any suggestions ? 
+  and those screens can be had for very small amounts of money ( used ) . 
+  so is this obvious win-win ? 
+  hello guys is there some pcpartpicker.com alternative which has more/older hw on it ? 
+  just so we can show our builds properly ? 
+  there is plenty of stuff that is perfectly usable and working even in new builds that is not on pcpartpicker ( for instance my m4a89gtd am3 ( not plus ) motherboard supports my fx8350 just fine but nope nowhere to be found ) or my scythe ninja3 air cooler and bunch of other stuff :(, 
+  hi guys , i have dual monitor setup 24 '' 1920x1080 and 19 '' 1280x1024 - they are basically the same vertical size ( maybe like 3mm difference ) but due to the resolution difference it does n't quite look right so i was wondering if there is a way for the monitor to get 1350x1080 resolution fed into it and then it would downsample it to its native res ( it might look little blurry , but the position of stuff on screen should be the same ) . 
+  so with carrizo coming soon that will utilize excavator cores combined with a proper high power , high clockrate manufacturing process ( talking about 28nm fd-soi ) that should be avaliable in the same timeframe ( early 2015 ) . 
+  do you think there are any chances of amd releasing 6/8 core excavator cpu ? 
+  28nm fd-soi is also supposed to be cheap . 
+  i guess its a lot of ifs . 
+  but if amd could pull it off i think we would have nice competitive part ( 20-30 + % over piledriver ) to hold us over until zen . 
+  hey guys i have problems with my r9 280 it is flickering in certain games - tried lowering the clock in msi afterburner but that did n't help so i wanted to update the cards bios but on gigabyte site they only have bios for a different revision ( i have 015.045.000.010 and they only have for 015.047.000.003 ) . 
+  any ideas ? 
+  i am running a big tower style cooler ( scythe ninja 3 ) which has mounting for 120mm fans . 
+  i was thinking about mounting one of those 140mm fans that fit in 120mm holes . 
+  is there a better option than noctua nf-p14r redux-1500 pwm ? 
+  ok to be fair i am talking about quakelive - but i am actually impressed how good it still looks given its age ( q3a -1999 ) ( i am supersampling trough catalyst because it has no aa though ) . 
+  for anybody who has been thinking about upgrading his 120mm cpu fan to 140mm round fan with 120mm holes - its totally fricking worth it : -- ) temps dropped around 8c ( prime95 ) and everything runs more quiet . 
+   case : diyed oooold ( + -2000 ) full tower, 
+   fans :, 
+   intake : 2x 140mm cheapo airen fans, 
+   cpu cooler : scythle ninja 3 ( now around 4 years old :-) love that big guy ( 1kg beast of a cooler ) now with noctua 14r redux 1500rpm, 
+   exhaust : 2x scythe 120mm heavyduty fans ( can go as far as 1800rpm, 
+  i just wish noctua would make those fans in black :d ( and do n't show me ridicilously overpriced industrial fans pls :-d ), 
+  so i am trying to get the most out of my fx chip , i 've got old mobo which used to run my phenom and with bios update can run this cpu ( although officialy it ca n't :-) - no mention of that cpu in compatibility list ) . 
+  i 've had to set my cpu voltages manualy because it was overdoing everything . 
+  so now my cpu voltage is in check but i 've noticed that i have huuugue cpu/nb voltage ( 1.5 v - other people reported 1.18 v ) so i wanted to ask if i should lower it manually or not ( - not sure if it has something to do with my board . ), 
+  also - is it safe to oc on this board ? 
+  i assume it should be if it was safe to o.c. 
+  140w thubans it should damn well be ok to o.c. 
+  125w visheras right ? 
+  will i be able to still get into bios ? 
+  can i damage something ? 
+  you ca n't not see it - basically everybody keeps recomending intel like its the be all end all solution ... 
+  guys its 2014 now - the piledriver chips are dirt cheap and multithreading is lot more prevalent that it was 2years ago ( and we are finally gon na see some properly multithreaded games now when developers drop x360/ps3 support ( next gen consoles - 8cores ) + mantle is here now allevieting cpu bottlenecks accross the board . 
+  all of this means that piledriver cpus are a lot better deal than they were 2years ago when they launched . 
+  sooo lets just do a quick comparison of what we can get for the same money . 
+  lets just go pure performance and just pick the cheapest mobo we can find that will fit ( z87/z97 are out of the question anyway cause of budget ), 
+   1 ) i3 vs fx6300, 
+   http://pcpartpicker.com/p/3fkyxl - fx6300 + mobo are 136 $, 
+   http://pcpartpicker.com/p/xksrrh - i3-4130 and mobo 133 $, 
+  so we end up comparing 6-core cpu @ 3.9 ghz ( which will easily overclock to fx6350 numbers and even higher ) to 3.4 ghz dual-core part - http://www.cpubenchmark.net/compare.php?cmp[]=1910&cmp[]=2015 - passmark here speaks for it self whooping 45 % more performance for the overclocked fx6300 ( that minor overclock can be done on a stock cooler and we can go considerably higher where as that i3 will not move ) . 
+   2 ) fx8350 vs i5, 
+   cheapest i5 you can buy is 4400 with mobo we get to 197 $ ( http://pcpartpicker.com/p/f39zzl ), 
+   fx8350 + mobo @ ( http://pcpartpicker.com/p/vfzszl ) 187 $ ( lets just get a better mobo for those additional 10 $ and call it even ), 
+  now we are talking 4.2 ghz ( which again we can easily overclock on stock cooler to 4.3 which is fx8370 and even more with proper cooling ) 8 . core vs 3.1 ghz quadcore ... and boom here we go again -, 
+  42 % better multithreading performance . 
+  soo the question is would you like 45 % / 42 % more multithreading performance at the price of doing slightly worse in some games today ( which might very well change tommorow ) . 
+  keep these numbers in mind when you recomend those cpus to someone on a budget . 
+  ending thoughts :, 
+   1 ) i would not reccomend getting the cheapest possible mobo to anybody it was more like experiment :-) spending 10/15/20 $ more will get you a lot better system with potentionaly better longevity , better caps/vrm and everything . 
+   2 ) passmark is not perfect - however almost nobody benchmarks those lowend i3/i5 that fit into that price range - i would be very interested in seeing benchmarks ( even gaming ones ) of those parts . 
+  my fx8350 underclocks certain cores ( they cycle ) from 4.2 ghz ( 21x multi ) to 3.9 ( 17x multi ) when running small fft/in place fft test in prime95 - it doesnt happen when running blend . 
+  core temps are around 48-52c max socket temp 60max . 
+  my board is m4a89gtd pro ( 8 +2 power delivery ) . 
+  vcore 1.356 v. 
+  turbo is off . 
+  what could be causing this to happen ? 
+  c 'n' q is on and i am overclocking with offset voltage . 
+  cheap enough . 
+  preferably 14 '' slim without dvd drive . 
+  i can compromise though on these :-) please recomend one . 
+  http://www.pc21.fr/fiche/80ec003kfr-z50-75-amd-fx-7500-1tb-8gb-15-6in-dvdrw-w8-1-fr-i565864.html would something like this work ? 
+  out of the blue my laptop refused to boot so i put the drive into a different machine and discovered that my transcend 128gb 340 is completely blank ( unpartitioned ) . 
+  how the heck can something like this happen ?!, 
+  is there a way to restory it ( could it just be a problem with the partition table and data is still tehere ? ) . 
+  do you think its a bad ssd ? 
+  or something else went bad in my laptop ? 
+  hello guys , out of a sudden 1year old ssd in my laptop ( transcend 128gb ssd340 ) went to blank - all partitions disapeared and now its just bunch of unallocated space . 
+  i tried running partition recovery tool from easyus and it didnt find anything ... 
+  is there some hope left to recover it ? 
+  and what could have caused something like this ?

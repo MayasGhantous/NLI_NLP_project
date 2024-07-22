@@ -1,0 +1,100 @@
+  you can experiment with different frame/exposure time ratios to see how much blur looks best . 
+  your blueray drive does n't get a device key . 
+  the playback software has one . 
+  if the tv is in fact set to 0-255 , and there is black crush , then either the video player , or the vcgt is intentionally clipping the grays to black/white ( i. e. below 0 and above 255 ) . 
+  this is unlikely imo . 
+  can you check if the calibration curves are correct , and they are n't cliped ? 
+   the player is expecting the tv/comp to be set for 16-235 i 'm assuming ;, 
+  that 's what i 'm trying to tell you . 
+  if it were expecting a 16-235 display , and you had a 0-255 display as you say , then the blacks would be washed out grey . 
+  instead you have it the other way , you have black crush , which happens when the player assumes a 0-255 display , but instead it is 16-235, 
+  i think you 're confusing things . 
+  there 's no such thing as a 0-255 appearance . 
+  either everything is correct , or not . 
+  in hdtv land black is 16 . 
+  if you send a pixel with a luminance value of 16 to an hdtv acting as an hdtv , the voltage driving that pixel will be minimal . 
+  as well as every other value below 16 . 
+  any time you see the flashing black bars , your system is set up incorrectly , as you 're not supposed t see them . 
+  studios create material expecting standard response from the playback chain , which in an ideal case , would mean an absolute lack of any light coming from the device at and below the black level ( 16 ) . 
+  on a computer display , the software has to adjust the black and white levels to line up with the display black/white levels . 
+  this usually means subtracting 16 , and multiplying every rgb subpixel by 85/73 . 
+  i actually downvoted my other comment . 
+  so by what you 're saying , the $ 100 software is actually decimating the playback quality . 
+  i never would 've thought . 
+  i bet they 're correcting the tone responce twice . 
+  that would have this kind of effect . 
+  you do n't make a protocol open source . 
+  you can make software open or closed source , and you can either publish the documentation to a protocol , or you can wait for hackers to reverse engineer it . 
+  the bittorrent protocol documentation is [ public ] ( http://wiki.theory.org/bittorrentspecification ) ( it 's public domain ) , and many free implementations have been made to it , both [ trackers ] ( http://erdgeist.org/arts/software/opentracker/ ) and [ clients ] ( http://www.transmissionbt.com/ ) . 
+  there 's nothing stopping you from using the openbt tracker and running a free public tracker yourself . 
+  ~ ~ the kickstarter is about bringing vendetta to apple 's tablet devices . ~ ~, 
+  well do n't i feel stupid now . 
+  distortion of a low-end receiver is much much lower then that of a mid/high end speaker in a regular room . 
+  maybe a better preamp could reduce the noise floor when listening to lp 's , but even then you would n't need to replace your receiver with another amp . 
+  i 'm going to have to watch it again , i did n't pay 100 attention to what was said , but yeah , i kinda felt that it was emphasised , so i jumped to the conclusion ... 
+  android 4 + supports webp . 
+  i know you would n't want to use it because of compatibility reasons , but i find this relevant . 
+  huh ? 
+  ( whatever its name may be , superuser.apk or beginning with com.whatever ... ), 
+  reboot just in case , or mount - o remount , ro / system, 
+  fyi this is not a dac issue , but a power supply filtering issue . 
+  a bad layout will significantly reduce the power supply noise rejection of even the best dac chip . 
+  ^ meh , ^ whatever ... 
+  ey , if you have an output selector program thing , ( the thing that pops up when you plug something into the audio output ) try to select `` speaker output '' instead of `` headphones '' . 
+  reason : headphone amps in on-board sound cards usually have bad power supply filtering , and they 're noisy , even though there 's a decent dac chip with a much much better performance . 
+  select the speaker output to bypass the headphone amp and you 'll win a lot of dynamic range . 
+  point the gun at apple for not enabling replaygain by default on everything everywhere . 
+  the grain on the image looks kinda large , so it might indeed be severely cropped . 
+  here 's a \u00b0 symbol , the asterisks confused me a bit . 
+  edit : here 's the big picture : http://apod.nasa.gov/apod/image/0812/lickmoonrise_baldridge.jpg, 
+  edit2 : for comparison , here 's a shot taken with a 500mm lens : http://www.eso.org/public/images/potw1023a/, 
+  you could use a 2400mm telescope , and fasten the camera with duct tape if it does n't come with a bayonett mount . 
+  use a compressor with a sidechain input , and run the output of a signal generator to the sidechain . 
+  insert the compressor into the effect loop of the amp . 
+  control the volume with the signal generator output ( increase the signal level to reduce the amp volume ) . 
+  but sincerely , this is stupid . 
+  why would you want to remote control the level of a bass amp ? 
+  just skip the auto installer , and make . deb packages by running, 
+  . / amd * -- buildpkg ubuntu/quantal, 
+  and then installing them with, 
+  ( assuming the only thing in the directory is the installer pack ), 
+  as a bonus , you system wo n't kill itself when you install an updated kernel . 
+  you can use it with hugin as a gui . 
+  ( if it 's crucial , you can pay for both of course , as much as you 'd like ), 
+  is it better than apt-get ? 
+   why not use the whole partition instead ? 
+  i never understood why someone would want to chop up their storage drives . 
+  anyone care to answer elmicha 's question ? 
+  a ~ ~ 2048 ~ ~ 4096 bit ssh-rsa key will fit into a qr code , so you can do this with an android mobile device :, 
+  * 0 ) generate keypair on android with connectbot , add pubkey to authorised_keys on the ssh server . 
+  ( this is done only once ), 
+  * 1 ) generate keypair on your new computer . 
+  copy the pubkey to the clipboard, 
+  * 2 ) on kde , klipper will encode clipboard contents automatically into a qr code . 
+  everywhere else you can use a web site to make a qr code from the pubkey . 
+  * 3 ) read the qr code with the android mobile device . 
+  zxing barcode reader will put it directly on your clipboard, 
+  * 4 ) log into the server with connectbot , and add the new key to your authorised_keys, 
+  from http://support.amd.com/us/kbarticles/pages/amdcatalyst131proprietarylinuxgraphicsdriverreleasenotes.aspx, 
+   system requirements :, 
+  before attempting to install the amd catalyst linux software suite , the following software must be installed :, 
+   xorg/xserver 6.9 and above ( up to 1.13 ), 
+   linux kernel 2.6 or above ( up to 3.5 ), 
+   posix shared memory ( / dev/shm ) support is required for 3d applications, 
+  i 'm not sure it will work with a 3.7 kernel . 
+  that might be your starting point on trying to get it to run . 
+  what distro are you on btw ? 
+  i prefer to use imagemagick for tedious processes like this . 
+  this will create 256 alpha png images each with a single color ( hsl hue ) visible , every other pixel being transparent ( this is for bash , you can use cygwin or powershell on windows , powershell having a different for loop syntax ) :, 
+  convert original.jpg - colorspace hsl - channel h - separate h.png, 
+  #this is in order to avoid having many single pixel dots , remove if you literally want 256 layers :, 
+  mogrify - colors 32 h.png, 
+  for hue in { 0 . .255 }, 
+  convert h.png + transparent `` rgb ( $ hue , $ hue , $ hue ) '' - channel a - separate alpha.png, 
+  convert original.jpg alpha.png - compose copy-opacity - composite $ hue.png, 
+  done, 
+  this will create 256 png files , but many will have nothing in them . 
+  working on a better solution to select only those that actually have something . 
+  by running * identify - verbose h.png * , you 'll see ( under histogram ) which hue values were selected , and you could use only those results . 
+  here 's the result of my approach : http://imgur.com/a/zvkby ( imgur converted my rgba png 's to jpegs ), 
+  you 'd be doing yourself a favor .

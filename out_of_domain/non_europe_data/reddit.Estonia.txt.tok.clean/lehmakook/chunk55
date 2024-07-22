@@ -1,0 +1,100 @@
+  could the developers have put in a few more months or weeks of effort to tune particle effects , shadows , etc to get both running equally smoothly ? 
+  sure , but it was n't worth the effort for them . 
+  could they have put in an extra year to max out everything the xbox can offer to get it to the same fps * and * graphics the ps4 has today ? 
+  sure , but again obviously better to release sooner instead . 
+  after the ps4 .5 is released , i predict that the ps4 will be in a similar state to what the xbox1 is right now . 
+  right now , it 's the most widely sold console , so also the one developers will put the largest share of their testing and tuning effort into . 
+  i was expecting that to continue for at least 3-4 more years , but with a ps4 .5 out soon , it will be around 1 years only . 
+   the blog model has no foreign key to user , so i think that would mean i would need to create a foreign key field in the blog model if so , which could be a hassle . 
+  this would certainly make the queries cleaner . 
+  but if user_name is unique for users , then that is almost as good . 
+   so end goal is to make one big tree where the currently logged in user can see all their blogs and all the entries for each blog on one big tree . 
+   what i would like to do is to start with the blog model , take the user who posted the particular blog from the blog.user _ name field , ... 
+  are n't these two different ? 
+  if you have a currently logged in user , then you already have an user object in request.user , no need to look it up through a blog ? 
+  overall you could write a query like :, 
+  blog.objects.filter ( user_name = request.user.user _ name ) . prefetch_related ( ` entries_set ' ), 
+  blog.objects.filter ( user_name = firstblog.user _ name ) . prefetch_related ( ` entries_set ' ), 
+  and then iterate over blogs and entries in their entries_set like usual . 
+  the prefetch_related ( ) is optional - but very useful to avoid too many database queries . 
+  if you have a 1000 blogs , and look up entries_set for each , it would make a 1000 queries . 
+  this will slow the page down . 
+  the prefetch_related ( ) will get all entries for all the blogs in your queryset with one call , and pre-populate the entries_set on the blog objects . 
+  the fie registration is really only pushed onto people who are selling their handmade jewellery every day , operating a nail salon from home , etc. 
+  things which are a regular business that earns a profit , not a payment for `` work done '' from a company . 
+  there is no requirement to register no matter how many small or big jobs you do if these are just regular , or time-based or fixed-fee based based employment . 
+  this is because employment has the highest tax rates - higher than income tax on profits - so the tax office wants that people a ) have someone paying employer 's side of the tax for them , or b ) register properly as a business . 
+  last year 's tour de france winner 's total time was 84hr 46min 14sec . 
+  the second place was only 1min 12sec behind him . 
+  that 's a difference of 0.02 % , or 2 out of 10 000 . 
+   earth is fucked . 
+  we need to find a way off this hell-bound rock . 
+  we should take better care of earth , and we should go to mars . 
+  but this is still * waaay * exaggerating . 
+  even after a global thermonuclear war , most of earth would be more habitable than mars . 
+   there is no way the neo is n't coming . 
+  too many rumors , too much info . 
+  and sony is n't outright denying it . 
+  the rumours will hurt ps4 sales this year , since people will now wait for the ps4 .5 to be released . 
+  if the rumours were false , sony would aggressively deny it everywhere . 
+  the problem with buying shitbuckets is that all previous owners lie about the condition and cheat on the mileage , and if you are buying from a private individual , then there is no consumer protection other than going to court yourself . 
+  you need to get it checked out by a mechanic before handing over the cash , find out that it is about to break down , and then repeat until you stumble on an unicorn . 
+  tax write-offs are n't free money , you just do n't have to pay taxes on the money you lost ( because you made that much less in profit ) . 
+  you always still lose the non-taxed part of the loss . 
+  if the tax rate is 20 % and you make $ 100 , you pay $ 20 in tax and keep $ 80 of the profits . 
+  now if you lose $ 50 to scammers or expenses or salaries or whatever , you actually just made $ 50 . 
+  so you pay $ 10 in taxes and keep $ 40 of the profits . 
+   all national unions take positions on world issues as part of their commitment to internationalism . 
+  but why is that a good thing ? 
+  an union that is supposed to represent all students should work on issues that actually affect all students : tuition fees , student loans , quality of teaching , cheaper train tickets , and such . 
+  if some students want to take positions on political world issues , then they are welcome to do that via the political societies . 
+  i joined the nus back in the day to get 50 % off spotify , not to support them dicking around making speeches and practicing for a career in politics . 
+  it is possible , but seems unlikely . 
+  they have shared videos of most of their failures . 
+  if they wanted to avoid showing explosions , they would n't stream it live in the first place . 
+  i think it does n't make sense to count putin 's wealth the same way as for average billionaires . 
+  as long as he 's leading russia , he controls a lot more than 62b of assets . 
+  and when someone else takes over , he wo n't get to keep anywhere close to 62b . 
+   i would like to know whether i will also be spending a significant amount of time maintaining the account/server as well, 
+  significant no , but some yes . 
+  with any vps provider ( digitalocean , linode , etc ) , you should set up automatic security updates for the underlying linux os and packages . 
+  and still log in to check that they have been applied every few weeks . 
+  but these updates usually do n't take more than 3-10 minutes . 
+  on managed hosting providers like webfaction or heroku , they take care of the underlying system . 
+  but you will still need to upgrade django and python packages used in your project yourself whenever a security update is released . 
+  this can take considerably longer if django has deprecated old parts that you were using . 
+  consider using django 1.8 which is the current long-term-support version , instead of the newer 1.9 or upcoming 1.10 . 
+  it will get security updates without other changes until april 2018 : https://www.djangoproject.com/download/, 
+  my suggestion would be to :, 
+  * hand over the site to run on hosting that they pay for , and make it obvious that they are responsible for maintenance themselves , or, 
+  * negotiate a `` monitoring , maintenance and backups fee '' per month , and make it obvious that content updates to the website are not included in this . 
+   also , would a 5 $ account be enough for a static site with django in the backend ? 
+  the site has around 10-15 odd unique pages with a gallery of photos ( ~ 300 mb ) . 
+  for 100-200 visitors per day , absolutely . 
+  you can add caching to make it load faster , but it wo n't be * necessary * for this little usage . 
+  you should read https://docs.djangoproject.com/ja/1.9/howto/static-files/deployment/#serving-static-files-in-production and use a similar system for the uploaded images as well . 
+  users will upload images , these will be written to some directory on the file system . 
+  then a front-end webserver ( nginx is popular ) serves these files directly , bypassing all django and python code . 
+  nginx can max out the outgoing network bandwidth when serving media files on even the cheapest vpss with almost no cpu or memory required , so no caching or cdn is needed for that . 
+  ngnix is is the web server for a reverse proxy and static files . 
+  it usually sits in front of the gunicorn/uwsgi app server which runs the actual python application . 
+  the purpose of having nginx in front of it is :, 
+  * if the url is yoursite.com/static/ , yoursite.com/media/ , etc , serve the file directly from disk very fast ,, 
+  * if the url is yoursite.com/other , proxy to the app server ,, 
+  * buffer slow and/or large requests ( file uploads ) , so that the app server does n't block an open socket waiting for the bytes to arrive ,, 
+  * optionally handle ssl ,, 
+  * optionally load-balance between multiple app servers servers ,, 
+  * optionally throttle requests , ban ips , etc as needed before they even reach the python app . 
+  it 's a good idea to have it even for a simple static site , even if just for the media files . 
+  for the first option , you could even put all the user-specific data into javascript localstorage , which would completely free your server from having to store data for anonymous users . 
+  copying things over when the user finally registers would be annoying though . 
+  but overall the second option seems much easier to build , and would provide a number of benefits :, 
+  * registration is easy , just assign an email/password to the user object . 
+  * you can keep the abandoned anonymous profiles around for as long as you want , for example to do analysis of most popular foods , sign-up metrics , etc. 
+  * if someone builds a nice profile , and then loses access to it by clearing their browser cookies , and contacts you for help , then you can still potentially restore it for them if you can find it in the database . 
+  do n't create an user when people first visit the site , only when they first try to save something . 
+  i 'm not aware of any django user registration package offering this out of the box , but would be interested as well if you find any . 
+  ] ( http://www.opticstalk.com/uploads/cheaptrick/2007-04-23_162636_swiss_army_gun.jpg ), 
+  do you mean the eki project : https://www.eki.ee/heli/ ? 
+  put your text into the box on the right , and click the music button . 
+  it 's not the same quality as the software for big and popular languages , but gets you 95 % there .

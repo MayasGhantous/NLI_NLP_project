@@ -1,0 +1,100 @@
+  they are almost completely regular , except for the 1st person direct plural `` pv\u02e7v\u02e7tt '' , and the fact that third person uses a different root . 
+  intensive forms are done by reduplicating the nucleus , further cementing their status as adverbs . 
+  #### case markers and adpositions, 
+  there are many of these . 
+  there is no syntactic difference between a case marker and an adposition ; they may as well be the same thing . 
+  naturally , which adposition it is is described by the consonants , and its object is described by the nucleus . 
+  most adpositions start with t - , k - , q - , or \u0294 - when their object is definite . 
+  to indicate that the object is indefinite , these are lenited to \u03b8 - , x - , \u03c7 - , and h - . 
+  other adpositions start with a voiced stop , p - , or occasionally \u0294 - . 
+  these do not indicate definiteness on their object . 
+  three of these adpositions may be called `` case markers '' , and all of them begin q - . 
+  they come in three flavors , `` direct '' , `` indirect '' , and `` directional '' . 
+  the `` direct '' serves the same purpose as the `` direct '' case of the pronouns and as the accusative in ie languages , namely marking the direct object , but the marking of the indirect object is split up over the `` indirect '' and `` directional '' cases . 
+  which one is used will depend on the verb ; both rarely appear a sentence , but that can happen as well . 
+  these case markers are as follows :, 
+  - q. . sxt : direct, 
+  - q. . \u03b8x\u03b8 : indirect, 
+  - q. . tp\u03b8x : directional, 
+  #### conjunctions, 
+  generally come as any valid syllable , but often have a nucleus of y\u02e7 . 
+  syntax varies depending on the conjunction . 
+  ## putting it all together : a sample sentence, 
+  `` i eat the green fruits . '', 
+  b\u00f0\u02e8\u00f0\u02e5\u00f0\u02e8\u00f0\u02e7sxs h\u0280\u02e6\u0280\u02e8st\u0361stch . 
+  1inc-fruit . pl-eat arg.inc-that . pl-be \\ _ green, 
+  absolutely abominable , is n't it ? 
+  [ removed ], 
+  ... is on the front page again . 
+  i 'm not gon na bother linking it , there 's been a thousand threads just like it already posted here . 
+  if i had n't heard of this divergence in pronunciation beforehand , i probably would have optimistically assumed that this would be what makes everyone realize how not-set-in-stone pronunciation in general is . 
+  why is it that people will invent everything but the truth ? 
+  why does this have to fucking matter ? 
+  ( sorry for the shitpost , mods please delete this ), 
+  i 'm used to developing on linux and doing everything with tmux and vim , but i have to write a windows-specific application in python at the moment . 
+  i 've developed on windows before , but never particularly extensively ; all i have is a copy of gvim . 
+  how do i get an environment as comfortable as my linux one on my windows machine ? 
+  what tools are there for this ? 
+  guides ? 
+  things i need to do specifically :, 
+  edit text in a vim, 
+  use vim plugins, 
+  compile/run programs in various languages , presently python, 
+  track , branch , commit , merge , and push github repos of my projects, 
+  thanks in advance . 
+  when i try to load my arch install using syslinux , it fails at the ` initramfs-linux ` step , which crashes and mysteriously tells me `` i/o error '' . 
+  neither the regular nor the fallback images work . 
+  the hard drive it 's trying to interface with is fine ; both my arch rescue disk and my windows have no problem reading from it . 
+  i have arch-chrooted into my arch disk ( using the rescue disk ) and have attempted the following :, 
+  - ` syslinux-install_update `, 
+  - reinstalling ` mkinitcpio ` using ` pacman ` , and the doing ` mkinitcpio - p linux `, 
+  - various other roots for the syslinux command that loads arch, 
+  none of them have changed the problem in any way . 
+  the problem is always exactly the same . 
+  edit : never mind , a tiny part of the boot partition was corrupted . 
+  i eventually fixed it by running ` mkfs.vfat ` on it and reinstalling linux and syslinux . 
+  leaving this here for posterity . 
+  still at large is the program that corrupted it . 
+  i wholly blame windows and possibly ext2fsd in particular . 
+  i 'm already including arch ( which is the linux i run ) , ubuntu desktop ( which is the linux i recommend ) , and tiny core linux ( which can run on a freakin ' toaster , as long as its architecture 's i486 ) . 
+  i 'm also considering including manjaro , for the inevitable day that someone asks , `` hey , can you install and set up arch for me ? 
+  but , like , pretty ? '', 
+  what other distros do you recommend i include ? 
+  i have a lot of space to work with , but i 'd prefer to keep the total at 5 gigs or so , or at most 8 gigs . 
+  ( i do n't need any live boot distros ; i 've already got systemrescuecd and backbox on there ), 
+  this is part of my on-going `` avant-garde phonologies '' series , in which i try to come up with phonologies that have a snowball 's chance in hell of arising but are n't completely impossible . 
+  that is to say , phonologies where if someone told you it belonged to a real language , you 'd hesitate for a few nanoseconds before calling bullshit . 
+  so far , there are 4 entries in this series . 
+  - [ # 0 : `` reasonable phonotactics '' ] ( https://www.reddit.com/r/conlangs/comments/4hmhre/the_oddest_most_alien_phonology_i_have_yet_devised/ ), 
+  - this post, 
+  - [ # 2 : `` articulation contrast '' ] ( https://www.reddit.com/r/conlangs/comments/4tieuu/avantgarde_phonologies_2_articulation_contrast/ ), 
+  - [ # 3 : `` disharmony '' ] ( https://www.reddit.com/r/conlangs/comments/4tu7tv/avantgarde_phonologies_3_disharmony/ ), 
+  sample phonology and grammar :, 
+  syllables are cv [ c ] . 
+  any consonant cluster of up to two consonants can occur intervocalically , except for - vjv - where the two vowels are the same , and j represents the archiphoneme j ( discussed below ) . 
+  ## phonemes, 
+  consonants :, 
+  plain | labialized | labio-palatalized | palatalized | velarized | pharyngealized, 
+  \u0294 | \u0294\u02b7 | \u0294\u1da3 | \u0294\u02b2 | \u0294\u1d5a | \u0294\u02e4, 
+  j | j\u02b7 | j\u1da3 | j\u02b2 | j\u1d5a | j\u02e4, 
+  j and l are two archiphonemes with a variety of allophones based on what vowel they 're next to . 
+  see the section on allophony for a table of these . 
+  vowels :, 
+  front | center | back, 
+  i y | \u0268 | \u026f u, 
+  | | \u0264 o, 
+  | a\u0308 |, 
+  there is basic vowel harmony . 
+  the front and back vowels in a word are all either rounded or all unrounded . 
+  j and l become different phones depending on what the vowel of the syllable that they 're part of is . 
+  u , o | w | \u026b, 
+  y | \u0265 | \u028e, 
+  i , \u0268 | j | l, 
+  \u026f | \u0270 | \u029f, 
+  \u0264 , a\u0308 | \u0295 | \u029f, 
+  for j , if it is palatalized and would turn into a palatal consonant , or velarized and would turn into a velar consonant , etc. , it just becomes geminated instead . 
+  that is , / w\u02b7 / becomes [ w\u02d0 ] , / j\u02b2 / becomes [ j\u02d0 ] , etc. 
+  ## sample words, 
+  / \u0294\u02b7ij\u02b7\u026f\u029f /, 
+  / \u0270\u02d0\u026f\u0294\u1da3\u0295\u02b2a\u0308\u0294 /, 
+  / \u026buw\u028e\u02e4y /,

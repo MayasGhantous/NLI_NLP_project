@@ -1,0 +1,100 @@
+  maybe you already know this , but i feel like i should add that javascript has means for expressing both inheritance and encapsulation , but that it works quite differently from classical languages . 
+  prototypal inheritance is simpler and more general than classical inheritance , but on the other hand it * requires * that objects are `` dynamic '' , which could lead to worse performance . 
+  ** edit : ** i think i understand what you 're getting at . 
+  you mean i can extend this class foo , override all the methods in foo with methods that log the access or whatever , and the forward the call to foo ( i.e. , the superclass ) ? 
+  the thing is , this requires you to write a new class and override all the methods with the same boilerplate-y modification . 
+  this could be a rather lengthy piece of code , and in the end you only have this piece of logging implemented for this one class . 
+  if you wish to log access to another class , you 'd have to write a new class that extends * this * class , overrides all the methods , logs and then forwards them . 
+  in the case of a proxy , you can create the proxy * once * , describe the logging process * once * , and then `` wrap '' * any * object in this proxy to add the logging mechanism to that object . 
+  i guess it could be likened to the `` decorator pattern '' rather than inheritance : you 're adding a feature to the wrapped object . 
+  however , a `` decorator class '' can only target a specific kind of type , whereas the flexibility of a proxy allows it to work on any kind of type . 
+  of course , this flexibility comes with a performance tradeoff . 
+  personally , i prefer flexibility and dynamism over performance . 
+  also , i agree that proxies are much more complicated . 
+  sorry , this got a bit long ... 
+  i hope you do n't mind . 
+  ** edit 2 : ** ah , i see what you mean . 
+  there 's definitely a lot of room for misuse of this feature . 
+  as a vim user , i approve of this . 
+  the emacs keystroke notation is awesome . 
+  as far as i know , that is n't a glitch ? 
+  the best track in the game , imo . 
+  thanks for reminding me of this song . 
+  because you subscribe to [ / r/minecraft ] ( / r/minecraft ) , apparently ? 
+   and it came to pass, 
+   update 1.2 was born, 
+   all across the land every server and clan, 
+   was blowing up a storm, 
+   the minecraft game got famous, 
+   notch the swede got rich, 
+   and in every town there were several clowns, 
+   with a seven year itch, 
+   there were fifteen million fingers, 
+   learning how to play, 
+   and you could hear the fingers clicking, 
+   and this is what they had to say, 
+   `` let there be ground '', 
+   `` let there be height '', 
+   `` let there be fun '', 
+   `` aaaand mods '' yyyeeeaahh, 
+   * let there be mods !!!, 
+   thus i will sometimes get offset from where i should be and ` thus ' becomes ` yjid ' , or similar . 
+  that happens to everyone once in a while . 
+  sometimes it can lead to funny words . 
+  edit : everyone who touch types , that is . 
+  or , well , at least it happens to me as well ... but i like to think that it happens to everyone every now and then . 
+  i 'd recommend [ eloquent javascript ] ( http://eloquentjavascript.net ) for the js part . 
+  it 'll probably start off a bit slow if you 're already experienced with another programming language , but it 's a great way to quickly get familiar with the language . 
+  for html/css . . well , it was quite a while since i meddled with that . . but dev.opera.com has [ a nice series of guides/tutorials ] ( http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur/#toc ) . 
+  i think i 've mostly read the css-related posts in that particular series . 
+  after you 've started off learning the javascript basics , [ mdn ] ( https://developer.mozilla.org/en/javascript ) is a great reference for the standard js library , dom and related techniques . 
+  and lastly , if you have any specific questions ( i.e. 
+  having problem with grasping something , or if something 's not working as you expect it to . . not to uncommon when it comes to javascript ) , be sure to visit the [ ## javascript irc channel on freenode ] ( http://webchat.freenode.net/?channels=##javascript ) . 
+  good luck !, 
+  here 's an interesting trend graph to give historical perspective to your claim : https://en.wikipedia.org/wiki/file:suicide-deaths-per-100000-trend.jpg, 
+  indeed , it looks like the suicide rate in sweden was very high around 1970 , but it seems to have decreased considerably since then . 
+  hopefully this falling trend continues . 
+  & # 3232 ;\\ _ & # 3232 ; ; not in swedish though . 
+  `` han '' means `` him '' and `` hon '' means `` her '' , so `` hen '' is supposed to be an in-between . 
+  english `` hen '' is `` h\u00f6na '' in swedish . 
+  behold the power of an open vector format . 
+  ( assuming you 're using your browser 's built-in search feature ; at least that works in firefox for me . ), 
+  what do you think about [ vikingmop 's proposal ] ( http://www.reddit.com/r/truegaming/comments/ptqgb/a_different_moral_system/c3s7j6z ) ? 
+  it sounds like both of your viewpoints are a bit tangent ; by not knowing what is the `` optimal move '' ( or that there is any other option at all ) , the player is `` tricked '' into making an actual honest choice . 
+  not too cretative . . 
+  i started working on this when i first saw the thread , but then i forgot about it , and now i 'm really darn tired . 
+  why would you [ throw tyres ] ( http://www.xtimeline.com/__userpic_large/1313/elt200709112316529061534.jpg ) down the stairs ? 
+  nice !, 
+  the left edge looks a bit odd to me ; lots of small black triangles ( ? ), 
+  in the lower-right corner of each rightmost tile ? 
+  or maybe that 's meant to represent something ? 
+  yeah , it looks like it 's originally meant to be used with rpg maker ( though they also allow people to use it with their own game code ) . 
+  so do you dual-boot two \\* nix distros/oses or one \\* nix os and one inferior ( i.e. 
+  proprietary ) os ? 
+  in the latter case , the solution is clearly to remove the offending partition . 
+  i 'm not sure , but i think quite a lot of the characters feel a bit too wide ... it 's a rather drastic suggestion , but i 'd try making all characters one pixel thinner . 
+  some of them are really nice though ; i like the ampersand for instance . 
+  oh , i did n't mean it like that . 
+  in this particular font though , i think that for instance the ` a ' , ` u ' and 'm ' would look better one pixel thinner . 
+  'm ' , ` w ' , ' \\ ' , ' / ' would also look better with a width of an odd number of pixels , imo . 
+  of course , that 's just my opinion ; cthugha should keep the font like this if they think it fits the style better . 
+  also , re . 
+  for instance ` i ' : of course one would n't make it any thinner since it 's already one pixel thin . 
+  the same goes for any other character thinner than six pixels ( which seems to be the width of each character ) . 
+  * upvotes for ` english english ' :3 *, 
+  cool !, 
+  reminds me of [ the cannonball at stortorget , stockholm ] ( https://en.wikipedia.org/wiki/file:stortorget_kula_och_skylt_mars_2007.jpg ) , though that one was built into the wall afaik . 
+  but ... `` badass  0 '' is a boolean expression ( i.e. 
+  evaluates to true or false ) ; you ca n't take the absolute value of that . 
+   ** quiz not found **, 
+   sorry this game was not found, 
+  perhaps you forgot to save it or something ? 
+  ** edit ** : looks like the url mentions `` sonic the hedgehog characters '' ... are you sure that you copied the right link ? 
+  [ i see what you did there ] ( http://www.reddit.com/r/web_design/comments/pvkna/i_was_browsing_the_source_code_on_a_vimeo_page/ ) \\ ^_^, 
+  what 's that cake ? 
+  it 's [ semla ] ( https://en.wikipedia.org/wiki/semla ) !, 
+  it seems we 're not the only ones to celebrate cakes today ... happy cake day !, 
+  yeah , all unicode ` letter ' characters are valid in identifiers . 
+   any character in the unicode categories `` uppercase letter ( lu ) '' ,, 
+   `` lowercase letter ( ll ) '' , `` titlecase letter ( lt ) '' , `` modifier letter ( l ) '' ,, 
+   `` other letter ( lo ) '' , or `` letter number ( nl ) '' .

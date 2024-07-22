@@ -1,0 +1,100 @@
+  * the list of rows in your results shrinks or grows . 
+  inserting new rows that match your query is particularly tricky to handle , because it did not even exist when the query was first made , so there is no obvious `` thing '' in memory to lock . 
+  you misunderstand the purpose of it . 
+  set up `` extreme porn '' filters `` because think of the children '' , and not many people dare to stand up against it . 
+  so you build a complex country-wide web usage tracking and blocking system . 
+  and once the system is in place , who cares if it misses some porn sites ? 
+  it 's now easy to start adding new types of banned content and pages to it : http://www.wired.co.uk/news/archive/2013-07/27/pornwall, 
+   as well as pornography , users may automatically be opted in to blocks on `` violent material '' , `` extremist related content '' , `` anorexia and eating disorder websites '' and `` suicide related websites '' , `` alcohol '' and `` smoking '' . 
+  but the list does n't stop there . 
+  it even extends to blocking `` web forums '' and `` esoteric material '' , whatever that is . 
+  `` web blocking circumvention tools '' is also included , of course . 
+  [ requestprocessorfactoryfactory.requestspecificprocessorfactoryfactory ] ( https://ws.apache.org/xmlrpc/apidocs/org/apache/xmlrpc/server/requestprocessorfactoryfactory.requestspecificprocessorfactoryfactory.html ), 
+  `` in cyberspace '' does n't change anything . 
+  people sign contracts over the internet all the time . 
+  well prepared international contracts always include a clause with the choice of jurisdiction and laws , which solves the issue entirely . 
+  but if there was no such clause , then either american or that asian country 's law would apply , and there might be a lengthy fight to determine the choice if the parties disagree . 
+  perhaps yes . 
+  when i was in college 8 years ago , 2-3rd year computer science students usually charged around $ 40/hr for longer freelance projects . 
+  but add inflation and the fact that this is a very short project with most of the time spent on negotiation/planning/communication , not actual billable work , and $ 75/hr does n't sound too outrageous any more . 
+  no , because billable time is far less than 50 weeks * 40 hours per a year . 
+  things which will bring the total way down in comparison to salaried positions include :, 
+  * contractors pay all their own employment taxes ,, 
+  * contractors pay for their own health insurance , equipment ,, 
+  * you do n't get to bill for sick time or vacation time ,, 
+  * you do n't get to bill for the time spent looking for new clients , making proposals and bids , or just when there is a gap between jobs ,, 
+  * whether you bill for meetings and phonecalls depends on the contractor and client , it 's possible that only `` development '' work is included . 
+  the usual rule of thumb is that you need to charge twice as much when freelancing compared to salaried just to end up at the same final income . 
+  offering $ 10 is just right when you are the type of guy who would changetip your grandma after a family dinner . 
+  not sure what a co-op is , in the uk it was a sort of mildly overpriced grocery store ? 
+  but if it 's anything like an internship , then its rates are going to be at least twice lower as equivalent freelance rates . 
+  internships are usually paid salary ( with the employer paying some of the taxes ) , a long-term fixed duration , offered instructions and guidance , etc. 
+  freelancers have to account for all costs and all unpaid time spent looking for clients , negotiations , vacations , etc in their billable rate . 
+  ah , i 'm sure they would find many student ( and non-student ) candidates to take it at $ 35/hr . 
+  i was just trying to explain why $ 75/hr is not an outrageous rate , just a reasonably high rate for a competent student for a project that might take a few hours . 
+  on the other hand , most of europe does n't have at-will employment , and firing people is inconvenient to impossible depending on the country . 
+  i 'd say employees overall come out ahead on this . 
+   building extra barges that they 'll only use for a short period would n't be very cost-effective . 
+  i think it might be cost-effective even if you land just one core on it . 
+  you can buy an used 300 foot barge for $ 1-3 million : http://www.oceanmarine.com/catalog.cfm?category_current=6&amp;category_current_sub=24, 
+  spacex would need a nicer barge , plus all the equipment on it , but it should still be cheaper than a new rocket core . 
+  but it might not be a question of cost , but instead having limited engineering time that has to be allocated to the most useful projects to work on . 
+   for the case that they show , having it be null is probably better than having it throw an exception , namely because you can easily declare static , self-validated urls as strings and parse them all in line . 
+  an unchecked runtimeexception subclass seems to actually be the best here - it does n't pollute the code with try/catch when you * know * the urls are going to be correct , and blows up the program as soon as possible when it turns out they were incorrect after all . 
+  if the urls are static fields , then it should even blow up immediately on jvm startup , which is much better than failing once you get to using that url much later . 
+   this assumes the rocket can function without all nine engines . 
+  it can , they had one fail shortly after launch , and still made it to the iss : https://www.youtube.com/watch?v=dvtih96otdw, 
+  note that the video titles are incorrect , the engine did not `` explode '' . 
+  there was a fuel leak , which led to loss of engine pressure and the computer shut it down . 
+  the `` explosion '' visible is actually surrounding air rushing into where exhaust used to be and breaking stuff . 
+  that said , an actual explosion might still destroy other nearby engines and doom the launch . 
+  simplifying it to rust is equally dangerous - if you cut yourself with a shiny new nail or blade that has been in contact with * outside * , you should still be concerned about tetanus . 
+  it was a small snippet that could be easily missed in the article , but i 'm surprised nobody has commented on the following wtf yet :, 
+   calling java.net.url.equals ( ) also does a dns lookup , which is bad for both performance and correctness . 
+  this is a longstanding bug , and it 's bizarre that it remains unfixed two decades later . 
+  and from java documentation :, 
+   two hosts are considered equivalent if both host names can be resolved into the same ip addresses ; else if either host name ca n't be resolved , the host names must be equal without regard to case ; or both host names equal to null . 
+   since hosts comparison requires name resolution , this operation is a blocking operation . 
+  this is completely insane for an utility class that most people ( me included ) expect to be just a convenience wrapper around an immutable string . 
+  have you tried adding `` crawl-delay : '' to your robots.txt ? 
+  it 's a non-standard extension , but hopefully they follow it . 
+   this makes the subreddit of poor quality . 
+  there 's a lot more interesting discussion on actually running a business in this thread than in most of the `` hey i built a social media monitoring tool for marketers '' posts . 
+   i imagine being in estonia , you all do n't need to worry about cutting lawn during the winter ... 
+  sure , but he could branch out into clearing fallen leaves in autumn and clearing driveways of snow in winter . 
+  the difficult part about snow clearing is timing , everyone needs it all at once in early monday morning after heavier snowfall - `` once every two weeks '' is n't that useful . 
+  joke 's on them - using actual money that everyone knows how to use requires a lot less interaction to pay and get out of the store . 
+  i ca n't understand how the itu still has n't decided to abolish leap seconds . 
+  not having them would mean that clock time and solar time ( noon = sun highest in the sky ) would drift apart about 1-2 minutes per * century * . 
+  but who cares about clocks being so precisely aligned to solar time ? 
+  due to small details in the earth 's orbit , solar time varies from `` average solar time '' by up to 18 seconds during the year . 
+  we already have dst , which messes up solar time by an hour . 
+  we already have time zones , so unless you live right in the middle of one , your solar time is wrong by up to half an hour ( and in some places , many hours ) . 
+  some countries switch timezones and dst on and off now and then . 
+  make a small conversion table for oldschool astronomers , and everyone else can keep time properly to atomic clocks . 
+  when the gap between solar and clock time gets big enough to notice , we are hopefully already referring to `` earth time '' anyway , and do n't care which part of that old planet is pointing towards the sun . 
+  yes , i we should switch to define utc = tia - 35 seconds from now on . 
+  let 's just stop adding leap seconds . 
+  the concept of leap seconds * is * bad , and adding any more in the future * is * bad . 
+  there is no practical benefit to them , and all the extra complexity in software is not justified . 
+  sure , it 's * possible * to make them work ... but why ? 
+  there is nothing in physics that forbids us from deciding that utc = tia-35 seconds from now on . 
+  while not deciding that yet is a political choice , i do n't understand why the people `` in charge '' want that choice . 
+  when you reconnect the offline steam back to the network , then it will upload game time tracking data . 
+  and they might undo the refund again ( or ban your account ) . 
+  i 'm sure people will find ways to abuse the system , just as they do in retail shops . 
+  but overall , increasing users ' confidence in buying games they are unsure about should lead to more sales overall . 
+  are all of the unique_together fields included on the modelform ? 
+  modelform checks for uniqueness and returns user-friendly errors only if all of the fields in the unique_together constraint are present on the form . 
+  if only some but not all of the fields are on the modelform , then it wo n't check for unique_together , and try to save data to the database ( which will always do the full check , and may throw an integrityerror ) . 
+  if this is the case , one potential solution is to override clean_fieldname ( ) or clean ( ) on the form and add the uniqueness check that uses fields not present on the form yourself . 
+  yeah , that 's an important factor to consider . 
+  * how * much more users/traffic do you see from android ? 
+  i 've built apps for both , and i would estimate that android is about twice the effort to develop & test for . 
+  but if you want to validate the mvp on real users , then choosing it based on the demographics of your users might make more sense . 
+  in the us it might be 50/50 android/ios , but in the rest of the world it 's closer to 90/10 in favour of android . 
+  nasa ran an experiment , and found unexplained thrust . 
+  this is very , * very * far from confirming that `` it works '' . 
+  remember the http://en.wikipedia.org/wiki/faster-than-light_neutrino_anomaly `` discovery '' from 2011 ? 
+  cern experiments indicated faster-than-light neutrinos . 
+  the world 's top particle physicists spent months trying to find the error in their experiments , but could not find anything , so they went public with measurements ( without claiming that the measurements confirm ftl travel ) .

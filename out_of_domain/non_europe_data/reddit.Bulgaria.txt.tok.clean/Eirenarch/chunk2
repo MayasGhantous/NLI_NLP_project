@@ -1,0 +1,100 @@
+  in that sense c # 's delegate types are much more like sams . 
+  for example , a function from integer to integer is written system.func < int , int  in c # . 
+  in that syntax it 's hard to tell which is the argument type and which is the return type . 
+  and this syntax for referencing the type could just as easily be a generic interface or class as a delegate type . 
+  moreover , . net delegate types are also more like sams than like function types because they are nominal ( i.e. 
+  named ) ; two delegate types with the same signature but different names are still distinct types . 
+   the main benefit of function types is readability . 
+  for example see jsr166y ( a snapshot from a couple of years ago ) without function types and with function types . 
+  the version with function types is much simpler . 
+   to repeat an example i wrote to the lambda mailing list on june 13 :, 
+   the simplest example of the kind of problem you mention would be currying . 
+  with function types :, 
+   static < t , u , v , 
+   ( t ) -  ( u ) -  v curry ( ( t , u ) -  v function ) {, 
+   return t -  u -  function ( t , u ) ;, 
+   using sam types ( but the same lambda syntax ) it would look something like this :, 
+   static < t , u , v  function1 < ? 
+  super t , ? 
+  extends function1 < ? 
+  super u , ? 
+  extends v   curry ( function2 < ? 
+  super t , ? 
+  super u , ? 
+  extends v  function ) {, 
+   return t -  u -  function ( t , u ) ;, 
+   in this regard c # delegate types look more like sams and do n't give the readability benefits i 'm aiming for . 
+  i am not sure that function types would require rewriting the api . 
+  maybe there can be implicit conversion from function type to a sam type but having distinct function type would allow for writing new kinds of apis ( like the abouve currying example ) much more easily . 
+  the c # lambdas are either delegates or expression trees . 
+  this is decided compile time so i do n't think it has both function types and function objects . 
+  basically it has objects ( delegates ) with syntactic sugar around them ( i.e. 
+  support for being called with '' ( ) '' ), 
+  i was thinking the same about the c # solution . 
+  for quite a while i thought they would n't adopt it just because it comes from c # ( a.k.a. 
+  `` the enemy '' ) but it turns out things are not that simple . 
+  it seems like java often favours the c # 's approach over scala 's approach ( the meaning of `` return '' in a lambda for example ) and this is probably due to the fact that java is much more similar to c # than to scala . 
+  the post gives interesting insight why function types are not that good on the jvm ( because of type erasure ) and i wonder how scala works around the issues of type erasure . 
+  on the other hand i know the scala guys are the biggest proponents of fixing generics on the jvm so maybe they have a hard time too . 
+  yes but if i remember correctly scala.net does not take advantage of . net specific features . 
+  they used a tool to convert the code so i doubt they will get that experience . 
+  f # on the other hand ... 
+   an alternative , that gives you python like lambdas , is where you effectively capture values not variables, 
+  python does that ? 
+  this seems quite broken to me . 
+  does any other language use this approach ? 
+  of course there is no gender . 
+  there is race , league , ladder points , region play style ( eu vs na vs kor ) , apm and build order . 
+  you are allowed to discriminate people based on these but not on gender . 
+  that 's bullshit . 
+  as much as i would like to see yellow return the showmatch was gold level . 
+  no way that play could be master level on any region . 
+  he did n't even research baneling speed despite the fact that he used banelings a lot . 
+  i truly believe everyone here who asks this question is trolling =  downvote , 
+  i play on europe but i refuse to believe that na diamond players are that bad . 
+  come on it was not only the baneling speed and he `` forgot '' it all game long after several engagements, 
+  sorry i wo n't rewatch the games just to point out every single gold-level mistake in these games . 
+  baneling speed was just one example . 
+  still i find it quie annoyin that you can cancel an upgrad by lifting the building . 
+  blizzard should make the building unliftable if the tech lab is researching . 
+  yes this is a downside but i would make that deal any day . 
+  i 've always felt like the first bonjwa is grrr ... 
+  surely they did n't called him bonjwa back then but he did dominate for quite a while compared to the age of the game at that point . 
+  some pretty cool stuff here . 
+  i 'm surprised it does n't receive more attention considering how many node.js releated posts float around . 
+  i 've actually noticed the same thing almost 10 years ago . 
+  i just go into that mode that i make this checklist and make myself click faster . 
+  if you know where to click the actual clicking is not that much of a problem . 
+  i used to beat some people with 250 apm at sc2 with 100-120 apm but when i watched them play i saw they just click random commands ( be it multiple move commands or moving units around just a little bit for no real reason ), 
+  well i guess the article should mention ruby next time , 
+  well ms won the after hours gaming league they probably love starcraft , 
+  downvoted . 
+  diablo 3 is ruining e-sports ( this time it 's for real ), 
+  the foreign players are just drinking and going after chicks when they become famous . 
+  my hope is in the swedes though . 
+  naniwa seems serious . 
+  is he properly ashamed when the koreans own mlg ( like naniwa is ) ? 
+  however if ms does not use sl video half of the comments are complains about ms abandoning silverlight and silverlight being dead . 
+  what happens if the schema changes between when the code is written and runtime for any other language including dynamic languages ? 
+  well the code throws an error this is what happens . 
+  you can not expect that you 'll write a code against a service and the code will work if the service is changed or even if it goes away . 
+  `` scala will support this too '', 
+  reference please, 
+  in my experience static requests are not really static in like 50 % of the cases . 
+  js files often need to be combined on the fly , images are most often user generated content which means they need security and we even had a case where we generated css files with placeholder colors that the admin could set . 
+  cached in memory maybe in which case they still go through the normal pipeline like other requests . 
+  omg i 've spent like 15 minutes trying to figure this out before i realized that it simply does not work ( does not update the tape and the output ) in ie . 
+  can you please replace this, 
+  $ ( ' #program ' ) . val ( ) [ pc ], 
+  with this, 
+  $ ( ' #program ' ) . val ( ) . charat ( pc ), 
+  there are several usages of this . 
+  it does n't work because [ ] access on string characters is non-standard at least prior to ecma script 5 . 
+  you 've removed one ( or more ) but there are still a few more, 
+  namely, 
+  next = $ ( ' #program ' ) . val ( ) [ pc ] ;, 
+  on lines 322 and 348 but do n't bother if you do n't care . 
+  seems like it is ok now . 
+  i believe the original article claims that io is not always the bottleneck . 
+  of course most of it is baseless flamebait but this part is true . 
+  io is not the only thing that prevents scale .

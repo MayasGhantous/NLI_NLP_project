@@ -1,0 +1,100 @@
+  it removes stuff . 
+  effectively they have given us the universal bytecode vm in the browser so many people ask for and they did it in backwards compatible way . 
+  obviously this will not fix the problems with the dom but being able to replace javascript with a language of your choice without severe performance penalty or semantics differences is really a big step forward . 
+  discounts ? 
+  at the very least they should be completely free . 
+  the only reason i have premium plus ticket are the ad-free vods and if i understand correctly there are exactly 0 benefits for vods now over the free service . 
+  i have bought a ticket ( usually ad-free ) for every gom event up to now but this may be the last year i do it . 
+  at least they could have made an app for my phone ( windows phone in my case but android users are screwed too ) . 
+  it is no better for premium ticket holders if you were in it for the ad-free vods and i have to assume the majority of us bought the ticket for precisely this reason . 
+  i really hope ms fixes this shit skype in the long run . 
+  they already pulled supernodes into their own servers which is a good first step . 
+  at least skype does not route other people 's traffic through your machine anymore . 
+  hopefully in the future they will just drop the whole p2p bullshit and the client will not know the other party 's ip address . 
+  i know i can not demand a refund or anything . 
+  after all they are providing what i paid for . 
+  however i will surely stop paying them in the future if they do n't do something about it now . 
+  yeah i actually have premium plus i think the fact that there is premium and premium plus is bullshit . 
+  i want ad free not really the ehq support but now things are even worse , 
+  right although the article and the comments made it sound like they did and i thought they did for a while . 
+  on the other hand twitch vods are much cheaper so there is still a reason to complain . 
+  thanks for stepping up . 
+  i am a premium plus yearly ticket holder ( has been since the start of the gsl ) and i only care about vods . 
+  if i calculated correctly vods on twitch are about $ 40 cheaper . 
+  i will not ask for a refund but i hope you throw us a bone with your side events . 
+  i also hope you were joking about death threats and fans of the gsl are not that stupid . 
+  much better but still wrong . 
+  now the async sort in c # that used to give . net advantage ( due to the use of multiple cores ) is a disadvantage . 
+  the problem is pretty much the same as with the async sort in node . 
+  this cpu intensive operation does not benefit from being async if you actually saturate your cores with web requests . 
+  correct me if i am wrong but it seems like he is processing http requests in a single thread in . net and he only uses other cpu cores for the sorting while node.js uses all cores to listen for requests ( due to forking the process ) and in addition does the sorting in the same thread ( i.e. 
+  no context switch like in the . net case ) . 
+  the only reason the results are somewhat close is that he sorts absurd amount of data which makes the . net loss of performance due to context switches less important . 
+  in my opinion if you do n't get similar results in this kind of test you are doing it wrong . 
+  i can not see any reason to have much different results in this test . 
+  both technologies can use all cores and can do async io . 
+  well ... truth is in this case it would not matter much or even reduce performance . 
+  the parallel extensions can effectively spread cpu intensive work on several cores but in this case all cores are saturated with sorting their own array so there is no benefit in parallelizing the work . 
+  if he used parallel extensions and he has 4 cores he would server 1 request 4 time faster ( assuming the sorting is the bottleneck which may not be the case ) but once you pass 4 simultaneous requests the parallelism would not be any benefit . 
+  it can even be a problem since the code will be doing pointless context switches ( or maybe not depending on how well the parallel extension heuristics work ), 
+  in addition there were multiple cases of lynching against mobsters in the 19th century ? 
+  stilgar kills the bitch years later , 
+  then the test is once again broken but the results are skewed in the opposite direction . 
+  in my opinion a meaningful comparison is very hard in this case . 
+  the web part of . net is designed and most often run on iis . 
+  the philosophy of iis / asp.net is that you have everything turned on by default and if you want the best possible performance you peel parts like security , authentication , url rewriting etc. 
+  node.js has the opposite philosophy - you start with nothing and add modules you need . 
+  if i was making a benchmark i would invent some real world case like something with a bit of io , a bit of cpu processing , some string concatenation ( this is the web after all and string concatenation is very important ) , some security and authentication ( almost everything requires authentication ) and probably some hanging connections ( these type of processing is often used for real-time web like chats ) and maybe logging . 
+  then i would remove the modules of iis i do not need and add the modules of node.js i do need and this way the technologies would meet in the middle . 
+  of course this kind of benchmark is very hard to do and requires very deep knowledge of both . net and node.js but it is the only meaningful performance benchmark . 
+  everything else is masturbation for tech flamewars fans . 
+  on the other hand i must admit i am more than happy to participate in the masturbation , 
+  i was looking for c # . 
+  i thought they could not invent a reasonable insult for the wonderful c # language but now that i think of it your `` wrong company hypothesis '' is more likely to be correct , 
+  i agree . 
+  if the foreign scene is going to be kindergarten then the foreign scene might die and i would not care . 
+  i always support foreign players but if they are not going to face the best i will not watch . 
+  well ... 
+  i am not sure i see the value in entertaining games if the strategy has no chance to win . 
+  the entertainment in sc for me comes from the battle of minds both trying to win not from specific unit combination . 
+  if they are not trying to win ( i.e. 
+  they play suboptimal strategy on purpose ) they may go home . 
+  his insight has convinced me to buy the next xbox . 
+  they still care about bro gamers !, 
+  dps is not a verb . 
+  cool . 
+  unlike playhem this one actually lets me use ie without the need to spoof the user agent . 
+  i never tried actual playhem tournament for precisely this reason . 
+  i will not let a website tell me what browser to use . 
+  can someone provide english translation ? 
+  i upvoted it just to be able to read comments like this , 
+  i do n't have anything against mono ( in fact i plan to use xamarin tools for ios and android apps ) but why the hell would i care ? 
+  i never had to use anything but windows and visual studio for many years as a professional developer . 
+  if i have to use mono i will probably pick nunit but until then why bother ? 
+  in your opinion what is the percentage of people in the . net world who care about cross-platform support ? 
+  also i do n't see why people care about the license of a unit testing framework . 
+  after all i doubt there is much benefit in forking it or even fixing bugs in the code . 
+  so why do people who ca n't afford windows server + mssql ( let alone the fact that you can use other databases on windows ) choose . net to begin with ? 
+  if you are modifying your unit testing framework you are doing some hardcore unit testing i guess . 
+  . net is not interpreted ( and neither is the current version of java for the most part ) . 
+  of course the fact that you believe that it is supposed to be portable to some specific os does not mean this was the intention of the platform . 
+  maybe they wanted to port it to different ms platforms ( phone and embedded windows ) or maybe portability was not the main reason for using intermediate language ( there are other reasons like easier reflection , jit optimizations , etc. ), 
+  and then again do you suggest that people who chose . net were confused because it was `` interpreted '' and thought they would get portability to linux so they went ahead with this choice ? 
+   . net languages are interpreted, 
+  no they are not, 
+  what is more how is using mstest more difficult from using nunit ? 
+  they are jit compiled by the clr and run as native code and not interpreted . 
+  you can even precompile the code with ngen and skip the jit step . 
+  well if you think a language/framework that supports, 
+  native code ( c++ mode via the unsafe keyword ), 
+  com directly in the language/framework, 
+  was designed to be portable to non-ms operating systems then i ca n't argue further . 
+  i somehow feel like portability was not their top concern when they developed the framework . 
+  btw i am not saying it is not portable just saying that people who choose . net mainly because of portability are wrong . 
+  if we exclude the interpreter thing i was n't in for the argument . 
+  i really want to know why people who care about portability , open source , etc. 
+  choose . net to begin with . 
+  i always saw the value of . net in the integrated ecosystem and the fact that you do n't have to choose as much as with other platforms . 
+  hmm you are right . 
+  on the other hand most people who care about multiplatform stuff and open source licenses default to hating everything produced by microsoft including c # . 
+  artosis is fine and all but if i was in korea i would sign up too even if i was gold or something .

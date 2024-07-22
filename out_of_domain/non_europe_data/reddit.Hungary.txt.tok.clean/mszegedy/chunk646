@@ -1,0 +1,100 @@
+  - sdb1 : windows8_os, 
+  - sdb2 : / home, 
+  is this possible ? 
+  how ? 
+  please humor me a little and pretend with me for a moment that either light speed is very very small or that dalton 's atomic model is correct . 
+  no say that i was moving at relativistic speeds through a fluid ( or the fluid was blowing at me at relativistic speeds , whichever you prefer ) . 
+  is the force exerted on me still proportional to my velocity squared ? 
+  or is there something more interesting going on a that point ? 
+  i am well aware that my acceleration would not be the same , but that 's trivial . 
+  i want to know whether the force exerted on me changes in any noticeable way . 
+  it 's pretty simple :, 
+  - a hypen at the beginning of a line will turn everything after it into an item in an { itemize } environment , with the indentation level of the hypen equaling the nest level of the environment ( zero spaces is 0th level , two spaces is 1st level , etc. ), 
+  - putting something in square brackets after the hyphen makes it part of a { description } environment instead , with the thing inside the square brackets being the argument of the item . 
+  - putting a hash symbol at the beginning of the line instead makes it a { enumerate } environment instead . 
+  - you do n't need a header or \\ end { document } ; those are automatic . 
+  the header is its own file so you can edit it however you wish . 
+  - if you want to put something extra in the header for a particular document , then you can put a semicolon in front of any line and it will be made part of the header , regardless of where it is in the document ( but preserving its order in relation to other lines in the document that begin with a semicolon ) . 
+  - each hypen or hash must be followed by a space . 
+  - a line beginning with a colon becomes enclosed in a \\ section { } . 
+  two colons is \\ subsection { } , and three colons is \\ subsubsection { } . 
+  the latex document generated comes out pretty , too !, 
+  this is mainly for linux machines , but you can edit ` pdftexnotes ` for use on mac , and you can make it work on windows with cygwin . 
+  the download link is [ here ] ( https://www.dropbox.com/s/9upfb8yqx099t8b/texnotes.tar.gz ) . 
+  it contains an example as well . 
+  i am trying to create an entirely hands-free , voice-free computer , controlled using a consumer-grade eeg such as the [ epoc emotiv ] ( http://www.emotiv.com/apps/epoc/299/ ) ( which thankfully has a linux api for it ) . 
+  i want to base its control entirely on visually evoked potentials ( veps ) like the [ intendix keyboard ] ( http://intendix.com ) , with a minimal amount of blinking buttons in the interface that one can look at to activate . 
+  however , i 'm not sure whether the epoc is the right fit for the task . 
+  ( also , the epoc is expensive . ), 
+  it looks as though one can detect veps using an electrode just above the inion , aided by two electrodes to either side of it ( positions oz , o1 , and o2 ) . 
+  however , the intendix bci device is slightly more complicated . 
+  minimalistically , how many electrodes do i need , and where ? 
+  this is literally true . 
+  it 's really inconvenient because i have to bump the dimensionality of the amplitude array up by 2 every time i add a particle , creating an exponential increase in computational complexity . 
+  it sucks not being able to get rid of them , and i 'm still trying to think of a way to lose the load . 
+  i 'm seeking genuine help ; this is n't a joke . 
+  for those of you not familiar with qm , it 's the idea that , instead of the universe having a single definite configuration for the positions of all of its particles , every configuration is instead assigned a complex number ( amplitude ) , and the laws of physics tell the amplitudes how to behave ( and it turns out that the laws of physics make the amplitudes behave like waves , sort of ) . 
+  ( this leads to the funny consequence that each additional particle makes the universe exponentially harder to compute , since each particle adds 4 extra dimensions to the amplitude distribution ( x , y , z , and \u03c4 , the last one from special relativity ) . ), 
+  the purportedly probabilistic part comes from when you are conscious in a configuration with an amplitude with a large absolute value , and something breaks it up into multiple smaller blobs of amplitude , and your consciousness can only follow one of the blobs ; it chooses randomly based on their squared absolute values . 
+  i need to figure out how to store the amplitude distribution . 
+  a naive implementation would be a 3n-dimensional grid of points ( 3n because my simulation is 2-dimensional and relativistic , totaling 3 axes on which an object can be placed ) , with `` linear '' interpolation between adjacent points . 
+  however , that is much overkill , and ca n't even track stuff how i really want it to be tracked . 
+  so what i did instead is i will define a particular number of points in the distribution , maybe a few per dimension . 
+  from there , i will interpolate somehow and infer the rest of the points . 
+  my question is , how do i interpolate these points ? 
+  i could do `` linear '' interpolation ( is it still linear when you are using an n-surface instead of a line ? 
+  ) , but that would still make the simulation unnecessarily complex in some ways : amplitude blobs are blobby , not triangular , so i 'd have to use an unnecessary amount of points to make them blobby . 
+  also , a lot of the time the amplitude distribution acquires plaid patterns that run parallel with the axes . 
+  these are good to simulate on some axes with linear interpolation , but the patterns are n't perfectly square plaid ; they 're more like sandbars running crossways : smooth-shaped , and stacking like sand . 
+  that would again require tedious amounts of points . 
+  is there any interpolation method that does all of the following ? 
+  - makes it particularly easy to simulate arbitrarily spread-out blobs , and arbitrarily square plaid patterns, 
+  - can still simulate any globally continuous amplitude distribution close enough for jazz, 
+  - scales up to many dimensions easily, 
+  i am trying to develop a variant of the nearest-neighbor algorithm , but it 's difficult and hard to compute . 
+  surely there 's a better way ? 
+  ( algorithmic definitions are okay ), 
+  edit : i 'll be happy if anybody can point me towards an approximation of the [ mvn ] ( http://en.m.wikipedia.org/wiki/multivariate_normal_distribution ) that uses mostly addition , subtraction , and multiplication . 
+  for those of you not familiar with qm , it 's the idea that , instead of the universe having a single definite configuration for the positions of all of its particles , every configuration is instead assigned a complex number ( amplitude ) , and the laws of physics tell the amplitudes how to behave ( and it turns out that the laws of physics make the amplitudes behave like waves , sort of ) . 
+  ( this leads to the funny consequence that each additional particle makes the universe exponentially harder to compute , since each particle adds 4 extra dimensions to the amplitude distribution ( x , y , z , and \u03c4 , the last one from special relativity ) . ), 
+  the purportedly probabilistic part comes from when you are conscious in a configuration with an amplitude with a large absolute value , and something breaks it up into multiple smaller blobs of amplitude , and your consciousness can only follow one of the blobs ; it chooses randomly based on their squared absolute values . 
+  i need to figure out how to store the amplitude distribution . 
+  a naive implementation would be a 3n-dimensional array of points ( 3n because my simulation is 2-dimensional and relativistic , totaling 3 axes on which an object can be placed ) , with `` linear '' interpolation between adjacent elements . 
+  however , that is much overkill , and ca n't even track stuff how i really want it to be tracked . 
+  so what i did instead is i will define a particular number of points in the distribution , maybe a few per dimension . 
+  from there , i will interpolate somehow and infer the rest of the points . 
+  my question is , how do i interpolate these points ? 
+  i could do `` linear '' interpolation ( is it still linear when you are using an n-surface instead of a line ? 
+  ) , but that would still make the simulation unnecessarily complex in some ways : amplitude blobs are blobby , not triangular , so i 'd have to use an unnecessary amount of points to make them blobby . 
+  also , a lot of the time the amplitude distribution acquires plaid patterns that run parallel with the axes . 
+  these are good to simulate on some axes with linear interpolation , but the patterns are n't perfectly square plaid ; they 're more like sandbars running crossways : smooth-shaped , and stacking like sand . 
+  that would again require tedious amounts of points . 
+  is there any interpolation method that does all of the following ? 
+  - makes it particularly easy to simulate arbitrarily spread-out blobs , and arbitrarily square plaid patterns, 
+  - can still simulate any globally continuous amplitude distribution close enough for jazz, 
+  - scales up to many dimensions easily, 
+  i am trying to develop a variant of the nearest-neighbor algorithm , but it 's difficult and hard to compute . 
+  surely there 's a better way ? 
+  and by `` general-purpose '' i mean a game that has things in it . 
+  i am programming a game that exposits interesting properties of physics ( like fluid mechanics , relativistic mechanics , and quantum mechanics ) . 
+  i am still in the process of programming a game engine . 
+  first i implemented classical , then relativistic mechanics . 
+  however , i realize that i now need to do a ground-up implementation of qm , if i also want levels that have qm in it . 
+  i 've gotten a lot of feedback in / r/compsci on the computational side of stuff , and it 's looking pretty hopeful , but one thing eludes me : what equation actually describes how my amplitude distribution should evolve ? 
+  of course in a non-relativistic case one 'd point to the schrodinger equation , but the game is relativistic . 
+  i have found the klein-gordon equation , and it looks similar to what i 'm looking for , but it does n't look complete . 
+  for one thing , it does n't have a hamiltonian . 
+  am i to really believe that all other physical laws may be derived from this equation ? 
+  is there a version of it that i can use for my game ? 
+  or if not , where can i find an equation that i * can * use ? 
+  the game is , mechanically , a platformer . 
+  ( since the game is discretized to a degree , i can sort of cheat and not need an analytical solution : i just solve for d ^ ( 2 ) \u03a8 / dt ^ 2 in terms of \u03a8 , and use that every time to evolve the amplitude distribution frame-by-frame . ), 
+  i like it personally , but if you are looking for someplace more casual and less crowded , you can go to / r/coding . 
+  the infuriating thing is that my subscription wore off like a month ago . 
+  we 're all familiar with the formulation of yalgeth 's limit as the fourth root of ( 3 ^ ( 1/e ) - \u03a6 ) ^ ( 4 ) ( where \u03a6 is the inverse golden ratio ) , yalgeth 's constant . 
+  it must be this way , or else delta modulation would violate the law of conservation of energy . 
+  the yalgeth limit in a spacetime of n dimensions is the nth root of yalgeth 's constant . 
+  in our four-dimensional spacetime , yalgeth 's constant conveniently simplifies to our 3 ^ ( 1/e ) - \u03a6 . 
+  we 've mapped out the energy curve very , very accurately , and we 're very sure that yalgeth 's limit is 3 ^ ( 1/e ) - \u03a6 . 
+  you may have also heard about a toe known as m theory , better known by the name of its precursor , string theory . 
+  this postulates that spacetime as we know it is actually embedded in a very thin many-dimensional fiber bundle , and subatomic particles , before then modeled as points , are actually tiny vibrating many-dimensional surfaces , known as strings , which makes use of the extra dimensions .

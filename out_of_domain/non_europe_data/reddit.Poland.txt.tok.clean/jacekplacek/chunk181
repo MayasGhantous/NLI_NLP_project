@@ -1,0 +1,100 @@
+   what exactly will i use from a mobile device ( in order to detect it in a room ), 
+  there are some options - you could use bluetooth ( probably the simplest solution ) or , if you are not beyond doing some programming on the devices themselves , make your server expose web service and the devices calling into it whenever they see they are in the vicinity . 
+  and as / u/doormatty said , forget about arduino for this ( although due or teensy 3.1 might be up to task . ), 
+  you may look into odroid c1 - for the price of raspi it 's much more powerful . 
+  definition mismatch detected !, 
+  in ( most ) european countries `` liberal '' means `` classical liberal '' or `` libertarian , '' in us and uk ( among others ) it means `` left wingnut . '', 
+  it 's not going to convince statists - they are just going to tell you it 's not a theft if it 's `` fair . '', 
+  obviously , you will have a hard time extracting out of them the clarification what `` fair '' means ... 
+  actually , that 's true in north america - [ not quite so in europe ] ( http://en.wikipedia.org/wiki/liberalism_in_europe ) . 
+  although the term itself seems to be quite ambiguous ... 
+  break one in half ? 
+   the way to change its behavior is to change what resides in ram ( which is loaded from flash , usually ) . 
+  to be more precise , the program resides and is executed from program memory ( flash , ) the data resides in ram , although it can be read from the flash or eeprom ... 
+   it 's not just about destroying the prerequisites for all life on earth, 
+  how can someone be so delusional ? 
+  [ `` therefore , earth would n't have a present-day biosphere without atmospheric co, 
+  carbon dioxide is well mixed in the earth 's atmosphere and reconstructions show that concentrations of co, 
+  2 in the atmosphere varied from as high as 7,000 parts per million during the cambrian period about 500 million years ago in ancient-earth biospheres to as low as 180 parts per million during the quaternary glaciation of the last two million years . 
+  '' ] ( http://en.wikipedia.org/wiki/carbon_dioxide_in_earth%27s_atmosphere ), 
+  fyi , since you seem to have gaping holes in your education , cambrian period was the one responsible for the explosion of the life on earth ... 
+  safety is really not a big issue here , if you want to be environmentally friendly you should make sure you retrieve all of them , though . 
+  as for longevity - cr2032 can get you a little bit more than 200 mah - with led drawing some 20 ma it would make it around 10 hours . 
+  not sure about no resistor setup - it may draw more . 
+   could i drop the voltage down using a voltage divider, 
+  sure . 
+  the question is how much current you want to draw and how much loss you are willing to tolerate . 
+  the more current you want , the more is going to waste . 
+  you can look at the [ arduino forum ] ( http://playground.arduino.cc/main/interfacingwithhardware#camera ) for some pointers . 
+  generally , though , arduino does n't have enough ram to really do anything with camera images ( with the possible exception of due . ), 
+  if you can live with a low res images there are some i2c cameras you can , perhaps , use with arduino . 
+  no reason why you could n't use a makefile on windows ... 
+   make sure that you are using transistors to power the motors, 
+  or better yet ( and to solve the reverse easily ) use h-bridge . 
+  would selling the ( already certified ) wi-fi module separately , with the instruction how to assemble , fall into the loophole ? 
+  in addition to what / u/steckdosentier said , you could try to power the arduino separately ( do n't forget the common ground ) and see if it works that way . 
+   nsa 's function is to protect us from potential attackers, 
+   downvotes ? 
+  what the fuck ? 
+  my guess would be :, 
+   how many of you are better than normal ? 
+   anarchy means ` no rulers ' . 
+  is n't god a ruler ? 
+  he is not enforcing the rules he gave - you still have a free will . 
+   i could n't reconcile the fact that my mother , who 's been severely disabled from birth , would have to rely on charitable organisations in such a society . 
+  let me get it right : you would n't want some dude go around and solicit contribution for your mother 's benefit , but you do n't mind some dude going around and mugging people for the same ... 
+  if they strapped the label on it for their own use , you are right - but why would that bother you ? 
+  if they sell it to you as a genuine thing then it 's quite obviously a fraud . 
+   what incentives will there be for people to create things without some sort of protection ? 
+  what incentive did homer have ? 
+  ( not simpson  aristotle ? 
+   your only choice is democracy aka oligarchy, 
+  ftfy, 
+   you 'll push for open borders , get brown national socialism and then live in a shithole . 
+  so , i should embrace white national socialism instead ? 
+  `` scandinavian '' like made for ikea ... 
+  from the [ datasheet ] ( http://www.nxp.com/documents/data_sheet/74hc_hct595.pdf ) 74hc595 can handle 100mhz , obviously it 's going to be limited by how fast you can talk to it . 
+  if you drive it through spi , the best you can get is half the clock speed - so max of about 1mhz per 8 bits . 
+  still waaaay faster than humans can perceive . 
+  so , what would you call it instead ? 
+   the only way -- the one and only way -- to ever have any real kind of unifying peace on this planet is to systematically exterminate sociopathy from it . 
+  `` sociopathy '' is an abstract noun - you can not `` exterminate '' abstraction . 
+  i guess you mean `` to systematically exterminate sociopaths . '', 
+  so , the question is whom do you task with the deed ? 
+  and who is going to decide who is or is n't a sociopath ... 
+  * toeing the line, 
+  do n't see why you think msp430 is a better platform to learn stuff and tinker . 
+  if someone wants to get closer to the bare metal , atmel studio and avr mcs are much easier options . 
+  let 's face it - tinkering is not going to get you an industry job ... and msp430 does n't have even a tiny fraction of atmel/arduino community . 
+   prevents electrolysis from occurring, 
+  to be precise , it reverses the effects . 
+  ie , at one direction the iron atoms are ionized and leave the surface of the nail , with the direction reversed the iron ions ( being the most abundant in the vicinity ) are being deposited back on the nail surface ... 
+  not likely . 
+  it has the same clock speed as uno and mostly the same instructions ... 
+  this is woefully under appreciated mc ... 
+  i can tell you from my own experience . 
+  back in the 80s , i was working on the assembly line in canada . 
+  there was basically unlimited opportunity for the overtime - i would work the overtime if it was n't for the effect of the marginal tax rate . 
+  after taxes , the extra hours just did n't pay enough for the trouble , so i just decided to chill it and enjoy my free time ... 
+  would n't work on me ... unless it can lift my eyelids and shine straight into my eyes . 
+  if you do n't mind soldering smd , any atmega/attiny can do , otherwise only attiny85 is small enough . 
+  if you are looking for something already assembled look up lilypad . 
+  you have to remember the `` antenna '' in your flow needs to be much more than just antenna ... 
+  since you can get a [ pir sensor from china ] ( http://www.aliexpress.com/item/free-shipping-hc-sr501-adjust-infrared-ir-pyroelectric-infrared-pir-module-motion-sensor-detector-module-we/32263308396.html ) for under a buck , $ 15 - 20 might not exactly look `` cheap '' ... 
+  still trying to figure out what did you steal ... , 
+  kinda depends if you are thinking just one shot project or if you plan on doing a lot of it . 
+  in the first case get the nano . 
+  if you want to get serious in the long run , look at atmelstudio and a programmer ( i 'm using avr dragon but there are plenty of others . 
+  you could get the chep usbasp programmer but it 's pain in the neck to configure atmel studio to use it ), 
+   if you get a pro mini get the one that can be switched between 3.3 v and 5v, 
+  do you have any experience with this one ? 
+  i 'm kinda concerned it will run 16mhz on 3.3 v - that 's outside of specs for atmega328 . 
+  does n't mean it will not work , though . 
+  they are on the stack not allocated from the heap , unless its an object with a non trivial constructor/destructor , the overhead is negligible . 
+   is this something that i can do using arduino ? 
+  [ yup . 
+  ] ( http://www.instructables.com/id/arduino-controlled-light-dimmer-the-circuit/ ), 
+  cool . 
+  good to know . 
+   for scl / sda you will just level shift both lines, 
+  if it 's one direction only ( arduino input , radio output ) there 's no need to shift - 3.3 v will still read as high on arduino .

@@ -1,0 +1,100 @@
+  i 'm working on / r/nzcss as a new css for / r/newzealand , and as part of the new one we 've got a message which appears for non-subscribers only . 
+  what i 'm wanting to do is to find a way to make a different message appear in the location for subscribers when there is a need for one . 
+  current code for what we 've got is this :, 
+  body : not ( . subscriber ) #sitetable : before {, 
+  looks like you 're new to / r/newzealand . 
+  please check the sidebar before posting , especially if asking for visiting / moving advice . 
+  background-color : #ffefa 7 ;, 
+  background-repeat : no-repeat ;, 
+  color : # 111 ;, 
+  display : block ;, 
+  which makes the message appear for non-subscribers , and we 've got a different one already on / r/newzealand that appears to everyone , but is there some way that we can have two different messages ? 
+  saw a reddit post on it a couple days ago but ca n't find it again for the life of me . 
+  it worked better with cartoons , but somehow meant that you could make an image larger with very little ( if any ) loss in quality . 
+  have a feeling it was on / r/internetisbeautiful or something but had a look through there and could n't see anything, 
+  lots of constant bangs from the south ( upper riccarton / hornby sort of way ) over the past five / ten minutes or so . 
+  thought it was fireworks but seems too rapid for them , so i dunno . 
+  anyone know if something 's on ? 
+  okay , so just to provide context if you 've got no idea what 's going on , / u / - halcyon and i are working on a new css for / r/newzealand , the progress of which can be seen at / r/nzcss . 
+  we 're quickly approaching a final version , and as part of it we 've got a rotating set of images to act as the background for the header . 
+  i 've got a few from my shots and / u / - halcyon added a few ( plus one or two from / u/raddishsauce , ) but ideally we 'd have some more high quality ones from the resident photographers so that we 've got more than just the south island and natural landscapes . 
+  the dimensions for the header are 2000 x 200 , which is a pain to work with , so we 've had to get a bit creative with them . 
+  still , if you have any images that are close enough that we 'd be able to get that from them and have it look decent it 'd be awesome to hear . 
+  also if anyone has any good astrophotography shots ( * cough * / u/mamba _ 79 ) then it 'd be awesome to be able to use one for night mode too, 
+  the basis for what i 'm asking here is that there are quite a few groups which are n't recognised due to whatever reason and thus do n't appear on a map , but still for all intents and purposes control territory and would be considered a state if we were looking from a historical perspective on it . 
+  i 'd assume places like taiwan , kosovo and somaliland would be seen as firmly independent , but what else ? 
+  i just went and checked it the other day , and instead of the hundreds of songs we suggested it only had 13 songs . 
+  checked today and it 's back up to 59 , but still nowhere near what it was . 
+  should we rebuild it ? 
+  original airdate : october 11 , 2015, 
+  episode synopsis : when a department of state employee is kidnapped in afghanistan , elizabeth takes former secretary of state madeleine albright 's advice over the president 's recommendation ; henry has a hard time persuading a student to spy for the u.s. government . 
+  i 've been playing on diameter , and early morning there 's only a few people online . 
+  last one was about five people in the game , and someone managed to last until the end of it on his own but did n't get the hat flair . 
+  is there a set number of people that need to be in a game before it can be awarded ? 
+  with the new css , we also brought in link flairs . 
+  these allow for a whole host of extra features , and mean that it 's a lot easier to check before posting something - meaning fewer reposts . 
+  they also mean that if you 're sick of all the political posts , you can simply hide them by clicking ` no politics ' on the sidebar ( when that 's added . ), 
+  however , this only works if people actually flair their posts . 
+  some people have , and that 's been great . 
+  but others have n't been ( including that bastard , / u/automoderator , ) and as a result we 've had to frequently go through and manually flair stuff , which is a pain and means we do n't have as much time to do stuff like actually moderate , or improve the css and the subreddit . 
+  so pretty much , this is just a reminder to ask you to please make sure you choose a flair when you submit something , to make it easier for everyone . 
+  the search by flair should be up within an hour or two , and the no politics thing whenever we can figure out how they actually work . 
+  thanks, 
+  playing as the lombards , i decided that i was going to conquer rome right off the bat . 
+  apparently this was n't a very popular move , as i was promptly excommunicated . 
+  the diplo penalty has meant that i 've since been attacked by and am now at war with everyone except croatia , which is n't great when war weariness is a thing . 
+  the tooltip says that the excommunication was going to last until the end of my current leader 's reign , and the current leader at the time of excommunication died a couple turns ago in a valiant defense of pisa . 
+  but for some reason i 'm still excommunicated , which means my situation shows no signs of improvement any time soon . 
+  any ideas what 's going on , or when i can expect to not be the subject of holy crusades ? 
+  i 've been looking at the documentation for scheduled posts recently , and reconfigured the daily discussions on / r/newzealand to be flaired and stickied automatically . 
+  everything i read seemed to imply that it would only replace the bottom sticky , but for some reason the am thread yesterday ( first with the new changes ) got moved to the top slot when the pm thread got posted , instead of being replaced in the second slot . 
+  it 's still there now with today 's am thread too , so it seemed to only happen with the first one . 
+  alternatively , is there any way to set automod to only replace stickied posts that it 's created , so that if we need both sticky slots for other stuff the posts do n't get replaced either ? 
+  cheers, 
+  two minutes per game is way too short - even though it 's possible to get the flair in a shorter time , it 's like the timer in normal tagpro where it 's possible to win in a far shorter time period . 
+  as it is now , if you screw up once it 's nearly impossible to get back up with enough time , meaning the second half of the game is just sitting around waiting because there 's no point in covering the bottom half of the map for the two thousandth time only to have the time limit expire just as you get to the checkpoint, 
+  since pretty much the whole front of / r/newzealand was tppa stuff today , i figured it was time to finally sort out the no politics mode . 
+  now , by clicking the `` no politics '' button on the sidebar , all political posts disappear from your / r/newzealand ( note that this will not carry over devices or stop political posts from showing on your front page ), 
+  when no politics mode is enacted it is replaced by a ` show politics ' button which lets you get those posts back if you want . 
+  also in this update of the css , / r/masterton and / r/invercargill have been added to the map to prevent a lawsuit from the two people in those subreddits . 
+  the sidebar image has also been changed , and i 'll be working on updating the search mode so that it actually works . 
+  [ removed ], 
+  i 'm trying to sort out new flairs for / r/newzealand as a way of distinguishing guests , such as politicians for amas - what i 'm wanting is for the standard image flair to be accompanied by text with a coloured background . 
+  what i 've tried so far has the coloured background , [ but it also extends the background behind the image , like so ] ( http://i.imgur.com/wcj8umj.png?1 ) - is there any way to get the background to only cover the text , and leave the logo without a background ? 
+  i can provide the css snippets of what i 've got so far if that would help , they 're on the private test subreddit at the moment . 
+  ** this is not the ama post ** - [ this is ] ( https://www.reddit.com/r/newzealand/comments/4bjbhu/ama_with_geonet_new_zealands_geohazard_monitoring/ ), 
+  a long time in the making ( though geologically speaking it was pretty quick ) we 're pleased to announce the first in hopefully a long line of events / r/newzealand is hosting alongside geonet - an ama with the director of geonet and two seismologists :, 
+  ** dr. ken gledhill , director of geonet . 
+  ** ken had a ph.d. in geophysics and was also the chair of the pacific tsunami warning and mitigation system . 
+  he can answer questions about earthquakes , tsunamis , monitoring systems and single malt whisky ( he is a big fan ) . 
+  ** caroline little ** is a duty seismologist for geonet . 
+  she is also a public information specialist . 
+  she can answer questions about earthquakes , tsunami , geonet 's network and vintage clothing . 
+  ** dr. natalie balfour ** is a seismologist and can answer questions about earthquakes . 
+  she has worked in australia and canada as well new zealand . 
+  she can answer questions about earthquakes , monitoring , seismograph programmes for schools , outreach and is an avid dog lover . 
+  the ama will take place from 10am - 12pm on wednesday the 23rd of march ( though dr. gledhill is only available for the first portion of it . ), 
+  if you 're not able to make it but have a question , either send it to me and i can ask it on your behalf , or just post it in here and i can sort it out for you . 
+  the ama post will be sticked when it is created , so that it 's easy to find . 
+  we 're also working on an ama post flair so that this and all previous ( and future ) amas are able to be found easily . 
+  figured as a nz-based subreddit we should probably kick off the threads asking for travel advice . 
+  what are people 's favourite spots on the coast ? 
+  heading down there in a couple weeks , considering a detour out to jackson bay as well as maybe a couple of the side roads if there 's stuff worth seeing, 
+  first off , i 'd just like to say that i signed this off with the mods and everything, 
+  tonight over on / r/newzealand , we 're having a movie night with seismologists and other people from [ geonet ] ( http://info.geonet.org.nz/display/geonet/about+geonet ) ( our version of the usgs ) where we watch a disaster movie ( in this case the world-renowned [ 10.0 earthquake ] ( http://www.imdb.com/title/tt3488056/ ) ) , and people can ask them questions about the accuracy or stuff like that . 
+  in case you want to stop by and get a scientific perspective behind some disaster films , geonet are going to start the movie at [ 5pm nzst ] ( http://www.timeanddate.com/worldclock/fixedtime.html?msg=%2fr%2fnewzealand+movie+night+with+geonet&iso=20160408t17&p1=264 ) ( click for the time where you are ) with the discussion going up about an hour earlier over on / r/newzealand . 
+  we may also have the director of the film stop by , though we 're not certain yet . 
+  but yeah , if you 've ever wanted to know about some of the science behind disaster films or just how outlandish and inaccurate they are , feel free to come over and say gidday, 
+  today marks the start of new zealand music month , so for the whole month we 're going to have a thread stickied which will be updated with a list of all the gigs going on across the country today ( sourced from [ here ] ( http://www.nzmusicmonth.co.nz/ ) if you want to look further out . ), 
+  we 're also running a song of the day spotlight thing like last year , which can be checked out using the new ` music ' flair search on the right hand side along with last years picks . 
+  let us know if you 've got any ideas or suggestions for the month too , we might be able to sort something out . 
+  what 's on , may 2 :, 
+  * 7am-10 :30 pm : [ traditional irish music session ] ( http://www.eventfinda.co.nz/2016/traditional-irish-music-session/auckland/mt-eden ) - the clare inn , mt eden, 
+  * 10:30 am : [ musical rhyme time ] ( http://www.aucklandlibraries.govt.nz/en/events/events/pages/nzmmsouth.aspx ) - pukekohe library, 
+  * 7pm : [ mali mali - as a dog dreams release tour ] ( http://www.undertheradar.co.nz/gig/49448/mali-mali---as-a-dog-dreams-release-tour.utr ) ** ( r18 ) **, 
+  * 7:30 pm : [ fox & hound final gig fo'evvvvver ] ( https://www.facebook.com/events/1754795671400679/ ) - the portland public house, 
+  * [ acoustic song & music session ] ( http://www.eventfinda.co.nz/2015/acoustic-song-music-session/auckland/newton ) - the thirsty dog , newton, 
+  ##### nelson :, 
+  * 9:30 am : [ welcoming nz music month ] ( http://nelsonpubliclibraries.co.nz/library/my-library/library-news/new-zealand-music-month-2016/ ) - elma turner library, 
+  ##### hamilton :, 
+  * 11am-1pm : [ quintessentially kiwi ] ( http://www.eventfinda.co.nz/2016/quintessentially-kiwi/hamilton ) - activate church,

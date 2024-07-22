@@ -1,0 +1,100 @@
+  as well as a basic understanding of object-orientation . 
+  but after python , i 'm of the opinion that both c and java ( or similar ) are necessary for a thorough understanding of software engineering practices . 
+  even better if you work your way up to c by starting from logic gates , moving on up to eventually alus and binary representation of numbers , and * then * c. c gets you a good understanding of precisely what a pointer is and how to make use of it . 
+  it 's also useful for knowing more closely how things are represented at the computer level . 
+  java , meanwhile , helps with a much more robust understanding of oo , and understanding how to properly work with types is really useful -- even if you eventually move back into python . 
+  i do n't think anybody is misleading anyone . 
+  python is an easy language because it , for the most part , gets out of the way . 
+  it lets the learner concentrate on actually learning basic programming constructs . 
+  that 's really all there is to it . 
+  nobody is claiming that it learns the programming concepts for you . 
+  python is n't without its flaws . 
+  consider the following scenario :, 
+  print `` before '' , a , b, 
+  bar ( a , b ), 
+  print `` after '' , a , b, 
+  y.append ( 4 ), 
+  print `` during '' , x , y, 
+  if python had nothing that functions like pointers , you would expect the result to be, 
+  before 1 [ 1 , 2 , 3 ], 
+  during 2 [ 1 , 2 , 3 , 4 ], 
+  after 1 [ 1 , 2 , 3 ], 
+  but because of its slightly unintuitive behaviour , you actually get, 
+  before 1 [ 1 , 2 , 3 ], 
+  during 2 [ 1 , 2 , 3 , 4 ], 
+  after 1 [ 1 , 2 , 3 , 4 ], 
+  once you understand about pointers -- preferably by taking a course in a lower level language like c -- this because entirely clear , but to someone first learning about variable scope in python , it can be problematic . 
+  edit : changed variable names in ` bar ` to make it a little clearer . 
+  i cordially disagree . 
+  i think being able to learn the basics of logic flow -- loop structures , conditionals , functions , variables , scope , etc. 
+  -- without too much of a requirement for understanding the lower level stuff is incredibly useful to have . 
+  all the nitty gritty stuff can and should be taught later . 
+  preferably not * much * later , but find out if the student can understand basic programming concepts first . 
+  move on to c very quickly , but start out with something that abstracts away all of the implementation details . 
+  i usually just put a comment with `` todo : stuff here '' . 
+   the aim of 5e was to simplify everything, 
+  respectfully , i do n't quite agree . 
+  back when 5e first came out , there was an awful lot of talk about `` modularity '' . 
+  the idea being that the core of the game would be very simply , but it would have a lot of different little add-on optional rules and subsystems which groups could use to tailor the system to their preferences . 
+  while i personally prefer the phb initiative system , i think that a variant of this sort is a good idea to have as an option . 
+  although i do n't think op 's system is a very good implementation of the idea ( and neither is mearls ' ) . 
+  anyone remember what the reasons grey said were good or bad for becoming a teacher ? 
+  i 've forgotten . 
+  they 're a way of removing code you 're not using any more , and reminding yourself about things you should n't touch . 
+  not sure if they do anything else . 
+  basically , python treats lists as pointers to a value in memory , while it treats integers , strings , and most other types as primitives . 
+   because you did . append on b you actually referenced the `` b '' from the foo method, 
+  sort of ? 
+  it might have been clearer if i had chosen different variable names , so i 'll edit it to help . 
+  but the variable * name * does n't matter , only that the thing being passed is essentially a pointer . 
+  though python does n't like to call it that . 
+  well of course . 
+  that 's almost trivially true . 
+  i 'm saying what i think is the best way for a university to structure their programme , primarily , with a little less interest in people self-learning , and absolutely zero interest in any other scenario . 
+  my university 's software engineering course has its ups and downs . 
+  the programming side of things , i think , was mostly really good . 
+  the bad part was the fact that they tried to get us doing a bunch of courses with the other engineers , including one course that was mostly materials engineering , and one where we had to design pcbs to implement a band/low/high pass filter . 
+  but for programming itself , first year had a course entitled `` introduction to software engineering '' , which had weekly codecademy-like online exercises to demonstrate understanding of basic concepts , and it also had a few larger programming assignments . 
+  all in python , though apparently they used to do it in haskell . 
+  but that was just one course out of eight in first year . 
+  it was n't until second year that the amount of programming courses started to ramp up . 
+  there were also three maths courses ( calculus and linear algebra , multivariate calculus , and discrete & mdash ; stats in second year ) an intro to electrical engineering ( useful for a later course which goes through from logic gates to flip flops to alus to assembly to c , including a practical component with the logic gates ) , two general engineering courses , and one elective & mdash ; intro to web design or databases being the most obvious choices to take . 
+  second year had the aforementioned logic gates -  c course in first sem , which was followed by a c course in second sem which also taught the fundamentals of hardware-software interaction ( particularly hdds , memory/paging , and networking ) . 
+  2nd year also had intro to oo in java and an algorithms & data structures course , also using java for the practical component . 
+  there was also a horribly-organised course meant to teach collaboration ( via git & github , and i think maybe trello ? ), 
+  and software design , but the coordinator basically gave the group a basic framework for a game ( like , a ball , and some boxes , and you can move the ball around , and that 's it ) and then said to all 200 students `` make a thing collaboratively '' , and that was all the guidance . 
+  200 second year students trying to build an mmo with a 100 % flat org structure . 
+  it did not go well . 
+  third and fourth years have a few basic non-software-specific things that need to be done , but it 's mostly a free choice of courses from the software department of the uni . 
+  anyway , that was really rambly . 
+  sorry about that . 
+  but yeah , i think it was mostly really well organised . 
+  nearly every programming-based course has some substantial practical and theoretical component , and most of them are fairly well organised , although a few were n't . 
+  the tl ; dr is, 
+  year one : basic programming in python , maths stuff, 
+  year two : stats , oo , low level programming, 
+  always : general engineering stuff , various programming/software-related electives . 
+  how else do you get rid of stuff that 's broken ? 
+  or remind yourself not to change the thing that breaks everything if t 's changed . 
+  or express your general frustration with life . 
+  that 's my approach to git collisions . 
+  just replace file -  new with git clone . 
+  out of interest , what precisely are you studying ? 
+  because that 's obviously going to change the experience as well . 
+  i know peopl at my uni who study it have a much easier , albeit perhaps more focussed , time than people like myself who are doing software engineering . 
+  if recommend not getting your hopes too high . 
+  i personally did n't find it nearly as powerful or moving as the original was . 
+  it was * okay * , but not at all what i was hoping . 
+  better go back and use sha256 , just to be safe . 
+  the last iteration was not excellent . 
+  it was abysmal . 
+  the flavour was nothing close to what psionics is , and from a mechanic perspective it felt like it was * always * able to be the most effective party member in any given situation . 
+  i wanted to like it , i really did . 
+  i even thought that despite the flavour problems , it would be okay in practice . 
+  but oh gods it was not . 
+  oh yeah , i definitely agree the episode deserved a follow up , much more than what it got . 
+  it should have changed picard completely and shaped him from then on out . 
+  i just would encourage not having your hopes too high before reading the comic . 
+  with comparatively low expectations you might enjoy it a lot more than i did . 
+   it does n't make sense why a pixie ( 20 dex ) would potentially move faster than a human ( with 20 dex ) just because it 's smaller . 
+  simple physics .

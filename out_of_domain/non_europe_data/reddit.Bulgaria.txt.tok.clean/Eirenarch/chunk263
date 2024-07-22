@@ -1,0 +1,100 @@
+  you must have missed the part where asp.net is in the top 5 of web stacks . 
+  yeah and probably toyota should kill the best selling model because apparently they `` lost that battle '', 
+  what happens if he is not on the ballot ? 
+  i 've read some comments about `` write in '' . 
+  can you just write his name and have that counted ? 
+  forgive my ignorance i am not from the us . 
+  the four freedoms are great and all but somehow the eu has turned into a regulation machine instead of something built to protect the four freedoms . 
+  i think this is fake . 
+  all this time i have wondered who the hell wants visual studio code . 
+  it seems like they built it for you !, 
+  seems worse than msdn to me but maybe it is because i am used to msdn . 
+  i somehow find it easier to browser msdn with the icons indicating methods , properties , etc. 
+  also the method signatures seems to move to the next line with a hyphen like this `` ob-ject '' which i find absurd . 
+  but this is not how it works . 
+  the eu has relatively few regulations that protect freedom . 
+  in all other cases the regulations are added to the member state regulations . 
+  now i really want to see the next round of techempower benchmarks, 
+  i wanted to stay safe and not even have to defend the statement , 
+  the clr does it with boxing . 
+  if you pass a value type variable as an interface argument ( or assign to an interface variable ) the value is boxed and the boxed object is used to call interface methods . 
+  in the clr if you pass the value to a value typed argument it is known compile time if the value type implements the interface since value types do not support inheritance . 
+  basically if the type of the argument implements the interface it implements the interface and that 's it . 
+  it is not possible to be passed a derived class that implemented the interface while the original type did not . 
+  yeah for the most part . 
+  there are two potential issues with this, 
+  potentially unexpected behavior when using mutable value type as it becomes a reference type when boxed . 
+  mutable value types are considered bad practice and are used only for extreme performance optimizations . 
+  i have never seen this issue in practice or even a mutable value type that i had to use directly . 
+  the list < t  enumerator is a mutable value type but you just use foreach and never actually see it . 
+  i think the proposal for java excludes mutable value types anyway . 
+  performance problems due to boxing . 
+  i do n't see this as a big issue since value types are something intended to optimize performance so by definition you know you are attacking a performance problem and chances are you will measure and be able to find this issue . 
+  sadly i do not work on performance critical code so i can not tell how often this is a real issue . 
+  i use a certain pattern in web apis something like, 
+  customer customer = getcustomerfromdb ( ) ;, 
+  thrownotfoundifnull ( customer ) ;, 
+  / / do something with customer here, 
+  the thrownotfoundifnull method throws the webapi http status code exceptions . 
+  i wonder if this pattern is possible to track with a language feature like can there be a language facility to say that after the call to thrownotfoundifnull the customer variable is definitely not null . 
+  this is why linux has like 2 % desktop usage share - because most people ( including most professional devs ) can not fix an operating system if their life depended on it . 
+  i am super weak and hate myself for that but i will probably start playing much more simply because masters is now 4 % and i usually hover ~ 3 % so when they adjusted masters 2 years ago i was kicked out and super frustrated that i do n't get the badge . 
+  i have n't played for the last two seasons . 
+  is it some anomaly for the start of the season ? 
+  i am pretty sure i checked like 3 seasons ago and it was between 2 and 3 % depending on the region . 
+  well , that 's possible . 
+  good to know though i am looking forward to the weekend to do a bit of laddering . 
+  with reified generics this is pretty much the same as the non-generic case . 
+  they are passed as their own type not as an interface . 
+  i do n't think javascript will add stating typing in the foreseeable future . 
+  it seems like the consensus is that they will leave the language dynamic and tools like typescript can be used to fill the need for static typing . 
+  it would be really interesting to see a deal to make tizen run uwp apps . 
+  i think they are pretty small because with the exception of typing all other features in typescript are implementations of standardized or almost standardized ecmascript features ( for the record typescript is more conservative in implementing not yet finalized features than babel ) . 
+  there is chance that some feature will collide with the type syntax but the greater adoption typescript gets the smaller the chance this will happen . 
+  after all microsoft and google are on the committee and will probably raise an objection . 
+  even if this happens the typescript team will work around this or put features behind flags . 
+  i read somewhere that google declared this experiment a failure . 
+  even then the syntax for this one was taken from typescript so if this project succeeds it makes typescript stronger not weaker choice . 
+  the only thing i love more than cheesing is being cheesed myself . 
+  in fact i think i only win in tvp when i am cheesed or when i play someone a full league below me . 
+   and thank christ for that !!, 
+  thank anders ( hallowed be his name ), 
+  i 'm going to setup a company and hire only straight white males to prevent your world from turning upside down . 
+  it is well-known that in it specifically asians do not count as non-white and can not fill diversity quotas because you happen to have actual interest in the field so you are easily hired without regulations or pr attempts from hr, 
+  ca n't wait for the next round of techempower benchmarks and related dick measuring contest . 
+  why do you read the body as string and then convert it to bytes to write it to a file ? 
+  either read the bytes and write them to a file or write a string to the file . 
+  let alone that i do n't see how saving to a file is relevant here . 
+  well i fail at this test . 
+  i wo n't be using ssl on my servers anymore :(, 
+  someone care to explain who jihan wu is ? 
+  c # is love, 
+  i am not sure at all ms are related to the robovm purchase . 
+  it may have been talent acquisition . 
+  do the robovm devs work for ms now or did they quit ? 
+  it makes sense for ms to kill robovm . 
+  it has no strategic value for them and oracle are after companies implementing java and ms would n't risk dealing with this for no reason . 
+  i still ca n't understand why xamarin acquired robovm to begin with . 
+  what is the proposed queen change ? 
+  so they will have different range but the same animation on ground and air attacks . 
+  i hate changes like these makes it harder for viewers and new players . 
+  i think they made it one animation after they increased the ground range , no ? 
+  there was a claw-like thing that was shorter and the current thing was the anti-air . 
+  still confusing though - why can queens spit farther if the target is in the air ? 
+  angular 1 - stable , a lot of know-how , easy to setup , easy to get into . 
+  sadly not cool anymore . 
+  does not fit into the `` cool new toys '' category and i expect that new projects wo n't use it a year from now, 
+  angular 2 - still rc , hard to setup ( requires a lot of npm , gulp , typescript , systemjs , etc. 
+  magic ) . 
+  uses a lot of new js concepts so not trivial to get up to speed . 
+  well engineered , supports different code organization styles . 
+  still unstable and things change quite fast . 
+  control toolkits still sucks - do not expect that you can use one of the fancy material design packages unless you only care about chrome . 
+  react - hard to setup similar to angular 2 . 
+  uses a lot of new js concepts and features but still less than angular 2 . 
+  the concept is great and simple and seems to be better than angular 2 but the engineering is subpar . 
+  for example you need to have your html in your jsx files ( inside the javascript ) . 
+  react fanboys suffer from stockholm syndrome and claim that the lack of choice is good because it promotes small components and ignore the fact that it breaks tools , ides , etc. 
+  by contrast angular 2 supports templates in the js files and separate html files and does not break existing tooling and editors because the html in js files is inside a string . 
+  there are more examples like this particularly on the naming front . 
+  the architecture of react apps is still a subject of debate .

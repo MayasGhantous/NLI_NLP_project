@@ -1,0 +1,100 @@
+  they could just legally incorporate in bvi since their business does not use any physical space and legally pay 0 % taxes . 
+  yes , it is possible to survive with 200 euros per month . 
+  in tallinn for its residents public transport is free so you do not have to spend money on it . 
+  by the way , are you an eu citizen ? 
+  if yes then it could probably bring you some additional money from the government . 
+   yeah that 's pretty close , but he does n't overreport current hashrate, 
+  how do you know he does not ? 
+  what prevents him from applying the same `` real_hash_rate * 1.03 '' trick so it would look clear in the pool dashboard ? 
+  since effective hashrate is always fluctuating it gets even harder to detect it to know for sure . 
+  his claim is that it improves hashrate by 2-3 % - my effective hashrate can easily go + - 5 % within 10 minutes so these 2-3 % are impossible to notice . 
+  there is right now some strange miner on ethermine.org https://ethermine.org/miners/70d37408c284178565c8091356684cb87d55f2f4 which has 6900 reported vs 21100 effective hashrate , clearly it is altered . 
+  well actually we could tell if - nofee 1 shuts the fee off . 
+  i have read that claymore mines devfee to the same pool that you are mining to so there are 2 ways that i can see :, 
+  we could sniff claymore traffic to see if does it send hashrate to its worker ( not sure if the stratum protocol is encrypted though , if it is then we ca n't do that ) . 
+  configure claymore to mine to a personal pool ( [ they are open source so anyone can setup them ] ( https://github.com/sammy007/open-ethereum-pool ) ) and watch if will claymore attempt to mine to its own address . 
+  however as a workaround for # 2 , he may have `` hardcoded '' some popular pools ( like dwarfpool , ethermine , nanopool and so on ) and mine devfee only on them when it is allegedly disabled . 
+  i sent an email to the mineshop.eu once ( about 3 months ago ) asking them about shipping - still did not get any response . 
+  also , almost everything is out of stock there . 
+   i use with sgminer-gm still beats it, 
+  are you mining on windows or linux ( if linux then which distro ) ? 
+  well , the question is :, 
+   would it be possible to ** survive ** with 200 euros per month, 
+  definition of the word survive : [ * `` to remain or continue in existence or use '' * ] ( http://www.dictionary.com/browse/survive ) . 
+  so , is it possible to just exist with 200 euro per month after housing ? 
+  clearly . 
+  how do you know that they will be in stock on 30.6 - 6.7 ? 
+   security by obscurity, 
+  i would say the primary reason of the closed sourced software is because the devs have to make money somehow , so they either include ads there , limit features ( and unlock them for money ) , etc. 
+  for example , windows is closed sourced and i do not think it will ever be open sourced . 
+  is there any desktop linux distro that can actually compete with windows ? 
+   do you mine ether exwei ? 
+  if so , did you build your rig or where did you get your cards or rigs ? 
+  yes . 
+  i built my rigs myself . 
+  i bought risers from amazon.de , gpus from cyberport.de and all other remaining items like motherboard from a local store . 
+   what is your hashing power ? 
+  in total ( reported ) it is around 940 mh/s . 
+   how much money are you making / month ? 
+  well it depends . 
+  i hold part of the mined coins and sell the other part . 
+  right now before electricity it is around $ 190 - $ 210 per day in total . 
+   how many gpus do you have per rig ? 
+  my plan is to have 6 gpus per rig , but one my rig has just 5 because they went out of stock before i could buy another one . 
+  i have 35 gpus in total . 
+  6 `` rx 470 nitro 4gb '' and 29 `` rx 470 msi gaming 4g '' . 
+   when did you start mining eth ? 
+  this april . 
+   if you check your pool stats and it shows you submitted 400 shares when in the miner it shows you submitted 450 shares excluding the devs mining fee shares . 
+  it does not have to rig the shares number . 
+  just multiply hashrate in the console by 1.03 and nobody will ever be able to tell for sure if is it really 3 % faster ( so called `` optimizations '' ) or not . 
+  assume that the real hashrate is 25 mh/s . 
+  assume that i am claymore and i want you to believe that there are optimizations . 
+  what should i do ? 
+  just tell you in the console output that it is faster ( 25 * 1.03 = 25.75 mh/s ) while in reality it is still the same 25 mh/s . 
+  report the same number to the pool as reported hash rate and it looks clear . 
+  since `` effective hashrate '' ( based on shares and calculated by pool ) is fluctuating + - 5-10 % you will never be able to tell for sure if the hashrate that claymore tells you is real or no . 
+   edit : also my comment about reading shares is because that 's the one thing no miner can fake . 
+  sure he can put a multiplier on your console , but he ca n't multiply the shares you get and if he can . 
+  then even better because makes you more money . 
+  sure they ca n't fake shares but once again since claimed improvement is just 2 % it is pointless to fake shares . 
+  but it is very possible to fake `` reported hashrate '' , here is a link to some guy on ethermine.org https://ethermine.org/miners/70d37408c284178565c8091356684cb87d55f2f4 , it says `` reported hashrate '' - 7gh/s , `` effective hashrate '' - 20gh/s . 
+   so here is an experiment you can do . 
+  use claymore for a week non stop , and then use genoil for a week non stop , see which one gave you more shares on the same pool and go from there . 
+  well as you said in your next sentence * `` you are right that you ca n't really tell a 1-2 % difference . '' * . 
+  i have 35 gpus and all they run claymore 9.5 without dual-mining . 
+  my `` reported hashrate '' right now is ~ 950 mh/s . 
+  `` average hashrate for last 6 hours '' fluctates + - 10 - 20 mh/s . 
+  so even if i run this a week test and even if claymore really has optimizations i wo n't be able to tell because the claimed optimizations are really small . 
+   dual mining is making me 15-20 % more and electricity is almost free where i am, 
+  well i agree that dual mining seemingly is really working . 
+  when i was testing my rigs on windows i was able to do 850w at wall consumption , ~ 165 mh/s for ethereum and ~ 6000 mh/s for decred . 
+  but windows 10 license costs $ 130 and it says in the tos something like `` use for servers is unallowed '' so i would have to buy an additional license for that , so it gets very costly . 
+  actually i am not sure if even windows 10 e3 license allows `` use on servers '' - if no then would have to buy windows server which would cost even more ... 
+  so because of that i am running my rigs on linux and if i am doing dual mining then i could not get it lower than 1050w ( because undervolting is hard/bad in linux ) , so since my psu is just 1000w bronze net ( i believe translates into something like 1080w at wall ) it ca n't work that way . 
+  however probably if i would somehow undervolt it directly in the bios mod then it could get to the ~ 850w ( or at least ~ 950w ) range therefore making dual mining possible for me . 
+  what os are you running ? 
+  i once tried to order some rx 470 gpus on cyberport.de and then they told me that they are out of stock actually . 
+  however after that they offered me some other rx 470 model with free delivery which turned out to be an even better deal . 
+  i wonder how many gpus an average miner has . 
+  from their ass, 
+  i think he is very wealthy . 
+  as exchange to a fiat currency , with that kind of money that claymore has , he may be trading it directly with banks or doing something like currency swap while slowly selling it . 
+  on the pos vs pow issue btw : if pos comes then people with huge balances , like claymore , will probably make over ~ 90 % of the pos payouts . 
+  he would have $ 100m `` at stake '' while an average guy would have like $ 10,000 . 
+  imo pos is a disaster if it ever comes . 
+  right now anyone can buy gpus ( at least nvidia ) and start mining so it is more fair balanced in pow rather than in pos . 
+  there are literally no proofs that these cards exist or at least planned , let alone the claimed 60 mh/s performance for $ 350 . 
+  they are not available for pre-order on amazon or any other reputable store that i know . 
+  why would nsa write the claymore miner ? 
+  it would be pointless for them and besides that , it does nothing unique . 
+  why not cia or fbi ? 
+  why not illuminati ? 
+  here is more info on it https://github.com/ethereum/wiki/wiki/proof-of-stake-faq, 
+  very shortly :, 
+  for example , you deposit some amount of ethereum to some special eth account , say , equivalent of $ 10,000 and now you are * a validator * . 
+  there are many people like you ( validators ) so they are being randomly selected to `` propose '' a block ( block contains transactions ) . 
+  once a block is proposed , * validators * will vote for it whether this is a real block or fake . 
+  if you got it right then you get some money ( the more you deposited the more you get ) or if you voted that it is a real block but majority voted that it is fake , then your deposited money is lost . 
+  so yes , you got it right pos = = `` the rich get richer faster '' but i would remove word `` faster '' , here is why :, 
+  i have heard that discussed amount of estimated interest rate is just 5 % - 8 % so this is hardly an investment with such volatility .

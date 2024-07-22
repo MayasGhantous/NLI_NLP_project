@@ -1,0 +1,100 @@
+  * firefox will implement theora, 
+  * chrome will be fine , youtube will use h264 and google will take the opportunity to push chrome, 
+  * opera will implement theora, 
+  * safari will implement h264, 
+  * microsoft will ( eventually ) do enough to tick boxes ( ie , make youtube work ) , plus produce their own random alternative that nobody will use , but will crop up later in a raft of security exploits . 
+  it 's pretty clear to me that whatever happens , apple and ms will find a way to make it work , since neither will want to be the only browser that does n't support that stuff ( imagine how damaging a `` download chrome for hd youtube videos ! '', 
+  link would be for ie and safari ), 
+  that last alternative seems kinda messy , worst of both worlds . . 
+  i 'm sure they 'll all get there eventually ( they always do . 
+  well . 
+  except microsoft ) but by not mandating a codec in the spec , it 's going to be a long time until we see a video tag that works in every browser out-of-the-box . 
+  i suppose it comes down to this : is it more important to get the html5 spec fully supported , or have a video tag that actually works consistently ? 
+  i 'm sure i 've glossed over a whole slew of important reasons why that 's a bad idea , and completely ignored potential problems that could arise from pissing off some of the vendors . 
+  but , personally , i 'd grow a pair , and mandate a codec . 
+  even if it delays implementation a little . 
+  but , then again , few people care what i think , 
+  i fucking hate pun threads . 
+  i do agree that it 's not as simple as mandating a codec and everything will be peachy , but :, 
+  * most services will use whatever 's available in the majority of browsers . 
+  as you say , they 're not stupid . 
+  if theora is available in everything but safari , and h264 only in safari and chrome , then forcing the issue with h264 would n't make good business sense ( unless they want to take the opportunity to push a particular browser ) . 
+  * theora may not be as good as h264 , but the barrier to entry is much lower , and it 's still better than using flash . 
+  * as soon as some major sites start serving video using a specific codec , the browser vendors will * have * to find a way to support it , or they 'll start losing market share , even if they 're currently refusing to do so . 
+  the way i see it is that by not mandating the codec in the html5 spec , the decision will be google 's . 
+  they 'll implement what they want , and use it to promote chrome until the other vendors decide they 're tired of losing market share . 
+  flash was certainly the technology that made widespread video on the web viable , i completely agree with you there . 
+  however , i am of the understanding that both h264 and theora offer higher quality and lower bandwidth use ( at the expense of increased cpu requirements ) . 
+  which is going to be pretty attractive to google ( and they 're forward-thinking enough to just implement it before there 's widespread support ) , as well as anyone else wanting to do video on the web ( bbc 's iplayer ? ) . 
+  flash is proprietary and restricted by adobe 's whims , which presents its own problems ( is there a 64bit linux version yet ? ) . 
+  silverlight is the pretty much the same thing , but probably worse , since it 's ms. 
+  i 'm sure they 'll push it as much as they can , but i ca n't see it getting * that * much traction . 
+  since ie7 , ms have been focusing on box-ticking , simply to hold back market penetration by firefox/etc . 
+  youtube is a * huge * draw for a lot of people , so ms are not going to sit back and let the other browsers steal market share should they start supporting more advanced , hd formats for browsers that support it , with a lower-quality flash fallback for ie . 
+   i think your first list ( `` if the spec mandates theora '' ) is what will happen even with the spec not mentioning codecs . 
+  by not requiring a particular codec , wo n't that essentially leave the initial decision up to google ? 
+  they might have problems trying to force through h264 with only chrome and safari supporting it , but ms are unlikely to be * too * stroppy about implementing h264 ( they ship a codec already , do n't they ? 
+  ) , so if there 's enough reason to do so ( ie , google are using youtube to push chrome ) , then they 'll probably just shut up and do it . 
+  once that happens , h264 will be the one true web video codec , and mozilla and opera will * have * to find a way to make it work , or start losing market share . 
+  so is that the plan ? 
+  get h264 support eventually , without being seen to be the bad guy ? 
+  sneaky . 
+  if ie , chrome and safari support h264 , and google has started using it on youtube ( and possibly started using it to push chrome ) , then they will find a way . 
+  it 's either that or start losing market share . 
+  now , i ca n't tell you what that method would actually * be * , but someone make it work * somehow * . 
+  yes , i vaguely understand software patents . 
+  but because one exists , does n't mean the technology ca n't be used at all . 
+  patents can be challenged , licensing deals can be made , alternative technology that does the job without infringing the patent can be developed ( although i do n't know how feasible that is with h264 ) , and they do eventually expire . 
+  my point is not that patents are toothless , rather that when there 's vested interests at stake , a solution will be found in one form or another . 
+  it 's happened time and time again . 
+  now , i admit i 'm potentially glossing over a * huge * amount of effort with one sentence , but that does n't mean it 's impossible . 
+  oh , really ? 
+  i assumed their relationship had become a * little * more adversarial since chrome was released . . 
+  just out of interest , if you believe everyone will end up supporting theora eventually anyway , why not require it in the spec ? 
+  that 's just to avoid irritating the vendors that do n't like it for whatever reason ? 
+  ( apple and nokia mainly , right ? ), 
+  all excellent points . 
+  i do still think that mandating a codec in the spec has a chance to convince ms/others to support it , which would be great . 
+  but , yes , you 're right , it 's a risky move that could significantly affect html5 adoption . 
+  i had n't thought about it like that . 
+  this is why i 'm not in charge of these things , 
+  not in the winter ( ! ), 
+  well , i was thinking more along the lines that porcelain is * cold * . 
+  not what you need first thing in the morning . 
+  edit : er , where the hell do you live that 's cold enough you have to worry about what you put down the sink in case it freezes in the pipes ? 
+  if you do n't want someone walking into your house uninvited , you put a lock on the door . 
+  if you do n't want someone deep-linking to your website you use a bit of referrer-checking . 
+  neither are foolproof , but both indicate your intent . 
+  in order to ignore your implicit intentions and do it anyway , someone has to make a deliberate effort . 
+  is that a cellphone video of a youtube video . . ? 
+  fat, 
+  my first exposure was installing dual boot corel linux on my crappy old desktop box . 
+  but i did n't do much with it . 
+  the first time i used linux properly was when i was involved in a startup company . 
+  we were working on a shoestring budget and using windows servers would have needed licenses for two boxes , sql server , and developer licenses . . that would have more than doubled our startup costs . 
+  i installed debian on a random 2nd hand desktop box , read some books , spent a month or so working out how the fuck to use it , and ended up with two co-located debian servers . 
+  today we run freebsd on around 50 boxes , and have several terabytes of data in half a dozen postgres servers . 
+  our entire infrastructure runs on open source software , although most people still use windows on their workstations . 
+  i became a developer , and have churned out a shitload of code , most of which is still in use . 
+  fortunately , we also now have a sysadmin who vaguely knows what he 's doing , 
+  if you want to reuse the roller within a few days , you can keep it wrapped in plastic without having to clean it . 
+  it 'll keep overnight in a plastic bag ( just wrap the roller and cage up together ) . 
+  if you want to store it for longer ( a week or so ) then spray it with a bit of water and wrap it up tight ( seal it with tape or something ) . 
+  just doing that should cut down on your waste water and rollers quite a bit ( not to mention time cleaning the things ) . 
+  to clean them , it helps to first soak the roller in a bucket or something , you can use your hands to squeeze out the majority of the paint . 
+  you 'll have to rinse it in running water to get it completely clean for storage , though . 
+  personally , i use one roller sleeve , wrap it up at the end of the say ( with a couple of squirts of water to stop it drying out ) and just unwrap and reuse the next day . 
+  once i 'm finished painting i 'll usually throw it away , as they 're tricky to clean if you 've wrapped them overnight a few times . 
+  if i only need to do a bit of painting , then i 'll use a mini roller . 
+  this can be kept pretty much indefinitely by plopping it into a pot of paint and sealing it well . 
+  she 'd probably slap you , though . 
+  why not an ssd ? 
+  there are some excellent ones on the market at the moment , they 're very speedy and not completely ridiculous money . 
+  that depends on what you 're doing with the data . 
+  sharding works fine for lots of applications , but there are times when you just got ta have all that data available in the same place . 
+  attempts to split it up often mean significant refactoring to make it all work properly , not to mention dramatically increasing the complexity of the system . 
+  proper ssds are several orders of magnitude faster than those cheap usb sticks, 
+  actually , properly-optimised databases perform well with ssds ( although , surprisingly , not as well as one might expect , given the performance of the underlying devices ) . 
+  the trick to keeping the things working properly is simply to not fill them too close to capacity . 
+  this allows the wear levelling to work properly and prevents corruption . 
+  well , more because they 're specifically designed to be used in place of hard drives .

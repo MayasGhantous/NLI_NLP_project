@@ -1,0 +1,100 @@
+  an android device has a huge attack surface that malicious actors can exploit . 
+  a stompbox ? 
+  not so much . 
+  the two are very different use cases . 
+  i can assure you , that you will be able to log in as root on the mod . 
+  i have a gt-8 , and it 's a great gigging processor . 
+  but the wah sucks big time . 
+  if it were a mod , i could download a better wah filter onto it , or i could even write my own . 
+  the great difference is that you no longer have a device whose funcionality is set in stone ( improving the software would mean the manufacturer loses sales on the next pedal ) , but it can be improved in ways limited only by its cpu . 
+  right , but you can now go plugin hunting as well . 
+  i do n't think idiots will try to ssh into a stompbox :d . normally , you 'd use the web interface to set up the effects . 
+  you forgot to install a gui . 
+  it 's okay , you can still do it . 
+  log in with your username and password , run su , then run tasksel . 
+  select a desktop environment , and it should install it . 
+  triode distortion is harsher than pentode distortion ( in guitar circuits at least ) , so people assume that overdriven power amps always sound better . 
+  unfortunately , these small amps use triodes in the output stage as well . 
+  depends . 
+  when do we ship ? 
+  what happens if you tell the client to connect to your local network address instead of the loopback interface 's ip ? 
+  for this to work ssh has to be listening to the port on the non-loopback ip as well ( like this : ` - l192 .168.1.56:1234 : localhost :8112 ` ) . 
+  so what 's ` ~ / . local/share ` btw ? 
+  how do you know there 's a 6db loss if you do n't know the microphone and preamp impedances ? 
+  you mean if pin 2 is connected to the mixer , and pin 3 to the interface ? 
+  i do n't think that 's ever going to work . 
+  most mics float , with only the chassis connected to the ground . 
+  20 * ( log ( 2500 / ( 2500 +300 ) ) - log ( 1250 / ( 1250 +300 ) ) = -0.88 db, 
+  do n't you mean carrots ? 
+  if the outputs are reasonably low impedance , you can connect them with resistors , to make a passive adding circuit . 
+  you can use x-sdl on android with a local chroot-ed gnu/linux installation ( [ linux deploy ] ( https://play.google.com/store/apps/details?id=ru.meefik.linuxdeploy ) ), 
+  not exactly relevant , but still very cool . 
+  run almost any desktop linux app locally on your android computer . 
+  sounds cool . 
+  how 's the input handled ? 
+  do you need an external mouse and keyboard ? 
+  nerds use youtube-dl, 
+  i did n't know you you can etch glass with laser . 
+  movies have been shot in 4k for a while , as film cameras were replaced by 4k tech in almost every studio . 
+  they were scaled down for distribution over bluray discs , so i 'm quite confused as to what you 're talking about . 
+  man , i love parallel so much , i use it even when it makes no sense . 
+  in this case , to display all the.pdf 's you could run ` parallel - j100 zathura : : : * . pdf ` to open up to 100 pdf files . 
+  frfr ? 
+  you mean pa speakers ? 
+  do you plan on gigging with them , as well as using them in your home ? 
+  i think the podhd line of effects work as a usb audio device , that would solve all of your problems . 
+  just plug any speakers into the pod , and you should be able to game on it , so long as it 's only stereo you need . 
+  if it 's a passive instrument , it 'll sound different when you turn it down . 
+  those potmeters are above 100kohms !, 
+  ( a 250kohm pot turned down 6db will have a lowpass pole at 3200hz if you use a 5m cable at 80pf/m ), 
+  i use netstat - p, 
+  step 1 ) get an sdr thingy , like a realtek dvb-t tuner and find out the frequency they use, 
+  step 2 ) make a radio capable of jamming their channel, 
+  step 3 ) save up for the fines you 'll pay for using the airwaves in an unauthorized way, 
+  i sure would n't program handedness into a robot, 
+  as was everyone else involved, 
+  there 's a practical difference due to the order of commands . 
+  ` service ` will autocomplete only the tasks a daemon can support , while with ` systemctl ` you have to type the task first . 
+  ` service ` is more helpful if you 're not 100 % sure whether you can reload something instead of restarting it . 
+  they 'll know what the manufacturer of the network card is . 
+  now they can trace you if they hack the retail databases along the distribution chain . 
+  she 's cheering as a little girl mistreats a baby kitten . 
+  sure , does it have an armhf port ? 
+  is it open source at all ? 
+  steam does n't deal with arm afaik . 
+  balanced is the same as what we call bridged in larger amps . 
+  both ends of the speaker coils are connected to amplifiers , which are swinging in opposite directions . 
+  normally you have an amplifier connected at one end , while the other end of the speaker coil is connected to ground . 
+  it doubles the maximum output voltage when using the same power supply , but it also increases the output impedance seen by the speaker , and it increases distortion . 
+  bridges are tested with dumptrucks , from end to end , filled with sand . 
+  i think it can handle meat if it can handle steel . 
+  as a magyar i agree , but i do n't see how this is related to the subject . 
+  `` balanced '' headphone amps are bridge amps, 
+  that 's a proxy . 
+  with vpn , the source and destination ip 's stay the same , but they get passed over to the virtual interface . 
+  what about using fstab for / tmp ? 
+  it fixes tearing with full screen videos on kde, 
+  kwin does tabs . 
+  grouping is what exactly ? 
+  mount it . 
+  your nas probably supports nfs , it should be easier to setup than smb . 
+  edit the / etc/fstab file if you want it to be available at boot . 
+  the simplest way to list the mounted filesystems is to run ` mount ` by itself, 
+  why vm 's ? 
+  and why windows ? 
+  that 's a beefy cpu for a htpc . 
+  [ sox ] ( http://sox.sourceforge.net/ ) has the ` sinc ` effect that you can setup as a very steep highpass , lowpass , bandpass , or band-reject filter . 
+  it also has the spectrogram feature that plots an amplitude vs. frequency vs. time graph . 
+  you can set the lowpass filter frequency to up to 20khz with the ` - cutoff ` option if you use ffmpeg/libaac _ fdk . 
+  it can go all the way to nyquist . 
+  most encoders can disable the lpf if requested . 
+  typical hungarian post , bringing politics into everything . 
+  clearly the snoo is in the middle . 
+  space skeletons ca n't exist . 
+  the vacuum of space will conserve a corpse better than ice . 
+  or someone put a skeleton inside a spacesuit . 
+  for reasons , you know . 
+  i consider it to be the duty of every freedom loving hungarian citizen to quit smoking immediately . 
+  latex and tables do n't mix that well . 
+  i usually end up doing them in lo calc , and importing the pdf it generates . 
+  - unless they use grappling hooks,

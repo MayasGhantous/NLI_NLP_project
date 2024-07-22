@@ -1,0 +1,100 @@
+  ## sample morphophonology and grammar, 
+  the phonotactics are n't weird enough that a morphophonology and grammar would be interesting to construct . 
+  it works like pretty much any other language with a cvc structure . 
+  have you tried tagalog ? 
+  this is part of my on-going `` avant-garde phonologies '' series , in which i try to come up with phonologies that have a snowball 's chance in hell of arising but are n't completely impossible . 
+  that is to say , phonologies where if someone told you it belonged to a real language , you 'd hesitate for a few nanoseconds before calling bullshit . 
+  so far , there are 4 entries in this series . 
+  - [ # 0 : `` reasonable phonotactics '' ] ( https://www.reddit.com/r/conlangs/comments/4hmhre/the_oddest_most_alien_phonology_i_have_yet_devised/ ), 
+  - [ # 1 : `` balanced phoneme inventory '' ] ( https://www.reddit.com/r/conlangs/comments/4qwt6n/avantgarde_phonologies_1_balanced_phoneme/ ), 
+  - this post, 
+  - [ # 3 : `` disharmony '' ] ( https://www.reddit.com/r/conlangs/comments/4tu7tv/avantgarde_phonologies_3_disharmony/ ), 
+  sample phonology and grammar :, 
+  ## phonotactics and prosody, 
+  syllables are [ v ] cv , with an additional possible [ v ] at the end of a word . 
+  vowels are allowed to occur next to each other , such that a vcvvcv word is both possible and likely . 
+  some assimilation does occur in these words , covered below under `` allophony '' . 
+  in words that begin vcv , stress is on the second vowel . 
+  in words that begin cv , stress is on the first vowel . 
+  ## phonemes, 
+  vowels :, 
+  twenty-one vowel phonemes , counting the voicing and nasalization difference . 
+  if only place of articulation is considered , then eleven . 
+  front | near-front | center | near-back | back, 
+  i\u0303 | | a\u0303 | | u\u0303, 
+  i\u0325 i | y | \u0268\u0325 \u0268 | \u026f\u0325 \u026f | u\u0325 u, 
+  e\u0325 e | \u00e6 | a\u0308\u0325 a\u0308 | o | \u0251\u0325 \u0251, 
+  consonants :, 
+  five consonant phonemes :, 
+  front | center | back, 
+  p | t | k, 
+  m | n |, 
+  while these are described as having a particular voicing , in practice the voicing varies depending on allophony ; see below . 
+  in each [ v ] cv syllable , the voicing of the consonant assimilates to the following vowel . 
+  similarly , in diphthongs , the voicing of the first vowel assimilates to that of the second . 
+  this assimilation does not , however , extend to the preceding consonant , so one can say that a diphthong merely moves the voicing from the vowel to the consonant . 
+  two of the same vowel is treated as a phonemically long vowel . 
+  it is not perceived as taking up the same time as two vowels ( as it would in a mora-timed language ) , simply as a long version of that vowel sound . 
+  before front consonants , isolated back and near-back vowels lenit to the following system :, 
+  near-back | back, 
+  | \u028a\u0303, 
+  \u026f\u0325 \u026f | \u028a\u0325 \u028a, 
+  \u0259 | \u0250\u0325 \u0250, 
+  ## sample words, 
+  / mu\u0325ty\u02d0tym\u025ay / -  [ \u02c8m\u0325u\u0325dy\u02d0dym\u025ay ], 
+  / \u025anu\u0325\u00e6t\u0251\u0325pu\u0303 / -  [ \u025a\u02c8n\u0325u\u00e6t\u0250\u0325bu\u0303 ], 
+  ## sample morphophonology and grammar, 
+  i have a truly wondrous grammar for this phonology that the margin of this page is too narrow to contain . 
+  this is part of my on-going `` avant-garde phonologies '' series , in which i try to come up with phonologies that have a snowball 's chance in hell of arising but are n't completely impossible . 
+  that is to say , phonologies where if someone told you it belonged to a real language , you 'd hesitate for a few nanoseconds before calling bullshit . 
+  so far , there are 4 entries in this series . 
+  - [ # 0 : `` reasonable phonotactics '' ] ( https://www.reddit.com/r/conlangs/comments/4hmhre/the_oddest_most_alien_phonology_i_have_yet_devised/ ), 
+  - [ # 1 : `` balanced phoneme inventory '' ] ( https://www.reddit.com/r/conlangs/comments/4qwt6n/avantgarde_phonologies_1_balanced_phoneme/ ), 
+  - [ # 2 : `` articulation contrast '' ] ( https://www.reddit.com/r/conlangs/comments/4tieuu/avantgarde_phonologies_2_articulation_contrast/ ), 
+  - this post, 
+  # sample phonology :, 
+  ## phonotactics and prosody, 
+  syllables are cv [ c ] . 
+  the coda of a syllable may not be the same consonant as the onset of the next syllable . 
+  stress is on the last syllable , unless the vowel of the second to last syllable is part of its associated allophony group ( see below ) , in which case stress is on the second to last syllable . 
+  ## phonemes, 
+  ### vowels :, 
+  five phonemic vowels :, 
+  front | center | back, 
+  i | | u, 
+  e | \u0259 | o, 
+  ### consonants :, 
+  six phonemic consonants :, 
+  p | t | | k, 
+  m | n | \u0272 |, 
+  each phoneme has four allophones , which fall into groups together . 
+  each group is associated with a particular kind of phoneme : stops , nasals , front vowels , or back vowels . 
+  the associated groups are respectively called s , n , f , and b. 
+  the specific allophones of each phoneme are described further below . 
+  ### the rules, 
+  which phoneme is expressed as which allophone is nontrivial , and is subject to a number of rules . 
+  the number of each kind of allophone depends on the number of the associated phonemes . 
+  there must be as many s allophones as phonemic stops , as many n allophones as phonemic nasals , etc. 
+  which groups can follow each other in the word depends on which kinds of phonemes follow each other in a word . 
+  in general , if there is a phoneme associated with group x followed by a phoneme associated with group y , then in the allophony there may be an instance of a group x allophone next to an allophone from the group `` opposite '' group y ( s and n being opposites , f and b likewise ) . 
+  so , for example , if there is a stop followed by a nasal in the word , then there may be an s allophone next to another s allophone . 
+  or if there is a front vowel followed by a stop , then there may be an f allophone next to an n allophone . 
+  note these three things :, 
+  this only describes what is permitted , not what is actually in the word . 
+  usually , not all permitted combinations will make it into the word . 
+  there is no restriction on the order of the allophones . 
+  in the second example above , the order of the allophones may be fn or nf . 
+  each pair of adjacent phonemes only permits one pair of adjacent allophones . 
+  if there are two instances of an n and an f allophone next to each other , there need to be two corresponding instances of a nasal followed by a back vowel or a front vowel followed by a stop . 
+  the first phoneme of the word is preferably expressed as the allophony group associated with its type ; that is , if it is a phonemic stop , it should preferably be in group s , and so on . 
+  but this is not always possible . 
+  if the first phoneme can not be of its group , then the next preferred arrangement is where the second phoneme is of its group , and so on . 
+  the final pronunciation of a word is any that conforms to the above rules . 
+  most words have more than one possible and maximally preferred pronunciation ; these are used interchangeably . 
+  it is easily possible to imagine combinations of phonemes that have no possible pronunciation , but there are no such words in the language . 
+  ### allophony group s :, 
+  associated with stops . 
+  characterized by unvoiced geminated stops , trilled or flapped nasals , fronted back vowels , and advanced tongue root front vowels . 
+  vowels :, 
+  front | center | `` back '', 
+  i | | y,

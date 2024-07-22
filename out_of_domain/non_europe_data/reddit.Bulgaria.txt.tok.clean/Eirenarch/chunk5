@@ -1,0 +1,100 @@
+  guess what toolkit will not be supported on windows phone , windows 8 metro and future ms platforms ( xbox for example ), 
+  goto statements can be restricted to not allow the `` crazy stuff '' you list as proven by c # 's goto . 
+  i 'd take c # 's goto over labeled block any day as it is more familiar , much easier to follow ( no need to match paranthesis ) and much cleaner due to the simplified syntax . 
+  frankly i do n't know but i would n't even think of investing in qt over wpf given a windows pc . 
+  now if i have a requirement or plan to support linux in a future project that would be different but for me the investment in wpf ( it also means xaml ) is much more justified in my opinion . 
+  also you will have a hard time finding . net shop that works with qt . 
+  true . 
+  this is why there is nothing wrong with goto as a keyword and as a syntax . 
+  my original point was that the java designers created heavier and less familiar syntax just to avoid having a keyword goto . 
+  as proven by this very thread the new keyword goto is much more familiar than the labeled block syntax and if you had c # style goto you would n't need labeled loops because goto covers them as well . 
+  or the jvm for google + or gmail for that matter . 
+  a lot of games ( practically every shooter ) predicts player movements to compensate for lag . 
+  if you are moving in a certain direction it assumes that you will be moving in that direction in the next miliseconds and your position is displayed on other players screens as it is expected until a new information is received . 
+  this is why you can see players `` jumping '' to other locations . 
+  in wow you can see players just walking straight into a wall or whatever . 
+  this happens if there is enough lag to make it noticeable . 
+  if starcraft did not send the whole data it would have to employ some kind of prediction to show things that emerge from the fog of war or even more interestingly when scanning the enemy base to reduce lag . 
+  how the ai will be able to predict what a player has built in his base is another question , 
+  that being said there is no reason why the server ca n't verify the game . 
+  it can do it asynchronously so no lag will be added . 
+  yes but at this point it is a matter of scale . 
+  it is much better than when it was a physics limit , 
+  why ca n't it verify the game later ? 
+  after all it only needs to verify the game if there is dispute between the clients . 
+  in case of dispute it can just drop the game and run the validation to determine who 's right and who 's wrong . 
+  i do n't dispute that this approach will need probably unreasonable amount of computational power . 
+  there is a physics limit on how fast the server can process the game . 
+  the lag will be increased no matter how clever the code is . 
+  on the other hand if you do it asynchronously you only need enough machines . 
+  you do n't need to beat the theoretical limit of the computation ( or have super fast machines ) . 
+  i do n't claim that the whole thing will work but it may work . 
+  first of all we do n't know how much of sc2 can be stripped if we only need to verify the game . 
+  maybe a single server will be able to process a thousand games who knows ? 
+  second the input may be recorded and the validation done only if the clients do not agree on the result . 
+  this way the processing power will be needed only for the small amount of cheaters . 
+  of course this is just theory here . 
+  if there is a disagreement drop the game , run the simulation on the server give win to the player that made the right simulation and flag the other player as a potential cheater . 
+  what exactly is the problem ? 
+  disagreements are relatively rare so the amount of processing power will be proportional to the number of cheaters . 
+  hopefully they are not that many . 
+  oh i completely agree . 
+  i 'm just discussing theoretical solution . 
+  frankly i do n't see how a leave can be used to exploit even the current system . 
+  if someone sends a leave message to the server he loses . 
+  if not just go on transmitting commands . 
+  there should not be a win message other than one determined by the actual state of the game . 
+  by running the recorded game ( replay ) on the server . 
+  the server can not be wrong by definition . 
+  a command is either valid or not . 
+  by replaying the game ( after the desync ) the server can know which client caused the desync . 
+  the server has a record of all the commands that were transmitted between the clients so it can verify each and every command . 
+  of course a desync might be caused by bugs but this is a different topic . 
+  i thought i was the only person in the world to claim that monoculture can bring better ( cheaper/less bugs ) products than using `` the right tool for the job '' . 
+  i 've been called lazy , not interested in technology and what not for that claim . 
+  of course the business side of the world knows that and some developers agree without realizing . 
+  if this was not the case microsoft 's stack would not have any users . 
+  right , there are no checks now . 
+  but there may be . 
+  the server can record all the commands it relays . 
+  that 's not a heavy operation and at maximum it will require the amount of memory required for a replay file of a game which is not a lot . 
+  also this data is not critical so the server can delay disk writes as much as it wants or even skip writing to disk which is the slow operation . 
+  the only client that can say that a rax should produce a marine is the client of the player who owns the rax . 
+  he is right the other is wrong , 
+  i agree about the risk of vendor lock in , but i disagree with the rest . 
+  i believe monoculture has distinct advantages . 
+  i would argue that you can hammer every bolt with c # and still produce better result than someone who is using `` the right tools for the job '' or at least argue that it is not obvious who will produce better results provided that both sides have invested equal time in learning the tools . 
+  i know this is not a popular opinion and i was surprised that another person ( the author ) shared it . 
+  my suggestion was to run the simulation after the fact only when the clients disagree . 
+  the server should not run the checks real time . 
+  the server should run the checks from the replay it has stored while relaying commands after the clients disagree . 
+  most clients will agree so the load will not be that high . 
+  i am not arguing that the server can validate the state of the game without running simulation . 
+  i am arguing that it can run simulation after the game has ended in disagreement and it can take its time to run it without causing lag for the players . 
+  also because very few games end with disagreement the load on the server will not be that high . 
+  i 'd bet that the highly efficient assembly lines that produce cars today can produce very limited set of cars and surely ca n't produce trabant . 
+  each client sends only the commands on its side . 
+  since the clients communicate through the server the server will have all communication and thus all the info to run the complete simulation just like the clients do . 
+  then at some point the recorded actions will cause a desync with the server 's own simulation and the side that provided those actions will be the side that caused the desync . 
+  of course i do not claim that blizzard should implement this solution . 
+  i am discussing it here as a theoretical ( possible ) solution purely as a thought exercise . 
+  i assumed that part was clear , 
+  well that is a whole other issue . 
+  first of all you may still award the points to the winning side and not punish the faulty side . 
+  second you might in fact punish the faulty side for having faulty hardware . 
+  blizzard already punishes network failures ( disconnects ) , why not with desyncs ? 
+  note the masters stars on the side . 
+  it was tasty , 
+  [ tits ] ( http://image.yaymicro.com/rz_512x512/0/1f9/cow-udder-1f93b8.jpg ) involved in making this cake . 
+  oh the greyness !, 
+  i just ca n't believe it is . net code . 
+  when i heard about the bug my first thought was - use . net damn it !, 
+  can you elaborate on the xna thing . 
+  if they kill xna as it is will there be an option for managed code game development or game development is seen as native code only from now on ? 
+  do you think you are harming or helping ms by leaking this info . 
+  for example the info that current wp devices will be upgradeable will help them with consumers but can also harm them when the competition reads this ? 
+  i can answer that , 
+  forget about the plugin beyond v5 . 
+  it will be the best option for internal lob applications for many years to come but it does n't need much development for that . 
+  silverlight skills however are the best background one can have as a winrt developer . 
+  lan works without dhcp server so it would have solved the issue .

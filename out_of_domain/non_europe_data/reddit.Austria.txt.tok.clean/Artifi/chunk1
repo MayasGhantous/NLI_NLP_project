@@ -1,0 +1,100 @@
+i have problems with this also in extended mode . 
+  i am using the new version ( 1.2 ) directly from their website , dk2 , 0.4.4 sdk , 7970 oc . 
+  i have a constant framerate , but when looking with oculus , the motion is not smooth . 
+  while moving around and looking with my mouse , everything is very smooth . 
+  when looking with oculus , it feels like juddering , but with high framerate . 
+  it is hard to explain , but feels like the camera moves a couple of times for 0.1 degrees and then jumps for 1 degree . 
+  this does not happen in any other demo . 
+  wall textures are still missing on left eye . 
+  i have yet to find an `` unsafe '' dpi setting ... 
+  i used 400 at start , 360 a bit later , 300 after that , and now i am at 240 ( at 240 you get a nice `` tablet '' user interface ), 
+  stable ? 
+  as in `` it does not crash '' - yea ... mostly ( camera just crashed when i tried to confirm ( * ) ), 
+  as in `` reliable '' - not at all for me ... bluetooth does not work at all ( pairs but does not connect ) , ( * ) video does not record on back camera ( works on front camera ) , battery is much worse , auto-brightness does not work , ... 
+  touchscreen seems ok on my phone . 
+  also lollipop feels much more responsive and smooth . 
+  nice how we are all commenting about the 5 devices - as if we were sure that they will miss the deadline again , 
+  so the idea would be to punish companies who are trying to leave cm and make their own android based rom instead ? 
+  oxygenos shows as roaming in my home network ( it is a mvno ) . 
+  if i enable data roaming , it works ( but this also enables data roaming , does n't it ? ) . 
+  i did a clean flash ( reset dalvik + cache ) . 
+  it worked on cm11s and cm12 nightlies . 
+  i don ' think that op is talking about the os itself ... there is another `` firmware '' on the phone . 
+  well ... for me bluetooth does not work with cm . 
+  it did not work with cm11 , but does with cm11s , it does not work with cm12 nightlies and not with cm12 .1 unofficial ( but does with oxygenos - although here my home network is recognized as roaming ) . 
+  i had problems with bluetooth on cm with other phones where on official os it worked , on cm it did n't , but on other roms ( slim , ... ) it does . 
+  soon, 
+  one downvote for you . 
+  `` waited '' , lol , 
+  sorry to hear that . 
+  as far as i know , there is no way to recover . 
+  this only worked when android was presented as a mass storage device . 
+  now that it is a mtp device , all files are abstract and you have no low-level access for data recovery programs to work . 
+  the only way would be a dedicated rom , but i do n't think any exist . 
+  because , for mass storage , it has to give low-level access to the whole partition . 
+  this means that android can not use it at the same time , so it has to be a separate partition from system and data ( this was a problem because when you have separated partitions , you can not really resize them and there were cases where you were not able to install any apps even when you had free space ( but it was in a different partition ) ) . 
+  at the same time , it was much harder for apps to be installed on sdcard , host os ( windows ) has to be able to read filesystem ( so you are stuck with fat32 ) , ... 
+  i do prefer mass storage as it is much faster , easier to work with and supported on all devices , but kind of understand their decision to go with mtp . 
+  i suggest you take a video showing the phone , show imei and order number on video and explain the situation ... 
+  if it is a video they want ... give them a video  include a banana for scale . 
+  there is not even an official cm12 .1 , let alone cm12 .1 s, 
+  completely unexpected !, 
+  so much for 75 %, 
+  how many times already ? 
+  yes , but the replay was today : https://twitter.com/oneplus_support/status/587592890269900801, 
+  why `` official '' in the title ? 
+  this seems fake . 
+  you are new here , right ? 
+  5.1 is cm12 .1 . 
+  it is currently only available as unofficial roms , but you can try them out . 
+  yes, 
+  is anyone having problems with bluetooth ? 
+  opo does not connect to my car ( it pairs and connects , but disconnects after a couple of seconds ) . 
+  i 've had this issue with cm12 nightlies and cm12 .1 unofficial , but hoped that the official version will not have this problem . 
+  does anyone have a solution ? 
+   q would barely auto connect and have a hard time connecting overall . 
+  any info would be grea, 
+  yes , i was so disappointed ... oxygenos is roaming in my home network and cm12 does not have bluetooth ... so as far as i am concerned , opo still does not have lollipop . 
+  i guess we do n't need basic features as long as there are themes , right ... 
+  i would say that it is cm related , as i had the same issue on cm11 nightlies , and also on another phone where bt worked on original android and some other roms , but not on any cm . 
+  i was hoping it was some sort of closed-source driver or something , ( because i had no problems on cm11s ) and that it would work on official cm12s , but sadly , that is not the case for me . 
+  i 'm thinking what to do about it ... i might try :, 
+  1 . get another kernel ( bluetooth started working on my galaxy sii after that ), 
+  2 . find another rom, 
+  3 . revert to 44s, 
+  4 . give up on official versions and bluetooth altogether and just go with cm12 .1 nightlies when they come out , hope they fix it in time and live with no bluetooth until then . 
+  to be honest , i do n't like any of these options and might just sell my opo and get something else . 
+  how is your bluetooth on cm12 official ? 
+  you can just flash the zip in twrp . 
+  ( wiping system , data , dalvik and cache is recommended ), 
+  not sure , but i would n't . 
+  yes , the update is a full image this time . 
+  i used it today without a problem . 
+  all i can suggest is to try clearing app data . 
+  both versions should include gapps . 
+  the no-gapps versions are less than 300 mb . 
+  there is no official 12.1 nightly ... it should come in a couple of days , so it might make sense to wait for that . 
+  in my experience , 44s is the most stable , but 12s ( cos12 actually ) looks nicer . 
+  go for 44s if you want everything to work , go with cos12 if you want latest official ( but with some problems ) , or wait for 12.1 if you want latest and greatest ( but here you will have to flash your own gapps and some features are missing ) . 
+  oh , and i am on cos12 . 
+  the most obvious problems are not connecting to car hands-free via bluetooth ( if they do n't fix it in a month , i am selling the phone ! ), 
+  and play services wakelocks ( for me it is n't as bad as for some , but the battery life is worse than before ), 
+  interesting how only nexus 6 and opo got 12.1 for now . 
+  about official cm12 .1 nightlies : http://www.reddit.com/r/oneplus/comments/32q3j5/gerrit_diving_official_cm121_nightlies_today/, 
+  it seems like the next official nightly will be tomorrow :, 
+  there is no space in oneplus . 
+  even if you revert , the issue is still there in cos12 . 
+  if you want it to work , you will have to revert to 44s . 
+  sorry , but how naive do you have to be to believe this ? 
+  physics for a start ... charging speed does not depend on the cable . 
+  it depends on voltage ( 5 v supplied by charger ) and current ( normally between 0.5 a and 2.0 a - limited by charger ) . 
+  that is true . 
+  but as long as the cable supports 2 a , all cables charge at the same speed . 
+  also , total uptime and was this without and charging in between ? 
+  there are `` official '' cyanogenmod gapps here : http://wiki.cyanogenmod.org/w/gapps, 
+  they include the bare minimum , but you can download everything else via play store . 
+  there are `` official '' cyanogenmod gapps here : http://wiki.cyanogenmod.org/w/gapps they include the bare minimum , but you can download everything else via play store . 
+  i 'm using 240 on mine , 
+  i was using 320 normally , but then i read somewhere that android changes to tablet ui when at or below 240 - so i tried it and for me tablet ui outweighs small size . 
+  i have no problem with it ( sometimes i have to be careful when i click x on ads ( i guess they are very small on purpose ) ) . 
+  what do you mean before and after nightly ?

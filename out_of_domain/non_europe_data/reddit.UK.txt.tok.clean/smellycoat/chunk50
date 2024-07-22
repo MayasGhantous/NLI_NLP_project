@@ -1,0 +1,100 @@
+  not at all . 
+  this is pretty much my favourite ramones tune . 
+  i once gave a homeless dude a cheese and pickle sandwich . 
+  he said `` ugh !, 
+  i only eat organic !, 
+  i would n't feed that to my dog !, 
+  honestly ? 
+  i think the right way to go is to stop actually exposing the filesystem to users . 
+  at least not for storing their own files . 
+  filesystem for the system , some other ( possibly database-based ) storage system for user files on top . 
+  apply a shitload of metadata , and index the crap out of it . 
+  i want to be able to tag my files , i want to be able to do fast , full-text searches , i want virtual views of my files ( based on queries that can change if/when the content or metadata changes ) , i want ( optional ) versioning and backups ( and the ability to have infinite undo right back to the very first version ) . 
+  admittedly , i have no idea how feasible this shit actually is , 
+  holy shit !, 
+  i am just about to start a project to build a bathroom . 
+  this is an amazing idea !, 
+  i just need to find a pic that wo n't cause me to have nightmares . . 
+  you really should n't feel bad that the acquisition of material goods does n't make you happy any more . 
+  try making something , it can be extremely rewarding . 
+  edit : i notice you posted another comment about enjoying working on your car . 
+  that 's kinda what i 've found too ( though i 'm not much into cars myself ) , doing stuff for yourself is about the most rewarding thing i can do . 
+  for that reason i 'm intent on doing all my home renovation myself , even though it 'll probably take years rather than weeks , cost more , and i 'm sure i 'll make some immense fuckups . 
+  but it does n't matter . 
+  it 's totally worth it . 
+  i 've found the more you do , the better you 'll feel about it , and yourself . 
+  i installed a new toilet in our ( horrible ) bathroom a couple of months ago . 
+  even though it 's possibly the cheapest toilet one can buy , and it 's not installed particularly well , it * still * makes me happy , 
+  it amuses me to see all the ridiculous and seemingly arbitrary restrictions they place on their content . 
+  every time i hit a hulu link and get told it 's not available in my country , or try to view a youtube video that 's been removed due to a dmca takedown , or get frustrated having to sit through some rather offensive advertising videos , or land on some site that tries to get me to install some obscure-arse video player plugin , or fail to buy a dvd/bluray/cd because it 's not available here yet , or fail to find what i want on a `` catch up tv '' service because it 's more than x days old ( or read about youtube trying to gimp hardware players for no good reason ) , i laugh . 
+  and then i fire up my torrent ( or usenet ) client , download an almost-perfect quality 720p/1080p x264 rip ( or flac , for music ) , and sit and enjoy it without any stupid bullshit . 
+  fuck them . 
+  i do n't care . 
+  if they want to ruin their businesses , that 's fine . 
+  the people actually producing this content are usually getting an extremely raw deal ( particularly in the case of the music industry ) . 
+  if there 's a way for me to get my money to them , then i will do so ( i buy a lot of music from independent labels , but fuck the majors . 
+  i buy dvds and the occasional bluray [ despite not owning a bluray player ] for things that actually deserve support ) . 
+  but i refuse to prop up failing business models that are intent on screwing everyone over any more . 
+  i do n't , actually , want anything to be more open . 
+  i can get what i want now . 
+  i do n't care ( nor should i ) that there 's a good reason why hulu does n't work here , or why youtube videos have random country restrictions on them , or why if i forget to watch a tv episode on the channel 's website within a week that i 'll have to wait for the next repeat , or why i ca n't legally watch something that was broadcast in another country but has n't yet been here , or why i ca n't buy a dvd/bluray here yet , despite the fact it 's been released elsewhere . 
+  all i care about is that i ca n't . 
+  what i 'm saying is : if they want me to put down my torrent/usenet client and use their content legally and on their terms , they 're not going about it the right way . 
+  what ?!, 
+  the reason other countries are restricted is because the who own and sell licenses for the content want it that way . 
+  if they decided to make , for example , a tv show available to everyone everywhere on the same day , that 's not violating any laws !, 
+  i get * why * they do it ( although i disagree they 'd get `` much , much less money '' , they can still make decent cash out of it ) . 
+  but the point remains that * i do n't care why * !, 
+  if they want people to continue downloading stuff , then fine , continue with the arbitrary and often bizarre restrictions . 
+  < dessin  i got a spam email about a week back that slipped through my filter, 
+  < dessin  usually they do n't get through , i get maybe one or two every year, 
+  < dessin  so i open up the headers and it turns out there 's a yahoo account as the reply-to, 
+  < dessin  figured it 's a long shot but i emailed it saying `` stop sending me spam , asshole '', 
+  < dessin  turns out this guy is a complete dumbass and actually put his real email in the reply to - emails me back saying `` fuck you , i 'll spam who i want '' and asking how i got his email and shit, 
+  < iggi  lol, 
+  < dessin  so i checked the headers again and found the ip that the email was sent from, 
+  < dessin  did a geoip lookup and got a pretty specific location in london , and found the local exhange from google maps, 
+  < dessin  and it was kinda out of the way in london so the exchange maybe covered 600 houses or so, 
+  < dessin  so i print off like 1000 leaflets saying `` there is a spammer in your area , if you have any information please forward it to the police '' and stuff, 
+  < dessin  took a train to london , two bus changes to the area, 
+  < iggi  wtf hahaha, 
+  < dessin  went round and posted the leaflets through every house in the area, 
+  < dessin  anyway this morning i get an email from the guy asking how i found his house and begging me not to tell the police, 
+  < iggi  massive overkill man, 
+  < dessin  i fucking hate spam :p, 
+  you 're right about exchanges not bearing much relation to actual location ( as you point out , that 's mostly bullshit , and would only theoretically be valid with adsl/modem setups anyway . 
+  cable internet is pretty popular in the uk - it 's what i 'm using right now ) . 
+  geoip services try to map ips to actual locations where possible , rather than where the isp or exchange is located . 
+  it works reasonably well in this day and age where static ips are common . 
+  for instance , [ this service ] ( http://www.maxmind.com/app/locate_ip ) is only half a mile or so out for my ip ( i live in a small city in the uk ) . 
+  many webmail services * do * insert headers containing the ip address you used to send the email , even if doing so through their web interface . 
+  if they do , they 'll use a custom header for it rather than faking up a ` received ' header for it , though , as the majority of isp-issued ips for domestic internet connections are listed by several rbl services ( and doing that would mean your email would get rejected by many systems ) . 
+  you 're right , it 's very likely to be bullshit , i just deal with a lot of webmail emails ( and to a lesser extent , geoip services ) , so am flexing my pedantry gland a bit , 
+  yahoo webmail definitely puts the ip into the headers . 
+  interestingly ( and contrary to what i said earlier ) they do fake up a received header . 
+  here 's an example from my inbox ( i 've removed the actual ip , but it reverses to a domestic uk isp customer ip ) :, 
+  received : from [ x.x.x.x ] by web28213.mail.ukl.yahoo.com via http ; mon , 23 nov 2009 11:14:21 gmt, 
+  many other webmail services do this too , probably as a means to limit the impact of spam ( or at least give mail server admins a way to block some senders without blocking the entire webmail service ) , but they tend to use a custom header ( eg ` x-originating-ip ` or similar ) . 
+  ( protip : gmail does n't add your ip to the headers at all  ), 
+  yep . 
+  we pay a license to receive any broadcast television . 
+  it 's about $ 240/year for a normal household . 
+  this is how the bbc is funded , so in return we get everything the bbc provides ( the bbc website , two main channels , a 24 hour news channel , a handful of other channels , a shitload of radio stations , and their online iplayer service ) , with no advertising . 
+  theoretically you can avoid paying it if you do n't have any equipment capable of receiving broadcast television ( although it 's kinda tricky , as the onus is on you to prove you 're not just a cheap bastard  ), 
+  you * can * , but if they can find some evidence you have a tv ( and they 're not above peering in the windows ) you 'll end up either in court , or with a fine ( which you 'll have to go to court to sort out ) . 
+  * unless * you manage to convince them up front that you 're actually not using the equipment to receive broadcasts . 
+  edit : detector vans are complete bollocks , though . 
+  it is true . 
+  if you do n't have a tv , no problem . 
+  they 'll harass you , but they will eventually back down . 
+  if you * do * have a tv , then unless you jump through some hoops to convince them you 're not using it for receiving purposes ( ie , do n't have it plugged into an aerial - or even have an aerial at all ) , then they 'll be on your back , and you 'll probably find yourself in court eventually . 
+  nah , they find every address without a license , assume they 're trying to dodge it , and send them an arsey letter . 
+  me too , man . 
+  i hate the tv licensing bastards with a searing passion , but i stomach them because i do love the bbc . 
+  hell , it 's worth it just for all the attenborough documentaries they 've funded over the years . 
+  the tories keep making occasional rumbles about getting rid of the bbc ( or at least forcing it to find funding elsewhere ) . 
+  i dread to think what they 're going to ruin when they inevitably get in : /, 
+  so what do you * think * happens if you have a tv and do n't pay your license ? 
+  all they 'll do is assume you have a tv , backdate any license fees they can justify , and you 'll be in debt . 
+  you might end up in court , you might end up with debt collectors hassling you . 
+  only way you can prevent that is to go out of your way to prove you have no tv .

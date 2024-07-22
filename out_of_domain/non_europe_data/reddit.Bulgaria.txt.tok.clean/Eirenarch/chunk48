@@ -1,0 +1,100 @@
+  now we only need some equivalent ways to replace other parts of the web tech ( html and dom in particular ) . 
+  the very idea that there should be 1 language is totally wrong . 
+  javascript is a work of art considering how it came to be and how it evolved but this is not a reason to accept it . 
+  i have 5 years of web dev experience . 
+  i just do n't want to have to deal with this hack for the rest of my career . 
+  i understand all of this but i hate it when people pretend that i should be happy about it . 
+  this is why i choose to believe in asm.js . 
+  in the bright future we will write for the browser in the language of our choice that is compiled to asm.js . 
+  note that it is somewhat different from compiling to javascript code ( like script # , gwt , dart , etc. ), 
+  because asm.js preserves the performance characteristics of the language . 
+  if you use lower level language you get better performance . 
+  we still need a universal deployment mechanism . 
+  silverlight and flash apps , java applets , etc. 
+  were still delivered through the browser despite the fact that they did not care about js , html and dom . 
+  yeah . 
+  porting 15 year old game is so impressive , 
+  of course . 
+  this is what they did with smartphone marketplaces . 
+  in fact i am not sure i need a browser on my smartphone . 
+  most websites i visit do have an app . 
+  then the title sucks bad . 
+  i assumed it is something new because the citadel demo is a week old news and has been posted here . 
+  so there is not even a game ? 
+  it does n't matter as long as they do n't make me write that assembly language as is the case today . 
+  i do n't want to write javascript ( i.e. 
+  the assembly language ) . 
+  currently the reality is that i have to . 
+  this is what i mean not that i have to write asm.js . 
+  asm.js has the potential to allow me to write other languages . 
+  by `` write '' i mean `` produce production ready code with production quality tools and being able to find a job using those languages '' . 
+  this is why i find asm.js cool . 
+  i ca n't wait until more languages/vms target it like jvm , clr , etc. 
+  before asm.js it did stop people from implementing production quality languages on top of js . 
+  i have yet to see a job offer in my country looking for dart , script # or gwt developer . 
+  these implementations simply were n't good enough because js totally sucks as a target for compilation . 
+  you either lose semantics , features or performance . 
+  for the first time i believe an idea ( asm.js ) has the potential to cure this, 
+  currently this is the case but in the future maybe there will be ways to call the dom from asm.js . 
+  another option will be to support custom ui via webgl and see the likes of qt , gtk or wpf ported to the browser, 
+  i really should have and i normally do but this time the title and the timing totally fooled me . 
+  is it bad that i see the way they manage the project as the right way to manage a software project ? 
+  they prioritize the interests of their customers ( stable apis , security ) over arbitrary improvements ( 5 % speed for directory traversal ) . 
+  this is exactly what i stand for when our team discusses the projects we work on . 
+  is a customer complaining about something ? 
+  do n't touch it and dedicate resources where they would have more value . 
+   a collective brain is certainly better than any single one, 
+  either this or, 
+   the iq of a mob is the iq of its most stupid member divided by the number of mobsters, 
+  i tend to believe in the second . 
+  i personally do n't think microsoft really needs to innovate in the os kernel space but of course i may be wrong . 
+  in the blogpost it did not look like `` the market '' decided . 
+  more like `` design by committee '' . 
+  my actual thoughts when reading the article were `` so they claim anders hejlsberg is not better than any committee ? '', 
+  this is actually discussed in patrick wyatt 's blogpost on warcraft i. warcraft ii was the first rts to have fow but it is interesting fact that the developers referred to both kinds of fog ( initial black and vision - based fog ) as fog of war - http://www.codeofhonor.com/blog/the-making-of-warcraft-part-3#comment-708393862, 
+  red alert does not have fow and aoe came much later . 
+  even red alert was released after warcraft ii, 
+  warcraft i did not have dynamic fog of war . 
+  it only had the black initial fog . 
+  ie is at 12,7 % ... yeah , right !, 
+  keep living in your slashdot fantasy world !, 
+  i understand most things ms have done around windows and their dev platform . 
+  however the thing they did to xna is a mystery to me . 
+  it made 0 sense . 
+  i kind of hope it was just lack of time and they will reintroduce managed game development with the new console generation . 
+  to be honest i think it is not fair that php devs are not paid significantly more on average ( like double or triple ) to what other devs make . 
+  after all they have to work with php and they need to be compensated . 
+  in addition you demonstrated the wonderful effects of the lack of namespaces in the language ( yes i know they added it but the damage has already been done since so many libraries are written without them ), 
+  you just listed more reasons to hate php . 
+  people hate it because it is bad . 
+  the fact that it is somehow successful and wo n't go away is just additional reason to hate it . 
+  i 've heard some people claim exactly that . 
+  i like to point out that if this is true then it means that designing programming languages is incredibly easy task and everyone can do it . 
+  the funny part is that non - . net devs are not really ms devs . 
+  if they push c++ and js they still wo n't get c++ and js devs unless they demonstrate good market opportunity . 
+  without the . net devs ms has chicken and egg problem . 
+  can you elaborate which part of this you find problematic . 
+  i do n't want to dig the details but it looks like a description of php 's dynamic typing and implicit conversion rules which exist in almost any dynamic language . 
+  surely you do n't suggest that php is bad because of dynamic typing and implicit conversions in general . 
+  that 's more like it . 
+  i mean in c-style languages, 
+  int i = 10 ;, 
+  double d = 3.14 ;, 
+  double d2 = i + d ;, 
+  is an implicit cast which is in fact disallowed in some languages but i would n't call all c descendants bad languages because of this implicit cast . 
+  now stupid implicit casts are another matter ... 
+  the problem with dynamically and weakly typed languages is that for some definition of `` weak '' the implicit casts become unpredictable . 
+  however weak vs strong typing is not boolean value . 
+  it is a slider that you can put in various positions . 
+  you can argue that php is too weakly typed but i would argue that it is the fact that some of the implicit casts are total bullshit ( see `` 2 '' + 2 = 4 ) that makes it a bad language . 
+  absurd decisions like this one can be found throughout php and not only in the way they handle types . 
+  it is not the paradigms in php that are inherently wrong but the actual implementation choices . 
+  i am too young to have personal experience with asp but i think it had prepared statements , did n't it ? 
+  unless you have n't encountered the input that will produce wrong results yet . 
+  in addition this tweaking takes time . 
+  i do n't know a language where programs run the first time and never need tweaking but i know a few languages which tell me about a lot of errors before i run the program . 
+  a lot more errors than php . 
+  ok fair enough . 
+  i am a bit surprised i hit someone who thinks this is a bad feature but it is a fair statement although it wo n't make it anywhere near the list of top 100 problems in php , 
+  unifying the api is great . 
+  the fact that it only works ( or rather is targeted at ) for tablet apps is bad .

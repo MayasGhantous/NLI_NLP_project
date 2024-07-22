@@ -1,0 +1,100 @@
+  `` there is no one left to shoot you '', 
+  i thought this was one of this stupid 20 minute video dumps with no value behind it but dear god was the whole ride emotional . 
+  ending got me good as well . 
+  good job op, 
+  says at the beginning of the tutorial to crank up your view distance or you wo n't be able to see shit , but then he has his own view distance so far down that he ca n't see anything through the turret in very high altitude . 
+  [ check this out ] ( http://stackoverflow.com/questions/2503807/declaring-an-enum-within-a-class ), 
+  head tracking . 
+  it tracks where your head is rotated and rotates the head in game as well with a slightly bigger angle . 
+  that way when flying a helicopter for example you can look towards the ground , left and right without having to hold alt, 
+  possible but not with this setup , the camera and the tracker must be aligned . 
+  you could achieve this by wearing a cap with the leds attached , like they do with the trackir basecap, 
+  it 's a showcase after all , not a fully fledged mission . 
+  the cas showcase was n't particularly longer , just more targets . 
+  the man is 96 years old , there is not much more to it . 
+  i think he is more concerned with his health than royal politics, 
+  and only a a fraction of the subscribers too . 
+  another example of people not reading the sidebar, 
+  yes there is a program called steam mover or something along those lines . 
+  however it does n't always work and it 's best practice to just redownload, 
+  anything really can be made into a project that requires classes . 
+  say you have a program that reads the contents of a file , analyses them and writes the analysed output to a different file . 
+  you can write this purely procedural in main but as soon as specifications change you need to possibly rewrite huge chunks of your main.cpp, 
+  in a better scenario you wrote two classes , filehandler and contentreader . 
+  that you are calling in main . 
+  now if specifications change you just rewrite the classes . 
+  this works for any project . 
+  a connect four game , battleships or tic tac toe can be broken into classes of board , player , gamehandler etc. 
+  none of these require a third party library and only very basic stl knowledge, 
+  5 line ? 
+  what lines would you drop ? 
+  mods ? 
+  custom memory allocator ? 
+  in arma 3 the igla would be 50 years old , it makes sense to replace a weapon system this aged, 
+  would you mind telling me how you learned mandarin and under what circumstance ? 
+  the language fascinates me but coming from a european background it seems incredibly hard to pick up . 
+  because computer science is n't equal to software engineering and even that is not teaching you how to be creative . 
+  if your cs curriculum is anything like mine the emphasis on computer science is understanding everything it has to offer . 
+  from how hardware works logically as well as physically , how networks are built , how languages are developed , how software works and much more sprinkled with a little bit of maths here and there . 
+  at most i have two courses that focus on developing software , the others use developing software as a tool . 
+  if you want to create applications you will have to learn that probably on your own . 
+  however it will be much easier since you already bring a solid foundation to the table . 
+  really ? 
+  you put up with the game for 3000 hours , a whopping 125 days , and then you decided the hit detection in the netcode was n't bearable ? 
+  i mean i 'm not even near that with my measly 980 hours but after that long you should have figured out the flaws of the game . 
+  if you do n't mind me asking, 
+   if you want i can show you the specific code within arma that sends these messages regarding playing sounds , playing particle effects , creating munitions for simulation , etc. 
+  i 'm gon na assume that such code is n't public domain , how 'd you get it ? 
+  i 'm just wondering how you can poor so many hours into a game when there is something so basic you dislike about it . 
+  not liking hit detection in arma is akin to not liking how cars handle in forza, 
+  more or less what my question was aimed at . 
+  is reverse engineering legal ? 
+  to the top with you . 
+  this is a known issue and while they tried to track it down on the profiling branch nothing changed . 
+  when there is a continuous sound source ( or many for that matter ) , the game starts to stutter horribly . 
+  this has n't been the case prior to 64-bit, 
+  if you 're looking for something that explains networking with pseudo code then kurose 's networking : a top down approach is incdredibly good, 
+  there 's also bingo for `` out of fuel '', 
+  you are so cool , i wish i was as cool as you . 
+  [ do n't use rand ( ) ] ( https://channel9.msdn.com/events/goingnative/2013/rand-considered-harmful ), 
+  that 's because you look at a ton of nothing . 
+  i appreciate you trying to commend this game for its looks , but turn everything down to the lowest and visit tanoa or chernarus , where stuff is going on on the screen, 
+  most people play with funky looking mods too . 
+  if you play vanilla on ultra arma 3 can hold a candle to newer titles but that 's about it . 
+  however arma 3 was n't really a graphics beast anyway . 
+  it 's looking good enough for what it 's supposed to be, 
+  if you click compile , and there are no errors then it does compile . 
+  ( assuming dir environment is set up correctly ) . 
+  it does sound like you have an exception early on . 
+  try to debug and see where the program becomes unresponsive, 
+  what becomes unresponsive ? 
+  the ide ? 
+  the program itself ? 
+  your terminal ? 
+  more information please, 
+  well then . 
+  you ca n't write info ( or as a matter of fact retrieve ) information to or from a nullpointer . 
+  on that note since you are writing in c++ , you really should use nullptr instead of null and avoid raw pointers where you can, 
+  power through a c course , a good one that is . 
+  i hear nothing but positive about cs50 . 
+  in the meantime try to pick up how arduino works . 
+  greatscott on youtube works with arduinos every now and then and has a few projects , but i 'm sure there are more and more in depth videos about the topic . 
+  next up go over to / r/arduino and try to find more resources there . 
+  use as much free time as you can to learn as much as possible . 
+  while i agree that the comment you replied to reeks of bs you are doing a lot of assuming yourself . 
+  no one said anything about higher level languages being inferior to lower level , that 's implied only by you . 
+  still no word on the audio bug . 
+  after months of tracking it down it * seems * to be related to 7.1 audio but was introduced with 64-bit, 
+  will give it a shot , thanks !, 
+  i do n't think that implies landings in hot aos . 
+  in such a case a better landing is one you can take off from, 
+  i know the saying , i 'm just pulling your leg, 
+  because more people know lua than sqf, 
+  with a question this vague i can guarantee you you wo n't get an answer . 
+  are you writing it from the ground up ? 
+  are you using any libraries , frameworks or engines ? 
+  what have you done so far yourself ? 
+  and have no practical use either . 
+  the current system looks bad but functions better than a fully modeled interior with pip monitors or little slits you can look through . 
+  i 'll give you the benefit of the doubt and assume you mean no harm however there are a few things that stink . 
+  i study computer science at an accredited university in europe .

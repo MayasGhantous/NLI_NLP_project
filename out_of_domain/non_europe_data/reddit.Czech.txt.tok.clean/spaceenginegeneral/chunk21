@@ -1,0 +1,100 @@
+  if you 're not getting a new cpu and your motherboard did n't fail , getting a new one is waste of money . 
+  it it 's primarily for editing , get the 5820 . 
+  oc 'd 6700k will perform slightly better in games than oc 'd 5820 but in rendering etc the 2 cores will help you a lot more than the several frames you get in games, 
+  top right . 
+  it 's a bug . 
+  sometimes pops will lose ethics right from the start of the game and other times new pops will spawn without all the etihcs . 
+  reset the cmos again , try various ram sticks and slots combinations , drain the mobo of power each try ( disconnect/turn off psu and hold the power button for 10-20 secs before connecting the psu ), 
+  you should press the ramok only if does n't move past the ram led ( not sure if it stays or blinks etc ) and if it needs ramok , you might need to do it multiple times and wait like a minute between each try, 
+  nope . 
+  paradox games use like 1,5 threads . 
+  oveclocking a g4400 will give you better performance than stock i7, 
+  edit : [ welp , forgot facts contribute less to the discussion than saying `` i do n't know '' around here ] ( http://i.imgur.com/abatlas.jpg ), 
+  if you want to overclock over 4ghz i would n't recommend getting boards without at least 4x2 power phases , which the k4 has unlike the hd3 ( which only has 4 ), 
+  that said , you 'd need someone like sin0822 to tell you which board has better components since it 's not all about phases but all these low-mid range z170 boards all use intersil vrm that 's either 4 +3 / 4 +2 or doubled 4 +2 to create 8 +4 . 
+  the '' +2 / 3 '' is for igpu and i 'm not sure if it 's even used when you 're using discreet card . 
+  highlights from up to down, 
+  - lacking power delivery ( not really made for oc despite being a z170 board , wo n't handle large voltage increases for long most likely . 
+  ignore this if you 're not going to oc ), 
+  - weak audio ( all other boards use alc1150 ), 
+  - no m. 2 slot, 
+  - no usb 3.1, 
+  - lacking power delivery ( read above ), 
+  - 1 usb type c connector ( no 3.1 ), 
+  - best or second best power delivery together with fatality z170, 
+  - 2x usb 3.1 type a ( no c ), 
+  - 2280 m. 2 slot, 
+  - weak power delivery ( comparable to itx/ac and z170n ), 
+  - 2260 m. 2 slot ( too short for 950 pro ), 
+  - 4 usb 3.1 a at the back , no type c, 
+  - similar power delivery to z170n, 
+  - 1 usb type c , no 3.1, 
+  - possibly the best power delivery ( and possibly comparable to z170i pro gaming , i ca n't tell from screenshots ), 
+  - both usb 3.1 and type c , rest 3.0, 
+  - 2280 m. 2 slot, 
+  not mentioned : bluetooth and wifi support . 
+  do n't know shit about that so check the specs for yourself to see what you actually need . 
+  overall , if you 're overclocking , the fatality z170 gaming and z170i asus are what you should be comparing . 
+  can you open hwinfo and monitor gpu and individual core usage while playing ? 
+  i5-6400 is pretty lackluster on stock speeds although 20-30 fps on fc3 maybe a bit too low even for 3.3 ghz, 
+  edit : also in another thread someone else had a problem with slow 6500 and the problem turned out to be `` slow mode '' enable on motherboard . 
+  maybe you 're having the same issue ? 
+  purple, 
+  if you have enough case space , no . 
+  since you can now overclock locked skylake chips you get more value from overclocking those than g3258 ( not sure if g4400 gets to 4.6 on stock cooler though ), 
+  max evasion corvettes with a single point defense and either missiles or laser weapons ( the latter not being countered as easily ), 
+  they just stopped ocing on h170 boards , otherwise they do n't really care . 
+  which could make g3258 slightly cheaper because you save money on the motherboard but in the long run i 'd rather have a z170 motherboard than haswell one that you wo n't be able to upgrade very well in future ( mainly because you 're pretty much forced to buy only unlocked haswell chips if you want any kind of future proofing while you can still buy something like a 6400 and oc it down the line with skylake if you wish to upgrade the pentium ), 
+  [ here 's a comparison of 5820k and 5960x compared to 6700k ] ( https://www.youtube.com/watch?v=ocwwavguftk ) . 
+  in short the slightly higher ipc and better overclocking of 6700k on average has bigger effect on almost all games , even those that are actually able to utilize that many threads . 
+  lots of people think that just because game can utilize multiple threads it means that having more cores is better than higher single-threading but majority of already a small amount of games that can multithread decently ( that you can see some difference in 6700k vs 6600k performance ) will still prefer having higher ipc on fewer threads than more slower threads . 
+  ( in the benchmarks it 's only really crysis 3 that can take advantage of the 5820k threads and even there that 's only for small periods of the benchmarks , other times higher ipc of 6700k is still preferred ) . 
+  the difference between 6700k and 6600k is kind of questionable in gaming at the moment already but since both can be overclocked around the same , a 6700k will perform at worse the same ( but in games that utilize the threads the 6700k will give you smoother min fps curve ) . 
+  getting a z170 chipset would also give you full speed m. 2 slot ( not sure if x99 motherboards have one ) and you 'll be able to buy 950 pro for around the same price as those 2 850 and it should still end up faster than raid 0, 
+  well if we 're talking about gaming i think majority of people use at least some kind of discreet cards so display outputs on motherboard are somewhat irrelevant ( i myself have one vga monitor despite using skylake ), 
+  but yeah , if there will be any relevant improvements in cpus , it 's going to happen over next year since amd hopefully has something that can compete ( and it should n't be hard to compete with intel in multiple areas a long zen is half-way decent ), 
+  i do n't see you losing anything relevant between those 2 chipsets . 
+  you get a single 3.0 16x slot on every chipset . 
+  i think you can trade planets . 
+  if you do n't trade star charts , you can survey planets after they are no longer in other empire borders, 
+  integrated graphics, 
+  switching to 4k should actually help you alleviate the cpu bottleneck but as always , the correct answer for cpu bottleneck questions is `` depends on games '', 
+  sure , it 's a preference thing . 
+  if you want 4k , getting a 1080 is the way to go . 
+  on the other hand if you play strategy games ( or anything that is n't the fps/action adventure games that need a strong gpu ) and/or want 144hz and are willing to decrease fidelity to get it , newer cpu would probably benefit you more . 
+  aftermarket cooler is only needed if you want to lower temps and noise which ( usually ) is n't needed and if you feel you do need it , you can always buy it later . 
+  i 'd wait before buying a gpu right now and just use integrated until polaris/1060 comes out . 
+  you 'll get a lot better bang for your buck if you wait, 
+  personally i do n't think the hardware for 4k is there yet considering you 're paying so much money to have pretty poor 40-50fps . 
+  unless your target will always be 1080p 60fps , i do n't think you 'll be able to get anything that will last you 3-5 years without a single upgrade and run everything on highest settings and that 's being generous and assuming all games will require balanced amount of gpu and cpu ( which will never be the case ), 
+  1 ) ca n't answer that since this is buildapc not buildahouse . 
+  however , i will use my knowledge from building pcs and say it depends on the house . 
+  2 ) i would say 256gb is easily enough for most people unless you 're hoarding huge aaa games on the disk, 
+  3 ) data migration ? 
+  unless that 's what you mean by copying . 
+  i 'll leave rest of the questions unanswered, 
+  it 's definitely not worth it for founders i would say . 
+  wait until partner cards come out and then decide based on pricing and benchmarks . 
+  as for cpu bottlenecking , entirely depends on games , resolution and refresh rate , there is no clear cut answer ( that said if you have it oc 'd it would n't be cost-efficient to upgrade cpu even if you were heavily bottlenecked ), 
+  judging by the advertised viewing angles and input latency , it 's ips, 
+  it 's a bug , gene modded species are considered aliens . 
+  there are programs to clone your hdd to ssd , the only problem with it would be having more data on the hdd than the overall size of the ssd , in which case you 'd have to make the room ( or perhaps depending on the software there are built in features to deal with that , i have no idea ), 
+  yeah you 're right . 
+  do n't think there 's a way to give it to them besides using console, 
+  i ca n't tell you specifically how well cities skylines is multithreaded ( i can only tell you that unlike paradox gsgs , it actually does support more than 2 cores , but ca n't tell you if you 'll get a meaningful performance increase with i7 over i5 and can confidently say that overclocking will have bigger impact than more cores ) . 
+  this applies to most cpu heavy games , ipc is everything and you always want 1-2 cores as fast as possible and then you get `` drop offs '' usually every two new threads that scale worse and worse ( or not at all , depending how many threads are supported in the first place ) . 
+  generally overclocking pentium ( not so much nowadays considering modern games do tend to use at least 4 threads , but not always , like the mentioned paradox gs games which still do n't benefit from more than 2 threads ) , i3 or i5 will give you better results than having a stock i7 . 
+  all that said , some modern games do use enough threads that i7 makes a difference , like crysis 3 or gta5 but strategy games and mmos ( and other games that you could consider as `` cpu heavy '' , maybe a better term would be `` gpu light '' ) will be mainly limited by the speed of your first 1-2 threads, 
+  edit mistaken 4k and 1440p . 
+  a single 1080 should do okayish https://www.youtube.com/watch?v=wf6lpfmckgq, 
+  new motherboards use 1151 socket so the answer is nope . 
+  good deal depends on the rest of your build and how long do you expect it to last ( and since it 's a locked chip , it 's not very future proof in the first place ), 
+  i would disagree with the term `` overkill for gaming '' in general . 
+  not worth the extra i agree with ( and i agree with overkill for 60hz ) but for aaa games that are demanding and utilize all threads , the i7 gives you higher min framerates . 
+  that said , i 'd definitely not recommend getting i5-6500 with a b150 board to someone who says 2000eur ballpark . 
+  at the very least get a z170 board to be able to use faster ram and overclock the cpu in future , but in ops budget there is no reason not to get a 6600k . 
+  i would get the 256mb 950 pro if op want 's m. 2 ssd since he has the budget for it . 
+  otherwise i 'd recommend op to get a 144hz monitor because the build does seem a bit wasted on 60hz but not sure what 's the point of recommending someone a 600eur build when he has 2k to spend . 
+  nobody can answer this when 1070 benchmarks do n't exist , but if you just say `` games '' , it can be safely answered with `` no '' since some games do n't care about your gpu at all and also some unoptimized game that will never run above 100 + fps on any system will always exist . 
+  make a folder on desktop called `` new '' and copy all files ( if portable ) or installers you want to have on your new os into it . 
+  after that move that file on a flash disk or somewhere where you 'll access it easily .

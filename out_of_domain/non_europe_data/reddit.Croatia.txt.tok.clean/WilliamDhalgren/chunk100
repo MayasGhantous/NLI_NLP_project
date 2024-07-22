@@ -1,0 +1,100 @@
+  aja sounded confident though . 
+   if you ask me , the biggest concern is that the technology behind alphago could be used to make a wide variety of human jobs obsolete -- but that 's a thread in and of itself, 
+  that 's my ultimate hope actually . 
+  its inevitable that humans are a soon to be obsolete piece of hardware , for most applications at least - they do n't change while technology furiously advances . 
+  the only question is exactly how soon . 
+  in principle this process makes the industrial base more productive , ie cheaper , enriching society . 
+  now , if we ca n't enjoy the fruits of having to work less to produce the material goods that make our civilization tick , clearly the societal order of today is just perverse . 
+   but alphago played so well in game 2 that , for me , lee sedol became the underdog . 
+  in addition , i prefer close matches rather than one-sided curb-stomps . 
+  i agree . 
+  a 2-1 score would be more exciting . 
+  and while them being at top pro level is incredibly exciting , it already being a superhuman player with no chink in its armor at all is a bit anticlimactic . 
+  actually the final evaluation is 50 % what the value network said and 50 % the rollout statistics . 
+  or at least it was 5 months ago . 
+  this was clearly better than not using rollouts at all . 
+  alphago 's size and power consumption is quite some ways away from humans . 
+  though last version of it only got like 250 elo or a little more than 1 stone from all the extra hardware beyond the first , beefy box of 48 cpus ( cpus ? 
+  or maybe more likely cores ? ), 
+  and 8 gpus . 
+  and this is kinda a problem with computing today in general - i mean , we 're targeting building an exaflops machine , but if we did that with today 's tech , we could just as well build a dedicated power plant next to it , think it 'd need something like 500mw to run . 
+  but i think these are solvable engineering issues that simply need a bit more time . 
+  target for that petaflops machine is for it to consume 20mw when we actually do build it , early 2020s . 
+  and given how alphago advanced in the last few months , that beefy box could already be what , at least 5p ? 
+  which is what the entire cluster was 5 months ago . 
+  the issue with biological tech , apart from it being newer , is the even more problematic ethical issues it raises . 
+  right now genetically modifying a potato , let alone a human is unacceptible to so many people , and anyhow its hard to see how you could test technology on humas ethically . 
+   seems like this challenges what we normally regard as a `` good '' move . 
+  its not doing anything novel here ; its a choice in how its trained - whether the margin of win is in any way used or if its just trained to maximize the win chance , and the latter is how most bots get trained . 
+  there are techniques , like dynamic komi that can be used to make a bots moves less slack when it thinks its ahead ( though i guess its additionally difficult to use that with alphago since its value network is specifically trained and works only with komi of 7.5 ) . 
+  but the risk of using them is that it might really hurt its winning chances by making it play more agressively , risking more than it needs to in situations where it is ahead . 
+  you could prob make a net simple enough that you can train it on just shusaku 's games . 
+  it would also likely be a really shitty player though , as that 's far far too little data . 
+  oh , yeah , that sounds doable - but after all the self-play training , i doubt there 'd be much left of the style it started with ; contribution of self-play would surely dominate . 
+  yup , its called pondering . 
+  even rather basic bots do it . 
+  heard they 'll play all games anyhow . 
+  aga guy is wrong with his machine learning types . 
+  reinforcement learning is in fact the self-play learning , and , when applied to large convolutional nets like here , is an instance of deep learning . 
+  there 's also supervised and unsupervised learning ; supervised learning is what it does to train on the dataset of human games . 
+  all of them can be deep learning when succesfully applied to deep neural networks . 
+  yeah, 
+  think its value net is trained explicitly for 7.5 komi . 
+  d/k what could 've changed , but previous version was n't even capable of playing with a different komi . 
+  they had to do strange things to give other bots a handicap with it . 
+  hah , alphago would prob have to clear its tree search ; maybe he 'd need to use up its clock time to analyze the game position . 
+  maybe it 'd just resign though . 
+  yeah , sure . 
+  i 'm just thinking that they did n't make this version with the possibility of a switch in mind , so if it takes any programming at all to switch , it does n't have it . 
+  so best they could do is to restart and give it the board position . 
+  nono , it 's using chinese rules ; no taken stones . 
+  score is just the number of stones on the board + surrounded empty points . 
+  re-generated ? 
+  i 'd have to check , but that ca n't be right . 
+  why ponder during your opponent 's move , as any bot does , just to throw it away when the move gets played ? 
+  why throw away the analysis of the variations you already did ? 
+  thing is , it learns to evaluate a position by training on a random position from a game ( those games it played against itself ) , plus who ended up winning . 
+  so the net trained on that , value net , would need to be retrained after this dataset is rescored with a different komi , else it may learn to evaluate the position with the wrong komi . 
+  komi on the rollouts component can be changed easily . 
+  official games . 
+  they played 5 more unofficial games , and it was 3-2 for alphago . 
+  that 's what gave them the upper bound on alphago 's elo rating . 
+  ah it can prob be done ; maybe if the net was fed the komi as an additional input and it saw various games with various komi or something like that . 
+  the old version of alphago had this limitation to only playing 7.5 komi though . 
+  and they did n't need to change this for this match , as it too is on 7.5 komi . 
+  unless idk it turned advantageous in the training somehow , that we 'll see when the new paper comes out . 
+  right , that 's what i expected . 
+  not really . 
+  the non-distributed version was running with 8 gpus and 48 cpus ( or is that cores ? 
+  else i wan na know who made that monstrosity of an motherboard ) . 
+  and was about a stone weaker than that cluster ; ~ 70 % loss ratio . 
+  so you could prob run it with a reasonable investment . 
+  yeah , in principle sure . 
+  i was just responding as if the question was - what if they decided to make a switch right now , in the middle of the game , so with alphago as it is ? 
+  w/o coding some tree-preserving behavior , the operators can simply start it up with a switched board position . 
+  hehe , yeah , you 'd need an upgrade for sure :d still , i think a motivated individual could buy the hardware for the non-distributed alphago to run on . 
+  maybe it 'd be say 10x the price of a high-end gaming rig , but ppl spend that kind of money in their lives on stuff . 
+  wait was n't that the number he gave after game 1 too ? 
+  well , in principle . 
+  deep learning is n't a solved problem yet ; not even in all the subtasks of domains where its already dominant , like vision and speech recognition , and esp not in all areas of natural language processing . 
+  there are some reasoning datasets where no approaches were perfect yet any human is . 
+  but , progress is really fast . 
+  think it will depend on economical motivations for particular problems . 
+  a method that can be easily applied to create a machine good at a profitable task has a great market . 
+  making one for a task that is n't so critical , maybe it 'll be a while before there 's a push to replace humans in . 
+  and making one that 's more flexible than such particular roles ? 
+  i mean you do need them more flexible than now , say if you want a secretary , or robots that can be adapted to various manual task , but as flexible as human ? 
+  depending on how hard it turns out to be , maybe its not worth the effort , economically . 
+  yeah . 
+  honestly i hope they put it on the cloud . 
+  fee per game , depending on time controls . 
+  far more accessible . 
+  though i could see top pros and such putting up the money even for such hardware to practice . 
+  yeah , i 'm pretty sure it does . 
+  ofc it would n't keep the roads not taken . 
+  there 's a fair bit of sharing used by other bots in considering any reordering of the moves as being the same ( treat all moves as first heuristic ) . 
+  but , the old alphago paper said this did n't help them so its not used . 
+  however it has a `` last good response '' heuristic , i 'm not exactly sure how it works , but i saw some praise of it on computer-go mailinglist . 
+  edit : ok , so i checked , it does . 
+   the search tree is reused at subsequent time - steps : the child node corresponding to the played action becomes the new root node ; the subtree below this child is retained along with all its statistics , while the remainder of the tree is dis - carded . 
+  the match version of alphago continues searching during the opponent 's move .

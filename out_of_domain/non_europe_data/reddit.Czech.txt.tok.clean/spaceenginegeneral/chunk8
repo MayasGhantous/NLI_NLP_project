@@ -1,0 +1,100 @@
+  seems pretty meh for gaming , i 'd recommend getting 120/144hz display instead if you play action games, 
+  i know some stores in my country offer it so there will probably be similar stores in yours as well . 
+  you can flash bios to any version any time you want . 
+  even if you somehow got a version that disabled oc ( and from what i 've seen gigabyte did n't even release such bios in the first place ) , you can just overwrite it with older version . 
+  the microcode does n't `` update '' cpu itself . 
+  it has to be loaded into ram every time you start the pc . 
+  this can be either done by os or by bios . 
+  so technically you are `` downgrading '' the microcode every time you turn off your pc . 
+  it 's hard to diagnose but it seems that gigabyte z170 boards have serious problems with ram timings compatibility that make bclk overclocking completely hit or miss judging from http://forums.tweaktown.com/gigabyte/28441-gigabyte-latest-beta-bios-1027.html, 
+  can you check what microcode are you running in hwinfo to rule out the `` update '' ? 
+  my recommendation would be to try different motherboard but i understand that someone on a budget ca n't just go around buying spare mbs to troubleshoot . 
+  you should also try setting llc to high if you have n't already and try not using the xmp profile ( keep the ram frequency between 2133 and 2400 ), 
+  try increasing vcore even more , to something like 1.3 v, 
+  set dram voltage to 1.35 v. 
+  gigabyte boards tend to undervolt ram slightly . 
+  leave voltages that you do n't manually change to auto and turn off fast boot . 
+  if you want m. 2 for the performance and not the form factor , there really is n't anything cheaper right now . 
+  the technology is new and until it becomes more mainstream , it will stay relatively expensive . 
+  the 850 evo is generally the first thing recommended when it comes to sata ssds . 
+  i would n't recommend buying headsets at all . 
+  mouse mostly depends on sensor and your grip/weight/shape . 
+  keyboard depends on your switch preference . 
+  yes although you might need a new psu as well depending on how power hungry your current build is . 
+  also you 'll have to go with haswell instead of skylake since it requires ddr4 . 
+  windows can be sometimes picky about motherboard changes , but as far as drivers go , there should n't be any problems , just use ddu to get rid of gpu drivers before you install the new ones . 
+  i would n't say it 's being cheap . 
+  it 's taking the advantage of pc platform . 
+  there 's absolutely no reason to buy a new hdd , psu or case when the ones you have work just fine . 
+  if you 're worried about drivers , just do a clean windows install . 
+  really the only parts that you usually need to upgrade together are the mb and cpu because of sockets ( and ram every few years ) . 
+  everything else is standardized . 
+  check out skylake non-k overclocking if you want to save money on cpu . 
+  overclocked 6400/6500 will have same performance as oc 'd 6600k , the downside is bclk is slightly more involved and you 'll have to be more wary of windows updates . 
+  edit : and even if you do n't overclock , 6500 is a lot better bang for the buck than 6600 . 
+  as far as sensors go , afaik the king is still g502 . 
+  that said , depending on your grip and preference you might want something lighter or differently shaped . 
+  generally depends how do you use your mouse . 
+  if you do n't lift it a lot , weight probably does n't matter as much and if you do n't play twitch shooters with low sensitivity , comfort might be more important than the most precise tracking possible . 
+  if you 're not overclocking , you do n't have to worry about binning at all because binning is relevant only when you try to push the chip on the edge of it 's capabilities , which is far beyond the stock settings . 
+  if you really want to upgrade something , 4.5 ghz oc 'd skylake will gives you huge performance over the 3570k in everything cpu dependent . 
+  edit : just saw you have 4.4 ghz oc , then the performance wo n't be as huge , but it 's probably still the best you can do, 
+  i agree from my perspective . 
+  that said , there are people who use stuff like the naga bricks with the infamous phillips sensor that jumps every time you lift it and they 'll never have a problem with it because they use something like 10cm/360 sens , never lift it and the mouse is more like and extended keyboard for them than anything else . 
+  and who am i to say that they 're wrong when it works for them . 
+  i 'll be the first to advocate precise sensor that can handle low sensitivity for everything else gaming related though, 
+  `` competent '' being the keyword there, 
+  you do n't have to be competent to swipe your mouse over a room and kill everyone inside without them being able to react ( since you lose the ability to do anything once any amount of flame touches you ), 
+  have empty hard drive inside the pc and install via usb or cd, 
+  ( assuming same overclock ) skylake will better perform in games that rely on strong single threaded performance while the i7 will perform better in games that utilize all its cores . 
+  vast majority of games prefer the former currently , although that 's slowly changing year by year . 
+  whether buying ram is worth it for it , hard to say . 
+  you could make the argument that the ddr4 will last you until your next build so you 'll save the money in the future by investing now . 
+  i 'd decide depending on what kind of games do you play and whether or not are you often gpu bound or not ( ie . 
+  do you prefer graphics and resolution over framerate ) . 
+  either way , skylake boards support ddr3l which is n't what you have so do n't look to save money that way . 
+  finding stable oc is tons of trial of error . 
+  it 's up to you whether the time you spend tweaking it is worth the gains . 
+  both amd and nvidia are coming out with new generation of gpus this year . 
+  and nvidia is notorious for dropping support for their current gpus when new ones come out which make them less than ideal purchase at the end of `` support '' ( not to mention the fact that if you wait several months , you 'll see what new gpus can offer or probably get a discount for current ones from whatever brand you prefer ) . 
+  for gaming , currently i7 is n't worth the extra money over i5 since most games still prefer strong single threaded performance over number of cores . 
+  that is if are cpu bound in the first place , which in turn depends what kind of games you play and what kind of graphical settings do you use . 
+  what would you need to do to make i7 useful ? 
+  play crysis 3 all day i guess . 
+  hyperthreading will give you less stuttering in cpu bound games and slightly more fps compared to i5 , but again , all depends what games you play and on what settings . 
+  it should be noted that for content creation you 're better off buying 6/8 core i7 59xx series instead of 6700 since there the number of cores actually makes a big difference . 
+  honestly i do n't know about any other channel that gives you actually relevant information when comparing cpus and gpus like the frame times and min fps across consistent sample of games that will give you a picture of what games are bottlenecked by what across multiple videos ( admittedly i 'd like to see more games than aaa titles in their test sample since half of the games are almost so notoriously gpu bound it 's almost pointless to include them for cpu tests ) . 
+  when i was researching what cpu to buy , i found that 99 % of cpu reviews are basically useless because they just run a test , often not even include min fps in the graph and call it a day and then you end up with cpu `` comparison '' with 1 fps difference across multiple different cpus in a clearly gpu bound scenario which obviously gives you absolutely no relevant information about the cpu itself . 
+  now i do n't want to be shilling for df but yes , if they happen to have a video on the topic you 're interested in ( and they covered skylake overall pretty well ) , it 's most likely your best source unless i 'm missing someone who does same tests . 
+  1 ) not worth it, 
+  2 ) sapphire is the go-to manufacturer for amd cards, 
+  you 'll stop getting the expected performance . 
+  ask 780 and 780ti owners when their cards are performing worse than 960/970 in some games . 
+  sometimes it works with just reinstalling drivers sometimes it does n't . 
+  you 'll have to try it first, 
+  depends what do you consider valuable in mb . 
+  in general all z170 boards including the cheapest ones already come with all the `` basics '' you 'd expect though, 
+  completely depends on games in question and graphical settings, 
+  did they nerf flamethrowers ? 
+  so instead of fixing 2 retarded things in the game they should just make them as broken as possible to counter each other so japanese will only have fun when there is no competent flamer and americans will only have fun when japs do n't banzai . 
+  brilliant, 
+  but at least it 's `` asymmetric gameplay '' lol, 
+  it can overclock to perform same as the 6500 ( and both can overclock same as 6600k ), 
+  why do you argue about stuff you clearly know nothing about ? 
+  intel did n't remove any bioses and you can download them in the same manner you could before . 
+  you can get 4,5 ghz through base clock on a 6400 same as you can on 6600k since they are n't binned any differently . 
+  benefits are basically multi-panel screen size with just one panel . 
+  it 's also a lot less demanding on hardware compared to 4k . 
+  as for gaming , i imagine it 's great for shooters but keep in mind that a lot of games do n't necessarily support uw resolutions . 
+  you generally ca n't go wrong with sapphire for amd cards . 
+  also supposedly they make the quietest cards . 
+  bf4 is well optimized and you should hit 75hz no problem , you should probably be able to hit 120 + easily with that card on bf4, 
+  also , it might not sound like it but even those 15 frames make a huge difference in smoothness and i personally consider 60fps to be the pc equivalent of `` 30fps '' ever since i overclocked my 60hz monitor to 75hz ( and got a 144hz screen because of that afterwards ), 
+  funny how it works , i have a 144hz tn monitor and my older tn is overclocked to 75hz and i probably wo n't buy a 60hz ips even as a secondary monitor because 60fps just looks terrible even during windows usage for me . 
+  wish they made 120 + ( well , at least 85hz + ) 1080 ips monitors since 4k and uw monitors are outrageously expensive and i already do n't do anything in fullscreen on my 1080p monitor anyway . 
+  is the burn in actually fixed in some way already ? 
+  i read that it 's at least no permanent which is acceptable for tvs/laptops/phones etc but it 's still a huge issue when we 're actually talking about everyday desktop usage and i 'm wondering if oled is really the solution to all problems or if it 'll become just 4th type of screen type with it 's benefits and downsides ( like having to turn off/change screens every so often to avoid burn in ) . 
+  also how do people deal with ips glow ? 
+  as someone who mainly uses pc during night with most elements on the screen in dark color i ca n't imagine having huge amounts of backlight bleeding on the background . 
+  or is it just that normal people use they pc during day or lit room so they do n't notice ? 
+  i imagine you 're either going to have to play in windowed mode , have extremely stretched image , or have half of the screen as black bars .

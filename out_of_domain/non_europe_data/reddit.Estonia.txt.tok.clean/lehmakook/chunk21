@@ -1,0 +1,100 @@
+  they tend to be one-off about whatever interesting question comes to mind . 
+  for example , i wanted to see the gps speed distribution in steps of 10km/h :, 
+  select ( speed / 2.8 ) : : int as spd , count ( * ) from parsedcache_gpsfix group by spd order by spd desc ;, 
+  or find the number of cell tower ids in my dataset :, 
+  select count ( distinct ( ( data -  ` cid ' ) : : int , ( data -  ` lac ' ) : : int ) ) from parsedcache_event where tag = ` device.cell.location ' and data -  ` type ' = ` gsm ' ;, 
+  are there any obvious oversights that i 've missed ? 
+  or perhaps some interesting ideas to try ? 
+  i 've thought of getting rid of the hstore in favour of jsonb , that should help at least with queries that cast hstore contents to numbers . 
+  i think he means that living costs in argentina are low , so charging even half of typical us contractor rates is a great income . 
+  and local clients from argentina do n't want to pay even 50 % of us rates . 
+  20 years ? 
+  i 'm giving it 3 months at best . 
+   cutting a security tag off of a jacket is not legal advice . 
+  it 's / u/shittylegaladvice, 
+  why not ? 
+  op already tried going back to the store to have it removed , and they refused . 
+  so his only remaining options are to sue the store , throw the jacket away , or remove it himself at home . 
+  and it ca n't be good practical legal advice to go to court over something you can legally fix in a few minutes yourself . 
+  why not just tell * us * about yourself and post your questions here ? 
+  you will get many more useful responses that way . 
+  most people wo n't bother to start writing about themselves to you first , nor bother arranging a time to chat on facebook . 
+  and as a plus , responses here can be read by anyone else interested in ut . 
+   please note that if the page takes more than 5 seconds to `` calculate '' the result , the weather api is likely not responding and i am not to blame . 
+  just try refreshing the page . 
+  why do you need a weather api ? 
+  you could just output `` no '' all the time , and be correct 97 % of the time . 
+  good luck with your research . 
+  the xgis system will let you browse all real estate boundaries in estonia online . 
+  looking up the current registered owner 's information is 1 eur per plot . 
+  but if you do n't know the exact location or address , it might be more difficult to track down the farm . 
+  perhaps if the current owner is a government entity , it * might * still be possible to claim it ? 
+  but if it has already been privatised to someone ( perhaps one of your relatives if your father or you never claimed it ) , then probably not ? 
+  in any case , it could would be worth hiring a local lawyer to help , even if it 's just to find out more about your family history and roots . 
+  as you can see , the privatisation/restitution was a very controversial topic . 
+  my grandfather got back his childhood home that his father had built with his own hands , so i 'm clearly positive about it . 
+  but when houses and land were returned to their original owners or relatives after the end of the occupation , there were people who had been living there rent-free for decades - in our case immigrant workers from the rest of the soviet union , were often given `` first pick '' of houses in favour of locals and previous owners . 
+  these tenants suddenly found themselves having to move out or start paying commercial rent , in houses that they had gotten used to . 
+  but since during soviet times it was all nationalised to * government * ownership , the tenants never owned these in the first place . 
+  klick is a terrible computer shop , i try to avoid it at all if possible . 
+  it 's okay if you want to save 5 % , but if you ever need to deal with their warranty returns , it 's not worth it . 
+  i could perhaps agree that it might not be * necessary * , but why would it be * inappropriate * or `` not the right place '' to have it ? 
+  it 's a service that could be useful to plenty of freelancers , startup founders , and other people working in technology . 
+  it seems to me that `` not the right place '' still implies that there is something shameful about mental health , and it should be hidden from `` professional '' settings . 
+  as a comparison , what about a small business tax advice booth ? 
+  i could see that being useful to plenty of independent developers as well . 
+  but i do n't think it would raise a similar controversy , people would just think `` oh nice '' , and ignore the booth if they are not an independent developer with tax questions . 
+  there are * some * companies who only patent things defensively . 
+  but bezos 's amazon certainly is n't , and there is no reason to think that he will be less ruthless in his space ventures . 
+  you can even patent [ entertaining a cat with a laser pointer ] ( http://www.google.com/patents/us5443036 ) . 
+  kalev spa in the city centre has the biggest pool : 50 meters and 8 lanes . 
+  lots of schools and sports clubs have 25 meter pools , i like the one in audentes fitness . 
+  school pools , if they sell tickets to outsiders , should be cheaper but perhaps less modern than sports clubs . 
+  the prices might have changed , but there are pictures and addresses . 
+   nowhere to put a flag, 
+  [ sure there is . 
+  something like this ? 
+  i guess it can be useful if you want to out-hipster the hipsters with common and boring macbooks in kalamaja . 
+  an irs employee on reddit also recommended the following in a similar situation : https://www.reddit.com/r/irs/comments/2ukq3p/dependent_already_claimed/co9i9md, 
+  you can still claim the dependent if you file on paper . 
+  the irs will then audit both returns where they were claimed . 
+  the person who claimed them incorrectly will have to repay the deductions . 
+  please do update us with the outcome of this new case !, 
+  / r/legaladvice updates are the best thing on reddit . 
+   palate, 
+  mmm ... tasty cyan, 
+  do n't forget liquid oxygen for the fuel . 
+  you make it by distilling air , and that air might have floated in from anywhere in the world !, 
+   invert your field relationship in your clustering index -- make it on ( time_gps , user_id ) . 
+  note that i have `` where user_id = 123 '' in the query , i 'm only looking at one user 's data at a time . 
+  so the index should still be fine ? 
+   then the ` order by time_gps / 10000 ' should be able to make use of that index . 
+  i tested on a small example table , and it seems that `` order by field / 10000 '' does not make use of an index on field , even if that 's the only thing in the index . 
+  it seems that it treated as an opaque expression like any other function , and postgresql does not seem to figure out that `` field / 1000 '' and `` field '' sort orders are interchangeable . 
+  a functional index probably would help , but i 'd like to keep the time step in the expression user-configurable . 
+  you should get a good slow-motion camera and record a video . 
+  sorry for the confusion - updated the post to fix these . 
+  my table actually has a field called series_id . 
+  i used it interchangeably with `` user_id '' in the post , because the fact that there are multiple series per user is unimportant , and users seemed more obvious in the explanation than series . 
+  time_gps is a bigint , holding milliseconds since 1970 . 
+  i guess i could convert it to a timestamp , but this is the original format that the gps chip provides . 
+  the two indexes are :, 
+  * `` parsedcache_gpsfix_series_id_a31c1ce9c62c8a5_uniq '' unique constraint , btree ( series_id , restart , counter ), 
+  * `` parsedcache_gpsfix_series_id_21d61565965bdf1b '' btree ( series_id , time_gps ) cluster, 
+   finally , what does ` explain analyze ' show for actual timings ? 
+  uh , i feel really stupid now !, 
+  turns out the actual queries themselves run in a few seconds when in explain analyze . 
+  the rest of the slowness must be from the processing in the export script itself , so there is actually no need to optimize this in the sql level . 
+  for example , when taking the series with the most ( 3.8 m ) rows :, 
+  # explain analyze select distinct on ( time_gps ) * from parsedcache_gpsfix where series_id = 117 order by time_gps ;, 
+  unique ( cost = 3026256.04 . .3044346.37 rows = 883995 width = 88 ) ( actual time = 3030.452 . .3862.309 rows = 3480338 loops = 1 ), 
+  -  sort ( cost = 3026256.04 . .3035301.20 rows = 3618066 width = 88 ) ( actual time = 3030.451 . .3366.170 rows = 3481288 loops = 1 ), 
+  sort key : time_gps, 
+  sort method : external sort disk : 333384kb, 
+  -  bitmap heap scan on parsedcache_gpsfix ( cost = 82964.58 . .2483727.87 rows = 3618066 width = 88 ) ( actual time = 237.662 . .1004.353 rows = 3481288 loops = 1 ), 
+  -  bitmap index scan on parsedcache_gpsfix_series_id_a31c1ce9c62c8a5_uniq ( cost = 0.00 . .82060.07 rows = 3618066 width = 0 ) ( actual time = 225.733 . .225.733 rows = 3481288 loops = 1 ), 
+  index cond : ( series_id = 117 ), 
+  total runtime : 4012.702 ms, 
+  # explain analyze select distinct on ( time_gps / 10000 ) * from parsedcache_gpsfix where series_id = 117 order by time_gps / 10000 , time_gps ;, 
+  unique ( cost = 3035301.20 . .3053391.53 rows = 883995 width = 88 ) ( actual time = 3401.224 . .4099.825 rows = 487416 loops = 1 ), 
+  -  sort ( cost = 3035301.20 . .3044346.37 rows = 3618066 width = 88 ) ( actual time = 3401.223 . .3744.410 rows = 3481288 loops = 1 ),

@@ -1,0 +1,100 @@
+  has this changed ? 
+  if not , you should use another eq , preferably minimum phase iir . 
+  also , if you do n't compensate with the `` preamp '' , you 'll clip songs that were normalised to 0db peak level ( pretty much everything ) . 
+  replaygain should grant you some headroom if it 's necessary . 
+  i. . . i do n't even see the code . 
+  why not move the game directory and replace it by a symlink ? 
+  i do this with all of my savegames . 
+  they are moved to my dropbox , and the directory they were in get replaced by a symbolic link . 
+  * find the game directory ( `` c : \\ program files ( x86 ) \\ origin \\ shittyeatitle '' for example ) . 
+  * * move * the folder to the other drive ( `` d : \\ gaems \\ origin '' ), 
+  * open an elevated command prompt ( find it in the start menu and execute it by right clicking and selecting `` run as admin '' ), 
+  * run ` mklink / j `` c : \\ program files ( x86 ) \\ origin \\ shittyeatitle '' `` d : \\ gaems \\ origin \\ shittyeatitle '' `, 
+   power indicator, 
+  oh please , kill me now !, 
+  i just did this the opposite way using avconv . 
+  here 's the code from my bash history . 
+  i edited it so it 'll convert every flac file to alac , branching from the directory you run it from . 
+  on windows you can install cygwin and use ` ffmpeg ` instead of ` avconv ` with the same parameters . 
+  find . 
+  - iname \\* . flac - print0 | while read - d $ ' \\ 0 ' file, 
+  avconv - i `` $ file '' - acodec alac `` $ { file % . flac } . m4a '' & & trash-put `` $ file '', 
+  done, 
+  i use ` trash-put ` from trash-cli instead of deleting it . 
+  i prefer not to use ` rm ` in my scripts , even though this line wo n't delete the original if something breaks . 
+  should n't this post directly link to the youtube page ? 
+  what 's the point of a self post if you end up posting the actual content in a reply to yourself ? 
+  having foreskin is key . 
+  so on average you can count on two cases of food poisoning every three months . 
+  is it like this :, 
+  growing a partition is usually much faster if you do n't move the beginning . 
+  so if there 's enough space , i 'd grow sda1 all the way to the beginning of sda2 , then copy the contents of sda2 to sda1 , then delete sda2 and extend sda1 further to the beginning of sda3 . 
+  if there is n't enough space , you 'll have to bounce sda2 to another drive before deleting it and extending sda1 . 
+  does * mastered for itunes * even mean anything ? 
+  i mean , yes , aac is lossy , but it 's transparent at the bitrates songs are encoded at . 
+  if you make something sound good , it 'll sound good as an mp4 file . 
+  or does it mean the song 's been compensated for listening through cheap apple earbuds ? 
+  you 're just elitist . 
+  the effect is exactly the same if you do it in post . 
+  there 's no emulation to speak of , it 's simple math . 
+   itt : americans thinking they 're the world, 
+  i 'd recommend swiching both of them parallel / series with one switch , along with the regular selector . 
+  there 's little point in having one pickup wired parallel , and the other series , as you 'll hear mostly the parallel pickup . 
+  split is also okay , but personally i find little difference between parallel and split apart from the noise that is n't present in the humbucking configuration . 
+  my own setup is like this : epiphone les paul , stock pickups , with magnets replaced with ndfeb poles , wired in parallel . 
+  both pickups go into separate op-amps , and are summed by a potmeter and a third opamp in a non-inverting configuration . 
+  we need the bittorrent/bitcoin equivalent of instant messaging/internet telephony . 
+  a p2p protocol with a distributed routing network where clients are identified and authenticated by their public keys , without central authentication . 
+  you have the private key , you get to answer the call . 
+  me too !, 
+  bugger . 
+  just as i was beginning to shove money at the computer screen . 
+  that is the md5 function ( on a single block of 512 bits of data ) . 
+  for longer data , there 's a bit of shuffling around of the results as well . 
+  with devices conforming to the intel hd audio standard , the output level will change the gain of analog amplifiers , instead of being digital volume control . 
+  that being said , if you are playing back 16bit audio on a 24 bit dac , you can practically lower the volume by 48 decibels before you start losing resolution ( minus the noise floor above the lsb ) . 
+  the best practice , as always , is to keep the levels at 100 % , and use the volume control on your amp , but cutting 10db here and there wo n't mean that you 're losing anything because of the reasons i 've stated . 
+  consider using the x264 encoder with the lossless_ultrafast preset . 
+  this will use less cpu but more bandwidth , resulting in a perfect representation of the input video , that you can convert afterwards . 
+  ffmpeg - f x11grab - r 25 - s 1600x900 - i :0.0 - vcodec libx264 - vpre lossless_ultrafast temp.mkv, 
+  the * - qp 0 * switch will set it to lossless if you 'd try it, 
+  here 's a real challange : my computer is behind * eight * firewalls . 
+  if you can hack that , you 're really 1337 . 
+  my ip is 127.0.0.1, 
+  you copy it over . 
+  same data format , it 'll work . 
+  still ca n't tell, 
+   naim + lossless  klipsh + mp3, 
+  do you notice , that you have more than one variable ? 
+  do n't jump to conclusions . 
+  just because a system sounded better than the other does n't mean there 's anything wrong with mp3 . 
+  compare lossless to lossy on the same system if you want an honest comparison . 
+  there are 3 programs :, 
+  * muon software center , for browsing gui programs , with comments and ratings, 
+  * muon package manager , which lets you browse the package repositories ( gui , cli , libraries , documentation etc. ), 
+  * muon update manager , which will update stuff . 
+  updating with the update manager is pretty straightforward . 
+  with the package manager , you have to filter by status , select upgradable , and mark packages for update . 
+  i do n't think the software center can update . 
+  does any of them have analog multichannel output ? 
+  use that , and you 'll only have to get a quintet of rca cables to the receiver . 
+  maybe it will mean slightly less clutter than with the coax converter . 
+  hb is pay-what-you-want . 
+  how is generosity a form of tax ? 
+  the bicubic filter might overshoot a bit if the parameters are such . 
+  try the * bicubic smoother * preset instead , it should ring less . 
+  that receiver treats clocks entirely wrong . 
+  check the product website , maybe there 's a firmware update for it , but otherwise replace it with another one . 
+  yes . 
+  you need a really long tele lens and a robotic panorama mount , and like a month for panotools to stitch it together . 
+  booo !, 
+  [ sox ] ( http://sox.sourceforge.net/ ) will generate spectrograms for you , if you 're not afraid of using a command line . 
+  as an added bonus , you get to automate the process for many files , and do it repeatably . 
+  a few examples , assuming 192khz recorded files from a commercial adc and a microphone with adequate bandwidth :, 
+  - convert micespeak to audible noise ( highpass + pitchshift + normalize to -3 dbfs ) :, 
+  sox mice.wav audible_mice . wav -- norm = -3 sinc 20k pitch -2400 rate 48k, 
+  - display a spectrogram of mice.wav from dc-100khz, 
+  sox mice.wav - n rate 200k spectrogram - t `` mice discussing brockian ultra-cricket '', 
+  you ca n't change the lower frequency bound with sox unfortunately , but you could cut the image afterwards ( e.g. 
+  with [ imagemagick ] ( http://www.imagemagick.org ) ) :, 
+  sox mice.wav - n rate 200k spectrogram - y 1000 - r,

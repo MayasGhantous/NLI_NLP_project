@@ -1,0 +1,100 @@
+  is there any chance for actual civil war ? 
+  is there armed faction that opposes the government like part of the military or something ? 
+  otherwise how can there be a civil war if one side is unarmed ? 
+  no worries guys , nobody uses . net core yet . 
+  i am excited as a . net developer . 
+  i do not expect any good news on windows phone and expect that the uwp improvements that they will hopefully announce will not excite me as the only reason i care about uwp is windows phone . 
+  however i am curious about other developments with . net and even hope for some hololens news, 
+  i do n't think this is possible in such a short timeframe . 
+  maybe they can unify parts of the apis step by step but it will be years and multiple iterations before they get there . 
+  think of the unification process between wp and windows that culminated in the uwp on platforms they controlled . 
+  now imagine how hard it is to do this with platforms they do n't, 
+  that will probably change with their x86 on arm emulation if they ever release a new phone . 
+  how is it possible to plunge further into darkness and gloom ? 
+  what final straw ? 
+  what are you gon na do ? 
+  not buy their next device ... oh wait . 
+  they are not selling any device . 
+  i like your optimism, 
+  they are going to jump to something ( ha , never android for me , when my lumia 950xl fails i am buying an iphone ) sooner or later . 
+  i mean those current devices are n't gon na last forever . 
+  i like the restrictions . 
+  i fight technology for a living during the day . 
+  i have no interest in tweaking , optimizing and reading about my phone at night . 
+  i want it to just work and i want the problems i face to be easy to google for my particular model . 
+  i am using azure and i am happy with it but i find all the azure sessions extremely boring . 
+  this is almost python 3 level of failure . 
+  ok , am i missing something or the idea to represent strings as utf-8 is its own brand of crazy ? 
+  how do you even index such a thing in constant time ? 
+  so i guess i just recommend that we use java for the next 5 years and then come back to . net when ms has sorted their shit out . 
+  no , really , what do i do the next 5 years ? 
+  what tech do i choose for new projects ? 
+  because ef core does n't support half the things i use . 
+  because the ooxml sdk does n't work on . net core and literally every project i have done in the past two years has some kind of word reports . 
+  because a ton of third party libraries do not work on . net core . 
+  because they change it every month . 
+  java has its own libraries to deal with word documents . 
+  maybe even ooxml sdk i do n't know but java can certainly generate word documents and . net core ca n't . 
+  maybe this is specific use case ( how is word export specific ? ), 
+  but every project has something specific and nothing specific works on core, 
+  not sure now . 
+  i was sure a couple of months ago when i last cuecked, 
+   our goal is to ship asp.net core 2.0 on . net standard 2.0 so applications can run on . net core , mono and . net framework . 
+  does that mean that they reversed the decision from 2 days ago ? 
+  the infoq article was right when it was written . 
+  in fact the . net infoq articles are quite precise and i expect this to receive an update . 
+  not sure this is true as many string algorithms depend on constant time indexing . 
+  in any case you only get smaller strings if your products are in english, 
+  yeah , right . 
+  we will pretend we never saw the discussion on github that had so many comments that my browser started lagging when loading the page . 
+  specifically damian edwards and scott hanselman 's comments, 
+  constant time indexing works perfectly fine for all practical purposes in c # and java . 
+  what do you mean not having it ? 
+  you can reach into it with the surrogate pairs methods ? 
+  i 'd certainly trade making it harder to work with these obscure characters for constant time indexing . 
+  yeah , it would have been great for their goal to win the techempower benchmarks . 
+  sadly for them simple folks like myself need to build actual boring enterprise products with grids over data and word exports . 
+  i am a . net developer and i 've been very confused about the names of things for at least 10 years . 
+  also the version numbers . 
+  i still need to know how the hell are they going to index in constant time in a utf8 string if they change the string implementation ? 
+   is n't it possible that you 're seeing a decline or flattening in new question tags for languages like javascript , c # , java ( ie more established languages ) because they 've already been previously addressed ? 
+  i 've found threads that are over 5 years old on so that are still applicable . 
+  it is not only possible , it 's certainty . 
+  then a utf8string library is definitely the way to go . 
+  changing the string type itself to something that might have linear time indexing seems insane to me . 
+  it is true for utf-16 in practice . 
+  i myself am bulgarian and most of the projects i have worked on were multilingual . 
+  i have never encountered surrogate pair issue . 
+  what symbols are out of the 2 byte range anyway ? 
+  runes and emojis ? 
+  do n't use the repository pattern . 
+  judging by the amount of repositories i see on real world project it is obviously not common wisdom :(, 
+  people do say it sucks in a lot of places . 
+  i for once comment on every resource i encounter and on reddit all the time . 
+  i personally convinced one local academy which teaches 500 people per year to stop teaching repository pattern . 
+  of course i am no name i just happened to realize how obviously the repository pattern sucks when combined with an orm . 
+  if you want an argument from authority here is one of the earliest articles against the repository pattern with an orm by no other than ayende rahien - https://ayende.com/blog/3955/repository-is-the-new-singleton, 
+  now to be fair the pattern is not useless if done correctly . 
+  `` correctly '' means not leaking the orm by exposing iqueryable or accepting expression < t  as an argument . 
+  each query should have its own method in the repository instead of trying to expose the querying functionality to the business layer . 
+  the value is that you can change your data access layer to something not based on ef . 
+  say you want to go full stored procedures in the data access . 
+  you can change the implementation of the repositories and keep everything else without change . 
+  however this abstraction is not cheap . 
+  it costs a lot of boilerplate code , problems with transactions and loading related entities , and not using convenient iqueryable . 
+  it should be used when we think it will pay off . 
+  note that if you do repository like in the tutorials ( either return iqueryable or accept expression < t  ) you can not effectively change the implementation . 
+  iqueryable is not part of ef but it is damn near impossible to implement your own linq provider so you are effectively stuck with ef . 
+  at best you can switch to nhibernate but that 's it . 
+  so you are writing a lot of code for repositories and creating annoying pain points and you do not get the benefits of abstraction . 
+  i do n't even know what combining marks are . 
+  in any case my original point still stands . 
+  i have built a lot of multilingual software and never hit an utf-16 related string issue . 
+  as a matter of fact there is no record of bill gates saying that and neither is there anyone who claims to have heard him say so . 
+  even if he did in fact say it , there would have been implied `` for now '' at the end . 
+  note that he said that when they increased the amount of addressable memory 10 times and any developer who said it would probably assume that when the time comes they would increase it again ( which they did ), 
+  you can make it generic . 
+  could work . 
+  it is the desire to do all the repository work generic that makes it fail even more miserably than usual . 
+  yes . 
+  except that the likelihood that he actually said that is about 1 % .

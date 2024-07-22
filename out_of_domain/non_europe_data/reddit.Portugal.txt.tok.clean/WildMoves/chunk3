@@ -1,0 +1,100 @@
+   out of curiosity i was wondering if the encryption is google specific or something you can integrate with a future service ? 
+  it 's not specific to google . 
+  it 's generic code that can be used to connect to any https server . 
+  the only google-specific tweak i did was to add and `` s '' ( http : / / ... -  https : / / ) to the hardcoded address . 
+  correct . 
+  in other words , you can start browsing when `` downloading item ( # of # ) '' appears . 
+  afaik , the old reader does n't have an api yet . 
+  there is . 
+  but how many feeds do you know that use this ? 
+  i 'm not sure it would be worth the effort ... 
+  actually it runs ics ( 4.0.3 ) , but dashclock is not compatible with it . 
+  i ca n't test it on an emulator because i ca n't add a google account for flow reader to work . 
+  to create a dashclock extension , i would first need to implement background updates ... 
+  thanks for the feedback !, 
+  on my to do list ( maybe paid version ? ) . 
+  i 'm still not a fan of periodic background updates , but i think i 've found a good compromise . 
+  see point 2 . 
+  i would need to implement background updates/background service first . 
+  but i do n't have a device compatible with dashclock , so ... 
+  i 've sent them an email 2 days ago ... nothing yet . 
+  it 's actually not too hard to implement it - maybe i 'll add it for the paid version . 
+  for now my focus is going to be on finding a new service provider . 
+  i did n't knew androvm was so mature already ... 
+  i 've managed to add a google account and to install and run apps . 
+  thanks for this !, 
+  on my second year of college , i wrote a program in prolog to display all possible solutions of the [ n-queens puzzle ] ( http://en.wikipedia.org/wiki/eight_queens_puzzle ) ( a generalized version of the 8 queens problem ) in just three lines of code . 
+  my teacher really liked it . 
+  i 've filled the developer form for project normandy as soon as it was available , but i have n't heard from them so far . 
+  they seem to be taking preference towards more popular reader clients first ... hopefully the api will be made available before 1st of july . 
+  i already have plans for the app , i 'm just not sure when the next update will be ready . 
+  there is _ a lot _ to do and not a lot of time ... :\\, 
+  the only reason i do n't want to make the source code available is because there 's still a very slim change that i might develop an alternative of flow reader , in which case i would reuse a lot of the code i made . 
+  feel free to create a clone of flow reader if you wish to though ... 
+  i 'll post an answer on the xda thread soon . 
+  what program are you using ? 
+  try using [ asio4all ] ( http://www.asio4all.com/ ) . 
+  it 's basically a driver that can significantly reduce audio latency on common cards . 
+  i 've been using it for years with really good results . 
+  install it , then open ableton live , go to preferences -  audio -  driver type and select `` asio '' . 
+  then press `` hardware setup '' if you wish to fiddle with the options . 
+  [ moderat - a new error ] ( https://www.youtube.com/watch?v=jwnx41tbff4 ), 
+  you can definitely install windows on an external hard drive - i 've been using it this way pretty much since i bought my rmbp . 
+  i do n't recall the exact tutorial i followed , but a quick google search bought [ this ] ( http://bleeptobleep.blogspot.pt/2013/02/mac-install-windows-7-or-8-on-external.html ) up . 
+  [ related video ] ( https://www.youtube.com/watch?v=1evwgu369jw ) . 
+  [ fast and furious in real life . 
+  for mac os users , you can store them here :, 
+  / library/application support/native instruments/massive/sounds, 
+  [ another mirror . 
+  ] ( https://youtu.be/pegaacjf3cq ), 
+  just a heads up : i 've owned a pair of sony mdr-7506 and i ended up selling them a while later because they i found them to be * painfully * sibilant . 
+  i felt like i was being stabbed in my ears every time there was an `` s '' sound . 
+  apparently some people do n't mind it though , and i 've heard of some qa issues with these , so maybe i was just unlucky . 
+  either way i would recommend trying them before buying . 
+  since then i switched to a pair of sennheiser iems and i 've been pretty happy with them so far . 
+  oh god this . 
+  :( / u/kokiri _ salia , nobody is judging you here or blaming you for the situation you 're in ... 
+  what happened during that year ? 
+  the same thing happened to my z1c , plus i could see that the back cover was starting to `` swell '' due to the faulty battery . 
+  sent it to warranty ( two years where i live ) and came back with a brand new battery and back cover . 
+  now i 'm hoping it 's going to last me at least one more year ... 
+  i 've been using [ ark ] ( https://www.arqbackup.com ) with [ amazon cloud drive ] ( https://www.amazon.com/clouddrive/home?ref_=cd_auth_home ) 's `` unlimited everything '' plan for a while and i 've been pretty happy with this setup . 
+  at least for the mac os version , the app seems to be really well built : it 's lightweight , robust , simple to configure ( imo ) and it encrypts all data before leaving your system . 
+  you just configure it once and it gets out of your way to do its thing . 
+  the downside of ark is that can get a bit costly depending on how many computers you need to license , but at least you only need to pay it once ( or once for each major version released , depending on the license type ) . 
+  on the other hand , amazon cloud drive is pretty cheap when compared to the alternatives : 59,99 $ a year for unlimited storage space . 
+  ark is just a local app that performs backups to one or more cloud services of your choice . 
+  it does not provide cloud storage by itself - it just does all the boring work to move files between your machine and the cloud ( namely data compression , de-duplication of files , encryption , versioning and more ) . 
+  for it to work , you need to associate ark to one or more cloud storage services so that it has a place to store your files . 
+  you can see a list of supported cloud storage services along with other features [ on this page ] ( https://www.arqbackup.com/features/ ) . 
+   does it image the computer ? 
+  the alternative is to use an external program to periodically create images of your hd , which then ark will pick up and send it to the cloud automatically . 
+   if so , is that ridiculously large causing me to have 2x the space ? 
+  afaik , it does n't perform any sort of local copy before sending files to the cloud . 
+  at least i have n't noticed it ... 
+   while people offered good advice , i was wondering if there was any solution , rather than working around this problem of the arpegs not exporting correctly . 
+  what exactly do you consider to be a `` workaround '' ? 
+  what i was going to suggest is to record the outgoing midi data form the source track into a new midi track and then use this to directly play the desired instrument . 
+  this way the problematic arpeggiator plugins are bypassed during export but the final ( as well as the original ) midi data is still there . 
+   i like that you fucked mvariablename right off though , that shit bugs me to no end . 
+  why ? 
+  this is one of the few points that i _ do n't _ agree with on these guidelines . 
+  using `` m '' and `` s '' makes it very clear if the variable that i 'm looking at is either a local , member or static variable . 
+  this is something that i 've found to be particularly useful on larger classes with a lot of variables , since it does n't force me to constantly jump around the code to see where a variable was declared . 
+  it also does n't seem like a good idea to me to be dependent on the ide 's code display style to figure which type of variable is which . 
+  different people like using different themes ( e.g. 
+  : a dark or light theme ) , some of which might make it more difficult to differentiate between types of variables . 
+  sometimes it is also necessary to use external editors for multiple reasons ( merging code form two revisions , for instance ) , each one coming with its own code display style - or lack thereof . 
+  if you have a valid live license you can download it on the official site ( go to account page and search for `` download archive '' ) . 
+  but the first version of live is powerpc only , so you wo n't be able to run it on any intel-based mac ( pretty much any model over the past ~ 8 years ) . 
+  similar deal with the windows version of live 1.0 : i think you need windows xp to run it . 
+  i 've tried windows 8 and 10 and it did n't work on neither . 
+  piada intelectual :, 
+  nah , he 's pretty much a classical narcissist : gets pissy with everyone until he gets what he wants . 
+  both flac and wav files are lossless . 
+  assuming that the software used for conversion works correctly there should be no loss in sound quality . 
+  check r/chiliadmystery, 
+  [ this link ] ( https://performodule.com/2013/05/24/how-to-organize-user-plugin-presets-like-a-boss-in-ableton-9-using-the-hidden-architecture/ ) should give you something to begin with . 
+  i 've built an applet in ifttt platform which uses a simple script ( a filter ) to do this . 
+  it strips the tags from the name of the song and uses a handful of other heuristics to further clean up the name ( for instance , it also takes into account the double dash which is often used to separate the artist from the track name ) . 
+  it has a very high success rate on r/listentothis and also works reasonably well with similar subreddits .

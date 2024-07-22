@@ -1,0 +1,100 @@
+  not as strong as the ones on android and ios but much better than what we had now . 
+  and i still have a spotify app on my phone . 
+  one optimized for mobile that could be evolved to uwp and not the desktop version that they are putting in the windows store now . 
+  my bet is they wont fork because they wo n't get the required node count, 
+  but i am random :(, 
+  i plan to do that with my daughter when she is 8-9 . 
+  other than that i do n't have any goals . 
+  if i had i 'd be trying to achieve them in sc , not wait for remastered, 
+  the collector 's editions have `` making of '' dvds with devs interviews . 
+  they are kind of casuals discussing music , cinematics and visual design rather than detailed game design or programming, 
+  it is very hard to form an informed opinion as both solutions have hard technical details even for me ( a programmer but with no experience cryptography or blockchain ) . 
+  both of them make sense to me when explained by proponents . 
+  however i tend to side with the / r/btc position because, 
+  1 ) / r/bitcoin is clearly censoring even questions . 
+  i have had my own comments censored . 
+  2 ) scaling through increasing blocksize has worked in the past . 
+  it is very hard to believe that increasing the blocksize from 1 to 2mb would destroy the network if previous increases did not do that . 
+  the fees were rising , the network got slow , core did n't have a solution but they still blocked the increase . 
+  the responsible thing to do was to accept 2mb blocksize and start working on segwit so it is ready before a new increase is needed . 
+  even if their technical reasoning is sound ( which is hard to judge for me ) their handling of the issue is a disaster . 
+  at the very least they waited too long to implement a solution while blocking something that would work because it was done in the past . 
+  check out the ooxml sdk, 
+  not sure if trolling ... 
+  i am fine with no static typing . 
+  the notion of static typing that ca n't represent a statically typed collection reusable for different types drives me crazy, 
+  does your repository return iqueryable < t  at any point or accept expression < t  ? 
+  if the answer is yes you are doing it wrong . 
+  understanding why repository is wrong is not very hard . 
+  ask yourself `` what is the problem i am trying to solve with repository ? '', 
+  presumably the answers are :, 
+  - to have a place to write ( isolate ) our queries . 
+  kind of organizational separation, 
+  - an abstraction over the data store . 
+  we should be able to change the data access without touching the service layer ( you have service layer right ? 
+  service layer is much more important to have than a data access layer ), 
+  so lets see what happens if you expose iqueryable < t  ( or its mirror image expression < t  ) from your repository . 
+  you end up with code like this in your service ( assuming that getall returns iqueryable < t  ), 
+  customerrepository.getall ( ) . where ( c =  c.countrycode = = `` us '' ) . orderby ( c =  c.name ) ... 
+  if you do n't end up with such a code why is your iqueryable exposed to begin with ? 
+  so lets see how this code relates to our stated goals, 
+  do queries stay in the repository ? 
+  maybe some part of the queries do stay in the repository . 
+  maybe getall has where ( c =  ! c.isdeleted ) in it but the fact is that most of the query is actually in your service layer out of the repository . 
+  we have failed our first goal of organizing our code so that query code stays in the repository and business logic stays in the service layer, 
+  does this implementation provide abstraction ? 
+  on first glance it does . 
+  no ef specific types were exposed to the caller . 
+  however there is another kind of coupling except coupling by type . 
+  it is coupling by interface . 
+  iqueryable is an interface that is very useful but also very hard to implement . 
+  it is in practice impossible to implement it yourself . 
+  let alone that even when it is implemented ( say you want to switch ef with nhibernate ) you will find that many of your queries do not work because iqueryable is never implemented exactly the same way . 
+  if you honestly ask yourself `` am i able to replace ef without touching the service layer '' and the answer is `` no '' you have failed at repository . 
+  can you switch to a data access based on stored procedures for example ? 
+  does it make sense now ? 
+  it depends on what your safety net is . 
+  how long can you go without a job ? 
+  i have been fired twice and it surely hurts your confidence . 
+  one was a 3 months intership where i was not hired afterwards , my first dev job . 
+  did n't care much , because at the time i owned a small business with an internet caf\u00e9 and actually made more money than my university classmates who had entry-level programming jobs . 
+  the second time i had 2 years of experience . 
+  i was told i was let go because of my poor results . 
+  less than a month later they let go 1/3rd of the company because they had financial troubles ( i guess it was not my poor results after all ) . 
+  my confidence was really hurt and i was kind of worried ( you know that feeling in your stomach ... ) . 
+  i called a coworker to tell him i was being let go . 
+  15 minutes later my phone started ringing with interview invitations . 
+  apparently he told some headhunters ... landed a better job ( higher pay , more interesting project , better atmosphere in the office ) 2 weeks later . 
+  since then i am not scared of being fired . 
+  if i am it will certainly feel bad but i do not live in fear of this happening . 
+  just go out on the market and find another job . 
+  after all you managed to land this one without any experience what makes you think you wo n't be able to land another with 6 months of experience under your belt ? 
+  so many layers to it . 
+  great strategy . 
+  i mean google is known for hiring simpletons who can not possibly understand generics so they really need a simpler language and solve problems through copy/paste or by testing for errors at runtime . 
+  if they are so worried about generics they can implement a simple version . 
+  just drop covariance and contravariance and they become quite simple . 
+  the go team acts like a bunch of grumpy old grandpas, 
+  especially when `` brilliant '' does not refer to something as complex as haskell but to generics - a concept present in java , c # , c++ , swift and practically every mainstream statically typed language created in the past 30 years . 
+  million people programming with these but the googlers ca n't handle it, 
+  the main difference being that the creators of these languages did not claim that the lack of generics was fine, 
+  anyone happen to know how/when i can sign up for the open tournament in valencia ? 
+  as far as i understand there are open sign ups and this qualifier is for people who want their expenses paid and seed for group stage 2, 
+  the dreamhack site is so bad i ca n't even start to describe it . 
+  here is the related page - http://www.dreamhack.es/en/wcs-dreamhack-valencia-starcraft-2/, 
+  it says :, 
+   continuing the long tradition of starcraft ii events with open sign-ups , the wcs valencia circuit championship will feature 64 open spots to anyone who wishes to come to compete against the best of the best . 
+  sign-ups will open soon so check back here or stay tuned to @dreamhack on twitter to get ready to reserve your place in the annals of history . 
+  i kind of suspect that they forgot to update it and my last support e-mail got ignored ( although i have received responses in the past ) . 
+  the liquipedia page also lacks info on this - http://wiki.teamliquid.net/starcraft2/2017_wcs_valencia, 
+  i took part in dh valencia 2014 and i remember being quite nervous because of similar bullshit with the sign ups but if i recall correctly they were already open in may . 
+  i got nervous because i am paying for the trip to spain ( from bulgaria ) the hotel and so on and then there is no sign up link which is the whole point of my trip . 
+  i always assumed team management do this for them . 
+  on the other hand liquipedia still lacks a player list for valencia 2017 so probably nobody really signed up yet . 
+  in any case i doubt i wo n't able to sign up . 
+  if all spots in a tournament you pay for are taken how can we claim that this is a daed gaem ? 
+  i intend to be very quick ... if there was an actual sign up option, 
+   people with a c/c + + / java background tend to use it ... 
+  well , not in java . 
+  in java if ( a = 0 ) is a compile time error . 
+   so are you of the mind that all of these people who are speaking out against repositories are using them incorrectly ?

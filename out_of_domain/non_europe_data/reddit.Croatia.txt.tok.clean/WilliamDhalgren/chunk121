@@ -1,0 +1,100 @@
+   following icc * ( barras and bernardo 2008 ) ,, 
+  we could also view the implicit language as the `` real '' semantics for, 
+  fc , and consider the language of this paper as an adaptation of that, 
+  semantics with annotations to make typing decidable . 
+  furthermore ,, 
+  the implicit language is interesting in its own right as it is closer to, 
+  source haskell , which also makes implicit use of type equalities . 
+  however , although the implicit language allows type equality, 
+  assumptions to be used implicitly , it is not extensional type theory, 
+  ( ett ) ( martin-l\u00f6f 1984 ) : it separates proofs from programs so that, 
+  it can weaken the former ( ensuring consistency ) while enriching, 
+  the latter ( with `` type-in-type '' ) . 
+  as a result , the proof language of, 
+  fc is not as expressive as ett ; besides the limitations on equalities, 
+  between coercion abstractions in section 6 , fc lacks, 
+  or extensional reasoning for type-level functions . 
+  well not that i disagree at all , but html is a poor argument ; that 's a use-case that should be using utf8 regardless , since it 's not a piece of say devanagari , arabic , chinese , japanese , korean , or say cyrillic text , but a * mixed * latin/x document . 
+  so that benefits from 1 byte encoding of the latin at least as much as it 's harmed by 3-byte encodings of the language-specific text . 
+  the interesting case is what one would choose when putting non-latin text in a database , and how to have haskell 's text support that well . 
+  i would hope that by using any fast/lightweight compression , one could remove so much of utf8 overhead for this usecase too that it would be practical w/o being computationally prohibitive , but i do n't really know . 
+  of course its the way to go for a website , for the reasons you state - a mixed latin/x document should be in utf8 no doubt . 
+  but , how about using it in say a database to store non-latin text ? 
+  is it the clear winner there too in usage statistics despite the size penalty , or would many engineers choose some 2bit encoding instead for non-latin languages ? 
+  or would they find using some fast compression practical to remove the overhead or such ? 
+  you 're not gon na build something like that in orbit anytime soon -- especially a heavy steel ship and pusher plate needed for orion . 
+  and i really despise the fact that this is what 's required to consider this technology publically palatable . 
+  i really do n't get why people are so frantic about radiation risks in particular ; this is a transportation device ; transportation devices kill people , reliably , cars murder more than a million of them each goddamn year . 
+  yet that is fine , nobody 's demanding a comprehensive car ban treaty because of it . 
+  and we 've already thrown 500 sizable nukes on this planet ( launch would be effectively like throwing a biggish one extra ) , in atmosphere , for significantly more worrying reasons than space exploration ... 
+  cumulative effect of all those explosions is some miniscule increase in the chance of someone getting cancer so that over the entire damn lifetimes , 11000 people would die , statistically ( and even most of those would 've been avoidable by giving iodine pills to ppl for i think a few weeks , as it was mostly thyroid ) . 
+  yet people go crazy over that ... 
+  technology kills people . 
+  energy kills people , transport kills people , construction kills people . 
+  radiation is literally the least of our actual murderers . 
+  ffs ... 
+   are n't venus and mars pretty `` earthlike '' too ? 
+  ... and both are of huge scientific interest . 
+  how much more that would be the case for one of those around a red dwarf , where we get to see how tidaly locked planets behave , how flaring and early hot phase effects them etc. 
+  we could even get lucky and have something really funky in our backyard , a planetary composition not seen in sol , say superearths etc. 
+  and i 'm pretty sure nobody even mentioned any real estate 's on sale in proxima . 
+  there 's certainly lots of far cheaper and rather fine real estate on earth anyhow , so what would be the point ? 
+  seriously ppl , if this turns out to be true , its an incredible bombshell of a discovery with fascinating implications , but most ppl go -- if its not the galactic jackpot of it also being a living/livable world , meh . 
+  wtf, 
+  the idea is to get a flyby precise enough that its within 1au of the target planet or so - and get decent-rez pictures . 
+  kinda like what voyager did ... 
+  dyson stated he 'd expect 0.1 - 1 person to die from the orion launch , and ofc you 'd want to do it in a remote location anyhow . 
+  cancer treatment advances should push it further down :d, 
+  i think 11000 people dying from a trivially preventable cause is truly insane , and especially when the killed are civilians and the cause is war. , my point there is merely that we did that without a second thought already with nuclear airbursts for far worse reasons , yet fret about the maybe 1 person from orion launch , dredged up from the statistical noise and over decades , thx to zero-no treshold response . 
+  and yeah , that even 11000 dying even annually , let alone over decades , from a technological advance really is peanuts , compared to how routinely we kill millions in the same name . 
+  its rational and likely saves lives in balance , compared to the counterfactual world where we avoid such ( ie practically all industrial ) technologies really . 
+  orion is potentially the same , for it opens up space and its economic potential when we ca n't get up there effectively otherwise with available tech . 
+  orbital just wo n't happen all that soon , and the capability to do it wo n't be developed either as long as access to leo is within orders of magnitude of what it is. , and nothing 's on the horizon to change that as substantially as necessary -- except orion to kickstart it that is . 
+  i do n't really have anything else against it ; just that i and prob any hypothetical kids of mine will die before it happens that way ; i 'd have a shot at seeing it otherwise . . 
+  anyhow for this mission if we 'd do it in this generation , we 'd prob use the breakthrough starshot approach of just flyby with a gram-scale device at 0.2 c in a large extent , as you say , because i nor anyone else will ever convince people that risks and benefits of tech involving radiation are of the same kind as with other tech , and should be evaluated comparably strictly . . sigh . . 
+  well , no ; the plan is simply to see what it is , whatever that happens to be , substantially better than what we can hope to do with telescopes in the meantime - maybe some coarse surface/weather features . 
+  future telescopes at best can hope for 1 pixel . 
+  maybe a focal mission to 550 + au exactly and very precisely in the opposite direction of the star could get a few pixels . 
+  so they should n't be ** too ** hard to beat with a smartphone-level device ( + some optics ) looking at the planet for a few minutes at that distance . 
+  i think they can measure the magnetic field if any also ; we do n't know if tidaly locked planets can sustain a dynamo in the core , and if that would let its atmosphere be destroyed by the star for eg . 
+  getting its spectrum too would be just great , we 'd know the composition of its atmosphere is any exists ; i do n't think the early concept of the mission can do it , but the project 's deep deep on the drawing board so ... 
+  if the rumors are true , its a fascinating little place however it happened to have evolved . 
+  :d heh , i do n't think anyone could tell you what its likely to be or not be like , but basically just because there 's so many different things it could potentially be , and only one of those is earth-like hospitable , yeah , do n't sell your house in search of new real-estate :d all we have if this is even true , is something thats * probably * rocky ( they could only figure out the mass and they just figure if its somewhat smallish , guess its rocks ) and * maaybe * of right temperature that * if * it had any water it * could * be liquid - and actually all of those conditionals could easily turn out to be false as we do n't know practically anything about red dwarfs , their habitable zones , actual sizes and extents of any habitable zones , or if they even ever are habitable etc. 
+  and even with all those , if it just happens not to have life ( is that possible ? 
+  ) , you 'd suffocate for it would n't have breathable oxygen anyhow :p maybe it 's too big , maybe too small ( though given that we were even able to see it , that seems unlikely ) , maybe it rotates too slowly , maybe its fried by x rays , maybe it lost its atmosphere , maybe its made of mostly iron or carbon ( what would that do to chemistry of everything ) , maybe the entire thing is mostly water , maybe its too hot , maybe too cold etc. 
+  sure , life would be the sexy option , but plenty of those on the table are damn funky too , i think :d, 
+  they actually are to have small thrusters embedded , so they can navigate to correct . 
+  also i think its more just about how far miniaturisation of instruments has come since voyager , that they could prob do a fair bit of its capabilities ; i 've not yet read about swarm collaboration proposals in the mission -- though maybe the project is just too young and will get to it -- they mostly want to send a number of them for redundancy , since at such speeds , interstellar dust could kill them easily , and what is worse , we really do n't know much about the interstellar medium between us and proxima ( well , they consider alpha centauri as the target , but surely that would change if this is confirmed ; same thing though ), 
+  i mostly mentioned voyager because it too was a flyby mission , and a high payoff one , so in that sense similar . 
+  oh , yeah , absolutely , i completely agree that asteroid mining will eventually be a really big deal . 
+  still the economics of taking any material from * another star system * are so extremely terrible if you want them to reach us in reasonable time , and the potential resources of our own ( including asteroid mining for sure ) so huge , that i ca n't see * that * proposition ending up being economical . 
+  now learning about some interesting compounds there to synthesize at home , that seems possible . 
+  but the unobtainium/spice melange scenario is pretty much unimaginable , as the basic elements are all available to us in abundance , and you 'd need something both incredibly vital to us , and that is cheaper to move at a sizable fraction of the speed of light , an inherently incredibly energy expensive task , than to create by an industrial process at home . 
+  actually i was just jokingly referencing the fact that the top poster immediately jumped to whether he 'd want to live on this yet totally uncharacterized planet . 
+  to get a bit more speculative , i really do n't like transporting hairless apes around , they 're so sensitive and in consequence expensive , and robots are making great strides ; that development needs to be pushed and accelerated for all off-world applications . 
+  well i guess doing so around the solar system is n't too bad , but gigantinc rockets to get the impatient buggers across the interstellar abyss , i really would just not ever do . 
+  once we become good enough with the relevant technologies and find good spots for them , synthesizing a few or thawing some embryos to establish a couple of colonies just for redundancy , that does seem sensible . 
+  cheaper rare minerals should definitely not cause a recession , quite the contrary ; i do n't know what kind of economic models you presume to get to that conclusion . 
+  primary resource extraction is a small part of the economy - extraction of rare minerals positively tiny - and most of the economy , both the manufactured goods and end consumers end up benefitting , boosting effective purchasihg power . 
+  if its a high-volume commodity like recently with cheap oil , it can cause very low inflation and worries of deflation , but that 's definitely managable . 
+  you can see the macroeconomic modelling of the effects of this cheap oil by say central banks ( i 've looked at the ecb quarterly reports in particular but there 's not that much diversity in mainstream modeling of this kind so it should be broadly representative ) -- it has been quite a positive effect for the developed economies and world economy in total , with the disruption being limited to those highly dependant on primary extraction like venezuela and russia . 
+  plus you really are n't talking about a sudden economic shock here , and certainly not a high volume one , due to the economies of spaceflight ; it takes a lot of energy to get the resources extracted back to earth . 
+  so initially the industrial capacities of the field are limited , costs for setting up high , and return of cargo intrinsically expensive -- it makes sense for only a limited volume of the highest valued stuff , and to amortize the sunken costs of getting there , as well as for simple economic sense , priced close to what they can get away with , so roughly around market prices . 
+  as the industry develops , capacities get built , more frequent flight needs leverage economies of scale to continualy lower prices and a wider range of materials starts to slowly make sense . 
+  and there is an increased focus on further technological development in access to space , now having a strong economic incentive to invest . 
+  none of this happens overnight , nor is it likely to target anything but the truly rare minerals . 
+  anything abundant on earth still has a clear energetic/economic advantage in being extracted on the ground . 
+  which is most of the stuff we use now . 
+  i guess i can largely agree with that , maybe i just take a less ambitious perspective . 
+  so yeah , if you push the exponential curve indefinitely , nothing is big enough for us . 
+  and sure , if some unexpected surprises surface about interstellar flight , anything is possible . 
+  i just do n't bet on either being the case ; population growth seems to be naturally limited , minor or negative in developed countries , and set to stabilize globally . 
+  and energy intensity in terms of kwh per $ of gdp has been falling , and materials , esp metals , even largely recycleable . 
+  guess this is my biased perspective from living in europe :d but if it holds , then even as interstellar travel becomes practical wherever we really want it -- this i think rather plausible even if we do n't find loopholes in the laws of nature -- still profitable interstellar ** freight ** needs to not only be doable , but also more efficient than using the resources of the solar system to replicate the material in question . 
+  unless as you say , we can really deplete the solar system by breeding and spending ever more of everything , that seems hard to believe ; even if whatever the process needed to replicate the substance is highly inefficient , it 's gon na have a hard time to be quite as inefficient than interstellar transportation . 
+  but i 'm speculating about technologies of far future , ofc i could easily be wrong . 
+  just my feel on how that shakes out . 
+  first of all , congrats ; i was following the campaign 's progress thx to articles over at centauri dreams ; it was amazing to see it succeed so magnificantly !, 
+  i 'm probably too late to the party but i 'm gon na try and ask anyhow :, 
+  i was skimming this paper yesterday : http://arxiv.org/abs/1204.0275 and its modelling seemed very pessimistic about the chances of holding on to an atmosphere in the habitable zone of small red dwarfs . 
+  yet model from the pale blue dot seems to suggest keeping on to an atmosphere is much more plausible .

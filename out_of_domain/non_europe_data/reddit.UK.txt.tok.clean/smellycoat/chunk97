@@ -1,0 +1,100 @@
+  y' know if you have the money for it , an atom board is a damn good choice for a nas ( although the ion gfx chipset is probably unnecessary  ) . 
+  they use very little power , and are pretty well specced . 
+  an atom/ion board is good enough to play 1080p via something like [ xbmc ] ( http://www.xbmc.org/ ) , though , if that 's of interest to you . 
+  i highly recommend them !, 
+  that said , if you 're not doing anything heavy with it and do n't expect * too * much , an older board will be fine . 
+  i ran an ancient 3rd-hand 800mhz via epia mini-itx board as a nas for a coupla years . 
+  it was . . alright as long as i did n't expect it to do any really hard work ( i had some software on it to download . . ahem * stuff * , and automatically extract - it took longer to extract than it did to download  ), 
+  i 've bought several old , cheap mini-itx boards from there . 
+  pale , untanned skin is n't going to require much ink . 
+  a bit of blue , maybe . 
+  yeahman , my setup is that , plus [ sick beard ] ( http://sickbeard.com/ ) and [nzbs.org ] ( http://www.nzbs.org ) . 
+  yeah i like nzbs.org a lot . 
+  i used to use [ newzbin ] ( http://www.newzbin.com ) before they got taken down , the features they have there are immense !, 
+  ( i believe the dudes that took over are offering free registration at the moment , if you 're interested ) . 
+  i 'm not , but i do find it a * little * suspicious that not only did the video start with the phone not having maximum signal , but it appears to be filmed in a public place . 
+  which kinda seems like someone wandered around looking for a spot with slightly reduced signal to demonstrate this . . 
+  all antennas will be less effective if you cover them with parts of your body . 
+  most modern handsets have internal antennas at the back near the bottom , so they 'll naturally lose a bit of signal when you simply pick them up as you cover them with your hand . 
+  this is true for pretty much any cellphone ( and , well , any device that uses radio waves , to be honest ) . 
+  if you can find an area with a slightly dodgy signal , then i 'm pretty confident you could demonstrate signal loss in * any * handset \\* . 
+  but , cellphone networks are way better than they used to be , if you can get * some * signal , chances are it 's a pretty * good * signal , so the degradation you 'll see from holding the handset is probably not going to matter a great deal . 
+  certainly not enough to warrant going back to huge 80s-style pull-up antennas . 
+  apple 's new external antenna is actually pretty good - that fact seems to have got lost . 
+  it 's certainly better than the older iphone antennas , and even possibly better than their competitors ' . 
+  but , it does have a flaw : because of the design and the fact it 's exposed means it 's possible to short it with your finger or hand against the other antenna , particularly if you 're a bit sweaty . 
+  this * can * result in a rather dramatic loss of signal . 
+  not enough to render it unusable if you 're in an area with good coverage , but probably more of a loss than you 'd get by holding a different handset in the same way . 
+  personally , i do n't think it 's a massive problem . 
+  the new antenna is demonstrably better , but it also has a demonstrable flaw . 
+  fortunately this flaw is only going to be a problem in low-signal areas , and is easily avoided . 
+  i just wish apple were a bit more honest about it . 
+  i 'd be much happier if they 'd come out and said `` yeah , look , the new antenna is actually better , but it has a flaw if you touch it in the wrong spot . 
+  it 'll be fine unless you 're in an area with low signal , in which case you 'll probably want to avoid holding it like that . 
+  oh , and in case this bothers anyone , here 's a free case which makes the problem go away entirely ! '', 
+  \\* anyone else think it odd that the phone in the video did n't start with a maxed-out signal ? 
+  and it appears to be shot in a public place . . 
+  someone wandering around looking for a spot with reduced signal , maybe ? 
+  indeed , but the degradation from touching `` the gap '' seems to be more significant than the drop from picking up a normal phone . 
+  that is , you can pick up an iphone 4 , get a bit of signal loss as you would with any phone , and * then * touch the gap and it gets worse . 
+  now it 's possible that the loss from picking it up is less of a loss than other phones suffer ( kinda makes sense , given the antenna design ) , but that 's beyond the scope of my experiments , 
+  i do n't think it 's a huge problem though , as it has no effect in an area with good signal . 
+  just wish they were a bit more honest about what 's happening . 
+  are you actually a hoarder , or just a messy fucker ? 
+  looks like most of the problems there could be solved with a big plastic bin in the corner and a laundry basket . 
+  like 130-ish most of the time . 
+  very rarely below 60 . 
+  framerate is waaaaay more important than maxed out graphics settings . 
+  really , the best thing is to understand what information you 're exposing to whom every time you do anything online . 
+  posting on a website like reddit is pretty anonymous , you 're exposing your ip address to reddit 's servers ( although not to other reddit users ) , and you 're exposing your chosen name and the words you choose to use to anyone who cares to look . 
+  if someone wants to find you from a post on a site like reddit , they 've only got your user history and username to go by . 
+  it 's possible that law enforcement could ask the site owner for your ip address , and then ask the isp who owns that ip for your user details . 
+  a reasonably secure way to use online services is via a proxy or vps service , but that for law enforcement that just means there 's an extra step to find out who you are ( get ip from the site , get your isp ip from the proxy/vps service , get your info from the isp ) . 
+  admittedly vps and proxy services tend to not want to give that information up . 
+  apart from that ( which is kinda overkill ) , it 's kinda hard to be general . 
+  it depends what you want to protect yourself from . 
+  the bar scaling algorithm was just broken before . 
+  probably deliberately to make their devices appear better . 
+  it 's a bit better now since they deployed that fix ( but still not * entirely * transparent ) . 
+  i only say it looks like a public place because there appears to be someone wandering around in the background . 
+  bear in mind that if you use a vpn , proxy or similar service , you 're just exposing that ip address rather than the one your isp assigned you . 
+  you say you have a webserver on which you 're running a proxy , well , that 's only as anonymous as the ip address its assigned . 
+  if the hosting company give up your details without much pushing , then you 're not better off than if you were using your isp 's connection directly . 
+  to be honest , a typical cheap web host is probably going to be easier to get information out of than an isp . 
+  a better solution is probably using a larger proxy/vpn service , ideally in a different country . 
+  at least then you 're going to be ` lost in the noise ' of all the other people using those ips . 
+  if you want to download some illegal stuff , consider paying a usenet provider . 
+  they can provide ssl connections , and because you 're getting everything from a single place it 's way harder for anyone outside to see what 's going on . 
+  to be honest , vpn services will probably disconnect you if you 're spamming , ddossing , etc. 
+  [ astraweb ] ( http://www.news.astraweb.com/specials/kleverig-11.multicards.html ) have a promotion that makes them about the cheapest , and they 're pretty good . 
+  please try to avoid sites with ridiculous popup spam and the like . 
+  wow , that 's actually pretty cool . 
+  it 's fucking useless , of course . 
+  but pretty cool . 
+  true . 
+  but they could just as easily give up your ip address , even logs , and you would n't be much better off . 
+  my thought is that unless you 're doing something that 's going to get serious attention , you 're probably better off hiding in an offshore vpn/proxy provider 's traffic . 
+  since there 's a good chance you 'll become a really uninteresting needle in a huge scary haystack . 
+  a haystack consisting predominately of child porn , script kiddies and the barely-coherent ramblings of tinfoil-hat wearers . 
+  it 's a thing that dates back to the days when using the web on a mobile phone was a slow , expensive , frustrating and ultimately fruitless exercising involving lots squinting and swearing . 
+  modern phone browsers are clever enough to realise that they 're rendering for a smaller screen than the designer was expecting , and manage to work out a sensible medium . 
+  you 've got to admit it 's a tricky situation ; every single person that gets banned is going to try to claim innocence . 
+  apart from this ( which they 've sorted out ) i have n't seen any evidence to suggest that there 's a significant number of innocent people getting banned . 
+  hmm . . 
+  what about \\*\\*\\* foo \\*\\*\\* ? 
+  let 's try : *** foo ***, 
+  edit : seems to work , 
+  yes indeed , i 'd really like that too . 
+  i tried and failed a couple of times , 
+  that is indeed what the backspace character is for . 
+  but the point is that :, 
+  * underscores get used by programmers and non-programmers alike from time to time , and then end up messing up their post, 
+  * the asterisk syntax for emphasis is more obvious and * probably * more popular anyway, 
+  by removing the underscore syntax and returning them to normal characters , you solve a common mistake without taking away any functionality . 
+  [ triple-asterisk works ] ( http://www.reddit.com/r/ideasfortheadmins/comments/cu6kx/remove_underscores_from_comment_markdown/c0vakvc ) . 
+  hmm . 
+  the way i see it is . . 
+  blogspam : a link to a site that a ) is n't the original source of the content and b ) adds nothing of value . 
+  well , yes . 
+  now that you mention it , reddit kinda counts as blogspam . 
+  at least when posted to other sites .

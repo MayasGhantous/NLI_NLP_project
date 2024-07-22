@@ -1,0 +1,100 @@
+  games that come with these often require it for mods to be shared ( the civ 5 sdk allows mods to be compiled into . civ5mod format , which is the format for sharing on steam workshop . 
+  now , another part of having such a large modding base is the community . 
+  for most games which can be modded , the community is a great place to start . 
+  i began my modding career by learning off the work of another modder who was also doing mods of a similar vein to mine . 
+  the community at [ civilization fanatics ] ( http://forums.civfanatics.com ) for example features a dedicated [ creation and customisation ] ( http://forums.civfanatics.com/forumdisplay.php?f=393 ) section with nearly 170,000 posts in over 12,000 topics . 
+  in addition to having an entire subforum dedicated to tutorials on how to mod , the civfanatics c&c section is very welcoming to new modders , and has a large amount of veterans of modding who browse topics and give assistance to those who have questions . 
+  what programming language the game uses is important too . 
+  civ 5 primarily uses xml , and simple mods can get away with it exclusively . 
+  more complex mods require parts of sql and lua , and mods that are more complex still involve editing the source code , which is c++ i believe . 
+  point is , by learning the language which is used by the game you can have a bit of an understanding of what to do . 
+  arguably the most important part of a mod though is the art . 
+  now , i 'm terrible at art , so with my mods i work with a team of people ( no two of us are even on the same continent ) , each with a different ability . 
+  one of us can produce leaderscreens comparable to those of the base game , one can produce icons and maps which are as good as , if not better than original civ 5 art , and one does art at the same time as lua coding . 
+  as for myself , i mainly put everything together and troubleshoot . 
+  now , most of them can also do other stuff too ( and two have published mods of their own ) , but the idea behind it is many hands make light work . 
+  while i 'm working on the xml , they can be working on the leaderscreen of another civ . 
+  it 's the pronunciation of poi e , right ? 
+  you should come to chch , we 're having a bit of a street art frenzy at the moment, 
+  it would be easy enough to skip the process of obtaining a warrant but make passing reference to it in a show . 
+  however many shows explicitly state that they do n't have a warrant , and thus they 're circumventing processes put in place to protect innocent people from unjust accusations . 
+  i see shows / movies about rogue agents as a different category , as it 's part of the premise that they are extraordinary circumstances . 
+  you do n't see your ordinary everyday policeman repelling from the burj khalifa , do you ? 
+  okay , yeah . 
+  i made a mistake in the title . 
+  i 'm not saying it 's an explicit government plot , but rather that it has the consequence of normalising it and could potentially being used for that purpose now that it is commonplace in such shows, 
+  nz barely changes between night and day, 
+  now we just need / r/vexillology to make up a flag for the us with all those states as stars, 
+  all jokes aside , look at askia 's leader screen . 
+  that 's a completely different one in the background , not just a graphics glitch like the others . 
+  it looks like a sort of palace , similar to bismarck 's screen but at the same time different . 
+  i 'm wondering if it 's an early version of one of the leader heads that was never taken out of the files . 
+  you made me realise how silly ( for lack of a better word ) it sounds having the government pulling all the strings for public compliance . 
+  i maintain that it 's still a possibility ( as nothing is ever certain ) that their is some shadowy business going on , however i accept it 's far more likely that it 's just the writers, 
+  * ceremonial sites * - each city and geoglyph in the empire generates points towards a golden age . 
+  upon the founding of the first four cities , recieve culture equal to half the cost of the next social policy . 
+  * unique improvement : * geoglyph , requires agriculture . 
+  provides +1 of a specific yield for each pre-medieval social policy tree adopted . 
+  this is increased to +3 upon the tree being completed . 
+  can only be built on flat desert tiles, 
+  * unique building : * puquios , replaces watermill . 
+  causes the city to become a source of fresh water , and as such does not need to be built next to an existing source . 
+  the yields for the ui are as follows :, 
+  tradition - food, 
+  liberty - production, 
+  honor - gold, 
+  piety - faith, 
+  patronage - science, 
+  aesthetics - culture, 
+  now , obviously this was n't all me . 
+  i 'm terrible at art . 
+  so i 'd like to take the opportunity to give credit to the awesome people who worked with me on this . 
+  / u/sukritact did the awesome map , as well as the dom and the icon for the ui . 
+  oh , and all of the lua and sql stuff . 
+  leugi did the leader screen and the ui model , as well as the civ icon . 
+  janboruta did the puquios icon , and chris sifniotis did the civilopedia for cahuachi and the nazca . 
+  all i did was put all of their work together and make sure it 's all working properly . 
+  finally , some links . 
+  the nazca can be downloaded from steam workshop [ here ] ( http://steamcommunity.com/sharedfiles/filedetails/?id=210267630 ) , and will soon be available on the civfanatics download database . 
+  it would be awesome if you could check out the [ more civilizations ] ( http://forums.civfanatics.com/showthread.php?t=494241 ) topic at cfc if you have n't already , since that 's where you 'll be able to get all the latest information on what 's coming next ( hint : it 's big . 
+  really big . ), 
+  edit : forgot to add the requirements for building a geoglyph . 
+  cheers to / u/vertikal19 for reminding me, 
+  edit 2 : just uploaded v2 to steam . 
+  changelog :, 
+  - nerfed geoglyph yield on completion of a tree to +2, 
+  - fixed strategic view geoglyph icon, 
+  - changed soundtrack tag , should now play american music instead of european, 
+  - lowered volume of nazca peace and war themes, 
+  cfc version should be up very soon, 
+  they can only be built on flat desert tiles, 
+  just flat desert tiles . 
+  the aim of the civ is that you expand a little bit early on to get a head start of the culture , then go tall . 
+  the ai is a real wonder hoarder , and i 've seen them complete an entire sp tree by turn 120 and begin a second one, 
+  i think it 's probably only a week at most , but we 've been working on multiple civs at once and been juggling real life commitments so it 's taken a couple of months from start to finish, 
+  it can be built anywhere - so if you 're in the middle of the desert , all of the tiles around a city with a puquios will have access to fresh water, 
+  we were having some issues with the strategic view icon in testing , but i hoped we 'd fixed it . 
+  i 'll take another look when i get back from work to see if i can find the issue . 
+  yeah , the start bias is set to desert but i think the game scraps it for a location with better fertility . 
+  as for the music , that could be because the soundtrack tag is set as america for leugi 's mestizo music mod , which makes all civs with the america use the new latin america soundtrack . 
+  i 'll talk to him and try to change it but still keep compatibility . 
+  the cfc version will be coming soon , which should work for macs . 
+  i just have to wait for sukritact to give me a transparent version of the atlas of icons so i can present it properly, 
+  aha , that 's probably it . 
+  i 'll have to double check , but i do n't think i used insertorabort, 
+  food is because some theories say they point to fresh water sources, 
+  production is for flavour, 
+  we 're planning to hopefully remove the flood plain bit at some point . 
+  it 's still in there because the ai seems to avoid flat deserts like the plague , so flood plains are often the only flat desert tiles they 'll have, 
+  i 've never been able to put them on resources , personally . 
+  does this work ? 
+  i think there 's an inuit civ somewhere , but i 'd love to do a tundra civ at some point . 
+  well , next up are a couple of splits . 
+  we 're splitting polynesia into hawaii , rapa nui , the maori and tonga . 
+  we 're also splitting india into modern india , the mughals , the maratha , maurya and chola . 
+  as far as single civs go , we 've got a couple on the cards , mostly from either eastern europe or africa . 
+  one of the more complete ones is minoa , which should be a science / naval civ, 
+  that 's the ultimate goal . 
+  we just need to try and find some way to make the nazca settle in flat desert when it 's the ai - otherwise they 'll never have cities where they can build the geoglyphs . 
+  flood plains are still in because the ai will settle there, 
+  i 'm thinking that 's what we 'll have to do , based on the feedback,

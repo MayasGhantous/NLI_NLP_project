@@ -1,0 +1,100 @@
+  i did n't read the whole code but if someone names a variable of type surveyresponse with the single letter r the problem is certainly not ef . 
+  navigation properties are great . 
+  if you turn lazy loading off why the hell would you avoid navigation properties ? 
+  so why not use ef for simple lookups and do stuff like this in a sp and hook it to ef ? 
+  consider this - the relations between countries are anarchistic . 
+  there is no state of states that enforces that states do not break the rules . 
+  if a state breaks a rule other states may gang up and use their combined war power to force it to play by the rules . 
+  in less extreme situations or when the state in question is too powerful they may use economic means to try to force that state into submission . 
+  the results so far are n't perfect but those who think that the world will collapse without government are clearly wrong . 
+  after all civilization exists for quite some time without higher authority, 
+  i wonder if . net would have been stronger without ikvm.net . 
+  sure in the early days things would have been harder but if it did n't exist the . net community would be forced to develop our own alternatives and hand-written higher quality ports of java projects . 
+  fun fact the # in c # stands for 4 plusses , 
+  nope . 
+  i 've used a lot of ref when doing word automation ( com ), 
+  certainly not . 
+  first of all navigation properties should be used instead of joins . 
+  second this query can be split and build separately and finally mixing ef with sps is not only allowed but good practice . 
+  use linq for the simple queries and sps for the complex reports . 
+  most projects have like 5 % complex queries so you still benefit from using ef, 
+  so you know his variable naming skills are bad but you are certain his use of ef is top notch and you know that had he written this in sql it would have been better ? 
+  in the words of the great joel spolsky, 
+   abstractions save us time working , but they do n't save us time learning . 
+  i have repeatedly said that if someone i work with on a project makes the claim that he may not learn sql because we 're using ef i will go to our boss and want him fired and quit if he is not fired . 
+  the first thing i do when setting up ef on a project is make it log every query to the output window . 
+  i do look at them . 
+  i am using ef because i have a lot of simple queries and very few complex queries . 
+  i like being able to refactor and have type checks . 
+  i like being able to build and reuse parts of queries ( say a method that adds paging to any query is non-trivial in pure sql . 
+  i do n't think the join thing really depends . 
+  for 5 years of using ef as the go to solution for data access i have written a linq join just once . 
+  if i needed to optimize a non-trivial query for performance i go directly to a sp . 
+  omg i am not alone . 
+  there are many of us hiding from the js zombies !, 
+  on the other hand php is even worse than js and still somehow lives . 
+  in javascript = = = is the short for = =, 
+  nobody starts new projects in cobol and cobol was n't bad for the time when it was created . 
+  both of these are not true for php, 
+  what do you mean `` entity driven '' . 
+  i design the database as i see fit and then add an entity for every table . 
+  i do n't see what i would be doing differently if i used sps ( as a matter of fact this is pretty much what i did when i was using exclusively sps, 
+  i am making a joke that the longer operator is the short one . 
+  typescript reduces the pain of writing js but it does not make it good . 
+  given the choice ( i.e. 
+  another language in the browser ) i would not choose typescript . 
+  typescript is like a pyramid built from shit ( i.e. 
+  javascript ) and the pyramid is one of the most stable shit constructions . 
+  others have been tried but none is so suitable given the material . 
+  also note that i admire the achievements of the ts team . 
+  building with shit is much harder than building with brick . 
+  what ? 
+  why ? 
+  if it is a massive legacy system then it is not a new project . 
+  well that 's not what i meant . 
+  let 's call it greenfield ( yours is brownfield ), 
+  oh boy i hoped we would have standardized on outfile by now . 
+  have n't we ? 
+  php is larger language ( more features , magic variables , etc. ), 
+  than js which is a negative for php . 
+  also with js you can share code between client and server . 
+  js wins by an inch . 
+  undefined, 
+  can someone explain why the price is significantly higher on bitfinex right now . 
+  should n't that mean that someone should be buying on other exchanges and selling on bitfinex ? 
+  i dislike this type of additions that add little value but overlap with existing functionality . 
+  it makes existing code that was just fine yesterday into code that is kind of `` old style '' . 
+  why are all your variables declared as var ? 
+  they should clearly all be let except for those which are changed . 
+  now go fix all your existing code to avoid confusing readers !, 
+  i get it if the feature adds a lot of value like lambdas vs anonymous methods but this case is not like this . 
+  i do n't know about this . 
+  you ca n't turn a language with 15 years of industrial legacy code into rust just like that . 
+  these proposals only add a small amount of safety at the expense of declaring all existing code legacy . 
+  readonly references at least only deal with structs passed with ref which are supposedly a rare occurrence but all the code in the world is full of variables and probably 90 % of them would be declared with let under the new proposal . 
+  naming things in code is not a skill ? 
+  i took two separate crypto courses on coursera . 
+  now i am scared of doing any crypto in production . 
+  mobile first , cloud first only makes sense in indian math . 
+  i do n't think this problem deserves the time of the c # team . 
+  while ideally this would be supported by the compiler in practice the pattern with hiding is good enough for all cases i have encountered . 
+  big block supporters do not want full blocks . 
+  not now , not in 6 months not in 10 years . 
+  rust is a language very suitable for crypto software . 
+  it is relatively new , developed and used by mozilla . 
+  think of the bugs that we see from time to time in bu being avoidable if the software was written in rust . 
+  not all bugs but some classes of bugs . 
+  so is jsx support extracted as a plugin ? 
+  excuse my ignorance but what does `` based '' mean ? 
+  ( sorry , not a native english speaker ) . 
+  is the top [ urban dictionary definition ] ( http://www.urbandictionary.com/define.php?term=based ) the way deplorables in service of kek use it ? 
+  this is actually the main theme of the movie . 
+  this is why it has `` pirates '' in the title - because they stole ideas . 
+  interestingly people who have premade opinion like to claim that the movie shows bill gates stealing from jobs while in reality the movie shows both of them stealing from whoever they can and being proud of it . 
+  it also shows that ideas alone are not worth much . 
+  the real genius is to bring an idea into the hands of the people . 
+  on the other hand the resurgence can make for a great sequel . 
+  they can even use the same actors just older , 
+  the potential js errors ts just discovered are the whole point of ts, 
+  i have 11 years of professional experience 7 using raw sql ( mostly stored procedures ) , 4 using ef . 
+  while i am not wildly in love with ef it has been a slight improvement .

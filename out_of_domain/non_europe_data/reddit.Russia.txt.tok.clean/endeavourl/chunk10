@@ -1,0 +1,100 @@
+  that 's my advice . 
+  edit : judging by your profile , you already spoiled your longevity in this game . 
+  i 'm giggling because this complaint and comments are in comic sans % ), 
+  since those macros are potentially life saving , you dont want to break them by spam clicking while they execute , right ? 
+  so to be sure , i use them with blockinput :, 
+  blockinput on, 
+  send { enter }, 
+  sleep 2, 
+  send / oos, 
+  send { enter }, 
+  blockinput off, 
+  return, 
+  sleep is there to ensure chat window had time to open , may not be necessary . 
+  also , ~ ( ` ) key is very convinient , it 's like your sixth potion . 
+  edit :, 
+  other macros i use :, 
+  / itemlevel :, 
+  ! i : : ; alt-i = itemlevel, 
+  blockinput on, 
+  send { enter }, 
+  sleep 2, 
+  send / itemlevel, 
+  send { enter }, 
+  blockinput off, 
+  return, 
+  rebind side mouse button to middle mouse , because clicking the roller is stupid :, 
+  * xbutton1 : :, 
+  send { mbutton }, 
+  return, 
+  i agree that logout macro is shady ( does n't mean it 's bad to use it ) , but when important game features do not have a hotkey and are * console commands * ( it 's 2013 ) - they 're bound to become macros . 
+  sendmode input ; recommended for new scripts due to its superior speed and reliability . 
+  i have this at the top of all my scripts , 
+  i 'm a big kripp fan and his d3 jokes are starting to get old . 
+  a [ thread ] ( http://redd.it/1bkqim ) for said macros . 
+  manual dodging is possible in d3 , but you have to do it at the start of the cast , which is much harder and with some attacks not humanly possible . 
+  itemlevel and oos are not intended to be a single key command ? 
+  sure . 
+  yes , all these are in a single file and as i remeber not returning executes the hotkey and all code below it . 
+  well i was n't sure if chat window would show up this fast and didnt really feel like testing . 
+  act ii has the most hard hitting and fast mobs ( e.g. 
+  stealth melee snakes , mages ( constructs ) , mummies ( returned ; extremely fast ) ) . 
+  act iv has a lot of debuffs and also illusionist incinerators throwing meteors everywhere . 
+  i imagine packs of mallet lords are pretty bad for melee . 
+   also there are those corrupted angels which have some kind of resistance to physical damage , so that 's no good either . 
+  those actually are resistant to the first dmg type they take , which is also shown by the color of their shield . 
+  they also can reset their resist in the middle of a fight sometimes . 
+  so , for example , if you 're dh - dont hit them with your hatred spender first , try make them resistant to your weaker generator-attack . 
+  yeah , we runned a4 quite a lot with friends for lulz/challenge . 
+  i even almost remember some of 10s of debuffs there :d, 
+  another interesting mechanic , and maybe not well known , if you 're interested :, 
+  ( although we have n't tested it , but it feels true due to damage differences ), 
+  the elite mobs melee has a + % from elemental damage affixes . 
+  arcane + molten + plagued/electrified hits a lot harder then the same mob without ele affixes . 
+  i agree it would be cool to have more things like this . 
+  ^ cough-poe-cough , 
+  i kinda feel bad for mors at the end , but he brought this on himself . 
+  also , lols were had . 
+  my personal solution - is using a build that doesnt allow you to fall asleep . 
+  for instance , with archon you need to stay in archon all the time or you wont be killing anything so i always keep myself going as fast as i can , dont stop for a second , take right turns etc. 
+  edit 13 hrs later because sleepy typos % ), 
+  i wondered where the original one went . 
+  why ? 
+  jesus , what a fake attention whore . 
+  glad i probably wont see anymore of him for a while after this link . 
+  edit : maybe i 'm terribly wrong , but i cant help but see a man acting cheaply on camera for attention/viewers/money . 
+  that 's just my view . 
+  wow this got downvoted . 
+  i , as a programmer , prefer when computer does stupid things for me as well . 
+  like pressing arrow key 400 times manually to load images . 
+  i immediately thought of some workaround to save all the images and then maybe assemble them into avi file . 
+  edit : like seriously people , do you have anything relevant to say instead of downvotes ? 
+  meanwhile , here 's my shitty php workaround : http://pastebin.com/1srjhjyv, 
+  edit2 : this whole subthread : http://i.imgur.com/tm0tntn.gif, 
+   or is it people like you who have taken intro to programming and use that little bit of knowledge to feel superior because you feel so inferior about everything else in your life ? 
+  seriously ? 
+  you got bitten by a programmer when you were a child or something ? 
+  jesus , those assumptions . 
+  what microsoft which acquired skype a bit more than a year ago ( or so ) has to do with it 's p2p architecture which by definition discloses your ip ? 
+  ( or the ip it operates from ) it 's the basis of the system . 
+  seriously people , would you prefer a dead silence from devs with a patch once in three months instead ? 
+  this is all work in progress , and by definition it 's not concrete , tenative and uncertain . 
+  you want the pvp thing again ? 
+  when they promised you a concrete thing and then canceled it because it didnt work out ? 
+  because that went so well , yeah . 
+  this is huge , just played in 3 man party with 1141 % xp bonus total !, 
+  2 hours of lazy testing of new areas gave me a whole level 76 -  77 , which is quite a lot of xp . 
+  poe style : area inhabited by mallet lords , pack size 40 % larger :d, 
+  tested , no archon tp still uses old broken pathing . 
+  got ta file a bug report . 
+  i guess it 's because they need some way of telling if the destination is valid ( e.g. 
+  not between the walls ) . 
+  walking path was probably the easiest and most reliable way of checking . 
+  * xbutton1 : :, 
+  send { mbutton }, 
+  return, 
+  this is my poe one . 
+  uses a side-button as middle button . 
+  reference : http://www.autohotkey.com/docs/hotkeys.htm http://www.autohotkey.com/docs/commands/send.htm, 
+  i dont know much about torchlight but i 'm familiar with ` map ' system in poe . 
+  it 's a tricky one .

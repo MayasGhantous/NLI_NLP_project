@@ -1,0 +1,100 @@
+  huh , never heard of that , maybe i was n't paying attention . 
+  hahahha good one yes :( (, 
+  but i literally started it today , never played it before for more than a couple hours, 
+  out of curiosity , when ? 
+   why should they ? 
+  well given the context of the discussion , so that 8 man-months could have been spent on something actually productive . 
+   what problems of theirs does any of those languages solve better than go - especially considering the fact that they came from python ? 
+  good point . 
+  i do n't know swift , but rust is definitely more complex of a language than both go or of course python . 
+  c++ does n't even solve security for you like rust does . 
+  i do n't think even swift does that . 
+   what was the state of rust in 2013 ? 
+  this was written in 2013 ? 
+  yeah rust definitely was n't a choice for production back then . 
+   i would consider working with the runtime team for go to make gc improvements a very good use of time . 
+  well rust does n't have a runtime or gc . 
+  it 's a bit lower-level than go tho , so you could still lose overall . 
+   so why do n't you use a language with that and is easy to use ? . 
+  which is why i 'm not claiming that they should 've picked rust , just explaining what prompted the op to write that they could 've . 
+  rust has no gc and fixes concurrency and safety for you . 
+  it 's also really fast . 
+  those three qualities are the context here , along with web dev , which is where rust seems to lose . 
+   i do n't think that 8 man-months have been looking the sky for the whole time , probably they have developed , designed , monitored , bug tracked like beasts . 
+  well other teams certainly , but this one seems to be fixing/tuning go-specific stuff . 
+   the main project developed in rust , servo , is slow as f **** and basically does n't work well with a lot of places, 
+  which has nothing to do with rust as a language itself . 
+   what evidence is there that these other languages would have been more productive than go ? 
+  in this context , you would n't need to spend 8 months fixing and tuning gc and go-specific problems . 
+  rust has no gc . 
+   in my experience with rust and c++ , you end up paying a lot in development costs because of inferior tooling , manual memory management, 
+  certainly , i 'm not arguing that rust is better overall . 
+  i definitely would n't see a reason to use it in a production project like this , go makes perfect sense . 
+  i 'm just explaining this particular situation is what rust excels at , and should be considered later . 
+   poor concurrency stories, 
+  um certainly not applicable to rust . 
+  rust solves concurrency and safety for you , fast . 
+   i see no reason to believe that these languages would be a silver bullet, 
+  you missed my point, 
+   i 'm not sure which fallacy this statement is, 
+  what, 
+   but i do n't think it answers the question, 
+  it certainly explains why the op mentioned those languages . 
+   it also pretends that twitch devs spent 8 man-months doing nothing but trying to reduce gc latency , which is beyond ridiculous . 
+  `` 8 months of reducing garbage collection timings at twitch '', 
+  assuming this was one guy , that 's 8 man-months . 
+  if it was a team of n , it 's 8n-man months . 
+  they have been working on other stuff in parallel i 'm sure . 
+  what, 
+  no one has to prove it 's impossible . 
+  the burden of proof is on the article 's side . 
+  in the context of the article i took it to be more of an illustration . 
+  right , it solves a different set of problems . 
+  however green threads can just be implemented in a library , they 're not an exclusive go features and other languages have had them a long time . 
+  have n't used rust for stuff like this , so i do n't know whether it actually has them , but that 's not the point . 
+  it 's a new language beating half of those benchmarks , i do n't see a problem . 
+  and never did i say it was faster than go . 
+   but when it comes to handling concurrent connections and lot 's of allocating to heap ( box and vec says hi ! ), 
+  jemalloc is not as fast as gc enabled languages . 
+  ok , i did n't know this, 
+   rust has thread system but does n't have builtin `` lightweight '' async primitives . 
+  again , it 's a new language . 
+  there is nothing magical about go , and rust can solve this issue with a library easily . 
+   there is also learning curve and ecosystem immaturity . 
+  yep true, 
+   not everyone wants to spend their time learning new language each week or writing proper http library ( which is hard - look at the spec ) . 
+  i genuinely believe rust is not yet another random language . 
+  it 's leaps beyond everything else . 
+   something socialists have wet dreams about, 
+  umm correction no we do n't . 
+  we have wet dreams about workers controlling the means of production , which basic income makes harder . 
+  that 's a social democratic measure at best . 
+  not even that because it 's actually used as a front to attack the welfare state by libertarians . 
+   it is important to stress that our definition of class is not for classifying individuals or putting them in boxes , but in order to understand the forces which shape our world , why our bosses and politicians act the way they do , and how we can act to improve our conditions . 
+  to expand on that , terms like bourgeoisie and petit bourgeoisie describe * social * dynamics , not * individual * dynamics . 
+  you can not singularly map individuals into these classes , as individuals all exhibit distinct and unique traits . 
+  if you 're persistent , you could say that we all fall on a certain spectrum . 
+  why is it a good idea ? 
+  to je lako predvidiv i rje\u0161iv problem . 
+  excellent crtitique but :, 
+   to get the object the pointer points at . 
+  otherwise * p = x would n't work , would it ? 
+  he did n't specify it returns an ** r ** value , so ** l ** values ( what you call ` object ' ) are included and that 's correct . 
+  or what would you say ? 
+  actually that 's a much more intuitive naming . 
+  except when you 're dealing with c++ which has more complex value classes . 
+  democracy is not synonymous with free market . 
+  the two are opposed . 
+  test it out on a tiny scale first , and then let 's talk possibilities . 
+  that 's a very un-marxist of you . 
+  communism as a movement is not some experiment of a technocratic elite , it is a struggle of the working class , guided by a vanguard party , in order to seize political power and establish the dictatorship of the proletariat . 
+  no other way is marxist . 
+  you do n't get to `` test it out '' -- you either have power , or you do n't . 
+   and put in place after communist attempts at running an economy from first principles had nearly destroyed the nation, 
+  neat how you 're glossing over the tiny fact that it was the russian civil war that destroyed the country , literally one of the largest wars in history . 
+  tens of millions dead , railroads and other transportation destroyed completely , famine , disease . 
+  courtesy of imperialistic capitalist armies , like 7 of them . 
+  still losing to the communists though . 
+   it failed in yugoslavia, 
+  sorry what ? 
+  it was much better in yugoslavia during communism .

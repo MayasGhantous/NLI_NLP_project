@@ -1,0 +1,100 @@
+  just set the gain at the speakers accordingly . 
+  the fasttrack pro has balanced connectors , and the krk monitors have them too . 
+  use a pair of xlr cables instead of rca , it will reduce the effects of the ground loop in your system . 
+  devede comes to my mind . 
+  it 's a free as in speech , cross platform authoring program , so you wo n't have to pirate it ^ to ^ ^ be ^ ^ ^ able ^ ^ ^ ^ to ^ ^ ^ ^ ^ pirate ^ ^ ^ ^ ^ ^ videos . 
+  [ yes ] ( http://www.devede.org/operation/ ) ( ctrl-f menu ), 
+  guitar cabs are good for only one thing . 
+  you wo n't get good bass from them , as most have a lower corner frequency at around 100-200hz . 
+  have you already bought the plugs ? 
+  it 's easy to do it without them . 
+  anyway , you 're supposed to terminate the speaker cable at the angled connector , fastening it with the screw , then you plug another cable that 's a few centimeters long , and plug the other end into the other connector on the speaker . 
+  oh , and this is n't biwiring . 
+  forget you 've ever heard that term . 
+  screens ca n't be overly bright , you can always reduce their brightness . 
+  it 's okay to be ignorant , but you should n't be an asshole at the same time . 
+  audissey is the proprietary digital room correction suite , audacity is the shitty wave editor . 
+  moot point , the vinyl is just as compressed as the cd . 
+  any kind of equalization will increase the `` dynamic range '' ( i 'd prefer calling it * crest factor * ) of a highly limited record , even error in the riaa pre - and de-emphasis curves . 
+  try putting some sort of an eq filter into the chain before the dr meter . 
+  the dr number will be increased significantly . 
+  naturally , this wo n't magically make the song sound as punchy as it might have been before `` mastering '' . 
+  never gets old !, 
+  the day my gpu revved up because of a rogue bitcoin miner was the day i switched to linux . 
+  true story . 
+  if i 'm a dumbass then so are you . 
+  i never install programs from untrusted sources . 
+  there 's nothing wrong with nickel . 
+  unplugging the cord will remove most of the corrosion that happens over the course of years . 
+  the difference is not so much in the frequency domain , but rather in the time domain . 
+  mp3 encoding is n't so accurate with volume levels , and this causes all kinds of problems during decoding , namely , many samples end up being over full scale ( below -1.0 , or above 1.0 on a normalized scale ) . 
+  so if you have a song that is barely below clipping , mp3 will likely drive some samples into saturation . 
+  on the first spectrogram , the encoder actually * did * remove everything above 16khz - lame will select the polyphase lowpass filter frequency according to the encoding quality , not the block complexity . 
+  during decoding there was clipping at some points in the track , and that 's what the energy above 16khz is from . 
+  you see this on the remaster because it 's most likely a lot hotter than the original one due to the [ loudness wars ] ( http://en.wikipedia.org/wiki/loudness_war ) . 
+  one way to get around this , is to apply [ mp3gain ] ( http://en.wikipedia.org/wiki/mp3gain ) to the track . 
+  this is a completely lossless process , meaning that it wo n't cause any further loss in quality compared to the original mp3 file , since it does * not * re-encode the file . 
+  it will evenly reduce the gain of the mp3 data blocks , putting the file back within the limits of the decoding system . 
+  the vinyl rip could even be alac . 
+  lossy compressed mp4 ( aac ) uses a lowpass filter as well as mp3 . 
+  i 'd be glad if i knew . 
+  browsers have exploits , i guess some infected website is to blame . 
+  [ time for a sine sweep !, 
+  ] ( https://soundcloud.com/5763-6146b/20hz-20khz-sweep ), 
+  so trole, 
+  wow !, 
+  why not break out of the vicious circle and give a free operating system a try ? 
+  linux mint kde is an easy distro for starters . 
+  the kde environment maintains many of the concepts that you might have gotten used to in windows . 
+  [ get it here ] ( http://www.linuxmint.com/edition.php?id=140 ), 
+  where 's the gain set on the amplifier and on the computer ? 
+  you should set the pc 's volume to 100 % , and use the volume control on the amp , this will maximize the dynamic range you can get from your system . 
+  if the amp has a toslink input , use it , it 'll break the ground loop . 
+  not much else you can do . 
+  with consumer-grade gear you 'll always get ground loops due to the lack of balanced interconnects , and a shammy power strip is n't going to fix that . 
+  good grief !, 
+  well i could say that you 'd improve the dynamic range by purchasing a decent usb audio interface , but you ' t probably be better off with another set of speakers . 
+  if possible , get the origin of the pdf file and edit it instead of using photoshop . 
+  you do n't want to rasterise any graphics prior to printing . 
+  if this is n't possible , scale the document during importing , and avoid using the transform tool . 
+  if you 're using photos stored inside a pdf , there are different ways to extract the jpeg 's . 
+  sorry , no . 
+  you 'll have to rescan this at a higher resolution . 
+  alternatively you could retrace every line by hand , but that 'll be a lot of work, 
+  still , the adc is powered by a dc power source which will limit its range of operation , and there will very likely be a resistor at room temperature in the recording chain whose noise will be a lot lot higher than the lsb of a 32bit word . 
+  24bit is really the limit that non-cryogenic equipment can do ; there 's no point in recording anything higher unless you start cooling your preamps with liquid hydrogen ( and then , power amps with 24bit dynamic range are rare as well ), 
+  not unless his great-grandfather is also his grandfather . 
+  [ the cheapest mixer i can think of ] ( http://www.futurlec.com/res14wmmfb.shtml ), 
+  is there no way to do it in software ? 
+  the bit depth is absolutely ridiculous ; vinyl hardly has more than 10 bits of resolution . 
+  even 16 bit is overkill . 
+  but you can use digital volume control on a 16 bit file and have no loss of resolution if you have a 24 bit dac ; you do n't need a 24 bit file to begin with !, 
+  digital room correction . 
+  measure the response of your system using a calibrated omnidirectional microphone at the listening position , generate filters that have an inverse response , apply the filters during playback to reduce the distortion of your speakers and room . 
+  and no , having a higher resolution file will not mean you get better results from drc . 
+  you need power amp headroom more than anything in that case . 
+  it does . 
+  but hey , bling !, 
+  unless you use a notebook computer , your computer 's onboard dac should be adequate . 
+  all you 'll need is a stereo amp to drive the speakers , and a pair speaker cables ( any regular lamp cord will do , basic 1.5 mm ^ 2 wire for 3m length is okay ), 
+  can you jam with the console cowboys in cyberspace ? 
+  alternately , sox, 
+  pros : simpler command scheme , many audio effects, 
+  cons : wo n't handle muxed media, 
+  gaucho is nothing like that . 
+  which release is that ? 
+  a remaster ? 
+  edit : [ plotted the mofi version ] ( http://imgur.com/02salor ), 
+  sorry for not labeling my axes , i 'm on my mobile . 
+  do n't look at dr scans of ripped analog sources , the measurements are unrepeatable and not representative of the negative effects of the loudness war . 
+  openwrt runs fine for me with 32mb of ram and with ample swap space . 
+  seeding a bunch of torrents does n't impair the device 's ability to work as a router . 
+  there 's an x86 build you can run in a vm . 
+  a raspberry pi works for what you 've described . 
+  passthrough works fine , but you could run into problems if your amp does n't support it i guess . 
+  files often come with a secondary ac3 stream , that might help in that case . 
+  you should never expect proprietary apps to provide secure encryption . 
+  free alternatives exist :, 
+  if you wanted to boost at a given frequency , you could also cut at every other frequency ; i.e a bell boost can be replaced by a low shelf cut and a high shelf cut . 
+  this is not about being the inverse , the responses will be identical , except for the gain . 
+  your pickups have an output impedance in the range of tens of thousands of ohms .

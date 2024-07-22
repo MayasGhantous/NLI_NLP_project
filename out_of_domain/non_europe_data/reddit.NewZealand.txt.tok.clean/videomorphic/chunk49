@@ -1,0 +1,100 @@
+  new slides can not be delivered on demand . 
+  turing machines do n't have infinite memory , they have arbitrarily as much memory as they require . 
+  python is turing complete because it is possible to compute , in theory , any computable function using python . 
+  this language is n't turing complete , because you have to predetermine before you see the input , the number of memory cells . 
+  what does that have to do with anything ? 
+  if you have a fixed number of memory cells , then you ca n't compute any more than a finite state machine could . 
+  hypothetical machines can have as much memory as you require on demand . 
+  they do n't have to actually have infinite memory . 
+  turing machines do n't have to be able to make an infinite jump on the tape ( that is , jump somewhere so far from where they were before that they could never make it back through any number of normal steps ) , they just have to have unbounded memory . 
+  a turing machine could be implemented in python , as python ( as a language ) has no limits on the amount of memory that could be consumed . 
+  this powerpoint language is different : it has a fixed , predetermined number of memory cells . 
+  this has nothing to do with ` existing implementations ' or ` vms ' . 
+  push-down automata have unbounded but finite memory , just like a turing machine does . 
+  the difference is that push-down automata can only access their memory as a stack . 
+  that means that they have to forget anything at the top of the stack to access anything further down , in a certain sense ( that 's very fluffy though ) . 
+  programming languages are not the same as programming language implementations . 
+  python ( the language ) is certainly turing complete . 
+  only languages can be turing complete . 
+  c , on the other hand , probably is n't : it can not represent unbounded memory . 
+  i do n't think it can , anyway . 
+  not sure how it could . 
+  pointers have a fixed , predetermined size . 
+  you would have to work out how much memory you were going to need before computing the problem , which precludes emulating a turing machine . 
+  well of course , implementations are n't theoretical constructs . 
+  the inherent limitation of the programming language presented is that it can not request the creation of more slides from powerpoint . 
+  if it could , then it probably would be turing complete . 
+  no , this is not about how it 's implemented in practice , it 's how it 's conceptualised . 
+  the inability to have more than a fixed , predetermined number of slides is not a resource limitation , it 's a fundamental inability for the language to express more than a finite amount of memory . 
+  there is no possible way to express an infinite tape . 
+  you can do it in python , you can not do it in this language . 
+  it 's fundamentally less expressive in a very important way . 
+  that 's not a practical limitation , and it 's nothing to do with the implementation . 
+  it 's a language limitation . 
+  but you miss the point i think . 
+  you ca n't ask for new slides on demand . 
+  you can create new objects in python at runtime . 
+  but in powerpoint you ca n't express the concept of an arbitrarily extending tape , at all , in any way . 
+  in most languages you do n't have any explicitly infinite objects , but you can at least create new objects on demand , so you can have arbitrary memory , determined at runtime . 
+  it 's not limited to some before-decided value . 
+  this is n't an implementation thing , it 's a purely theoretical idea . 
+  no , you are * still * missing the point . 
+  there are a limited , fixed number of slides . 
+  this number is set before you start the programme . 
+  you can not express the following programme :, 
+  step 1 : move right one place, 
+  step 2 : go to step 1, 
+  no you can not . 
+  you have a limited , fixed number of slides that you set at the beginning . 
+  that 's the language presented here . 
+  no , you do n't understand . 
+  there is still a fixed number of memory cells , a fixed number of slides . 
+  the title is n't `` the language i implemented a practical version of in powerpoint is turing complete '' , it 's `` powerpoint is turing complete '' . 
+  the powerpoint slides are the language . 
+  pep8 is n't meaningless . 
+  the linux kernel coding standards and k&r are n't meaningless . 
+  gofmt is n't meaningless . 
+   i personally use tabs and have my editors set up to work with tabs . 
+  however sometimes when i work in haskell particularly i like using spaces ( to prevent compiler warnings ) . 
+  with editor config , i can convert all my tabs into spaces for haskell files , and for open source projects , i can provide these settings to maintain code styling conventions . 
+  you can already do that though . 
+  you just configure your text editor normally . 
+  as can all the other things . 
+  most of them should just be the default , and the rest seem more personal to me than anything else . 
+  it has nothing to do with aesthetics . 
+  messy code is a sign of a messy mind . 
+  well you should just use vim then . 
+  it does n't matter if it 's meant to be funny . 
+  the author was n't joking when he claimed that his language was turing complete . 
+  yeah you could , in the same way that nfas are equivalent to dfas in their expressive power as you can represent every combination of states in an nfa as a state in a new dfa . 
+   i 'm curious . 
+  you seem to be comparing a language with an implementation of a language and concluding that a ! = b. 
+  not at all . 
+   any language implementation that can do dynamic allocation is just as turing complete as python - there 's nothing special about it . 
+  that 's not true . 
+  c can not represent more than a fixed number of objects , as the language specification requires that pointers have a fixed size ( which is up to the implementation , but ca n't be infinite and ca n't change during the runtime of a programme ) . 
+   so what makes python special ? 
+  does it use variable-length infinitely expandable pointers ? 
+  and would n't that make it terribly inefficient on traditional fixed-width processors ? 
+  python does n't have pointers . 
+  pointers are n't part of the language of python . 
+  it 's obviously a little murky with python as there is no specification , but if you use python there 's no mention of fixed-width anything anywhere . 
+  python does use variable-length infinitely expandable numbers . 
+  that 's not terribly inefficient , relatively , when you have to look up 10 hash tables every time you call a function . 
+  scheme is a better example , as it has a specification ( which does n't * require * implementations to limit the number of objects in memory ) . 
+   i disagree completely , this is a flawed comparison . 
+  the python spec already gives a number representing the maximum size containers ( and thus , everything ) in the language can be, 
+  no it does n't , as there is n't a python spec . 
+  if there were , it would n't . 
+  the documentation for cpython limits the maximum size of containers , but that 's not relevant . 
+  even if python had a specification and did limit the size of lists , that would n't have any real effect : python has general recursion . 
+   so it is not unbounded , and python which includes unbounded memory does n't exist . 
+  neither do turing machines or pushdown automata . 
+  everything , ** everything ** in the real world is a finite state machine . 
+  but we 're not talking about the real world anywhere in this thread . 
+  this is about the language python , and the language python is turing complete . 
+   if you 're going to argue based on some `` theoretical python '' , then you should also be arguing based on some `` theoretical c '' . 
+  c could easily represent unbounded memory if you removed a few restrictions placed on it by the spec ( in particular , size_t should be allowed to be arbitrarily long , and pointers would not have to be a fixed size ) . 
+  well that 's not what c is . 
+  `` this language is turing complete if you actually pretend it 's another language that it is n't '' is a poor argument . 
+  c is n't turing complete , probably , and that 's interesting .

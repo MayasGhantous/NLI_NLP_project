@@ -1,0 +1,100 @@
+  price :, 
+  $ 400 for server blade ... you can go cheaper if you want , it does n't have to be powerful at all . 
+  $ 10/month for 10tb on google drive . 
+  $ 8/month for github with private repos ... you can always go with bitbucket or any other free git solution , i 've always used github professionally so that 's my preference . 
+  at the end of the day , just do what works for you , 
+  i 'm a huge fan of unistorm . 
+  it includes dynamic clouds and a ton of other weather / time of day / fog features . 
+  great to learn from as well . 
+  its a bit pricey but way worth the money . 
+  if you click on `` download from asset store '' , it 'll bring you to the asset store page . 
+  it says $ 15 on there . 
+  love it !, 
+  looks great and interesting , would play . 
+  only piece of feedback is that the ship is dark and small , which makes it hard to see . 
+  try adding some vibrant colors to make it stand out a bit . 
+  he * might * be asking about shaders . 
+  what a shame , he probably loves that hat . 
+  have a check to see if you 're gathering and check to make sure target is that actual trigger . 
+  then , ontriggerenter2d do a check for if gathering and if target . 
+  if not gathering and is target , start the invoke . 
+  that picture is worth a thousand words , and nothing i can say will do it justice . 
+  great starts on this , keep it up !, 
+  love being able to see that you put in a piece of each cool thing you 've learned . 
+  i have yet to dive deep into working with reflections in unity . 
+  how did you go about creating the mirror ? 
+  let me know if you have any questions . 
+  threw in a bunch of different concepts into there and ways to use them . 
+  that definitely is the # 1 place . 
+  make sure you also optimize you imports afterwards . 
+  here 's an amazing helper i use that is beyond worth the money ( $ 10 ) : https://www.assetstore.unity3d.com/en/#!/content/8162, 
+  instead of nesting lists , take a step back and brush up on how object oriented programming works and how interfaces work . 
+  till save you a butt load of time . 
+  sir , you created what is classified as a `` feature '' . 
+  which version of unity are you using ? 
+  if you 're on 5.2.0 b2/b3 , i recall seeing regression fixes around then in the patch notes so update . 
+  otherwise , it may be an issue with not using the eventsystem properly , which happened to me earlier this year . 
+  here 's a great place to start ( and spend some time with this , it 'll save you countless hours in the future ) :, 
+  welcome to the wonderful world of unity . 
+  i would suggest checking out the two fps prefabs that come in the example project , along with tutorials that capture your interest on the unity site . 
+  one of the first things you will notice is one uses the character controller , the other is a non kinematic rigidbody . 
+  non kinematic rigidbodies are controlled by physics , kinematic are controlled by position transforms ( such as charactermove controller ) / mecanim / et cetera . 
+  since you 're only starting off , pick one of those two prefabs and go back to it in a few weeks . 
+  doing this will save you time in the long run , prevent unnecessary frustration , and there are better / more fun ways to learn how each piece works individually . 
+  go prototype a piece of your game at a time . 
+  create a scene , start popping down some cubes and spheres . 
+  start learning how monobehaviours work and what this base class can do , then learn mess around with collider 's with and without triggers , and then jump into mecanim . 
+  use mecanim to learn how triggers work and how to do state changes , mecanim will help you visually debug everything . 
+  go crazy and create some animations . 
+  next , start learning a bit about lighting and materials , along with the pbr system . 
+  this will move you into learning inheritance , delegates , and events . 
+  this will make you feel like a scrub for some of the previous code you wrote before . 
+  at that time , you will start creating interactions between objects and the more you add , the more you will realize that you code is still too dependant on each other , so you will dive into interfaces , which , coupled with everything else , will make sense and be a blessing . 
+  in-between those steps , you 'll also stumble into the ui system , editor scripting , serialization , scriptable objects , particle systems , and a bunch of other awesome things . 
+  then you will go back to the character movement / camera script and be like `` yup , each piece of this makes complete sense , and now i can even add these amazing features to it i would n't have thought of before . '', 
+  one thing you can always try is remaking the event system object . 
+  then , disable touch input and enable standalone on mobile . 
+  if that pops it , narrows the issue down significantly . 
+  the way i described is how i did it . 
+  i put in a steady 100 hours a week into unity since november ( saved up money and taking time off to better myself as a programmer ) . 
+  the way i described is what i did after i switched to 3d from 2d , and i could n't be happier with where i am right now . 
+  i 've been programming for 10 years now , seriously for the last 6 , professionally for 4 . 
+  my best advice from my experiences in unity is learn a little of each system and think outside the box ( like an engineer ) as to what else you can utilize what unity already offers . 
+  oh , and do n't make scripts dependant on each other , each script should only do what that script is meant to do , nothing more . 
+  unity tutorials ( especially newer ones ) will teach you this concept very well . 
+  be sure to read up on interfaces , delegates , and events in c # . 
+  interfaces take decoupling an extra step further than abstractions . 
+  each way has a different use case scenario where its better than another so read up on all of the responses you receive here and see which is best for each case at that point . 
+  totally works . 
+  there 's a bunch of streamers on twitch under game development that stream pixel art creation constantly too , 
+  you could not be more correct . 
+  the way it stands , monobehaviour promotes bad programming practices . 
+  uibehaviour promotes taking a minute out of your life to learn a handful of concepts ( which all have at least 10 tutorial variants each on unitys site ) that will enable you to do more and in a better way . 
+  what are you texture / sprite sizes set to in the importer ? 
+  if they 're above 1024 , turn them down to 512 compressed + bilinear + ansio to 0 . 
+  i had this happen a few months ago on the adt1 . 
+  if that does n't work , try forcing opengles2 instead of 3 and see if that gives you a different result . 
+  if either of these do anything , you 're hitting the os set memory cap . 
+  since no one has replied yet , congrats !, 
+  i read it on here originally . 
+  totally deserves being up there  great work . 
+  there 's a lot of amazing base guidelines posted all over the manual portion of the documentation . 
+  i overlooked that whole portion for way too long , make sure you check it out , 
+  a quick way to fix that is to set it to dirty so disable and reenable the component after setting it . 
+  this is an easy way to essentially set it to dirty so the canvas regenerates it . 
+  a better way to do it is to have it disabled , set the settings , then enable it . 
+  edit : https://github.com/pwentrys/scrollablepanelexample/, 
+  see gh link in my edit . 
+  out of curiosity , what issues do you have with using the built in statebehaviourmachines and the built in animator for this ? 
+  using this , you can just create a base template for each action and reuse it on every element that will do the same type of action . 
+  plus you get the added benefit of a visual debugger . 
+  if you 're just unsure of how to utilize this , let me know and i 'll be happy to throw you some examples that will make this a piece of cake , and no need for anything external . 
+  glad you got it working . 
+  fell free to check out the repo if you ever want to see how to utilize just the base unity components to get all of that working . 
+  i threw in a bunch of other types of concepts into there too to show some other simple things you can do . 
+  * shrug *, 
+  what you do n't see is that he 's surrounded by multiple cloaked enemies shooting cloaked bullets at him as he does his morning jog . 
+  how do i you expect it to look ? 
+  can you provide a specific visual example of what you 're looking for ? 
+  it also falls down to any other operations you are doing that might be blocking the rest of the updates . 
+  check out the profiler and do a deep profile .

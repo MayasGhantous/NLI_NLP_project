@@ -1,0 +1,100 @@
+  my current theory is that it has to do with level . 
+  i 'm only 37 . 
+  yea that was what i figured the answer was . 
+  figured i 'd ask to see if my experiences where completely out of whack . 
+  oh well i was a warrior main many moons ago when i played wow . 
+  i 'll continue leveling up my marauder and use that to grind seals etc. 
+  i have two friendship circlets . 
+  is there anything i can do with the second ? 
+  i ca n't trade it to a newbie to let them use it . 
+  it feels like i should just sell or discard it . 
+  this is largely a reskin of ingress . 
+  all of the pokestops and gyms were initially based upon that data . 
+  you can also just talk to anyone with the sprout symbol in the inns . 
+  how accurate are se 's maintenance announcements ? 
+  if they are n't accurate are they usually under or over ? 
+  i 'm currently on sargatanas , but it feels kinda dead when i play in the evenings after work . 
+  generally around 8pm-2am pdt ( curse you patch times ) . 
+  any suggestions on a na server that is active in that general time zone ? 
+  i bought a microsoft surface pro 4 the other month . 
+  great laptop , horrific trackpad . 
+  that is the flagship windows laptop and it has a pos trackpad . 
+  you ca n't pull a no-true-scotsman here . 
+  buy youtube red ? 
+  then it does . 
+  think of every form you have filled out in your life . 
+  they almost will all have two spots for your name . 
+  one for your first and one for your last . 
+  some will have a third slot for your middle name or initial . 
+  ipv6 is kinda like that . 
+  most applications are designed for names of 32bits of information ( ipv4 ) . 
+  in order to support ipv6 everyone has to go back and change their forms to support 128bit long names ( ipv6 ) . 
+  the process takes a very long time , and up until recently was n't an immediate business concern so many businesses put it off , or are still putting it off ( it is a point of contention at my job for sure ) . 
+  now that we are basically hitting the end of all ipv4 addresses , note this is not 100 % true and their are workarounds to stop the worst of it , you are seeing prices of not supporting ipv6 increase . 
+  and with this increase you are seeing companies have a legitimate business concern pushing them to fix it . 
+  as such you are seeing a rapid increase in ipv6 adoption . 
+  iirc youtube released some stats a bit back saying something like 10-20 % of all traffic on youtube is now ipv6 instead of ipv4 . 
+  i imagine within the next 5 years you will see 80 % of the internet move to ipv6 . 
+  there will still be hold outs , but work arounds for that is much cheaper and easier than working around for big things like video . 
+  you are both right and absolutely wrong . 
+  a salt works by storing the salt adjacent to the password hash . 
+  for example i have the password `` hunter2 '' . 
+  i then generate the salt `` abcd '' . 
+  to hash the function you join the salt to the password getting `` abcdhunter2 '' . 
+  i then throw this into a hashing function . 
+  for kicks and giggles lets say this spits out `` foobarbaz '' . 
+  cool i now have a hashed password . 
+  to store it you would store your hash and salt either in different columns or more traditionally as the first n characters of the password column in the database . 
+  hence you would store `` abcdfoobarbaz '' . 
+  now then i want to check if your new password `` hunter3 '' is the same as `` hunter2 '' . 
+  to do this i can go through a history of every password you have used , grab the salt from each one , and rehash it . 
+  finally you compare `` hunter3 '' with the salt `` abcd '' against `` hunter2 '' with the salt `` abcd '' . 
+  if they match you report an error . 
+  if they do n't you generate a new salt and store `` hunter3 '' with your new salt `` bcde '' in the database . 
+  for those at home do n't implement your own salting and hashing functions , just use a standard library with functions like bcrypt or scrypt . 
+  i was replying both to your original comment an the follow up :, 
+   if they can tell more than whether the two passwords are identical , they 're not doing security right . 
+  uhh , i was responding to toasterboat not you , your response was correct . 
+  i 'm pretty sure this is generally true . 
+  i have some friends who live in utah and they make 70-90k for mid level programming jobs . 
+  jobs that would earn 140k in san francisco . 
+  their cost of living is astronomically cheaper , houses costing $ 200-300k vs sf 's 800k-1 .4 m. 
+  the only way sf is better pay is if you win the startup lottery . 
+  the us government claims that you owe it taxes for 10 years after giving up citizenship . 
+  its a pretty rotten deal . 
+  granted if you decide to never go to the us again then you are pretty safe . 
+  not the author but i had a gz250 and was commuting on it . 
+  i could hit 70 mph with a good tailwind while going downhill . 
+  this was insufficient for commuting on freeways . 
+  in addition the bike basically felt like it was falling apart . 
+  upgraded to a fz6 and the commute was safer and more comfortable . 
+  talking about h1bs in america is hard because there are two camps of h1bs . 
+  companies like mine which use them to bring people from europe , south america etc because they are the smartest person we can find at that moment . 
+  then other companies where they are just labor farms of indentured servants . 
+  i was always told it was how they looked after they went splat against the asphalt . 
+  they looked kinda like a squid . 
+  i still believe the scottish parliament building deserves the title . 
+  particularly with how close it is to holyroodhouse and other beautiful buildings . 
+  gpu drivers are orders of magnitude more complex than what ever tcp ( if not http ) protocol they are using to control the lights . 
+  the jib is a triangle sail attached to many types of ships , [ like so ] ( https://metaversesailing.files.wordpress.com/2012/11/fj-sail-rig.png ) , although most modern boats only have a jib and a main sail . 
+  one of the jib 's primary purposes is to direct the wind in such a way to create lift with the main sail . 
+  so as the wind and boat shift you are continually adjusting the `` cut '' , or how loose/tight the jib is in order to adjust the power of the boat . 
+  if you get the jib at the right angle the boat goes a lot faster . 
+  if you cut the jib at the wrong angle the boat will go slower . 
+  at that price definitely voss , but think of the fancy glass water bottle it is being served in / s, 
+  i was so heavily pressured by the dealer to give all fives the last time i bought a car that i did n't . 
+  i even left a comment about how they tried to strong-arm me into giving a perfect score . 
+  this was actually the main reason i left wells fargo . 
+  the first time i was tricked into opening a new account in order to avoid fees . 
+  i quickly realized i had been lied to in order to meet quotas and got them to change my original account type and close the new account . 
+  second time they offered the `` holiday '' accounts to protect your accounts . 
+  once they set it up i then realized it was just to charge me fees , got those accounts closed . 
+  at this point i decided to move elsewhere . 
+  went to charles schwab . 
+  the other thing that drove me insane about wells fargo was the monthly call about how they could lower my car payment . 
+  umm , i have a 0 % car loan . 
+  are you going to pay me to transfer my loan ? 
+  if so sure i 'll transfer it , and then immediately pay it off with money i had in the bank . 
+  i quit a job because they were a month behind on paychecks . 
+  the first paycheck was a few days behind , the next paycheck was a few more days behind , etc. 
+  still got unemployment .

@@ -1,0 +1,100 @@
+  the implementation should n't differ much from normal numbers . 
+  sorry for the slow reply though . 
+  yes , pretty much usually i call '' . / script.py & '' because i prefer having a shebang in every executable . 
+  the ' & ' sends the process to the background . 
+  if i ever need something to run for way longer than i 'm gon na keep the terminal around , say , when i 'm sshing to my server , i use gnu screen . 
+  using ' & ' and killing the terminal will kill the process itself after a little while . 
+  there 's an easy eay to check for dismissed notifications in android above versions above 4.3 . 
+  go to your homescreen , create a new widget ( it may also be named a shortcut ) , find the `` settings '' one and when given a choice which setting to choose , go for `` notifications log '' . 
+  there you will find a bunch of old notifications . 
+  hmm , that 's very odd . 
+  here 's how it looks on my phone : http://imgur.com/t0ldbqq, 
+  if you 're using the default samsung touchwiz launcher ( or if you have no idea what 's a launcher ) you may benefit by temporarily switching to something like nova launcher and trying it out there . 
+  also , make sure there 's no separate shortcuts section or something like that , because technically it 's a shortcut rather than a widget . 
+  that 's exactly how fractals are made . 
+   you must be new here . 
+  ss is waaaaaay simpler with markov chains rather than fancy neural networks . 
+  `` your pump is like tomorrow and you can never reach tomorrow , because once it 's tomorrow , then it 's today again '', 
+  well i 'd say it 's pretty obvious that companies usually take back reference devices . 
+  hey guys , need some advice . 
+  i have two slrs currently , one pentax k-x that our family has had for years , and a zenit et , that our family has had for generations . 
+  the lenses i have are, 
+  * kmz helios 44-2 58mm f/2, 
+  first two came together with the pentax and the third one with the zenit . 
+  i 've been having a lot of fun with the zenit and film recently , but i wanted to but the helios lenses on the pentax . 
+  any pointers as to what adapters or something else i 'd need ? 
+  also i thought about buying some new gear , any ideas where should i start off with ? 
+  is the k-x good enough body or should i go for a new one ? 
+  i may try to snag some older soviet lenses form a flea market , anything to look out for ? 
+  that 's literally theft , do n't you think ? 
+  you never own the device , it always stays the property of the manufacturer . 
+  how does it compare to django and flask ? 
+  usually the company takes care of such things . 
+  that 's literally the most beautiful board i have ever seen . 
+  thanks for taking the time to write this post , op . 
+  there are definitely things i did n't know before . 
+  would n't say it 's too ambitious , rather a little bit complex . 
+  anyway , here are some quick ideas on how i would do it :, 
+  * first of all , let 's assume you successfully got the video stream from twitch . 
+  i believe it should n't be too hard . 
+  * if the donation pop-up stays on the screen for something like 3 seconds , you only need to analyze a frame every three seconds , that is if the framerate is 30fps , you only need to take 1 out of every 90 frames . 
+  however , i 'd be more generous there and take a couple more , just in case . 
+  * crop the frame to exclude unnecessary area , leaving only the place where the text might be . 
+  this will help speed things up significantly in the next steps . 
+  * check for any static images that always appear on the donation image , for example , a `` $ '' sign or a thank you text or something else . 
+  * using opencv check wether the static image appears in your frame . 
+  if no , you can just scrap the frame and move on to the next one . 
+  * otherwise , you need to ocr the frame . 
+  training with opencv to recognise the particular font would be the best case , however , something simpler , like tesseract might suffice . 
+  i hope i was clear enough about my ideas . 
+  your project sounds like a lot of fun , good luck !, 
+  `` compilation benchmarks ! '', 
+  ahh , mechanical keyboards , fountain pens , let me guess , expensive audio gear as well ? 
+  what switches does it have ? 
+  razer is notorious for being not so good at the quality of their products . 
+  yea , that 's a problem with many gaming companies - they spend a bunch of money on advertising and sponsorships , but cheap out on the actual products . 
+  take a look at / r/mechanicalkeyboards if you ever plan on buying a new one !, 
+  mkbhd answered this question in the / r/android thread , he said it was similar to the ~ ~ s6 ~ ~ s7 afaik . 
+  mkbhd is doing a small ama over at the thread on / r/android , might be worth a visit, 
+  sure , here it is : https://www.reddit.com/r/android/comments/4o2f8t/oneplus_3_review/d490npp, 
+   speaker is just slightly better than the s7 , but that 's not saying much . 
+  mixed up s6 with the s7 , whoops . 
+  i 'd guess they 're similar . 
+  speakers on s7 were n't something great , neither were the ones on opo . 
+  you synced the hardware clock while setting the time , that 's why the time screwed up on windows . 
+  some os just adjust themselves to the hardware clock and use it as relative time rather than exact time . 
+  that 's what linux does , not sure about windows , but simply setting the correct time on windows should suffice . 
+  ca n't make it out clearly , but is the cable completely round , unlike the flat one with the opo ? 
+  ehh , sucks . 
+  the flat cable was a really smart gimmick . 
+  now maybe a good time to recommend trying out linux . 
+  installing pip is as simple as, 
+  or any other distro equivalent . 
+  and then, 
+  and you 're done . 
+  try figuring out what this part does, 
+  int remainder = n % 10 ;, 
+  learn about modular arithmetic and what ' % 10 ' does in particular . 
+  he should 've hidden his stuff in drugs to confuse the dog . 
+  pretty sure this is about the last time they payed out money . 
+  a big chunk went to some company for replacing the terms `` master/slave '' with `` leader/follower '' in all of mozilla 's source code . 
+  it was very controversial and stupid by them . 
+  i 'm sure this is a sarcastic reference . 
+  how exactly is this hacking related ? 
+  there 's no actual hacking of any sorts in here , only a rather basic automation script . 
+  that was last time . 
+  now it 's mainly tor and tails , both of which are amazing pieces of technology . 
+  i re-read your comment thrice now and i 'm sure it 's sarcastic . 
+  i 'd recommend putting / s next time , it 's easy to get lost . 
+  hey cmon they had a guy with a red flannel , atleast give them that . 
+  ok that 's a minus for them, 
+  well there goes nothing, 
+  while the idea may sound really neat , it is actually incredibly heavy on performance . 
+  the reasons are similar to those why mirros usually do n't work in games . 
+  this is a very good post on / r/gaming explaining everything in very technical detail : https://www.reddit.com/r/gaming/comments/12j1jn/i_do_graphics_programming_in_games_this_is/, 
+  that 's really amazing !, 
+  the board looks sexy af, 
+  how much does it weight though ? 
+  one problem with usual electric boards is that they make a very hard ride after the battery dies because they 're too heavy . 
+  some blackwidows use cherry mx switches . 
+  picked up both for a total of 70 $ .

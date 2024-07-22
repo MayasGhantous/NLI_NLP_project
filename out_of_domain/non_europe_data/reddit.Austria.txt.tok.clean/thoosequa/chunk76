@@ -1,0 +1,100 @@
+  as for your `` question '' , your loop doesnt go from 1-20 because it only goes from 1-10 , so what could you change to increase the number of iterations ? 
+  edit : there are a plethora of more issues i spot while looking at your code . 
+  the variable n or i were never initialized . 
+  why do you need the array ? 
+  all you want to do is, 
+  for i starts at 0 , increment i each turn , repeat as long as i is less than 20, 
+  if i is an even number, 
+  exit for, 
+  fairly popular gaming youtuber, 
+  bingo , did the same on my first riding lesson as well . 
+  was afraid of stalling the engine so i gave a little throttle , released the clutch a little bit more but the bike refused to move . 
+  got impatient , more throttle , still not enough clutch , more throttle and suddenly the bike pulls away . 
+  panic ensues and i give more throttle and less clutch , bike pulls away harder . 
+  i 've been lucky that i did n't trash the bike or kill myself but this was a very tough lesson . 
+  the following two hours on a bike were extremely shit , since i was constantly scared i 'd do the same mistake again, 
+  get the book `` computer networking - a top down approach '' by kurose and ross , do n't buy it though , just rent it from your local library . 
+  it gives an extremely in depth view on how networks work . 
+  http is fairly extensively mentioned iirc . 
+  stalling is better than mowing down what 's in front of you , that 's for sure . 
+  / u/trpcicm sidebar worthy ? 
+  yes but it does n't do much , it 's mostly optimized settings , regular updates from bi and a little bit placebo that boost your fps, 
+  thats like saying you ride without tires because you are afraid in case of an accident the spokes will fly off and pierce you, 
+  read the sidebar `` posting guidelines '' 01 . 
+  ask questions the smart way ... '' . 
+  this should give you a good indication of where to start . 
+  without knowing what you have tried ( assuming you tried anything ) and without knowing what your code looks like so far this is impossible to answer . 
+  this is also very dependent on the operating system you use etc. 
+  no the cb500f/x/r is exactly 35 because it was tailored to be an a2 bike, 
+  where do you live ? 
+  here a1 and a2 are identical in material , just diffferent in outcome, 
+  having a bike in the garage right now and no license . 
+  it feels like an itch under your fingernail that you ca n't quite reach, 
+  oi , i see you too bought a cb500 . 
+  looks like our situation is oddly similar , friend . 
+  this list has thenewboston right as their first entry , i doubt this list is worth anything, 
+  point proven, 
+  someone who lists tnb automatically discredits the rest of the list . 
+  i 'd rather have a list of 5 really good programming channels than 40 mediocre ones, 
+  up to the learner i suppose, 
+  is your bubble sort working ? 
+  because from a glance it looks like it should n't, 
+  alright so here 's a good advice for programming something for the first time . 
+  do something step by step and not all at once . 
+  first up split your program into smaller problems . 
+  then pick the one you can comfortably do and implement it , test it and if it works approach the next issue . 
+  so your program consists of several issues , i will list them in increasing difficulty : printing an array of numbers , sort the array using bubblesort , reading from file , writing to file . 
+  so now that you have a plan you can execute it . 
+  first use the numbers from your file and just hardcode it into your program , then write the function that will print them . 
+  test it . 
+  does it work ? 
+  good now lets go sort those numbers . 
+  at the very end you can worry about reading from file and writing to file . 
+  approach these as separate issues as well . 
+  first make sure that your file reading works , before attempting to write . 
+  the process you are currently doing is called debugging , and right now you do n't know the source of your issue , so debugging becomes difficult . 
+  if you build your program the way i described you can always refer back to the last point where your program worked and what made it stop working, 
+  you should be asking specific questions , then we can help you out . 
+  a good tip would be to study and learn until you get stuck and then come back here and ask a question, 
+  well yes and no . 
+  i assume the indentation is better in your ide but your variable naming conventions should be better . 
+  you comment the lines where you initialize n and i but imagine your program becomes hundreds of lines long because you keep adding features , then you will always need to scroll to where you initialized n to look up what it means . 
+  a descriptive name would have been better . 
+  additionally variables should n't start with ( or be ) uppercase letters . 
+  i understand for all intents and purposes what you have done is fine but in terms of practicing these are my gripes with your code . 
+  look up how to correctly indent code to increase readability , additionally you want more spaces between lines . 
+  as for variables : conventionally in all c style languages ( java , c++ , obviously c ) variables are lowercase while classes and constants are uppercase . 
+  const double pi = 3.1415 ;, 
+  int radius = 0 ;, 
+  void calculate_area ( ) ;, 
+  / / etc, 
+  set up a discord if you want to or go over to the official learnprogramming discord and ask for a channel . 
+  i 'd be more interested in a youtube series though , conveniently packed into a playlist, 
+  the problem i have with interactivity is that while it may increase user interaction , it definitely has it 's toll on workflow and structure . 
+  waiting for questions , answering them and answering follow up questions may derive from the actual course of action . 
+  i 'd personally be more interested in a structured series that i can follow from point a to point b. 
+  if i am unsure about any topic covered i would still be able to ask in the discord server / channel you set up / request . 
+  inexperienced rider and r1 are a dangerous mix . 
+  i 'm not saying he deserved what he got , i hope he recovers from his injuries and starts riding again but there is a reason why so many people suggest starting on low bhp bikes . 
+  even most euro drivers schools for the big `` a '' license will teach you on a fz 07 and not an r6, 
+  yeah but bi has a very customer friendly policy when it comes to dlc . 
+  is it too pricey for you ? 
+  that 's fine , you can still play with your friends or on servers where the dlc is enabled and you still get limited access to it . 
+  is it overpriced ? 
+  maybe yes , but considering that a lot of players , like me , bought the game for dirt cheap back on alpha i did n't mind paying for it, 
+  i was told when your tire rests on a hard flat surface for an extended period it might get flat spots, 
+  algorithms by sedgewick seems to be the defacto standard , his classes are great and so is his book . 
+  i 'd go straight to the 4th edition and just google your way through the things you do n't understand . 
+  also his cousin . 
+  the stars aligned for this thread to happen . 
+  no way !, 
+  i only enjoy arma when i go the full milsim route . 
+  marching , patrolling , standing hours long with no engagement and no magazine loaded because weapons safe on base . 
+  there is only one way to enjoy the game and that is the way i enjoy it, 
+  try . 
+  if you fail you fail if you succeed you succeed . 
+  simple as, 
+  pointers in itself are not , but there is more to pointers than understanding that they point to a memory address . 
+  he 's also a regular on the learnprogramming discord . 
+  super nice fella with lots of insight and help . 
+  as much as i enjoy crash videos like everyone else , this hardly belongs in / r/motorcycles , just because a few bikers get run over .

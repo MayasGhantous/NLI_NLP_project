@@ -1,0 +1,100 @@
+  * open it up ( on the tools menu ), 
+  * select ` add ' from the top-left dropbox, 
+  * type x-forwarded-for into the box next to it, 
+  * type 12.13.14.15 into the box next to that, 
+  * click add, 
+  * load the page again, 
+  note that you need the modify headers window open to actually do any header modification ( so open it up if you want to watch daily show vids ) . 
+  edit : ah , shaunward linked to the same instructions . 
+  ignore me , 
+  after a bit of thought , my recommendation is [ stardust ] ( http://www.imdb.com/title/tt0486655/ ) . 
+  not one for everybody , but i reckon it 'll do the trick for a depressed redditor who does n't mind something on the `` click flick '' end if the scale . 
+  he likely means [ these guys ] ( http://en.wikipedia.org/wiki/pholcidae ) , which do make webs ( and are also commonly known as `` daddy long-legs '' ) . 
+  so , what do you want to use it for ? 
+  it seems like you want a fileserver box with some downloading stuff on it . 
+  but if nothing else has access to it , what 's the point ? 
+  almost definitely !, 
+  why the reluctance to have it accessible to the network ? 
+  hmm . 
+  downloading and file storage , not on the lan . . porn server ? 
+  yeah , suck it up and install wires . 
+  they 're far , far less hassle than trying to make wireless work in a building that does n't like it . 
+  once you have a decent wired network , if you need wifi , you can always throw in one or more wifi access points in order to get decent coverage . 
+  yes , installing a wired network can be a pain in the arse , but once it 's done , it 's far more reliable . 
+  this is true . 
+  but homeopathic `` medicines '' are usually provided in the form of small sugar pills which have had a drop of the solution placed on them and allowed to dry . 
+  ( which does make one wonder how the `` water memory '' thing is supposed to work , if there 's no active ingredient * nor * any water left . . ), 
+  hmm . 
+  if you looked at red through a green filter , it 'd look black . 
+  if you looked at blue through an orange filter , it 'd look black . 
+  so , if you looked at red through an orange filter , it 'd look reddish-orange - which is useless on its own if you 're colourblind , but it would appear brighter than blue would through the same orange filter ... 
+  would n't it be possible to make a set of different coloured filters ( each labelled with the relevant colour ) , and identify which it is by finding the darkest ? 
+  that sounds like a fun project !, 
+  hey man , i 'm not on the side of homeopathy , just pointing out that there 's rarely any actual water involved once you get to the point of actually using the stuff . 
+  indeed . 
+  it 's actually worse , as in most cases it 's '' * something that has since evaporated * supposedly has a `` memory '' of something else '', 
+  i thought we 'd got past the misconception that ridiculously overpriced cables for digital signals actually make the slightest fucking bit of difference ? 
+  pff , of * course * some people who work there have the ability to get at your `` private data '' . 
+  it 's their system , they have to manage it somehow . 
+  i imagine most companies will work like ours ; a very small number of trusted , skilled users have full administrative access to more or less everything . 
+  everyone else has access to various administrative tools we 've built over the years to let them do things users ca n't do , but with sufficient security and accountability to prevent anyone doing anything stupid or malicious . 
+  you ca n't really ask for anything more , can you ? 
+  since some officious train-bastard decided to interpret the rules in whatever manner that allows him to be the most annoying . 
+  for a while , i commuted along a major route into london , although the `` wrong way '' ( ie , away from london in the mornings , towards in the evenings ) with my full-size non-foldable bike . 
+  the operator 's rules were that my bike was allowed as it was n't a usual commuter route , and the trains were never particularly busy . 
+  but i still had trouble once or twice a week because of it . 
+  and every time , the `` rules '' were seemingly different . 
+  \\* not to imply that the majority of those employed by the multitude of railway operators are officious bastards . 
+  as with many things , the few `` bad apples '' ruin it for everyone . 
+  that 's a silly question , man . 
+  i do n't believe god ( s ) exists simply because there 's no compelling evidence , and lots of evidence that explains many ( though not all ) of the things that religious folks attribute to a god . 
+  i did n't come to these conclusions because i was particularly opposed to the idea of a god , nor because i liked the idea that there was no god and was looking for ways to justify it ( which seem to be the options you 're offering ) . 
+  i came to these conclusions because the concept seemed rather flawed . 
+  it 'd be nice if it did , but unfortunately i ca n't see it happening . 
+  the naming conventions we use are pretty standard . 
+  * camelcase for js namespaces and `` classes '', 
+  * sadcamelcase for js attributes and variables, 
+  * underscore_separated for html element ids and such, 
+  * hyphen-separated for css classes, 
+  sounds a little complicated , but it works pretty well . 
+  the underscore_separated html ids is mostly because our backend languages use that as a convention , so it makes sense for us , but you might want to do something different . 
+  hyphen-separating css classes seems excessive , but it 's actually nice to have a distinction between them and html element ids/names , and it does n't seem to cause any trouble . 
+  for namespacing and source organisation , we use something like this :, 
+  in mainnamespace/foo/bar . js :, 
+  window.mainnamespace = window.mainnamespace | | { } ;, 
+  mainnamespace.foo = mainnamespace.foo | | { } ;, 
+  mainnamespace.foo.bar = ( function ( ) {, 
+  return whatever ;, 
+  it has the advantage of being simple , and every file can be used alone ( assuming it has no other dependencies ) , or in combination with other things that also define stuff in the same namespace . 
+  you can even check dependencies ( ` if ( ! mainnamespace.foo.somedep ) throw new error ( `` somedep is not loaded !, 
+  '' ) ` if you need to , but we do n't do that explicitly very often ) . 
+  yes , you have to be a bit careful to not overwrite stuff , but in practice it does n't seem to be as much of a problem as i expected . 
+  for bigger projects we have some other libraries that abstract some of this stuff away , and does a better job of managing ( and autoloading ) dependencies . 
+  but in general it 's only saving a few keystrokes , so we 've found it 's often worth the extra boilerplate to arrange for a single js file to be properly portable . 
+  well , it 's a pretty picture , and it has a lot of data in it , but it 's not really giving me much insight into . . anything . 
+  it 's not easy to work out browser usage for a given year ( the easiest way seems to be to get the percentages from the mouseover ) , and it 's not easy to work out if a particular browser is going up or down ... 
+  so i 'm not really sure why that exists . . 
+  just tell them it 's a bad idea ( and why it 's a bad idea ) . 
+  no need to go much further than that . 
+  we have to choose ? 
+   `` about the time ford was making biomass methanol , a mechanical device to strip the outer leaves of the hemp plant . . '', 
+  yeah , they were called `` hippies '' , 
+  i was n't planning to . 
+  if i 'm going to make any decisions that may be affected by the most common browsers , i 'll use stats from the site in question . 
+  hell no . 
+  well , i 've never been to either the us or canada , so i 'm just going by the americans and canadians i 've met . 
+  while i 'll admit i 've worthless arrogant dicks and awesome people from both groups , in general my experience with americans have been far worse than my experience with canadians . 
+  nobody here though , i 'm sure you 're all awesome , 
+  y' know it 's usually possible to install chrome on corporate boxes , as it installs itself to the user 's application data folder , rather than program files . 
+  does n't work if you have exceptionally paranoid admins , but it does work in most situations . 
+  worth a go , at least , 
+   the concept that a stupid little browser can change the production workflow for the entire media industry is ridiculous . 
+  i disagree . 
+  firefox , almost single-handedly , forced microsoft to start working on ie again , brought ie7 to xp , and at least partially prompted development of ie8 . 
+  a `` stupid little browser '' can change a lot . 
+   switching costs are low . 
+  firefox users are early adopters who are too fickle to provide momentum . 
+  ... chrome/webkit is a better technology, 
+  so then why is there still a significant number of firefox users ? 
+  why have n't they all switched to chrome ? 
+  he just could n't help being a smug cunt about it , though .

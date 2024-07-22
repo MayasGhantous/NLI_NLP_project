@@ -1,0 +1,100 @@
+  if one of them is damaged , there will be some noticable imaging anomalies . 
+  mount it via / etc/fstab , and add ` _ netdev ` to the list of options . 
+  this will make it mount after the network comes up , and it will also ensure that the share is unmounted before the network device is disabled . 
+  i know , right ? 
+  it 's a filesystem independent mount option , i.e. 
+  it works with ext4 as well , if that makes any sense in a given special case . 
+  it needs to be calibrated to a-440 , but other than that it 'll be as good as it ever was . 
+  and it 's not nearly as accurate as a digital tuner , but it should be more accurate than your tuning keys and your fretboard . 
+  the basic principle of analog and digital tuners is the same : you 're measuring the interference ( like beat patterns ) relative to a pure generated signal . 
+  although the digital tuner is a lot more accurate - as accurate as the crystal oscillator , typically less then 50ppm error - the low resolution lcd display / low resolution dac of the needle will limit the accuracy , whereas the rotating disc will allow you to tune the instrument to the rotation speed very precisely . 
+  * cheap stompbox tuner : accurate , but not precise, 
+  * strobe tuner : inaccurate , but precise, 
+  gstrings has exactly this problem . 
+  for android i 'd recommend the [ pitchlab guitar tuner ] ( https://play.google.com/store/apps/details?id=com.symbolic.pitchlab ) instead , which is perfect for tuning and setting up your instrument . 
+  compare them and you 'll see what i mean . 
+  it displays cents as integers only , but in reality it 's much more accurate . 
+  for this task i 'd recommend the [ fmit ] ( http://home.gna.org/fmit/ ) which has a very helpful statistics module that 'll show the pitch/error and accuracy of each note you played next to each other . 
+  getting it to run on windows wo n't be easy though , but i can help if you 're willing to try . 
+  in that case , check out the ` custom temperament ` option . 
+  if you set a custom temperament for each octave , you will be able to tune it much better , because you 'll be tuning the note to a fixed value . 
+   stretch tuning is a tuning which affects the entire range of notes, 
+  that 's why i said * each * octave . 
+  for a custom temperament , the app allows you to set the notes one by one , but assumes a perfect octave . 
+  that 's why , to quickly go through the tuning procedure , you 'll want to dial in the numbers separately for each octave first , and switch custom temperaments between octaves . 
+   2 to the tenth power, 
+  more like ten to the -1.5 - th power , or little over 3 %, 
+  still , getting so close just by adjusting knobs is very unlikely unless the two are the same . 
+  he faked the mun landing . 
+  * on the other side of the mun !, 
+  this can be done with any sip softphone that supports video . 
+  i recommend using [ csipsimple ] ( https://play.google.com/store/apps/details?id=com.csipsimple ) and its video plugin ( [ download it separately from the csipsimple site ] ( http://nightlies.csipsimple.com/plugins/csipsimplevideoplugin.apk ) ) , because it 's free as in freedom , and it supports a wide range of high quality codecs , including opus ( [ with this addon ] ( https://play.google.com/store/apps/details?id=com.csipsimple.plugins.codecs.pack1 ) ) . 
+  it also supports strong end-to-end encryption . 
+  all you have to do is add a new account , and select the * local * preset . 
+  after that , you can call one device from the other by dialing ` sip : host ` , where host could be an ip address ( ` sip :192.168.1.101 ` ) or the hostname with the local domain ( ` sip : johndoesnexus7.lan ` ), 
+  it 's never been proven to have any effect aside from placebo . 
+  for me , that places it in the * why bother * category . 
+  i thought this was pretty widely known . 
+  bobby mcferrin is also a cultist . 
+  try not to think of it too much . 
+  they still make amazing music . 
+  critical thinking is n't required for that , you know . 
+  you could obtain a cheap old film slr lens , and rig it up backwards in front of the sony to make a [ reverse lens macro ] ( http://www.flickr.com/photos/rickmaninov/3678151593/ ) camera . 
+  why do n't you download it from somewhere instead ? 
+  then why are you even considering flac ( or mp3 for that matter ) ? 
+  i miss foobar2000 so much after switching to linux !, 
+  i still use it to scan and tag my library , but it just is n't the same when run from wine . 
+  thanks , but it seems it does n't have a replaygain scanner , so i 'd still have to use foobar to tag the files . 
+  i 'm using clementine ( on kde ) at the moment , and it 's mostly okay . 
+  i tried it , and it 's bad . 
+  it overwrites mp3 's instead of tagging them , and it does n't handle albums well . 
+  foobar can also filter untagged files in the library instantly , and it supports every format . 
+  notebook power bricks usually work with 230vac input , so you 'll only need a power cable , which will cost you about 500-1000 forints . 
+  the sticker on the adapter should read something like `` input : 100-250v ~ '', 
+  [ this shop sells one ] ( http://www.rufusz.hu/termek/halozati-tapkabel-notebook-foldelt ) . 
+  you can find it at the [ southern end of the tram line 6 ] ( http://www.rufusz.hu/szakuzlet-0 ) , but many other electronics stores must also sell them . 
+  i 'd just cut another piece of wire . 
+  it looks neater , and it 's a lot less likely for a short to occur when it 's accidentally pulled . 
+  speaker cables are no different from simple electrical wires , so if you have some laying around , cut and strip them , terminate them with banana plugs , and you 're done . 
+  just make sure the wire resistance is n't more than 5 % of the speaker 's rated impedance !, 
+  with 5 % you 'll lose 0.4 db , which will be borderline audible . 
+  wire resistance = 2 \\* length / ( 56 \\* area ) ; length in meter , wire cross-sectional area in mm ^ 2, 
+  have you tried [ amdoverdrivectrl ] ( http://sourceforge.net/projects/amdovdrvctrl/ ) ? 
+  it has fan control as well . 
+  the ui blends nicely in windows , but it looks alien in kde , and the sound is choppy . 
+  it 's just a way to encode stereo material , usually for a form of transport ( lossy/lossless digital audio , am/fm radio ) there 's no real difference , it 's still stereo . 
+  instead of left and right channels , joint stereo encodes mid ( 0.5 l +0.5 r ) and side ( 0.5l-0 .5 r ) . 
+  you get your left and right channels by adding and subtracting the mid and side channels l = m+s r = m-s, 
+  the benefit of joint stereo is that you can assign a greater bandwidth to the mid channel , where more information is present . 
+  edit : to answer your question anyway , you can use a pair of microphones in a [ mid/side coincident setup ] ( http://www.uaudio.com/blog/mid-side-mic-recording/ ) that will give you mid/side audio . 
+  you point a cardioid mic towards the sound source - this will be the middle channel - and you put a figure-8 mic right above it , pointed 90 \u00b0 to the left - this will give you the side channel . 
+  you decode it to l-r stereo the same way . 
+  dropbox keeps a backup of the deleted files for a while . 
+   digitize my dvds, 
+  i do n't even know where to begin . 
+  do you know what dvd even stands for ? 
+  for the love of the gods , watch these :, 
+  stop saying it 's inferior !, 
+  ^ ( everyone already knows that ), 
+  holy moly , you can store audio on vacuum ? 
+  is it as good as storing it on [ water ] ( http://www.youtube.com/watch?feature=player_detailpage&amp;v=pmetcnstu9o&amp;t=41 ) ? 
+  he must 've accidentally clicked the link . 
+  four or five times . 
+  it 's suspicious when noone 's password is * password *, 
+   if there is any signal on the cb headphones , it should mute the mp3, 
+  this technique is called side-channel compression , or * ducking * , often used by radio stations . 
+  i 'm surprised you found a device that does this for only $ 159 . 
+  let 's use a little science/math :, 
+  * order of linear effects does n't matter , so eq , reverb , delay can be swapped , there wo n't be a difference . 
+  it does matter if thire is a non-linear effect involved , so * eq  delay * = * delay  eq * , but * eq  compressor  reverb * \u2260 * reverb  compressor  eq * . 
+  a flanger is non-linear , since it involves frequency modulation . 
+  * your guitar 's passive pickup is a very weak source electronically ( due to the high output impedance of the inductive coil ) , and the sooner it goes through an amplifier the better . 
+  boss pedals are usually buffered , so it makes sense for your ** compressor ** to be the first box . 
+  otherwise , your guitar 's basic tone ( rolloff frequency of the pickup ) will change depending on which stompbox is enabled , as they likely have different input impedances . 
+  * does your amp have an effect send/return loop ? 
+  if it has , make use of it . 
+  it probably has better overdrive than the mxr stompbox . 
+  * delay can mess with the freeze pedal , so * freeze  delay * is the proper order, 
+  * if you put the volume pedal before the delay , it 'll keep looping after you roll back the volume . 
+  otherwise , the pedal will kill the delayed sound . 
+  whichever you prefer .

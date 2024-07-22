@@ -1,0 +1,100 @@
+  i was n't sure from the wording . 
+  no problem . 
+  you can `` reset '' your usb key by erasing the first sectors :, 
+  ` dd if = / dev/zero of = / dev/sdx bs = 1m count = 100 `, 
+  then reformatting the device . 
+  take care : this will erase the content of your usb key !, 
+  thanks for clarifying !, 
+  turnout was historically low for the presidential election , but not super low in the absolute ( 75 % participation ) . 
+  the system is actually semi-presidential rather than parliamentary , but even in that category , it * is * weird as fuck . 
+  i think that more than the voting systems , there is a general collapse of the traditional parties all across europe ( especially strong in france , spain and italy ) , while nz still has strong traditional parties ( at least according to the polling ? ) . 
+  the political situation here is far less weird and scary than it is back there ( to my humble non-kiwi eye anyway ) ... 
+  ] ( http://vignette4.wikia.nocookie.net/simpsons/images/2/26/woo_hoo!_poster.jpg ), 
+  yeah , i strongly second that !, 
+  at least a tool * \u00e0 la * ` do-release-upgrade ` in ubuntu would be a nice thing to have . 
+  i know , i know : `` somebody needs to do it '' , `` why not you ? 
+  '' , so i 'll be pro-active and trigger my `` i 'm not a dev '' asset right now !, 
+  i think the only way to have `` leap , but more up-to-date '' is unfortunately to activate a given number of repos in obs , meaning you loose the safeguards from openqa for the content of these repos . 
+  depending on the repos you need , it should be ok most of the time , but could lead to some nightmare in some extreme cases . 
+  you could still use snapper to get out of those nightmares , giving you time to find/wait for a fix . 
+  so i guess , if you really want to go down that road , using leap + obs repos + snapper would be your safest bet ? 
+  maybe someone will come up with a better solution ... 
+  what 's the problem with skylake ? 
+  i have a desktop with a skylake i7-6700 and leap 42.2 runs fine on it . 
+  am i missing something here ? 
+  et [ achille talon ] ( http://4.bp.blogspot.com/_xjuwszelzfs/tmnpiv7uh0i/aaaaaaaabjw/l9x3gvgcpxu/s1600/achilletalk.jpg ) alors ? 
+  plus que le lavage de main ? 
+  makes sense , thanks !, 
+   we developers are not psychic , and do n't have access to all the hardware that our users have , sadly . 
+  shame , that would have been handy ... , 
+  i 'm curious : is there any software/framework currently developed on qtwayland apart from plasma/kwin ? 
+  i guess my question is : are you plasma devs in the very front lines of polishing qtwayland , thus ( at least to some extent ) explaining the regressions ? 
+  yes !, 
+  and as the fool that i am , i somehow told yast not to register the repo when i installed the package ( which , for a development version is clearly stupid ... ) . 
+  i did have a few hiccups with plasma browser integration , but did n't realised it was n't being updated . 
+  i 've updated now ( updated to 20170701 git master , which should contain the commit you mentioned ) . 
+  i 'll see whether it fixes the problem . 
+  thanks / u/kbroulik , you 're the best !, 
+  edit : forgot to say , i 'm using opensuse tumbleweed with [ this package ] ( https://build.opensuse.org/package/show/kde%3aunstable%3aextra/plasma-browser-integration ) . 
+  edit ( bis ) : for now , i have n't encountered the problem again , so this might have been the issue indeed ... 
+  thanks !, 
+  i think a case where kubuntu can add value is when somebody does n't want ( or ca n't ) go with a lts distribution . 
+  in that case , going for the point release of kubuntu might be a good idea . 
+  also , officially , kde neon does not offer support for non-kde software , while kubuntu does . 
+  in practice , i do n't expect much non-kde software to break on neon , but it 's still a point to keep in mind . 
+  euh ... wait !, 
+  actually ... 
+  it 's happened again . 
+  exactly the same message , while plasma-browser-integration was going mad with the cpu . 
+  killed it , it stopped filling up the error file . 
+  i checked the archive on obs , it does indeed contain the commit . 
+  anything i can do to help investigate ( i must warn you i 'm not a dev ) ? 
+  vivant \u00e0 auckland en ce moment , je confirme . 
+  on devrait importer `` barrer '' !, 
+  gestures can be implemented using touchegg ( if your touchscreen is handled by synaptics ) or libinput-gestures ( if your touchscreen is handled by libinput ) . 
+  this question was raised quite a few times , you can have a look [ here ] ( https://www.reddit.com/r/kde/comments/5eyqh2/plasma_5_on_a_touch_screen/ ) and [ there ] ( https://www.reddit.com/r/kde/comments/6c7uav/help_making_plasma_usable_on_my_convertible/ ) . 
+  that must have been awkward indeed ... 
+  the issue is that it 's `` water under the bridge '' for french people and many of them at the time would n't even think of it as `` terrorism '' . 
+  for worse or the best , it has become a `` historical point '' used to show that the state should n't be allowed to do what the fuck it wants ( something we should keep in mind for the current terrorist attacks , but that 's another story ) . 
+  sorry for my fellow countrymen lack of tact ... 
+  is there any distribution where they 're ** on ** by default ? 
+  nice to hear we all disgust you because some scumbags are french ... : /, 
+  missed the joke , sorry . 
+  i think it 's more about the fact that i did n't know about the referee !, 
+  c'est le [ principe de peter ] ( https://fr.wikipedia.org/wiki/principe_de_peter ) . 
+  exact . 
+  if i can connect the dots correctly , gnome was created in reaction to kde starting to get fairly used ( or just being creating i 'm not sure ) , by being based on non-libre qt ( qt was n't strictly libre at the time ) . 
+  the project was backed up/started by gnu at the time , which would explain a good starting momentum . 
+  fyi gtk already existed and the `` g '' actually stands for `` gimp '' , for which it 's been created . 
+  apparently , he installed something using [ this ] ( https://github.com/dnschneid/crouton ) on chrome os . 
+  never heard of it . 
+  / u/thegarlicknight you might want to provide more information and context . 
+  sure is a beast to be tamed ... once you got it where you like though , it 's difficult to change ( even when it becomes unstable ... ) because no other email client will offer the same level of fit to your use . 
+  what 's new in this beta version ? 
+  is it stable ( meaning no crash , etc. . . ) enough ? 
+  you have been answered to your question : it 's highly doubtful this will work because the thing dates back to 2010 and many changes have been made in the kde ecosystem since then . 
+  as a matter of fact , no package for currently existing distribution exists :, 
+  so yes , this project seems to be quite dead . 
+  it 's not answer b ) though , because it does n't mean that no one will ever work on a coverflow-like stuff , but you ca n't just ask and force people to work on it . 
+  somebody has to be interested , motivated and have the capacity and time to do it . 
+  you can sure suggest it , someone might find the idea nice enough to be implemented but if you are not doing it yourself ( no blaming , i could n't ) , then you ca n't do much more than suggest some dev how this would be nice . 
+  ^ i support this . 
+  for a laptop , it 's super nice to be able to say some connections are `` public '' , others are `` internal '' ( e.g. 
+  at home ) . 
+  the gui is universal enough to be used on kde without seeming super weird and the zones can be set in the kde gui settings for the connections . 
+  apparently , it still exists . 
+  on opensuse it 's available for leap and tumbleweed anyway . 
+  it should exist as there is an ubuntu package for [ firewalld ] ( https://packages.ubuntu.com/xenial/firewalld ) . 
+  merci !, 
+  i lost my mummy ... 
+  that 's ... horrible . 
+  the guy was waiting for the foreing child to say `` bonjour '' before even trying to reassure him about his/her mother ? 
+  man , people can be mean ... 
+  afaik qtvirtualkeyboard does n't work on x11 ( it was implemented only on the lock screen ) . 
+  i guess nobody packaged onboard to submit it to factory , so it 's not on the main repo . 
+  ok . my bad . 
+  still a bit mean , but far less so . 
+  you can send an e-mail to the opensuse-factory@openuse.org asking whether somebody would like to submit the package to factory . 
+  depending on the quality of the existing packages , someone might find that easy enough to submit it ( the tricks is that that someone would have to agree being the maintainer i think ) . 
+  had the same issue a short time ago , somehow resolv.conf was not overridden with new information from the dhcp connection at my university ( or so i assumed ) . 
+  had no issue when i came back home .

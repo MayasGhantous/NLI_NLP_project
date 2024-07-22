@@ -1,0 +1,100 @@
+  it 'll download each new episode for me automatically ( again with automatic checking , repair and extraction to the right place on my fileserver ) and then send me an email every evening at 6pm telling me what 's new . 
+  beats the shit out of public torrents . 
+  i think he 's talking about it being an actual * crime * , rather than just something the cinema staff will kick you out for . 
+  for example , it 's not a crime to violate a nightclub 's dress code ( and nor should it be ) , but it 'll sure as hell get you kicked out . 
+  and anyway , restricting cameras in cinemas appears to have made precisely zero impact on piracy , so i do n't see how it makes any difference at all . 
+  your phone has a dedicated hardware h264 decoder . 
+  many other devices do not . 
+  oh , yes , the nntp protocol is ancient , unreliable and horrible . 
+  par files are actually a pretty clever solution to the problems caused by usenet 's unreliable nature ( particularly if you have a system smart enough to not download them unless it needs them ) , and they do have one or two legitimate uses outside of compensating for usenet 's flaws . 
+  while i agree that bit torrent is a very intelligent and scalable solution to the problem of widely distributing large files rapidly , in practice usenet works very well indeed , often better . 
+  that 's not because of a flaw in bittorrent ( or because of any specific feature of usenet ) but more to do with how the media companies have reacted to them . 
+  the fact remains , however , that ( for me at least ) usenet is * far * more convenient . 
+   there was still that lynch mob mentality . . 
+  [ still is ] ( http://www.reddit.com/r/offmychest/comments/d6gk8/i_need_someone_to_cheer_me_up_please_just/c0y8whz ) . 
+  i ~ ~ pop by ~ ~ stalk her profile every now and then ( she 's still active , but way less so ) to undo a few of the obviously-malicious downvotes she gets . 
+  i 'll second that . 
+  whatever you do , do * not * drop a guff 60 seconds into the two minute silence . 
+  in that case , might switching downvoting back on help ? 
+  at least then the regulars have a chance to get rid of the repeated/obvious stuff . 
+  as i understand it , the downvote arrows are only hidden with css , so they 'll still work for anyone subscribed to the subreddit when viewing links on the front page ( this post has a few , so downvoting must work ) . 
+  as i see it , having it disabled just means the people that * specifically * come here ca n't downvote - and those are probably the downvotes you want to keep . 
+  i have to give the programmers that work on msoffice some respect ; there 's a hell of a lot of functionality in there , and wrangling it all ca n't be an easy job . 
+  but at the same time , the entire suite is so ridiculously bloated with features . 
+  there are things in there that most people do n't have the first clue what it * is * , let alone how , or when or why to use it . 
+  take msword , for example . 
+  it 's not only a thing for writing documents , but a layout engine , versioning system , bulk printing/mail merging application , and untold other things . 
+  * including * a full scripting engine . 
+  but 99.9 % of people only need an application to create a document . 
+  a virtual typewriter . 
+  hell , you could probably cover 90 % of use cases with some headings , lists and maybe tables and images . 
+  they 've done a great job with the interface , but all that extra crap still confuses people . 
+  even now they 've been basically strongarmed into using a standardised , documented file format , * all those features * are apparent in the file format as * massive * complexity . 
+  so while it 's theoretically possible to do something other than load word documents into word , in practice there 's * nothing else * that supports all those document features . 
+  so documents created in word are forever tied to word , simply because it has this huge catalogue of extra features that few people actually use . 
+  which , i suppose , is their goal . 
+  but now we 're stuck with this behemoth of a file format that everyone and their dog uses for * everything * . 
+  i do n't doubt there 's some great engineering behind it all , but , fuck , there has to be a better way . 
+  pdf and postscript are output formats . 
+  they do n't retain any of the document 's structure , it 's pure presentation . 
+  plus , you do n't write that shit by hand unless you have some form of disorder . 
+  latex is n't * that * bad , it * does * make a reasonable format for marking up documents . 
+  but the problem is that tex is rather low level , so doing any styling work with it is something of a lost , arcane art ( i tried ; that shit ai n't easy ) . 
+  but that only means skilled professionals would have to do any styling work ( no bad thing , in my opinion ) . 
+  the syntax is archaic , but light enough to write by hand , and unambiguous enough to have an app generate it without making a mess . 
+  plus it provides enough of a distinction between content and presentation that it 'd kinda work as pure markup format . 
+  had latex caught on in the business world like it did in academia , i suspect document management and processing would be a much simpler task now . 
+  sgml was a precursor to xml , so is n't quite the same as the other stuff , and rarely used outside of html ( sgml is to html what xml is to xhtml ) . 
+  rtf is a microsoft thing , which looks superficially like latex syntax , but the markup is all presentation . 
+  so it 's messy , and does n't preserve structure . 
+  it 's similar to postscript/pdf in that respect , except it 's proprietary ( and , to this day , ms are * still * randomly shoehorning in extra features ) . 
+  html/css are n't actually as bad as you might think at being general document markup and presentation formats ( at least once you take away the stuff that makes no sense in print : legacy styling tags , forms , scripts , flash , java , video , audio , etc ) . 
+  sure , it 's a massive pain in the arse to make a three-dozen-nested-div popdown menu ( or whatever ) display properly in all the different browsers out there . 
+  but once you 're talking about marking up documents for * printing * , shit becomes a whole lot simpler , and it actually works rather well . 
+  both html and css are modelled around the print world ( css even uses print designers ' terminology ) . 
+  even complicated printed docs are typically orders of magnitude simpler than even a normal web page . 
+  you missed [ docbook ] ( http://en.wikipedia.org/wiki/docbook ) ( which is a reasonable , if complicated , xml-based markup format ) , [ xsl-fo ] ( http://en.wikipedia.org/wiki/xsl-fo ) ( which is , frankly , an abomination which must die lest i be forced to look at it again ) and the plethora of markdown/textile/various-wiki-format text-based syntaxes which tend to be rather limited in what they can do , but are quick to learn , easy to write and do simple jobs well . 
+  plus probably many other things i 've forgotten about . 
+  or blocked out . 
+  one of the two . 
+  while pdf , postscript and rtf are limited to output formats ( since the document structure is lost ) ; html , latex , docbook ( and , well , pretty much any xslt-able xml format ) , plus the wiki syntaxes work nicely as markup formats . 
+  they can all be parsed , understood and converted back an forth ( maybe not losslessly , but at least they 're all well-documented , and simple/sensible enough to process that you can * know * when you 're going to lose something ) . 
+  there are n't many things that can competently define * styling * such that it can be applied properly to a document , though . 
+  for that you 're kinda limited to css and latex . 
+  latex styling can be converted to a suitable output format ( pdf or postscript ) without too much bother , but it 's a pain in the arse to write ( and nobody cares about latex these days ) . 
+  css styling will obviously work in a browser , and there are some cool but [ proprietary ] ( http://www.princexml.com/ ) things that 'll use css plus an html/xml document and output a pdf . 
+  but , if you gave me a document in any one of those formats , * i can do shit with it * . 
+  i can convert docbook to mediawiki to latex to html and back again if i really must . 
+  i can build a document management system that 'll accept a structured document in * all * those formats . 
+  but i ca n't do that with word documents . 
+  parsers exist for * subsets * of it , sure . 
+  but the format is * so fucking complicated * , had so many extra layers of crap added to it , and will * continue * to have more crap added to it at random , any parser that can hope to take a typical word document and turn it into something else without losing stuff would be such a ridiculously complicated beast that there 's no way it 'll get written in the first place , let alone be developed actively enough to keep up with ms 's relentless feature-creep . 
+  openoffice 's parser is pretty good ( the best i 'm aware of ) , but that has trouble with even seemingly simple documents . 
+  but the * worst * thing . 
+  the * absolute worst * thing about it is that the fucking ui * actively encourages people to use presentational markup * . 
+  even though it has pretty good support for semantic markup , there 's a font selector * right there * in the toolbar . 
+  so even if you were happy to lose random stuff , 80 % of word docs out there contain nothing but text seemingly-randomly interspersed with font and text size tokens . 
+  they could have made a shit-hot , simple , powerful document creation app . 
+  but they did n't . 
+  they made a platform onto which they could hang ever-expanding featuresets ( leading to complicated and convoluted file formats ) in order to keep a tight grip on the market , which happens to also be capable of producing documents ( among other things ) . 
+  which is a shame . 
+  the world 's most popular document creation program produces documents nobody can reasonably do anything else with . 
+  i suspect the backlash over chrome 's http prefix thing is the same phenomenon seen the world over when something familiar gets changed . 
+  * particularly * when something gets taken away . 
+  massive , unrelenting whining from users , who blow it out of all proportion . 
+  most of the time , once people have had a chance to get used to it , they find it really is n't that bad , and many actually like it . 
+  the most recent example i can think of is google changing their search page styling slightly . 
+  the * bleating * about such a simple change here on reddit reached impressively high-pitched levels . 
+  i 'll admit , i did n't like it myself very much - being so used to seeing the old search page . 
+  but now , it 's fine . 
+  i actually prefer it . 
+  this happens a * lot * . 
+  the most impressive example is the mass complaining that ensues when mmo games change something . 
+  literally hundreds of people screaming about how it 'll ruin this and that . 
+  a month later ? 
+  no problem . 
+  the trick is to do your research , ensure your changes * are * for the better , then stick to your guns . 
+  most of the time , it 'll be fine . 
+  i 've been through it several times myself . 
+  the ribbon is a good example too ( although i still maintain that given the aspect ratio of modern displays , they 'd have been better off putting it down one side , but whatever ) . 
+  it * is * a better ui than having a few dozen mystery icons and untold numbers of menu options .

@@ -1,0 +1,100 @@
+  i gave my strongest muscle and some pretty beefy armour to my healer to keep her alive so she could heal the rest of the party every turn . . worked for me . 
+  yess !, 
+  we had a fire emblem game rather recently , so hopefully an aw game is up next . 
+  although steam seems mildly interesting too , it 's just not the same . 
+  i would say that it is . 
+  that 's not to say that one ca n't enjoy both ( i do ) , but i think t/ccgs and typical board games are separate enough that they warrant a distinction . 
+  i 've yet to check lcgs out , but i really like what i 've heard about them -- the whole buying-booster-packs aspect is what i really dislike about tcgs , and why i in the end stopped caring for them . 
+  the inner [ golfer ] ( http://en.wikipedia.org/wiki/code_golf ) in me wants to know the minimal number of steps for each level , and whether i hit it or not . 
+  edit : also , i would n't mind some way of zooming/panning the area . 
+  now i managed to put two points too close to each other , and i ca n't really select the one i want to select . 
+  nice . 
+  i wan na try it , i wish the 3d version was n't so hard to get hold of ... 
+   either the universe is random or determined, 
+  how can you say that as a blanket statement like that ? 
+  it feels to me like you 're choosing a premise that fits your conclusion ... 
+  i got into it by the music ... tried imperishable night this week and found it 's actually pretty fun . 
+  i started listening to touhou arrangements several years ago . 
+  ... what do you cover proper nigger kisses with ? 
+  i thought this was only for ironic , tongue-in-cheek problems . 
+  what you have on hand is a * serious * problem !, 
+   i hate hjkl, 
+  the choice of keys is ( or should be ) fairly arbitrary , actually . 
+  if you replace holding down arrow keys with holding down hjkl , you have n't gained a lot . 
+  vim has * a lot * of movement commands that allow you to express more directly where you want to move to , whereas the `` standard '' movement keys basically have two kinds of movements ( by character or by word ) and require you to synthesize all other movements from these . 
+  by using more specialised movements , you not only save keystrokes , but more importantly more directly express what you want to do , thus it 's less mentally tasking . 
+  instead of `` press ctrl + left until the beginning of line '' , you can directly say `` go to beginning of line '' . 
+  or `` go back three words '' . 
+  or `` go back to the last ' ( ' '' . 
+  or `` i spot that ` foo ( ' over there , take me there please '' ( assuming it 's the first one when searching backwards , by a quick application of ` ? ` reverse-search ) . 
+  the point ( to reiterate ) is that you can deal with movements at a higher level when there are more of them available to you . 
+  compare programming in an assembly langauge vs. in a high-level language with useful abstractions available . 
+   i hate that the ui and on-screen help is n't there . 
+  it 's not `` on-screen '' , but learning about browsing the built-in help in vim is absolutely critical , i think . 
+  you ca n't expect to `` just know '' things -- if you see someone write a command , you have to be able to look up the components of it you do n't understand , so you can read the whole thing . 
+  vim 's help is basically structured like a dictionary , allowing for easy lookup of a term ( such as a keystroke , or an option , or a ` : ` command , or just a more general search-term like ` regex ' ) once you know it . 
+  if you have n't become comfortable with the built-in help , it 's no wonder you find it hard to learn vim . 
+  it 's pretty much as critical as learning to use ` man ` is for shell commands in general . 
+  the help command is ` : help ` ( or just ` : h ` ) , and just typing it as is takes you to the main help file which among other things contains a brief summary on the convention used to refer to things like keystrokes in a certain mode or options ( settings ) . 
+  to get help on a particular thing , feed the thing as an argument to ` : help ` . 
+  help topics mentioned in the help are interlinked so that you can move the cursor over it and press ` ^ ] ` ( that is , ctrl + ] ) to go to it , and you can then use ` ^ o ` to go back . 
+  this should be enough to be able to browse the manual decently . 
+   i hate that i just ca n't memorize the damn key commands . 
+  keep a pen and paper nearby , and the second time you have to look up how to do something , write it down . 
+  eventually you 'll get used to the command , and later yet it 'll get wired into muscle memory ( if you continue to learn/use vim , of course ) . 
+  it helps that a lot of commands are mnemonic -- * y [ ank ] * , * p [ aste ] * , * d [ elete ] * , * c [ hange ] * , * n [ ext ] * , * u [ ndo ] * , * ^ r [ edo ] * , * ^ u [ p ] * , * ^ d [ own ] * , etc etc ) . 
+   i hate that line wrapping works so weirdly with navigating up and down , which is probably configurable , but i 've never had the patience to learn that either . 
+  ` : help wrap ` . 
+  this tells you it 's an option , and that the default is `` on '' . 
+  you could use ` : set nowrap ` to set it to off , but this will instead require horizontal scrolling for very wide lines . 
+  you could also remap ` j ` and ` k ` to ` gj ` and ` gk ` ( see help pages for these for an explanation of why this is useful ) . 
+  i know , that would require you to ask ( or google ) and find others who have had the same issue . 
+  i prefer ` nowrap ' personally , but opinions differ . 
+   i hate the different modes . 
+  why do i want modes ? 
+  this ties in with the hjkl point again . 
+  vim is a text * editor * . 
+  it 's for editing text , not inputting text . 
+  if i think about text-editing tasks , i think about editing code , or editing config files , or editing text . 
+  sure , streamlining the inputting is also useful , but ( according to the vim philosophy , i 'd say ) not as useful as streamlining editing it . 
+  the modal-ness is about separating the two : you have insert-mode for inserting new content , and normal-mode is more of a command center where you perform editing tasks . 
+  vim introduces ( as in , unlike many other features this is n't inherited from vi ) * text-objects * , which allow you to refer to a particular part of the file content . 
+  for instance , ` i { ` refers to the inside of a brace-block , e.g. 
+  a function body or similar block in many programming languages . 
+  thus , if you decide that you want to re-write the body of the function you 're in , you could state that directly with ` ci { ` `` change in brace-block '' . 
+  similarly , to delete the word you 're on , you could just say ` daw ` `` delete a word '' . 
+  this is different to ` dw ` because ` w ` is the `` move forward a word '' motion ( like ctrl + right in `` usual '' editors ) . 
+  you 've abstracted over your position in the word -- you do n't have to care about that unnecessary detail anymore . 
+  another useful example is ` ci '' ` for changing the inside of a quote-delimited string -- very useful in programming as well . 
+  as another example , consider that you 're editing a switch with very similar , short case bodies . 
+  i tend to write them on a single line if they 're short enough , since i find it easier to read and maintain the code that way . 
+  so we want to copy this line and paste it five times ( because we know we want five more cases that are very similar ) . 
+  so we do ` yy ` and then ` 5p ` because it 's in our muscle memory that we yank linewise and paste five times . 
+  with traditional editing we 'd have to move our way to the beginning of the line , press shift + down to select the line , copy it , and then press ctrl + v to paste it , repeated five times . 
+  with the vim approach we 've acted on a higher abstraction level . 
+  whew , i did n't mean for this to become so long , but hopefully it 'll serve as some motivation to why i like the vim way of doing things . 
+  as a side note , before learning vim i first used kate , and then komodo edit . 
+  if you decide the vim/emacs approaches are n't for you , then you might be comfortable with one of those . 
+  i used kate in particular for a long while . 
+  stadium cards are kinda old though . . 
+  i think not base set , but at least the gym heroes/gym challenger ( ? ), 
+  set had them . 
+  but yeah , the ruleset has changed * a lot * over the years . 
+  since it has n't been mentioned yet in the thread , i thought i 'd add that there was [ a sequel ] ( http://en.wikipedia.org/wiki/pok\u00e9mon_card_gb2#sequel ) to the original gameboy color game , although it was released in japan only . 
+  there is [ a translation patch ] ( http://artemis251.fobby.net/pkmntcg2/ ) available for it , however . 
+  if you enjoyed the first game , you 'd probably enjoy the second one too . 
+  also , / r/pokemoncardgb exists , but it 's mostly dead . 
+  also , these games have [ amazing ] [ 1 ] [ music ] [ 2 ] . 
+  [ 1 ] : http://www.youtube.com/watch?v=tlhyugox_oe, 
+  [ 2 ] : http://www.youtube.com/watch?v=ahadzleaswg, 
+  eugh , no , it is n't . 
+  i 'm not very proud of our internal politics . 
+  sure , i much prefer ours to , say , the us 's , but both are horrible . 
+  there is a sequel to the gbc , but it was only released in japan : [ pok\u00e9mon card gb2 ] ( http://en.wikipedia.org/wiki/pok\u00e9mon_card_gb2#sequel ) . 
+  there 's a translation patch for it -- it 's worth a play if you 've played the original one and enjoyed it . 
+  though , i 'd love a remake or new entry in the series as well . 
+  som n\u00e4r den dyker ner under marken blir en highway to hell ? 
+  firefox + vimperator, 
+  6 . tmux ( though , limited to ` tmux attach ` , ` ^ bc ` , ` ^ bp ` , ` ^ bn ` , and only over ssh for multiplexing . 
+  locally , i prefer to use multiple terminal emulator windows instead ), 
+  ... i do n't get it .

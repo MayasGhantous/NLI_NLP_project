@@ -1,0 +1,100 @@
+  in fact , ie6 did n't actually add all that much in the way of proprietary features and features for intranets ( most were added in 4 , 5 and 5.5 , although ie6 had a few , and updated several of the existing things ) . 
+  interestingly , ie6 was the first time ms actually documented which of its features were standard and which were n't . 
+  10 years ago , web-based intranets ( and even web-based apps ) were quite popular . 
+  i know this because at the time i was working as a web developer for a company successfully selling web-based services to mainstream companies . 
+  it was a growing market and nothing like the size it is today , sure , but really not `` rare '' or `` niche '' . 
+  i 've been making cheese scones lately , they 're ace . 
+  rub 60g of butter into 250g of self-raising flour ( until it has a breadcrumb-ish texture ) . 
+  crack an egg into a measuring jug , and top it up to 150ml with milk . 
+  whisk a bit . 
+  add the milk/egg , 1/2tsp mustard powder , 125g grated cheddar to the flour . 
+  mush with hands until vaguely dough-like . 
+  roll out , cut into round blobs on a baking tray , paint with milk ( or top with a little grated cheese ) , and sling in a gas 7 oven for 10-12 mins . 
+  cool on rack ( seriously , they 're better cool ) . 
+  stuff into face . 
+  fuck , no !, 
+  yeah sorry , i was n't in a fit state to convert everything . 
+  gas mark system : http://en.wikipedia.org/wiki/gas_mark, 
+  dude : version control, 
+  it seems rather ridiculous to compare jquery to dojo - they 're entirely different beasts . 
+  dojo vs [ jquery ui ] ( http://jqueryui.com/ ) might make better sense as a comparison . 
+  but then you 're talking about things for building javascript-based widgets , and you 'd be kinda stupid to limit your search to just those two ( you 'd probably want to at least look at [ extjs ] ( http://www.sencha.com/products/extjs/ ) , [ yui ] ( http://developer.yahoo.com/yui/ ) , [ qooxdoo ] ( http://qooxdoo.org/ ) , [ sproutcore ] ( http://www.sproutcore.com/ ) as well , and there are several others that are worth consideration too ) . 
+  successfully building large apps is more about how you use the libraries you 've chosen , rather than which you choose . 
+  some will require more manual work than others depending on what you want to do ( eg , jquery ui is a relatively lightweight set of widgets , compared to full-stack stuff like dojo/extjs/etc ) , and there are some potential minefields ( eg , be careful choosing prototype.js if you need to mix it with other code , as its native object extensions often do n't play well with other things ) , but generally speaking , there 's no reason why you ca n't do a good job with any of them . 
+  techniques like [ progressive enhancement ] ( http://en.wikipedia.org/wiki/progressive_enhancement ) , [ namespacing ] ( http://www.dustindiaz.com/namespace-your-javascript/ ) your code and basic development practices like keeping things organised and consistent are far more important for large-scale development . 
+  this makes no sense . 
+  i do n't think choosing jquery `` by default '' over other frameworks or libraries is the problem you seem to think it is . 
+  if you want to use something else or you want to go nuts with a widget/framework thing , that 's cool . 
+  but if you do n't , you 're not going to hurt anything by picking jquery . 
+  there 's an argument that you need to be careful with things like prototype ( and even full-stack framework stuff like dojo/extjs/etc ) , as they tend not to play nice with others . 
+  but , really , jquery is probably the * least * likely of the bunch to cause you trouble . 
+  and yes , i [ remember you ] ( http://www.reddit.com/r/web_design/comments/c8cio/jquery_vs_javascript_the_masters_share_their/ ) . 
+  true . 
+  though i 'd hope he was in whatever dir he was working . . 
+  haha , i did ( almost ) exactly the same thing when i was filling mine in last night . 
+  job title : `` software developer '' , job description : `` develop software '', 
+  colour screen ? 
+  why ? 
+  one * really * good feature old mobiles had that modern phones never quite managed to replicate was their always-on screen . 
+  why the fuck we traded that for completely unnecessary colour screens , i have no idea . 
+  of course now in the days of cameras and web browsers on mobile phones , they make a bit more sense . 
+  but i lived through the transition from b + w screens to colour ( before there was any practical use for it , other than `` well colour is better , obviously '' ) . 
+  at the time it just seemed fucking ridiculous . 
+  so why make a camera-less , browser-less phone with a colour screen ? 
+  it makes no sense !, 
+  because i 'm a pragmatist , not a minimalist . 
+  screens are useful for phone-related things like managing contacts , sending text messages , seeing who 's calling before answering , and the number one function of cellphones these days : checking the time . 
+  you 'd rather have more battery life ? 
+  really ? 
+  well there 's a revelation . 
+  you think there 's anyone out there who 'd be all `` oh no , that 's far too much battery life , i better buy this other phone that needs charging more often '' ? 
+  why do n't hospitals install metal detectors on doors to rooms containing mri machines ? 
+  there are * some * companies out there using perl for interesting new things , not just maintaining old code ( we 're using it for new stuff still ) . 
+  some of the newer stuff ( moose , catalyst , dbic ) are actually well-designed and nice to work with . 
+  it 's got some life in it yet . 
+  that said , this post is a little misleading . 
+  perl appears in descriptions for lots of jobs , from sysadmins to testers to jobs primarily working with other languages . 
+  same reason sql ( and javascript ) tends to be high up in these kinds of stats ; they 're desirable secondary skills . 
+  my point is , i doubt anyone * deliberately * brings metal things into rooms with ridiculously powerful , multi-million dollar magnets in them . 
+  a door does n't discriminate between a person or a person carrying a chair , while a metal detector seems like a relatively simple means to `` remind '' people ( through the medium of an ear-piercing alarm ) that they 're about to do something exceedingly stupid . 
+  seriously guys , why do people continue to ignore [ postgresql ] ( http://www.postgresql.org ) ? 
+  it 's an * amazingly * good , mature ( yet still being actively worked-on ) , proper open-source database . 
+  i did n't make that connection . 
+  either you 're pretty smart , or i 'm pretty dumb . 
+  yeah that got me , too . 
+  i wept like a little fucking girl . 
+  it 's a reasonable point , though . 
+  apple have only managed to produce one half-decent mouse without significant design flaws , and that was many years ago . 
+  the standalone touchpad is pretty good ( i have one at work ) , but it 's not as good as the ones on mbps , and still not as good as a normal pc mouse . 
+  and do n't get me started on os x 's mouse acceleration . 
+  i 'm referring to the adb mice ( i personally prefer the ii , but the first one is good too ) . 
+  the last really * good * mice they made , which i have no complaints about . 
+  the `` pro '' mouse was n't terrible , but the shiny finish was n't really conducive to long mousing sessions , and the switched shell meant you could n't rest your hand on it . 
+  mighty mouse had more flaws , the side buttons were * exactly * where any normal-sized adult would try to grip the mouse , so effectively useless . 
+  its scrolling `` nipple '' had a nasty habit of filling with . . what i can only describe as `` mouse cheese '' , rendering it unreliable ( or useless ) until cleaned . 
+  the right-click behaviour ( although better than having no right click ! ), 
+  was n't ideal , as it meant you had to lift your left finger for it to register . 
+  the `` magic '' mouse is , in my opinion , a complete ergonomic failure . 
+  too small and dainty for most people , providing no palm support at all . 
+  the shiny finish is possibly the worse choice for something you 're expected to reasonably-accurately drag fingertip ( s ) along ( compare to the exquisite textured finish on the mbp trackpads ) . 
+  it also has feet that are inexplicably angled slightly , so they did n't quite ride flat against the mousing surface - this makes it feel a little scratchy ( and sometimes noisy ) on some surfaces . 
+  the puck . . 
+  i did n't actually mind it that much . 
+  it was , admittedly , a fucking stupid shape to make a mouse , but ( at least the later ones with a dent in the button ) were vaguely usable once you got used to them . 
+  in my opinion it was n't as fatally flawed as their most recent mice , which seem to be trying to be `` innovative '' at the expense of usability and ergonomics . 
+  the new standalone trackpad is * almost * great . 
+  the pressure required to register a click is a * tiny * bit too high , and it would really benefit from a border of some sort ( to avoid mousing off the edge ! ) . 
+  mine also seems to lose bluetooth connection if i get it too close to the bottom right of my work imac , which seems slightly ridiculous given that 's the logical place for it to go ( although i admit that might be just a problem with mine ) . 
+  but i 'm with you on the original lisa/iic mice . 
+  i did n't use either very much ( i was an amiga kid ) , but they did the job . 
+  i 'll totally admit that 's my highly-subjective personal opinion . 
+  lots of people seem to get on well with it , but i simply ca n't use the thing without wanting to throw it out the window . 
+  for me , the mighty mouse is okay if the side buttons are disabled and the nipple thing is clean . 
+  it 's still a little fiddly , but works alright . 
+  i ca n't stand * any * form of mouse acceleration . 
+  it seems totally unnecessary . 
+  i have it switched off on my windows box , and i can move the pointer across two widescreen monitors with about 4 '' of physical movement , and * still * do pixel-perfect work in photoshop . 
+  i can kinda cope with it if i need to , but os x 's acceleration is apparently mandatory and completely unintuitive . 
+  i think you 're probably right there . 
+  i get why they try , but their track record with mice is horrible compared to the thoughtful design they bring to almost everything else ( itunes excluded  ) . 
+  modern mice are really not that different from the [ very first prototypes ] ( http://upload.wikimedia.org/wikipedia/en/2/2d/firstmouseunderside.jpg ) , the ball and optical mice were essentially the same thing , the biggest actual innovation was probably the scrollwheel ( and that 's effectively just a trackball bolted to the top ) .

@@ -1,0 +1,100 @@
+   get a cubietruck ( + a psp power supply ) for 3-4 times the price, 
+  ... or odroid c1 for the same price ... 
+  check the sd breakout if it 's designed to work with 5v - sd cards are 3.3 v, 
+  first of all , if you really mean arduinos ( like in unos ferinstance ) forget about it . 
+  if you mean atmega mcs - it should be doable . 
+  answers to lots of your questions depends on what exactly do you want them to do . 
+  synchronization should n't be a problem : drive them from the same clock source , the startup time will be probably slightly different for each chip - they need to just wait for some external trigger , like int0 to be applied at the same time to every one . 
+  comparing the results will depend on the application - it could be as simple as bunch of logic gates . 
+  btw i have no experience with fault tolerant systems , so do n't take it as gospel ... , 
+  you could try to send the modulated ac signal ( kinda like radio ) it should work even without a common ground . 
+  if you want your big robot do the same things the small robot does , you can keep the same mc , if you want it do do more things you may need mc that can do more . 
+  the main difference between uno and mega is the number of inputs/outputs and the size of memory . 
+  you can experiment if you wish , just bear in mind whatever you `` discover '' with your experiments might not hold true for the different versions of the same chip . 
+  when the manufacturer says it 's `` reserved '' its behavior can be changed without notice . 
+   why incorporate a whole arduino for $ 25 each when you can build a custom for $ 5/unit with only the functionality you need ? 
+  op bought a micro on ebay - probably for less than $ 5 ... 
+  uno has 2k of ram , what resolution video frame you think you can fit in there ? 
+   burn a different bootloader that uses the on-chip 8mhz clock . 
+  or just burn your firmware and do n't bother with a bootloader ... 
+   this makes sense , since electrons are negatively charged and attracted to the positive terminal . 
+  does it ( make sense ? ), 
+  what about electrolytes - both negative and positive ions flow through it . 
+  what about p-doped semiconductors - the carrier is a `` hole '' not an electron . 
+  the current flow is ( by convention ) from positive to negative . 
+  what is the carrier is irrelevant - otherwise you would have a confusion when the carrier is not electron ... 
+  the code and the data have separate address spaces . 
+  so , you can not execute the code from the data memory . 
+  iow you can not write self-modifying code . 
+  ( technically , you still can use bootloader to write to code memory but you have to remember it can be written to only so many times . ), 
+  you could try to use [ copper foil ] ( http://solutions.3m.com/wps/portal/3m/en_us/electronics_na/electronics/products/product_catalog/~/3m-copper-foil-shielding-tape-1181?n=4294299972+5153906&amp;nr=and%28hrcy_id%3a0lvgj7f2tngs_tphdkzrkgg_n2rl3fhwvk_gpd0k8bc31gv%29&amp;rt=d ) to cut on the amount of wires - it looks neater and is easier to trace . 
+  most of eastern european countries used to have russian as a mandatory class in school ... 
+  you could alternate pull up/down , if it changes with it then it 's floating ... 
+  that 's what pwm is for ... 
+   they are halfway there, 
+  that 's how i feel about ancaps  ( minarchist ) libertarians still can not get rid of the perceived need of the state , ancaps still can not get rid of the perceived need of the statist paradigm/concepts/institutions , even though they would like to have it without the state . 
+   all that does is further the thought that people like the ones here are , in the end , the extremists, 
+  `` extremism in the defense of liberty is no vice . '', 
+  _ [ barry goldwater ] _, 
+   ** run ** a [ stable ] society, 
+  that 's part of the problem i 'm talking about , 
+  get the bare chip and use your arduino as a [ programmer ] ( http://arduino.cc/en/tutorial/arduinoisp ) , this way you do n't even need the bootloader ( although you can burn one in . ), 
+  it 's a duplicate post - those tend to be downvoted ( or one of them . ), 
+  processor does n't know anything about hex ( or decimal , for that matter ) it only knows binary . 
+  the hex/decimal notation is for the convenience of the programmer - compiler converts it to binary anyway . 
+  in your case you are sending the bytes and the serial terminal interprets them as ascii or utf-8, 
+  looks suspiciously like the arduino is resetting itself from time to time ... 
+  perhaps the power connection is flaky ... 
+  no need for ifs and try to simplify the expressions . 
+  for example : the second if could be replaced with, 
+  digitalwrite ( ledco ,, 
+  ( c & & ( a | | b ) ) | | ( a & & b ) ) ) ;, 
+  what about looking for the stereo and alternating with looking for the phone ? 
+  something many people keep forgetting/not knowing about : the processor itself , be it atmega or arm or intel , does n't know about ascii - all it knows is a byte ( 8 bits . ), 
+  when you press the key on your keyboard it sends some arbitrary bytes to your pc -  your pc 's keyboard driver translates those bytes into some other arbitrary bytes the operating system interprets as ( possibly ) ascii characters -  it sends them through usb to the usb to serial adapter and then to your atmega usart . 
+  atmega gets it as series of bytes , it 's up to the program/libraries to figure out what they represent . 
+  iow , you press the key , atmega gets the byte . 
+  what you do with it is up to you . 
+  so , yes , you can write a program ( sketch ) to read the byte and , depending on its value do something . 
+  again , up to you what . 
+  the easiest possible way to do what you want to do is to use the numeric part of your keyboard ( with num lock on ) and just translate it to ' 6 ' -  right , ' 4 ' -  left etc. 
+   70 dollars seems really high, 
+  radioshack 's arduino isle is for rich , google-challenged , grandparents looking for a gift for techie grandkids ... 
+  from the sidebar :, 
+   for c++ questions , answers , help and advice see r/cpp _ questions or stackoverflow . 
+  anybody knows what 's the opamp doing there ? 
+  thanks . 
+   i know flora runs at 3.3 v and lilypad runs at 5v, 
+  from the [ sparkfun page ] ( https://www.sparkfun.com/products/9266 ) : `` board will run from 2v to 5v '' no logic converter needed, 
+  i do n't see why you would have any compatibility issues, 
+   microcontrollers generally can not expand their ram . 
+  this is not entirely correct . 
+  see / u/martin2250 comment for an easy example ... 
+  i suspect cordless power tool motors could do the job . 
+  you can sometimes find a decent price on used tools [ like this ] ( http://unixsurplus.com/product/craftsman-nextec-12-volt-lithium-ion-cordless-multi-tool-waccessories?gclid=ckjl2roivcqcfsxp7aodojgapw ) for instance . 
+   a pair of cables going around the house would be about 50m total or 25m to two directions . 
+  is this efficient ? 
+  is there any protocol that would work in those ranges ? 
+  you could look into rs485 - there are [ cheap chinese ] ( http://www.aliexpress.com/item/free-shipping-5pcs-lot-max485-module-ttl-to-rs485-module-ttl-turn-rs-485-module-mcu/32259712898.html ) modules . 
+  it uses twisted pair cables and can handle your distances easily . 
+   i 'm using a mac, 
+  depends how you want to play . 
+  if you want arduino + shield , uno and [ motor shield like this ] ( http://arduino.cc/en/main/arduinomotorshieldr3 ) will do . 
+  if , otoh , you want to get down to the metal , pretty much any atmega or even attiny + h-bridge ( like the one from the shield above , for instance ) is the way to go . 
+  with your updated requirements , you need the driver that can handle them - something like [ this ] ( http://www.ebay.com/itm/like/171012036277?lpid=82&amp;chn=ps ) . 
+   i think i 'll be ok without the resistors, 
+  resistors are dime a dozen , no reason to not have one ... 
+  pow is probably an overkill ( will be slow , ) the first one can be re-written as :, 
+  y = x * x ;, 
+  y + = y * x + x + 1 ;, 
+  for instance . 
+   the senator should be looking for ways to improve public safety , not comparing police officers to terrorists, 
+  perhaps the `` police officers '' should stop acting like the invading army ... 
+  dunno , he actually has a point : can a hooker ( let 's say in a place the prostitution is not illegal ) refuse the client based on race ? 
+  probably your best bet is 12v input ( either battery or 12v wall plug ) , the buck converter for arduino and a [ boost converter ] ( http://www.eachbuyer.com/dc-dc-600w-12-60v-to-12-80v-boost-converter-step-up-power-supply-module-p317679.html ) for 24v, 
+   120v wall wart to 12v dc . 
+  like this . 
+  it says for lights but i presume it will work ? 
+  should work fine , assuming you are n't gon na draw more than , say , 5.5 amps to be safe . 
+   i 've read i can bypass the plug but its not as safe, 
+  with the buck converter you should really be fine bypassing arduino 's regulator .

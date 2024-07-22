@@ -1,0 +1,100 @@
+  well i just do n't know what kind of logic makes comparing 90nm athlon 3700 + to 65nm phenom to 22/14nm intel cpus . 
+  you bought high power cpu then now you bought low power one . 
+  good for you . 
+  it was always like this ... cpu support lists are on motherboard makers websites for that reason . 
+  if you buy a cheap mobo that only supports 95w then you wont be able to put 140w chip in it . 
+  well soc ussually only allow limited functionality - for instance am1 only supported 2sata ports and 2usb3 .0 , similar situation with carrizo . 
+  reason for that is that those chips are targetted for mobile and making those chipsets more complex would bring up power consumption ( + die size =  more expensive ) . 
+  what will happen in my opinion is that you will be able to buy some very cheap am4 mobos that will be like am1 mobos - only use the soc functionality . 
+  and then you will have more expensive motherboards which will have separate chipset that will take over bringing more pci-e lanes , more sata , more usb3 and overall greater expandability . 
+  well soc ussually only allow limited functionality - for instance am1 only supported 2sata ports and 2usb3 .0 , similar situation with carrizo . 
+  reason for that is that those chips are targetted for mobile and making those chipsets more complex would bring up power consumption ( + die size =  more expensive ) . 
+  what will happen in my opinion is that you will be able to buy some very cheap am4 mobos that will be like am1 mobos - only use the soc functionality . 
+  and then you will have more expensive motherboards which will have separate chipset that will take over bringing more pci-e lanes , more sata , more usb3 and overall greater expandability . 
+  i do n't think so . 
+  we might see a straight up shrink of them in the future though ( they are gon na shrink xbone + ps4 apus ) . 
+  small die dual core zen is supposed to be the replacement for those in desktop/laptop ( stoney ridge ), 
+  i bought a asus m4a89gtd am3 motherboard in 2011 ( before am3 + bulldozer and piledriver came out ) . 
+  recently ( like a year ago ) i found out that my motherboard actually got a beta bios support for bulldozer !, 
+  some googling and fiddling around and now i am running fx8350 in the same motherboard ( the board was pretty sweet for its time so i even have usb3 .0 and sata3 ) . 
+  sorry i was wrong the stoney ridge rumours were actually a excavator dual core die ( i 'd still take one module excavator over atom so its propably a good call ) . 
+  that means imho that amd will not produce dual core zen die soon - they will have lowend covered with existing cheaper 28nm dies . 
+  the only time i see possibility of dual core zen is when zen apus come to the market . 
+  imho cat cores are dead . 
+  no sense in spending more money there unless intel stops giving atoms away . 
+  i 'd rather if they focused there r&d into a single uarch . 
+  about the shrink yeah you are right consumer shrink is propably not happening . 
+  that likely wo n't happen as thunderbolt implementation is pretty expensive silicon wise + intel charges roaylties . 
+  this only makes it viable on high-end boards . 
+  usb 3.1 already is much cheaper to implement and offers 10 gbps per second ... so unless you want to raid ssds together or something crazy like that currently there is almost no benefit - and thats why they brought this feature . 
+  ( yes in the future we will propably have better ssds ... but also propably better usb :-) ), 
+  i would n't expect any manufacturer to actually make a mobo without chipset unless :, 
+  a ) its for a miniitx board - since big expandabilities are not needed there . 
+  b ) its a very cheap board, 
+  but i do n't think anybody would buy a premium overclockable board with strict limits such as 4 \u00d7 usb 3.0 , 2 \u00d7 sata 6 gb/s - common with socs ( to save die space and power since they will go to laptops aswell ) . 
+  why do you think that ? 
+  i would expect more amongst the lines of, 
+  amd 4core + ht vs intel 4 core, 
+  amd 6core + ht vs intel 4core + ht, 
+  amd 8 core + ht against 6core + ht, 
+   a year late and only almost as good as haswell ? 
+  second half of 2016 was always expected . 
+  nobody never claimed sooner . 
+  and where do you get the performance numbers from ? 
+  there are no benchmarks nothing avaliable ... all we know that ipc ( single/multi ? 
+  which workload ) would be 40 % over excavator ... which was hardly properly reviewed . 
+  and we do n't know anything about clocks or core numbers . 
+  without knowing the performance how can you even speculate on pricing ? 
+  i do n't think phones are happening ... not with intel giving out phone/tablet atoms for free . 
+  am3 + was backwards compatible with am2 / am2 + / am3 chipsets ... so some am3 + boards have 10 years old technology on them ... including pcie 1.0 ( granted those are the really cheap ones . ), 
+  its for the best really . 
+  it would limit the performance a lot . 
+  14nm actually ( samsung / global foundries process , not 16nm made by tsmc ), 
+  via has actually some new cpus ... 
+  i though they were dead . 
+  nothing for desktop of course its small atom like core made for embedded . 
+  its 14nm . 
+  samsung and glofo have the same manufacturin process ( glofo licensed it for samsung ) . 
+  if glofo dont have shit yeilds and stuff then its gon na be made in glofo ( due to wsa - obligation to buy certain numbers of chips from them ) . 
+  if they do have shit yeilds then its gon na be made in samsung fabs first and then moved later . 
+  atleast imho . 
+  they likely ca n't provide them yet . 
+  as performance of course depends on how high they will clock and that depends on the proccess - which will mature from now to the end of the year . 
+  i 'll wait when it releases it will only get cheaper :p ... 
+  i actually would n't mind them releasing some transitional ddr3 boards - but that wont propably happen as they would be shooting themselves in the foot with future apu upgradibility . 
+  bulldozer - piledriver - steamroller - excavator, 
+  granted excavator only came in mobile and steamroller only came in 4core variety but yeah ... the did some improvements . 
+  i have am3 mobo ( m4a89gtd pro ) and i managed 4.3 ghz on my 8350 ... granted if i go faster it starts downclocking . 
+   matter of months untill intel transitions to 10nm after zen launches, 
+  i would n't be that optimistic about getting it that soon and it certainly wo n't bring the price per transistor down . 
+   chances are they are selling their transistors cheaper then intel . 
+  not neccesarilly - we do n't really know the density parametres of samsung 14nm vs intel 14nm ( and we do n't know the price ) ... and more importantly look at intel die - igpu takes like 60 % of the die . 
+  they got pretty big leaway - they can forgo the igpu in higher end models and replace it with more cores or just do a really small igpu . 
+   bay trail is far cheaper . 
+  its harder to compete with something that is given for free . 
+   intel could easily churn out a die without the huge igpu . 
+  which would be great for the industry . 
+  :-) anyway correct me if i am wrong but amd igpu is more efficient ( transistor wise ) than intels . 
+  and even then i think they can get good margin even with slightly larger die :-), 
+  according to older roadmaps summer was the supposed release . 
+  however i since amd already demoed functioning silicon and they are releasing in summer ( and nvidia didnt show or say anything ) . 
+  i would guess they will release bit later maybe q3/q4 2016 . 
+  also keep in mind that the first finfet gen is propably not gon na mean a lot for the highend - since producing such a big dies right now is very hard ( low yields ) so i would n't expect anything to blow titanx / 980ti / furyx out of the water soon ( + finfets are not cheaper per transistor than 28nm which was the case with every generation before - so lowend will propably stay at 28nm for a while ) . 
+  yes new unified socket . 
+  am4 for both apus and cpus . 
+  but shit it was 99cents !, 
+  even if that were a posibility it would be slow as hell . 
+  and the correct term in this case would be bridge-ap, 
+  i do n't think the federal governmetn is more powerful than before . 
+  they sure are less powerfull than before to censor speech media and such ( as happened during ww1 for example ) . 
+  honestly i do n't think 980ti ( neither fury x ) are good buys long term ( if you want to sell later it is ok but you might lose some money ofcourse ) . 
+  reasons not to buy 980ti :, 
+  a ) dx12 and we are not sure how that affects nvidia architecture ( there were some alarming news from devs about it . 
+  for example that using async compute which is part of dx12 spec causes major issues on current nvidia cards and that they had to disable it for nvidia ( oxide games ) ), 
+  b ) driver neglect when pascal launches ( remember 780ti ), 
+  c ) price to performance, 
+  resons not to buy fury x :, 
+  a ) 4gb of ram will propably become a bottleneck moving on, 
+  b ) price to performance, 
+  if i were to buy highend card right now i would go for regular fury - which is very close to the perf of fury x and considerably cheaper . 
+  + we know that it will only get better with dx12 / vulkan .

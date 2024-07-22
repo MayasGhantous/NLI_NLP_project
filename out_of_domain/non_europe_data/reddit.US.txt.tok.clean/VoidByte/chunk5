@@ -1,0 +1,100 @@
+  * moving the standard location for a lot of files . 
+  * f ** king upstart and breaking init.d . 
+  * f ** king upstart not using standard pid files . 
+  ubuntu likes to make things easier . 
+  the issue is that it takes the path of most surprises , when i 'm debugging a server issue i really do n't want surprises . 
+  i 've had most of the weekend off . 
+  hurrah , it 's been a while . 
+  currently i 'm reading some reddit , and manually running a particularly important sql dump because it failed . 
+  just added ' | gzip - ' to the dump so it should succeeded from now on . 
+  :( sadly axe is the only deodorant i 've found that i 'm not allergic to . 
+  occasionally they do stuff like this on american tv . 
+  for instance they will have an episode on bullying in a high-school and after will have one of the characters say that bullying is a major problem and refer to x and y resources for assistance . 
+  the pile of crap that was 7th heaven did this the most . 
+  i 've also seen it in shows like everwood . 
+  it is n't super common but happens every so often . 
+   but it has a sort of special-case use while in visual mode ,, 
+  i was under the impression that visual-block was special in that it replicated the change on all lines . 
+  so you can use any command on the first line and it is replicated . 
+  the graveyard book is written for children . 
+  if your child liked lord of the rings i do n't see why they would n't enjoy the graveyard book . 
+  no pokemon the tv show is ridiculous and awful . 
+  grab a copy of the remake of blue and red for ds and play that . 
+  fun games . 
+  [ is not a shell built-in . 
+  it is in / bin it is an alias for test . 
+  you are correct . 
+  thanks for correcting me . 
+  you are correct . 
+  thanks for correcting me . 
+  i really have no idea how to get your outlook to do x task . 
+  i also do n't have the time or interest to explain to you how to resize your window . 
+  [ regex ] ( http://en.wikipedia.org/wiki/regular_expression ), 
+  a regex is a way of describing certain combinations of letters and digits . 
+  so replace all multi spaces with one space would be expressed as ` 's / \\ + / / ' ` . 
+  they are commonly used in programming and system administration but not much outside of there . 
+  if you are lucky to have a word processor that understands them ( you do n't ) you could run the expression over the entire document and have it take out all extra periods . 
+  edit : looking at [ microsoft 's website ] ( http://office.microsoft.com/en-us/support/add-power-to-word-searches-with-regular-expressions-ha001087305.aspx?redir=0 ) you can use a modified vocabulary for regular expressions . 
+  you would want to search for ` ' @ ' ` and replace with ` ' ' ` . 
+  if the issue is what i think it is then it is pretty easy to fix . 
+  we ran into this issue at work when cloning a virtual machines everything would work except the physical network device has changed so it could n't start the network card . 
+  to fix remove the xx-persistent-net . conf from the udev folder in etc , then restart the server . 
+  the server would rebuild the xx-persistent-net . conf and be happy . 
+  i 'm sure there was a way i could have manually edited the udev file to find the new hardware but i 'm lazy . 
+  as for the particular ad i 've never worked with these types so i do n't know . 
+  take a look at ` man date ` . 
+  date has format strings which will let you build the date in any format you want . 
+  for instance : ` date '' + % d / % m / % y '' ` . 
+  to set this in your $ ps1 :, 
+  ps1 = ' $ ( date '' + % d / % m / % y '' ) ', 
+  there is probably a bit more you need to do to have the full prompt . 
+  make sure you quote the entire string or else it wo n't be reevaluated per display . 
+  backticks are used to mark code . 
+  so either \\ \\ ` or put four spaces in front of your line of code and put a least one line break in front of the line . 
+  #include < stdio.h , 
+  char msg [ ] = { 78,111,119,32,72,105,114,105,110,103,0 } ;, 
+  int main ( int argc , char ** argv ), 
+  return 0 ;, 
+  ` gcc / tmp/tmp . c & & / tmp/a . out `, 
+  i have always had a hard time pronouncing some words . 
+  `` pacific '' and `` specific '' are ones that really tripped me up a child . 
+  i could n't help it . 
+  over time i taught myself how to properly say them but while having a conversation i 'll occasionally come across words like those two that i just ca n't pronounce . 
+  not always , my pontiac grand prix does n't for example . 
+  * laptop, 
+  * beer rag, 
+  * lock pick set, 
+  * glasses repair kit, 
+  stopping this is what the net neutrality movement is all about . 
+  it is both sad and exciting ( maybe people will wake up ) to see the first salvos in this fight . 
+  also :, 
+  * `` netflix ( nasdaq : nflx ) announced thursday ( nov 11th ) that it has signed a multi-year deal with level 3 ( nasdaq : lvlt ) for level 3 to become a primary content delivery network ( cdn ) provider for the online movie rental company . 
+  thanks , though to be fair i stole it shamelessly from ycombinator . 
+  as has been stated in another post if you do n't understand what you are doing do n't run a server . 
+  your server will be likely be compromised and bad stuff will happen . 
+  virtual hosts, 
+  dns can point multiple names to the same server . 
+  so apache1.example.com can also be wikileaks.example.com . 
+  by default a webserver serves the same documents to all names . 
+  so apache1.example.com / page1.html is the same as wikileaks.example.com/page1.html . 
+  if you want different documents per domain you need multiple servers . 
+  this is very innefficent . 
+  so apache ( and most other webservers ) have added virtual hosts . 
+  in the apache config i say if the hostname is wikileaks.example.com serve files from ' / var/www/wikileaks ' if it is apache1 serve files from ' / var/www/apache1 ' . 
+  this is much more efficient . 
+  lookup apache virtual hosts for more details . 
+  rsync, 
+  rsync is a protocol and tool for syncing files . 
+  there are two methods for it to run . 
+  the first is over ssh . 
+  it logs in over ssh and does all sorts of checks and processing . 
+  the second is by running rsyncd . 
+  this is a daemon ( service ) that runs on a server allowing rsync to efficiently compare files and upload any changes necessary . 
+  ssh, 
+  ssh is a protocol for securely creating a connection to a server and managing it from the command line . 
+  the ssh protocol also includes some other tools for file transfers . 
+  ssh keys work by providing a public and private . 
+  the public can be placed on the server and then the server will accept any connection from the private key without a password . 
+  to add a ssh key to a server copy the key and paste it into ` / home / < user  / . ssh/authorized _ keys ` . 
+  make sure ` authorized_keys ` is owned by < user  and is only writable by < user  . 
+  this is what gpg is for .

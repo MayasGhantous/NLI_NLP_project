@@ -1,0 +1,100 @@
+  you 'll see that once you get to the point where testing your app by hand takes two days to find `` everything '', 
+  edit : after reading once again , wtf, 
+   tests take a long time to write, 
+  not really , unless your app is written in such a way where it is impossible to write unit tests ( as in `` i used no architecture in my app and my presentation layer is just everything stuffed into the activity ), 
+   the best programmers i know write no tests . 
+  which means `` i do n't know really good programmers '', 
+   this is especially true with java , where the type system already blablabla, 
+  the purpose of tests is not ensuring that your tools work . 
+  you 're testing your business logic to ensure that the flow of your app works correctly, 
+  try horse , but hole, 
+  really ? 
+  having old samsung devices should cover your needs pretty well , the rest you can test pretty well with the emulator ( even if it might be annoying to use ), 
+  ehh , the seat on bag is n't that bad , just tell people to scoot over , it usually works . 
+  but blasting music in public ( even if it 's music i like ) is something i absolutely hate, 
+  i leave [ this ] ( https://youtu.be/2kr7kdcsiws?t=172 ) here, 
+  * 5 years of what i suppose you 'd call technical high school with focus on it ( one year of java , the rest were focused on c # ), 
+  * ~ 1 year actual work in a tiny it company as a web dev, 
+  and now my current job as an android developer for 11 months now ( i picked up the android specific stuff no the job ), 
+  says in the faq, 
+   as written in the paper , the datasets will be made available but nothing is said about the source code . 
+  however , because of the unexpected amount of interest in this project , the pix2code implementation described in the paper will also be open-sourced in this repo together with the datasets . 
+  i want to share an image with a text containing a link , so basically something like [ this ] ( http://i.imgur.com/42jcxni.jpg ), 
+  how can i achieve that ? 
+  i have this code , but it does n't format the url in the text as a clickable text when shared, 
+  intent shareintent = new intent ( ) ;, 
+  shareintent.setaction ( intent.action _ send ) ;, 
+  shareintent.putextra ( intent.extra _ stream , f ) ;, 
+  shareintent.putextra ( intent.extra _ text , getstring ( r.string.shareurl ) ) ;, 
+  startactivity ( intent.createchooser ( shareintent , `` share '' ) ) ;, 
+  i 've had the string-resource as plaintext ` hello , plz click best.url.ever ` and also tried ` hello , plz click < [ cdata [ via < a href = `` best.url.ever ''  best.url.ever < / a  ] ]  `, 
+  neither worked, 
+  2 modules , one is ` : core ` one is ` : app `, 
+  ` : core ` is divided into the folders ` presentation ` , ` webservice ` , ` persistence ` , ` dagger ` . 
+  so basically the stuff that 's detached from android itself, 
+  ` : app ` is divided into packages by feature and packages for the android-specific parts of di and the class definitions for implementions like the persistence ( currently , i call it factories , but i should probably create packages by layer named after the layers themselves ), 
+  as far as i can tell , its supposed to be the same thing you upload when you make actual production version, 
+  you can always go the fabric route with ` beta ' , that 's what we use for our internal testing, 
+  if your git repository is publically accessible ( say , when you use github.com as a non-premium user ) , then you should definitely not keep your passwords in your gradle file, 
+  we have a private repository on gitlab , where it would n't be as bad , but we still do n't store the credentials, 
+  atraac explained it very well already , i 'm just providing you with a link to the docs, 
+  we have an activity and get the intent via a static method , to ensure that we always have certain required parameter . 
+  so it basically looks like this, 
+  public static intent showtutorial ( context context , type type ) {, 
+  intent i = new intent ( context , tutorialactivity.class ) ;, 
+  return i ;, 
+  the problem is that crashlytics shows that we get nullpointerexceptions , because in some cases ` getintent ( ) . getextras ( ) ` returns null in oncreate . 
+  i 've searched around a bit on the webs and it seems that ` getintent ( ) . getextras ( ) ` is null , when no extras we 're added , which is not possible , since we never create intents outside of the static helper class, 
+  what 's wrong here ? 
+  is it process death and activity recreation ? 
+  of course , otherwise i would n't be asking for help here , 
+  sorry , the code is owned by the company , ca n't share too many details : /, 
+  i killed the process via android studio and it did n't crash , so i guess it 's not activity recreation, 
+  i hate legacy code, 
+  i can run my app without problem and build signed apps but when i attempt to invoke gradle via windows commandline , i get a java mismatch error . 
+  ( unsupported major.minor version 52.0 ), 
+  does anyone know how that happens ? 
+  i specifically try to invoke gradlew app : dependencies . 
+  i really have no idea what i did , it worked an hour ago and the only thing i did was change the facebook-sdk-version , so i could see what the current version is, 
+  edit : nvm , found it , had to download jre 1.8, 
+  what else could it possibly be ? 
+  intents for this activity are not generated anywhere else but the static helper method, 
+  meh , not really useful without a description on how to actually set it up . 
+  just adding a repo to circleci did n't work for me and the tutorials i found online were outdated, 
+  well , i look like an ass now . 
+  thanks for pointing it out, 
+  so she 's basically voldemordt but with a butt instead of tits, 
+  yeah , hook me up with that , please, 
+  i downloaded an app to fill up ram to enforce an activity recreation and it was the same result . 
+  i 'm probably doing something wrong , trying to recreate it, 
+  edit : the same result as in `` i could n't reproduce the bug '', 
+  bad wording on my part , sorry . 
+  i could n't reproduce it, 
+  it 's probably some weird bug on samsung or whatever, 
+  gson , rxjava2 , retrofit2, 
+  i have this envelope object, 
+  `` code '' :200 ,, 
+  / / some other object, 
+  for requests that return a responsebody . 
+  requests that do not have responsebodies return this, 
+  `` code '' :200 ,, 
+  so when i use my code, 
+  fun somecall ( someparam : string ) : observable < emptyresponse  {, 
+  return msecured.somecall ( someparam ), 
+  . map { it.payload }, 
+  . applyschedulers ( ), 
+  i get a npe when trying to ` map ` the payload . 
+  i could get rid of it by using the elvis operator ` ? 
+  : ` but i wonder if there was a better way . 
+  google search has n't brought much up, 
+  no , changing the responsebody for requests is sadly not an option, 
+  strictly speaking , it 's not a problem with java . 
+  it 's not unsolvable , you could check if the payload is null and return something else instead, 
+  msecured.somecall ( someparam ), 
+  . map {, 
+  it.payload ! = null ? 
+  it.payload : emptyresponse ( ), 
+  is how you could do that ( this is kotlin again , but you can translate it easily to java , looks almost identical ), 
+  but that 's a horrible solution in the end , because you need to keep that in mind whenever you add a call or your method blows up , which is why it would be cleaner , if gson deserialized the null into emptyresponse from the start, 
+  in the end , they 're http requests , so you could get the response codes from the header anyways , but like i said , changing the responsebody is not an option at this point, 
+  oh , the requests will always return full bodies , it 's just the requests that are defined with empty responsebodies that screw up my restclient,

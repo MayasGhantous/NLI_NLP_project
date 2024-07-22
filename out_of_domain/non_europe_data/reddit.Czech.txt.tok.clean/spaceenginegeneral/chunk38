@@ -1,0 +1,100 @@
+  in your situation it would be a lot better to build extremely cheap pc and as you get money to replace the cheap components with better ones . 
+  you ca n't do this with a prebuilt because prebuilts will never have quality core components ( like psu and motherboard ) that you need to build on because that 's where they save money . 
+  that 's not the point though . 
+  this is about op considering paying $ 80 for ~ 5 % performance increase when he could pay $ 110 for ~ 200 % increase instead . 
+  sure , you can argue that the ~ 200 % increase might not be that visible in real world usage ( and i 'm not arguing otherwise ) , but why the hell would then op pay almost the same amount of money for a 5 % increase ? 
+  you can put any gpu into any mobo pretty much , the limiting factor tends to be psu instead . 
+  i think it 's upgrade on the edge of `` worth it '' , i 'd recommend making a bigger jump to a something like the rx470 instead . 
+  you can hook it up and everything will be there as it was before . 
+  however , if you have os on the hdd still , you might need to set up correct boot priority in bios ( because both drives now have os on them and both of them will try to boot up the os that 's on them ) . 
+  everything will stay on the hdd as it was before , if you have a new os installation ( rather than cloned os ) some games and programs might not start because they will be missing registry data in your new os . 
+  chipset , features , quality of the components . 
+  in your case when comparing a mid range z170 board that already have all the basics to high end z170 board where you 're getting extras you probably wo n't use and pay a it more premium on top , the difference most likely is n't worth it but at the lower price points the differences tend to be bigger . 
+  if you 're heavily overclocking good power delivery is for example critical and cheaper boards use low quality components for it compared to more expensive boards, 
+  your ram is ddr3 and skylake uses ddr4 so it 's not compatible . 
+  yes, 
+  the i5 is overkill for general browsing but for editing it makes sense compared to an i3 and will speed things up so keep it . 
+  2x8 is probably overkill unless you dad likes 100 tabs open at the same time but it does n't hurt and is n't that expensive and again , for editing it might come in handy . 
+  either way go for 2x4 or 2x8 as dual channel speeds things up compared to single channel . 
+  you do n't need a gpu , integrated one in cpu will work fine for this purpose, 
+  you plug everything in the back of the pc ( ie . 
+  motherboard ) . 
+  i have no idea about uk prices and only picked through the partpicker so keep that in mind, 
+  changes :, 
+  * better psu, 
+  * ditched hdd in favour of 500gb ssd, 
+  * did `` z170 treatment '' , this means barely slower stock cpu ( 6500 instead of 6600 ) but more expensive board that allows you to use more than 2133mhz ram ( so i added 3000mhz sticks which will make the setup at stock on average faster in cpu bound tasks compared to the 6600 you picked ) . 
+  you 'll be also able to oc even the locked cpu in the future if you ever feel like you want more from it , and/or it gives you a cost efficient way to upgrade into an unlocked i7 without buying a new motherboard . 
+  this is probably somewhat controversial expense that many here would argue against ( especially if you only target 60fps ) but i 'm heavily biased towards having good cpu/ram over gpu since cpu will last you longer than the gpu and cpu cost efficient upgrades ( which includes overclocking and faster ram ) are way harder than buying a new gpu . 
+  if you buy a h110 board , you basically ca n't do anything about lacking cpu perf without buying a new motherboard so while this is more expensive up front , in the long run it will allow you to save money . 
+  * changed the 1060 to a 4gb 480 . again , this is probably controversial but i consider the 4gb 480 to be the best bang for you buck when it comes to mid range gpus especially since i think majority of people overvalue vram size . 
+  if you wanted a bit faster gpu for the system and the pcpartpicker is n't lying about it i 'd get the [ 250gbp r9 fury ] ( https://uk.pcpartpicker.com/product/bt8h99/xfx-video-card-r9fury4tf9 ) which costs the same as 1060 you were considering but will perform a lot better . 
+  aside from the other suggestions here , i 'd ditch the hdd and get a 500gb ssd instead since it 'll end up costing roughly the same and honestly i believe that majority of people who follow the small ssd from programs + large hdd for storage idea ( which originated in times where the largest ssd you could reasonably get was 120gb and most people opted for 60gb ) will benefit a lot more from having everything they can on ssd instead of being able to hoard every piece of media they can find . 
+  not saying there are n't people who will genuinely use up 1tb hard drivers but i 'd always get a larger ssd instead ( and there is n't anything easier than adding the hdd afterwards if you 're constantly filling 500gb anyway ) . 
+  especially in the age of digital distribution and fast internet where you can redownload whatever you want when you feel like playing it . 
+  [ pcpartpicker part list ] ( https://pcpartpicker.com/list/hwqvqk ) / [ price breakdown by merchant ] ( https://pcpartpicker.com/list/hwqvqk/by_merchant/ ), 
+  type | item | price, 
+  ** cpu ** | [ intel core i5-6500 3.2 ghz quad-core processor ] ( https://pcpartpicker.com/product/xwhj4d/intel-cpu-bx80662i56500 ) | $ 190.99 @ superbiiz, 
+  ** motherboard ** | [ asrock fatal1ty z170 gaming k4 atx lga1151 motherboard ] ( https://pcpartpicker.com/product/gyh48d/asrock-motherboard-fatal1tyz170gamingk4 ) | $ 90.98 @ newegg, 
+  ** memory ** | [ corsair vengeance lpx 16gb ( 2 x 8gb ) ddr4-3000 memory ] ( https://pcpartpicker.com/product/myh48d/corsair-memory-cmk16gx4m2b3000c15 ) | $ 79.99 @ newegg, 
+  ** storage ** | [ crucial mx300 525gb 2.5 '' solid state drive ] ( https://pcpartpicker.com/product/2vwrxr/crucial-mx300-525gb-25-solid-state-drive-ct525mx300ssd1 ) | $ 119.99 @ newegg, 
+  ** video card ** | [ sapphire radeon r9 fury 4gb nitro video card ] ( https://pcpartpicker.com/product/m2mxft/sapphire-video-card-112470340g ) | $ 239.99 @ newegg, 
+  ** case ** | [ diypc zondda-o atx mid tower case ] ( https://pcpartpicker.com/product/cpgpxr/diypc-case-zonddao ) | $ 25.98 @ newegg, 
+  ** power supply ** | [ seasonic g 550w 80 + gold certified semi-modular atx power supply ] ( https://pcpartpicker.com/product/dpcwrh/seasonic-power-supply-ssr550rm ) | $ 44.99 @ newegg, 
+  | * prices include shipping , taxes , rebates , and discounts * |, 
+  | total ( before mail-in rebates ) | $ 867.91, 
+  | mail-in rebates | - $ 75.00, 
+  | ** total ** | ** $ 792.91 **, 
+  | generated by [ pcpartpicker ] ( http://pcpartpicker.com ) 2016-11-24 17:52 est-0500 |, 
+  changes :, 
+  * switched to z170 board , not a lot more expensive and allows oc in future ( even locked chips ) but mainly you can get faster ram ( replaced 2133 with 3000mhz , virtually same price and pretty big difference in cpu bound scenarios ), 
+  * ditched hdd in favour of 500gb ssd, 
+  * better psu, 
+  * maybe somewhat controversial but i went with r9 fury which costs pretty much the same but should perform slightly to a lot better than 1060 depending on games . 
+  alternatively save money and get a 4gb 480 [ for $ 180 ] ( https://pcpartpicker.com/product/84m323/msi-radeon-rx-480-4gb-gaming-x-video-card-radeon-rx-480-gaming-x-4g ) which will trade blows with the 1060 anyway but will be a lot cheaper . 
+  unlike most people i do n't think smaller vram is big deal . 
+  well researched build and my only problem with it is a cheap 4 phase z170 board , especially since you 're planning to oc from the get go . 
+  [ pcpartpicker part list ] ( https://pcpartpicker.com/list/x2q84c ) / [ price breakdown by merchant ] ( https://pcpartpicker.com/list/x2q84c/by_merchant/ ), 
+  type | item | price, 
+  ** cpu ** | [ intel core i5-6600k 3.5 ghz quad-core processor ] ( https://pcpartpicker.com/product/gx648d/intel-cpu-bx80662i56600k ) | $ 219.99 @ newegg, 
+  ** cpu cooler ** | [ noctua nh-d14 65.0 cfm cpu cooler ] ( https://pcpartpicker.com/product/46tcmg/noctua-cpu-cooler-nhd14 ) | $ 68.69 @ outletpc, 
+  ** motherboard ** | [ asrock fatal1ty z170 gaming k4 atx lga1151 motherboard ] ( https://pcpartpicker.com/product/gyh48d/asrock-motherboard-fatal1tyz170gamingk4 ) | $ 90.98 @ newegg, 
+  ** memory ** | [ g.skill ripjaws v series 16gb ( 2 x 8gb ) ddr4-3000 memory ] ( https://pcpartpicker.com/product/lhgpxr/gskill-memory-f43000c15d16gvrb ) | $ 79.99 @ newegg, 
+  ** storage ** | [ samsung 850 evo-series 250gb 2.5 '' solid state drive ] ( https://pcpartpicker.com/product/3kl7yj/samsung-internal-hard-drive-mz75e250bam ) | $ 79.99 @ b&h, 
+  ** video card ** | [ sapphire radeon r9 fury 4gb nitro video card ] ( https://pcpartpicker.com/product/m2mxft/sapphire-video-card-112470340g ) | $ 239.99 @ newegg, 
+  ** case ** | [ nzxt s340 ( white ) atx mid tower case ] ( https://pcpartpicker.com/product/vpdqqs/nzxt-case-cas340ww1 ) | $ 59.99 @ newegg, 
+  ** power supply ** | [ evga supernova gs 650w 80 + gold certified fully-modular atx power supply ] ( https://pcpartpicker.com/product/h3fxsy/evga-power-supply-220gs0650v1 ) | $ 82.98 @ newegg, 
+  ** monitor ** | [ asus vg248qe 24.0 '' 144hz monitor ] ( https://pcpartpicker.com/product/rkphp6/asus-monitor-vg248qe ) | $ 179.99 @ best buy, 
+  | * prices include shipping , taxes , rebates , and discounts * |, 
+  | total ( before mail-in rebates ) | $ 1172.59, 
+  | mail-in rebates | - $ 70.00, 
+  | ** total ** | ** $ 1102.59 **, 
+  | generated by [ pcpartpicker ] ( http://pcpartpicker.com ) 2016-11-24 18:27 est-0500 |, 
+  cheapest 8 phase motherboard i could find , balanced out by picking slightly cheaper ram sticks ( same speed and actually better timings than previous ram ) . 
+  if you need to stay within $ 1100 exact you can save few more bucks with a cheaper ssd, 
+  with skylake you have [ vrm ] ( https://en.wikipedia.org/wiki/voltage_regulator_module ) on the motherboard . 
+  this means it 's up to the motherboard manufacturer to provide adequate power delivery for the cpu . 
+  if you are n't overclocking this is irrelevant since all the boards will have good enough power delivery for stock chips ( and most skylake boards have chipset that does n't allow overclocking anyway ) but the issue with cheapest z170 boards is that while they allow you to overclock you still only have the vrm intended for skylake at stock voltages . 
+  obviously , most people will assume that since they are already paying a hefty premium for the z170 board it should handle actually being overclocked but the reality is that they 're paying for the chipset to allow it , not for the components to handle the load . 
+  so once you run the overclocked system for some time , sooner or later the board will fail since the components ca n't handle it . 
+  now , phases are n't everything . 
+  quality of inductors , capacitators , cooling of the vrm , whether the phases are true or doubled , hybrid or digital all plays a role but the variety between z170 boards is pretty small and pretty much all the 4 big manufacturers use equivalent layout on their midrange offerings . 
+  counting the phases by the number of inductors around the board is by far the easiest way to tell when the manufacturer stepped from the stock 3-4 phase vrm to something that can actually handle oc . 
+  it should handle 60fps but i would n't call it adequate cpu for that card . 
+  i 'd recommend at least an i5-6500 but i5-6600k would be ideal . 
+  well , you can put them both in but you ca n't really use them in the way you think . 
+  best solution would probably be to resell the 1060 . 
+  theoretically dx12/vulcan support combining whatever gpus you want ( even amd and nvidia ) but i do n't think any game beside ashes of the singularity actually implements that yet, 
+  r9 200 can mean a lot of things , huge difference in 270x and 290x . 
+  if you have n't overclocked your cpu i 'd do that first and afterwards probably gpu upgrade . 
+  people having compatibility issues were probably talking about m. 2 ssds . 
+  yours is sata which should n't have any problems . 
+  yes . 
+  you do n't really need to `` overclock '' ram nowadays unless you want to go above rated speeds . 
+  just load xmp profile in bios and you are good to go, 
+  well if you 're having trouble with cpu intensive games , investing into gpu will provide you absolutely no benefit . 
+  overclocking is the way to go and should hep a lot . 
+  are you asking about whether to oc ram or cpu ? 
+  you can do both and individually the benefit from 3.5 ghz to 4.5 ghz 6600k and 2133mhz to 3000mhz ram will be the same on average ( though results will probably differ on games ) . 
+  obviously best results will be with both overclocked . 
+  that said , since getting ram to your rated speed ( those 3000mhz you 're buying ) via xpm takes 2 seconds in bios while overclocking cpu is a bit more involved and includes trial and error when testing stability , there 's no reason not to do the former immediately and the latter once you feel like it .

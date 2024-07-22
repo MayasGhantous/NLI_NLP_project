@@ -1,0 +1,100 @@
+  i 've been sitting for a couple of minutes waiting for it to finish on the little test project i 'm using to play with this tool . ~ ~ actually , this one may have been because of the empty image tag i had in there . 
+  still , taking ages to generate the preview rather than just choosing to ignore the image tag is a definite problem . 
+  there is currently ** no way to add source for quotes ** . 
+  when creating a race , it is normal to create a quote to introduce a typical member of that race . 
+  after the quote , it usually says '' -- { { person_quoted } } '' right-aligned within the column . 
+  this is not possible as far as i can tell . 
+  you ca n't do it using ` < style  ` tags , hells , you ca n't even fudge it by putting in a whole bunch of ` & nbsp ; ` or by pressing spacebar over and over again . 
+  and while i 'm talking about these quotes , it would be super nice to be able to format these quotes automatically . 
+  have it automatically make the first line all caps and every subsequent line italic . 
+  i have n't found any tools so far which include that little feature , but it would be extremely useful to have that option . 
+  call it `` race quotation '' or something like that . 
+  a gui-based drag-and-drop ability to rearrange components would be * super * handy . 
+  at the moment , we have to press up , up , up , up , up , up , to get things in place . 
+  i realise that the coding involved in this is quite a bit of work compared to the current set up , but it 'd be really convenient for users . 
+  i 'm also seeing no real way to add blank line spacing between paragraphs . 
+  this goes back to that racial quote thing , where normally there would be a comfortable amount of whitespace in between the quote ( and its citation ) and the next line introducing the race more formally . 
+  even adding an extra `` text '' item that 's completely blank ( or contains nothing but whitespace ) does n't allow this . 
+  it 's another situation in which naturalcrit 's ability to use ` < style  ` tags comes in * really * handy for fudging things that the tool itself does n't actually allow for . 
+  okay , that 's enough for now . 
+  i 'm gon na take a break and give it some time to try and upload the image that i made it cancel earlier . 
+  see how it goes with dealing with full-width images that go all the way to the edge of the page . 
+  okay , i left it for like 15 minutes and it still failed to upload my 1.6 mb . png file . 
+  i 'll come back to that later . 
+  tried another one , and [ it 's doing some weird things ] ( http://i.imgur.com/6oejxcc.png ) . 
+  it should look [ like this ] ( http://i.imgur.com/zm7a4d8.png ) . 
+  i have a feeling that , were my other image to upload correctly , it would have a similar problem . 
+  the `` text box '' option has two display formats , `` paper '' and `` block '' . 
+  paper appears in a yellowy colour , but has the correct outline and the little `` wings '' on it . 
+  block appears in the correct colour , but has none of the outline stuff on it . 
+  i 've got some text that 's accidentally exceeding the column width . 
+  and i 've got an image that 's displaying far larger than it should . 
+  the three paragraphs above this are all demonstrated [ in this image ] ( http://i.imgur.com/iqdbnpo.png ) . 
+  with how it * should * look ( mostly -- naturalcrit does n't have those `` wings '' on its text boxes , though it * does * have the black outline ) appearing [ in this one ] ( http://i.imgur.com/xhnwi63.png ) . 
+  actually naturalcrit is pretty damn powerful regarding images , since you can add style tags in . 
+  if you add `` z-index : 1 ; '' , and fiddle with the value of the z-index , within an image tag , naturalcrit will let you move things around in different layers ( i imagine -- i have n't done any more than the simplest of work with that ) . 
+  full width tables are a pain though . 
+  i have n't had much luck figuring out how to move them around . 
+  if you take a look at [ this project of mine ] ( http://www.naturalcrit.com/homebrew/share/vydfopkag ) on naturalcrit , and view its source , you can see a little of the * slightly * more advanced stuff that can be done with it regarding images . 
+  no worries . 
+  i always enjoy helping out people who are trying to help out the community . 
+  and what you 've got here is a great little tool . 
+  it 's perhaps a little unfortunate that you 've come along after naturalcrit has already entrenched itself in the userbase , but simply the ability to save things to your account is likely to be * incredibly * useful . 
+  i 've edited in a few more bits of feedback . 
+  mostly some errors in the display that i 've noticed . 
+  tpb is my normal fallback when kat goes down . 
+  i 'll often try demonoid as well , especially for older stuff . 
+  interesting . 
+  did you change your mind about the oath , or is this coming in addition to that ? 
+  anyway , this is pretty damn good . 
+  i 'm not sure i 'm a fan of a 1st level ability overcoming the general rule of forced movement not provoking opportunity attacks , especially since a carefully planned use of that power could see three or four opportunity attacks made against the target , that 's really powerful for a one-level dip by a rogue or paladin , especially . 
+  but everything else seems fine . 
+  good flavour in the spell list and the other class features . 
+  it 's a bit different from compulsion in that it can be in * any * direction , it happens on * your * turn rather than by them spending movement on * theirs * , and , as you say , this does n't include the rider of not moving into deadly hazards . 
+  your exact words were `` impossible to layer '' . 
+  holy shit , this is the guy who * coined * the term * etymology *, 
+   another thing that i feel should definitely be added is something similar to the final clause of sleep and similar spells : ` undead and creatures immune to being charmed are n't affected by this spell . ', 
+  i feel this is something that simply has to be added , because some of these would n't make much sense for undead , and most of them would n't make any sense for certain charm-immune creatures that come to mind ( constructs , for example , as it probably should n't be possible to drive a golem to madness ) . 
+  perhaps it should just be `` undead and constructs '' , rather than `` creatures immune to being charmed '' . 
+  personally , i do n't see why elves , for example , should n't be vulnerable to this . 
+  you could say the same thing about australia in general . 
+   are certain all phone numbers only consists of 0-9, 
+  yes . 
+  the one exception given there is ( a ) a country that most services are probably not concerned with , but more importantly ( b ) it 's only * certain advertising services * within that country , and thus it * is * correct to assume that any number of a * user * wo n't use such a number . 
+  that said , there are definitely a number of other reasonable-sounding assumptions that one * should n't * make , including , as you say , length . 
+  oh wow , how have i never noticed this before ? 
+  i could be wrong , but the way i interpreted that is that it 's just arabic ( ? ), 
+  representations of the same numbers . 
+  disallowing that is not really any different than disallowing t9-style text representations of a phone number . 
+   the `` solutions '' i 've read ... are absolutely asinine . 
+  you seriously expect me to do this for half a dozen to a dozen tasks ? 
+  admittedly , your explanation is vastly better than the one op described , but it 's still a clumsy workaround and not really a * solution * by any means . 
+  to save anyone else the same confusion i went through , the recording starts with the pick up to bar 13 , after the key change . 
+  this was an excellent video . 
+  i do n't know what the name of it is , but there 's a well-known effect where people trust media to know what it 's talking about , but when the media talks about an area in which they themselves are an expert , they notice gaping flaws that lead them to mistrust said media . 
+  ( and yet , people tend to continue to trust the media in other topics even after seeing the media 's flaws when they know about the topic . ), 
+  this is my area of expertise , and i noticed no such problems . 
+  it 's a bit simplistic , as such videos are by necessity , but it is still excellent . 
+  it touched upon most of the important points in what felt like an easy-to-understand way for someone unversed in the topic . 
+  something people might be interested to know is that , * mathematically * , it actually * would * be possible to create a lock that is perfectly secure but still has a way for apple to give access to the government selectively upon receipt of a warrant . 
+  mathematically it 's still perfectly good encryption , but of course it 's still probably not a great idea for a variety of other reasons , not the least of which is the threat that things might leak out through social attacks and the like . 
+  one problem that i noticed with i , phone is that it * is n't * true that the law for an old technology necessarily continues forward to a newer version of the same technology . 
+  for example , in the united states ( and many other countries , i assume ) , there are numerous protections given to one 's physical mail . 
+  tampering with mail is a federal offence . 
+  email gets none of the same protections . 
+  that stick figure face on the right , and the way to slightly turns towards the other face , was already one of my favourite bits of greyimation . 
+  but this frame just makes it * that * much better . 
+  increasing the price is totally reasonable . 
+  they have to increase every now and then to keep up with inflation . 
+  but i feel like allowing booking online almost defeats the purpose of the proms ... 
+  for 90 % of the reasons one would want a university to have unix systems , yes . 
+  you 're right . 
+  higher frequency wavelengths * do * carry more energy . 
+  but that 's not what 's going on here . 
+  the display gives out light at one fixed frequency ( or rather , at a whole bunch of frequencies roughly uniformly , as it gives out white light ) , and then powers on crystals which block certain frequencies , in order to selectively mix red , green , and blue light to make any specific colour come through . 
+  the excess energy is lost as it gets absorbed by the crystals . 
+  it 's a * slightly * more advanced level of physics , though in all honesty , not very much more advanced . 
+  this is still high school stuff . 
+  honestly i did n't even notice it . 
+  that backing up camera thing has been around on new cars for a few years now , so showing it off does n't exactly come across as a blatant ad like it might have four years ago , and i personally never noticed any close ups on logos or anything like that which felt unnatural . 
+  i completely forgot mitch was meant to be between jobs ...

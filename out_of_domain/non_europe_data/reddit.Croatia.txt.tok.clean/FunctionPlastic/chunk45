@@ -1,0 +1,100 @@
+  haha i 'm glad you discovered that language , it truly is great :d what a way to discover it too ... 
+  nah man it 's super, 
+  i know but what is he trying to say in that sentence ? 
+  i probably should 've included context , please search for it, 
+  man i read your comments against rust and haskell and you seriously need to calm your tits . 
+  it 's a shame that people are interpreting my obviously not serious post this seriously, 
+  well , not really a shame , just kind of nagging, 
+  also , if we 're getting serious - it 's not about the number of languages , i would much prefer just one better low-level language catching on , and personally the best candidate really is rust . 
+   you need to quit bullshitting you rust douche . 
+  you see that 's just not how stable individuals converse . 
+  i mean we both know what you 've posted in that go thread you ca n't possibly claim that to be rational discourse . 
+  you seem to be too seriously involved in this topic , i 'm not even discussing the language with you , i 'm trying to help you now . 
+  just stop getting so attached to superficial fights , os wars , language wars , editor wars and the like . 
+  at first you 're attached to it and just feel such an urge to shit all over the other camp but just realize that it 's all pointless , no one should really care , and your time and nerves is worth much more . 
+  once you learn to laugh at people exerting so much energy to prove a point ( that you might even agree with ) - the internet will become a much more enjoyable place , trust me . 
+  wow thanks for that link . 
+  i remember there existing a go os as well , full of mystical references or something * searches the internet *, 
+  actually those references turned out to be profanities and of course it 's cat - v 's doing, 
+  god damn it, 
+  they 're a compete mystery to me . 
+  i see their stuff linked from time to time and i ca n't ever tell whether it 's all an obscure joke ... 
+  either way , they 're the extreme of what i was referring to when i said culture . 
+  operating systems just give birth to them , and surely also languages , maybe even frameworks . 
+  it 's an interesting phenomena how tools shape people . 
+  maybe better tools would really lead to better people , but again i 'm not actually being very serious . 
+  * sighs * i just hope for your own good that you 're trying to troll me, 
+  man , read on , i was n't being serious . 
+  my point was that a language like rust allowed for better productivity and would lead to a different , maybe better , code structures . 
+  uhh yes we do, 
+  oh because it 's such a fundamental skill ... come on, 
+  whatever the other guy chooses , ratting is always either better or equivalent . 
+  since you do n't know what he chose , it is always rational to rat . 
+   not in the socialist , `` everyone gets equal pay '' sense , but in the capitalist `` everyone gets justly compensated for their contribution '' sense, 
+  lol . 
+  many projects get funding by google , it does n't mean they 're crooked , just that google is fucking loaded . 
+  but they do n't get any money from them anymore . 
+  what other references do you know of ? 
+  bold but not what i 'm looking for, 
+  ok let me just clarify something : i ** am not ** suggesting that the linux kernel should switch to rust , or that we should all just quit using linux and start working on something else because we have a better language . 
+  i realize that is nonsense , and you 're responding to me as if you took all my hyperbolic posts quite literally . 
+  however , i will respond to some of your points about how suitable rust as a language is for these problems . 
+  i 'm merely defending using rust as an os implementation language - which i do believe is reasonable !, 
+   making an all-new kernel in another language , even if you just do a direct port from c -  rust , would require an immense amount of work in both writing and testing . 
+  yeah , obviously . 
+  you would n't be doing a direct port , though , because rust has a different way of solving problems . 
+  [ some people are already working on kernels in rust . 
+  ] ( http://jvns.ca/blog/2014/03/12/the-rust-os-story/ ), 
+   it 's also questionable how the performance would compare ; would the rust version be slower ? 
+  how good and mature are rust compilers anyway ? 
+  rust uses llvm as a backend and performance parity with c is the goal i believe , which is completely realistic . 
+  having much stricter guarantees and more information available to the compiler , though , would make room for more optimizations . 
+  one of bjarne 's [ recent articles ] ( https://isocpp.org/blog/2014/12/myths-3 ) on c++ demonstrates this point quite well with an example of ` std : : sort ` being much faster than ` qsort ` in some cases , exactly because of additional information . 
+   but , if you want to ignore all those real-world considerations and just assume all the kernel devs are jacked up to rewrite the kernel in rust, 
+  that 's not at all what i 'm assuming . 
+  read other comments on my thread - i was daydreaming about how different a os culture centered around rust could be , and how different would their technical solutions be . 
+  just like there had been mainstream lisp-based operating systems in the past , and how universities developed their own operating systems , with different philosophies and solutions . 
+  it 's more poetic than technical really . 
+   i think that for the kind of people who do kernel programming , using c does n't seem to be a big problem for them , so it 's really questionable how much benefit would be experienced by switching to rust , or any other language . 
+  well it was n't a problem when smart people were using assembly to solve tasks . 
+  a new language with better abstractions , similar performance , and more * safety * - which we can agree is crucial here - would definitely allow them to focus on more important tasks . 
+   once you 're familiar with the code conventions used in the kernel ( the various macros , for instance , which are frequently used to implement features found in higher-level languages ) , it 's not like you spend lots of time working around the lack of features in c. 
+  i 'm not buying this . 
+  it would be extremely inconvenient , if not practically impossible , to make use type classes , higher-ordered types , closures and lambdas , polymorphic structures , the entire concept of ownership and lifetimes that rust is build around - in c. those features can definitely be useful in any software project - not all of them at the same time , but if you built the kernel around a language that supported them , you 'd surely find use for them . 
+  in the very kernel and drivers , which are quite procedural , you probably would n't use all the abstract functional programming features , but there are other technical and theoretical benefits of rust that you certainly could benefit from . 
+  and of course , the kernel is just a component of the entire operating system . 
+  other components would surely benefit from abstract features . 
+  the point of language is to make such constructs readily available so you can think in terms of them . 
+  sure you can * implement * them in c but then you 're thinking about that and the language will never bend to your need , you 'll have to bend your needs for the language . 
+  also , just to preemptively block a potential objection from your side to this - no , rust is n't `` limited '' in performance by these features , and you can * always * drop down to unsafe code . 
+  in fact , incorporating assembly code in rust is easier because so many problems are solved for you , and although i have n't used it - i hear the c ffi is quite advanced so you 've got no issues at that front either . 
+  sadly it was n't intentional . 
+  i was just tired after not sleeping the entire night , and remembered at one point that this topic had interested me before - so i just posted here to see what i 'll get . 
+  remembering how many other responsibilities and things to read i have , i decided not to ask for large tomes but something i could read in an afternoon to get a general feeling of the topic . 
+  and the results indeed was quite ironic and humorous . 
+  i think they 're anti-alienation , anti-modem conception of work , certainly not anti-productive or anti-doing something with your life . 
+  sam was obvious , but castamir escaped me !, 
+   more importantly , which one of us was going to go up to our professors or teaching assistants with a straight face and ask ? 
+  this is wrong on so many levels . 
+  professors should be willing to help with such questions , and you should be aware of that ... 
+   so the question here is , what real benefit stands to be realized with a new language ? 
+  well the key problem here is that you seem to be talking about porting linux from c to rust - a tremendously laborious task which i can honestly find no justification for - while i 'm talking about creating an * entirely new operating system * , including the kernel , system tooling , the compiler ( being rustc and llvm ) , and all that . 
+  now , that 's obviously a discussion that touches some totally new questions - mainly the actual * design * of that system . 
+  it 'd be difficult to isolate the benefits of the new language , but i can try :, 
+  - ** more safety . 
+  ** you would be guaranteed to have no bugs of certain classes , like memory leaks , dangling pointers , and all that - in majority of your code . 
+  this is extremely beneficial for a new project of this scope and type . 
+  - ** faster development . 
+  ** rust has many facilities that speed up your development process , like a more advanced type system , better syntax ( subjective but i really think it is , especially wrt type annotation ) , and functional programming elements which allow for much better composition . 
+  - ** better maintainability . 
+  ** because of rust 's new constructs , a new way of doing things , and support for better abstraction , i believe code clarity would improve , and the language would encourage you to simply think more about the code that you are writing . 
+  - ** tooling support . 
+  ** many important c tools can be leveraged by rust projects , such as gdb and valgrind , but the rust community will surely develop their own , and since there are n't 20 competing rust implementations , they will be able to rely on standards and work better together . 
+  if i knew rust better i could certainly get more specific , but i 'm just learning it . 
+   well one problem i do see here is that rust is a higher-level language , and as such far less deterministic than c. 
+  the most important rust innovations are completely static and have nothing to do with the runtime . 
+  c++ 's abstractions like virtual methods , exceptions , rtti , and everything related to inheritance , introduce much more runtime overhead than anything rust has to offer . 
+  rust was designed to be a * systems * language . 
+   this alone seems to make it less safe . 
+  huh ? 
+  python is more safe than c , because it does n't allow for atrocious bugs that plague c code , which i 've already mentioned above .

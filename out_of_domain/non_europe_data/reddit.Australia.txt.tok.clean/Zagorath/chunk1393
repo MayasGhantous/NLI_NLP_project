@@ -1,0 +1,100 @@
+  check disk for defects, 
+  no matter which i select , it goes to a black screen and does n't leave there . 
+  i tried pressing ` e ' on install ubuntu and the following comes up, 
+  set gfxpayload = keep, 
+  linux / casper/vmlinuz . efi file = / cdrom/preseed/ubuntu . seed boot = casper only-ubiquity quiet splash - \\ -, 
+  i tried adding ` nomodeset ` before ` quiet splash ` , since a few guides online suggested that . 
+  that also did not help . 
+  i made the install disk using both unetbootin on my mac and using ubuntu 's ( in a vm ) startup disk creator , both times the results were the same . 
+  the iso was ubuntu-14 .04.1 - desktop-amd64 . iso from ubuntu.com , and the md5 checksums matched . 
+  bios settings that might be relevant :, 
+  * intel virtualization technology : enabled, 
+  * os selection : windows 8 . x ( only other option is windows 7 ), 
+  * sata mode : ahci mode ( other option is ide mode ), 
+  * network stack : disabled ( the note on the side is `` enable/disable uefi network stack '' ), 
+  usb configuration :, 
+  * xhci mode : enabled, 
+  boot configuration :, 
+  * launch csm : enabled, 
+  if anyone could help me get ubuntu up and running on this thing , i 'd be so grateful . 
+  thanks !, 
+  i bought a new computer today with the intention of leaving it hooked up to a tv to use as a media server . 
+  it 's an asus laptop with the following specs :, 
+  it came without any operating system , though when i turn it on with nothing plugged in it shows the following in a dos/command-line like interface :, 
+  1 -- load freedos with maximum ram free , using emm386, 
+  2 -- load freedos including himem xms-memory driver, 
+  3 -- load freedos without drivers, 
+  i want to put ubuntu onto it , so after creating a usb key with the latest lts version , i plugged the usb into the laptop and switched it on . 
+  what came up was the following , in a dos/command-line like interface :, 
+  gnu grub version 2.02 ~ beta2-9ubuntu1, 
+  try ubuntu without installing, 
+  oem install ( for manufacturers ), 
+  check disk for defects, 
+  no matter which i select , it goes to a black screen and does n't leave there . 
+  i tried pressing ` e ' on install ubuntu and the following comes up, 
+  set gfxpayload = keep, 
+  linux / casper/vmlinuz . efi file = / cdrom/preseed/ubuntu . seed boot = casper only-ubiquity quiet splash - \\ -, 
+  i tried adding ` nomodeset ` before ` quiet splash ` , since a few guides online suggested that . 
+  that also did not help . 
+  i made the install disk using both unetbootin on my mac and using ubuntu 's ( in a vm ) startup disk creator , both times the results were the same . 
+  the iso was ubuntu-14 .04.1 - desktop-amd64 . iso from ubuntu.com , and the md5 checksums matched . 
+  bios settings that might be relevant :, 
+  * intel virtualization technology : enabled, 
+  * os selection : windows 8 . x ( only other option is windows 7 ), 
+  * sata mode : ahci mode ( other option is ide mode ), 
+  * network stack : disabled ( the note on the side is `` enable/disable uefi network stack '' ), 
+  usb configuration :, 
+  * xhci mode : enabled, 
+  boot configuration :, 
+  * launch csm : enabled, 
+  if anyone could help me get ubuntu up and running on this thing , i 'd be so grateful . 
+  thanks !, 
+  edit :, 
+  secure boot is already disabled . 
+  the computer 's model appears to be an asus f200m , see [ this comment ] ( / r/linux4noobs/comments / 2ubfhj/trying _ to_install_ubuntu_on_a_new_computer / co6vuds ) for more detail , because it 's not * entirely * clear . 
+  it first happened after i tried to update from 14.04 lts to the latest normal version of the os . 
+  the update failed because of some network issues ( a separate problem i 'm having with ubuntu that i 'll try to get fixed once i can boot normally ) . 
+  since then , whenever i turn on the computer and let it attempt to boot normally , it displays a black screen with some red markings on it , which then gradually fades to white . 
+  if i press shift during the boot sequence then i get the the grub menu , which allows me to boot up with `` advanced options for ubuntu '' and select `` ubuntu , with linux 3.13.0-32-generic '' , rather than `` ubuntu , with linux 3.13.0-45-generic '' , which is the default . 
+  this allows me to boot into ubuntu normally . 
+  [ here 's a video i took of it booting . 
+  ] ( https://www.youtube.com/watch?v=iytt2ephsiq ), 
+  the `` additional drivers '' option did n't show anything extra available . 
+  i 've tried running the software updater , which includes a large number of updates in a variety of areas , but it unfortunately always errors out . 
+  unfortunately , i have n't been able to troubleshoot nearly as much as i 'd like to , since i ca n't find any examples of anyone with similar problems . 
+  the graphics are intel hd ( `` about this computer '' says `` intel \u00ae bay trail '' ) . 
+  if anyone can help , i 'd be really grateful . 
+  thanks !, 
+  it first happened after i tried to update from 14.04 lts to the latest normal version of the os . 
+  the update failed because of some network issues ( a separate problem i 'm having with ubuntu that i 'll try to get fixed once i can boot normally ) . 
+  since then , whenever i turn on the computer and let it attempt to boot normally , it displays a black screen with some red markings on it , which then gradually fades to white . 
+  if i press shift during the boot sequence then i get the the grub menu , which allows me to boot up with `` advanced options for ubuntu '' and select `` ubuntu , with linux 3.13.0-32-generic '' , rather than `` ubuntu , with linux 3.13.0-45-generic '' , which is the default . 
+  this allows me to boot into ubuntu normally . 
+  [ here 's a video i took of it booting . 
+  ] ( https://www.youtube.com/watch?v=iytt2ephsiq ), 
+  the `` additional drivers '' option did n't show anything extra available . 
+  i 've tried running the software updater , which includes a large number of updates in a variety of areas , but it unfortunately always errors out . 
+  unfortunately , i have n't been able to troubleshoot nearly as much as i 'd like to , since i ca n't find any examples of anyone with similar problems . 
+  the graphics are intel hd ( `` about this computer '' says `` intel \u00ae bay trail '' ) . 
+  if anyone can help , i 'd be really grateful . 
+  thanks !, 
+  i 'm trying to set up balanced encounters for my group of 6 level 1 players . 
+  we 're going to be running the lost mines of phandelver . 
+  i 'm just having some trouble understanding the maths of it . 
+  my calculation is that for a 4 or 5 member party , the first encounter in the book is a deadly one . 
+  the xp budget threshold is 400 xp for a deadly encounter , and they 're facing 4 goblins ( 50 xp each ) . 
+  with the 2x modifier for 4 monsters , that takes the encounter 's difficulty to 400 xp , just enough to be deadly . 
+  am i right about that ? 
+  is the encounter as written actually deadly for four or five adventurers ? 
+  and thus would be rated hard even without any modifications for my 6 member group ? 
+  does that seem right ? 
+  and if so , are the encounters thought lmop tending towards hard and deadly ? 
+  or is it just that they wanted to start it off with a bang ? 
+  thanks for any help . 
+  there has been some talk about wanting a hall of fame or something similar in order to a ) cut down on the number of reposts , and b ) enable people to see the best stories easily . 
+  it sounds like a good idea to me , but i 'd like to see what ideas people have for the selection process ( how would stories qualify for the hall of fame , a couple of possibilities would be mod selection , periodic voting on new entries , or just basing it on / top ) . 
+  additionally , where would it be displayed ? 
+  probably somewhere in the sidebar as part of the subreddit wiki , but i 'm open to other suggestions . 
+  so i 'm running lmop and my players have successfully forced an early election to be called for the leader of phandalin . 
+  the former town master will be contesting , but so will one of my party members . 
+  oh , and some of the party is supporting the former leader and some are backing our party member .

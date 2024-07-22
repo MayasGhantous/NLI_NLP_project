@@ -1,0 +1,100 @@
+  a year ago everyone claimed the super confusing flux was the way to go but now everyone swears redux is much better and why would you use flux are you from the year 2015 ? 
+  so take your pick !, 
+  yeah i know i did n't make it easier for you but probably worse , 
+  maybe if you are only toying around and are not building an actual product for money try angular 2 , if you need to start serious project where money is on the line try react . 
+  if a lot of money is on the line why do you ask on reddit ? 
+  ( but probably angular 1 ) . 
+  in any case , no matter the framework you choose use typescript . 
+  support for jsx is required . 
+  other frameworks do not force ides and other tools to know about them . 
+  this is why i call it poor engineering . 
+  after all you could n't use typescript with jsx for half an year because it needs specific support and the syntax clashes with typescript 's syntax for casting . 
+  typescript needed clever magic to make it work . 
+  all this because they refused to put quotes around the html in jsx or let people put it in separate files . 
+  just so you know / u/b0zho was the driving force behind this law . 
+  note that proprietary software is not banned . 
+  they can still buy windows or office . 
+  the law requires software ordered by the state to be open sourced . 
+  there are some enthusiasts who pushed for this and politicians just do n't care about software . 
+  they can still leak money via the government contracts . 
+  just set the terms of the contract so that a certain company wins , then they suggest double the market price and do indeed write the software . 
+  it does n't bother them that the software will be open source . 
+  the corruption is still in place and they get their cut . 
+  yes . 
+  the suggestion was by no means a zealous slashdot-style `` free software or death ! '', 
+  it is pragmatic . 
+  there was originally non-pragmatic part that was to suggest using specific methodologies like going for agile development and banning waterfall but as far as i know it did n't make it into the law . 
+  they do n't count on hiding their corrupt practices . 
+  they count on never being put behind bars because the prosecutors and courts will cover them . 
+  waterfall is great for government projects since without detailed spec you ca n't have a meaningful procedure to select a contractor or sue the contractor after a failure . 
+  in the private sector a company that fails will not get another customer but this is not how the government works . 
+  yeah , we are doing pretty much ok considering the circumstances ( communist past , size of the country , lack of natural resources , brain drain , iq of the nation ) . 
+  could be better of course but most of the world is far worse . 
+  it is only when we compare to the eu and north america that we feel like we suck and start complaining how bad our country is . 
+  i do n't think he is looking for courses . 
+  you should compare openssl bugs with the windows ssl library which seems to be quite secure and rarely had a bug discovered before patches . 
+  since windows xp sp2 ms stepped up their security game and do paid audits by experts which is a way to ensure high quality for security software as good as open source if not better . 
+  of course the best is to be both open source and pay for expert audits . 
+  and if it did n't have [ this disaster ] ( http://stackoverflow.com/questions/24102617/how-to-use-swift-autoclosure ) called `` feature '', 
+  yeah . 
+  this is also how you make it so foo ( a + b ) means something different from what it means in every other language in the world and different from most of swift . 
+  the person reading the code needs to check the function signature to be sure what it means . 
+  now i am all for operator overloading but this really is too much !, 
+  the fact that when reading the code you are not sure what foo ( a  b ) means . 
+  i am not familiar with scala 's by-name parameters but here are my objections :, 
+  because it can mean two different things in swift . 
+  it can be a function accepting a boolean or a function accepting a closure that returns a boolean . 
+  it should be noted that charity is not against libertarian ideas at all . 
+  forced charity ( i.e. 
+  welfare financed through taxes ) is the real problem . 
+  i am a libertarian and i do donate money to various causes from time to time . 
+  as a matter of fact causes i do not donate to are those who are supposed to be handled by the state . 
+  i will certainly donate more and to more causes if there were no taxes . 
+  the guy is a troll , 
+  no matter how well you know the language you do n't know what it is until you look up the function signature because they are literally the same characters . 
+  and when someone reads the code there is no hint when the expression will be evaluated . 
+  i know of this `` feature '' because a guy i know ran into it in a real world project and found out what the problem was after half an hour of debugging . 
+  this feature adds practically very little value ( oh yeah we saved a couple of characters in assertions , great success ! ), 
+  and breaks assumptions devs have been relying on for the past 60 years ... hell it even runs against math notation . 
+  and after learning this i do n't think i 'll ever get any . 
+  except that i know of it because a guy i know hit this issue in practice . 
+  well these operators are somehow implemented in other languages without this feature . 
+  i understand that it is effectively a powerful macro system but unless macros is the selling feature for a language i 'd rather have function calls that do not change their meaning . 
+  if i wanted macros that powerful i would use lisp and get even more powerful macros . 
+  violating developers ' expectations is a bad thing . 
+  well ... no, 
+  you realize that you are using php defense which is basically `` you do n't know the language well '' and `` some people are using it so it is good '' ? 
+  python subscribes to the `` we 're all grownups here '' philosophy and allows the developer to access members which he is not supposed to access . 
+  the python language does not have the concept baked in the language itself but programmers use convention and try to play nice . 
+  c # subscribes to the `` most people are idiots '' philosophy and tries to slap you as much as possible if you try to do something stupid . 
+  therefore when you write a class you say which members are private and which are public and if someone misuses them they get a compile-time error . 
+  obviously c # does it right . 
+  most people are indeed idiots and will do stupid things if they are not slapped . 
+  the oracle from the matrix that gave neo that spoon, 
+  true but this can be handles by tooling which understands the convention . 
+  even worse . 
+  people are somehow allowed to use php, 
+  well in python they are all grownups and nobody is violating it . 
+  hahahaha !, 
+  linus disagrees with this bullshit article and thinks the author should never do kernel presentations . 
+  is this the first time you work with a brand new technology release ? 
+  what you describe is pretty much expected and for example i hit similar walls with angular 2 . 
+  unlike you i am not shocked . 
+  good thing i use windows phone . 
+  nobody cares about it , 
+  i do n't understand why 2 way and 3 way even exist . 
+  all polls should list all the candidates and eventually fold smaller percentages under `` other '' . 
+  do you plan on hosting the solution on your own server ? 
+  if no , then why do you care . 
+  develop it and put it on a hosting . 
+  the pricing is not that different from php hosting . 
+  if you plan to host on your own server then i guess you only care about the windows server license . 
+  sql server express should do the job for quite some time and chances are if you hit the limit of express your project will be making money . 
+  other than that you just need a regular windows license for your development computer . 
+  if you are looking for an alternative to sql server it seems like postgresql has better support and know-how than mysql, 
+  accept typescript now !, 
+  resistance is futile, 
+  i 'd expect that the quality of the ef provider and the information about its errors on the internet can be the only problem . 
+  if one is using pure ado.net i do n't think there will be significant issues . 
+  so what 's the problem . 
+  accept every answer in the poll and fold the results under others if they have less than one percent .

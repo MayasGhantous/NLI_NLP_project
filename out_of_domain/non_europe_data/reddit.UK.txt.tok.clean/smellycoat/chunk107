@@ -1,0 +1,100 @@
+  any bog standard username and password setup is technically fine , assuming you salt and hash the stored passwords and use ssl for any authenticated pages ( the login page * and * any pages that send or receive a session token ) . 
+  add in a system to expire sessions , and lock accounts after a certain number of failed login attempts ( to prevent brute forcing ) , and you have about a solid a system as you 're ever likely to need . 
+  what 's trickier , however , is compensating for the human element . 
+  people * love * to choose shitty passwords , get their machines infected with information-stealing viruses , leave their accounts logged in on random public boxes , and share their details with anyone who cares to ask nicely . 
+  there are lots of creative ways to mitigate these issues , how far you go with it depends on how much responsibility you place on your users for their own security . 
+  technically , the normal boring ssl-plus-hashed-password system is hard to beat . 
+  attempting to roll your own crazy authentication scheme is a waste of time and effort at best , and a recipe for disaster at worst . 
+  there 's also stuff like xss and csrf to worry about here , but that 's really down to competent development practices . 
+  oh , and use fucking placeholders in your sql rather than concatenating strings . 
+  it baffles me how we still see sql injection exploits in this day and age . 
+  i 'm sorry to hear about your grandmother 's accident , man . 
+  that 's bad luck it happened the same day as your midterms . 
+  my favourite trick is to have a password quality scoring system tied to the password 's expiry date . 
+  so low-scoring passwords will be expired far sooner than high-scoring ones . 
+  giving the user feedback on both the quality and the affect if has on the expiry when they 're selecting a password has made a huge difference to the quality . 
+  we ran some simple brute-force attacks against our password hashes before and after implementing this system . 
+  previously we could find 70 % within an hour , now it 's more like 10 % ( although i 'll admit password cracking really is n't my thing , so no doubt this was n't the best implement test . 
+  but the results seem pretty good ) . 
+  users seem to like the system . 
+  there are a few that ca n't understand why picking their kid 's name as their password means it expires in two weeks , but once they grasp the concept most are happy to pick a relatively solid one in return for not being forced to change it too often . 
+  we even got a few takers on our `` pick a horrible-but-secure password for me '' button . 
+  ours do n't . 
+  they snore and drool . 
+  unfortunately , here 's no hd version yet . 
+  apart from the one shown on the discovery channel in the states ( which is 90 minutes . 
+  the bbc version is two 60 minute parts , so it 's been cut significantly ) . 
+  while the js/jquery comparison is n't an unreasonable one , i do n't think it 's fair to dismiss moose entirely on the basis that it 's not part of the core distribution , just so you can point and laugh at an ugly idiom that few perl programmers would even consider using . 
+  the programming ones are spot on , but i 'd go with this for software engineering :, 
+  code should be written for humans first , the compiler second , and performance third, 
+  you must understand the problem well enough that you 're able to give each part a concise , meaningful name before you start coding, 
+  i agree with your premise , but it only really works if you ignore the fact we 're living in a world where other countries can do many of jobs requiring unskilled labour cheaper than we can . 
+  there are far far fewer `` blue collar '' jobs out there . 
+  if we , as a country with high living costs , expect to compete with countries where labour is cheap , then we need to do something a bit differently . 
+  which is why i 'm not bothered by the concept of more people getting degrees or other higher education qualifications ( assuming those qualifications are n't getting easier ) . 
+  on the subject of funding , i think something like a `` graduate tax '' is the right way to go about it . 
+  loans punish those that do n't have the capital necessary to pay them off ( in the form of interest ) , and benefit those that can get mummy and daddy to pay up front , thus avoiding extra interest payments . 
+  a blanket tax ( maybe attached to income tax ) for those that graduated university and are earning above a certain threshold seems a much fairer way to go about it to me . 
+  this also gives our government an incentive to promote high-tech or other industries that require highly skilled workers ( as it 'll turn into more tax revenue ) . 
+  they should tax high-fat junk food and use that money to ** subsidise healthier food ** and ingredients for home cooking . 
+  at the moment it 's cheaper to get some frozen/microwaveable crap than it is to make your own . 
+  that 's the problem . 
+  fast food and pre-packaged meals are supposed to be a luxury . 
+  for a sports brand , the name itself is likely to be less important than the brand design . 
+  and for your target segment of the market ( such as it is . 
+  ca n't imagine wakeboarding is a particularly large market ) , product quality is likely to be more important than branding . 
+  pretty much any name could work with the right design . 
+  that site requires java . 
+  anyone got a screenshot ? 
+  i hope not man . 
+  i 've already paid for their entire catalogue at least twice , no fucking way i 'm paying for it again . 
+  it is noble of them to provide an option for people who do n't use windows to test their sites with ms browsers . 
+  it is , however , amusing that they packaged the virtual machine images as windows executables . 
+  meaning you need to install windows to use the options they provided for people who are n't running windows . 
+  i was initially a bit shocked reddit had gone down the brand colours route , but i realised there was n't a huge obnoxious background image loading , and the branding was isolated to this `` mix '' page ( which , being a new thing , wo n't bother people who visit the subreddits specifically , or those that have them frontpages ) . 
+  i 've got to say , that 's actually a pretty creative way to sell advertising without forcing it on anyone . 
+  you get different stuff for every request , so just hitting the link once wo n't tell you much . 
+  the admins have disabled most of the sidebar ads , so you 're probably only going to see amazon or reddit 's fallback ads now anyway . 
+  yes , however it relies on reputable blacklist operators . 
+  most of them absolutely are and do an excellent ( if thankless ) job . 
+  but then you get guys like [ sorbs ] ( http://www.sorbs.net ) who buy up old domains , list you if you send a single email to any of them , and then charge you $ 50 for removal . 
+  and the only reason they get away with it is because at some point in the past they were reputable enough for people to actually trust . 
+   good thing we have dns these days . 
+  ftfy , 
+  that 's because people like me have to scurry around in a panic throwing $ 50 bribes at them to remove the ips of entirely-legitimate mailservers from their blacklist because someone emailed an old address at some domain they bought . 
+  they 're arseholes who ( at least since their sale last year ) are in it purely for the money . 
+  please stop using them . 
+  edit : also , they 're * definitely * not immune to [ false positives ] ( http://www.theregister.co.uk/2010/10/07/sorbs_cockup/ ) . 
+  i 've got an htpc running xmbc already , but i want to put a tv in the bedroom . 
+  i went a bit nuts on the htpc , so i 'm considering it as a cheaper alternative . 
+  but undecided so far . 
+  i 'd certainly want to download and try the software in a vm before buying one . 
+  but then i could get an xtreamer for ~ # 100 instead which would do everything i need ( i have a decent fileserver/leeching box set up already , so all i really need is something that 'll play 1080p x264 across the network ) . 
+  or i could probably cobble together another htpc box for # 200 . 
+  # 200 seems a touch overpriced . 
+  particularly when they 're $ 200 in the states . 
+  edit : actually , it might be worth it just for the remote . 
+  that looks pretty cool , i 've got to say . 
+  i think steve just wants apple hq to sound like a magical fairytale castle , so he can skip around going `` tra-la-la la-la '' . 
+  the concept has been blatantly stolen from [ here ] ( http://jeffkreeftmeijer.com/2010/experimenting-with-node-js/ ) ( probably not going to be many people hitting that site now , so you might not see any other cursors ) . 
+  i 'd have no problem with that , except he 's saying `` look at this cool thing that was all my idea !, 
+  i 'm so great , give me a job ! '' . 
+  . . which makes it verging on plagiarism , in my book . 
+  plus i have no fucking idea how he expects to use websockets on the steam stats pages . 
+  that data is all cached , no ? 
+  your boss looks very much like [ dante hicks ] ( http://blog.jinni.com/wp-content/uploads/2008/10/clerks.jpg ) . 
+  does he say `` i 'm not even supposed to * be * here today ! '', 
+  a lot ? 
+  firefox will uri-escape the parens , but i think it 's unique in that respect . 
+  chrome does n't do that , neither does ie . 
+  income tax pays for most of the stuff the government provides free . 
+  like defence , road maintenance , the nhs , police and fire services , unemployment benefits , etc. 
+  although i agree it 's never fun to see such a large chunk of your wages taken every month , because it 's applied in bands based on your income , it 's actually a relatively fair way for the government to collect the money to provide those services . 
+  those that can afford it pay more , and those that ca n't pay less . 
+  i do n't think that 's unreasonable . 
+  the way it 's applied means that , for example , if you earn more than ~ # 37k ( the 40 % income tax rate threshold ) , it 's only applied to earnings * above * that threshold , so rich people still get the same benefits of reduced tax that poor people get for everything below that ( and no tax on everything below ~ # 6k ) . 
+  which seems like a good way to take more money from people who can afford it without unfairly penalising them just for earning more . 
+  the government need to make a certain amount of money each year to pay for the services they provide , it has to come from somewhere . 
+  i 'd much rather that money came from income tax than other methods , simply because it 's applied more fairly . 
+  let me explain . 
+  life , which you so nobly serve , comes from destruction , disorder and chaos .

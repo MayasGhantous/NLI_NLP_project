@@ -1,0 +1,100 @@
+  i got pretty big hands , i 'll admit , 
+  probably not the best time for that discussion ... 
+  perl5 has undergone something of a revolution in recent years . 
+  a lot of the oo perl being written today uses a rather sophisticated [ meta-object system ] ( http://search.cpan.org/perldoc?moose ) . 
+  sure , it 's an external library , but that 's not as much of a disadvantage as you might expect - perl has always been heavily reliant on cpan . 
+  we get 8 ? 
+  win !, 
+  i. . thought that was going to be a joke , but it was surprisingly interesting . 
+  use - r instead of - r . the former only allows ansi colour sequences , while the latter just allows any old crap through - not so good if you happen to throw binary data through it . 
+  okay i 'm 95 rounds in using a random number generator , and it 's pretty soundly beating me . 
+  i 've got 28 wins to its 46 , with 21 ties . 
+  i 'm not sure whether to call shenanigans or start a religion . 
+  i 'm not much of a fan of twitter . 
+  i can see the benefit for some things . 
+  but it 's always seemed to be to be like irc , but slower , with an interface that makes it difficult to have an actual conversation . 
+  i do n't much like facebook either , i prefer my online interactions to have a little more anonymity . 
+  i do n't have a significant issue with people that do like either of those things , though , they 're just not for me . 
+  [ this thing ] ( http://www.fender.com/en-gb/products/search.php?partno=0134444780 ) gives me the fucking horn . 
+  flat white finish with black hardware - 80s-style sexy !, 
+  i have no idea who `` jim root '' is , but i 'd rock the shit out of one of those . 
+  they took the ms corporate line on any and all criticism . 
+  for example :, 
+  reddit : `` y u no support imap ? '', 
+  hotmail guys : `` hotmail supports < some proprietary ms-only crap  which is better than imap for < list of reasons that carefully avoid the fact that nothing useful supports it  '' . 
+  which , as you can imagine , did n't really endear them to anyone . 
+  it 's as if they did n't even see the opera ama . 
+  yeah having half the internet badmouth your product ca n't be fun . 
+  but the only reason it turned into that is because they 'd made decisions for reasons * other * than providing the best service they could ( eg , not supporting a standard to maybe boost sales of their other products ) . 
+  so i really do n't have much sympathy for them . 
+  i 'm not sure whether i love or hate this idea . 
+  on the one hand , yes , json ca n't serialise everything and so is a little limiting , granted . 
+  but having just spent the last week implementing a soap client by hand ( language i 'm using does n't have anything that supports the service 's wsdl ) , i 'm really not sure that limiting what you can and ca n't serialise is such a bad thing . 
+  but , it 's a pretty cool idea , simply because implementing the spec ( on top of a json library ) would be relatively easy . 
+  but then , you 're forcing anyone who wants to use your data to either find or write code to support it . 
+  tricky . 
+  as far as i can tell with the case hinge , there 's two plastic knobby bits sticking out that used to have little bars on each side that the door clipped into . 
+  you could probably just ( carefully ) drill through where the bars used to be , and stick something through the hole to make a replacement bar . 
+  a bit of a wooden barbecue skewer or something looks like it might be about the right size . 
+  maybe a matchstick if you cut it down and rounded it off a bit , or possibly something like a nail , if you clipped off the head . 
+  the wrt54g antenna thing looks fucked to me . 
+  you 've snapped the connector off . 
+  i doubt it 'll be easy to replace the connector , as it 's probably soldered to the board . 
+  might be possible if you can find a replacement and are handy with a soldering iron . 
+  since the router has two aerials , it might work well enough without the second ( i do n't know enough about them to say , but i do know there are lots of similar routers that only have a single aerial ) . 
+  holy shit , if you replace `` photocopier '' with pretty much any computer-related device , and `` xerox '' with whatever crazy shit happens to be floating around in my family members ' heads ... that 's almost exactly how my family tech support sessions go . 
+   i 'm not sure where the rest have gone, 
+  we * did * have a pretty cold winter ... 
+  maybe they migrate ? 
+  the sloppy boundary is there because the php model encourages putting everything related to rendering a page ( from sql to html ) in one file ( while of course it 's possible to * not * do that with php , its structure does n't exactly encourage that ) . 
+  in most other systems ( even those specifically for websites ) , data access is separate from behaviour and behaviour is separate from the interface by design . 
+   php does n't `` encourage '' any such thing, 
+  every language/framework ( and i 'm including both languages and frameworks here , as php has elements of each ) , impart a `` flavour '' on the code produced with them . 
+  perl code tends to be procedural , java tends to be heavily object-oriented . 
+  web apps written in python tend to be monolithic and do their own routing , web apps written in php tend be spread over several scripts and let the webserver do their routing . 
+  this is n't just about the language or framework itself , the documentation , learning material , tutorials , community , and even fashion all play a part in influencing the style of code that gets written . 
+  perl , for example , has historically suffered from a large quantity of bad quality example code out there for new programmers to find and be influenced by . 
+  ruby , being a newer language ( with arguably less scope for shooting yourself in the foot ) , does n't suffer from this as much . 
+  that does n't mean you ca n't do things differently , or that one is necessarily better than the other . 
+  but it * does * mean that most code written using a particular language/framework tends to encourage a particular style . 
+  for example : i imagine the majority of php programmers had their first experience with displaying data from a database on a web page by embedded sql and html in the same script . 
+  how many ruby programmers did the same ? 
+  not many , i 'd wager . 
+  regarding this particular source code leak , well yes , putting passwords into source files is a pretty daft idea . 
+  but that 's not really the problem , the problem is that the source was leaked in the first place . 
+  the developer certainly deserves some blame for making the fuckup in the first place ( and for not testing their code before putting it into production ) , but i think php deserves at least * some * of the blame for making it possible to leak the code so easily ( i ca n't even think of a way to leak anything other than template code with an mvc framework ) . 
+  if a nuclear missile 's control panel has a `` destroy russia '' button right next to the seat recline control , do you blame the operator or the control panel designer when someone accidentally hits the wrong button while having a coffee break ? 
+  back in the day , programming languages were either compiled ( like c ) or interpreted ( like basic ) , the former required an extra compilation step , but had the benefit of faster execution speeds . 
+  however in recent years , that line has blurred a little , with bytecode compilation , vms , jit compilers , and all sorts of other beardy things that i do n't really understand . 
+  so there are lots of different ways to approach the problem of executing javascript code , and loads of scope for optimisation and improvement . 
+  further , while there has been a ton of research into optimising strictly typed language compilers , we 're really only just starting to do the same for dynamic languages - there 's a whole class of potential optimisations ( which , again , i do n't profess to understand ) that are currently at the research stage . 
+  there 's a really interesting [ talk by steve yegge ] ( http://www.youtube.com/watch?v=tz-bb-d6tee ) on the subject . 
+  [ speed of a bullet ] ( http://hypertextbook.com/facts/1999/mariapereyra.shtml ) : 180-1500m / s, 
+  [ speed of sound ] ( http://www.google.co.uk/search?sourceid=chrome&amp;ie=utf-8&amp;q=speed+of+sound ) : 340.29 m/s, 
+  then there 's also the time it takes for a sound to register in your brain . 
+  so , they 'd probably get hit by it before they hear it . 
+  but , whether or not they 'd * perceive * the sound before dying . . 
+  i do not know . 
+  okay , now add [ this ] ( http://i.imgur.com/hnz1o.gif ) . 
+  `` the ships hung in the sky in much the same way that bricks do n't '', 
+  hey dude . 
+  i realise it 's late , but if you still want one , pm your address/preferred flavours of cheesy goodness , and i 'll sort you out . 
+  yay !, 
+  no problem , man . 
+  have a good night , 
+  alton brown goes into his customary [ level of detail ] ( http://www.youtube.com/watch?v=czr_evwidby&amp;feature=player_detailpage#t=592s ) on the subject . 
+   . . a chef without a good knife is like a hooker without condoms . 
+  bad knives give you aids ? 
+  i love that they use red , yellow and blue instead of red , green and blue . 
+  nice touch !, 
+  i quit eating sweet things . 
+  [ iterm2 ] ( http://www.iterm2.com/ ) is better . 
+  that 's fucking disturbing . 
+  a related point is that while we might be pretty efficient at using the energy we get from food , we 're still far less efficient than other organisms . 
+  warm blooded animals waste a huge amount of calories simply maintaining their body temperature . 
+  according to a random online calculator , my [ bmr ] ( http://en.wikipedia.org/wiki/basal_metabolic_rate ) , that is , the energy i need to sit and do nothing , is around 2000 calories ( compared to my current consumption , which is around 2500 calories ) . 
+  i tried one that recorded ` sleep disturbances ' , but in the morning all i found was 8 hours of me snoring and farting, 
+  my opinion : hybrid by the flat bars and geometry , but only * barely * , due to the thin tyres and carbon bits . 
+  i love it too , it 's great fun racing people . 
+  i really do n't go that quick , but am constantly overtaking people . 
+  people must be slow here ,

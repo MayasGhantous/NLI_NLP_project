@@ -1,0 +1,100 @@
+  without side-effects you wrote a totally useless program , because it will do nothing . 
+  rust is n't haskell . 
+  ` unsafe ` does n't mean impure and safe does n't mean pure . 
+  safe rust code can and does have side-effects . 
+  you can absolutely write useful , safe programmes in rust . 
+  rust is n't a safe language . 
+  it has ` unsafe ` , and thus clearly is n't safe . 
+  if rust let you write proofs that things you did in ` unsafe ` blocks were in fact safe , it would be a safe language . 
+  i 'll put it another way . 
+  if you think you do n't need proofs and you do n't need safety , that 's fine . 
+  but you ca n't call the result safe . 
+  rust is advertised as safe , and that 's false advertising . 
+  the rust evangelism strikeforce-themed subreddit already exists , it 's called / r/programming . 
+  or maybe hackernews . 
+  ` unwrap ` is already ` it ca n't fail ' . 
+  people using it wrong are using it wrong . 
+  the whole point of the thread is that people * actively advocate * for beginners to use it wrong . 
+  you 're talking utter horseshit dude . 
+  safety in rust has nothing to do with side effects . 
+  the standard library provides lots of safe ways to interact with the world . 
+  how these are implemented is utterly irrelevant . 
+  the standard library is allowed to be special . 
+  that 's the most ridiculous everyone-deserves-a-prize , nobody-is-a-loser crap i 've ever read . 
+   even proof-based languages, 
+  there is no such thing as ` proof-based languages ' . 
+  there are languages that are safe and there are languages that are unsafe . 
+  some language that are safe let you do things that look unsafe because they can work out that what you are doing is actually safe ( rust is one ) . 
+  other languages that are safe let you do things that look unsafe because you can prove to the language that it 's actually safe . 
+  a lot of rust 's idioms are basically working around the fact there 's no explicit way to do this . 
+  the best example is ` phantomdata ` , which is a massive hack that exists purely to nudge the compiler in the right direction . 
+   have a human-verified element -, 
+  nobody is saying there will never need to be trusted primitives . 
+  eventually you have to trust the processor , for example , although even then you can build verified processors . 
+  frankly , how things are implemented in ` core ` is quite irrelevant to me . 
+  it literally does n't matter . 
+  a few tiny primitives can be implemented in assembly directly for all i care , their properties can be asserted once , and the safety of everything else in the rust ecosystem should be * proven * from the properties of those primitives . 
+  rust 's human-verified element is * virtually every library * . 
+  nearly every library i 've seen has ` unsafe ` . 
+  even well-regarded libraries have lots of ` unsafe ` . 
+   and keeping it all in one thread , the compiler `` has your back '' in far more situations than you claim - it enforces all the invariants built around the uses of unsafe , just like if those uses were built into the language . 
+  there is no difference except extensibility . 
+  rubbish . 
+  the compiler can not enforce that your code is safe unless you never write ` unsafe ` . 
+  the compiler no longer has your back . 
+  the compiler can ** assume ** that what you wrote is correct , but it can not enforce it . 
+  if rust had support for proving things around ` unsafe ` , you could * prove * that a particular pointer could * never * be null , for example . 
+  you can not do that in rust . 
+  you have to verify it yourself . 
+  the compiler could verify this for you if you helped it with a proof . 
+  you can already help the compiler with its quest to deduce the properties of your code , but in really hacky , ad-hoc ways ( like phantomdata and others ) . 
+   by special , you mean unsafe ? 
+  the language has the right to do unsafe things ? 
+  yes , otherwise you could not do anything . 
+  every types in haskell still need to write to memory , therefor every type is unsafely implemented . 
+  again , you 're talking rubbish . 
+  haskell ( with ` { - safe - } ` ) is a safe language . 
+  nobody is talking about the fucking language implementation . 
+  learn to read . 
+   this is not special to rust , which allows you to write unsafe code , without modifying the compiler . 
+  rust advertises itself as ` safe ` but it is n't . 
+   i 'm not sure how one would go to write unsafe code in haskell , but in rust writing to a register in memory has to be easy , otherwise it would not be used for embedded programming . 
+  rust is n't used for embedded programming . 
+  do n't be an idiot . 
+  it 's utterly unsurprising that someone astroturfing for rust would see they 've lost an argument and resort to pretending they 've won like you have . 
+   ... and now we 've looped back around to you making assertions that i 've already given counterexamples for ,, 
+  you have n't given any ` counterexamples ' to anything i 've said . 
+   and disagreeing on semantics . 
+  would you prefer that i disagreed about the form of your argument ? 
+  ` semantics ' means * meaning * . 
+  what the fuck else would we disagree about ? 
+  agda is perfectly safe and not imaginary , you idiot . 
+  so is haskell . 
+  so is idris . 
+  so is rust , if you never use ` unsafe ` . 
+  unfortunately there 's no way to specify that your code is safe in rust , while there is in haskell . 
+   servo as an example of non-trivial safe rust code, 
+  no it is n't . 
+  firstly , ` servo ` uses ` unsafe ` : https://github.com/servo/servo/search?l=rust&amp;q=unsafe&amp;type=&amp;utf8=%e2%9c%93 . 
+   `` disagreeing on semantics '' does n't just mean disagreeing over meaning , it means disagreeing over definitions . 
+  that 's just not what the word ` semantics ' means . 
+   you say rust is n't safe , i show examples of how it is safe , you say you mean something else by `` safe , '' i explain why my definition of `` safe '' is useful . 
+  now you 're just re-asserting your original claims that rust is not `` safe '' - an incredibly useless waste of space . 
+  rust is not safe by any reasonable definition of the word . 
+  it lets you do things that are not safe . 
+  that means it is n't safe . 
+  wrapping everything unsafe in ` unsafe ` does n't make it safe . 
+  that 's the most moronic thing i 've ever read . 
+  seriously . 
+  the most moronic thing i have ever read . 
+  ** the implementation is not relevant ** . 
+  the implementation ** has ** to be implemented somehow . 
+  that does n't make it unsafe . 
+  you have to trust the standard library and the language . 
+  you have to trust something . 
+  rust is n't unsafe because the standard library has ` unsafe ` in it , you cretin . 
+  rust is unsafe because ** user code ** can have ` unsafe ` in it . 
+  there 's nothing wrong with ` export import ` . 
+  you are exporting , the thing you are exporting is something you have imported . 
+  ` export ( import foo ) ` . 
+  makes perfect sense .

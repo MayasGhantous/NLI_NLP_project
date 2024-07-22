@@ -1,0 +1,100 @@
+  to confirm , try decreasing resolution and if you do n't see any meaningful performance improvements you 're definitely cpu bound . 
+  you can try overclocking to see if it helps you get an acceptable framerate . 
+  i do n't think there is optimal colonization timeline since it depends on many factors . 
+  with 1.1 you get increased research cost from new planets and pops . 
+  pops were barely relevant even when they increased the research even more than now so i would n't worry about it now at all . 
+  it depends how you value research though , sometimes expanding quickly might be more beneficial in the long run than getting a new tech a bit sooner . 
+  the only thing that you probably should avoid is colonizing lots of very small planets quickly unless they have strategic importance ( ie doing so will give you borders across rich systems and despite the planet being smaller , mining/research stations will pay for the penalty instead ) since you get +10 % per planet which is pretty significant, 
+  all in all though , if you 're not that threatened expanding quickly can still be viable despite the research penalty . 
+  i think a lot of people overvalue research speed in 4x games in general . 
+  i guess you could still outlaw them but yeah . 
+  wait until it gets patched . 
+  not really , however you ca n't survey systems if you trade star charts and they can only appear on objects that did n't already had one ( from other empires that surveyed ) so if 30 empires survey a single system it 's pretty possible that there are no objects with anomaly left for the 31st explorer, 
+  there should be event to convert them to pops, 
+  i would probably try it and monitor temps . 
+  i think it will depends on your voltages and ambient/case temps so it 's impossible to tell you without testing it . 
+  edit : also from 4.2 to 4.5 can mean a pretty big jump in voltages and thus in required cooling, 
+  in any game that loads assets from hard driver during gameplay ssds give you direct performance boost ( elimination of stuttering or swapping ) and in most games it 's worth it even if it did nothing except shorten loading times . 
+  you 're definitely getting more from your buck if you get a 256gb ssd than a tb hdd, 
+  what mobo , what cpu ? 
+  looks like a msi board issue . 
+  try flashing to the latest bios , if it does n't help , disable sleep until they fix it with a newer bios ( to be fair sleep on desktop pcs is kind of irrelevant anyway ), 
+  no , it helps with potential compatibility issues ( try getting at least one with same frequency and timings ) but generally you should be good to go with whatever . 
+  motherboard should sort it out to run everything at the speed of the slowest stick . 
+  lots of games are pretty scaleable for graphics settings so if you do n't mind putting details to lowest and maybe run in a window that is slightly smaller resolution than 1080p ( assuming that 's your native ) , you 'll be able to run pretty much everything , often even with decent to good framerates, 
+  if you like strategy games , most of them basically do n't care about gpu at all and you can play them with 6850 as well as you could with a 1070, 
+  definitely get 1151 simply because it gives you more upgrade options ( namely m. 2 slot ) and it uses ddr4 which is very likely to last you until your next build . 
+  you 'll never use ddr3 again . 
+  also i 'd recommend getting a z170 board even without unlocked chip since it allows you to oc even locked chips ( maybe not relevant now for you but in few years you 'll be glad to have that option ) and ram speed above 2133 makes a good difference in games as well . 
+  the fan should be very easy to easy to take off depending on what cooler you have, 
+  edit : and you should n't have to take off the heatsink to do it as well, 
+  both should work , i 've heard that if you use air and let the fan spin a lot , you could damage it so avoid that and you 're good to go . 
+  edit : and if you use a wet towel , do n't forget to let it dry, 
+  if you put your migration access for trade ( your trade window ) , you 're letting the other empire pops to migrate to your planets . 
+  the new gpu would presumably still run at full load ( depending on games but you get the idea ) so it does n't really depend whether the gpu is better but how well cooled it is ( and how loud the cooler itself is ), 
+  cpu fan could also make a lot of noise , solve it by getting aftermarket cooler . 
+  although better ones like noctua are kind of overkill when you 're not overclocking , they will make a stock cpu basically silent if you use their low noise adapters with low rpm . 
+  and lastly , psu can make noise as well . 
+  more expensive psus tend to have quieter fans and often an eco mode that completely disables the fan when it does n't need to be turned on . 
+  definitely 1080 , although i 'd recommend waiting for aftermarket cards . 
+  fe does n't seem to be worth it in the slightest since you 're paying a premium for a worse card . 
+  try / r/buildmeapc, 
+  as i said , it 's only about picking quiet components for your pc . 
+  not really . 
+  for standardized benchmarks use something like unigine valley for gpu and cinebench for cpu . 
+  5930k has more cores and pci-e lanes but less single threaded performance and overclocks slightly worse . 
+  unless you 're planning to run 3 + gpu setup or you need the cores for rendering ( or other programs that can use them ) , 6700k will perform better in games . 
+  comparison : https://www.youtube.com/watch?v=ocwwavguftk, 
+  the cooler and the power delivery is simply bad and there are already reports of both thermal and power throttling . 
+  maybe some of these issues will be resolved with a custom bios and custom cooling blocks , but why bother ? 
+  for same price you 'll simply get a better card presumably without these issues if you wait like 2 weeks . 
+  edit : ok i guess those are harsh words without some sources, 
+  except a 1080 wo n't help you get higher framerates if you 're cpu bound . 
+  sure , if you 're happy with 60fps on whatever resolution and max details , most cpus will do the job . 
+  however if you have a 144hz monitor and want at least 100 min fps and do n't care about graphical fidelity to achieve it , you simply need a good overclocked cpu and a decent gpu is enough . 
+  i 'll go against the grain here and support your choice to get a z170 motherboard . 
+  with correct bios it can overclock the locked cpu ( which will increase it 's lifespan by 1-2 years easily if you look at current 2500k owners ) and you can get higher clocked memory which helps when you 're cpu bound, 
+  i 'd recommend getting at least a 2666mhz ram sticks though , should n't cost much more and it gives a decent boost in cpu bound situations . 
+  bechmarks : https://www.youtube.com/watch?v=er_fuz54u0y, 
+  edit : also do n't get a 970 , wait for polaris first , you should get a much better card for your money, 
+  problem is a blanket statement like `` this cpu wo n't bottleneck this gpu '' is almost never true ( unless we 'll go to extremes like oc 'd 6700k with intergrated gpu and even then you 'll probably find games that will be cpu bottlenecked ) . 
+  what bottlenecks what completely depends on games , what resolution are you playing on and what is your target fps . 
+  you have games that will run almost on any cpu and better gpu will always increase your framerate , you have games that need both strong cpu and gpu ( like crysis , gta5 or witcher3 ) and then you have games that barely care about gpu and as long as you have some low end gpu to render it , your performance is entirely dependent on cpu ( various simulation games , most mmos and strategy games ), 
+  so what i 'm saying is , unless you say specifically `` this cpu wo n't bottleneck this gpu at this resolution targeting this framerate in let 's say action games ( implying gpu is more important than cpu in general ) , your post is meaningless at best and misleading at worst . 
+  wait for polaris . 
+  that 's my point . 
+  as usual though , stating facts does n't contribute to discussion around here and gets you downvoted . 
+  according to buildapc , [ i should replace my 270x with a 1080 because clearly a 6500 * ca n't bottleneck a 970 , let alone a pitiful low-mid range gpu ] ( http://i.imgur.com/abatlas.jpg ), 
+  * it 's actually oc 'd 6400 which is faster than stock 6500 which would bottleneck even harder, 
+  motion is noticeably smoother with as low as 75fps +, 
+  `` worth '' is subjective but i would say as long as you can keep 85 + fps you 'll be happy with it, 
+  i think the only real `` feature '' ( that 's not bs such as games optimized that they run shit on everything else except your newest cards ) is that you get shadowplay with nvidia . 
+  other than that , gsync is exclusive to nvidia and panels with it cost a premium while amd cards are compatible with freesync monitors, 
+  we do n't know benchmarks for 480 nor 1070 yet to tell the price but with gpus , you should look at price/perf more than anything . 
+  for budget you should probably go with something like 480 and freesync monitor instead . 
+  however , question is whether you should buy a new monitor on a budget at all, 
+  with cpu intensive game go for the skylake . 
+  more ipc and higher frequency almost always wins out over more cores ( edit : especially for strategy games and simulations ), 
+  you 're also getting all the new 1151 features and with a z170 board , you can oc it despite it being locked chip . 
+  do n't cf before upgrading the cpu, 
+  if you have n't already , you might want to overclock it before upgrading to new cpu . 
+  depends what do you find lacking on your current monitor . 
+  assuming it 's standard 60hz tn panel , you could get higher refresh rate , different panel tech ( ips for better colors or va for better blacks ) , higher resolution and finally a monitor that supports adaptive sync ( freesync in case of your amd card ), 
+  depends on the part . 
+  besides motherboard extremely small that you should n't worry about it , motherboards have higher chance ( although less than what would appear from reading the internet where it sounds like every second mb is doa ), 
+  yes , it will work, 
+  the x99 pci lanes are kind of irrelevant until we 're talking about 3 + gpus . 
+  i 'm also not 100 % sure x99 boards support 32gbps m. 2 slots, 
+  intel has a lot better single threading performance which is what most games care about and strategy games are basically always bottlenecked by the speed of your 1-2 cores . 
+  paradox games especially will run better even on a pentium compared to anything amd currently ( hopefully zen will change that ) since running them on full speed maxes out a single thread and they do n't care about much else . 
+   so the 480 is just a slightly better 980 starting at 200 dollars . 
+  but since the 980 is almost 2 years old now , the 480 doesnt seem like anything special . 
+  so where do i buy even just the 980 for $ 200 ? 
+  if you do n't consider the 480 anything special you are completely missing the point of the card, 
+  stock 6500 ca n't do 100 + fps on witcher 3 . you need to overclock it or pair it with a very fast ram to achieve that . 
+  edit : to answer the actual question , yes it can but you need an overclocked i5 or an i7 ( consider that witcher 3 is well multithreaded though ), 
+  29th june, 
+  the rx and r9 are just naming prefixes ( r9 being high end for previous amd cards ) , since other polaris cards are n't out released yet we do n't know what rx stands for . 
+  ( people speculate it is roman 10 but again , before other cards are released it 's impossible to confirm it ), 
+  if you get certain z170 motherboards you can overclock the locked skylake chips as well ( if you want the option in future and are n't sure yet whether you want to spend those $ 100 on k chip ) . 
+  if you could n't oc the locked chip like on previous intel generations , i would say it is definitely worth it .

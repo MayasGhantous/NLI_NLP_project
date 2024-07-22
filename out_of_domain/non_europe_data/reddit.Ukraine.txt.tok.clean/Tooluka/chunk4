@@ -1,0 +1,100 @@
+  previously it was only during location load , now it just plain crashed in the dungeon . 
+  square - your programmers , qa and management are crap . 
+  se still not fixed this pile of code they call dx11 client . 
+  and they only made it worse after latest fix . 
+  you are just using terminology incorrectly :, 
+  `` clear '' group does n't mean that not expert players are n't allowed . 
+  you should add something like `` only expert players , n + full runs required '' . 
+  every group in this game is a `` learning '' one , unless specified otherwise . 
+  this is a game , not an ongoing tournament for ffxiv . 
+  being an `` elitist '' also means not being able to accept errors or incorrect preconceptions . 
+  oh , good , my blacklist was slowly reaching its limit , i hope there will be some new ( deleted character ) now  . 
+  interesting , i did n't know about that . 
+  weird animations and ears . 
+  what i like about elezen is bigger character - armors look better on us ( in my opinion ) . 
+  also tails and horns are usually clipping through armor and in auri case cause gap between torso and weapon/shield on the back . 
+  elezen do n't suffer from such problems . 
+  initially i wanted to play miqo ` te but during test i created elezen to try something different before wipe . 
+  and kind of stayed that way  . 
+  still have my fantasia , thought about switching to auri but then decided that those tails and clipping are n't the best thing . 
+  this is what true random looks like - it does n't mean that you 'll get different random stuff every try , you may stuck with series of the same items over and over . 
+  ps : playing l2 helps with this issue , after that game you 'll never expect anything to drop for you , ever , 
+  same for , only i try to invent even more names for `` things ''  . 
+  remembering words in app never worked for me , i do n't even remember where they are displayed . 
+  in 2.0 , during first month , all dd queues were like this . 
+  fast queues were 60-100 minutes and long ones ( titan normal , qarn etc. ), 
+  were up to 2-3 hours . 
+  my personal record was 1.5 hours wait , some dungeon , then 2.5 hours more wait . 
+  i even stopped playing after first month . 
+  now i started again in 3.0 and things are way better than before - 10-20 minutes in low level dungeons as dd , almost instant as healer . 
+  somehow there are a lot of new characters on my server and with roulettes wait times are sane now . 
+  i see lots of people doing high level fates but i doubt that it is very effective now . 
+  i re-started in 3.0 and choose new class to level , while having all main story completed up to 45 lvl ( so no bonus exp till that level ) . 
+  what i did is - random stuff till 15 , dungeon roulette till 25 , then levequest `` adamantoise tears '' in south shroud from 25 to 3x ( you can finish it in about 50 seconds literally , and with +4 levels set you 'll get 10k + exp ) , then dungeon roulette till 50 . 
+  also do n't forget to logout in sanctuaries , then next day you 'll get about a quarter of your exp bar as a bonus exp ( x1 .5 faster ) . 
+  in dungeons you 'll have added bonus of some loot , that will allow you to same money when doing main story and side quests ( pick gold in the rewards instead of loot ) . 
+  fates on the other hand give you about as much exp as one side quest and you need to wait and travel a lot for them . 
+  now i fear 0x00000c5 . 
+  damned dx11 client just keep crashing and crashing and crashing . 
+  once i even had to use hard reset on the pc , it was first time since i do n't know , windows 98 or something , in the late nineties ... * facepalm *, 
+  laptops have small screen , horrible ergonomics and often overheat , either immediately or after 1-2 years , even with cleaning . 
+  performance is ok for games if this is some modern laptop . 
+  it is really up to you but i already worked on laptop and played on a laptop and will never do that again . 
+  i wonder if they will allow transfer from na legacy to these servers ? 
+  or is it going to be ragnarok only ? 
+  btw , are character creation limitations applicable to transfer ? 
+  can we transfer to locked servers ? 
+  especially i like how hundreds of speedrunners will help new players in castrum and praetorium appreciate the story . 
+  or how they will instaleave df parties when they see green mark on some player . 
+  or how they will rage after a single wipe in dungeon . 
+  yes , but i suspect mostly due to game mechanics and game price . 
+  you ca n't for example kill someone here for fun and loot ( imagine dropping you alexander gear to some guy in gray , just because he ambushed you cleverly ) , you ca n't train mobs on people , ca n't deny quest or regural mobs to people , ca n't deny whole locations ( by killing everything inside ) . 
+  image all of that was in the ffxiv and i doubt that it would be so user friendly . 
+  those same people who are behaving uncivil in the chat or abusing vote/leave would be the hunters and griefers . 
+  i found out experimentally that you can finish lvl50 trial and lvl50 castrum meridianum with speed runners and still at least see all fights ( people are so overgeared that fights are almost instant ) . 
+  with praetorium it does n't work - people will leave you behind and due to mechanics some gate will clise and block you from joining with runners . 
+  i 'm thinking that here we either need to create a majority party and ignore those runners or indeed watch in the inn . 
+  - yes, 
+  - and no, 
+  basically dx11 is a pile of code and we ca n't fix it on client side , no matter what we 'll do . 
+  welcome your new best friend - oxc0000005 , you will see it often and nothing you 'll do will fix it until se will fix they bugs . 
+  it is totally se 's fault , i suppose that they screwed up something in texture post-processing , that 's why it happens during location loads , even sometimes during first load when you start the game and logging into the server . 
+  it will happen on any driver , with any amount of apps running in background and with any temperature and state of the hardware . 
+  it may happen instantly at startup , or it may happen after several hours . 
+  after latest patches it happens rarely , but still happens . 
+  one thing that may help a little bit - turn down texture filtering from anisotropic to trilinear . 
+  on my side it decreased amount of client crashes several times . 
+  driver is crashing but not because of driver but because game corrupts its data in vram and that causes driver to restart or crash or freeze . 
+  i 'll try 350.12 but it is not a long term solution even if it will help ( i thought that filtering option will help too , but crashes resumed afterwards ) . 
+  besides ati drivers are suffering too . 
+  that exception was taken from event viewer , i see the same stuff there half of the time . 
+  in another half of crashes game just crashes with no messages in logs . 
+  for example on my pc :, 
+  a request to disable the desktop window manager was made by process ( 4 ), 
+  the desktop window manager was unable to start because composition was disabled by a running application, 
+  fault bucket , type 0, 
+  event name : livekernelevent, 
+  response : not available, 
+  problem signature :, 
+  attached files :, 
+  c : \\ windows \\ livekernelreports \\ watchdog \\ wd-20150717-2234 . dmp, 
+  c : \\ windows \\ temp \\ wer-948109024-0 . sysdata.xml, 
+  c : \\ windows \\ temp \\ wer28.tmp.werinternalmetadata.xml, 
+  these files may be available here :, 
+  analysis symbol :, 
+  rechecking for solution : 0, 
+  report status : 4, 
+  display driver nvlddmkm stopped responding and has successfully recovered . 
+  faulting application name : ffxiv_dx11 . exe , version : 1.0.0.0 , time stamp : 0x55a00e4f, 
+  faulting module name : ffxiv_dx11 . exe , version : 1.0.0.0 , time stamp : 0x55a00e4f, 
+  exception code : 0xc0000005, 
+  fault offset : 0x00000000001458a1, 
+  faulting process id : 0xc440, 
+  faulting application start time : 0x01d0c0bbb14b2b64, 
+  fault bucket , type 0, 
+  event name : appcrash, 
+  response : not available, 
+  problem signature :, 
+  p3 : 55a00e4f, 
+  p6 : 55a00e4f, 
+  p7 : c0000005,

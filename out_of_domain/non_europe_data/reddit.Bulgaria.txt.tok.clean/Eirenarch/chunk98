@@ -1,0 +1,100 @@
+  my problem with unit testing is that i feel that debugging is the most creative , interesting and fun part of computer programming . 
+  at the same time writing unit tests is incredibly boring . 
+  testing people try to convince me that i should trade the time spent doing the most interesting part of my job for the time doing the most boring part of my job . 
+  also php , python and javascript . 
+  well if i write unit tests my program takes more time to be delivered . 
+  maybe as a professional i need to aim higher and optimize for time to market . 
+  on the other hand my point is kind of orthogonal . 
+  i simply do n't see why developers are excited about unit tests . 
+  this is something managers should be excites about . 
+  when someone writes a blog post that proclaims the virtues of tdd i feel like i am reading something that explains how cool it is to write status reports . 
+  as a professional you should write status reports , should n't you ? 
+   you have no guarantee that a change in one case has n't broken another, 
+  no i do n't have to . 
+  never signed under such a requirement , 
+  best explanation i have seen . 
+  well if the project manager requires that we do testing i will write tests . 
+  i simply do n't see why i should push my managers to allow me to test . 
+  it seems that people who get excited about testing do exactly that . 
+  first of all i really do n't believe that writing tests results in faster delivery of software . 
+  my ( admittedly limited ) experience with unit testing shows the opposite . 
+  now of course in the long run tests will pay off but it will be hard to convince me that this is the case for version 1 because i have seen otherwise . 
+  in most companies i have worked for delivery time was far more important than maintainability even for projects that spanned 10 years . 
+  i have been told so directly by my manager . 
+  a certain feature had to be demoed and when i noted that the way it was implemented was neither secure nor maintainable he said that the demo is the most important thing and maintainability and security will be implemented later . 
+  they were in fact implemented later ... like 18 months after they shipped in actual release . 
+  i already explained how tests are different from other things i push to be implemented in a project . 
+  test are not fun . 
+  btw on my latest projects i do write test-ready code . 
+  they have dependency injection , interfaces and at least the obvious coupling has been removed . 
+  i just do n't write the actual tests , 
+  no one is using it for typical web applications because there is no good way to access the dom and there is no good way to use language that is not as heavy as c++ . 
+  if a more normal webby language like python or c # were able to target asm.js that would change . 
+  there are still some problems with implementing both of these but things are moving forward . 
+  for example once js has classes in the next version it will be feasible to compile classes in languages like c # and java to asm.js and let the browser gc handle the deallocation . 
+  currently this is very hard to do because it would require compiling the gc of the platform to asm.js which would be quite large performance and size hit . 
+  same is true for most practices even opposing ones . 
+  if you do something a lot you will just do it faster . 
+  for example i am very good with the debugger , 
+  thanks . 
+  this seems reasonable . 
+  i often think that adding an unit test for bugs that were already found and fixed may be a good idea . 
+  after all the bug did happen . 
+  i never asked for them but i would probably have access . 
+  we work on somewhat smaller projects and staging is not so rigorous . 
+  there is a test deployment and separate dev deployment but sometimes steps are skipped and fixes are pushed directly into testing . 
+  yeah 10th article on the topic makes it into the top 5 on / r/programming, 
+  maybe i should write one too . 
+  soooo ... 
+  web forms ? 
+  that 's fine by me . 
+  in my opinion the web ( applications ) are an abomination before client software development . 
+  yeah ... 
+  i actually prefer web forms to mvc though i work more with mvc these days . 
+  on the other hand i believe both are actually dead . 
+  as / u/rockum states we live in the world of where you just do n't generate html on the server . 
+  my latest project is entirely web api , js building the ui on the client and 2 web forms pages . 
+  one loads the scripts and the other is login . 
+  you ca n't really put web api under the same umbrella . 
+  they do n't do the same thing and they do n't even have the same architecture . 
+  after all the v is what defines mvc and it does not exist in web api . 
+  in addition you can easily use web api without any mvc ( though i admit we pulled some mvc views for the help page but we did n't write any of it ), 
+  as i said all html generation that our app does on the server is the login page with a couple of textboxes . 
+  written in web forms . 
+  not that it matters since i could have written it as an httphandler . 
+  obviously there are apps where your assertion is wrong . 
+  on the other hand if you want to point to legacy systems then there is still a great deal of web forms anyway . 
+  frankly i do n't think the amount of html generated with mvc will ever surpass the amount of html generated with web forms . 
+  web forms had so much head start that mvc ca n't catchup before it is obsoleted by spas, 
+  actually . net is bundled with windows starting from vista and is also bundled with xp sp3, 
+  the most important part taken from scott hanselman 's post, 
+  `` one of the great aspects of environments like node or rails is that they are `` no compile . '', 
+  just change some code and hit refresh . 
+  with the next version of asp.net you get the power and throughput of the . net runtime plus the `` roslyn '' compiler-as-a-service for a `` no-compile compile . '', 
+  that means means during development time you can just change your c # classes and hit refresh in the browser . 
+  it 's the power of . net with the dynamism of a refresh-and-go development experience . '', 
+  so what ? 
+  you can use empty web forms pages if you wish . 
+  the fact that web api is organized in controllers and actions does not make it mvc . 
+  the patterns you use in mvc ( i.e. 
+  viewmodels , viewbags , helpers for forms and complex controls ) are not part of web api . 
+  these are what define mvc and its good and bad points , not the fact that you put code in controllers . 
+  yes , but now you do n't need to deploy code ( like you need to do with web sites ) and it seems to work for all project types and probably referenced assemblies . 
+  it seems like the way it works is different . 
+  btw i never understood why people had so negative opinion about web sites . 
+  they were not fit for large projects because of slow compilation times but for small and medium ones they were perfect . 
+  suddenly everyone thought that they were not professional unless they used web applications and forgot about the good parts of web sites . 
+  i do n't think my favorite apps are what he thinks they are . 
+  the only significant part is probably the routing engine . 
+  controllers are just classes with methods . 
+  it is not like they need something special to be implemented . 
+  by contrast most of what mvc does is in fact facilitating the views . 
+  view engines , scaffolding , html.helper methods , viewbag , methods like renderaction . 
+  never gon na happen until all three of page , brin and schmidt are out of google . 
+  microsoft ca n't even make google let them publish an youtube app ( developed by ms and displaying youtube ads ) on windows phone . 
+  google repeatedly trash-talk microsoft . 
+  at this point i am convinced this is not even a strategy . 
+  google leadership personally hates microsoft for some reason and will act against them even if this is not in their own best interests . 
+  i think yes . 
+  there are different features in . net that do this . 
+  one is the web site project where each folder of your project is compiled into a single dll .

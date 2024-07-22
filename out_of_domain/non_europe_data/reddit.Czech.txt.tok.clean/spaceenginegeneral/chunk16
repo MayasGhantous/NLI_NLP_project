@@ -1,0 +1,100 @@
+  downsides of immigration - can get pops that do n't share your ethics and become unhappy with your policies, 
+  downsides of emigration - you 'll lose pops and slow down your growth on your planets because they will leave if they find one they prefer more in the other nation ( this can sometimes cripple your colony growth completely on less habitable planets ), 
+  it 's not civilization but it 's a 4x game . 
+  the problem would n't be absence of victory conditions , the problem is that there are victory condition already and they are purely expansion based . 
+  i would n't care if i could n't get a score screen at all , what bothers me is that i get a score for owning majority of galaxy but not one for uniting the galaxy under a single federation for example . 
+  it would be fine if it would just automatically split the fleets and upgrade them in valid spaceports, 
+  that could be bug then . 
+  it 's hard to say , sometimes the research option is just hidden somewhere and it 's not obvious what are you supposed to do . 
+  you get the fleets when you integrate them . 
+  you can only integrate one subject at once and if they are large it will takes years to do it so if you plan on doing it you should start asap . 
+  you can read through it at / events/crisis _ events_x . txt, 
+  if you 're fanatic xenophobe you ca n't uplift . 
+  ca n't you just purge them ? 
+  in that case yeah, 
+  yeah you should . 
+  does it say anything in the tooltip why you should n't be able to ? 
+  do you have enough minerals ? 
+  the smaller you are the cheaper the techs are . 
+  you can stack tons of bonuses to increase your research , be materialist , pick leaders and governors that have science bonuses , recruit scientists with spark of genius trait , enact all edicts , have species that is intelligent and so on . 
+  mining stations are really neutral and simply give resources to whoever has them in their borders . 
+  not sure about frontier outposts , i suppose they just stay abandoned, 
+  increase their happiness . 
+  can be done by buildings , edicts , governors , rulers , policies and making sure they are in a world where they have at least 80 % habitability, 
+  the food scales in a wierd way . 
+  basically base growth is 1 that you have when you have 1 surplus . 
+  if you have 2 surplus food , you only get 1.1 increase to the growth , not 2 so 10 food does n't make your pops growth 10 times faster but only 2 times, 
+  it should impact everything the pop produces , sounds like a bug . 
+  you need to overclock your i5 or get a newer architecture . 
+  what 's going on is the game is simulating ai and pops in the background on a single core . 
+  you ca n't really compare it to witcher that can utilize your 4 cores ( unlike stellaris which uses one mostly ) and even then is mostly taxing on your graphics card to render everything rather than cpu, 
+  depends on what weapons exactly are you using . 
+  but in general , yeah if you have a weapon that ca n't penetrate shields on one ship then using torpedoes kind of defeats the point, 
+  everything that is a pop counts as one for research . 
+  i ca n't tell you what is the optimal rate for expansion regarding research but i can tell you each pop after your starting 10 increases research cost by 2 %, 
+  use auto-best until you feel like toying a bit with the fleet designer . 
+  the ai does a decent job making designs as long as you specialize research on one type of weapons, 
+  regular xenophobes only get -50 % alien slavery reduction , you have to stack it with something else or offset it with some happiness bonuses, 
+  my recommendation for militaristic xenophobe is simply purging, 
+  i just checked the game files and the only modifiers that have different chance on different colonizeable planets ( not counting gaia and tomb worlds ) are lush and bleak . 
+  so i guess that makes tropical the optimal planet to start with because they can be lush and ca n't be bleak . 
+  the funny thing is that i do n't know whether this makes the whole issue better because it 's not 100 % cosmetic ( just 90 % ) or worse because one planet type is clearly better than others, 
+  that 's weird , is it the same both in new or loaded game ? 
+  or try 10 if that changes anything, 
+  assistance in war , border access and possibly more trade deals than if you were just allied . 
+  you can see their relative tech and fleet strength to you in diplomacy screen by hovering over the relative power thingy . 
+  best way to scout is probably having a ship with the best sensor you have near their borders ( or get access from someone they are at war ) and catch when their fleets enters your scanner range , you can that look what they have equipped, 
+  welcome to a game without espionage . 
+  build a wormhole on a star next to their wormhole , put there a corvette with your best sensor and look out for passing ships, 
+  select the planet with armies and click embark all , then select the transport ships and right click on the planet you want to invade select land armies, 
+  a suggestion , could you make the rarity of technology perhaps a small square with relevant color in a corner for of the tech ? 
+  ( similar size to ethics ) . 
+  since on normal monitors you 're really as zoomed out to see as much as you can and the colored outlines are barely visible . 
+  edit : or just make them a lot more thicker, 
+  you can only put it on cruisers and battleships with hangar modules, 
+  from what i 've seen they just go over limit , seems sectors ignore the stockpile cap, 
+  perfectly viable, 
+  `` sectors build food buildings on planets that only contain mechanical pops '', 
+  i want to add to this that they do it no matter what orders you give them . 
+  even if you have planet full of synths and fully built up and put it in a sector , regardless what combination of settings do you pick the ai will destroy buildings to build farms . 
+  does n't matter whether redevelopment is allowed or not , it will replace building to build farms . 
+  to add insult to injury , it wo n't even build the farms on food tiles ( completely ignores whether you say it should respect resources or not ) , it will destroy a power plant on energy tile to build a farm there if it feels like it and all that despite having a 5 food surplus from planetary capital, 
+  you have to increase the happiness , what 's keeping it so low ? 
+  until you get planetary administration on a new colony you get further +20 % to divergence which usually makes pops on your first colony to switch at least some ethics if you do n't have any modifiers to offset it, 
+  it should still amount to just few % but i guess you got unlucky, 
+  sorry i misread it , that seems like a bug since not even fanatical individualists should change ethics on your capital without any other penatlies, 
+  it can be seen in all sectors but you can easily test it with planet futexom . 
+  it 's fully built up and full of robots , put it in a sector and within few days ai will start replacing a power plant with a farm, 
+  actually i ca n't say for 100 % but it 's possible the excess goes into your resource pile because i noticed i got some energy while it was n't end of the month and ai 's stockpile was a little over limit, 
+  saw plenty of people mention it , seems to often happen for me as well and it 's not under the pop category . 
+  some pops on your capital will ethics drift before you make your colony which should n't be possible ( no way to get negative divergence on capital without the edict ) . 
+  save : http://www.filedropper.com/22000101sav, 
+  -3 % divergence and few pops went from fanatic militarist to militarist, 
+  now show us you sectors that each produce 50 surplus food, 
+  also , when you click the notification it should take you to relevant screen , not just not do anything or take you to star system where it happened . 
+  considering current state of sector ai , the only thing that makes sense making into sector is planet that has all buildings built or queued and wo n't use slaves or pure robot pops because ai pretty much ca n't handle them . 
+  putting newly conquered planets into sector will probably just result in repeated factions because the ai wo n't try to make them happy or try to decrease their divergence into negative and it wo n't purge or enslave, 
+  was the drop when the month ended ? 
+  rare resources at the moment have to be in the sector otherwise it ca n't use them, 
+  i think if you crowd the galaxy with ais there might not be any room for fallen empires . 
+  saw it on a ring galaxy, 
+  i think they 're most suited for 4 arm actually because it tends to have the biggest voids . 
+  i still think it 's simply random based on how far from each other the regular ais spawn, 
+  can you uplift them or do you need colony there to do it ? 
+  that would be only other way aside from terraforming . 
+  looks like driver related bug . 
+  either try rolling back even further or you 'll have to wait for paradox fix, 
+  pretty sure it updates at the end of the month, 
+  no , you get their ships and possibly wormhole stations but i do n't think you can build new ones or get their tech . 
+  you ca n't get other ftl tech from integrated vassals despite getting their current ships, 
+  since we 're talking about minmaxing , always pick tropical as your homeworld . 
+  all starting habitable planet types are completely identical as far as planet modifiers go except lush and bleak . 
+  and tropical is the only planet type that can be lush but ca n't be bleak, 
+  would be also interesting if the ship designs in the empire creation gave you different modules instread of being purely cosmetic, 
+  i remember something in the game files about bombarding affecting growing colonies , i do n't remember if it slowed down , stopped or slowly destroyed them though, 
+  i know it 's not a straight up `` bug '' but pops migrating ( and possibly reproducing ) under planetary bombardment does n't seem to be intentional, 
+  do n't think you can, 
+  are you sure you did n't scavenge them from something and have to scroll down to finish the research ? 
+  while aaa games are generally very heavy on the gpu , saying that stock i3 and stock i5 will never bottleneck a 390 or even 380 is probably false . 
+  you 'll very likely have a bad time with something like gta5 and perhaps the witcher in certain places like novigrad . 
+  overclocked i3 and 6400 will work fine though,

@@ -1,0 +1,100 @@
+  if you want it to play at its original speed , set each frame to last for 0.04 seconds . 
+  ** cut out every single frame ... individually ... **, 
+  this is the tough bit , but it 's important !, 
+  you need to use your marquee tool of choice ( lasso , magnetic lasso etc. ), 
+  to cut out the words ` gravity falls ' for every frame of the animation . 
+  this took me a few hours , as i had 21 frames and it was pretty fiddly . 
+  when it 's all done , [ it looks like this ] ( http://i.imgur.com/4g6gqac.png ) !, 
+  the edges are a bit rough , but it does n't matter so much when the final image will be only ~ 90px tall . 
+  at this point you could use file  save for web and devices ... to export it as [ a massive gif ] ( http://i.imgur.com/p2sepmn.gif ) if you want to . 
+  ** stitch all the images together in one long sheet **, 
+  css animations require all the frames of an animation to be in one image . 
+  something like [ this ] ( http://i.imgur.com/ewmjzji.png ) ... 
+  each one needs to be in its own invisible box that does n't overlap with the one next to it . 
+  there 's no easy way to line them up properly , so it takes a bit of tweaking and trial and error . 
+  i had to cut off the last frame to fit inside reddit 's 500kb upload limit . 
+  ** put it on reddit and write some code **, 
+  whee , time to animate !, 
+  we want to replace the ` . redditname ` thing at the top of the subreddit with our animation . 
+  here 's the relevant code used on / r/gravityfalls ... 
+  background : url ( % % gravityfallssheet2 % % ) no-repeat 0 0 ;, 
+  display : inline-block ;, 
+  position : absolute ;, 
+  - webkit-animation : gfalls 0.42 s steps ( 20 ) 1 ;, 
+  animation : gfalls 0.42 s steps ( 20 ) 1 ;, 
+  from { background-position : 0 }, 
+  from { background-position : 0 }, 
+  from { background-position : -3150 px }, 
+  from { background-position : -3150 px }, 
+  that 's a lot !, 
+  what it does is put the image in place , apply the animation to the image when you ` : hover ` over it and make sure it works in all browsers ( hence all the copied bits with ` webkit ` in the name ) . 
+  this animation works by scrolling the long image from left to right , stopping 20 times for 0.42 seconds each . 
+  now it should move when you hover over it !, 
+  it 's also possible to make it play backwards when you finish hovering by changing all the words ` animation ` to ` transition ` , but it does weird stuff when you hover/unhover really quickly . 
+  all in all , it took about 5-6 hours . 
+  and i did it just because i wondered if it would be possible - i was n't even a mod here at the time !, 
+  sorry it got a bit ramble-y , i just wanted to write all that down and i figured maybe one or two of you might find it interesting . 
+  i was super-excited to finally level my lookalike up to lvl 100 , only to find that he dinged straight back to lvl 99 . 
+  there is no lvl 100 . :'(, 
+  if you 're going to mcm london , there is a yogmeet at 1pm tomorrow on the grass outside the excel . 
+  come join in , it 'll be cool !, 
+  discuss anything and everything about episode seven of season two here . 
+  there 's a preview on youtube [ here ] ( https://www.youtube.com/watch?v=tlcmywt3ud0 ) . 
+  [ catch a livestream here if you need it ] ( http://themysteryofgravityfalls.com/stream/ ) , or [ the backup here ] ( http://themysteryofgravityfalls.com/backup/ ) ( thanks / u/gravityfallscipher , / u/greeneggsandhamsam ), 
+  the episode airs on monday october 27 , 8:30 pm edt on disney xd . 
+  after the previous episode , we went a bit [ cray-cray ] ( http://img4.wikia.nocookie.net/__cb20120920034140/gravityfalls/images/7/71/s1e10_why_you_ackin'_so_cray-cray.png ) removing any content related to it for the first 24 hours , and it was a bit stifling . 
+  we wo n't be doing that again , so feel free to post interesting stuff to the sub !, 
+  just remember to tag your spoilers , and try to keep all the discussion in this thread . 
+  ... so if you have n't watched the movie , get on it !, 
+  discuss anything and everything about episode eight of season two here . 
+  there 's a preview on youtube [ here ] ( https://www.youtube.com/watch?v=6jtdsbr7tju ) . 
+  [ catch a livestream here if you need it ] ( http://themysteryofgravityfalls.com/stream/ ) , or [ the backup here ] ( http://themysteryofgravityfalls.com/backup/ ) ( thanks / u/gravityfallscipher , / u/greeneggsandhamsam ), 
+  the episode airs on monday november 10 , 8:30 pm est on disney xd . 
+  discuss anything and everything about episode nine of season two here . 
+  there 's a preview on youtube [ here ] ( https://www.youtube.com/watch?v=i-avvnb8eqs ) . 
+  [ catch a livestream here if you need it ] ( http://themysteryofgravityfalls.com/stream/ ) , or [ the backup here ] ( http://themysteryofgravityfalls.com/backup/ ) ( thanks / u/gravityfallscipher , / u/greeneggsandhamsam ), 
+  the episode airs on monday november 26 , 8pm est on disney xd . 
+  it looks like this episode was released early on on demand !, 
+  expect this thread to be spoiler-filled from the get-go . 
+  ** / r/naut ** - surely you recognise this style . 
+  it 's used in like a billion subs , and i really wish it was n't . 
+  it 's not * ugly * , but it 's not appropriate for most subs . 
+  my heart sinks whenever i visit a cool community and see it 's been turned into yet another naut sub . 
+  this swathe of subreddits that all have this same boring style built for tech-related subs like / r/google is getting me down . 
+  mods , have some imagination !, 
+  built your own style , get someone else to do it for you , or pick another existing theme - [ there are many ] ( http://www.reddit.com/r/themes ) . 
+  anything but another / r/naut . 
+  i studied this in english literature a couple of years ago , and ca n't seem to work out what it was called . 
+  it starts off with icarus or hermes looking down from a cloud at a beautiful mythical woman , he convinces her to go with him and they fly away in love . 
+  then the action transitions to a mortal couple , who are deeply in love but are plagued by a philosopher who represents logic and reason over such trivial emotions . 
+  at the end of the poem , the couple goes to get married but the wedding is destroyed by the presence of this philosopher who destroys everything , and their life withers away . 
+  that 's all i can remember , it was an awesome poem and i 'd love to read it again . 
+  i thought this subreddit was looking a bit plain , so i took it upon myself to give it a redesign , and the mods here were kind enough to let me implement it . 
+  the most important new feature is the fact that you can pick a flair from the sidebar to show what kind of jet you are , so click the ' ( edit ) ' button and add your details . 
+  they will show up next to every post and comment you make . 
+  if you have any feedback , please let me know . 
+  otherwise , please enjoy the sub , and if you 're waiting on an interview response i wish you the best of luck !, 
+  i 've been playing around with bouncing balls to get to grips with maya animation , and my graph currently looks [ like this ] ( http://i.imgur.com/nblbujr.png ) . 
+  however , the whole thing feels a little too fast , and i was wondering if there 's an easy way to slow it all , or sections of it , down without selecting all the keys and pulling them apart one by one . 
+  ** moderator : ** yes, 
+  we 're a rich and active community of crazy people who like this * fantastic * cartoon , which is in the middle of its second season . 
+  we 'd like to spread the word about the subreddit so more people can discover the show , and so folks out there who do know it can have a place to chat about it with other fans . 
+  it 's been a while , but we 're back !, 
+  discuss anything and everything about episode ten of season two here . 
+  there 's a preview on youtube [ here ] ( https://www.youtube.com/watch?v=s8me3v0az5a ) . 
+  [ catch a livestream here if you need it ] ( http://themysteryofgravityfalls.com/stream/ ) , or [ the backup here ] ( http://themysteryofgravityfalls.com/backup/ ) ( thanks / u/gravityfallscipher , / u/greeneggsandhamsam ), 
+  the episode airs on monday february 16 , 8:30 pm est. 
+  you know , like the [ stanley parable narrator ] ( https://www.youtube.com/watch?v=b5mmnhisu-q ) ? 
+  [ as suggested ] ( https://www.reddit.com/r/gravityfalls/comments/2w3aty/northwest_mansion_mystery_discussion_thread/cot9ng1?context=3 ) by / u/rainbowcrash , for the next episode we 'll go with two threads instead of just one : a `` reaction thread '' for leaving your thoughts on the episode as it 's happening , and a `` discussion thread '' for actually discussing the episode when it 's over . 
+  it 's a system that 's been used on other cartoon subreddits to great success , and given the huge amount of activity spurred on by the previous episode , it should definitely be worthwhile here . 
+  ] ( http://i.imgur.com/lsvps3w.png ) that 's a whole lot of shipping . 
+  ^ ( just kidding ), 
+  congrats on hitting this milestone everyone , here 's to many more . 
+  i 'm trying to blacklist watchcartoononline.com using this config :, 
+  type : both, 
+  url + body : [watchcartoononline.com ], 
+  action : remove, 
+  comment : your post was removed ... 
+  automod leaves a comment , but does not remove the post/comment . 
+  what am i missing ? 
+  [ ] ( #mabel ) we 're doing things a bit different this time !,

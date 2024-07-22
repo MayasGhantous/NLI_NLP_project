@@ -1,0 +1,100 @@
+  no , with normal tank screwing it wo n't . 
+  if you torque atomizers with long pins like you torque leaking faucets , that 's where you get problems . 
+  just screw until you see the ohm readout show your resistance correctly and leave it there . 
+  you do n't have to `` flush mount '' it or make it `` extra secure '' . 
+   just build closer to 1ohm , then you 're not killing the batteries, 
+  watts are watts . 
+  a 1ohm coil at 30w will have the same runtime as a 0.3 coil at the same power setting , give or take a couple percent for different efficiencies with stepdown . 
+  batteries in mech mods ofcourse die quicker with lower resistance builds since they end up producing a lot more power but regulated , vw mods do not suffer from this . 
+  battery current on regulated devices depends on the wattage the user sets , not atomizer resistance . 
+  power just changes forms , is not destroyed or created . 
+  since we 're not really wasting power as heat on the pcb that means we transform the battery 's output to suit the load ( within the voltage ranges the mod supports ofcourse ) . 
+  a 20w setting will draw 20w ( plus 5-8 % to account for board inefficiency ) from the battery , no matter the atomizer resistance . 
+  let 's assume a 20w setting . 
+  on a 2ohm load that setting will require 6.3 v. 
+  the resulting current flowing through the coil is 3.15 amps . 
+  on a 0.5 ohm load that setting will require 3.1 v. 
+  the resulting current flowing through the coil is 6.2 amps . 
+  in both cases , our battery drain for a 3.7 v nominal battery voltage is 5.4 amps . 
+  similarly , a pc power supply only requires a few amps from the 110v socket but can output in excess of 20amps on the 12v rail . 
+  my local vapeshop has 10 or so in stock still . 
+  on the other hand , fuck public unions and customs . 
+  the open source vapors juice i won at a giveaway is still there :( . 
+  i really wanted to try how us juice tasted . 
+  b-but reddit and the web media told me it 's the old , cis-gendered , privileged white males of the gop that wanted to control my life for the interest of their corporate overlords !, 
+  what am i supposed to believe now !? 
+  / r/greece ? 
+   this efest is supposed to have a 15a limit, 
+  lol, 
+  efest ratings are huge lies ( see `` 35amp '' 18650 purple that 's only good for 20amps ) . 
+  your battery is good for a maximum of 5amps , over that the voltage drop is terrible . 
+  with around 3.8 v under 5amps you 're around 19w of maximum power . 
+  get some samsung 25rs and never have to care again . 
+  none because i 'm poor and saving for an ipv2x/ipv2s ( . _ . ), 
+  you do n't stop vaping , you move to a better state . 
+  you americans are lucky in that regard . 
+  for us not living in state federations things are a lot harder since we have to move countries in order to escape bad regulation . 
+  if i win again then it 's possible i 'll get both packages at the same time ( first one stuck at chicago , il 60666 , most probably customs ) !, 
+  i do n't know , i 'll buy mine for 8.5 $ / ea from a b&m when i get my ipv2x . 
+  but it should n't be too hard to find them in amazon and the risk of fakes is minimal , unlike with vtc5s that right now are 90 % fakes . 
+  no matter what happens ( since i 'm already slowly saving for an ipv2x ) i 'll vape my istick and nautilus mini forward to my dad who 's a 2pad smoker . 
+  who knows wether he 'll manage , when you 've been smoking for 40 years it 's a lot harder compared to when you 've been smoking for 12 . 
+  gravity sensors suck for us drippers . 
+  otherwise it looks neat though durability and assembly quality is a big unknown and it 's not that cheap compared to the ipv2s/ipv2x . 
+  you could always use a driptip oring in order to prevent the tank from rotating . 
+  a good charger to get is the xstar vp1 or vp2 ( only difference is that the vp2 has a usb output that uses a charged battery to power other electronics and that it can charge 22650s ) . 
+  informative display , proper charging algorithm and 1amp on both bays . 
+  the charger of the ipv2x is around 500mah and it will take a long time ( 4-5 hours ) to charge each battery, 
+  6th coil build in my life , right at my 5th week vaping aniversary . 
+  did a twisted micro ( macro ? 
+  it 's 3mm diameter ) coil . 
+  followed the rip trippers method to the letter ( first straightening the kanthal before twisting it ) . 
+  8 wraps around a 3mm drill , came out to 1.5 ohms after burning it ( 0.7 ohm right after twisting , had to burn it on a portable stove ) . 
+  wicked with japanese cotton and i was amazed . 
+  ca n't wait to get my ipv2x cause single coils are not that satisfying airflow wise on the magma . 
+  your coils look a bit low , do you get better flavor with the air passing just over them ? 
+  the 18650 efest purple is a rewrapped lg he2 cell afaik . 
+  lg rates them for 20a continuous and provides no pulse rating in the datasheet . 
+  pulse ratings are measured under wildly different procedures ( some pulse the cells for 100ms and let them rest for 5 seconds afterwards ) . 
+  continuous discharge is measured under specific protocols . 
+  personally i 'd rather not support dishonest middlemen like efest and support honest companies producing great cells like samsung and their 18650 25r cells . 
+  does n't hurt to try and contact them . 
+  the knowledgeable folk at candlepower forums say those mxjos are rewrapped lgs too . 
+  in any case , with a .2 build the resulting voltage drop under load ( starts at 3.8 v from full charge ) ends up with a current of a hair under 19a so you 're safe . 
+  pesonally , as someone with electronics knowledge , rewrapped cells with mislabeled ratings are a big no-no . 
+  can i find the freakshow somewhere in europe ? 
+  do you have a recommendation on a similar dripper with air from under the coils that has more airflow than a magma ? 
+  a reduced conical chamber would be neat as well . 
+  the 25r are generally okay up to 25amps and passable ( not much voltage sag ) at 30amps . 
+  look at the discharge graphs for various currents . 
+  note the voltage drop on the vertical axis and the runtime on the horizontal axis . 
+  congratulations to the winners !, 
+  somebody repost that to / r/shitty _ ecr . 
+  we like those awesome tit chucking machines there . 
+  note that the xtar vp1/vp2/vp4 are a lot better as chargers ( vp4 is limited to 0.5 a instead of 1a when charging 4 batteries ) since they are more accurate at voltage termination and charge better overall . 
+  they should be your next update if you want to maximize the lifetime of your cells . 
+  more info http://www.lygte-info.dk/info/indexbatteriesandchargers%20uk.html and search for different models . 
+  28g is perfect for those twisted builds though . 
+  i did mine according to rip 's guide , after following his other guide on how to straighten kanthal and my first twisted build came out very well . 
+  no spitting or popping but maybe the japanese cotton plays a role there too . 
+  how did it go op ? 
+  hope you managed to fix it . 
+  it must suck having your new toy broken 4 hours into it . 
+  it 's an hcigar magma clone ( 1:1 clone ) . 
+  killer flavor and easy to build , deep juice well . 
+  you 're an adult for not buying a mech mod in the year of our lord and savior 2015 ^ this ^ is ^ a ^ joke ^ mostly, 
+  i never had an issue with my center pin even with something like the magma that has a long 510 . 
+  i just take care of my things . 
+  sadly no word on whether they did a conical reduced chamber . 
+  and the delrin already there on the topcap would make it easy ( and cheap ) to do ( instead of having to machine ss ) . 
+  do n't worry , there should be no issue . 
+  you 'll notice more vapor production , more throat hit and somewhat reduced battery life . 
+  do n't forget feminists !, 
+  aesthetics are pretty subjective tbh and some people do n't put any weight into them . 
+  personally , i put safety above all else and then in descending order ease of use ( being able to leave the mod with its dripper upright on a table is the bees knees ) and consistency . 
+  aesthetics are down there with `` what kind of glass should i drink water from ? 
+  has anyone noticed they drink a lot less coffee after switching to vaping ? 
+  i 've been vaping for almost 6 weeks and i drink way less coffee , i was around 4-5 frappes/day ( the greek type ) back then and now i 'm satisfied with 2 or 3 . 
+  i also find myself preferring hot coffee more now . 
+  the usb power supply does n't control charging , it 's the charging circuits in the battery or ego charger that control it . 
+  the power supply is able to supply a specified amount of current but it does n't mean that the charger will draw that much and push it to the battery just because its available .

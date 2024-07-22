@@ -1,0 +1,100 @@
+  i declared ** war on the ottomans ** '', 
+  huh . . ? 
+  it depends on culture and base tax . 
+  from the wiki :, 
+   many countries have one or more accepted cultures alongside their primary culture , and they may change over time . 
+  these cultures comprise a significant minority , or even majority , of the country 's population , and are treated as well as the primary culture . 
+  a culture will become accepted if owned , cored provinces of that culture provide at least 20 % of the total base tax . 
+  if the tax percentage drops below 10 % , accepted cultures will be lost . 
+  but probably since lombard is your primary culture , it will remain an accepted culture . 
+  country_decisions = {, 
+  cultural_shift = {, 
+  capital_scope = {, 
+  not = { culture = root }, 
+  and = {, 
+  capital_scope = { culture_group = french } # could have been formed by basque or breton, 
+  not = { tag = gbr }, 
+  and = {, 
+  capital_scope = { culture_group = british } # could have been formed by welsh, 
+  not = { tag = sca }, 
+  not = { tag = ger }, 
+  not = { tag = hlr }, 
+  and = {, 
+  tag = hlr, 
+  capital_scope = { culture_group = germanic } # could have been formed by any culture, 
+  not = { tag = pap }, 
+  not = { tag = ita }, 
+  not = { tag = spa }, 
+  and = {, 
+  tag = spa, 
+  capital_scope = { culture_group = iberian } # could have been formed by basque, 
+  not = { tag = rus }, 
+  not = { tag = byz }, 
+  not = { tag = per }, 
+  and = {, 
+  tag = per, 
+  capital_scope = { culture_group = iranian } # could have been formed by azerbadjani, 
+  not = { tag = jap }, 
+  not = { tag = mch }, 
+  not = { tag = mng }, 
+  not = { tag = pru }, 
+  allow = {, 
+  dominant_culture = capital, 
+  stability = 1, 
+  is_at_war = no, 
+  is_subject = no, 
+  effect = {, 
+  change_primary_culture = capital, 
+  add_stability = -5, 
+  ai_will_do = {, 
+  factor = 0, 
+  the only decision in the `` cultural '' decision folder . 
+  it appears that if your capital is another culture or if there is another dominant culture , you could change that culture to the primary at the cost of 5 stability . 
+  some nations ca n't change culture , like france ca n't use this decision unless the targeted culture group is french . 
+  correct me if i 'm wrong . 
+  1337 ip , what a coincidence . 
+  riot has mentioned that lore got rather stale with the ending of why the champions entered the league . 
+  it limits the creativity . 
+  besides , you can easily think of a reason yourself . 
+  jinx probably joined to cause destruction and thresh to harvest souls . 
+  plus if you 're lucky , if they start a succession war and the realm breaks up you can holy war multiple people at a time . 
+  or akali doing damage to you even though there is n't one in the game . 
+  they are n't just mad , but disappointed . 
+  everyone agreed that olaf was broken as hell in competitive play . 
+  but in reality olaf on lower ranked was n't all that broken because nobody played him good . 
+  they compared him to top competitive players in season 2 and nerfed him accordingly , even though he was n't all that good anyway in lower ranked . 
+  edit : i 'm not ranting that riot is bad at balance , just that it was the reason why a lot of people were upset about the heavy nerfs due to olaf 's mechanic scaling . 
+  ranked # 7 name : oscar / academy award, 
+  play as the teutonic order and kill all the heathens !, 
+  except that totalbiscuit was one of the channels affected in the incident . 
+  your husband is named tywin and is blood related to you ? 
+  wow . 
+  late 2013 . 
+  that 'll mean it will be released in about 2 months or even sooner if we 're lucky . 
+  it 's a ban where you can post comments but nobody except mods can see it . 
+  11:30 pm at what time zone ? 
+   helps her out even though she treats you like shit . 
+   did it cause i could n't live with myself knowing i let some poor fuck self destruct . 
+   not helping out the thousands of people destroying their own life with alcohol or drugs . 
+   logic . 
+  i love guardsmanbob casually saying, 
+   < guardsmanbob  man loco is taking attracting viewers to a whole new limit, 
+  sorry for not living in the us . 
+  i just assumed everyone uses the more efficient gmt . 
+  this is probably the effect of gardariki losing their army . 
+  the ai checks when an opportunity arises that they can take on another nation . 
+  whenever somebody loses their army , they compare strengths and when they notice they have a higher ratio in army , they 'll declare war . 
+  it is n't really a problem normally in a dejure claim or county claim due to losing an army probably means multiple people are going to keep kicking him down , but the whole country wo n't be easy . 
+  how did you avoid getting caught ? 
+  feeding an 6.5 year old alcohol and rubbing her feet . 
+  it 's usually more for roleplay purposes . 
+  there are special options to pick when you are arbitrary is some events , but nothing more . 
+  i 've seen overhaul mods fix this , mostly with just other events that have some form of trade off . 
+  ( 30 % bad traits even in a `` good '' pick for example . ), 
+  is n't the quote `` you are already dead , you just have n't caught up yet . 
+  no , because you need to declare war on the title holder to be able to take the title . 
+  perhaps it exists somewhere but you might have missed it , or it was destroyed , in which case your claim does nothing until it 's re-created again . 
+  it means you must have a personal union with poland , and poland must be the leader . 
+  at least that makes sense to me . 
+  he edited his post . 
+  the previous quote was shen 's .

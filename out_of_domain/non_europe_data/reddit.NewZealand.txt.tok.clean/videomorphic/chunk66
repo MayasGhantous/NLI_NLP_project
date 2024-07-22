@@ -1,0 +1,100 @@
+  ` calculating pi ' is just an example . 
+  you do n't need authorisation tokens , dynamic memory allocation , database connections , logging or random number generation to calculate pi . 
+  you do need all of those things to handle ` generate a distinct visual representation of user n 's data , with seed s , using resource limits l , which is needed to handle request with request identifier c ' . 
+  your magic dependency injector does n't change anything , you know . 
+  i do n't know how you expect it to magically associate all the right context with every function call . 
+  i also particular ** loathe ** the idea that you create a class called ` calculatepi ' just to house a single function called ` calculatepi ' . 
+  that 's an anti-pattern . 
+  it 's a symptom of a reliance on oo . 
+   i would be very curious to see some of your code , do you have anything on github i could take a look to see how you actually handle this ? 
+  because i ca n't believe you are actually serious about everything you 're saying . 
+  ` flask ` is a commonly used python web library that uses thread locals to store request context . 
+  the web service i work on at work ( written * not by my decision * in node.js ) most functions have a ` req : i.request ` parameter which stores a logger and an authentication token . 
+  i 'm not proposing that it 's nice or practical to do this . 
+  i mean , it is practical . 
+  we do it . 
+  anything that needs to log just takes a logger , and you can vim-conceal them out of sight if you really want to . 
+  it 's not nice though . 
+  what you need to do is to pass the context * somehow * . 
+  thread-locals work for this if your work is able to be done in a thread-per-context way . 
+  dynamically scoped variables are one way of doing this as well . 
+  you can fake them with global variables that encapsulate a stack of values and your language 's equivalent of raii or ` with ` :, 
+  with log.push ( requestlogger ( log , requestid ) ) :, 
+  # when we enter this block , push, 
+  # when we leave it , pop, 
+  # prints : { lvl : ` info ' , msg : ` hello !, 
+  ' , requestid : requestid }, 
+  log.info ( ` hello !, 
+  some languages have first-class support for dynamic scoping . 
+  scala has another solution : implicit parameters . 
+  rug was ** terrible ** against miracles , by a gigantic margin the worst delver deck against miracles . 
+  rug is the only delver deck that had to really build half its sideboard to fight miracles . 
+  rug is almost all 1-drops and 2-drops . 
+  counterbalance sucked . 
+  drs was common before and will be common now as well . 
+  i have four lightning bolts and three forked bolts . 
+  i can handle drs. 
+  what was alleged was alleged ** with no sources ** . 
+  excuse me if i disregard unsourced insane allegations by someone with an incredibly racist name against the first black us president . 
+  fuck man even donald trump has said that he now thinks obama was born in hawaii . 
+  i think it 's a myth that people leave the industry at 40 . 
+  i think it stems from two things :, 
+  the industry has grown massively . 
+  the number of cs/seng graduates today compared to 20 or 30 or 40 years ago is huge . 
+  the dotcom bubble bursting meant a lot of people that would be 40 or 50 now left all at once . 
+  so you do n't deny being a racist , and you send me a link to a known far-right fringe conspiracy-theory-peddling white-nationalist fake news website worldnetdaily.com . 
+   everything involved is now us evidence , which has been forwarded to congress , the video is just a summary of the key findings . 
+  this is a meaningless sentence . 
+  ` us evidence ' . 
+  what is ` us evidence ' ? 
+   i do n't think president trump has anything to do with it , as he did n't conduct a formal investigation . 
+  given that donald trump was the one that * started * the entire controversy and that he would benefit politically from it continuing and especially would * enormously * benefit politically if he turned out to be right , i seriously doubt any claim that he has ` nothing to do with it ' . 
+   is public record blah blah blah, 
+  there is zero evidence in the public record that his birth certificate is anything but entirely genuine . 
+  you do nothing for your credibility by linking to a white nationalist website . 
+   not quite . 
+  state integrated schools have attendance dues which are compulsory and schools treat donations as fees , meaning schools will often restrict a child 's class access or engage in other means to get those `` donations '' from parents and legal guardians . 
+  everyone has access to a proper state school . 
+  it 's absolutely a violation of ministry of education policy to restrict access to classes based on donation payments . 
+   and depending on the school , it is n't . 
+  donations and attendance fees still have to be paid . 
+  repeating something again and again is only going to convince yourself , not me . 
+  no they do n't . 
+  they are optional . 
+  if your school is forcing you to pay them , report them to the ministry of education . 
+   maori and pacific island students have the lowest achievement rates in new zealand schools . 
+  correction : the poor have the lowest achievement rates in nz schools and maori and pacific islanders tend to be poorer than others . 
+   if you 're achieving far below other students and below the standard necessary to gain entrance into university , there 's little hope for you outside of a scholarship or intervention in studies . 
+  you have no right to go to university if you are n't capable of doing the work . 
+  scholarships do n't change entrance requirements , they just get rid of the necessity of a student loan and provide a larger student allowance , essentially . 
+   i 'm not up for your bullshit . 
+  admit that you said it so we can move on . 
+  show me where i said it . 
+   many people can barely survive on a benefit as is , so they have to turn to crime in order to get extra money to cover other things . 
+  a benefit today is barely able to cover rent and food , let alone anything else . 
+  if anyone can survive on a benefit then everyone can survive on a benefit . 
+   actually you did and you got caught , so you 're trying to wriggle out of it by claiming that you did n't and then calling me `` mentally ill '' . 
+  i literally never did . 
+  you can not prove that i have , because i have n't . 
+  go find proof that i have . 
+  you ca n't . 
+  you 'll reply to this without proof and just claim yet again that i have , because i have n't and so you ca n't prove i have . 
+   it 's not going to work . 
+  i know your excuses are bullshit . 
+  i know how ignorant you are . 
+  do n't sit there and claim that you know otherwise because you do n't know anything at all . 
+  you 're mentally ill , i repeat myself again and again , you 're mentally ill . you just keep making the same ridiculous claims again and again and again . 
+  you keep libelling me by claiming i 've said things i have n't . 
+   just admit that you have said something that is bullshit , admit that you got caught and we can finish this . 
+  just admit that i have n't said anything of the sort and you can move on to accepting that everything else i have said is 100 % correct . 
+   so suddenly i 'm a racist now ? 
+  what is it with you and accusing everyone you disagree with of being racists ? 
+  what are you basing that on - my username ?? 
+  you 're racist because only racists use wildly inaccurate white supremacist sources . 
+  i note that you did n't quote any part of my reply that mentions the fact that the only sources you 've given so far are from white nationalist fake news websites . 
+  your username is n't racist , but your behaviour is : you 're making a racist claim ( that obama is n't american , when he clearly is ) and you 're holding him to a much , much higher standard of evidence than anyone else , because he 's not white . 
+   a form of public record . 
+  it has a provenance , a chain of custody , and so on and so forth . 
+  it can be examined by other parties in the judicial system . 
+  ` us evidence ' is n't a term i 've ever seen used so i do n't think it is actually a term in use . 
+  feel free to correct me with a link .

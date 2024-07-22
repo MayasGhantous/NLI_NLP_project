@@ -1,0 +1,100 @@
+  the dna-to-rna correspondence is simple : the rna will be molecularly nearly identical , except that it is single-stranded , each base has an extra oxygen in the backbone , and thymine bases in the dna become uracil bases in rna . 
+  rna-to-protein correspondence is more difficult , but still deterministic : bases are read three at a time , but not all of the rna is translated . 
+  first there has to be a binding site for the ribosome ( the translating body , made up mostly of rna ) , and then there is a start sequence ( also three bases ) that is the first codon to be translated ( it corresponds to the amino acid methionine , but the start codon gets translated into a different form of methionine than any subsequent such codons ) . 
+  then the ribosome keeps translating , reading three bases at a time and attaching the appropriate amino acid to the chain that it is building , until it hits a stop codon , at which point it dissociates and releases the chain , which is now a complete protein . 
+  so , not all the rna is transcribed : some of it is totally pointless , with respect to the structure of the translated protein . 
+  that explanation made the situation sound much more straightforward than it actually is . 
+  in prokaryotic cells , each dna sequence that needs to be transcribed to rna is preceded by a promoter sequence that recruits polymerases to transcribe the dna ( polymerases are enzymes that transcribe dna into rna ) . 
+  the promoter sequence does n't even ever get translated . 
+  additionally , promoters may be part of an operator region , which means that there might be a protein sitting on them ( called a repressor ) that will only let them be active if a particular molecule is present ( or is n't present ; it can go either way depending on the repressor ) . 
+  an operator region might actually extend over two promoters , pointing in two different directions . 
+  also , the ribosome binding sequence and protein coding sequence must be followed by a terminator sequence , which tells a polymerase to stop . 
+  ( why not just use a stop codon to signal the termination of transcription , eliminating the need for an additional terminator sequence ? 
+  the answer is that polymerases do n't have a `` soft '' stop function ; the terminator sequence creates a physical loop in the rna that forcibly bumps the polymerase and rna out from inside the dna . ), 
+  it is very not obvious what part of dna is protein-coding and what part of it is other stuff . 
+  the clearest thing to look for is a terminator sequence : it often ends in a lot of as and ts/us . 
+  however , that 's not totally reliable . 
+  but that 's only 1.5 % of the story . 
+  i 've described most of any prokaryotic genome , but eukaryotes are even more complicated than that . 
+  in eukaryotes , the protein-coding region is split up into segments called `` exons '' . 
+  the exons are separated by untranslated regions called `` introns '' . 
+  the whole thing is transcribed , and then some proteins cut out the regions of the rna that correspond to the introns , and stitch the exons together . 
+  the advantage is that you can rearrange the exons into any order you like , making different proteins with different combinations of exons . 
+  it 's very difficult to tell exons apart from introns , except for looking at how it works in practice . 
+  even accounting for introns , though , we 're looking at 1.5 % of the human genome being translated . 
+  a lot more is transcribed : rna can do a lot of stuff on its own , and is currently sort of underrated in that respect ( although it is definitely true that a majority of cellular processes are carried out by proteins , even if the most popular cellular process , translation , is carried out primarily by rna ) . 
+  but then most eukaryotic dna just does n't code for anything at all . 
+  no promoters , no transcription , no translation . 
+  it 's garbage . 
+  and it 's very hard to separate out the signal from the noise , since both the signal and noise are chemically identical . 
+  you have to actually find out what parts are transcribed , and what parts are translated , by looking at whether they are . 
+  long story short , it is very non-obvious what inserting a particular sequence will actually do , especially if inserting it into a eukaryote , given a whole lot of complicated factors that determine whether dna is transcribed or translated . 
+  if you insert it into a very well-studied genome , like e. coli or yeast , you 'll have better luck predicting what will happen , but no guarantees . 
+  ( the human genome is not `` well-studied '' in that respect . 
+  we do n't know what most of it does yet , if at all . 
+  at least we 've sequenced it , though . 
+  transcription , however , is so dependent on existing proteins , that there 's no way to tell what parts of the genome do what just by looking at the bases . 
+  you 'd need a catalog of the regulatory proteins inside a cell on a cell-by-cell basis , and regulatory proteins vary wildly from cell to cell in multicellular eukaryotes . ), 
+  tl ; dr : i lost most of my posessions in the fire . 
+  and any introductory statistics . 
+  i think including bayes here was very unnecessary . 
+  i mean , it 's obvious why he did so , but it does n't really add anything to the comic as it is ; it does n't * show * his point . 
+  it just serves as a reminder that , `` do n't believe me ? 
+  use bayes . '', 
+  there 's more to their terribleness than just not doing things . 
+  the word `` hateful '' gets tossed around when describing / r/atheism , but it hits the nail on the head pretty much : everything posted there is very negative . 
+  the same seems to apply to / r/childfree . 
+  whether or not it 's a consequence of being a subreddit about not doing things , is not necessarily relevant . 
+  you can have negativity with or without that . 
+  it does n't matter , only that you do n't repeat a symbol . 
+  we could use a google docs spreadsheet or something . 
+  or systematically work our way up unicode . 
+  how would you make sure that you are not buying a book you already own ? 
+  what do you mean by `` old comp '' ? 
+  the case ? 
+  the monitor ? 
+  if it has a good keyboard , you should either keep it or sell it for oodles of cash . 
+  i really do n't think `` hacking '' is seen as as bad of a crime as rape or murder . 
+  rape is never portrayed positively in fiction , and murder only sparingly , whereas hacking appears regularly in places like * ncis * as a positive thing . 
+  a lot of kids , if you ask them , think hacking is cool , whereas they 'd never say the same about rape or murder ( unless you count cod bf halo etc , and i do n't think those count , since the fact that the people in the games die is rather orthogonal to the mechanics that make it fun , ie looking at and firing at moving targets ) . 
+  that does n't look like equal status to me . 
+  on the usage of `` synthesized '' in the first couple paragraphs : is the guy who wrote the introduction a molecular biologist ? 
+  that is the only kind of person that i can think of that would feel comfortable using that word in that context . 
+  ( i am a molecular biologist . ), 
+  did ramanujan do anything big ? 
+  he had a lot of small insights , but i do n't see any that particularly help mathematics . 
+  http://qntm.org/structure - very dramatic science, 
+  http://qntm.org/ra ( in progress ) - very dramatic programming ( wherein the universe itself is programmable ), 
+  actually , most of http://qntm.org/fiction . 
+  the person who writes it , sam hughes , is a good writer . 
+  however , i do n't recommend http://qntm.org/tyro . 
+  it was the very first thing he wrote , and is not so good ( it 's about ai ) . 
+  i really apologize for that site . 
+  hungary is very culturally backwards . 
+  we have white supremacists in the government for chrissakes , and are still mad about trianon for no good reason ( well , granted , there are a lot of hungarians living in romania , and we also want transylvania , but it 's no use being hostile now ) . 
+  i hope that as the older conservatives in hungary die off , the relations between our countries will improve . 
+  i am mostly sure that it is . 
+  i thought i was reading christwire for a sec . 
+  to you , what is the difference between feeling like a man and feeling like a woman ? 
+  i 've never really understood transsexuality , because it seems to me that mentally women are the same as men . 
+  i can understand wanting a different body ; i 'd prefer to have a female body , given the opportunity , as i think i 'd feel more comfortable . 
+  but i do n't feel that i am mentally a particular gender . 
+  what are the differences that motivated you to realize that you are transsexual ? 
+  i hope you 're not seriously condsidering that as a serious piece of evidence . 
+  or anyway , integral to a number of jokes . 
+  ( such as the above . ), 
+  the person who wrote the introduction is not the same person as the one who wrote the story . 
+  i still wash my wii dvds even in this modern era . 
+  i remember a while ago a video of a reporter cracking up over a diplomat named dikshit , despite its canonical pronunciation apparently being `` diks-hit '' . 
+  fortunately , he got fired . 
+  oh my god . 
+  a sad week for race relations in ca indeed . 
+  that 's just , like , your opinion , man . 
+  ( i personally could n't figure out `` sum ting wong '' . ), 
+  i thought of the random number generator before the verb . 
+  apparently i 'm special . 
+  relatedly , the official term for a plosive is now `` stop '' . 
+  stop changing things up on us , linguists !, 
+  how tall are you ? 
+  okay , that 's great . 
+  note that chemical castration is just sex hormone control using drugs .

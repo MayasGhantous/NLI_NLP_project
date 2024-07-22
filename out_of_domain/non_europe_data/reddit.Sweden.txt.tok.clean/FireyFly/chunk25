@@ -1,0 +1,100 @@
+  is n't plan 9 still just arbitrary-data pipes \u00e1 la unix ? 
+  or maybe i 'm misinformed/have misunderstood rc . 
+  what i 'd want is some degree of static typing in the shell together with type inference , and enough metadata so that my examples with ` watch ` + ` top ` would give meaningful sortable tables , so i could sort e.g. 
+  on filesize or creation date in ` wach ls | top ` . 
+  quick edit : oh , and while on the topic of coreutils tools , i 'd like to see a separation between flags affecting the data being output from a command and purely cosmetic formatting flags , which is something plan 9 has n't done ( definitely understandable , since it 's a pretty radical change ) . 
+  with type metadata you could do ` ls | format - tr ` to get a list of files reverse-sorted by last modified timestamp , and you could have per-type default formatting , a bit like ` alias ls = ls - l -- color ` or what have you , but automatically applied after eventual filters in the pipeline and not only for ` ls ` but for any command that happens to produce a list of `` file information '' . 
+  yes , like powershell . 
+  except , actually * make use * of the metadata . 
+  one of the main reasons i 'd want something like powershell 's object-i/o-streams over plain text/binary data is that it 'd allow so much better visualisation of the data being streamed , which is something that i believe is needed to make the terminal more modern . 
+  imagine being able to visually inspect the output of your imagemagick commands right in the terminal while trying out different flags , similar to how you ( well , i ) would experimentally work with something producing text output . 
+  imagine printing an ` mp3 ` file and having it show up as a small embedded audio player . 
+  enlightenment 's terminology terminal emulator does these with special commands provided by a terminal , which is a bit of a workaround but still pretty cool . 
+  i 'd want something [ like mathematica ] ( http://www.celldesigner.org/simulation/data/mathsbml.png ) except for a terminal . 
+  you mean idle ? 
+  dunno , i 'm not a pythonista so i have n't used it much , and trying it qut real quick i do n't think it 's very close . 
+  i 'd say something like mathematica is a decent comparison of what i envision . 
+  output is n't limited to just text , but also diagrams and plots , interactive 3d plots and i think you could somehow integrate input sliders that affect the output interactively too . 
+  pretty much the kind of stuff i 'd want to see from a powerful * command-line * environment . 
+  maybe i 'm missing something with idle though . 
+  if so , some sample input would be welcome . 
+  good point . 
+  you 're correct about sora being the main developer and sakurai moving to sora . 
+  apparently though , hal labs still [ helped with the development of brawl ] ( http://en.wikipedia.org/wiki/hal_laboratory#wii ) , but i guess that does n't matter * as * much as with the original and melee . 
+  mind posting your dzen configs ? 
+  i 've tried to get non-latin characters to show up nicely with dzen2-git with ttf fonts , but i always get squares unless i increase the font size to something ridiculously big . 
+  nice !, 
+  a hlwm setup that looks superficially similar to mine ; i approve . 
+  the thing with panels having the same/no background looks sweet , i 'm stealing that . 
+  i do n't think you have anything to worry about !, 
+  your combination sounds like it could hit a sweet-spot where it could attract both d&d players and people who enjoy ccgs and deckbuilder games . 
+  the fact that you do n't need a dedicated dm probably makes it more approachable than d&d is ( this is coming from someone who has n't played d&d , but have always found it intriguing ) . 
+  a question though , how many players do you need for a session ? 
+  is it playable and fun with only 3 or even 2 players , or do you need a bigger party for a good experience ? 
+  oh , and [ the weebly site ] ( http://bftagame.weebly.com/ ) labels it a `` turn-based tactical tabletop game '' ; does this mean it 's influenced by the [ turn-based tactics ] ( http://en.wikipedia.org/wiki/turn-based_tactics ) genre of video games , or was the word order coincidental ? 
+  as someone who loves both trpgs and ccgs ( and deck-builders ) i 've quickly gotten * very * interested in this game . 
+  i 'll be sure to keep an eye out for updates . 
+  all right , you 've made me curious . 
+  what about ` echo `` $ x '' ` makes it not necessarily work as expected in a posix-compatible system ? 
+  and on what systems does n't it work as expected ? 
+  interesting , thanks for the link . 
+  i was n't expecting a card game based on fighting games , and as you say it does have some interesting mechanics . 
+  in particular , the way a single card could be used in multiple ways seems interesting , albeit a bit complicated at first glance . 
+  a question regarding your concerns of typical tcgs/ccgs : would you say the same applies for a digital card game where booster packs are obtained via in-game mechanics rather than monetary investment ? 
+  for instance , the gameboy ptcg games have you receive two booster packs if you win and no if you lose , so your card collection builds up real quick . 
+  there are `` special '' / `` promo '' cards that are obtained via special in-game events , and there 's still concepts of rarity and randomized boosters , but imo it 's not much of an issue given that it 's not a moneysink and that you can collect cards rapidly . 
+  all right , seems we 're on the same page then !, 
+  i totally agree about overpowered pay-only cards whose only purpose is to make you spend money ; that 's the kind of thing i 'd definitely try to avoid if i ever make an online tcg . 
+  try prefixing that url with ` http : / / ` for the link to work correctly . 
+  oh , and thanks for the link to vassal -- i 've been loosely considering trying to develop something that sounds similar to it , so this might save me some trouble . 
+  d2 is a direct sequel to disgaea 1 ( as opposed to disgaea 1 , 2 , 3 , and 4 , which are more like distinct final fantasy games ) . 
+  so i would n't start with d2 , but rather with any of the other games in the series . 
+  if you do want to play d2 and do n't mind having the story of the first game spelled out to you , you might be interested in [ this let 's play ] ( http://www.youtube.com/playlist?list=plezsrkjynvkuts3n9jodmfplyv3chogcr ) of the psp version of the game . 
+  or , you might simply want to play through the first game before starting on d2 . 
+  ( disclaimer : i 've only played the first game , since i do n't have a ps3 or psp  .  ), 
+  one benefit of jits over ahead-of-time compilers is that they can make use of runtime statistics to optimise certain code paths that happen to be frequently taken . 
+  say , if a particular path is taken thousands of times when a particular function is called , you keep the slow interpreted version of the function but also have an optimised version for a particular path if a particular set of conditions hold . 
+  when the function is called , these conditions are checked and if they 're met a branch to the optimised version is done . 
+  pypy does something along the lines of this . 
+  it ca n't be easily done statically since it 's hard to tell which conditions will hold often ( since you have no runtime statistics ) . 
+  well , the turbo button must 've stuck around for quite some time because i recall seeing one on a box that ran win95 . 
+  aha , interesting . 
+  a benefit of doing it dynamically with a jit though ( as far as i can tell ) is that it could optimise according to this particular user 's statistics which applies to that user 's scenarios , rather than some common statistics that have been gathered and seem to apply to the average user . 
+  to clarify in case someone did n't get it -- it 's due to user-agent checks that the things the article happened . 
+  it 's because website authors checked for netscape before serving frames that ms wanted to impersonate netscape so that they 'd also receive the same code . 
+  and so on , and so forth . 
+  i believe you meant `` ascii '' for the title ? 
+  anyway , nice idea ; your example shows up fine for me . 
+  sadly i do n't have any examples to contribute with myself . 
+  ( your post got stuck in the spam filter , so i just approved it ; hopefully it 'll still show up despite being a pretty old post . ), 
+  thanks !, 
+  you 're correct that i have n't played too many ccgs -- only ptcg and magic , as well as a number of digital-only free-to-play ccgs . 
+  i guess i might 've hestiated a bit with the post since i mostly looked back to ccgs that i got some random free cards for in my youth ( duel masters and digimon , i think ) , since i instantly thought of them when i later learned mtg ( i know , it 's a bit backwards ) . 
+  i think it 's mainly an age thing -- i have n't bought a ccg pack in quite a few years ( it 's an expensive hobby for a student ) and was born in the 90s so i did n't exactly grow up with many of the early games you mention . 
+  thank you very much for the overview of ccg history ; i 'll make sure to check out the games you mention that have vastly different gameplay compared to magic . 
+  sorry that i did n't research the topic better myself before asking here . 
+  awesome !, 
+  i added you as a moderator ; thanks for offering your help . 
+  i added you as a moderator as well , since i figure it 's better to have more moderators in case someone forgets about the subreddit or simply becomes unavailable for a while . 
+  do n't worry too much about it when you do n't have any good moderation tools at hand ; this is a sufficiently slow-moving subreddit that i do n't foresee any stress when it comes to submissions . 
+  thanks for offering your help !, 
+  in this case though , the same game was compared , and it being a valve game means steam is probably the only drm code in it ( and is present in both versions ) . 
+  good point about geometry . 
+  another thing that matters is how literal one takes the rules . 
+  for instance i think gomoku ( five-in-a-row on an infinite-sized square grid , no additional rules ) seems more likely to be reinvented than tic-tac-toe , since tic-tac-toe requires precisely a 3-by-3 board . 
+  though then again , perhaps one could argue that a limited board size might be more prone to being invented early simply * because * its size is limited , so it lends itself better to grid-in-sand play . 
+  tizen is pretty dead . 
+  if anything jolla 's sailfish is the current not-completely-dead fork of meego . 
+  oh , and the phone you 're thinking of is probably the nokia n9 . 
+  this should be * really * simple to implement . 
+  unfortunately , i 'm not used to reddit 's codebase ( or python for that matter ) and do n't feel like spending the evening setting up reddit on my laptop , but i poked around a bit and * believe * that the following one-line change should do the trick . 
+  @@ -1017,6 +1017,7 @@ class comment ( thing , printable ) :, 
+  item.deleted or user_is_admin ) ) :, 
+  item.collapsed = true, 
+  item.collapsed _ reason = _ ( `` comment score below threshold '' ), 
+  + extra_css + = '' below-threshold '', 
+  if user_is_loggedin and item.author _ id in c.user.enemies :, 
+  if `` grayed '' not in extra_css :, 
+  i second this ; i really appreciate being able to run this natively on linux . 
+  while not strictly abstract ( in the sense that a game is abstract if it is deterministic and could be mathematically reasoned about ) , earlier today i was packing up a game of jenga and was reminded of this topic ... 
+  something akin to jenga , or even moreso mikado , seems like it 'd be developed pretty early : the idea of `` drop a set of sticks and then try to remove as many as possible one at a time without touching any others '' almost seems more basic than even the most basic abstract games .

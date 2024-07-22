@@ -1,0 +1,100 @@
+  the defining characteristics of being liberal these days is to be offended by racism , sexism and other isms all the time . 
+   sometimes you got ta know when to stop swimming against the current and go with the flow . 
+  you got it wrong again . 
+  do n't go with the [ flow ] ( https://flowtype.org/ ) go with the typescript , 
+  my bet these days is on simpleinjector . 
+  i used ninject previously but after issues with owin and web api i switched to simpleinjector . 
+  it seems like it is getting traction because of its superior performance and i am seeing it in other projects where i did n't choose it . 
+  however i think with . net core most people will simply use the bundled di . 
+  elon musk 's plan for going to mars :, 
+  `` so we fly to mars in our brand new super innovative space ship and land next to the amazon mars hq . 
+  i greet jeff and we order the book `` surviving on mars '' with same day delivery from amazon '', 
+  increase the game speed because by default it is not fastest on non-brutal difficulties, 
+  i am excited for upcoming sc2 stories now that metzen is out . 
+  this is actually worse than gary 's failure . 
+  i myself ca n't pick a living world leader that i admire ( i think they are all crooks ) so i 'm with gary except for the fact that he called it an aleppo moment instead of saying that he does n't admire anyone . 
+  why tell them that ? 
+  why not go around and tell clinton supporters that they have just convinced you that there is no point in voting 3rd party and you are now convinced due to their guidance that you should vote trump . 
+  then when a trump supporter tells you that a 3rd party vote is a vote for clinton you reverse your story , 
+  i wonder how this will affect the general ladder percentages . 
+  is this effectively multiplying each account by 4 ? 
+  is that race terran ? 
+  are you a random player ( who 's been random for a couple of years ) ? 
+  an option to play on the fastest speed on lower difficulties please . 
+  i only play co op with an arranged partner and we ca n't stand the first 5 levels before we switch to brutal ( we ca n't handle brutal at level 1 ), 
+  also outright socialist who has criticized capitalism as a great evil . 
+  i thought about it hard . 
+  probably the prime minister of singapore ( i can not remember his name ) and king abdulah of jordan earn some respect but i would n't say i admire them . 
+  they are just respectable leaders compared to others in the area . 
+  this is what i thought . 
+  will this mean everyone gets a boost on his main account because percentages are totally skewed . 
+  in my opinion japan has a government that would suck everywhere else ( maybe it sucks there too ) . 
+  however the population is highly disciplined . 
+  they will work hard even if they are not paid . 
+  it seems to be a matter of honor . 
+  the same rules elsewhere will probably be broken and shameless westerners will not fear of being disgraced so they will easily become corrupt . 
+  very hard to micro terran armies ? 
+  it is not strange for a libertarian to find a king admirable . 
+  i have a friend that makes very good argument that libertarianism requires monarchy . 
+  of course this hypothesis would sound absurd to an american seeing how the original usa ( probably the only libertarian country ) was formed . 
+  i read about king abdullah when his photo made the rounds of the internet and he seemed to have liberalized his country and even released some of the power that he had . 
+  in middle eastern context in an muslim country this is as far as you can get in practice on the libertarian scale . 
+  the interviewer specifically asked for a living person . 
+  we 're at the point where / r/the _ donald is more reliable news source than mainstream media, 
+  i do n't want + xp i just want to be able to pick fastest when i sit down and play with my girlfriend . 
+  i do n't know why this is so hard for them . 
+  i do n't see myself praising it . 
+  i mean it is good for the economy but i do n't want to live in japan with these people . 
+  it all seems unnatural to the point of being creepy . 
+  also sammurai that people find so romantic seem very similar to jihadists to me . 
+  my impression is that typescript tends to slowly absorb the most commonly used features of other tools like webpack . 
+  it ca n't do anything these tools do but if you do n't require the advanced features typescript may be enough . 
+  but then again i was never the one setting up the module loaders , bundlers and so on so i may be wrong . 
+  we are trying to level up every commander to level 15 for both of us . 
+  we are working on a 5th commander each so we do not focus on a single pair . 
+  we usually get bored when we level up one pair and do not play for a month and then come back again to level another pair . 
+  i have tried many times . 
+  microing zerg and protoss armies has always been easier . 
+  i do n't see why dtos should be isolated but even then the solution is simple - dedicated mapping classes that basically contain the two methods for copying . 
+  i will copy my comment on the article itself :, 
+  while i agree with practically all of the article and think conceptually react is great i strongly disagree with this one, 
+  `` in other frameworks , a component 's view tree description resides in its own file , separate from the rest of the component . 
+  this is separation for the sake of separation , motivated by dubious concerns '', 
+  there are very good reasons to separate the view tree description usually written in a dsl ( in react 's case jsx ) from the code that powers the view . 
+  react forces my whole toolchain to support jsx . 
+  you want to use typescript -- sorry you 'll have to wait for ts to introduce support for jsx right there inside their compiler ( they already did but there was some period where it was not possible to use ts with react because of the jsx issue ) . 
+  you want to use your favorite html editor with all the features you love -- sorry you are not allowed to use separate files the js editor must support jsx . 
+  forcing the whole toolchain to support a specific dsl is outright bad engineering . 
+  they could have easily provided an option to use separate file or at least allowed for the jsx to be contained in a string so my tools of choice were not excluded . 
+  in fact angular 2 did precisely that . 
+  it gives you the option to have your template code in a separate file or in a string in the same file and all existing tools work without the need for special support for angular 2 . 
+  i believe that this approach is a sign of poor quality library and while i love the concept of react and think that it is superior to everything else i have seen this issue and some poor naming choices made me choose angular 2 for my current projects . 
+  i do n't know why people pretend you can use react without jsx . 
+  you ca n't . 
+  i have never heard of anyone doing this in a real world project and all the know-how out there is about jsx . 
+  the angular 2 approach to templating does n't break anything . 
+  in an html editor the ng directives are just attributes . 
+  in the html code it is just a string . 
+  of course you do not get syntax highlighting but at least you can keep your other syntax highlighting ( i.e. 
+  your javascript parser will not scream in horror ) . 
+  the react way is `` my way or the highway '' . 
+  whatever tool does not submit to react 's wishes is declared useless by the community ( before ts supported jsx the react community was anti-typescript too ) . 
+  the thing is fixing this issue is simple - make the jsx recognize templating inside a string and allow for separate files . 
+  the current way of doing things can stay . 
+  however this is not react mentality and i do n't feel comfortable investing in a framework that takes this approach to development . 
+  in fact i think react 's approach is due to its roots . 
+  if i am building a framework for general use like angular i try to think hard about naming things and i try to support different use cases and usage patterns . 
+  if i am building something for the needs of my project i only support the toolchain i need and do not spend absurd amounts of time trying to find the best name . 
+  after all i do n't need it . 
+  the problem is react is now used by millions . 
+  a track record clearly seen with their development of angularjs ... oh ... wait !, 
+  where does assertconfigurationisvalid go ? 
+  i always thought it was supposed to go into an unit test, 
+  this is really strange to me since in my opinion while trump is quite bad he is definitely the lesser evil because he destroys political correctness . 
+  if i was an us voter and was in the `` 3rd parties waste your vote '' camp i 'd be voting for trump . 
+  liberals may be doing themselves a disservice beating the `` wasted vote '' drum . 
+  these are gaffes ( the second not that much ) but come on !, 
+  do they declare mainstream journalists retarded because they failed 2 times to explain what aleppo is despite having time and the internet on their disposal ? 
+  sadly i forgot the specific naming examples :( it was not that big of a deal , not confusing or anything just strange naming . 
+  i noticed at least two instances when i was working on a react project a year ago . 
+  my tools of choice ( which are usually . net related like visual studio ) do support jsx now but who knows tomorrow react might introduce a new feature or a new tool might appear and i have to wait for more support .

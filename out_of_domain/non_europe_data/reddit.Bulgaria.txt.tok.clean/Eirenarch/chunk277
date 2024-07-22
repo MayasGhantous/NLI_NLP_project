@@ -1,0 +1,100 @@
+  should i get excited about classic/unlimited blocking it ? 
+  i 've built apps with both and i fail to see how react is any better except that angular 's betas broke a lot of things and react is kind of stable for the past year . 
+  the npm/grunt/transpiler hell is still there in all its glory . 
+  it is interesting that as a . net developer i feel similar about the java ecosystem . 
+  what is this maven thing and why do i have to configure it ? 
+  what do you mean with this `` build tool '' i have noticed that something called msbuild reports something in the visual studio output window but never needed to know about it . 
+  why do i have to import all parts of your project into my workspace , do n't you have a sln file that i can just double click ? 
+  you want me to open what ?!? 
+  a console ? 
+  i need to bundle my jars ? 
+  why ? 
+  sadly with . net core i get somewhat similar feelings . 
+  the comments on the article are interesting . 
+  people asking if f # works on mac . 
+  apparently they think that you can only use it in visual studio and f # has been available on mono on other platform for many years ( far before open sourcing the rest of . net ) but apparently people have it in their minds that if it is from microsoft it can not possibly work on other platforms . 
+  you could do it but why bother using angular then . 
+  there is n't even a reason not to reload the page on a blog . 
+  you go there read the article and leave . 
+  at most you post a comment . 
+  full navigation in angular is the definition of overkill for a blog and then you need to go back and still render your content and handle all those facebook attachment issues that would otherwise come for free . 
+  yeah and you can detect search engine bots and serve them completely different pages , 
+  they keep promising that the tooling will be on par with the current one but somehow i doubt it . 
+  it does n't matter . 
+  i expect trump to literally insult it to death . 
+  and by `` literally '' i mean the literal meaning of the word . 
+  i expect that it gets so angry at a trump insult that its broken body can not take it and it faints and dies . 
+  more like lack of regulation and then pure anarchy when regulations came . 
+  cables on the trees and all . 
+  if you do n't need to hide the cables and burry them in the ground it is not that expensive to build internet infrastructure . 
+  it has nothing to do with the eu money . 
+  it is all lack of regulation and competition /, 
+  this is a bit misleading . 
+  1gbps speed is only to networks in bulgaria . 
+  outside bulgaria it is 100mbps . 
+  still pretty good . 
+  i never had any issue with that . 
+  why would i want to learn more ides . 
+  the whole community standardized on one so all tutorials , all plugins , all know-how is for that specific ide . 
+  i do n't get the deployment options argument from the point of view of the developer . 
+  i certainly see why it is important for the owner of the application but as a developer why would i want to learn how to deploy on one more place ? 
+  unless deployment and/or operating system is my passion i 'd rather just write code than research how to deploy . net on linux . 
+  yeah i guess if you are working in a heterogeneous environment it does make deployment easier and after all that is the whole motivation for multiplatform . net . 
+  if i had to deal with linux anyway i 'd rather deal with linux only than with linux and windows . 
+  i 'd argue that your second point falls under that passion thing . 
+  of course it is good to have experience with more things but time is not enough to get all the experience i need . 
+  learn f # or learn linux . 
+  i 'd rather spend my time on f # because it is much more interesting to me and both investments widen my experience . 
+  i am pretty sure wpf f # apps are not a common use case so i guess not many people run into your problem . 
+  he left before that game iirc . 
+  in any case game development is hard and even blizzard do not know if a game they start will be completed . 
+  i wonder if they would have made it if it was n't for the absurd idea to target the browser as a first platform . 
+  well , chances are whoever it was ran out of money or desire to support the game and could n't get more funding elsewhere . 
+   one highlight against . net though is lock-in to windows . 
+  or at least in the past ? 
+  this is mostly * past . 
+  the bad news is that the version that is not locked to windows is the one that is java like in tooling . 
+  at least we do n't have to deal with the classpath issues and modularity ( project jigsaw equivalent ) is there from day one so i guess it is not as bad as in java land but when you are used to visual studio doing all this under the hood being exposed to the internals is frustrating . 
+  i 'm like `` why do you make me do that ? 
+  you could figure it out automatically with the windows-only version . '', 
+  * `` mostly '' in the sense that the cross platform version was just released a few months ago and it contains breaking changes which means that it will take a couple of years before the ecosystem catches up and the community embraces it and accumulates know-how, 
+  i just declared dhh an idiot on my facebook wall but your suggestion makes more sense . 
+  i think it enables diversity in the ecosystem ( i.e. 
+  eclipse , netbeans , idea , etc. ), 
+  rather than a monoculture where you just use visual studio because everything is integrated . 
+  i think . net core has shifted in that direction for the same reason ( vs is not available on mac and linux so they need to provide better integration hooks and make them more visible ), 
+  we who develop for the microsoft ecosystem thank you for not competing with us , 
+  the typescript compiler did have some performance issues in the beginning . 
+  i wonder if it did n't work well enough with the size of their codebase or they are talking about something else . 
+  yeah it is a rc but you are saying it as if this is angular 2 and they are going to release rcs for a year and go up to 7 or something . 
+  this is anders . 
+  this guy ships . 
+  edit : and a few hours later typescript 2.0 is released, 
+  bootstrapping your compiler is really important . 
+  it not only validates the approach but also helps the ecosystem grow . 
+  i bet we 'll get a lot of those tree transformation plugins simply because users of ts will be familiar with the language used by the compiler . 
+  if they are referring to that i 'd say that `` did n't scale '' is quite an absurd way to say it . 
+  i guess whatever our problem is in it these days we always represent it as `` did n't scale '' . 
+  basically they did n't want to do any work to get the type information and that 's fine . 
+  i am surprised the article did n't mention your last point . 
+  writing types improves readability because the reader sees the types . 
+  also for smaller projects the fact that typescript serves as a downlevel transpiler means that you do n't need to put one more thing ( babel ) in your pipeline which i 'd say is a big plus . 
+  it will be easier for riot to make me call dota clones `` mobas '' than for blizzard to make me stop using the name battle.net, 
+  ts does not require you to stop all the work . 
+  you just do n't get the benefits of types on places where you have not written types . 
+  you can gradually add types to your project as you see fit . 
+  multiplayer online battle arena which if you ask me means precisely nothing and can be applied to any type of game that involves any type of battles and multiple players so it is basically bullshit . 
+  well i doubt many if any of the guys who cloned dota played aeon of strife or even knew it existed so they are still dota clones even if dota is the grandchild of aos, 
+  because `` we '' could n't . 
+  it is not like `` we '' did n't try multiple times . 
+  yeah , this is what i said but in my opinion the size of the codebase does n't matter in this case . 
+  `` does n't scale '' is a terrible way to express the fact that they do n't want to add types even gradually . 
+  i believe the real issue parent has is understanding why someone put undefined into a language . 
+  i understand the difference as explained by other comments but why would you do that ? 
+  it seems stupid to introduce one more null just so that we can represent `` nothing '' and `` do n't know '' differently especially in a dynamically typed language . 
+  these inclusivity communities are great . 
+  when they do their thing to a conference , a company or whatever i am warned that i should not go to the conference or do business with the company to avoid meeting them  if they did n't signal their presence though their stench in advance i might actually run into these terrible people in real life . 
+  if you do not want typescript in your editor ( whatever it is ) then typescript is mostly useless to you . 
+  all the compile time errors , all the autocomplete hints are lost to you . 
+  i find myself watching a lot less starcraft this year . 
+  i root for foreigners when they play vs koreans but why would i care about the foreign tournaments now when it is foreigner vs foreigner and it is just worse starcraft than the one in the korean leagues ?

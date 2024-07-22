@@ -1,0 +1,100 @@
+  i wrote more than i thought i did ... 
+  norway ... it 's not a good idea to accelerate the train to almost double the speed limit . 
+   though personally i prefer to engineer my code around situations where something * might * be undefined, 
+  did you accidentally a negation here ? 
+  additionally , i feel it 's worth to point out that ` typeof x = = ` undefined ' ` and ` x = = = undefined ` are slightly different : the former holds even if ` x ` is * undeclared * , whereas the latter only holds if ` x ` is declared but has the * value * ` undefined ` . 
+  then again , it 's always a good reason to declare one 's variables , so this difference probably is n't of much use . 
+  i bet r/gamecollecting would be interested in seeing that collection of yours . 
+  also , i would n't mind a higher-res photo if possible , where game names would hopefully be legible . 
+  the main difference is the idea behind it . 
+  using classes , you create a class ( a sort of `` blueprint '' ) that explains how to constuct , say , ` car ` objects . 
+  you then use this `` class '' thing to create objects ( instances ) that follow this blueprint . 
+  using prototypes , you construct a prototypical ` car ` * object * , and then you create new objects and set them up to inherit from that ` car ` object . 
+  ( this is purely discussing the philosophy behind the two approaches , and not the implementation . 
+  in the case of python , the implementation of classes does indeed remind one a lot of how js implements prototypal oop . ), 
+  the insight here is that whereas classical oop keeps the blueprints and instances apart ( a class is n't necessarily an object itself ) , you only have objects in prototypal oop . 
+  [ this lengthy blog post ] ( http://killdream.github.com/blog/2011/10/understanding-javascript-oop/ ) explains prototypal oop from the bottom and up . 
+  otherwise maybe reading through [ the wikipedia article ] ( http://en.wikipedia.org/wiki/prototype-based_programming ) on the paradigm would help a bit . 
+  it 's pretty self-explantory , although a bit messy ... 
+  i do n't have any `` real gems '' in there i think ; the best i could think of is the `` headerify '' command ` < leader  = = ` :, 
+  nnoremap < leader  = = yypv $ r = a = = < esc  vk : center < cr , 
+  ( the version in the repository is a bit outdated . ), 
+  oh , and another one : ` nnoremap < leader  . 
+  ! < cr  ` which makes for easy repetition of shell commands . 
+  i usually do something like ` : ! nameofinterpreter % ` or ` : ! make & & . / a.out ` or similar , and then use ` < leader  . ` to try out changes easily . 
+  fits well with my workflow , anyway . 
+  i map caps lock to ` < ctrl  ` / ` < esc  ` already outside of vim ( via * xkb * configuration and [ xcape ] ( https://github.com/alols/xcape ) ) ; hence why i have n't inoremap 'd ` jk ` or similar to ` < esc  ` . 
+  nice !, 
+  i have something similar for lecture notes ( which has since been widened to include other kinds of notes as well ) . 
+  i had n't really thought of using conceal to prettify lists/headings though ; it looks great in your screenshot . 
+  edit : for emphasis you could use a ` syn-region ` , something along the lines of :, 
+  syn region noteemphasis matchgroup = conceal concealends start = '' \\* '' end = '' \\* '', 
+  in a similar vein , i like the circle [ blankfield ] ( http://blankfield.but.jp/ ) 's take on the [ battle with red theme ] ( http://blankfield.but.jp/archives/2007/12/battle-with-red.php ) ( [ mp3 ] ( http://blankfield.but.jp/music/bwr.mp3 ) ) . 
+  great !, 
+  and it 's good to see that you corrected the spelling of ` jump ' !, 
+  no spelling issues in this one as far as i can tell . 
+  huh , is language a per-subreddit setting ? 
+  i presume they 're not trying to apply some sort of heuristics to figure the language a given post is in ( and if they do , they 're probably only looking at the tld of the link , i bet . . ), 
+  i * think * this would n't actually count as a tree in the typical meaning of the word , since nodes have multiple parents . 
+  it is n't a tree , but it * is * a [ directed acyclic graph ] ( http://en.wikipedia.org/wiki/directed_acyclic_graph ) ( which forms a superset of trees ) , since every node is only linked `` downwards '' towards the bottom of the diagram and there are no cycles . 
+  oh , and you might want to check out some graph path-finding algorithms on wikipedia as others have pointed out . 
+  one of the main strengths of vim in my opinion is how easy it is to make use of external programs provided by the environment . 
+  i 'd personally use an external tool to reformat ( a portion of ) the code via the ` : ! ` ex command ( i.e. 
+  select a portion of code in visual mode , then ` : ! my-formatter-command ` , where ` my-formatter-command ` is a command that accepts text on stdin and formats it ) . 
+  one such tool for javascript ( which would probably work for json as well ) is [ js-beautify ] ( https://github.com/einars/js-beautify ) . 
+  for the terminal emulator : dejavu sans mono , 12pt . 
+  why ? 
+  it 's what i find the most legible , sharp and eye-pleasing , and it supports a huge set of characters . 
+  dotted zero makes it easy to distinguish it from uppercase ` o ' , and i1l | have very distinct shapes . 
+  well , there 's a tradeoff between names that are descriptive and names that are short , imo . 
+  a short name has the benefit of being easier to recognize when looking through code ( just like we recognize words by shape when reading text , too ) . 
+  i 'd probably use a shorter name , but i 'd definitely explain the rationale of the property in a comment near where it 's defined . 
+  it 's a pity that this would n't be introspectable from the value though . 
+  oh , and regarding the forgery point , would n't a forged request just directly send a request to the server resource ? 
+  i do n't see how a js property would make things more secure -- even if someone is n't on safari , one could still read through the code to figure out the location that accepts get requests , and use that anyway ? 
+  the size limit is a good point , though . 
+  you had tea at an age of six ? 
+  the proper response for the first one is to write, 
+  % cowsay `` why the heck not ? '', 
+  well , newlines that imply asi could be kept instead of replacing it with a semicolon . 
+  the net size is the same . 
+  so i do n't think it 's * required * , although it might be simpler to just perform an asi step before the minifying . 
+  what i find amusing is that many popular minifiers actually misbehave when given valid but `` semicolon-less '' code as input ( or at least they used to -- it was a while since i checked ) . 
+   harder to read, 
+  that 's arguable . 
+  i 'd say avoiding trailing semicolons reduces visual clutter and thus makes it easier to read . 
+  it 's certainly a subjective point though , so ymmv , but i think aiming for easy-to-read code is important for many reasons . 
+   more error prone, 
+  that 's true . 
+   almost impossible to minify, 
+  i 'd say this is the tool 's fault , and not the code 's . 
+  it 's completely valid javascript , and thus any tool operating on js source code specifically should be able to parse and process it just fine . 
+  nice post !, 
+  i usually ( well , ocassionally rather ) define a more general function that takes a given function and limits the arguments it receives to a given ` n ` . 
+  something akin to :, 
+  function limit ( fn , n ) {, 
+  return function ( / * ... * / ) {, 
+  var limitedargs = array.prototype.slice.call ( arguments , 0 , n ), 
+  return fn.apply ( this , limitedargs ), 
+  so you 'd have ` unary ( fn ) ` and ` limit ( fn , 1 ) ` being almost equivalent . 
+  edit : your ` if ( fn.length = = 1 ) { return fn } ` check might be a bit harmful if ` fn ` relies on ` arguments ` to take a variable number of arguments . 
+  consider for instance the ` array ` builtin , and what ` [ 1,2,3 ] . map ( unary ( array ) ) ` would do . 
+  also , you seem to have a bit of copy-paste leftover there . . ` fnlength ` is never used , from what i can tell . 
+  supposedly you based ` unary ` on ` variadic ` ? 
+  hm , it makes perfect sense to me ... 
+  i mean , that seems like the whole idea -- to take a variadic function and make sure that it receives only a single argument . 
+  whether the variadic-ness is of the form `` optional arguments '' or `` trailing repeated sequence of arguments '' should n't really matter , i think . 
+  i 'm relatively new myself , having only played a few sessions , but i 'll try to answer with what i know . 
+   finally , one of the towns announced that it would be no longer accepting mail . 
+  why did this happen ? 
+  i have also had towns stop accepting goods as well . 
+  i 've noticed the same , and i 've also noticed that after a while a station in a town has suddenly started to * accept * e.g. 
+  goods . 
+  note that the property of accepting mail/goods is of a given station , and not the town itself ( as far as i know , anyway ) . 
+  i * think * it might have to do with city growth , since you tend to have to build the station pretty close to the town in order for the station to accept goods , in my experience . 
+    mail that has to be sent any real distance ( i.e. 
+  across or between towns ) is left at the local station ( should it be accepting mail ) for a transport company to collect and deliver . 
+  i think this simply means that you can not do intra-town mail delivery , i.e. 
+  you ca n't pick up and deliver mail at different spots within the same town . 
+  if you have train stations at different towns to send the mail between i think you 're all set . 
+   i learned that you can set buses to `` transfer '' people to a station ( and then they wait in line for the train ) .

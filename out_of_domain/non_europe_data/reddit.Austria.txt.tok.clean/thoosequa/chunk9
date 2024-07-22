@@ -1,0 +1,100 @@
+  we recognise that everything is n't quite as splendid as it could be . 
+  one of the most noted issues - helicopters ' tendency to explode when rolled over to a side - is still a valid problem . 
+  it 's not a deliberate design decision . 
+  just like you , we despair when a skillful autorotation turns into a mass murder just by a tiny mistake . 
+  different concurrent simulations have posed a limitation in collision detections . 
+  we are trying to tackle it and our programmers have already gone a couple of extra ( air ) miles . 
+  we do n't yet know quite how far there is to go . 
+  ongoing issues aside , we hope you 've enjoyed the cooperation as much as we did . 
+  and we hope you like the results !, 
+  keep the feedback flowing on our [ forums ] ( http://forums.bistudio.com/showthread.php?181550-advanced-helicopter-fdm-feedback ) and [ feedback tracker ] ( http://feedback.arma3.com/search.php?project_id=1&amp;category=rotorlib ) . 
+  of course , we 'd like to thank you for supporting our continued development by buying the game and the dlcs . 
+  but now let 's not wait anymore . 
+  get to the choppa !, 
+  spin up the blades . 
+  have you already tried the helicopter support mp game mode ? 
+  give it a whirl on one of our 4 dedicated official [ servers ] ( http://arma3.com/servers ) . 
+  see how all the new platform updates transform into a pure gameplay . 
+  or hone and prove your mad skillz by chasing the super rare golden rotorhead [ achievement ] ( http://steamcommunity.com/stats/107410/achievements/ ) . 
+  we wish you a pleasant flight !, 
+  this is not true and not the reason why this issue exists . 
+  see / u/ahcookies post for explanation . 
+  has nothing to do with ai, 
+  thank you , edited my post . 
+  how dare bohemia put out an oprep dedicated to the afm and not mention other features for the future . 
+  what do you mean it was not tested on dev ? 
+  the vrs and afm were both only available on dev branch for weeks, 
+  you did n't get downvoted because you `` stated a fact '' but because you claim it 's an arma problem while it is an overall gaming problem and not unique to the arma series, 
+  quote from the top post of this thread, 
+   the reason is grounded in performance - to determine the visibility of another object , npcs perform a raycast from their viewpoint to the target . 
+  if raycast hits the target , then it 's considered visible , if it hits some obstacle instead , then the target is considered hidden . 
+  thing is , you can only raycast against collideable geometry , same geometry used to allow you to walk on stuff , collide with walls and so on . 
+  that geometry is by necessity extremely low-detailed and optimized , because the math involved in collision detection is insanely expensive in terms of cpu use and scales up with geometric complexity of involved objects . 
+   the issue can not be fixed without significantly raising cpu load with thousands of additional colliders per average outdoor scene . 
+  i do n't see it as fixable anytime soon , it 's a problem for every game and engine dealing with similar ai goals . 
+  now if you look at the first reply we actually see , that the issue is already fixed and should no longer be an issue . 
+  you , sir , are a fucking asshat for your inability to read the whole thread before shitposting . 
+  c/c + + on the pi is no different to c/c + + on your normal machine . 
+  if i am not mistaking the pi even gets shipped with the gnu c/c + + compiler and as such you can code and compile right away . 
+  there are tons of resources out there to learn c ( check / r/learnprogramming ) . 
+  if you feel comfortable with the language you can start creating projects for your pi specifically , such as controlling hardware or automating certain processes . 
+  have fun and good luck !, 
+  everyone gets the mission file . 
+  it is stored in your c : \\ users \\ username \\ appdata \\ local \\ arma 3 folder . 
+  however i am not sure if it will be as easy as just dropping the . pbo on your machine and run it . 
+  i second that . 
+  fiddling with python will give you fast results and a sound basic knowledge of how coding works . 
+  with that being said , if your ultimate knowledge is to learn c and you are passionate enough about it , go ahead and learn c straight away . 
+  the bugs have reduced a lot and i know of any present bugs that the team is not at least working on . 
+  every game while experience bugs , and no system is perfect . 
+  brings me back to my first post : c on your pi works just like c in your normal environment , with the little exception that your memory is probably smaller . 
+  lean how to get around in c before you start worrying about low level coding , a month is not a lot . 
+  once you 've got more than the syntax down start working with something like [ wiringpi ] ( https://projects.drogon.net/raspberry-pi/wiringpi/ ), 
+  from : project lead, 
+  to : arma 3 users, 
+  info : internal marksmen prototype , update 1.36 released , repception, 
+  precedence : flash, 
+  ** situation **, 
+  as we enter the last month of the year , the team is focused on one more 2014 development milestone : the marksmen dlc sandbox prototype . 
+  this means having a final plan for the exact assets and features that we 'll finish during the first quarter of 2015 . 
+  said plan is backed up by internally playable prototypes . 
+  this could mean the first version of a new weapon 's model , a scripted prototype of a gameplay feature , a proof-of-concept for a scenario , etc. 
+  the feasibility studies should wrap up soon and we 'll have go / no-go moments for some of the tech . 
+  having a solid sandbox foundation will later help the designers to use it effectively while developing playable content . 
+  we are trying hard to get some very cool stuff in the dlc and accompanying platform update , and it 's looking splendid so far !, 
+  ** intelligence **, 
+  did you miss the exact change log for update 1.36 ? 
+  take a look at spotrep # 00037 !, 
+  perhaps you 've noticed we delayed the release of the update by a day . 
+  in fact , this change of plans was so last-minute we had already begun to release the accompanying arma 3 tools update . 
+  the reason for the delay was the discovery ( based on community reports ) that one of the multiplayer server optimizations caused a potential instability . 
+  we had tested these multi-threading optimizations on special profiling servers for a few weeks with good results . 
+  then we found a thread safety problem in a few freshly submitted crash reports . 
+  it was decided to take those optimizations out of 1.36 and continue to develop them via the special profiling branch . 
+  certain other optimizations remained in tact , such as tweaks to the file system . 
+  there are still 2 recurring crashes that we know about , but can not solve at the moment . 
+  one is related to the physx libraries and we hope to address it by an update of the libraries in 2015 . 
+  the other occurs also in our other games and we believe it to be connected to steam . 
+  we are still working with valve engineers to solve this one . 
+  ** operations **, 
+  qa specialist ondrej ku\u017eel performed a post-flight inspection of the advanced flight model for rotary-wing aircraft , introduced in helicopters dlc / platform update 1.34 . 
+  his report follows an earlier look at the integration of third-party middleware rotorlib to support the afm . 
+  it mainly looks back at what we believe was a very productive example of community collaboration . 
+  be sure to expand the hidden bonus section dubbed `` oukej 's frequent flyer bonus miles '' for some tips and tricks !, 
+  ** logistics **, 
+  leading the way for update 1.36 was yet another iteration of the arma 3 tools suite ( available in the steam library for anyone - filter for `` tools '' ) . 
+  the tools commissar himself , julien vida , does a good job of providing some context to the changes in his status report : changes to existing tools , a new tool and fresh samples . 
+  considering those samples , the previously mentioned psd source template for taru liveries is available on the tools dev-branch . 
+  an issue causing suspiciously long packing when using addon builder is being investigated . 
+   what can give this impression is that the ai continues to fire at your location once you hide . 
+  if it thinks the bullets will penetrate . 
+  it estimates your location based on the speed and direction of your movement at the point when you disappeared from the ais line of sight . 
+  it wo n't keep firing for more than a couple of seconds ( unless you reappear ) and when doing so it suffers a rather big aiming error for not actually seeing you . 
+  but that does n't mean it ca n't kill you . 
+  soft covers do n't offer protection . 
+  +1 for wind deflection, 
+  i do n't think there is a book dedicated to c , as its more an arduino language ( please take this statement with a grain of salt ) . 
+  however as i linked , wiringpi offers . 
+  c/c + + library to control the gpios and from there you can reproduce everything a python project has to offer simply in c, 
+  i 'm exactly in the same boat . 
+  no strings no vectors not even cmath .

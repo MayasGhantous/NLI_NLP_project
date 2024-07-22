@@ -1,0 +1,100 @@
+  actually , if you power it through the barrel plug , you need something like 7-12v , as / u/doomhammer458 has said , you can feed 12v straight to it but that could lead to overheating the regulator . 
+  correct on both points . 
+  it 's important when bypassing the arduino 's regulator you have to supply regulated 5v . 
+  7-12v is for powering through regulator . 
+  you will damage the arduino supplying too high voltage to vcc . 
+  i have used very similar one before - it was pretty stable . 
+  no problem . 
+  thanks for the gold , 
+  well , with the wall wart he 's planning to use rated at 6 amps , he is most likely below that ... 
+  missing a header file ? 
+   i actually would want the value to persist . 
+   if you do n't want it to persist, 
+  hmmm ... dunno about logic and math but your reading comprehension sucks ... , 
+   obviously using analogread ( ) gives a resistance value but not in the form i need it in for my calculations, 
+  what do you mean ? 
+   but the country has also been developing its own homegrown processors , and the u.s. ban could accelerate those efforts . 
+   while ( frequency = = 519.88 ), 
+  this [ will not work ] ( http://floating-point-gui.de/errors/comparison/ ) . 
+  you have also an extra semicolon ... 
+   i also tried while ( 500 < = frequency < = 600 ) ; digitalwrite ( left , high ) ;, 
+  and this will not even compile . 
+  even if you fix the predicate you will get an infinite loop if frequency fails within the range . 
+  semicolon again . 
+   or whatever the windows equivalent is . 
+  that would be atmel studio ... , 
+  the second approach should work :, 
+  while ( 500 < = frequency & & frequency < = 600 ) digitalwrite ( left , high ) ;, 
+  edit : assuming the digitalwrite will affect frequency . 
+  otherwise infinite loop again , 
+  because the sensor , when active , draws more current than attiny can handle . 
+  when you say `` in series '' do you mean the drain of the first one connected to the gate of the second ? 
+  kinda like darlington ? 
+  thanks . 
+  your while loop spins forever , once fsrreading becomes  800 . 
+  put your analogread inside the while loop . 
+  thanks . 
+  it took me a while to grok it but i think i get it now , 
+  dunno ... that 's how britts spell it . 
+  and perhaps ozzies and kiwis . 
+  cannucks are kinda 50-50 so you seem to be outnumbered ... , 
+  ... or if 9 black robed dudes can `` interpret '' what it means ... 
+  because it 's not theft - it 's extortion . 
+  theft is stealthy ... 
+  by your approach the holocaust was n't illegal either . 
+  poor nazis were really railroaded at nurnberg ... / s, 
+  `` maintaining a society '' is in itself very statist idea . 
+  that 's what i do n't like about ancaps - they want statist ideas/paradigm without the state . 
+  the society does n't need to be `` maintained , '' it can `` maintain '' itself quite nicely . 
+  baring some asshole `` maintainers '' messing things up . 
+  so , what 's the question ? 
+  plenty of places - ebay , radioshack ( good option if you run into the closing sale , ) [ sparkfun ] ( https://www.sparkfun.com/categories/178 ) , etc. 
+  some possible issues :, 
+  voltage divider - the resistors are never 100 % accurate , possible way to improve is to get better tolerance resistors . 
+  noise . 
+  you might want a [ lc filter on avcc ] ( http://electronics.stackexchange.com/questions/36167/understanding-the-avcc-pin-wiring-on-arduinoleonardo-low-pass-filter ) but that would ( perhaps ? 
+  not sure with the nano , too lazy to check  require messing with the nano itself ... 
+  check the dht22 datasheet - looks like you connected ground to the nc pin ( from memory , so not sure . ), 
+   oh no this was without the voltage regulator . 
+  i was trying to power it off of the arduino 5v . 
+  that ** was ** with voltage regulator . 
+  arduino has one . 
+   according to them i 'm the crazy one because i do not believe in the divine right of kings . 
+  you are behind times - now it 's `` social contract '' and `` will of the people . '', 
+  guess you should ask your grandma instead of barging into chefs ' den ... , 
+   there 's virtually no debate within the gaia worshiping community about whether or not climate change is happening , what 's causing it , or how to stop it . 
+  denying human caused climate change is the equivalent of heresy . 
+  ftfy, 
+  the `` scientific community '' you are talking about is almost exclusively comprised of climate and environmental `` scientists '' ( with the smudge of political `` scientists '' thrown in for a good measure . ), 
+  you know , the bunch of dudes who used to occupy the darkest corners of the universities ' basements , nobody paying much attention to them . 
+  now , all of the sudden , they find themselves basking in the limelight and awash in grants !, 
+  but only those , of course , who preach doomsday . 
+  you might notice the suspicious absence of the self-respecting physicists , chemists and geologists in this bunch ( you know , like the actual real scientists . ), 
+  heck , the `` scientists '' you are talking about are even giving credence to the `` gaia hypothesis '' as an actual scientific theory !, 
+  which kinda makes sense : since the real science can not support their doomsday scenarios , it has to be gaia that got pissed and is going to unleash all the havoc on the evil humans ... 
+  that 's pretty simple : some obscure niche academia workers came out with the idiotic `` theory '' of a doomsday . 
+  doomsday always generates media attention . 
+  then some nobodies in the un ( which has been losing the appearance of relevance for quite a long time already ) figured out the global doomsday is ** the ** thing that can make them seem important again . 
+  and when politicians and bureaucrats figured out that _ mucho dinero _ can be generated with the carbon tax the circle started its spin ... 
+  guess hawkins did n't really bother to check the physics behind it ... 
+   the deniers will be an extreme minority , if you can find any, 
+  you mean the heretics ... no , nobody wants to get blacklisted . 
+  if you had any physics knowledge at all and were willing to do some checking you would know what i mean . 
+  that 's here is your problem : you do n't consult anybody about scientific facts , you just check them yourself . 
+  obviously , you could n't bother ( or lack intellectual capacity to do it . ), 
+   i just reject the idea that socialism has no good response or alternative for the allocation of resources . 
+  i assume you have some idea about what the `` good response or alternative for the allocation of resources '' would be ? 
+   actually , i do consult people for scientific facts . 
+  i often consult journals like scientific america . 
+  i look at studies by major universities , i consult the national oceanic and atmospheric administration and the national academies of sciences . 
+  these are the types of sources that i use to consult my scientific facts with along with my professors . 
+  iow you do n't know your facts , you just use hearsay to jump to the conclusion . 
+  i like to check my facts myself . 
+  if you did that you could easily notice the agw hypothesis does n't really conform to the physical laws ( without a lot of hand-waving . ), 
+   well it 's your word against , you know , actual climate scientists, 
+  science does n't work that way . 
+  if the idiot can prove something and the proof is solid , all the established `` scientific authorities '' be damned . 
+  that 's the beauty of it . 
+   and you failed to tell me exactly why agw hypothesis does n't conform to the physical laws . 
+  i will not do your homework for you , unless you are willing to contract it out to me , for a price of course , 
+  the first hint : look up henry 's law .

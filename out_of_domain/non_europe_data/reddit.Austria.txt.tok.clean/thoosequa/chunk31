@@ -1,0 +1,100 @@
+  so what you do have is a 25 dollar thank you to the developer , which is rewarded with some neat looking new models . 
+  i 'm thinking of giving tacbf a try though i have a question : does it have fixed starting times like battle royale or is it your standard public hop-on-hop-off server ? 
+  i am not sure what you mean by `` setup '' and `` server menu '' . 
+  if you want to host the mission on your own , then you might want to consider a server host , where you upload the mission and then play it . 
+  [ here ] ( http://www.armaholic.com/page.php?id=19647 ) is the mission file , afaik it needs to further editing if you just want the base mission . 
+  if by `` server menu '' you mean the server browser then yes . 
+  it 's practically already there . 
+  in the filter type `` invade '' wait a minute or two until you found all servers and then just join an open one . 
+  i 'll trust you that this was probably a great mission to play for you and your unit , but do you really expect anyone to sit through an hour and more of uncommented gameplay , that does n't feature anything special ? 
+  if you 'd like to show off some cool 10-20 minutes that happened during this ( and even that timespan would be a stretch ) then give a timestamp . 
+  yeah fuck bohemia for not creating an ai being able to pass the turing test . 
+  seriously , placing explosives such as mines is a matter of anticipation and prediction . 
+  i guess you could write up an algorithm for placing explosives that takes the current player 's position into account , possible routes that take cover and concealment into account as well as a dozen of other factors but that would probably mean you 'd need to run the ai off seperate machines . 
+  looks good for a beginner , couple of things though . 
+  while it 's not really a big issue in your current project , using namespace std ; is considered bad practice you can read [ here ] ( http://stackoverflow.com/questions/1452721/why-is-using-namespace-std-considered-bad-practice ) why . 
+  secondly you use a string but you have not used the < string  header , so i do n't think this will compile . 
+  furthermore you could try looking into classes , your code would benefit from having , say , a class for zones . 
+  but it 's not really a requirement right now . 
+  what does make me scratch my head are variables that you initalize as false but are actually ints . 
+  i mean not technically false but if a variable can only be one of two possible states than a boolean would make more sense , read [ here ] ( http://stackoverflow.com/questions/5554725/which-value-is-better-to-use-boolean-true-or-integer-1 ) more about this . 
+  that 's just the stuff on the top of my head . 
+  edit :, 
+   go ahead , pop this code into your c++ compiler and criticize away !, 
+  wo n't be possible for linux or mac users i 'm afraid, 
+  as / u/farmerje said it 's not about the ide you use or the compiler but about the code you got there . 
+  ~ ~ on a linux distribution it wo n't even compile , because g + + for example does n't know what `` system '' is . 
+  ( * or i did something wrong * ) ~ ~ edit : error on my part . 
+  system is in the standard library but the commands passed to it are obviously differently interpreted by the os . 
+  but your code wo n't compile for a whole other reason in your copied version here at least you have not included the string header , so the compiler wo n't know what you mean by string choice ;, 
+  edit : shoot i did n't even realize that . 
+  your code is full of global variables , that 's a big no no . 
+  see [ here ] ( http://stackoverflow.com/a/485020/4236171 ) why . 
+   like grenade launchers , grenades , bombs , unguided missiles , and shooting bullets in general ? 
+  no , not at all . 
+  all of the above are ways of engaging a target imminently . 
+  placing an explosive is different due to the fact that the enemy needs to make predictions about the player coming through the area . 
+  simulation for ai is probably already a clusterfuck , considering what they take into account , just think about what needs to be taken into account for making such a prediction . 
+  edit : i think i worded it a bit bad so here is an example to quickly distinguish . 
+  to engage the player the ai needs to know roughly 3 things : the location ( direction , distance and possibly altitude ) , the type of the player ( is it a person or a vehicle ) and their own appropriate weaponry ( does the ai need to pick a grenade launcher , their rifle or a missile launcher ) . 
+  surely enough there are more factors , even more so that the ai can be pinned down now , but that 's roughly what the computer needs to know before it can engage you . 
+  however to place a mine and as such a trap the ai needs to know the following : the location of the player ( again distance , direction and possibly altitude ) , is the player possibly aware of the ai ( if so , engage if not continue ) , is the ai currently defending , attacking or patrolling , chances of the player actually passing through the ais current location , does the ai have the correct type of explosive ( at mine for tanks , apers mine for infantry etc ) . 
+  and all of these calculations are based on even more complex algorithms . 
+  surely you could randomize all of that to a certain extent , but it 'd be a not really nice solution, 
+  check out my post again , i edited something . 
+   any c++ program involving string would n't compile on mac or would an include statement fix that ? 
+  there are certain header files that are part of the [ standard library ] ( http://en.wikipedia.org/wiki/c%2b%2b_standard_library ) . 
+  every c++ compiler knows the functions in this library . 
+  system is not part of it , since it uses functions and calls that are specific to windows , such as `` cls '' . 
+  cls is the command in the command prompt to clear the screen , on unix based operating systems however the command you would use is `` clear '' . 
+  so not only does g + + on a different operating system not know what you mean by system , `` cls '' is not a valid command in that operating system . 
+  more like the cls command and yes , the strings will work if you tell the compiler what you mean by string s ; i just realized you 're not the op , sorry for assuming you were , did n't really pay attention, 
+  thank you i most certainly did not know that . 
+  it 's not retarded , it would make for an interesting gameplay when assaulting a defended position . 
+  just impossible to implement, 
+  i 'm not quite sure if i understood that correctly . 
+  does that mean all transistors with 1 are active or are the 1 's active in pmos and the 0 transistors active in nmos ? 
+  or do you mean the current can generally pass , because the 5v are entering the circuit , then `` go left '' because the first right transistor is blocking , then it passes the x ' then the y and off to the exit without even entering the nmos section ? 
+  there is ( currently ) no way to filter for servers by the mods they are using . 
+  vegetation has also geometry , so the ai ca n't see through it . 
+  a developer commented on this a while back . 
+  i do n't know if the geometry is different on a2 ported maps or new maps like bornholm or kunduz , but in theory it should n't be . 
+  and if it 's not than the ai ca n't see you through it . 
+  they can still shoot at you though , because they assume your position based on factors like noise and last known pos, 
+   i have like 400 hours into arma , i have been all over altis, 
+  i have more than that and there is still stuff that i have n't seen . 
+   all of it is the same boring nothing . 
+  as the top comment mentioned you have everything from flat planes , a small swamp , dense forests , hills and a small mountain range to thick urban enviornments . 
+  fuck you even have a bay area , which you can cross with a boat and you have an underwater environment with vegetation and animals . 
+   they just feel `` placed there '' if that makes sense, 
+  no it does n't imho . 
+  altis was modeled after the real greek island lemnos most of the stuff you see is not `` placed there '' but naturally there in one way or the other on the real island . 
+  plus minus some minor additions , but if you look up images of the island it feels like altis . 
+   i miss chernarus and the real forests , hills , mountains , the ability to do guerilla warfare , actually being able to hide in the trees/bushes, 
+  you can do all of that in altis is as well . 
+  chernarus just was a bit `` brighter '' and more colorful because it 's visually modeled after a eastern european country with a taiga-esque feeling , while altis is a greek island in southern europe . 
+  it feels dry with a higher temperature than chernarus , obviously that affects the look and feel of the map . 
+  want to see an empty map ? 
+  load up arma 2 and visit takistan . 
+   we want to make this terrain truly special , with lots of great places to explore . 
+  achieving this requires a lot of art assets to be produced . 
+  we 've decided to ask a few arma modders for assistance via paid external contract work . 
+  more art capacity means more unique locations can be created . 
+  nice move , gg bohemia, 
+  the best way to introduce them into arma 3 would probably be any pub server that runs without mods . 
+  you get easily in and out and you have a wide variety to choose from . 
+  you say they like epoch ? 
+  then show them around some wasteland servers , after that have them check out maybe some king of the hill or cti warfare servers . 
+  while still very casual , they already bring some sort of tactical thinking into the equation . 
+  ready for some coop ? 
+  how about the tons of invade and annex servers that float around in the server browser , some fully packed with players . 
+  introducing someone to a game that you really like by showing them a mission that can be frustrating if you do n't have coordinated teamwork might not be the best way to approach it . 
+  i `` migrated '' from the dayz mod back in a2 more or less the way i described it here and i 'm still sticking around to a3 , prefering it over dayz sa . 
+  i play mostly multiplayer with the unit i am part of . 
+  i sometimes screw around a little in the editor to try some new weapons , mods or to just fight with an ai squad against an ai squad but multiplayer is where it 's at . 
+  my group has currently around 190 active players , so usually when we run events we get solid numbers between 50 and 60 attendants . 
+  that makes for a unique experience that i ca n't really achieve elsewhere , say on a public server or in the campaign . 
+  gravity does , wind does not . 
+  however a few mods add wind and other factors to the trajectory of the bullet . 
+  as far as it goes of air combat , well i 'm not sure if a different game would be more well suited . 
+  if you do n't mind flying being a bit arcade-y then go for arma 2/3 however if you 're looking for a combat flight sim i 'd say go for dcs .

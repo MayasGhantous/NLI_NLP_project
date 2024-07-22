@@ -1,0 +1,100 @@
+  dunno if it will still look blurry on a higher res/dpi screen ... 
+  i do n't use either , but i can answer the first one . 
+  as rpi supports hdmi cec , you can use your tvs remote to control the rpi , and i 'm pretty sure it will work with kodi as well . 
+  i did try a mc distro earlier , and it worked swiftly with the tv remote . 
+  this is if your tv supports hdmi cec as well , most not-ancient tvs does . 
+  2 . sudo apt-get update followed by sudo apt-get upgrade should do the trick , but they may also have an easier gui or automatic update function . 
+  just give it a try , it 's fun and there 's plenty of info to find on google . 
+  you 'll learn more , and it gives you answers and knowledge faster than forum posts usually does , 
+  so , i 've set up pi-hole to block ads network wide . 
+  i currently only use one computer , but it seems to not block so much . 
+  as i understand it , the routher should sendt dns queries to the pi-hole , and it should filter . 
+  however it seems that most ad 's pass through , as if either the pi-hole , the router or my pc prefers the alternative dns . 
+  what am i doing wrong ? 
+  edit : i do currently use ublock origin simultaneously , but that should block ads after dns , right ? 
+  ok , i guess can change the dhcp pool , but i ca n't see that affecting anything unless there 's an ip conflict in the network . 
+  i have already set the pi with the static ip 192.168.1.2 , and those settings seems to be locked in the pi-hole settings . 
+  i ' f i understand you correctly , i should set the pi-hole to use the router for dns queries ? 
+  but the router already uses the pi-hole for this . 
+  would n't that just cause a loop and resolve to the alternative dns ? 
+  i guess i do n't comprehend this as well as i thought ... 
+  yes i am, 
+  i 'm surprised to hear that , but my data seems to support your claim . 
+  but how ? 
+  why ? 
+  i thought the ads had to go through the dns server before it could get blocked by ublock origin ... 
+  hahaha , inappropriate and funny . 
+  i laughed . 
+  my guess would be that the house in front has n't been occupied nor heated during the storm . 
+  that being said , seems strange that the trees in the background are ice-free . 
+  maybe the frozen house does n't see much sun either ? 
+  who knows ... 
+  i 'm pretty sure you can do all of this with one pi3 . 
+  but how are you intending to interface it . 
+  bt controller for retropie i suppose . 
+  i do n't know much about alexa , maybe she can be used to switch apps ? 
+  most sd cards should be good , just get a class 10 or higher . 
+  i 'm seeing similar results as op and i have an xbox one connected . 
+  however , i have set the xbox one up with fixed ip and google dns instead of isp/router/pi-hole dns . 
+  should i expect to see xbox one traffic in pi-hole then ? 
+  edit : just checked and all of those entries were from my asus router . 
+  followed this guide : https://discourse.pi-hole.net/t/excessive-requests-for-dns-msftncsi-com/556/6 but i used putty instead of telnet . 
+  will be interesting to see how it affects my traffic statistics . 
+  probably the same people who sued a norwegian travel agency when they found out the the midnight sun was the same sun . 
+  that was a fun read . 
+  until i started playing world of tanks a couple of years ago , i did n't know there were different types of tanks . 
+  i 've played all the tanks you just mentioned , and i hated the pz iv with a passion . 
+  is it true that it used cardboard as armor ? 
+  i know it has , cause i 've been working on projects putting down cables between norway-denmark and finland-estonia . 
+  could n't see them on the map . 
+  how does a new queen ant come around ? 
+  please loose this one ... we need it . 
+  well , we lost against azerbaijan , and need to win 5 of our 6 remaining matches to qualify so it probably wo n't help . 
+  at least we got a new coach who is not an absolute joke , the guy who took iceland far in the euros . 
+  norway has been so broken since y2k . 
+  i 've worked a lot on this vessel : http://www.worldoil.com/media/3773/cs-nexans-skagerrak.jpg, 
+  we 've put down cables between norway-denmark , finland-estonia , montenegro-italy and quebec-newfoundland to name a few . 
+  it 's normal to pack 130 km of cable on that thing , and it can hold somewhere in the range of 8000 metric tons of cable at the time . 
+  it 's mainly powercables , but also very often with fibercables inside . 
+  i think the same is the situation with ops link , it looks way to thick for simply a fibre cable . 
+  these cables transports hvdc ( high voltage direct current ) , and if my memory serves me correctly , the cable between finland and estonia had a 2000 mm \u00b2 center core and a 2400 mm \u00b2 outer core . 
+  in comparison , a typical 220v 10a home electrical course has a 1,5 mm \u00b2 copper cable . 
+  between norway and denmark , we used a machine to wrap a standalone fibercable to the hvdc cable . 
+  the fibre cable was n't thicker than maybe 1\u00a01/2 '' . 
+  long time ago , so i 'm ballparking that thickness . 
+  i have not worked on transatlantic cables , but i 'm almost certain that those are exclusively fibre and not hvxc cables . 
+  the amount of cable depends on it 's diameter , so you could probably pack 10x or more fiber cable in the same space . 
+  on the cable between montenegro and italy , we had to lay down three pieces and splice them on board . 
+  one spice is a 3 men 24/7 job for 5-10 days . 
+  on one of the splices in canada , we had to cut an almost complete splice due to an iceberg heading towards us in the strait of belle isle . 
+  yes , for 16a circuts . 
+  at least that 's the rule of thumb in norway . 
+  i have it and i 'm very happy with it . 
+  sure the huawei watch and others looks better , but i consider this a sports watch with smart functionality , not a smart watch with sport functionality . 
+  only negative i can think of is the charger cable . 
+  have n't got aw2 .0 yet either , but i do n't really care . 
+  it lasts about 2-3 days without gps use and screen not always on . 
+  i 'm not quite sure how much it affects battery lift because i mostly run on treadmills . 
+  i have had a few runs in the forrest approximately 45 mins with bluetooth headset w/music playing . 
+  ca n't say for sure , but i do n't think it 's that significant . 
+  i believe we 'll go up , but i still feel like our squad is n't near good enough to survive the pl . 
+  it still annoys me that we did n't sign any players of pl quality in january . 
+  we should prepare and integrate better players into our squad . 
+  sure , we can buy loads of players in the summer , but history paints a picture about how that does n't always work out , at least not immediately . 
+  i do believe next season will be a fight in the lower half of the pl , hopefully above 18th ... if we go up ... which i think we will . 
+  hwtl !, 
+  dunno if it works , but have you tried something like this : https://www.androidpit.com/how-to-download-apk-file-from-google-play ? 
+  not saying a top pl quality player , but one or two that is good enough , who could go straight into our starting 11 now . 
+  not necessarily from the pl ( which would be hard ) , but a top player from holland , belgium or another league who fancies playing in the pl next season . 
+  or what about one of the other top championship players ? 
+  probably , but how long will it take for them to fully integrate and play well together ? 
+  there are not many of our players who will keep up with the pl . 
+  many of them are backup alternatives , but not so many starters . 
+  buying 8 new players for the starting 11 wo n't play out very well immediately , it will take a lot of time for them to play well together . 
+  look how much liverpool struggled utilizing the players they bought with the suarez money , or spurs with the bale money . 
+  mind you , these clubs picked players from a higher shelf than we can pick from . 
+  yeah , i might be underestimating the level of our players . 
+  hopefully . 
+  what about dedicated pins , like on any pc motherboard ? 
+  nice goal, 
+  if we score more goals than preston , we 'll be in the premier fucking league next season .

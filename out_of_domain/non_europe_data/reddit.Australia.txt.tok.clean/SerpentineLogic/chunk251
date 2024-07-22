@@ -1,0 +1,100 @@
+  it 's good as a pr guy to excite different groups of players at different times throughout the year . 
+  manifest : @ccp_manifest , or manifest@ccpgames.com or share@eveonline.com if you want to make us laugh . 
+  seagull , anything else ? 
+  : i just want to encourage everyone to keep discussing , throwing questions at ccp , fixing the game for us ha . 
+  it 's so valuable for us . 
+  i want to keep doing this , getting tough questions and how to turn eve into this amazing thing . 
+  cz : ( btw seagull has been really great about open communication . 
+  if you do n't feel comfortable about contacting her directly , talk to a csm member and we 'll pass it on ) thanks for being so awesome . 
+  seagull : thanks for all the work you do on the csm . 
+  i would like the ability to change market orders , submit jobs etc , because then i could let my bot play eve and i could go outside and ride bikes . 
+  maybe to prevent abuse , you could only have a certain amount of things you could do each day , unless you paid aurum for ` no seriously this is important ' . 
+  if it 's good enough for clash of clans , it 's good enough for ccp , 
+  servers are up , your dns is just shot . 
+   hotfix notes - uprising 1.8 hotfix charlie, 
+   * turrets will now no longer slow their targets movement speed when they hit, 
+   * large blaster turret dispersion decay at max dispersion has been increased , increasing the rate of accuracy recovery at higher dispersion levels, 
+   * small blasters now have much smaller dispersion growth , smaller maximum and minimum dispersion , higher dispersion decay and lower dispersion when aiming down sights, 
+   * increased small blaster heat per second from 15 to 25 so it will now overheat before end of the clip, 
+   * increased small blaster base damage from 38 to 44, 
+   handheld weapons, 
+   * increased heat per second on standard/advanced/prototype hmgs from 14/13 .3 / 11.9 to 16/15 .2 / 14.4, 
+   * rebalanced burst hmgs . 
+  these now fire and overheat much quicker , delivering high damage for short periods of time . 
+  stats are identical to base hmg other than those listed below, 
+   - advanced : damage 13.23 , rpm : 4000 , burst length : 45 , burst interval : 0.225 , heat per second : 38, 
+   - prototype : damage 13.86 , rpm : 4000 , burst length : 45 , burst interval : 0.225 , heat per second : 36, 
+   * changed base effective range on all hmgs at all tiers to 52.5 m. 
+  assault hmgs still have increased range over basic and burst variants, 
+   * changed sniper crosshair from fixed dot to a small open circle similar to the laser rifle, 
+   * nova knives now have 50 % efficacy against vehicles . 
+  nova knives are still unable to damage installations including turrets, 
+   * decreased delay between releasing trigger and hitting with nova knives from 0.3 and 0.55 seconds to 0.2 and 0.45 seconds, 
+   * added aim adhesion to nova knives, 
+   * increased range from 2m to 2.5 m for all nova knives, 
+   * increase damage for standard and advanced knives from 90/150 to 120/160, 
+   * changed charge time for all standard knives to 1.2 seconds ( from 1.5 and 1 for aur variants ), 
+   * increased all assault scrambler rifle 's heat per second from 15 to 23.5 so they now overheat within a single clip, 
+   * all swarm launchers now fire 4 missiles at all tiers, 
+   * swarm launcher missile damage now increases per tier . 
+  for std/adv/pro , new damage per missile is 260/286/312 from 220/220/220, 
+   * increased base reserve ammo for swarm launcher from 6 to 10, 
+   dropsuits, 
+   * removed extra sidearm slot from imperial commando ak .0, 
+   * balac 's modified assault ck .0 now requires caldari assault dropsuit v to operate , and has been made very scary . 
+  based on a prototype caldari assault , it has an additional low and equipment slot , +50 shields and 500cpu/75pg, 
+   * all assault dropsuits have received additional health . 
+  new base values are ( armor/shield ) - amarr : 315/145 , caldari : 155/275 , gallente : 275/155 , minmatar : 185/200, 
+   * all assault suits have a new slot layout , listed below ( std , adv , pro ), 
+   - gallente : 1h/3l , 2h/4l , 3h/5l, 
+   * all assault dropsuits have had their base amounts of pg/cpu updated , listed below ( std , adv , pro ), 
+   - amarr : 164cpu/33pg , 246cpu/50pg , 369cpu/74pg, 
+   - gallente : 169cpu/31pg , 254cpu/47pg , 380cpu/70pg, 
+   * all racial assault dropsuit skills now give a 5 % reduction in pg/cpu requirements for grenades in addition to their light/sidearm weapon fitting bonus, 
+   * all sentinel dropsuits have a new slot layout , listed below ( std , adv , pro ), 
+   - gallente : 1h/2l , 1h/3l , 2h/3l, 
+   * all sentinel dropsuits have had their base amounts of pg/cpu updated , listed below ( std , adv , pro ), 
+   - amarr : 134cpu/30pg , 188cpu/42pg , 255cpu/57pg, 
+   - gallente : 144cpu/28pg , 202cpu/39pg , 274cpu/53pg, 
+   * racial scout skill bonuses have been adjusted . 
+  please see [ this table ] ( https://docs.google.com/spreadsheets/d/12yht3jdupz8wvl6hwjxujzq20y-lmn3viujobkxxphw/htmlview?sle=true ) for more details, 
+   modules, 
+   * reduced pg usage of adv and pro codebreakers from 11/5 to 10/4, 
+   * increased enhanced and complex reactive plating repair rates from 1/2 to 2/3, 
+   * reduced pg requirements of all kinetic catalyzers by 1, 
+   * sidearm and light weapon damage modifiers have been increased from 3 % / 4 % / 5 % damage bonus to 4 % / 6 % / 8 % and 3 % / 5 % / 7 % respectively . 
+  heavy weapon damage modifiers remain unchanged, 
+   vehicles, 
+   * increased shields for caldari dropships by 500, 
+   * increased recall time on dropships and havs to 15 , lavs to 10 from 5 seconds for all vehicles, 
+   installations, 
+   * turrets armor and shields have been increased from 750/3150 to 2000/10000, 
+   * all installations now have passive armor repair . 
+  turrets have 5hp/s , clone reanimation units 20hp/s and supply depots have 30hp/s, 
+   * missile launcher installations range has been reduced from 2000m to 250m to match vehicle mounted large missile launchers, 
+   * turrets will no longer automatically shoot any infantry that move near them . 
+   * turret detection range against all vehicles has been reduced to 75m, 
+   * turrets can now detect targets in any direction, 
+   * all turrets will now lose targets that move out of line of sight after 3 seconds, 
+   * note : turrets will still return fire on any target that fires upon them ( including infantry ), 
+   faction warfare, 
+   * loyalty point payouts have been tripled, 
+   off-map support, 
+   * the warpoints required to call in a warbarge strike have been doubled from 2500 to 5000, 
+   for more details , please see [ this thread ] ( https://forums.dust514.com/default.aspx?g=posts&amp;t=171089&amp;find=unread ) . 
+  not sure yet , depends on whining . 
+  earliest it could drop is next tuesday . 
+  test : not elite , but # 1 with elitists . 
+  he has a point though . 
+  combat losses are usually insured and pilots manage their implant risk appropriately . 
+  non-combat losses to piracy are both more lucrative for the attacker and more costly to the loser ( ca n't insure cargo , and you may have lost collateral too ) so if you want to cause economic damage against a null sec alliance that you ca n't actually kick out of their sov space , that 's the way to do it . 
+  cz20 never forget, 
+  as long as it 's not a spoon , phew . 
+  but seriously , it 's a good model for letting players do stuff , but not too much , unless it 's really important to them . 
+  they have n't said , just that they will change . 
+  steve is csm so he knows things . 
+  well the csm all seem to have blogs ( some created them after they got elected ) but tumblr or twitter works as long as it 's restricted to you posting with your cpm hat on . 
+  but yeah if logi bro is correct even a forum thread would work ? 
+  works for me . 
+  generally , yes . 
+  in essence , the larger the item , the longer it takes .

@@ -1,0 +1,100 @@
+  sure , ram clock speeds have increased , and a small number of laptops even have ddr4 now , but if you 're not using your integrated graphics , memory bandwidth is completely irrelevant in that form factor . 
+  newer is not better just because it 's newer . 
+  mobile cpus and screens have made much bigger strides , however . 
+  i live under a rock , what else has happened to her this week ? 
+  this comment is the most voted on in this thread, 
+  all sane chess openings are widely regarded to lead to draws with perfect play , so that is unfortunately not how it would work even with perfect computers . 
+  well , fps would be one reason ... 
+  the light definitely throws a lot of people off . 
+  the lighting algorithm in vanilla minecraft breaks down pretty quickly when building large structures . 
+  well , if it was easy it would already have been solved . 
+  mods always seem to be two versions behind , regardless of how long those versions actually took . 
+  maybe this new , rapid release schedule will magically give us more frequent mod updates . 
+  that 's because you are telling java to use more memory than you actually have . 
+  that just makes it really lazy with garbage collection , and it will run out of physical memory and start swapping to disk pretty quickly . 
+  keep max heap size at something reasonable like 4 gb . 
+  i genuinely do n't understand the title , would anyone care to explain . 
+  it would certainly make chess far more interesting at the top level . 
+  too many games end in uninteresting draws . 
+  not many endgames are played out until stalemate , just like actual checkmates are rarely seen . 
+  but many drawn endgames would instead be possible to win , for instance , king vs king + pawn endings where the defending king is blocking the pawn . 
+  since so many known drawn endings boil down to k vs k+p , it would massively change almost all of endgame theory , and have implications for play way back in the midgame and openings . 
+  it would be much harder to just passively play for a draw , like many players do as black , because a small advantage could be converted to a win much more easily . 
+  grandmasters would basically have to re-learn endgames . 
+  not only would lots of knowledge about the results of concrete endgames be changed ( `` i know that this bishop endgame is a draw with perfect play '' ) , but players would have to re-learn all their intuition about endgames ( `` if i trade queens here , the resulting rook endgame looks pretty draw-ish '' ) . 
+  it 's all down to inertia , really . 
+  nobody wants to see their hard-earned endgame knowledge to go to waste . 
+  4-way sli gtx 1080 : for when you really want crisis 3 to ~ ~ stop ~ ~ start lagging, 
+  keep in mind that you 've probably been in hundreds of situations where a game was broken for many people , but happened to work for you . 
+  you just never noticed . 
+  he did n't really say that though . 
+  i looked up the ama , and the only place he mentioned rust is [ here . 
+  ] ( https://www.reddit.com/r/linux/comments/2ny1lz/im_greg_kroahhartman_linux_kernel_developer_ama/cmi1bg4 ), 
+   i have seen rust , and it looks nice , but honestly i like go better at the moment , and play around with it at times . 
+  so it seems he has n't actually tried it , much less given it any serious consideration for the kernel . 
+  the fact that he compares it with go also makes me think he 's looked at rust in 2012-2013 , which is * very * different from what became rust 1.0 . 
+  they meant everyone except people from great britain i guess . 
+  does anyone have a higher quality version ? 
+  surely it was n't originally posted in 360p . 
+  it 's 0.27 $ / gb , and some vendors will probably sell it cheaper still . 
+  that 's what matters in this market segment . 
+  does it support time odds ? 
+  i.e. , the players starting with different amount of time . 
+  i could n't find any apps that supported that feature last time i looked . 
+   4gb should be just enough within 3 years, 
+  remember , 3 years is a * long * time in gaming . 
+  3 years ago , the current ps4/xbone were n't even released yet , 4k was still mostly tech demos , and skyrim was the game everyone wanted to max out . 
+  1gb may have seemed perfectly fine for a builder back then , but look where we are now . 
+  it was rapid . 
+  i do n't know man , when my opponent hangs a piece on move 11 and i cruise to victory from there , i do n't really feel like i outplayed them . 
+  you need to craft them into lanterns for them to create light , at which point they can lo longer be used as food or hats . 
+  i see your point though . 
+  what an incredibly interesting position , thanks for posting !, 
+  other people have already given convincing arguments for this position being a draw , and my stockfish seems to agree : after 30 . kf2 , black simply can not make progress . 
+  i ran until it reached depth 64 , and its evaluation just stayed at 3.38 , indicating at could n't find any way to break through . 
+  it * could * still be theoretically winning through some really deep combination , but it seems unlikely in this position . 
+  fortresses like this is really one of the last weaknesses of modern engines . 
+  image being the black player , deciding whether you should trade down into this endgame , or try to play for something better . 
+  a human grandmaster would quickly identify this endgame as a extremely draw-ish , and try to go for another position with real winning chances , even if they do n't see a concrete winning line . 
+  the grandmaster might very well go on to win . 
+  stockfish , however , would just see this endgame as -3.3 and go for it over nearly anything else - including a much more dynamic and unclear position that it currently evaluates as -2.0 . 
+  given sufficient time to calculate , it would * eventually * find the concrete winning line in this hypothetical other position , but that is often too hard even for stockfish . 
+  so it ends up going for the -3.3 bishop endgame , and loses a potential victory . 
+   could this be searge just being sarcastic, 
+  yes , yes it was . 
+  depends on what you mean by `` any given chess endgame '' , really . 
+  pieces randomly put on the board ? 
+  positions in games played by humans on a certain level ? 
+  engine games ? 
+  anyway , all endgames with 7 or less pieces on the board have been solved using [ endgame tablebases ] ( https://en.wikipedia.org/wiki/endgame_tablebase ) . 
+  they are basically huge databases of every legal board position with only a few pieces left on the board , along with their exact result ( draw , black win or white win ) , assuming perfect play from both sides . 
+  6-man tablebases are available for free , so you can download and play around with them if you 'd like . 
+  this video is five years old though ... 
+  item physics are * hopefully * only calculated once per game tick ( probably 50 ms ) , regardless of framerate , so it should n't cause rendering to slow down . 
+  physics simulations of simple items falling on the ground is n't particularly taxing anyway , unless you have hundreds of them . 
+  it 's probably some specific part of the rendering pipeline that consumes lots of cpu power for some reason . 
+  interestingly , magnus carlsen said that exact thing when asked why people who start as adults struggle to become really good . 
+   it 's much safer to warp slowly through soi transition than to go through in 1x time ( off rails ) ,, 
+  why is it more dangerous to pass through using full physics simulation ? 
+  seems counter-intuitive . 
+  entering forochel for the first time is one of my most memorable gaming experiences from any game . 
+  such a spectacularly well designed zone . 
+  it 's likely that even a new version will have a security hole that is n't public yet . 
+  if a hacker keeps the security flaw to themselves , it can sit there for years . 
+   it 's a complex and unpredictable system, 
+  being complex and intertwined and hard to predict does n't mean it * cant * be predicted . 
+  it 's been pretty obvious to everyone all along ( even the leave side ) that it 's going to negatively affect the british economy in the short/medium term , they just voted leave for other reasons . 
+   things will return to normal in a day or 2, 
+  yeah , that 's not how it works , it wo n't just magically blow over . 
+  it 's not like people will be starving or anything , but for anyone running a business it 's going to be huge . 
+  maybe you do n't , but you probably work for someone who does , and you buy stuff from people who do . 
+  that 's your ( un ) educated guess , though . 
+  if it was certain that it would be -25 % in a month , it would already be -25 % . 
+  edit : downvotes ? 
+  well i 'm sorry for questioning numbers made up by a random person on the internet . 
+   no that 's also an uneducated guess . 
+  not sure what guess you 're referring to , i simply stated a fundamental fact of economics . 
+  * of course * there is a lot of uncertainty , that was the whole point of my comment . 
+   personally i am hoping they crash and burn . 
+  careful with these ideas . 
+  the eu fucking over the uk for the sake of fucking them over is not going to make * anything * better .

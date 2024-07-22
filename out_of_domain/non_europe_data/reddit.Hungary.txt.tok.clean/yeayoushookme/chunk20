@@ -1,0 +1,100 @@
+  if you have some experience in one form of a command line or another , imagemagick is a great tool to do low-level / bulk operations with . 
+  it 's also very well documented , and the default settings usually favor quality over speed . 
+  i hear it also has a good api , but i have n't used that yet . 
+  i seriously doubt your receiver has adc 's at all . 
+   so is there a master list of this kind of information ? 
+  i would much rather run in 96/24 but do n't want to sacrifice quality . 
+  you would not sacrifice quality by reducing the sampling rate from 192khz to 48khz . 
+  we still ca n't hear ultrasound , and speakers are designed with that in mind , meaning that they ca n't effectively reproduce ultrasound . 
+  there 's this thing called sampling theorem that states that any bandlimited signal can be reconstructed without any kind of loss if the sampling rate is at least twice the highest frequency present in the original signal . 
+  so while it 's true that you need a higher sampling frequency to digitally store a signal of a given frequency , you do n't need 10x the original bandwidth , 2x will do . 
+  this means that with 192khz sampling , you can accurately capture and reproduce any signal with a frequency up to 96khz ( electronically at least - but sound is a mechanical wave ) , which is more than four times the upper frequency limit of the average human ear . 
+  get the os image from here : https://developers.google.com/android/nexus/images#nakasi, 
+  push it to the device with adb if you have it , or turn on storage mode in the recovery if it has it ( i have openrecovery , i do n't know if the stock recovery can mount the emmc to the usb ) . 
+  installing it will clear the data partition . 
+  oversampling is a trick used by ad and da converters . 
+  it is used to substitute having a very complex and therefore expensive analog anti-alias/reconstructing filter with a simple and cheap analog filter combined with a digital filter operating at a very high sampling rate . 
+  it does n't mean that you have to use 5 times as much bandwidth for storage . 
+  oh , i did n't know about the safe mode . 
+  you can copy the image over that way , sure . 
+  you can install it from the recovery . 
+  because converters integrate an anti-aliasing lowpass filter which blocks signals that would wrap around the nyquist frequency ( 1/2 sampling rate ) prior to digitization . 
+  if your original analog signal was guaranteed to not contain any components above nyquist , this could be skipped , but usually you ca n't ever be sure . 
+  these were the filters i was writing about in my post one level higher . 
+  usually , i run it like this :, 
+  nano, 
+  i 'll elaborate . 
+  if you sample at 48khz , you have to filter out everything above 24khz to avoid aliasing . 
+  same thing at 192khz , you have to filter out everything above 96khz . 
+  the problem is the following : you want your * passband * ( the range that will go through the filter ) to remain unchanged right up to the nyquist frequency , and at the same time you do n't want anything above to appear at the end output of the filter . 
+  you want a filter with an ideal response , and this is difficult to even approximate with analog circuits . 
+  consider two 48khz analog to digital converters , one regular , and one 16x oversampling . 
+  the regular one has to use a filter in analog domain , meaning that it will be using resistors , capacitors and amplifiers to achieve an adequate filter characteristic . 
+  each component has a price , and it takes up space on the board , not to mention the noise the amplifiers and resistors make . 
+  the ad converter itself is fairly simple , as it only has to run at 48khz . 
+  the oversampling converter however will be using a much simpler analog filter , as it has to reach the same amount of attenuation over 16 times the frequency range as the non-oversampling one . 
+  after the simple filter , the adc will sample the signal at 768khz , and use mathematical calculations to remove everything above 24khz . 
+  this mathematical filter will be operating in the digital domain and is constrained by processing power instead of component numbers . 
+  the output of both converters is a 48khz digital signal , but as it turns out , for the same performance , the oversampling converter will be cheaper . 
+  therefore almost every audio adc is oversampling . 
+  a similar thing happens with dac 's , but instead of having to remove components of the signal that could cause aliasing , the filters have to remove ultrasonic switching noise created by the converter ( the `` stairsteps '' in the elementary-school explanation of digital signals ), 
+  one more thing : when talking about * oversampling * , i 'm talking about signal conversion . 
+  storage is another thing . 
+  an audio file with a 192khz sampling rate is n't * over * sampled , it is * sampled * at 192khz . 
+  so if an oversampling converter was used to obtain the digital signal , it had to be running well above 192khz . 
+  this audio file will ( good faith here ) contain the signals obtained by the microphones up to 96khz . 
+  the question is : should you care for ultrasound ? 
+  to me , evidence suggests that i should not . 
+  some believe they should . 
+  they usually are n't the ones who will do a double-blind test to see if they can tell the difference . 
+  a very good argument for audio files with ultrasounds is * why not * . 
+  i ca n't argue with that . 
+  storage is cheap , and it 's kinda cool too . 
+  but still , my 192khz hdtracks . flac 's will be the first to get shrunk when i run out of space . 
+   this torrent is readily available in your country, 
+  i could . 
+  i probably will . 
+  i was just wondering , as it 's more convenient . 
+  there 's no special permission to record audio * with * your consent . 
+  the same permission is requested by google search for their voice search feature . 
+  mostly yes . 
+  there 's the [ openpdroid ] ( http://forum.xda-developers.com/showthread.php?t=2098156 ) privacy suite however , which lets you do just this . 
+  just as playing a song on the radio a million times will paradoxically lead to increased record sales . 
+  i know , right ? 
+  nah son , ti89 , the black one . 
+  a calculator is n't worth its weight in shit if it ca n't do rpn . 
+  ] ( https://play.google.com/store/apps/details?id=com.bisha.ti89emu ), 
+  that 's a way to do it but the recommended way is to use bcrypt because it 's a slow-ass crypto . 
+  so why didi n't the 5d died ? 
+  checkmate . 
+  fallacy ? 
+  have you ever used ie ? 
+  [ rawtherapee ] ( http://rawtherapee.com/ ) is an incredible program for raw conversion , but it 's not designed for photo organization , and has limited functions in that area . 
+  i 'm currently using it along with organizing photos by directory structure , so i 'd also like to hear other opinions regarding organization . 
+  that is a sound card lol, 
+  if they store the parameters , exiftool should print them , so you can manually copy them into whichever program supports it . 
+  if someone has the knowledge , they could add this feature to a number of floss raw converters . 
+  you can play around with different color schemes until you find something that is politically acceptable to you , 
+  never , under any circumstance should you ever go a to m, 
+  install openwrt on the router . 
+  it 's a barebones linux distro made to expand functionality of various router hardware . 
+  if it 's supported , you can have it update a free dynamic domain name so you can find it from anywhere on the internet , and use ssh or openvpn to access your machines on your lan . 
+  if it has an usb port , you can attach a hard drive and share your family photos over the lan ( and ssh ) . 
+  install the vsftpd ftp server , and you can share files with groups of people ( classmates for example ) . 
+  you can run a torrent client on it so you do n't have to run an additional pc just to seed linux iso 's . 
+  you can add a usb sound card to it , and it becomes a streaming music player . 
+  the android audio stack is a mess , but there is a possibility that this would work . 
+  i do n't have a usb sound card , so i ca n't help you , but first i 'd try to make it work using the alsamixer frontend app that 's on the market . 
+  actually , any softphone supporting srtp or zrtp can be called encrypted , not just jitsi . 
+  it 's a standard . 
+  on android , csipsimple supports srtp and zrtp . 
+  you do n't need to enable installing non-market apps . 
+  utorrent and ttorrent are both on the play store and are excellent apps . 
+  that 's a pretty bad advice . 
+  you should never install apps from unknown sources . 
+  yes , enable it for the humblebundle apps , but do n't install anything downloaded from third party websites ( including torrents ) , as you ca n't verify who built it and what possibly malicious code was added to it . 
+  ( actually you can , but you probably wo n't go as far as matching the certificates inside the unofficialy downloaded apk 's to those inside the play store apks . 
+  and they most likely wo n't match because the code had to be modified anyway ), 
+  great , this way we can see the same image with color banding and blocky jpeg artifacts \\ end { rant }, 
+  the subwoofer would need a bigger magnet , because it has to move more . 
+  the composition fits into an ldr shot .

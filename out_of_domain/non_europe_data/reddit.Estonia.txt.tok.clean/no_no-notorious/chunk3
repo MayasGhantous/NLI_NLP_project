@@ -1,0 +1,100 @@
+  # replace old date format with new, 
+  f_split [ -2 ] = '' _ '' . join ( f ) #, 
+  return '' \\ \\ '' . join ( f_split ), 
+  old_dir = r `` w : \\ data \\ inspection \\ photos \\ 2017_01_04 \\ svp_f7590480-2a7a-45ab-8aa0-15e32eb0309c . jpg '', 
+  new_dir = remove_zeros ( old_dir ), 
+  output :, 
+  w : \\ data \\ inspection \\ photos \\ 2017_01_04 \\ svp_f7590480-2a7a-45ab-8aa0-15e32eb0309c . jpg, 
+  w : \\ data \\ inspection \\ photos \\ 2017_1_4 \\ svp_f7590480-2a7a-45ab-8aa0-15e32eb0309c . jpg, 
+  cheap . 
+  can confirm , i 've had issues like this also . 
+  which is nice . 
+  thank you very much for the giveaway !, 
+  i am a huge puzzle games fan ( do n't really play any other genres at all ) and stephen 's sausage roll seems like a great game . 
+  below are some recommendations of other puzzle games which i find very good :, 
+  * the witness, 
+  * portal / portal 2, 
+  * the swapper, 
+  * limbo, 
+  * inside, 
+  * human resource machine, 
+  * tis-100, 
+  * spacechem, 
+  * parcel, 
+  * and yet it moves, 
+  * braid, 
+  * the dweller, 
+  * hexcells / hexcells plus / hexcells infinite, 
+  * hook, 
+  * the journey down, 
+  * the talos principle, 
+  * world of goo, 
+  they are not in any particular order and many are very well known and probably played by all puzzle games fans but hopefully you 'll find something new from this list . 
+  thanks again for the giveaway !, 
+  ah , it 's a shame that i forgot to mention cosmic express , have been playing it lately and i enjoy it very much !, 
+  yes , i am entering the giveaway . 
+  i like puzzle games where the player has some sort of choice which puzzle to solve , as i am very impatient and being force to solve one specific puzzle before progressing makes using outside help too tempting . 
+  i was very skeptical about ftl and postponed getting it for a long time , i was sure that rogue-like games are not for me . 
+  how could dying and doing the same thing over and over again be any fun !? 
+  i 've never been so wrong in all my life . 
+  i mean , wow !, 
+  the game offers so many possibilities and different paths that you can take so that every death and failure ( and the few successes ) feel like a good lesson and a new opportunity . 
+  i discover something useful with each new game and i have n't even enabed advanced content yet to get a better grap at first . 
+  i want to say a very big thank you to the creators of this masterpiece for opening a whole new world in gaming for me . 
+  ftl is truly an amazing experience and i plan to spend many many hours discovering the galaxy with my loyal crew . 
+  pun in the title is totally intended . 
+  after a lot of hesitation i finally started playing ftl and without a doubt it 's one of the best games i 've ever played . 
+  replay value and diversity between playthroughs are absolutely insane !, 
+  if you guys can pull this off ( and by the looks of it so far , you definitely can ! ), 
+  then convoy will be a huge success . 
+  anyway , i wish the developers all the best , you were the first project i backed on kickstarter , though i wish i could have given more . 
+  i 've been learning python for the last 4 months and i 've gotten proficient enough to write a prototype for a project i need to do . 
+  the tool i am working on is meant to convert large amounts of data , so ultimately i need to rewrite the tool in c. 
+  i first started learning c with learn c the hard way , but after reading some critique about it , decided to switch to k&r c. well , it seems that the latter is kind of outdated and i do n't want to get into the wrong habits from the beginning . 
+  the third resource i have found is cs50 course from harvard , it has gotten a lot of praise , but after checking out problem set # 1 , i noticied that it wants me to use some custom ( cs50 ) header files , is this a recommended practice or will it derail me in learning `` pure '' c ? 
+  any tips and recommendations are welcome . 
+  am i being stupid for passing on good resources for pseudo-reasons ? 
+  hello !, 
+  first of all , i am using python 3.4.3 on ubuntu 15.04 . 
+  i have a problem in reading specific bytes from a binary file and summing them together . 
+  i get the right result , but it involves the following steps :, 
+  1 ) read bytes, 
+  2 ) convert them to an integer, 
+  3 ) append the integer to a list, 
+  4 ) sum ( my_list ) and len ( my_list ), 
+  my_list = [ ], 
+  my_bytes = my_file . read ( 4 ), 
+  my_list . append ( int.from _ bytes ( my_bytes , byteorder = ` little ' ) ), 
+  my_list = [ sum ( my_list ) , len ( my_list ) ], 
+  what i would like is to skip the conversion part because it slows the process down a lot . 
+  ultimately , i need to write the sum ( my_list ) and len ( my_list ) in an output file also in binary format . 
+  is it possible to achieve my goal in a more efficient way than what i 'm currently doing ? 
+  any help is appreciated . 
+  hello, 
+  i 've made a script which takes a binary file as input , does some conversion and writes the output to a new binary file . 
+  i am using python 3.4.3 . 
+  at the moment i store all the data from the input file in a temporary list , but since i am working with potentially very large datasets , it takes a lot of memory ( 200 + mb for a ~ 25 mb test input file , but the input files could be as large as 20 gb ) . 
+  i 've read about numpy arrays and how it could be a more memory efficient way for storing data but i have no experience with numpy . 
+  so my question is , is there any use for numpy array in this situation ? 
+  the data structure i currently have , is millions of lists , each with 2 elements , in a list . 
+  first element is a bytes object and the second element is an integer ( unpacked from binary data ) . 
+  i am summing all the integers and then packing them back into binary after i get the total count , if there 's a better way , then that would be useful information too . 
+  if needed i will post the code i have at the moment , but my main question is , would i benefit from a numpy array in this situation . 
+  thanks in advance !, 
+  `` i look at you these days , you know what i see ? 
+  i see a man without a country . 
+  not hard enough for this right here , and maybe - just maybe - not smart enough for them out there . '', 
+  * please check to make sure the name of who linked you this page is match perfect above . 
+  * please check the date on this rep page to see how long i have been trading, 
+  * 3 completed trades, 
+  * users may feel free to add any other rep here , steamtrades.com , / r/sgs rep , / r/gcxrep , etc but understand that the only fully accepted rep on / r/indiegameswap is on / igsrep . 
+  traders may reject trades for any suspicion and should feel free to [ contact the mods for background checks ] ( http://www.reddit.com/message/compose?to=/r/igsrep ), 
+  [ steam profile ] ( http://steamcommunity.com/profiles/76561198156077673 ), 
+  hello , i 'm new to this . 
+  have some steam keys from humble indie bundles . 
+  open to any offers , but i 'm especially fond of ftl !, 
+  * bridge constructor playground, 
+  * ~ ~ tower of guns ~ ~, 
+  [ igsrep ] ( https://www.reddit.com/r/igsrep/comments/3hbeiv/no_nonotoriouss_igs_rep_page/ ), 
+  my first giveaway !, 
+  i know that this game was free from the humble store last weekend , but maybe someone is still interested .

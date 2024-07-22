@@ -1,0 +1,100 @@
+  repeat ( nr ), 
+  it asks the user for a number and then prints out the phrase `` previous message '' as many times as the given number . 
+  the talos principle $ 4.50 paypal ? 
+  i know nothing about jython , but this works in python 3 , maybe it is of some help . 
+  my_list = [ ], 
+  with open ( file ) as f :, 
+  for line in f :, 
+  my_list . append ( line.strip ( ) ), 
+  return my_list, 
+  fair enough , i messed up eur-usd conversion a bit . 
+  even so , the game is on sale at the moment . 
+  i see you have 2 copies of the stanley parable , would be interested in one . 
+  ok , that 's fair !, 
+  would be interested in paypal then . 
+  accepted . 
+  confirmed, 
+  [ traded olliolli for $ 0.60 usd ] ( https://www.reddit.com/r/indiegameswap/comments/3hbfto/h_cubemen_cubemen_2_bridge_constructor_playground/cu5wfb4 ) with / u/mrgoodbytes21, 
+  sorry , did n't find any of them particularly interesting for me . 
+  i 'm only able to offer paypal , sorry . 
+  i 'm interested in warhammer \u00ae 40,000 : dawn of war \u00ae - game of the year edition . 
+  yes , that would be ok . 
+  how about $ .40 paypal instead ? 
+  okay , 6 cards are fine , no need to go through the paypal trouble if you already do n't have one . 
+  cool !, 
+  confirmed !, 
+  [ traded cubemen 1 and 2 for warhammer 40 000 : dawn of war ] ( https://se.reddit.com/r/indiegameswap/comments/3hbfto/h_cubemen_cubemen_2_bridge_constructor_playground/ ) with / u/microcody, 
+  confirmed !, 
+  [ traded tower of guns for steam trading cards ] ( https://www.humblebundle.com/gift?key=nsngkcf3yfbnvatw ) with / u/houndoomsday, 
+  warhammer \u00ae 40,000 : dawn of war \u00ae - game of the year edition for the stanley parable ( or ftl ) ? 
+  only bridge constructor playground atm . 
+  warhammer \u00ae 40,000 : dawn of war \u00ae - game of the year edition steam key for ftl ? 
+  interested in bridge constructor playground ? 
+  distro : ubuntu 15.04, 
+  cpu : intel core i3-4000m, 
+  memory : 8 gb, 
+  video card : intel hd4600, 
+  video drivers : 3.0 mesa 10.5.2, 
+  bought a copy and played to level 38 , everything worked flawlessly !, 
+  finished the game , i did n't encounter any problems . 
+  is there a plan to enhance the game with new levels and/or features ? 
+  oh , i would gladly buy and play a similar game to hook !, 
+  for the current price it 's a great game !, 
+  interested in warhammer 40 000 : dawn of war goty ? 
+  arcade fire . 
+  `` wake up '' gives me the chills every time !, 
+  would very much like mgs v : ground zeroes . 
+   thank you !, 
+  glad you liked it !, 
+  they have many great songs , my other favourites are sprawl ii and reflektor . 
+  would love to try out cs : go , been watching some streams and it looks cool . 
+  last time i played an online fps was soldier of fortune 2 . , 
+  it 's not your fault . 
+  thanks a lot !, 
+  this seems to work very good for my needs . 
+  ** brave new world , by aldous huxley **, 
+  according to the [ steam page ] ( http://store.steampowered.com/app/210970/ ) , yes . 
+  not too long ago , the author of the hexcells series released a game called ** squarecells ** . 
+  it has no `` infinite '' mode , but it 's still a great game and i 'd highly recommend it . 
+  solve the panel . 
+  yeah , checked for updates and got it !, 
+  finally , 
+  it definitely seems snappier than before !, 
+  [ all you need to know ] ( https://github.com/gorhill/ublock ) . 
+  be sure to install ublock ** origin ** . 
+  the middle ` l' is not backwards if you `` move '' the white squares , but yeah , your explanation is valid . 
+  yeah , extensions work . 
+  atleast ublock origin worked just fine for me . 
+  yes . 
+  it might take a bit of time , but eventually it will be updated . 
+  you need to pay at least $ 1 to get the steam key . 
+  apparently he is stepping down as president of fc flora and his son ( pelle pohlak ) will be the replacement . 
+  nah , would n't say so . 
+  no one else comes to mind when thinking about it . 
+  securer , maybe . 
+  but it 's definitely easier and quicker to vote sitting on the couch with your laptop . 
+  release candidate 1 . 
+  thanks !, 
+  i will be sure to check it out . 
+  i think bs4 is a better solution , it 's more flexible . 
+  and it seems that i forgot to remove re from module imports because i do n't actually use it anymore ( at first the script was a bit different ) . 
+  you specify the directory which holds your movies/tv-series and it downloads the right subtitle for the one you want . 
+  [ for the curious ] ( https://www.reddit.com/r/learnpython/comments/4t4wtp/subscene_subtitle_downloader/ ) . 
+  i have modified/extended it a bit after posting the thread . 
+  so if anyone wants an up-to-date version , just ask . 
+  reimout ? 
+  indeed . 
+  and last friday will be totally forgotten ... 
+  thank you for the tutorials !, 
+  i found them easy to follow and very good at explaining the algorithms . 
+  hopefully you 'll manage to do posts about other sorting algorithms too . 
+  `` puzzling puzzle game award '' , 
+  seems like my cup of tea . 
+  looking forward to it !, 
+  my solution , probably over-complicated , but it works for the test case . 
+  def remove_zeros ( folder ) :, 
+  f_split = folder.split ( '' \\ \\ '' ), 
+  # split date directory name, 
+  f = f_split [ -2 ] . split ( '' _ '' ), 
+  # remove zeros from month and day but not from year, 
+  f = [ s.replace ( `` 0 '' , '' '' ) if nr ! = 0 else s for nr , s in enumerate ( f ) ],

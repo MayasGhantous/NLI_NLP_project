@@ -1,0 +1,100 @@
+  euthanasia is sometimes ( maybe even usually ) preferred . 
+  you hear doctors complaining about not being able to euthanize suffering patients all the time . 
+  sorry , i did a 5-minute ` shop on the whole thing , and gimp was being buggy , so the cancer part did n't turn out as well as i wanted it to . 
+  ( also , there 's a lot of pixellated junk everywhere that i could n't get rid of . ), 
+  originally , it looked like [ this ] ( http://i.imgur.com/filqhly.jpg ) . 
+  the area of each box . 
+  who said anything about 3 times a day ? 
+  thanks !, 
+  i 'll check out the documentary . 
+  an epicycloid is the path traced by a point on a circle rolling around on the surface of another circle , as it rolls . 
+  a hypocycloid is the same thing , except the circle is rolling on the inside , not the outside . 
+  usually , the amount of cusps that the cycloid has is the numerator of the simplifed ratio of the radius of the static circle to the radius of the rolling circle ; e.g. , if you were making an epicycloid and your inner circle had a radius of 2.4 whereas your outer circle had a radius of 1 , 2.4 = 24/10 = 12/5 , so it would have 12 cusps . 
+  the kick here , in the linked image , is that the ratios of the radii of the two circles is irrational , so the cycloids have an infinite amount of cusps ; i.e. , they fill the whole space . 
+  in fact , does n't it make a dense set ? 
+  edit : for clarity, 
+  i walked right into that one , did n't i ? 
+   [ e. coli is ] , arguably , the most-studied organism in history . 
+  humans probably have it beat . 
+  what are you talking about ? 
+  i was talking about in the linked image . 
+  in case you did n't know , there 's a little delete button under comments . 
+  mobile apps have a way to delete comments , too . 
+  be careful out there !, 
+  i thought you needed a few smokes when starting out before you can properly get high ? 
+  ( i 've never tried it myself ), 
+   obvious lies, 
+  here 's the regex patterns for anyone who wants them :, 
+  s / \\ [ cheap ethnic food \\ ] / food /, 
+  s / \\ [ contextual assasin \\ ] / assassin /, 
+  s / \\ [ violent countryball nemesis \\ ] / nemesis /, 
+  s / \\ [ countryball major city \\ ] / city /, 
+  s / \\ [ countryball location \\ ] / location /, 
+  s / \\ [ different cheap ethnic food \\ ] / food /, 
+  thank you for making this easy . 
+  i like the chart a lot , but i find it easier to remember the amino acids by their functions :, 
+  - proline : actually imino , and thus sucks at forming hydrogen bonds . 
+  makes a turn . 
+  useful for tight and stiff alpha helices , called polyproline helices , with 3 aa/turn . 
+  - glycine : very small ; only a hydrogen . 
+  does n't ever get in the way . 
+  found a lot in alpha helices , especially polyproline ones . 
+  you can also use it for hinges . 
+  - cysteine : a heavier serine , forms disulfide bridges . 
+  bonded alter ego has infuriatingly similar name `` cystine '' . 
+  also makes a decent nucleophile . 
+  has heavier sister selenocysteine . 
+  - histidine : ring , with a pka close to 7 . 
+  for this reason it usually has a proton available for general acid catalysis . 
+  usually part of the catalytic triad . 
+  - lysine : long chain with a positive nitrogen at the end . 
+  can be methylated to be made longer , or can be acetylated to turn off the charge . 
+  hangs outwards in alpha helices . 
+  ubiquitin binds to it . 
+  archaea also have a version of this capped with a ring called pyrrolysine . 
+  - serine : great nucleophile , usually part of the catalytic triad . 
+  frequently found in proteases . 
+  side chain is just methanol . 
+  - asparagine : serine 's best friend . 
+  not just a nucleophile but great for hydrogen bonding in beta sheets . 
+  side chain is just a carboxyl group with a nitrogen instead of a carbon . 
+  - aspartic acid : asparagine 's dopy brother . 
+  precursor to a lot of amino acids but otherwise does n't do much besides sometimes general acid catalysis . 
+  - tryptophan : fucking huge , side chain shaped kind of like a purine . 
+  do n't use unless really good reason . 
+  i 'm getting tired of writing these so i 'll stop , but do you see what i 'm saying ? 
+  you can establish an identity for these guys and you 'll remember them . 
+  if you 're taking biochem then you probably wo n't have time to do so , but if you 're like me and the amino acids are need-to-know information for you then you 'll have much more success thinking of them this way . 
+  edit : accidentally said glycosylation instead of acetylation for lysine . 
+  sorry for spreading false info !, 
+  magic would be a career . 
+  some people want to do things with their life other than magic . 
+  everybody has a little magic proficiency but just the most basic spells . 
+  there are also hobbyists . 
+  the only people who know enough magic to be relevant are the career wizards/witches though , and they 're not everybody . 
+  i have recently begun having problems with ` pulseaudio ` as well , i think because of a recent kernel update . 
+  it ended up not working at all . 
+  i uninstalled it and tried oss , but then i realized that oss does n't work with chromium , so i uninstalled that too and just went with alsa . 
+  it 's working now . 
+  i am only using a laptop , where the only relevant bits of audio are the speakers , headphones , microphone , and displayport , so i 'm not sure how applicable this is to you , but it 's my two cents . 
+  hmm , it 's been a while since i installed arch , but i do n't remember anything out of the ordinary . 
+  the most major problem with it was that syslinux would n't work with efi boot ( and , for some reason , i do n't remember why , i did n't want to use grub ) , so i had to activate bios legacy mode on my motherboard . 
+  i installed the ` tp_smapi ` kernel modules immediately , but they 're not critical to the function of the system . 
+  ( also , they have n't been doing a damn thing when it comes to ` hdaps ` , unfortunately . ), 
+  i might be missing something , but i could n't for the life of me remember . 
+  worth noting : if i update my system , and then , using my still-functioning computer ( because i only get problems if i reboot ) , i reinstall ` linux ` and ` udev ` , and then ` mkinitcpio - p linux ` , then if i reboot , it has exactly the same problem . 
+  for some reason , first i have to reboot , and then i have to reinstall the modules . 
+  oh , that makes sense . 
+  i installed ` dkms ` a while ago , mainly because of bumblebee . 
+  so , every time i update my kernel , i should run ` dkms autoinstall - m problem_module - k new_kernel ` ? 
+  is there any way to automate this , maybe through ` yaourt ` ( or ` pacman ` ) ? 
+  but i 've already done that a while ago . 
+  a long while ago , in fact . 
+  i assumed that this was supposed to be in addition to that ( whatever that was supposed to accomplish ) . 
+  edit : then maybe i should replace ` nvidia ` with ` nvidia-dkms ` ( assuming ` nvidia ` is the problem ) ? 
+  trying it now . 
+  edit 2 : okay , installed ` nvidia-dkms ` . 
+  we 'll see how it goes next kernel update . 
+  thanks for your help in the meantime !, 
+  it 's very easy to upgrade . 
+  that 's the whole shtick of the mac pro line .

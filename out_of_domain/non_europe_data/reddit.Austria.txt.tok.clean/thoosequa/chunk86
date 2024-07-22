@@ -1,0 +1,100 @@
+  for example quicksort becomes increasingly worse the more the input array is already sorted, 
+  line 38 : if ( i = 30 ) is an assignment , not a comparison . 
+  thank you for your contribution to / r/austria . 
+  however , your post goes against [ the reddiquette ] ( http://www.reddit.com/wiki/reddiquette ) or [ reddit content policy ] ( https://www.reddit.com/help/contentpolicy ) and has therefore been removed . 
+  it is . 
+  if you allocate memory using new a possible exception could prevent you from freeing that memory again . 
+  not only is it a meaningless term , but there are also no classes in c, 
+  soon ^ tm as long as he has n't finished it i am not convinced that he will actually do it . 
+  he has a tendency of not finishing his series , and there is a lot of `` we will touch upon that later again '' in his videos, 
+  i wo n't , his c++ strings video starts with `` before you watch this video you should watch the video about pointers and the video about arrays '' . 
+  what ? 
+  why would i need to understand arrays and pointers to use std : : string ? 
+  oh thats right , because he does n't teach how to use std : : string , at least not up until two thirds into his video, 
+  as a matter of fact , you want to use \\ n far more often than std : : endl . 
+  server name : * atmonys server *, 
+  website : [ atmony forums !, 
+  ] ( http://www.atmony.com ), 
+  server address/ip : **mc.atmony.com **, 
+  game play type/s : smp, 
+  description : * smp medieval roleplay *, 
+  rules :, 
+  1 ) no swearing, 
+  2 ) no griefing, 
+  3 ) no modifications of any kind, 
+  4 ) no advertising, 
+  5 ) do not spawn pvp at / warps, 
+  6 ) do not place banned items, 
+  7 ) listen to all staff members, 
+  8 ) do not ask for op excessively, 
+  9 ) do not build too close to others, 
+  10 ) respect everyone, 
+  11 ) atmony & loki may enforce rules without notice or contest, 
+  12 ) do not use racism/homophobia/direct insults in / ag, 
+  breaking any of the above = ban, 
+  server hardware :, 
+  cpu : amd opteron ( tm ) processor 6272 ( 32 cores ), 
+  plugins :, 
+  custom atmony plugin , pvptoggle , mcmmo , essentials , survivalgames , showcase, 
+  owner/admins/moderators :, 
+  * head admins : strawberrygashes , sarah488 , skylord_yare , blueeagle851, 
+  other : anti griefing / hacking plugins :, 
+  alright , after about 5 threads complaining about the weapon sway and a few additional comments on here as well as the bistudio forums about how shit bohemia is , let 's get a thread going about the positive sides of the bootcamp update . 
+  first off obviously the main part of the update is the bootcamp scenario which , while probably not so exciting for experienced players , is a great introduction into the game for newcomers . 
+  it 's not a standard `` go there do this '' tutorial , it creates a prequel to a pretty decent campaign , which is pretty cool how they pulled that off . 
+  continuing i like the vr , it 's a great tool to mess around but the real deal here is the virtual arsenal . 
+  creating loadouts for missions has always been quite the hassle . 
+  virtual ammobox is not really a suitable alternative for those who play in larger groups and creating loadouts manually using class names took up way too much time . 
+  virtual arsenal is probably one of the best implementations into the main game after zeus . 
+  let 's stop bitching about the negative sides of the update , people who come here and do n't own the game will get the impression that the bootcamp update made the game unplayable , but thats simply not true , so please stop spreading only the negative sides , point out what 's good , but raise awareness to the devs about what needs to be improved . 
+  thank you, 
+  a bit of pre-information about me : i am a physics student , learned some java a while back and because i am starting software development as a second subject on uni i wanted to get back into programming and more it relevant stuff . 
+  i have heard about raspberry pi and after a bit of research i figured it would be a great way to learn the ins and outs of basic and advanced coding . 
+  now i got my pi yesterday and bought today every piece of equipment i needed alongside it ( sd card , a micro usb power supply and a hdmi cable ) installed the recommended raspberian os and now im pretty much set and good to . 
+  i already played around with what comes with the os and i am completely astonished on what this little piece can do . 
+  however now i am pretty much stuck , i saw a few websites listing ' x things you can do with the pi ' but none was really giving me the information i wanted . 
+  so i am asking you dear redditors , how should i start off ? 
+  i am eager to look into and learn any and all programming languages required . 
+  looking forward to any replies and a big thank you . 
+  hello once again , i posted a couple days ago about projects for the pi and from you friendly redditors i got a lot of ideas , most of them are for educational purposes . 
+  recently i downloaded the weather-util program , what i want to do now is a scheduled task for the pi to run the weather command with a parameter and write the outcome into a textfile / textfiles . 
+  i figured the best way to realize the scheduled task would be a cron job that just runs `` weather xxxx '' ( xxxx being the location ) , but what would be the best way to write the output of the console into a self made log file ? 
+  getting closer to starting a proper project on my pi i have decided to use java . 
+  i like python but i am just more advanced with java as of now and i would like to use it instead of python for now . 
+  i saw that java and javac are already on my pi both being on pretty much the latest versions . 
+  i 've tried to use google to determine which ide i should use and the opinions i got were pretty much balanced out , the only main message i got was `` whatever you use , they are both pretty heavy on the pi and it is recommended to just code on your desktop and transfer it to the pi and execute it there '', 
+  anyone got experience , opinions and so on with coding in java for the pi and recommends a solution for this problem ? 
+  after buying the pi and all the peripherals needed i am looking towards getting some additional hardware , such as a breadboard , a pi-t-cobbler and a ribbon cable . 
+  resistors , transistors , leds and other small stuff are for me easily buyable as i have a hardware store around the corner . 
+  i 've seen a few kits on amazon that have all the above mentioned items , but usually they come either with a pi ( and i really dont need a second one ) or they come with all the peripherals included ( a usb power device , sd card w / reader , etc ) . 
+  if anyone could point towards some kit that does not include the things i already have and use or towards maybe a shopping list , that would be awesome , thank you, 
+  so i may or may not have bumped into a situation : i use this book to learn how to pi and ive been in a chapter , in which you hoop up the pi to a breadboard with a led , wrote a short script that makes the led light up every second and now ... 
+  it kind of doesnt stop because of a while ( true ) loop . 
+  any ideas how to safely shut down the pi ? 
+  i was thinking to open up a second ssh terminal and just sudo reboot it , is that safe ? 
+  so i 'm on adafruit right now browsing through their tons of accessories for the arduino and raspberry pi , mostly their sensors is what gets me the most at the moment . 
+  my question regarding these sensors : how well documented are they about their usage ? 
+  i see a lot of temperature , humidity , ir sensors etc and i was wondering if they come with a detailed manual on how to use them , if the internet tells you more about how to implement on your pi and so on . 
+  after browsing adafruit and it 's tons of peripherals and tutorials for those peripherals i wanted to buy myself a bmp180 and a few other shiny things but unaware that adafruit has it 's home in the states i realized that the shipping costs were just as much as the price of the items themselves . 
+  i was wondering if there are any euro retailers that sell adafruit or comparable items . 
+  i know conrad sells a few adafruit peripherals but usually puts another 10-20 euros on top of them . 
+  thank you in advance !, 
+  so netflix was released yesterday in austria so naturally i got myself an account and already started enjoying the entertainment provided for my ps4 . 
+  today i decided i would like to have the same enjoyment in my living room , where i have an old sony bravia hooked up with a bpd-s185 player , the thing has internet and supposedly supports netflix . 
+  i hooked it up to my router , updated the firmware and everything but unfortunately along all those apps i got downloaded for it now , no netflix . 
+  my question now : is the regional lock still applying to some devices ? 
+  can i manually download a netflix client from the psn or any other source and transfer it via a usb flash drive to my blu ray player ? 
+  or am i screwed and i ca n't get netflix working on the thing anyway and i need to shoot for a whole new device ? 
+  looking forward to any replies !, 
+  first semester c++ here , we were given multiple assignments that all evolve around manipulating numbers ( i.e. 
+  reading the digit in a position of a number ; switching order of numbers ; splitting numbers into their digits ; etc ) . 
+  my first thought was using strings but as it appears we are supposed to use int and double as only variables . 
+  i was wondering are there certain functions that deal with manipulating integers in such a way ? 
+  a link to a reference would be more than sufficient . 
+  thank you !, 
+  edit : aaaaand fucked up the title ... 
+  we 're doing pointers in our coding class at the moment , and i ca n't help it but being confused on how to use them and their use in a standard program . 
+  i 'd heavily appreciate if someone could give me an eli5 . 
+  still a c++ beginner , but as my course progresses so does the difficulty of our assignments . 
+  in class we have spoken about dynamic memory and how it can be beneficial when using arrays , because i had some issues with this subject i referred to cplusplus.com for an introduction on dynamic memory . 
+  while the syntax is still a bit mind boggling i can somewhat understand how it works and what it does .

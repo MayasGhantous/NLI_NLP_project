@@ -1,0 +1,100 @@
+  these are n't anywhere close to 2 % , 5 % or even 10 % differences . 
+   but if you do a little investigation on the topic , you 'll find that, 
+  that majority of people who do benchmarks do n't understand bottlenecking and get absolutely meaningless results . 
+  or worse , you have people like you who do n't understand it either and see no difference without understanding why there is n't a difference but that does n't stop you spreading the wrong information further . 
+  if you have single channel 2133mhz ram it 's probably bottlenecking, 
+  makes sure the xmp does n't increase bclk and if it increases dram voltage to 1.35, 
+  i 'd recommend waiting for zen . 
+  i5-6500 , z170 board and 3000mhz ram would be under $ 400 and that 's pretty mild upgrade to what you have . 
+  first i concede that the delivery was terrible . 
+  needless to say , it 's frustrating trying to inform people about something just to enter a thread where the misinformation i 'm dispelling gets to the top . 
+  that said , i do n't know why do you feel insulted . 
+  sorry but saying you 're wrong is not an insult , even if i could 've been more tact . 
+  making half of the post complaining about being insulted was n't warranted and concluding it with me being degenerate just makes it ironic . 
+  also , no idea how you came to conclusion i agree with you . 
+  the whole argument is about people taking gpu bound scenarios and basing ram performance on that . 
+  the fact that you realize that the benchmarks showing 2 % improvement are meaningless yet are happy to use them as basis for your argument makes this even worse . 
+  it 's like testing gpus on a bunch of 2d flash games and then concluding that buying a better gpu is basically meaningless because in majority of games a 1080 performs identically to a 460 but if you do a little investigation you 'll see that in few games like witcher 3 it has better performance . 
+  yet for some reasons this twisted logic is constantly applied to ram/cpu performance . 
+  it should , single channel pretty much cripples the cpu to performance levels [ below i3 ] ( http://i.imgur.com/qhdgolg.png ) with dual channel ram, 
+  you need fast ddr4 ram and overclocked 4 + core to get a meaningful upgrade from what you currently have . 
+  what exactly is your situation now , pc running but screen not working or boot loop ? 
+  to be honest it 's probably not worth buying a new motherboard for it because the cpu will probably bottleneck crossfire anyway, 
+  budget ? 
+  your cpu will bottleneck modern gpus but look into rx 470 , rx 480 and 1060 6gb . 
+  edit : i 'd probably recommend getting a 470 at most , should be adequate even if you eventually upgrade your cpu and probably the best value . 
+  i 'm not sure how good of an indicator is 3dmark but your cpu should definitely bottleneck a 1060 . 
+  a 4gb 480 should be around that price . 
+  there several headers ( how many and placement depends on mobo ) that you can use, 
+  was this just in bios ? 
+  it sounds like unstable oc triggering backup bios on boot . 
+  * turn off psu, 
+  * hold the power button for a whike, 
+  * turn psu back on and turning it on, 
+  to reset cmos , http://i.imgur.com/tpok0yt.png you have to short those 2 pins, 
+   i operate under the premise that people will aim for a certain fps and then turn up settings till they are gpu throttled . 
+  it 's what people do . 
+  thus faster ram in these cases often does n't yield much benefit . 
+  do you not operate under this assumption ? 
+  the problem is n't operating under assumption that people will aim for a certain fps , the problem is that your assumption is that the target is 60fps in a gpu heavy aaa game . 
+  despite what gpu reviewers might make it look like , the cpu ( + ram ) / gpu demands of an aaa action game at 60fps ultra is almost a niche case compared to what majority of people play . 
+  do you think it applies to mmos ? 
+  nope , cpu bottlenecked . 
+  online shooters with actual people around ( and not bots that are used in benchmarks ) ? 
+  cpu bottlenecked at any decent framerate ( and no one wants to play fast paced games at 60fps ) , mobas and strategy games ? 
+  cpu bottlenecked again . 
+  various simulators like ksp or dwarf fortress ? 
+  yep , you guessed it , cpu bottlenecked . 
+  and finally , if you think people with 144hz monitors will pick 60fps ultra over 120fps medium in those gpu heavy aaa action games ( making gpu less of a factor and cpu/ram a bigger one ) , well i have news for you . 
+  so your `` advice '' put into perspective : small amount of already a small amount of games will see minor improvement . 
+  the rest of that small amount will see good improvement , but all of this only applies if you do n't have a high refresh monitor . 
+  pretty much everything else will see great improvements ( especially for the cost ) , but you leave that out . 
+  to put it simply , your cpu in those 3.9 ghz does a lot less work compared to the 3.5 ghz new intel cpu . 
+  this is called [ ipc ] ( https://en.wikipedia.org/wiki/instructions_per_cycle ) . 
+  this is even bigger problem because single-threaded performance ( ie . 
+  how fast is each individual core ) tends to be the king in games as they tend to be generally poorly threaded . 
+  this means that even an i3-6100 ( a 2 core with 4 threads ) will perform a lot better than your cpu in majority of games because it has a lot better single-threaded performance compared to your cpu which has 4 slow cores that a lot of games ca n't even fully utilize . 
+  my guess is it does n't consider ultra m. 2 to be m. 2, 
+  if it 's 16x and it 's not a titan xp then there wo n't be any difference, 
+  the 480 is future proof compared to 1060 . the initial 1060 dx11 advantage was largely eliminated with drivers as well ( [ from ~ 12 % to ~ 2 % ] ( http://www.hardwarecanucks.com/forum/hardware-canucks-reviews/73945-gtx-1060-vs-rx-480-updated-review-23.html ) ) . 
+  fury has hbm1 , generally all other cards ( besides fury , fury x and nano ) use gddr5 still with hmb2 being expected from rx 490 . 
+  all cables should be included . 
+  what cooler are you using ? 
+  you really want dual channel ram with skylake . 
+  i do n't know you storage needs but i always recommend considering whether you need 1tb hdd since saving the money and getting a 256gb ( or even 500gb ) ssd will probably give you better day to day performance ( especially since 120gb ssd is very limited nowadays ), 
+  the psu is adequate but it 's not a bad idea to spend extra for something like evga g2 . 
+  the increased cost is worth it in the long run , for both higher efficiency and better longevity . 
+  it looks like the stock vid is way too high for what the cpu actually needs hence why you 're getting high temps . 
+  you should be able to set the voltage a lot lower in bios and lower your temps . 
+  edit : 1.34-1 .38 v is like 4.6-4 .7 ghz oc territory, 
+  well 1080 is more powerful so obviously it will perform better . 
+  though if you ask whether it 's worth its , that 's a different question , especially with rx490 and 1080ti on the horizon . 
+  that said in general it really depends how good do you want your games to look and what fps do you want . 
+  for 1440p60hz a 1070 is adequate ( do n't expect maxing latest and greatest but will get there with some details lowered ) . 
+  i think the prices will depend more on how rx490 turns out , i doubt nvidia will lower 1080 price if they wo n't have to . 
+  did you try increasing dram voltage ? 
+  i 'd recommend investing $ 10-20 into at least a low end z170 motherboard . 
+  you 're not really saving much money by buying a b150 chipset anyway and pairing a 1070 with a 2133mhz ram at this budget is kind of ridiculous . 
+  prime95 puts out higher heat than you 'd get out of normal use . 
+  as long as you stay under 75-80c during normal load you 're fine . 
+  right now you 're pretty much running the system overvolted for no reason which could mean just high temps and noise with good motherboard , but it could be bad for both the cpu and mb if you happen to have a lower end z170 board with poor vrm . 
+  i can see the temps being realistic ( depending on airflow and ambient ) with those voltages and h7 though that 's not really very informed opinion from me . 
+  that said changing paste does n't hurt anything so go for it . 
+  do the 2133mhz sticks work individually ? 
+  it 's not clear from the op ( or i ca n't read ) if you 're trying to run 10gb without trying 8gb . 
+  if you have n't yet , confirm whether both 1x4gb sticks work alone by themselves , then if they work 2x4 ( makes sure you 're using the correct dual channel position on your mobo , some have abab setup and others have aabb ), 
+  makes sure you 're running latest bios . 
+  i do n't think the 10gb setup is even worth trying to make work since the sticks will run at the speed of the slowest ram and you 're also losing dual channel configuration which will make the ram so slow compared to just 2x4 that it 's not really worth those 2gbs . 
+  it should n't , but again , it 's just a waste to run it at those voltages at stock speeds . 
+   you do n't seem to be playing anything super cpu intensive . 
+  what ? 
+  most of the games he listed are completely dependent on cpu frequency with basically little to no gpu requirement, 
+  although i very much agree that op should overclock first and also wait for next gen of cpus rather than buying one now , i still do n't understand how do you consider a game that pretty much directly scales with your single threading performance with no upper limits ( paradox games and dwarf fortress are great examples of this , the faster your cpu is the better performance you get , regardless whether a weaker cpu is `` capable '' or not ) to not be `` super intensive '' . 
+  for me that 's the definition of super intensive . 
+  i can definitely see the 667mhz ram being a pretty big bottleneck in that system for those cpu dependent games so i think op would see a decent performance jump from his ( even oc 'd ) system to oc 'd 6700k with fast ram but i would still recommend waiting for what the competition brings . 
+  so if i understand it correctly , the 2x4 and both 1x4 sticks individually ( without the 2gb one in ) get you into bios but not into 3 different os ? 
+  what kind of framerates are you getting ? 
+  assuming you 're talking about mp , you could try lowering resolution to determined if you 're cpu bottlenecked ( your fps or at least the drops wo n't improve if that 's the case ) , in which case ocing , faster ram and dual channel ram should help your performance . 
+  if you 're not cpu bottlenecked , you can always lower details or resolutions further . 
+  the chip should n't really be limited , it just states stock ram settings . 
+  what the actual limit is depends on the motherboard ( which as you see is 2400 ) .

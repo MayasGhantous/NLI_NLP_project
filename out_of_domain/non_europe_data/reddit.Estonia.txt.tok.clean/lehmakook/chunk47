@@ -1,0 +1,100 @@
+  after looking a bit more into latsbrother 's / estonedia 's posts , perhaps he is british after all . 
+  but i still think he 's on way too much drugs ... 
+  as far as i know they use four [ thrustmaster outboard thrusters ] ( https://www.thrustmaster.net/out-drive-propulsion-unit/ ) . 
+  these will keep the barge in one place in 2d on the surface , but i do n't think they can do anything about rolling or up-down movement due to waves . 
+  they do n't have any vertical thrust , and it would require * massive * amounts of thrust to lift the whole side of the barge on the wave through side . 
+  i guess there is a slight delay when transmitting video from the ship , and the explosion destroyed the antenna ? 
+  doubtful , i think that 's just the last video frame the ship got to send off before the antennas or cameras were destroyed . 
+   redditor for 7 years, 
+  django signals would not be suitable . 
+  django signals are * synchronous * : for example , a post_save signal is called when a model is saved , in the same thread , before continuing with the next line of code after model.save ( ) . 
+  signals are for organizing source code in a more modular way , but they do n't provide a background job queue . 
+  for background jobs , two options would be :, 
+  * write a custom django management command ( = a command line script ) , and call it from usual cron . 
+  works perfectly well if you want to run it every day or every hour . 
+  * install and run an asynchronous job queue . 
+  these listen for messages from the web server , and run functions in another process . 
+  you can react to messages as soon as possible without tying up the web server , or add delays , or add regular scheduled jobs , etc. 
+  the popular options include :, 
+  * [ celery ] ( http://docs.celeryproject.org/en/latest/index.html ) - very feature-rich and configurable , but a bit tricky to deploy . 
+  * [ redis queue ] ( https://github.com/ui/django-rq ) - a bit less features , but a lot easier to install and deploy . 
+   because of it 's simplicity , i think i will be going through this route . 
+  its easy to code and there 's basically no additional setup , whereas reddis and celery sound very cool but need time just to get up and running . 
+  that 's a reasonable choice . 
+  a background job queue is required if you want to react to user activity in the app asap - fire off emails , image processing etc immediately after an user does something . 
+  but for things that regularly , cron is perhaps a little bit easier to setup . 
+  cron does n't have a `` queue '' though - so make sure that your script always completes faster than the interval , otherwise you might get two copies running at once . 
+   i could even have another machine just to process management commands in a scheduled manner if ever it gets to be too big to handle for my frontend server , right ? 
+  sure . 
+  but if it gets too slow/big to handle , then usually the time is spent in :, 
+  * waiting for database queries - upgrade the database machine or optimise the queries instead ,, 
+  * waiting for external apis like email - run multiple processes in parallel . 
+  unless your script is actually spending its time doing cpu calculations , moving it elsewhere wo n't have much of an impact . 
+   how can i know this ? 
+  is there a way for me to keep tabs on ` simultaneous crons ' ? 
+  because maybe my crons will be fine now , but in 6 months down the road when i have 5000 more users , it might be too much . 
+  not automatically - you can add some of your own checks or run time logging into your script . 
+  but if you get that far , it 's probably time to switch to a proper job queue . 
+   i 'm on aws , so you actually mean upgrading its specs for it to go faster ? 
+  probably yes if you are using the amazon rds . 
+  if you are running your own database on ec2 , you might want to review it 's config for performance tuning after upgrading the specs as well . 
+   i thought django automatically did multithreading unless told not to ? 
+  am i missing something here ? 
+  * django * itself does not do any multithreading . 
+  web app servers like uwsgi or gunicorn are usually configured to start up x processes ( with x identical copies of django ) , each with y threads handling web requests . 
+  these read and write from the same database , but as far as django itself is concerned , each running copy is independent . 
+  the same applies for job queues and command line scripts . 
+  you can configure a job queue to have z parallel worker processes , each of which loads an identical copy of the source code . 
+  and if you want to run multiple copies of your script at the same time , you have to start multiple copies yourself . 
+  why so angry ? 
+  people who ask about salaries are not looking to become partners with their own clients at small law firms . 
+  they are looking to start as an assistant / junior helper drone at large firms . 
+  test stands might be designed to protect the surrounding buildings and people , but an engine explosion is still going to make quite a mess . 
+  if your test stand looks like [ this ] ( http://2.bp.blogspot.com/-q6cwwfdfe_0/veiihqkhahi/aaaaaaaab6g/v4wc2aqgwqk/s1600/chapter%2b22%2baftermath%2bof%2bstage%2bii%2bbattleship%2bexplosion%2b200%2bdpi.jpg ) or [ this ] ( http://www.parabolicarc.com/wp-content/uploads/2014/06/scaled-composites-explosion-02.jpg ) , it 's going to delay testing new good engines for a while . 
+  both the risk limits and the calculated risks seem implausibly low for me . 
+  the allowed risk limit is 1 casualty per 33 000 launches . 
+  the calculated risks were 1 per 8500 launches if the base is fully manned , and 1 per 11700 launches if nonessential personnel leave . 
+  safety has certainly improved since the 50s and 60s , but it seems hard to believe that you could launch and land * 10 000 * times without a single deadly accident , that 's more than the total number of rocket launches ever made . 
+   bitcoin is untraceable !, 
+  i think you misspelled `` all transactions are public forever '', 
+  i just googled `` rocket engine test stand explosion '' to see what happens myself . 
+  the first is from a scaled composites explosion that killed 3 people : http://www.parabolicarc.com/2014/10/30/apollo-ansari-hobbling-effects-giant-leaps/, 
+  and the second from saturn v testing : http://history.nasa.gov/mhr-5/part-8.htm, 
+  having these policies is fine . 
+  but they should not be allowed to advertise `` unlimited '' if there actually are fair use limits . 
+  put something like `` 500 gb per month at full speed , more at slow speed '' into the advert then , and make the broadband providers compete both on speed and data caps . 
+  this is exactly what https://guardtime.com/ does . 
+  you hash your documents , send the hash to them , they hash everyone 's hashes together in a chain , and publish the head in newspapers : https://guardtime.com/photos/ft14-2.png, 
+  no miners or massive datacenters needed , and faking a signature would require destroying all paper & digital copies of the newspaper published after the date . 
+  they just recently rebranded to use the word `` blockchain '' , even though they started with it a year before bitscoin ( note the date on the financial times photo ) . 
+  wood gas audi : https://www.youtube.com/watch?v=kw7rjmnqk4o, 
+  ha , not eager to head into the middle of the forest with strangers on first meet ? 
+  the patent office is overworked , and the people there do n't have ( and can not be expected to have ) full understanding of what is or is not obvious in any field of engineering . 
+  as the most hilarious examples of bad patents , see [ entertaining a cat with a laser pointer ] ( http://www.google.com/patents/us5443036 ) and [ swinging sideways on an otherwise usual tree-swing ] ( https://www.google.com/patents/us6368227 ) . 
+  every time i 've got/updated my mobile id sim card , they have asked for and made a photocopy of my usual id card . 
+  you also need the usual id card to activate the mobile id sim online . 
+  but i do n't know if it 's required during the purchase - i think the photocopy is just made for identification purposes , in case someone complains about identity fraud , and any other passport might work there ? 
+  sizes of some dwarf planets : http://www.mudgeeobservatory.com.au/misc-images/kbos.jpg, 
+  eris is just a tiny bit bigger than pluto . 
+  formsets are for tables with multiple identical forms , not at all useful here . 
+  sounds like http://django-formtools.readthedocs.org/en/latest/wizard.html would be a great fit . 
+  formtools used to be part of django , but was moved into a separate package starting with django 1.8 . 
+  you 're joking , but here is an actual bug report : [ ca n't sign in to google calendar on my samsung refrigirator ] ( https://productforums.google.com/forum/m/#!msg/calendar/uhfpcwo0x0c/paa4iqnen9ij ), 
+  i 'll try answering some of the questions . 
+   on the other hand operating as fie leaves me with little money ( after 33 % tax ) but then it works the same as if i was employed by a company ? 
+  yes . 
+  the total taxes on fie income end up being the same as the total employer + employee taxes . 
+  for the same net salary taken out , the total cost with taxes is the same . 
+  ( maybe with some tiny few % differences , not sure about unemployment taxes that total 2.6 % ), 
+  the best calculator to use for employment taxes is http://palk.crew.ee/ . 
+  there the important terms are `` kogukulu '' - total cost to the company , `` brutopalk '' - salary excluding social tax but including income tax , and `` netopalk '' - net payout to the employee . 
+  social tax is usually seen as the employer 's responsibility and income tax the employee 's one , but as a fie or your own o\u00dc , it makes no difference of course . 
+   also , how would i get health insurance if i did n't receive a salary and pay social taxes for it ? 
+  usually you would not . 
+  pregnant women who send a doctor 's note still get it for free until the baby is 3 months old . 
+  it is also possible to pay about 150 eur/month to get it without other reasons - but only if someone has been paying usual social tax for you for at least 12 months out of the last 24 months . 
+   do i get health insurance even if i have no work for a couple of months ? 
+  if you are a fie , you still have to pay social tax based on the minimum salary rate even if you have no work . 
+  but you do still get health insurance for it . 
+   as i understand operating as o\u00dc makes sense if you do n't pay yourself a salary , so that you can save yourself social tax , right ? 
+  sort of yes , but it 's questionable .

@@ -1,0 +1,100 @@
+  for example there is implementation for collections which compiles to delegates ( i.e. 
+  . net code ) . 
+  there is implementation for xml which allows you to query xml . 
+  what is more interesting is that this syntax can compile not only to . net code but to a data structure ( expression tree ) which can be processed by a provider . 
+  the provider can then generate whatever is needed for the target platform . 
+  most popular use case for this is providers in orms generating sql but there are also many other providers like for example linq to twitter api . 
+  the benefits of linq are, 
+  - unified syntax . 
+  you learn how to query arrays =  you know how to query twitter api . 
+  - strongly typed c # semantics . 
+  this means you get your . net objects from the orm with intellisense and type checks when you write queries which is somewhat better experience than what sql offers . 
+  of course these abstractions sometimes leak . 
+  for example a provider needs to document if it will use c # semantics or store ( i.e. 
+  database ) semantics when comparing dates . 
+  note that you do n't need to use the query syntax to use linq . 
+  you can use the methods with lambda expressions and get the same effect . 
+  in the case of linq to xml you dig in the hierarchy through the oop properties for example from element in xmldoc.children select element.children ... ( pseudocode ) . 
+  as i said the abstraction leaks and my personal advice is to drop to the lower level as soon as you feel the abstraction leaks . 
+  however in practice there is a lot of work that does not make the abstraction leak . 
+  do you also oppose the introduction of lambda expressions in java ? 
+  if you do n't then it is not new syntax as it is the same lambda expression syntax introduced for other reasons . 
+  if you do i feel this is a question of much larger discussion but i 'd say that these days i feel bad if i write a loop . 
+  it just feels wrong and ugly after using functional approach for several years . 
+  i do n't really understand what you mean by redefining the a  5 semantics . 
+  do you mean that it 's execution can be pushed to the store or deferred ? 
+  c # does not allow creating classes at runtime in the ruby sense but what does it have to do with intellisense in sql or hql for example which are traditionally bad at it ? 
+  overall your arguments make perfect sense but in practice linq works very well and everybody loves it . 
+  some people do n't like orms so they do n't use linq to generate sql , some people do very heavy xml work so they use xslt , etc but i have yet to see a . net dev that opposes linq in general . 
+  at the very least everybody uses it for collections . 
+  funny thing but bulgaria has very high ( compared to the world average ) percentage of . net devs . 
+  we 're like . net land , 
+  i do n't agree that the `` simplicity '' of java is what makes/keeps it popular but we ca n't really measure that can we ? 
+  if i was a java dev i would want lambdas and functional concepts in the language . 
+  in fact the language is the main reason i am a . net dev ( not the platform but the c # language itself ) . 
+  if we accept that increasing the language complexity in this way is a bad thing it is obvious that linq will be even worse . 
+  we simply disagree on the axioms and i think we can agree to disagree on everything else from here . 
+  i somehow do n't think a billion people made this decision collectively or will even switch as a result from it , 
+  i do n't know ... it turned out they were right about stack overflow . 
+  i doubt ms are selling windows to the chinese government at the same cost they are selling it in us stores . 
+  shameless article self-promotion, 
+  stop trolling the community with your anti-community posts !, 
+  and i know people who develop with mono on linux . 
+  only two of them actually but they do exist so why are n't they locked ? 
+  anders ( hallowed be his name ) did not create the pascal programming language . 
+  this was done by niklaus wirth . 
+  however as far as i know the turbo pascal compiler developed by anders ( hallowed be his name ) was very high quality and had very low price for the time . 
+  if what i read is true it was a real revolution on the market . 
+  hmm are n't the additions added much later and became object pascal/delphi ? 
+  i thought turbo pascal became popular when it was still pascal and then they grew the new language on top . 
+  vs express is only useless if you are working on a large project in a team . 
+  otherwise it is quite good for personal projects . 
+  lets assume that countries where developers can not afford windows exist . 
+  his logic is still flawed because the sheer number of c # devs compared to the number of ruby devs would mean the number of possible contributors will be greater for c # . 
+  i first saw this in 1998 even before bw was released . 
+  if i remember correctly the background messages were the same color as the text and the only way to make a difference was the '' : '' after the player 's name . 
+  i think they later made the system messages yellow or something . 
+  for what model do you receive parts ? 
+  i feel like for mass market models they will not have problems delivering parts but for high-end rare models they fail miserably . 
+  would you play c&c tiberium sun campaign today ? 
+  the sc/bw campaign is great for 98 but it is not impressive by today 's standards . 
+  i am not saying it is not good but there are a lot of game that provide better single player experience these days ( not only rts ) . 
+  of course if you care about the lore it makes sense to play through the campaign ( do n't miss the secret mission in brood war ), 
+  uhm ... 
+  i agree . 
+  i even think it was a little better than sc/bw . 
+  however the standards for a single player campaign are a bit higher these days . 
+  assuming the op played c&c ts ( he says he was a fan of c&c ) he can expect similar level of quality from sc/bw and know if this is enough for him . 
+  maps . 
+  all maps were the same forcing macro games . 
+  i long for the wol beta maps ... they were so cool and creative . 
+  terran is hardest , period !, 
+  i 've been playing random in mid to low masters since beta ( yeah i know beta did n't have masters ) and my results with terran are consistently and statistically significantly worse than the other two races for three years especially the tvz matchup . 
+  how is he doing in lol both as results and viewership ? 
+  i struggle with controlling large groups of marines and splitting them while maintaining reasonable macro . 
+  what is your problem with protoss and how are you able to handle the amount of micro required by terran and not handle protoss ? 
+  i can not handle large groups of terran bio against splash damage while maintaining my macro on a reasonable level . 
+  so why will people watch him play if he is not at least near pro level ? 
+  i have a lot of problems with this one . 
+  i usually keep ranged unit on one group and this is where mothership core goes naturally . 
+  i started using separate key for it but it is still annoying as hell . 
+  i liked steppes of war too . 
+  i like the maps different . 
+  all kinds of maps should be in the pool even one that give advantage to one race over the other . 
+  in my opinion creativity is more important than balance . 
+  interesting creative things emerged on steppes of war like the 12 drones rush . 
+  i am glad english is not my native language . 
+  this way i can use it as excuse to have bad grammar , 
+  when is the press conference so i can check reddit when whatever should be announced is announced ? 
+  thanks . 
+  will have to do some waiting , 
+  i am watching idra stream now and i have to admit i was wrong . 
+  i had watched him 3 times before and all he did was complain . 
+  you were right that he actually explains the game . 
+  i do n't know if he changed the way he comments or i just got him in a bad moment ( 3 times ) but he really explains some strategy . 
+  on the other hand i still do n't like his attitude and i actually think he is a worse player than i thought now that i watched several games . 
+  you are right . 
+  coddled foreign scene would be the worst thing ever . 
+  on every tournament i hope the foreigner wins because this will make starcraft stronger but if foreigners are promoted artificially it will actually damage the scene . 
+  in my opinion to make the foreign scene stronger part of the tournament money should be given to local events . 
+  small local events on country level .

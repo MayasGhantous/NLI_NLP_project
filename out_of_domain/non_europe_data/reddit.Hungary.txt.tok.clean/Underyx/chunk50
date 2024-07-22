@@ -1,0 +1,100 @@
+  if i 'm not mistaken , you missed a pretty big one :, 
+  ** edit : ** i was mistaken . 
+  ca n't type a lot more right now , but the possible bug i brought up would not actually happen . 
+  these variables should still be instance vars , though . 
+  # class vs. instance variables, 
+  the code stores connection details in variables bound to a class , as such :, 
+  '' '' `` an object that contains all the required methods for interacting with the ivona text-to-speech system, 
+  region = '', 
+  ~ ~ instead of setting these variables on an instance ( in your ` __ init __ ` method ) . 
+  when i call ` setregion ( ` us-west ' ) ` , it changes the value of the variable in the class itself , which means that the change will affect all instances of that class . 
+  here 's a quick demonstration of how this can break things : ~ ~, 
+  main_server = voice ( access_key , secret_key ), 
+  main_server . setregion ( ` us-west ' ), 
+  backup_server = voice ( access_key , secret_key ), 
+  backup_server . setregion ( ` us-east ' ), 
+  main_server . speak ( ` pyvona reporting in from the shores of san francisco ' ), 
+  backup_server . speak ( ` dc in the house , ready for action if sf fails ' ), 
+  # actually both of these came from us east since backup_server . setregion updated the entire class to use us-east, 
+  ^ ^ \\ ( note : ^ ^ i ^ ^ know ^ ^ those ^ ^ are ^ ^ not ^ ^ where ^ ^ amazon ^ ^ servers ^ ^ are ^ ^ located . 
+  ^ ^ these ^ ^ two ^ ^ seemed ^ ^ more ^ ^ colorful ^ ^ than ^ ^ reality . ), 
+  yep !, 
+  also installed tons of different forms . 
+  i 'm not even sure which ones to start filling out , cause there 's :, 
+  ... and i think a fifth one whose name i ca n't recall right now . 
+  and when i looked at the first one , i got scared that i might not realize i need to [ select/check one of the options that i do n't even understand ] ( https://www.dropbox.com/s/6tv8qp4zcuk3mzy/screenshot%202015-05-12%2001.31.36.png?dl=0 ) . 
+  after a report from a user on a comment in this thread , this post and the comment linking an apk have both been removed for condoning piracy . 
+  oh dear , that makes so much sense , thank you !, 
+  i think i 'll do kinda fine with 1453 , it seems a lot simpler than the one i was looking at before . 
+  thanks again !, 
+  i only had one full time employer , but i also did freelance work :, 
+  - for some of these , i had [ egyszer\u0171s\u00edtett munkaszerz\u0151d\u00e9s ] ( http://www.nav.gov.hu/data/cms160343/egyszerusitett_munkaszerzodes_minta.pdf ) , and the employer already paid taxes after it . 
+  - for others i was paid from abroad via paypal ( i then transferred the incoming money to my bank account . ), 
+  i 'm assuming i 'll need to pay taxes after this income ? 
+  i have no invoice or anything for these , only the paypal receipts , so i 'm not sure how to proceed with these . 
+  the total amount is in the six figures , if that 's relevant . 
+  holy crap that 's a lot of money . 
+  welp . 
+  thanks for the help , anyway !, 
+  i really appreciate that you took the time to tell me all this . 
+  last question : does this field work like [ this ] ( http://i.imgur.com/7g8x4f9.png ) ? 
+  what 's wrong with microsoft ? 
+  can you give me an example ? 
+   for example , one would expect that someone who likes mobas will play an mmo as a killer , right ? 
+  i actually do n't think that 's the case . 
+  i feel it 's completely reasonable to assume that a player 's personality is not limited to one such archetype , but that their emotional state , state of mind , and yeah , again , the type of game they 're playing all influence if they 're playing as one as someone from one of these categories . 
+  i for instance think i do behave and feel more like a killer when playing csgo ( obviously ) , but , with no correlation to that at all , i take the explorer route in guild wars 2 . 
+  another game i play a lot is dota 2 , which i think makes me an achiever . 
+  right , i was wondering that , too !, 
+  how will this influence tomorrow 's meeting ? 
+  how does it make a difference in your approach to a game 's design if you know the players you 're making a game for ? 
+  i mean , i guess you could emphasize collectibles , battles , and stuff based on the results . 
+  perhaps they need this data to determine if we 'd rather compete against each other , or work together to achieve more ? 
+  the use of experience points in questions was one of my main qualms with the quiz . 
+  their value vastly differs between different games , so when you have to choose between them and some other thing , it feels like you would just go with whatever would rationally be a better decision in your favorite game . 
+  i bet you 'd even be more likely to choose experience if the game you play has flashy visuals and a nice jingle when gaining a level , than if it were not emphasized at all . 
+  i do n't get it . 
+  is no one else seeing how noisy and blurry this photo is ? 
+  i honestly do n't see the difference between 50mp and 13mp on my phone . 
+  it 's like the phone is taking a 13mp photo and just scales it to be twice as big . 
+  yep , the author hosted some files on dropbox , but they do n't allow this much traffic so they just blocked access to those , breaking the site . 
+  hey there !, 
+  i 'm one of the moderators of this subreddit . 
+  firstly , note that the mod team has not had a discussion regarding this submission , and what 's described below is solely my own opinion . 
+  your post has been reported as spam multiple times , and technically , it counts as spam : [ reddit 's guidelines ] ( https://www.reddit.com/wiki/selfpromotion ) state that only 10 % of any given user 's submissions can be self-promotion . 
+  your profile shows that you 've pretty much only been posting e3 related things ( and not the / r/games kind ) , so you 've violated this rule . 
+  in this specific case , though , one could argue that the submission 's not focused on promotion , and the mention of your company is instead closer to attribution for the content , which makes it borderline okay in my eyes -- so i 'm not removing the post . 
+  if any other moderators end up disagreeing with me on this , i will not dispute their decision to remove the submission . 
+  also , i 'd like to ask you to cease promotion of your company on all subreddits until you fall below the 10 % benchmark . 
+  thanks !, 
+  [ yep . 
+  why ? 
+  because it 's a joke -- akin to other jokes , designed to make people laugh . 
+  it was a fair mistake to make . 
+  the original comment used the word ` implement ' , which suggests that he 's referring to the execution - i.e. 
+  discussing the technical viability . 
+  especially for someone who hears that word as part of their job multiple times a day in that very context . 
+  i also do n't see why software engineers are not allowed to declare their profession when it appears to be relevant ? 
+  it 's typical to see things like ` i 'm a biologist , i can answer this question ' or ` i 'm a physicist , here 's why you 're wrong ' , so i really do n't get the sudden hate for him . 
+  i think you all are being really unfair here . 
+  i think he meant ` introduce ' instead of ` implement ' . 
+  so i think the difference is that with introducing accurate physics to dota 2 , you would first hit an enormous game design hurdle . 
+  i think everyone else was talking about how they 'd have to reimagine every single interaction if they were to use real physics . 
+  like on april fools day in 2010 ? 
+  i 'm pretty sure spotify has better data on what people use in the app than what your guesses are . 
+  not sure why you all act like you 're able to make better business and technical decisions than the leadership of a business with an $ 8 & nbsp ; billion valuation , without the data they have access to . 
+  you will get around 30 % more last hits and 17 % higher xpm . 
+  maybe if it were source 1 , silly . 
+  you do realize you get more stuff at level 5 this year than with a level 25 one last year ? 
+  that sounds like a horrible idea . 
+  you ca n't just ban an entire domain for incompetence displayed in one of their articles . 
+  the idea behind reddit is that votes are the way to sift through content to get rid of the low quality ones . 
+  you ca n't just make such claims based on `` i guess that 's something she would do '' . 
+  i do n't see how that 's relevant . 
+  my point still stands even if it 's a hundred articles . 
+  but ... what ? 
+  how does he ravage a refresher ? 
+  let alone * twice * ? 
+  fine , actually i did get that , but i wanted to point out that while the intended meaning is clear , the comment makes no sense at all , which , for some reason , pisses me off a great deal -- especially when not only does everyone glance over this fact , but he actually gets outright praised for being so witty . 
+  you see, 
+   are you a refresher ?

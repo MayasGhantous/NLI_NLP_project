@@ -1,0 +1,100 @@
+  convert spectrogram.png - gravity south - chop 0x220 22-100khz . png, 
+  this will make the spectrogram have a spectral resolution of 100 hz/px and remove the bottom 220 pixels . 
+  there 's a * steam only * logo right next to the game icon . 
+  how does that work out ? 
+  would i have to install steam under wine ? 
+  it 's probably the jack plug . 
+  wiggle it around , and if it makes contact at an angle , replace it . 
+  there 's room for improvement i think . 
+  the bump at around 70hz as well as the dip at 140hz are probably from room interaction , and absorption of the first reflectioes could iron those out . 
+  ~ ~ dips ca n't be eq 'd out unfortunately ~ ~, 
+  the 10db drop @ 5khz might be a result of a bad crossover implementation , or bad toe-in angle . 
+  try to find the direction where it 's flatter , and aim it towards the listening spot . 
+  what remains can be equalised if you have some headroom . 
+  what speaker is this ? 
+  sweet !, 
+  we 're gon na party like it 's 1969 !, 
+  ( the year telnet was developed ), 
+  ( seriously , this is a huge gaping security hole ), 
+  i mistook some mental calculation a while back , that i probably did n't follow through . 
+  anyway , the dip can be raised of course , rooms being linear systems . 
+  still this is n't recommended as the center frequency will change fairly much over small distances , so you 'll be narrowing your sweet spot . 
+  also , fighting against phase cancellation where the speakers draw the most current quickly becomes a losing battle . 
+  got around the issue by connecting via the dropbear ssh server and running the busybox telnet client from within my phone :-), 
+  all i need now is to bind your app to the loopback interface . 
+  so now it 's secure from the outside , and that 's good enough . 
+  the frequency of the dip ( comb filter ) depends on the difference of the arrival times of the direct and the reflected waves . 
+  you move your head , and it sounds different , because different frequencies are boosted and cancelled . 
+  if you compensate with filters before the speaker , you 'll need a lot of power from the amp for it to keep up , because it 'll be using most of its current for sounds that you 'd otherwise barely hear . 
+  but if you treat the room , you 'll have improved the response without needing an amp with ten times the power , and you 'll also have a much larger sweet spot . 
+  after treatment , you can still use filtering to further improve the response , either with rew and a minimum-phase eq , or drc and and a convolver , or one of many other commercial products out there . 
+  the free dropbear ssh app requires root permissions for some reason , but there 's also one that does n't . 
+  you ca n't use inbound port 22 on linux without root , that 's for sure . 
+  and i 'm using cyanogenmod , that on top of a full featured busybox , comes with programs like * htop , nano , vim , rsync , * and * bash . 
+  * so even though i have root access to my phone , i should be able to use this app without it . 
+  stuff did n't fall down trap doors last time i tried it . 
+  turns out i have n't played gnomoria since a while . 
+  and do n't ever discuss guitar electronics in / r/guitars . 
+  wo n't that roll off the bass and treble ? 
+  the way i 've heard it , is that * beats audio on * sounds comparatively better because * beats audio off * cripples the audio playback . 
+  recipe for buttery smooth overdrive :, 
+  * filtering before overdrive : the harmonic spectrum of the guitar 's output will determine the relative amount of distortion products you 'll have after clipping . 
+  if there is little treble before clipping , the higher frequency ranges will be dominated by the harmonic distortion products , which are very dynamic , and can have an ice-picky nature if high frequencies are boosted . 
+  try to nail a great tone by experimenting with a parametric eq , mainly a high-shelf filter , before distortion . 
+  an eq can have the same effect as swapping pickups , except for the fact that you ca n't have a clean signal from a noisy pickup . 
+  new/coated strings also bleed off treble slower . 
+  * clipping : the non-linear transfer curve has to be as smooth as possible . 
+  this will ensure that the transition between clean and overdriven sound is gradual . 
+  smooth clipping will also add less higher order harmonics to the output . 
+  harsh clipping and inadequate post-distortion lowpass filtering will actually * expand * the dynamics of the guitar instead of compressing it , as we 're more sensitive to sounds excited this way . 
+  dsp 's * can * be much much smoother than anything analog , and you can improve capable digital amp effects by using the exact same amp settings in parallell , with a different gain . 
+  pentode clipping is very smooth , and triodes are okay too . 
+  transistor circuits and diode clippers clip harshly , and add high-order harmonics . 
+  * filtering after overdrive : an advantage of using huge 12 '' drivers in guitar cabs is that they have a high frequency rolloff that is just right . 
+  anything smaller or bigger , and you 'll have to figure out yourself how to set up an eq to make it sound good . 
+  the amp 's tone controls should be used to find a spot in the audio spectrum not used by any other band member . 
+  good luck , and have fun . 
+   can you talk more about the clipping from diodes/triodes/pentodes specifically ? 
+  or send me to a source if you want . 
+  here 's a relevant article , which is about pro recording gear instead of guitar amps : [ \\ [ 1 \\ ] ] ( http://www.co-bw.com/audio_vacuum_tubes_vs_transistors.htm ), 
+  particularly interesting is this rather low resolution chart : [ \\ [ 2 \\ ] ] ( http://www.co-bw.com/images_audio/tube_vs_transistors_image008.gif ), 
+  you can see how his tests show how the different circuits react when overloaded . 
+  it would be neat if someone were to make a similar comparison , but with common guitar amplifier circuits and digital effects , but my according to experience , it should be similar . 
+   also , what do you mean by the non-linear transfer curve ? 
+  can you show an example ? 
+  i mean the voltage in/out transfer characteristic of the actual circuit you 're using for distortion , not the characteristic iv curves of the tube/semiconductor device itself . 
+  the internet does n't seem to have plots of these . 
+  with dsp 's these can be approximations of sigmoid functions - [ some examples ] ( http://en.wikipedia.org/wiki/file:gjl-t%28x%29.svg ) - or approximations of analog circuits , although i personally prefer the former . 
+  you can test these directly in the reaper daw ; it allows you to code your own dsp effects , and such an effect can be made in just a few lines of js code . 
+  add an eq before , a cabinet simulator / convolver after , and you have your own homebrew digital guitar amp with great tone . 
+  the first plot i linked is thd vs level , not vin vs vout . 
+  it shows that distortion happens more abruptly in some circuits than others ( they are matched at 1 % thd ) . 
+  just think of an op-amp follower . 
+  the vin/vout curve is a straight ramp until it hits the power supply rails . 
+  the output is hard clipped , and the harmonics that appear extend to the very highest orders . 
+  you can see the result of this on that chart , the opamp jumps up like crazy after hitting 1 % . 
+  that break in the vin/vout curve is where the nasty sound comes from , and that 's why we do n't use op-amps outside their linear range . 
+  compare that to any of the smooth waveshaping functions above . 
+  those sound much nicer , and if i were to find a transfer chart of a tube stage , it 'd look similarly smooth . 
+  it 's got something to do with the second derivative , but math always bored me ... 
+  what 's the linux love ? 
+  i do n't see any changes related to linux, 
+  this is only true for 4 channel amplifiers . 
+  regular receivers with a/b zones do n't work this way . 
+  you do n't * need * to bi-amp those speakers . 
+  the biggest advantage of bi-amped systems is that you can remove the passive crossover network , and you can use an electronic crossover instead . 
+  unless you open the boxes and remove the crossover inside , and then design an active crossover with a similar response to the original ones , you are n't going to see much improvement . 
+  but if you already have two amps , i guess there 's nothing wrong with connecting each output to a single driver . 
+  you 'll have to use a y interconnect so both amps get the same input , and then connect amp a to the low-mids , and amp b to the tweeters . 
+   the biggest `` benefit '' of passive bi-amping ( which is what ts would be doing ) is just the increased power to the speakers . 
+  roughly 80 % of the power in music is below 2khz ( a frequency i chose because it 's often the crossover frequency of two way speakers ) . 
+  if you had a 100 watt amp to begin with , you could only increase the power by 25 watts if you added another amp of equal or lower power capability . 
+  that 's only about 1 decibel louder . 
+  gzip does n't compress that well but it 's very fast . 
+  so fast , that the disk will probably be your bottleneck when compressing . 
+  bzip2 can achieve a much better compression ratio but there 's a tradeoff for speed . 
+  test various block sizes with the * - # * switch , * -1 * being the fastest , * -9 * being the best . 
+  you can use * pv * to quickly benchmark the performance like this :, 
+  tar cf - / home/name | pv | bzip2  / dev/null, 
+  * pv * will show you how much data 's passing through the pipe . 
+  also , take a look at * pigz * and * pbzip2 * .

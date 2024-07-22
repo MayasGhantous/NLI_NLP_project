@@ -1,0 +1,100 @@
+  what math you will be using depends on what you are going to program . 
+  if you are doing simulations of real world processes you will need calculus , if you are doing graphics you will need geometry , etc. 
+  if you are doing accounting software you will need to know addition , subtraction and multiplication , 
+  discrete math is deeply related with the how programming languages work , set theory is related to programing languages type systems and also to databases, 
+  yeah microsoft fucked up because unlike facebook and twitter they did n't just change their apis as they saw fit and in the process breaking people 's clients . 
+  ca n't really say since i have no experience with scheme and common lisp but i am pretty sure c # for destkop and c # for silverlight are the same language despite the fact that console.writeline is not present in silverlight . 
+  the compiler has no idea that it is compiling for silverlight . 
+  can you compile/run arbitrary scheme program in common lisp and vice versa provided that you only use apis mentioned in the language spec ( or provide libraries to replace those apis ) . 
+  if the answer is `` yes '' ( which i doubt because surely someone would fork a language feature ) they are the same language . 
+  yes but they changed future version of the api and did not break existing clients . 
+  they made the api worse but took the burden on themselves instead of breaking customer code ( according to the article the customer code was over the top ), 
+  so what ? 
+  they are not in a position to claim so they do n't . 
+  lisps are interesting point since they make little distinction between code and data , however java has very strong distinction between the two . 
+  the scheme vs common lisp is a very extreme case but i will go as far as saying that they are they are the same language ( they are obviously different platforms ) . 
+  now will you say that c # in sl is a different language from c # in the full . net framework ? 
+   it 's a subset of c # in the full . net . 
+  i do n't think anybody will agree with you there , 
+  so oracle only has lawyers working on java ? 
+  btw if google were in the position of oracle he would have to leave ( or not care ) . 
+  in my opinion the most briliant contemporary language people these days work in microsoft and this company is n't famous for being open , contributing to the community , etc. 
+  still they do n't quit , 
+  it does n't . 
+  but it implements the full c # specification so it is not subset . 
+  in fact there would be a need for a standard scoping the subset if it did n't . 
+  you ca n't really skip algorithms and data structures . 
+  it would be like skipping functions in classic math . 
+  all subfields use them . 
+  there are two distinct specifications . 
+  the java language specification and the java profile ( se , ee , me ) specification . 
+  only the apis referenced in the java language specification ( like string ) are part of the java language . 
+  the java language specification should only reference apis which provide semantic support for syntax . 
+  for example string literals are given semantics by the string class and the foreach loop has its semantics defined in the iterable interface . 
+  as far as i know the compatibility tests are for the profile not for the language and the javac compiler is literaly the same for all profiles . 
+  also note that system.out.println is not part of the java language but if java had an operator @ which printed the string in the standard output and the specification said that it was done via system.out.println that would make this api a part of the language . 
+  each version of the . net framework is supported for as long as the windows that it ships with . 
+  so there are just 3 open source projects in the . net world that need help and one of them is something that the great majority of vs users will not touch with a stick - a vim plugin, 
+  legaly the point of separation is that you can make one thing free ( the language which are free by default ) and another non-free ( the apis if the court rules apis are patentable ) . 
+  technically language designers often choose if they should implement syntax sugar for something or implement it as a library . 
+  the fact that lisp ( or scala ) base syntax is so cool that it allows that level of extensibility is another question . 
+  for the user of the language it does not matter . 
+  apparently they do n't need help because they are not on this guy 's list . 
+  and this is what they did with reallycreatefont, 
+  really ? 
+  i thought everything that ships with windows is supported for as long as the release of windows is supported . 
+  troll post ? 
+  frankly this is how i 've always done sending e-mails . 
+  i understand the scaling problems he describes but i am not sure for the scale of the projects i 've used the database queue in i would take the dependency of another technology ( the message queue ) because this brings complexity and more things you need to set up . 
+  sql server can notify clients but reverse calls from the db to the client are harder to implement from in your system architecture . 
+  after all everything else moves in the other direction . 
+  it is but it is not trivial to wait for messages in say web application . 
+  what are you gon na do spin a thread to wait ? 
+  the problem is not sql server but the application architecture . 
+  see my reply to @chucker23n, 
+  what is interesting is that this is kind of old . 
+  sl is at version 5 . 
+  on the other hand windows phone uses a version of sl3, 
+  the article states that they did it as an experiment and will not focus on the port but they have extracted some technologies that they are going to use in their mono for android product . 
+  everything java has been ported to c # via machine translation and the mono runtime has been put in place of dalvik . 
+  obviously the os itself has not been changed only the java part ( but not only the ui ), 
+  and what about the promise not to sue ? 
+  while its value in court as a document is not exactly clear it would be very hard to convince the jury that they did not actually mean it when they publicly stated they would not sue . 
+  also the situation can not possibly worse than java . 
+  oracle is suing google right now . 
+  of course all this is unrelated to the topic in question since this is only an experiment that will not be the main focus on the company or intended for production use . 
+  i blame artosis for this . 
+  i am tired of his `` nice macro game '' shit . 
+  cheese games are far more entertaining since the game is much more likely to get in an extreme and unique situation that requires that players think on their feet . 
+  blame artosis for all the cheese hate !, 
+  for the most part i agree with the article . 
+  i am amazed that the starcraft community wants to make starcraft so narrow and boring and force it into the 4 base deathball clash . 
+  we need more 2 vs 2 tournments , more diverse maps ( for both 2 vs 2 and 1 vs 1 ) . 
+  i want to see games on stepped of war and on tal darim and i expect them to be different . 
+  i want to see games on air maps . 
+  some people may claim that air maps ( and 2 vs 2 ) are not balanced but how do we know if no one played more than 10 games on air maps ? 
+  and i want to see more cheese . 
+  i am tired of these big game hunters-style games where players do n't fight until they are maxed . 
+  really ? 
+  so there is some magical line where 3 races with their 10-15 units can be balanced but the combination of 2 of these races can not be balanced ? 
+  also i have a lot of experience with 2 vs 2 games including ridiculous number of live tournaments in the starcraft i days . 
+  if i learned anything it is that timings and synchronization with your partner are the most important things in 2 vs 2 . 
+  ( for example micro and macro are more important than good timings in 1 vs 1 ) . 
+  if there are any disbalances ( which we do not know because no one invested enough time to develop the metagame ) i expect them to be unimportant in the grand scheme of 2 vs 2 things . 
+  i ca n't believe you are in platinum league with strategy that is so unbelievably op . 
+  and what exactly is wrong with vicious ass 6 minute games ? 
+  i personally find the vicious ass 6 minute zvz games to be one of the most entertaining . 
+  can you point out to sources for this thing which is `` commonly understood '', 
+  i actually play 2 vs 2 with my gf . 
+  this is eactly my experiece . 
+  also there is nothing wrong with 50 % of the games being 1 base all ins . 
+  it is worth noting that 1 base play does not mean tier 1 units . 
+  i was asking because in my experience this is not the case . 
+  got me on my wording  i was thinking of the p+t combo , 
+  now you only need to explain what 's the problem with `` diferent bizzarre all ins '', 
+  also i am pretty sure that many people got into 1 vs 1 masters and all they did was different bizzarre all ins . 
+  i did n't have to do anything she 's been a gamer before i met her . 
+  now how do you find a gamer gf ... 
+  i do n't know what i did to be so lucky . 
+  strange but i agree that joint bases maps need to go ... because they make the game like bgh . 
+  i insist that we ( the community ) do n't know if the game is balanced ( or what is imbalanced ) in 2 vs 2 because we have n't played enough especially on high levels .

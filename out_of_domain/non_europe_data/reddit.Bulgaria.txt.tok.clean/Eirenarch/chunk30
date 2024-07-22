@@ -1,0 +1,100 @@
+  also i find it frustrating that i have to use or at least fully understand the command line interface . 
+  source controls i 've used in the past had command line interface but it was not a requirement to know how to use it . 
+  for example with svn if you have a problem you can find the solution and easily execute it in the gui or even find the solution for gui . 
+  not so with git . 
+  you can use a gui but once you have a problem that 's it . 
+  no help anywhere . 
+  i never liked branching anyway ( because it requires merging ) but i was using it successfully ( although rarely ) with svn . 
+  i do n't want to branch a lot . 
+  i want to branch less . 
+  also the fact that it is completely impossible to use a git gui without knowing how to use the command line version seems absurd to me . 
+  i never learned how to use svn from the command line but never had problem working with it and finding help online . 
+  yes but once you have a problem everything you find online is just console commands without any explanation ( the person who answers the question assumes the person who asks knows what the commands do ) . 
+  it is very hard to know which command of the gui maps to which command on the cli . 
+  even the error messages from gui clients include commands and many clients include an actual shell . 
+  i was completely lost trying to use git with git extensions and i have a feeling that the github for windows client is only slightly better ( i have n't used it for serious development yet ) . 
+  i understand the value of branching but i always try to minimize it ( with svn i often copied the project to another folder if i wanted to try something ) . 
+  i understand that with git it is much cheaper to branch but it is still expensive to merge . 
+  it is always expensive to merge because it must be done by a human . 
+  yes if you are used to scripts and command lines ... well you are used to scripts and command lines but what if you are not ? 
+  git is the only major source control that you can not use without command line . 
+  you can use gui client but you can not skip learning how to use it from command line . 
+  i tried and failed . 
+  major reason for this is that all questions online are answered ( and often asked ) in terms of command line . 
+  another reason is that it is very hard to map gui commands to command line commands if you do n't know in advance . 
+  the simple fact that git is the most complex mainstream source control system does not help either . 
+  ok but i have n't done extensive merging in either of them but i saw nothing easier in merging in git . 
+  i only noticed that i started merging more often because the person who insisted that we use git started creating much more branches . 
+  cherry pick was the only git-specific useful thing i found in git . 
+  so bashing the emulator , fragmentation , ui tools , etc. 
+  is not bashing android development ? 
+  maybe i will try it if i am forced to use git again . 
+  probably but as i already said in several comments i had used two source controls before that and one after git and none of them had any problem with gui . 
+  git is the only source control i 've used where knowing the command line is a requirement for using the gui . 
+  when i read the article i did not notice any point in android development that was better than the corresponding point of at least one of the other two oss . 
+  i have no idea what this `` rebase '' word means , 
+  sure . 
+  obviously i am too stupid to get the taste of it in the three months i was forced to use it . 
+  or maybe the key is the word `` distributed '' . 
+  maybe i did not get a taste of it because our team was in no way distributed and we had quite linear releases and feature development . 
+  why ? 
+  i am having fun and they pay well , 
+  sure but we never had problem with committing unfinished features in the mainline because we had set releases based on features . 
+  it was not a problem to have an unfinished feature in the main branch because it was not going to be released without this feature anyway . 
+  in a few occasions when we did need a branch we could handle it with svn . 
+  i do n't have anything against it i just prefer gui . 
+  i even when i program i use wizards because i find it easier . 
+  i sometimes use the command line when i have to but i feel more productive with a gui . 
+  i do use windows and visual studio . 
+  who knows if i do so because i like gui or i like gui because i use these tools ? 
+  i do n't know ... 
+  it was never interesting to me so i never learned more than i needed . 
+  on the other hand i played a lot of competitive games like starcraft so i got used to being effective with mouse and shortcuts . 
+  maybe it is all background . 
+  when i want to try something i implement it , decide if it is good and either commit or revert . 
+  i only copy a the project if i need to compare for example performance . 
+  i do n't get it . 
+  is n't it the same with svn ? 
+  you update the branch from the master , merge of there are conflicts and commit the branch into the master . 
+  what am i missing ? 
+  it means that every client is a repository , right ? 
+  i just do n't understand how it helps if features for a release are planned in advance and everyone works on them in coordinated fashion . 
+  ok but someone still has to resolve the conflicts . 
+  merge is only interesting if there are conflicts . 
+  how does it help that git removes conflictless merges ? 
+  well ok but a thing can only suck compared to something else . 
+  learning it just seems like too much effort . 
+  if i was working on open source project i would . 
+  problem is i always saw source control as kind of ftp server - a way to get changes to other dev machines and a backup . 
+  btw svn got faster at one point when it started having only one metadata folder instead of metadata folder in each folder . 
+  i did not notice any obvious speed improvement over that version of svn when we switched . 
+  i was happily working on a project with limited branching . 
+  then git came and a couple of people started branching everything all the time . 
+  well everybody knows the command line . 
+  after all there is nothing to know about the command line itself . 
+  i refuse to learn the command line interface of specific tool on my own time . 
+  i happily spend my own time on learning many other programming tools , languages and libraries . 
+  the command line itself is not hard . 
+  it is time consuming to learn hundreds of commands and switched but most importantly it is extremely boring doing so . 
+  i know this is the case and i 've done it when using git . 
+  i just fail to see the value in it . 
+  before i was working on a change until i was ready to commit . 
+  sometimes even a month . 
+  with git i did commit locally but i never reverted a local change so i saw no value in this practice . 
+  maybe it is faster but i never felt that was the bottleneck in the projects i was working on . 
+  however when we started using git i felt it was the bottleneck . 
+  i am sure it was because only the person who introduced it knew how to use it but still it became the bottleneck . 
+  i found it absurd that i had to think more about the way i commit than when i wrote the code i was about to commit . 
+  it never happened to me before even when i was first introduced to source control . 
+  interesting . 
+  two people mention tortoise already . 
+  i have tried the github client and git extensions . 
+  maybe if i had tried tortoisegit it would have been different . 
+  favorite comment from the actual bug report ( https://bugs.launchpad.net/ubuntu-cdimage/+bug/1040557?comments=all ) :, 
+   i bought my laptop in an online shop . 
+  it was bricked only two hours after i had received it . 
+  so immediately i sent an e-mail to demand a new one . 
+  because of i was afraid that they could reject my demand , i lied a little ( i still did n't know the directive 1999/44/ce ) . 
+  i told them that it was bricked after a windows 7 update and omitted the part that i had ubuntu installed . 
+  ubuntu broke your hardware ( or your hardware broke from ubuntu ) . 
+  no problem blame it on microsoft !,

@@ -1,0 +1,100 @@
+  needs more psh . 
+  the best deal is still to create an account from a buddy link . 
+  your buddy has the ability to apply a plex directly to ** your ** account , so that avoids any problems ( since he gets a plex back when your account changes from trial to subscribed ) . 
+  if you know the login details you can activate hours4plex , kick off the biomass , then raise a petition ( using email ) to get ccp to complete the biomass procedure 10 hours later . 
+  players wanted them back ... 
+  win loss ratio per player . 
+  well , the guy who had the most chance of getting it working went to riot , so there 's that . 
+  so at least one csm has good judgement . 
+  or is secretly australian . 
+  do not test him on this ^ tm, 
+  space does n't matter . 
+  power matters . 
+  it first started in muds , they were probably before your time . 
+  proof that poland can into spaceships . 
+  run on non-windows platforms , for starters . 
+  it 's basically what would happen if evementat and elinor got drunk in a hot tub together and made out . 
+   `` i ca n't believe he made an armchair out of human genital skin !, 
+  that takes some balls , let me tell you . 
+  yes , it tries to even out each team as much as it can before you deploy , based vaguely on your historical war-points per second . 
+  ccp games killed off world of darkness after seven years development . 
+  it hurt them a fair bit , but they 're still going . 
+  it got cancelled because the wod designers were dysfunctional . 
+  so , * you 'll * be coming closer , 
+  what do we say to blue intel ? 
+  not today . 
+  as long as i can buy plex and extract aurum from it , i do n't mind . 
+  we all pull together ;-), 
+  or less than seven minutes with a cyno chain . 
+  probably the first thing you should do is , buy some basic perception and intelligence implants ... 
+  stackless python , with a smattering of c for when shit gets serious , yo . 
+  i do n't think you realise just how much money riot has right now . 
+  i mean , i like eve , but i would n't take a 100k pay cut just to be an eve dev . 
+  where ? 
+  well , generally high-sec ( 0.5 + ) is where most people start mining , although if you have a decent corporation supporting you , you can skip low sec and go straight to 0.0 space . 
+  as for which ore to mine ? 
+  there 's a [ site for that ] ( http://ore.cerlestes.de/#site:ore ) . 
+  looks like kernite is pretty good for high-sec . 
+  as for when ? 
+  whenever you feel like it . 
+  most people mine while they 're doing other things , like sending eve mails or managing their market orders or browsing imgur . 
+  whatever works . 
+  as for what to mine in ? 
+  well , a [ venture ] ( http://wiki.eveuniversity.org/venture ) to start with . 
+  tech 2 miners are a big step up . 
+  if you 're serious about mining , then you 'll probably go to a mining barge next ; many people decide to specialise in combat instead . 
+  ccp is really gon na miss having veritas around . 
+  edit : except maybe [ ccp prism ] ( https://forums.eveonline.com/default.aspx?g=posts&amp;m=5051034#post5051034 ) :, 
+   there 's something inherently novel about submitting prototype code on a design that 's quite clearly going to be controversial , and then go post about it here to create a bit of forum drama , on your second last day at ccp . 
+  scorched earth all the way !, 
+   man i 'm going to miss you and your cowboy ways . 
+   ccp prism x, 
+  presumably once you 're married , you 're pretty-well set on the ` hot icelandic woman ' front . 
+  you know you could have just cross-compiled to jython . 
+  star citizen is more like waving a photo of a ship around and making tugboat sounds . 
+  ample -  extended . 
+  like the term `` extended magazine '', 
+  mate , timezone is really fucking important . 
+  the last thing you want is to rock up after work and there 's nobody on . 
+  the newbie corps are pretty cool because they 're just so big that there 's bound to be people online 24/7 , but when you get some experience under your belt , there 's really nothing like gathering 255 of your closest aussie friends and hot-dropping dreadnoughts on a bunch of russians , which is something that only autz-heavy corps can do . 
+  there 's a corp list on [evedownunder.com ] ( http://www.evedownunder.com/index.php/autz-corp-list ) which is pretty cool , but even if you do n't immediately jump into a corp , there 's still a bunch of chat channels you can hang out in full of aussies . 
+  i tend to hang out in the whirlpool channel , myself , but there 's others that are more general . 
+  [ this one . 
+  ] ( http://jestertrek.com/eve/blog/2012/eve-keyboard.png ), 
+  for one thing , there 's a difference between static typing and * explicit * typing . 
+  static is fine , but always needing to write the first bit of, 
+  list < tuple < string , long   tuples = new arraylist < tuple < string , long   ( ), 
+  is redundant given modern code inspection algorithms ( see lombok plugin for java ides . 
+  for the rest , i 'll just cut and paste [ from this ] ( https://michaelochurch.wordpress.com/2010/10/29/the-next-secret-weapon-in-programming/ ) :, 
+   if we want to compare static and dynamic typing , we need to make best-in-class comparisons : what is the best that can be done in each paradigm ? 
+  comparing ruby or lisp to java or c++ is not fair ; a better comparison would use haskell or ocaml , both of which have implicit typing as well as parameterized and algebraic data types -- these concepts are not as `` advanced '' as they sound -- to represent static typing . 
+   java 's type system simply is n't very powerful or useful . 
+  java actually contains two type systems , meshed together into an unsettling chimera . 
+  one of its type systems is bottom-up and vaguely algebraic , consisting of a few primitive types ( integers of varying sizes , and single - and double-precision floating point numbers ) and arrays of existing types . 
+  that 's it . 
+  it has int and double [ ] and char [ ] [ ] but can not represent anything more interesting ( tuples , strings , variants , parameterized types ) . 
+  to represent those more structured types one has to use java 's other type system , which is top-down -- everything is a subtype of `` object '' , and each variable stands not for the object itself , but to a reference to what might be an object of that type , or none ( null ) . 
+  the nastiness of this can not be overstated . 
+  java 's notorious nullpointerexception , a runtime failure associated with dereferencing a null pointer , is both a common and ( from a debugging perspective ) a usually-quite-useless error . 
+  java 's type system lacks the power to verify that a string variable , at compile time , will actually hold a string , and not null , a value that must be handled specially by any method that takes a string ( ditto , for any other object type ) as input . 
+  the string type is not available ; you must make do with what is , in fact , a ( string option ) ref -- a mutable reference that may hold a string . 
+   java 's type system catches some errors at compile time , but not enough of them , most programmers feel , to justify the pain of using its type system . 
+  no language can eliminate runtime failures , but statically-typed languages , used properly , can make them very , very rare . 
+  java 's type system does n't have enough power to achieve this ; it merely makes them somewhat less common , but not enough to justify the required , explicit use of an ugly , underpowered type system . 
+   the type systems of languages like ocaml and haskell are far more powerful , allowing user-specified algebraic types . 
+  also , explicit typing is usually not required ; the compiler infers most types using the hindley-milner algorithm . 
+  although ocaml and haskell programmers usually explicitly type their api-level functions -- this is just a good practice -- they do not suffer the overhead associated with explicitly typing inner functions and variables as in java . 
+  code development is almost as fast in haskell or ocaml as in a language like ruby ; no worse than 10 or 20 percent slower , a difference easily made up for by the reduced debugging time . 
+  if you want to write better code on the jvm , use scala . 
+  why did n't you drop the egg closer to downtime ? 
+  buy a lot of plex , and make it rain next time plex4good comes around . 
+  er , since crius , the default t2 blueprint copy comes out at me2 , te4 . 
+  there was also a one-off boost to all blueprint copies when crius hit , which was nice . 
+  play around with [ this ] ( http://eve-industry.org/calc/ ) and see what the numbers do . 
+  [ get in it ] ( http://forums.whirlpool.net.au/forum-replies.cfm?t=2261875 ), 
+  as an autz player , getting a remote to stick to a tank has been practically impossible since forever . 
+  alternatively :, 
+  i admit to cheating : the fairy bread i make uses nutella instead of butter . 
+  just be aware that there 's a few missile ships in each racial ship line ; the minmatar ships more than most . 
+  train missile launcher operation i then try out a talwar or something , maybe you 'll enjoy the experience . 
+  this whole situation makes my heart bleed .

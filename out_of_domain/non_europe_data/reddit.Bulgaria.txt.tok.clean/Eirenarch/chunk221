@@ -1,0 +1,100 @@
+  and how does this make nadella who literally has done nothing except release the most buggy version of windows ever , killed a flagship phone and released a bunch of existing tech as open source better ? 
+  let alone that it is obvious that the whole open sourcing thing started under ballmer unless you believe that . net is open sourced in a couple of weeks . 
+  oh that lady who wrote down the programs babbage told her to write but found a bug in one of them and we all worship because political correctness requires that we pretend the first programmer was a woman ? 
+  the source is linked in the submission - https://en.wikipedia.org/wiki/ada_lovelace#controversy_over_extent_of_contributions, 
+  note the quote from babbage, 
+   i then suggested that she add some notes to menabrea 's memoir , an idea which was immediately adopted . 
+  we discussed together the various illustrations that might be introduced ; i suggested several but the selection was entirely her own . 
+  so also was the algebraic working out of the different problems , except , indeed , that relating to the numbers of bernoulli , which i had offered to do to save lady lovelace the trouble . 
+  this she sent back to me for an amendment , having detected a grave mistake which i had made in the process . 
+  i find it extremely funny that the proof that she was not the first programmer and did n't even author the programs herself is in the `` defense '' section , 
+  hey how is that i get downvoted into oblivion and you get upvoted for the same claim ? 
+  ok let me put it this way . 
+  do you believe it is possible that someone designs a turing complete computer without ever writing a single program ? 
+  because if lady ada was the first programmer then babbage somehow managed to achieve that . 
+  so what , lady ada was the first programmer for a program complex enough to make her the first programmer ? 
+  ( and this only if the program was n't provided by babbage ), 
+  and then unsacrificed herself by becoming human again , 
+  i swear if i am ever at blizzcon and metzen goes on stage to shout his bullshit i would boo him . 
+  you need to be 1 in a hundred to achieve this , 
+  they did hang that nasty reality guy in south park . 
+  dev pool i guess . 
+  scala is significantly harder than c # and there are fewer devs . 
+  . net 's source code has been available for debugging purposes long before it was free software . 
+  something like 2008, 
+  and the worst web browser i have used as an end user . 
+  f # 's main problem is that c # does not suck like java . 
+  in a way c # is good enough . 
+  yes and a great one but the lyrics and the title are based on a story of the same name by author alan sillitoe . 
+  it 's not very long like a hundred pages if i recall correctly so if anyone wants to check it out it is not that big of a time investment . 
+  the web stack is significantly different to the point that it has very little in common . 
+  even asp.net mvc apps could not be ported without significant effort ( and my bet is very few will be ported ), 
+  go does not have generics and in 2015 a statically typed language without generics or similar mechanism should not be used for anything but legacy code . 
+  yes but in c # someone bothered to code it so this is why . net and not go, 
+  he is selling his company ( not literally just trying to get money ) he has to talk to investors and shit and throw them words like open source, 
+  each and every type converter or filter , every instance of httpcontext usage , the di setup , serving images and files via a handler , the project structure , half the features of entity framework removed . 
+  if you are using older auth mechanism than identity you are probably out of luck and identity is pretty new . 
+  these are just looking at my projects i do n't even intend to try to upgrade them to see what other pain will i have to deal with . 
+  casting to object is easy in java too . 
+  to be honest even in the case of silverlight they pushed until it was obvious they lost . 
+  would anyone use silverlight if ms were still pushing it but it does n't work on ios and android and could n't be supported in chrome ? 
+  strange . 
+  i am not forced to use tfs i do it on purpose but sometimes i am forced to not use tfs :(, 
+  even if you are going to train your devs you must find at least one that is good with scala so he can start things and train the others . 
+  a lot of stuff binds to iis in the old asp.net mvc . 
+  owin stuff started shipping in real products less than two years ago . 
+  if you have a 6 month old project maybe you can port it somewhat more easy but older projects will be hard . 
+  here is how i get the current user with a new project with asp.net identity, 
+  httpcontext.current.user.identity.getuserid ( ) ;, 
+  getuserid is a method from identity . 
+  i do n't even know how am i supposed to get it without httpcontext . 
+  i am talking about migrating to asp.net 5 not to mvc . 
+  but the architecture in mvc6 is different . 
+  i literally know one . 
+  i can find him but maybe i ca n't hire him . 
+  you need to replace the built in di with whatever you are using ... if it supports vnext at all . 
+  the default container is not unity but something much more lightweight . 
+  i think it would be enough for the way i use di but the fact remains that i will need to change things if i decide to port a project . 
+   `` linked lists are so useful that in a barren standard library like c 's knowing how to code one up is essential for basically any further cs programming exercise . '', 
+  yeah , right . 
+  totally useless in its raw form . 
+  i ca n't recall a single case that i had to use actual linked list . 
+  i 've used linked list logic on more complex objects that happened to reference each other in a couple of cases but the linked list generic data structure is practically useless . 
+  and it 's very convenient . 
+  no , and even if they did go in a linked list that would n't matter . 
+  however it turns out my platform of choice sends them in an array although each element of the array does store an index of the next element so it is conceptually a linked list but not the one i would expect to see implemented in this exercise, 
+  and a great way to make money . 
+  give me the option to host a tournament via battle.net and charge me $ 5 or something . 
+  i do n't think morph time increase for lurkers makes sense . 
+  however i would like to see a morph time increase for ravagers . 
+  i think gold was banned in the us for a while . 
+  probably banned in other places even now . 
+  gold does n't seem to care . 
+  but in star trek ... 
+  showing beginners how to create database from code should be banned . 
+  you should really create your database the normal way and then write entities that map to it . 
+  it is not like gold lost its value when it was banned , 
+  i would say simple and small . 
+  if it is not small i am not able to check each and every key and column it generates . 
+  no , you should learn how to create a database before even looking at ef . 
+  i sometimes just stop playing after 3 losses in a row . 
+  too bad my hosting provider still charges $ 2 per month for a static ip address and they do not provide ssl without it . 
+  no i mean hosting providers . 
+  maybe the correct term is dedicated static ip . 
+  i know that web servers support [ sni ] ( https://en.wikipedia.org/wiki/server_name_indication ) for several years now but hosting providers ( at least the ones i looked at in the asp.net space ) still require that you buy an ip address to enable ssl even if you use your own certificate . 
+  no , talking about cheap shared hosting . 
+  he means the gold guy . 
+  that mvp vs naniwa series ... mvp cheesed 3 games in a row . 
+  bosstoss level : win a game in pvp after 4-gating the wrong location on the map ( sorry too lazy to find a link ), 
+  bitbybit played in 3-4 gsl seasons not just cheesing but cheesing the same way . 
+  well vps is more expensive . 
+  if it was for anything that mattered i would pay but for something that does n't make money and does not store any non-public info ( except user passwords ) i ca n't justify the cost . 
+  i would love to encrypt just as a matter of principle but ca n't justify the cost . 
+  the prices on your link hover around $ 6 per month, 
+  currently less than $ 3 per month - http://www.smarterasp.net/hosting_plans ( . net basic ) i also have one wordpress website on another provider . 
+  azure does n't do it because it does n't include sql server in the free version . 
+  i really need to take a look at this cloudflare thing and i was about to do it a couple of times but i am too lazy . 
+  i think at some point i might just swallow the $ 2 for a static ip although i find it a bit insulting that they make me do that as i know it is not a technical requirement . 
+  may also move to azure although i think it was still cheaper to use the current provider with a static ip, 
+  i 'd bet against you if we could somehow resolve the bet . 
+  players back then were not so ignorant as you describe them .

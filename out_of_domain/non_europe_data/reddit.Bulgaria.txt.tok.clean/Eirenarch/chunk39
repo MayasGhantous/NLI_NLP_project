@@ -1,0 +1,100 @@
+  this will create interest in the game on local level and the world scene will build on top of it . 
+  foreign players will then have a stepping stone and there will be no such a gap between being amateur gm on europe and being a pro in korea . 
+  there will be stepping stones ( local scene , local tournaments ) to motivate and support the player financially while he builds up to the higher level . 
+  that 's up for a debate . 
+  july revolutionalized zerg in pretty much the same way in sc1 and then other players built on top of this style . 
+  if this is the way zerg win this is how zergs should learn to play . 
+  also some of the games i watched were just absurd . 
+  idra sitting on 5k/2k and not even having hive then complaining that his roach/hydra/corruptor army can not beat upgraded protoss deathball as if he does n't even know about vipers , ultralisk , broodlords or pretty much anything else but the three units he made . 
+  the guy did n't even have a starport and the whole map was in creep , 
+  i compare the situation to sc1 because there is one guy that shows it can be done if you completely overthink the way you play . 
+  if life can do it then all zergs should aim to master life 's style ( or invent their own counters ) instead of complaining about balance . 
+  he had storm and colossus ( this is the game where the screenshot on the top of reddit is from ) . 
+  idra had serious advantage he got by denying the third and killing some units early on but did not use it to transition to higher tech . 
+  i do n't feel like life 's game was all in but if this is what it takes to win as a zerg then this is what you do as a zerg . 
+  also you pointed out that life has very good zerglings micro and then go on to talk about how sc2 is skill capped . 
+  skill capped for everyone but life ? 
+  what does air toss and templars have to do with idra 's poor play in a couple of matches ? 
+  what is he trying to prove that protoss air is too strong by losing not only to air but to anything else protoss including a nexus + photon overcharge near his natural . 
+  while you are at it use the league for the current match type . 
+  use the 2 vs 2 team 's league for 2 vs 2 arranged team games, 
+  i do n't know if the above is true but if i was stephano 's coach i would probably slap him on day 2 . 
+  the guy ca n't even stop typing in games in tournaments where typing is prohibited . 
+  i ca n't even start to imagine his discipline inside the team . 
+  you are right team games are very popular in this type of environment . 
+  when sc1 was at its peak in the internet cafes in bulgaria most of the games were team games . 
+  in fact we defaulted to 2 vs 2 as the way to play sc . 
+  tournaments were also mainly 2 vs 2 . 
+  in fact i think at the time bulgarians were the best 2 vs 2 players in the world because we focused on exploring the 2 vs 2 metagame for tournaments . 
+  the very next week he did it in gsl . 
+  also he may for once read the tournament rules . 
+  even i have read them and i am not a progamer , coach or had not even visited gsl in person . 
+  sadly you are right . 
+  now we are on the ship that makes me seasick and i want to throw up . 
+  this is impressive engineering but it seems that i am the only one who sees that their game has graphics quality that was considered good a decade ago but right now it seems archaic . 
+  so this means he should break the rules . 
+  btw i think a korean never broke this rule , only foreigners, 
+  this is not about the punishment or the stupid rule . 
+  this is about stephano not taking things seriously . 
+  i am a fan of stephano but he is like a spoiled but talented child . 
+  you ca n't just kick him out because he is talented but you know this attitude would fail him . 
+  yeah the new `` open '' ms sucks , 
+  he did not say that . 
+  you have no idea what you are talking about . 
+  have you ever looked at an overview of the winrt dev platform ? 
+  yeah but it can not do two way databinding ( at least with the winjs library ) and can not package winrt components for consumption from other apps . 
+  also i do n't know a person with the same experience in . net and js that will make better software with js . 
+  i believe what you said is true but if anders leaves i am doing a career switch to whatever he starts working on , 
+  according to the discussion in the link he 's going to work in academia . 
+  but erik is not older ? 
+  he is like 30 right ? 
+  winrt is not . net but the apps written in . net and consuming winrt apis are certainly . net, 
+  this !, 
+  i still think irc is the best community tool and hang in freenode programming channels all the time but for small and organized ( i.e. 
+  company ) groups skype is better . 
+  i would also add automatic logging for people who were offline . 
+  nah , he has the energy of a 25 year old guy . 
+  it should be obvious that i am joking . 
+  however i do find it ironic that once microsoft stopped being `` evil '' people declare it is bad to work there , they are dying , etc. 
+  i guess the sorting takes some time no matter the tech . 
+  you make it seem like dynamic typing is obvious advantage and the only reason we use static typing is performance which is not the case . 
+  however even if dynamic typing is so much better i still believe that in this particular type of code c # wins because of async/await . 
+  the js code is harder to read and contains repetition in the error handling . 
+  in addition if you use the right pattern ( i.e. 
+  mvp ) you can create pretty much the same separation of concerns you get from mvc and still use components ( controls ) . 
+  in fact i prefer web forms with mvp to mvc . 
+  however this debate is pointless these days as the new web fashion is single page applications where you do n't generate html on the server and therefore both mvc and web forms are outdated technologies . 
+  i think he means iis and the asp.net pipeline . 
+  it contains a lot of useful stuff turned on by default like logging , performance counters , caching , etc. 
+  in such a benchmark these would severely slow down the . net implementation . 
+  in a real world application chances are you want to use some of them . 
+  in node you have to add those things to your application if you want to use them in . net you have to remove them if you do n't want to use them . 
+  you are correct . 
+  in addition i feel he allows . net to use additional threads by starting a task for sorting which is not what happens in node . 
+  on the other hand i can not imagine a reason why . net would be slower . 
+  . net can do async io too and with much more clean code ( async/await ) . 
+  also mono is just fine and windows hosting is not much more expensive than linux hosting . 
+  you do n't get work stealing in this case since he does not use parallel extensions . 
+  however you do get another thread ( i.e. 
+  another core ) from the thread pool . 
+  the benchmark is total bullshit . 
+  i hope someone makes meaningful benchmark for . net and node.js . 
+  on one side we have people who just dump the default iis configuration and make a benchmark where . net obviously loses because of the full pipeline and on the other side we 've got people who run . net on multiple cores and then declare it is faster than node.js which runs on one core . 
+  i expect if someone takes the time to do a meaningful test they will find both technologies with similar performance . 
+  my point is that you can argue that mvc is dead since now ms are talking about and developing tools for spas, 
+  c # will surely lose if you go all the way dynamic . 
+  c # does very few optimizations when using dynamic because it is assumed that you will use it when no static information is present ( i.e. 
+  when you can not make much optimization anyway ) . 
+  v8 on the other hand is optimized for dynamic code and uses a great amount of tricks to profile and optimize the execution . 
+  his argument is strange though as performance is not the only or even the main reason people chose static typing . 
+  the author is wrong about so many things i do n't even know where to start , 
+  mvvm does n't work if you do n't have two-way databinding and two-way databinding in web does n't really work because the web is stateless . 
+  of course you may do client-side mvvm with knockout.js but this is entirely different story . 
+  all this shows is that if you use more than one core you get better performance than if you use only one core, 
+  edit : unless the author tested on a single core machine which i doubt . 
+  webforms ' two way databinding is not anywhere near to mvvm 's databinding . 
+  you simply can not implement mvvm with webforms - therefore mvp . 
+  also i am not convinced mvvm is better than mvp . 
+  my xaml projects all use mvvm or just code behind but sometimes i think mvp may be a better choice . 
+  i am not confusing anything . 
+  what api 's do n't use the async os version ?

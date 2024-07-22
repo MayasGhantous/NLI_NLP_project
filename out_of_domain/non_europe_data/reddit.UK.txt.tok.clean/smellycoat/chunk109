@@ -1,0 +1,100 @@
+  * 24-bit png for everything else , ( particularly screenshots , graphs , vector graphics/text rendered as images , or anything with alpha transparency ), 
+  if you want to get into optimisation , then 8-bit ( 256-colour ) pngs are smaller than 24-bit , and useful for interface elements and the like . 
+  much like gif they only support 1-bit transparency , but they 're smaller ( for everything except * some * very tiny images - but that 's getting into the realms of very specific optimisations ) . 
+  honestly though , if you want to optimise , you 're probably going to be better off using sprites ( even if that means some images are encoded in 24-bit png when they do n't need to be - although of course if you can get away with it , an 8-bit png sprite image will of course be smaller ) , and then hammering the sprite image with pngcrush/optipng/whatever to get it as small as possible . 
+  * wait until you get to the front if you want to mosh . 
+  and when you get there , use your forearms , * not * your fists or elbows . 
+  * you can smoke if you 're at the front barrier , you can smoke if you 're back far enough to be out of the crush . 
+  otherwise , do n't smoke . 
+  * if you have massive dreadlocks with the texture of razor wire , leather jackets with evil-looking studs or anything else that you would n't want rubbed against your bare skin , please be mindful of those behind you . 
+  * are you very fat ? 
+  wearing boots that weigh more than my car ? 
+  no stagediving/crowdsurfing for you . 
+  * if anyone falls , you either pick them up if you 're close enough , or do your best to hold people back out of their way if you 're not . 
+  * if you 're going to dance like a sweaty maniac all night , put some fucking deodorant on . 
+  * please wear a shirt if you 're dancing . 
+  nobody likes feeling your greasy , slimy , sweaty skin . 
+  * they 'll play the only-tune-you-know eventually . 
+  please shut up . 
+  100 % quality jpegs still have compression artifacts , so are unsuitable for stuff like screenshots , vector graphics , graphs , text , etc. 
+  it might be something you choose to do to save bandwidth , but you 'll be doing so at the expense of image quality . 
+  [ here 's ] ( http://i.imgur.com/7i9st.png ) a screenshot of my post , saved as 100 % quality jpeg . 
+  i processed the left half ( fucked around with the levels/brightness ) so you can see the artifacts . 
+  ( it 's saved as png so you can see it without any extra artifacts ) . 
+  they 're hard to see at that quality , but they 're definitely there . 
+  it 's worth noting that at 100 % quality , the jpeg comes out with a file size approximately ten times larger than the same thing encoded losslessly as a 24-bit png ( and about 15x larger than an 8-bit png ) . 
+  a heated blade ( i 've never had much luck with that myself , though ) , a quick flash with a blowtorch , or just sealing the ends to the wires with heatshrink tubing . 
+  no , this is where perl and python differ in philosophies . 
+  python 's ` range ( x , y ) ` does one thing and one thing only . 
+  well-defined , easy-to-understand behaviour , but it can bite you in the arse if you 're not thinking about the consequences . 
+  perl 's ` x. . y ` does different stuff in different contexts , which means it can work around some of the problems caused by programmer expectation ( like '' ` for ( 0 . .100000 ) ` will work fine !, 
+  '' ) , but is more complicated and thus harder to understand all its quirks . 
+  i 'm not saying one is better than the other , though . 
+  i think without pythonesque strictness you end up with a language that 's great to use but impossible to learn completely , and without perlish pragmatism you end up with a simple language that 's horrible to work with . 
+  do n't be greedy , seed everything forever , leave your torrent client running 24/7 , upload anything you get a chance to ( although that ai n't easy these days ) , and abuse freeleech like it 's a redheaded stepchild . 
+  you can always hit ` / usr/bin/ls ` directly if you need to . 
+  i use ` ll ` rather than ` ls ` , though ( aliased to ` ls - lhg ` or ` ls - lh -- color = auto ` depending on os ) , since it 's way easier to type , and i can still use ` ls ` directly if i 'm doing something fancier . 
+  the downside of that , though , is after using ` ll ` for many years , i feel utterly hamstrung on a box without it . 
+  often the first action when connecting to a new machine is to manually type my ` ll ` alias . 
+  for an element with a fixed height and width you can use absolute positioning and negative margins :, 
+  #centered {, 
+  position : absolute ;, 
+  left : 50 % ;, 
+  top : 50 % ;, 
+  you can just position vertically ( and use ` width :100 % ; text-align : center ; ` ) if you want to . 
+  shut the bathroom door and windows , switch off extractor fans , turn the shower on cold and leave it running for 20 minutes . 
+  then switch off the shower and apply your screen protector in the bathroom . 
+  wipe the screen down first , obviously . 
+  the running water creates a small convection current around the bathroom , and slowly pulls the dust out of the air as is passes through the water . 
+  it wo n't completely remove it all , but it 'll certainly get rid of a lot of it . 
+  raid 0 sacrifices reliability for speed , so it 's a little dangerous . 
+  because one drive failing means you lose everything , statistically you 're twice as likely to lose all your data ( assuming two drives ) . 
+  the speed gains you get are really not that noticeable in all but very specific applications . 
+  there 's still some overhead in the raid controller , so you only really see the benefits when reading or writing large , contiguous files . 
+  they do n't do much for seek times , which is where speed improvements are more noticeable . 
+  raid 1 is good if you 're nervous about data loss , but it 's expensive , and does n't remove the need for regular backups . 
+  when building servers , i use raid 1 on anything that would be a pain in the arse if it broke . 
+  but on a home box , that 's just another drive whirring away eating power . 
+  if downtime or data loss would be a problem , then raid 1 is n't a bad plan , but be aware that similar drives with similar usage patterns are more likely to die at a similar time - so for a home box you 'd probably be better off sticking the second drive in a usb enclosure and using it as a backup ( since you can store it away from your machine , and its usage patterns will be different ) . 
+  raid 5 is very , very slow . 
+  read speed is pretty good ( as long as all your drives are working ) , but write speeds can be horrible . 
+  particularly with a cheap raid controller . 
+  it gets even slower if a drive dies ( and then you have to recover the array - which can be a time consuming and troublesome process ) . 
+  use it when you care more about protecting against data loss or usable space than speed . 
+  it 's great for backup servers , or a home fileserver . 
+  but i would n't use it on a workstation ( unless you have a need for large , redundant storage ) simply because it 's so damn slow . 
+  tl ; dr : raid1 is the only thing that wo n't gimp your speeds . 
+  but it 's expensive . 
+  [ crucial ] ( http://www.crucial.com ) will tell you which ram to get for each machine , and guaranteed it 's compatible . 
+  savings accounts here ( uk ) are fucking awful at the moment ( the base rate is still 0.5 % , so savings accounts are close to 2-3 % - way under inflation ) . 
+  so i have no fucking idea what to do with it . 
+  it 's currently kicking around in my bank account doing nothing . 
+  if you liked that , [ sabnzbd ] ( http://www.sabnzbd.org/ ) plus [ sick beard ] ( http://sickbeard.com/ ) will make you shit your pants , 
+  a usenet provider , you mean ? 
+  i use astraweb . 
+  they 're not quite as good as giganews , but are much , much cheaper , and certainly good enough . 
+  [ here 's ] ( http://www.news.astraweb.com/specials/kleverig-11.multicards.html ) a special offer link for added cheapness . 
+  pop3 is virtually worthless if you have any significant volume of mail to deal with , and what 's more ; you know it . 
+  refusing to implement the widely-supported industry standard imap protocol in an attempt to protect outlook 's market share is fucking retarded - everyone who wants imap will just leave . 
+  but that 's the problem , is n't it ? 
+  you offer `` unlimited '' storage * now * , but before that , the limit was ** 2mb ** . 
+  your unlimited storage space exists * only * because google started gmail , which ruined your attempts to push people to paid accounts by limiting their available storage space . 
+  given that an email address is something you 're kinda stuck with for a while once you start using it ( so you have to trust the people that run the service to some degree ) , i 'd rather put my trust in google , who have proven they 're willing to innovate , rather than simply squeeze people for money . 
+  if i were to start using a hotmail account , why should i trust you guys not to fuck me over in the future ? 
+  that 's `` feature parity '' . 
+  you 'll see that phrase a lot from the ms guys ... 
+  that 's ridiculous . 
+  have you never heard of a photocopier ? 
+  for static content :, 
+  * deflate/gzip everything, 
+  * set proper expiry headers on everything , as long as is reasonably feasible . 
+  ( remember you can always add a random querystring value to bypass the cache if you need to make emergency changes ), 
+  * consolidate images into css sprites ( then hammer them with pngcrush/optipng ), 
+  * use the correct image formats : jpeg for photos , gif for animated images ( only !, 
+  ) , and png for everything else . 
+  consider whether you can get away with using 8-bit ( 256 colour ) png rather than 24-bit . 
+  * consolidate js and css into single minified files, 
+  * . . except common js libraries , use google 's hosted ( minified ) versions, 
+  * load all your css in the head , but load your js at the bottom of the body ( yes , that means you have to be careful with inline event handlers in your html . 
+  it 's worth it , though ), 
+  * specify image sizes for any img tags ( but make sure they match the size of the image exactly - do n't rely on the browser to resize images ),

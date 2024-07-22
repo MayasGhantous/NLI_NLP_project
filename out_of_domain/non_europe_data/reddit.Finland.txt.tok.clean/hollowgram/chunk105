@@ -1,0 +1,100 @@
+  / * all form fields are automatically passed to the php script through the array $ _ post . 
+  $ to = `` my@email.com '' ;, 
+  $ subject = `` submitted form '' ;, 
+  $ name = $ _ post [ ` name ' ] ;, 
+  $ phone = $ _ post [ ` phone ' ] ;, 
+  $ message = $ _ post [ ` message ' ] ;, 
+  $ headers = $ name . 
+  '' \\ r \\ n '' ;, 
+  $ headers . = $ phone . 
+  '' \\ r \\ n '' ;, 
+  $ headers . = $ email . 
+  '' \\ r \\ n '' ;, 
+  if ( mail ( $ to , $ subject , $ message , $ headers ) ) {, 
+  echo '' <h4 thank you for sending email </h4 '' ;, 
+  echo '' <a\u00a0href='javascript:history.back(1);' return to sweetness </a '' ;, 
+  } else {, 
+  echo '' <h4 ca n't send email to $ email </h4 '' ;, 
+  i was figuring at first that wordpress would be a good choice , but looking at the photo gallery plugins it looks like they 're meant more for posts rather than pages . 
+  basically the website will either be one page with jquery sliding content , or a couple pages ( portfolio , exhibitions , about , contact ) and he needs to be able to add photos ( and ideally categories as well ) . 
+  i 'm looking either for a photo gallery plugin that will have a simple upload/management functionality for wordpress , or a better alternative to get the job done . 
+  give me ideas , reddit !, 
+  ** edit : ** wow , thanks for all the ideas , i 've got my hands full and hopefully y' all walked away with some fresh insight as well !, 
+  for the uninitiated , [ othello ] ( http://en.wikipedia.org/wiki/reversi ) is a game of black vs. white that follows a few basic rules :, 
+  - game is played on an 8x8 grid, 
+  - players have two pegs each in the center in the beginning, 
+  - black goes first, 
+  - you can only add a peg by having at least one of your opponents pieces in the middle , thus making it one of yours, 
+  - game ends when no more moves are possible, 
+  i 've had an infatuation with this game ever since nokia had it on their 7110 ( with a wrong starting position and total shit opponent ai ) , but the game is n't too popular , thankfully there 's ireversi for the iphone and has roughly 200 players online at any given time . 
+  the game is so simple at first glance , but there are so many different variations and rules that i keep learning new facets even after so many years of playing . 
+  it 's like a combination of checkers , chess and go and i love it . 
+  how about you reddit ? 
+  i 'm really fascinated to know what the backlash/response was to such a magnificent piece of `` look at how transparent your idiocy is '' but i ca n't seem to find anything to give me the feel for the atmosphere . 
+  i hope jon the best and feel we as humanity need more of this head-on expression of our condition . 
+  it 's great to know hannity had a major blow to his image as well . 
+  what 's happening over there , reddit ? 
+  here is my humble contribution to y' all :, 
+   2 x 200g ( 0.4 pounds ) of white chocolate, 
+   200g of butter, 
+  melt in a pot and let it cool, 
+   2 x eggs, 
+   2 dl ( 0.85 cups ) of sugar, 
+   1 tsp of vanilla sugar, 
+   3 dl ( 1.2 cups ) of flour, 
+   a pinch of salt, 
+  stir everything together using a fork or something similar , add to the butter-chocolate mix, 
+   add 100 - 150g of crunched walnuts, 
+  take some parchment paper and cover your casserole , pour the mixture evenly onto it and put it in the oven at 150 celsius for 30 minutes . 
+  enjoy !, 
+  edit : added us measurements . 
+  sheesh , get with the metrics already !, 
+  i 'm trying to write an essay , more for practice than anything , about drug laws and the hypocrisy of the drug war and if i remember correctly there was a treaty/law signed in the wto or some other organization that prevents countries from legalizing drugs . 
+  perhaps there are several ? 
+  give me as much info as you can muster , reddit !, 
+  i 'm creating a website for a friend and he wants to edit the content in the website . 
+  i 'm using wordpress as the core . 
+  the website is going to be one page with accordions for content . 
+  i 'm adding jquery tabs and directing the tab content from outside files so that he can edit them without mangling the code , but i 'd like for him to have a nice word-type editor , such as the one wordpress already has for pages and blog posts . 
+  what would be the best plug-in/method to allow him to edit the text files with a minimum amount of technical dabbling for him ? 
+  speciifcally , i 'm looking for the script of les poup\u00e9es russes ( russian dolls , 2005 ) and ca n't find it anywhere . 
+  awesome movie , btw , great writing . 
+  i figured it 'd be a good time for fellow redditors to share their sources and maybe get some help with my quest . 
+  so i came across [ htmlbox ] ( http://htmlbox.remiya.com/ ) while looking for a rich-text editor to put on my website and it seems to be exactly what i 'm looking for . 
+  the strange thing is , there 's very little documentation and virtually no community or tutorials on how to implement this thing on a web server . 
+  i 've coded a page with htmlbox , i 've added an ajax post save button , but how the hell do i get a page ( for example text.php ) to load in the htmlbox viewer on page load ? 
+  i 'm in a really tight spot with my money but finally at a point where i can invest to get a proper dslr . 
+  i want to be able to film good video as well as take great photos and i 've heard and seen some awesome video from the 550d , but what i want is your more mature opinion :, 
+  what points justify getting the 550d over the 500d ? 
+  how much better is the video ? 
+  so i 'm developing a website for a friend who wants to add articles he 's featured in as well as television and radio appearances . 
+  i built him a wordpress that has categories for posts ( four cateogries x three languages ) and used a plug-in to list the posts in a list :, 
+  let 's pretend english is selected *, 
+   ** articles **, 
+   ** television **, 
+  so what i need is to somehow create an html/text editor interface as easily as possible so that he can add non-linked entries , such as `` tv4 feature on the morning show , 2006 '' below the headers . 
+  what 's the easiest way to pull this off ? 
+  i 've looked at [ htmlbox ] ( http://htmlbox.remiya.com/ ) , and while it looks to be exactly what i 'm looking for , i ca n't find a way for it to fetch and display text that 's in an external file , it 's got very basic documentation and no support forums . 
+  ** edit : ** to clarify , i need a rich-text editor that i can put online that can interface with a file with the text , not a way to get text onto the website . 
+  so i 'm making a web app demo and i 'd like to be able to change states , such as have testpage.html display <div\u00a0id=\1\ unless an option has been enabled in which case it would show <div\u00a0id=\2\ , or automatically redirect to testpage2.html where the other div would be . 
+  what are my options ( i only know html , css and a tad of php and js ) in regards to this ? 
+  it seems like php and xml/ajax is only works if you have a server with a database . 
+  the simpler the solution , the better . 
+  i 've tried jcarousel lite and a few other ones but i 'm having a lot of difficulty of getting these to work , with jcarousel and its btngo functionality it seems the external controls need to be buttons in order to work , and i ca n't get the fucker to function even though each div is exactly the same size . 
+  what is your content scroller of choice that supports external controls and is easy for a designer to use ? 
+  do you have standards in your mind that you uphold yourself to ? 
+  mine :, 
+  - asap removal of kettle with its hideous whistle after boiling, 
+  - no loud music past 23.00 ( 11 pm ), 
+  other than that i have yet to limit my actions further . 
+  what are yours ? 
+  ok i wanted to do this since honestly , why settle for anything less ? 
+  [ o'reilly 's site ] ( http://www.oreillynet.com/mac/blog/2007/03/itunes_fadeout_script.html ) has an applescript that provides two components necessary for making a nice , smooth fade in and out applescript . 
+  for your convenience , i posted it below :, 
+  db itunes fade-in/out, 
+  by david battino , batmosphere.com, 
+  based on ideas from doug 's applescripts and mac os hints, 
+  this script fades out itunes if it 's playing and fades it in if it 's stopped . 
+  global okflag -- update 2007-06-07 : changed from `` property okflag : false '', 
+  set okflag to false, 
+  set front_app to ( path to frontmost application as unicode text ),

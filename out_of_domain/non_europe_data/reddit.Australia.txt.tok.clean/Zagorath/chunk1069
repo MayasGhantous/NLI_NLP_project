@@ -1,0 +1,100 @@
+  them being able to send you your password * upon account creation or password change * is not indicative of broader bad security practices . 
+  yes , it 's probably not a good idea to send people sensitive information like a password through email to begin with , because email is just about the least secure method of communication out there , but that 's not the problem here . 
+  it is * trivially * easy to set up salted hashed passwords in the database but also send an email right after the user specifies a password , but before you hash and forget the plaintext form of it . 
+  ( trivially easy , that is , once you 've already got the salted hash part done -- that 's very easy to do wrong . ), 
+  the better test of security is whether or not it is possible for them to send you your password * after * the account has been created but without * changing * it . 
+  if they can do * that * , they are insecurely storing your passwords . 
+  of course , the mere fact that they are sending passwords over email * is * indicative of a generally blas\u00e9 attitude towards security , which * could * imply that their password storage might be insecure . 
+  but it 's far from a certainty or even `` most likely '' . 
+  but fwiw , ** everyone ** should be using a password manager like lastpass to manage ** all ** their passwords . 
+  many sites use bad password storage without it ever being clear that 's what they 're doing . 
+  many ** many ** more are subject to social engineering attacks , etc. 
+  having a unique , * really * strong password , like ` | dal#8am~f@=y87~uz:kytts$ { r ( t { 3 ` on a per-site basis is the * only * way to be safe . 
+  the other difference is that python 2 is * almost * 100 % forward compatible * anyway * . 
+  division and print statements are the only things that i can immediately think of that would cause a beginner to stumble , and they 're pretty easy to explain . 
+  mate , have you seen / r/arrow any time in the past 6 months ? 
+  as a mod myself , albeit of a few smaller subreddits , it 's infuriating how often i see people post stuff that gets blocked by an automated filter , or which i manually remove for being submitted in the wrong way , and then the poster just ignores it when i let them know how to rectify the situation . 
+  it 's just ... you cared enough to submit this thing the first time , and it 's pretty cool , why will you not just follow some really simple instructions to make sure it actually gets seen ? 
+  edit : just recently happened again . 
+  right [ here ] ( / r/dndgreentext/comments / 51qblz/new _ dm_story_time / ) . 
+  post is removed for linking to reddit-wide banned sites . 
+  mod asks them to fix it . 
+  they instead go ahead and hit `` delete '' at their end . 
+  what the fuck . 
+  prefix each line with ''  '' to have it display as greentext . 
+  see [ our manual of style ] ( / r/dndgreentext/wiki / style ) for more advanced style and formatting options on this subreddit . 
+  hey sorry , but quickmeme and meme.am are actually banned sites on reddit . 
+  your post has been automatically filtered . 
+  could you please reupload the images to a more trustworthy host like imgur ? 
+  that explains why i could n't find it at my normal sources . 
+  for some reason ** everywhere ** is calling it s01e15 . 
+  i was searching for s02e03 , and nothing was showing up . 
+  well , they did give s01e12 `` adam ruins death '' an official description which includes the words `` in the season finale '' . 
+  plus , i 'm not sure i 'd trust imdb to be honest . 
+  it 's currently describing adam ruins football as `` s01e12 '' , and has weddings as `` s01e13 '' , which is * clearly * wrong . 
+  tasmania is a conspiracy . 
+  also , by '' = = '' , you would have been more accurate to have used '' \u21d4 '' . 
+  but python 2 does this ? 
+  you 'll really get a much better response if you go to / r/dndnext . 
+  this subreddit is really more about sharing the actual stories . 
+  but to briefly answer your questions , you roll any time someone attempts an actual that has a reasonable chance of * meaningful * failure . 
+  trying to open a locked door before the guard catches you ? 
+  roll . 
+  trying to open a locked door when there 's no reason you could n't just keep trying and trying until you succeed , then just let them succeed . 
+  ( unless the door is so hard that even their * best * could n't succeed . ), 
+  [ this article ] ( http://theangrygm.com/five-simple-rules-for-dating-my-teenaged-skill-system/ ) gives a ** really ** good explanation of more detail of how that works out . 
+  a failure on a roll should only ever be a failure on that roll . 
+  some people enjoy really silly games where a 1 becomes lay on hands , and if that 's you , then you can do that . 
+  but in the general sense of `` what * should * i do '' , the only thing that happens when you roll a 1 is you miss the attack . 
+  as a side note , you do n't roll to smite . 
+  you roll to attack . 
+  and * if * the attack hits , * then * the paladin can decide he wants to smite . 
+  it 's a little minutia in the way the divine smite feature is worded . 
+  you 're correct about con versus dex . 
+  the player 's handbook and dungeon master 's guide have good rules for when to use things . 
+  the hardest distinction to make is charisma versus wisdom , but in general if you just use wisdom unless a feature in the game specifically tells you otherwise , you 'll probably be fine . 
+  it 's worth speaking , at this point , about the three main types of rolls . 
+  there are attack rolls , ability checks , and saving throws . 
+  attack rolls are , not surprisingly , when you 're trying to attack something . 
+  if you use a weapon , this is what you 're making . 
+  some spells also involve attack rolls , like * fire bolt * and * eldritch blast * . 
+  then there are ability checks . 
+  these are when you 're actively trying to accomplish something other than attacking . 
+  there are essentially three types of ability checks . 
+  skill checks are things like charisma ( intimidation ) or dexterity ( acrobatics ) , where you roll a d20 , add the relevant ability modifier , and then if you are proficient in the skill ( mentioned in brackets ) , you add your proficiency modifier . 
+  tool checks involve the use of some tool . 
+  for example you might make a dexterity ( thieve 's tools ) check to pick a lock . 
+  you roll the d20 , add the relevant modifier , and then if you are proficient with that tool , you add your proficiency modifier . 
+  and then there are plain ability checks . 
+  these might be things like using brute force to open a door , which could be a straight strength check . 
+  you can never be proficient in a plain ability check . 
+  but plain ability checks are very rare in my experience . 
+  most of the time you 'll be using skill checks , and sometimes tool checks . 
+  then there are saving throws . 
+  this is to avoid some effect caused by something outside your control . 
+  everyone should be proficient in exactly two saving throws thanks to their class . 
+  if you 're dodging some arrows fired from a trap , that 's a dexterity saving throw . 
+  if you 're trying to hang on to a pillar when a gush of water suddenly comes down the corridor , that 's a strength saving throw . 
+  many spells also specify that they involve saving throws . 
+  * fireball * and * sacred flame * , for example . 
+  for all of these types of rolls , if you * equal or exceed * the requirement ( the target 's ac in the case of an attack roll , or the dc in the case of the other two -- you as dm decide the dc of traps you design , or of ability checks 10 is easy , 15 medium , 20 hard , as a rough guideline ) , then you succeed in the check , and what you were trying to accomplish succeeds . 
+  there 's one special case , though . 
+  if two people are making ability checks to try and stop each other , for example one makes a strength ( athletics ) check to grapple someone else , and the other tries to dexterity ( acrobatics ) to dodge out of the way , this is called an `` ability contest '' . 
+  in a contest , if there is a tie , * the least change occurs * . 
+  in the case of grappling , the person successfully avoids being grappled . 
+  if one was trying to open a door , and the other was keeping it shut , a tie means it stays shut . 
+  if two people were trying to grab a small ring off the floor as quickly as possible , a tie means nobody gets it -- it 's up to you to decide * how * that plays out , maybe they butt heads or something . 
+  as for common mistakes , there almost certainly are many , but i ca n't think of any serious ones off the top of my head that keeping the above in mind wo n't solve . 
+  but the most important thing is that as long as you and your players are all having fun , it does n't matter how strictly you follow the rules . 
+  if things become too complicated , it might be more fun to play fast and loose with the rules ; do n't be afraid to just wing it if you do n't know the rule for something . 
+  you can look it up later if you want to . 
+  but again , i would recommend trying to ask at / r/dndnext , because it 's a * far * better forum for this kind of thing , and you 'll get far more responses . 
+  but please do feel free to come back here once you 've played a bit and share your experiences with us !, 
+  what 's the difference between '' \u2283 '' ( which , to be honest , looks to me like a backwards pointing `` proper subset '' symbol ) and the `` implies '' symbol ( '' \u21d2 '' ) ? 
+  how interesting . 
+  i 'm guessing it 's a problem with ` len ( string ) ` assuming ascii , and therefore looking at the length of the number of bytes used and just assuming that 's correct ? 
+  if you do ` len ( u '' \u00e9 '' ) ` and explicitly tell it you 're working with unicode , things work correctly . 
+  admittedly not ideal , but it does work . 
+  williams really is a master of modern composition . 
+  even among his film music he shows enormous variety . 
+  from the epic space opera of star wars and the fun adventure of indiana jones , to the mysterious and fun jazzy romp of catch me if you can and the utter perfection that just pulls at your heart strings of schindler 's list , and everything in between .

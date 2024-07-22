@@ -1,0 +1,100 @@
+   am i in shit ? 
+  yes , but i suppose you can sort this out . 
+  i * hope * just having your name on the letter does n't count as enough evidence for actually ordering it ... 
+   should i go to the police and explain myself ? 
+  maybe , but you should find a real lawyer and ask them asap . 
+  generally people say `` do n't talk to the police '' on the internet , but that 's a us-specific thing , and i do n't think saying nothing is a good idea if your name is on the letter . 
+  but is there any downside to that , compared to not signing and getting fired right now ? 
+  what if the specification says that the field is never supposed to be null ? 
+  and everyone who still works at the company thinks that the field would never be null ? 
+  then you would end up with a test that * incorrectly * checks `` if null , throw an error '' . 
+  but it turns out that some old data in some old production database still is null , and the old code worked fine on null by accident . 
+  it does n't have to be something as obvious as null , maybe something harder to notice like `` start time must be before end time '' , but some data has them as equal or out of order . 
+  this scientist module described in the article would then run your old and new code in production , alert you that the new code throws a null error or does n't work the same , and you get to decide whether to fix the spec and the tests , or risk fixing the old data . 
+  by `` specification '' i mean people 's expectation of what the system should do and what the data should look like . 
+  maybe most of it is even written down in a document or wiki somewhere , and only 12 months out of date !, 
+  by incorrect tests i mean that the developers understanding of the problem , and therefore also the tests are incorrect . 
+  they thought some pattern in data could never happen , but in production somewhere it does . 
+  if we 're dealing with a simple null case , then sure , having a database constraint would help . 
+  there could still be many reasons why you ca n't add that constraint directly in the database : some other team or department owns the database , adding not null would break their data import script that first inserts null and then changes the value , or whatever . 
+  but a better example from a real database , a real system i had to work with a few months ago : there is a table that tracks progress in a sales pipeline . 
+  each object has state , start timestamp of the state , and end timestamp of the date . 
+  end can be null if it 's the current state . 
+  start has not null constraint set , end does not . 
+  i naively assumed that there are more constraints ( in whatever app that writes the data , not in the database itself ) :, 
+  * start is before end . 
+  nope , some states have zero length . 
+  * only one state begins at the same time . 
+  nope , if there is a zero length one just before it . 
+  * each end timestamp matches the next timestamp . 
+  nope , they can be off by up to 10 seconds . 
+  * each object has exactly one state with null end ( current ) . 
+  nope , some data from 2009 has multiple . 
+  looks like the end was never changed when more states were logged for code that was live for a while back then , but nobody knows the reason any more . 
+  and many other tables like that . 
+  do i go and manually fix the data , and then add these as database-level constraints ? 
+  no , because this would take a at least a few months without any other results to show for it , because another team owns the database , and because i would have to first find all other applications or reports that may break because of the changes . 
+  i just want to know what state an object was at time x. 
+  tests are excellent for small modules , * assuming * you know what the right behaviour to test is . 
+  the approach github proposed sounds fantastic for large complicated systems with lots of legacy crap . 
+  as they say :, 
+   since software has bugs , given enough time and volume , your data will have bugs , too . 
+  data quality problems may cause your system to behave in unexpected ways that are not tested or explicitly part of the specifications . 
+  your users will encounter this bad data , and whatever behavior they see will be what they come to rely on and consider correct . 
+   the two-character gimmick is just that , a gimmick, 
+  i found it very fun . 
+  it allowed me to level up one character for stealth , and the other one as a fighter , and alternate between missions . 
+  no more worrying and stressing about whether i made the right choices in the skill tree like in most rpg-like games . 
+  black flag was an amazing game . 
+  but it would have been even better as a pure pirate game without all the assassins , templars , present time and other ac stuff . 
+  it would not help to make the jwst serviceable , as we do n't currently have any spacecraft that could take a service crew beyond low earth orbit . 
+  the sls+o rion system might eventually be able to do it , but its manned flights are not expected before 2023 . 
+  and once we do , the flights are expected to cost a significant fraction of the jwst cost - it may be cheaper to build and launch another identical telescope . 
+   i want to see how these parameters impact the database performance using this dummy app . 
+  the app can be dummy , but the data can not . 
+  postgresql query plans depend * heavily * on the amount and distribution of data that you have ( remember to run vacuum analyze to update statistics after a lot of inserts/updates ) . 
+  if the table is small enough , indexes are very often ( correctly ! ), 
+  ignored if favour of full sequential scans . 
+  the best approach would be to run the performance tests on an identical copy of the production database . 
+  and for the isolation / concurrency control settings , the performance will depend heavily on parallel writes . 
+  the tests would have to duplicate or simulate the real transaction behaviour somehow . 
+   is this a normal request when you are shopping around for development quotes from companies ? 
+  no , this is not normal . 
+  what exactly did they promise in return for the $ 10k ? 
+  in a big , vaguely defined project , it would be normal to have an initial `` planning and documentation '' stage . 
+  this would be for the project managers , designers and perhaps developers meeting with you , discussing options and ideas , and in the end delivering a detailed specification document , mockup screenshots , and perhaps a quote for the full development . 
+  this might very well cost $ 10k for a large project , but : you would get the spec and mockups as a deliverable , and you would be free to use these to shop around for quotes on actual development work . 
+  if they request payment just to give you a single number , then that is certainly not normal . 
+  maybe , but it seems like a bizarre way of doing it . 
+  to weed out tirekickers , they could just say `` our minimum project size is $ xk . 
+  your project could range anywhere between $ yk to $ zk depending on details , is this within your expected budget ? '', 
+  asking for payment for a quote would weed out almost everyone who does n't yet have an existing good experiences with them . 
+  can you map the existing database tables to django models ( use [ managed = false ] ( https://docs.djangoproject.com/en/1.9/ref/models/options/#managed ) ) , and then just add them to the built-in admin site ? 
+  or maybe consider buying https://editor.datatables.net/ for the excel-like frontend , and add a few backend api calls for loading/saving data ? 
+  satellites are fine . 
+  but if you have a rocket that that can put a payload into orbit , then it the same rocket can also deliver to the payload to anywhere on earth . 
+  have a look at http://www.studyinestonia.ee/ , it has a lot of information on visas , living costs , and all sorts of processes . 
+  you can apply after getting accepted by the university . 
+  i do n't think the political situation in turkey matters at all , people processing the visas are going to be bureaucrats who follow the rules precisely rather than making any sort of subjective decisions . 
+  the concept is interesting , but it 's too confusing . 
+  what are these strike prices ? 
+  if someone starts using it for free now , could they become liable for fees later ? 
+  nobody wants to use software where you need to talk to your company 's lawyers before trying it out . 
+  i would suggest making it something more familiar to developers , so that they can immediately understand what the terms are . 
+  something like gplv3 or agplv3 , plus an offer for `` usual '' commercial licenses . 
+  i use both celery and redis queue ( via https://github.com/ui/django-rq ) in some projects . 
+  celery is feature-rich , but a bit of a pain to install and set up . 
+  redis queue is very easy to setup , especially if you are already using redis as your django cache backend . 
+  the only feature i 'm missing from redis queue is the ability to schedule tasks more precisely than 1 minute in the future ( i need a 10 second delay in one project , i 've migrated all others from celery to rq ) . 
+  the data itself will not be interesting to enthusiasts . 
+  the ligo team most surely has already looked for every possible interesting bit in there . 
+  instead :, 
+  * the process and tools for cleaning and analyzing the data can be educational , to see how they do it . 
+  * if you are another scientist in the field , you would want to check their computation for any issues or mistakes . 
+  * if you are another scientist in the field with your own gravity wave detector ( there are about 5 , less sensitive than ligo , in operation ) , then you would want to see how well your data matches up . 
+  it is very different from most shooters . 
+  almost mandatory stealth , camping and sniping . 
+  do you like waiting 10 minutes to line up the perfect shot that takes the balls off a nazi without anyone else noticing you ? 
+  if yes , it 's a great game . 
+  how about online board games ? 
+  maybe classics such as go ( https://www.gokgs.com/ ) , chess , etc.

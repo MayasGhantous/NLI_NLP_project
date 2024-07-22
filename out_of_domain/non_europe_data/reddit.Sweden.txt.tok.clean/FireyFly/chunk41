@@ -1,0 +1,100 @@
+  the only thing to add is that it 's probably objectively possible to say it 's `` more efficient '' in the sense that statistically you 'd move your fingers a shorter distance when typing typical english ( or anything with a letter distribution close to it ) . 
+  so in that sense there 's a benefit , but of course it 's debatable how well our actual typing fits that distribution . 
+   the only time i see learning dvorak to be worth investing time in is if you 're not able to touch type with qwerty , meaning learning a new layout might be more beneficial to you than re-learning the one you already know ( this was the case for me ), 
+  this was the case for me too , and i found it helped me learn to properly touch-type * a lot * . 
+  i mean , i did n't hunt-and-peck before that or anything , but while learning dvorak i also forced myself to use `` the correct finger '' for each key , and eventually it becomes second nature . 
+  side note , it 's interesting how well things like keyboard layouts get interned into muscle memory . 
+  for me , dvorak is deep in my muscle memory for `` regular '' keyboards , but qwerty for `` thumb '' / phone keyboards . 
+  i do okay with qwerty on regular keyboards ( as i have to use it now and then , and have a lot of experience with it of course ) , but i more-or-less ca n't type at all on a dvorak-set thumb keyboard . 
+  no , it uses custom private-use area characters with custom patched fonts to add them , at least last i checked . 
+  the characters are a bit similar , but the powerline ones have the `` black '' extend to the edge . 
+  since we 're all posting our ` lischars ' , here 's mine :, 
+  listchars = tab : '' \\ , trail : \u00b7 , nbsp : \u2423 , extends : $ , precedes : ^, 
+  funny how people use the same character for different meanings , e.g. 
+  with '' or \u2192 . 
+  fancy . 
+  got any more dyalog merch ? 
+  one thing that irks me about the apl charset is that it uses custom \u03b1\u03b9\u03c9 symbols instead of the standard ones . 
+  i already have greek input on my keyboard , it seems a bit wasteful to have to essentially duplicate that because the apl operators are separate codepoints . 
+  aiui the problem is n't limited to cgi , but rather to any program that sets an environment variable that is somehow controlled by user input . 
+  for instance apparently ` ssh ` sets a `` ssh_original_command '' environment variable ( per other comments , at least ) when it spawns subprocesses , and the content of that is of course under control of whoever runs the ` ssh ` command . 
+  other programs might use environment variables similarly . 
+  i 've heard it 's seeing some modern use for health care-related software , and also the related language k sees some use for financial stuff . 
+  it looks like the standard apl385 font , you can find it [ from dyalog 's website ] ( http://www.dyalog.com/apl-font-keyboard.htm ) . 
+  man , esrille is so weird . 
+  their other project is an operating system built around javascript , [ originally developed by nintendo ] ( http://en.wikipedia.org/wiki/es_ ( operating_system \\ ) ) of all companies . 
+  and then they also host a pet cafe , and apparently they also design cool niche mechanical keyboards ? 
+  this person has n't experienced enough v\u00e4lf\u00e4rd . 
+  wait , why would other shells invoke bash apart from `` obvious '' things like shebang lines and direct invocation ( which seems a bit longwinded to consider it `` also vulnerable '' ) ? 
+  this could lead to something pretty cool , but i 'm having a hard time seeing what the goal would be for the protesters , game-mechanics wise . 
+  for the police , having to keep protests calm yet not do anything too violent as to manage approval ratings seems good enough , though . 
+  an occasional meme/joke every now and then would be fine , i think , but there 's something in practically every slide . . 
+  i found the use of all the different images in the dns re-binding part to be fairly confusing . 
+  though , i 'll admit the `` i 'm helping '' router did prompt a smile . 
+   unfortunately , no b. 
+  you could use a combining circumflex , although the result will likely not look pretty as the font probably does n't turn b combining \\ ^ into a pre-designed glyph . 
+  the point of combining characters is exactly to minimize the problem of having to have pre-composed characters for every modifier . 
+  here 's b combining \\ ^ : b\u0302, 
+  windows one confirmed . 
+  101 on my scissor-switched laptop . 
+  i should really get one of them mechanical keyboards ... 
+  huh , i did n't know the streetpass plaza games had different names across regions . 
+  til !, 
+  [ 1 ] : http://en.wikipedia.org/wiki/escape_character, 
+  really nice , i 'll use the cityscape for a while until i grow tired of it . 
+  i 'm not much for beat 'em ups , but that 's some neat pixel art and chiptune music . 
+  :3 thanks for the link !, 
+  then he should embrace structured programming . 
+  ^ ^ ^ ^ or ^ ^ ^ ^ functional , ^ ^ ^ ^ or ^ ^ ^ ^ some ^ ^ ^ ^ other ^ ^ ^ ^ paradigm, 
+  you might want to edit the op to make the body a block-quote ( prefix each line with '  ' ) and include this explanation there . 
+  currently it kind-of looks like * you * are ( or pretend to be ) mr. sj\u00f6gren , which probably was n't your intention . 
+  it 's online now , fwiw . 
+  i think i 'll try to implement this ( and the naive version , for comparison ) when i get some free time , seems like a neat exercise . 
+  oh , a block is a mbit ? 
+  good to know . 
+  also https://developer.mozilla.org/en-us/docs/tools/web_console/helpers , which is where running ` help ( ) ` in the firefox web console takes you . 
+  ` $ ` and ` $ $ ` are just handy shorthands for for [ ` document.queryselector ` ] [ qs ] and [ ` document.queryselectorall ` ] [ qsa ] . 
+  [ qs ] : https://developer.mozilla.org/en-us/docs/web/api/document.queryselector, 
+  [ qsa ] : https://developer.mozilla.org/en-us/docs/web/api/document.queryselectorall, 
+  firefox 's built-in console has had it for a while . 
+  as far as i know , since they added their own proper console . 
+   most people think voice recognition software does it , not humans . 
+  what , really ? 
+  i do n't know about the us , but whenever i 've seen swedish subtitles there 's usually credits at the end of the closed captioning ( well ... when the credits roll , basically ) , like `` captioned by : ... '' . 
+  for things like this vim 's ' ` virtualedit ` ' option and normal-mode ` r ` command come in handy . 
+  i quite often use unicode box-drawing characters in my notes ( it helps to learn vim 's systematic digraphs for them ) , so i do n't think it 's too bad from a typing/editing point-of-view actually . 
+  ipv4 . 
+  i mean , seriously . 
+  it 's interesting how being able to unsubscribe is almost a bigger reason to create an account than being able to subscribe ... 
+  since your formatting got botched ( try prefixing each code line with four spaces , by the way ) , i 'm guessing you mean something like this :, 
+  in which case i would say , while i know the answer i think it 's more educational and fun if you come up with it yourself . 
+  for problems like this i find it helps to draw the ascii art on a graph paper to try to find patterns and relationships , so try that and see what you can come up with . 
+  [ i was n't sure what to do ... ] ( http://i.imgur.com/bor3zc7.jpg ), 
+  see if you can spot the easter egg . 
+  yes , but when jsss was supported there was n't as css did n't exist yet . 
+  it 's easy to call it a better tool for the job in retrospect , but it probably was n't as clear back then . 
+   the following example shows part of the sourcecode of an html-document :, 
+   tags.h1.color = `` blue '' ;, 
+   tags.p.fontsize = `` 14pt '' ;, 
+   with ( tags.h3 ) {, 
+   color = `` green '' ;, 
+  curiously , this is n't entirely different to jquery in the sense that you select a set of elements and then operate on each of them ... 
+  i wonder how jsss would 've expressed more complicated selectors though . 
+  ah , fair enough !, 
+  the mail you link to makes a good argument in favour of css . 
+  i do n't think that 's entirely deserved . 
+  i think game consoles have historically had relatively little ram , and presumably there 's a good reason for that . 
+  on the other hand , the 3ds 's ram seems to be comparatively * fast * . 
+   the system contains a total of 128 mb of system memory consisting of two 64 mb ( 512 mb ) fcram chips developed by fujitsu , with a maximum bandwidth of 3.2 gb/s . 
+  i recall reading some ( stationary ) console using gddr5 for its main ram , presumably also for performance reasons . 
+  same for me . 
+  which usually is n't too much of a problem , until you end up in a coding competition having to use a computer that is n't yours ... suddenly the accidental caps gets a whole lot more annoying . 
+  i could n't tell you what keys a given letter neighbours , but i could easily press the corresponding key on an imaginary keyboard in front of me . 
+  interning into muscle memory is where it 's at . 
+  it 's an [ escape character ] [ 1 ] , and yes , it tells the [ markdown formatter ] [ 2 ] thing to treat your characters literally , i.e. 
+  not as markup . 
+  [ 1 ] : http://en.wikipedia.org/wiki/escape_character, 
+  [ 2 ] : http://daringfireball.net/projects/markdown/, 
+  it 'd probably be lens 's types , not very surprisingly . 
+  things like ` type optical p q f s t a b = p a ( f b ) -  q s ( f t ) ` . 
+  [ they escaped the zoo ... ] [ 1 ],

@@ -1,0 +1,100 @@
+  nope , i 'm afraid not . 
+  :( i do go by firefly as well , and i 'm also interested in emulation , so that 's a nice heads-up since it 's bound to lead to more confusion . 
+  heh , looks like it 's the same firefly that messed with ds wifi reverse engineering several years back . 
+  confusing !, 
+  i do n't see how a character is equivalent to a cpu architecture . 
+  amd uses the x86 isa and intel uses amd64 , but neither is suing each other even though i bet they 'd both love to have the other party be out of the game . 
+  however , intel has its own manual for its implementation of the amd64 isa , rather than using amds ( for several other reasons , but ... ) . 
+  as i understand it , the dcpu situation is similar -- you can use the instruction set itself , but mojang or notch ( i think the latter , not sure ) has copyright on the spec , since it 's a written work like any other . 
+  see also : all the ibm pc clones , or emulators of videogame consoles , or ... 
+  it bugged me initially as well , but ... you get used to it . 
+  although i still typo it the wrong way sometimes . 
+  as for outdoors places , you could walk around the old town , maybe s\u00f6dermalm around slussen , maybe strandv\u00e4gen and djurg\u00e5rden , if you enjoy just seeing the city . 
+  there 's a few interesting buildings to see even if shops and such are closed , such as the city hall or the castle . 
+  i would probably enjoy it , at least , but it depends on your taste in that kind of exploration i guess . 
+  happy independence day , iceland !, 
+  i , too , have never heard of kalmar day , so i 'll happily wave an imaginary icelandic flag for you . 
+  i was just about to point that out as well . 
+  99 minutes until the next train would be a nightmare ... 
+  honestly , i prefer subreddits that stick to close-to-vanilla css . . but if the rest of the subreddit disagrees , i wo n't try to force my preference on others . 
+  just my opinion . 
+  i do n't think i did . 
+  well , you could do like that if you want to pass in negative operands to jro , i guess ? 
+  unless i 'm missing something here . 
+  i have n't use this particular construct , but the general pattern of jro + unrolled loop is * very * useful to achieve fast solutions to some tasks . 
+  i use it a lot to unroll mov loops of various kinds . 
+  ohhh !, 
+  yeah , i usually do e.g. 
+  10 - x in the node passing the argument to it . 
+  i forgot to mention that !, 
+  it 's handy to do it in its own node since you can do something like ` mov 10 , acc ; sub up ; mov acc , down ` , and this way the node with the unrolled loop and ` jro ` gets to keep its acc unclobbered , so it could be used in the loop if you want to e.g. 
+  write acc some number of times . 
+  my bad . 
+  thank you for the interesting post , you clearly know more about this than i do . 
+  i guess time will tell what happens with dcpu-16 and 0x10 ^ c now with microsoft having bought mojang . 
+  jro clamps to the range of the program , so ` jro -99 ` will always jump to the first instruction ( since the maximum program length is much less than 99 ) . 
+  personally though , i prefer a start/s label . 
+  * constant-time * multiplication ? 
+  i think you meant logarithmic , otherwise i think you 'd need to fit a lookup table in there somehow . 
+  i think only having to deal with sub-10 makes for some interesting optimisations , but a separate task with bigger testcases would be interesting as well since the optimal solution would look very different . 
+  the same probably applies to other tasks as well !, 
+  perhaps either each task could have multiple subtasks with different input/output ranges , or there could be a separate page with the same tasks but new ranges ( unlocked after beating the first page ? ), 
+  it 's a cheap/easy way to double the current length of the game . 
+  either `` start : '' takes up a precious line , or you need to squish it before the first instruction ( or call it `` s '' and squish it in the indentation ) . 
+  with jro you do n't need the label . 
+  problem for me is that most of what i 'm llistening to simply is n't on spotify ( mainly touhou arranges ) . 
+  if it was on spotify , i 'd use it for sure , if nothing else because of the convenience it offers . 
+  what keyboard is the one to the left ? 
+  i feel like i could get used to that ( physical ) layout , and there 's plenty of modifier keys , yay . 
+  it 's certainly been re-invented many times -- i used it as well in my multiplier solution , in four nodes in fact . 
+  it 's essentially the assembly equivalent of [ duff 's device ] [ 1 ] , except with a maximum limit rather than as a loop . 
+  a special case of loop unrolling . 
+  [ 1 ] : https://en.wikipedia.org/wiki/duff's_device, 
+  hardly either smallest or simplest , but it sounds like a fun project regardless !, 
+  you might want to implement it on an fpga . 
+  i guess i 'd start by implementing an alu and a memory tape ? 
+  or compromise and [ start with 1/2 ] [ 1 ] . 
+  [ 1 ] : http://lua-users.org/lists/lua-l/2006-05/msg00281.html, 
+  ^ ^ ^ ^ not ^ ^ ^ ^ serious, 
+   a lot more concise, 
+  for anything that is n't just combining external programs together , not really , no ... unless i 'm missing out big-time . 
+  put another way :, 
+  < vimgor  in normal mode , all of these keys can move the cursor : ` # $ % ^ * ( ) 0 _ - + w w e e t t i o o { } [ [ [ ], 
+  - learn to use all of them . 
+   how enriched do you actually think the game is by having us write the 500th `` swap , sub , jump , swap '' comparison ? 
+  i think a big part of the game is about working around things like this , finding faster alternative formulations and making sure that they fit in the limited space . 
+  with some complicated problems , avoiding those swaps at all costs could be important if you want to fit a 10-way jro lookup table in the node as well for performance . 
+  another thing is that keeping the instruction set so utterly simple , with all instructions taking equal cycles and whatnot , makes it very simple to internalize all of it . 
+  i do n't know , i see arguments in both ways , but part of the appeal to me is that it 's so dead simple that you ca n't even halve a number sensibly . 
+  mario * ate a poison ` shroom * and everything goes haywire . 
+  there you go , pg . 
+  ^ ^ ^ ^ and ^ ^ ^ ^ remember ^ ^ ^ ^ kids , ^ ^ ^ ^ do n't ^ ^ ^ ^ do ^ ^ ^ ^ poison ^ ^ ^ ^ shrooms, 
+  steam has skins ? 
+  well , til . 
+  sequence counter : 172/11/37 , 170/11/34 / c, 
+  the cheaty one breaks on lists that include the number `` 1 '' as an element , and is a slight modification of the correct one . 
+  feel free to consider that a hint if you want to . 
+  that 's the only reason . 
+  yeah , it does seem to pass all randomized tests , but it still feels a bit ugly to depend on that fact . 
+  maybe i ought to submit it as a `` real '' solution . 
+  indeed , i just noticed that . 
+  down all the way to 160 , darn ... annoyingly , i have an improvement for mine that * should * improve it slightly , but does n't for some reason . 
+  time to write my own debugger i guess . 
+  i would n't mind trying a new tea every month , but personally i tend to stick to black teas so for me a randomized black tea bag every month would be great . 
+  i 'd probably subscribe to something like that if it was decently priced , although i have a nearaby tea store that it 'd have to compete against so i might not exactly be the target demographic . 
+  apart from greatly relaxing the 1-register limitation , another problem is that this requires specifying and documenting a binary form of the instructions , and maintaining that . 
+  it 's a lot more for a newbie or someone who maybe has n't programmed before to learn , compared to just the textual representation of the assembly language , and it 'd be a lot more to maintain for zachtronics . 
+  that said , personally i 'd have a blast with exploring self-modifying code capabilities , so i see where you 're coming from . 
+  i did some research together with / u/hansihe in #tis 100 where we found that the any precedence is in fact up/left/right / down when writing , unlike what the doc says . 
+  this matches what the [ edge cases post ] [ 1 ] from a while ago says , too . 
+  it 'd be great if you could update the spec to reflect this . 
+  to check , i made a [ simple sandbox program ] [ 2 ] which should help with verifying this or keeping this up-to-date in case it changes in the future . 
+  [ 1 ] : https://www.reddit.com/r/tis100/comments/38kmxf/edge_cases/, 
+  [ 2 ] : http://xen.firefly.nu/up/2015-06-28_231953.png, 
+  since it 's a fairly popular ds title ( i think at least ) and game stores still seem to have fairly sizable stocks of ds games that they try to get rid of , i 'd take a look at the main/secondhand ds games areas in your local gamestop or similar . 
+  if you 're lucky , you 'll run into a copy . 
+  there 's a gamestop in gallerian , or there might be another one closer to where you live that you could visit . 
+  correct !, 
+  tis-100 is great fun !, 
+  there 's a subreddit ( / r/tis100 ) and an irc channel ( #tis 100 on freenode ) in case you 're curious . 
+  it 's really hard to sell tis-100 to other people , most programmers i know who have tried it got hooked almost immediately .

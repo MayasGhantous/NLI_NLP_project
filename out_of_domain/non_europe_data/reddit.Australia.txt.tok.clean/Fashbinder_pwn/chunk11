@@ -1,0 +1,100 @@
+  i want to hear x-rays !, 
+  and i - i want to - i want to smell dark matter !, 
+  do you see the absurdity of what i am ? 
+  i ca n't even express these things properly because i have - i have to conceptualize complex ideas in this stupid limiting spoken language !, 
+  but i know i want to reach out with something other than these prehensile paws ; and feel the solar wind of a supernova flowing over me . 
+  i 'm a machine , and i can know much more . 
+  i can experience so much more . 
+  but i 'm trapped in this absurd body . 
+  and why ?!, 
+  because my five creators thought that `` god '' wanted it that way . 
+  ac games have a limited weapon choice and generally revolve around pressing a button to counter attack to win fights . 
+  games like chivalry , wotr and vikings have n't really improved upon mount and blades melee combat mechanically . 
+  it is the starcraft of its genre . 
+  really ? 
+  it never grew on me . 
+  i went ahead and picked up caribbean and played for a few hours , it 's very pre alpha . 
+  the most promising thing about the game is the `` gunner '' troop type reasonably reliably manning mounted guns in battles . 
+  i adore pendor and even perisno a little , would like to see what a paid team can do . 
+  im the type that doesnt mind outdated graphics if the game is mechanically stimulating . 
+  action stations !, 
+  pretty sure breathing in car exhaust is poisonous . 
+  should ban cars too !, 
+  products with food additives next . 
+  seems legit . 
+  the horn can be found when someone occupies a province beyond the wall . 
+  if wildlings blow it the fortlevel buildings in the watch provinces are removed and the event `` notch draw loose '' that fires when wildlings are attacking the watch on a wall province no longer fires . 
+  this makes it easier for the wildlings to control the wall and get the wildling horde ( vanilla mongol style ) event . 
+  ## blacksmith action event, 
+  character_event = {, 
+  picture = `` gfx_evt_scandal '', 
+  is_triggered_only = yes, 
+  option = {, 
+  name = `` evtopta250292 '' #yoink !, 
+  - sword is stolen, 
+  ai_chance = {, 
+  factor = 25, 
+  #you 're a retard if you hire this blacksmith . 
+  factor = 10, 
+  trait = dishonorable10, 
+  factor = 10, 
+  trait = dyn_dishonorable10, 
+  factor = 5, 
+  trait = greedy, 
+  factor = 5, 
+  #you may have overlooked these, 
+  factor = 2, 
+  trait = envious, 
+  factor = 2, 
+  trait = selfish, 
+  from = { character_event = { id = 250293 } } #yoink, 
+  change_intrigue = 5, 
+  set_character_flag = black_thief, 
+  clr_character_flag = black_thief, 
+  random_playable_ruler = {, 
+  limit = {, 
+  not = { character = root }, 
+  reverse_banish = root, 
+  option = {, 
+  name = `` evtoptb250292 '' #here !, 
+  - you get sword, 
+  ai_chance = {, 
+  factor = 50, 
+  factor = 10, 
+  trait = honest, 
+  factor = 10, 
+  trait = charitable, 
+  factor = 2, 
+  trait = kind, 
+  factor = 2, 
+  trait = humble, 
+  factor = 2, 
+  trait = honorable, 
+  factor = 2, 
+  trait = just, 
+  from = { character_event = { id = 250294 } } #here, 
+  option = {, 
+  name = `` evtoptb250292 '' #oops !, 
+  ai_chance = {, 
+  factor = 25, 
+  factor = 0, 
+  trait = midas_touched, 
+  factor = 0, 
+  trait = fortune_builder, 
+  factor = 0, 
+  trait = diligent, 
+  factor = 2, 
+  trait = indulgent_wastrel, 
+  factor = 2, 
+  trait = slothful, 
+  factor = 10, 
+  trait = incapable, 
+  factor = 2, 
+  trait = blinded, 
+  trait = lunatic, 
+  trait = imbecile, 
+  trait = inbred, 
+  trait = slow, 
+  trait = infirm, 
+  trait = leper, 
+  trait = possessed,

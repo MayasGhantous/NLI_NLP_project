@@ -1,0 +1,100 @@
+  i think something like a tablet might grow to be of more general use , so perhaps your categories 2 and 3 could converge . 
+  is it a 2in1 or just separate keyboard and some practical portable stand or one of those approaches to connect a mobile device to a regular ( or mobile , somehow ?? ), 
+  screen and display an appropriate desktop or more like a chromebook etc , i 'm not sure . 
+  but the two seem so close already , surely they should soon both have the processing capability for decent wordprocessing , spreadsheets with not too large a datasets , simple slideshows etc , and its really just the clumsy touch interface that 's mostly gimping such a class of devices . 
+  surely someone can find sufficiently practical workarounds for that ... 
+  and that is probably as much as various non-professionals ( and many non-tech/engineering/design professions ) ever need to create . 
+  so the usecases for classical laptops seem to be getting quite narrow , while the desktop might continue to be one 's typical workstation - but only for those in a trade that needs a workstation . . 
+  i 'd guess emacs/vim/atom users . 
+  the article is really worse than that ; re latency , there 's a huge difference between what a nvm technology could offer , say in a dimm , and what 's the best any technology could offer as * an nvme ssd * . 
+  and that 's what these slides are about - its perfecltly clearly marked even ; says intel optane ssd in bold . 
+  the initial ones are about the tech itself . 
+  but to get there , we 'll have to dich the pcie . 
+  so ofc that 's not going to be the first product that comes to market . 
+  you ca n't get below ~ 1/10 latency of what we 've currently got * in that form/bus * , because that 's how much the bus itself takes up . 
+  we 'll just have to see how close or far intel gets to its promises , but this article is just terribly , terribly uninformed . 
+  is this ( at least roughly ? ), 
+  the same kind of approach as the one announced last year and used for reading the herculaneum papyri ? 
+  wait , but if you had a polysemic word , and no equivalent polysemy in the target language , are n't you , as a good translator , supposed to use different words depending on the context ? 
+  trivial example , if i translated the english word `` free ' to croatian , when the meaning is free of charge , i 'd say `` besplatno '' , when the meaning is about liberty , i 'd say `` slobodno '' . 
+  well in new testament texts at least , there are in fact important variants that seem to have been introduced by later scribes , and are often excluded from or bracketed in modern translations , as well as critical editions of the original text - like the 2 extra endings to mark , or the entire `` who is w/o sin should throw the first stone '' scene in john , or the sweating of blood in the garden of gesthemane etc. 
+  this year 's winner is an ensamble of inception , resnet and inception/resnet , so no wonder . 
+  but yeah , the floor of noisy labels is too close now ( i forget the exact number , saw a paper on it , but think more than 2.5 % ) . 
+  going from 3.567 to 2.991 is prob a 50 % + improvement on the remaining error beyond that floor . 
+  you know , a great thing about haskell libraries to me has allways been how it enabled taking a different perspective and approach to old problems , or demonstrating a significant advantage by leveraging its type system . 
+  so with pipes , lenses , frp frameworks , vectorisation -- or on the other hand its takes on concurrency , typed databases and web apis etc. 
+  i ca n't get nearly as excited about something as dull as yet another theano clone , but in haskell . 
+  there 's a bunch of deep learning frameworks around , either by companies with an interest like google , microsoft , facebook or by a strong deep learning university team , like uni montreal 's theano . 
+  these are very high level , client code rather clear , and are libraries maintained by some of the world 's top deep learning experts . 
+  what does haskell bring to the table ? 
+  types should be at most a minor win , scripts are short , it would n't be built on top of something like accelerate , as you really want to tightly couple to nvidia 's cudnn and the like for performance , there 's no motivation for some fun magic like say resurrecting nested parallelism etc. 
+  so why regurgitate work that 's already being done competently , but now in haskell ? 
+  why would the machine learning community care about this yet another framework ? 
+  that is not dead which can eternal lie / and with strange aeons even death may die, 
+  we need chinese fabbed chips then ; they can spy on us all they want , and prob are n't too friendly to the nsa to share the info . 
+  what 's the issue specifically with that card ? 
+  presuming the guy 's ok w installing a blob that is ? 
+  is n't the work of building it merely a few minutes of screwdriving ? 
+  why not just buy the components and cut out the middleman ? 
+  or is there something special about the case or whatever ? 
+  meh , nothing particularly technical is said here -- i just meant , official nvidia drivers ; as they 're not open source , sometimes one calls them `` binary blobs '' . 
+  anyhow , i 've not followed much about gpu performance and could n't even identify the model mentioned w/o further googling , last i saw some benchmarks on the matter , nvidia could give competitive game performance on a desktop linux , provided you used the official drivers . 
+  amd not really - butotoh , it was usually more passable with open source drivers . 
+  so i was asking what the issue with that particular card was . 
+   the academic world , by the way , has quite a well-developed sense of how to disagree on many matters while maintaining a sense of collegiality . 
+  perhaps that 's something we can try to keep from the stuffy old academics !, 
+  more for fun than to disagree , but the academic world has its share of eccentrics , and not all of them particularly polite . 
+  the example that comes to mind is ofc a famous one ; fritz zwicky , who described his collegues as being `` spherical bastards , as they 're bastards no matter which way you look at them '' . 
+  his difficult personality was so well known , that a physicist suggested a standard unit of abrasiveness should be named zwicky , to which another replied `` there is no such thing as a whole zwicky except him - that 's far too excessive - so the practical unit will be a micro-zwicky '' . 
+  type2 is the old name for what is now normally called standard . 
+  it has always been the most popular format , for it brings most money to wotc , given that it forces people to play only with the cards printed in the last 2 years ( well , or old prints of those same cards , but many are actually new so anyhow , puts you on that dumb ratrace ) . 
+  ruleset is the same across formats , what changes is which cards are legal . 
+  and yeah , ppl playing it are scum :d, 
+  well , maybe i 'm wrong , but i do n't think that 's true really ; maybe you have more uptodate benchmarks ? 
+  or maybe its something else besides the driver ? 
+  as to reasons , here 's some benchmarks done in 2013 , 2014 and 2015 by wine 's stefan d\u00f6singer https://www.youtube.com/watch?v=w23wntlxogo and https://www.youtube.com/watch?v=t4acxvm2gbc, 
+  and https://www.youtube.com/watch?v=487nnosjjrc, 
+  which are broadly similar , and have nvidia blob being at least roughly comparable or even occasionaly better than windows directx or gl performance , while amd is well really not great , blob or no ( and even opengl on its windows driver is just as fucked ) . 
+  but at least the open source driver is n't much worse . 
+  also has some interesting discussion about bottlenecks of wine performance and such too , if you 're interestend ... 
+  and i 'm pretty sure i can dig up similar benchmarks on phoronix ; have some memory of seeing some such couple of years ago . . 
+  or did something happen in the meantime ? 
+   you could use the same reasoning for almost any technology space, 
+  yes , i think you should . 
+   my belief is that the compositionality , safety , rapidity of refactoring , and deep mathematical foundations has something to offer in all of these domains . 
+  this is exactly what i doubt . 
+  we 're talking about high-performance gpu-focused number-crunching code here , a challenging environment for haskell to begin with ; moreover its closely tied to proprietary libraries ; if you 're gon na have to just ffi the core of the algorithms for performance sake , is the haskelly glue code that much better than any other glue ? 
+  it 'd have to be some fascinating engineering to be a win imho . 
+  or you need to make an edsl like accelerate actually perform as good as say hand-crafted cuda and/or calling of cudnn ; a completely orthogonal project , and apparently challenging one , as it still stands unsolved , and not for a lack of trying . 
+  but anyhow , i completely agree with your following paragraph ; in machine learning more generally and even possibly deep learning , it would certainly be interesting to explore the design space with more powerfull abstractions - if someone has significant novel ideas to explore there . 
+  that would be a great project , as opposed to yet another theano clone i gathered you were suggesting . 
+  and thx for the pdf ; you do have a point about troubles of gluing these engines into actual systems . 
+  but still you ca n't hope to do anything more with them than have an academic toy unless your performance can be equivalent to handcrafted convolutions for gpus if you want to cover deep learning , and that 's a tall order i think . 
+  and that 's great ; i love academic toys . 
+  i just though you were specifically speaking about the opposite use for haskell ; about mature production systems . 
+  what makes web and databases and the like a friendlier environment for haskell is that its concurrency support actually can perform rather well . 
+  probably a later sequel of the series actually . 
+  a 3d puzzle adventure game anyhow . 
+  i find this news unbelievable ; should n't something as small as mercury have had more than enough time for its core to cool down ? 
+  how can it be still active ? 
+  of course there 's quite a bit of something they have n't released yet ; the system described in the paper is far weaker than what they ended up demonstrating ; merely a 5p according to their internal metric . 
+  they 've claimed , what , more than 1000elo more by the time of lee sedol matches ? 
+  and more since on their internal metrics ... its playstyle was obviously completely different too . 
+  maybe they let us know about it after the announced ke jie match ; there was some talk about a second paper on the system . . 
+  tbh i 'm usually happy to miss that `` functionality '' most sites need js for . 
+  ie tracking , ads , inane discussion systems and otr blingy stuff that distracts from reading text . 
+  granted , shitty ones that do n't even render w/o it are a pain . 
+  i 'm a mostly w3m user , thx to an ancient laptop , and mostly happy w it . 
+  esp because it strips web styling too . 
+  doubt it for quite a few reasons . 
+  one is that no component of alphago ever did any self-play in the nature paper in the first place ; they merely generated a training set , of very similar size to the high-ranking human kgs policy net training set , and the high-ranking human tygen rollouts softmax training set ( idk why they even used 2 different human datasets for the 2 components ?!, 
+  ) , for training their value network by that technique . 
+  and i do n't see why that would n't be trained to convergence in the first place anyhow . 
+  it did n't take much play to do so ; was it 3 days ? 
+  weeks ? 
+  anyhow i do n't wan na pull out the paper and rehash this old argument again , but a marginal part of their total training time . 
+  further we know its not exactly the architecture described , as they later mentioned they used the custom asic for inference , so at minimum that is different . 
+  nor did self-play ever produce a particularly competent player ; mere 5d kgs . 
+  finally , if that 's all they did , then all the improvement would have to be coming from the value network , as that 's the only thing trained on the results , so at least indirectly linked to self-play . 
+  now in the nature paper , a 50/50 mix of the evaluation value net and the evaluation classical monte carlo rollouts was significantly stronger than either separatly , but we 're talking i think 500ish elo gains from including either . 
+  now we 'd need to suppose what 2000 elos from just the value net ?

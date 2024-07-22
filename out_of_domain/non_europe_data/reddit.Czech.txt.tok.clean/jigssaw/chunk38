@@ -1,0 +1,100 @@
+  tiny heatsinks are better than nothing but i wouldnt put too much trust in them :-), 
+  well i guess the devs ca n't expect the console peasants to hit anybody with their contrrollers so they design the difficulty around that :d ... #rekt #shots _ fired, 
+  for browsing the web anything with passmark over 2000 should suffice . 
+  you can pick some am3 athlon ii for like 20 bucks from youtube . 
+  the question is will they still support am1 ? 
+  i think there is still a place in the market for small die soc mobo so i hope they will eventually release some new chips for it :-), 
+  something does n't add up . 
+  why would the release 200mhz slower parts with higher nomenclature ( athlon 850 and 870 ) . 
+  they must have done something to the silicon or its just plain wrong . 
+  do n't look at the ground ... have your crosshair at head level . 
+  do n't shoot while moving . 
+  and the most important part - do n't be a dick - try to stay friendly even when you are losing - afterall we play the game to have fun not get angry :-), 
+  well actually am1 is the name of fs1b socket for jaguar socs debuted in 2014 . 
+  it was not part of am2/am2 + / am3/am3 ( there was never am1 - am2 was a succesor to socket 939 ), 
+  if there was no ipc limit then we 'd still be running single core cpus . 
+  no you be better off getting 290, 
+  pls do n't use wireless ac unless you really need to . 
+  first of all most places are better suited with 2.4 ghz 802.11 n wifi because 2.4 ghz can go better through obstacles . 
+  the only reason to go 5ghz is if the 2.4 ghz spectrum is full and there would be interference ( mostly in appartment complexes ) . 
+  ac is basically the same as 5ghz n but it uses a lot more channels - so you can be proud to kill the spectrum for anybody who is close to you . 
+  while the reliability wo n't be as good as if you used single channel without interference . 
+  and trust me you do n't want to kill the 5ghz spectrum - thats like the one of the few ways small isps can compete with big guys who have cables in the ground ... less competition =  crappier connection . 
+  this was needed in like 2000 not in 2015 when vast majority have proper connections . 
+  to have more space ... its great when you 're coding something and you need to do a quick google search , or lookup something in manual . 
+  it saves a lot of time when you can just look left/right instead of alt-tabing . 
+  alse great for entertainment - you can have a video runing on your second screen while doing something else . 
+  or when gaming i can use it to do stuff while i am dead ( for instance in cs ) . 
+  once you get more screens its hard to go back :-), 
+  its still the team/players fault for not communicating this with their isps or if the isp do n't want to do it for not having different means . 
+  the way i would do it is to simply have an vpn server in a datacentre to which would all my packets be routed through a encrypted protocol . 
+  now on this vpn server it is easy to implement ddos protection . 
+  it would n't also be hard to have severel different ip adreses on different interfaces on that server and have different types of traffic go through different ip ( i.e. 
+  have every traffic go through some non essential ip and switch it to your main ip when playing online ) . 
+  its not rocket science any half decent network engineer would be able to set it up . 
+  and having large organizations behind those teams being unable to set this up is just unacceptable and shows them in a bad light ... 
+  if set up properly the difference would be miniscule ( like 1-5ms ) - having private vpn server with enough bandwidth in a datacentre very close to the main line in that country is very different from having vpn service to some unknown datacentre in a different country ... 
+  and thats a lot better solution than having 500ms + ping thx to ddos ... 
+  well you linked to ipc - inter-process communication . 
+  i though we were talking about ipc - instruction per clock ( i.e. 
+  how fast can single-core performance get ) . 
+  and while yes it can always get better - we are very close to that wall and every small gain is hard , soon we will also be hitting the wall of multicore cpus ( law of diminishing returns ) and then we will hope that something else can bring up the performance ( which migh very well be hsa - using gpu cores for fpu and regular x86 for integer compute ) . 
+  sorry for misunderstanding . 
+  who the f -- are you to tell csgl what games can it have on its site lol ? 
+  i just have to laugh at all the people that somehow think that csgl and volvo is one company that can just decide what games are gon na be bet on ... lol lol lol, 
+  people will always bet deal with it . 
+  even fucking government with guns putting people in cages ca n't stop betting ... 
+  the only problem is that tournaments and some teams/players are so unprofessional that they arent able to get some basic ddos protection . 
+  like seriously you are tech company that sponsors a cs : go team do you really think it shows you in a good light that you ca n't get your players a basic ddos protection !?!, 
+  would i really want to buy a tech service from company that is unable to do that ? 
+  its not rocket science guys - any half-decent network engineer can do it . 
+  and even if it wasnt for betting stupid fucks will ddos anyway for the fun of it - people even ddos streams which causes zero difference for the actual game ... 
+  some people are just jerks . 
+  not really it would be like if the released fx 8390 that would be slower than 8350 . 
+  if those parts are somehow lower tdp then amd still has the `` e '' suffix ( athlon 840e / 860e ) . 
+  it wouldnt make any sense . 
+  either they did some small revision to steamroller ( imho unlikely ) so the 870 will be faster even with lower clocks or these rumors are fake . 
+  exactly to release slower part with hihger nomenclature makes no sense . 
+  imho either these rumors are wrong or they made some tweaks to steamroller . 
+  btw are these to be made @gf or tsmc ? 
+  not really - the more tournaments the better - you do n't have to watch all of them . 
+  but the more there is the more opportunities lower ranked teams have to play and get better :-), 
+  you can change your mac without changin network card - that doesnt mean you will get new ip though . 
+  depends on how is the isp network set-up . 
+  yeh well the problem is that vpn providers are ussualy some kind of one-size fits all solution - i.e. 
+  they try to cover the whole us resulting in non perfect latency . 
+  my solution to ddos problem ( i work for a small isp ) :, 
+  step 1 : every player that has been compromised needs an ip change - you need to contact isp to do it . 
+  sadly there is no way around that . 
+  ( or you can theoretically consult your isp for ddos protection but if he isnt willing to give you different ip i do n't believe hell do this ) . 
+  step 2 : you need to setup private vpn server in a datacentre with good bandwitdth close to your playes isp destination . 
+  step 3 : every player gets router that has blocks all traffic except one random port on which the vpn server will respond ( and that port will be changed periodically ) . 
+  everything is tunneled to that one vpn server . 
+  here you implement ddos security - blacklist ips that try to connect with a lot of connections outside of your inner subnet . 
+  for added security you can have different interfaces/subinterfaces with different ips for different types of traffic . 
+  you could even set up the firewall to drop every connection except to the cs : go server ip when playing a match . 
+  step 4 : even if this somehow fails you still can very easily switch the ip - which is not always the case with regular isps . 
+  this will provide protection at minimal costs ( as opposed to dealing with it on player by player basis ) and with minimal added latency, 
+  of course - in this case the destination for the ddos traffic would be in place with a beefy connection and with beefy server that will have the grunt the drop all the connections . 
+  not some last mile shared bandwidth connection with cheapest router the isp can find ... 
+  some isp do what you are telling but not everybody ( depends on the area of the world and how many free ipv4 adresses does the isp have ) . 
+  for instance we have almost every client behind nat ( they have private ips ) so the only thing that could get ddosed is one of our central routers which has more than enough bandwidth/cpu power to deal with any blacklisting blocking and stuff like that . 
+  if anybody wants public ip from us we give him static ip adress . 
+  some isps do have a pool of public ips and they are periodically asigned to different users . 
+  whatever works . 
+  btw : if you tried your mac adress trick in our network you would lose internet acces because we have static only dhcp server . 
+  the latency would be reduced but there is always a but :-), 
+  honestly i do n't think relying on people that host the tournament is a good idea . 
+  first you would have to get new ips for players anyway and their connection at home still wouldnt be secured so somebody could still get their ip ( which is the main problem . ), 
+  but even if they sort that out - there could still be some people on the inside that could theoretically leak the true ip of some player for money . 
+  i would n't trust my team security in to the hands of so many different tournament organizers . 
+  yes that is basically the idea . 
+  but i do n't think if virtual server would satisfy the needs . 
+  ( not sure how much resources would the server need to have to reliably drop and filter the connections . ), 
+  i ussually say that my job is `` connecting people '' :d ( nokia trademarked  ) . 
+  i am propably too young to be your dad though :d, 
+  anyway it sure has its perks ... such us being able to very quickly sort out almost every possible problem that could happen with my internet ( waiting for technician sure sucks ! ), 
+  and having my own private ptp connection :-), 
+  i would advise against that - in the case your windows pc is infected it could easily be more trouble than its worth . 
+  not to mention you would have to rely on players to activate it . 
+  when security is essential it should be out of the hands of regular user - i.e.

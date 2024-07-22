@@ -1,0 +1,100 @@
+  these are _ the last days of the third age _ . 
+  the mod features the following , among others :, 
+  * lore accurate map of middle earth ( east of the misty mountains ), 
+  * 2 sides ( good vs evil ) and 2 regions ( north and south ), 
+  * 9 factions for good, 
+  * 10 factions for evil, 
+  * different races of middle earth ( no hobbits ), 
+  * war system with a faction strength rating, 
+  * modified economics, 
+  * faction influence points that can be used for special faction items and commands, 
+  * rank points that determine max party size , weekly resource income , and so on . 
+  * traits for certain decisions and actions, 
+  * formations and battle ai, 
+  * battle morale, 
+  * wounding and permadeath, 
+  ** note : ** this mod was originally developed for mount and blade 1.011 , and was ported to work with warband by swyter . 
+  this led to strange issues that was not originally found in vanilla m&b . 
+  for updates and feedback you can go to our moddb page at [ http://moddb.com/mods/the-last-days] or follow us on twitter at [ https://twitter.com/tldmod] . 
+  you can also download the mod without using steam by going to our nifty download page at [ https://tldmod.github.io] . 
+  video preview : https://youtu.be/tj0ri4n-tec, 
+  i 'm a tld dev , ask away !, 
+  we 're in maintenance mode . 
+  there are a couple of loose ends , like half finished quests , opengl shaders for linux and mac os x , and ironing out warband quirks . 
+  to track our progress/bugs you can [ take a look at our trello board ] ( https://trello.com/b/ntzyndea/the-last-days-of-the-third-age-warband-port ) . 
+  we plan to release the updated source code under a liberal creative commons license soon , so that others can expand on it . 
+  you are right . 
+  i plan to disable the testing mode in the workshop version to hide unfinished quests and cheat menu options . 
+  i was worried that recompiling the mod would break savegame compatibility . 
+  we shared our dev/nightly builds with the general playerbase to ease bug hunting , but that strategy is breaking immersion for some people . 
+  we are aware of that . 
+  should be now fixed in both 1.011 and warband . 
+  but will only start working if you start a new game in a recent-ish nightly patched version , as far as i know . 
+  tld is a complex beast , and save corruption problems have plagued it for as long as it has existed . 
+  [ the last days of the third age ] ( https://www.reddit.com/r/mountandblade/comments/3hha5m/the_last_days_of_the_third_age_is_now_live_on/ ) . 
+  we just posted the steam workshop announcement yesterday . 
+  this [ m&b 1.011 screenshot is ours , too ] ( http://www.moddb.com/mods/the-last-days/images/smiles-epic-screens-3122#imagebox ) . 
+  so not even warband . 
+  i do n't get why this low effort submission gets 125 votes while our detailed announcement only 20 . 
+  sigh . 
+  pretty much . 
+  that 's precisely the reason . 
+  until level 8 you experience a soft tutorial to get you acquainted with what you will be doing once the war of the ring finally breaks . 
+  he should have downloaded tld from here : https://tldmod.github.io, 
+  it took me a good few afternoons to transcribe it . 
+  it turned out to be his last great interview before he exited real madrid . 
+  i thought it might be useful for mid-level students . 
+  glad to be of help . 
+  there i am , can confirm on the sheer amount of variants . 
+  there you go : https://es.wikipedia.org/wiki/bulder, 
+  use the transliterated `` * hacer b\u00falder * '' , `` * escalada en bloque * '' , or even `` * escalada libre * '' may work in certain situations . 
+  also , hle bios ` es are not really any kind of actual bios . 
+  they are a part of the emulator that oversees the game from a higher perspective and mimics the responses of the original proprietary code to a certain degree . 
+  in the same way the rest of the emulator mimics the hardware . 
+  the game normally does not talk with the hardware directly ( as even between versions of the same console things change ) , when it tries to save data to the memory card , or retrieve the gamepad button presses it asks a lightweight operating system stored permanently in a rom chip mapped in ram at a certain place ( often unofficially called bios ) instead . 
+  thus hle is much more incomplete , it does just enough to fool the game and hook the bare basic functions that make it tick . 
+  if you can dump it yourself , yes . 
+  also , sounds like a fun afternoon project if you have a psx with a legal game ( to hotswap ) , a memory card , a memory card reader and a blank cd :, 
+  * http://ngemu.com/threads/psx-bios-dumping-guide.93161/, 
+  * http://shendosoft.blogspot.com/2013/07/psx-bios-dumper-26-released.html, 
+  * http://www.psxdev.net/forum/viewtopic.php?f=66&amp;t=395, 
+  if you have an arduino board [ you can read memory cards too ] ( http://shendohardware.blogspot.com/2013/06/memcarduino.html ) . 
+  that 's completely outdated . 
+  download the mod from here :, 
+  now the mod is in the steam workshop :, 
+  if you prefer to download it manually , do it from here :, 
+  _ orbis os _ in playstation 4 , for those scratching their heads . 
+  in castilian we say ' _ asignatura _ ' for school subjects . 
+  ( just for completeness , as ' _ materia _ ' is used for physical ' _ matter _ ' here ), 
+  it 's pretty common , but if you are not extremely acquainted with the language , culture or situation i would recommend against using it . 
+  the general rule is that gesticulation , body language and knowing your moment is what makes it acceptable . 
+  any ambiguity will raise eyebrows or make people cringe . 
+  you can convey many things without using expletives , which language learners tend to overuse . 
+  there 's also the more mild and reasonable variants : ' _ \u00a1 mierda ! _ ' , ' _ \u00a1 vaya ! _ ' , \u00a1 _ aiv\u00e1 _ ! , \u00a1 _ jobar _ ! , pick , mix and match . 
+  ( i still remember listening to david beckham giving interviews during his real madrid phase ; _ palabrotas _ all over the place . 
+  it was \\* extremely * ridiculous ... and painful back in the day ), 
+  on a more personal note , i almost never use it without reason . 
+  i find it pretty basic and vulgar . 
+  what about pointing to the official download page ? 
+  you guys are making it more difficult than it really is . 
+  go here and follow the neat instructions : https://tldmod.github.io, 
+  also , i 'm a tld dev and i 'm constantly pointing people here , do n't misinform . 
+  taleworlds did a shoddy work with their font dds texture decoder , looks like it only loads dxt3 files , so any mod using a custom font will give problems , or that 's what is seems . 
+  also , i 'd appreciate if someone could post a screenshot of the font problems in a mac . 
+  i 've seen plenty of people complain about it but no actual proof so far . 
+  it would come in handy to _ actually _ \\* see * the problem . 
+  yes . 
+  that error happens when you try to run the m&b 1.011 version of the mod in warband . 
+  next time download it from here ( https://tldmod.github.io ) , which is the official download page , and follow the instructions . 
+  it 's not rocket science , but i 'm starting to sound like a broken record because people do n't seem _ read _ on the internet , only skim and click on green buttons . 
+  we literally point to that page everywhere we have direct control on . 
+  that is completely outdated . 
+  do n't misinform . 
+  those are interpolated normal vectors represented as pixel/fragment shader colors . 
+  i bet because of an overheated graphics card or a driver problem . 
+  put more fans on it . 
+  first of all , that 's a random , old and unofficial video . 
+  we do n't use installers anymore , we do n't have release versions anymore , we support two games in tandem . 
+  we are doing something better than hand-holding people through a brain dead video tutorial , and that is making the installation simple . 
+  you go to https://tldmod.github.io ( which is always automatically updated with automatically-generated patches as we develop every change in our dev repository , all of that uploaded by a bot i made ) , you choose the game , you download the three files in order , and follow the explanation made for people who do n't like to read . 
+  see ?

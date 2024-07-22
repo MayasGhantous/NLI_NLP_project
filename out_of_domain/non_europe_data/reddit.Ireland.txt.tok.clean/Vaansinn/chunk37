@@ -1,0 +1,100 @@
+  it 's not so much about the mechanics but the fact that you can miss clues , misinterpret them and come to a wrong conclusion . 
+  it makes sense that the first mission is quite straight forward to show people how it 's supposed to work but in later cases you could end up with 4 different endings and only 1 is right ... and you have to make the call depending on the things you found or deducted . 
+  sure it might not be like the board game but it 's a great approach . 
+  what 's wrong with people who report this ? 
+  that was n't really my question but thanks ... 
+   being given the time to come to the correct answer without feeling like you have failed does . 
+  but is n't that exactly what i mentioned ? 
+  before you make the final conclusion you can go through everything you have and decide for yourself and might make a wrong decision . 
+   you can definitely miss clues - i did , then redid the case coming to a different conclusion, 
+  is n't that exactly the opposite of what you 're saying in the video ? 
+  what is it exactly you 're worried about ? 
+  is it bottlenecks in your system ? 
+  or more technical limitations ? 
+  for lower abs , i really this this workout https://youtu.be/cfy_4m3rvrc . 
+  as he is saying in the video , abs exercises do n't need to be done often so i think this will be great for definition . 
+  it 's mostly about the fat layer . 
+  also , make sure you find exercises that do n't hurt your back . 
+  even if you might not like this workout , i found his tips and advices pretty useful . 
+  why is every country in english except germany ? 
+  i have n't played it since release really but did n't they `` fix '' the ai so it 's not that easy anymore ? 
+  because that 's what put me off as well hut i thought they fixed it . 
+  a few points about that :, 
+  it is a story driven game more than a puzzle game so the actual `` puzzles '' are n't very challenging . 
+  the game has multiple chapters and the first one is pretty straight forward but to me it looked like it 's considered more of a tutorial mission compared to the rest . 
+  you can come to multiple different conclusions and that 's where the big difference is . 
+  you might find all the clues like any other player but you do n't make the right conclusion based on your evidence and this is what this game is about . 
+  it 's not about the correct dialogue option ( because the game will force you to select the correct one ) or if you identify all those details on a person . 
+  to summarize :, 
+  the core game is like la noir without driving and mostly shooting . 
+  the key element of c&p game are the conclusion at the end of each chapter and how it resolves . 
+  hope this helps . 
+  beats by dre ? 
+  ignore the top rated replies , they do n't even answer your question . 
+  go watch it , at least the first few episodes . 
+  i did n't expect much when starting to watch and was pleasantly surprised . 
+  how is that a `` confession '' ? 
+  that 's a humble brag like all of them, 
+  i started fallout 2 again a few weeks ago actually and this was my biggest `` wtf '' moment in the game . 
+  i had to restart 5 times to create a character to get even past the first few ants . 
+  that was just crazy balancing . 
+  it does n't even get better later in the game . 
+  random enemies can one shot you with uzis , doing over 100 dmg with one attack ... i much prefer fo3 to that mess, 
+  hey ,, 
+  i 'm not sure where the table reference comes from ? 
+  this sounds more like databases rather than excel . 
+  referencing the sheet and column should already specify what data you 're looking at . 
+  maybe a screenshot can highlight the exact issue ? 
+  is the issue resolved or still ongoing ? 
+  hey ,, 
+  from what it looks like , you do n't have to worry about the table reference . 
+  you just use the columns that are in the sheet ( a - e ) . 
+  just reference the workbook , sheet and column and you should be good to go . 
+  as jeester has mentioned , the easiest way would be to just open both workbooks , then enter the formula and select the `` table '' when you get to the part in the formula . 
+  edit :, 
+  the example with your formula would be :, 
+  = iferror ( averageif ( ' [ master worksheet.xls ] sheet1 ' ! $ c : $ c ) , '' '' ), 
+  this would reference the column c in your table . 
+  i 'd say the best thing would be to post 2 screenshots . 
+  the raw data so we get an idea of what we 're looking at . 
+  one of the `` converted '' tabs to see what you want to pull out . 
+  if it 's sensitive data you can obviously change that but i think it would be very helpful to see what you mean . 
+  in general , it sounds you 'll need to work a lot with if functions . 
+  hey ,, 
+  maybe it would be best to create a separate list/tab with the color reference and then just compare that reference to your data set ? 
+  if the name of that person is already in there , ca n't you just reference that particular cell in case you get an `` x '' or a '' ? '' ? 
+  edit : maybe a screenshot would help clarifying the scenario . 
+  hey ,, 
+  you can enter the following formula in cell m2 :, 
+  = countifs ( b : b , b2 , c : c , c2 , d :d , d2 , e : e , e2 , f : f , f2 , g : g , g2 , h : h , h2 , i : i , i2 , j : j , j2 , k : k , k2 ), 
+  however , it does n't work if you have blank cells in a row . 
+  i think the easiest way is to fill all the blank cells with 0 ( you can use the replace function and replace blank with 0 to fill the gaps ) and then change the cell style to comma [ 0 ] . 
+  that way the formula will work and you can easily see the numbers . 
+  let me know if you 're stuck at one of the steps . 
+  the formula might get a bit slow but you can give it a try anyway . 
+  actually , if it is too slow you can create a unique identifier for each line with concatenate . 
+  if you enter the following formula in m2, 
+  = concatenate ( b2 , c2 , d2 , e2 , f2 , g2 , h2 , i2 , j2 , k2 ), 
+  you 'll get 1050050002555 . 
+  so basically , the amount of ingredients create their own id . 
+  you can then check this id for duplicates to spot the recipes . 
+  again , this wo n't work with blanks but if you replace them with 0 as described above , this should be a better solution . 
+  edit : guess i was too slow :d jrtanton seems to have the better solution . 
+  i 'd say google would be the better help but it also depends on what you actually want to have . 
+  the description sounds pretty straight forward . 
+  you could just create a column with dates and a column with hours/start and end times ? 
+  that would give you a good overview over the hours worked over the week/month, 
+  good solution . 
+   note that you will need to adjust the range to include all of your data . 
+  so instead of $ a$ 2 : $ a$ 10 if you had data all the way down to row 500 you would put $ a$ 2 : $ a$ 500 ( same for the column c reference as well ), 
+  would n't it be easier to just include the full range like this :, 
+  = if ( countifs ( $ a : $ a , a2 , $ c : $ c , `` y '' )  1,1,0 ), 
+  that seems to work as well and works on the full range . 
+  as mentioned in the other comment , this formula should pull the data correctly :, 
+  once you copied it into d12 you might want to double check that it references the correct cells . 
+  not sure if the other solutions helped already but you can also use the following formula :, 
+  = hour ( $ a1 ) & minute ( $ a1 ), 
+  hey merphal ,, 
+  i think the best approach would be to create different columns with your reference data ( for example all your managers names , all your weekdays , shift types ect . ) . 
+  you can then use the averageif function to check on what day or what manager resulted in what amount of money . 
+  you can obviously create that for all the other criterias and mix them as well .

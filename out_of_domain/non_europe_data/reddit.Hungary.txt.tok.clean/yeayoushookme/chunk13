@@ -1,0 +1,100 @@
+  you 'll get around 95dbspl at 1 meter while driving your amp hard . 
+  why not do the conversion in software and store a . flac instad ? 
+  zoom in . 
+  the pedestrian is holding a shotgun mic . 
+  he ca n't compare it with the old one that way , because most difference will be due to the strings . 
+  you do n't have to take them off all the way , just loosen them so that you have enough room to fit the new pickup . 
+  change the gain on your amp to correct for the different output levels of the pickups . 
+  remember , you want them to sound better , not louder . 
+  what 's more likely , that you remember how your guitar sounded an hour ago when you began swapping the pickups , or a month ago , when you last changed the strings . 
+  even minutes can skew your perception of sound . 
+  there 's an entire market of overpriced cables that exploit this . 
+  the higher resistance , the less stress on the amp , unless we 're talking about some archaic tube amplifiers . 
+  disconnect the speaker . 
+  resistance is now infinity . 
+  what happens ? 
+  nothing happens . 
+  now connect a wire across the + and - output ; resistance is now practically zero . 
+  what happens now ? 
+  the whole thing burns down . 
+  anyway , my point is , there will be absolutely no effects on amplifier life , but even if there were , it would be the other way around . 
+  the rule of thumb is to keep wire resistance below 10 % of the speakers ' rated impedance to avoid loss in power and damping . 
+  you can use an online wire resistance calculator to see if your wire will be a match . 
+  it must be difficult using those awg numbers instead of cross section sizes . 
+  they run , but in a very stupid way , and usually end up fighting once they are cornered , or just hit a wall . 
+  as others have suggested , you should try updating the firmware of your tv . 
+  if that does n't work , then try a * shorter * cable . 
+  every media player uses libflac to decode flac , and they all sound exactly the same . 
+  the people mentioning the wasapi output have never abx-ed it against ds . 
+  there 's no difference besides latency if you have the proper sample rate selected . 
+  it will be brief . 
+  solar winds will blow off most of the atmosphere . 
+  swipe the cm10 calculator left-right a few times . 
+  be prepared to have your mind blown . 
+  [ ` ere ] ( https://play.google.com/store/apps/details?id=com.android2.calculator3 ), 
+  pink unicorns are so much more professional * / cid smirk *, 
+  so you 're basically normalizing the tracks . 
+  that is n't much to do with replaygain , correct ? 
+   loud/well recorded songs, 
+  hate to break it to you , but loud is pretty much the opposite of well recorded . 
+  if a track is loud , that means it is n't correctly using the dynamic range offered by the redbook format . 
+  in order for a track to be `` loud '' its peaks have to be ironed down first by a process called limiting , or otherwise clipping would occur . 
+  only then can the volume be raised . 
+  in a properly mastered track , the peaks stand out significantly , translating to a pressure difference at the speakers ( * punch * ) . 
+  you should observe that the tracks that sound less loud also peak near 0db ( reported as 1.0 by fb2k/replaygain ) most of the time . 
+  it 's almost mandatory if you have both properly mastered , and recent music in your collection . 
+  since the losses are pretty much nonexistent with 24bit converters , there 's really no reason why not to use replaygain . 
+  pro 's : your volume knob now sets an absolute listening level , instead of being used to match the level between songs from different albums . 
+  scanning is fast , and the audio data remains unchanged . 
+  con 's : ca n't think of any . 
+  some songs will have their levels reduced by up to 12 decibels , which is the equivalent of adding two zeros at the end of each 16 bit sample . 
+  you still have six zeros preceeding the sample if you have a 24 bit converter . 
+  ( i doubt it would be a big problem even with a 16 bit dac ), 
+  this is n't really a question related to linux . 
+  you 're basically asking , if an ipod will allow you to store any kind of file on it , and i have no idea . 
+  i 've heard that apple devices restrict the way they can be used , and being accessed as a mass storage device could be one of those restrictions . 
+  maybe not . 
+  you should ask on / r/apple instead . 
+   for the senns ,, 
+   db = db ( maxpower ) -10 * log ( power ) . 
+   db = 120-log ( 30 ) = ~ 105db, 
+   so to get 105 db , we need about 200-30 = 170mw in input in the senns . 
+  i have no idea what you 're doing here . 
+  suppose the hd25 will output 120dbspl at 200mw ( -7 dbw ) , it will output 105dbspl at 15db lower power , at 6.3 mw ( -22 dbw ), 
+  calculating with the nominal impedance , the k701 will give you 105dbspl when driven by \u221a ( 0.200 * 62 ) v = = 3.52 v, 
+  the hd25 will produce 105dbspl at \u221a ( 0.0063 * 80 ) = = 0.71 v, 
+  edit : do n't forget , that an additional benefit of a headphone amplifier is negligible output impedance . 
+  if the headphone 's impedance curve is n't constant , its frequency response will change depending on the amp 's output impedance . 
+  this usually means more bass lost with higher output impedance amplifiers . 
+  decibel , like the percent ( % ) is by itself dimensionless , so if you want to express a ratio , you can use decibel alone , but if you want to express an absolute amount , you have to specify a reference . 
+  * dbw * is power in decibels relative to one watt , therefore -10 dbw is one tenth of a watt , -20 dbw is one hundredth of a watt , etcetera . 
+  * dbspl * is sound pressure in air relative to 20 micropascales . 
+  0dbspl is approximately the threshold of hearing , 120dbspl is the pain threshold . 
+  1 pa pressure is ~ 94dbspl , and atmospheric pressure ~ 194dbspl . 
+  it is common , although incorrect , to use db without any reference when talking about sound pressure . 
+   how did you calculate the 6.3 mw figure for the senns ? 
+  i subtracted 15db from -7 dbw ( 200mw ) , expressed that as mw . 
+  i ca n't tell if * you 're * being serious, 
+  thanks . 
+  i did n't actually read the specs , i used the numbers provided by op . 
+  it 's not even stereo , it 's a soundbar !, 
+  remotely wipe the phone . 
+  now the gesture unlock is gone . 
+  well , even if you do n't lose your phone , you should make backups , ideally every night . 
+  titaniumbackup can save every app on your phone automatically , encrypt it ( asymmetrically , so backing up wo n't require a passphrase , only restoring ) and upload it to a dropbox directory . 
+  that way you can wipe your phone without any fears of data loss . 
+  the two are almost synonymous . 
+  `` receivers '' are types of amplifiers that usually have more features , such as a phono input for turntables , fm/am radio tuner , more source selectors , maybe even a remote control . 
+  you can get a second hand stereo amp for as low as 50 $ from garage sales or pawn shops , and some exotic `` audiophile '' pieces can cost up to many ten thousand dollars . 
+  in games , whenever there is a slight hint of an in-app-purchase being a pay-to-win scheme , i tend to drop the app and not use it anymore . 
+  paying in that case would be admitting defeat , that the game is too hard for me to master . 
+  i usually push on instead , grinding , and quickly losing interest in the game , because the game ramps up difficulty in a way that makes continuing for free literally impossible . 
+  ( pay-to-win is the modern equivalent of cheat codes , for money , and i do n't live with cheat codes ), 
+  when there 's a game i really like with x free levels , and 10x levels that are available for money , i pay . 
+  ` bout tree fiddy, 
+  in civilised countries , you still need a warrant to access cell phone and cc tracking data . 
+  however anyone can make and deploy rfid readers . 
+  there 's one in every store . 
+  to physically track your movements would not be difficult , as the chip can be read at the exit of every frickin shop , you just need to store and correlate the id . 
+  why would you need a formula ? 
+  use your ear !,

@@ -1,0 +1,100 @@
+  there are several reasonably detailed specifications for how browsers should render valid html or xhtml documents . 
+  for the most part , browsers are pretty good at doing this , but , yes , it 's absolutely true that certain browsers take some \\* ahem \\* * liberties * with these specs and render certain things in interesting and often unpredictable ways . 
+  fortunately , these days we have a pretty good understanding of the various browsers ' quirks , so while i admit they can be a pain in the arse to deal with , the vast majority of problems are documented somewhere . 
+  ** however ** , the rendering of * invalid * html is certainly not covered by the specifications , and although you can probably scare up some information on it , adding invalid html to browser rendering quirks is just going to make your situation worse , and your problems harder to diagnose and fix . 
+  i 'm not saying everything should be 100 % valid 100 % of the time , and there are a few good reasons for having the odd bit of invalid code ( particularly css , as many of these problems are only fixable with vendor-specific or non-standard css ) . 
+  but having invalid html/css because you ca n't be bothered to test or fix it ( particularly if you 're trying to fix problems ) , or hiding behind excuses like `` well , google do n't ! '', 
+  is n't really acceptable . 
+  no , what i 'm saying is you ca n't boil down good engineering practices to a handful of management-friendly metrics . 
+  if you try , and you leave gaps , then ( particularly where money is involved ) you risk allowing bad employees to game the system and ( worse ) pissing off good employees by treating them unfairly . 
+  a better way - the only way that i know ( and i 've spent several years trying to do this shit ) is to work alongside and assess a team thoroughly both as a whole and individually , using a variety of techniques . 
+  then assigning and later assessing goals that address particular points that you feel could improve . 
+  this is far harder and takes far longer than counting lines of code , commits or fixed bugs , scales awfully , and it 's not at all a management-friendly technique ( as you have to be a vaguely competent developer intimately familiar with any existing codebases and projects to even begin to do a good job of it ) . 
+  but it 's the only thing i 've found that can reliably identify and address problems without allowing them to get worse , promoting behaviour i do n't want , or unnecessarily punishing those that * are * working hard . 
+  if you * have * a set of metrics that can do that without those side-effects , i 'd love to hear about them . 
+  was it . . the same table leg ? 
+  how so ? 
+  all along i 've been saying that trying to use metrics to assess developer performance is at best misleading and at worse counter-productive . 
+  is it because i gave you an alternative ? 
+  only reason i did n't mention that before is it 's * even * further off-topic than the question of whether loc is a useful performance metric ( but this thread 's pretty much just you and me now , so whatever  ) . 
+  i 'm serious , btw . 
+  you sound like you have some experience with this . 
+  if you * do * know of an easy and side-effect-free way to measure productivity , i 'm all ears . 
+  absolutely . 
+  and i 'm with you , man . 
+  if his boss wants to lose good programmers for doing their job ( and make no mistake , part of a good programmer 's job is to inform their management when they 're making technical decisions based on false assumptions ) , then fuck him . 
+  i did the same thing a few years back . 
+  i was stuck in a shitty house in a new city with no money and nothing to do , plus it was raining . 
+  it made me so fucking happy , 
+  i want to see their zombie apocalypse disaster recovery plan . 
+  that does n't mean they 're not fucking stupid rules , though . 
+  holy fucking [ what ?!, 
+  as far as i can tell :, 
+  * no canvas, 
+  * no ` box-shadow `, 
+  * no rgba, 
+  * no gradient backgrounds ( apart from the horribly buggy , proprietary ` filters ' thing they 've had since ~ ie5 ), 
+  these are the new features that i absolutely * adore * ( and the ones that have lead me to spend more time designing in the browser and less time in photoshop ) . 
+  but it seems i 'll have to continue spending hours messing about rendering everything as images just to keep ie happy * even if * everyone upgrades to the latest version . 
+  thank you very little , microsoft . 
+  it 's extremely naive to think that we can just dump a massive global infrastructure that ( at least for the most part ) works fine , and replace it with something new . 
+  even if you came up with something that would do the job without the downsides , you 've got * massive * inertia to overcome . 
+  i do n't see the problem , anyway . 
+  mailservers are already capable of restricting or enforcing source addresses , and things like spf can be used to force email from particular domains to go via a particular mailserver . 
+  where 's the problem ? 
+  as a brit , i can confirm that i have indeed taken part in many civilised conversations about bowel movements . 
+  switch on spf and dkim auth , and use a few decent rbls, 
+  besides , how does enforcing the source address stop spam ? 
+  it 's about the long-running british tv series [ a touch of frost ] ( http://www.imdb.com/title/tt0108967/ ) starring david jason ( well known from his role as delboy in `` only fools and horses '' ) . 
+  despite the slightly cheesy name , it 's actually a nice , old-school detective series . 
+  although they 've messed around with the format a bit , it usually consists of long film-like two-hour episodes . 
+  some stories spanning two episodes . 
+  i quite like it , it 's a nice alternative to the horrible csi bullshit that most similar shows have turned into . 
+  well , to have email , you need a mailserver . 
+  that means either using one provided by your isp or webmail/hosted email service , or setting up your own . 
+  mailservers are pretty easy to set up , many linux distros come with one out of the box . 
+  spf , dkim and the use of rbls are well-known and well-documented techniques - and they 're not even particularly complicated . 
+  you seem to have entirely changed course . 
+  you started by talking about preventing spam by enforcing from addresses ( which is possible now and , as we 've seen , does n't stop spam ) . 
+  now you 're complaining about things being hard to understand . 
+  are you saying the entire world should switch to a completely different email system because you do n't understand the current system ? 
+  i do n't know what you want , dude , 
+  [ http://en.wikipedia.org/wiki/calculus_ ( dental ) ] ( http://en.wikipedia.org/wiki/calculus_\\ ( dental \\ ) ), 
+  vista was n't released until 2007 . 
+  i do n't think it 's unreasonable that there are some 3 + year old computers around that are still running xp . 
+  coupla things :, 
+  mac addresses contain manufacturer-specific codes , so not only can they identify individual devices , they get [ at least some information ] ( http://www.coffer.com/mac_find/ ) about what they are . 
+  my cable modem used to like to `` lock '' to a particular mac , and take around 24 hours to release it and allow a different device to connect ( no , power cycling things does n't help , but they 've stopped doing that now anyway ) . 
+  this is why my wrt54g still has the mac address of an ancient and long-dead computer , 
+  yeah , that 's kinda disappointing , particularly when other athiest redditors are bitching about the opposite situation in [ this thread ] ( http://www.reddit.com/r/atheism/comments/bejiq/i_went_here_once_for_friendly_debate_with_theists/ ) . 
+  it was excellent , and fox cancelled it . 
+  many are still bitter . 
+  i liked arrested development too , and while i was sad when it was cancelled , it did seem as if it had had a good run . 
+  firefly , on the other hand , was cut before it even got into its stride . 
+  use png or we 'll beat you to death with your own shoes !, 
+  < div class = `` md ''  < p  but it wo n't . 
+  not once they 've had an upvote or two , mate . 
+  not true . 
+  we do n't store passwords , but if we have to generate a password for a new user , we have to email it to them ( we do n't allow self-registration , so all new-user requests come from another existing user ) . 
+  so we generate a temporary password , chuck it in an email , hash the password and discard the clear-text version . 
+  once they log in successfully , they 're asked to change it . 
+  not necessarily . 
+  there are ssl versions of smtp and pop3/imap protocols . 
+  indeed . 
+  but confidently stating `` emails are sent in plaintext '' is still not entirely correct , 
+  yeah it 's pretty much the same mechanism . 
+  the `` temporary password '' method is a little bit more secure ( as no authentication data is ever in the url , which is a problem if you 're including images from 3rd party sites - the request for the image would be able to get the auth data in the `` referer '' header ) . 
+  but , the `` temporary authentication link '' method is a little more user-friendly as it does n't require them to type anything . 
+  also true . 
+  nothing wrong with saying `` cunt '' , in fact it can be rather amusing in the correct situation . 
+  but this is an unnecessarily hurtful personal attack , that i really ca n't condone . 
+  you 're absolutely correct , but i do n't think she meant an actual panic attack ( and that 's almost certainly not what actually happened ) . 
+  but it 's still perfectly reasonable to think she * panicked * and reacted without proper consideration for the consequences . 
+  just like people say they `` were depressed '' or `` that gave me a heart attack !, 
+  '' , etc. 
+  i 'm willing give her the benefit of the doubt on that one , but it 's also a reasonably good argument that the current moderator system is lacking transparency . 
+  both of those protocols are indeed plaintext . 
+  however , as i said , they can be secured via ssl . 
+  are you thinking of ssh tunnels ? 
+  yeah similar idea , and extremely useful , but not quite what i mean . 
+  ssl-encrypted-imap is to imap what https is to http .

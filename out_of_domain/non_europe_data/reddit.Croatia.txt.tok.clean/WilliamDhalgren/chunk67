@@ -1,0 +1,100 @@
+  i 'm sick of copypasting and cleaning further , and they 're getting even more pedantic furhter on - linker , build , pkg system , libraries ... 
+  anyhow , i 'm trying to figure out that one too . 
+  status page you list confirms these :, 
+  - applicative is now a superclass of monad . 
+  after much debate , in ghc 7.10 , applicative is finally a superclass of monad , hence completing the applicative monad proposal . 
+  - bbp : foldable/traversable . 
+  as part of the so-called `` burning-bridges proposal '' , the monomorphic definitions in prelude/data . list/control . monad that conflict with those from data.foldable and data.traversable have been replaced by their respective ones from data.foldable / data.traversable . 
+  this will be in 7.10, 
+  - binary literals ( # 9224 ) - herbert valerio riedel implemented the - - xbinaryliterals language extension which finally closes the syntax gap relative to other languages which allow to write base-2 literals such as 0b11001001 . 
+  this is in ghc 7.10 . 
+  - backpack module system - edward yang is working on extensions to ghc and cabal to support backpack . 
+  details in the backpack wiki page . 
+  at the moment , module reexports , the package key infrastructure change , and module thinning and renaming are in ghc head and definitely shipping with 7.10 ; signatures and cabal support are coming down the pike . 
+  this is in ghc 7.10 . 
+  - more list fusion - based on a new compiler transformation by joachim breitner , callarity , foldl and related functions now can take part in list fusion . 
+  david feuer then came up with fusion rules for many more functions . 
+  this change may not be a unambiguous improvement in all cases , so if you find regressions , we 'd like to hear about them . 
+  these changes are all in 7.10 . 
+  - new , smaller array type - johan tibell has added a new array type , smallarray # , which uses less memory ( 2 words ) than the array # type , at the cost of being more expensive to garbage collect for array sizes larger than 128 elements . 
+  this is in ghc 7.10 . 
+  - faster small array allocation - johan tibell has made array allocation of arrays of small , statically know size faster by making it inline with the normal heap check , instead of out-of-line in a separate nursery block . 
+  this is in ghc 7.10, 
+  and also , this bulletpoint related to a ticket seems to have been closed as done in the its :, 
+  - reimplemented gmp-based integer backend ( [ # 9281 ] ( https://ghc.haskell.org/trac/ghc/ticket/9281 ) ) - herbert valerio riedel is working on this to provide a gmp-based integer backend not relying on registering ghc-specific custom gmp memory allocators which cause problems when linking to other c-code also using gmp unaware of ghc 's memory management . 
+  now partial type signatures one is odd - the [ revision ] ( https://ghc.haskell.org/trac/ghc/wiki/status/oct14?sfp_email=&amp;sfph_mail=&amp;action=diff&amp;version=15&amp;old_version=14&amp;sfp_email=&amp;sfph_mail= ) that introduced these explicit confirmations of something being in 7.10 to that list stopped mid-sentence for them :, 
+  - partial type signatures - thomas winant and dominique devriese are working on partial type signatures for ghc . 
+  a partial type signature is a type signature that can contain '' wildcards '' , written as underscores . 
+  these wildcards can be types unknown to the programmer or types he does n't care to annotate . 
+  the type checker will use the annotated parts of the partial type signature to type check the program , and infer the types for the wildcards . 
+  a wildcard can also occur at the end of the constraints part of a type signature , which indicates that an arbitrary number of extra constraints may be inferred . 
+  whereas ` - xtypedholes ` allow holes in your terms , ` - xpartialtypesignatures ` allow holes in your types . 
+  the design as well as a working implementation are currently being simplified partialtypesignatures . 
+  this will, 
+  , and the track ticket ( [ # 9478 ] ( https://ghc.haskell.org/trac/ghc/ticket/9478 ) ) has n't been closed , but the last msg is that they 've been implemented . 
+  i 'm guessing this actually landed and status + ticket just have n't been cleaned up . 
+  static pointers is nonobvious too - this is what the status page says :, 
+  - cloud haskell statics . 
+  mathieu boespflug and facundo dom\u00ednguez at tweagio are working on support for cloud haskell 's static feature . 
+  details here . 
+  the current in-progress code review is available at https://phabricator.haskell.org/d119, 
+  ... only that review has been abandoned - `` we are working on a reimplementation of the extension based on these design notes . 
+  i 'm abandoning this revision since we do n't intend it to be merged as it is . '', 
+  but , that other design seems to have landed !, 
+  - https://phabricator.haskell.org/d550 and https://ghc.haskell.org/trac/ghc/ticket/7015, 
+  i quoted the future release notes on static pointers alredy in the other comment . 
+  in the trac , its announced like this :, 
+  - as proposed in ( epstein , black , peyton-jones - towards haskell in the cloud ) , this extension introduces a new syntactic form ` static e ` , where ` e : : a ` can be any closed expression . 
+  the static form produces a value of type ` staticptr a ` , which works as a reference that programs can `` dereference '' to get the value of ` e ` back . 
+  references are like ` ptr ` s , except that they are stable across invocations of a, 
+  program . 
+  there is also a mention in that status that at least some work for dwarf stack tracing will be in . 
+  it got itsown trac wiki page in the meantime - https://ghc.haskell.org/trac/ghc/wiki/dwarf, 
+  - as of 7.10 , ghc has basic functionality to generate dwarf-compliant debugging information with its binaries . 
+  this opens up a completely new way of debugging or profiling haskell programs : instead of instrumenting the program or the runtime system , we teach external debugging tools to make sense of a running haskell program . 
+  this means that we gain debugging and profiling capabilities in situations where existing profiling approaches could not help us , such as for crashes or code that we can not meaningfully instrument . 
+  there are a few caveats to this method . 
+  ghc optimisations can be very aggressive in reorganizing the code and avoiding redundancies at runtime . 
+  this means that even with good heuristics , there will be situations where information is lost . 
+  dwarf-based debugging tools also make assumptions about the code that are more geared towards c-like languages , and get confused for haskell programs . 
+  while the infrastructure should be perfectly stable and safe to use , inspecting haskell programs like this is still very much `` wild west '' . 
+  having a good working knowledge of low-level haskell execution is definitely a good idea . 
+  we hope that some experience will help us improve the situation, 
+  now , on to tickets with feature requests that have been closed , or closed high priority tickets :, 
+  [ # 8407 module re-exports at the package level ] ( https://ghc.haskell.org/trac/ghc/ticket/8407 ) and [ # 9265 create packagekey to replace packageid , including version dependency information ] ( https://ghc.haskell.org/trac/ghc/ticket/9265 ) as well as [ # 9375 support for module thinning/renaming on command line ] ( https://ghc.haskell.org/trac/ghc/ticket/9375 ) implement the backpack system as mentioned above , according to its status [ page ] ( https://ghc.haskell.org/trac/ghc/wiki/backpack ), 
+  this one is interesting :, 
+  - [ # 5462 deriving clause for arbitrary classes ] ( https://ghc.haskell.org/trac/ghc/ticket/5462 ), 
+  then there 's more work on pattern synonyms - some gadt bug [ # 8968 pattern synonyms and gadts ] ( https://ghc.haskell.org/trac/ghc/ticket/8968 ) , but also a new feature [ # 8584 pattern synonym type signatures ] ( https://ghc.haskell.org/trac/ghc/ticket/8584 ), 
+  this is an interesting tidbit if you missed its announcement :, 
+  - add ` & ` as the reverse application operator with ` infixl 1 ` , which allows it to be nested in ` $ ` ( re [ # 9008 ] ( https://ghc.haskell.org/trac/ghc/ticket/9008 ) ) . 
+  i also really like this `` bugfix '' :, 
+  - [ # 7942 ] ( https://ghc.haskell.org/trac/ghc/ticket/7942 ) aarch64 support in ghc, 
+  injective type families page says its eta is 7.12 - https://ghc.haskell.org/trac/ghc/wiki/injectivetypefamilies, 
+  `` for the latest information about implementation progress see d202 . 
+  eta : based on current progress i estimate that this should be completed around march 2015 . 
+  this means injective type families will be available in ghc 7.12 . '', 
+  i really hope overloaded record fields will get there by 7.12 as well . 
+  i guess any features talked about in the october status report that did n't make it for 7.10 are possible . 
+  also , idk if getting progress so soon on [ # 7961 ] ( https://ghc.haskell.org/trac/ghc/ticket/7961 ) is likely or not ( used to be thought to be possible already in 7.10 but i understand it hit some complications ) , or if some of the pattern synonym stuff still has momentum ( bidirectional , typeclass associated , term-dependent ... ), 
+  both are giving truly impressive results vs any previous move predictors and its play is much stronger than any search-less method so far , but saying its winning games against strong go ais is a bit misleading really - its winning barely a double digit percentage of games , and not even against the very state of the art programs ... 
+  it can win consistently against gnugo only , a perhaps 6k-8k-ranked traditional computer go program developed prior to the huge success of monte carlo based methods . 
+  in the clark-storkey , winrate against a farly weakly setup old fuego version is 12-14 % . . 
+  they themselves say their program perhaps has 4-5k rank strength . 
+  this one here seems to do as well against a newer fuego or even pachi on decent settings , think the mailinglist suggested it should be some 300elo stronger . 
+  state of the art are things like zen and crazystone at around 6d ranking , at least some 11 stones ( roughly ~ 1100 elo ) stronger than gnugo . 
+  distance of those to top-ranking professional players is around 4 stones , so much much less than their advantage vs gnugo or this approach . 
+  regarding using it for progressive bias , well apparently steenvreter , a fairly strong go program , already uses an architecture probably something like that ( based on author 's mailinglist comments , its closed source ) to good effect , only with a much dumber neural net . 
+  seems to use some exact methods typical of traditional go ai as well - i really wish i could sift through that guy 's code or docs to see how all these elements come together effectively . . 
+   i did n't see experiments in the paper comparing the combined method against existing go programs , so i assume they did n't have time to run those experiments for this version of the paper . 
+  it 'll be interesting to see how those turn out . 
+  true , but it did say the search hybrid they came up with had a 87 % win against the baseline , so about as much as fuego or pachi did - so perhaps is of comparable strength - a low-to-mid amateur dan ? 
+  nothing groundbreaking if so ; but says they used just uct+rave and mogo like playouts for the simulations , nothing fancy at all , so it prob still got a significant boost from the net . 
+  what i 'd like to see is if one could train a much dumber version of this architecture for doing playouts as well . 
+  heavy playout tactics seem to be favored in the strongest programs , and they ( seem to likely ) use a machine learning approach to do it , only of a fairly traditional kind - something like , having hand-crafted features ( all permutations of 3x3 patterns + some extra tactical features ) , combined using a boltzmann softmax , and the weights of all the features are trained using minorization-maximization algorithm on a database of expert games to predict the expert move ( and prob further tweaked for stronger playout need n't consistently mean a better overall evaluation if its unbalanced ), 
+  edit1 : perhaps a deeper ( but not as deep to slow inference down as much as this would ) learning approach not using as many hand-crafted features could do better than that , yet still be fast enough for somewhat slower heavy playouts ? 
+  i 'm reminded of the `` dark knowledge '' lecture by hinton that perhaps the most important learned statistics ( and here we really just need the next move ) can be compressed into a much smaller net once learned by a big one . 
+  edit2 : and perhaps something like temporal difference reinforcement learning , instead of this move predicting business would give a better training target for such playouts , since what you care about is that playout statistics over a node converge to a good evaluation of the position there , not merely on finding plausibly-looking move sequences , if you thereby happen to systematically overlook their refutations ( tereby optimizing for the opponents failures ) . 
+  i do n't have an exact idea how however . 
+  we can probably build an orion-type ship given cold-war-era type of funding ( there was even a project to make such a nuclear-propulsion craft at the time , but in order to put a submarine-sized and similarly robustly constructed ship in orbit with nuclear artillery , but fortunately this `` death-star '' concept was abandoned ) ; its not a fundamental problem . 
+  i do n't think we 'd care to wait for 1.5 millennia to get there though , and we prob could n't do much better than that . 
+  even if we could do a substantial fraction of the speed of light , we 're such an impatient species , we would n't be much more prepared to wait for the cca 2 centuries either .

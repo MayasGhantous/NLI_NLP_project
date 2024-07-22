@@ -1,0 +1,100 @@
+   i say go for it and take all of your money back . 
+  a refund for all rent paid plus expenses sounds like a rather serious penalty for the landlord - and while the landlord violated various local regulations , op did get to live in the house for a while . 
+  does it seem plausible that op will * actually * get all this if the case goes to court ? 
+  would a building and zoning office be a reliable enough place to get advice on this ? 
+   but as soon you learn how to earn real money , its easy . 
+  that 's sort of a problem with the difficulty settings in all economy-building simulators . 
+  the difficulty settings essentially change two parameters :, 
+  * how profitable the economy is . 
+  if it 's for example 20 % profit , it 's super easy . 
+  if 1-5 % , it gets difficult . 
+  but even with 0.01 % profitability , once you get over the initial `` hump '' of being short on cash , the difficulty does n't really matter any more , on average you will still make more money than you spend . 
+  * how much starting capital you have . 
+  this determines how big the initial `` hump '' of difficulty is . 
+  more starting capital allows for more mistakes before you reach the too-much-money stage . 
+  if the starting capital is low enough , then a single mistake early on can kill your game . 
+  but neither of those matter in mid - to late game , once you get over that hump of initial difficulty . 
+  so , any ideas on how to make these games continuously challenging ? 
+   you can just install a programming environment on your own computer . 
+  the theory behind the need for pi was that many children do n't have their own computer , and parents/teachers are n't eager to let them mess around too much with the family/school computers . 
+  with the pi , if you mess up the software , just wipe the memory card and start over . 
+  and if you break the hardware , it 's only # 30 ( and now # 4 , holy shit ) . 
+  this is cheap enough to give each kid their own personal one plus spares for broken computers . 
+  while the pi has also been very popular among hobbyists for embedded computing projects , that was the original purpose . 
+  there 's always a big crowd in the old town , in the independence square and town hall square . 
+  people watch the official fireworks , drink , and shoot small fireworks dangerously close to people . 
+  the `` best '' parties are usually hosted at friend-of-a-friend 's house . 
+  sure , if the hardware fails or a very unexpected situation happens , people will be killed in accidents . 
+  but the discussion is about programming the car to consider all courses of action , evaluate their `` number of people killed '' or `` value of people killed '' , and choose the optimal one , even if it 's a bad choice for the people in the car . 
+  which is bs , because the cars will not be programmed to do this . 
+  they will have simple , predictable reactions , like `` crash predicted -  slam on brakes '' . 
+  the moral and philosophical debates about the car deciding who to kill are irrelevant . 
+  best buy and similar retailers make little to no profit ( perhaps even a loss ) on discounted phones . 
+  they make most of their profit from selling extended warranties and protection plans , phone plan subscriptions , and gold-plated cables , retailer-branded credit cards , and other crap . 
+  if you buy unlocked phones on a sale for cash , most likely they are * losing * money on you , and are losing the chance to sell crap to the next customers who buy the phones from you instead of them . 
+  there is nothing illegal about buying in bulk and reselling , but they will be pissed off anyway . 
+  the same applies to the individual employees . 
+  their bonuses are tied to how many warranties & subscriptions & upgrades ( which actually make money for the company ) they sell , not how fast or nice they are in selling phones . 
+   why, 
+  i 'll try to answer the `` why '' question directly . 
+  people criticise because : they think that you are unaware of the usual market rates for the services , and expect them to work for low amounts . 
+  or they think that you expect them to believe deeply in the mission of the non-profit , and give deep discounts to match . 
+  i 'm not saying that you do . 
+  i 'm not saying that there is anything wrong with expecting this . 
+  but i guess that they have this impression about your beliefs , and this leads them to being annoyed and criticising . 
+  but really i do n't see it as a problem as long as everyone is up front about their expectations . 
+  people have various budgets , people have various rates they can charge , and if these overlap , work gets done and everything is great . 
+  it 's only annoying when the discussion of price is left for too late in the project planning , and lots of time is wasted before discovering the wildly different price expectations . 
+   i suppose that disappoints them ? 
+  yes , exactly . 
+  again , i think you are doing everything right . 
+  mention your budget and goals up front , then the pro designers with corporate clients will skip over the opportunity , but perhaps someone from a country far away , a student , or someone who finds the nonprofit amazing will still do it . 
+  and nobody * should * be upset . 
+  yes , the quality might not be as good as from a pro . . but that 's fine . 
+  most startups , let alone nonprofits should not spend much on a logo before they are funded . 
+  why does market share matter ? 
+  it 's not like they are building a brand of `` best saudi-arabian oil '' that people will know and buy after the prices go up again . 
+   everyone is patiently waiting , knowing that the delays are not caused by elon taking a day off . 
+  i would eagerly support delays if it meant elon taking a few days off . 
+  to clarify , 747 is for example a class name ( with [ tens of variants ] ( https://en.wikipedia.org/wiki/boeing_747#variants ) ) . 
+  but you rarely name individual planes . 
+  with ships , you name them after famous people or things . 
+  and the name of the first ship of all the similar ships also becomes the `` class name '' . 
+  yeah , it 's massive . 
+  where 's the news tdlr bot when you need it ? 
+  here is my attempt at shortening it to the interesting points :, 
+   mongodb today announced a new connector for bi and visualization , which connects mongodb to industry-standard business intelligence ( bi ) and data visualization tools . 
+   after the announcement , jeff and i headed back to our sponsor booth , and jeff asked me the most obvious question : `` how did they go from nothing to a bi connector that works with all possible bi tools in just a couple months ?!? '', 
+   so i gave jeff my gut response : `` they did n't create a new bi connector . 
+  it 's impossible . 
+  something else is going on here ! '', 
+   i discovered the faintest hint about what was going on : `` during mongodb 's beta , tableau will be supporting the mongodb connector on both windows and mac via our postgresql driver . '', 
+   the repository contained a so-called foreign data wrapper ( fdw ) for the postgresql database . 
+  the fdw interface allows developers to plug in other data sources , so that postgresql can pull the data out and execute sql on the data, 
+   the bi connector receives connections and can speak the same wire protocol that the postgres database does, 
+   by the time you 're reading this , the whole world will know that the mongodb 3.2 bi connector is the postgresql database , with some glue to flatten data , throw away bits and pieces , and suck out whatever 's left into postgresql . 
+   i 'd say if you 're in the market for a nosql database , you need legacy bi connectivity , and you 're also considering postgresql , you should probably just pick postgresql . 
+  edit : but in the end , the massive rant leaves me wondering about why this issue pisses him off so much . 
+  yes , using postgresql for analytics and integration to sql tools is clever and a good use of open source . 
+  yes , relying on a competing database leaves a terrible impression of mongodb . 
+  but why is it * such * a bad decision that he needs to walk up to mongodb engineers & managers at a conference and try to aggressively convince them to * not ship the feature at all * ? 
+   he genuinely wanted them to hear his well founded complaints, 
+  were they well-founded though ? 
+  the arguments he presented seemed to boil down to 1 ) the wrapper does n't work well for nested data , 2 ) shipping postgres would be bad publicity . 
+  the first will be improved over time , and is not a reason to avoid releasing it . 
+  the second may be true , but obviously mongodb management decided that people wo n't care too much , and the publicity from having the feature is more important than `` bad '' publicity from relying on a competitor . 
+  after reading a bit more , it seems that his * real * issue is that he 's the cto of a company that builds analytics tools for mongodb . 
+  and with the new release , all existing sql analytics tools become compatible with mongodb , and make his product irrelevant . 
+   i was thinking more about advice in setting up my own website, 
+  sure , why not . 
+  if you have your own website , and can eventually generate these sorts of pageviews daily or at least weekly , it could be a reasonable source of income . 
+  for a rough guide , random banners and adwords pay somewhere around $ 0.5 - $ 1 per thousand views . 
+  or set up links to amazon to buy games & accessories , etc. 
+   or getting a deal to provide content for a heavy hitter like ign, 
+  sites like this do hire freelancers to create content , but they pay surprisingly little . 
+  not sure how much exactly , but do n't expect to make a good living out of writing content for others ( maybe somewhere around $ 10 - $ 50 per article ? ) . 
+  there is n't really much planning needed : start a blog , start creating the type of content that you love , and start growing an audience . 
+  think about montetizing once the audience is big enough . 
+   experience of trying to be a commercial mongodb partner . 
+  i 'm not sure what he was expecting though . 
+  you can be commercial partners , but each company still looks out for their own product and customers first .

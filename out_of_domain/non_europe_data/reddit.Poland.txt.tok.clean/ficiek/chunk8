@@ -1,0 +1,100 @@
+  i see , am asking only because the old , bugged version has already been default for a couple of months , not that it is hard to install the newest one . 
+  i think this is one of the best websites i have ever seen . 
+  i usually do n't like if something does n't even load without js but that is just beautiful . 
+  i thought that it was already signed off as a feature . 
+  certainly feels like one after all those years . 
+  damn i have always included fields like total_favourites , total_votes , total_replies and so on in my tables . 
+  i had no idea that it is possible to recount that quickly . 
+  i might try to change my approach and use more indexes without normalizing the data , however my scores would depend on the values of two columns not one . 
+   thank you . 
+  what ? 
+  someone 's mother called his university ? 
+  is the guy 12 ? 
+  respond as a top level comment to get auto invited . 
+  it might take a while due to caching . 
+  edit : i disabled the bot , thanks for participating . 
+  i made a live chat . 
+  respond to this thread do get automatically invited . 
+  test, 
+  i have already made this http://www.reddit.com/live/ta4ryeoa6lv8, 
+  well , i 've made this . 
+  now it really is a chat . 
+  go to http://www.reddit.com/live and create one there . 
+  you can add a thread to it later . 
+  one with auto invites http://www.reddit.com/live/ta4ryeoa6lv8/, 
+  i wrote a bot quickly . 
+  but the room is slowly dying and loosing people right now . 
+  the idea was to give people a way to test it together instead of creating a new chat room each time, 
+  the thing is still going . 
+  why not nginx which is lightweight and can handle more requests ? 
+  it is a pi after all so there is not much computing power available . 
+  it is so long because zuck needs to track you . 
+  i am using my pi for scrapping posts and images from a popular image board . 
+  more than 3gb of data is removed and saved every day . 
+  the card is 8gb in size . 
+  it has been that way without issues for 8 months now . 
+  i sometimes try to answer even basic questions asked in a sane manner and i get downvoted for doing that instead of bashing people for not using search function . 
+  that is not angle of attack . 
+  angle of attack is basically an angle between the flight path and the plane 's nose . 
+  i belive that is called tvv - total velocity vector . 
+   normal pillboxes are invulnerable to the 75mm, 
+  just shoot at entrance localed at the back of the pillbox . 
+  here , take this black box . 
+  it is totally secure , i swear !, 
+  the dev server reloads itself after being started , i do n't know if it is a bug or a feature but you will see the message about reloading even at first run . 
+  well i could not figure out how to change dns on windows 7 and i could not bing ^ tm the info because the isp 's dns was down . 
+  had to call a friend to tell me how to do that . 
+  apparently it is hidden very well because the user would never want to change it , right ? 
+  i would replace templates with jinja2 since they appear to be faster and i like the introduced solutions like macros . 
+  actually i do believe that . 
+  i run my personal project on an rpi and it has to render a very large page . 
+  i checked , queries were relatively fast . 
+  there is a guide in 2 simple steps here :, 
+  if you want to use virtualenv write a script like :, 
+  source / path/to/venv / bin/activate, 
+  cd / directory/with/the / project, 
+  gunicorn myproject.in.whatever.module : app, 
+  it is a good idea to use a process control system like [ supervisord ] ( http://supervisord.org/ ) to keep this script up and running . 
+  i do n't understand what is your issue with using python 3 , you need to clarify that . 
+  but you can freely install both python 2 and python 3 on your computer . 
+  in fact you need both to be able to create both python 2 and python 3 virtualenvs ( see ` virtualenv -- help ` for more ) . 
+  i bet that you can have all versions of python installed . 
+  you just have to pass the correct executable as a parameter while creating virtualenv or just launch django using the correct executable . 
+  your installed python 3 is not necessarily called ` python ` . 
+  it is called like that on arch because `` muh bleeding edge '' but i think it is ` python3 ` on debian and it can be called differently on other distributions . 
+  for example :, 
+  are all possible . 
+  the name of executable does n't mean anything . 
+  you just have to run them all with ` python -- version ` to find the right one if you ca n't spot it immediately . 
+  pic related , all my python/pip versions . 
+  some of them are just aliases . 
+  you can name the executables in any way you want while building python just like you can do that with any other program . 
+  what is your python3 executable called ? 
+  are you sure that you are using the correct one ? 
+  do something like :, 
+  also does ` python3 -- version ` return the correct version ? 
+  obviously replace the executable name with the correct one , i do n't know if your executable is called ` python3 ` . 
+  are you using virtualenv ? 
+  what webserver do you use ? 
+  what wsgi server do you use ? 
+  you have to tell me what your setup is . 
+  i will go with nginx + gunicorn since that is what i use . 
+  1 . virtualenv, 
+  virtualenv - p python3 name_of_the_directory, 
+  replace ` python3 ` with your executable name . 
+  that command should create a directory called ` name_of_the_directory ` in the current working directory . 
+  if something goes wrong you can delete the created directory just as any other directory and start again . 
+  you can place it anywhere for example in your home directory . 
+  to use the virtualenv you have just created you need to enable it first . 
+  to do so execute the following command :, 
+  source name_of_the_directory / bin/activate, 
+  you should see the name of the virtualenv ( which is basically the name of the directory containing it ) in your command prompt . 
+  test the python version . 
+  ` python ` should launch python 3 correctly :, 
+  packages installed when virtualenv is activated will be installed inside it so you can do that now :, 
+  you can deactivate virtualenv by using :, 
+  deactivate, 
+  or you can just close the terminal . 
+  we will still need the virtualenv activated so do n't do that now or reenable it with ` source ` after trying out the command . 
+  test gunicorn, 
+  test the gunicorn .

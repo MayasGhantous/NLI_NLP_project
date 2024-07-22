@@ -1,0 +1,100 @@
+  that 's nice , i thought , i 'll grab it that way . 
+  but because my normal amazon account is with . com.au , but my audible one is the american . com , this turned out not to be possible . 
+  i do a bit more digging , and find out that amazon seems to treat your account on each of its international versions completely separate . 
+  your library at . com is only visible when you 're logged in to . com , and your . com.au library is only visible at . com.au . 
+  but there 's basically nothing stopping you from signing up for one over the other -- i had managed to be on the american version basically by accident . 
+  so i signed up for audible.com.au , and even got an extra free month out of it , and grabbed the book i was after using that . 
+  i noticed that i had to sign out of the audible app on my phone and sign back in with a different domain , and that with the new domain , only the single book i just got is there . 
+  i * think * the price i 'm going to pay monthly is going to go down to $ 15 aud , down from $ 15 usd , which is also nice ( will find out for certain in a month 's time , i guess ... ) , but it 's just so frustrating that for some reason amazon is so consistently terrible at doing things internationally . 
+  total 1st world problem , i know , but it 's hilariously annoying . 
+  ** tl ; dr ** in switching from . com to . com.au , i managed to get another free book , but lost all my library history, 
+  continuing the series from [ this post ] ( / r/classicalmusic/comments / 44i0fn/favourite _ horn_work / ) , what is everyone 's favourite piece for trumpet ? 
+  either completely solo works like concertos and sonatas , or moments within larger works that feature the trumpet . 
+  also , side note , i 'd like some opinions for tomorrow . 
+  should i do all lower brass together , do trombone and then other lower brass , or something else ? 
+  does anyone think that the fact that claire underwood 's mother being named elizabeth might be a deliberate reference to elizabeth urquhart from the uk version ? 
+  if anyone here has seen the uk version of house of cards and would like to discuss the latest season of the us version as it relates to the original , or is caught up on the us version and is curious about how it differs , head over to / r/houseofcardsuk to be able to comment on these matters without violating the rules of this subreddit . 
+  i 'm fairly price conscious , so i 've been hanging on to my n4 as long as i could . 
+  unfortunately , all of a sudden my battery life went off a cliff ( went from just about making it a full day yesterday , to needing three full cycles today ) . 
+  ideally i 'd * love * to have a nexus , because i love the clean pure version of android , but $ 580 for the cheapest 5x is pushing it ( especially with all the problems i 've heard it has ) and $ 900 for the 6p is just crazy . 
+  i want something that can run the latest version of android and is likely to remain supported for at least a few years , and with something as close to stock/google android as possible . 
+  battery life is a high priority , but other than that i do n't really mind too much . 
+  nfc would be very nice to have , as would a decent camera ,  = 32 gb storage , fingerprint unlocking , and usb-c , prioritised in that order , but they 're by no means things i consider * must * have . 
+  screen size is mostly irrelevant . 
+  i 'd likely grab the 6p if it were n't just shy of $ 1,000 . 
+  any help picking a new phone would be much appreciated . 
+  to facilitate paging users , i 've just put the final touches on the 2.0 release of parliamentpagebot . 
+  it can page based on a list of users , a list of subreddits , or the words `` here '' , `` this '' , or `` self '' ( the same as writing out the name of the subreddit you 're paging from ) . 
+  it can be added to work in * any * subreddit without needing custom configuration on my end . 
+  all you need to do ` is :, 
+  * add it as an `` approved submitter '' to the subreddit . 
+  * ( optionally ) create a custom subreddit page list at / r/subreddit/wiki / pagelist , with that list formatted as a simple list of users in the form :, 
+  / u/user1, 
+  / u/user2, 
+  / u/user3, 
+  a message can be added to the page by including it in [ square brackets ] anywhere in the order . 
+  see below for an example . 
+  the message can go at the bottom of a longer comment if necessary , but it must be the * last * part of the comment . 
+  inspired by a similar question from the orchestration online facebook group . 
+  some of the best answers i 've seen in there :, 
+   a mozart symphony written after beethoven 's third . 
+   though on second thought , that might have ruined beethoven 's development . . so maybe not . 
+   the mozart requiem , completed by mozart himself ? 
+  and what would have gerswhin done with the post-rodgers-and-hammerstein `` integrated '' book musical ? 
+  he might have had to work with another lyricist , as ira might not have been comfortable writing lyrics true to character rather then cleverly rhymed . 
+  and many people suggestion a beethoven 10 . 
+   my `` back to the future '' - influenced brain had this same thought when reading the initial question . 
+  what kind of ripple effect would have taken place if beethoven had written a 10th symphony ? 
+  ( there would n't be a `` curse of the 9th , '' so mahler 's 9th would have been his 10th ... ), 
+  so , what extra compositions would * you * have liked to have seen , and how might that affect music going forward ? 
+  we 've just updated the entries in the hall of fame based on the last round of requests . 
+  feel free to suggest new entries for the hall of fame below . 
+  please include a link to a * comments page * on / r/dndgreentext , and it would be very helpful if you could include a brief explanation to go along with it . 
+  and as always , a friendly reminder to check out the [ style guide ] ( / r/dndgreentext/wiki / style ) if you want to learn how to include more advanced formatting in your posts and comments . 
+  this is a pretty widespread idea in the australian people 's minds , but i 'm curious , what evidence is there for or against this claim . 
+  personally i 'm inclined to believe it 's false , and i 'm mainly looking for evidence against to to use to reply to the above quote from a relatively moderate friend on facebook . 
+  i 've found the following two articles , but i was hoping for more robust evidence . 
+  i 'd also be very interested if there are any studies that find in favour of the common perception . 
+  does anyone know how to do this ? 
+  it 's trivially easy to do in both windows and ubuntu , but i can find no way of doing it in kubuntu . 
+  googling turned up a forum thread from 2011 with some arsehat basically saying `` not being able to do this is a deliberate design choice and fuck you if you do n't like it '' . 
+  i 've been finding kde vastly superior to unity in nearly every other way , but not being able to do this one basic thing is frankly infuriating . 
+  it 's my understanding that votes in / r/modelparliament and / r/modelaustralia have used helios voting to run elections . 
+  i 'm curious if anyone here can provide me with an explanation of how it works . 
+  specifically , i 'm curious about the cryptography behind how they prevent double voting while also ensuring votes are anonymous . 
+  their website has been rather unhelpful , stating only that they use homomorphic encryption . 
+  but i ca n't see how that could * possibly * be used for running an election that uses something like av or stv as its voting system . 
+  ( and besides , i ca n't actually find any reference to which voting systems they * do * support . ), 
+  what allows the system to know that a vote which has been cast was by someone authorised to cast a vote , that these people have voted only once , but without it being possible to de-anonymise that vote ? 
+  i * strongly * believe that the single most useful thing that could be implemented to make something like this a tool that people could use on a regular basis is fuzzy logic . 
+  adventures have huge numbers of different elements , some a more significant features in the adventure than others . 
+  matt gave a number of examples in the video , such as +2 arrows being a very minor feature . 
+  if i were to add phandelver , for example , i might say it `` heavily '' features goblins , `` moderately '' features undead , and `` lightly '' features orcs . 
+  for setting , perhaps `` heavily '' features caves , and `` moderately '' features both forests and towns . 
+  on the flip side , people * looking * for adventures might * value * certain things more than others . 
+  i might * really * want goblins to be in my adventure , and might think it * good * if there 's a +1 battleaxe , since i know my barbarian dwarf would get a kick out of that , but i can easily add one in myself if the adventure does n't feature it . 
+  in terms of running a search , i 'm sure someone with simple ai experience could come up with a better algorithm , but a na\u00efve solution could be to assign values from 1 -- 3 * to both the user 's preference strength and the level at which it features . 
+  multiply the user 's preference strength by the level at which it features , and sum up all of those components , showing adventures that scored most highly . 
+  why all this complication ? 
+  it 's simple , really . 
+  it would allow an adventure that nearly perfectly meets the criteria i 'm looking for , but lacks a few components , to still show up , rather than doing what a simpler black and white search filter would do , and automatically remove anything that does n't include the elements i 've asked for . 
+  depending on what stack this ends up using ( as well as how data is structured in the database ) , i 'd be willing to work on the actual `` search engine '' algorithm aspect of the project myself , if nobody else puts themselves forward . 
+  \\* 1 representing `` lightly features '' and `` would be nice to have '' ; 2 representing `` moderately features '' and `` want '' ; and 3 representing `` heavily features '' and `` really want '' . 
+  there could also be an extra option in the dropdown ( presumably these would be dropdowns ) in the * search * bar to mark something `` essential '' , in which case it counts as a 4 for sorting , but also drops anything that * does n't * include that from the list entirely , even if everything else ranks it highly . 
+  to stop people accidentally submitting to the wrong subreddit . 
+  should probably also sticky a direct link to / r/withoutcgi ( rather than just the self post that 's currently there ) , and put a link to it in the sidebar . 
+  in english , it 's a person who delivers letters . 
+  netflix is currently only showing me local content , despite my location being set to us pacific . 
+  i 've found some similar threads , but the answer has always seemed to assume setting up dns at the router level . 
+  i 'm doing it on a per-device basis . 
+  i 'm having trouble getting the sun to appear in the position i want it to be . 
+  there 's no clear indication of exactly where the sun is at the moment , or of where in the 3d space the x , y , and z axes refer to , and it 's making the behaviour of those three sliders feel really confusing and it 's difficult to get the sun above the right point . 
+  as a side note , how feasible would it be to change from the current x , y , z coordinate system to a radial one , with an angle and elevation ( and maybe distance ) ? 
+  i feel like that may be more intuitive to work with . 
+  but if not , does anyone have any advice for how to get the sun into the right place more easily ? 
+  sibelius only has the tin whistle in c , but i 'm trying to notate something for it to be played on a whistle in d. is there any way to have it work with a key other than what 's expected ? 
+  so far i 've been using a clarinet in d instead , but it 'd be nice to have it use the right instrument . 
+  basically , i 'm wondering why fingering guides i 've found online all seem to suggest that the third register of the tin whistle ( at least the basic clarke d or c ones ) use the same fingering as the lower two registers . 
+  i 'm wondering if any experts could explain to me why that works . 
+  my understanding of acoustics is that the third register should be * one fifth * above the second , and the tin whistle ( or some other similarly simple instrument ) was used by my high school physics teacher to demonstrate how overblowing creates a harmonic series . 
+  my own instrument is the clarinet , and it more or less follows what one would expect , so i was surprised when i just recently started looking at tin whistle fingerings that it did n't .

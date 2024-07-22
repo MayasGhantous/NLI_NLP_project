@@ -1,0 +1,100 @@
+  in both instances the behavior would be what i expect . 
+  we could argue that using the + operator for concatenation or for combining delegates is not a good thing to do but if we agree it is the semantics makes perfect sense . 
+  for 8 years as professional programmer i have not seen an abuse of goto . 
+  not once . 
+  on the other hand i have seen bad code due to fear of goto ( flag variables for exiting from inner loops and similar mess ) . 
+  in theory you are right in practice nothing like what you describe happens . 
+  well it is not often that the best way to break out of an inner loop is goto or you need switch fallthrough but it happens sometimes . 
+  i think i have like 5 gotos written in my career . 
+  there are other ways to exit inner loops . 
+  for example you can extract the loops in a method and use return . 
+  interestingly enough the cargo-cult anti-goto people usually resort to the worse option with flags . 
+  can you qualify for people who avoid corporate bullshit certification . 
+  what does this mean and what changed ? 
+  i see there is still asp.net in the list . 
+  worth playing for sure . 
+  it is not that long ( well in fact it may be long by today 's standards ) . 
+  the story is better ( as / u/wilberforceclayborne points out it is much darker ) . 
+  if we exclude the interface the single player has aged relatively well . 
+  the missions are diverse enough and even if the model is the same the layout of the different maps calls for different strategies . 
+  if you are not bothered by the interface go play it . 
+  well after all go play like 6-7 missions and if you do not like it do not play anymore . 
+  remember to start with vanilla starcraft missions before brood war . 
+  depends on your rts experience . 
+  i would say that normally starcraft + brood war would be around 15 hours but i ca n't remember exactly . 
+  in my opinion the vanilla campaign is obviously better . 
+  if you get bored from starcraft go see a recap for brood war and do not play it . 
+  if you like starcraft play brood war too . 
+  yeah i would expect like 15 hours then . 
+  you can come back and tell me how long it took you . 
+  btw keep in mind that unlike aoe in sc it is important to micromanage your units . 
+  many units have abilities that should be used manually . 
+  i am pretty sure the pros are not the best 2 vs 2 players in the world . 
+  i would donate to a kickstarter for this if part of the funding also goes towards quality casting and production . 
+  great band . 
+  i went to see them live and have been a fan ever since . 
+  if you like the music of the song ( as opposed to just the theme ) i would recommend their 3rd and their 5th albums . 
+  this song is from the third album called avatar and their fifth and latest album is called hail the apocalypse . 
+  the hail the apocalypse video is also very impressive . 
+  i do agree that all these languages are going downhill . 
+  all of them are either past the point where there are both too few devs and too few jobs or heading towards that point . 
+  of course it is debatable of this means `` death '' and how we define death but i do think that in 5 years no one will start a new project in any of these . 
+  but they become less and less every day since the hype that pushed ruby is now behind node.js . 
+  i do n't know a single ruby proponent who is not into node these days . 
+  first of all the article does n't say `` dead '' but `` marked for death '' i.e. 
+  if something does n't change they will be dead whatever that means at some point in the future . 
+  i kind of agree that ruby has lost its purpose . 
+  it had a cool web framework and hype . 
+  it does n't have hype anymore and most other languages now have comparable web framework . 
+  in your opinion what is ruby 's reason to stay alive in the future ? 
+  what does it have to offer ? 
+  now i know that if i lose my middle finger in an accident i can go on playing this game !, 
+  which part of `` bio in all matchups '' made you think he was protoss ? 
+  the only difference was that the medivacs were moving this time . 
+  i almost thought the person who uploaded messed up the gifs , 
+  i am really curious what is ruby 's niche . 
+  once upon a time it had a high quality web framework that was arguably without equivalent for competing languages but these days the ideas from rails are presented in one or more web frameworks for every mainstream language out there . 
+  yeah , for some reason i missed the fact that the map is different . 
+  it seems that as sc players we remember the position rather than the tileset . 
+  i vaguely remember that the state machine is a value type . 
+  am i wrong ? 
+   nevertheless it 's stored on the heap, 
+  that 's irrelevant . 
+  as long as it is not boxed there is no overhead of storing it on the heap as a field of another object . 
+  the problem with the heap is not the amount of memory it takes up but with the number of objects ( i.e. 
+  allocations ) the gc has to collect . 
+   it is boxed , because that 's the only way to store a value type on the heap in . net, 
+  this is not true . 
+  i do n't know if async/await boxes anything but this is not true in general . 
+  if a value type is a field in a reference type it is stored on the heap but it is not boxed . 
+  it is `` inlined '' in the reference type . 
+  it is part of the reference type memory . 
+  i am too lazy to check the implementation but if the reference type exists anyway ( for example if it is the class that contains async/await method ) then the struct may be inlined in that type and that object will exist anyway and not increase the number of allocations . 
+  my point is that it could be like adding an int field to a class . 
+  that makes perfect sense . 
+  i wonder why they are structs . 
+  i agree but this is a different argument , 
+  i thought that applies to more people ... 
+  i do it to run . net code . 
+  microsoft made perfect decisions in the 90s . 
+  it made them the most expensive company of the time . 
+  they simply focused on what was important then . 
+  what makes you think you do n't need to be a linux expert to use bash effectively ? 
+  only bearded , semi-philosopher developers and teenagers care about oss . 
+  normal people and companies see open source as a way to reduce costs and reuse resources more effectively . 
+  same for microsoft . 
+  i really doubt anyone was fired . 
+  more likely they pulled the plug on the dlr project ( giving it to the community in the process ) and the developers quit since they did not want to work on other projects . 
+  i wonder why nobody mentions the actual reason carriers suck . 
+  interceptors are just too weak and easily die to lower tier units like marines and hydras as well as to static defense . 
+  this is captured pretty well in the starcrafts episode . 
+  i do n't think anything else mentioned in this thread is that important . 
+  hmmm i never realized they did this in sc1 but i did notice they are much much weaker . 
+  soo ... microsoft abandoned c # 2 years after they announced it ? 
+  microsoft : you have seen through our most devious plans . 
+  however it is too late now . 
+  what are you gon na do to stop us ? 
+  hahahahahahahahaha !!, 
+  so with c # 2.0 ? 
+  generics and nullable types fucked up the language ? 
+  they are more relevant than lets say sun .

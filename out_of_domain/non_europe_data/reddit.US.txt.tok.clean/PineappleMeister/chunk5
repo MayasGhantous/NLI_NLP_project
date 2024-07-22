@@ -1,0 +1,100 @@
+  go to / r/reddit . com and send a mod message . 
+  fta, 
+   last week sony worldwide studios boss shuhei yoshida confirmed that used games will function on playstation 4 , but did not clarify whether players would have ` original owner rights ' to second hand games , or need to pay for online passes to access the content . 
+  misleading headline the ps4 will play use games it says it in the article . 
+  although you will ( most likely ) have to pay for an online pass on used games like it currently is on many ps3 games . 
+  also i think when you reply to a spoiler your comment should also have spoiler tags or it will be very easy for someone to deduce the tag comment . 
+  i think changing the title could get you ban . 
+  also changing the title with css has no effect on the front page they will still see the normal title , it better to use link flairs and have a bot assign it to all nsfw posts, 
+  [ here , ] ( http://www.reddit.com/r/modnews/comments/hm8j5/dont_use_custom_styles_to_edit_headlines/ ) this is old , so i not sure what the deal is now and if you read the last 3 sentences maybe you wo n't get ban but i would talk to an admin if i were you . 
+  ahh i should have read your post before your comment ... 
+  but is this what you are looking for ? 
+  to change the button . 
+  . marknsfw-button , . unmarknsfw-button {, 
+  . marknsfw-button . togglebutton : after {, 
+  content : ` spoiler ' ;, 
+  . unmarknsfw-button . togglebutton : after {, 
+  content : ` un-spoiler ' ;, 
+  or this to change the acronym, 
+  . nsfw-stamp acronym {, 
+  display : none ;, 
+  . nsfw-stamp : : after {, 
+  content : `` adult content : not safe for work '' ;, 
+  color : #ac 3939 ;, 
+  text-decoration : none ;, 
+  the second part of code does that . 
+  are you talking about the hover text that says adult content : not safe for work ? 
+  i do n't think that part is ~ ~ not ~ ~ css , not sure you can change that . 
+  do n't ... anyways so what do you think would improve to the quality of this sub ? 
+  this is a no piracy subreddit . 
+  i did this on all my subs as well , ( / r/awesome , / r/nasa ), 
+  edit : looking at your sub , you are going to have problems with the search searchexpando thing better move the buttons to the top . 
+  there should be flairs on this sub that tag stuff as rumor like they have on / r/games , for a second there i thought this was an official announcement . 
+  yes , same account . 
+  btw you need to check the box that says `` show my flair on this reddit . 
+  it looks like '' on the sidebar so that the flair shows up . 
+  thanks , will add a related section when i get home . 
+  ( i 'm on my phone ), 
+  added to the sidebar . 
+  [ scea ceo jack tretton ( on ps4 games prices ) has revealed . 
+  `` we 're going to welcome free-to-play models , games from $ .99 up to those $ 60 games , '' ] ( http://www.joystiq.com/2013/02/22/tretton-ps4-game-prices-range-from-99-to-60/ ), 
+  also you made a double post you should delete one . 
+  that 's a bot . 
+  i also requested an automod reddit but this damn bot remove the post . 
+  he is a new account maybe he is getting the posting too much timer thing . 
+  what ? 
+  :( looks like someone made a post while my post was in limbo i made a post [ 2 days before this one ] ( http://www.reddit.com/r/redditrequest/comments/1a2ttn/requesting_rstateoftheunion_no_mods/ ) but was remove by the bot because had i made a previous request but delete it to make that one ( no one had responded yet ) . 
+  however , the bot remove my request . 
+  i send a mod mail 8 days ago and a pm to you directly 5 days ago but never got a response . 
+  op can keep the reddit but if this happen again what should i do ? 
+  because i cant seem to get a response when i message you guys . 
+  because it got stuck in the spam filter when you do n't see on the new section message the mods . 
+  i approve your last post . 
+  also fix the position of the arrows the way i made the link entry you do not need to use this on the arrows ( for example look at / r/nasa ), 
+  it looks out of place when you do this , also you are using old / r/awesome code so when you try to submit something the tab that looks selected on the submit page is not one that is selected , copy and pasted the the code on top of the navigation section on the / r/awesome stylesheet ( just change the color ) . 
+  another thing . morelink a section the padding top is 47 not 75 that was an old error . 
+  not of awesome but the shortcut button when selected change colors when you hover but the other do not small thing but consistency is nice . 
+  another small thing the background on `` unlocked ! '', 
+  flair links is leaks outside the borders of links with the said flair . 
+  another than that nice sub . 
+  this should be 47px, 
+  interesting to see 2 of my reddits on the front page of / r/csshelp . 
+  anyways i wanted to warn you that moving the message the mods button may confuse people and they will send you mod mail when they wanted to make a self post . 
+  i recommend adding something more than `` link '' `` text '' or you could also used the one i have in / r/awesome which does n't change the text on the buttons . 
+  #header {, 
+  background-color : #fff ;, 
+  background-position : center ;, 
+  background-repeat : no-repeat ;, 
+  link buttons ? 
+  ahh the reason why your buttons are so much to the right is because you put the header image where usually the custom snoo is and that image is too big , i think it is best is you move that image to the stylesheet . 
+  and add the link to where it says `` here '' in the above code . 
+  cool , btw you can still use that other image if you want , just upload it where you edit the stylesheet , where it says `` images '' paste the link were it says here like as said above . 
+  but if you are not using it you do n't need this `` background-position : center ; '', 
+  you see in this screenshot were it says `` choose file '' you upload it from there , and than you will get something like the neil armstrong picture on the screenshot , just either copy the link ( it always starts with `` url '' ) and pasted in place of `` here '' from my original comment . 
+  ~ ~ edit just saw your other comment you need to make that image smaller . ~ ~, 
+  also thank you for the gold you didnt have to . 
+  if you want you can add me as mod and i will fix it for you and de mod myself after it 's fixed . 
+  yea that 's good . 
+  ops my fault forgot to add background-repeat : no-repeat ; to my original comment ... 
+  is there anything else you want help in ? 
+  i feel like done to little for that gold look at some of my subs ( / r/nasa / r/youtube / r/awesome ) tell me if you like something and i will added it to your sub or create something new if not i will be de-moding myself . 
+  great !, 
+  good luck and feel free to pm anything you need help . 
+  that i will decline !, 
+  sorry but i do n't want be mod of it . 
+  send me a pic of the logo and i will see what i can do however i will wont be able to do it today . 
+  a [ href * = `` love '' ] . title : before { display : none }, 
+  try this ? 
+  shadows should be something like this . 
+  box-shadow : 1px 1px 1px 1px # 000 ;, 
+  i 'm not sure you can do borders ( you should probably wait for someone else answer ) but you can make it seem like it has a border , like this . 
+  background-color : # 000 ;, 
+  if you use this you need to use a custom self post image and no thumbnail image . 
+  i love how one of the top comments on the other thread was saying that these games [ `` were the ones keeping them afloat '' ] ( http://www.reddit.com/r/games/comments/1b1744/square_enix_ceo_yoichi_wada_has_resigned/c92nl81 ) , people need to realise that making aaa games is expensive and getting more and more expensive , that 's why publishers are always coming with new shitty ways to curb piracy and used games sales . 
+  i think next generation will have a lot fewer big budget games or they will raise the price of games . 
+  [ picture of the ps3 . 
+  ] ( http://xbmc.org/wp-content/uploads/2011/05/5.jpg ), 
+  [ this is how the guy with the ps3 did it . 
+  ] ( http://xbmc.org/natethomas/2011/05/14/feature-friday-cords-away/ ), 
+  op should also return the porter so everything is together like it was when it came in , but after all that work maybe a poster is a good enough reward ( op you better frame that shit . ), 
+  the hell are you ... ahhh ... fuck ...

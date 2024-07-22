@@ -1,0 +1,100 @@
+  the way it works :, 
+  * application.loadlevel sets time to 0 . 
+  * overlay menu gets set to active . 
+  * no actions happen until user either presses `` menu '' or `` play '' . 
+  ( we used to have it set to tap anywhere to start playing except on menu button , but then we updated the menu style and this works better ) . 
+  * clicking play turns time back on , overlay gets set to no longer active , and all the other flags get set . 
+  * clicking menu loads the menu level . 
+  * everything you see on screen but the plane is on a looper with triggers and collision ( my buddy / co-dev 's masterpiece ) . 
+  * on death , load current level . 
+  from what i 've learned so far from my best friend and all the hours i 've put into research , you can optimize quite a lot in the new unities . 
+  if you fab everything properly , have smooth calls , and manage your resources properly , you 'll be fine and have instant reloads . 
+  that though , does take time and learning . 
+  anyway , thanks for the feedback !, 
+  back to working on the build now ... it will be out soon , just have to finish some more of this social integration goodness . 
+  new version is out !, 
+  new version is out !, 
+  could you give it a shot again ? 
+  new version is out !, 
+  it connects straight to google play game services , and only asks for email to know which account it should be crediting with the updated scores . 
+  i can see how that could get annoying though . 
+  on the next version , we 're implementing facebook + twitter ( pending facebook 's approval right now ... ) , at which time we 'll make logging in into anything being totally optional . 
+  anyway , i 'm glad to hear the performance problems have been fixed . 
+  cheers !, 
+  version 1.1.2 [ prod ], 
+  google play store - https://play.google.com/store/apps/details?id=io.appapps.athens, 
+  amazon app store - http://www.amazon.com/appapps-air-evade/dp/b00umn47ao, 
+  patch notes :, 
+  - added weather effects to multiple levels . 
+  - complete overhaul of code base for performance improvement purposes . 
+  ( during testing , we 've been seeing an incredible performance boost , especially on older devices ), 
+  - facebook and twitter backend has been laid out . 
+  will be useable next version . 
+  - players experiencing major fps issues , including nexus 6 users , should see an increase in performance . 
+  - reconfigured visual shaders for quality of life improvements . 
+  - tweaked all difficulties using feedback given from the community . 
+  - tweaked ( lessened frequency of ) ad pop-ups . 
+  why thank you , kind sir . 
+  after all my time here , i had no idea this existed . 
+  version 1.1.3 [ prod ], 
+  patch notes :, 
+  - changed androidtv gamepad support from required to optional . 
+  - improved and increased weather effects on all levels . 
+  - improved offline support . 
+  - tweaked multiple backend calculations to improve performance . 
+  version 1.1.4 [ prod ], 
+  - fixed bug causing google play games services trying to force you to be logged in . 
+  we just tweaked it again to make them pop up not as often . 
+  feel free to try it out , it 's live in version 1.1.6 !, 
+  as for the tutorial , we have the text on the bottom of every start screen for now . 
+  it is definitely something we look forward to doing in the future though . 
+  thanks for the feedback . 
+  ** regarding bow getting stuck . 
+  i just had the bow get stuck to my back too ( clarity : phantom non-existent bow model remains on back ) , not sure if this was a bug in previous version since i did n't have this happen before , so :, 
+  repro : equip bow , swap branch into bow slot , and swap back . 
+  for the base animation bug :, 
+  yea ... that 's an issue with most games on triple monitor :(, 
+  in case phantom back bow is a new bug , simplified the repro :, 
+  in our experiences since we updated our projects to 5 a little while age , it 's caused by hidden errors during compiling . 
+  the best dirty fix we 've found to make those errors pop up is to delete all ' . meta ' files , then debug away . 
+  this seems to cause us the least amount of headaches . 
+  verify your files . 
+  everything works for me without any issues . 
+  it 's pretty simple actually , just have to think about it a different way . 
+  the quick dirty way ( to get used to it ) is to create an object for the menu and attach it anywhere on your object with a canvas . 
+  then , create a function with an if else statement ( which will be the toggle ) , which the whole thing looks like this :, 
+  using unityengine ;, 
+  public gameobject optionsmenu ;, 
+  public void toggleoptionsmenu ( ) {, 
+  if ( time.timescale = = 1 & & optionsmenu.getactive ( ) ) {, 
+  optionsmenu.setactive ( false ) ;, 
+  time.timescale = 0 ;, 
+  } else {, 
+  optionsmenu.setactive ( true ) ;, 
+  time.timescale = 1 ;, 
+  ^ then , create a button object and assign this script to the onclick ( ) , right in the gui . 
+  nice and simple , hope it helps put you on the right road !, 
+  add on `` using unityengine.ui ; '' to initial imports . 
+  if anything else gives you problems , also throw on `` using system.collections ; '' and call it a day . 
+  [ edit ], 
+  sorry , i was writing that our real quick before while using some other frameworks . 
+  you should only need to do optionsmenu.isactiveandenabled , which requires using unityengine.internal ; . 
+  realistically though , you can do flip it based off of the time interval , or you can setup a flag to track if game is paused or not . 
+  sorry about that again . 
+  from what i 've seen so far with using small tile maps : benefits of batching meshes , grid snapping , and more efficient ( and much cleaner ) code from doing less calls . 
+  the larger my code base becomes for the project , the more i 'm seeing benefits of going the small tile map route with creating batches / pools for reuse . 
+  there 's more things i 'm starting to see this as a benefit in , but those are the major ones so far . 
+  i have n't had the chance to use the native unity networking yet , but i 've had a lot of time inside of photon . 
+  when i was first learning photon ( which is related to native unity networking ) , i had a similar issue . 
+  while i eventually fixed it by restructuring my whole project , my noob fix that worked was to set update to private and moving everything from start to awake . 
+  strictly going by how you describe it not having any effect if you eliminate it , the script is firing off to late , which comes with the land of reworking what gets called and when . 
+  the best advice i can give is try to see if my ghetto works by chance . 
+  if that does n't work , i start print debugging to see what fires off and when . 
+  after that 's in place , tweaking around with the project 's script execution order will be your next place to turn to . 
+  just yesterday , we noticed random timing issues on ios builds across some of our devices , which led us to finding that it inconsistently happens on other platforms as well . 
+  we noticed this online , but it was also an issue locally , all caused by unity setting target fps to 30 , 60 or 260 . 
+  tldr : follow good practice and be aware of everything your application is doing . 
+  tomorrow , i 'm going to throw together a quick interface to show every variable unity is setting / using . 
+  if it ends up being helpful like i think it will , i 'll stick it onto a public git since i have n't been able to find anything like this . 
+  i could not agree with you more . 
+  this is crucial .

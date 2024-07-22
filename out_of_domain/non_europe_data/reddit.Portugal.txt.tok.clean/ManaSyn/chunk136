@@ -1,0 +1,100 @@
+  just adapt it to your table . 
+  do you mean the below ? 
+  note that it only works if you run the macro with it open . 
+  a1 has the first date , then on a2 :, 
+  = workday ( a1 ,2 ), 
+  and fill down till the end of the year . 
+  note that this may not account with all holidays so just grab a calendar with them and manually check . 
+  if you do find an holiday in the list , just change it to the next working day and the rest will update accordingly . 
+  i 'm not on my computer right now but would the vba function instr not do what you need ? 
+  create a new column j , so now you have one for letter ( i ) , one for numbers ( j ) and the old one ( k ) . 
+  column i :, 
+  = if ( isnumber ( k2 ) , '' '' , left ( k2 ,1 ) ), 
+  column j :, 
+  = iferror ( if ( isnumber ( k2 ) , k2 , numbervalue ( right ( k2 , len ( k2 ) -1 ) ) ) , '' '' ), 
+  check the offset formula , specifically it 's width and heigth formula . 
+  not in my computer right now , but it should read something like :, 
+  how many columns do you need ? 
+  okay , well ... 
+  i would add two columns at the beginnig and write two cells , one to determine first occurrence of text ( it 's an array cell so press ctrl + shift + enter ) , in a1 :, 
+  { = match ( true , istext ( c1 : o1 ) ,0 ) -1 }, 
+  afterwards , the below ( note , substituto # for whatever text you need ) in b1 :, 
+  = offset ( c1 ,0 , a1 ) & if ( istext ( offset ( c1 ,0 , a1 + 1 ) ) , '' # '' & offset ( c1 ,0 , a1 + 1 ) , '' '' ) & if ( istext ( offset ( c1 ,0 , a1 + 2 ) , '' # '' & offset ( c1 ,0 , a1 + 2 ) , '' '' ) & etc, 
+  sorry about the etc , gets hard writing this on the phone . 
+  just copy it ten more times , incrementing each copy by 1 . 
+  one thing though , this only works if there is no text after the thirteen column , and it must be done in columns a and b. 
+  if there is text or if you need it at the end of the table , you need to see if a1 + iteration is below 13 . 
+  edit : typo in f\u00f3rmula . 
+  anything in specific ? 
+  offset returns the value of a cell that is x rows and y columns away . 
+  for example , say you have `` abcd '' in cell b2 . 
+  if you write = offset ( a1 ,1,1 ) , you are asking excel to give you the value that is 1 row and 1 column away from a1 , which is b2 , thus you get `` abcd '' . 
+  = match ( 53 , a1 : e1 ,0 ), 
+  autofill down , then just filter out the #n / as, 
+  to keep it simple , i would copy the entire table , paste it to another sheet as transpose ( paste special menu ) , sort the rows then transpose it back . 
+  that should work . 
+  are they always in that format , ie , name and number separated by a space , etc ? 
+  you can add a new column where you mark items you want summed with , say , x , and then just do a sumif with that criteria . 
+  { = match ( 1 , if ( iferror ( find ( `` asa '' , a1 : a2 ) ,0 ) = 0,0,1 ) ) }, 
+  array formula . 
+  edit : small correction . 
+  also reddit is actiong up on me ... 
+  some random text :d, 
+  just add what you want . 
+  basically what it does is determining if part of a string is in cells . 
+  you still have to define that one tho ... 
+  this should do the trick . 
+  just put all excel files in one folder and link to it ( remember the slash at the end of path ) . 
+  sub test ( ), 
+  dim file as string , theonefile as string , i as long, 
+  theonefile = `` theonefile.xls '', 
+  path = `` c : \\ path to a folder with all files \\ '', 
+  file = dir ( path ), 
+  while file <  '' '', 
+  workbooks.open path & file, 
+  sheets ( 1 ) . copy after : = workbooks ( theonefile ) . sheets ( i ), 
+  workbooks ( file ) . close savechanges = false, 
+  i = i + 1, 
+  file = dir, 
+  end sub, 
+  you can write the time in 24h format and change cell format to time with am/pm . 
+  i do n't think there 's anything for that many values , no . 
+  solver add-in can probably do a bunch so check it out . 
+  say you have ** test ** in cell d1 . 
+  just insert this into h1 :, 
+  = d1 = `` test '', 
+  i do n't quite understand what you mean ... do you mean something like , d2 has that formula , then v5 has 300 , and you want , say , x5 to display '' = 80500-37000 +32250 +300 '' ? 
+  do the securities have anything in common like an isin or anything at all ? 
+  well i had something similar at a former job where i also had to check if amounts matched to 0 or similar , my best idea was to create a set of binary tables that could create all possible sum combinations . 
+  however , i never managed to do more than 15 because it would just slow down ... 
+  here 's my code for a macro :, 
+  dim i as long , j as long , lines as long, 
+  lines = range ( `` a50000 '' ) . end ( xlup ) . row, 
+  for i = 1 to 2 ^ lines - 1, 
+  for j = 1 to lines, 
+  cells ( j , i + 1 ) . formula = '' = if ( rounddown ( mod ( '' & i / ( 2 ^ ( j - 1 ) ) & '' ,2 ) ,0 ) = 1,1 , '' '' '' '' ) '', 
+  next j, 
+  next i, 
+  cells ( j , 2 ) . formula = '' = sumproduct ( $ a$ 1 : $ a$ '' & lines & '' , b1 : b '' & lines & '' ) '', 
+  cells ( j , 2 ) . autofill range ( cells ( j , 2 ) , cells ( j , i ) ), 
+  end sub, 
+  just copy the values you have into column a and run it , the last row will show all possible sum combinations . 
+  for instance :, 
+  now you know that 99 +15 -114 = 0 . 
+  maybe this can help a little ... 
+  mind you , this is not final , my last file was easier to use as it did automatically the search for each isins and displayed the final result , but that 's all i can get from the top of my head right now . 
+  a quick workaround is to paint everything white ( or whatever background you have ) , then protect sheet and do not allow anything . 
+  hide the sheet too for good measure if you want . 
+  cheers . 
+  this is not a very clear post . 
+  do you have 1 million numbers in column a that you want to see how many sums it takes to get closest to zero ? 
+  = if ( e4 < = 495,4.95 , if ( e4  = 995,9.95 , e4/100 ) ), 
+  basically it reads : if it is below or equal to 495 , then it is $ 4.95 and it stops there , else if it is above or equal to 995 , it is $ 9.95 and it stops there , otherwise divide by 100 . 
+  that 's what you want , yeah ? 
+  = if ( and ( e4  0 , e4 < = 495 ) ,4.95 , if ( e4  = 995,9.95 , e4/100 ) ), 
+  this way , if it 's 0 , it will just divide by 100 which is 0 anyway . 
+  = if ( weekday ( b2 ,2 ) = 1 , b2 , b2 +8 - weekday ( b2 ,2 ) ), 
+  not on my computer ritght now so not completly sure about the numbers . 
+  uhm , i 'd probably do a match in column c to check whatever itens in column b are in column c and delete them all :, 
+  = match ( a : a , b1 ,0 ), 
+  just filter column c for non #n / a and delete all rows .

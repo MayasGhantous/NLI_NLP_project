@@ -1,0 +1,100 @@
+  what i did n't like was the president 's speech . 
+  he was very harsh to the leftist parties and should be impartial . 
+  but his actions were the correct ones and what is normally done is , you know , inviting the party that won the democratic elections to form government . 
+  everything else is the ( leftist ) media blowing everything way out of proportion . 
+  be your own reason . 
+  do n't believe the hype . 
+  exactly , the left is just salty about what the president said . 
+  as a western european i can follow these threads just before bed !, 
+  awesome !, 
+  this happened in my hindustan game . 
+  i was gujarat and bahmanis + jaunpur were my rivals . 
+  i 'm playing bavaria and i got through the first years by having austria , france , denmark ( eventually dropped denmark for sweden as they gained independence ) and plc as allies . 
+  now i 'm just waiting until france rivals austria and sweden rivals plc and i have no good allies left . 
+  fucking pope leo x and his fucking indulgences !, 
+  you 're doing better than me m8 ... 
+  also i did n't annex ming because they had a bunch of cores so i vassalized them and gave them at least 20 provinces to retain mandate of heaven and fed them most of their cores . 
+  that -5 revolt risk can take a lot of overextension . 
+  [ who am i ? 
+  what year am i ? 
+  how am i doing ? 
+  i 'm actually manchu in 1652 but thank you for reminding me how awful i am :(, 
+  at least i 'm doing better than the real life manchu/qing were doing in 1652 i think . 
+  started as jianzhou and have n't form qing yet and i have no colonies . 
+  year is 1652 . 
+  i 'm lazy . 
+  yeah that 's mamluks in constantinople . 
+  serbia got fucking huge somehow but guess what ? 
+  90 % of those lands belonged to corfu at one point . 
+  serbia is also winning a defensive war against the papal state +54 . 
+  karaman also managed to obliterate the ottomans . 
+  is n't there an advisor for that ? 
+  but is n't that the same thing though ? 
+  that appears to be true . 
+  sorry for misleading you op . 
+  i do n't think a bull stands a chance against infantry tbh ... 
+  very well done albanians , skanderbeg would be most proud . 
+  you 're very cool for doing this man !, 
+  keep up the good work !, 
+  for some reason they never formed greyskin for me . 
+  they manage to pass 1 or 2 reforms and then the reformation hits and the hre goes to the shitter . 
+  they still have a personal union over naples and mr. popeman as a vassal and they just rivaled me btw . 
+  but it 's ok because i 'm allied with austria , poland , hungary , france and portugal . 
+  i guess it 's time to fuck some shit up . 
+  ally venice and poland . 
+  dow on byzantium and take all their provinces + athens ( otto got their hands on constantinople first on my game ) . 
+  no cb on urbino and get in the hre . 
+  now you should be ready to go . 
+  you have plenty of meat in the north of italy and the balkans . 
+  when you get stronger than the ottomans you can take their provinces rather easily . 
+  same goes for mamluks . 
+  [ time to fuck some shit up lol ] ( http://i.imgur.com/mdiiiuk.jpg ), 
+  because they have garbage ideas compared to the knights ' ( 5 % disc. , -2 unrest , +1 relationship and the other naval ideas make sense because i want to play the trade game heavily and dominate the mediterranean ) , all my european provinces would be overseas ( i 'm not sure about that one though ) and i like being a monastic order because the catholics have friendly attitude towards me . 
+  i tried changing to jerusalem and all of a sudden my balances goes from like +49 ducats/month to -90 ducats/month and my allies attitudes change from friendly to defensive ( do n't what 's up with that , do catholic monastic orders have bonuses to relations with catholic countries ? 
+  i did n't know urbino did n't start independent . 
+  in my game they had no friends at all in about 1490 or 1500 ( probably got released because the pope was bashed pretty hard in my game ) . 
+  anyway i had the alternative of no cb-ing ragusa if i did n't want to no cb urbino . 
+  i always keep an eye on opms and attack them if they have no friends . 
+  that 's how i got big really . 
+  venice was bashed so they released crete , corfu and naxos and i just fabricated claims as soon as they were released and attacked , the same happened with lucca , corsica , cyprus ( was guaranteed by mamluks but thy were at war ) , genoa ( lost every province but genoa ) , etc. . . 
+  eventually you get big ( especially if you have big friends ) and you can start picking on smaller nations like savoy , milan , tuscany , siena , serbia and bosnia . 
+  this is almost a post-match thread lol :p, 
+  how did you know i did n't fabricate claims on naples ? 
+  ah yes , i just wanted to break their alliance with austria and since spain was allied with some south american tribe , i declared on them and boom alliance broken . 
+  [ i 'm doing what i can ] ( http://i.imgur.com/irxcix3.jpg ), 
+  how did you solve the pope situation ? 
+  just refused to give him rome , and did you convert to other religion ? 
+  but didnt he keep asking you for roma or was it just one time ? 
+  yes the same happened to me . 
+  totally worth it because the dip rep penalty can be easily balanced . 
+  the -10 papal influence sucks tho . 
+  i could never do that . 
+  if you split a regiment in half how does that look ? 
+  that 's why i would prefer having something like 18/6/14 or 16/6/12 . 
+  i just finished my knights game and i wanted to stay catholic and a monastic order and when the reformation started i got like 3 events to change to protestant or i would lose 1 base production in all my provinces . 
+  it was horrible . 
+  the hanseatic league : as the hansa own all that land that appears in the game patrician 4 or at least those cities . 
+  ( i dont know how to actually explain the achievement better and without resorting to patrician 4 but that 's the idea like own every coastal province in the baltic sea ), 
+  i actually tried that long ago , sent 1 infantry in a cog to the middle of the pacific and i was sad when he just appeared among other generals . 
+  like the guy is an imbecile but oh boy can he swim the pacific . 
+  i ca n't find it in the wiki but it gives you the choice to convert or you lose 1 base production in all owned provinces and take a stab hit and catholicism gains reform desire or something like that . 
+  edit :, 
+  found it :, 
+  # the quest for religious freedom, 
+  country_event = {, 
+  id = devotion_events .6, 
+  title = devotion_events .6 . t, 
+  desc = devotion_events .6 . d, 
+  picture = protestant_great_reformer_eventpicture, 
+  trigger = {, 
+  has_dlc = `` common sense '', 
+  government = theocratic_government, 
+  government = monastic_order_government, 
+  religion = catholic, 
+  is_religion_enabled = protestant, 
+  any_owned_province = {, 
+  religion = catholic, 
+  development = 10, 
+  any_neighbor_province = {, 
+  religion = protestant, 
+  immediate = {,

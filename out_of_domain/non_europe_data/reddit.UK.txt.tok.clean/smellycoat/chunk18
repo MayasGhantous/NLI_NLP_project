@@ -1,0 +1,100 @@
+  hmm . 
+  here 's the meat of it :, 
+  filter : alpha ( opacity = 100 ) ! important ; / * for ie * /, 
+  opacity : 1 ! important ; / * for conforming browsers * /, 
+  it seems to me that it 's trivially simple for anyone trying to clickjack to simply assign their opacity css to a wrapper element , rather than the iframe itself . 
+  that is * genius * !, 
+  i admit , i did consider attempting similar , but realised i 'm way too lazy and not nearly creative enough to manage it . 
+  excellent work , my friend !, 
+   what evidence does anyone have that they simply wo n't make the special infected for both l4d1 and l4d2 ? 
+  because it 's a major selling point of l4d2 . . 
+   scientology is just as much a religion as anything else . 
+  i think you 'll find scientology lies somewhere between `` cult '' and `` scam '' . . 
+  blimey , that 's a bit over the top , is n't it ? 
+  how , exactly , could ms pull their usual `` embrace and extend '' tricks with linux by . . giving away code for free ? 
+  ( seriously ) . 
+  from what i 've read/remember about it , the code does something relating to their virtualisation stuff ( yeah i have n't really been paying that much attention  ) . 
+  so i assumed it was an attempt to better position windows as a virtualisation platform . 
+  how would they manage to turn that into something evil ? 
+  just a shame that 4od barely works on linux . 
+  i wonder how they made it work so badly , especially when the bbc iplayer works fine . . 
+  if someone puts a gun in your face , you 'd shit your pants . 
+  for real . 
+  yeah , seems that way . 
+  the dude is just holding on and not letting go . 
+  fuck knows why . 
+  do we really need surveys and market research to answer that question ? 
+  there are now several languages occupying perl 's particular niche , and many of them can do exactly the same job , while being easier to learn and less crufty . 
+  this has lead to businesses picking other languages , and programmers wanting to learn other languages . 
+  is there really anything more to it ? 
+  yes !, 
+  really bloody difficult . 
+  we tend to see either ex-sysadmins who have dabbled with it for a bit ( and do n't really know what they 're doing ) , complete idiots who 've read a `` learn perl in 15.3 seconds '' book four years ago and nothing since , or people that seem reasonably competent , but do n't really want a job writing perl . 
+  testing candidate 's skills is really really * really * important . 
+  we give people a list of half a dozen really easy scripts to write ( most of which could probably be one-liners ) . 
+  it 's fucking astonishing how few actually manage to do a decent job of it . 
+  i 'd add some , but , fuck , $ 5 to create an account on metafilter ? 
+  i agree entirely . 
+  we send our tests to candidates before we do interviews , as a crude ( but relatively effective ) `` idiot filter '' . 
+  any half-decent programmer should at least be able to have a reasonably in-depth conversation about how they 'd go about solving a problem . 
+  though i do agree that expecting them to produce code without access to the resources they 'd normally have is asking a little too much . 
+  i have never been successful in any attempts to glean insight into * how * a candidate approaches a problem . 
+  i did try a few times , but have since given up . 
+  having thought about it , i do n't really know how * i * go about solving programming problems , i do n't think there 's an easy formula for doing so . 
+  for me , the most important thing when trying to make a decision on a candidate is looking at something they 've written . 
+  it 's surprising how much you can tell about a person from 100 lines of their code . 
+  really , the interview is to :, 
+  * ensure they actually wrote the code they submitted themselves, 
+  * see if they understand some concepts that ca n't easily be tested in a short script, 
+  * convince me they 're not a complete headcase ( that happens more than you might think ), 
+  personally , i consider driving under the influence of * any * perception-altering substance to be selfish and unfair to everyone else on the road . 
+  although , if i had to , i 'd probably drive while stoned . 
+  never while drunk , though . 
+  that 's fucking horrible . 
+  i watched it twice . 
+  i. . do n't think this is a must-have . 
+  it was a very well produced and entertainingly-written book , certainly , but i did n't feel that it said anything that was n't obvious . 
+  if you need a source to show a manager or a client , then it 's very good for that , but you 're unlikely to learn anything really new from it . 
+  i 'm not really a designer . 
+  just a coder trying to make stuff that sucks less . 
+  so maybe i missed the point , i do n't know . 
+  despite the fact many people seem to hate it , and it 's well out of date now , i found neilsen 's [ designing web usability ] ( http://www.amazon.com/designing-usability-voices-that-matter/dp/156205810x/ ) to be more insightful . 
+  i think those two points are really important ones to understand , even today . 
+  blue is as close as we 'll get to the universally-accepted indicator for a link ( underlines too ) . 
+  you can use something else if you want to , but to do so effectively , you really need to understand and evaluate the design and usability considerations of doing so . 
+  the `` do n't use images for interface elements '' still holds true , but with one minor alteration : do n't use ` < img  ` * tags * for interface elements . 
+  pretty sure that most people agree with that still . 
+  actually , nintendo use a variation on a tri-wing screw , where all the wings project radially from the centre , rather than being offset like true tri-wing screws . 
+  ( i learned this exceptionally useless piece of trivia while attempting to disassemble a gamecube controller ), 
+  you 're all red , like strawbrary, 
+  i had massive trouble with `` unnecessary '' . 
+  finally got my head around it after forcing myself to remember `` necessary '' contains `` cess '' . 
+  the rest of it falls into place now . 
+  i had to overhaul the password generation system in an application i work on , as people were complaining about being given long strings of random characters for their passwords . 
+  we managed to reverse the hashes of 50 % + of the passwords that people had set themselves ( well , the few that bothered ) with a really simple dictionary attack , so we decided to do something better . 
+  for this , i needed a list of relatively long words that people would be able to recognise which i 'd pass through a simple algorithm to add numbers , capital letters and the odd symbol to make it a bit more secure . 
+  so i went hunting for some wordlists . 
+  i started with a dictionary , but very quickly realised that people may be assigned `` inappropriate '' words . 
+  the only way i could remove them would be to go through it by hand , which did n't seem like fun . 
+  eventually , quite by accident , i hit upon a solution . 
+  i found several , rather large , lists of words used by spelling competitions . 
+  these were accessible to schoolchildren , and appeared to have been sanitised of ` bad ' words already . 
+  which was great . 
+  i discarded the ` easy ' ones , and anything under 6 characters , aggregated several lists and was left with about 1000 . 
+  so , to this day , our passwords are generated by adding random numbers , capital letters and symbols to a word selected from a list of 1000 or so of the hardest to spell words in the english language . 
+  i 'd like to think we 've improved a few people 's spelling , 
+  [ whatthefont ] ( http://www.whatthefont.com ) says it 's [ herculanum ] ( http://new.myfonts.com/fonts/agfa/herculanum/herculanum/ ) . 
+  looks right to me . 
+  you 've got to manually fill in the letters it did n't manage to detect itself . 
+  that 's the only thing i can think of you might have missed . . 
+  no problem . 
+   what exactly does that coat smell like ? 
+  bacon . 
+  why ? 
+  i 've got a hedge . 
+  does that count ? 
+  i regret that will not be possible . 
+  the hedge is of great sentimental value as it was planted and tended by my great-great-grandfather 's handservant 's cousin . 
+  further , the bacon-infused coat is a family heirloom and can not leave the confines of the protective enclosure built on the property . 
+  it is tended daily and guarded by a brotherhood of fifteen ninja monks , sworn to celibacy and silence , but shit-hot with a pointy stick . 
+  in light of your generous offer , i feel we may be able to come to some arrangement .

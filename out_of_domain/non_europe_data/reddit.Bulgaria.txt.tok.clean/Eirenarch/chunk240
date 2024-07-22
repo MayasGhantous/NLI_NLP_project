@@ -1,0 +1,100 @@
+   ... this is why i hate javascript so much . 
+  i never say this . 
+  i always make sure to say, 
+   ... this is just one of the reasons i hate javascript so much . 
+  yes but you ca n't just use an example off the internet or look at the generated js code and debug it when needed . 
+  so basically you think every big company should build their own framework because this clause means they ca n't just used the one from the competitor . 
+  i do n't get it . 
+  how does this relate to my comment ? 
+  i was referring to coffeescript since this is what / u / _ dupe suggested . 
+  first of all just one person in an organization needs to fight ci deployment while in the js world everyone needs to fight with the whole toolchain . 
+  this is already a big win . 
+  to answer your question these days i simply use visual studio team services ( https://www.visualstudio.com/en-us/products/visual-studio-team-services-vs.aspx ) . 
+  the setup for automatic builds is trivial . 
+  oh come on people did n't use c # on other oss anyway so this argument is invalid . 
+  i do n't even know if mono 's build system is the same . 
+  this is the . net ecosystem we 're talking about . 
+  we 've standardized on visual studio and what microsoft recommended when the project was started . 
+  maybe we did n't use the best tool for the job but you can bet the tool fit nicely in the box and everybody got the same box . 
+  virtues of monoculture . 
+  react is a great example of bad engineering . 
+  it imposes restrictions on your transpiler and on your ide and on the organization of your project . 
+  note that i am not saying react is bad . 
+  the concept is great ( components  all ) but it is obvious that it was not built to be a framework for everyone to use . 
+  it was built to solve a particular problem in a particular project with no considerations on how it would work with other tools or other dev workflows . 
+  as a concept it is remarkable as a framework it is just poor engineering . 
+  can you explain why you ca n't use systemjs in production ? 
+  we 're setting up a new project with angular 2 and typescript these days and i was under the impression that this is the preferred module system ( if i understood what systemjs is at all since i am not doing the setup ), 
+  ok but this clause has nothing to do with agreeing not to sue . 
+  more like they are agreeing not to use each other 's tech . 
+  also interesting they are eyeing starcraft for their next target - http://uk.businessinsider.com/google-deepmind-could-play-starcraft-2016-3, 
+  if it is accepted which it wo n't be . 
+  let 's not pretend that using react without jsx is a real option . 
+  is there even one example of real , production react project that does not use jsx ? 
+  yes i realize it is syntactic sugar and i also realize that the prospect of building a react application this way is like suggesting i do not write html but build the whole ui via calls to createelement . 
+  yeah ... flexibility . 
+  javascript - where '' = = = '' is the short version of '' = = '', 
+  i build the database first then write the entity classes to match my database ( i do not generate entities from the db ) . 
+  to use identity i first create an empty project with just the identity added , then i script the database tables and start to add my own tables so i use database first ( meaning i build the database first not the retarded naming microsoft uses for the ef designer ) and use identity . 
+  go go obama - advertise bitcoin more !, 
+  i do n't see how it is not very easy . 
+  it is super easy . 
+  it may not be flexible or powerful but it sure is easy . 
+  yeah . 
+  it is not easy to write . net code on non-windows anyway so i guess the build system is the least of your worries ( i guess mono uses something that is easier to use on linux ), 
+  or will make open source something only bearded guys use . 
+  there is a reason gpl is not dominating since big business got involved . 
+  that 's what i am saying . 
+  i hate it to break it to you but ais will beat humans at literally everything given enough time to develop the right software and hardware . 
+  it is inevitable . 
+  now i do think starcraft is harder than go for an ai but i might be wrong here . 
+  as far as i understand google 's deepmind already operates with algorithms that are suitable for imperfect information games . 
+  also there is a lot of research done on imperfect information . 
+  for example the wikipedia article on poker ai states that the last time ai faced humans the result was practically a tie and i do think that google 's ai is far more powerful . 
+  `` never '' is quite a lot of time . 
+  in your case `` never '' probably means `` in the next 20 years '', 
+  as i see it these days you do n't have many options . 
+  it is either fighting games , trading card games or starcraft . 
+  as much as i love quake the scene is too small to make it worth getting into it . 
+  on a side note i am dreaming of a game where the main team mode is small teams ( 2 vs 2 or 3 vs 3 ) so that as someone with a full time job i can keep an actual team to play together often enough . 
+  i just ca n't handle the logistics of a 5 person team and playing random teams always felt absurd to me from the first days of counter-strike . 
+  maybe that day9 rts can do something or blizzard can wake up and promote 2 vs 2 some more ( probably even 2 vs 2 specific units or skills to allow separate balancing from 1 vs 1 ), 
+  yeah the complexity doubles with each person . 
+  syncing 5 people is twice as hard as syncing 4 people . 
+  i am amazed we 're the only ones who care about this and no big company attacks the niche of small , competitive , team games . 
+  yeah i assumed that there is something i can hook to tell it to bundle everything . 
+  it would be quite a problem if this piece is n't available or is not reliable or does n't work with typescript . 
+  i know that the scene is big enough to have something to follow but my problem with the small scene is that i have no real-life friends i can talk with about the current state of quake ( i have a lot of friends who played it back in the day ) . 
+  by comparison i have two people i can talk with about sc in the small office building i work at . 
+  sorry you are wrong . 
+  quake is the starcraft of fps, 
+  edit : oh it seems that another person already wrote that . 
+  you must be very good with larva injects . 
+  counting to 30 and all that ... 
+  btw how does the quake community respond to the new doom ? 
+  is there any chance that we will have a new 1 vs 1 competitive fps that can revitalize the genre ? 
+  well that 's too bad but if quake 5 is in the works it will be ok . as i pointed out already i do not believe in small games . 
+  half the fun from competitive gaming comes from being able to participate in local lan tournaments and discussing with friends . 
+  this is why i hope for a big name like doom or quake to revitalize the scene in a similar way to what cs : go did for cs . 
+  oh the `` by kind '' organization ... 
+  i once worked on an asp.net project where the solution contained among other things an assembly called classes . 
+  i kid you not . 
+  took me a year to move the code it contained out of there and delete it . 
+  i ca n't help but think that at least asp.net mvc wants me to organize by kind . 
+  it is in large projects when over-engineering becomes just the right amount of engineering . 
+   i 'd take it over php any day of the week , regardless of project size , though . 
+  that 's not a very high bar though . 
+  i have a hard time thinking of non-esoteric programming language ( i.e. 
+  not brainfuck ) that i would not take over php any day of the week . 
+  any suggestions ? 
+  maybe perl because of the larger php community ? 
+  what do you mean ? 
+  everyone knows modern php is not bad because it has namespaces just like other languages . 
+  hmmm i was wondering why a social network i 've never heard of needs `` hundreds of application servers '' and i was going to blame it on php but i guess this explains where all this processing power goes . 
+  javascript is not much better but it seems to be improving faster and has a way of deprecating features ( strict mode ) that makes it kind of preferable . 
+  also node is faster than php and you get the benefit of sharing client and server code . 
+  javascript will not be on the top of my list but it will beat php . 
+  ok i surrender . 
+  i invoke poe 's law . 
+   4 ) the human brain finds value and beauty in all of this , which no machine would, 
+  [ citation needed ],

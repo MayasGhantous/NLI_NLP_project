@@ -1,0 +1,100 @@
+  once you have that , torrent will work fine between the machines . 
+  you can use it if that 's what you 're used to , but a better option would be to use rsync . 
+  and do n't be afraid to use a tracker , no information about the files is transfered . 
+  if you 're concerned , put the files in an encrypted 7z archive , or use pgp . 
+  if going from one place to the other takes 10 minutes , then with a 4gig thumb drive you 'll have a raw transfer rate of 7 megabytes per second . 
+  add in the time it takes to fill and empty the drive ( 7 minutes at 20mb/s ) it drops to 4 megabytes/sec . 
+  so yeah , it 's still faster than through any public internet connection . 
+  i think there 's a windows binary avilable . 
+  found it : cwrrsync . 
+  the gui is not gratis . 
+  just use torrent instead, 
+  what soundcard ? 
+  does it have a balanced output ? 
+  is the noise possibly coming from one of the inputs that is n't muted ? 
+  the transformer will kill any possible ground loop between the monitors and the interface , so i 'd focus on the sound card . 
+  is there anything else connected to it ? 
+  answering my own question :, 
+   also , i 'd like to know where i can see what sample format is used for the sound card . 
+  ( sample rate and bit depth ), 
+  now make the rc car vary the level automatically according to the replaygain-album-gain tag , 
+  the belt wo n't transfer that much force , it 'll slip before doing any damage . 
+   there are many `` isolation '' transformers sold in metal cases which have the grounds connected connected to the case . 
+  that would defeat its entire purpose . 
+  i refuse to believe that anyone designing an isolation transformer would be so stupid as to do that , 
+   also , cheap transformers will effectively act as a low pass filter , changing the sound flowing through it . 
+  this is very true . 
+  good transformers cost hundreds of dollars . 
+  the latest linux kernel ? 
+  what is n't working ? 
+  it did n't do anything against piracy , it just annoyed the paying customers . 
+  how little the industry has changed over the last three decades ... 
+  get it replaced , it 's faulty . 
+  warranty should be at least one year , three if you 're it the eu . 
+  try to get your money back and buy something nice instead . 
+  do n't use the wasapi output . 
+  alternatively , add the foobar resampler to resample it to 48000hz , or get the sox resampler plugin . 
+  depending on the audio quality of the file , you might need to add dither in foobar2k when when reducing bit depth to 16 bits ( if it 's an older song with a noise floor higher than -80 dbfs , then you do n't need dither ), 
+  5ms is the specified gray-to-gray transfer time . 
+  most tv 's have input lags above 50ms . 
+  [ i 'm afraid this will have a negative effect on your sales ] ( http://www.imgur.com/h2mee.png ), 
+  when you press a string to the fretboard , you 're reducing the length of the string that vibrates , so it will give you a higher pitch . 
+  but since by pushing the string down , you 're also bending the string , thereby further increasing the pitch , it will sound too sharp if there is no correction made . 
+  the frets are placed in a way that this error is slightly reduced , but you still have to change the position of the saddles in order for the guitar to be accurate at your string height . 
+  i have n't published anything on the play store yet , so i do n't know . 
+  yes , but it 's tedious to do it one-by-one . 
+  how often do win/mac users have an ssh server installed ? 
+  you could make a frontend to the mathematica cli , and connect to the command line program remotely with ssh . 
+  or , you could make your own special ssh server package that one would install on the machine that has mathematica running . 
+  wherever you search , bring your remote with you , and verify whether it works by looking at it through the glass with your cell phone camera . 
+  would be fixed with the next update that will make the client reject blocks that have no transactions in them ( or a more correct fix , reject blocks that have no transactions * if there are any pending transactions * ) . 
+  your 20 mil mining rig ai n't worth a thing if nobody gives a damn about your fake ass blocks . 
+  i 've been seeing this squiggly thing in my right eye fo a while now . 
+  good to know it 's just a ** fucking parasitic worm !!, 
+  unused memory is filled by your os with stuff from your hard drive , so your computer will be more snappy if you have more ram . 
+  you will see no difference with games between 8/16gib however . 
+  display size does n't matter , it 's the resolution that matters . 
+  with a lot of pixels , you 'll want plenty of video ram , not system ram . 
+  i think it should be possible to land it at slightly above critical velocity by making it [ aerobrake ] ( http://en.wikipedia.org/wiki/aerobraking ) a few times in the upper atmosphere first , instead of aiming it for a direct impact . 
+  they have better things to do then some silly infrastucmajiggers . 
+  you underestimate the importance of corruption . 
+  openbt and publicbt work and are the default trackers in many clients when making new torrents . 
+  they are not torrent directories , your torrent wo n't show up in any searches , however . 
+  it never occurred to me that you can long-press to select more . 
+  thanks !, 
+  you can distribute the file by other means . 
+  post it on a forum for example - which of course , would still require some sort of registration . 
+  imagine the kind of sustain a guitar would have in vacuum !, 
+  although you would n't need to go to space to have vacuum . 
+  still , space , therefore awesome . 
+  preamp/processor ( pre/pro ) is the name of the device that you seek . 
+  it would probably be cheaper to replace the source with something that has analog outputs . 
+  a more exact explanation is that nonlinear effects ( compression , distortion , modulation/chorus ) are not distributve over addition , whereas linear effects ( reverb , eq , delay ) are . 
+  applying the same reverb twice on two channels is equivalent to using the reverb after the channels have been summed . 
+  the same is n't true for nonlinear effects ( you get imd that you would n't otderwise have for example ), 
+  the patent is clearly invalid . 
+  orwell already invented telescreens back in 1949 . 
+  there will be no more than 21 million bitcoins unless the protocol changes . 
+  bitcoin is divisible to eight decimal places , therefore , there will be 2.1 * 10 ^ 15 satoshis . 
+  bitcoin uses ecdsa asymmetryc crypto for signing , with 256bit private keys , so you can have 10 ^ 77 different private keys . 
+  even if you transfer every satoshi to a different address , the very vast majority of addresses will remain empty . 
+  public keys are what you see as bitcoin addresses , plus the addresses have some error correction to avoid losing coins due to typos . 
+  private keys are in your wallet , and each one is mathematically linked to a public key ( bitcoin address ) in a one-way manner : one can verify that you are in fact in possession of your secret key , with having access only to your public key , and no access to your secret key . 
+  for more information , look up * asymmetryc cryptography * and * digital signatures * . 
+  there 's an excellent video explaining asymmetryc crypto by using paint as an analogy . 
+  it should be among the first search results , if you do n't know much about cryptography , that 's where you should start . 
+  oops , my bad . 
+  i could n't get this to run in wine . 
+  wait , why would you need toslink digital for your headphones ? 
+  with high impedance headphones , you need an amp for voltage gain more than anything else . 
+  high impedance cans are more forgiving , meaning that they can be more easily driven , as they wo n't need as much current for the same power as lower impedence headphones . 
+  if your current setup can drive your headphones to an acceptable level without distortion , you do n't need an amplifier . 
+  edit : also , noise . 
+  embedded headphone amps often use dirty power , possibly leading to a high noise floor . 
+  this would be fixed by even the cheapest amp that uses its own power source . 
+  it 's a smaller load on the amp ( you already have an amp btw ) . 
+  amplifiers tend to be more accurate when they have a smaller load . 
+  this means they have lower distortion and higher bandwidth the larger the impedance across their outputs . 
+  also , the amplifier 's output impedance will have a lower effect on the sound if the impedance of the headphone is higher , because there will be less current for the same power , and therefore less voltage will drop across the amp 's output impedance . 
+  with ac coupled amps that have a capacitor in series with the output , too low impedance will lead to worse bass response , as the low-z headphone will drain the capacitor faster . 
+  looping the gif only made my cringe worse .

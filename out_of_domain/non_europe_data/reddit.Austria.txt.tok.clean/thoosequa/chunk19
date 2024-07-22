@@ -1,0 +1,100 @@
+  a3 is set in the near future and it only makes sense for bi to follow that path . 
+  you can always make a map artificially smaller for a gamemode or mission , but you ca n't make a map bigger . 
+  go big or go home , imho both maps that came with a3 provided everything we need . 
+  dense forests , urban environments , coasts , hills , etc. 
+  thinking they will make a chernarus-ish map for the dlc is deluded . 
+  what 's the purpose of a big ship in an underwater environment ? 
+  what makes you say that performance was n't tweaked ? 
+  the game is enhanced with every single update , it might be small steps but we 're getting to it . 
+  the changes everyone is hoping for are probably impossible without majorly reworking the engine . 
+  and that would be a move bohemia would have to think really closely about , considering it would drain a lot of resources and the financial outcome would be very marginal . 
+  would this work though , if you 're expecting an integer in the switch statement and the user enters a string ? 
+  i believe op is asking for exactly that case . 
+  in my experience you need to catch a inputmismatchexception . 
+  if you are expecting an integer but you get a string my solution works . 
+  however the other way around it 's a little trickier because a string of integers is still a string . 
+  [ see this link on stackoverflow for a precise way of determining if your string contains nothing but integers ] ( http://stackoverflow.com/questions/237159/whats-the-best-way-to-check-to-see-if-a-string-represents-an-integer-in-java ), 
+  this is good advice . 
+  once you know the ins and outs of your language have no fear of passively contributing in open source projects ( read the code , understand the documentation ) . 
+  getting knocked over with negative reviews can be really discouraging . 
+  c++ questions here are usually answered pretty fast and the answers are in 9/10 cases not that bad . 
+  with that being said questions here are around a beginners and intermediate level , if you 're a c++ expert and you have specific questions that others on the future might have as well , sign up on stackoverflow . 
+  check the faq in the sidebar . 
+  starting on your own can be overwhelming , so have a look at the faq and see if it helps you . 
+  if you have any more questions feel free to pm me . 
+  if the latest version of the book is 10 years old , do n't get it . 
+  coding for android is not as easy as just knowing java , there is a bit more to it . 
+  kilobolt has a few good tutorials on app developing and game developing in java in general . 
+  the official android training guide is pretty neat as well . 
+  it surely does look better but does it take a hit on performance ? 
+  as it stands my framerate dips when i 'm in kavala , rendering the same objects twice , once outside of my scope and once in my scope must tank it , or am i missing something here ? 
+  use the steam server browser . 
+  it 's not as convenient but faster . 
+  so basically this subreddit just as a forum ? 
+  if you bought a book to learn c++ then just pull through and learn c++ . 
+  once you know the language and its functions it will be fairly easy to learn new oo languages such as c # or java . 
+  also lets be fair : 5 % royalties is really not that much considering how much game engines cost . 
+  look at the professional versions of unity of programs like 3ds max . 
+  that is not true , most programs are subscription based , such as cryengine . 
+  from the sounds of it you are still early in your developing career . 
+  i would n't worry about royalties right away . 
+  also consider that most platforms where you could publish your game are also taking cuts from it . 
+  if it 's a mobile game google play and app store take a 40 % cut if i recall correctly and want money from you just to be able to publish . 
+  steam takes also a pretty hug cut . 
+  appreciate the work that went into those engines . 
+  if you want to use unity ( which also charges you once you make more than 100k a year ) because you prefer the engine then go for unity . 
+  but choosing unity over ue4 because you think the 5 % royalties are greedy is just retarded . 
+  also you only get the 5 % charged once you make over 3k in a quarter , and those 5 % do n't include the first 3k . 
+  so if you make 4k the you are being charged but only 50 dollars ( five percent of one thousand dollars ), 
+  thenewboston is a discouraged reds source according to the faq, 
+  if armaholic has comments enabled on their yt videos they can expect criticism . 
+  plus it 's not like the guy was rude in his comment or even snide . 
+  he was merely pointing out that there was too much rambling and not enough getting to the point . 
+  attacking your own fanbase will do no good though , ignoring or a simple `` acknowledged '' would have been sufficient . 
+  granted the title is sarcastic , however it 's in no way blowing it out of proportion . 
+  someone said that they find their youtube videos are too long with too much rambling ( what 3 other users agreed on ) and armaholic comes back with an attack saying the users comments are useless . 
+  i agree that armaholic has done a lot to the community and we sure do owe it a lot , however that does n't make the work of armaholic untouchable . 
+  its amazing how much empathy * you * foster for this channel , who treats their viewers liek shit . 
+  i 'd like you to take a moment and go though the comment section of the most recent video and just have a look through the general attitude of the replies from the author . 
+  again i would like to encourage you to go through their comments in their own videos and see how the treat their viewers . 
+  it 's also merely a shitstorm , i just pointed it out . 
+  i love how you keep trying to perpetuate the idea that this is not arma related , while it clearly is . 
+  one of the represantatives of one of the biggest modding platforms for this game ca n't take criticism for his work . 
+  the video that was criticized is about arma . 
+  how is this unfitting in this subreddit ? 
+   sheer amount of work that is needed to simply ` add bipods ', 
+  clearly you just need to go to the `` edit '' tab , click `` add feature '' and then just `` add bipods '' . 
+  it in between the `` raise fps '' and `` enhance graphics '' buttons . 
+  i 'm only a couple minutes in but i am already not sure who the scope is of the tutorial . 
+  you do n't mention how to setup the ide or compilers , after merely one minute you start talking about functions without even having touched on basic c++ syntax . 
+  i appreciate the effort of making a tutorial , but do you really think that making a game is a good entry point , especially for c++ ? 
+  this video is clearly not intended for beginners as it touches really fast on concepts that are not suitable for beginners . 
+  and this video is clearly not intended for advanced programmers as you say `` not to worry about arrays , we 'll do that later '' . 
+  ** tl ; dr ** to me this seems like one of those watch-video-copy-code tutorials that do n't really benefit anyone in actually learning c++ . 
+  you think you can learn the basics of c++ in a few hours ? 
+  and by the basics i mean pointers , arrays , overloading operators , memory management and the like ? 
+  may i ask how long you 've been coding for ? 
+  please do work on your teaching skills . 
+  it still remains to me unclear who your target audience is . 
+  it seems like a hybrid of c++ beginners and intermediate coders , but that 's clearly a bad mixture . 
+  as a tip : you may want to consider creating a unit 0 , containing what you will do in your tutorial , who it is aimed for and how to set up the ide so you can focus solely on coding . 
+  also consider writing a script for your tutorials . 
+  as of now it sounds a lot like you 're doing things of the top of your head , rather unstructured . 
+  edit : i had a chance to look more at the video and honestly , 3 minutes of your video is just `` look what ive made '' . 
+  you even sound excited about , which is cool but a quarter of a tutorial should not be dedicated to `` look what i made '' but rather `` this is what we did today , here are more learning resources if you want to know more and next time we will do this '', 
+  i do n't want to drag this on any longer than it needs to be but your second tutorial has just the same flaws as your first one . 
+  to me it does feel like you know what you are doing but you are not doing a good job at explaining it . 
+  there are lots of good c++ video tutorials out there , use them as reference . 
+  to point one more thing out : if you want short videos , cover the materials appropriate for the length . 
+  talking fast wo n't make your video go up in quality , people are just forced to rewind and repeat a million times . 
+  if you want to cover lots of material then just do longer videos . 
+  no one will learn c++ or sdl in 10 5 minute videos but maybe in 10 30 minute videos . 
+  and again please make sure you aim your videos at a target audience . 
+  in video two you already talk about pointers and memory leaks but you also explain what comments are and how they are done . 
+  this seem like two topics that should be at least a couple units apart . 
+  do n't use hola , it uses you as exit node for the activity of others . 
+  there is no good programming language per se because programming languages fulfill certain goals . 
+  languages are tools , not accessories . 
+  ill put it this way , if you want to drive a nail into a wall , all screwdrivers will be equally bad , but a hammer will do the job . 
+  the problem with your original question is that it 's not a very objective one . 
+  what / u/the _ omega99 has said is inherently subject to his own opinion , but it does n't answer the question .

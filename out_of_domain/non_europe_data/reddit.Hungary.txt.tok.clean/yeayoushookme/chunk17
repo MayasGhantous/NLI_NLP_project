@@ -1,0 +1,100 @@
+  you 'd need to use bash ( * nix/cygwin ) or powershell ( windows ) to fully automate it . 
+  get your savegames synced with dropbox . 
+  * step 1 : locate savegame folder, 
+  * step 2 : * move * savegame folder to dropbox folder, 
+  * step 3 : symlink savegame folder from dropbox back to the original location . 
+  the link should maintain the same name as the savegame folder . 
+  this also works on ntfs by the way . 
+  much easier to board planes too . 
+  it worked with ftl and legend of grimrock for me . 
+  what i wonder , is that if this method works with the humble android bundle games , between android and gnu/linux . 
+  only one way to find out , i guess . 
+  try to lower the gain and move the microphone closer to your face . 
+  is the mic preamp gain already at its lowest setting ? 
+  it 's the slider that usually has two or three steps for gain ( 0db , +10 db , +20 db ... ) . 
+  it 's good if you can get it real close , but too close , and you 'll have problems with changing volume ( as you move your head only a bit ) , proximity effect ( bass boost ) and pops with * t * 's and * p * 's ( use an improptu pop filter from some kind of foam ), 
+  i wonder if you could drill a hole in the back of the electret capluse to modify it into a cardioid mic . 
+  maybe go lo-fi and run it through a cheap alarm-clock radio . 
+  not the whole thing , just the distorted part . 
+  distortion recovery tools are more of a gimmick unfortunately , that make the waveforms look pretty , without improving the sound in a useful way . 
+  they recorded a take with distortion , and did not retake it . 
+  am i wrong to assume that you are n't dealing with professionals here ? 
+  people who do n't know a single person with * not * an iphone, 
+  yikes , poor grinder . 
+  you 'd be better off adding the chocolate after brewing . 
+  which i disapprove of . 
+  if you lowpass distorted audio , it wo n't sound as harsh . 
+  an aesthetic way to do this would be to use a speaker to round off the signal , similar to what a miked guitar speaker does to an overdriven guitar signal . 
+  after entering, 
+  vi / etc/fstab, 
+  you 'll have to type * : q !, 
+  * to exit , and then, 
+  nano / etc/fstab, 
+  the linux option is there . 
+  try once more . 
+  just get a fucking room already, 
+  * exposure time : 6s, 
+  * f-number : 11, 
+  * exposure bias : -2 / 3 ev, 
+  dat be da [ coat of arms ] ( http://hu.wikipedia.org/w/index.php?title=f%c3%a1jl:coa_hungary_country_history_mid_ ( 1867 \\ ) . svg & filetimestamp = 20110607072001 ), 
+  more bass . 
+  most action flicks have added rumble at certain parts , which is basically low-passed pink noise . 
+  [ you forgot the lens flare ] ( http://imgur.com/whibk ), 
+  i flipped through the article , and saw no diagrams , or any kind of measurements . 
+  am i wrong to assume that this is n't worth reading at all , or what ? 
+  edit : read into it anyway . 
+  biased unprofessional bs . 
+  1/10 , move along , nothing to see here . 
+  this could be used instead of a starter pistol to more accurately measure hall acoustics . 
+  i doubt that it would work well as a hi-fi speaker . 
+  if you 're interested in these kinds of designs , look up siegfried linkwitz 's pluto speakers . 
+  they are omnidirectional up to 3khz , instead of 300-800hz as with a typical box speaker , they are certainly diy-able , and most definitely hi-fi . 
+  i went from windows 7 to kubuntu instead of win8 . 
+  valve is already pushing the industry towards linux , and the number of new games native to the platform is increasing rapidly . 
+  i suggest you look into that route instead of upgrading to win8 . 
+  linux has matured a lot in the past years , and it works better than win7 in so many ways once you get the hang of it . 
+  most definitely back up any important data before doing the shrinking . 
+  your documents should already be in your dropbox , but take care of your photos too . 
+  the shrink made my windows7 partition unbootable until i managed to run a chkdsk on it , which fixed it completely . 
+  fsck was n't enough . 
+  funny , 'cause i have yet to boot back to windows since i 've installed kubuntu two months ago . 
+  you wo n't need a windows install media , just linux . 
+  torrent the iso of the distro you have in mind , and write it to a usb drive with [ lili usb creator ] ( http://www.linuxliveusb.com/ ) . 
+  then follow [ this guide ] ( https://help.ubuntu.com/community/howtoresizewindowspartitions ) on how to shrink your current ntfs partition ( the ubuntu installers will actually do this for you ), 
+  after shrinking , boot back to windows at least twice to make sure that it 's still working . 
+  if it is n't , use the startup repair tool to fix the partition . 
+  it should do it automatically . 
+  when you 're done with that , boot from the thumb drive installer you 've created in the first step and install your new os onto the free space on your drive . 
+   led or ccfl backlit lcd screen ,, 
+  yes . 
+  i 'm * that * guy . 
+  they exist , but they are no longer made , except as replacement parts perhaps . 
+  i have lucky patcher installed because of apps that do this . 
+  apps that i 've paid for . 
+  you see , the most often i play a game , or use an rss reader , is when i travel . 
+  and i often have no internet connection for days when travelling . 
+  so these apps will break , and i have to circumvent the licence check , so they are very annoying for me , and probably others too , who travel often . 
+  call me a nutjob , but i use an otg cable with my sgs2 to upload everything using ssh/rsync to my 1tb usb hdd connected to my router at home that 's on 24/7 . 
+  that way the only extra thing i have to carry is the otg cable . 
+  edit : off-topic sidebar-worthy protip : install [ prey ] ( http://preyproject.com/ ) on any computer you might choose to bring with yourself in case it gets stolen . 
+  dual booting is done by first shrinking the existing partition that spans the whole drive ( 100 gb should be enough as a start ) and installing the new os onto a new partition created on that space . 
+  the ubuntu installer will handle the file system shrinking for you . 
+  also , there 's nothing stopping you from downloading a windows install media image from the internet . 
+  microsoft made a tool you can use to create a bootable usb drive for installation called usb/dvd download tool . 
+   open source, 
+  where can i download the source code ? 
+  grub , the linux bootloader will automatically replace the windows bootloader , and it will let you decide to either start windows or linux when starting up your computer . 
+  where exactly ? 
+  i see no source , apart from ffmpeg on the download page . 
+  set up openvpn server on your htpc . 
+  now you 're accessing your library locally , without having to worry too much about security . 
+  the vpn wo n't change the amount of bandwidth you 'd need ( or have ) in order to stream your media , you 'll only have more options to access your files . 
+  if there was a bandwidth limitation , you 'd either have to recode the media ( vlc , subsonic , and a few others can recode - but that 's very cpu intensive ) or you 'd have to wait for the file to download first before watching it . 
+  having a mirrorless , i always use live view . 
+  here 's a tip i 've learned while shooting in low light situations without is : you can significantly stabilise your shot if you push the camera away from yourself against the strap at the base where the strap attaches . 
+  not too much , i 've found that about 10n for each thumb is the optimal amount . 
+  it works better if you set yor strap to a length where you can do this the most comfortably . 
+  obviously this is only possible while using live view , you would n't see anything otherwise . 
+  so someone has to repost it first ? 
+  to make it all official ? 
+  they were downvoting it because it 's irrelevant , and so should you .

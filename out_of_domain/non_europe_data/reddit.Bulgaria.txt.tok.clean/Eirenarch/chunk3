@@ -1,0 +1,100 @@
+  technologies like node.js just utilize the cpu better . 
+  btw can someone explain why i read about node everywhere and no one seems to know that asp.net had asynchronous pages and asynchronous services for 6 years now and the latest java ee also has it . 
+  how come no one care about these and praise them ? 
+  `` oncology programming '' lol !, 
+  raindomgx basically if you have a lot of request in a traditional environment there will be a lot of threads . 
+  if there is an io boud operation at some point the os spends more cpu cycles switching threads than it spends running actual code . 
+  alternatively you can limit the number of threads but this would give you like 30 % cpu usage while requests are waiting on the queue . 
+  node ( and all similar solutions including one for non-hipster platforms like java and . net ) fixes that by requesting an io operation and then releasing the thread for other requests . 
+  when the io operation completes the callback code is scheduled to run on the existing ( or one of the existing ) threads . 
+  i hope you were really asking and not just kidding , 
+  yes but the emphasis should not be on `` fast '' but on `` scalable '' . 
+  a single request will not become much faster than a traditional web server * . 
+  you still need to wait for the io operation to complete before you serve the response to the user however node allows you to wait out thousands of io operations at the same time without sacrificing performance so if you have a single request and it completes in 3 seconds then thousand of simultanious requests will also complete in 3 seconds ( assuming that the io source can handle it ) . 
+  basically with node you do n't waste cycles managing simutanious requests while most other frameworks do . 
+  i personally think node is best suited for services that power ajax apps or apis . 
+  as far as i know it lacks a powerful html generation framework . 
+  note that nothing precludes a full html generation framework from scaling the same way and as i 've pointed out asp.net and java have mechanisms to do it . 
+  * in practice it probably will become somewhat faster because as far as i know node is pretty barebone while popular web servers like apache and iis have rich pipelines with a lot of components which do a lot of things like control access , rewrite urls , log requests , etc. 
+  also note that io does not necessarily mean file operations . 
+  it can be database calls , web service calls , sockets operations , etc. 
+  it seems to me like there are additional requirements for `` new technology '' to enter hype cycle like, 
+  * should be open source, 
+  * should come from a small company , the community , a single developer or google . 
+  if oracle ships some cool tech it does not work even if it is open source, 
+  so what 's wrong with this question ? 
+  it seems perfectly valid to me . 
+  a company should know what it is getting into . 
+  i 'm not sure . 
+  you may be correct but i 've seen a presentation which claimed that the cpu usage becomes a problem . 
+  the presentation was in asp.net context . 
+  maybe the presenter was wrong , maybe it depends on the os/technology or maybe both the cpu and the memory are real issues . 
+  in any case it is the great number of threads that consume resources and kill scalability . 
+  no , it is framed in such a way that suggests that it is stupid to go with community driven solution without a vendor behind it which is different from open source in general . 
+  in the context of a company which core business is not it i tend to agree . 
+  no you do n't . 
+  your dba has . 
+  if he quits it 's over . 
+  with oracle you have a contract . 
+  they ca n't quit . 
+  so you find it easier to interpret it as `` it 's stupid to go with open source ever '' ? 
+  also if there are for profit vendors behind these projects then the whole argument does not make sense because you obviously do n't need to contribute to open source in the first place . 
+  by pointing out that there are vendors you too suggests the very same thing that oracle suggest namely `` your company does n't want to contribute to open source '' . 
+  this may be true and maybe it is not worth to go with oracle but this does not make the question itself invalid , fud , etc. 
+  who guarantees you can hire another dba ? 
+  also oracle are obliged by a contract to pay me if they do n't deliver what they promised . 
+  good point i completely forgot this really important use case . 
+  still that does not make the statement false . 
+  it only means that you agreed to a bad contract or that the justice system is broken . 
+  also unlike open source oracle has incentive to help you because they want to sell you future products . 
+  of course you can argue that there are vendors but then again the statement suggests that you do n't want to contribute to open source . 
+  that 's either true or false . 
+  if you bring up the vendors you do agree with oracle . 
+  no because unlike java in c # everything really is an object . 
+  so false is an object . 
+  objects can be compared to null . 
+  you do get a warning though that this particular statement will always be false because value types are never null . 
+  i 'm a supporter of static typing for every project that has more than 3 devs on it but things are not as simple as you describe it . 
+  while static typing will prevent some of the `` crash and burn at runtime '' that optional typing will allow type inference wo n't solve the problem with designing classes . 
+  it makes using types easier but you still need to model the whole oo and generic hierarchy and i think this is what munificent implies . 
+  this is true but they wanted class-based language . 
+  um ... creating more maintainable language with less wtfs ? 
+  yes but they may not want to work with you or their services may have become too expensive . 
+  if oracle are capable of breaking the contract then this does not make the statement false it only means that you need to find more reliable database vendor that is not in the habit of breaking contracts, 
+  all hail anders ( and hallowed be his name ) !, 
+  reflection ? 
+  values returned from methods are my only problem with var . 
+  getproductbyid is quite obvious but what if it was a method with more generic name and someone replaced the return type ? 
+  then your client code will compile and potentially have wrong behavior . 
+  i 'm ok with using var when assigning literals or newing up values but when the values are returned from a method i 'd rather go for the full type name ... except when iterating over a collection with foreach . 
+  sometimes i just do n't feel like adding another using statement to have the type name in scope . 
+  why does n't it work on ie ? 
+  so what 's wrong with being the new cobol ? 
+  cobol is in the top 5 of the most successful languages ever . 
+  i 'd rather use ( or be proud of creating ) a language that is the new cobol than a language that is the new ruby ( i.e. 
+  fashion ), 
+  also innerhtml and tabs in separate processes ? 
+  yeah and because you ca n't support them you should disregard the facts . 
+  ie9 still beats the latest chrome and for ~ 3 months after it was released it was number one on this test . 
+  ( i tested it ! ), 
+  so just try to imagine that these results were displayed on reddit when ie9 was released and they still beat the competition , 
+  when w3c released the results mozilla cried out loud that these were the test microsoft contributed . 
+  so maybe you crybabies can do the right thing and contribute some tests as well ? 
+  otherwise stop complaining because by contributing these tests microsoft are doing work for you !, 
+  did anyone else notice that according to the wikipedia article the wp7 mango 's browser beats android 's ? 
+  ie9 beat everyone else on this test when it was released ( i tested it back then ), 
+  except this time the test comes from google . 
+  this is offtopic as webgl is not part of ecmascript 5 , 
+  i thought the article was credible but part that claimed that sl5 will not work not only ot mac but also on non-ie browsers totally ruined it for me . 
+  having a rc that works on all browsers and then releasing it as ie only makes 0 sense . 
+  i take this article less seriously because of this part . 
+  can i apply for a job at your company ? 
+  the web development i 've been doing lately makes me wan na throw up . 
+  too bad there are no sl jobs in my area . 
+  if you jumped on the hype you are in a possition to own the windows 8 app market , 
+  are you implying that there are companies where this is not the case ? 
+  sure but the parent comment compared it to `` the last time ms told people '' . 
+  this time it is not ms telling people anything and i do n't see why we should assume they coded for this test . 
+  how is that generics are not needed ? 
+  how do you make reusable type safe collections without generics ? 
+  of course they wrote the code to pass their tests .

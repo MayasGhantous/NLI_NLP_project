@@ -1,0 +1,100 @@
+  go to your project directory ( containing ` manage.py ` ) and run :, 
+  gunicorn project_name . wsgi : application, 
+  you should see no output ( or error if you are missing packages ) . 
+  you can go to browser to localhost :8000 to see the page . 
+  kill gunicorn with ctrl-c after that . 
+  other gunicorn options are per usual described after executing ` gunicorn -- help ` . 
+  on a side note : you have gunicorn in your path and can execute it from anywhere because virtualenv is activated . 
+  you could also execute ` / path/to/virtualenv / bin/gunicorn ` instead . 
+  you can confirm that by executing ` which gunicorn `, 
+  create a script to automate that ( i assume that you will keep it running automatically with a process manager like ` supervisord ` ) . 
+  source / path/to/venv / bin/activate, 
+  cd / directory/with/manage . py, 
+  gunicorn project_name . wsgi : application, 
+  now you can disable virtualenv and simply run this script which will handle activation automatically . 
+  configure nginx like pictured [ here ] ( http://gunicorn.org/#deployment ) . 
+  go to the browser and see [ http://localhost/] ( http://localhost/ ) . 
+  if the script is running you should see the working website . 
+  you also have to set up rules for static files . 
+  if you have collected them to one directory ( with ` manage.py collectstatic ` ) the simplest block looks like that :, 
+  location / static / {, 
+  alias / path/to/static / dir / ;, 
+  remember to get the slash at the end of the alias and location directives right ( at the end of both paths ) . 
+  put the block above/before the one which you added earlier . 
+  i do n't know if i got everything right , ask follow up questions . 
+  as to the nginx configuration : best way to do that is to put additional file called ` django ` or something like that in ` / etc/nginx/sites-available / ` . 
+  the server block shown on gunicorn website can be placed inside with the addition of the rule for static files . 
+  after creating that file you just have to remove the default one from ` / etc/nginx/sites-enabled / ` ( it is just a symlink so the file will not be gone ) and link that new file in that directory instead . 
+  ln - s / etc/nginx/sites-available / django / etc/nginx/sites-enabled / django, 
+  you might have to disable the default one to avoid conflicts because it also listens on ` localhost ` . 
+  after that reload nginx . 
+  on debian-like distro it would probably be ` sudo service nginx reload ` . 
+  i think you meant redirect them to more compatible browser . 
+  that is because everyone knows that vim is the greatest editor ever and there is nothing to discuss . 
+  i went to visit my friend a few years ago and he showed me call of duty 1 running in wine and rendering live on a spinning desktop cube . 
+  i think it was one of the first ubuntu versions . 
+  after that he updated the kernel and he had to modify a couple of files and use root to do so , i remember admiring how tech savvy he was despite the fact that his dad was overseeing that operation . 
+  i think he also had wobbling windows enabled . 
+  we must have been like 12 at the time . 
+  i think you are totally mixing up github and git . 
+  i am unaware of affiliation between github and linus `` linux '' torvalds . 
+  but wait !, 
+  now we will have spinning windows !, 
+  the future is now . 
+  you really should install gentoo , friend . 
+  so basically i need 10 lines with cryptic names and settings and 2 files instead of one line in my crontab ? 
+  systemd truly is the future . 
+  very useful . 
+  works with files , buffers and ctags . 
+  everything is in the documentation :, 
+  i just use siege . 
+  if you know what i mean , amirite ? 
+  it is partially true . 
+  statically linked binary will work as far as i know . 
+  i was confused by the file system design . 
+  at first it was strange to mount partitions anywhere in the filesystem . 
+  i was going to actually explain to you why you are wrong but i realized that you are trolling after reading the line about the registry . 
+  sure it is awesome , i just was a bit confused at first because windows just assigns letters to drives and displays them in one place . 
+  here you have much more flexible approach ( and imo way better ) . 
+  windows really lacks in the file system design . 
+   it 's getting hard to predict the next technology fashion . 
+  i have a text editor i 've been using myself that is so complicated it makes vim look like notepad -- maybe i 'll release that . 
+  was he serious ? 
+  damn . 
+  lets forget about this . 
+  i am not a pleb so i do n't even have x installed . 
+  fuck you , i bet that you dont even run your terminal as a daemon to save 0.002 ms on launch, 
+  should have installed arch !, 
+  i got about 1 fps on firefox . 
+  i said that simply because it runs significantly better on chromium ( which i do n't usually use ) . 
+  i blame the driver though . 
+  great mod but i would also like to use the parts used in the cinematic , can you give me names of the mods ? 
+  i am interested especially in all those fairings , both shown during staging and the one at the top of the rocket . 
+  to be honest i feel like mg42 overpowered an already op nation because everyone always wants to play germans . 
+  now it is even worse , i do n't remember when was the last time i won as allies , yesterday i played the game in which germans had 5 times more team points . 
+  i feel like all good players pick axis . 
+  that is really interesting , i would love to see more footage like that . 
+  french movie taxi . 
+  i use reiserfs , performance is a killer . 
+  your dns must be shitty , try to change it . 
+  it would be great if you could scan this . 
+  i would play that game so hard if it was one-time purchase not subscription based . 
+  i doubt that i could pull that off while going to uni . 
+  i do n't have that much free time . 
+  science city ? 
+  how does that even work ? 
+  i build all science buldings i can in all cities , is that wrong ? 
+  or have i misunderstood ? 
+  i see . 
+  how do you even get so much happiness ? 
+  i always struggle to have 4-5 cities without getting negative happiness until very late game . 
+  thanks , now i know what is happening . 
+  yep . 
+  i have no idea what is going on when i have too many planes close to the airport . 
+  while i love reading i have to say that it was the most boring book i have ever read . 
+  i wonder why this thread is reposted all the time . 
+   the uploader has not made this video available in your country . 
+  what the fuck ? 
+  it is a trailer ... 
+  linux is a kernel , not an operating system ... 
+  and how are you going to detect if transmitted data is encrypted ?

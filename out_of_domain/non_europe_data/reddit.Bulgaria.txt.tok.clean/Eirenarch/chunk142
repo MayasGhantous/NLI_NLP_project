@@ -1,0 +1,100 @@
+  buttons , message boxes , forms , painting shapes with the graphics object . 
+  gui programming . 
+  events , anonymous methods and lambda expressions . 
+  enums , attributes , using enums with the switch statement . 
+  exercise -- building a gui calculator . 
+  generics . 
+  building a stack data structure . 
+  making the arraylist generic, 
+  ienumerable < t  , iterator blocks , foreach loop . 
+  using the different . net framework collections ( list < t  , stack < t  , dictionary < tkey , tvalue  , linkedlist < t  , queue < t  , hashset < t  , sortedlist < t  , sorteddictionary < t  , sortedset < t  ) -- how to choose . 
+  working with streams and files . 
+  threads and tasks . 
+  locking and deadlocks . 
+  using asynchronous code to prevent blocking ui . 
+  overview of things not covered by the course -- literal strings , nullable value types , property initializers , collection initializers , type inference with var , array type inference , anonymous types , extension methods , linq , variable number of parameters with params , out/ref arguments , named method arguments and default argument values , operator overloading , autoboxing , dynamic typing , async/await . 
+  working on project . 
+  even if it is open sourced how would you know that the binary in the market is the same one that the source compiles to ? 
+  it is done automatically in the background these days and ssds need much less defragmenting ( in fact there is an argument if they need defragmenting at all ) . 
+  edit : and just after typing it i realize you are joking . 
+  well there are some gotchas, 
+  1 ) the version that is open sourced is not released yet . 
+  2 ) the version that is open sourced is not fully compatible with the existing framework and the existing framework will continue to be developed . 
+  the stuff that is removed is mostly stuff people did n't like anyway and it makes the new version cleaner and faster but the full framework will continue to exist for backward compatibility, 
+  3 ) the part that is open sourced is the web stack and does not include technologies for making desktop apps like wpf and windows forms ( for now ) . 
+  so more than a handful of people will go through the trouble of compiling and sideloading every time there is an update ? 
+  i doubt it . 
+  no generics means i give go a no go . 
+  no exceptions especially in go !, 
+  prepare to share the downvotes with me , 
+  edit : wait , i am now in the positive ... strange . 
+  ah i did n't know that . 
+  if i knew i would n't go through the change list looking for something to fix the most burning issue with the language . 
+  that 's so true !, 
+  node.js is so web scale especially when combined with mongodb !, 
+  i would go for rust if i ever have to do system programming . 
+  alternatively d. 
+  no , seriously , i did n't . 
+  of course i will continue to troll about generics because i find the lack of generics in a statically typed language created this century absurd and even more absurd that the go community claims generics are unneeded or even bad . 
+  this depends on how good the designers are and how well they plan . 
+  for example c # has way more features than java and is a great language with very few compromises . 
+  there is no need for a language to become c++ especially if it has not been around for 40 years and did not need to pioneer the concepts it introduced . 
+  also wcf has one . 
+  i do use the numerous languages that support generics . 
+  there is also the ml style and probably some style i have not heard of but as far as i understand go lacks any . 
+  for example being able to write a filter function . 
+  as far as i understand in go they cheat and have it built into the language but you can not write one . 
+  as pointed out by other commenters code generation brings its own problems . 
+  code generation is in fact a valid form of generics ( c # generics on value types and c++ templates are effectively code generation ) but when you have to maintain the generated code it can become painful especially if other features are code generated too . 
+  oh , the ads suck . 
+  this is why i have premium account . 
+  i am not against code generation at all but i think it should be reserved for higher level tools . 
+  there is a critical mass of generated code that a project can have and if we try to code-gen our way out of everything we will certainly fail . 
+  i think if we go the code-gen way it should be something like f # 's type providers and not external tools that just spit out text . 
+  interestingly i think sc influenced these decisions for me . 
+  i went into comp science because it sounded like the thing that was related to starcraft the most . 
+  i had not programmed before ( except for a single turbo pascal program in 6th grade ) but it turned out that programming is relatively interesting and pays relatively well so i just stuck with it . 
+  many of the friends i made in the years playing starcraft are now valuable contacts in the industry . 
+  many of them work in it and we help each other on occasion . 
+  now to be honest i played games before starcraft and if it was n't starcraft i would probably end up on the same path due to gaming but the fact is that it was starcraft that influenced my entire life . 
+  btw i am 31 now . 
+  you can parse with regular expressions . 
+  you ca n't parse certain classes of languages but you can definitely parse something . 
+  if you stick to the conservative meaning of `` parse '' which is closely related to the notion of grammars you are right but people use `` parse '' to refer to extracting data from structured text and regexes tend to work reasonably well for simple cases . 
+  even jquery is built with regexes . 
+  nope i am currently diamond and although i spent several years in masters i have never been gm . 
+  also my nickname is somewhat popular since it is a character from dune . 
+  i used to check how other people who use the nickname were doing but until recently i was the highest rank . 
+  on the other hand maybe someone in gm changed his name or i was only checking the eu server . 
+  i forgot i am using another nickname on reddit  ( my main nickname is stilgar ) . 
+  i have an account named eirenarch and a friend of mine plays with it . 
+  i think it is currently in diamond but it was in masters much recently than i was . 
+  eirenarch is rarely used nickname so i doubt anyone else uses it ( this is why i use it when stilgar is registered ) . 
+  however it is not easy to remember so you are probably thinking of someone else . 
+  stop living in the past . 
+  limited unit selection may be part of sc1 balance but it is a negative for the game , not the thing that makes it great . 
+  and while we are at it pretty graphics are better than 98 graphics !, 
+  so are you right now sitting in iccup where you cry together with the last people playing sc1 knowing that no one will ever make an rts game with that stupid technical limitation again ? 
+  it is obvious why someone would host bw event instead of sc2 - to step in the small niche because there is sc2 tournament literally every day . 
+  the reverse question applies with much more strength . 
+  why did existing bw leagues switch to sc2 if it is so hated in korea ? 
+  i do n't understand why there are other answers . 
+  grrrr ... and ntt are the only are the only acceptable answers beside boxer but still boxer is the correct one . 
+  i had done a basic course in python and they explained the swapping as something resulting from implicit tuple syntax and tuple unpacking . 
+  is this correct ? 
+  if yes , why does he go into implementation details about opcodes instead of explaining the actual language feature ? 
+  i find it very strange that he completely skips explaining how some of the other non-obvious constructs work but then decides to discuss implementation details without even mentioning the semantics of tuple unpacking . 
+  maybe if we do they will add generics ? 
+  makes you wonder why balloon is the only player on this level to play random if the random cheese is so unstoppable . 
+  the only tournament for which i am not sure if it is allowed is proleague . 
+  it is allowed in every other major tournament and i even think it is allowed in proleague but was banned in bw . 
+  in any case i would be surprised if proleague did n't match wcs rules now that it is part of wcs . 
+  fully agree with your viewer perspective cs  sc  moba . 
+  fantasy setting should be banned in competitive games . 
+  and c # is simply the best mainstream language ( in `` mainstream '' i include c/c + + , java , c # , python , php , javascript , objective-c and maybe ruby and perl although they are on the way out of the mainstream ), 
+  good question . 
+  probably because it is not seen as `` cool '' or they do n't hold hackatons in the . net community . 
+  he probably thinks `` hackatons '' are some kind of parties with hookers and blackjack . 
+  microsoft desperately trying to be cool !, 
+  ( in case it is not obvious i am playing the hipster open source developer ), 
+  js is not great for anything it is just unfortunate outcome of the battles of the industry that js is the only thing that runs in the browser .

@@ -1,0 +1,100 @@
+  they can maintain their api because if they ca n't maintain it they will not include it in the api , 
+  then a language can not be a `` scripting language '' . 
+  an environment can be a scripting environment . 
+  i am under the impression that people are trolling me . 
+  is n't it obvious that i am asking about examples of error handling in swift ? 
+  this is where i pull my `` not a native speaker '' defense, 
+  it says what fanboys want to hear . 
+  they copied stuff from c # and rust , 
+  potential portability of ios apps to other platforms . 
+  it all depends on what portion of your money you invest . 
+  it does n't matter if you got rich because if you spent all your savings at $ 2 it was still gambling and gambling with all your money is stupid . 
+  so at least sc2 can last for a long time . 
+  now if you ask about removing the ability to make new maps ... 
+  if we factor in money starcraft will probably be the biggest e-sport of that decade . 
+  when talking about programming languages if you are the first to copy a lisp feature you are an innovator if someone else copies the same lisp feature he just stole it from the first guy who copied , 
+  unless apple blocks it with licensing . 
+  i am not even sure about that but probably if it has to do with static typing you turn to ml and its family . 
+  a ) it is because if creating a quality app costs 10 * x and porting it costs x then if the app makes 20x on ios and 5 * x on android they are effectively feeding the competition . 
+  the app would not exist on android if it was n't paid for on ios . 
+  as long as ios apps make more money than android apps it is true no matter the ratio . 
+  it does not happen with objective-c and apple would like to keep it that way . 
+  objective-c is kind of protected by the fact that it sucks but swift seems really cool . 
+  yeah right !, 
+  even if the state is changing something ( which i highly doubt ) the general game playing population does n't give a shit and why would they ? 
+  they do n't pay for windows anyway . 
+  the easy answer is - xbox . 
+  if you are in the engine market you need to support xbox and therefore you support both anyway . 
+  of course there are more advanced answers . 
+  it seems that dx is actually significantly better on windows , specifically the state of the drivers . 
+  the dx drivers are stable and feature complete while it seems like opengl windows drivers have limited support for many features . 
+  it seems like intel is the worst offender here . 
+  btw webgl which is very similar to opengl is implemented via directx on windows in most browsers including chrome which is multi-platform . 
+  this says something about the state of opengl on windows . 
+  i do n't know ... no part of my web stack is listed in this session , 
+  i was kidding but asp.net . 
+  does this database show if/when it was patched ? 
+  i look forward to the creative questions, 
+  `` player x how does it feel to play in front of such a great audience ? '', 
+  the good thing about using closed source tech is that there is nothing you can do . 
+  you just wait for windows update to distribute the fix , 
+  the world of windows 8 metro apps is indeed a touchscreen . 
+  they even have that other world called the desktop for non-touchscreen users . 
+  can anyone tell me why one would choose node.js over c # with webapi ( and even mvc ) these days ? 
+  it does everything node.js does and does it better . 
+  the benchmark game says even says c # is faster ... on linux !, 
+  ( ok probably equal because on some tests v8 wins ), 
+  why ? 
+  i mean what is the problem with c # for the type of projects node.js is used for ( i.e. 
+  web backend or apis ), 
+  context switch is a good point but the article makes good counter points . 
+  you still do a context switch when you have to work node style . 
+  the repl is a good point ( btw i use the immediate window in the debugger as a kind of repl ) but does it outweigh the benefits of c # . net ( being able to run on multiple cores in a single process , async/await , much better standard library , much better language , etc. ) ? 
+  your other points are all cultural not technical . 
+  basically people do n't use c # because they do n't like c # and they do n't even know why . 
+  saying that c # is just java means you have n't updated your info since around 2005 and web api ( which is roughly the equivalent of node.js ) is specifically made to run on linux . 
+  that seems true but these people seem to go around conferences and write blog posts promoting the benefits of node as if it has any benefits except the one you just listed . 
+  i did n't even say `` mvc '', 
+  because it is easier to maintain and reason for in python with its higher level constructs . 
+  so what about c # and node ? 
+  i would understand this argument if i asked why people write ocaml instead of c # but i am asking about javascript . 
+  a language with less features that are implemented in an inferior way to c # . 
+  hell you can even use dynamic typing and prototype inheritance in c # if you like it so much . 
+  not that there is much good in prototype inheritance . 
+  even if this was n't just a benchmark 2 times throughput is not a big deal in web scenarios . 
+  if it was a game i would understand but in this case you are likely to hit database bottleneck or business logic bottleneck before you hit web framework bottleneck in any real world scenario . 
+  in the worst case you just buy two times the servers and you save yourself a lot of javascript pain . 
+  i do n't have experience with node so i ca n't comment on the ecosystem but the ecosystem is not what the node community advertises . 
+  they advertise asynchronous io and ease of development and both of these are better in c # . 
+  what do you mean by platform mobility ? 
+  what are examples of tools . 
+  i find the . net tools far superior to anything i have seen for javascript both as ides and as profilers/debuggers . 
+  what are examples of badly fitting into the unix stack ? 
+  i am not disputing it i am just curious how severe the problems are and are they a reason enough to choose a worse language ( especially considering the focus on async development ), 
+  why do you care if mono has user base ? 
+  after all you mainly care if c # and webapi have user base ( and they do ) . 
+  i doubt that web api has significant problems on linux but i get your point . 
+  no second chances , 
+  no but i have written a lot of javascript . 
+  if i had written anything in node i would probably not ask . 
+  on the other hand all blog posts about node and conference talks i have been to show only stuff that is much better in . net ( async io , real time chat apps ), 
+  what do you mean ? 
+  the only thing i can think of is that c # actually reports errors instead of swallowing them . 
+  do you have any reason to believe that webapi specifically wants to be in iis because i think they put specific effort into that one and it is open source so mono can just take the code and not reverse engineer it . 
+  on the other hand you are correct about nuget dependencies and this probably links back to your complaint about the ecosystem . 
+  that makes perfect sense , although it assumes that one is not satisfied with running on windows but it is a good point . 
+  thanks . 
+  the truth table in javascript alone beats the complexity of the whole c # language for me . 
+  yeah because if ( typeof x = = = ` undefined ' ) is so good . 
+  yeah this is so far away from the problems i deal with that i ca n't even factor its importance in my judgement . 
+  i just write code therefore i put a lot of emphasis on the language and the ide . 
+  i am definitely comparing to javascript . 
+  after all i explicitly said `` node '' in my original question . 
+  i do n't write node . 
+  as evident by my question i can not even imagine why people choose node over c # + webapi ( now some of the linux ecosystem arguments in this thread did make sense but i have not invested in linux either so ... ), 
+  oh , sorry ( got overwhelmed by the responses ), 
+  while you are in general correct this is a bit harsh . 
+  after all c # has a good amount of functional programming not only in the form of lambdas but also in the form of type inference and generics and features like coroutines ( yield and async/await ) . 
+  linq 's expression trees are also worth noting . 
+  i think all these elevate it a bit over algol and finally c # is definitely the most ocamly of the mainstream languages . 
+  i do n't think this will happen but if it does it would mean that the world is indeed a touchscreen .

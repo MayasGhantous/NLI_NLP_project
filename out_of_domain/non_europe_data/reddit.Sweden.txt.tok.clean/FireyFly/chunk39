@@ -1,0 +1,100 @@
+  i have a cheapo keyboard with blank keycaps ( i think it was about $ 2 ) , and i had no problem at all in getting used to writing on it ... but ymmv -- i were already used to writing on dvorak with qwerty keycaps , so ... 
+  this would be my guess as well at what 's happening . 
+  afaik the boot sector is executed as plain instructions in a single segment , much like com files , so it makes sense that it 'd be confused with that format . 
+  if you know the fixity of every function/operation , you could use prefix/postfix notation . 
+  ` ( cos ( x + z ) ) \u00b2 ` \u2192 ` cos ^ + x z 2 `, 
+  i have n't downvoted you , and see no need to do so either . 
+  thanks for the link anyway , though . 
+  i figured ` file ( 1 ) ` ( or whatever nautilius is using in the screenshot provided by the op ) could have common first x86 instructions ( jumps ? ), 
+  as indicative of a com binary , in lack of a proper magic number . 
+  modulo management . 
+  see also , `` the mythical man-month '' . 
+  reminds me of when people bring up the '' ` { } + { } ` is ` nan ` '' example from the wat talk , which by the way is a bit misattributed since the first ` { } ` is actually an empty block , and what follows it is an expression statement with a unary ` + ` . 
+  hence why the behaviour differs so much from ` [ ] + { } ` . 
+  i pay 99 sek/month ( ~ $ 15 ) for unlimited internet traffic , although capped to 1mbit/s . 
+  still , fast enough for what i do on my phone ( basically : stream music , browse the internet and ssh ) . 
+  disclaimer : only played d1 and some of d2 . 
+   should i use story characters more ? 
+  or use my own characters more ? 
+  i think people tend to value story characters more , but i kind-of went the other way ... in the end i do n't think it matters too much . 
+  go with whichever you get more attached to , or find to be better gameplay-wise . 
+   should i grind my own made characters so much like i was or wait for specific chapters to grind . 
+  shrug , depends on what you enjoy i guess ? 
+  i do n't reincarnate my characters during the main story , instead opting for using level/equipment/spells to win the story battles . 
+  in d1 i tended to be slightly underlevelled since i found the game to be more enjoyable that way , and would only barely pass the battles where i got stuck ( i remember being stuck vs. kurtis for a long while ) . 
+   finally , what are some things a disgaea player on here would know that someone like me would not, 
+  [ akurasu 's wiki ] [ 1 ] has a lot of very useful information about the game mechanics if you enjoy learning about that stuff . 
+  one of the more useful things i learned from it ( about d1 though , not d4 ) would be how innocents work . 
+  but , as one of the npcs in d1 says , you can beat the game with minimal knowledge and it 's a bit much to take it all in at once . 
+  i did n't learn about/understand innocents until , i dunno , chapter 9 or so in d1 , and learning about reincarnation took me even longer . 
+  oh yeah , and i learned the hard way that you want to save after * every * new story-related battle you finish ( and every now and then when training , too ) because the game could be quite ruthless occasionally . 
+  i guess that 's about it , do n't focus too much on learning to use every feature just yet but instead focus on advancing the story , is my advice . 
+  i would n't mind seeing a full card ( including painting the attacks/pokedex/etc area ) , i think it 'd look amazing . 
+  ` * that * ` or ` _ that _ ` -- use two of either for boldface . 
+  there 's even a `` formatting help '' link just below the input field !, 
+  civ iv , and presumably also civ v. openttd if that 's up your alley . 
+  probably also freeciv while we 're speaking about open-source clones . 
+  two 's complement encoding does n't `` have '' a sign-bit * per se * , but the top-most bit could be tested for the sign , since if it 's 0 then the number is positive and when you negate and add one to flip the sign it becomes 1 instead . 
+  it is n't a sign-bit in the same sense as a `` sign + magnitude '' encoding where only the sign-bit changes when the sign changes . 
+  this would be a different encoding ( namely , one bit for the sign and 31 bits for the magnitude ) and would n't have the desired properties of two 's complement . 
+  if you do n't mind learning/using glsl shaders instead , i played around with things akin to this a while ago in [ mrdoob 's glsl sandbox ] ( http://mrdoob.com/projects/glsl_sandbox/ ) . 
+  i do n't have the code handy , but i recall i came up with mandelbrot and a somewhat advanced raytracer . 
+  it 's not actually a proper raytracer ( there 's no tracing going on , and since it 's distance-estimating it 's more of a volumetric caster/raymarcher ) , and per-pixel shading seems kind-of obvious when you 're talking about ray { cast , trac , march } ers ... 
+  anyway , impressive nonetheless . 
+  in a comment to the question :, 
+   imagemagick should work . 
+  did n't try display , but convert was fine . 
+  on little endian systems you might need a htons ( ) to write the color values like so : ` color [ 0 ] = htons ( rd ( i , j ) & dm1 ) ; ` the 16bit ppm format is big endian . 
+  declaration of ` htons ` is in ` arpa/inet . h `, 
+  * -- manuel kasten aug 5 at 20:50 *, 
+  i do n't know why the op did n't do that in the shim , considering pretty much anyone would be on a little-endian machine . 
+  anyway , that 's what i did and it 's worked well for me with my simple raycaster ( on page 2 ) . 
+  the file it produces is in the [ ppm format ] [ 1 ] . 
+  if you are on linux or unix , you could use imagemagick to convert it to ( e.g. ), 
+  png : ` convert mathpic out.png ` . 
+  otherwise you could probably open it in gimp , as / u/rinfiyks suggested . 
+  however , in either case you need to make a slight change to the shim in the op . 
+  quoting myself from [ the / r/programming thread ] [ 2 ] , quoting a comment on the so question :, 
+  [ 1 ] : http://en.wikipedia.org/wiki/netpbm_format, 
+  [ 2 ] : http://www.reddit.com/r/programming/comments/2d5562/tweetable_mathematical_art/cjmj3eq?context=1, 
+   in a comment to the question :, 
+    imagemagick should work . 
+  did n't try display , but convert was fine . 
+  on little endian systems you might need a htons ( ) to write the color values like so : ` color [ 0 ] = htons ( rd ( i , j ) & dm1 ) ; ` the 16bit ppm format is big endian . 
+  declaration of ` htons ` is in ` arpa/inet . h `, 
+   * -- manuel kasten aug 5 at 20:50 *, 
+   i do n't know why the op did n't do that in the shim , considering pretty much anyone would be on a little-endian machine . 
+  anyway , that 's what i did and it 's worked well for me with my simple raycaster ( on page 2 ) . 
+  what , disgaea references in / r/worldnews ? 
+  2005 , installed damn small linux on a really old laptop ( some compaq armada iirc ) . 
+  i knew nothing about cli and not a whole lot about programming either , i do n't think i ever managed to install it but i had fun playing around with it from the live floppy . 
+  it had tetris !, 
+  then in 2008 i installed kubuntu after a friend ( re - ) introduced me to linux , then in 2009 or some such i installed arch and that 's where i currently am . 
+  also final fantasy tactics advance and disgaea ds if one enjoys tactics games . 
+  that reminds me of civ ii 's alpine troops ... 
+  europe here , we do get charged more , although not as extreme as the australians . 
+  last i checked , steam converted prices as $ 1 = $ 1 , which is definitely silly . 
+  huh , well , i 've seen the $ = $ conversion on tonnes of games on steam anyway , both from valve and other publishers , so it seems kind-of systematic to me . 
+  yay , i 'm not alone in here !, 
+  i 'm currently using a cave story background for my ambience . 
+  sure , here you go : [ cave story ] [ 1 ] . 
+  i also posted [ this lain ambience ] [ 2 ] here earlier . 
+  only five * so far * !, 
+  ^ ^ ^ ^ too ^ ^ ^ ^ good ^ ^ ^ ^ to ^ ^ ^ ^ pass ^ ^ ^ ^ up ^ ^ ^ ^ on, 
+  `` gnu '' meaning what ? 
+  i do n't have gnu hello installed , neither do i have gnu emacs installed . 
+  i doubt gnu coreutils is bigger than the kernel ... 
+  making a distinction between the two ( distribution of original and modified source ) would probably be foolish , because at what point do you have a `` modified '' version ? 
+  i could come up with a trivial change of the source code that makes no practical difference just to work around a limitation of the former . 
+  sure , i 'm aware of them , but my point is that a statement like `` gnu is 20 % bigger than the kernel '' is seems bit weird to me since it 's an organisation and not a specific set of programs . 
+  oww , i second this . 
+  but likely not 1st ed . 
+  i forget even subscribing here ... heh . 
+  good taste in games !, 
+  i love the art style !, 
+  good work . 
+   nippon number 1, 
+  [ not sure if reference ] ( http://en.wikipedia.org/wiki/nippon_ichi_software ) ... 
+  ... probably not . 
+  i 'm aware . 
+  ichi also means `` one '' , as in `` number 1 '' .

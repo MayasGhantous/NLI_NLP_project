@@ -1,0 +1,100 @@
+  the function i used to convert a list to integers :, 
+  def magic ( alist ) :, 
+  s = '' . join ( s ), 
+  s = int ( s ), 
+  return s, 
+  but i could n't figure out a way to get the desired output . . 
+  i 'm having trouble with [ this ] ( http://i.imgur.com/hbjnt3z.png ) specific problem . 
+  i 've calculated that the modulus is equal to sqrt ( 2 ) . 
+  is it correct ? 
+  this was a problem we worked on in class , but we did n't finish it so i have no way of knowing if i 'm correct . 
+  where i 'm stuck is actually at finding the x and y necessary to get the tangent . 
+  help is greatly appreciated . 
+  i do not understand why is this a compositum . 
+  we had to derivative this function : e ^ x ^ -2, 
+  with the help of the compositum formula , we 've gotten the derivative of the function and it is : e ^ x ^ -2 * ( -2 x ), 
+  if someone could explain why the function itself is a compositum , i 'd appreciate it . 
+  i 'm solving old class assignments and i 'm struggling to understand the following function for finding the number of primes lower then the ( n ) . 
+  this is how the function looks like :, 
+  import math, 
+  for j in range ( 2 , n ) :, 
+  for i in range ( 2 , int ( math.sqrt ( j ) ) + 1 ) :, 
+  if j % i = = 0 :, 
+  break, 
+  else :, 
+  return cnt, 
+  i do n't understand the sqrt part ? 
+  what is the logic behind it ? 
+  i managed to solve this by creating a function for divisors of a number and if the len ( divisors ) = = 1 the number is a prime . 
+  it works , but i really do n't understand the solution pasted above . 
+  thanks . 
+  edit : thank you all for great answers , it really helps out and i highly appreciate it !, 
+  i am currently preparing for a math `` final '' at my university . 
+  i 'm not from us , so let 's just call it a final  . 
+  i 'm attending a cs course and have a problem with functions . 
+  i know a fair share of basics about them , i can solve basic limits , some derivatives and so on . . 
+  video form is preferred , so i guess khan academy or something ? 
+  and the more summed up it is the better , since i only got 4 days left . 
+  i managed to get a grasp on vectors and matrices ( both also in the final ) and complex numbers . 
+  the biggest problem are functions . 
+  so what i need to know :, 
+  * functions , series and sequences , limits, 
+  * derivatives , integrals, 
+  and other related concepts . 
+  of course also integrals , but i just need to practice them a bit more and i 'm fairly confident i 'll be ok , as far as integrals are concerned, 
+  any suggestion is appreciated . 
+  and sorry for my sloppy english, 
+  i was wondering , what gpu would be compatible with my ms-7800 ver 1.0 motherboard ( it 's a medion motherboard ) . 
+  google search is n't really useful and almost all of the links are german . 
+  any info is appreciated . 
+  ok i have a few similar problems i ca n't understand . 
+  i know the answer for all of them , but i ca n't solve it on my own . 
+  a 10-person delegate is selecting members for 3 sessions . 
+  in how many ways can this be done , if an individual member can be selected for two or even three sessions, 
+  12 cakes are being sold at the bakery . 
+  how many ways can we select :, 
+  * four ( any ) cakes, 
+  * at most four ( same or different ) cakes, 
+  we have 5 white and 7 black marbles . 
+  we select 3 of them from the bag simultaneously . 
+  how many different combinations are there if we do n't differ same colored marbles . 
+  out of 4 waitresses and 5 chefs , we need to select a team , that the team has 2 waitresses and 3 chefs . 
+  how many ways are there , if two chefs do n't want to be in a team at the same time ( simultaneously ) ? 
+  how can we select 3 people out of 15 , if one is always selected but the other two are never selected at the same time ( simultaneously ), 
+  i hope this is all understandable , since i translated it from our textbook . 
+  i have an exam tomorrow and i solved all exercises on the topic , but this are the only problems i could n't get on my own . 
+  thank you !, 
+  in a galaxy like ours , there are 5 supernovas on average per century . 
+  the last proved was in 1604 by kepler . 
+  * what is the probability that since kepler there really were n't any supernova explosions in milky way . 
+  * what is the probability that we 'll witness the supernova explosion in the next 30 years ? 
+  i assume both of these problems are distributed by poisson . 
+  i thought of solving for p ( x = 0 ) , but i 'm not sure that 's correct . 
+  thanks for the explanation, 
+  this is just one of the similar problems i do n't know how to calculate . 
+  students success is distributed normally with 65,7 points on average ( this is the mean ) . 
+  standard deviation is 11,9 points . 
+  if we pick a student randomly , what is the probability he :, 
+  - scored between 60 and 70 points, 
+  thanks !, 
+  i feel really dumb asking this , but where is memory physically located on an arm9 motherboard ? 
+  a picture would be great !, 
+  i have n't read a lot of books lately , but i 'm thinking of starting again . 
+  what i wanted to read is a book , that would help me stop procrastinating , motivate me to do great things in life , and help me socially . 
+  what i had in mind was something like how to win friends and influence people , any similar or even better suggestions ? 
+  the beat makes this song in my opinion . 
+  so what i 'm actually asking is , what are some good songs with a similar beat ? 
+  i started using [ this ] ( https://ifttt.com/recipes/73526-if-favorite-in-pocket-convert-to-pdf-and-save-to-dropbox ) recipe to save favorited pockets to dropbox in pdf . 
+  but everytime i 've used it it converts the pocket favorites into png , not pdf like it 's supposed to . 
+  does anyone have a similar problem , or knows how to fix it ? 
+  every node that is in the range of the receiver ( the node that gets rts ) , also receives ( hears ) the cts . 
+  that is correct , right ? 
+  well then in theory it all makes sense , but the following example ( from our book ) is quite confusing :, 
+  [ here ] ( http://i.imgur.com/0jv8xmp.jpg ) 's the example ( excuse my trackpad writing skills ) . 
+  ok so the lines between the nodes mean , that the nodes are in range . 
+  * first answer goes like this : *, 
+  while node a is sending data to node b , can node c also send data to node d ? 
+  the given answer to the question above is no , because nodes a and c both hear the cts . 
+  but is it correct ? 
+  node b receives the rts from node a , and sends the cts back to a and all other nodes that are in node b 's range ( so that should be node d and not node c like it says in the answer ) ? 
+  am i wrong and i do n't understand this at all , or is the book example wrong ?

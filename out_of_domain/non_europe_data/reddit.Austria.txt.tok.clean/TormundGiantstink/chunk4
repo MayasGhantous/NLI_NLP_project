@@ -1,0 +1,100 @@
+  [sourcemaking.com/refactoring] ( https://sourcemaking.com/refactoring ) has helped me a lot with a legacy i 'm working with, 
+  in addition to that , you 're not supposed to be able to swipe through views when using bottom nav , while the tab layout is intended for use with viewpagers, 
+  do n't forget [ lars vogel ] ( http://www.vogella.com/tutorials/android.html ) . 
+  helped me a lot when i started out, 
+  how easy it is to be indoctrinated . 
+  i was subscribed to tumblrinaction for quite some time ( that was about two years ago ) and all the hatespeech seeped into my dumb brain , where even now , i get angry over topics concerning trans people for example , but when i step back and analyze it , i can see how my brain automatically went back into this hateful mode, 
+  i really dont want to be a hateful person , i hope i do n't come off as one : /, 
+  if you want to dabble with ios development , you 're pretty much forced to use a mac . 
+  that 's probably a big part of it, 
+  that being said , i 'm on windows and it works like a charm, 
+  imagine he gave them nutcandy , everybody would freak out, 
+   there is no war in ba sing se, 
+  easy to fix , do n't use alignments , make the players have characters with actual morals ( or lack of ), 
+  different girl , martina 's eyes are further apart than hers are, 
+  ooooh , i always thought it was `` what 's the snitch ? '', 
+  and was insanely confused, 
+  azula from atla, 
+  crazy chicks are kinda cute, 
+  yeah , this comic is clearly wrong . 
+  they want someone with 10 years of experience , who is no older than 25 years old, 
+  i 've been wondering about that for quite some time . 
+  imagine , people would actually be able to live comfortably without having to work ( like musk and his followers keep preaching ), 
+  will it be a utopia , like the muskies tell us , or will our society slowly collapse , because people lose their sense of purpose ? 
+  feels kinda wrong in this sub , but people keep telling me that udacity is good , if you want to learn how to program . 
+  it depends on where you live though . 
+  in many countries , companies almost demand that you have a uni degree ( which is useless , most of the time ), 
+  you want them to die , it does n't matter whether you want them to be killed or to die of whatever other reason . 
+  a lot of people grew up being indoctrinated with pro-capitalism bullshit , often , they hold onto a system that 's clearly doesnt benefit them in any way . 
+  if you grow up in a family of racists , chances are very high you end up being racist when you grow up aswell . 
+  people can change , but you wo n't change their way of thinking by constantly mistreating them . 
+  oh , btw i 'm not talking about the big fish . 
+  you wo n't change people like trump , but that 's not the goal . 
+  you want to have the commoners on your side . 
+  once you have that , the ruling class has to fear you, 
+  aside from that , thinking like that is exactly what the ruling class wants . 
+  infighting of the lower classes , so they wo n't engage in the class struggle, 
+  then skip the uni part . 
+  as i said , uni degress are useless , what you need is knowledge . 
+  start small with resources you find online . 
+  udacity has free programming lessons , stackoverflow is very helpful when you 're stuck ( hell , i 'm a `` professional '' and use it regularly ), 
+  [ intro to java programming ] ( https://www.udacity.com/course/intro-to-java-programming--cs046 ) is quite good, 
+  you can go into web development with [ javascript ] ( https://www.udacity.com/course/intro-to-javascript--ud803 ), 
+  you can hit up youtube and search for `` learn to program '' or similar stuff, 
+  once you get the basics down , you can go into the complex stuff , like android app programming ( which is what i currently do ) or web-apps . 
+  the best way to get a job in this field is to simply show that you 're a good programmer . 
+  if you have a lot of simple projects , which are well made , you will have a good basis for finding positions, 
+  ill wishes will do nothing in favor of socialism . 
+  all it they do is create fuel for the capitalist propaganda machine ( think about gandhi and the peaceful protest ), 
+  yeah , free misty step is broken af . 
+  no need for disengage , when you can simply misty step away after every attack, 
+  do flow/mortar have proper documentation now ? 
+  if not , then it 's probably obvious, 
+  horrible , i 've taken over the project half a year ago ( as an android rookie ) and management does n't see that a rewrite is necessary, 
+  the current version is stable enough ( crashrate above 99 % with ~ 15k dau ) and the biggest problems i 've had was with realm . 
+  starting with issues how you could n't overwrite data properly ( we load a list of items , each of them has a primary key and if you saved over them , the app would crash because the old item was considered dead ) . 
+  i probably could have fixed it by upgrading realm , but at that point i was so burnt out from it that i just tossed it out completely ( luckily , its usage in the app were miniscule , so i had no issues with data-migration ), 
+  what are frontend and backend to you ? 
+  what are their functions ? 
+  if they 're ui logic and business logic , then you write your presenters first . 
+  if they 're not , then it depends on which service depends on which, 
+  if your app is powered by an extensive backend-service that handles everything and your app is just a restclient , consuming the service , then you need to write the backend first, 
+  do you currently have running production apps with conductor ? 
+  i was contemplating on using it for my company 's app , but i was n't sure , whether anyone was actually using it live, 
+  i 'd put it into some sort of repository ( if you 're using small amounts of data , even a singleton list < string  should work well enough ), 
+  the presenter should not control data , it should only control the flow of data, 
+  sure , here you go : https://gist.github.com/tormundsmember/8d9069070d0f5d1b7b8ca3e784c738ce, 
+  mind you , it 's not pretty and in all honesty , i would n't want to use explicit delegates anymore anyway , but that was the fastest way to write it, 
+  basically , you want your model to drive your state . 
+  if you can recreate your state using your model , you can get away from persisting presenters, 
+  okhttp3 : when using interceptors , how can i add headers before making a call ? 
+  with retrofit1 it intercepted before making the call , retrofit2 calls the rest-service and when there 's an error , it retries the call using the interceptor, 
+  nevermind , found the problem . 
+  i ca n't implement the ` interceptor ` on the super-class ( baseinterceptor ) , because then i have to proceed the call . 
+  i need to unimplemented the interceptor on the super-class , rename the method to ` addheader ` or something similar , implement the interceptor on the sub-classes and call addheader with the new request, 
+  with retrofit2 , i 'm really only interested in the payload of a response . 
+  are there any useful resources ( preferably free ) that go into how to implement responsebodyconverters in r2 ? 
+  i have one for retrofit1 ( which i did n't write myself , the guy working at the company before me did ) and that worked really well, 
+  if you want to use the same business-logic over different systems ( phone and desktop for example ) . 
+  you implement the presentation layer for each of them , but they both depend on the module containing your business-logic ( which is decoupled from presentation-logic ), 
+  i got a prepaid debit card from paysafe . 
+  worked well enough , just make sure to terminate it, 
+  i 'm the only android dev in the company and it 's come so far as to where i had to tell the team that retaining the quality of the app is a monstrous task, 
+  i try to refactor what i can , but most code is n't my own and just difficult to understand and debug, 
+  i 've also come to hate event busses , especially the `` old '' version like the one by greenrobot or square , because it 's so difficult to debug , when an event can come from 15 different places and 15 different classes subscribe to it, 
+  flatmap them into one another, 
+  observable < feed1  f1 = webservice.getfirst ( ) ;, 
+  f1.flatmap ( f -  webservice.getsecond ( ) ), 
+  . flatmap ( f -  webservice.getthird ( ) ), 
+  you probably need to use map between calls aswell , to save the responses, 
+  i ca n't tell you much , but i had a similar error when i used emojis in strings.xml below sdk 19, 
+  the only thing would come to mind ( not pure rxjava , mind you , i could n't find the correct operator ), 
+  final list < call  sources = ... ; / / you know those at runtime, 
+  observable < call  calls = observable.just ( sources.get ( 0 ) ) ;, 
+  for ( int i = 1 ; i < sources.size ( ) - 1 ; i + + ) {, 
+  final int finali = i ;, 
+  calls = calls.flatmap ( new func1 < call , observable < call   ( ) {, 
+  @override public observable < call  call ( call call ) {, 
+  return observable.just ( sources.get ( finali ) ) ;, 
+  basically , you convert each call to an observable of calls and concatinate them using the function ` { original , new } -  { original.flatmap ( c -  new ) } `, 
+  not fully , because mvx is strictly speaking a way to structure your presentation layer , but if you combine it with bob martins approach commonly referred to as `` clean architecture '' , you get a great architecture,

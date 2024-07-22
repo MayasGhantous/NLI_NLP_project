@@ -1,0 +1,100 @@
+do n't see why it would n't be , as long as you load it after skyre . 
+  i agree . 
+  something i do is install a few mods at a time , load the game and play for a couple minutes , test the mods and make sure everything works fine , then continue modding . 
+  it 's not a good idea to add dozens of mods then try running skyrim because it 'll be pretty hard to find what 's causing any issues you may have . 
+  i have found most performance versions of enbs using the 108 , 113 or 119 binaries to be fairly light on my fps , since they have much less extra effects than later versions . 
+  personally , i recommend using ` reallike ' enb ( 113 version ) without dof enabled . 
+  it 's supposed to have zero fps loss ( although i lost about 5 ) and looks quite nice . 
+  if you still lose too many frames , i definitely second icbine 2 - combine it with imaginator ( for tweaking , make sure to get the mcm mod too ) and you 'll have a much better-looking game than vanilla with little fps cost . 
+  from the looks of the screenshot , the mod author ( i assume ? ), 
+  is using [ sg textures renewal ] ( http://www.nexusmods.com/skyrim/mods/35267/ ? 
+  ) , probably the 4k textures that come with it . 
+  might be serenity enb , not sure though . 
+  yeah , i do n't know why people complain so much about enbs being hard to install . 
+  tweaking is a bit more difficult , but for installing it 's just a matter of putting the right files in the right place ( like almost any other mod ) ... 
+  oh man i loved that quest . 
+  one of the few quests i really got stuck into and paused everything else to do . 
+  i also quite enjoy any of the quests that take place in dragon priest tombs or whatever they 're called . 
+  try this mod : [ project optimisation ] ( http://www.nexusmods.com/skyrim/mods/32505/ ? ) . 
+  it gave me several extra fps , with no quality loss . 
+  i 'd have to say ebony and nordic carved are my two favourites . 
+  can i have a key ? 
+  awesome , you are the man . 
+  when i installed fwe that second main file was listed as an esm instead of an esp ( there was a note from the author saying that that esm was actually an esp , just labelled esp for some reason ) , so perhaps try moving it up after the first esm ? 
+  also , you do n't need craft and calibr ; they 're included in the fwe package . 
+  i think you need to get the respective patches for the weapon mods you 're using from the dsr mod page , e.g. 
+  ` immersive weapons pack ' . 
+  hmmm , not sure then , been a while since i played fo3 . 
+  ok , thanks . 
+  those mods should be sufficient actually , thanks . 
+  and yeah , the amount of mods for male characters is kinda sad compared to all the female ones . 
+  at least the mods that are made for males are usually high quality , i guess . 
+  the, 
+  [ hunting grounds outfit ] ( http://www.nexusmods.com/skyrim/mods/30466/ ? ), 
+  is a bit exposed , but it 's fairly realistic in my opinion . 
+  looks nice too , of course , 
+  sweet . 
+  just manually install , it 's quite simple . 
+  download the binaries from [ here ] ( http://enbdev.com/mod_tesskyrim_v0264.htm ) ( at the bottom of the page , this is v264 , but it should be fine ) . 
+  find the 'd 3d9 . dll ' file in the ` wrapperversion ' folder and copy-paste it to wherever skyrim.exe is . 
+  then choose a version of realvision you want ( e.g. 
+  option c ) , download it and copy everything in the folder into the same place you put d3d9.dll . 
+  if it comes with a ` data ' folder , obviously copy-paste the content of the folder into your skyrim ` data ' folder . 
+  i have n't used realvision myself , but this is how to install an enb manually in a nutshell . 
+  do n't know why people have so much trouble with them ... 
+  well even with 9 or so pieces of equipment with something like 147 % fortify alchemy ( using extra slots like 46 ) , i kept producing 38/39 % fortify enchanting , so i 'd say that 's probably the cap . 
+  it 's been a long time since i 've mucked around with enchanting , so my numbers might not be right though . 
+  186 , and not very stable . 
+  it wo n't help your problem , but if you plan to continue modding , use [ loot ] ( http://loot.github.io/ ) instead of boss . 
+  it does the same thing , made by the same people , except boss is n't supported anymore and loot is . 
+  i also suggest you check out [ gopher 's guide to modding ] ( https://www.youtube.com/playlist?list=ple7dlyarj-ddhdg41robvjfncqvo5mmkp ) on youtube . 
+  it 's very clear , easy to understand , and highly recommended for someone new to modding . 
+  if you installed manually , you can just delete the ` meshes ' and ` textures ' folders from skyrim 's data folder , since all the vanilla assets are stored as bsas . 
+  if you installed via mo or nmm , then just remove all your mesh/texture mods . 
+  count me in . 
+  awesome , thanks !, 
+  just thought i 'd mention , if you want to get a similar appearance to the screenshot from the mod page , you 'd want to use stakado cinemascope enb , bleak enb , or saraan suum enb . 
+  these are much lighter than kountervibe ( better fps ) , and have an effect closer to what you seem to be after . 
+  if you do n't mind having sparser grass , you can increase the imingrasssize value in your skyrim.ini . 
+  the lower the value ( e.g. 
+  20 ) , the more grass you 'll see , but at a high performance cost . 
+  the higher the value ( e.g. 
+  90-100 ) the less grass there 'll be , which will look a bit ` patchy ' , but the performance increase is notable . 
+  also , i 've forgotten which ini it 's in , but there 's an option to disable shadows for grass , which increases performance quite a bit , but might look potato , depending on enb , etc. 
+  cool , thanks . 
+  adding to what the other posters said , mo also allows you to see conflicts between mods and what files are being overwritten . 
+  since no mods are actually being installed to your data folder you can easily adjust your load order and change things around without having to worry about specific install orders or the like . 
+  what is there to say ? 
+  extremely high quality , detailed armours for a variety of characters . 
+  i personally like the fact most fit to your character so they work with most body mods . 
+  adding to what others have said , it should be noted that in the video he mentioned he could n't get 60fps he was using verdant grass with 4k textures ( iirc ) , which would no doubt have a large performance hit , and is pointless outside taking screenshots . 
+  if you tweak your grass to be less dense , and stick to 2k textures outside of large things ( e.g. 
+  mountains , ice , dragons , etc ) , a 970 could definitely reach high frame rates , even with a fairly heavy enb . 
+  use the mcm mod for imaginator . 
+  it makes the effects changeable in the menu and does n't cause save bloat , as far as i know . 
+  imaginator on its own causes bloat due to the npc you have to summon and associated scripts ( iirc ) . 
+  i recommend the complete [ vivid landscapes ] ( http://www.nexusmods.com/skyrim/mods/49344/ ? ), 
+  series if you like the parallax effect , everything amidianborn , and everything by [ gamwich ] ( http://www.nexusmods.com/skyrim/users/5712421/ ? ) . 
+  obviously there is some overlap , so for things like farmhouses ( which all of these cover ) you 'll have to choose what you like the most . 
+  for male characters , i suggest [ skysight skins ] ( http://www.nexusmods.com/skyrim/mods/58443/ ? 
+  ) , and for female characters , [ sg textures renewal ] ( http://www.nexusmods.com/skyrim/mods/35267/ ? 
+  i went to northern vietnam earlier this year , and it was quite saddening to see the state of halong bay - beautiful scenery , but the water was disturbingly littered with bags , packets , bottles , even paint rolllers for some reason ... 
+  lately i 've been using unbleak enb ( performance version , .119 binaries , dof disabled ) and i have to say , it 's impressive . 
+  1-3fps loss on a mediocre laptop in exchange for some pretty nice visuals . 
+  if you 're not into the darker cinematic enbs ( e.g. 
+  stakado , as others have suggested ) the saturation and contrast of unbleak makes for a colourful , but realistic game . 
+  it looks like he 's using the verdant grass mod , which surprisingly does n't tank your fps with all the grass it adds . 
+  my mediocre laptop can maintain 30fps outdoors with slightly lower density and lightweight enb . 
+  `` repository '' = loverslab , i believe ? 
+  sorry for the late reply , it 's morning here . 
+  anyways , go to the mod page and you 'll see the latest version ( 1.6 ) has a shorter version , which i found has minutely better performance . 
+  as for density , go to your skyrim.ini file and find the [ grass ] category . 
+  here , you need to change or add the lines imaxgrasstypespertexure = 15 ( texure is a spelling error by bethesda ) and imingrasssize = 70 . 
+  this is the default density for verdant . 
+  to increase density , decrease the imingrasssize value ( op 's is probably 40-50 ) , to decrease density , increase this value ( i use 100 ) . 
+  there is also the possibility you are running out of vram , since the default texture resolution is 2k . 
+  my card only has 2gb of vram and handles the 2k textures fine , so this is unlikely for yours . 
+  nonetheless , there are 512x512 resolution textures available which might reduce the load on your card slightly . 
+  edit : skyrim.ini can be found in my documents --  my games --  skyrim in case you did n't know . 
+  if you 're using mo , it can be found by clicking the puzzle piece icon near the top of the window . 
+  yes , density 100 is quite sparse .

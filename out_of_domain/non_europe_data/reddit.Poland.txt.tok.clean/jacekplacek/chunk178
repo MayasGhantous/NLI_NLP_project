@@ -1,0 +1,100 @@
+   if ( ( nameplayer1 = = '' '' ) ) {, 
+  ... and that would be an error as well , nameplayer1 is declared as char ... 
+   next we 'll have reagan quotes . 
+  and why not ? 
+  he did have some great soundbites ... [ `` government is not the solution to our problem ; government is the problem . '' ] ( http://www.heritage.org/initiatives/first-principles/primary-sources/reagans-first-inaugural-government-is-not-the-solution-to-our-problem-government-is-the-problem ) ferinstance . 
+  well , i feel it 's an endorsement of the quote ... , 
+   reagan could talk some of the talk , but he could n't walk the walk . 
+  that 's true . 
+   what a horrible president . 
+  comparing to whom ? 
+  should n't that be 20 % - 80 % ... , 
+   redundant return 0 in main, 
+  ... is not such a bad idea . 
+  most compilers will warn you if you do n't ... 
+   you can use visual studio to write c++ and arduino framework code that can target the avr and thus the ardiuno, 
+  i think you mean atmel studio ( based on vs ) ... which is a very good idea in itself . 
+  much better ide + you can program `` closer to the metal . '', 
+   vb is just easy . 
+  ... and teaches you all the wrong programming habits ... 
+   why people on the internet are so interested in learning vb+a rduino, 
+  as other people have already said , vb will not let you program arduino . 
+  how will you make it generate atmel binaries ? 
+  i still prefer to use atmel studio . 
+  vb encourages writing programs without a real structure . 
+  sure , you can do a passable code in vb but it takes more effort than in a language with a decent syntax . 
+  too often the vb programs end up being just balls of jumbled spaghetti code . 
+  so , are they ? 
+  put them in separate namespaces . 
+  better yet , define classes for different scenarios/uses and define your enums inside the classes . 
+  something like :, 
+  enum mode { on , off } ;, 
+  void setmode ( mode m ) ;, 
+  etc. . . 
+  btw do n't name your variables/constants in all caps , all caps are traditionally used for macros only . 
+  hmm ... some people use violin cases to disguise firearms , others use firearm cases to disguise arduinos ... , 
+  if you have a microscope and very steady hand , you could try to dead-bug it . 
+  see [ this conversation ] ( http://www.reddit.com/r/electronics/comments/24xcki/how_the_heck_do_you_prototype_with_a_1mm_square/ ) for hints . 
+   there 's no built-in sleep ( ) function, 
+  [ yes there is . 
+  ] ( http://www.nongnu.org/avr-libc/user-manual/group__avr__sleep.html ), 
+  there 's an atmel [ document ] ( http://www.atmel.com/images/doc2585.pdf ) ( pdf ) explaining it . 
+  if you are being sarcastic , your sarcasm is [ unwarranted ] ( http://www.coocox.org/index.html ) ... 
+  you might want to look up [ uln2803 ] ( https://www.sparkfun.com/products/312 ) - it 's a [ darlington ] ( http://en.wikipedia.org/wiki/darlington_transistor ) array . 
+  kirchhoff 's law is pretty simple . 
+  you just need to think about it as `` what goes in must go out . '', 
+  not for competent developers . 
+  it tends to keep the incompetent ones out - which is a benefit ... 
+  connect your radio vcc through mosfet and only power it when needed ... 
+  [ this talks about burning in bootloader ] ( http://arduino.cc/en/tutorial/arduinoisp ) but you can program whatever you want . 
+   someone that [ has ? ], 
+  an ms , phd , or bs, 
+  so , you are looking for a diploma as a substitute for ability ? 
+  i know several people with no diploma who can program circles around 90 % of phds ... 
+   and then use them like this :, 
+   auto s = v | where ( [ ] ( int e ) { return e % 2 = = 0 ; } ), 
+   | select ( [ ] ( int e ) { return e * e ; } ), 
+  i really dislike overloading operators with different behavior than the standard one . 
+  this code is confusing as hell until you dig into the guts of implementation ... 
+  hmm ... attiny85 for 2.35 ? 
+  you can get it from [ mouser ] ( http://www.mouser.com/productdetail/atmel/attiny85-20pu/?qs=8jwqyweyg6nciiaob5gi9q%3d%3d&amp;kpid=51725738&amp;gclid=cpqz7aoxvsecfqktaqodfdeacw ) for 1.45 ... 
+  you could try putting bunch of ir leds on dog 's collar ( pinging some 10 times a second ) and give your robot ir sensors . 
+  you should be able to calibrate it to the distance you want ( within reason . ), 
+  or you could just give your robot [ pir sensors ] ( http://www.adafruit.com/product/189 ) and make it see all moving living things ... btw you can get them much cheaper from china . 
+  i have always found i = v/r easier to visualize/understand . 
+  you know : `` you put v across the r and you get i flowing . '', 
+   on mouser you have to pay ( in my country ) $ 20 on shipment, 
+  hey , that might be a business opportunity for you !, 
+  buy a 1000 ( at first , repeat as you sell them ) at mouser ( @ .79 a piece ) and resell in your country , outpricing chinese ... , 
+  technically , you are right . 
+  practically , for the newbie it might make a lot of difference how quickly ( s ) he can grab a concept ... 
+  i think you are being too soft on them ...  unless there 's a very strict adherence to the #include 's order and macros , most often than not it will end up with incorrect code being generated . 
+  it just begs for the use of the timer/interrupts :, 
+  set up the timer to interrupt every second . 
+  then the interrupts for the players buttons . 
+  your main loop would look something like :, 
+  loop ( ), 
+  increment_time ( active_player ) ;, 
+  display_time ( active_player ) ;, 
+  sleep ( ) ;, 
+  the player buttons ' interrupts would just flip the active_player . 
+  the seconds timer interrupt would just wake up a main loop every second . 
+   what it depends on, 
+  your particular leds , the current limiting resistors , whether you power them all the time or pwm them , to name the most important . 
+  you could do [ something like this ] ( http://www.instructables.com/id/capacitive-touch-arduino-keyboard-piano/ ) , obviously with much sturdier pads ...  just cut them into hexagons with one in the center and others circling it . 
+  kinda depends . 
+  look at the datasheet - if you are running it at 16 mhz it might be too low . 
+  also consider how much current will you draw and if you expect big spikes in the current . 
+  with lower frequencies and no current spikes you should be ok . 
+   qfn ( the microcontroller in your photo ), 
+  looks more like tqfp to me ... 
+  instead of bitching you could contribute something constructive , could n't you . 
+  try aliexpress, 
+   something like a 10k ohm resistor between the io pin ** and ground ** will ensure that the pin is always high when your button is n't being pressed . 
+  that 's called a pull-up resistor . 
+  i think you mean vcc ... 
+  technically , there are no `` analog '' pins - all pins are digital , some can feed analog signal to the adc or output pwm ( and `` fake '' analog output . ), 
+  just define pure virtual accessors . 
+  nope . 
+  you are supposed to pull up the pin and have the pushbutton bringing it down to the ground . 
+  so , the resistor is between the pin and vcc , and the button between the pin and the ground .

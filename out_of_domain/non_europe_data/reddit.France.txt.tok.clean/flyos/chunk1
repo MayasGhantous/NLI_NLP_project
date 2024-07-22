@@ -1,0 +1,100 @@
+there 's also touchegg for touchpad gesture . 
+  it does the job , though it 's not perfect . 
+  you can look at touchegg , it supports up to 5 fingers gestures ( though i never managed to get pinch working properly ... ) . 
+  but that would n't work if the package was named latex-plugin-vim ? 
+  ( not very realistic example , i admit ), 
+  thanks !, 
+  i actually created a new theme `` breeze-new '' by copying the `` breeze '' folder and pasting the github content into it . 
+  i renamed the theme from breeze to breeze new in the index and voil\u00e0 !, 
+  by the way , french is missing from the locale of the index.theme :, 
+  name [ fr ] = breeze, 
+  martin , sho , ( goes for many kde devs in fact ... ) i must say that i 'm very admirative regarding you way to cope with such kind of negative rants : you guys manage to keep your cool , explain the reasons for user frustrations and diplomatically explain why this kind of behaviour is pointless . 
+  above all , you keep being motivated helping users getting the best experience from their de , which i deeply respect !, 
+  unless a `` zypper dup '' is performed ( e.g. 
+  on tumbleweed ) ? 
+  i think this would remove the package from removed repositories . 
+  it occurred to me at some point , but i 'm not sure i was right to pinpoint it the removing of repos ... 
+  critics are not pointless , rants mostly are ... 
+  the difference between the two is not purely cosmetics ... 
+  oh , sorry , i did n't get that ( messages trees are somewhat hard to follow in reddit i find ) i was actually responding to your comment through sho and martin response . 
+  my point was more concerning the op , your post is no rant : it is constructive , polite and balanced !, 
+  yes , my point , as you 're stressing also , was that it is awesome that many kde devs take the time to explain things and keep their cool like this ( do n't know if i could !! ) . 
+  it must be frustrating to read stuff like `` xxx sucks '' when you invested so much in it and complimentary shared it to the community ... 
+  now that i re-read your post : regarding the plasma being shared too early , there is a thin balance between releasing new software to a large audience to get feedback and expose this audience to inconvenient bugs ... 
+  waiting too much is useless because bugs are not found ( so you 'll release them anyway at some point ) , releasing too early is risky . 
+  i think realising that testing pre-version of kde software was a tad difficult was the trigger for kde neon . 
+  ultimately , the distribution is responsible for this balance , but for all i know , this was a bit difficult for this transition . 
+  see opensuse leap 42.1 released a year ago : they decided to make plasma 5 default because kde4 would reach its end of life before leap 42.1 did . 
+  the problem , as always , is manpower : neither kde nor opensuse had means to maintain kde 4 to a sufficient degree for it to be the default desktop . 
+  edit : forgot to add , there was a bit of bad luck in this as well , since many bugs were actually triggered by qt and different driver issues . 
+  i think ( maybe martin will confirm ) that kde has a policy to not work around bugs caused by third-party , especially drivers . 
+  this has a short term effect that users are more exposed to these bugs , but is a very sane long-term policy !, 
+  i think what you want is folder view : right-click on the desktop  configure desktop  in layout choose `` folder view '' . 
+  the whole desktop will now behave as a folder , just like unity one does . 
+  a problem i find with # 2 is that of language/locale packages and tex-live . 
+  first time i used leap 42.1 , i was surprised to see foreign language packages installed along the french one , because they were recommended . 
+  with tex-live , the packages tend to recommend other packages so easily ( also concerns language packages ) that you very quickly happen to install the whole ( not quite , but say 1000 or so packages ) tex-live distribution . 
+  my guess is that in both cases , even users in favour of # 2 ( i 'm quite agnostic myself , but leaning toward # 1 on opensuse given these issues ) would not want all those packages installed . 
+  is it the packages fault ? 
+  should n't be locale/languages be recommended ? 
+  should tex-live be more strict regarding recommending packages ( but i guess they simply follow ctan ) ? 
+  the thing is that , when carefully thinking about it , every decision make sense ( opensuse activating `` recommends '' , packages recommending locales , etc. . . ) , but their interaction yields something quite bummer-some for the user ... : /, 
+  apart from the unsatisfying workaround which is `` grab and drag '' , i never managed to make firefox to work properly with touchscreen . 
+  kinda pushed me toward chromium ( which i 'm growing to like ) ... : /, 
+  we tackled this a while ago on the opensuse forums with wolfgang if you 're interested : [ here ] ( https://forums.opensuse.org/showthread.php/520307-qt-virtual-keyboard ), 
+  i also have 2 in 1 laptop and found some scripts to rotate screen and disable touchpad/keyboard on x11 . 
+  there 're described in the second post here :, 
+  i also switched from firefox to chrome ( far better touch support in the latter ) . 
+  i 'm using onboard as a virtual keyboard on x11 ( wayland is still a bit too experimental for me ) and touchegg to configure some gestures ( like 4 fingers swap -  `` execute onboard '' : a life saver !, 
+  forgot to mention : the scripts are not automatic unfortunately . 
+  what i did is create entries in the menu , put them in favorites so that these changes are two clicks away . 
+  possibly . 
+  i 'm just not on that level ...  i 'm not even sure my hardware is sending any signal really ( this an asus flip , not a lenovo yoga ) . 
+  the problem they `` solve '' is just that : provide a way to disable keyboard/touchpad and rotate screen . 
+  my , that looks much nicer than my poor fav icons in the menu !!, 
+  i 'll try to setup this myself as soon as i have the time . 
+  thanks for sharing !, 
+  / u/alfonso45322 , i just tested and have a weird bug : when i click on my `` switch keyboard '' icon ( to disable/enable ) keyboard , i have jumping cursor which stays for a good 30 seconds ( of course , there 's no app to launch ) . 
+  do you have that as well ? 
+  ok , thanks for the tips !, 
+  this is a reported bug :, 
+  do you have a task list ? 
+  the best lead right now is that todos are triggering the bug . 
+  never took the time to set up a test account to test this myself , but i do have todos on my bugging account . 
+  could you post that on the bug report above ? 
+  thanks !, 
+  nowadays with kde , i 'd say that newer is better . 
+  so if your alternative is really being between tumbleweed and mint , i 'd go for tumbleweed generally . 
+  but :, 
+  why limit youself to those options ? 
+  opensuse leap 42.2 , for example , has the latest stack for kde , which also happens to be long term support , so critical bugs and security issues will be mostly dealt with upstream ( and for anything that are n't , the opensuse kde team seems pretty efficient at patching when necessary ) . 
+  in terms of memory footprint , i 'd expect roughly the same performance between leap 42.2 and tumbleweed . 
+  i also depends on your hardware . 
+  tumbleweed is a bit of a pain if you have nvidia graphic card . 
+  you can go on the opensuse sub-reddit and ask there about your hardware to see if there is any complications with tumbleweed . 
+  3 . opensuse in general is less noob-friendly ( not that you are a noob , i do n't know ! ), 
+  than mint , it is slightly harder to install drivers and proprietary blurbs for multimedia . 
+  but it can be done without much issue still and the community is very helpful . 
+  richard , you said elsewhere that you create a `` twup '' alias for using zypper dup -- no-allow-vendor-change , which i implemented and it was nice . 
+  i 'm wondering , since there seems to be a consensus about this being the best way to update tumbleweed , could n't a form of this alias be included by default in tw , something like :, 
+  zypper twup . 
+  so that we have a nice and easy way to `` do the right thing '' and tell newcomers they should do so . 
+  just my 2 cents ... 
+  if you want to go kde all the way , then :, 
+  actually strongly depends on your distribution , i think neon recommend rosa image writer, 
+  you mean via yast ? 
+  because the plasmoid is giving up very quickly when there are errors or decisions to take , which happens quite often in tw ... 
+  is yast doing up , dup or its own thing ? 
+  it works for me on tw , no reason it should n't in leap 42.2 . 
+  i have `` ffmpegthumbs '' and `` kffmepthumbnailer '' installed ( not sure whether the later is needed ) . 
+  you need to active the video thumbnails in dolphin ( translated back from french , so labels might no be accurate ) : configure  general  thumbnails  video files ( ffmpegthumbs ), 
+  events sync with korganizer can be shown in the calendar of the clock plasmoid . 
+  for this , you need to activate kde pim events in the settings of the clock . 
+  if you want file sync like dropbox , but floss , i 'd suggest seafile or owncloud/nextcloud . 
+  seafile is better in terms of file sync , but own/nextcloud also have agenda/contacts/etc . 
+  sharing . 
+  i think `` what guys at kde were doing all this years ? '', 
+  was the real hit in the face , and certainly uncalled for ... 
+  that is very good to know and quite reassuring !, 
+  thanks for the info . 
+  where did you find it if i may ask ?

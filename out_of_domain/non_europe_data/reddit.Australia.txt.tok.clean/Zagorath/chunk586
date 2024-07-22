@@ -1,0 +1,100 @@
+  more logically , any integer parsing function should always assume the value being passed is decimal , unless otherwised specified by some extra flag or second argument . 
+   keep the same binary representation but read it as a different type, 
+  yeah , i 've never used c++ , but using plain c i 've always loved this behaviour . 
+  for example , it allows some really neat mathematical operations involving ascii characters that i really like . 
+  oh god what the fuck ? 
+  please explain how this works , i am so damn confused ... 
+   and given that i know of no other language that automatically assumes leading zeros is octal, 
+  c actually does this . 
+  consider the following code :, 
+  #include < stdio.h , 
+  int main ( ) {, 
+  int x = 10 ;, 
+  int y = 0x10 ;, 
+  int z = 010 ;, 
+  printf ( `` x is % d \\ ny is % d \\ nz is % d \\ n '' , x , y , z ) ;, 
+  return 0 ;, 
+  the value printed to stdout when this is run will be :, 
+  x is 10, 
+  y is 16, 
+  z is 8, 
+  edit :, 
+  that said , this is different to parsing a number . 
+  using the built-in atoi function ( which is , admittedly , a terrible function for parsing integers from strings ) , the following code :, 
+  #include < stdio.h , 
+  #include < stdlib.h , 
+  int main ( int argc , char * argv [ ] ) {, 
+  int a = atoi ( argv [ 1 ] ) ;, 
+  int b = atoi ( argv [ 2 ] ) ;, 
+  int c = atoi ( argv [ 3 ] ) ;, 
+  printf ( `` a is % d \\ nb is % d \\ nc is % d \\ n '' , a , b , c ) ;, 
+  return 0 ;, 
+  produces , when run as ` . / o 10 0x10 010 `, 
+  a is 10, 
+  b is 0, 
+  c is 10, 
+  you 're making my head hurt :(, 
+   the consequence for failure is not getting into the room through the door, 
+  sure , but you 're creating an artificial restriction saying that the party ca n't just try again , when there 's absolutely no reason they could n't try again . 
+   on one hand , i do n't agree because it brings an enormous about of oog or metagaming to the table, 
+  totally agree . 
+  the example i gave with the guards behind a door was not a very good one -- or , rather , i did an extremely poor job of explaining it . 
+  it 's one i came up with on the fly as i wrote it . 
+  the rolling ball one , on the other hand , presents a very direct consequence of failure . 
+  the links posted below do a much better job of explaining this viewpoint . 
+   the circumstance is , before the fact , the door bars the way . 
+  it is stuck . 
+  but the situation is , presumably , that if they roll a certain amount , they 'll succeed . 
+  let 's assume a dc of 20 on a strength check , the guy rolls 17 , and has a strength modifier of 2 , so he fails to knock open the door . 
+  why can he not just try again , until the die falls on an 18 or above ? 
+  the answer is that you have , after he failed the first time , adjusted the difficulty of opening the door to above what is possible for him . 
+  as for if it 's bad advice , well , that 's obviously a fairly subjective point . 
+  i would say this of it : it 's not necessarily a bad way to play . 
+  if you enjoy it , and your players enjoy it , then that 's great . 
+  keep doing what you enjoy doing . 
+  however , it * does * go against the general majority consensus of the dnd community ( i know i thought roughly like you did , until i started reading things online and realise most people disagree , and i gradually came round to that viewpoint ) . 
+  because of this , while it is n't bad to * play * that way , it * is * -- i would argue -- bad * advice * to give to a new dm . 
+  one of the things that was most effective in convincing me is [ this article ] ( http://angrydm.com/2012/12/five-simple-rules-for-dating-my-teenaged-skill-system/ ) written by the angry dm . 
+  specifically , rules [ 2 ( here ) ] ( http://angrydm.com/2012/12/five-simple-rules-for-dating-my-teenaged-skill-system/3/ ) , [ 3 ( here ) ] ( http://angrydm.com/2012/12/five-simple-rules-for-dating-my-teenaged-skill-system/4/ ) , and [ 5 ( here ) ] ( http://angrydm.com/2012/12/five-simple-rules-for-dating-my-teenaged-skill-system/6/ ) . 
+  he takes a fairly exaggerated viewpoint , i feel , but his main points are really good . 
+   assigns the value `` what are you doing '' to the variable y , and that statement returns null, 
+  i 'm just curious , why does it return null ? 
+  do all assignments in js return null ? 
+  ( i ask , because i know that in c , for example , assignments return the value that was assigned . 
+  that said , it obviously does n't make a difference here , since either way , it 's not equal to '' ! @ # $ '' . ), 
+  out of curiosity , what would happen if the incrementor * did n't * error out ? 
+  if it then had to check ` [ ] < ~ undefined ` ? 
+  ( i 'm guessing that it 's incrementing before it checks the conditional ? 
+  i really do n't know what order those go in with js ... ), 
+  but wow , thanks so much for that explanation . 
+  really helped !, 
+   another roll is important to me because they have the choice of stopping and if not , my ogre has the choice of more time to prepare an ambush . 
+  they still have the choice of stopping in his scenario . 
+  the issue is that if they * do * try again , they succeed automatically . 
+   they try and fail again because of a new tool ? 
+  more time . 
+  try again ( because they really want to know what 's in that room ) and fail again with teaming up ? 
+  more time . 
+  they try and finally succeed with a creative use of `` shatter '' they lose some resources ( a spell slot ), 
+  i do n't see why you force them to use different techniques each time . 
+  there 's really no logical reason that they could n't just try barging into it a few times . 
+  if the first fails , but on a die roll of 20 he would have succeeded , there 's no reason they should * have * to resort to all these other methods . 
+  just keep barging into it until he gets that 20 . 
+  i can see that using a tool or working together might be worthwhile , but unless it is reasonably the case that the door is simply impossible for them to open otherwise ( which could be explained by the door being strongly reinforced -- in game terms , even a strength roll of 25 with a tool and help would fail ) , making them resort to using a spell slot like that , just because the first couple of rolls happened to be low , seems to me to be really terrible dming . 
+  i would hasten to add , though , that of all the aspects of how you play this , this one aspect is the * only * one i consider terrible . 
+  the others i personally do n't prefer , but can see them as reasonable . 
+  this one would actually make me want to reconsider playing with you . 
+  it 's an artificial restriction that just * makes * *** no *** * sense * . 
+  your example of the wizard getting more and more time to prepare his ritual seems perfectly reasonable . 
+  to that , i say , with the ogre , let them succeed on the first try . 
+  when the wizard is behind the door , give them multiple attempts , each time advancing it further . 
+  like the example of the ritual going on in the tower . 
+  i understand your desire to make every door appear the same . 
+  but to me , that seems to be overly reliant on meta-gaming tactics . 
+  that is , you 're metagaming as the dm in order to prevent the possibility of players metagaming . 
+  and all this process gets in the way of the actual roleplay . 
+   their next attempt is ( for no in-game reason at all ) 100 % success chance, 
+  you 're misinterpreting this . 
+  it 's not a matter of the next attempt automatically succeeding . 
+  it 's a matter of hand-waving all the rolls it would take until you do achieve a success . 
+  if i want to break down a door and there 's no consequence to it , i 'm just going to keep trying until i get a 20 .

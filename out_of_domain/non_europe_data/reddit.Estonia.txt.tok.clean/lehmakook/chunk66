@@ -1,0 +1,100 @@
+  < address  123 hello street , < postcode format = `` us ''  12345 < / postcode  , us < / address , 
+  which express something more complicated than usual data structures of strings , numbers , lists and dictionaries . 
+  if you for example had an interactive wiki page or blog post where you want to mark up addresses , names of companies with their stock ticker , open source projects with download counts , etc , then xml would be one of the best formats to use . 
+  in the example, 
+  let 's get some burgers at < address  123 hello street , < postcode format = `` us ''  12345 < / postcode  , us < / address  later < when  tonight < / when  ? 
+  there is free text with markup in random places inside it : no markup for the street or country , because the creator of this document did not bother adding those . 
+  if you remove all the markup metadata tags , then it is just plain english text . 
+  it 's expected that this markup is * rendered * for display or for search with some interactive elements , rather than fully * parsed * into a database . 
+  if you get to something fully structured like, 
+  with no text outside of leaf nodes , then there is good chance that something other than xml like json is a better fit . 
+  but trying to force marked-up text into json would be a terrible idea as well , you would end up with a very cumbersome schema of lists and dictionaries that 's only good for machine parsing . 
+   scale, 
+  everything seems obvious and easy once someone has done it ? 
+  if it had been done as well as this before , then eth zurich would not be working on this , and the result would not get published at siggraph . 
+  the swamps are probably the last thing in estonia that i would call `` touristy '' . 
+  unless `` touristy '' means `` i wo n't go anywhere interesting because a few other people also go to interesting places '' . 
+  it 's amazingly beautiful , and every time i visit a swamp with paths and things , they are completely empty of any other people . 
+   is it possible to get there with public transportation ? 
+  not realistically , no . 
+  there might be buses nearby that run once per day , but it 's not a good way to arrange your travel . 
+  edit : the same applies for pretty much all places in the countryside outside of medium-sized cities . 
+  all the forest trails and huts , nature parks , swamps , etc are not conveniently accessible by public transport . 
+  it might be possible , but you will need to dig around on http://peatus.ee/#route_search/eng and http://www.tpilet.ee/en and see if you can put together a travel plan that does not take 2 days to visit each location . 
+  the only exception might be the lahemaa nature park , which i think has a guided tour by bus from tallinn a few times per week . 
+  hm , have n't noticed that . 
+  i have always named globals in uppercase because :, 
+  * it 's common in c/c + + to name #define constants in uppercase ,, 
+  * i learned python after c/c + + ,, 
+  * most of the time i use globals as constants , like `` ` timeout_seconds = 60 `` ` . 
+  * somehow started using that style for all globals . 
+  but i suppose a better name would be `` ` _ data_cache `` ` , lowercase as suggested , and with a leading underscore to mark it as private/internal that should not be used directly from other modules . 
+  if the global is used from multiple places but should be initialised once , then i usually make a small wrapper function :, 
+  _ data_cache = none, 
+  global _ data_cache, 
+  if _ data_cache is none :, 
+  _ data_cache = ... 
+  return _ data_cache, 
+  the reason for this being uncommon knowledge is that most things in the universe are electrically neutral . 
+  planets , moons , buildings , people , apples , etc all have almost equal number of positive and negative charges , so there is no measurable electrostatic force between them , and no need to consider it in astronomy . 
+  perhaps , depends on what is `` touristy '' for people though . 
+  for me , `` touristy '' means an intentional tourist trap - some crap that has been designed or promoted only for tourists , and nobody local will bother visiting . 
+  like some restaurants on town hall square . 
+  but locals ' places that are also popular with tourists or are mentioned in tourist guides * because they are interesting or good * , are not automatically `` touristy '' in my opinion . 
+  avoiding these because they are popular and well-known ( despite actually being worth visiting ) seems just over the top travel-hipster for me . 
+  even without travelling or time zones , there are days every couple of years with a [ leap second ] ( https://en.wikipedia.org/wiki/leap_second ) added . 
+  next one is coming up end of this year - the last minute will be 61 seconds long . 
+  that also means almost everyone will count down the seconds to the new year wrong . 
+  5-6 decimal places after the . 
+  are sufficient for pretty much all latitude and longitude numbers . 
+  5 places means accuracy of at worst 1 meter , and 6 places at worst 10 cm . 
+  given that typical gps chips are only accurate at most 3 meters , this is good enough for all practical use cases . 
+  if you want to limit precision of floats , use the python built-in [ round ( ) ] ( https://docs.python.org/3/library/functions.html#round ) function :, 
+  rounded_lat = round ( float ( lat ) , 6 ), 
+  but i wonder why do you even care ? 
+  store and use the coordinates as they are entered by the user without rounding ? 
+  and if you need to display it on a website without pointless extra decimal places , do that in the template with the [ floatformat ] ( https://docs.djangoproject.com/en/1.10/ref/templates/builtins/#floatformat ) filter ? 
+  does it have real-time updates for countdowns ( crowdsourced or somehow automatic ) ? 
+  asking because the ultimate use case for a launch alarm would be to wake up for 1-7am launches : set an alarm for when the countdown reaches 10 or 3 minutes before liftoff , but * avoid or delay * ringing the alarm if there is an unexpected hold before that time . 
+  waking up at 4am for a launch that gets delayed for 2 hours and then finally postponed for the next day is miserable :(, 
+  i think in your case there is no reason to use decimalfield ( just use floatfield ) and no reason to round or limit the decimal places . 
+  once you convert any data that you receive from the browser to a float , it has a fixed size , approximately 17 digits before plus after the decimal point . 
+  you do n't care much of the ones after 5th or 6th place , but there is no reason to put effort into rounding either : all it 's doing is shifting the location the user entered by a few centimetres . 
+  if you want to show rounded coordinate numbers to the user afterwards , then you can do that in the template . 
+  rounding is an option if you want to do it , but i think it 's actually unnecessary for your use case . 
+  rounding lat/lng numbers = moving them onto a `` grid '' of points . 
+  if you round to 5 places after the decimal dot , it moves to the closest 1m grid , if to 6 places then to a 10 centimeter grid . 
+  but is there any reason to do that ? 
+  floats and floatfield use a fixed amount of memory ( about 17 places before + after the decimal dot ) no matter what the user sends , so there is no risk of users filling up the database with garbage data . 
+  i wonder that myself . 
+  most of them seem to be `` i ca n't do * my * work on a tablet , so tablets are shit , and the article must be wrong . '', 
+  even though there are countless jobs in the world that do not involve furiously typing on a full-sized keyboard all day , and the article gives plenty of examples : airline pilots and assisstants , retail and warehouse clerks , and so on . 
+  my prediction :, 
+  * it 's released with a skylake cpu , because the delays are now due to some other component supply , and apple wo n't want to re-engineer and delay again for kaby lake, 
+  * everyone here is upset because `` skylake is old '' and `` kaby lake is almost released '', 
+  * wait another 18 months and repeat . 
+  what we need is waas : whipping as a service . 
+  something or someone who will monitor your progress and force you to keep to deadlines when you get bored . 
+  the size of the economy does n't directly matter - both the tax income and healthcare costs scale proportionally with population . 
+  colorado is about the same size as norway , finland , denmark or ireland , all of which have national healthcare . 
+  even much smaller countries in europe have national healthcare . 
+  but moving between states can be an issue for a single-state system . 
+  people would move to states with the best jobs for their 20s to 40s ( and pay tax there ) , and move to colorado when they are older and need healthcare more . 
+  it would happen overnight if there was a reasonable alternative that only focused on student issues . 
+  working on lowering tuition fees to getting more than 50 % off spotify , without wankers giving speeches to each other about socialist world revolution . 
+  amazon ( and google , microsoft and a few other tech companies ) use [ stack ranking ] ( http://www.nbcnews.com/business/business-news/amazons-use-stack-ranking-workers-may-backfire-experts-say-n411306 ) :, 
+  * all employees are ranked from best to worst by their manager ,, 
+  * top 20 % or so get bonuses / promotions ,, 
+  * next 70 % is okay ,, 
+  * bottom 10 % is fired or strongly encouraged to resign . 
+  as a result you can get fired even if you are strong employee in an even stronger team . 
+  and it encourages a culture of competition instead of helping each other - you * need * to take credit for successes and dump failures on your team mates to keep your job . 
+  10 + hours to get to `` the good parts '' is okay if it 's spent on the player learning the game , like in chess or kerbal space program . 
+  but if it 's just a question of not showing interesting content until you unlock level x or resource y , then why are the first 10 hours even in the game ? 
+  it 's uncertain whether let 's play 's even are fair use or not . 
+  * reviewing * a game and adding a few screenshots or short clips is fair use . 
+  but just showing yourself playing it for hours most likely is n't , just as `` let 's watch a movie '' would not be . 
+  plenty of game publishers silently accept it , because it brings them publicity . 
+  it works best for sandbox-type games . 
+  but others do n't have to , for example if it 's a story-based game for which a let 's play takes away the motivation of playing yourself . 
+  that would work if the height and jumping was very carefully controlled .

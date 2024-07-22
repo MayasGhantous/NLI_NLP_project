@@ -1,0 +1,100 @@
+  this is a beautiful tale that will make you love life and people . 
+  you will walk away happy and have grown as a person for watching it . 
+  the second half of the series is a lovecraftian horror designed to make you hate humanity and want to get your hands on a couple of nukes . 
+  avoid it . 
+  sparkfun has a bunch of tutorials on the basics . 
+  most of it is geared towards building stuff with an arduino which seems to be the recommended path to go for tinkers . 
+  * disclaimer : not a electrical engineer . 
+  not to dismiss the complaint of lag , it definitely is bad , but the fact that you live 5 minutes from blizz hq means jack shit . 
+  servers are rarely hosted in the same building as where development and what not goes on . 
+  most likely they have a few server farms in various places around the us . 
+  even if the servers themselves are 5 miles down the road that does n't mean your connection to them will be fast . 
+  your connection could be hoping all the way back to chicago and then going down through virginia before it comes back over to la for all you know . 
+  routing and peering can be odd that way . 
+  haproxy is magic . 
+  has all the features you could possibly want including consistent hashing . 
+  consistent hashing lets you do really cool things like make cache servers tremendously more efficient . 
+  i 'm not sure if it is exactly the same method but dsr ( direct server return ) provides the same effect . 
+  it seems to be very common in large cdns from my experience . 
+  i 'm cool with using the short scale but as long as we are agreeing on one system to use lets go short scale with metric . 
+  not a book i read straight or ever will but my goto reference for understanding how unix apis work even in higher level languages . 
+  possibly but no one in the movie acted rationally . 
+  every problem they encountered was due to their insistence to make the stupid decisions possible . 
+  `` we are in an alien environment and it looks breathable i know i 'll remove my helmet ignoring all other possible dangers from this . '', 
+  `` hey we just found an alien space helmet lets open it without any form of safety or procedure . '', 
+  when i 'm on a larger monitor i agree . 
+  but when i 'm on my 13 '' mbp i often will maximize whatever i 'm working on/in , usually firefox . 
+  even at work on the 15 '' mbp i often have a terminal maximized with irc and then have 5-6 windows tiled on the apple cinema display . 
+  why not ? 
+  terminal lets you connect to servers , read your mail , edit documents , upload/download files , build software and basically anything else you could dream of needing to do . 
+  terminal is power . 
+  it can be hard to learn but mastery unlocks the keys to a computer and a nice paycheck . 
+  iterm2 , firefox ( w / pentadactyl ) , macvim , divvy , and alfred in descending order of use . 
+  * edit : sorry if this is a bit preachy , just wanted to share an insight into why i feel how i do about unix . 
+  because the terminal is more powerful and quicker in most cases . 
+  at least for the things i commonly do . 
+  some examples :, 
+  what is the ` mx ' record for `` google.com '' ? 
+  on the command line : ` dig mx google.com ` . 
+  with a gui open `` network utility '' , select `` lookup '' , enter `` google.com '' , visually filter the lines and find the ones with `` mx '' . 
+  upload a new copy of a file to a server . 
+  on the command line ` scp file1.txt server1.example.com : / tmp / ` . 
+  with a gui : open `` transmit '' , select `` sftp '' , enter `` server1.example.com '' into the server box , enter '' / tmp '' into the initial path , hit connect , double click on `` file1.txt '' . 
+  now say you want to do something like uploading that file to a hundred servers :, 
+  for server in $ ( cat servers.txt ) ; do scp file1.txt $ server : / tmp / ; done, 
+  granted that is n't the `` proper '' way to do it which is adding 3 lines to your chef/puppet recipe so that all new servers get this magic file but is great for the quick and dirty get stuff done moments . 
+  [ alfred ] ( alfredapp.com ) is a launcher like quicksilver . 
+  it also has some fancy things like remembering your clipboard history . 
+  sorry i do n't have anything specific i can hand over to you . 
+  assuming you are starting from scratch :, 
+  i 'd suggest you learn the basic commands : ` ls ` , ` cd ` , ` mv ` , ` cp ` ; the documentation commands ` man ` and ` apropos ` ; and an editor ` nano ` or if you want a challenge ` vi ` . 
+  to start with i 'd run ` man man ` in a terminal . 
+  once you have the very very basics down you can start researching more advanced topics . 
+  find a simple project like downloading a series of urls ( e.g. 
+  http://example.com/img1.jpg , http://example.com/img2.jpg ) . 
+  as time goes by you will learn new things and start stringing more complicated commands together . 
+  my favorite example of security theater is shoe checking at airports . 
+  if your under 12 or over 75 they inform you they wo n't check your shoes . 
+  so all a terrorist has to do is know someone over 75 and they have an easy path to smuggle things onto planes ... 
+  as a professional systems administrator i use a linksys wrt150n with ddwrt for my home . 
+  my friends and many of my coworkers in the industry also use a linksys router with either ddwrt or tomato . 
+  i once ordered tickets and thought i grabbed both form oak ( oakland ) but accidentally selected one from sjc ( san jose ) . 
+  luckily i noticed within the 24 hour grace period and was able to cancel and reorder . 
+  most likely she was searching for tickets in her region and not by a specific airport . 
+  i rarely look at just oak , sjc or sfo because the better flight could be from any of them . 
+  depends . 
+  if you sideload a book onto your kindle without uploading it to your `` amazon documents '' ( or whatever the thing is called ) then no they ca n't tell anything except probably the book title , author and possibly a hash . 
+  unless they want to know more . 
+  in which case they could there are all sorts of ways to tell . 
+  particularly if they hash the file . 
+  for example hashing the book will create a unique identifier which they can then collaborate with the kindle version in their database . 
+  once the database knows this then amazon could tell you every person who has loaded that digital file onto their kindle . 
+  is the computer in use ? 
+  yes , then you need more ram . 
+  looking at `` page outs '' is short sighted and is only taking into consideration swap and completely ignores page cache . 
+  page cache is the use of ram to store files before they are written to disk or to prevent reading from disk . 
+  this causes downloads to happen at the speed of network not slow disks , e.g. 
+  download as fast as you can store it in ram and then shove it to disk as fast ( slowly ) as possible . 
+  another use of page cache is rather than continually reading ` random_icon . png ` from disk it is stored in ram providing faster response time from applications . 
+  having more ram is almost always better . 
+  granted swap is death . 
+  if you have high amounts of swapping ( high page out/in per second ) then you either need to kill some applications or get more ram . 
+  * technical disclaimer : * this rant is based upon apple 's [ definitions ] ( http://support.apple.com/kb/ht1342 ) of ` page out ` / ` page in ` . 
+  on the off chance that i 'm wrong and ` page out ` / ` page in ` does in fact refer to page cache in addition i retract this rant . 
+  i 'm not sure what you are attempting to state . 
+  the original poster is correct and i even stated that :, 
+   granted swap is death . 
+  if you have high amounts of swapping ( high page out/in per second ) then you either need to kill some applications or get more ram . 
+  but that is n't all there is to it . 
+  just because no swap is occurring does n't mean you do n't need more ram . 
+  run your own postfix server . 
+  set ` recipient_delimiter = - ` . 
+  in addition create multiple aliases and point multiple domains at the server . 
+  now you can create infinite email addresses and everyone 's shitty domain validation will work . 
+  but yea seriously people need to stop writing shitty regex domain name validation . 
+  i hear you can [ fake it ] ( http://www.bfccomputing.com/2007/11/07/fudging-multiple-recipient_delimiter-statements-with-postfix/ ) but i have no experience with it . 
+  i had a job making subs at 14 , 7.25 an hour . 
+  if i had saved everything i earned for the summer i could have afforded a 2k computer . 
+  not that unrealistic if the child is smart . 
+  which backbone carrier uses copper to carry their data ? 
+  everyone i know of uses fiber .

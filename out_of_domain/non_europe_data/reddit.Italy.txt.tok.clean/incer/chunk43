@@ -1,0 +1,100 @@
+  the frame goes together by itself , the electronics are simple and do n't get damaged easily . 
+  i bought i3 rework proteins on ebay , electronics , motors , pulleys and so on on aliexpress , an e3d lite6 , and had the frame cut locally . 
+  i spent about 300 $ total , more than a year ago . 
+  i recently upgraded from ramps to the duet wifi , and the hotend to the regular e3d v6 . 
+  honestly this printer is awesome . 
+  * edit : * if i were you i 'd ask around a bit more for the frame , i spent 80 $ total for a stainless steel one , and i 'm sure i could have brought it down a bit more if i tried, 
+  my own has an m5 rod and it works fine . 
+  i like that it has a finer resolution . 
+  what ? 
+  they even removed the spikes from the original model 's seat !, 
+  well , it looks like it 's printed in parts , so maybe he sat on the first slice at first and then kept adding slices as they were printed . 
+  it is a violation of the owner 's copyright . 
+  this is different though : the copyright holder made this public and free to be copied . 
+  i do n't know how the conversion between the model and the print affects this copyright . 
+  well , i bought an xps 15 . 
+  it 's an incredibly cool laptop , but i do n't think the quality is on par with the price . 
+  i bought it an year ago and the power connector is now loose , the speakers are broken , the battery has degraded seriously ... and dealing with dell , especially sales , is a pain . 
+  i do n't think i will be buying from them again . 
+    compile all packages, 
+   i thought that was what all arch users were doing anyway ? 
+  what ? 
+  electric starter motors are bloat !, 
+  that 's not really true though . 
+  arch 's repos are pretty `` well stocked '' , and aur is generally used only for very rare or odd packages . 
+  i had maybe 10 packages installed from aur on my arch install . 
+  i guess it 's not my problem anymore , i switched to fedora !, 
+  i guess i went down a few `` nerd '' ranks . 
+   hardly , arch official repos are a lot smaller than that of most other systems . 
+  you typically need the aur for shit that is in the repos of most systems . 
+  well , i 'm not going to take the time to check the number of packages of the various repos , maybe it 's my usage pattern but i 've had to resort to aur less often than rpmfusion on fedora . 
+   aur is also fundamentally broken , i do n't get people who praise it , like have they never been bitten by that the abi breaks after an update and they need to recompile because a lot of stuff no longer works ? 
+  aur is a stopgap . 
+  if you start installing important parts of the system from it , you 're going to have problems sooner or later , and have to accept that . 
+   the impression i get form most arch users is that they probably have but just do n't know what caused it , re-install it and see it works fine after the re-install . 
+  honestly , most arch users are probably the kind of people that would try their best to ** find the cause ** of the problem and solve it , not just be content with reinstalling . 
+  there 's a reason why the arch forums and wiki are recognized as ( some of ? ), 
+  the best resources for linux troubleshooting on the internet . 
+  yep , many even take the binaries from rpm or deb packages, 
+  is that a pei sheet on the bed ? 
+  yours was the first build that came to mind when i read the title . 
+  yeah , and there 's a reason for that . 
+  non-supported drivers can not be in supported repos . 
+  if you put arch on a computer with non-supported hardware , you use aur and take your risks . 
+  bad :d, 
+  there 's / r/reprappif, 
+  that 's the chamber 's president, 
+  baiocchi top of the world . 
+  li compro sempre in autostrada . 
+  dehumidifier, 
+  i 'm not familiar with the electronics in your printer , but an atx psu is safe , cheap and reliable . 
+  some answers here [ https://www.reddit.com/r/3dprinting/comments/5sez5u/how_do_you_apply_your_hairspray_to_your_glass_bed/] ( https://www.reddit.com/r/3dprinting/comments/5sez5u/how_do_you_apply_your_hairspray_to_your_glass_bed/ ), 
+  have you taken a look at the [ cyclone pcb factory ] ( https://github.com/carlosgs/cyclone-pcb-factory ) ? 
+  try disabling your firewall . 
+  it 's been a while since i 've used virtual ports on windows , but i remember that being a problem sometimes . 
+  are you sure that the two x axis cursors are at the same height ? 
+  the way i do it is having the machine lift the x axis up to the top and check if the smooth rods appear parallel with the horizontal part of the chassis . 
+  do you want a camera accessible from outside your network ? 
+  what 's your experience with abs on this printer ? 
+  i guess that the unheated bed might be one of the reasons why many do n't recommend it . 
+  what 's the maximum extruder temperature ? 
+  love this guy, 
+  absolutely false . 
+  you complain about other people using _ inferior _ distributions . 
+  and gnome . 
+  do n't despair , there are institutions that can help with your _ condition _ . 
+  ... complain even more, 
+  yeah , this particular material cost 15 $ for 250gr !, 
+  i think the problem is with retractions . 
+  al long as you have a constant forward push i think bowden does n't make that much of a difference . 
+  when you start pulling and pushing , the stretching of the filament probably starts causing issues . 
+  well , i printed this excruciatingly slow ( 15 mm/s , i 'll try speeding it up from here ) . 
+  what made a lot of difference : constant speed , i set the same speed for everything , being gentle with the guidler , as at first i was pinching it too much between the drive and the idler , deforming the filament and therefore ruining my print . 
+  also as always filament quality probably makes a world of difference . 
+  edit : i also had the cooling fans on at half pwm, 
+  it 's a brand name filament ( [ smartflex from fffworld ] ( http://www.fffworld.com/en/home/143-flexismart-yellow.html ) ) , should be tpe . 
+  [ it 's pretty flexible ] ( http://imgur.com/a/ese49 ) but i would n't know how to compare , it 's the only one i 've ever tried . 
+  i think you hit the wrong reply button, 
+  you 'll be thanking me , actually !, 
+  retraction ? 
+  does n't seem wrong for a bowden setup , but may you could try and lower the speed a bit . 
+  it tastes like hairspray, 
+  my settings are 205c , 15mm/s everything , 4mm retraction at 10mm/s , 2 radial fans at half speed and 40c bed with hairspray, 
+  also a thing that ruined my first prints is the extruder too tight, 
+  the idler pressed the filament too hard against the hobbed bolt . 
+  my setting was ok for normal filament but too tight for flex , so it probably deformed the filament . 
+  i loosened it a bit and saw immediate improvement . 
+  it weighs about 16 grams , so you could make 62 of them with 1kg , 
+  at 40 $ / roll , that makes them worth 0,65 $ each , 
+  of course that 's without counting the electricity , but it is n't much . 
+  the one in the picture at 15 mm/s took 2 hours and a half, 
+  it looks like it was done on purpose !, 
+  mine is .4 but a larger one probably makes life easier with this stuff, 
+  why ? 
+  i had no problem at all with that !, 
+  actually z1 , it 's my girlfriend 's . 
+  battery life is n't what it used to be , but it 's still ok . 
+  it 's missing the usb cover so i tried to incorporate it in the cover . 
+  i 've got the z3c and the z5c . 
+  the 3 is better . 
+  it is n't online , i made it myself .

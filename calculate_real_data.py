@@ -11,10 +11,8 @@ import language_tool_python
 
 
 
-CALCULATE_THE_ERROR_FEATURE = True
-REAL_ERROR_FEATURE_LOCATION = 'calculated_data\\real_spell_error_feature.npy'
 UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams'
-ERROR_HELPER_LOCATION = "calculated_data\\error_count"
+ERROR_HELPER_LOCATION = "calculated_data\\error_count2"
 FUNCTION_WORDS_ARRAY_LOCATION = 'calculated_data\\function_words.npy'
 
 FUNCTION_WORDS_ARRAY_LOCATION = 'calculated_data\\function_words_features'
@@ -25,6 +23,8 @@ TRIGRAM_LOCATION = 'calculated_data\\charracter_trigrams'
 GRAMMAR_ERRORS_LOCATION = 'calculated_data\\grammer_errors'
 POS_TRIGRAM_LOCATION = 'top_pos_trigrams.npy'
 GET_ALL_FIELS = False
+
+EDIT_DISTEANCE_LOACTION = 'calculated_data\\edit_distance'
 
 def read_files_from_directory(directory, WHAT_COUNTRY):
     try:
@@ -76,19 +76,27 @@ def calculate_the_unigram_feature(dic , top_unigrams):
     return unigram_feature
 
 def get_top_errors(top=400):
-    errors = Counter()
+    not_sub_errors = Counter()
+    sub_errors = Counter()
     for error_file in os.listdir(ERROR_HELPER_LOCATION):
         if error_file.startswith('all_errors'):
             current = np.load(os.path.join(ERROR_HELPER_LOCATION, error_file), allow_pickle=True).item()
-            errors += current
-    return errors.most_common(top)
+            for key in current.keys():
+                if key[0:3] == 'sub':
+                    if key[4].isalpha() and key[6].isalpha():
+                        sub_errors[key] += current[key]
+                else:
+                    not_sub_errors[key]+=current[key]
+    return_value = np.array(sub_errors.most_common(top))[:,0]
+    return_value = np.concatenate((return_value,(np.array(not_sub_errors.most_common(1000))[:,0])))
+    return return_value
                 
             
 
 
 def get_the_error_feature():
     top_errorss = get_top_errors()
-    error_keys = np.array(top_errorss)[:,0]
+    error_keys = np.array(top_errorss)
     new_values = defaultdict(list,[])
     for error_file in os.listdir(ERROR_HELPER_LOCATION):
         if error_file.startswith('indvisual_errors'):
@@ -97,7 +105,7 @@ def get_the_error_feature():
             for usrer_key in current.keys():  
                 current_new_values = defaultdict(list,[])
                 for listx in current[usrer_key]:
-                    current_new_values[usrer_key].append( [listx.get(error_key, 0) for error_key in error_keys])
+                    current_new_values[usrer_key].append([listx.get(error_key, 0) for error_key in error_keys])
                 new_values.update(current_new_values)
     return new_values
 
@@ -161,23 +169,35 @@ def save_the_rules():
 def get_the_grammer_feature():
     rules = np.load(RULES_LOCATION)
     return_dic = defaultdict(list,[])
-    for grammar_error_file in os.listdir(GRAMMAR_ERRORS_LOCATION):
+    for grammar_error_file in tqdm.tqdm(os.listdir(GRAMMAR_ERRORS_LOCATION)):
         current = np.load(os.path.join(GRAMMAR_ERRORS_LOCATION, grammar_error_file), allow_pickle=True).item()
         for key in current.keys():
             for value in current[key]:
                 return_dic[key].append([value[rule] for rule in rules])
     return return_dic
 
+def get_edit_distance():
+    retrun_dic = defaultdict(list,[])
+    for edit_distance_file in os.listdir(EDIT_DISTEANCE_LOACTION):
+        current = np.load(os.path.join(EDIT_DISTEANCE_LOACTION, edit_distance_file), allow_pickle=True).item()
+        for key in current.keys():
+            for value in current[key]:
+                retrun_dic[key].append(value)
+    return retrun_dic
+    
+
 def get_CharTrigram_Tokens_Unigram_Spelling_Feature():
     Unigram = get_the_Unigram_feature()
     CharTrigram = get_trigram_Feature()
-    Spelling = get_the_error_feature()
+    #Spelling = get_the_error_feature()
+    edit_distance = get_edit_distance()
     new_values = defaultdict(list,[])
     for key in Unigram.keys():
         for i in range(len(Unigram[key])):
             new_values[key].append(Unigram[key][i])
             new_values[key][-1].extend(CharTrigram[key][i])
-            new_values[key][-1].extend(Spelling[key][i])
+            #new_values[key][-1].extend(Spelling[key][i])
+            new_values[key][-1].extend(edit_distance[key][i])
     return new_values
 
 
@@ -191,6 +211,19 @@ def get_Function_words_Pos_Trigram_Sentence_length_Feature():
             new_values[key].append(FunctionWords[key][i])
             new_values[key][-1].extend(PosTrigram[key][i])
             new_values[key][-1].extend(SentenceLength[key][i])
+    return new_values
+
+def get_grammer_spelling_features():
+    #grammer = get_the_grammer_feature()
+    spelling = get_the_error_feature()
+    edit_disteance = get_edit_distance()
+    new_values = defaultdict(list,[])
+    for key in spelling.keys():
+        for i in range(len(spelling[key])):
+            new_values[key].append(spelling[key][i])
+            #new_values[key][-1].extend(grammer[key][i])
+            new_values[key][-1].extend(edit_disteance[key][i])
+           
     return new_values
         
     
@@ -214,3 +247,5 @@ print(f"Time taken to calculate the error feature: {time2-time1}")
 #get_pos_trigram()
 #save_the_rules()
 #get_the_grammer_feature()
+#get_the_error_feature()
+#get_the_error_feature()

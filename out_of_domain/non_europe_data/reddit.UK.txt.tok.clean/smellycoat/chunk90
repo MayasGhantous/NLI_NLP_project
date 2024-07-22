@@ -1,0 +1,100 @@
+  * it sucks a whole lot less than windows, 
+  i 'm a bit of an operating system slut . 
+  i 'm using xp right now , i have a 7 box at work , an apple laptop , a ubuntu box downstairs and a freebsd server . 
+  wait , what ? 
+  demos get below average points per hour , and slightly above average kills per hour . 
+  of course they 're going to do more * damage * , due to the nature of the weapon . 
+  but they 're not getting significantly more * kills * ( and less points ) , so i 'm not seeing anything there that suggests they 're op . 
+  grump grump grump !, 
+  lawn !, 
+  if you 're trying to learn programming , but you 're using a language that inexplicably places a limit on the number of statements you can use forcing you to find bizarrely convoluted solutions , then maybe . 
+  if you were interested in practising [ golf ] ( http://en.wikipedia.org/wiki/code_golf#perl_golf ) , then fair enough . 
+  but this ai n't programming . 
+  also , i 'm fucking properly stuck on recursion 4 . 
+  edit : got it . 
+  alright . 
+  first up , html5 is n't a technology for doing this kinda stuff . 
+  it 's a document markup language that adds a few features including media support . 
+  you ca n't make games with html5 alone , and you were never meant to . 
+  however , you can use javascript ( actually `` ecmascript '' ) in html5 pages ( in fact you can use javascript with virtually any version of html or xhtml , that shit 's been around for a while and is n't specific to html5 ) . 
+  although javascript is a pretty solid scripting language , it 's designed to be embedded into other systems ( originally , but not limited to , web browsers ) does n't natively have any means to , yknow , display things . 
+  note that flash uses `` actionscript '' , which is a version of ecmascript . 
+  so it 's pretty much the same thing . 
+  the html5 spec adds a feature called canvas . 
+  this allows you to paint to an area of the page , much like flash . 
+  so , yes , it is indeed possible to write games without flash , using several different technologies . 
+  in fact there 's nothing much that i can see in this game that would n't be possible using js and canvas . 
+  just to prove it 's possible , [ here 's one ] ( http://www.kevs3d.co.uk/dev/asteroids/ ) . 
+  the [ sentry ] ( http://store.valvesoftware.com/tf2/tf2-poster.sentry.html ) poster is ace . 
+  had one on my wall for ages . 
+  much to my girlfriend 's dismay . 
+  mmm , yes it 's [ * lovely * ] ( http://eurofurence.net/monof55.gif ) . 
+  i 'll be sticking with [ profont ] ( http://www.tobias-jung.de/seekingprofont/ ) , thanks . 
+  also i love that everyone has completely different coding font suggestions . 
+  to be honest , it sounds like he was using a nosql database as a direct replacement for a traditional rdbms , and kinda expecting everything to work the same way . 
+  that 's really not the right way to use that stuff . 
+  but , i suppose people wanting to jump on the nosql bandwagon when they really should n't be is to be expected . 
+  i like to think it went down like this :, 
+  `` stop killing that goose ! '', 
+  `` but i 'm hungry ! '', 
+  `` i do n't care , you ca n't kill the geese just because you 're hungry '', 
+  `` if you get me something to eat , i promise i wo n't kill it '', 
+  `` okay . 
+  what would you like ? '', 
+  `` hmm . 
+  got any goose ? '', 
+  \\* fight ensues \\*, 
+  as i see it ( which means `` i 'm probably wrong '' ) the nosql thing came about because of the rise in popularity of mvc-style frameworks . 
+  people using them were finding that a lot of the data integrity and `` business logic '' work ( which the database was traditionally responsible for ) was actually being handled in their model layer . 
+  the database had become a `` dumb '' data store . 
+  but that lead to a few problems . 
+  if they wanted to change the schema , those changes would have to be applied in the model * and * in the database , and they were still `` paying '' for database features ( in the form of scaling problems and increased overhead ) even though they did n't want them and were n't really using them . 
+  hence a push to split the `` data storage '' part of a database 's job out into a separate thing , with more flexibility , without all that extra overhead , and more opportunities for horizontal scaling . 
+  problem this dude seems to have is he was using a nosql data store * without * having a proper model layer ( otherwise all his interactions with his `` balances '' table would have been through said model layer , and typos would have resulted in an error from his app code ) . 
+  while i 'm sure it 's possible to use a nosql database in `` php style '' ( ie , just throwing in raw queries whenever you need any data ) , that 's not really what they 're designed for . 
+  to be honest , i 'm not sold either way . 
+  i can see uses for both . 
+  i 'll admit that , to me , a traditional rdbms seems like it 's more * generally * useful . 
+  but that 's possibly down to my own shortsightedness . 
+  i 'm certainly not going to rule out either approach . 
+  really ? 
+  why ? 
+  if he were using it properly , he would have had a layer of code between his application/business logic and the data store ( the `` model '' layer in an mvc web framework , for example ) . 
+  that 's where his `` schema '' should be enforced . 
+  from what he said about the lack of schema causing him problems if he typos something , it seems like he 's just throwing in raw queries whenever he needs any data . 
+  which works okay in a traditional rdbms , but it 's not really what these k/v stores were designed for . 
+  so . . shareholders -  hareholders . . ? 
+  buy leporid futures !, 
+  buy buy buy !, 
+  a lot of that footage appears to be either normal shit or a hoax . 
+  some of it i ca n't explain . 
+  however , my scepticism gland is tweaked not so much by the contents of the videos , but by the conclusions that are being drawn . 
+  while i 'm happy to admit i ca n't readily explain some of it , i 'm not going to make the instant leap from `` i do n't know what that is '' to `` it must be an alien mothership omg conspiracy !! '' . 
+  and i 'm not going to trust the assessment of people who * do * make that leap . 
+  my girlfriend had cats as a kid , i had dogs . 
+  so when we moved into a house where we could have pets , we got cats ( obviously ) . 
+  but i had little-to-no experience with cats at the time , so i just treated them like dogs . 
+  they now enjoy relatively rough playfighting and stroking , respond to whistles , meow on command ( almost ) , and do n't mind being flipped onto their back for a bellyrub . 
+  from the article :, 
+   i had two tables : balances and balancse, 
+  either he did n't have a single model layer , or he did and it was badly designed enough that the string containing the table name existed in more than one place . 
+  edit : furthermore , i do n't think that `` typo prevention '' is really a good argument for having to define things in two different places . 
+  there 's a proper place to do that kind of thing ; it 's called a test suite . 
+  cyclist of similar mass ( bit less ) here . 
+  the problems i had were :, 
+  * cheap stuff : do n't bother , it * will * break . 
+  do n't need to buy top-end stuff , but stay away from the really cheap shit . 
+  i 've broken cheap cranks , chainrings , even a frame . 
+  spend a little more ( stay out of the very bottom end ) and you 'll avoid the walk of shame for longer . 
+  * pedals : plastic ones bend and become uncomfortable , the ` cage ' type dig into my feet ( i 've got pretty big feet  ) , eventually bend and start coming apart . 
+  bmx-style platform pedals are the sweet spot for me . 
+  * spokes : i broke a lot of the things . 
+  eventually i had the rear wheel rebuilt with tandem spokes , which was n't * that * expensive and has totally solved the problem . 
+  front wheel has always been fine . 
+  * chain : broke a few . 
+  switched from generic chains to an sram one . 
+  was n't much more expensive and has lasted well . 
+  * suspension : fucking pointless , do n't even bother . 
+  i 've had to tighten up front suspension so much to avoid bottoming it out that it might as well not be there . 
+  i got rid of the suspension seatpost too ( which just makes it hard to put the saddle at the right height and still be able to get my arse on the damn thing ) . 
+  * gears : not so much the equipment itself , but learning to use them properly .

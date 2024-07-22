@@ -1,0 +1,100 @@
+  and apparently continued to self-play 30 million more games to create the dataset to train their value network ... 
+  but maybe they were hitting diminishing returns too heavily and need to try out different network architectures to be able to learn more ? 
+  it should help ; they state all improvements to the strenght of the policy network , that suggest what moves seem promising/likely in a situaion , were very impactful to the overall power of the system . 
+  but no , if the paper is to be believed , they actually trained that just on a dataset of strong kgs games . 
+  are those particularly japanese ? 
+  fair point re impact of time controls ; i havent ' a clue either . 
+  and def , i 'm pretty confident the team has a lot of low-hanging fruit to pick in order to improve this system . 
+  like , i was just commenting on r/baduk , its mind-blowing to me that this system was never exposed to a single pro game in training at all ( which facebook used exclusively and got sota results ) , or that they had a fairly substantial dataset used in training just one component - fast rollout - but also not used for training move prediction at all . 
+  even though they state even small improvements on move prediction netted them significant improvements in play strength . 
+  or that they used only 1 day of training ( and 1.28 million games ) for reinforcement learning from self-play . 
+  getting to amateur 5d rank . 
+  used that to produce a dataset of 30 million games ( !!! ), 
+  to train position evaluation on , picking just 1 positions from each and throwing the other ~ 150 away , for using all moves lead to overfitting . 
+  can they choose 10 positons and still avoid overfitting , increasing the dataset by an order of magnitude ? 
+  can they maybe bootstrap from alphago they have now , and create a dataset of 30 million positions from games played 1500 elo points stronger than their `` puny '' 5dan player , and learn positional evaluation on that ? 
+   one not having any information about the opponent while the other knows everything about the opponent simply makes it unfair . 
+  that would be unfair , except that this version of alphago at least , has never seen any professional game at all , so it knows nothing about either of its opponents . 
+  anyhow the number of games any one player can make in their lifetime is insignificant/unusable for training the machine , the way we know how to train them now . 
+  and ofc it does n't have any notion of the identity of any of the players in matches it did analyze to begin with ; matches are just an undifferentiated mass of `` given this particular configuration of the board , predict the likely next moves that will be made '' puzzles to it . 
+  well some systems would be informed about the players kgs ranks , so they can later ask them to predict what it thinks higher-ranked players would do , though not alphago specifically . 
+  still seems a simple courtesy to give the final version for use by the opponent some time before the match only i 'd expect the devs would want to have all the time to the deadline for perfecting their training , and , if fairness would require both to be equally blind in that case , would actually lose nothing at all if they for eg excluded all the matches their opponent ever played from the trainingset . 
+  provided they even choose to use any professional matches for their training this time around that is . 
+  either different network/training architectures to be able to learn their respective tasks better from the datasets its using , a space where we see ridiculous year-on-year jumps since 2012 on ( and actually where facebook 's model got better results so they may get inspiration from there ) , or stronger datasets , or various familiar tweaks to their mcts component , which is n't all that hot ( though they list somesuch typical things they already tried there to no improvement ) . 
+  re datasets , i 'm thinking , its rather amazing that they 've got a system significantly stronger than any of its `` teachers '' , these being strong kgs players only , and the reinforcement-learning tweak of networks trained on that , which too is a system that only ever reached kgs 5ishd rank in their assesment . 
+  a bit of misunderstanding in media is that alphago improves by playing itself - while actually only a network model that did n't end up being used directly in its architecture was like that , and was instead only used to generate a large training dataset . 
+  converged in 1 day of training on 50gpus btw . 
+  so now that they 've got a pro-level player ( they estimate 5-6p in the paper ) , quality neither of their datasets approaches , can they just generate a stronger dataset from actual alphago self-play and close the reinforcement learning loop like that ? 
+  sounds like it 'd take huge computing resources , given how more demanding the final sysetm is in comparison to just that one neural net , but it is google we 're talking about so ... 
+  but see , its funny , they themselves do n't think alphago that lost 2 informal matches stands a chance vs sedol . 
+  their paper estimates it being 400ish elo points weaker from sedol . 
+  if they plan to win , they 've got ta be banking on improvements , not demonstrated performance . 
+  also using a neural net apparently - http://computer-go.org/pipermail/computer-go/2016-january/008541.html , for a greater than 200elo improvement than w/o . 
+  being already the catalyst for monte carlo tree serch methods , and so pushing forward the fields of general-game-playing , classical planning , partially observed planning , scheduling , and constraint satisfaction , advances in go ai has been uncharacteristically fruitful , even to reach strong amateur play . 
+  this is in happy contrast to how fallow the approaches that proved succesfull at chess turned out to be . 
+  now thx to this game , we 've got a planning system that intuits promising moves , thinks a modest number of steps in advance and then estimates who 's ahead in those possible scenarios . 
+  rather human-like . 
+  yet pretty much the only go-specific thing it has built-in is calculating ladders . 
+  this has to have promising potentials far outside game-playing , again . 
+  i think the character of solutions effective for go is a testament to the humanness of the game . 
+  north of being able to do a few 100 000 rollouts per move i think , depending on the details of the policy . 
+   fan hui was able to beat alphago 2-3 on lesser hardware, 
+  is it still english to say `` beat '' when we 're talking about what was still a loss ? 
+  :d alphago took the 3 games here too . 
+  i think its the exact same system , not weaker hw -- just running shorter time controls ( ie , they were blitz ) , not sure . 
+  might still mean it was not enough time per move to really shine , as running neural networks is quite slow , but . . 
+   believe that was still superior to what zen is running on ? 
+  whatever the case , there 's little comparison : this zen 's running on just a dual xeon , not a cluster at all ( mentioned in http://computer-go.org/pipermail/computer-go/2016-january/008541.html ) . 
+   if that 's the case they are n't far apart . 
+  i think its still quite a difference ; they had an internal tournament against previous zen , and crazystone etc with 4 handicaps * and still won 100 % of games ( distributed version ; or 86 % of games for the one very beefy machine version - here crazystone was a bit stronger , and lost `` only '' 77 % of those games ) . 
+  they estimate being even against these programs at 4 handicap is around ~ 2500elo on a scale where 2908 is fan hui , and alphago on a cluster is 3140 - and this is taking into account the 2 losses , and ignoring the differences in time controls . 
+  still quite a difference , many times bigger than the reported improvement in the new version of zen . 
+  zen was running on an 8 cpu system . 
+  maybe they could 've thrown a cluster at it , for a few hundered elos more power . 
+  maybe then it could play with 4 stones handicap with equal chances against fan hui , or say 3 with the new version , and say 3-4ish stones vs distributed alphago . 
+  still , 4 stones is huge . 
+  ( * ) actually the handicap was a bit nonstandard , half a stone higher ; their positional evaluation network , was trained on komi of 7.5 , so they could n't drop it and still expect it to give sensible results , so they gave an extra stone instead of dropping komi . 
+  did n't end up downvoing , and now that i see its legitimate am glad i did n't , but was damn tempted ; title of your post is terribly uninformative ; i was half-convinced it was surely spam of worse . 
+  certainly would 've been my riskiest click of the day , so i decided to wait and see reactions instead of checking it out , 
+  heh , possibly i should be . 
+  in my defense , i did see it was youtube ; still could be spammy nonsense . 
+  and the only comment here was `` ca n't tell if its a boy or a girl '' one , which is n't promising . 
+  was n't in fear of doing something to my system , just of crap . 
+  no , not really . 
+  read the nature paper , not blogposts . 
+  final architecture never played a single game against itself , but they used self-play of a network they did n't end up using to create a dataset of games for training a component of the architecture . 
+  furthermore , arcade games have a fixed oponent , which is a rather different training scenario than self-play . 
+  alphago is a rather innovative synthesis of several ai techniques :, 
+  - it has a policy network , trained to predict the next expert move given a position , on a dataset of 160000 kgs games . 
+  this kind of component was what started the interest in using deep learning for go . 
+  google and a group at oxford showed large advances in such move prediction task at the end of 2014 . by using modern deep learning techniques ( convolutional neural nets ) . 
+  today most computer-go engines seem to be looking into adding this component ; i know of oakfoam , ayamc , deepforest ( facebook 's bot ) and now zen , strongest program besides alphago using it in some way . 
+  - it has a rather classic-looking ( or even primitive , for many common heuristics of the field showed no improvements to this hybrid architecture ) computer-go monte carlo tree search engine , with a fast rollout softmax of 3x3 pattern features ( plus a few special ones ) trained on a dataset of 40-50 000 tygem games . 
+  this has a couple of obscure tweaks too though - like some generalization of memorizing last-good-reply, 
+  - it has a value network , most innovative of the components , created to predict who will win a game given a board position , trained on a dataset of 30\u00a0000\u00a0000 positions , each drawn from a unique game ( to prevent overfitting ) . 
+  to create this dataset , the policy network mentioned above was fine-tuned by reinforcement learning in games of self-play for 1 day ( and 1 280 000 games ) . 
+  this improved it playstrength , to maybe around kgs-5dan . 
+  having stopped improving , this played out the 30\u00a0000\u00a0000 games necessary for the training dataset . 
+  roughly speaking the system is kinda as follows -- they combine full rollouts and evaluations by the value network in an even , 50 % -50 % mix ( when combining probabilities that is ) , and before some move has even been `` visited '' by enough rollouts , initialize probabilities of ever trying some moves based on what the policy network thinks of them ( its really a probabilistic mix that initially more likely goes w what the policy network says , and is increasingly likely to try visited moves , rather than a threshold of visits ), 
+  they might . 
+  alphago is far stronger than most of its `` teachers '' , these being mostly strong kgs players in the database . 
+  and far stronger than any of its components individually . 
+  honestly the only people who have any idea on what these chances are , are in google 's deepmind team , for only they can tell us what to expect lee sedol will be facing against . 
+  if he 's facing the same engine that won now , lee sedol should win 5-0 or 4-1 ( pros analyzing the matches tell us ) and google knows this ; basically implies it in the paper ( estimates their system 's strength in an internal tournament against other programs and via this human match , and concludes it has ~ 400 elo less than the rating of lee sedol , implying less than 10 % chance of winning -- regardless of how much uncertainly there is in this assesment , and there 's alot , this seems to set how much further they believe they need to go ) . 
+  but if they just show the exact same system , i 'd eat a hat . 
+  that would make no sense , for its clear how preliminary much of the system they demonstrated is , or how many things they can still try to improve it . 
+  now who can realistically try to guess how much they can improve further in such a time ? 
+  everyone following computer go was stunned at how quickly it progressed in 1 year already ... 
+  yy , pretty much . 
+  now , i ca n't see them doing manual tweaks to probabilities , but they will certainly try many tweaks of those networks architectures , and of the datasets ( like , using pro games for start ... ), 
+  re balance , consider further , the balance likely depends on how good the value networks are . 
+  they trained them on a large but rather weak self-play dataset . 
+  can they now produce a stronger one ? 
+  anyhow , the value network is clearly the most innovative component of their system - this is literaly the first time anyone got an efficient evaluation function for go to work - so it would stand to reason it has potential for significant experimentation and progress . 
+  then there are ofc all the tweakings of the neural nets possible to make them learn more . 
+  every year we get innovative architectures that dramatically lower error in say image classification tasks , so surely there 's much to try here on computer go tasks . 
+  well , it seems rather clear-cut to me , but maybe we have a different perspective . 
+  it looks like this to me :, 
+  alphago program never played against itself for training , period . 
+  an uncontrovesial fact . 
+  guess it did in various forms and tweaks for the internal tournament where they evaluated its strength .

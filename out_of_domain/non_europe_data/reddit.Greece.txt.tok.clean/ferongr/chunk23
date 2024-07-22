@@ -1,0 +1,100 @@
+  power does n't `` leave '' through anywhere . 
+  electrons flow from the negative terminal and return through the positive terminal of the battery . 
+  assuming the same quality contacts on both sides ( with the same resistance ) , they will heat up equally as the same current goes through them . 
+  i did not know , and to be honest , i have n't seen them being used . 
+  even then , if the copper leaf is the same thickness as the ss one , then it 's borderline for the currents passing through it . 
+  no it wo n't , small bead-type thermocouples ( like the one that came with my dmm ) are very easy to wedge between the cotton and a single coil wrap without short-circuiting the wraps . 
+  they also have very small thermal capacity making them quick to read the temperature in real time and not affect the heat of the coil . 
+  busardo and obi both use thermocouples to measure the temperature of tc coils . 
+  generally , as long as the wick is wet and touching the coil uniformly , temperatures will be quite consistent . 
+  i have actually tested both with the thermocouple in between the coil and the wick and it touching one wrap of the coil outside and i got consistent measurements . 
+  and while i understand that i could be off a one or two tens of degrees c , the images i saw from flir cameras ( p busardo did some flir experimentation early when preparing the dna40 review ) were wildly off ( a lot cooler ) while probe measurements are in the ballpark of what the actual coil does . 
+  now , if your thermal imager is better please show some images from it . 
+  the dna200 has no boost circuitry , voltage is limited to 6v in 2s mode and 9v in 3s mode so efficiency-wise both setups will be similar . 
+  also , i do n't do usb charging at all . 
+  assuming you use a normal-sized 3s pack it 's logical that it would charge faster than your dual-18650 devices , since the energy those packs can store is a lot less . 
+  a 1300mah 3s pack contains around 25 % less energy compared to two 2500mah 18650s . 
+  smaller packs even less . 
+  obviously a fresh battery will `` hit harder '' than one with 200 + cycles through it . 
+  according to / u/mooch315 's measurements though , the 25r has higher voltage under load , is cooler at 20a and can operate at 25a . 
+  i understand the hg2 is `` the new hotness '' and has 15 to 20 % more capacity at vaping currents but if you use mechs with low builds and care about how `` hard '' the battery `` hits '' , 25rs are still the go-to batteries . 
+  i agree , it 's smaller than my sigeleis in absolute dimensions and the rounded corners make the device a pleasure to hold . 
+  between the two , i 'd say the vtc mini . 
+  proper stepdown , flat dc temp control , awesome screen . 
+  disagree , i personally like the taste and density of vapor produced by kanthal a lot more . 
+  tc vaping feels anemic and flat-tasting to me . 
+  * barf * . 
+  i have n't received any information either . 
+  / u/cloupor, 
+  just got my tracking number in the mail . 
+  if the vendor does n't reciprocate , just put a fatdaddyvapes 510 on it . 
+  it 's pretty easy to do yourself with a soldering iron and that tapered reamer ( you do n't need an expensive one since you 're dealing with soft aluminum ) . 
+  not worth shipping the mod elsewhere and paying for parts and labor for a third-party to do it though . 
+  alternatively ... https://www.youtube.com/watch?v=tmhmrxl3twy&amp;feature=youtu.be&amp;t=3m25s, 
+  ( it 's a satirical series by liam lynch , it 's not a real juice ) . 
+  i use the holes exclusively on mine due to 26 gauge twisted kanthal and i have no issues . 
+  i do n't even pre-bend the legs . 
+  i do n't like the vapor chronicles . 
+  while at first blush his content may be decent , on further inspection his `` reviews '' are more like `` first-looks '' without any depth or meat to them . 
+  i also get viewcount-whorring vibes from him . 
+  many people have made claims the capacity of lipos but without any discharge graphs , preferably at high currents . 
+  until i see the data i keep my expectations low . 
+  also , if you thought rewraps in cylindrical batteries where widespread , wait until you start researching lipo packs . 
+  everything is a rewrap . 
+  turnigy , for example , is a hobbyking brand and they rewrap variable quality chinese cells . 
+  some brands like thunder power use good quality cells ( korean mainly , made by e.g. 
+  kokem ) that do perform well in some product lines , but as with any rewrap , you ca n't be sure of which line has what cells . 
+  quality cells are very expensive too , and packs can end up costing upwards $ 100 or more . 
+  from all my reasearch in the subject , and the lack of available data ( i wished i had the money for a 1kw , 80 + amp dc load ) if i were in the market for a dna200 , i 'd buy it or build it in 2s mode with 18650s . 
+  anyway , to add to the above , i 'd suggest you take some long and thick kanthal ( that can take a lot of heat without melting ) , looping it in the posts of the rda ( do n't make it a coil , it will be hotter ) and running escribe 's battery analyzer at your preferred wattage . 
+  3.09 v under load . 
+  it 's probably 3.2 v or higher at rest . 
+  i have 3 lemo 2s and one was a bit tighter when new , but after juicing up the small rubber seal that appears right after the hole closes while turning , it loosened up . 
+  note that the opus uses 2.5 amp current with pwm . 
+  while it 's okay for most 18650s , i would n't use it for cells that require smaller charging currents . 
+  detailed testing of the v2 .1 ( difference with the v2 .2 is in the fan speed profile and the refresh mode , otherwise they charge the same way ) . 
+  the og kbox spring loaded pin is still shitty and if implemented the same way , it would have problems like the kbox mini has . 
+  the central pin has a very limited amount of travel and it is surrounded by a rubber insulator press-fitted in a hole in the 510 . 
+  i had to fix my insulator after it got torn to shreds after 4 months with infrequent usage ( i use my sig 150s most of the time ) . 
+  ever since / u/mooch315 verified that the hg2s are the real deal , i wanted to get 6 to 8 to replace some of my older 25rs but alas , capital controls . 
+  and i wo n't pay 12 $ / ea tocbuy them locally . 
+  it performs terribly though . 
+  while paulie 's reviews are nice aesthetically i would not base any of my purchase based on his comments . 
+  bigger numbers are better . 
+  but yeah , if you see a device claiming 200w from 2 18650s walk away if you actually want to reach those wattages . 
+  dual 18650s can not manage the power output required . 
+  boards have losses . 
+  the 510 has losses ( especially at high current ) . 
+  batteries voltage sags under load and no 18650 can support 35 + a currents , you 're at 3.2 v at the battery and way lower at the atomizer . 
+  measuring the voltage at the atomizer will show the truth . 
+  there 's a reason evolv went with a 3s lipo design . 
+  see the reply i made to the sibling comment . 
+  check your spam , i got an email from cloupor with the tracking number and it 's on its way for me . 
+  thanks for the giveaway !, 
+  thank you for the giveaway !, 
+  get some samsung 25rs or lg hg2 . 
+  you 'll have no issues . 
+  aspire batteries are rewraps of mediocre chinese cells . 
+  fwiw i use 25rs in my istick 100w and i can push it all the way to 100w with no issues . 
+  the current where you see runtime differ by more than some amount ( e.g. 
+  5 % ) or in case of pulses , an entire pulse , means that your reaching a point where the chemistry acts unpredictably ( and will put you in trouble with cells in series ) . 
+  i would also discard any tests where the initial pulse dropped below 3vs . 
+  ~ ~ i would give that cell a 40amp rating due to the fact the 50amp test results in different runtime . ~ ~, 
+  ah , they 're different models of cells , not two different samples of the cell ? 
+  maybe then i 'd rate cell 1 40a pulse and cell 2 50a , but personally , without testing two samples to verify they track very close at those currents , i could n't make any recommendation . 
+  i 'm no battery scientist but what about temperature limits ? 
+  i would assume during a cc discharge the surface temperature of the tin would be close to the temperature of the internals , but with a 5s/30s on/off testing protocol , the internals could become a lot hotter than what we measure on the tin . 
+  would it make sense to have a lower absolute limit compared to the cc tests , e.g. 
+  the dude has some kind of problem with his mod or his batteries and is n't indicative of how it works . 
+  the sig 150 is a series mod with the contacts that connect to the board at the bottom and the bridge between the batteries at the top . 
+  left battery goes positive side up , right battery goes positive side down , positive to the board is the right bottom contact , negative is the bottom left one . 
+  i have two sig 150s and , as you would expect , both batteries are drained together to within 0.01 v. 
+  i do have married pairs of 25rs but otherwise do n't rotate them . 
+  i do n't know where that rotating myth came from but i ca n't fathom the principle behind it . 
+  if you 're talking about the og 150 , you have some kind of issue with it . 
+  the top contacts are a single piece with two springs behind it ( one of them doubles as the 510 spring ) and they bridge the batteries . 
+  the bottom contacts are where the wires connect that supply the board . 
+  unless someone can explain the actual reason why you should rotate batteries , i 'd say no . 
+  it does n't make sense from an electrical standpoint , especially in series mods , where current `` flows '' through both batteries equally . 
+  the og sig 150 has no tap in between the batteries ( and i expect the tc one does n't either . 
+  used to have a first run 150w ( bought it back in january ) and it was wired exactly the same way .

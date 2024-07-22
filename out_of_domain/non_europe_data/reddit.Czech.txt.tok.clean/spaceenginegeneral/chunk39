@@ -1,0 +1,100 @@
+  that depends on games and how well can they utilize multiple threads versus how well they benefit from single-threaded performance . 
+  yes , a 6700k at 4.5 ghz compared to 6600k at 4.5 ghz will perform better at everything that can utilize more than 4 threads but that 's because both have same single-threaded performance . 
+  however , if you compare a 6600k at 4.5 ghz and a 6700 at 3.5 ghz , the 6600k will be a lot better at everything that only uses 4 or less threads and comparable in games that can utilize all 8 threads thanks to the higher single threaded perf . 
+  similarly , a 6700k at 4.5 ghz will outperform a 5820k at 4.5 ghz because the slightly better singlethreaded performance from newer architecture of the skylake ( despite both being clocked the same ) can be utilized by games a lot better than those 4 extra threads of the 6 core . 
+  lots of games that are completely dependent on cpu like various strategy games and mmos also only fully utilize just few threads so only thing that really matters is single threaded performance and more threads are almost irrelevant . 
+  paradox games for example only utilize a single thread fully . 
+  i do n't see what options did you mention anywhere, 
+  yes , i 'd say the ram is worth it and also your cpu can use faster ram that 2133mhz . 
+  i mean if skylake non-k oc did n't exist this would make sense but as it stands , overclocking i3-6100 will give you roughly the same performance for less and overclocking an i5-6400 will give you way better performance for the same price ( presumably ) . 
+  in addition to that , unless zen has terrible ipc and terribly overclocks , a 4 thread zen will probably be better deal anyway just from the fact that you wo n't have to pay ridiculous premium for overclockable z170 chipset . 
+  if this came out a year ago it would be amazing but currently i ca n't see how will this be a good deal once it comes out . 
+  i ca n't say for sure since i have no experience with the cooler though if you look around i 'd expect you could find the answer somewhere on the internet . 
+  you might want to post this on r/overclocking, 
+  in short , it means once you insert your ram into mb , all you have to do is enter bios and enable xmp profile to get your rated ram frequency and timings ( those 3000mhz , otherwise it will run at stock 2133mhz ), 
+  the maximus hero should have marginally better vrm components ( though the pro is adequate in that regard ) , better sound card and the pro lacks a ps/2 port ( if you still use it for anything ), 
+  considering you 're buying a dedicated sound card anyway and the pro is about $ 50 cheaper , i 'd go with that . 
+  assuming it 's your only bootable drive in the system changing the slot should n't impact anything related to booting . 
+  both of those m. 2 slots run at the same speed so there wo n't be any performance downgrade . 
+  just keep it , it 's probably just a tried number so most people do n't bother higher frequency if 96hz works for them but if you have no artifacts higher is better . 
+  looks good except the motherboard and ram, 
+  get an 8 phase motherboard like asus z170a/pro gaming , they cost the same but much better suited for overclocking . 
+  get faster ram , you can get 3000mhz ram nowadays for only like $ 10 more . 
+  probably depending on details you play and what framerates are you hitting . 
+  regardless , consider getting a 470 instead which costs only a little more but is considerably faster, 
+  nvidia is misleading with the 1060 3gb name because it 's actually overall a weaker card compared to the 6gb version . 
+  best deals around your price range that i saw today were [ this 4gb 480 ] ( http://www.newegg.com/product/product.aspx?item=n82e16814137032&amp;nm_mc=afc-c8junction&amp;cm_mmc=afc-c8junction-pcpartpicker,%20llc-_-na-_-na-_-na&amp;cm_sp=&amp;aid=10446076&amp;pid=3938566&amp;sid= ) , barely slower ( in some games faster ) compared to the 6gb 1060 , faster than the 3gb version . 
+  also the msi cooler is considered as one of the better from aftermarket cards . 
+  then there 's this [ r9 fury ] ( https://pcpartpicker.com/product/m2mxft/sapphire-video-card-112470340g ) which costs only $ 10 more compared to the 1060 but will perform quite a lot better . 
+  since you already have it , play games and see for yourself ? 
+  general response : depends on games , resolution and target framerate . 
+  midrange z170 motherboards will with few exceptions have all the `` basics '' you want starting with :, 
+  these are around $ 110-130 . 
+  you can compare these with slightly more expensive models and see what you 're getting extra . 
+  with larger price difference you get a step up in vrm but that might be more than $ 200 . 
+  cheaper boards than these have weak vrm and although the chipset allows it , i would n't recommend them for overclocking, 
+  you can get a 500gb ssd if you ditch the hdd for around the same price, 
+  i 'd recommend better psu . 
+  i 'd recommend a 256gb ssd over a 1tb hdd , price is about the same, 
+  if you have n't yet , overclock first . 
+  in purely cpu bottlenecked scenario a 4.5 ghz overclock will be about 25 % performance increase , so yes , if cpu is what 's holding back the system it will help a lot . 
+  * download cru, 
+  * create custom resolution with desired higher refresh rate, 
+  * restart pc, 
+  * try your new refresh rate option, 
+  * repeat until you find rate that works without artifacts, 
+  so op should get rid of probably the single most efficient component for the media editing and replace it with something that will create the biggest bottleneck he can have in the system ? 
+  op is using 144hz monitor , saying i7 is overkill is just wrong . 
+  and honestly , i do n't understand the obsession with skimping on a cpu that will last you way longer compared to the gpu that will be possible to get for midrange prices in 2 years . 
+  monitor is a lot longer term investment , i do n't think it makes sense to save money on something that you 'll keep years just to buy a 1070 that will be equivalent to a mid range card in max 2 years . 
+  get a z170 motherboard and faster ram . 
+  you ca n't overclock without it and they costs basically the same as the one you picked anyway ( + they have more features in general ), 
+  every atx z170 motherboard has an m. 2 slot , it 's listed under storage along with sata . 
+  the cpu has more lanes than just for pcie slots , that 's how it utilizes them and yes you plug it into m. 2 slot, 
+  depends on games , resolution , framerate . 
+  if you play at 1440p ultra and want 60fps and your cpu is overclocked , it wo n't bottleneck graphically heavy aaa games . 
+  it will bottleneck games that are n't graphically heavy and you reach high framerates, 
+  in my opinion with skylake motherboards there are 2 options you can take : you want to save as much money as you can and do n't care about having pretty much no way to expand the build , in which case you get the cheapest h110 board for like $ 40 . 
+  or you get a z170 board because it has all the `` modern '' features and it will greatly expand the way to upgrade your build down the line . 
+  it 's not just about oc ( though most z170 boards do give you an option to oc even locked chips ) , but you need z170 to use faster ram than 2133mhz ( which is pretty big bottleneck for basically any cpu you 're going to pair it with ) , you get m. 2 slot , you get usb 3.0 . cheapest z170 boards cost like $ 70 bucks and give you these features ( though they are n't good for overclocking the cpu even if they allow it ) . 
+  getting a h170 motherboard basically means you 're paying the same amount of money but do n't get half of the features , lock yourself into 2133mhz ram and have no way to improve your cpu performance without buying a completely new motherboard ( not counting buying a better cpu but if already have a 6500 , even getting an i7 and not being able to oc it is a terrible value ), 
+  i 'd get a z170 motherboard instead of a h170 . 
+  you can save $ 10 , get a cheapest $ 70 z170 board and have more features ( like faster than 2133mhz ram , which is pretty big deal in cpu bound scenarios . 
+  alternatively , you can currently get an [ $ 90 8 phase board ] ( http://pcpartpicker.com/product/gyh48d/asrock-motherboard-fatal1tyz170gamingk4 ) which is good enough for ocing ( cheap boards allow it but i would n't recommend it ) and in several years you can get a bit more juice even from your locked cpu . 
+  h170 boards are a terrible deal all around since they limit your future-proofing the same as any other non z170 chipset but you 're not really saving any money on them unlike the cheapest h110 boards . 
+  also , if you decide to get a z170 board , get a faster ram along with it , 3000mhz ram nowadays does n't cost a lot more and the gains are pretty significant in certain games . 
+  i do n't see nothing wrong with what you 're buying really ( honestly with high end there 's not really that much you can buy in the first place since there 's only 1 option for gpu and 1 for cpu ) . 
+  i would personally upgrade the psu in due time especially if you 're going to overclock a lot . 
+  yeah , it seems decent ( jonnyguru rates it pretty highly but the review is from 2007 ) and it will handle the system . 
+  however , if i had a $ 2000 system i 'd probably want have my critical component do better than `` good in 2007 '' , especially when nowadays you can get `` perfect '' for like 80 bucks . 
+  my other suggestion is getting a better cooler . 
+  yeah , the h7 is fine but like with the psu , you can do a lot better especially for an i7 . 
+  if you want to be cost efficient wait for zen and kaby lake , you 'll have competition on cpu market again in like 2-3 months, 
+  about gpus , unlike most people i have trouble justifying spending money on a 1070 if you do n't have at least an oc 'd i5 or an i7 , both of which cost significantly less yet none of them will be available for midrange prices in 2 years unlike the 1070 . 
+  if i were you i 'd get a 4gb 480 ( probably the best deal right now from the midrange cards ) and wait until zen to see how it affects the cpu market . 
+  not really . 
+  only thing to keep in mind is that if you ever have both of them connected they will both be bootable drives and you 'll have to set correct priority in bios to boot into correct os . 
+  no , ca n't use ddr3 with skylake . 
+  i know it 's not the answer to your question but prebuilds will always have the money in the wrong parts and you 'll never be able to get anywhere close to what you can build yourself especially at your price, 
+  that 's ddr3l afaik , not ddr3 ( and if it is true ddr3 it 's not recommended by intel since it can damage the cpu ), 
+  edit : you 're technically correct but it 's a bad idea do to so either way, 
+  you ca n't use 2400mhz with a b150 board ( although i realize the cost of 2133mhz is almost the same ) . 
+  psu could be better , less wattage and better quality ( ~ 550w gold rated seasonic/evga ) would be a lot better investment in the long run . 
+  1 ) yes assuming the toshiba is a standard sata ssd, 
+  2 ) you can get any ddr3 ram but depending on price , a `` better '' ( faster frequency , tighter timing ) might be a waste because all sticks will run at the speed of the slowest ones . 
+  it 's a good idea to try and find the same sticks since it minimizes compatibility issues but it 's not necessary . 
+  the only better part the prebuilt has is a 6700k compared to a 6600k , which you could probably get within the price difference anyway . 
+  meanwhile the prebuilt most likely has a garbage psu , you have no idea what motherboard it has ( you do n't even know if it has z170 so it 's quite possible you 're buying unlocked cpu and wo n't able to oc it anyway ) . 
+  same with ram , is it a stock 2133mhz ram ? 
+  nowhere mentioned so i would assume it is , which is terrible for this price . 
+  and finally , the custom pc has a 500gb ssd and a 3tb hdd while the prebuild has a 120gb ssd ( did we travel in time to 2011 ? ), 
+  and a 2tb hdd . 
+  huge difference, 
+  with a decent overclock and during load definitely more than 20w, 
+  for those prices the 480 is way better . 
+  unlike the 6gb 1060 , the 3gb version is a weaker card overall , i think 4gb vram is still enough for quite some time but 3gb is pushing it and the price difference is small . 
+  [ here are some comparisons ] ( http://www.kitguru.net/wp-content/uploads/2015/08/power.png ) , really depends on the oc and cpu . 
+  the higher the oc , the more voltage you need so more wattage , as you can see on the chart , 4.5 ghz i5 does n't need much more voltage and does n't consume that much more power during load but overclocking an 8 core ( on architecture that does n't overclock as well as skylake ) will almost double the power draw, 
+  i 'll be honest i pretty heavily disagree with the `` logic '' behind the builds on your site . 
+  one example for all , i have no idea why would anyone consider a hdd to be a mandatory component of a 2016 pc , yet you include it with every single build you recommend . 
+  at the same time , ssd is probably the single best part to make a `` weak '' pc perform `` fast '' yet the first build where you include as default is at the $ 740 mark .

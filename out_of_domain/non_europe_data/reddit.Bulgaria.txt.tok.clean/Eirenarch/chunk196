@@ -1,0 +1,100 @@
+  in addition the functionality of switch statement is trivially replicated with if/else . 
+  i use paid flashlight app on my phone because i hate that ad-supported and freemium bullshit so much . 
+  shut up and pay jetbrains !, 
+  no problem . 
+  do n't buy the new versions of jetbrains ' products . 
+  lets see who 's more productive and has market advantage . 
+  no but i would consider paying if there were new features and certainly would if there were only ad-supported altrrnatives, 
+  i believe the incentive to maintain the product is much more important and serious risk that subscription model solves, 
+  i do n't understand why they are even trying if they ca n't solve this problem . 
+  i mean this seems like the very definition of half-assed solution . 
+  it does n't work for half of the cases . 
+  in fact they recognize this by making it a warning other than errors . 
+  only true if you think swift and ruby code is superior to read to c # code which is debatable . 
+  sure adding !, 
+  will work but will it make things better ? 
+  i agree but i hope the math case is how i see it used in practice . 
+  i hope people wo n't abuse it . 
+  we 've done pretty well with operator overloading so maybe the same will happen with using static, 
+  i am always curious how people manage to fill their cloud storage . 
+  i am staying at 1/3 and putting more and more stuff in but they keep increasing the space so i am always at 1/3 . 
+  the only thing i can think of is people shooting a lot of videos of their kids . 
+  so they were n't doing a very good job then ? 
+  go is n't even in the same league as java . 
+  something something generics, 
+  i was once fired but it turned out i was let go ( evident by the fact that 1/3rd of the company was let go for financial reasons a month later ) . 
+  i guess they did n't want to harm moral if i told people i was let go but if i told others that i was fired they would n't worry about their own positions . 
+  i do n't know . 
+  how come i know the names of a food bunch of . net evangelists ? 
+  obviously they are doing something, 
+  as i said it worked perfectly for operator overloading . 
+  also my admittedly limited experience with production java code did not indicate that static import is abused, 
+  your conspiracy theory is irrelevant here . 
+  i could not possibly learn the name of the evangelists from downvoting on reddit . 
+  they are doing conference talks , videos , articles , etc. 
+  i gave up on storing music some time ago . 
+  i just use spotify now . 
+  and for projects i use actual source control . 
+  onedrive seems to be a third party solution . 
+  local acts is a good point . 
+  spotify also lacks some famous albums . 
+  i guess i am just too lazy to rip music these days, 
+  may i suggest visual studio online . 
+  it uses the account you already have for your os and it is built into visual studio , 
+  i realize that but being able to just hit build and not know the build system exists is a great feature of the build system . 
+  because i have 0 interest in clicking a button to power my macro . 
+  larva inject is easily the most stupid part of the game . 
+  i want it gone because it is stupid . 
+  i do n't care how they will balance the game after that as long as i do n't have to do anything as stupid as larva inject . 
+  hell , dune 2 was better when i had to select and command each unit individually . 
+  they do change the units constantly . 
+  did you happen to miss that ? 
+  it has been explained countless times why it is stupid including in blizzard posts . 
+  because there is no decision involved and you have to do it constantly . 
+  and yes please design the game according to what i have interest in . 
+  after all this is what feedback is for . 
+  everyone says what they like and dislike about the game and blizzard decides what will be best overall . 
+  as far as larva inject goes things seem to be going my way this time . 
+  in fact it bothers me from the start but larva inject is literally the worse incarnation of macro . 
+  excluding the first queen energy there is practically never a decision involved . 
+  you always want to inject . 
+  it is a matter of apm if you will manage to inject . 
+  that 's definitely not true for building probes . 
+  if there was an option to auto build probes i would probably put it to off . 
+  i simply can not think of a better interface for most other parts of macro because they involve some decision . 
+  with larva inject it is trivial to just add autocast . 
+  btw i think creeps spread can be improved by queueing future tumors . 
+  ok you are right . 
+  i want that option . 
+  if it turns out i would leave it on then it will improve the game as i see it . 
+  but ... but ... php is fine these days . 
+  it has many modern features like namespaces . 
+  you should really give it a chance !, 
+  ( at least this is what i was told ), 
+  so when the user asks you to be able to type in a date ( because he just ca n't click with the mouse on your shitty calendar every time ) you just tell him that the idea is insane . 
+  what this code does is demonstrate how not to write code . 
+  entity framework + repository + unit of work + exposing iqueryable from the repository . 
+  oh boy ... the classic anti-pattern . 
+  entity framework provides repository and unit of work . 
+  you can claim that by introducing your own you are abstracting away ef and you can replace the backend with rest service or raw sql queries but this claim is immediately destroyed by exposing iqueryable out of your repository . 
+  just skip uow and repository when using ef . 
+  it just makes your code more complex for no reason . 
+  you may add an interface to your datacontext for easier testing eventually . 
+  if you insist on repository you should only have methods that return ienumerable/list/array and never exposes the highly coupled interfaces like iqueryable . 
+  of course once you do this you will see how much work these do for you and how this level of decoupling is not really worth it . 
+  irrelevant . 
+  it does n't even copy the engine behavior properly so it is just antiquated tech put in a browser . 
+  totally useless if blizzard force them to remove the art . 
+  i wish it was only bobby tables, 
+  the fact that you have a team is reasonable excuse but if you are about to create a team you should not go for a php one . 
+  a broken language will require more experienced devs to get the same quality . 
+  why would you want devs using their experience to fight the platform rather than produce features ? 
+  the idea that all languages are equal requires that building a quality language is very easy and this is not the case at all . 
+  here is how you test - https://msdn.microsoft.com/en-us/data/dn314429.aspx ( basically yes , ef can be mocked ), 
+  unit testing should not be the driving motivator for your architecture . 
+  decoupling is good because you can switch parts of your project if you find out you did something wrong or if another tech emerges . 
+  as great as iqueryable is it is quite hard to implement and basically you are coupled to an orm solution ( and no , micro-orm wo n't do it ) . 
+  you are not coupled to your classes but you are highly coupled based on the interface so you are not really decoupled . 
+  now , as i said i suggest that we embrace this specific coupling because of the power behind iqueryable but we should not pretend we are decoupled by introducing artificial useless wrappers in the form of repositories . 
+  also note that i do not suggest returning your whole table in ienumerable . 
+  i suggest putting your queries in the repository where they belong if you are using a repository .

@@ -1,0 +1,100 @@
+  and the reason it is n't is that deathrite shaman exists . 
+  threatening to punch anyone that plays deathrite shaman in the gonads . 
+  people will tell you that it is not necessary . 
+  they are wrong . 
+  drawbacks make the game more interesting . 
+  no they have n't, 
+  what the fuck are you talking about ? 
+  you literally listed a whole lot of intentionally designed aspects of the game that led to it being more of an adventure , which is just exactly what i said , but then said that my comment was wrong and pointless ? 
+  what ? 
+  yes we were ... how can you be this stupid ? 
+  this is basic , easily research fact . 
+  delver is not and never has been a problem . 
+  drs is , however . 
+  or , we could fix the format so that people did n't have to play chalice and shut people out of having fun and playing magic . 
+  at least you recognise you have a problem, 
+  wow that sure fell flat, 
+  the point made above was that website with guides ruined mmorpgs being adventurous . 
+  they did n't . 
+  they already existed , and were already widely used . 
+  and mmorpgs were fine . 
+  that 's kind of my whole point . 
+   sure is, 
+  no , they are n't . 
+  they 're powerful but good for the format . 
+  drs is not . 
+  you defend drs being in the format , which means you think that chalice should be powerful in the format ( as it always will be in any format with drs ) therefore you hate 1-drops . 
+   sounds like you 'll never agree the meta is healthy and diversd unless you can play your pet deck from 2012 . 
+  well it is n't healthy if people ca n't play non-blue fair decks without fucking chalice of the void . 
+  i think the issue here is that you fail to realise that drs is much , much better at being anti-mana-denial than anything else . 
+  that 's its primary role : fighting mana denial , and ending the game quickly . 
+  non-blue decks ca n't fight blue decks with wasteland and kotr and such anymore . 
+  just does n't work . 
+  so you have to play chalice , which is just unfun . 
+  and ? 
+  what about it ? 
+  that does n't mean brainstorm or fetchlands should be banned . 
+  it 's not `` twisted logic '' , it 's literally the cause behind the meta being so shit . 
+   at the recent c++ committee meeting in toronto , the coroutines ts was forwarded to iso for publication . 
+  that roughly means that the coroutine `` feature branch '' is finished , and is ready to be merged into trunk ( standard c++ ) after a suitable vetting period ( no less than a year ) . 
+  that puts it on target for c++ 20 . 
+  what does that mean for idiomatic modern c++ ? 
+  rest in peace c++ . 
+  yet another language to fall to microsoft 's idiotic async/await hype train . 
+  it adds awful , awful syntax ( ` co_await ` , ` co_yield ` , ** fucking seriously ? 
+  ** ) for no gain . 
+  c++ already has threads . 
+  ` async/await ' is a poor man 's threading for javascript and other terrible languages without good thread support . 
+  on top of that , adding an incompatible class of functions that you need special magic to call into is a bad idea . 
+  on top of * that * , it 's the wrong sort of coroutine . 
+  they 've ignored the objectively better submission by the author of asio in favour of a microsoft `` solution '' , despite the microsoft way being more clumsy , needing the awful keywords , splitting the language and being less efficient , entirely because it 's microsoft 's proposal . 
+  the same microsoft that ** continually refuses to implement two-phase lookup ** and therefore has never had a compliant c++ language implementation . 
+  yet again : boo !!, 
+  no , we do not like this . 
+  the idea that having an implementation matters is part of the problem . 
+  the committee is too focused on implementers . 
+  a little extra implementation effort vs the loss of productivity of literally millions of c++ programmers ?? 
+  two phase lookup is relevant because microsoft have had more than 20 years to implement the feature and they have n't , because they do n't care about standard c++ . 
+  the committee knows that if an ms proposal is n't accepted they 'll implement it and release it as an extension anyway because that 's what ms do . 
+  it 's toxic behaviour . 
+  because co _ at the beginning of a keyword , having to have ` await ' in your language at all ... 
+   writing a proposal in powerpoint is cheap . 
+  making claims about the new uber syntax , usability , ease of implementation and integration with existing libs is seldom substantiated until an implementation becomes available . 
+  in this case gor had an implementation , worked on various integration points and benchmarked performance . 
+  and ? 
+  it 's already fucking good . 
+  it does n't need to be ` substantiated ' . 
+  it was already substantiated by the excellent work on the asio library and the wide ranging benefits . 
+   it 's pretty close to the proverbial `` slam dunk '' at that state . 
+  especially when comparing that work to powerpoint slides . 
+  so anyone can turn up with fucking implementations and just get them into the standard ? 
+  seems like a good process . 
+   finally , i am getting a little tired of your `` 20 years '' and `` lack of standard care '' claims . 
+  please try doing some work like identifying a missing feature or a bug . 
+  try writing a proposal . 
+  try defending it in front of a panel of experts . 
+  try writing wording that is on par with the standard specification . 
+  try getting it past the expert 's review . 
+  your mindless rhetoric produces no value what so ever . 
+  try doing something productive instead of complaining . 
+  for example , read a few papers that were presented in 2017 : http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/, 
+  what ? 
+  i do n't need to * write a proposal * to recognise them * not implementing the c++ 98 international standard . 
+  it was a much better version of dota . 
+  why would a 30-minute-late train ever exist ? 
+  what could possibly make a train half an hour late ? 
+   co _ is a necessary evil, 
+  no , it certainly is not . 
+  even in other languages with this misfeature of ` await ` , it is n't necessary , and it is n't necessary here . 
+  at the worst you could make it ` _ await ` and put a macro in ` < await.h  ` ... 
+   but what is the problem with await ? 
+  what is a better alternative ? 
+  what is not a problem with it ? 
+  do you enjoy annotating every single function call with an ugly keyword when you could just . . not do that ? 
+  i do n't want to annotate everywhere in my programme that i * do n't * introduce parallelism , i want to annotate everywhere in my programme that i * do * introduce parallelism . 
+  with threads , everything is implicitly sequential and you have to be very explicit when you want to not be sequential . 
+  that 's the right way of doing things . 
+  we already have threads . 
+  this silly way of doing things means we 'll need to reimplement all the library functions ever written that take callbacks to create a new version of each ` f ` called ` async_f ` that calls its callback with ` co_await ` , for example . 
+  these problems were all covered in chris kohlhoff 's paper . 
+  that you have n't read it is incredibly concerning .

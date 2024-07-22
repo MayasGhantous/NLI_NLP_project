@@ -1,0 +1,100 @@
+  it does n't need hdr tonemapping . 
+  `` select frequency '' = = bandpass filter . 
+  his stuff ... all of it ... amazing !, 
+  there is no digital sound . 
+  converting analog to digital and back to analog is a transparent process with studio grade equipment . 
+  the vinyl process has many audible distortions , both regrading linearity ( intermodulation/harmonic distortion ) and frequency response ( riaa curve inaccuracies , also , frequency range ends within audible limits ), 
+  lossy compression will be very close to the original sound , and at proper bitrates , it 'll be indistinguishable . 
+  odd . 
+  a camera should n't bend that way . 
+  ** psa ** : before resizing this to your desktop resolution , be sure to linearize the picture !, 
+  if you resize in gamma 2.2 space , many stars will disappear . 
+  ( [ gif with the difference ] ( http://imgur.com/xk54ijj ) , the darker/blurryer one was resized without gamma correction ), 
+  in photoshop : before resizing , set mode to 32 bits per channel floating point , and reduce to 8 bpc after resizing . 
+  use the manual exposure setting with 0ev bias after selecting 8bpc , otherwise it 'll do silly hdr tonemapping . 
+  in the gimp \u2264 2.8 : you 're sol , old gimp ca n't correctly resize, 
+  in the gimp  2.9 : just resize , new gimp filters in linear space !, 
+  gegl ftw !, 
+  imagemagick : use, 
+  to crop it to size :, 
+  note the caret ( \\ ^ ) at the end of the resize function . 
+  edit : added comparison, 
+  just mentioning the two in any kind of context will result in someone speaking out against using p2p over tor . 
+  it also cycles cores every so often if there are less processes than cores , in order to equalize the thermal load . 
+  virtualbox was very slow and laggy on my hardware ( c2d@4ghz ) , while vmware player was okay . 
+  if you feel the os to be sluggish , try out a different virtulzation program ( it could improve it either way ) . 
+  boot into a live os once , just to see how it feels with actual hardware . 
+  you 'll see that the mouse wheel will work on more places than you 'd expect . 
+  sliders , volume controls , lists , tabs etc. . not only scrolling . 
+  is this a single super-long exposure , or were the lightnings stacked ? 
+  catalyst 13.1 stable is out , upgrade your drivers . 
+  [ screencast ] ( https://play.google.com/store/apps/details?id=com.ms.screencast ) . 
+  needs root permissions i think . 
+  unless you do something cpu heavy , it should be smooth . 
+  the emulator is slow as hell . 
+  maybe try android x86 in a virtualized environment ? 
+  i do n't think it 's worth it , as you wo n't get a replacement for free . 
+  stick a screen cover on it , it 'll make it less visible . 
+  get a voip account with [ one of the million providers ] ( http://www.voip-info.org/wiki/view/voip+service+providers ) and point android 's built in sip stack towards their server . 
+  [ look what i found ] ( http://www.big-bubbles.talktalk.net/personal/ade/dat-dds/index.html ) !, 
+  this should be relevant to your interests . 
+  it has to be true . 
+  why would anything on the internet not be true ? 
+  when did apps start appearing for linux ? 
+  yeah , he really nailed it . 
+  white hats have no legal protection from being prosecuted for pointing out security holes . 
+  what you did was right , but considering it responsible is a bit over the top . 
+  you were gambling with your freedom and clear record for some recognition and reward . 
+  i have an older samsung cpva with contrast unlike anything else ( the claimed 3000:1 contrast ratio for the acer is probably close to the actual value ) , but response times can exceed 70ms , so there 's noticeable ghosting . 
+  input lag is reasonable at 10ms , so gaming is n't affected by the lag as much , just the ghosting . 
+  i 'd say that even with a slow-ass monitor like my samsung f2380 , the va stigma is uncalled for , it works for games as well as photos and movies . 
+  maybe new ones have faster response . 
+  i could n't find a review where they actually measure the g276hld . 
+  panel tech has very little effect on color saturation ( only what comes from the different black points ) , it 's the backlight/edgelight that determines gamut size . 
+  and ideally , a desktop monitor should have srgb gamut , not more , not less . 
+  99 % of programs are still color-ignorant ( 100 % of games ) , and their hue and saturation will be off if the monitor response is not srgb - this includes hd movies . 
+  step one : embrace, 
+  it 's intermodulation . 
+  you are n't likely to notice harmonic distortion in polyphonic music at normal levels . 
+  you ca n't decide which one to have , you can only have both , uless you 're the one mixing the track . 
+  at low amounts of nonlinearity , harmonic distortion will remain inaudible due to the masking effect - * especially in a good tube amp which will have predominantly low-order harmonic products * . 
+  intermodulation will be more apparent , as it will not only create frequencies higher than a fundamental tone , but also lower , where there is less masking . 
+  at the point where harmonic distortion becomes apparent , intermodulation will wreck the sound . 
+  '' * now , i am become death , the destroyer of worlds . 
+  about 3mm in diameter ? 
+  that 's quite a big drop @ 6khz . 
+  how does the spectrum of a 10khz tone look like coming out of the gopro ? 
+  i 'm asking , because it 's possible that the sampling rate is 16khz , in which case the frequency response plot above 8khz is distortion/aliasing . 
+  if the sampling rate is 16khz , a 10khz tone would show up on a spectrum analyzer as a faint 10khz tone plus a faint 6khz tone , or just a faint 6khz tone . 
+  same reason as exfat . 
+  you can , but it 's better to try something less microsofty . 
+  patents and stuff . 
+  sew/glue in a pair of fridge magnets right above the corners where the hall sensors are located . 
+  if you do , the n7 will turn on as you pull it out . 
+  you might need to install a package ( laptop-mode-tools ? ), 
+  to throttle your cpu , and the properiatery drivers if the machine has an amd/nvidia gpu . 
+  if using digital filters is cheating then so is using a crossover , since one of the functions of a xo is to equalize the sensitivities of the drivers . 
+  a good way to do it is to obtain an acoustic measurement mic ( a flat response omnidirectional microphone ) and have [ drc ] ( http://drc-fir.sourceforge.net/ ) calculate a set of filters that you can use with a convolution plugin . 
+  i do n't use audacity , but the way to do it in any software is to select the part where the thing happens , and run it through a bandpass filter with the appropriate corner frequencies . 
+  if it does n't have a bandpass filter , you can use a lowpass and a highpass after one another . 
+  you do n't , unless you do . 
+  and when you do , you use a non-minimum phase fir filter . 
+  see the description of drc . 
+  it helps with time-alignment of the drivers , and it can improve on smaller resonances . 
+  you need to remagnetize the alnico pole piece . 
+  the best way to do it is to get it done with dedicated equipment , but a stack of hard drive magnets will do the job as well , however it might end up having an uneven output . 
+  ( triple check the polarity and do n't touch the other magnets ! ), 
+  is this me ? 
+  you should n't be able to ssh into a machine on the work network . 
+  the proper way to do this is to ask for a notebook which has vpn access , but does n't give you a root user , so you ca n't accidentally cause a security breach . 
+  other than that , you could make the machine on the inside connect to your ssh server on the outside and use a reverse ssh tunnel so you could connect back to it . 
+  this is a big no-no unless it 's a small moms-and-pops company with only a few machines inside . 
+  itunes ?? 
+  seriously itunes ? 
+  they can publish the app any way they want it , with or without google 's drm library . 
+  it 's one of the less intrusive restriction schemes around , having only problems if you do n't run the app while having an internet connection for a while . 
+  also , there are third party tools available that can liberate the program package if this drm ever causes any trouble . 
+  what 's wrong with android ? 
+  you can have one without google 's stuff on it if that 's what bothers you . 
+  whose pubkey did you encrypt it with ? 
+  so there 's an email account out there with your encrypted personal information , and the login credentials to it are in the email system of the company you dealt with .

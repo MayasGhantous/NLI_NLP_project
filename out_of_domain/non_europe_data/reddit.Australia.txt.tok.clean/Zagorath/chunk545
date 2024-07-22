@@ -1,0 +1,100 @@
+  no need to navigate an annoying fucking drop down menu . 
+  i love having a back button and i use it all the time . 
+  i just wish i knew what the fuck the damn thing was going to * do * in any given scenario . 
+  especially when it sometimes throws me into a different app . 
+  [ i assume he 's referring to these annoying fucking things ] ( http://xkcd.com/243/ ) . 
+  apparently some people * like * them ? 
+  god only knows how . 
+  10 * does * come before 2 on windows . 
+  alphabetically , that 's how it works . 
+  1 comes before 2 , and therefore 10 ( read : `` one , zero '' , rather than `` ten '' ) comes before 2 . 
+  windows does n't read into the semantics of it and sort in the more logical numerical order , it just sees the `` 1 '' and puts that first . 
+  os x recognises that they 're numbers , and sorts numbers in numerical order . 
+  i do n't agree . 
+  at any given time , the total ratio of heavy users to casual users is probably roughly the same ( though that ratio may very well vary from region to region -- i do n't have the stats , so i do n't know ) , but that 's because the heavy users are on for a larger amount of time , while casual users pop in and out . 
+  the percentage of heavy users who are on at any given time is probably larger than the percentage of casual users , and thus if a survey is only open for a very limited amount of time ( i think this one was open for only a couple of hours ) , more heavy users will see it as a percentage of total heavy users , compared to the percentage of total casual users , who tend only to be on for a brief amount of time . 
+  oh also , thanks for the clarification on that point . 
+  i had assumed that, 
+   a and b or c, 
+  would be equivalent to, 
+   a and ( b or c ), 
+  where it is in fact, 
+   ( a and b ) or c, 
+  so yeah , thanks . 
+  i should probably learn my order of operations better . 
+  sudo echo `` 127.0.0.1 porhub.com xhamster.com ''   / etc/hosts, 
+  or whatever the dos equivalent is . 
+  and there i was thinking i was smart for being about to name those exact same two . 
+  seems everyone already knows them . 
+  i like how both, 
+   willem-alexander , prince of orange , king of the netherlands, 
+  and, 
+   toby turner , youtube star and actor on the high fructose adventures of annoying orange, 
+  are ib graduates . 
+  seems there 's something about oranges . 
+  this is an appeal to extremes fallacy ( as a side note , it 's very closely related to the slippery slope fallacy , which is one of the most common here on reddit ) . 
+  quite simply , just because something is true , it does n't mean that the extreme form of something is also true . 
+  conversely , disproving an extreme does not disprove the related more moderate view . 
+  please come and tell this to tony abbott . 
+  sincerely ,, 
+  australia . 
+  i thought it obvious that this was an example . 
+  if a parent actually wanted to block it , they 'd have to add a whole lot more entries . 
+  no , that 's the correct location . 
+  i was mainly asking about the command to append to it , particularly since there 's no equivalent to sudo in the windows command line . 
+  and / r/youngjustice, 
+  what time 's that utc ? 
+   a few bars of the superman theme plays . 
+  oh god i want this so bad . 
+  it 'll never happen , though . 
+  they 'll never get the rights to use william 's music . 
+  yes means i 'll think about it . 
+  maybe means no , but i do n't want to hurt your feelings . 
+  no means fuck no . 
+  i misread that as 100 adventur ** ers ** . 
+  thought it was some experimental massive online tabletop rpg . 
+  still , this is almost as cool as that would be . 
+  i might suggest that as one of the potential quests , you use the lost mines of phandelver that 's included in the starter set . 
+  i 'd also make sure ( and you probably already plan on doing this , but i 'm just making sure ) not to just present the pcs with a list of 100 quests they can do . 
+  make them organically discover most of them , with maybe a handful available from some sort of tavern quest board . 
+  i imagine it 's just world building . 
+  makes for a more realistic feeling world . 
+  same reason there are plenty of areas of middle earth that are never visited in either the lord of the rings or the hobbit . 
+  i think it 's a cool idea , but you should come up with a more detailed explanation for why it 's banned . 
+  sure , they might say it 's to make everyone equal , but how did that attitude come about in that one city ? 
+  why has it not spread elsewhere ? 
+  was there some magical terrorist or conqueror in the city 's history ? 
+  perhaps its leader wanted to be a wizard , but could never get the hang of it , so he banned it . 
+  whatever the reason is , make sure the players can easily find it out . 
+  how would you have them select their class ? 
+  when they first enter through the portal , are they already level 1 ( and thus already have some of the basic abilities of that class ? 
+  ) , and if not , what * are * they capable of , and how do they get from there to choosing a class ? 
+  it 's a really interesting idea , i 'm just curious how it would play out mechanically . 
+  i mean , she has n't had * very much * character development , but it 's always seemed to me that she 's been getting more and more annoyed at varrick always going `` do the thing '' . 
+  very subtle and not very significant , but it 's more than nothing . 
+  you can go ` #define ever ( ;  ` and then write ` forever { } ` , which is more entertaining than ` while ( true ) { } `, 
+  pull up your python interpreter ( or anything similar will do , but having an interpreter makes this easier to do quickly ) and type in ` 0.1 + 0.2 ` and see the answer . 
+  that 's why you do n't want floating point arithmetic for anything that requires high precision . 
+  it 's to do with how you store decimals with binary numbers , since in typical floating point the decimal places are one half , one quarter , one eight , etc. 
+   what you just described is n't an issue with floating-point . 
+  it 's true in fixed-point binary numbers as well, 
+  ah right . 
+  good point . 
+  when i was saying `` floating point '' , i was considering it in opposition to something like dec64 or bcd , but of course anything that represents numbers as base 2 numbers will have the problem . 
+   small numbers have lower precision, 
+  how so ? 
+  surely that 's the point of the * floating * in floating point ? 
+  you can move the decimal place around to provide an equal number of significant figures at either a really high value or a really low value . 
+  a double has 52 bits in the mantissa , which is a pretty large amount of precision if you can represent numbers exactly . 
+  the issue comes in when you * ca n't * represent the numbers precisely . 
+  in decimal , for example , we ca n't exactly represent 1/3 , so doing a sum like 1/3 + 2/3 on a theoretical decimal-based computer might give something like 0.9999997 ( to pick a random number -- not actually doing any calculations here ) . 
+  that same thing is what causes 0.1 + 0.2 to be calculated incorrectly in floating point . 
+  [ dec64 ] ( http://dec64.com/ ) seems pretty damn solid , though it 's definitely not wide spread . 
+  my knowledge is n't strong enough to be able to really pick it apart , though , so it may have some flaws i do n't know . 
+  it 's a reference to '' [ chekhov 's gun ] ( http://en.wikipedia.org/wiki/chekhov%27s_gun ) '' , the dramatic principle that you should never include an element in the story that does n't have some impact on the story . 
+  just wan na point out that nobody ( or , at least , very few people ) signing the petition wanted to ban the bible because it 's a religion text . 
+  it was * entirely * in response to target 's caving to pressure from entirely incorrect assertions in the previous petition . 
+  the bible was a good pick because it 's something that the type of person who would want to make them stop selling gta would tend to like . 
+  they could also show parallels between ollie in hk and what the other characters are doing in starling . 
+  not at all . 
+  obviously you ca n't have completely plain backgrounds , but as a general principle , it is extremely common .

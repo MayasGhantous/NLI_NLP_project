@@ -1,0 +1,100 @@
+  they played a fucking blinding set ( i was there  ) . 
+  nice to see some good old-fashioned stage-trashing . 
+  that . . seems like a lot of trouble to go to !, 
+  i wonder why reversing the motor does n't work . . not powerful enough to change direction quickly , i suppose . 
+  hmm , that 's pretty much how helicopter blades work , is n't it ? 
+  although i suspect `` reverse '' probably is n't provided , 
+  ah , the `` but you can never be sure ! '', 
+  argument . 
+  love it . 
+  strictly , the dude is correct . 
+  any self-respecting atheist should really be prepared to change their beliefs , if presented with suitable evidence . 
+  if you ask most atheists , they 'll probably agree with that , given enough time to think about it . 
+  why do i say `` given enough time to think about it '' ? 
+  well , because it 's an awkward corner-case that most people have probably not thought about too heavily . 
+  and why should we ? 
+  it 's * extremely * unlikely . 
+  i do n't pay too much attention to whether or not a giant meteor will hit the earth tomorrow and kill everyone , either . 
+  for all intents and purposes i 'm a staunch non-believer in the death-by-meteor-tomorrow theory and , like many others , make long and short term decisions based on that belief . . 
+  i accept it 's * possible * , but does that mean i should be classified in the same group as the `` the end is nigh ! '', 
+  edit : hmm , if we all get killed by a meteor tomorrow , i 'm going to have some serious egg on my face, 
+  that 's some lame-arse spam , dude . 
+  i 'd be really impressed if valve did something like . . look at demographics for the areas each level should be set in , and base age , gender , race , etc for the zombies on the local population . . 
+  that 's a ) what i 'd do , and b ) a * hugely * effective bitchslap to this fucking idiot . 
+  edit : oh , i read the article , he seems to be more upset about it being set in new orleans than the fact that there 's black faces in there . 
+  what 's more amusing though , is this :, 
+   another game , `` resident evil 5 , '' puts gamers into the heart of africa , blasting zombies . 
+  i bet you 'll never guess what color they are . 
+  yay , spam !, 
+  you need a `` not safe for cat owner '' tag on that link , or something . 
+  you mention donovan , but not [ season of the witch ] ( http://www.youtube.com/watch?v=92hjh1gg3ro ) !, 
+  sounds like they started these two binaries , and then removed them from the disk . 
+  but it could be something way , way more complicated . 
+  to be honest , unless your goal is to learn exactly what they did , you should just deal with it . 
+  that basically means a complete reinstall . 
+  anything less would be foolish . 
+  personally , i 'm fond of `` cover your mouth , you disease-ridden fuckhole ! '', 
+   i would recommend taking up running . 
+  that 's bloody good advice . 
+  seems like such a little thing , and i know it 's easy to dismiss the hardcore fitness freaks . 
+  i hate running and , well , pretty much any form of exercise . 
+  but it is one of the only things i 've found that make me feel good about * me * , if that 's not too clich\u00e9 a statement . 
+  well , that kinda depends what parts you 're getting stuck on . 
+  if your answer is `` everything '' , then you probably just need more practice and experience . 
+  * lots of time fixing bugs : focus more on testing while you 're developing , that will force you to break each problem down into manageable ( and thus easily testable ) chunks , and making them work perfectly before moving onto the next part . 
+  if you ever find yourself doing `` trial and error '' debugging ( ie , changing something to see if it 'll work without really understanding the code ) then you 're going to have trouble . 
+  * not sure where to start : generally speaking , start with the `` hard bits '' first . 
+  imagine you were explaining this to your mother in 10 words or less , then write code that does that bit first , and flesh it out afterwards . 
+  another way to do it is to make a prototype . 
+  that gives you a chance to forget about interfaces , how you 'll test it , how you 'll integrate it , how you 'll add some complicated features later , and just concentrate on knocking out some code . 
+  that gives you a bit of experience solving the problem , and you can go back and do it all properly , and can focus more on getting everything * else * right . 
+  * waste lots of time refactoring or reorganising code : you need better design . 
+  try writing a short spec document ( does n't have to be detailed , just enough to make you think about how it all fits together ) . 
+  becoming familiar with common design patterns might help you here too . 
+  * typing code takes ages : erm , well , learn to type faster ? 
+  maybe try a higher-level language , or a swanky ide if you 're using something that needs lots of ` boilerplate ' code . 
+  * cant focus , get distracted : block reddit ( temporarily ) at your router/firewall/proxy / etc - makes procrastination a lot more effort !, 
+  and here are some general guidelines that might help :, 
+  * try to stick to stuff you know , or stuff you 're interested in learning . 
+  things go a lot faster with either experience or enthusiasm, 
+  * know your tools !, 
+  learn your editor or ide inside and out , learn keyboard shortcuts , read the docs . 
+  if you 're using particular libraries or frameworks or whatever , learn them well !, 
+  read the docs , join mailing lists , etc. 
+  maybe even try some experimental programs to get to know certain features, 
+  * write tests while you 're coding . 
+  well-written tests speed up development , reduce bugs , and give you more confidence to make big changes if you need to . 
+  * read other people 's code . 
+  this is probably one of the most important things you can do to improve your own code . 
+  if you have time and the inclination , contributing to an open source project is a really good way to get you into doing this . 
+  good luck man , 
+  jesus , they 've gone downhill . 
+  this sounds like bad europop . 
+  compare to one of their earlier tunes : http://www.youtube.com/watch?v=vdkmhquf60o, 
+  i had the same problem with the initial-setup stuff . 
+  i 'd leap directly into the ` meat ' of the problem and stay there too long , then be in a rush to get the boring stuff around it set up . 
+  there 's not much you can do there apart from discipline yourself a little more ( writing a failing test for it early on might help , if that 's possible ) . 
+  i scripted a lot of that stuff , which had the added benefit of allowing me to automate some other boring , easily-boilerplateable things ( and got rid of the `` blank page '' problem ) . 
+  helps to remember that code is only good if it can be reused by others , for which you need all that boring ancillary crap , 
+  tweak-test-tweak loops are n't that much of a problem - as long as you can build and test very rapidly . 
+  good tests are a must if you want to code like that , otherwise your testing cycle will take far too long to be productive . 
+  just make sure you never get into `` trial and error '' tweaking - if you do n't fully understand the tweaks you 're making , it 's very very easy to get stuck doing it ( and you 'll often end up with messy spaghetti-code in that situation ) . 
+  as you get more familiar with the language and the codebase you 're working with you 'll probably want to try writing more and more code in each iteration . 
+  this is important to improve your aptitude with the language ( as you 'll quickly teach yourself to avoid common mistakes , rather than making them every time and fixing them immediately afterwards ) . 
+  it helps force you to form a more detailed and accurate mental model of the code you 're working on , which is one of the more subtle , but important skills to master . 
+  i use four text editors . 
+  on my workstation i have one multiple-document thing that i use as my `` ide '' , and one simple , extremely-fast-loading `` notepad replacement '' . 
+  on my ( * nix ) development servers i have one full-strength `` proper '' editor for serious work , and one small , fast editor for simple tweaks and hacking at config files , etc. 
+  all of them have their uses and their particular benefits . 
+  i 'm not a devout tdd chap either . 
+  i eschewed proper testing for many years as i just did n't see the benefit . 
+  i have since changed my mind . 
+  tests are still really really important for one reason : they increase your confidence in the codebase . 
+  to be a bit more specific :, 
+  * ability to rapidly add and alter things and ensure you have n't introduced bugs, 
+  * a whole ton of little snippets of code covering all the dark corners of the system, 
+  * protection from regression , assuming you add tests for each bug you find, 
+  * the confidence to make big , sweeping changes without breaking existing functionality, 
+  . . but really it all boils down to giving you confidence in your code . 
+  that 's * so * not an advantage . 
+  `` i 'm on the moon , i 'm on the moon , take a good hard look at the motherfuckin ' moon ! '',

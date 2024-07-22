@@ -1,0 +1,100 @@
+  a very high learning curve . 
+  it does n't have built-in support for debugging , or code refactoring . 
+  i can see the use for such things but i have a debugger for that so it 's good enough . 
+  at the end of the day the only way to learn is to do . 
+  you want to learn linux then use it . 
+  install slackware onto a spare box , if you do n't have one go to your local thrift store and buy an old one . 
+  get it working . 
+  once you have it running install a webserver ( apache or nginx ) , setup a dns server ( bind9 ) . 
+  write a basic script around * useradd ( 8 ) * to replicate * adduser ( 8 ) * . 
+  figure out how to manually setup routes and configure your ethernet card on the server . 
+  your going to run into a million problems . 
+  figure each one out and move onto the next . 
+  slowly things will start pulling together and making sense . 
+  make ** sure ** you understand ` man ` . 
+  if you do n't type ` man man ` on the command prompt . 
+  also understand * apropos ( 1 ) * . 
+  books :, 
+  * [ essential system administration ] ( http://www.amazon.com/essential-system-administration-third-frisch/dp/0596003439/ref=sr_1_1?ie=utf8&amp;qid=1297038645&amp;sr=8-1 ) : i 've heard good things about . 
+  never really cared myself . 
+  * [ cuckoo 's egg ] ( http://www.amazon.com/cuckoos-egg-tracking-computer-espionage/dp/1416507787/ref=sr_1_1?s=books&amp;ie=utf8&amp;qid=1297038719&amp;sr=1-1 ) : not directly applicable but will change the way you look at problems and increase your security awareness . 
+  i highly recommend . 
+  * [ google ] ( https://encrypted.google.com/webhp?hl=en ) : this is the bread and butter of problem solving . 
+  hope this helps . 
+  ` man man ` . 
+  read understand . 
+  i would start learning ` bash ` , or another shell scripting language . 
+  learn the commands ` find ` & ` xargs ` . 
+  your on the right path . 
+  if you keep just using linux you will learn it and with time understand it . 
+  almost all of this is based off my last boss :, 
+  * bribery while useful does n't work if your employee 's hate you . 
+  * pulling your underlings into your office every couple of hours does n't let us get our work done . 
+  * if you do n't know something then straight up admit it . 
+  pretending to know does n't help . 
+  * telling your team members that they can always come ask you questions does n't work if you tell your underlings to go figure it out when ever they do ask you a question . 
+  all teams will be different but what works for us is something along the following :, 
+  every monday we pull up a spread sheet of projects , tasks and other todo 's . 
+  our boss walks though asking the status of each project . 
+  we have a simple a/b/c priority . 
+  a 's really need to get done , it would be nice if b 's make progress , and if short of anything else to work on do a c. 
+  if something is noticed over the last week and is n't already on the sheet we talk about it and toss it on . 
+  then for the most part we are just free to work . 
+  if i run into my boss and we both are n't in the middle of something we will stop and talk about progress and the state of the department . 
+  short of that i just get to work . 
+  as a note i work in the it department for a mid-size semi-tech firm . 
+  no debian just rewrites parts of the system causing them to work in odd and unexpected ways . 
+  like service , which can work differently from / etc/init . d , cron.daily not working if a file has a dot in the name , splitting exim 's config file into 50 files , or installing sendmail which will delete your postfix conf . 
+  have you tried buffers windows and tabs in vim ? 
+  using some combination of the above you can make it a lot easier to manage multiple files . 
+  utah also has a ridiculous number of yoghurt shops and jewelry shops . 
+  i 'm not sure what the yoghurt shops have to do with this thread but utah sells a large number of engagement rings and other stuff . 
+  we import young adults from other states and marry them to each other . 
+  the program is called byu . 
+  vimperator kicks the asses of all non-firefox clones . 
+  you are correct . 
+  i use pentadactyl but am so used to it being vimperator that i have n't still adjusted . 
+  run your own mail server . 
+  then adjust the recipient_delimiter in postfix to be ' - ' . 
+  then you can use ` bob-junkmail@example.com` or ` bob-reddit@example.com` . 
+  and yes i know that 99 % of all email validators are bullshit . 
+  [ wikipedia ] ( https://secure.wikimedia.org/wikipedia/en/wiki/go_%28game%29 ), 
+  i 'm sorry you feel that way . 
+  i was n't trying to passive aggressively letting you know about wikipedia . 
+  i was simply trying to answer your question . 
+  as far as i 'm aware go is a commonly played game in many regions not just china/japan . 
+  for instance my elementary school in michigan had a go/chess club . 
+  i stumbled across her book in a library in elementary school and loved it , the joy i had when i found out my favorite director was turning it into a movie i ca n't express . 
+  while i 've yet to read anything by her except the original `` howl 's moving castle '' i 'm very sad to see her go . 
+  i guess it is time to go dig up some of her other books . 
+  rip, 
+  [ i 'll leave this here ] ( https://secure.wikimedia.org/wikipedia/en/wiki/timing_attack ), 
+  a timing attack against it could resolve the password character by character . 
+  as for `` we see multiple names of cryptographic hash function algorithms at the top of his device '' there were also a few encryption algorithms on there in addition like `` aes '' . 
+  standard hashing functions have a constant time . 
+  if you have a really bad hashing function it is possible that they have a time per character . 
+  in this case you can check each character to see if it is successful by measuring the time it takes for it to fail . 
+  by noticing that password : ' 00000 ' takes 1 second to fail , ` x0000 ' takes 2 second to fail and that ` xx000 ' takes 3 seconds to fail you can then assume that you know the first two characters . 
+  repeat . 
+  as i said this only works with really horrifically bad hashing functions but it does theoretically work . 
+  see : [ here ] ( http://duckranger.com/2010/07/protecting-your-cake-site-against-timing-attacks/ ), 
+  have you tried : command + shift + g ? 
+  woot !, 
+  i wore mine yesterday . 
+  what 's wrong with the c ffi ? 
+  i found it quite simple to use . 
+  it 's a variation of a logo for a techno artist called [ deadmau5 ] ( https://secure.wikimedia.org/wikipedia/en/wiki/deadmau5 ) . 
+  the artist plays minecraft . 
+  it 's a variation of a logo for a techno artist called [ deadmau5 ] ( https://secure.wikimedia.org/wikipedia/en/wiki/deadmau5 ) . 
+  the artist plays minecraft . 
+  actually it is [ ` deadlock ` ] ( https://secure.wikimedia.org/wikipedia/en/wiki/deadlock ) . 
+  i do agree that they use deadlocking as a ` get out of jail free card ' . 
+  actually it is mostly because i 'm not quite yet 21 . 
+  give me a few more months , 
+  if you are on a mac :, 
+  for x in ` jot 50 ` ; do wget ` printf `` http://www.hybridlava.com/wp-content/uploads/real_world-%d.jpg\ '' $ x ` ; done, 
+  for x in ` seq 50 ` ; do wget ` printf `` http://www.hybridlava.com/wp-content/uploads/real_world-%d.jpg\ '' $ x ` ; done, 
+  yes you should play the first one before the second . 
+  and yes it is available on the xbox360 . 
+  [ amazon ] ( http://www.amazon.com/orange-box-xbox-360/dp/b000r0plk2/ref=sr_1_1?ie=utf8&amp;qid=1303233425&amp;sr=8-1 ), 
+  i prefer the pc version .

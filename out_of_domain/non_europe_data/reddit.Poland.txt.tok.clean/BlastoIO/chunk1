@@ -1,0 +1,100 @@
+** server : ** * horde *, 
+  ** coordinates : ** * -1430 , 2890 *, 
+  ** p.s. 
+  ** * just so we do n't have a repeat of last time ... the red slurpee machine is for the body parts you find while cleaning that bathroom , the blue one is for h1z2o . 
+  the trauma from events such as this will make you ask questions that you normally would not ask . 
+  these include , but are not limited to :, 
+  * - '' ... why did i holster my weapons and run at them with only my fists out ? 
+  * - '' ... is this actually happening or is this just a hell of a dream ? 
+  * - '' ... why do i have 47 pairs of the same pair of goggles in my backpack ? 
+  * - '' ... why did n't i record any of this ? 
+  shameless permalink to my earlier encounter . 
+  +1 on the extremely scary . 
+  i had it happen in the city , so it had the modern era overpowered zombie feel as opposed to your children of the corn encounter . 
+  good times . 
+  fun note ... there was a guy locked in the bathroom of that gas station ... 
+  i could n't stop laughing . 
+  that encounter ended after i locked about 20-30 in a bedroom in a house , about 20 minutes away ... 
+  i feel bad for the next looter ... 
+  i spent the past 2 days turning into a hill man . 
+  one thing i quickly noticed is that people rarely ever venture that high up . 
+  therefore , those places are loaded with zombies holding player loot . 
+  with each zombie dropping more than i could carry in one shot to begin with , it gets really rough having a group of five time at you and each drop that much . 
+  ca n't wait until i can retreat back from the great above and suffer those first world problems . 
+  fun and simple game play , love it !, 
+  some feedback :, 
+  - add a simple `` tap to jump '' pop up somewhere to let the player know how the game works when they first get into the game . 
+  - adding even the simplest of [ color ] ( http://imgur.com/i0jyxr6 ) goes a long way . 
+  - i really like the simple art style . 
+  clean and retro . 
+  - since this is a game where you need to see what is ahead of you , try putting the game in landscape . 
+  it will not only let the player see further ahead , but also help you get rid of all the empty screen estate . 
+  if you 're looking for someone to chat with / bounce ideas off of , shoot me a message and i 'll throw you my hangouts . 
+  great work and looking forward to your future creations !, 
+  one issue we noticed with the dev console is that if you 're logged into more than one google account on a browser , you 're going to have a bad time . 
+  tell them to make sure they are all on incognito / privacy mode on their browser . 
+  it gets pretty annoying telling that to each of your testers so i 'd suggest you make an faq / walk-through page like many devs out there do . 
+  for reference , our builds usually take between 2 and 6 hours to go live in the store . 
+  6 hours is during peak time on friday / saturday nights . 
+  you know , i actually had the same exact issue on our first app . 
+  all this time i thought i derped ... 
+  have them visit it from a browser . 
+  i 've tried just about everything out there and limelight has been my favorite / the one that works the best . 
+  we just posted our game to prod with a new apk about four hours ago , no issues on our end . 
+  ah , we 're not using obb files . 
+  sorry to hear that 's happening to y' all . 
+  i would start with that good ole `` i wonder if it works on this browser ... '' approach . 
+  if that does n't work , start double checking that everything meets the guidelines set by google ( http://goo.gl/vlznja ), 
+  just as a friendly reminder , make sure you 're only logged into google with one account . 
+  a lot of google siblings do n't play well with others . 
+  hey there , sputdev !, 
+  it is indeed very helpful , thank you for bringing it up . 
+  i was just reading in another thread yesterday about some nexus 6 's having issues with unity 5 . 
+  this is an issue which some people see improvements on when vsync is set to `` every v blank '' , which all of our builds are set to . 
+  i have a new build i am getting ready to upload which enables full android tv support , updated version of the plugin we use for google play game services , and a good amount of optimizations we made in the past 24 hours . 
+  would you mind reaching out to me on g + so i could send you that build over to test out real quick ? 
+  i 'll send you a message with my profile . 
+  hey there ,, 
+  would you mind elaborating a bit further ? 
+  thanks !, 
+  which difficulties did you try it on ? 
+  also , what device were you using ? 
+  helicopter game ( think back ~ 15 years ) and flappy bird-styled games were the type of mechanics we were looking for . 
+  we 're working on going in our own direction and trying to get away from the meta that these games have had for years and years . 
+  we have almost 30 android devices to test out what we 're working on . 
+  with that said i agree with you on the speed increase being inconsistent . 
+  we noticed this pretty early on with different builds of unity having a different effect on different devices ( no patterns ) . 
+  i personally feel that the tweaking on easy and medium is pretty solid and i 'm happy with it . 
+  hard seems to have a hit or miss in that area right now , and insane is a bit over insane . 
+  the root cause of this inconsistency issue actually comes from one of the plugins we were using for google play services . 
+  which it is a great plugin , the frame rate has quite a crazy random spike to it right now . 
+  this is something that will be fixed within the next couple of days . 
+  we have been working hard to get that kink fixed up and we 're at the home stretch right now ( from our countless tests ) . 
+  anyway , really appreciate your feedback and your time , very helpful indeed . 
+  thanks !, 
+  hey ,, 
+  which device are you using ? 
+  ( just for reference ), 
+  the plugin we were using for googleplaygameservices had a lot of clunk on top of it , so we have switched to what has so far been an amazing suite with great documentation ( [ this man makes magic ] ( https://www.assetstore.unity3d.com/en/#!/publisher/2256 ) ) . 
+  this has completely fixed the issues thus far from all of our testing , and the build will be out within the next couple of days . 
+  overall , you gave some great feedback . 
+  i 'm working on tweaking the ad behavior as we speak , and we 'll be tweaking hard and insane to make them more playable . 
+  another feature we 're toying around with is the ability for players to customize the visual end of the game when it comes to certain parts of environment / color scheme / plane model . 
+  in the end , i 'm sorry you did n't get a proper experience caused by the framerate issues . 
+  the new version is just around the corner so if you get a chance , please do check it out and throw some feedback our way again . 
+  thank you again !, 
+  for a second there , i thought you were going to tell me you had the r2d2 droid x or something ... 
+  the `` lowest spec '' hardware we test on is actually the original droid x , so you should be fine . 
+  after we 're done with this build , i 'll make sure to update this thread . 
+  thanks again !, 
+  hey sput ,, 
+  i just messaged you on hangouts . 
+  let 's get some logcat action going while you have each of the games running and see what the dumps say . 
+  hey ,, 
+  every device i have tested parts of the new build on has absolutely no stutter right now , so i 'd like to think i figured out one of the ways . 
+  after all this work , i 'm fairly certain it was caused by the previous plugin we were using for google play game services . 
+  specifically , i believe a large cause for the issue was the proxy not being made to handle as much as was being thrown at it . 
+  how did you fix your issue ? 
+  on a semi-related note , i also fixed a rendering issue that our nexus player was having . 
+  if anyone who reads this has one , go put a sprite that 's over 10 megs in size , you wo n't be disappointed . 
+  as for the start screen . .

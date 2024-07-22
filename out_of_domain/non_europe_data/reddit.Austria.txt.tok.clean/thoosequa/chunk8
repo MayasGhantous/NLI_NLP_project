@@ -1,0 +1,100 @@
+  the [ rss ] ( http://arma3.com/loaddev?feed=rss ) and [ atom ] ( feed : / / arma3.com / loaddev?feed = atom ) feeds are quite standard and can be used by various readers . 
+  the [ json ] ( http://arma3.com/loaddev?count=2&amp;type=sitrep ) feed is actually used by the game 's launcher , and can be queried using a few parameters . 
+  * feed : rss / atom, 
+  * page : < number , 
+  * count : < number , 
+  ** operations **, 
+  the configuration of * vortex ring state * simulation in the advanced flight model for helicopters is going well . 
+  we believe it 's ready to include in * update 1.36 * , so start re-thinking your ` collective down full ' straight descents . 
+  it 's also going to be possible to determine the use of afm on a server-level . 
+  the priority of afm configuration will be : [ server.cfg ] ( https://community.bistudio.com/wiki/server.cfg )  [ description.ext ] ( https://community.bistudio.com/wiki/description.ext ) ( scenario )  options . 
+  the parameter is forcerotorlibsimulation ( 0 - options , 1 - forced on , 2 - forced off ) . 
+  ** logistics **, 
+  we were sent a nice and simple web tool which lets you quickly [ create and host an arma squad xml ] ( https://armasquads.com/ ) . 
+  these are the files that let you configure a squad / clan for multiplayer . 
+  the most visible result of using such xml is the squad emblem on vehicles ( and above groups in zeus ) . 
+  thanks to [ marco rieger ] ( https://twitter.com/a1mie ) for this unofficial service !, 
+  this kind of information is more likely to be found in the spotreps or techrep, 
+  needs more upvotes . 
+  if your goal is ultimately to learn c++ then start with c++ . 
+  the mx is basically a slightly altered bushmaster acr . 
+  so basically the mohawk ? 
+  disagree here . 
+  if your goal is to learn c++ then start with c++ . 
+  this is recommended by the / r/learnprogramming faq and stoustroup himself . 
+  i started with java on my own and i am now leaning c++ in uni . 
+  it 's hard but not impossible with the right amount of effort . 
+  arma 3 only uses one of your cpu codes and barely uses your gpu , as such there is no fix . 
+  but the issue is well known and bi is constantly trying to fix it, 
+  i have an amd and i 'm getting solid 40-50 in sp and mp , any explanation ? 
+  at first glance it looks a lot like recruiting , so that could be a reason for the downvotes . 
+  on top of that it 's kind of derailing the thread . 
+  if op is trying to find a server he can make a new thread , which others who also might want to find servers can then find . 
+  a `` what is a good server '' discussion has no place in a `` help me game is broken '' thread, 
+  did run arma 2 standalone before you launched oa ? 
+  because if not that might be the issue . 
+  try to verify all your game files , if that does n't help delete everything , download arma 2 , launch it , download oa , launch it and you should he good from there, 
+  did you fix your problem then ? 
+  i havent had any special desync issues since the last patch , but they are mentioning their work on fixing the mp issues right in the first paragraph, 
+  also thank bohemia for providing the community with the right tools and resources to make this happen . 
+  this is not industry standard and we should n't take it for granted, 
+  short answer : yes . 
+  i experienced more than 50 fps if you take all your settings down a notch . 
+  i prefer playing on ultra with 30 fps though , rather than on normal with 50-60, 
+  ** evolution **, 
+  it 's been about four months since our advanced flight model took off . 
+  after some initial resonance - and lifted by the upstream of your feedback - we 've reached a stable level flight . 
+  pilots have survived , adapted and now it 's time to ... well , adapt again ( i 'll explain why later on ) !, 
+  with the release of some significant new features with [ update 1.36 ] ( http://dev.arma3.com/post/spotrep-00037 ) , we 'd thought it was high time to share some more information . 
+  ** buckle up !, 
+  so , standard or advanced ? 
+  does it offer anything more than ground collisions , blade strikes , instability , and an even greater chance of rotor-based disaster ? 
+  i bet my buttons it does . 
+  after some initial sniffing and swearing , you 'll quickly get the grasp . 
+  constant anticipation , adjustments , one control axis having an impact on others - it will all get under your skin . 
+  as a reward , the advanced flight model offers you a completely different level of agility and response . 
+  rapid insertions , tricky maneuvers , aerobatics , autorotations - all of that is now waiting to be mastered . 
+  moreover , it 's a new level of helicopter gameplay . 
+  you 'll have to think strategically . 
+  manage your load carefully . 
+  different rotor configurations behave differently ; each crew member , each rocket in the pod , each liter of jet fuel now plays a role . 
+  wan na haul some extra fuel and ammo ? 
+  being greedy wo n't help if you do n't have enough power to lift off ( or after you 've picked up your comrades in an evac ) !, 
+  but that 's just a taster or the new gameplay - the best thing to do is to get in game ... and play !, 
+  however , if you 're interested in discovering a bit more about our development , read on . 
+  behind our advanced helicopter fm dwells something called rotorlib : a 3rd-party simulation library from our partners at [ real time dynamics ] ( http://www.rtdynamics.com/ ) . 
+  this implements a generic mathematical model , which takes care of all the precise simulation of a helicopter ( rotors , fuselage , wing surfaces , weight , etc ) . 
+  this fm has a variety of detailed parameters to simulate specific types of helicopters . 
+  together with a professional aircraft designer , etienne vandame , these properties were configured by our team ( even simulating aerodynamic forces for those helicopters with no real-life equivalent , using aircraft design software ) . 
+  but simulated data alone is n't enough . 
+  we pushed hard to offer up our helicopters for your feedback as soon as they were able to fly , and you 've given us a terrific response !, 
+  some of you were able to take us into great detail and even gave us professional insights . 
+  admittedly , we were not always able to keep up . 
+  still , we 're enormously grateful for your feedback , and we hope the changes we were able to introduce indicate how valuable our cooperation has been . 
+  with that in mind , let 's take a look at some of the improvements !, 
+  ** simulation , we has it **, 
+  first of all , rotorlib itself . 
+  during the dev-branching phase - and alongside numerous smaller ones - we received two major updates of the libraries from our partners . 
+  minor tweaks enabled us to , for example , create a savegame with a rlib simulated helicopter . 
+  the first major update was about [ general fidelity and performance ] ( http://blog.rtdynamics.com/?p=173 ) . 
+  the second brought a simulation retouch to incorporate vortex ring state ( vrs ) . 
+  of course , many of us have been pushing for it since back in [ take on helicopters ] ( http://helicopters.takeonthegame.com/ ) ; so , let 's take a look at where we 're at now . 
+  vrs simulation required a re-adjustment of our helicopters ' configuration . 
+  we had to proceed carefully and enabled the technology in the [ dev-branch ] ( http://dev.arma3.com/ ) only . 
+  that gave as a chance to tune vrs from being quite literally a ` killer feature ' into a more realistic and playable piece of the flight model jigsaw . 
+  now it 's unleashed for all !, 
+  at first - despite of what we 've said about the fm offering a more ` natural ' sense of handling - vrs may be a condition that does n't come across so intuitively !, 
+  watch out for your descent rates , keep calm , and go easy on your collective . 
+  ultimately , enjoy & adapt ! \u2122, 
+  ** feedback , we jump in it **, 
+  our resident rotorhead , producer [ luk\u00e1\u0161 mil\u00e1\u010dek ] ( http://dev.arma3.com/display/~lukas ) , has been closely watching and moderating our [ advanced helicopter fdm feedback ] ( http://forums.bistudio.com/showthread.php?181550-advanced-helicopter-fdm-feedback ) forums thread , turning it all into real action . 
+  in cooperation with etienne , we 've been constantly tweaking the helicopters ' configuration . 
+  the blackfoot was tamed and does n't go runaway in higher speeds . 
+  the xh-9 family helicopters have turned into great fun machines . 
+  the list of tweaks goes on and on , while other elements were added as completely new features . 
+  rotors , for example , can now be destroyed by a collision or by felix baumgarten-sized g-force stresses . 
+  we 've also added / tuned visual feedback for ground effect , vrs and for reaching / exceeding the limits of the airframe . 
+  our audio department , too , went rotor-loco , improving helicopter sounds with fresh field recordings and some new sound features ( which they seem eager to share more details about it in a future oprep ) . 
+  vehicle ui now has improved clarity and helmet mounted displays received some tlc , too . 
+  many of these features can also be enjoyed with standard fm . 
+  ** thank you for flying with bohemia rotoractive **,

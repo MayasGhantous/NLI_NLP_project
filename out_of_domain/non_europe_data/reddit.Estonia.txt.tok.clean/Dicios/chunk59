@@ -1,0 +1,100 @@
+  nurse : '' now now , your blood sugar levels are going up , i think you both need a nice nap '', 
+  harold : '' darn kids and naps , 1.6 was where it was at , i used to get 20/1 kd ratios '', 
+  nurse : `` yes harold , you have told us '', 
+  :-( i made myself sad thinking this will probably be it . 
+  i 'm sure a gaming psychologist ( do we even have those ? ), 
+  could explain better but there comes a stupid feeling when you are given an option by the developers and you do n't use it . 
+  even if you mod it out yourself or simply ignore it you feel like the odd one out . 
+  if a game is challenging from to get-go you know everyone playing it is experiencing the same difficulty curve , you find online forum threads on harder missions , discussing how they made it , videos etc. 
+  almost comes down to accomplishment again . 
+  you know plenty of other people are experiencing what you are , even if it is single player and you ca n't see them . 
+  its kind of hard to explain actually but the `` do n't use it ! '', 
+  does n't always work . 
+  i feel stupid for not using loopholes/streamlined mechanics if the devs gave them to me , knowing other players are taking advantage of this just as well . 
+  i love how this is like some elven fantasy tolkein book . 
+  renewing forests , tree nurseries , nature itself helping to grow/keep balance etc. 
+  / / yes i know these are perfectly normal terms in estonian but in english ... 
+  not really . 
+  nowadays it really is because you ca n't speak . 
+  the issue of not willing to speak was maybe just after the independence when national ideas were at the highest . 
+  seeing how my class learned russian it is n't really a mystery why we ca n't speak . 
+  school can only demand so much from you and after the independence school curriculums usually did n't put that much pressure on russian and started focusing on english . 
+  in simpler terms `` not much effort , easier to pass russian language classes '' is the norm now . 
+  we do understand more or less but even i have seen how my peers do n't really know shiat in russian . 
+  i myself consider myself quite bad at russian but i am often the `` best '' speaker among my group ( and that is scary ) . 
+  if there are words i do n't know i stutter often but i usually get the meaning across . 
+  more often used words or questions i am more quicker to answer . 
+  i do understand like 80-90 % of the conversation unless it 's in very specific terms so i can switch to english if needed or if their estonian is better , switch to estonian ( usually it comes down to hand gestures if a word does n't come to mind though ) . 
+  at work thankfully i do n't have to use russian that often but from observing people close to me who have had to use russian they usually learn sentences that get them by for that work environment . 
+  usually if its more of a `` free flow talk '' job companies hire separate estonian/russian speakers ( or whoever knows both languages well ) . 
+  as a estonian , nice tanks . 
+  for all those who are iffy about sending tanks here . 
+  well this is idiotic , if we are in nato we are in nato . 
+  might as well have the practical boom-boom shooty-shooty tanks in our country and not just a piece of paper saying `` iou defense '' . 
+  besides , abrams is the only modern battle tank that has proven its worth in actual battle . 
+  it looks cool too . 
+  estonia can have tanks !, 
+  although speculated for the `` 2000s '' i would say at 2015 we have this and not only have it but in most cases surpassed these predictions . 
+  one of the rare cases where we can be happy unlike back to the future predictions . 
+  multiplayer took off in a whole other large direction , screen quality and portability is through the roof and devices like valve are developing or oculus rift are a reality and really near future of common consumerism . 
+  i do like how predictions failed to foresee that one device can handle a lot of stuff . 
+  my fix ( after trying +10 fixes including compt . 
+  settings , manual screen size , dx11 forcing etc etc ) :, 
+  - simply updated my laptop onboard chipset drivers, 
+  i have an laptop intel i5 with a dedicated gpu but also a onboard gpu , so it was n't the dedicated gpu that was having difficulty starting as that was up to date . 
+  it was the onboard gpu that my comp probably only uses for on desktop activity that was n't letting me boot into f4 . 
+  so make sure if you are running this off a laptop , if you have a dual gpu , that both are up to date , not just your dedicated card . 
+  i 'm happy that at least i can boot into the menu now , have n't yet tested if i can actually play . 
+  edit : and now i got a crash after i finished loading :d , hey at least progress, 
+  edit2 : fixed it by updating to latest nvidia beta drivers , just played for like 2 h without any crashes, 
+  playing on a laptop , does n't use dedicated gpu for some reason . 
+  anyone with similar problems ? 
+  hi , i am playing below minimum . 
+  however i did play perfectly ok on minimal settings . 
+  i reached **** 1-2h really minor spoiler **** red rocket and got my first companion . 
+  the game ran perfectly fine . 
+  after that session i shut my comp down and as of today in areas i used to have no trouble it is going literally 0.5 fps . 
+  with no graphic demanding action on screen ( i did fighting before near that area and it sure as hell was n't 0.5 fps ) . 
+  hell the first hint for me is that the mouse pointer somehow managed to lag in the main menu . 
+  this makes me suspect that somehow the dedicated card is n't used anymore and f4 defaults to my integrated hd4400 gpu . 
+  i had a shipload of automatic windows updates done when booted up so that could be the change that caused it . 
+  help please ? 
+  its so frustrating to get so close yet , be denied . 
+  i was so happy the game actually ran and now ... 
+  edit : so far i have learned that this is probably a nvidia problem with `` optimus '' or the ability to switch between dedicated and onboard gpus , and a drivers issue . 
+  apparently some other guy ( http://www.tomshardware.co.uk/answers/id-1988136/laptop-dedicated-gpu.html ) had a similar issue of it working perfectly and after awhile ( probably windows updates ) it screwed everything up . 
+  not with f4 though , with ue4 . 
+  yes , installed the latest drivers for my 840m from nvidias site . 
+  version 358.91 , released 2015.11.9 . 
+  yes , i tried the, 
+  ` run with graphics processor ' - ` high-performance nvidia processor ( default ) ', 
+  right click menu option on fallout4.exe, 
+  it boots up ino the game but with the all too familiar 4400 . 
+  no activity from the 840m usage charts . 
+  as a test i launched a program that works with my 840m and i can monitor activity from my 840m that it is indeed functioning . 
+  only not for fallout 4 . : e, 
+  some said that this program might not give correct data as nvidia apparently can also somehow use the onboard + dedicated card and show it as `` onboard '' but yeah , even when monitoring real time memory use , load and temperature it is pretty obvious dedicated cards are n't used . 
+  so it is more of a bigger problem . 
+  at least if we experienced it there might be others . 
+  you mean device manager ? 
+  i tried it but it simply disables the intel drivers and uses it as a general `` vga gpu '' . 
+  thus it wo n't even boot into fallout 4 using this method . 
+  or is there an alternative version that works ? 
+  i can confirm this . 
+  i can even one up and say at my first session f4 did use my dedicated card but the next day it did n't ( the reason why i started searching in the first place for a fix as a similar area suddenly was a slideshow instead of stable frames ) . 
+  i used msi afterburner to monitor my dedicated card while f4 ran and temp was stable , memory usage was 0 and general usage was at 0 so ... yeah ... pretty obvious nvidia does n't engage the right card with f4 . 
+  its even more frustrating knowing it ran perfectly ok and now its a slideshow ... i mean if it was a slideshow in the first place i would n't of been 2 h into the game as it is unplayable . 
+  i 'm also inbread http://onthenews.net/images/16-hilarious-inbread-dogs_520_1.jpg, 
+  hobbies :, 
+  - music, 
+  - food, 
+  - friends, 
+  - entertainment, 
+  - breathing, 
+  - walking, 
+  for all the alcoholic tv uncles we could of viewed at least we got him . 
+  i knew the things he did was wrong but it was still at least fun to watch and i hope at least he liked the life he lived . 
+  g'bye childhood tv crazy guy uncle . 
+  i rest my case . 
+  ooooh this kind of question . 
+  in my life i was once sleep deprived and in freezing weather .

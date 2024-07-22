@@ -1,0 +1,100 @@
+  weeell ... 
+  i remember reading that activesync will continue working for ios and android but even if i am wrong the fact is activesync is available for free so they are extending nothing . 
+  it is not like they will support activesync longer or do any technical work to provide the additional time for wp . 
+  i do n't blame them for doing it but it should not sound as if they are making ms a favor or as if they made any effort to extend the support . 
+  they did n't, 
+  while i fully agree that, 
+  - there are not many great apps on windows 8, 
+  - the winrt api is very immature and does not provide what is needed, 
+  the conclusion is bullshit . 
+  there are no great apps because they are very hard to sell due to low customer base and hard to market due to crappy marketplace system and the lack of popular sites which focus on the platform ( think of the equivalent of wpcentral.com for windows 8 ) . 
+  i wonder what are the great apps that are not possible on winrt the author thought of when writing this article . 
+  i can not remember ever thinking `` oh this is a great app it displays wonderful things in a web view '' . 
+  i know several great apps that i thought were great before and were ported to winrt for example the game armed , one particular periodic table app and the khan academy app . 
+  btw i will use the opportunity for shameless self promotion : try our windows 8 game kodar mills ( http://apps.microsoft.com/windows/en-ca/app/kodar-mills/31ccc357-2b73-418e-b5cc-239a1c7e19e8 ), 
+  not everything can be attributed to immaturity and the system does have problems . 
+  for example the windows phone marketplace ( both app and website ) is far superior to windows 8 . 
+  i can not understand why this is the case . 
+  after all they could have just taken the wp marketplace system and used it . 
+  btw the bulgarian marketplace did not have featured apps for 6 months . 
+  there was zero incentive for me as a user to even open the marketplace app ( no featured content and terrible representation of the list of apps ) . 
+  or rather they whine about platforms while somehow developing great apps for them , 
+  i somehow doubt ms will discontinue windows in the forseeable future . 
+  blue is not an sdk . 
+  it is not entirely clear what blue is but it is either a new version of windows/windows phone or a strategy for frequent windows feature releases . 
+  undoubtedly whatever release comes out of blue will feature additions to the apis . 
+  it is still the very first version of the api . 
+  - you can sell it via the marketplace, 
+  - it is actually easier to write touch app with winrt, 
+  i was an asp.net dev before going into mobile development . 
+  i quite like writing xaml but then again i always hated web development ( and not asp.net in particular but the idea of sending user interface in document format via request/response ) . 
+  because you have ms do the payment processing for you . 
+  i am scared shitless of processing payments myself . 
+  in addition it is easier to get someone to try your app than on regular windows desktop because of the security restrictions and the fact that ms checked the app . 
+  normally i would add help with marketing ( easier discoverability ) but currently the marketplace and the ecosystem around it sucks so bad that i ca n't claim this is an advantage . 
+  of course this applies to small apps . 
+  if i was blizzard and was releasing starcraft i would n't care about neither of these . 
+  interesting . 
+  it seems like you and i have completely different views of what ms pulled out with vista . 
+  in my experience they released an operating system which changed some radical things and caused a lot of software to stop working ( including drivers which caused bsod ) and the operating system had quite high system requirements . 
+  then they waited three years so developers fixed their software and the hardware got significantly faster . 
+  finally they released the same os with a different name and a new taskbar and suddenly everyone liked it because the software worked and it run fast enough on their current hardware . 
+  while i believe they will actually pull a vista with windows 8 i do n't think there will be less of anything . 
+  i do n't think anything significant was rollbacked from the changes in vista especially apis . 
+  also the same apis are now in windows phone 8 and i do n't see how they can undo that . 
+  still much harder than the windows store . 
+  the windows store does not even require me to have a website , 
+  i checked their service right now . 
+  seems much harder . 
+  i need to use an api . 
+  in the windows store i only set price and if i want in-app purchasing the windows store api is actually simpler ( i.e. 
+  there is a c # method wrapper around whatever the os is doing to verify payment ), 
+  it does . 
+  you can be featured , you appear when the user searches for keywords and overall your app is represented where the user searches for apps . 
+  i can not remember ever searching for a phone app in google . 
+  while i agree with your statements in general i do n't agree with how strong they are . 
+  it is not `` so much more difficult '' . 
+  it is somewhat more difficult but it is not a big deal . 
+  i could n't care less about html/js support . 
+  if i wanted to write html and js i would n't be writing for wp/win8 to begin with . 
+  i think most people who release apps for wp/win8 are in the same boat . 
+  well we 've had an app featured on wp and i do n't think it can be featured on google ever , 
+  of course i compare windows 8 apps to ipad/android apps not to desktop apps . 
+  our app is a nine men 's morris game . 
+  frankly i do n't see how we can get a single download , let alone sale if it was desktop app downloaded from a website . 
+  i have to admit that was a big exaggeration . 
+  however i am still somewhat worried of handling security . 
+  in addition microsoft pays taxes for you in many countries ( interestingly google does not when you publish android app ) . 
+  if you have to handle this yourself it would be a big burden . 
+  i bought vista like 1 year after it was released for one of my computers and replaced it ( the same installation ) with windows 8 just a couple of months ago . 
+  i did not have any negative experience with it and did not feel windows 7 any better , faster , more stable or anything and this is why i never upgraded that machine to 7 . 
+  i guess i skipped the phase of terrible nvidia drivers . 
+  c++ and javascript compatibility . 
+  i applaud their push to unify the os apis but i guess it will take time to mature . 
+  i do n't want to be in the business of processing payments . 
+  i do n't know how to make it more clear . 
+  it is additional work and eventual problems . 
+  between the option to do it and not do it i will not do it especially for app that may not pass double digit sales . 
+  oh yes the documentation ... 
+  it is so sad . 
+  over the years i 've come to expect really good documentation from ms especially for . net stuff . 
+  winrt docs are so sad it makes the average open source project look perfectly documented in comparison . 
+  you will have hard time convincing c++ game devs to use an api developed for . net . 
+  while i fully agree with your opinion about html/js it is obvious that ms sees this as strategically important . 
+  no point in discontinuing the api . 
+  it is not fundamentally bad it is just immature . 
+  if they discontinue it they will have to invent a new one for their store apps which will again be immature . 
+  they certainly wo n't release a new windows version every 6 weeks , 
+  i already explained that . 
+  changes hurt ( be it ui , driver model or security model ) . 
+  also in the case of vista it had too high system requirements for the computers of the time and microsoft 's marketing did not communicate that clearly . 
+  in fact they outright lied customers by putting vista ready stickers on machines with 512mb of ram . 
+  i do n't consider myself a game dev ( since we use xaml for the ui and it is just a board game ) . 
+  it is selling badly . 
+  we have relatively good conversion rate but we have very few views . 
+  we ca n't think of any way to promote it ( without pouring a lot of money into it ) . 
+  as i said no websites nor anything . 
+  good thing it is just a know-how thing and the company does not expect to make money off of it anyway . 
+  interestingly the same game is doing relatively well on windows phone . 
+  not that it will pay for itself anytime soon but at least thousands of people are playing it , we 're getting a lot of positive reviews and it makes some money which is at least worth withdrawing from the account , 
+  it is n't that bad but it is worse than most of the mainstream options .

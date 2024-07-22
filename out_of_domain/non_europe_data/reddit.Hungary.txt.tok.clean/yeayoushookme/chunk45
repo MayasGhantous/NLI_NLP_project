@@ -1,0 +1,100 @@
+  here are two practical examples i did some time ago that i think might be relevant . 
+  i 'll just cut the interesting parts . 
+  the shannon/nyquist sampling theorem tells us that we need an ideal filter to reconstruct the continuous waveform . 
+  what you can do , is approximate that with something not-quite analog , but still close . 
+  here 's what happens when i resample metal ( amon amarth ) to 1mhz :, 
+  original file :, 
+  $ sox `` 1.02 - runes to my memory.flac '' - n stats, 
+  relevant output :, 
+  overall left right, 
+  dc offset -0.000224 -0.000041 -0.000224, 
+  min level -1.000000 -1.000000 -1.000000, 
+  max level 0.999969 0.999969 0.999969, 
+  pk count 154 122, 
+  num samples 12.0 m, 
+  to see what the true peak is , i 'll reduce the volume to 25 % , and save the file as floating point , then do the resampling ( 24 times oversampling to just above 1mhz ) :, 
+  $ sox `` 1.02 - runes to my memory.flac '' - e float - b 64 float.f64 vol 0.25, 
+  $ sox - c 2 - r 44100 `` float.f64 '' - n rate - v 1058400 stats, 
+  overall left right, 
+  dc offset -0.000056 -0.000010 -0.000056, 
+  min level -0.260716 -0.258372 -0.260716, 
+  max level 0.260968 0.256390 0.260968, 
+  you get the true peak if you multiply these by 4 . 
+  to save you the hassle :, 
+  min level -1.042864 -1.03348 -1.042864, 
+  max level 1.043872 1.02556 1.043872, 
+  so theoretically , if you reduced the volume of the file by that amount , you 'd avoid clipping at the end of an over-sampling dac . 
+  with dire straits , i get the following ( i use a single effect chain here to get the levels ) :, 
+  $ sox '01 - so far away.flac ' - n stats, 
+  overall left right, 
+  min level -0.979666 -0.975124 -0.979666, 
+  max level 0.901008 0.901008 0.898515, 
+  compared to the oversampled version ( add 20db ) :, 
+  $ sox '01 - so far away.flac ' - n vol 0.1 rate - v 1058400 stats, 
+  overall left right, 
+  min level -0.100274 -0.099544 -0.100274, 
+  max level 0.093245 0.093245 0.092514, 
+  so it 's only .02 db above fs , which is neater . 
+  this worked in the ring , but it fell right in with the context . 
+  it would n't work in many other movies . 
+  lucky guess ? 
+  after my post below , i did a thorough analisys of my music collection of about 7000 . flacs , and the track with the highest inter-sample peak tops at 4db , and the second comes in at 3.2 db above fs . 
+  not very intuitive from a programmer 's standpoint , but ` parallel ` usually ends up being faster and needs less quotemarks , and other special charachers that i always forget . 
+  parallel mkdir { . }, 
+  { } : : : * . zip, 
+  a few words on what 's going on :, 
+  parallel will run the argument before the : : : with everything in the space-separated list that comes after ( * . zip is expanded by the shell here ) . 
+  in the command line within parallel , { } is replaced with the filename , and { . }, 
+  is replaced with the filename , without the file type ( anything that comes after the last colon ), 
+  ; would break the command , so it needs to be escaped with a \\ \\, 
+  you points are completely valid . 
+  i prefer using parallel to bash loops because of the straightforward syntax . 
+  string manipulation in bash is prone to syntax errors , while for almost every case , all you have to remember with parallel is ` : : : ` and ` { } ` . 
+  i get the correct command the first time 90 % of the time . 
+  where can you find music that is n't already compressed ? 
+  edit : if you 're not a fan of classical, 
+  damn , my bad ... :d, 
+  thought i was in / r/audiophile, 
+  that 's how you get the 2300w of power out of it . 
+  are microsoft engineers still barred from reading open source code , or has that changed ? 
+  i see you own a gibson . 
+  your comment could n't be more relevant . 
+  upvote to you sir !, 
+  * sheet music, 
+  there 's no need . 
+  depending on the bitrate , a hd stream will cost * up to * 5 megabytes per second , and it 's mostly sequential . 
+  thus , even a single drive can handle multiple streams , and you have a stripe of two disks . 
+  besides , the fourth hdd would be better used as another drive to stripe the volume across , for increased throughput . 
+  btw , with 3 hard drives , you can only have raidz1 , as the number at the end is the amount of parity drives . 
+  do n't forget to disable the parking `` feature '' of wd green drives !, 
+  it 's a ticking time bomb , what it is . 
+  put them loosely in a folder , and let xbmc handle the rest . 
+  not dvd covers , movie posters , but yeah . 
+  it pulls a lot of art from around the net . 
+  you can sort movies in many ways . 
+  there are also collections if you have a lot of movies . 
+  it does n't rename it , it parses it into its own database . 
+  presents it totally different from a file browser . 
+  if the file has read premissions , then mpd should be able to play it back . 
+  i think the directory permissions are n't right . 
+  directory permissions should have the execute bit set . 
+  run ` chmod a + x ` on the directory . 
+  you can , but always use a strong password on the private key !, 
+  the + at the end means that there are additional permissions ( extended attributes ) . 
+  to see what attributes are set , you run ` lsattr ` . 
+  ` chattr ` changes these . 
+  do you have, 
+  edit : point goes to / u/ingolemo . 
+  the plus means there 's an acl , not extended attributes . 
+  if it 's just an audio file , i 'd remove it ( ` setfacl - b filenames ` or recursively ` setfacl - rb dir ` ) . 
+  unless you use ** selinux ** . 
+  then you probably have to fix selinux itself , sometimes it requires additional maintenence . 
+  if the filesystem is really corrupted , run fsck on the filesystem . 
+  the defaults are good . 
+  make sure your incoming ports are accessible . 
+  if you use ecdsa keys , you can print them as qr codes, 
+  or kde connect if you prefer oss apps . 
+  windows does n't do such warnings . 
+  it 's some shitty fearmongering av suite . 
+  fyi , robots from around the world are bombarding every existing ip 24/7 . 
+  i get more than a dozen connection attempts every hour .

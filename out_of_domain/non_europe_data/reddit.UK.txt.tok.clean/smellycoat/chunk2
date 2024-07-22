@@ -1,0 +1,100 @@
+  the number of citations does not indicate much about the paper itself ( apart from an unofficial ` it must be pretty good then ' assumption ) . 
+  however , the peer-reviewed journals in which these papers are published [ are routinely judged ] ( http://en.wikipedia.org/wiki/impact_factor ) by the number of citations to papers they have published . 
+  i never really got why people like the queers , until i heard a live album ( ` live in west hollywood ' , iirc ) . 
+  absolutely amazing album !, 
+  using the w3c dom element creation methods are the `` proper '' way to create new content on the page . 
+  for example , to add ' < div class = `` foo ''  hello < / div  ' to the bottom of the document , you 'd need :, 
+  . . which is fine , if a little verbose . 
+  there are one or two advantages of doing stuff this way , you can hold onto references to things without having to give them ids and reselect them from the dom , you can also refer to elements directly when you 're creating event handers , which can simplify code a bit . 
+  downsides are that you risk memory leaks , it tends to be a lot slower than using innerhtml , there are odd browser ( well , ie ) inconsistencies , and code is rather verbose and can be difficult to manage . 
+  innerhtml is generally accepted as being ` okay to use ' if you have a bunch of html content as a string , but really best results are to be gained by understanding the two techniques fully , and applying them where appropriate . 
+  most code that has been optimised for performance uses innerhtml to populate an element with content , then appendchild ( ) s that element wherever it needs to go ( using . innerhtml + = foo is slow , as the entire element content needs to be reparsed ), 
+  edit : for the record , innerhtml is very well supported , and i believe that it 's in the w3c html5 spec . 
+  it 's not that slow ( and i did mention that ) , it depends what you 're doing . 
+  if you 're building a shitload of tags , then yes it will be slow . 
+  but it 's certainly fast enough for most things . 
+  as i stated , there are benefits to both . 
+  for example , you 're better off with dom methods if you want to append an element to an existing one , using + = with . innerhtml is asking for trouble . 
+  i have a similar library function which i use a lot . 
+  does a bit more stuff ( and copes with a few browser inconsistencies ) , but it 's basically the same idea . 
+  nah that works . 
+  ie does n't like setting some attributes like form element types , iirc you have to do something fugly like this :, 
+  which is kinda minging , 
+  nice , thanks , 
+  then , depending on what element you want , you 're in trouble ( you have to ` document.createelement ( ' < input type = `` text '' name = `` foo ''  ' ) ` for inputs/selects/etc , other elements work though ) . 
+  i have a little library function for building stuff with dom methods which takes care of that . 
+  but as i 've said , you should use whichever makes the most sense . 
+  building some stuff with string concatenation can get messy and unmaintainable rather quickly , and appending stuff with innerhtml is slow and troublesome . 
+  conversely , dom methods are slow , and can be clunky for some things . 
+  so use whatever is most appropriate . 
+  yeah i quite like it , 
+  it 's got some stuff in there so you can pass in an object with attributes too ( ` el ( ` div ' , { id : ` foo ' } , . . optional content . . ) ` ) , but most of the time i use the css-style . 
+  i also experimented using closures to make a slightly tidier interface , eg :, 
+  var table = el.table (, 
+  el.th ( ` another heading ' ), 
+  . . which was kinda fun ( especially using ` with ` ) , but it chews rather more memory than it should , and i found myself using the ` el ( ` tag.class ' ) ` syntax more often so i got rid of that . 
+  interesting experiment tho , 
+  that depends on your definition of `` works '' . 
+  if you 're talking about `` putting content on a page '' , then using flash `` works '' , rendering it all as one big image `` works '' . 
+  that does n't make it clever , though . 
+  and it can cause other problems later . 
+  innerhtml works , but it has disadvantages . 
+  there 's nothing wrong with applying it where appropriate , but in some cases there are better ways . 
+  using tables for everything works , but there are disadvantages ( which have been discussed to death already ) . 
+  also , using divs for everything works , but that is equally stupid . 
+  use the right tool for the job . 
+  understand what you 're doing , blindly sticking with something because you ca n't be arsed to go read about new techniques makes you a bad developer . 
+  that , i suspect , is why you got downmodded , and would have been why i downmodded , had i done so . 
+  yes indeed , which is , i believe , what i said , 
+  * producing any significant quantity of html by string concatenation ( in any language ) can be boring , painful , and a maintenance nightmare, 
+  * you ca n't use it everywhere ( mostly down to ie quirks ), 
+  * appending to . innerhtml ( ie , ` thing.innerhtml + = ' . . whatever . . ' ` ) is slow , and can break stuff, 
+  the point i 've been trying to make is that you ca n't pick one method and stick with it for everything . 
+  there are plenty of situations where innerhtml is the right thing to use , and plenty where it is n't . 
+  except in certain circumstances , where using dom methods or innerhtml in combination with dom methods is the right thing to do . . 
+  as i 've stated , most well-optimised code uses dom methods to create a container , innerhtml to populate it , and appendchild/insertbefore to stick it into the dom . 
+  they just knocked 25 % off the price of l4d . . ( the day after i bought it , fuckers  ), 
+  i 'm guessing it 's like that so the layout does n't break too horribly at 800x600 . 
+  does n't make it clever , though . 
+  wtf is a ` revision cloud ' ? 
+  not really . 
+  the clever thing to do is design it so it renders sensibly at any reasonable browser size without unnecessary fancy shit . 
+  ( screen resolution ! = browser size , btw ), 
+  i do n't yell at csrs . 
+  i do fuck with any telesales bastards who call me though . 
+  i launch into a rant about how if i were to yell at them , that would make their job harder and therefore less desirable , decreasing the number of people willing to do the job . 
+  this decreases supply , which ( theoretically , at least ) ultimately leads to an increase in wages . 
+  so if i were to yell at them , i 'd be doing them a favour , and they should thank me ( although i stretch that out to a good five minutes of ranting , where possible ) . 
+  i know that 's rather naively-applied supply-and-demand theory , but it 's a fun rant , 
+  nothing wrong with not knowing stuff , we all had to learn . 
+  the only problem i have is when people clearly do n't want to understand new concepts ( particularly when they asked the damn question in the first place ) . 
+  erm , nvidia have been churning out shitty cards lately . 
+  they 've got some good high-end cards , but they 're both hot-running and extremely pricey ( who wants to buy top-end cards anyway ? ), 
+  amd/ati have got it right , the 4850 and 4870 are at sensible price points and deliver far better performance than comparable nvidia cards . 
+  why am i not surprised they 're announcing losses , 
+  it might still not be a terrible plan * , ati and nvidia have been fighting for ages , neither staying on top very long . 
+  nvidia did extremely well with the 6000 and 8000 series , while ati had relatively weak offerings ( nvidia 's 6850 was the card to have for a long time , and until recently their 8800 gt was way ahead of the competition and sold loads ) . 
+  prior to that ati had the edge for a while . . and before that nvidia were on top , etc etc. 
+  plus ati now belong to amd , and they 're getting utterly bumraped by intel at the moment in the cpu market ( after riding high for a coupla years with athlon 64s ) , i suspect they 'd be a lot worse off if it was n't for ati . . 
+  * do n't take investment advice from me , i 'm an idiot, 
+  early adopters always get screwed , 
+  when buying a graphics card , rather than spending ( say ) $ 400 , you 're much better off spending $ 200 now and then $ 200 again a year or so later . 
+  and you 'll probably make $ 100 ebaying the old one , 
+  never buy the top-of-the-range cards , complete waste of money . 
+  i indent with tabs . . 
+  my rather vague and unspecific guideline that i use to resolve ` moral dilemmas ' is quite simply :, 
+  `` you have a right to do what you want and not be unnecessarily inconvenienced by others . 
+  others ' right to not be inconvenienced by you trumps your right to do what you want . '', 
+  using this as a guideline for drug laws , it 's clear to me that drugs should not be illegal , rather addiction should be illegal . 
+  addiction and dependency is an interesting subject , as it subverts your free will by prompting you do things you would n't necessarily do otherwise . 
+  so there 's certainly an argument for state intervention in cases of addiction , and possibly an argument for controlling access to certain highly-addictive substances . 
+  however , as has been pointed out elsewhere , addiction is certainly a medical issue rather than a criminal one . 
+  i * think * ( and hope ) that the bbc played a blinder there . 
+  i suspect that was a deliberate move to allow the appeal to be publicised without being seen to take sides . 
+  the only downside is that the bbc themselves will be seen as the bad guys . 
+  a rather selfless act , if that is how it was played . 
+  they ca n't be seen to take sides , and i completely understand that - it 's a political nightmare . 
+  they let benn on the air knowing he intended to publicise the appeal . 
+  at least , i really hope that 's what they were doing . 
+  they do n't always get it right , but they certainly try , and i do have a lot of respect for the bbc for that reason . 
+  the point is that they * did * air it ,

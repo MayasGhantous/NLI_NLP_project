@@ -1,0 +1,100 @@
+  its a bootprocess payload that i 'd dearly wish to control and indeed change otherwise -- its the true privileged root of my system after all . 
+  even sadly after the bootup has long passed . . 
+  lockdown itself does n't make it hardware-like else any locked platform is `` just hardware '' . 
+  now if it were something that basically has to be what it is for the cpu to function properly - like traditional microcode , i 'd agree , that is hardware-like . 
+  i 'm not sure what is less likely , for the political process to create sane consumer protection laws on this , for the market forces to give a shit about user control , or for users to . 
+  either way , we 're fucked . 
+  honestly , the courts seem most realistic here to ever do anything about this . 
+  for phones , they already force manufacturers to unlock your phones on demand in the eu ( after 2 years i think ) , so its not exactly a stretch to argue you have a right to an unlocked me/psp on your computer too . 
+  its not religious ; its largely artistic . 
+  unix and hacker culture is admittedly obsessed about the lower levels of the software stack , but there 's no denying the care and attention to detail in what they see the computing should be like ; the power it can give to the user , the interfaces it can enable . 
+  guess its not as easy to appreciate if you actually like the wimp ( windows , icons , menus , pointer ) way of interaction.as historically either shell or lisp-machine like interface of emacs was the ideal of this cult of sysadmins . 
+  and such a culture has a natural affinity for things free , as any artform abhors limits to its creativity ; bsd and gnu and x all come from this . 
+  though certainly you had proprietary ( though open as in open standards and heavily inspired by say bsd ) `` cathedrals '' of creativity like the late sun , or pre-aquisition next . 
+  it was after all , the divide between the `` longhair '' and `` shorthair '' kind of sysadmins and programmers . 
+  and no i do n't imagine many say professionals would suffer a free os if it could n't run the creative tool of their choice . 
+  this is a very precise and specific computing need , and retooling is utterly impractical really . 
+  personal computer driver situation is just fundamentally impossible ; i 'm rather surprised how practically everything works ( possibly w some blobs ) at all . 
+  but as long as it depends on the user putting it on a computer , it can not be a significant marketshare . 
+  servers are a far saner environment in this space ; you actually can support much of what 's out there.but for a personal computer , there 's probably only two ways to do it - the microsoft way ; ie already being incumbent and thus supporting everything , and the apple way ; having a particular hardware platform and working on that . 
+  i 'm amazed nobody in the linux space ( except the perhaps abortive steam machines ? ), 
+  ever attempted doing it properly ; ie selling its own line of computing systems , differentiating it , having a certification program for other vendors etc. 
+  like , how did companies like cannonical even think their strategy could possibly work out ? 
+  hehe , but i can easily uninstall that , no ? 
+  i gather that kind of thing is one-off ; they bought some company with some key patents , then settled with intel to be allowed to make x86 for a period . 
+  they ca n't do it anymore ; it has expired . 
+  well i totally disagree ; bloated blingy desktop environments happen to hurt my eyes and sensibilities far far worse . . my ideal environment is emacs and shell . 
+  if i could just self-sign / replace the thing , i would n't complain at all . 
+  i mean , fine , server folks might want an environment like that , and its more economical to put it in the chip itself , and its more economical to massproduce the same chip design , so everyone gets it . 
+  so just give us the fucking keys and nobody gives a shit !, 
+  doubt it , i 'm far too cheap for that . 
+  maybe it 's not a perfect wordchoice ; i 'm not a native speaker ? 
+  but i think its correct ; i dislike how they look , i dislike how busy they are , i think they mostly get in the way , they seem to be a resource hog , they seem terribly overengineered for the environment they produce , i do n't like the wimp paradigm much - in short , nothing about a de is what i wish from my computer really . 
+  as that 's wider from merely looks , why not say `` sensibilities '' ? 
+  very true ; free drivers are extremely practical . 
+  trouble is just that you might really be permanently stuck if there 's none , and that rarely happens with win . 
+  now , i guess most ppl just buy the stuff preinstalled and would n't ever deinstall whatever system they got with the computer , so the drivers are already there . 
+  another is just a matter of surprise to the user ; i ca n't see anyone being amazed that a windows app ca n't work on their apple computer , yet out-of-the-box linux is just compatible enough and unassuming enough that an inexperienced user just might be frustrated some particular windows program ca n't work on it . 
+  do n't think my mum was even aware for ex , when she ran opensuse on a netbook some years back , that anything was significantly different . . 
+  and i certainly did n't mean any walled garden - that implies something is closed or disabled - just a perfectly open platform - say like the way ibm pc/at ; with out-of the box linux , distinct enough branding to be differentiable to a customer . 
+  pretty much the steam machines model , but they 're targeting a really hard market . 
+  so you 're offering driver qa basically ; a company can indeed certify a periphery as working with `` linux machines '' laptops ( actually companies like redhat and even fsf do certify third party hardware ) , and can either produce `` linux machines '' or certify other oem 's as satisfying the spec . 
+  quite possibly lots of other , general pc expansions and peripherals and even applications ( like via wine ) work too , but is n't guaranteed, 
+  you just need a way to 1 ) sell out-of-the-box linux , as its better to count on user inertia , than to expect a significant portion of people to reinstall their os and 2 ) communicate driver compatibility clearly to average user , segmenting the market - as that 's terribly opaque . 
+  yeah , chromebooks seem to be the most practical incarnation of this approach , and there does seem to be a lot of those sold , so i 'm hopeful . 
+   but it just makes you sound like you think you 're better than everyone else . 
+  what ?? 
+  how the fuck ? 
+  there 's a bunch of notions around on what a proper ux on something is supposed to be , luckly its a productive field , and clearly not everyone will find the same exact thing to agree with their particular sensibilities . 
+  i do like an elegant gui too actually , for my notions of elegant ; one would be a concept of extremely lightweight , keyboard driven tiling system - basically x driven in a way inspired by something like eamcs ; though i 'm a bit rusty now in my xmonad , or another concept is say something more like windowmaker ; so a different take on the panel , and a bare stacking wm. 
+  a boring wimp interface is ok i guess , say lxqt , one of my machines is doing that ; just a panel , menu , wm simple , no fuss , robust . 
+  that appeals to me as well . 
+  or is even admitting to having opinions at all now seen as arrogant ? 
+  via was a short-term one-off deal i gather ; someone who knows more should correct me , but afaik , they got some key patents in some corporate merger or whatever , then settled with intel to allow them a limited time right to create x86 . 
+  this time has expired , and via nor anyone else besides amd and intel is allowed to create x86 ( post 486 or so ; but that 's useless ) . 
+  amd has sadly the exact same thing as intel . 
+  its amd psp , they use an arm microcontroller to run their hyper-privileged system with a signed small os . 
+  no , never tried it , thx for the reference . 
+  i had only a brief exposure to any mud ; basically acted out just a few scenes in one , but it was def really cool ; i should try again !, 
+  haha , yeah i see the picture . 
+  then it is at least partly a matter of unfortunate word choice ; it does conjure up such associations more than say `` tastes '' or `` preferences '' ( though that seems lacking in impact somehow ) . 
+  i 'm not sure to what extent i want to defend against the comparison even ; depending how well they carry their wealth and eccentricities , such people can have style and fascination . 
+  or just be rigid and limited . 
+  but there are certainly more boring things than either . 
+  so i 'll go along with it :, 
+  my mindset about the * nix world and uis is that wimp interfaces are overdone , a misguided and mostly impractical metaphor ( though further exploration is needed to see the full spectrum of better ways ) and on any other system i 'd be stuck with them regardless . 
+  unix has further always been opinionated about how interfaces should be like ; sysv vs bsd , vi vs emacs , feels almost like a modernistic artistic movement ( though i guess having anything to do with the arts is too snobby for the `` common man '' and her/his pedestrian tastes too ;d / s ) where a strong focus has been on effectively minimalist ideals : leanness of code , precise focus of mission , and compositionality ie power/expressivity of the user . 
+  its a serious approach to making computing itself cool , doing it properly because its something worth doing etc -- all typically artistic ideals . 
+  that stands quite distinct from vendors that just want `` good enough '' . 
+  so , i admire that vision , just esthetically , and to that same extent see a monolithic mammoth of a codebase , with significant performance compromises , that creates an experience that definitely does n't feel minimalist , does n't seem to have a focus on function , or on making the structural be the esthetic as opposed to hiding it in the purely decorative -- yeah , just the wrong way to go about it . 
+  so i 'm opinionated about the issue , but i do think there 's many different things to try out , as opposed to some one way . 
+  some are currently more mature than others though , and have been for the most part quite beautiful for at least a decade or two already . 
+   which at that point can be taken as saying it 's simply not a good idea , which some people will see as a `` snobbish '' opinion . 
+  well , i did n't have that particular production of the word in mind - but i do in fact think des are not a good idea . 
+  i just accept that not everyone will agree what good ideas are . 
+  opinions usually include negative opinions . 
+  in fact i think you could prob claim that likes imply dislikes ; disliking a particular ui and liking another one is linked , as their creators probably differ in their vision fundamentally ( or else all uis are just boringly variants of the same ) . 
+  supressing disagreement as opposed to accepting there will be vocal , passionate disagreements seems a poor recipe for well , pluralism , rational discussion , civilised speech etc. 
+  relevant point about browsing though - that might be a practical issue . 
+  depends on how capable the cpu is really . 
+  wait , really ? 
+  so there is in fact a perfectly practical free x86 still around in the amd fx line ? 
+  athlon line is still apu w disabled gpu , so that prob wo n't be any better , but if we 've got the fx , at least a free desktop , if not a laptop is still alive !, 
+  wiki states that `` the carrizo apu is designed to be hsa 1.0 compliant . 
+  [ 4 ] '' , and that one def has it . 
+  i do n't think des do a great job for anyone really ; ppl just launch apps and * maybe * shuffle a window around the screen , and a bare wm + launcher do that just as well , and has been doing it for non-engineers since oh about mid 80s on if you count the x workstations - so clearly , in a rather lightweight manner . 
+  but ofc someone might like different things than me in one 's environment ... 
+  this discussion started with a person disbelieving anyone might want to get rid of a compositing de , as its supposedly really ugly . 
+  so i explained , or tried to , why i find compositing des really ugly instead . 
+  but that seems like very high end workstation stuff , price they 're mentioning for the system is 5300 $, 
+  i really hope there 's a market for it , but it just ca n't be me . 
+  i saw a pixar presentation recently , when open-sourcing hydra ; they 're using workstations of this kind apparently - server-class components , dual cpu 's , ofc workstation gpus , ridiculous amounts of ram etc. 
+  looked more extreme that this thing . 
+  high quality realtime rendering of large models they 're working with is apparently the reason . 
+  final render is on a farm , guess with renderman doing full path tracing and the like , but they need to do something realtime ( opengl ) yet close enough to not deceive the artist too much . 
+  but , like you , i 'm not exactly sure what else needs this kind of thing . 
+  can cad/cam maybe still be intensive enough or are those times long behind us ? 
+  i 'm guessing they are ... 
+  maybe they just expect the price to fall before this is reasonably practical and this iteration just is super-niche , but not their final strategy ? 
+  or i just do n't know much about the high-end workstation market , which is def quite possible . 
+  ah , but its not a separate chip ; its integrated in the pch die .

@@ -1,0 +1,100 @@
+  there is quite a bit of distance between this and the regular user but in general we could say that a tool for building software lost a lot of restrictions and can now be used in situations where it would not be used before . 
+  in theory it means that the quality of the software could improve slightly and the price can be reduced slightly but in practice it probably wo n't matter that much to non-programmers, 
+  mvc6 actually . 
+  the channel 9 videos had like 3 people presented as the gc team . 
+  also she was not the initial developer and she took over from patrick dussud, 
+  if it is generated from lisp where is the lisp code ? 
+  if not why are they maintaining it in this form . 
+  i would n't . 
+  i 'd rather see them invest their limited resources in something else because i do think porting wpf to another os would be quite a challenge . 
+  ok so why do they maintain it in this form . 
+  for many years they should have refactored it into something more maintainable . 
+  that 's not how it works . 
+  wpf is an alternative to qt and gtk . 
+  you ca n't port it to these because it would n't be wpf anymore . 
+  i do n't see any value in open sourcing wpf . 
+  after all inotifypropertychanged is already open sourced by virtue of being an interface with an api specification . 
+  there is no code for inotifypropertychanged that is hidden and according to google vs oracle you do n't even need a license to copy apis . 
+  xamarin already has xaml . 
+  btw they have said while they were still with novell that wpf would require insane amount of resources to port as it is very complex and powerful so they would not invest in porting it . 
+  it would make much more sense to open source silverlight which is already cross-platform . 
+   j + + ( later redubbed j # ), 
+  j + + and j # are completely different things . 
+  j + + is an implementation of java with extensions . 
+  j # is a language that looks somewhat similar to java but runs on the clr and is not compatible with java . 
+  j # appeared with the . net framework long after ms dropped java due to losing the lawsuit . 
+  `` expanded '' is certainly not the right word `` replaced with '' is more appropriate . 
+  you made a typo . 
+  you wanted to type `` gpl '' but you typed `` foss '', 
+  they imagine that someone will port android apps using this tool . 
+  i bet no one will use it for anything significant . 
+  note that it ca n't port your ui which is the most serious issue when targeting multiple platforms . 
+  react native makes my head explode . 
+  i do n't want to develop native apps like i develop for the web . 
+  i want to develop for the web like i develop native apps . 
+  why would anyone put so much effort to create this tool is beyond me . 
+  i get dart , typescript and various ways to compile normal languages to js but this ... this is just awkward . 
+  the problem with php is not that it lacks features . 
+  it is that its features are badly designed and inconsistent . 
+  so the author says that bashing php makes php developers sad and makes them consider switching to other languages ? 
+  this makes me really happy and means that bashing php online and real world discussions does make the world a better place . 
+  as long as less software is produced using php i am fine . 
+  btw it makes sense that people willing to support php apps are the most highly paid . 
+  first of all you are wrong that js is accepted . 
+  i bash js even more than i bash php because i am forced to write js . 
+  people who use php choose their own misery but we all have to suffer javascript . 
+  it is interesting how you think that bad naming convention and configuration is not a problem because you know how to set it up but you find it hard not to use threads in a web application . 
+  i also do n't get how you can say that you do n't get to see the code for libraries . 
+  even for . net everything is open source these days and let alone for java . 
+  i ca n't remember the last time i used non-open source library in a web app . 
+  so what about this new unicode standard i keep hearing about ? 
+  i am so stealing this !, 
+  if we assume php is bad then you get to charge less than your peers because the client does n't care what language the product is built in and you use tools that make you slower . 
+  well it is objectively bad . 
+  there is no person in the world that given the same experience and a substantial project would be most productive in php . 
+  for example there is no person in the world that benefits from changing conventions in the standard library . 
+  that can only create problems and has no benefits . 
+  this is not subjective or a tradeoff . 
+  it is objectively bad . 
+  how did you decide that i do not use javascript . 
+  i wish i did n't but i have to since it is the only thing that works in the damn browser . 
+  i also wonder where you have seen threads abused . 
+  i have never seen this happen in a web application . 
+  i wonder what libraries you had to deal with . 
+  as for conventions it is just an example . 
+  you may develop quickly but you hardly gave any arguments about your effectiveness . 
+  maybe you just have more experience with php and you would be more effective in another language if you get the same amount of experience because frankly i can not imagine a world where not having threads and learning a library with broken conventions ( again just one example among many ) would make someone more productive . 
+  i never made a product in php and i hope i never will . 
+  as for your productivity well ... at least you do n't claim that broken things increase productivity . 
+  i know that stuff is broken . 
+  i mean there are no possible good things about broken conventions ( one example ) . 
+  btw if you are just as productive in php as in c # and python how can you charge more than your peers ? 
+  to be able to charge more php must give you a competitive advantage otherwise you ca n't possibly charge more . 
+  oh yes , this is what i imply but if you are starting a new project from scratch you should n't be paid more because why would a client pay to create a new hazardous environment if he can get the safe environment for the same price ? 
+  it was a joke but i will bite ... 
+  for example you may not be alerted for a mistake when converting a string to a number because php is happy to ignore invalid number strings when parsing a number, 
+  if they are going to put so much effort creating react native why not do it in another language . 
+  it is not like we lack languages better than js . 
+  i wonder what in your opinion is not a nice language with sane api if the js api is sane . 
+  php would make sense as an answer but anything else ? 
+  i have seen two arguments for php up to now - easier dependency management and open source . 
+  i do not have real world experience with php so i do not know how dependency management is done there but the existence of composer makes me think that it is not much different from other technologies . 
+  you still have dependencies and need to manage them . 
+  as for closed source libraries in the enterprise world - well how does php save you from this . 
+  the solution seems to be not working in the enterprise world , not switching to php . 
+  switching to php has a byproduct that it is not used much in the enterprise world but there are no-enterprise jobs for most technologies out there . 
+  you realize that if you do n't claim that php is better than any other language it does mean that it is the worst ? 
+  well - the worst means it takes more money ( i.e. 
+  time ) to develop quality software in the long run in php than in any other language because the language does not help you catch mistakes or bates you into making mistakes . 
+  i do n't know about this but i constantly blame js for issues i run into . 
+  what is a `` halving '' ? 
+  ah yeah , i know about this but did n't know it was called `` halving '', 
+  i will watch but i do not want to use dart and typescript . 
+  these are workarounds to make js less painful . 
+  i want to use swift , c # , java , python ... 
+  i do n't get it . 
+  if this happens so often why is there anyone accepting bets ? 
+  the person or company accepting bets should go bankrupt if the bets are rigged to such a degree . 
+  this means they will cut their losses but does not explain why they will keep providing the service . 
+  they need normal betters to compensate for the cheating betters but if they change the odds to accommodate losses by cheating betters they would drive off the normal betters . 
+  i would say no but even if they are this is not important .

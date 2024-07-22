@@ -1,0 +1,100 @@
+  should get bonus points because it contains the line, 
+    and i like the sound of wyoming, 
+    ` cause it sounds like the name of a song, 
+  in the 2nd year of my degree we had to write a web browser , from the ground up , in java . 
+  it bends over backwards to fix broken html , but no css or javascript support makes it , predictably , useless . 
+  it loaded reddit , [ kind of ] ( http://i.imgur.com/fdnh2.png ) . 
+  down load the zip , unzip , double click the jar file . 
+  if that does n't work :, 
+   java - jar filename.jar, 
+  edit : i make no promises that it 'll actually run, 
+  msnbc [ just covered it . 
+  `` i think i am going to vote lib dem in the election . '', 
+  ... 54 translations later we get :, 
+  `` i think the idea effectively . '', 
+  i 've got the wrist communicator sound from power ranger for my texts . 
+  if i 'm right in assuming reddit runs on some sort of nosql setup - cassandra , mongodb or some such then it 's probably to be expected . 
+  because a nosql database is n't relational , it 's probably not a simple matter of performing a search for comments with your user id . 
+  i 've got a feeling that reddit actually stores each submission as a ` document ' or whatever it 's called in their db of choice - then each comment on that submission in a object in that document . 
+  so you end up with a collection of tree structures with the submission as the root and all comments and comments on comments being branches and leaf nodes . 
+  doing things like that makes loading the frontpage , or the comments for a submission , really easy since that just falls out of the data structure . 
+  finding all the comments for a particular user is harder since they have to effectively go through all the submissions . 
+  i 'm sure there 's some cleaver map-reducing and caching going on . 
+  big computer systems are all about trade offs . 
+  also , i do n't know anything about reddit - so this post has all be conjecture , bullshit and hand-waving . 
+  ** tldr ; ** nosql lets them makes the front page fast at the cost of user pages . 
+  nosql is n't really a thing - it 's just the name for things that are not sql based . 
+  mongo and couch db let you treat what would be rows in a relational database as objects ( ish ) - serialized in json or whatever format they feel like . 
+  so you could have it so each document is a rich object with a tree like structure or as a simple key value store . 
+  i 'm certainly no db admin , but i would think that doing a site like reddit relationally would be a right pain - lots and lots of joins . 
+  i ca n't stand that attitude . 
+  nosql is n't new and it is n't easy to get right . 
+  for two long , relational has been the only way - as a group , we web developers have to realize that there is indeed more than one way to store user data and each way has it 's strong points and it 's weak points . 
+  [ malcom middleton ] ( http://www.youtube.com/watch?v=zwcshqx75xk ) is both sad and scottish . 
+  i 'd like to second the vote for netbeans . 
+  we use a mix of ubuntu and osx in the office - while i personally prefer windows for my non nerd activities you 'll find it much easier to get on in the ruby world with a nix . 
+  edit : that 's not to say windows/ruby is a pain , it 's just a tad more hassle to install gems which require a c compiler ( although that 's getting better with the [ dev kit ] ( http://github.com/oneclick/rubyinstaller/wiki/development-kit ), 
+  that 's what i tried a few weeks back . 
+  i , for whatever reason , got really string cravings after i got home from work - i felt like i could n't relax without a smoke . 
+  `` just one '' , i think , leads to another - hence the cold turkey, 
+  looks like it will . 
+  every single story about opera someone makes this joke . 
+  good one . 
+  i love the mountain goats - too much . 
+  13,000 last.fm plays too much . 
+  i ca n't , therefore , let a chance go by to introduce someone to my [ mountain goat introductory mixtape ] ( http://14lines.com/mixtapes/sevenlittledolls/ ), 
+  it would seem i 'm up to 16,000 . 
+  my runner up is they might be giants with 6,055 then the silver jews with 4,292 . 
+  sometimes i wonder if i have [ too much ] ( http://www.last.fm/user/unoriginal42 ) time on my hands . 
+  [ here ] ( http://14lines.com/mixtapes/seven_little_dolls_playlist.htm ) is the playlist for this mix , with album/recording name . 
+  that account is coming up to 5 years old - the they might be giants listening spree was a couple of years ago . 
+  i do n't think they 're just quirky - but i do see why someone would think that . 
+  [ they 'll need a crane ] ( http://www.youtube.com/watch?v=6xdqmgbzjgm ), 
+  i interviewed david berman for a student radio show once . 
+  he 's a strange one . 
+  whenever someone makes a noise or does an impression of something i always ask them to repeat it . 
+  then , after they do , i ask them to repeat it again . 
+  i do this three times . 
+  i used to dev on windows - netbeans was pretty nice . 
+  not sure how the rails 3 support is . 
+  on ubuntu i 've been using [ redcar ] ( http://redcareditor.com/ ), 
+  yeah , it 's called [ noads ] ( https://addons.opera.com/addons/extensions/details/noads/1.0.8/?display=en ), 
+  i use that one too . 
+  it 's quite nice . 
+  but bring headphones . 
+  i 've not long graduated from informatics . 
+  if you 're doing work in the labs , just before a deadline - do n't bother printing there . 
+  go to it services who have working printers . 
+  oh , and go to the great eastern pub and the bees mouth . 
+  make sure you go to re-freshers fair and join a society . 
+  i recommend the run down , shabby , but quite fun [ urf ] ( http://www.urfonline.com ), 
+  surely there can only be so many jobs for java or php/mysql developers . 
+  learn ruby . 
+  learn erlang . 
+  i 'd be surprised if anyone needs another java developer . 
+  people can be sympathetic toward factory farmed animals and eat meat - lovely , organic , free range meat . 
+  except , [ they do ] ( http://www.ciwf.org.uk/your_food/know_your_labels/default.aspx ) . 
+  [ not gon na raichu a love song ] ( http://www.youtube.com/watch?v=hihyfl7vgfc ), 
+  screw the counters . 
+  just do n't have another - eh ? 
+  it 's got off to a rocky start . 
+  the daily mail can not be trusted to report on a bbc story . 
+  funny , i thought it was [ unregulated american capitalism ] ( http://en.wikipedia.org/wiki/late-2000s_financial_crisis ) . 
+  ... in america . 
+  people who shorten my name without asking if they can . 
+  [ mediamonkey ] ( http://www.mediamonkey.com/ ) saved me from the misery of a large music collection and itunes . 
+  what does that have to do with anything ? 
+  are you expecting someone to say they 're for it ? 
+  back at uni one of our projects was to build a browser in java . 
+  you can take a peak at the source for the parser [ here ] ( http://code.google.com/p/browsermonkey/source/browse/trunk/%20browsermonkey/programming%20team/scratch/browsermonkey/src/browsermonkey/document/parser.java ) . 
+  it 's not the best implementation , but we found it to be pretty solid . 
+  it spends quite a lot of time trying to correct nesting errors and the like . 
+  everything went better than expected . 
+  there 's a good , cheap shop in the market, 
+  do get a bike - because the buses are expensive . 
+  but do n't go to the guy in the open market . 
+  there 's a [ great place in hove ] ( http://www.g-whizzcycles.co.uk/ ) that i ca n't recommend enough . 
+  the bbc is not state owned . 
+  posted this many times , but - if you like this - you might like [ this ] ( http://14lines.com/mixtapes/sevenlittledolls/ ), 
+   expression and readability, 
+  i really do n't see why people claim python somehow has readability as a plus point .

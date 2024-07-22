@@ -1,0 +1,100 @@
+  yeah , the line breaks and indents could be made differently , i suppose . 
+  nah , use something like this :, 
+  planet_event = {, 
+  ... #event id , location definition , description string etc. 
+  trigger = {, 
+  not = { has_planet_edict = your_edict_name }, 
+  has_planet_flag = your_planet_flag_name, 
+  immediate = { #removes the planet flag, 
+  remove_planet_flag = your_planet_flag_name, 
+  option = { #actually adds the planet modifier, 
+  name = ok, 
+  add_planet_modifier = your_planet_modifier_name, 
+  this is , of course , still missing a bunch of stuff , like correctly specifying which planet the event is dealing with , in case the player activates the edict multiple times on different planets . 
+  there probably also needs to be a silent event that adds the planet flags when the edict is first activated . 
+  the usual * mean_time_to_happen * block is deliberately missing from this event : that way , the event fires on the next daily tick after the edict expires ( and the * immediate * block breaks the trigger conditions , so the even does n't keep firing repeatedly while the game is unpaused ) . 
+  best solution is to make the planet flag permanent until the event removes it . 
+  using a no-effect modifier is also an option . 
+  the only reason to have the flag expire on its ' own , is if you want there to be a possibility that the edict `` fails '' . 
+  i.e , the event associated with the edict has an mtth so the event has the option of not firing before the flag expires ( breaking its ' trigger ) . 
+  if this is what you want , then i have no idea how it might be done adjusting for edict length modifiers . 
+  another mod is unlikely to remove your modifier prematurely . 
+  they 'd have to call out the removal of your mod 's modifier with a identical id as used in your mod , which is unlikely if you 've followed good practices coming up with the id . 
+  if another mod actually removes the modifier prematurely , then it 's probably a submod of your mod , and the other modder intentionally wants to remove the modifier and trigger the event early . 
+  try and add a short * days = * length to the expiring flag block and see if it crashes or bugs out . 
+  but searching through vanilla files , i 've not found any flags that are timed : they all seem to be permanent and cleared by subsequent events . 
+  honestly , at this point it seems like you 're very much overthinking this . 
+  the edict/flag combo should work fine in almost every situation , and if people insist on modding their game until mods start breaking due to conflicts , then as long as you 're not overriding vanilla files , it 's really their problem , not yours . 
+   `` let 's just take the right to vote away from everyone that does n't vote for our party '', 
+  that does n't sound fascist at all / s, 
+  a very fine video from this based muslim : https://www.youtube.com/watch?v=vue4sbpn5-e, 
+  no , depraved indifference is something different , related to manslaughter crimes . 
+  basically : depraved indifference is being generally indifferent to the risks your actions pose to the lives of others . 
+  depraved indifference only applies to inaction in very narrow cases : i.e , watching someone drown without trying to help , even though you could do so with no risk to yourself . 
+  in general , it 's not a crime to not report things to the police , much less gt involved , though exceptions are fairly frequent . 
+  some states obligate people to report the discovery of a violent crime scene , reporting suspected child abuse is mandatory in some professions etc. 
+  basically , cowardice and unwillingness to get involved is n't a crime . 
+  pretty good , that 's a rather obscure thing language . 
+  although the flag is n't a cross . 
+  there have been * proposals * to make it a cross , but none of them have gone anywhere . 
+  it 's only * relatively * poor compared to the west , though . 
+  gdp per capita has actually been on par or better than russia , which is why it 's really funny to see people saying that what happened in ukraine could happen here . 
+  pensioners , the unemployed and low-wage employees ( which the discontent portion of the russian minority typically is ) are far , far better off in estonia than in russia , and they know it . 
+  yep , we were part of the soviet union . 
+  but we are neighbors with latvia ( and russia ) . 
+  estonia is the northernmost one of the baltic states , with latvia in the middle and lithuania in the south . 
+  the language barrier in the soviet times was handled pretty simply : minorities were told ( in russian ) to speak a human language when speaking to russians . 
+  if you want an idea of what it might look like without the occupation , look at finland today . 
+  as far as economic trends and cultural development went , the growth curves were pretty similar to finland . 
+  the baltic states were even ahead of finland in some interwar economic projections , attributed to a more unified and homogenous population , while finland was busying itself with fixing the economic disparity of the swedish minority in finland . 
+  i meant minorities in the union in general , yes . 
+  and thankfully , none of the indigenous baltic people became minorities in their own ssr , though it was a [ damn close call ] ( https://en.wikipedia.org/wiki/demographics_of_latvia#/media/file:population-of-latvia.png ) for the latvians . 
+  in 1989 , they had 1.38 m latvians and 1.26 m russians + other `` soviet citizens '' . 
+  only reason i know it is because of another pdx game : hearts of iron and the events of italy annexing `` abyssinia '' . 
+  relations with russia have been strained since yeltsin left office and putin declared the collapse of the union the greatest geopolitical disaster of the 20th century ( whereas most of the baltic population would consider the greatest disaster to be forming the union in the first place ) . 
+  mind you , it 's important to separate opinion of the russian government from opinion of actual russian people . 
+  prior to the occupation of estonia , the russian minority here was something like 8 % in 1934 ( six years before soviet occupation ) . 
+  most of them communities along the eastern border of the country , descended from russian religious refugees , who fled to the lutheran baltics when russian orthodox church started persecuting old believers who did n't go along with some church reforms in the 17th century . 
+  got along reasonably well with those russians . 
+  by the 1959 census ( 19 years after occupation started ) , it was 20 % russians largely from immigrant brought in to work at the soviet-built factories , by 1989 the number was up to 30 % . 
+  of note here is also the environmental protests in the late 80s , which prevented the creation of large phosphorite mines in estonia ( that would also have involved another wave of russian workers brought into the country ) . 
+  and all this was with ethnic estonian birth/death rates in the positive . 
+  by 2000 , the percentage of russians was down to 25 % , so many of them did leave , but most of them did not . 
+  and it 's well known here that russia generally encouraged russians to stay here , and there was bureaucratic obstruction involved in not letting russians born in the estonian ssr return to russia . 
+  all in all , a real ugly mess of ethnic tensions , that could have ended up a lot worse than they actually have . 
+  with suits in the kremlin having a `` just as planned '' opinion of the first part . 
+  estonians do sympathize with the russians caught in the middle and taken advantage of , but ultimately we have to look out for our own people first . 
+  russians as a culture and ethnicity are n't at risk of dying out , estonians are . 
+  the 1945 census was immediately after the war . 
+  it was a low-point in estonian population and many war refugees , along with people deported into siberia by stalin , had yet to return . 
+  that census was anomalous in many ways and much of its ' methodology was suspect due to the chaos that reigned in archives and census listings the wake of ww2 . 
+  russian is still widely used , yes . 
+  there 's a degree of voluntary segregation going on , with russians living in their own neighborhoods , typically the towns they were settled in by the soviets and in the same aging dormitory districts built for them by the soviets . 
+  in particular , the north-east industrial towns are almost all majority russian . 
+  estonian is definitely more used of the two languages . 
+  russians are , after all , only 25 % of the population . 
+  whether russians born in estonia are bilingual or only speak russian depends heavily on their upbringing , but it 's certainly not unheard of for a russian born after the collapse of the ussr to not know enough estonian to manage daily interactions like speaking estonian to the cashier at a store . 
+  more importantly : they rarely need to , given that the ones who ca n't speak estonian are likely to live in those russian-dominated districts where the cashiers are likely to be russian as well . 
+  speaking russian is definitely becoming less common among estonian youth , though . 
+  i barely know any russian myself , and i was born right around the time of the union collapsing . 
+  most estonian parents have their children learn english as their first foreign language at school . 
+  being able to tell if someone is russian or not by looks alone is somewhat hit-and-miss , but there are definitely patterns . 
+  language choice and accents are a dead giveaway , naturally . 
+  facial structure is something that does distinctly vary , with round chins and thin faces being more common among russians . 
+  estonians are more likely to be naturally blond , though dark hair do n't really say anything either way ... anyway , it 's possible to tell with practice , but enumerating all the complex pattern recognition involved in it is n't something i really want to bother with tonight . 
+  trump gets no special exception to be able to block people from his twitter . 
+  in the example , bob and charile can also ban alice from their houses if they so desire , and refuse to enter alice 's . 
+  furthermore , all three houses are actually rentals in a suburb owned entirely by dave , and dave 's complex rental agreement effectively lets him ban anyone from living and speaking in any of the houses for any reason , even if the lack of gates and walls along the roads prevents him from banning strangers from passing through the community and eavesdropping . 
+  an impression of twitter being a public forum feels intuitively right , but it 's not actually so . 
+  would n't help you , really . 
+  i ca n't imagine those companies got to milk the government without buddies in the government helping them get the job in the first place ( in exchange for a personal cut , naturally ) . 
+  eh , the trump admin can just encourage big companies that lose settlement cases to donate for the construction of the wall as a substitute for paying damages to actual victims . 
+  like how obama admin funded liberal activism groups . 
+  well , there 's proof of companies facing court settlements having a pattern of paying out their sentenced penalties to non-victim charities that promote liberal issues . 
+  of course there 's no hard evidence like an audio tape of obama admin representatives telling the companies to make these payments . 
+  and i 'm sure if something similar happens to the wall , a similar lack of evidence will certainly stop the media from reporting on in . 
+  oh wait no , i 'm certain they 'll immediately capitalize on the opportunity to jump to conclusions with exactly zero credible evidence . 
+  they 'll just invent an anonymous source that 's familiar with how the company boards think . 
+  no , i 'm saying if obama was n't guilty enough to be impeached or even seeing it turn into a huge scandal for the scandal-free president for this , why should trump be any different ? 
+  very well , [ here you go ] ( http://www.foxnews.com/politics/2017/03/01/gop-wants-to-eliminate-shadowy-doj-slush-fund-bankrolling-leftist-groups.html ) . 
+  or possibly , men were selected for high-risk behaviors because they 're more expendable from a reproductive standpoint .

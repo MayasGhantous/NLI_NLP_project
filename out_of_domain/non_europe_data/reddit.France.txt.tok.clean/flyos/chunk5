@@ -1,0 +1,100 @@
+  that used to drive me crazy in ubuntu ... 
+  i like my hot corners very responsive , so i usually set the trigger time to 50ms and re-trigger time to 150ms in the config . 
+  it generally results into a hot corner activated almost as soon as the pointer is over it ( unless you approach veryyyy slowlyyy ) . 
+  i will address the snappiness of trigger . 
+  it works for me and it 's worth a try for you . 
+  yes , it 's under `` other parameters '' in screen edges . 
+   it could really use a few basic features , like column-based selection, 
+  next time you 're using kate , you should try ctrl + maj + b and select some text , you 'll be surprised !, 
+  yeah , the help interface is not super helpful ... to be fair , the block selection is right on the `` edit '' menu though . 
+  opensuse users are super helpful in my experience , both here and on the opensuse forums . 
+  par exemple [ cet article ] ( http://www.sciencedirect.com/science/article/pii/s187439190900390x ) utilise des doses \u00e0 25mg/kg 3 fois par semaines , directement sur la peau , et n'observe aucune tumeur pour le glyphosate seul . 
+   stop stop stop stop . 
+  y a tr\u00e8s bonne vid\u00e9o de [ primum non nocere ] ( https://www.youtube.com/watch?v=ejkwn3dmesw&amp;index=5&amp;list=plmjg5ddwjnbebojcs-a7ixrw_lx39cp13 ) sur l'influence des r\u00e9seaux nerveux dans la douleur en lien avec le fameux `` bisous magique '' . 
+  thanks for your help !, 
+  well , the dry-run install is taking into account what 's installed on my system , so i 'll need to either uninstall much of my system or start from a live usb . 
+  i guess i 'd better do that by hand using ` zypper info ` . 
+  it 's a pain , but ... 
+   on this sub someone posted scripts to disable keyboard , rotate the screen , etc. . . 
+  however , on this yoga , the keyboard is automatically deactivated when converting , and i was wondering if it was possible to use this even to trigger a script . 
+  possible , but you 'd have to dig hard to find how to capture the event and how to trigger a script from there . 
+   as a plasmashell for desktop use and one for touch use are very different , i wonder if it was possible to change some environment variable to make plasmashell use another plasmasrc config file ( a very ugly way i though off would be killing plasmashell , swapping the names of two config files , and starting plasmashell again , but it sure would be ugly ), 
+  plasma should be technically able to do that , possibly using activities . 
+  but as far as i know , it has n't been implemented yet . 
+  if you 've got dev skills , maybe / u/mgraesslin or / u/d _ ed can help you have something working , but it would require quite a bit of a hassle as far as i understand . 
+   especially because i have no working trackpad , i need some way to emulate a rightclick someway , and as i saw it was possible to do it on a raspberry pi with lxde , there should be a way to emulate pointer events with touch gestures even in x ? 
+  depending on whether your using a synaptic or libinput driver , you can have a look at touchegg or linbut-gestures to implement touch gestures in x. 
+   finally , i would like to use a virtual keyboard in tablet mode . 
+  i know that in wayland , qt virtual keyboard is launched automatically when needed , but it would be great to be able to summon it in some way on x !, 
+  is it really impossible ? 
+  i value qtvirtual keyboard a lot because it supposedly also implements input methods for chinese and japanese , which i use a lot . 
+  i do n't think this will be implemented in the near future in x ( again , pinging / u/mgraesslin to confirm this ? ) . 
+  while waiting for plasma on wayland to be in better shape , you might find your happiness in virtual keyboards for x such as onboard or florence . 
+  finally , i do n't know if you 've heard but many ( small but significant ) improvements are planned for plasma 5.10 with touchscreen ( like virtual keyboard on lock screen !!, 
+  ps : tu es au courant que tu as pris le drapeau de l'australie ? 
+  that 's the joke !, 
+  for a by-activity-panel , you might want to have a look at latte dock . 
+  they have an `` alternative panel '' option where two configurations can cohabit ( i guess they use for debugging personally ) . 
+  maybe you can trigger the switch using a script . 
+  latte dock can be made looking like a classical panel if zoom is set to zero . 
+  i guess finding words in a pdf is that that easy a task to begin with ... how do you manage hyphenations ? 
+  how to you separate text words from page numbers , headers , footers and graph texts . 
+  as far as my knowledge of pdfs goes ( not far ) , you ca n't easily separate those kind of texts within a pdf . 
+  my point is , i guess any word count from a pdf would have to be taken with extreme caution !, 
+  a dev looking at it might bravely give up with a `` muh , why bother ? '' . 
+  i have done it a few times ( you can do it by extracting text from a pdf into a text file and count words from there ) , it does necessitate quite a long work of manually cleaning up messed up text to get accurate word counts . 
+  if you need only an approximate word count , you can extract pdf text and compute word counts from there ( using a text editor or a web page ) . 
+  this is easily done in cli using pdftotext . 
+  but note that the text output is going to be quite dirty , as i explained in an answer above , so some manual cleaning might be needed ( not sure how such a cleaning could be performed by a software , unless a rather complex one ... ), 
+  ca n't tell for germany , but in france we have a few things :, 
+  - first , we have a word for it : `` secte '' , which only best translation in english is `` cult '' , but it 's more precise than that ( basically , though it 's an oversimplification , a `` secte '' is taken to be a cult with criminal intents ) . 
+  although strictly speaking `` secte '' can also mean `` cult '' in a broader sense . 
+  so , legally speaking , the better term is `` d\u00e9rive sectaire '' ( sectarian drift ) . 
+  - second , we have a legal official definition of `` secte '' ( though it 's does n't translate into an easy cut-off definition in practice of course ) , it should meet among 8 criteria like huge amount of money making compared to the size of the structure , rupture with environment of origin ( family , society ) , indoctrination of children , public power infiltration , etc. 
+  - third , we have a ( currently sub-par founded ) organism ( the miviludes ) which civilian can `` seize '' ( not sure of the best translation ) to investigate on cults and determine if it 's a `` secte '' or not . 
+  of course , france being `` la\u00efc '' , the state does not recognise any religion , so it can not take laws to forbid specific cults ( which is a very good thing imho ) . 
+  it can only fight against `` sectes '' by characterising infractions and crimes they commit . 
+  the current state for scientology is that it 's recognised as a `` d\u00e9rive sectaire '' by the miviludes . 
+  as i said , the state ca n't forbid it , but can sue them for crimes or infraction they commit and it did [ repeatedly ] ( https://en.wikipedia.org/wiki/scientology_in_france#2008.e2.80.9309_cases ) . 
+  not saying `` we 're doing it better , you should do the same '' , but i thought some of you might find it interesting to see how it goes in a different country . 
+  regarding the issue of public advertising , i 'm not sure how it would be dealt with legally in france though . 
+  but public transport companies would be more than reluctant to advert for a `` secte '' officially recognised as such . 
+  il s ` agit de la bonne vieille technique de la s\u00e9lection artificielle mais version 3.0 . 
+  - pour palier \u00e0 ce probl\u00e8me , la version 2.0 de la s\u00e9lection artificielle se base sur ce qu'on appelle les `` valeurs reproductives '' ( breeding values en anglais ) ou `` m\u00e9rite g\u00e9n\u00e9tique '' des individus . 
+  - on arrive donc \u00e0 la version 3.0 . 
+  oui , on est d'accord . 
+   natural selection -  you suck at surviving long enough to have a shot at passing on your dna . 
+  why everybody insists on natural selection being about survival ? 
+  the fitness of individuals is measured by their total number of offspring , not their survival . 
+  you do need to survive , but that only a part of it , then you need to get more recruited offspring than the others and it 's * not * ( always ) the easy part . 
+  well , you need to survive , but surviving without breeding is exactly like being dead from the start , evolutionary speaking . 
+  so , ultimately , reproduction is what matters , not survival * per se *, 
+  you can also think about it this way : if you reproduce , it means you survived . 
+  if you survive , it does n't mean you reproduce . 
+  so saying that natural selection favours those that reproduce the most ( rather than those that survive , period ) imply that they survived . 
+  why tell half of the story when you can tell it entirely in roughly the same amount of word ? 
+  that 's really what i do n't get with people being so focused on survival ... 
+  hm ... well , no . 
+  breeding success has a huge impact on fitness . 
+  in species i 've worked with , many individuals survive but do n't breed . 
+  think about non breeding males in harem-based species , many males can survive , but never breed . 
+  what good was that for their genes ? 
+   no survival , no sex, 
+  yes , of course , you 're dead . 
+   no sex , no survival, 
+  errr , what ? 
+  if you do n't breed , it means you 're dead ? 
+  individuals can survive and not breed . 
+  ( edit : or try to breed without success , which is even more common ), 
+  breeding success is heavily influenced by non-random environmental and biological factor , just as is survival . 
+  there 's really no reason to say one is more random than the other in general . 
+  whether selection is stronger for survival to breeding , differential breeding success or survival to next breeding event will depend on the species , environment and population . 
+  what we 're sure of , is that it will depend on total output of breeding , so why focus on only a part rather than the whole is puzzling me ( for real ! ) . 
+  the usual focus on survival is exactly why i 'm trying to counter-balance here ( why an unexpected reaction , i might say ) , because it 's focus forgetting half of the story that i really do n't get ... 
+  how did we go from individual focus to species focus ? 
+  individual survival and breed , species `` survive '' but they do n't breed . 
+  this does n't make any sense . 
+  scales and words matter in evolutionary biology . 
+  `` sex is survival '' precisely because individual reproduction translate into individual fitness ( what i 'm insisting on ) which then translate into population and species fitness . 
+  i do n't see any hen/egg problem here ... 
+  had this experience to .

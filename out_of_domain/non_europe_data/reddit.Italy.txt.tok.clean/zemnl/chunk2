@@ -1,0 +1,100 @@
+  [ the tweet is quite old ] ( https://twitter.com/realdonaldtrump/status/449525268529815552?lang=en&amp;lang=en ) , however it seems that [ he still supports those views ] ( http://www.theguardian.com/us-news/2015/sep/17/donald-trump-vaccines-autism-debate ), 
+  yeah yeah , that 's fair . 
+  actually , the first thing i did as soon as i saw the post was to check if it was a fake or not ( but knowing trump , i was pretty sure it was n't ), 
+  it needs more tentacles, 
+   also the tweet this thread is about sounds suspicious . 
+  if it is really something he said which i doubt it was probably years ago . 
+  wrong . 
+  [ the tweet is real ] ( https://twitter.com/realdonaldtrump/status/449525268529815552?lang=en&amp;lang=en ) and he [ supported those same views in a debate 7 months ago ] ( http://www.theguardian.com/us-news/2015/sep/17/donald-trump-vaccines-autism-debate ) . 
+  if you followed [ this ] ( https://github.com/venam/2bwm#preventing-x11-crash ) that should be the reason why . 
+  you can avoid starting a term after 2bwm in your . xinitrc but in that case if 2bwm crashes your x will crash too . 
+  that said , it never happened to me and i find 2bwm to be really stable . 
+  mmh , well ... sorry but then i have no idea ... let 's wait for / u/venam _ to answer, 
+  awesome !, 
+  the script i used until now used scrot and imagemagick and it always took a couple of seconds to blur the screenshot . 
+  i never thought about using ffmpeg . 
+  i updated my script and gave you credits  https://github.com/ema0/i3lock-fancy, 
+  i answered the pm , 
+  i love you . 
+  thank you !, 
+  mmh no , or at least not for now . 
+  the script as it is always darkens the background by default . 
+  it works quite well for me anyway : the lock icon and the message are readable even with a complete white wallpaper , and if the background is dark i do n't mind for it to be darkened a little bit more . 
+  i have initialized a git repo in my home folder , and in my . gitignore i blacklisted everything i do n't want tracked and whitelisted all the dotfiles i needed , like this :, 
+  ! . xresources, 
+  in order to keep track of subfolders you add them in the . gitignore and then you create another . gitignore of the same kind as before in each one of them . 
+  for example , if you want to add the ~ / . config/compton . conf file to the repo , add, 
+  ! . config /, 
+  to the main . gitignore in the home , and then create a . gitignore in . config / with :, 
+  ! compton.conf, 
+  i use it on my home pc and on my uni laptop and i 've never had any problem . 
+  if you are using stylish you can add a new style with the following content :, 
+  @ - moz-document url ( chrome : / / browser/content/browser . xul ) {, 
+  #popupautocompleterichresult . autocomplete-richlistbox {, 
+  display : none ! important ;, 
+  otherwise , if you do not want to use stylish , you should add, 
+  #popupautocompleterichresult . autocomplete-richlistbox {, 
+  display : none ! important ;, 
+  to the userchrome.css, 
+  edit : fixed code, 
+  the silver one is a muji [ link ] ( https://www.amazon.com/muji-aluminum-body-fountain-pen/dp/b00k2t9dgg ), 
+  edit : added link, 
+  italy !, 
+  not op , but that 's a happy hacking keyboard pro 2 . 
+  i like to think they are from the same person . 
+  i completely agree , that 's why i love using both [ left and right prompts in zsh . 
+  if you mean the left and right : zsh ( and fish , if i am not wrong ) has the option to set a prompt and a rprompt . 
+  this is what i use :, 
+  if [ [ `` $ user '' = = `` root '' ] ] ; then, 
+  local myprompt = '' % ( ? , % { $ fg [ green ] % } \u2550 \u2550 \u2550 % { $ reset_color % } , % { $ fg [ red ] % } \u2550 \u2550 \u2550 % { $ reset_color % } ) '', 
+  else, 
+  local myprompt = '' % ( ? , % { $ fg [ green ] % } \u2576 \u2500 \u2500 % { $ reset_color % } , % { $ fg [ red ] % } \u2576 \u2500 \u2500 % { $ reset_color % } ) '', 
+  prompt = ' $ { myprompt } % { $ reset_color % } ', 
+  rprompt = ' % { $ fg [ cyan ] % } % ~ % { $ reset_color % } ', 
+  you need to use pkexec from polkit . 
+  i wrapped it in a script called ssudo that only does, 
+  so in rofi i can do `` ssudo programtoexecute '' . 
+  edit : also , you need to call it from a script because apparently after rofi runs pkexec and it exits , pkexec gets killed and it does n't show the dialog in which to insert the password, 
+  great !, 
+  i can make the script play the song too, 
+  you could change the 2bwm offsets in config.h before compiling it , however this will prevent all windows to overlap the bar when you move them , not only the maximised ones, 
+  totally agree . 
+  i 've stopped watching the streams and the stuff on sips live for this very reason . 
+  i just hope that if something funny happens someone will make a clip of it and post it in this sub . 
+  [ well , it is not * that * impossibile ... ] ( https://youtu.be/ovxuqayjpyi ), 
+  edit : fucked up link, 
+  do you mind sharing the terminal colorscheme ? 
+  yep i noticed later the other rook . 
+  basically , there are two paths you can go by , but in the long run there 's still time to change the road you 're on . 
+  true , the guy was [ ricky ray rector ] ( https://en.wikipedia.org/wiki/ricky_ray_rector#execution ) . 
+  from the [ wikipedia page ] ( https://en.wikipedia.org/wiki/ricky_ray_rector#execution ) of ricky ray rector , the guy we are talking about :, 
+   in 2002 , the u.s. supreme court banned the execution of people with mental retardation in atkins v. virginia , ruling that the practice constitutes cruel and unusual punishment ; however , it is not clear that this ruling would have applied to rector because his brain damage was caused by his suicide attempt after having committed the two murders for which he was convicted and then , as it turned out , executed . 
+  there is a plan to build a new port for the cruise ships between the lagoon and the open sea , in this way those ships will still be able to reach venice but it will prevent them from passing through the lagoon . 
+  it is generally accepted that the whole the lord of the rings soundtrack by howard shore is a masterpiece that contributes to the many frisson moments in the trilogy ( on the topic i suggest watching '' [ the lord of the ring : how music elevates story ] ( https://www.youtube.com/watch?v=e7bkmf8cjpq ) '' by nerdwriter ) . 
+  in particular the [ the end of all things/the eagles ] ( https://www.youtube.com/watch?v=donhbkpsuwa ) scene gets me every single time . 
+  edit :, 
+  - another genius is , obviously , ennio morricone : [ the good , the bad and the ugly ] ( https://www.youtube.com/watch?v=kmh6rdrhcow ) , [ once upon a time in the west ] ( https://www.youtube.com/watch?v=bdk0jalujl8 ) and [ for a few dollars more ] ( https://www.youtube.com/watch?v=0jpnr7c8mzq ) . 
+  - also , the ending scene of [ the last of the mohicans ] ( https://www.youtube.com/watch?v=q8zisdhg6v0 ) . 
+   old pirates , yes , they rob i ,, 
+   sold i to the merchant ships ,, 
+   minutes after they took i, 
+   from the bottomless pit . 
+  do they use `` i '' for the subject complement and `` me '' for the subject ? 
+  there is nothing you can do . 
+  if you can not prove you are the owner of the account in any way you wo n't be able to access it . 
+  also , you broke your phone and you also changed your phone number ? 
+  if the phone number is the same and you added it to your twitter account maybe support can do something . 
+  by the way : both the mail and the password have been changed ? 
+  this means that somehow someone managed to reset your password , so this ` someone ' has also access to your email account with which you registered your twitter account ( confirmation of email changing ) . 
+  weird . 
+  are you sure that that is your twitter account ? 
+  [ this ] ( https://github.com/ema0/pythonstuff/blob/master/tris.py ) is what i came up with a week ago . 
+  if someone has suggestions/improvements on my code feel free to comment . 
+   provably the greatest economic acumen as a society . 
+  yeah , we all saw how it turned out with the subprime mortgage crisis , for example . 
+  maybe you meant `` the greatest economic acumen to screw people in favour of few others '' . 
+  strongest economy does not mean wealthiest/healthiest/happiest population . 
+  ( personally , i very much prefer living in a country that has a weaker economy than the usa but in which someone does n't need to rob a bank if they need to go to the hospital , even if they are poor as fuck ) . 
+  the us is the [ 4th nation with the greatest rich/poor gap \\ ( after chile , mexico and turkey \\ ) ] ( https://www.usatoday.com/story/money/business/2014/05/21/rich-poor-widest-gap/9351639/ ) . 
+  this means that all the fruits of your great economy are going straight into the pockets of few , already rich , individuals , while the rest of the population keeps getting poorer and poorer . 
+  politics can not do shit about this , why ?

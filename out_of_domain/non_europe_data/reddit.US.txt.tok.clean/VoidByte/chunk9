@@ -1,0 +1,100 @@
+  ` / proc ` is a plan 9-ism that was ported to linux . 
+  mac os x is a bsd so things are a bit different . 
+  a lot of what you would use ` / proc ` for ( at least that i use ` / proc ` for ) can be found using ` sysctl - a ` on a bsd . 
+  nope ` migration ' is the pretty much the technical term for moving `` copious amounts of data '' between two servers particularly when it is involved with a switch over . 
+  switch overs rarely go well :(, 
+  do you have root/sudo ? 
+  if you do then simply : ` sudo apt-get install dwm ` replacing ` dwm ` with the desktop environment of your choice . 
+  you can then select the desktop environment from the login prompt , or in one of several other ways . 
+  also what is the output of your ` / etc/issue ` . 
+  ` / etc/issue ` will tell us which version of ubuntu you are running . 
+  it is possible that editing the ` . xinitrc ` file to contain a ` exec windowmanager ` ( replacing ` windowmanager ` with the executable in question ) will give you the choice you want . 
+  there are a few other possibilities like ` sudo dpkg-reconfigure kde ` , disabling auto-login . 
+  all in all i ca n't ( legally ) encourage you to attempt to get around your school administration 's lockdown . 
+  i strongly suggest you just go with the flow and get your own ubuntu box for home . 
+  if you where to get caught going around their protections you could easily be banned from using computers or getting kicked out of school . 
+  i will leave off with if you have physical access to the box there is nothing they can do to stop you , only slow you down . 
+  also go read ` little brother ` by cory doctrow . 
+  i assumed you where in high school . 
+  if i where in your situation i 'm pretty sure i know what i would be doing and lets just say the administration would n't be agreeing with my actions . 
+  the reason i bring up the warning is that you can and will get in major trouble with your school administration if you get caught installing software . 
+  high school administrators have been show over and over to be the most narrow minded , backwards , pieces of shit out there . 
+  on the other hand i ca n't legally advise you to mess with your school 's hardware . 
+  so take what i 've written as you will , have fun , learn lots and do n't get into trouble  . 
+  ` / etc/issue ` is a text file it should have the permissions resembling 444 ( i.e. 
+  owner : read , group : read , other : read ) . 
+  you will need to do a ` cat / etc/issue ` . 
+  it 's contents should resemble : ` ubuntu 10.04.2 lts ` . 
+  since it seems you have root then nothing is stopping you from doing anything to the computer . 
+  you just need to do an ` apt-get install dwm ` and then adjust your ` . dmrc ` to specify booting ` dwm ` . 
+  obviously replace dwm with your window manager of choice . 
+  see http://ubuntuforums.org/showthread.php?t=229238 for more details . 
+  this was actually part of their april fools joke this year . 
+  they had a form on the page where you could order a free set of the knuckle warmers . 
+  only `` producer accountable '' we had crash bugs closed `` as designed '' when i worked as a tester . 
+  [ stackoverflow ] ( http://stackoverflow.com ) [ serverfault ] ( http://serverfault.com ) [ superuser ] ( http://superuser.com ), 
+  they are all part of the same group but focus on different areas . 
+  general for life :, 
+  [ ever need to figure out a timezone ] ( http://everytimezone.com/ ), 
+  if you run your own mail server you can specify the ' - ' in place of the ' + ' . 
+  tie this in with multiple aliases and multiple domains and you can do :, 
+  i very very rarely lose track of what mode i 'm in . 
+  this is mostly because i enter insert mode type a thought and exit as soon as that is done . 
+  if you use vim and you spend most of your time in insert mode you are using it wrong . 
+  i guess my statement was slightly in error . 
+  if your default mode is insert mode you are using vi ( m ) wrong . 
+  if i 'm not in the middle of actually inserting characters in the document then i 'm not in insert mode . 
+  do n't install scripts from vimscripts it does n't end well . 
+  vim plugin management is 100 % better if you use [ pathogen ] ( http://www.vim.org/scripts/script.php?script_id=2332 ) . 
+  copy that file into ` ~ / . vim/autoload ` . 
+  then create a folder called ` ~ / . vim/bundle / ` . 
+  now if you want to install a vim plugin simply do a git clone from [ vim-scripts github repo ] ( https://github.com/vim-scripts ) into the bundle folder you created above . 
+  pathogen will then load the plugins automatically for you . 
+  this provides much cleaner installation and upgrade of plugins . 
+  someone below advised against plugins . 
+  i 'm not the biggest fan of behavior changing plugins ( with the exception of peepopen ) but love language specific plugins for things like syntax highlighting . 
+  if your on a mac i strongly suggest you checkout the [ peepopen plugin ] ( http://peepcode.com/products/peepopen ) , it costs $ 12 and is mac only but it seriously beyond kick ass . 
+  i hear [ command-t ] ( https://github.com/vim-scripts/command-t ) is equally good but did n't find out about it until after i had purchased and been using peepopen . 
+  good luck and let me know if you have any questions . 
+  use arch , bsd , or gentoo ( yuck ! ), 
+  management of the system is entirely done with the command line . 
+  after a while you will start seeing places where a loop would be helpful or an if statement will allow you to automate an action . 
+  that is when you start to really learn shell scripting . 
+   as for implementing scripts seamlessly into regular terminal usage , is that done simply by adding them to the path ? 
+  i have a directory called ' ~ / . bin ' that is added to my path . 
+  i then stick my scripts into it . 
+   to keep a script running in the background to take care of whatever , do you just have it execute at logon and keep it running with a while loop ? 
+  there are several ways to launch the script but the basic idea for the script 's structure :, 
+  while true ;, 
+  # do stuff here, 
+  sleep 5 # change this as needed . 
+  done, 
+  as for regularly running checkout cron it 's awesome . 
+  basically you set a time, 
+  or pattern for a time of when a script is to run and cron will run it at that, 
+  time . 
+  cron is definitely the preferred way to regularly run things but it is not so, 
+  good for sub-minute regularity . 
+  one is shitty and annoying to do , the other needs more intelligence but is n't bad work . 
+  i imagine that khue is doing it to chase away the stuff he does n't like and get more work that he does . 
+  freebsd is n't too bad for minecraft . 
+  installing java is a bit of a pain . 
+  you have to download the package from the freebsd foundation and stick it in a directory . 
+  once you have done that you can then just run minecraft identical to how you would on linux . 
+  and better fonts . 
+  murray gold is full of win . 
+  for those who do n't know you can go buy the soundtracks for $ 10 - $ 20 on amazon mp3 . 
+  macs work different then linux and you will be disappointed if you insist on chasing these goals . 
+  ( i dearly miss my tiling window manager ) . 
+  if you are really desperate you can run xmonad in x11 and then have it manage your x11 apps . 
+  ideally you would run this in a different space and then segregate native apps and x11 apps managing each with their own window manager . 
+  i have n't had much luck ( but have n't spent that much time ) getting this to work . 
+  there are some things that make up for it though :, 
+  * ` open [ filename | directory ] `, 
+  will open any file in the correct application , directories will be opened in finder . 
+  * ` pbpaste `, 
+  pastes the current clipboard to stdout, 
+  * ` pbcopy `, 
+  copys stdin to the clipboard . 
+  this is a really awesome application . 
+  it binds to a global shortcut .

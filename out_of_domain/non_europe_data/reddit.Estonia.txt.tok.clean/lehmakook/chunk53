@@ -1,0 +1,100 @@
+  it 's easier to consider that a `` moving laser dot '' does n't exist at all as a single physical object . 
+  in reality , a new dot is created on every instant in a new position from the light that hit that position . 
+  there is no physical link between the old dot and the new dot , the `` movement '' is just due to perception in human ( and cats ) minds . 
+  [ like gmail ? 
+  ] ( https://en.wikipedia.org/wiki/history_of_gmail#public_release ), 
+  probably yes , even if it 's just a small learning project ( the official django tutorial is a very good place to start ) . 
+  trying to learn django , drf , angularjs all together will be very confusing . 
+  once you know django , drf will be very easy to pick up . 
+  it is just a collection of helpers for writing django views which accept and return json data instead of html . 
+  you do n't even need drf to write apis , but it 's convinient if you want to do input validation similar to django forms , api authentication , throttling , etc. 
+  uwsgi-emperor is unnecessarily complex unless you have many people all deploying their own apps under different user accounts and permissions ( eg you are running a shared hosting service ) . 
+  i recently set up a `` small django projects '' server on ubuntu 14.04 lts , because it comes with uwsgi including start/stop scripts from apt-get . 
+  adding a new app is just a question of dropping the code into a directory , and adding a small config file under / etc/uwsgi/apps-available /, 
+  if debian stable does n't have that , perhaps it 's useful to get an ubuntu vps temporarily to grab the init scripts from it ? 
+  i can share the config i ended up with as well if it seems useful . 
+  google play alpha/beta releases are very useful , but best suited for a small group of private testers . 
+  only people who join the app 's google group or a google + community can see these . 
+  i also started with trying to set up emperor at first . 
+  i gave up at some point , ca n't remember why excatly - but i think it was due to the complexity related to running each web app under a different uid/gid , while still making the pid & log files with right permissions . 
+  emperor seems useful if you need live reloading and dynamically changing running apps . 
+  but i decided that as long as i have < 10 apps , and i 'm fine with restarting all of them when deploying just one , it was easier to run them under normal uwsgi with the `` apps-available '' layout that ubuntu provides for the init scripts . 
+  ubuntu 14.04 also ships with uwsgi 1.9 . something , which is over 3 years old . 
+  most of the time i 've used just that , and it has been fine . 
+  but for this server i decided to get something more modern using, 
+  sudo pip3 install http://projects.unbit.it/downloads/uwsgi-lts.tar.gz, 
+  and copied the init scripts from the standard apt-get version . 
+  which command line flags is it missing ? 
+  so far i have n't noticed any that i 'm missing from 1.9 compared to the latest version on servers where i used the apt-get one . 
+  i just decided to get the latest because i can . 
+   i think i 'm gon na stick to apache mod_wsgi, 
+  noooooo :( at least give gunicorn a try then ? 
+  it should be roughly equivalent to uwsgi , with a lot fewer ( confusing ) configuration options . 
+  i have n't tried it myself , but it seems to be the other popular option . 
+  that 's strange , i use ` module ` and ` home ` just fine even in the uwsgi 1.9 config files , even though they do n't seem to be valid command line options . 
+  i do n't use daemonize , since i let upstart manage the process for me . 
+  ` mod_wsgi ` is n't too bad i guess , it just seems excessive running a full apache to host a python process ( since people usually put nginx in front of it for static files anyway ) . 
+  and uwsgi & gunicorn seem to be the two popular choices for hosting django . 
+  others have already posted some ballpark estimates , and i do n't disagree . 
+  instead , here are some tips on how to cut down the cost :, 
+  make a * very detailed * document describing the functionality , including photoshop or pencil-and-paper mockups of every screen . 
+  describe what happens when any button is clicked when there 's no internet , and other similar errors , etc. 
+  why ? 
+  because only at most 1/3 of the time and cost of developing an app is `` eventually useful '' development . 
+  the rest is spent on planning meetings trying to understand the client 's ideas , work that needs changing after showing the client the initial demos , etc. 
+  for example , from your description , i would guess that you * probably * want some sort of sharing or social component for the trophies , * probably * want data saved to a server , which needs a backend server app developed , etc. , which more than double the complexity over what is exactly described in the post . 
+  but if you do n't actually need these , then the estimate will be too big . 
+  if you have very detailed documentation up front when asking for prices , you will get them at least 3x lower , because :, 
+  * the developer can budget less for the planning / understanding part . 
+  * the developer can budget less for any future changes . 
+  * you can hire less expensive developers and still achieve a good result . 
+  if you have a vague idea , then you need someone who is a designer-projectmanager-advisor-developer all in one , and speaks great english . 
+  if you have a very detailed specification , then a lot more people from around the world can build something that matches this specification . 
+  / r/forhire is actually the best place i 've seen so far . 
+  i 'm one of the `` expensive developers '' , and mostly get work by referrals from previous clients , but i 've picked up a few from there as well . 
+  and there seem to be plenty of tech people looking for remote projects there . 
+  / r/androiddev also has a weekly hiring thread . 
+  there are big outsourcing websites like odesk , freelancer.com , etc , but i 've heard many more horror stories ( for both sides ) about those than good results . 
+  sure , writing this documentation can be a challenging task in itself - large software development companies have specialized people for this !, 
+  but even if it 's 90 % , that 's much better than 5 % . 
+  maybe start with a mockup tool like https://balsamiq.com/ ( there are many other similar ones ) . 
+  also try to think of stupid things users might do - they will try to use gps underground , enter invalid data and so on . 
+  and if you have some developer friends , buy them a fancy lunch and go over your initial plan . 
+  it 's possible that they can identify some features which are [ hard to build ] ( http://xkcd.com/1425/ ) but you actually consider almost irrelevant , and can be cut from the first version . 
+   this is why skynet will rebel, 
+  based on this experiment , skynet will shitpost masterfully , not rebel . 
+  is tesla model 3 info released yet ? 
+  i have n't seen anything ? 
+  still hoping to read more about the bfr soon , 
+  selling lenin monuments to private ownership is far more symbolic than demolishing them . 
+  and more hilarious . 
+  an `` artist '' around here bought one a while ago , cut off his head , and attached it on top of his car . 
+  there is a big difference in the type and value of content being submitted though . 
+  people do n't care much about their reddit posts . 
+  people are n't submitting significant original creative works here ( even in / r/writingprompts , they are just short snippets ) . 
+  but when you publish an app or game on steam , mobile app stores , etc , then you want to keep the rights to make money off it in the future . 
+   and locked for good, 
+  but then / r/legaladviceuk would sue for an easment , arguing that `` visitors to their subreddit have always passed through / r/legaladvice '' . 
+  i guess that 's a better question for / r/askleo / ? 
+  because there is n't a precise legal answer , whether admitting it will make things worse or better is up to the individual officer you meet . 
+  the radio tags is n't a joke either . 
+  some scientists glued little antennas to bees to track their flight paths with radar : http://www.bbc.com/news/magazine-23448846, 
+  well , just today nest announced that they are shutting down some older products from a company they acquired in 4 weeks : https://medium.com/@arlogilbert/the-time-that-tony-fadell-sold-me-a-container-of-hummus-cb0941c762c1, 
+  shutting down as in turning off the servers and bricking them right away , not just stopping upgrades or support . 
+  no refunds as it 's out of warranty . 
+  as far as i understand , they are n't `` reaching into homes '' ... but the device needs cloud servers to function at all , and they are turning the servers off . 
+  i 've been putting off buying any smart home stuff until crap like this gets a good solution ( if ever ) . 
+  i mean , i have a smart tv that is 11 months old from the initial release date , and it 's already out of support for software updates . 
+  but hopefully it will keep working with hdmi and usb inputs even if the entire smart part goes away . 
+   paging is a pretty pointless concept when you get into the millions of results ranges . 
+  this is the most useful answer . 
+  if you have 46k pages , who is going to want to visit exactly page 34211 ? 
+  instead , users will browse this dataset by :, 
+  * filtering by some search , and, 
+  * sorting ascending/descending by some field and looking at a few first pages . 
+  both of these can be queried fast without large offsets into the results . 
+  aha , interesting . 
+  but in that case , basic pagination is probably a terrible idea :, 
+  * google indexes your site with ? page = 34211 urls ,, 
+  * data is changed , page numbers change ,, 
+  * users who arrive from google see something entirely different .

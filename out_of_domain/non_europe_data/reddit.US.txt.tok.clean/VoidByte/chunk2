@@ -1,0 +1,100 @@
+  we use a base quickbasic script to do some transformations before they are loaded into other programs , things like filtering . 
+  then for other changes we add in new quickbasic logic to filter , change the data , or provide counters to check the data . 
+  most of the logic i add is for things like removing entries that are obviously wrong , correcting errors from other parts of the system . 
+  sometimes we and another company will both be dialing on the same project . 
+  then we get do fun things involving merging multiple files that have similar but not the identical layouts . 
+  myself , and the two it guys are continually pushing to move to something better , like perl ( sadly the it guys do n't like python :( ) . 
+  the issue is the people in control know quickbasic and really are n't interested in learning anything new . 
+  on a regular basis when i 'm feeling lazy and do n't need to leave a `` papertrail '' i will replace said scripts with a unix command chain . 
+  oddly enough i did the exact same thing . 
+  i also have been looking for a good book on discrete math . 
+  woot for coincidences . 
+  this seems to be a quote , mind giving a source for my quotes file . 
+   i dont even know if everything i just listed has to do with programming, 
+  well mostly , all of it except c + , which does n't exist . 
+  c++ is a programming joke . 
+  + + is a notation for :, 
+  ` c = c + 1 ; `, 
+  so this takes the variable ( number ) and increases it by one . 
+  simple stuff that is used a lot . 
+  so c++ is c plus one . 
+   what does an ability to program and understand all of this shit even get you ? 
+  open my eyes !, 
+  well that is complicated . 
+  it gives you a lot . 
+  it allows you to create new stuff . 
+  like websites , programs , applications . 
+  my knowledge of unix and programming allows me to better understand what i do at my day job . 
+  it allows me to manipulate data in ways my coworkers just ca n't compare to . 
+  what you get out of it depends on what you do in life . 
+  for example , say you are an accountant . 
+  understanding programming will allow you to expand your excel spread sheets to heavily automate them . 
+  in addition to a lot of the other programs mentioned here i also use xzgv . 
+  it takes after vimperator by being a graphical app where the keyboard comes first and the mouse comes second . 
+  at least for daily uses . 
+  xzgv is an image viewer that uses similar keybindings to vim/vimperator/mpd / etc. 
+  not often because we ca n't so we turn to the command line instead . 
+  so my list largely overlaps with others :, 
+  * vimperator, 
+  * ncmpc, 
+  * tmux, 
+  * sshd ( awesome stuff , soo much power in this tool it is ridiculous ), 
+  * dc ( desk calculator , rpn calc that is included in almost all unix ), 
+  * xzgv ( image viewer ), 
+  * standard command line utils ( xargs , find , mv , ls , etc ), 
+  * python ( for when i need to do exploratory math , or large amounts of complicated math ), 
+  dubs make it much easier to watch anime at work . 
+  my hatred for chalk is n't quite so bad but i despise the stuff . 
+  i ca n't stand touching either chalk or chalkboards . 
+  i quite like my nexus one , spent $ 40 to buy a 16gb microsd card and it works great for all of my media needs . 
+  for podcasts and audio books just stick them in a folder called podcasts and it will automagically remember your position . 
+  the interface has a few gotcha 's but you learn them pretty fast . 
+  granted the nexus one is a phone first and foremost . 
+  so if you do n't need a phone in addition this is not the item for you . 
+  vimium is cool but really buggy and is missing tons of features . 
+  sadly it is not the day i will be switching to chrome . 
+  once it gets cleaned up , works reliably , i 'll switch in a heart beat . 
+  vimperator is the only reason i use firefox . 
+  kitchen is almost always dirty , bathroom takes me a while to get around to cleaning it so it is mostly disgusting . 
+  bedroom is all a mater of how much space i have . 
+  the cleanness of my room is inverted to the size of the room . 
+  small room gets really terribly messy . 
+  large room is very clean never dirty . 
+  cookies , fruit basket , something like that would generally go over better . 
+  flowers are nice but i do n't think it is something most guys really care about . 
+  i also host my own mailserver and back it up . 
+  it is dead in the water without edits because if there are n't edits you can go to jail for obscene content . 
+  going to jail generally makes people not watch shit . 
+  i use vimperator for my browser . 
+  homepage i think is about : blank i 'm really not sure i never see it . 
+  if i open a new tab i hit ` t ' and then type the site i want to see . 
+  it then opens the tab to that page . 
+  also i save my session when i quit . 
+  if there is a site i want to come back to reference later i just keep it open in a new tab . 
+  back when i was a game tester the head of qa did a really good job of finding the bad bugs and disciplining the person who put it in . 
+  the only exception was the nephew of the it manager , this kid was as dumb as a sack of rocks . 
+  he was a teenager and eventually got sent back to his parents . 
+  also got in a lot of trouble with his aunt but he still got away with it for a long time relative to anyone else . 
+  * the great book of amber * : dimension hopping prince attempts to take the throne from his brother . 
+  * diamond age : a young girl 's primer * : a story about a girl growing up in the diamond age . 
+  d&d 4 is basically wow in paper form . 
+  if that really interests you go for it if not see if you can find d&d 3.5 . 
+  if you want to just try tabletop gaming check out gurps . 
+  it is a universal system and has the ability to be expanded to fit what ever you want . 
+  my old dungeon master talked about his old gurps game as saying they raided a military warehouse traveled back in time and fought dinosaurs with bazookas . 
+  the other nice thing about gurps is that if you are interested there is a [ light ] ( http://www.sjgames.com/gurps/lite/ ) version of the rules on the web . 
+  as of yesterday i used quickbasic . 
+  thankfully i shall no longer have to look at a single line of qb code . 
+  woot new job . 
+  i ca n't upvote you enough . 
+  this has also been my rallying cry over the last few weeks when my father and mother start spouting bs . 
+  i ca n't say how much i agree with this bill but when people start making statements like `` this is the largest violation of our rights in the last 100 years '' well fuck you and fuck your patriot act . 
+  `` but , oh the health care bill takes away our choices , '' yea well your patriot act took away my constitutional rights . 
+  they way i learned is to install it on my computer when something goes wrong i fix it . 
+  rinse repeat . 
+  takes about 4 years and by that point you know unix pretty well . 
+  tips for learning in a shorter period :, 
+  * type ` man man ' read , absorb , and learn . 
+  this teaches you how to use the man pages . 
+  man pages are the fundamental help for unix . 
+  * run the command ` echo $ path ' this will tell you where applications are installed on your computer .

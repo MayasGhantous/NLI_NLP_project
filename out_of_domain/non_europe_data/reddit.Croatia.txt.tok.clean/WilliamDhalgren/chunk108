@@ -1,0 +1,100 @@
+  if such kinds these days are bored with games they try , that 's the same kind of thing . 
+  it was only a bunch of geeks that really did enjoy the games , could talk about them endlessly or play in a lan party . 
+  college was great in this respect ; bunch of geeks at one location all playing like crazy . 
+  also where i fell in love with anime ... 
+  as to the kids of today , idk i do n't socialize with many kids ; i knew a 4yo that was hyped as hell about some crappy flash games , but also really enjoyed need for speed . 
+  the amount of singular concentration on one thing was frightening . 
+  i know a 7yo that was more all over the place at least when playing with me ; but it was still clear he spend quite some time perfecting his play in whatever that was . 
+  anyhow , idk to me it seems that re games , 1 ) it was always a bit niche 2 ) seems to keep diversifying and in my experience there 's more continuity in the enjoyment through the years and 3 ) anecdotes about `` kids today '' are apriori suspect so i ca n't take them seriously . 
+  i do n't think anyone knew how far alphago has come before this match . 
+  now we need to find out how exactly , when a new paper comes out . 
+  yeah , arimaa was recently beaten too . 
+  500kw might be an order of magnitude of overestimate , or nearly so . 
+  for 176gpus and 1200 cpu cores , yes . 
+  we 're talking about roughly 25 boxes , as they put 48 cpu cores and 8 gpus in one box variant . 
+  and i 've yet so see any actual quote of deepmind confirming they 're using more hardware than they did in october . 
+  edit : actually i did think they win % vs one box that they 're mentioning in recent communications is a bit higher than the one in the paper , so maybe they did scale it a bit further . 
+  still , even if 40 boxes , should n't change much . 
+  is n't that just an unnecessary multitude of toilet options ? 
+  why complicate such an narrowly functional room ? 
+  as a cis male at least , i 've not understood the need for gendered bathroom at all . 
+  many but not all bars i visit have rather small unisex toilets simply to save up on space ; is there a problem i 'm not experiencing when say females use such rooms ? 
+  but would n't such a body be able to help multiple people via organ donation , instead of helping just one with this operation ? 
+  certainly , this is beyond cool if it works ; i 'm just unsure how the priorities on the transplant lists work out to get an entire body to try it . 
+  what does communism have to do with it ? 
+  all countries use some kind of priority system and waiting lists to determine who gets the relatively scarce transplantable resources , no ? 
+  i just do n't know how it works exactly , when you need quite a few organs , or as in this case , all of them . 
+   i think that either they may have enough organs donated that they can spare one full body ,, 
+  hm , i 'm under the impression that there 's a rather acute problem currently with getting enough organs - for eg . 
+   or perhaps there is a separate list for a intact bodies that are medically needed . 
+  unless this is an explicit desire of the donor , this seems ethically questionable ; effectively this way of ranking it as you describe gives absolute priority to this guy 's life over say the lives of 5 other ppl . 
+  yet surely he should have a chance at it as well . 
+  ( edit : or maybe not - as another poster mentioned , appropriate donors for this kind of an operation are far rarer than typical bodies that can be of use for organ transplants , so maybe there 's an appropriate balance of chances built-in / edit ) i just really do n't know what could be a sensible protocol here , but would like to hear about ideas . 
+  but , you think that already today there could be a list of such medically needed intact bodies , even though the operation using it was never performed ? 
+  what would be its current use then ? 
+  edit : btw you 're not supposed to make jokes in comments on r/science :, 
+   comments must be on topic and not a meme or joke . 
+  comments must strive to add to the understanding of a topic or be an attempt to learn more . 
+  yes , that sounds quite convincing ; you 're prob right . 
+  perhaps if these kinds of operations work and become more frequent , as the technique is perfected , attempting them with less well-preserved bodies or with various parts could start to become an option , but for now it takes a very specific kind of donor . 
+  a paragraph on the dangers of e-cigarettes ? 
+  christ i hate how they encourage ppl to blurt out uninformed opinions . 
+  it should take a rather wordy essay with proper citation of scientific literature to discuss diketons , aldehydes , metals , battery safety etc , and would certainly be outside of the abilities of ( most ? ), 
+  schoolkids to write . 
+  but anything less than this is simply uninformed . 
+  really ? 
+  they tried a genetic algorithm ? 
+  they are n't too popular , so that 's surprising . 
+  edit : do you have a link ? 
+  i 'm rather confident this is n't mentioned in the old paper , so should be fascinating . 
+  ah , yeah , the old paper mentioned they tried using the network after it trained by playing against itself ( rl net ) for the policy network , but that turned out to be weaker than just using the net they started with ( sl net ) , ie the one just trained on kgs 6 + d data . 
+  that self-play trained one focused too much on what at its level ( maybe 5ish d kgs ) seemed like the best play , so there was n't enough exploration of other reasonable lines . 
+  so i guess its that . 
+  well its not interesting as a comprehensive test of artificial intelligence , but it is interesting as a demonstration of some core algorithms needed for it . 
+  i mean we already know from the fields of computer vision , speech recognition and at least certain segments of natural language processing ( like sentiment recognition or semantic entailment or multimodal tasks like caption generation ) that the techniques that were the key for alphago ( or some of their `` relatives '' ) are also amazing in various ai tasks . 
+  plus alphago 's particular hybrid of these techniques with monte carlo tree search , a technique invented in computer go and that found wider use in for eg . 
+  planning , is interesting in itself . 
+  ofc alphago the system is simply a narrow go-playing bot , nothing more than that , but technology in it is quite cool , and also trendy in ai generally . 
+  this was before monte carlo tree search , that raised the level of computer go from say single digit kyu to ( in the best implementations ) ~ 6d kgs in just say 5 years . 
+  but it stalled a bit on that level . 
+  still its from the perspective of that revolution having happened that people talked about alphago being ~ a decade `` too soon '' . 
+  before , could be it looked like it would take a century . 
+   `` the most significant aspect of all this ... is that alphago is n't just an expert system , built with handcrafted rules . 
+  instead , it uses general machine-learning techniques to win at go . '', 
+  while there 's truth to that claim - the approach in abstract is rather generic , but still more than a fair bit is pr ; there 's plenty of hand-crafted features in alphago , especially in the rollouts policy , but also in how the board is represented to the convolutional nets ( including highly specialized go things like ladder solvers and nakade moves ) . 
+  i mean , look at this list ( from extended data table 2 - input features for neural networks ) : a constant plane filled with ones , stone color , turns since a move was played , number of liberties , how many opponent stones would be captured , how many own stones would be captured , number of liberties after this move is played , whether a move at this point is a successful ladder capture , whether a move at this point is a successful ladder escape , whether a move is legal and does not fill its own eyes , constant plane with zeros , whether the current player is black . 
+  and this is for the rollout policy , outside the pattern features that just exhaust all possible combination for a pattern size used ( extended data table 4 ) : move saves stone from capture , move is 8-connected to previous move , move matches a nakade pattern ( ie to kill specific kinds of eyeshapes ) at captured stone ( 8192 of them ) , move allows stones to be captured , manhattan distance to previous two moves, 
+  lets not kid ourselves - alphago is a go bot , nothing else . 
+  hell , it ca n't even play go by japanese rules , nor can it play with any other komi value than 7.5 as-is , and its not perfectly suited to handicap games ether . 
+  an approach like alphago might make sense in discrete planning problems with enough training data for the monte carlo rollouts and policy networks , but what are rollouts supposed to be in something like jeopardy ? 
+  it makes no sense at all . 
+  however there are deep learning approaches to quiz games - there was that paper where they just trained a lstm ( i think ) net to answer quiz bowl questions , and it was decent . 
+  there 's a question however whether its just as good when playing handicap games or possibly weaker . 
+  idk how much its two networks change the equation but traditional pure monte carlo bots did n't behave ideally when playing with handicap unless additional techniques were n't used to compensate . 
+  so it could for instance be playing too aggresively - it models the opponent as being as good as itself , which ca n't be true in a handicap game , so it might start choosing lower probability or even misevaluated gambits ( ala game 4 ) over solid play predicated on the expectation that the opponent , being weaker , will give it chances to outplay it over the course of the game . 
+  i do n't know really how this looks like , beyond the fact that dynamic komi papers motivated the technique by the problem of solid handicap play along these lines ; ajahuang could prob tell us more on how well alphago deals with it , or we might find out when the paper comes out . 
+  i wonder if something like starbucks could work here with more than marginal/occasional audience . 
+  last i heard they gave up on croatia , after costa coffee failed . 
+  you would n't believe the number of cafes per capita around here , nor the hours ppl spend daily slowly drinking smallish espresso/macchiato with friends , or the importance of this ritual . 
+  damn , you can feel your iq drop with every minute of that pile of bs . 
+  while one can provide sensible christ myth theories , popularity of this kind of garbage makes it extremely easy to just ridicule and dismiss them as being of a kind ... 
+  you can prob keep the game tactile and technophobe-friendly with all of those advantages if you desire too , say with a croupier for your partner , using a screen/tablet to get commands and moving the physical cards/bids , and either a person or if computer vision is advanced enough even camera could do the input . 
+  but all of these recent scandals seem to have been busted by video evidence . 
+  video should be enough to make any cheats transparent ( well i guess some electronics remain possible , but that 's no different from your scenario . . ) if it were n't such a mountain of work for humans to process , come up with hypothesis and dig up evidence etc. 
+  maybe its sufficient to simply make such recordings mandatory ( and using cams is cheap , unobtrusive and ubiquitous enough today to be even applicable to small events ) and then you only need an adequate machine learning system to mine it for any anomalies in mannerisms , plays , bids and in results , and for all known cheats/opportunities for cheating , and also simply enable easier searching and cross-indexing ( easy unimaginative first step there could be say navigating video by vugraph move by move ) to speed up investigations when any doubts arise . 
+   i ask that you hear my side . 
+  i made a mistake based off of a misunderstanding . 
+  sir , this was a serious enough of a fuckup on your part that i ask you to please resign as a mod of this sub . 
+  several years ago ? 
+  was n't that in 1997 ? 
+  things changed dramatically when monte carlo tree search was discovered in ~ mid 2000s , and bots went from a lowish amateur ( ~ 5kyu ) to a strong amateur ( 6dan kgs ) in a span of perhaps 5 years . 
+  but it stalled a bit there . 
+  would you consider monte carlo tree search to be brute force ( i certainly would ) ? 
+  if so , alphago used it extensively , its just as important to its success as any of its two other components . 
+  still there were n't many teams working on computer go at the time and most did n't even replicate that 6dan kgs level , so perhaps it would slowly crawl forward to pro levels , over say a decade or so . 
+  that was the number ppl presumed at the time alphago appeared ; maybe it will take a decade to have a computer at pro level . 
+  not necessarily as strong as the strongest pros , but maybe at the strength of the weakest pros , like the european champion fan hui ( a 2 dan pro ) . 
+  a year before alphago appeared , a new and complementary approach appeared , using a convolutional neural network ( they previously made a ridiculous breakthrough in the field of computer vision * ) to suggest promising lines of play to investigate more . 
+  it enabled the facebook team to create a strong player in record short time and it pushed the top bots another dan rank forward - zen bot is now 7dan kgs . 
+  often to get the strongest results it took a rather largeish cluster of computers , as monte carlo tree search can be compute hungry , and so biggish configurations of bots like mogo and pachi were used in important matches before alphago . 
+  alphago team took those components - monte carlo tree search implemented so as to scale well to a biggish cluster ( newspapers and comments i 've seen overstate the size of the largest known configuration regularly , apparently reading comprehension of the paper is n't high in the general public , but we are talking about say 25ish or even 40ish high-powered boxes working in cluster for the strongest version .

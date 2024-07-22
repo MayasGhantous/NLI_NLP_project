@@ -1,0 +1,100 @@
+  chicken and egg problem ? 
+  every database can scale to a facebook volume if you remove all the foreign keys and use it as a key/value store . 
+  c # 's ugly sister, 
+  you are assuming these features are not liability to a programming community . 
+  the c # programming community wants a voice chat ? 
+  i guess you do n't want to defend that `` useless '' against a crowd of c # programmers ? 
+  people were laughing at me for keeping my dependencies in source control . 
+  now to be honest i do not keep npm dependencies in particular because the folder structure is just absurd but i do it with nuget packages and i would do it with any sane package manager that does not produce countless subfolders and contain 50 instances of the same dependency . 
+  i am pretty sure he did not violate trademark laws . 
+   as it currently stands , a person who sees ` kik ' on npm is likey to think it is an official product from the kik company . 
+  i seriously doubt a significant number of people would think this, 
+  ah cool someone told me that this was on their roadmap , did n't know they shipped it . 
+  on the other hand it seems that it still sucks because different versions still cause nesting . 
+  i 've used the recursive lambda hack literally twice in almost 10 years professional programming . 
+  i really do n't think we need that feature that much and can live with the hack in the rare occasion that we need it . 
+  how often do you need that ? 
+  would pay to watch pro tournaments on this . 
+  i would pay to play it on the ladder if there was an option . 
+  i hope someone will post the full story/puzzle when it is done . 
+  i do n't have time to follow these right now . 
+  so are they going to change the league percentages ? 
+  i am very happy to see team maps where the players are separated . 
+  i do n't mind some of them in the pool even 50/50 but at one point all of them were shared bases ... boring, 
+  do n't get too proud !, 
+  i just love island maps from bw times  i also hate how sc2 ladder is very conservative on maps . 
+  i did n't even need to look hard at the quality of the map to get excited . 
+  now after i did look it seems that you thought about the fact that the game is balanced around 3 bases so you probably did a good job there too , 
+  but putting the boundaries somewhere will result in certain percentages . 
+  also thanks , i actually missed that part . 
+  i remember discussions about the sizes of the leagues and that they wanted feedback . 
+  please someone post the full chain of puzzles ( blizzard hints links + solutions ) so those of us who were out of the loop can follow through the story . 
+  thanks !, 
+  in the us system does the winner need 50 + % or is it enough to be first ? 
+  i mean is there second vote in case no candidate gets 50 % ? 
+  well with this strategy i do n't think you will hit many teams that you could beat , 
+  my 3 vs 3 team on eu recently got promoted to diamond . 
+  i think plat level was well-balanced and interesting considering the size of the player base . 
+  another broken repository ... 
+  sigh ... 
+  do n't go for a repository !, 
+  if you do do not expose iqueryable or accept expression as a parameter . 
+  a proper repository should have methods like list < customer  gettoppayingcustomers ( int page , int pagesize ) and contain the query inside of it . 
+  if you expose iqueryable your repository serves no purpose at all . 
+   two repositories that expose iqueryable can be joined without the overhead of fetching data from the server to perform the join as the query will be materialized before its sent to the server, 
+  the same is true when using the datacontext directly . 
+  what is your point ? 
+  well except that services are supposed to deal with business logic while the repository is there to encapsulate your queries and abstract your data access . 
+  of course services do have a pretty similar interface . 
+   the reason you want repositories is because of testing , not because of switching away from ef . 
+  the reason you use repositories is to decouple your code . 
+  unit testing is a byproduct of that . 
+  maybe the most important byproduct but decoupling has value other than testing . 
+  also ef6 supports testing without repositories so if testing is your reason to use repositories you may stop feeling the pain today . 
+  unless you have a good reason to expect a change in data access technology i recommend to skip the repository pattern and just have an interface for your datacontext . 
+  the proper repository abstraction is heavy and costs a lot so make sure it is worth it . 
+  in fact people instinctively feel that the abstraction is heavy and this is why they end up with iqueryable and expression . 
+  they fight the abstraction all the time . 
+  one way to deal with this is to simply accept that you will not abstract your data access layer ( beyond what the orm provides ) and if one day you do need to change it just change it manually everywhere . 
+  there is a good chance that it will be less painful than dealing with the orm all the time . 
+  now i do advocate having a service layer for your business logic so your web layer is not coupled with your business logic so you can have a proper boundary there ( no iqueryable , no expression ) but still have easier time implementing services . 
+  what you suggest comes naturally when you stop exposing iqueryable and expression , 
+  generic repositories are useless in my opinion . 
+  even a t get ( int id ) method is strange because it means all your keys must be ints ( or whatever you put for a key ) . 
+  i 'd probably end up with smaller repos based on feature more than aggregate roots . 
+  however i am defending the position that repositories ( with an orm ) are not worth it . 
+  a dbset is a repository and a datacontext is an unit of work . 
+  they claim to have a patent on the apis not on the language . 
+  however if google win oracle would also look stupid because they spent billions on tech they did n't really want and ca n't monetize . 
+  my informed opinion is that apis are very hard to create and i often spend more time designing apis than writing implementation . 
+  if implementation can be copyrighted i see no reason why apis would not . 
+  oh ... military time is a thing . 
+  i saw it mentioned in a movie and thought it was just a dumb plot device but it seems like americans do call 24 hour clock `` military time '', 
+  this is irrelevant . 
+  if creative work gives someone monopoly over this work and apis are creative work then apis should be copyrightable . 
+  customers should evaluate the risk and include it in the tco . 
+  if we follow your logic closed source software should be illegal since it can result in a complete lock in just as easily as copyrighting apis . 
+  ok then cloud services should be banned . 
+  you ca n't reverse engineer those or even take your data out . 
+  i 'd put my money on google on this one but i agree that it is not at all certain . 
+  which is literally what patents are for . 
+  they give the inventor the means to control the market without any additional effort . 
+  just because my opinion does n't align with the masses does not mean that i am trolling . 
+  also what i said is totally true . 
+  now maybe i work on simple stuff where the api is harder than the implementation but i do n't think that those string methods are much harder to implement . 
+  biological information is the result of evolution and mutation while apis are quite certainly the result of human thinking . 
+  that example would definitely fall in the `` obvious '' case . 
+  however the fact that google copied even the most bullshit of apis that java has tells me that they did n't invent them themselves . 
+  you know how when a teacher knows you copied your work from another student because you made the same mistakes . 
+  i have quite above the average respect for the usa ( most people outside usa hate the usa ) but honestly that is ridiculous . 
+  both parts . 
+  comparable to the absurd measurement units you use there . 
+  soon you will call a kilogram `` scientific weight '' or something ... 
+  i find it obvious that either both implementation and api copyright benefit the public or none does . 
+  i do n't see how it can be true for one of them but not for the other . 
+   for oracle you will fit right in . 
+  have fun making the world a little more shitty every day you show up for work . 
+  i like your socialist thinking . 
+  this is true for most patented work and the reason patents expire . 
+  yes , but you claimed that closed source is only allowed because it could be reverse engineered . 
+  you can reimplement all you want ( unless oracle wins ) but you ca n't reverse engineer amazon 's services .

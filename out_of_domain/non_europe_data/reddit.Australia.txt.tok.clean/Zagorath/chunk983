@@ -1,0 +1,100 @@
+  the reason i suspect php is because it 's the most popular one `` in the wild '' , and because everyone is likely to have had some experience with it . 
+  i suspect it likely that most people have used php , and probably one , * maybe * two other languages , in the context of web development . 
+  personally , for what it 's worth , php would be my first choice , followed by python . 
+  node.js would be my last , because while i 've never actually used it , i * despise * working with js from my front-end experience . 
+  [ they have it for android , too ] ( https://play.google.com/store/apps/details?id=com.northcube.sleepcycle ) . 
+  oh that 's really interesting . 
+  i had no idea smaug was done with so much mocap . 
+  i just assumed cumberbatch pretty much only provided the voice . 
+  shortswords are n't slashing , they 're piercing . 
+  most artwork portrays them like frodo 's * sting * , but in reality a better representation of them is probably as a smallsword , like arya stark 's * needle * . 
+  but no , there 's no particular reason mechanically , at least that i can think of , that you could n't have a bludgeoning light weapon that does 1d6 . 
+  personally , i would recommend against giving it the * finesse * property as well . 
+  not for mechanical reasons , but just for flavour ones . 
+  but from the sounds of it , i do n't think you were going to do that anyway . 
+  that makes a lot of sense . 
+  though personally i do n't think i 'd allow a longsword to be 1d6 bludgeoning , i 'd probably shunt it down to 1d4 . 
+  i 'd let it do 1d6 piercing though , if they want , just as i 'd allow a rapier to do 1d6 slashing . 
+  yeah i 've * never * had it come up . 
+  i was mainly theorising what sounded logical to me based on your comment . 
+  to dual-wield marimba , would you have to carry eight mallets at once ? 
+   ever see dwarf women ? 
+  of course not !, 
+  everyone knows dwarves just spring up out of holes in the ground !, 
+  you should crosspost this to / r/imaginaryclerics !, 
+  the issue with * solely * using tags is that they do n't convey a lot of information . 
+  two problems that immediately come to mind are with regards to levels , and with weighting . 
+  the first one has to do with ranges of data . 
+  if a user wants an adventure for levels 5 -- 10 , searching for ` #lvl 5to10 ` wo n't show that adventure you describe as being ` #lvl 1to15 ` . 
+  sure , it * would * be possible to do some more advanced parsing to tease out that information . 
+  but if that 's the solution , you 're kinda defeating the point of using the simplicity of tagging . 
+  you could also require a separate tag for each possible level , so it 'd be ` #lvl 1 ` , ` #lvl 2 ` , ` #lvl 3 ` , etc. 
+  that would make it much easier for the user to search ( they would search ` #lvl 5 ` , ` #lvl 6 ` , ` #lvl 7 ` , etc. ) . 
+  that would work just fine , but feels rather clumsy . 
+  the same problem comes up ( and can be even worse ) in * any * sort of data that comes in ranges . 
+  estimated time to play through , cost , numbers of players , etc. 
+  a tagging system also has trouble dealing with fuzzy logic . 
+  if you 've got a tag for ` #goblins ` , that 's a binary thing : this adventure * has * goblins , there 's no real way to say how heavily they feature in the adventure , and no simple way for a dm to specify how much they value having goblins in their adventure . 
+  if the system allows the same tag to be added multiple times , that can be used to express how heavily they feature in the adventure . 
+  and on the user side , weighting can theoretically be used in the same way as with a more conventional database . 
+  the issue is that this means developing a custom search algorithm anyway , which negates another of the advantages of using tags . 
+  and if the tagging system * does n't * allow for the same tag to be used multiple times , then you 're out of luck . 
+  your only recourse would be to use a custom tagging system wherein any given tag has to be assigned a weight on each adventure . 
+  this certainly * would * work , but again , it 's defeating the point of using tags . 
+  tags could * definitely * be used to do the job . 
+  the issue is that you will frequently run up against limitations that have to be worked around in one way or another . 
+  that could very quickly become an incredibly convoluted mess . 
+  on the other hand , if you start with a robust relational database structure , it 's easy to set things up right , and use the data to do powerful and interesting things . 
+  one shots are just small adventures , they should not function in the database any differently to a normal adventure . 
+  regarding other things , they could be useful to have , but i think they would probably make the whole thing too complicated . 
+  if they * were * to be done , though , using inheritance would be the way to go . 
+  it 's going to have a lot of different possible values , but it 's a fairly complicated type of information that we 're trying to store , so i do n't think that 's avoidable . 
+  ^ ^ and ^ ^ yeah , ^ ^ it 's ^ ^ probably ^ ^ obvious , ^ ^ but ^ ^ i ^ ^ happen ^ ^ to ^ ^ find ^ ^ a ^ ^ certain ^ ^ beauty ^ ^ in ^ ^ well-organised ^ ^ data . 
+  good luck !, 
+  what are the set pieces at the moment , if you do n't mind my asking ? 
+  honestly i 'm not a fan of it . 
+  i used sleep cycle alarm clock on my ipod touch until about early 2013 , when i switched to an android smartphone . 
+  scac was n't available on android at the time , so i tried sleep as android instead , and i found it was not anywhere near as good . 
+  it may have come a long way since then , and it 's also possible that the scac android version is n't as good as the ios one , but that 's just been my personal experience . 
+  hahaha i wish i could help . 
+  i do n't think there 's much i can do to help you in so little time , though . 
+  as long as you have a decent understanding of each of the major genres , forms , etc. 
+  of western art music , can spot different instruments , techniques , etc. , along with a solid understanding of your set pieces , you should be fine . 
+  out of interest , is it the * whole * petite messe , or some part of it ? 
+  because holy hells that 's a tough thing to do if you have to study the whole ~ 90 minute score !, 
+  the only tips i would give would be to ( 1 ) listen to them and follow along with the score , to the point where you can hear a part and immediately know where to go to find it , and describe where it sits in the context of the whole piece , and ( 2 ) concentrate on covering specific aspects of it that your teacher has already called out . 
+  if they 're a good teacher , and you do n't get unlucky , those aspects are probably the ones examiners are going to select . 
+  i 'm sorry i ca n't be more helpful . 
+  i do n't know the scores themselves . 
+  i can see where you 're coming from , but the admins do this a lot . 
+  they 'll pick subreddits that fit a theme , whether they 're different approaches to the same broad area ( yesterday with / r/dndgreentext and / r/worldbuilding , for example ) , subreddits in direct opposition ( i 'm pretty sure they had sanders , clinton , and trump subreddits trending in a single day , once , and they 've * definitely * had at least two of the three ) . 
+  today is interesting , because they 're two ostensibly * identical * subreddits , both pretty much equal in size , both brand new . 
+  it 's interesting to see , with * both * getting the trending spotlight , which end up winning out and becoming dominant , or if they can both sit in a nice equilibrium . 
+  the admins clearly like playing games . 
+  this is just one of them . 
+  there 's a whole * network * of / r/imaginary _ things . 
+  many of them are quite good . 
+   poisoned by his enemies like fifty times in the back, 
+  i like the way you think . 
+  i have a couple of moments that come to mind , both from recapitulations of beethoven pieces in sonata form . 
+  the left hand at [ this moment ] ( https://youtu.be/80zmsda5q8q?t=2m43s ) in beethoven 's sonata no . 
+  14 in c # minor `` moonlight '' , from about 2:43 until 2:56 . 
+  the bassoon at [ this point ] ( https://youtu.be/b7pqytf2nak?t=4m7s ) in beethoven 's symphony no . 
+  5 in c minor , from about 4:07 until 4:13 . 
+  also around the same time , the oboe is absolutely beautiful with those long sustained notes , both before and * especially * after its solo . 
+  i just adore the sound of that held b natural gliding through the strings with the main theme , and then resolving up to the c. 
+  can someone explain to me how to use that ` units ` tool ? 
+  i ca n't seem to get it working . 
+  i first tried it as he used it exactly , and it said ` unknown unit ` millilightseconds ` . 
+  then i tried converting into lightyears by doing ` you have : ( 3 / 1000 ) * ( 1 / ( 60 * 60 * 24 * 365.25 ) ) lightyears ` . 
+  that complained about not recognising the brackets . 
+  then i did the calculation myself to have ` you have : 3 / 31557600000 lightyears ` , which worked . 
+  so i wrote ` you want : miles ` , to which it responded, 
+  conformability error, 
+  1.0048515e-26 / m, 
+  at which point i gave up and complained to reddit . 
+  it seems like it could be a crazy useful tool , but unfortunately it does n't seem to work properly , at least for me . 
+  ( running the bsd version of units . ), 
+  edit : ` units - version ` on os x gives , for me , ` units version 1.0 ` ( and ` man units ` reveals it 's the bsd version ) . 
+  i just tried it on linux , and while it was n't installed * at all * out of the box , once installed , it worked great . 
+  ` units -- version ` says it 's ` gnu units version 2.12 ` .

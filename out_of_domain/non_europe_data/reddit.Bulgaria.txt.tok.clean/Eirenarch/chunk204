@@ -1,0 +1,100 @@
+  a company got ta do what a company got ta do to keep that pg rating down, 
+  man , i do n't know how you have the patience to play random teams . 
+  i love 2 vs 2 ( maybe more than 1 vs 1 ) but random teams ... 
+  [ their skin absorbs sunlight and this is how they gain energy . 
+  basically they are plants ] ( / spoiler ), 
+  if workers are so important why are not chinese with their additional workers ( 9 vs 6 if i recall correctly ) the best race ? 
+  i was a relatively high level sc player back in the day and some of my schoolmates played age of empires 2 and i sometimes played with them and when i learned that chinese had more workers i declared that they were unbeatable because of course i was applying sc logic . 
+  it turns out this is not the case but i still ca n't figure out why , 
+  how big is the scene ? 
+  when you say pro what do you mean ? 
+  are there professional players ( players who play for a living ) or you just mean highest level ? 
+  can you elaborate what nomad is ? 
+  i assume it is a map type but i do n't know what kind . 
+  i 've actually seen this ( about 2000 ) . 
+  we went on a cleaning spree at some point . 
+  migrated to an orm after that . 
+  sadly the guy who pushed for the orm went too far on the other side demanding everything in the orm and we had some pretty complex queries so these orm generated queries became annoyingly slow . 
+  we should have kept like 20 very complex and performance critical sps and migrated everything else to orm queries . 
+  i see . 
+  i see . 
+  is this played competitively ? 
+  his english is so fun it is only rivalled by white ra 's english, 
+  mc commentary . 
+  your argument is invalid . 
+  watch the great video tutorials known as starcrafts, 
+  exactly my thought . 
+  also one of the rare cases where code really needs comments since it is intentionally weird just to produce better performance . 
+  the reason for this code is not that operator overloading broke something . 
+  the problem is that they wanted every tick of performance and did n't document their weird code . 
+  the operator itself would have worked fine . 
+  so what does = = do if it is not overloaded ? 
+  if it does the same as in c # then what 's the difference between object.referenceequals and having this operator ? 
+  i would still argue this . 
+  9 years as professional c # developer and i have seen operator overloading abused just once ( took like 3 hours of debugging ) and it was in my first or second year as developer so people know much better now . 
+  just for the record i was n't the one abusing it . 
+  this example says nothing about the intuitiveness and expressiveness of operator overloading since the intuitive code would have worked just as well . 
+  now if you want to argue about the performance of operator overloading ... 
+  how many times have you called a = = operator that does n't behave correctly ? 
+  you can screw the implementation of operator overloading for sure but in practice i never ran into this issue . 
+  if this code was written for correctness reasons i would call it bad code . 
+  the author of the code is assuming for no reason that the operator is broken . 
+  if i read the code the author is telling me that the operator is broken and is therefore lying to me because the operator is just fine . 
+  in fact this is literally what i thought when i read the code that the = = on version is broken in a subtle way and they do n't want to fix it for backward compatibility reasons . 
+  turns out it is just a performance hack and somebody did not put a comment . 
+  and now you learn why it is called operator overloading instead of operator overriding ( yes , this does exist in some languages ) . 
+  i really do n't understand why some people are disturbed or blame the language feature for this . 
+  this is a performance hack for a piece of code that has quite high performance requirements and even then it may not be necessary . 
+  performance hacks are most often ugly . 
+  there is no issue with operator overloading in this case . 
+  the operator would have worked fine . 
+  so one person used this trick in code that he deemed extremely performance critical . 
+  i do n't see how this would justify its own operator . 
+  i have created an operator overload exactly 0 times but i use the ones for dates quite a lot . 
+  i have used the operators on math types ( including framework types like biginteger and third party library ones ) i imagine if i was writing math or physics code it would be invaluable . 
+  does n't count if you got it right at the end but i ca n't help but wonder what do you do if you need to overload operators . 
+  i use the dates ones quite often and i have used math-related ones on several occasions but never had to overload one in real world code . 
+  i do n't know if it ( operator overriding ) is a good idea but it does not exist in c # . 
+  yeah , except there is no case where that happens with framework code . 
+  implementing operator overloads is hard fore sure but people rarely implement them incorrectly . 
+  they probably struggle a lot to implement them but because the need is rare usually people who do override them know what they are doing . 
+  the average programmer can work with c # for a decade and never have to overload an operator . 
+  also python is quite a bit slower . 
+  remember the only reason for this code to exist is performance micro optimization . 
+  well it works fine for me . 
+  i think my code is much better because operator overloading is in c # as opposed to what it would look like if i had to use methods . 
+  you have non-overridable identity method . 
+  it is called object.referenceequals, 
+  we can turn your argument around . 
+  without free for all foreigners become weaker and we want a strong foreign scene . 
+  i do care for several reasons, 
+  the interest in the game is related to the spread of the pro scene and the interest in the game determines the level of play . 
+  i want to be able to talk to my friends about starcraft and if there are local `` stars '' chances are they will be more interested . 
+  i want to go to local events, 
+  my point is simply that if we chase the koreans to korea dh , iem , etc. 
+  will stop hosting sc events due to low interest and this will slowly destroy local interest . 
+  i am split on this . 
+  i bet xamarin are not printing insane amount of money . 
+  if these prices are the only way to survive they should keep them . 
+  on the other hand the price is too much for my hobby projects too . 
+  i think a good way to go about it is to develop an app for windows phone and when it is ready and you have validated the concept and have the backend code working buy a license and port to xamarin . 
+  this is literally the only time i have seen this in almost decade of programming in c # . 
+  it is very specific micro optimization ( basically saving 2 ifs and one method call ), 
+  the biggest windows downgrade i have experienced ( i have used windows since 3.11 and skipped only me ) . 
+  it is not only the bugs it is the functionality downgrades ( especially on touch-enabled machine ) and bad built in software ( like the edge browser and the mail client ) that used to be fine in windows 8, 
+  it is not as user friendly as a is none but it is good enough considering that it is rarely used . 
+  normally it is a = = null which is user friendly . 
+  interestingly after managing to run it and change the menu animation to planets or something it now runs relatively ok ( i have ran it just two times though ) . 
+  i think it was compiling some textures on the machine or something . 
+  for a mobile app ? 
+  come on !, 
+  i doubt any mobile app managed to survive on the market without a major rewrite for more than 3 years . 
+  everything changes constantly in this space and the apps itself are small enough to be able to rewrite . 
+  you mention xamarin forms a lot . 
+  you realize that it is supposed to be used on things like settings page and not to build your main app ui , do n't you ? 
+  you can be an indie dev with a . net background . 
+  or you just need to build some tool for some specific task because somebody paid you to and you are not building the next facebook so you just choose the best/most pleasant/easiest tool ( say xamarin ), 
+  btw i do n't understand why you pay for being an early adopter . 
+  i see it more as an early adopter advantage if it works out the way you expected . 
+  and finally how did companies using cobol fail ? 
+  most of them made insane amount of money and are still running the infrastructure because it makes a lot of money .

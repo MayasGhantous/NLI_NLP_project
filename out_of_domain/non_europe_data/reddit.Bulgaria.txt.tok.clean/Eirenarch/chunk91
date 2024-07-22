@@ -1,0 +1,100 @@
+  i am surprised to find out that ocaml has good optimizations as well . 
+  i guess it requires a gc so it is not capable of c++ level optimizations . 
+  interesting . 
+  i hope i will find the time and look into that some day . 
+  i wonder what percentage of these optimizations can be applied to jvm / . net style vm and f # compiler . 
+  frankly i am not a big believer in the stand-alone ocaml ecosystem . 
+  mono seems quite successful to me . 
+  of course i measure success in the real world way - is it sustainable ( xamarin say they get self-sustaining revenue ) ? 
+  i realize that the real world way is n't very popular in the free software community . 
+  i am looking forward to the future where microsoft extinguishes ios and android , 
+  so what you are saying is that the whole free software thing is a lie ? 
+  they said that if the software is free a company can not just kill it when it sees fit as others will be able to continue development . 
+  was this all a lie ? 
+  the horror !, 
+  the tragedy !, 
+  in case it was not clear i was being sarcastic , 
+  they have to develop visual studio with something . 
+  they say it was rc2 . 
+  i guess they will have release support soon ? 
+  the gc ported as asm.js code as well ? 
+  touch\u00e9 !, 
+  do you consider hack something you will want to work with if you had the chance to build facebook from scratch or is this just something to replace the dreaded php in a practical way . 
+  if you would use another language which one ? 
+  so how does this improved performance compare to java ? 
+  10 times slower than java ? 
+  maybe a decade . 
+  of course this is in comparison with other managed environments like . net , php , python , etc. 
+  why is this considered so special ? 
+  asp.net can do this since day one * and c # is much more statically typed and compiled than hack . 
+  hell , you can even edit the code while you have stopped at a breakpoint and continue . 
+  * in case someone is wondering you need to use the web site project and not the web application one for actual save/refresh without compile behavior . 
+  i thought only people who build engines used those apis directly . 
+  is n't everyone else just using unity , unreal engine , source or whatever for cross platform development ? 
+  sure i was just pointing out that this is nothing new and mentioned asp.net because this is what i have experience with . 
+  i fully expect other serious frameworks to have this ability as well . 
+  there certainly are . 
+  if i recall correctly in the asp.net case the asp.net compiler creates one dll per folder and caches these until it finds that a file has changed then it recompiles that dll . 
+  so what ? 
+  the end result is the `` quick feedback '' experience that people claim is a great advantage of php . 
+  so ... is it less fun to implement those things in directx than in opengl ? 
+  but if you reinvent the wheel with directx you get a great opportunity to reinvent the wheel twice ( ergo twice the fun ) by reinventing it again in your engine with opengl  also your wheel will be xbox compatible . 
+  why do people link drdobbs articles here ? 
+  it seems to me that they are the buzzfeed of it . 
+  list of this list of that and if you come to / r/programming at least once a week you already know all the entries on the list . 
+  that article sets quite low quality bar . 
+  on the other hand at least it is about programming ... 
+  i think things like gwt are what we will use in the future but to get there the web landscape needs to settle down . 
+  every 3 months the web has a new fashion and new way of building websites , applications or whatever . 
+  until that time comes the controls in this type of component frameworks are instantly obsolete . 
+  this is the problem with asp.net web forms , this is the problem with gwt and basically everything that abstracts the web away . 
+  the web changes so fast that your abstraction starts to leak in less than an year and it was just perfect before . 
+  reddit has ruined my impression of drdobbs . 
+  maybe you could chill the fuck out and spend a little less of your life caring about what the community things of naniwa . 
+  quite insightful actually although i do n't think i can ever be a fan again after what he did at iem . 
+  i felt like this was a personal insult . 
+  i am not familiar with gwt but i am under the impression that great shifts in how we develop web stuff ca n't really be abstracted away no matter . 
+  you either get too much control in one situation or too little in another . 
+  no way to balance for every style . 
+  this is why i think this types of frameworks will win just after the dust settles . 
+  of course i may be wrong . 
+  i do n't know why people do n't appreciate this brilliant joke :(, 
+  funny thing it is nani who went away and will probably never come back . 
+  i see . 
+  it does n't matter . 
+  it still uses prebuilt handwritten components . 
+  the fact that java code compiles to javascript is irrelevant to my statement . 
+  when the core components abstractions become obsolete gwt becomes hard to use for modern projects . 
+  same with asp.net web forms . 
+  also the fact that you can actually dig deep enough and build anything with both frameworks is irrelevant . 
+  all that matters is that people find it hard and prefer other ways . 
+  as far as i know gwt also refers to the set of gui controls used with the java code , does n't it ? 
+  this is the example i give to interns to make them find ctes in ms sql, 
+  best reddit post in the last 30 days !, 
+  i am thinking of registering fake accounts just to upvote it , 
+  also popular in c # especially when combined with operator overloading and user defined implicit casts . 
+  used in math and physics computations and date arithmetics, 
+  why is `` asyncawait '' called a `` library '' it seems to be a translator of some sort ( i.e. 
+  as far as i can see it introduces new keywords ) ? 
+  oh , generators !, 
+  i see . 
+  putting spaces inside calls is clever . 
+  i was wondering why there are what seemed like unneeded parenthesis around stuff and thought it was some convention , 
+  i believe that to achieve something like async/await you need some form of coroutines in the language itself and it can not be done on purely library level . 
+  but if the library uses generators that makes perfect sense . 
+  java runtime is infinitely better to develop for than the web as is silverlight . 
+  i do n't care how much people hate them for not being open or whatever i would prefer to develop with real application development tech any day over design by committee document format with infinite patches . 
+  those runtimes were developed with fraction of the effort put into web tech and they are already better . 
+  what if there was real incentive for the respective companies to develop java , flash , silverlight or another runtime ? 
+  do the android and objective-c apis support the necessary features to facilitate mvvm , namely 2-way databinding . 
+  i was under the impression that they did n't . 
+  i think if you do binding by hand ( i.e. 
+  by handling events ) you actually have mvp pattern not mvvm ), 
+  i did n't intend to bash silverlight . 
+  in fact i meant to say exactly the opposite . 
+  java and silverlight are better to develop for than the web . 
+  sorry if it has not been clear enough i am not a native english speaker . 
+  i love the sketch but downvoted for not being programming . 
+  i know . 
+  i was talking about exactly the opposite of that . 
+  first rule of multithreaded code : do n't write multithreaded code .

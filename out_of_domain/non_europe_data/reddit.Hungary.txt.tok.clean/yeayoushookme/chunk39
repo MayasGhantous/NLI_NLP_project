@@ -1,0 +1,100 @@
+  tell me which one is x. 
+  ( no peeking at spectrums ), 
+  irl woodland critter christmas, 
+   soviet, 
+  what 's most likely , is that your converter is already oversampling . 
+  not to 96khz , but to the low mhz range . 
+  even if it 's cheap . 
+  filters have less constraints in the pure-math world of the digital domain , and end up requiring less engineering , and less precise parts than if they were realized as analog electronic circuits . 
+  however i 've learned it differently than / u/worldsgr8esthipster : oversampling converters require a cleaner clock than non-oversampling ones , as the filter taps/coefficients will effectively change due to the timing inaccuracies , reducing the stopband rejection of the antialias filter . 
+  this raises more questions than it answers . 
+  the output impedance of the interface is different from the impedance of the pickup , sure . 
+  but the common cathode amplifier has a very high input impedance . 
+  why would there be a difference in tone between the low-z ( from the board ) and the low-reactance high-z ( from the reamp transformer ) outputs ? 
+  the debian way is to link libraries in the distro in a dynamic way , but the libav in the repos does n't work well with xbmc . 
+  thus the logo 's there to notify you not to post any bug reports to xbmc 's tracker , because the errors are unrelated to the official xbmc . 
+  many things , like hardware acceleration break on the debian version . 
+  i build xbmc from source because of this crazyness . 
+  see the xbmc wiki on how to build xbmc with a statically compiled libav : http://wiki.xbmc.org/index.php?title=how-to:compile_xbmc_for_linux, 
+  i would 've gone with something else then debian for my htpc had i known this ... 
+  i 'd put my bet on a plane 's nav lights . 
+  there 's a green light that 's not a strobe on the right wing . 
+  it would leave a trail just like in the image you linked , if it passed in front of the observatory . 
+  or it 's alien zombie pirates . 
+  it 's space after all . 
+  low-budget studio monitors may not be as accurate as you 'd hope , but they do have some nifty features : electronic crossovers ^ usually have better tolerances than passive ones , so you 'll ^ probably get better stereo reproduction from bi-amped monitors than regular hi-fi speakers , as long as you place them correctly . 
+  you 'll probably get a louder system for the same price if you go for a regular hi-fi setup . 
+  as long as the speakers are close to you , this should n't matter . 
+  why do you need multiple inputs ? 
+  only professional studio devices offer that . 
+   i need an input for teamspeak and my pc, 
+  input for your pc ? 
+  for what ? 
+  another pc ? 
+  iirc [ virtual audio cable ] ( http://software.muzychenko.net/eng/vac.htm#features ) has the capability to split a regular 6/8 channel sound card to a numbert of separate audio devices , and you can use whichever pin you want for whichever application , so then you can use an outboard analog mixer or whatever to get the results you want . 
+  using a cheap stereo usb sound card will also get you voip in another speaker . 
+  no need for expensive sound cards . 
+  just clarify why you need multiple inputs . 
+  it seems to me that you really do n't . 
+  this could be fixed if merchants retreated to the grand hall as well when the alarm bell is rung . 
+  ... not that they 're such a great loss , am i right ? 
+  this is the first time i 've heard of this . 
+  is it open hardware ? 
+  whew , for a minute i thought my vms box would become outdated . 
+  this is a recurring problem that happens when the item the gnome is about to craft with falls into a suspended state of existance within the item database . 
+  find the gnome assigned to the job , and they 'll be standing at the same spot where they think the item should be ; sometimes it 's listed when you click on the tile , but it 's never visible . 
+  do n't craft the item that causes this bug to appear . 
+  when trying to sell it , make sure to save the game beforehand , as it may crash the game . 
+  you can use checkinstall to create a deb package , and install it with ` dpkg - i foo.deb `, 
+  edit : first run the configure script , then make , and then run checkinstall , should this be clarified . 
+  it seems to happen less often in newer versions , robob0b must 've fixed most of the cases that trigger it . 
+  i do n't think there 's anything you can do to avoid it . 
+  i was lucky when i dug into their cave and they could n't make it to the hole . 
+  now it 's a cool shooting gallery . 
+  i plan on somehow diverting a sizeble goblin army into that cavern . 
+  imagine the fight !, 
+  phones have their mic inputs on the sleeve of the trrs mini-phono jack . 
+  the plug on this has only one ring , and i think the output will be on the tip , so i do n't think it 'll work . 
+  you could make an adapter easily , but you can also buy a mic that is made for the mobile connector - http://www.planetheadset.com/iphonemicrophone.php, 
+  you avoid public trackers . 
+  you 're using the wrong kind of cable . 
+  there 's an unreasonable amount of copper in there . 
+  that 's a signal level interconnect , with 10 + k\u03a9 impedance on the input side . 
+  there 's almost no current flowing in that wire , so using speaker wire is kind of a waste of metal ( silver ?? 
+  i hope / u/movingtoneptune is joking ) . 
+  there are dozens of amplifiers in the chain . 
+  what difference does a single amp make ? 
+  that 's the effect of a cheap resampler ( aliasing ) . 
+  either windows , or the sound card 's doing it . 
+  select an appropriate optput sample rate for your sound card ; test multiple file and output sample rates , to see when it 's triggered . 
+  you 're looking for this window btw : http://www.passmark.com/images/forumimages/sound-output-sample-rate-setting.png, 
+  if the sound card 's shoddy - i.e. 
+  its clock ca n't handle 44100hz and uses a shit src to convert from 44100hz to 48khz , then you can still have excellent audio quality by using a high quality resampler to get the audio to 48000hz - assuming it can handle it . 
+  foobar has a great resampler built in ( pphs ) , or the sox plugin is even better ( though it 's cpu intensive ) . 
+  both pitches are equally arbitrary . 
+  heck , the hz is also almost totally arbitrary ( as well as the si second ) . 
+  the wole ordeal is bollocks , as portrayed by the following statement :, 
+   432hz - the same frequency as the water , solar system , life, 
+  * all . 
+  if someone thinks a musical arrangement sounds better in a slightly shifted key , they can and should play it like that . 
+  but come on , cut the magical crap !, 
+  ground loop . 
+  how are your stuff wired ? 
+  is the same wall plug being used for every device ? 
+  i do n't know what an i13 is . 
+  every interconnected device has to be plugged into the same set of wall sockets , with grounded prongs , that 's how you minimise the effect of ground loops . 
+  although this can be an issue with the power supply filtering of the sound card , usually they are sufficiently clean, 
+  again , double check whether anything is connected to a wall socket that 's not on the same circuit as the rest of the entertainment system . 
+  try disconnecting things one by one to see if that helps . 
+  ohhhh , okay , that 's a completely different issue then , it must be related to power supply ripples not being filtered by the transmitter . 
+  it 's strange how this causes interference , but this must mean that it 's transmitting an analog signal . 
+  there are powered usb hubs out there , and one would rectify this issue ( had you not solved it already ) , because they 'd have cleaner power from a wall wart instead of the dirty pc power source . 
+  or a an unpowered hub could be made to work as well , if you sokdered a big-ass capacitor over the 5v pin . 
+  a ground loop isolator uses a transformer , not a resistor to galvanically separate the input from the output . 
+  on second thought , let 's not move away from gta . 
+  yes . 
+  i guess i figured it out . 
+  between the third pins of the left and right outputs there is a 260 ohm resistance , measurable with an ohmmeter , so it 's the cheap type balanced . 
+  i just checked the spec sheet , and it confirms the output impedance is ~ 120\u03a9 . 
+  hey , they also do n't claim the output is balanced at all !, 
+  it says 120\u03a9 unbalanced .

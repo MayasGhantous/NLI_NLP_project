@@ -1,0 +1,100 @@
+  i can not think of any language that was driven into such a mess . 
+  was it as bad ? 
+  i mean i always imagined that k&r and ansi c were largely compatible . 
+  so how many decades before you can expect people to upgrade ? 
+  and no this is not how major versions work in all of software . 
+  java for example never broke backward compatibility . 
+  well python 3 broke strings and byte arrays of all things ... 
+  how about porting it ? 
+  i am not very familiar with the situation . 
+  i really want to know how the fact that 7 years after the release of the new version most new software and employment opportunities are on the old version is not a huge mess . 
+  was it like that with c ? 
+  if comments here ( and elsewhere ) are to be believed these are most people . 
+  what i want ( need ) is an article about writing code first with existing database . 
+  microsoft are so bad with names ... 
+  what i mean is i have a database and i want the pure poco classes which i can tweak manually even if they were originally generated . 
+  every serious database guy will simply shoot you if you suggest that the application should create the database , let alone that the whole `` generate db '' thing simply does n't work if you have a legacy database . 
+  that is certainly true but none of these make your code base obsolete . 
+  you can take java 6 code and compile it with java 8 , same with c++ as far as i know . 
+  in these cases it is not the language that blocks the move forward . 
+  i 'd rather have my leg chopped than write javascript for platforms that support other languages ... well not really ... 
+  i like my leg . 
+  on the other hand i 'd rather port changes between swift , java and c # than write javascript and there is a chance i might be more productive this way . 
+  well people maintain t4 templates and stuff to regenerate their model if the database changes . 
+  i prefer to have classes and evolve them as the database evolves . 
+  let alone that sometimes i disagree with the default mapping and i 'd rather maintain the poco classes instead of templates . 
+  does n't sound like a minor change to me . 
+  btw what is the reason big libraries took so long to migrate ? 
+  if changes were largely compatible it would be a no brainer . 
+  well if libraries are valuable as they are then maybe it is not a good thing to force people to fix them . 
+  it seems to me that the value of the ( broken ) libraries was severely underestimated . 
+  for example when php broke backward compatibility it seems like they estimated that nothing of value was lost and they were correct since the migration to php5 was relatively fast ( as in it did happen in less than a decade ) . 
+  with python not so much ... 
+  if there are breaking changes which most languages avoid like plague . 
+  none if this is language level compatibility . 
+  library authors do not need to maintain separate versions or make any changes to their code . 
+  in any case even the binary compatibility is much much better than what python provided between 2 and 3 . 
+  did you just compare the python 2 vs python 3 situation with some obscure issue with different builds of the ibm jvm ? 
+  you really do n't see the difference ? 
+  well yeah ... ok so it seems like it would have been better for python to not have a major version . 
+  i know that they made changes to the way byte arrays and strings interoperate . 
+  i assume this is the biggest issue when porting . 
+  however i can clearly see the consequences . 
+  people upgrade their java projects even though they do it slowly but do not upgrade their python projects and actually start brand new python projects on the old version . 
+  we were just discussing this with my coworkers at lunch and she said that she never had a chance to work with python 3 . 
+  at work their team uses 2.7 and she starter her university project ( a game ) on 2.7 because the libraries she wanted to use were not available for 3 . 
+  so is there a way to generate classes or something from an existing db ? 
+  well everyone with experience knows that you test every change in every part of the project if the stakes are significant . 
+  my original point about the language changes is that the maintainers completely misjudged the impact of introducing similar but different languages . 
+  in hindsight it would be better if they did n't introduce the new language because it seems like people do n't want or ca n't use it . 
+  this is not the case with vb.net as people do use it and do not start brand new projects on vb6 . 
+  i believe it was like an year or two years ago . 
+  and their project at work ( java + python ) is still on 2.7 . 
+  my argument is not that python is the only language that made breaking changes ( btw c # has several language level breaking changes they did on purpose ) . 
+  what i claim is that python 's maintainers did not judge the weight of the breaking changes and underestimated the need for backward compatibility . 
+  here is an example :, 
+  java maintainer - we do not introduce any breaking changes - it works relatively well , people upgrade and use the new features conservatively, 
+  c # maintainer - we introduce very minor breaking changes we believe will affect very small number of users and we may even fix a bug in the process . 
+  in addition we are microsoft and our community does what we tell them to as long as it is not remarkably stupid ( slightly stupid is ok ) . 
+  - it works , nobody complains , people upgrade relatively fast . 
+  php - we will introduce major breaking changes but our ecosystem is shit anyway and everybody is rewriting it every even year . 
+  most of the legacy code is just web pages that need to be updated often for marketing reasons anyway . 
+  - there is a slight hiccup but people do upgrade and go on using the language . 
+  python - we need to fix these things , code will break but people will eventually fix the libraries and projects will migrate to python 3 . 
+  - 7 years later it turns out that most people ca n't use python 3 because most of their projects are on python 2 and projects are not likely to update . 
+  new projects are started with python 2.7 although it will not receive new features , features that people actually want to use . 
+  google themselves only support python 2.7 ( or so my coworkers tell me ) even though their google app engine was released after python 3 . 
+  yes i am sure she is using cpython . 
+  on the other hand it is entirely possible that she just stumbled upon a single specific library with no python 3 version . 
+  however for work she is not making decisions about the version of python . 
+  i do n't know what they are using python for but i guess it is minor because most of their work is java so maybe they simply do n't care to upgrade . 
+  now first of all i have 0 investment in python so i do n't really care about that course . 
+  just for the record it was a cryptography course on coursera which used python code as skeleton for network communication so i had to look at the code to build my own c # implementation . 
+  while it was annoying that i had to choose between installing additional interpreter , modifying the code or trying to understand it without running it this is not the reason why i think python was mismanaged . 
+  this case was just a personal experience which enforced my impressions of what i had read on the web . 
+  mind you that this very thread contains the claim that most jobs and projects are on python 2.7 which nobody is disputing . 
+  this very fact makes me think that python is mismanaged . 
+  if most of your users can not use your innovation maybe you misplaced your resources and should have introduced the innovation in the old version instead . 
+  btw java strings are unicode only, 
+  the greatest problem with xp and 7 is that the future versions cost money and yes i do think that python 's issue is unique among programming languages . 
+  at least the scale is unique . 
+  uhm ... what ? 
+  why ca n't they use roslyn to build the tool ? 
+  i mean they did build it for previous versions . 
+  hey at least this one had actual programming . 
+  these days we 're happy if the upvoted posts contain code at all . 
+  i used to watch wcs europe before , now i only watch gsl . 
+  it seems like foreigners are even worse now that they do n't practice with so many koreans as they did before . 
+  at least before they had a chance . . 
+  i am expecting them to stop getting money . 
+  really if you do n't want to compete with the best at least do not demand a handicapped league that bans koreans like the current wcs . 
+  i do n't think he wants to change the replay files . 
+  if the replay file does not track the locations of the unit i do n't see anything you can do but simulate the movement . 
+  quite a bit of work . 
+  you know what i hate ? 
+  a class named constants where people put ... constants . 
+  people do n't even notice it is bad . 
+  we once had a solution where one of our project was named classes . 
+  i kid you not . 
+  it contained classes . 
+  somehow everyone on the team knew how much this sucked but people did n't mind the constants class .

@@ -1,0 +1,100 @@
+  lets see how their expectations work for them . 
+  worst case is i get fired . 
+  so like 30 work days in a year ? 
+  what is your limit because i counted 30 work days in a year . 
+  it seems like the presentation ignores the upcoming typescript 2.0, 
+  typescript is not flow-sensitive ... yet . 
+  until a couple of months in the future when ts2 is released . 
+  i do not expect that it will get the full flow power but maybe 20 % of the features for 80 % of the result ( like the nullability checks ), 
+  yeah but then the lack of comparison in tooling does not make sense . 
+  also can flow consume typescript definition files already ? 
+  or use it as much as we can in the coming months !, 
+  well , you were not wrong . 
+  trump is indeed slightly better than hillary and sanders . 
+  that being said this is not a very high bar , 
+  with typescript 1.8 you can include js files in the typescript build so i guess that problem is gone . 
+  why do you have parenthesis around mathf.roundtoint ( newtemperate.aqueousliquids ), 
+  if you are worried about the number of parenthesis why include ones that are not needed ? 
+  let me ask you something - how can you believe that a person should have individual liberties for everything but economics ? 
+  why should a person be free to smoke cannabis but not free to work for less than the minimum wage ? 
+  i do n't think libertarians are opposed to this particular kind of regulation as this kind of environmental damage hurts third parties . 
+  however if you think mcdonalds must pay a certain minimum wage just because it is a big business this is completely different . 
+  interestingly this is not only american thing . 
+  the second most prominent bulgarian national hero [ hristo botev ] ( https://en.wikipedia.org/wiki/hristo_botev ) wrote, 
+   the foundation of each and every state is theft , lies and violence, 
+  ( my translation ), 
+  unsurprisingly you do n't get to learn about this particular article of his in textbooks despite the fact that both his historical significance and his poetry is studied extensively in school . 
+  for the record he was more of a socialist-anarchist than a libertarian but still ... 
+  if nobody would want to work there then why is there a minimum wage ? 
+  the minimum wage bans people from working where they pay under x, 
+  definitely . 
+  especially from libertarian point of view . 
+  he may be as bad on anything else but at least he will kill the political correctness bullshit . 
+  doing things on type level rather than on usage level means that the design burden is shifted from the user to the library creator . 
+  . net rightfully assumes that the average library writer is more competent than the average . net dev so over quality improves and errors are prevented by employing this strategy . 
+   which is very rarely the case . 
+  [ citation needed ], 
+  i think they 've hit the right balance . 
+  also this potentially only sacrifices performance and very rarely ( if ever ) correctness or design . 
+  for like the 20th time . 
+  what was his f # business ? 
+  well ... no . 
+  especially us nationalism which is tightly related to the us constitution . 
+  yes but this could mean that it is easier to misuse it or not use it because of lack of understanding . 
+  something like java 's approach to covariance and contravariance vs c # 's declaration-side approach . 
+  it 's not the society 's norms when a law demands you have x % women in your board of directors . 
+  neither is it society 's norms when you get fined for not using the 31 genders . 
+  checked exceptions - making codebases worse since 1995 ( and still not removed from the language ), 
+  the thing is a badly documented java api can do the same since the language does not prohibit runtime exceptions . 
+  basically in java you have the worst of both worlds . 
+  nope . 
+  this will have the same effect although arguably ignoreexceptionwarning is easier than writing an empty catch . 
+  better just generate kind of documentation that shows the possible exceptions but does not force anything . 
+  yeah , in a perfect world the noble idea of checked exceptions would work ( of course in that perfect world nobody would use java but probably haskell ) . 
+  empirical study tells us we get empty catch blocks and printstacktraces . 
+  your experience is either extremely niche or you are just biased because you are arguing with empirical data and the judgement of literally every programming language designer since 1995 including those who created languages for the jvm . 
+  it will make things better by not forcing programmers to write empty ( or effective empty ) catch blocks . 
+  i hope we agree that unhandled exception is infinite better than an empty catch block . 
+  which is infinitely better than an empty catch or printstacktrace because a program that crashes is infinitely better than a program that produces wrong result due to ignoring unforeseen errors . 
+  yes and i am pretty sure after ~ 10 more years of suffering java will finally be upgraded to treat checked exceptions as unchecked . 
+  java programmers are just too stubborn but 30 years of pain will surely teach them . 
+  no but i will definitely be happier if javascript did n't exist . 
+  also i will be happier if somehow java disappeared today and all java code was magically converted to say kotlin . 
+  java is an important stop in the development of programming languages but today it does not make sense except for legacy and know-how reasons . 
+  and checked exceptions are proven to not make sense for anything . 
+  having only runtime exceptions is vastly superior . 
+  in fact many java libraries will do just that - wrapped checked exceptions in unchecked exceptions . 
+  so java is not suitable for unexperienced programmers , requires boilerplate wrapping for experienced programmers , requires bullshit code in tests , makes lambdas painful if code throwing checked exceptions is used . 
+  undoubtedly checked exceptions are a great feature that makes the language better . 
+  unexperienced programmers are unexperienced in any language but the damage they deal is greater in java . 
+  let alone that even average programmers are often tricked by checked exceptions . 
+  the feature amplifies the damage and provides more traps for unexperienced programmers than comparable features in other languages for disputable benefits . 
+  i do n't see that `` list of possible errors '' as very useful since there is also another list of hidden possible errors known as runtime exceptions . 
+  the io exception is in my opinion quite bad since most of the time the program must crash anyway . 
+  it is not like most programs can just keep on working if a resource is missing . 
+  the fact that io exception is present into the standard library points to the fact that even the top java programmers make significant errors when using checked exceptions . 
+  a better example will be something like validation exception where the business logic informs the ui of a validation error but as i said all this is so murky that even java designers managed to make life sad for their users by introducing a checked io exception . 
+  there is nothing silent about a crash . 
+  the empty catch is silent . 
+  there is nothing preventing you from handling io exception when you need to . 
+  the problem is that there are programs where the exception should not be handled ( and in fact i claim that these are most usages ) . 
+  if part of your users do not need to write code better not force all of them to write code . 
+  after all no code is better than some code even if the error is equivalent and the damage from empty catch is much bigger than the damage from a missing catch . 
+  btw do you realize that `` languages that are unchecked-only '' means every language except java ? 
+  well ... 
+  i do n't know what to say to someone who thinks crashes are the worst thing that can happen . 
+  it has been said multiple times in this thread there are no guarantees . 
+  you guarantee nothing except that the user code will be informed about the possibility of these exceptions . 
+  there is literally no guarantee . 
+  no guarantee that there are no other exceptions for the user and no guarantee that these exceptions will be properly handled for you . 
+  all you 've got is documentation in the form of compile-time errors which provoke empty catches , printstacktraces and other bad practices and obviously the very study we discuss proves that this does not happen only to bad programmers . 
+  yes , the only worse situation is precisely what happens when your app is in an unexpected error state but does not crash . 
+  of course you should recover to the best of your ability but by definition you can not recover because you can not possibly recover from an error that you think can never happen or do not even know about . 
+  this is why empty catches are the worst . 
+  you knew a checked exception could not happen so you can not recover from it but then the code is changed and the exception can happen but you have already `` recovered '' by doing nothing and now the program is in a broken state but keeps on running and for example commits that transaction that makes it so money go missing . 
+  first of all evidently most java programmers are bad java programmers . 
+  second sometimes you know the exception can not happen because lets say you just checked the conditions . 
+  you are forced to write a catch which makes your code ugly ( and yes this is the 80 % case ) and if you are average or below programmer you may just print that stack trace as opposed to wrapping the exception . 
+  as it happens the io exceptions are the worst offenders . 
+  you ca n't recover from unexpected exceptions because you do n't know what state got messed up . 
+  you can only recover by wiping out all your state in the context which usually means the whole application or the whole thread state ( like in web applications where the whole request goes to hell ),

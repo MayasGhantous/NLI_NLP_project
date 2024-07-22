@@ -1,0 +1,100 @@
+  desync ! = performance . 
+  does the game perform more poorly in mp than in sp ? 
+  yes , christ its unreal . 
+  are people being overly dramatic about the performance ? 
+  yes, 
+  if it would really run that bad as you 're making it out , you would n't play it . 
+  i run a amd fx8350 in my rig and i just came back from a hour long session cti warfare , 60 people solid 40-50 fps . 
+  afaik there is no way to delete all map markers at once . 
+  a personal waypoint should not be persistent when a new one is added . 
+  are you playing with mods ? 
+  unfortunately you are right in regards to coop . 
+  a lot of the processing power goes down the drain for computing the ai reaction and paths . 
+  that 's why zeus and mcc are great tools , lesser pre spawned ai means more fps, 
+   i would much rather have bi devote all of their resources to fixing their game rather than releasing dlc, 
+   i understand that the people who work on the dlc are different than the people who work on the engine and performance . 
+  not much more to add to this , tbh, 
+  coming from java and now coding in c++ because university wants me to , i find c++ less convenient but coding itself feels like i have a lot more control over the program and it 's processes . 
+  might just be me though, 
+  can you compile with it though ? 
+  i have been using it for a couple weeks now but whenever i want to compile i have to go back to my command line and run the ole g + + . 
+  help would be appreciated !, 
+  this is real world time ... 
+  does n't elite force it on ? 
+  the difficulty i mean, 
+  it does , or to be more exact : it will at one point , it just does n't currently in this picture . 
+  in my case i have to create a battleship game , in which the player first lays down how large the board should be . 
+  if i am understand this correctly i would do this :, 
+  char * board ;, 
+  board = new char * [ a ] ; / / in which a is user input length of the board, 
+  for ( int i = 0 ; i < a ; + + i ) {, 
+  board [ i ] = new char [ b ] ; / / also user input width of the board, 
+  and for learning purposes : the first new statement declares a dynamic array that points to p [ 0 ] and the second new statement is just a simple array , no pointer ? 
+  my next problem would then be : how do i access certain elements in my array now ? 
+  it would n't be plain board [ a * b ] , or would it ? 
+  ** edit : ** changed the ints to chars because in the way i want to lay this out a ship is represented by an 1 , a hit by x and a miss 0 or an o. 
+  thanks for your help , i really appreciate it !, 
+  i am still stuck on filling the array with elements and then accessing them , but i think i 'm good to go from here . 
+  this is a really cool mission idea, 
+  not really a rave but mainframe offers a variety of electronic music , such as drum and base , house and dubstep . 
+  it 's always on the first saturday of the month in the arena wien , starting between 10 and 11 pm . 
+  it seems it 's an on and off for some people here . 
+  i tried it and it worked , however i landed with the ramp open and did n't open it when i was landed , i was even to shut off the engine and take off again . 
+  dangerous question as it leaks into recruiting territory . 
+  i 'd rather ask for gamemodes for coop or tvt, 
+  literally # 3 on the posting guidelines . 
+  is there any specific reason to use a vector instead of simple one dimensional array ? 
+  you might need to of them to put them in order . 
+  i had a smiliar assignment two weeks ago , i just used a dynamic integer array in which i would store all numbers , then i would order them using to nested for loops . 
+  afterwards i would call a function in which all the math stuff happens , such as median , average , variant , standard deviation etc. 
+  last step was to call a clean up function , which reset all counters , de allocated any memory from the array and set the array to 0, 
+  yes it was . 
+  helicopters and even some cars were more flimsy in arma 2, 
+  my bad then . 
+  i assumed because you are doing vectors in class ( which we have n't ) you already went over pointers ( which we did ) . 
+  pointers can make arrays dynamic , by allocating the memory they need during runtime , which makes them a nice tool, 
+  3rd person makes tvt practically unplayable , due to unfair advantages . 
+  if the interior of a vehicle is odd or unfinished , fuck it , ill take 1st person . 
+  if the view is really that badly obstructed ( which i have n't experienced myself thus far ) then just use a different mod or not mod at all . 
+  humvees , mraps and the like have a kind of angled view , its the nature of a truck . 
+  when using dynamic memory / arrays i feel like it is somewhat good practice to use the delete [ ] operator along with the new operator . 
+  it 's also a great chance to already get hands on with exception handling ( if you have n't done that already ) . 
+  google bad_alloc c++ and you 'll see what i mean, 
+  the guy behind the wall, 
+  here goes nothing :, 
+  ** cpu : ** amd fx8350 not overclocked @ 4.0 ghz, 
+  ** ram : ** 2x corsair vengeance 8gb dual channel 1866mhz, 
+  ** hdd : ** wd black 1tb, 
+  ** tower : ** some big ass thing from cooler master with a red led fan in front . 
+  i might add a picture later on . 
+  but the thing has room for 2 gpus and a couple extra hdds, 
+  released is one thing , working another . 
+  any experiences with this mod ? 
+  edit : several tries later i ca n't get it to work . 
+  i placed down an empty c130 manned it with ai and tried to jump out , no option . 
+  then i tried it with an ai controlled c130 in which i put myself in the cargo with scripting . 
+  according to the bi page you should get an option to jump out once you 're in the bird but i do n't get anything . 
+  what am i doing wrong ? 
+  edit2 : so many people upvoting but i have n't seen anyone here or over on the bi forums actually using this mod , everyone says they ca n't get it to work . 
+  well the gif is 130mb . 
+  rip mobile users with a download limit, 
+  first step of examining where a bug originates from : disable all mods , scripts etc and try to reproduce in the editor with stock units and weapons . 
+  it 's really hard to tell what 's going on there . 
+  it would be best you post your question in the tfar thread on the bohemia interactive forums . 
+  nkey usually takes time out of his day to help people troubleshoot . 
+  bohemia is aware of the problem . 
+  one of their employees answered on multiple occasions on their forums about this issue . 
+  what 's the difference if you forward it again to them ? 
+  edit : do n't get me wrong i appreciate your efforts in this cause , but it 's the same problem with any dayz , altis life , ( insert any game / ( mode ) ) etc. 
+  that offers ingame items or locations in trade for `` donations '' . 
+  mojang has shown it , loose enforcement of eula wo n't stop servers charging people for stuff that should be free . 
+  every other week we have this thread . 
+  long story short , you can find mods on [ armaholic ] ( http://www.armaholic.com ) or directly on the bi forums . 
+  in regards to ** what ** mods you want : that depends on your play style : alone or with friends ? 
+  are you in a group ? 
+  do you use teamspeak ? 
+  do you make your own missions or just get them off the steam workshop ? 
+  if you make your own missions do you want to use any special units in them other than stock units ? 
+  get involved with a group , on the right hand side of this page you 'll see a group listing, 
+  10/10 mate , blaming a company for broken user made content . 
+  also a lot of games that support server software will have server owners that charge money for usually free shit .

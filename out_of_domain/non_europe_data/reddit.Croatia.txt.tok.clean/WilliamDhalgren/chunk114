@@ -1,0 +1,100 @@
+  what 's important to me here for the `` overpopulation on mars '' comparison is not the timescale , but the fact this discussion is far outside the context of any concrete architecture or system known and hence what can be considered with any specialist expertise . 
+  a major breakthrough may well happen tomorrow , but precisely that makes us hardly prepared to discuss what it may or may not do , being so beyond the current sota . 
+  this would be much less sensible than expecting a relevant comment on the merits of say layerwise pretraining before the dl boom . 
+  context here was a ( sub ) discussion on the quality of feedback for such a nebulous speculative scenario that can be expected from current ml practitioners , as opposed to say philosophers familiar with the broad issues it raises . 
+  i wonder if some hybrid compute could become a thing ; think i saw a lecture by otoy , where their vision for photorealistic gaming on a reasonable budget consisted of using something like octane in the cloud assisting ( somehow ) a local machine running brigade . 
+  maybe then some of the compute can analogously be done on a smartphone-class system embedded in the headset to keep the latency down , and wirelessly assisted by a separate pc-class system for vr ? 
+  i wonder if they might work on replacement , more rigid headset straps for the vive ; seems most agree the rift has an edge in ergonomics , mostly on account of how it distributes the weight . 
+  and to anyone who finds the vive uncomfortable , that could be a dealbreaker , as it can limit how long they want to stay in vr . 
+  but that should be something they can work on in the meantime . 
+   funny thing is , i think the vive 's room scale capability is one degree further than what oculus was originally ( and maybe still are ? ), 
+  planning for the touch ( 180-degree interactions ) . 
+  i think that has to be the case ; they 'd be surely missing chaperone , which already sounds impractical , and you 'd also need at least * an * extra far camera for 360 , also with the extra cable headache that implies . 
+  can that really compete if you want 360 roomscale ? 
+  seems rather dubious . 
+  at least its not an open space thing , but mostly rooms and corridors and crawlspaces and elevators , and ppl can be tricked with architecture more easily - changing it behind you , self-overlapping stuff etc. 
+  maybe tricks like those - i think some of this is already used in `` unseen diplomacy '' would be enough , along with teleports ? 
+  it 's not like there 's a great locomotion system around the corner for this stuff ; we can slide in place in treadmills , walk/run in place with any lower body tracking ( i kinda like the cheapness of this option , in theory at least ) or - idk , have brain surgery and an injection to paralyze our spinal cord so after the bci reseach program develops further , electrodes can take over our sensorimotor cortex -- or cheat . 
+  hm , interesting . 
+  imaginable , i guess ; say its just everything we 're trying to do , but done well ; the semantic networks/knowledge bases scaled up and with the dreamed-about richness , the sensorimotor control , the audiovisual deep processing where we 've substantially advanced with dl already now , machine reading and translation somehow integrated with this deep semantic field etcetc . 
+  you 'd still need some such notion as to what that might be to comment with some expertise , and this ( an actual architecture , even if so fuzzy ) , has n't been part of these discussions yet - in a way where the argument depends on such domain knowledge . 
+  guess precisely because such an extrapolation would be more obviously speculative and bostrom would hope he can say something `` in principle '' independently of this . 
+  but yes , certainly , an argument on what an actual idealized extrapolation of current technologies , when put together , could do and decide to do based on their known characteristics would be a mighty interesting discussion !, 
+  that just sadly is n't * this * particular argument . 
+  also , though in a deep sense true , it still feels a bit cheap to say dl is merely scaling up old techniques ; sure all ideas have their histories , but outside lenet and lstm work that is n't that old anyhow , the link is not that immediate . 
+  and these too would n't be breaking records on datasets w/o quite a bit of exploration - that happened mostly recently.the devil is in the details , and that seems to be a refrain in my apprehensions about these extrapolations . 
+  these locomotion concerns seem rather fundamental . 
+  i mean , anything i 've heard suggested you might do about it , you can do basically today ( but maybe i 've missed some great ideas ) ; slide on treadmills , cheat your proprioception and change blindness in software , do it on a grand scale in a large hall to make it seamless , run/walk in place by any tracking of your lower body ... 
+  i mean , outside hacking your sensorimotor cortex somehow and paralyzing yourself by some drug , what could you further do about this , to allow you to physically run over great distances but actually stay in your room ? 
+  thing that worries me about omni/virtualizer approach is that i read the gait is still rather unnatural . 
+  quite a lot of cash to get something that still does n't really feel like walking , if that 's really the case . 
+  i mean , if i 'm not actually walking but fake walking/noticably sliding on a slippery dish after all , i could just do the walk-in-place thing much more cheaply . 
+  ofc maybe its still much better so its worth the difference . 
+  i 'll have to try at some point . 
+  sadly this gen1 vr is simply way above my budget , so i 'll have to wait for any of it , no less hyped ... 
+  ofc there are real omnidirectional treadmills , basically a belt of small belts , that do support true walking , but that 's another scale of expense entirely . 
+  and i 'm sure oculus will be compatible with these approaches - ~ ~ the treadmills need to implement their own approach to tracking where you 're supposed to be going anyhow , so the limitations of cameras that come with the headset should n't have an impact . 
+  yt videos have the devs tracking their play 360 already with dk2 after all . ~ ~, 
+  edit : brainfart crossed out ; comment below . 
+  still at least oculus need n't track much space for a thethered person so at least their camera thing has a chance of working , 
+  heh well , if you 're going to cut an order of magnitude just like that , why not two ? 
+  :p i mean , it starts to be a bit pointless to even ask if that 's the error bar on the result, 
+  yeah , i know the lack of cam is just a nuisance , but it should help w awareness . 
+  ah , so they did confirm the extra camera ? 
+  that makes sense . 
+  in the threadmill harness i mean ; the person 's stationary really , but does turn around freely ; the base and the pillars apparently do the body and feet tracking in the case of virtualizer . 
+  ~ ~ any random video from their channel should do i think ( well , the last one uses vive ) , say this one 's w dk1 : https://www.youtube.com/watch?v=kbpfx-ixbim~~, 
+  edit : shit , reading up on this , apparently i 'm an idiot ; this does n't bother with positionally tracking the head at all - leaves that to the headset to sort out . 
+  only cares about the feet and body orientation , and sure does that in 360 , but head visibly looses correct tracking when leaning in etc , unless the headset deals w that . 
+  my only excuse was that sometime up to 2014 omni was using ( kinect ) cameras for that stuff ; must have read some bad speculation that they 'd track the person in the harness fully with cameras of their own in their final version , and never saw they did n't end up going that way at all . 
+  apologies . 
+  so did dramamine help ? 
+  i kinda like the idea of popping a pill to enter virtual worlds , 
+  very interesting !, 
+  speaking of walk-in-place , how would the two compare ? 
+  if you have to walk-in-place in some situations due to vection anyhow , and if walk-in-place seems to resolve vection , is n't it then just the better solution ? 
+  admittedly one that requires some extra tracking , but not much extra tracking ( ripmotion takes just one but i wonder how closely it can match the gait between the game and reality that way - but surely two feet trackers ala stompz would do it perfectly ), 
+  or is arm-swinging sometimes preferable after all ? 
+  also , is there a good way to walk/run back in either system ? 
+  maybe that could be a motivation to using both ? 
+  could a realistic gun controller close ( most of ? ), 
+  that gap ? 
+  are there any projects for one around ? 
+  exciting !, 
+  but wait , the ripmotion guy was putting the controller on his belt simply to know which way his feet are pointing , as * that * need n't be the same as how his arms are oriented , so i thought you really do need one extra tracker . 
+  anyhow , no need to spoil the answers now , but plz pm me too when the paper is out , sounds fascinating !, 
+  well mostly for anticompetitive practices like financing exclusives , i kinda do hope oculus gets marginalized . 
+  not that i expect that 'll really happen . 
+  more competition overall would surely be a great thing though . 
+  i remember alphaworld/activeworlds from that period , just barely . 
+  did n't spend too much time there though , and was rather young . 
+  something like this should power a decentralized social vr web ; a true metaverse , as opposed to siloed apps by a particular company . 
+  one 's own virtual space , like one 's own blog , networked sensibly with other people 's spaces . 
+  that term really should be carried with pride - look at its millenia-long history :, 
+  it 's been used over the centuries to `` describe '' buddhists and jains , but most consistently , it has labeled some of the earliest recorded atheist/skeptic/materialist philosophers on the world , such as the charvaka . . 
+  well , agreed w much of the sentiment , but :, 
+   there are plenty of games that have no business being in vr and i 'm sure i 'll go back and play some monitor games, 
+  well , a generation or two from now , when the hmd resolution advances , it should become just unnecessary to use a monitor -- though many of my favorite kinds of experiences will continue to be 2d things . 
+  but i do n't see how putting it on a virtual big screen , where appropriate with stereoscopy , can be to the detriment of the experience . 
+  even for a text-only , parser based game ( big fan of that obscure genre ) , i 've enjoyed them on the real-world big screen , and do n't see why i would n't on a virtual one , once the resolution is decent enough to do so w text . 
+   here are plenty of studies linking heavy cellphone use and brain tumors . 
+  afaik this is both apriori implausible , as we 're dealing with nonionizing radiation , and pretty much disproven when using most realiable , ie large-scale long-term longiudinal studies , like the 29year study of the entire population of australia , as well as in denmark :, 
+  http://www.cancerepidemiology.net/article/s1877-7821 ( 16 ) 30050-9 / abstract, 
+  as evidence stands now , this should be binned with any other crackpot irrational fears of technology, 
+  comfort is a fair point , provided that is , we 're not already using lighter ar googles in our daily lives anyhow . 
+  but even if not , consider the price ; an hmd -- given that we want 2-3 doublings of its resolution before finding it acceptable as well as integrating other technology such as depth cameras and fast foveated tracking is set to continue to be an expensive tech , when aiming for maximal immersion at least . 
+  so buying a * good * monitor and a good hmd may be rather uneconomical to many vr fans of the future , and an actual comparison may be vs a crappy monitor if any instead . 
+  cis ppl can have it ? 
+  could you plz elaborate ? 
+  so , i 'm at a loss . 
+  googling suggests its what internet wanted to name some british research ship . 
+  but whence x mcx-face pattern and why is it funny at all ? 
+  sounds quite odd . 
+  i 'd operate under the assumption that bob 's intentions are malicious to you or james or both and expect a trap somewhere -- but i am a paranoid kind . . 
+  maybe he 's just confused on how to react to the notion of his best man possibly being gay , and not telling him , if he has little experience w gay ppl , and hence acts in such confusing , contradictory ways ? 
+  but seems safer to me to presume the worst . 
+  i thought the issue w weather was about the sensors working less well : could ' t they compensate for slippery controls more accurately than humans ? 
+  why is their play area monodirectional if they 're to ship another cam with touch ? 
+  is the fov too shitty on the cams to do proper roomscale after all ? 
+  did n't they supposedly demo this stuff working acceptably well at some point ? 
+  after all these years of following their progression , now i really ca n't figure out anymore what their gen1 system will actually offer ...

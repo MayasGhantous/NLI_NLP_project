@@ -1,0 +1,100 @@
+  product.name = productdto.name ;, 
+  product.number = productdto.number, 
+  and so on . 
+  we 've done this in 6-7 projects and it was never ever the bottleneck . 
+  on the other hand automapper has given us a lot of trouble and practically every non-trivial mapping ( like list of child objects or a many to many relation ) ends up with a complex mapping with a lot of lambdas or a lot of ignores which takes us 15 minutes to half an hour to figure out even after 2 months of using it . 
+  i put the mapping logic inside the dto/viewmodel . 
+  in the constructor i do the copying from entity to dto and in a copyto in the dto/viewmodel i do the copying from dto to entity . 
+  never had any issue and never felt slowed down by this . 
+  i would n't be so frustrated if automapper was solving something that i felt was a real issue . 
+  for example i tolerate ef migrations because they solve a hard problem and as frustrating as they are other options seem even more frustrating . 
+  with this type of mapping there is simply no issue with typing a bunch of code . 
+  the . net blog now has a weekly roundup . 
+  i find it very good and almost everything else i saw in the week is included there . 
+  of course i still hang on other places like / r/csharp so i can participate in the comments . 
+  sure, 
+  here is code from a dto :, 
+  copyentitydata ( office ) ;, 
+  internal override void copyentitydata ( office office ), 
+  this.id = office.officeid ;, 
+  this.companyid = office.companyid ;, 
+  this.companyname = office.company.name ;, 
+  this.name = office.name ;, 
+  this.address = office.address ;, 
+  this.locationid = office.locationid ;, 
+  this.locationname = office.location.name ;, 
+  public int id { get ; set ; }, 
+  public int companyid { get ; set ; }, 
+  public string companyname { get ; set ; }, 
+  [ stringlength ( 100 ) ], 
+  public string name { get ; set ; }, 
+  [ stringlength ( 100 ) ], 
+  public string address { get ; set ; }, 
+  public int locationid { get ; set ; }, 
+  public string locationname { get ; set ; }, 
+  public override void updateentity ( office officeentity ), 
+  officeentity.companyid = this.companyid ;, 
+  officeentity.name = this.name ;, 
+  officeentity.address = this.address ;, 
+  officeentity.locationid = this.locationid ;, 
+  note how we retain control over the mapping on update and do not map the companyname and locationname properties because we do n't want to . 
+  basedto looks like this, 
+  public abstract class basedto < t , 
+  public abstract void updateentity ( t entity ) ;, 
+  internal abstract void copyentitydata ( t entity ) ;, 
+  basedto is not strictly needed but we use it for some generic methods that abstract common create/edit logic, 
+  when loading an entity we use the constructor to create the dto from the entity . 
+  example :, 
+  office officeentity = await offices.singleasync ( o =  o.officeid = = id ) ;, 
+  if ( officeentity = = null ), 
+  throw new httpresponseexception ( httpstatuscode.notfound ) ;, 
+  else, 
+  return new officedto ( officeentity ) ;, 
+  when we create or update the entity we use the updateentity method . 
+  in some projects we had a method to return the entity rather than get it as a parameter but i can not remember what made us switch . 
+  the copyentitydata method is needed because the generic methods can not have a constraint on constructors other than default constructors . 
+  therefore we create an empty dto and then use the copyentitydata method instead of the constructor to copy the data ( this is why it is internal ) . 
+  example :, 
+  protected async task < u  addentityasync < t , u  ( u dto , dbset < t  dbset , expression < func < t , bool   conflictpredicate , string conflictmessage ), 
+  where t : class, 
+  where u : basedto < t  , new ( ), 
+  throwbadrequestifmodelstateinvalid ( ) ;, 
+  t entity = dbset.create ( ) ;, 
+  dto.updateentity ( entity ) ;, 
+  if ( conflictpredicate ! = null ), 
+  await checkandthrowconflictasync ( dbset.anyasync ( conflictpredicate ) , conflictmessage ) ;, 
+  dbset.add ( entity ) ;, 
+  await datacontext.savechangesasync ( ) ;, 
+  this is our method to save to the database and return the result back to the caller . 
+  we call it like this :, 
+  [ authorize ( roles = roles.officesedit ) ], 
+  public task < officedto  post ( [ frombody ] officedto office ), 
+  return addentityasync (, 
+  dto : office ,, 
+  dbset : datacontext.offices ,, 
+  conflictpredicate : o =  o.name = = office.name & & o.companyid = = office.companyid ,, 
+  conflictmessage : string.format ( `` office with name { 0 } already exists '' , office.name ) ) ;, 
+  please note that all generic stuff is just because we abstracted away a lot of logic . 
+  if you do n't have experience with an object oriented programming language i 'd recommend you study the fundamentals of c # programming first . 
+  i 'd recommend that you first study the language and simple algorithms via console applications and then build a small windows forms application ( as strange as it sounds windows forms is better option if you want to learn oop than things like wpf ) . 
+  then move to web development . 
+  seeing that you do not have experience in application programming i would advise that you take it slow rather than jump on the project directly . 
+  my conclusions are based on a course i used to teach ( 100 hours in class + 200 hours expected spent on projects ) . 
+  the goal was to take students from 0 to someone that could be hired as a junior dev/intern but only the best ( 1/10 ) achieved that level based on the course alone . 
+  here is the plan for the course, 
+  working with the console . 
+  what is a compiler ? 
+  what is the . net framework ? 
+  built-in types , operators , if/else statement . 
+  loops . 
+  arrays . 
+  memory layout of different types . 
+  simple sorting algorithms ( bubble sort , selection sort ) . 
+  exercises on loops and arrays . 
+  strings , reference types ( classes ) , value types ( structs ) , fields and methods . 
+  methods and constructors . 
+  access modifiers , properties , encapsulation , readonly fields and constants . 
+  exercises on object oriented programming . 
+  inheritance , the object type , overriding methods . 
+  interfaces , abstract classes , delegates , polymorphism . 
+  exercises on object oriented programming and polymorphism .

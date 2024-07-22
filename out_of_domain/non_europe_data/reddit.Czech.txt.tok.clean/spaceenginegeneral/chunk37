@@ -1,0 +1,100 @@
+  gigabite : ud5/gaming 5 ( unlike other manufacturers both of these include 2 nics and 2 m. 2 slots if you feel like you 'd use that ), 
+  msi : gaming m5 , has 2 m. 2 slots as well . 
+  any cheaper boards wo n't have 8 power phases which is the minimum you want for overclocking , matx/itx boards get you less features for the same price so if you do n't need the form factor i 'd avoid them as well . 
+  most of the time you should n't have any problems adding different sticks , the board should run them at the speed of the slowest one automatically . 
+  you can always have some kind of trouble with ram so it 's not guaranteed it will work but generally increasing voltage slightly should fix it . 
+  i think a better car analogy would be something like, 
+  4gb 730 : 6l v8 that produces 200 horsepower, 
+  2gb 750ti : 3l v6 that produces 350 horsepower, 
+  for video editing you should definitely get an i7 , ideally a 6-core like 5820k but even a 6700k will be a big improvement over an i5, 
+  it depends on the quality of the psu and what it can actually output , not on the wattage per se . 
+  assuming you do n't have some highly rated seasonic , you should probably get a better psu as well . 
+  it 's about 9 % faster but price/perf of a 6500 should be better . 
+  it will be a bit more future proof but in my opinion there are a lot better ways to go about that ( like getting a z170 board which allows for oc and faster ram , both making your system a lot faster compared to those 300mhz you get from the cpu ) . 
+  judging from the rest of your system , i 'd recommend against it . 
+  what you should do instead is get 2x4gb memory instead since dual channel actually makes a good amount of difference compared to single channel and the price should be the same . 
+  if you 're after performance , 256gb ssd will work a lot better than a hdd but i do n't know how much space do you need . 
+  honestly , if you plan on keeping the system for years , i 'd wait for kaby lake and zen ( which should take like 2-3 months ) because it should give you a better deal on both motherboard and a cpu compared to what you can get now . 
+  you 're buying the cheapest motherboard possible which also gives you basically no ways to improve your cpu/ram related performance down the line . 
+  1 ) i think it 's worth waiting for the new processors for 2 reasons : it will be the first time in several years there will be a competition on the cpu market and you have to realize that intel is basically selling the same cpus with very small gains for the same price all those years , so even if amd has slightly weaker chips , it 's extremely unlikely that they 'd give you the same bad deals you were getting from intel for the past years , especially since unlike every intel cpu , they are saving even more money from not having igpu . 
+  the second reason that a lot of people do n't realize is that intel is ripping everyone off on the chipsets . 
+  currently if you want a motherboard that has all the features of a modern chipset ( m. 2 , sli/cf , being able to oc and most of all , being able to use ram that is n't super slow relative to modern cpus ) , you need to pay a huge premium for a z170 chipsets . 
+  it 's confirmed there will be only am4 for zen so you can expect the functionality of a z170 chipset even on the cheapest boards which is a huge deal . 
+  2 ) you do n't really have a choice because what can you use depends on the cpu you get . 
+  you have to use ddr4 for skylake and you ca n't use ddr4 for haswell and older . 
+  ddr3 is bought and sold because of course not everyone has skylakes yet so if they want to get more ram , they have to get ddr3 . 
+  for gaming , you should get dual channel first and faster ram helps as well , but as mentioned above you need to get z170 chipset for skylake to be able to use faster ram in the first place . 
+  3 ) if you 're gaming exclusively , a z170 board with fast ram and a 6600k oc 'd will perform a lot better in games that do n't utilize hyperthreading very well ( which is the vast majority and most importantly , games that tend to need cpu the most to perform well like strategy games or mmos do n't support hyperthreading well if at all ) and about the same in games that do compared to a 6700 ( especially if you 're not getting a z170 board and only have 2133mhz ram . 
+  it 's not that 6700 is n't good enough , it 's more that since you 're already investing so much money to get it compared to an i5 , it makes absolutely no sense to not get a 6700k while you 're at it since you 'll pretty much never get anywhere close to overclocking when it comes to cost efficient upgrade . 
+  that sounds good and from their site it has 42a across both rails which should be enough for a 1070 ( assuming you 're not getting some kind of overclocked powerhungry one ) . 
+  with locked cpu you should be fine . 
+  interestingly enough within your price range you do n't really have many choices . 
+  you simply have a 1070 which is expensive but obviously more powerful and then there is 480\u00a04/8 gb trading blows with gtx 1060 6gb ( 3gb version is actually a worse card than those despite having the same name ) which are both cheaper compared to the 1070 but obviously a lot weaker . 
+  from those cards the 1060 is slightly faster in current dx11 titles while the amd wins out in dx12/vulcan . 
+  in general , amd hardware also gets better with time as the architecture is more optimized while nvidia will stop driver support once their new generation comes out so it 's a question whether you want slightly better performance right now or if it should keep improving over time . 
+  of course this is assuming you want current card , you can also aim for either a second hand 980ti deal which is slightly slower than 1070 and there are also amd fury cards which dropped in price a lot and sometimes you can get them around 480 price but they will perform better . 
+  if it 's pci-e 2.0 16x you 're still fine as it should be fast enough for anything you 're getting, 
+  yeah sockets/chipsets go together with a cpu so you 'll need am4 for zen and you need a 1151 socket ( which can be different chipsets like h110 , b150 or z170 ) for a skylake cpu . 
+  kaby lake will still use 1151 socket . 
+  hyperthreading ( and multicore performance in general ) is a tough question , good amount of aaa games already make use of hyperthreading and more cores but that does n't mean that you wo n't get better results with higher single-threading performance . 
+  [ in this benchmark you can see that ] ( https://www.youtube.com/watch?v=ocwwavguftk ) a 4c/8thread 6700k will still be slightly faster than a 6c/12t and 8c/16t 5820k/5960x in games that can utilize all those cores because more cores/threads will generally scale poorly compared to faster cores/threads which almost always scale well . 
+  i think if you have the money , a 6700k is definitely worth it over a 6600k ( especially if we 're talking about 100 + framerates ) but that 's because you 're paying more to get more threads while the single-threaded performance ( and potential performance since you can oc both to roughly the same speed ) is the same . 
+  now when you 're talking about a 6700 , you 're paying a lot more money to get more threads which sometimes help and sometimes not but you 're also getting lower frequency ( as someone said , you have to remember that the stock frequency of a 6700 is lower than the frequency of a 6700k even if you 're not overclocking ) which will always help regardless what you 're playing . 
+  and think about it the other way : sure , you do n't care about overclocking now , but what if in 5 years you think you could use slightly faster cpu ? 
+  well with 6700k you can basically get 10-20 % additional performance for free ( if you have the cooling ) . 
+  now if you had a 6700 ( which is already slower so you might need the faster cpu not in 5 but in 4 years instead ) , the only option is buying a new cpu completely ( alongside a completely new motherboard because sockets wo n't be compatible ) and if the cpu progress stays the same as it has in the last few years , you might be paying huge amount of money to get maybe 30-40 % increase . 
+  does this sound good to you compared to paying those 40 pounds now ? 
+  the m7 has better power delivery so it will handle overclocking better . 
+  though this might not necessarily mean you 'll get better overclocking results ( it 's possible but unlikely ) , it should last longer under heavy usage . 
+  if you mean direct performance like higher framerate , the answer is yes, 
+  edit : changed no to yes as in yes it will perform the same, 
+  either the hardware is overheating ( try cleaning the accumulated dust ) or it could be some kind of software issue ( malware or some other program running in the background and hogging all the resources ), 
+  cleanest way to determined software issues is to reinstall os . 
+  but you could also try monitoring your processes when you 're running games and scanning your system with malwarebytes . 
+  depends on games , resolution and target framerate generally if you 're happy with 60fps the cpu is good enough but for higher framerates it might be lacking . 
+  it 's too complex question for a yes/no answer though , there will always be games where gpu is almost irrelevant and will completely depend on your cpu by default , does n't mean you play them, 
+  what you should do is monitor cpu and gpu usage in games you play and see how often do you get cpu bottlenecked and then decide . 
+  still good idea to wait for zen and kaby lake . 
+  if nothing else , you 'll get some mileage from your current cpu ( maybe overclock it in the meantime ? ), 
+  and then you can decide on what 's a good enough upgrade . 
+  at those prices the amd is way better deal , it 's not really that much weaker and in general it 's not a great idea to buy old generation nvidia cards . 
+  i 'm assuming you 're buying aftermarket cooler as you 're getting a 6600k and whatever you 're getting , it should come with a paste so do n't worry about it . 
+  edit : a good quality ( something like a gold rated seasonic or evga ) 550w psu will work absolutely fine with decent headroom , you can get a 650w one if you feel you want more wattage for the future but you do n't need it for your current setup ( and the trend is lowering the power consumption anyway ), 
+  get a z170 board since you ca n't overclock without it . 
+  get faster ram , with your budget 2133mhz makes absolutely no sense . 
+  do you need optical drive ? 
+  headsets are a bad deal in general , you 're paying for bad headphones and bad mic together . 
+  get good headphones and cheap mic individually . 
+  importance of zen is that it will be for the first time in like 5 ? 
+  years where amd will have competitive cpu on the market . 
+  at the same time , for all those years intel was basically selling roughly the same cpus ( same frequency and cores ) for the same price with really quite small ipc increases . 
+  which means it 's very likely intel will be forced to give you better deals for both cpus and motherboards ( since they can afford charging you extra for chipsets for the same reason ) then it could until zen comes out . 
+  there is n't really much important about kaby lake ( assuming you meant that and not skylake ) besides the fact that it will be competing with zen . 
+  the crucial is definitely better deal . 
+  the real world difference between those is relatively small while the size difference is really big . 
+  honestly if this is mainly editing machine i 'd ask on adobe related forum or reddit how much difference do cores make and how much difference do cuda cores have ( or even how viable opencl is ), 
+  it 's very possible you could get dramatically better results with other ( older ) gpu and a 6 core 6800k/5820k without having a big impact on your gaming performance and price but it 's impossible to tell without knowing how well does the software utilize threads and gpu cores specifically . 
+  if you 're playing a lot of mmos ( and especially old ones ) , consider getting an i3-6100 or possibly even pentium g4400 over the amd . 
+  generally single-threaded performance rules in those games which the amd seriously lacks and you 'll get much better performance overall . 
+  there 's also a good chance the igpu of the intel cpus will run older mmos adequately ( though you 'd have to look at specific benchmarks and possibly get a cpu with a hd530 instead of 510 ) and you might save some money on the gpu . 
+  again , it depends on what you play but for mmos the cpu tends to be vastly more important then the gpu and you should get the best one you can get . 
+  it should handle easily although i 'd recommend getting a higher quality psu eventually ,, 
+  i 'd save the money and get the 2gb version . 
+  it 's extremely unlikely you 'll utilize 4gbs of memory with that card . 
+  typical prebuild where your money is spent on a bunch of things that you probably do n't want ( like optical drive ) while saving money on things that you do ( no ssd , only i5-6400 , probably garbage psu so if you ever want to upgrade anything you 'll have to buy a new one anyway . 
+  true dual core without ht ( pentium ) or 2 core 4 threads like and i3 ? 
+  i3-6100 is a great budget cpu and definitely viable , for pentium it depends what you play , some games wo n't even start if they do n't detect at least 4 virtual cores nowadays while for other cpu light games ( or games with terrible multithreading ) it will work absolutely fine . 
+  i 'd make 3 changes personally :, 
+  pay a bit more for a board with 8 phases instead of 4 , especially if you want to oc from the get go ( like msi gaming m5 ), 
+  consider ditching hdd altogether and getting a 500gb ssd instead , should cost roughly the same . 
+  everyone hoards data differently and someone absolutely needs to save everything he finds on a hdd but i 'll argue that majority of people wo n't utilize the hdd fully anyway and will benefit more being able to put everything on an ssd . 
+  and finally , i 'd rather get a 500-550w gold rated psu ( such as evga g2 ) than a 600w bronze one . 
+  sure , yours will work fine but in the long run the efficiency and longevity of a higher quality psu works out better even if you pay slightly more up front . 
+  better than 3gb 1060 , comparable to 6gb 1060 ( basically trading blows depending on games , on average slightly weaker in dx11 but better in dx12/vulcan ) . 
+  amd gpus will generally get better over time compared as the architecture gets more optimized ( also you can expect more games to utilize dx12/vulcan in future where it 's faster ) so if you plan to keep it for a long time it 's a lot better purchase than the 1060 . that on the other hand will work better for you if you want slightly better performance right now and expect to buy a new card anyway in 1-2 years . 
+  turns out the nvs 310 does n't support 4k even if it has display port in which case the cheapest will probably be a gtx 720/730/740 / 750/750ti ( whichever you can find the cheapest , all support it ), 
+  i3-6100 and rx470 is probably the best budget build you can make . 
+  z170a has better power delivery so go with it since you 're overclocking . 
+  ssd wo n't lose data in weeks or even months without power so you do n't have to care for that . 
+  if you want value get the 850 evo and if you want performance , you should n't get the pro but rather an nvme m. 2 ssd instead anyway ( like the 960 ), 
+  no because you 'll buy an expensive cpu ( but kind of weak one for a gaming pc ) just so you replace it with a better cpu which wo n't be much better as you wo n't be able to overclock it without new motherboard and psu .

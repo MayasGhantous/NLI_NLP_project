@@ -1,0 +1,100 @@
+  unlike debian , it does n't appear to get updated regularly and abrowser is a fairly vulnerable package . 
+  qubes/whonix may be difficult to set up for a beginner . 
+  as far as tails is concerned , i 'd suggest to wait for version 2.7 or later ( the current one comes with a host of bugs , including memory wipe failure , and due to it being shipped with an obsolete version of the linux kernel it is vulnerable to the [ dirty cow ] ( https://security-tracker.debian.org/tracker/cve-2016-5195 ) exploit ) . 
+  debian is indeed the way to go , but make sure everything 's up to date first !, 
+  s\u00ec , in quel senso . 
+  ... ma c ' \u00e8 un problema . 
+  yeah , but it gets the job done . 
+   so i 'm assuming we all cover our laptop webcam if we have one . 
+  that 's common sense now . 
+  correct - both the webcam and mic have been deactivated ( via software ) , then covered with black electrical tape . 
+   i 'm curious though whether any of you cover your smartphone camera ? 
+  both front and rear , or just one ? 
+  i 've had it software-disabled , but i 've * also * put pieces of that same tape on both the front and rear lenses . 
+  this way the ` patches ' blend fairly well with the rest of the chassis , which is black . 
+  oh i would n't know , but i too see plenty of posts related to height issues on reddit . 
+  as a 1,70 - pardon , 5 ' 6 '' !, 
+  - 25-y-o myself i 've always felt rather average in my country ( italy ) and not once did anybody ever comment on it ; it 's never been a problem for me , not even with women . 
+  last time somebody talked shit to me we were in elementary school ... 
+  what makes it even more curious is that most of the americans i see irl are n't even * that * tall in the first place ? 
+  yeah - but my point was that even then , i 've never been dismissed because of it ; and i 've never seen anything remotely resembling the kind of issues american posters seem to be having ( we 've had a couple of guys on r/italy asking whether the local women would 've laughed at them because of their height ffs ) . 
+  moreover , everybody is short compared to dutchies and croats !, 
+  good thing the new generations are , at the tender age of 14 , already 10 cm taller than i am ; the gap 's impressive over here . 
+  you can almost pinpoint who was born in the 2000s ... it 's crazy . 
+  oh , of course he was n't bad ... go tell that to the 7000 italians - my grandfather among them - and libyan jews who had their homes , properties , money , social security accounts seized and who were expelled in october 1970 . 
+  no way he was an an anti-semitic arsehole with delusions of grandeur and a penchant for sponsoring international terrorism ; no sir , no way indeed . 
+  how so ? 
+  all you need to do is to tell employees not to open `` invoice.zip '' . 
+  i know - a couple of years ago i was using another coworker 's workstation when my supervisor told me she needed to check the mail ... and somehow we all got cryptolock 'd . 
+  hard . 
+  fun times were had , especially for the guys in the it department . 
+  thank you for supporting our lavish , carefree lifestyle in the worker 's paradise with your hard-earned taxpayer money . 
+  it is much appreciated . 
+  state in campana . 
+  ok guys , total noob here !, 
+  did anybody else have trouble in following the instructions ? 
+  i sure did . 
+  here 's what i 've done , dunno if i made it ( btw keep in mind that i 'm running debian jessie ) . 
+  1 ) opened `` packages '' and downloaded the command line interface for sqlite3 ;, 
+  2 ) tinkered with about : config and disabled safebrowsing as per u/pumpandumpoulos post :, 
+   browser.safebrowsing.enabled, 
+   browser.safebrowsing.downloads.enabled, 
+   browser.safebrowsing.downloads.remote.enabled, 
+   browser.safebrowsing.malware.enabled, 
+   browser.safebrowsing.forbiddenuris.enabled, 
+   if any of them do n't exist yet , just create as boolean and set to false . 
+   additionally , you can also type ` safebrowsing ' in the search box in about : config , then go, 
+  through all the values and look for google urls . 
+  simply delete them or replace with blank . 
+  3 ) opened ff help menu -  troubleshooting info -  open directory -  deleted cookies.sqlite ;, 
+  4 ) opened the terminal , ran sqlite3 and then :, 
+  [ enter ], 
+   ...  delete from moz_cookies where basedomain = `` google.com '', 
+  not sure if i followed the right steps though or if that even did anything at all . 
+  any help would be appreciated !, 
+  thanks !, 
+  i did as you told me but when i enter :, 
+   delete from moz_cookies where basedomain = `` google.com '' ;, 
+  i keep getting `` error : no such table : moz_cookies '' . 
+  why 's that ? 
+  two strokes and an aneurysm , sir !, 
+  why are we expected not to like ` girly ' drinks ? 
+  who gets to decide what 's girly and what 's not ? 
+  i 'll tell you what - as long as it tastes good and i can get drunk on it , it 's ok in my book . 
+  avoiding them out of concern for your own teeth is already a far more reasonable motivation . 
+  dentists do n't come cheap !, 
+  i know , right ? 
+  as a very late bloomer myself i too felt like i had somehow ... skipped the whole tutorial level in which other people learned how to form relationships . 
+  but then again , i ~ ~ had ~ ~ have social anxiety issues and was also kind of a recluse in high school . 
+  but if i , of all people , managed to do something about it then there 's definitely hope for you . 
+  have an internet hug nevertheless !, 
+  ( and do n't forget to hit the gym ) . 
+  you celebrate ? 
+  that 's when panic mode kicks in , i 'm always scared i 'm gon na piss my trousers and other people will notice ... 
+  commissariateci !, 
+  very sad indeed . 
+  especially when it comes to restaurant bills !, 
+  roman here - we felt it rather clearly indeed . 
+  new quake at 21:20 rome local time ... now * that * was something !, 
+  [ roman here ] geez , this one was strong - i 've had paint falling off my room 's ceiling !, 
+  must 've lasted at least a good 10 seconds , i reckon . 
+  yep - lighting fixtures/doors/windows ( even towels ! ), 
+  were swinging for at least 10 seconds . 
+  it sure was scary ; not even the one of 2009 startled me so much , and it literally threw me off my bed . 
+  nope , sorry , am in rome right now - but tuscany should be fine afaik . 
+  last i heard umbria and the marches are the areas most affected by the quake . 
+  sorry to disappoint you , but no 1 ) i am not one and 2 ) i do n't know any . 
+  ( btw * mafiosi * is already plural - no need to add another ) . 
+  wife ? 
+  what wife ? 
+  do you think i 'd still be a redditor if i had one ... ? 
+  things were pretty calm except for the neighbour upstairs , she was running like a maniac . 
+  not anymore - they were all decommissioned in 1990 . 
+  re ... pasta !, 
+  termini ? 
+  termini . 
+  nope , the various instances of searx are much better imho . 
+  per poi intascarseli . 
+  hopefully , the full legalisation of weed in my country ( italy ) . 
+  cannabis is already legal for medical purposes since 2014 ; last september a few parties introduced a bill to allow its sale , cultivation and possession for personal use but the law proposal got filibustered to hell because of opposition from right-wing and catholic parties ... then a petition gathered enough signatures to force the parliament to decide on the matter . 
+  one can only hope !,

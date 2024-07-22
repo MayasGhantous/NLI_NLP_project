@@ -1,0 +1,100 @@
+  and why would they ? 
+  i clearly remember petitions for linux support for every blizzard game as far back as diablo 2 lod . 
+  i once saw a guy sign the petition with something along the lines of `` i do n't play games but i think you should port sc2 '' . 
+  no wonder blizzard does n't port . 
+  the linux community in general is very hostile towards games and closed source software and blizzard ships both . 
+  you probably use c++ . 
+  i think only the linux guys are using pure c these days so it makes sense . 
+  better source - http://store.steampowered.com/hwsurvey/, 
+  note that this is stats from valve - the company that pushes linux gaming and has released high-profile games for linux for some time now . 
+  interestingly there is a better case to be made for better support for windows vista than for linux . 
+  valve do not have a vision for linux . 
+  they have interest in creating an alternative platform . 
+  they are actively trying to create a self-fulfilling prophecy . 
+  if anyone can do it this is valve ( even id failed ) but i am still willing to bet against them . 
+  on their own platform windows vista has double the share of linux, 
+  i have yet to see a statistics that shows macs usage at the same level as linux . 
+  is it the slashdot visitors statistics ? 
+  cheese is amazing !, 
+  that 's the theory which was totally demolished by practice . 
+  link please . 
+  you do n't need to ask them all to declare that something is `` in general '' you need a statistics that shows that  50 % act a certain way . 
+  of course statistics can be wrong due to selection bias but surely the vocal linux users actively hate on both games and closed source . 
+  maybe there are millions of people who use linux and i do n't even know they use linux because they do not preach about their os all the time but this is completely different argument from `` did you ask them all '', 
+  i do n't claim that one is superior i am just saying that there may indeed be bias towards linux in the c community since this is where c is mostly used . 
+  this is one of the simplest changes they can make . 
+  i do n't understand why they do n't just double the interceptor health . 
+  there certainly is no consensus but as a company would you want to release on a platform where the return of investment is anything but certain and the most vocal group will actively look to attack your software on licensing issues . 
+  also you are a bad evil corporation that runs a process that scans your memory ( warden ) and sells a game for $ 60 and not an indie developer who sells drm free games for a price you name yourself . 
+  no , i just wanted to point out that you by using windows with c++ it do not contradict his point that everyone who writes c uses linux , 
+  i do that too but for some reason i do n't think it is the same as putting it online . 
+  i mean someone better tell nathanias that his thoughts are broadcasted on shitter ... 
+  i mean that when he streams people can hear him insult opponents . 
+  as someone who thinks that handling loss is one of the most important things one can learn from starcraft i do not agree that this attitude should be tolerated . 
+  in the words of a great anonymous internet user - `` link or did n't happen '', 
+  that 's bullshit . 
+  you do n't link the vod to make it a bigger deal you link the vod to prove that you are not making things up . 
+  powershell ise anyone ? 
+  well , i did stop watching idra 's stream so i guess that 's something . 
+  also i was responding to a comment saying that we should not care and i do care . 
+  for example i chose to upvote this thread instead of downvoting it . 
+  of course i can not do anything by myself but there are multiple occasions where a player suffered from a community outrage over something he said or did . 
+  you are not supposed to gg at the start, 
+  they do it but this does not change the fact that it is semantically wrong . 
+  yes . 
+  gg first basically means `` you are so bad you ca n't even understand you lost '', 
+  so what happened then ? 
+  yeah u2 are terrible . 
+  i pity poor iphone owners who got the new albums shoved into their devices . 
+  i do n't doubt that but it would n't matter to most people if you add `` gg '' and will annoy pedantic people like me . 
+  basically you can only annoy someone more by adding it or stay on the same level of politeness . 
+  still your action is counterproductive if you want to be mannered . 
+  now if you specifically want to annoy people like me ... 
+  this is the newly invented meaning . 
+  by `` newly '' i mean in the past 10 years when people like me objected and they had to invent a meaning , 
+  it does . 
+  i am sorry too :(, 
+  i always object in chat when someone says it . 
+  sometimes they resort to bm , 
+  i guess i am just stubborn and kind of old school ( i remember when gg entered the gamer slang ) . 
+  interestingly people who want to be nice do not just stop doing it which is what they would do if they really wanted to be nice knowing that they annoy someone . 
+  do you really think anyone assumes you are more nice for adding it than if you only say `` gl hf '' ? 
+  sure but obviously if you annoy a certain percentage of people when you say it and no one thinks it is nicer to include `` gg '' then the net result is that including `` gg '' on average is less nice . 
+  to me they are not . 
+  sure . 
+  or they can just stop doing it and avoid raging at me . 
+  that 's what people who want to be nice do . 
+  this issue came up several times in different libraries ( let alone normal code ) when browsers started to increment versions beyond 10 . 
+  the social convention established is to say `` gl hf '' . 
+  the other one is some extension by people who think will be more nice even though they are super wrong semantically . 
+  as a firm believer in the `` store user files in the database '' religion i find the `` does not scale '' argument to be insufficient . 
+  the error prevention given by referential integrity is much more important for the majority of projects and taking blobs out of the database if you need to scale is easier than putting them in the database if you decide that there are too many bugs and you did it wrong all along . 
+  that makes perfect sense but what do we do when the user has to upload a profile pic for example ? 
+  where do we put that scanned document to verify some database record ? 
+  these were the type of user supplied files i had to deal with in most of my projects . 
+  now i would n't put 100 + mb videos in the database ( although i worked on one project that allowed it but it was n't the expected use case ) but ~ 1mb user files i would n't put anywhere else at least before i hit the scaling issue . 
+  i have worked on projects where the files were on the file system and there were more problems . 
+  in one case we put a great effort to move the files in the database and continue this way . 
+  how would you enforce consistency between the database and the additional store . 
+  i mean if you try to delete from the kv-store would that result in a foreign key violation since you are still referring the object in the database ? 
+  or call it windows th ( as was rumored ) or windows < some word here  . 
+  it is not like it had to be a number . 
+  after all they have released windows me , widnows xp , windows vista ... actually the explanation with the version strings simply does not make sense . 
+  i can find them in the weekend . 
+  go ahead tell us i will read it later . 
+  and people say cheese is boring ... go figure !, 
+  `` never delete '' sounds like `` never make mistakes '' . 
+  `` have a default image '' sounds like `` having bugs is ok as long as you delay enough before the user finds out '', 
+  i specifically started my original comment excluding high scalability as a goal . 
+  my point was that if you do not need scalability you should store the files in the database . 
+  it is relatively easy to take them out later while it is hard to put them in if you decide to do so . 
+  also you should tweak your methods to your requirements and it should be obvious that the large majority of software projects do not need to scale . 
+  in fact they mostly scale in complexity rather than load so enforced integrity is a big win . 
+  also note that you can fail in multiple ways . 
+  first of all you may delete by mistake . 
+  you can have broken transactions where the data is put in the database but the file is not stored on disk . 
+  you can have broken updates where the reference is updated to a wrong value even if the file is not deleted . 
+  preventing this errors is much bigger win for 90 % of the projects than scalability . 
+  now if you are facebook it is probably the other way around but i have never worked on a facebook and as far as i know most developers do not so giving them facebook scale advice is wrong . 
+  yes but this is not robust solution . 
+  i would take robustness over the imaginary requirement of scalability any day .

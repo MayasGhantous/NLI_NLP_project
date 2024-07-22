@@ -1,0 +1,100 @@
+  the area comprising terracina , ponza or gaeta otoh is more like campania in that regard which is unsurprising , seeing how it was only attached to latium in 1927 ... 
+  are you asking about the differences within latium itself or southern/central italy ? 
+  if you were referring to the latter then these are actually stark ; you 've got fairly different attitudes , dialects , traditions , recipes , and whatnot . 
+   would n't you say that , otherwise , rome feels like a south italian city ? 
+  as a roman citizen myself my impression would be that no - our city does n't feel anything at all like places such as naples , palermo , ecc. , ecc . 
+  rome is still ( thankfully ) its very own thing ; let 's call it a middle ground of sorts . 
+  but of course ... if you ask a northerner then anything below the po automatically qualifies as `` south '' . 
+  what do they know ? 
+  had you asked me this very same question a few months ago i too would have recommended startpage ; however , in view of some recent ( and slightly worrying ) [ developments ] ( https://github.com/nylira/prism-break/issues/168 ) , i now suggest one of the many instances of [ searx ] ( https://searx.me ) instead . 
+   [ ... ] i have most of the pertinent filters on i think ( unchecked filters only include experimental , adblock warning , anti-adblock , easy list without rules , long-lived malware and everything in multi-purpose and regions . 
+  should i enable the multi-purpose ones ? 
+  yes - i have all of them enabled btw . 
+  also make sure to update your filters regularly . 
+   for reference , i do have umatrix and noscript but they 're disabled [ ... ], 
+  that 's a bingo !, 
+  i mean , this is the catch - you should definitely enable noscript by default , and only allow select scripts from select sites to run when necessary . 
+  and i believe that umatrix makes both ubo and ns kind of redundant ... 
+  i 'd stick with just ublock origin , noscript and privacy badger ( ubo can be complemented with decentraleyes ) . 
+  a couple of examples of what noscript should enable :, 
+  * reddit only requires redditstatic.com and reddit.com in order to run . 
+  * youtube on the other hand comes with literally kilotons of shit - but of all those things the only ones required to properly run the site are youtube.com , ytimg.com and googlevideo.com . 
+  no need whatsoever to enable the rest . 
+  in case anyone 's curious , here 's my ff configuration ; i have my own reasons to make it known . 
+  criticism welcome !, 
+  ** add-ons ** include [ https everywhere ] ( https://www.eff.org/https-everywhere%20 ) , [ ublock origin ] ( https://addons.mozilla.org/it/firefox/addon/ublock-origin/ ) , [ decentraleyes ] ( https://addons.mozilla.org/en-us/firefox/addon/decentraleyes/ ) , [ privacy badger ] ( https://www.eff.org/privacybadger ) , [ no resource uri leak ] ( https://addons.mozilla.org/it/firefox/addon/no-resource-uri-leak/ ) , [ noscript ] ( https://addons.mozilla.org/it/firefox/addon/noscript/ ) . 
+  https everywhere is set to forbid all unencrypted connections ; ublock origin has , as i mentioned earlier , all filters enabled ; noscript is configured so as to forbid scripts globally ( i allow a few of them , and only temporarily at that , on an as-needed basis ) . 
+  i also happen to use ccleaner in order to get rid of cookies and for other tasks as well . 
+  ** firefox settings **, 
+  [ searx.me ] ( https://searx.me ) is the default search engine . 
+  drm content disabled ; donottrack options enabled ; incognito mode always on ; cookies enabled ( not third-party ones tho ) and kept until end of the session ; suggestions from history , tabs , etc. , off . 
+  ** about : config shenanigans ** ( thanks to u/adrackana and u/darth _ nootnoot for the useful tips ! ), 
+  media.peerconnection.enabled , false ;, 
+  media.peerconnection.turn.disable , true ;, 
+  media.peerconnection.use _ document_iceservers , false ;, 
+  media.peerconnection.video.enabled ;, 
+  media.peerconnection.identity.timeout , 1 ;, 
+  browser.send _ pings , false ;, 
+  dom.event.clipboardevents.enabled , false ;, 
+  geo.enabled , false ;, 
+  webgl.disabled , true ;, 
+  dom.battery.enabled , false ;, 
+  layout.css.mix-blend-mode . enabled , false ;, 
+  privacy.trackingprotection.enabled , true ;, 
+  network.http.sendrefererheader , 0 ;, 
+  beacon.enabled , false . 
+  is n't that tea falco ? 
+  then i 'm sorry to inform you that this is just * her * accent ... 
+  ( but yeah , she sounds southern nevertheless ) . 
+  you 're welcome !, 
+   [ ... ] i have some but others do n't seem familiar . 
+  while we 're at it , would you mind sharing these ? 
+  if that 's ok with you that is . 
+   [ ... ] just wanted to say tho that i found private browsing worse than normal browsing in terms of allowed content . 
+  & although private browsing says it does n't keep any cookies , i noticed it still kept me logged in on all my sites unlike self-destructing cookies which nuked all of them [ ... ], 
+  mmmh , you probably have to select the option for ff to keep cookies only until the end of the session . 
+   [ ... ] is suggestions from history and bookmarks a bad thing too btw ? 
+  sorry if dumb question . 
+  not that i know of , but i just keep it unflagged for extra privacy . 
+  does n't hurt and does n't bother . 
+  * what a time to be alive *, 
+  here 's my old , general-purpose firefox configuration ... 
+  * add-ons *, 
+  [ https everywhere ] ( https://www.eff.org/https-everywhere%20 ) , [ ublock origin ] ( https://addons.mozilla.org/it/firefox/addon/ublock-origin/ ) , [ decentraleyes ] ( https://addons.mozilla.org/en-us/firefox/addon/decentraleyes/ ) , [ privacy badger ] ( https://www.eff.org/privacybadger ) , [ no resource uri leak ] ( https://addons.mozilla.org/it/firefox/addon/no-resource-uri-leak/ ) and [ noscript ] ( https://addons.mozilla.org/it/firefox/addon/noscript/ ) . 
+  https-e 's been set to forbid all unencrypted connections ; ublock origin has all the filters enabled ; noscript is configured so as to forbid scripts globally ( i allow a few of them , and only temporarily at that , on an as-needed basis ) . 
+  i use ccleaner to get rid of cookies and for other tasks . 
+  * settings *, 
+  [ searx.me ] ( https://searx.me ) is the default search engine . 
+  drm content disabled ; donottrack options enabled ; incognito mode always on ; cookies enabled ( not third-party ones tho ) and kept until end of the session ; suggestions from history , tabs , etc. , off . 
+  * about : config *, 
+  media.peerconnection.enabled , false ;, 
+  media.peerconnection.turn.disable , true ;, 
+  media.peerconnection.use _ document_iceservers , false ;, 
+  media.peerconnection.video.enabled ;, 
+  media.peerconnection.identity.timeout , 1 ;, 
+  browser.send _ pings , false ;, 
+  dom.event.clipboardevents.enabled , false ;, 
+  geo.enabled , false ;, 
+  webgl.disabled , true ;, 
+  dom.battery.enabled , false ;, 
+  layout.css.mix-blend-mode . enabled , false ;, 
+  privacy.trackingprotection.enabled , true ;, 
+  network.http.sendrefererheader , 0 ;, 
+  beacon.enabled , false . 
+  i just ca n't afford to leave !, 
+  it 's not all about money , either , but i really struggled for most of my school years and dropped out of uni when i realised it was going to be useless ( parents wanted me to attend but i did n't ) . 
+  nooo munney , no degree , no useful skills whatsoever and very little job experience . 
+  this makes me kinda unemployable in italy , let alone abroad . 
+  bravo !, 
+  grazie a intel , windows e compagnia bella !, 
+  e s\u00ec , ha windows 8.1 . 
+  secondo me ci verrebbe bene un filmino o una miniserie , magari con la colonna sonora di top gun ? 
+  hard to say , really . 
+  personally - and that 's probably going to ruffle some feathers - i could n't care less whether or not a few of your ancestors somehow happened to hail from italy a couple of centuries ago ; to me , you guys are just plain americans . 
+  period . 
+  from a purely '' human '' level i 'm glad to say that many , if not most , of the italian-americans i have interacted with have been delightful guests even though there 's always a rather ... vocal , not to say crass , minority that just needs to get a grip . 
+  also please do keep in mind that many of the cultural norms , traditions , recipes and whatnot you may or may not be accustomed to are either 1 ) long extinct 2 ) inexistent or 3 ) strictly southern italian in nature . 
+  i might also add that italy is ( thankfully ) no longer the same shithole your ancestors had to leave almost a century ago and that no , i do n't know your great-grandpa from the tiny-ass village in the backwoods of abruzzo with 50 people , a cow and just two surnames . 
+  former office worker here !, 
+  a typical workday lasted from 8:30 / 18:00 with some thirty , forty minutes allocated for lunch between 13:00 and 14:00 and plenty of unpaid overtime in between . 
+  lunch actually consisted of whatever overpriced crap the vending machine had to offer , which was usually consumed at the desk ( could n't afford eating out most days ) .

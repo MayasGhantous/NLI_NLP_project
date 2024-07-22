@@ -1,0 +1,100 @@
+  * invested into defending your home in case of a break-in or riots, 
+  * had a ton of fun doing something healthier than sitting at a desk all day . 
+  iirc , it allows a character to take hits on an adjacent ally on themselves . 
+  best coupled with tough armor and a big toughness bonus . 
+  estonia actually has a radically different healthcare system from the us . 
+  basically , there 's a single state health insurance funded from salary taxes . 
+  if you 're employed , registered for unemployment or studying in college , you have state health insurance . 
+  on top of that , if your stay at a hospital is mandated by the state , then the state is the one paying all the bills for it , not you . 
+  since the healthcare fund has a limited enough budget that they have to penny-pinch to get through november and december before the new budget begins , the trend is toward `` take an aspirin and get out the hospital so you do n't cost us more money '' . 
+  the healthcare does n't just get unlimited extra budgets whenever they run over the projections . 
+  it also means the state has a financial interest to fight tooth-and-nail against any inflated drug prices and procedure costs . 
+  there 's no elegant solution to this , i 'm afraid . 
+  the best i 've seen is the way black ice has reworked the airplane tech tree : you get designer bonuses to equipment performance if your current plane designer matches historical research . 
+  for instance , if you have messerschmidt as your designer when researching a plane of the bf109 series , you get a better-performing bf-109 than if you had used focke-wulf as the designer . 
+  and the opposite is true for researching fw190 with focke-wulf as the designer . 
+  but producing this effect requires a massive rework of equipment archetypes . 
+  i 'll be honest , while our system here in estonia might be better in some ways , it still has its ' problems . 
+  it 's often difficult to get prescription meds in november and december , unless you 're willing to pay the full amount as if you were uninsured . 
+  the waiting time to see specialist doctors and in some areas even gps can be several months long . 
+  doctors ' and nurses ' strikes are getting more frequent as they protest being underpaid and forced into overtime at no extra pay . 
+  and with the free movement of labor , it 's not unusual for disillusioned doctors to just find work abroad , where they get paid better . 
+  which is worse : to be forced to pay for a hospital stay that you never wanted ? 
+  or to desperately need a hospital stay and not be able to secure one , even though you have the insurance paying for it ? 
+   it rarely felt unfair, 
+  gon na have to disagree with that . 
+  i always felt the bugs were op in an unfair way , unless the humans somehow snowballed past them very early-on . 
+  there are dozens of us !, 
+  dozens !, 
+  holy shit that is fucked up . 
+  my condolences . 
+  it 's gon na do enough . 
+  especially with the gun clubs transforming into an organized resistance movement . 
+  no to mention that if it comes to revolution , there will most definitely be military formations that desert and revolt , rather than target american civilians on behalf of a corrupt government . 
+  if drones and airplanes were so all-powerful against armed guerilla resistance , then bush would have pacified iraq and afghanistan long before the middle-eastern clusterfuck caused his support to tank . 
+  if a bunch of seventh-century savages who believe in magic sky man and muhammed the pedophile messenger can pull it off , why the fuck ca n't americans ? 
+  do you really give yourself so little credit ? 
+  mods , my friend . 
+  the next step is mods . 
+  try angel 's refining with bob 's mod . 
+  and then post pictures of the ridiculous spaghetti you end up with when you manage to automate electronic boards ( the first one that uses synthetic electronic boards , instead of the wooden ones ) . 
+  i think the whole storage/provider logistics priority conflict can be resolved with combinators on the inserter that 's loading from production into the network . 
+  let 's say that we have item x that we want to empty out of storage and onto the bus , but we also want there to be 500 x available at a provider chest for player resupply . 
+  the requester chest is requesting 50 x for an offload buffer . 
+  the inserter at the provider chest needs to load into the network only if ( x.network < 550 and x.providerchest < 500 ) . 
+  wait . 
+  this does n't work . 
+  it 'll leave 500 x in storage . 
+  hmm . . this will take latches , i think . 
+  requester chest will only offload to belt if latch a is activated . 
+  latch a activates if ( x.requester = 50 and x.provider = 500 and x.network  550 ) . 
+  the inserter does not load into provider until latch a is cleared . 
+  latch a is cleared if ( x.requester = 0 and x.network = 0 ) . 
+  still slightly wasteful . 
+  it loads a full 500 from the provider chest onto the belt if there 's a surplus in storage . 
+  but it 's consistent and prevents the issue with the provider constantly offloading into the belt requester chest . 
+  there were a number of factors . 
+  first , they constantly faced the issue of equipment shortages on accoutn of being severely behind the rest of europe in industrial development . 
+  both in training and in battle , the italians had a tendency of having more men than they had guns to go around . 
+  secondly , italy was an extremely divided nation . 
+  `` italians '' of the time identified as venetian , neapolitan , florencian etc. 
+  first and italian second . 
+  these divides were further reinforced by the existence of a wide variety of different local dialects and inadequate enforcement of `` standard '' italian language practice . 
+  as a result , unit cohesion suffered . 
+  draft-dodging was practically considered a sport between the individual and the state 's bureaucrats . 
+  another factor was an extremely conservative officer corps . 
+  despite the use of motorized and mechanized forces in ethiopia , the prevalent attitude in the italian officer corps was that wars were won by being able to throw more men into the trenches than the enemy . 
+  likewise , the divide between officers and enlisted was huge . 
+  they were entirely different castes that completely distrusted each other . 
+  the officers did n't trust the troops to even obey their orders , let along trusting the troops enough to allow them any individual or nco-level initiative . 
+  likewise , the troops distrusted the officers and were expecting to be sent to certain death by fat idiots sitting comfortably in the rear , in the vein of ww1 no-man 's - land charges . 
+  additionally , a significant amount of any italian unit 's nominal training time was filled with parade and ceremony training . 
+  besides the conservatism of the officers , this practice was encouraged by the shortage of weapons and supplies . 
+  time that the units could have spent in combat training was instead spent on parade drills as the unit was waiting for training supplies . 
+  and eventually the clock of nominal training time ran out and the units were declared `` trained '' , even though they were not . 
+  finally , the italians rarely had any kind of design competitions for the production of military vehicles . 
+  mussolini distrusted foreign arms manufacturers and essentially gave `` orders '' to specific companies like fiat to design and produce specific types of vehicles . 
+  there was no competition , for instance , between fiat and other automotive companies for who produces the best-performing design . 
+  fiat was just instructed to draft up a design , test some of their own prototypes and put the project into production as soon as the prototypes performed adequately . 
+  edit : and i forget to address an important point . 
+  even at the top , the italians were not eager to join the war . 
+  at the start of the war , mussolini and his cabinet of advisors believed they would not be ready for war until 1943 . 
+  mussolini was only pressured to join the war because he was afraid italy would be completely left out of repartitioning europe and the colonies . 
+  looking at the rapid collapse of poland and france , with britain standing alone and looking like it might collapse before the end of ' 41 , it was not an entirely unreasonable fear . 
+  so he joined in and went after greece , despite knowing his army was n't actually ready for war . 
+  the idea was to sacrifice enough men in the meat grinder that hitler could n't deny him a place at the peace table without disrespecting the dead . 
+  sources :, 
+  [ reddit ] ( https://www.reddit.com/r/askhistorians/comments/25y981/how_bad_really_was_the_wwii_italian_army_and_what/chlwvsy ), 
+  [globalsecurity.org ] ( http://www.globalsecurity.org/military/world/europe/it-military-incompetence.htm ), 
+  requiem vampires are basically late mid-game and early end-game content . 
+  only dragons surpass the high-level vampires in strength . 
+  still , there are ways to kit yourself out specifically for fighting vampires that make them much easier . 
+  the big one being some form of immunity to drain attacks . 
+  the health drain of vampires is the same level of health regeneration as a frost troll , except it also kills enemies in the same action and is n't prevented by fire damage . 
+  yeah , you can permanently mess up the checksum of an ironman game if you accidentally load it while the checksum is changed by mods ( or mods that have n't properly deactivated ) . 
+  it was a leftover of monarchist italy . 
+  ~ ~ keeping ~ ~ encouraging the divide between highborn officers and lowborn enlisted was * by design * , and the traditions held true even after mussolini took over . 
+  nah , ilves was kinda running off the rails toward the end . 
+  constantly embarrassed about things happening in estonia and acting frustrated when estonian peasants did n't share share his `` enlightened '' globalist views . 
+  two term limit , and a good thing too . 
+  the guy was clearly starting to think his opinion is more important than that of the estonian people .

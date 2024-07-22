@@ -1,0 +1,100 @@
+  * you 'll be relying solely on word-of-mouth from your initial subscribers for marketing - which will be slow going given the low starting numbers, 
+  * because the paid/locked-away content model limits your opportunities for marketing , i 'd be very concerned about your ability to take on enough new subscribers every month to compensate for your churn rate, 
+  * locking up content ( behind either a paywall or some time-limited system ) will turn away a large number of visitors , reducing your ability to sell ads effectively, 
+  * once you 've headed down the content-for-pay road , it 's tricky to change direction later without pissing off the very people that actually care enough to give you money, 
+  * donations will be hard to ask for , given that the people who care the most are already giving you money regularly, 
+  on the other hand , if you manage to build a site where the content is largely free and open , you 've got :, 
+  * ~ 2500 people who are already interested enough to follow your site and visit regularly, 
+  * a very niche audience , which is a great opportunity for targeted affiliate sales or advertising for relevant products, 
+  * potential for lots of search engine/blog traffic to your articles, 
+  * tons of good will from all the free content you 've already provided , which would make raising money via donations pretty easy, 
+  * enough traffic ( and potential for growth in traffic ) to be able to make stuff like a job board a workable and potentially profitable prospect, 
+  but most importantly , not locking everything away maximises your potential to grow , both as a resource for novice programmers , and as a potentially profitable business . 
+  you really do have some excellent work , mate . 
+  it definitely has the potential to generate enough money to allow you to do it full-time . 
+  i 'm just not convinced that your proposed model will do that , and that really would be a shame . 
+  anyway , whatever you end up doing , you deserve to make it work . 
+  good luck man , 
+  sooooo , reading between the lines , there 's some `` 0day '' flash exploit out there ( or , probably more likely , there are a lot of people running old exploitable versions of flash ) . . ? 
+  is the 4th dimension something that i should be able to visualise in some way ? 
+  i 've read a bit about it before ( after seeing this very video for the first time , in fact ) , but just got entirely lost . 
+  i get the concept , and the `` projection '' idea works for me , but i do n't really get whether it 's something that is possible to visualise , or just entirely abstract . 
+   six out of 10 people ( 62 % ) in britain have had at least one time in their life where they found it difficult to cope mentally , according to a survey published today . 
+   the research , commissioned to launch the charity 's annual mental wellbeing week , found that 70 % of people had suffered stress , 59 % anxiety and 55 % depression . 
+  occasionally feeling `` stressed '' or `` depressed '' is perfectly normal . 
+  anyone who has never felt that way likely has something wrong with them . 
+  particularly when you consider that many people will use `` depressed '' when they mean `` sad '' , and `` stressed '' when they mean `` busy '' or `` worried '' . 
+  another bullshit survey ( produced as an excuse for a charity to churn out some press releases , i notice ) presented as news . 
+  do some fucking science , bitches !, 
+  i do n't necessarily disagree with the point they 're trying to make , my issue is the way they 've gone about making it . 
+  `` it 's okay to ask for help ! '', 
+  is a perfectly acceptable sentiment , but they 're saying it by waving about the results of a small and obviously rather . . specifically-worded survey . 
+  under the guise of science . 
+  in fact , my problem is not with the charity , it 's with the newspaper that presented this crap as legitimate research . 
+  just take a look at the headline !, 
+  i 'd downvote you for complaining about complaining about being downvoted , but then i 'd have to downvote myself for complaining about complaining about complaining about being downvoted . 
+  thanks !, 
+  i 'd forgotten all about it , but just dug it out and chucked it on in the background while doing some coding . 
+  great film , 
+  pitchforks down , chaps . 
+  there 's nothing dodgy going on here , 
+  dae , upon discovering a piece of apple skin between their teeth , spend 20 minutes trying to dislodge it with their tongue , fail , and then saw their gums in half trying to git rid of it with floss ? 
+  simplest way is probably something like this :, 
+  < h3  heading < span class = `` subheading ''  some more text < / span  < / h3 , 
+  < p  everything else . . < / p , 
+  that 'll just work without any messing about with layout , but whether it 's the right markup for you or not will depend on exactly what the content is . 
+  otherwise you can try something like :, 
+  < h3  headline < / h3 , 
+  < span  some more text < / span , 
+  < p  everything else < / p , 
+  then you can have ` display : inline ` on the h3 to keep it on the same line as the span . 
+  there are loads of other variations ( you could mess with floats , for example ) , but those are probably the most straight-forward , 
+  edit : -3 ? 
+  what the fuck did i do ? 
+  well , this was a response to some dude bitching about how shitty my suggestion was ( without actually saying why ) . 
+  since he 's deleted his comment in the time it took me to type all this out , i 'm gon na post it anyway , 
+  the second thing i suggested above is exactly the same as the ` h3 { display : inline } ` that the dude up at the top of this thread suggested . 
+  only difference here is the extra span around the additional text , and the div around the lot . 
+  aaaand the only reason they 're there is so he can target the additional text with css , which i ( possibly incorrectly ) assumed would be the next question . 
+  the alternative ` < h3  foo < / h3  < span class = `` additional-text ''  bar < / span  ` seemed less sensible , as i 'm assuming they both count as being part of the heading so it makes some sense ( to me , at least ) to have a block element there to style . 
+  but , it seems i 've angered people somehow with this . 
+  so , whatever !, 
+  cisco are changing their `` now you give us all your money '' business model ? 
+  i ca n't see that happening !, 
+  been doing a bit of research into this myself lately . 
+  here 's what i 've learnt :, 
+  * [ textmate ] ( http://macromates.com/ ) - commercial . 
+  very nice editor . 
+  good highlighting support . 
+  local file browser is great . 
+  very customisable ( ` bundles ' for loads of languages ) . 
+  built-in version control integration . 
+  sadly no ftp/sftp support . 
+  * [ bbedit ] ( http://www.barebones.com/ ) - commerical . 
+  kinda ultraedit-like ( lots of hardcore text manipulation options in a million menu options ) . 
+  more ide-y than textmate . 
+  tons of customisation options . 
+  sftp support , but lacking a remote file browser ( it exists , but as a separate window . 
+  shame ) . 
+  * [ textwrangler ] ( http://www.barebones.com/products/textwrangler/ ) - free !, 
+  essentially a free version of bbedit , missing features are mostly related to use as an html editor . 
+  definitely worth installing , given that it 's free and a very competent editor . 
+  ftp/sftp support ( same as bbedit 's - no integrated remote file browser ), 
+  * [ coda ] ( http://www.panic.com/coda/ ) - commercial . 
+  ide-like , but without the problems often associated with ide-style editors . 
+  projects/sites system is actually rather well designed ( better than most `` project '' systems ) . 
+  built in terminal . 
+  * very * good ftp/sftp support , with remote file browser and graceful handling of disconnections ( often a problem ) . 
+  based on subethaedit , so some collaboration features . 
+  also means highlighting is comprehensive , but seems to be a little slow . 
+  odd scrolling behaviour , particularly irritating on smaller monitors . 
+  lacks some of the customisation options of the others ( really needs a column 80/whatever indicator line ) . 
+  my current editor of choice . 
+  looks nice for html/css editing , but probably not optimal for other stuff . 
+  sftp support ( supposedly ) , but i have n't been able to make it work so this mini-review is a bit lean on detail . 
+  * [ komodo edit ] ( http://www.activestate.com/komodo_edit/ ) - free . 
+  open source ( ish ) . 
+  comprehensive ide-style editor . 
+  very customisable ( one of the few editors that have configurable keyboard shortcuts ) . 
+  built-in language integration features . 
+  sftp/ftp support , no remote file browser by default , but can be added via plugins - however remote file access support does not handle disconnections cleanly ( get odd crashes and lockups with it ) .

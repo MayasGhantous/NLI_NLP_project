@@ -1,0 +1,100 @@
+  interface ithingypresenter { }, 
+  class thingypresenter implements ithingypresenter {, 
+  dependencya a ;, 
+  thingypresenter ( dependencya a ) {, 
+  this.a = a ;, 
+  ithingypresenter ( thingypresenter presenter ) {, 
+  return presenter ;, 
+  are there any really dope tutorials for proguard ? 
+  i inherited this big codebase full of legacy code and would like to proguard it , to bring down dex and apk size, 
+  one of us , one of us, 
+  do you want to use it to find bugs or to have a general idea of user interaction ? 
+  user interaction is easy , that 's just analytics . 
+  with bugs , it depends on your crashreporting-solution . 
+  in crashlytics , you can use ` crashlytics.log ( ) ` to log whatever you want and if your app either crashes or if you use ` crashlytics.logexception ( ) ` to log a non-fatal , you get the entire log from earlier, 
+  i have n't had the chance to set it up myself , but there was an article claiming that performance was good , if used with real devices . 
+  i ca n't recall any claims on how well it performed via emulator though, 
+  ** rxjava2 + retrofit **, 
+  i 've had an idea concerning error-handling , in case the user has no internet-connection . 
+  basically the idea is to add a ` retrywhen ` block to every webcall and wait for a ` subject ` to emit something, 
+  so basically this, 
+  somewebcall.retrywhen {, 
+  errors -  errors.flatmap {, 
+  if ( it is retrofitexception & & it.kind = = retrofitexception.kind.network ) {, 
+  somesubject, 
+  } else, 
+  observable.error ( it ), 
+  the idea was to use one of two things :, 
+  a ) a fancy overlay with a button that says `` try again '', 
+  b ) a broadcastreceiver listening for connectivity-changes, 
+  either of the two options would call the subjects ` onnext ` , so the call would be retried, 
+  i did test it and it seems to work , now i 'm wondering , if there are any pitfalls here that i 'm not seeing . 
+  input please ? 
+  it 's a challenging mating season for bird person, 
+  people dislike coldplay ? 
+  under which rock have i been hiding ? 
+  that 's what gets me with rick and morty . 
+  there are cronenbergs , genitalia-inspired aliens , tons of violence , etc. 
+  but `` motherfucker '' is so horrible they have to censor it ? 
+  post in the weekly questions thread , do n't open new pages, 
+  you 're still gon na get guys who 'll think you 're just messing with them, 
+  i think , the `` i 'm serious '' would make me think someone 's messing with me even more, 
+  zero self-esteem : /, 
+  it took me almost 30 seconds to get the vs thingy just reading it here , no wonder he did n't, 
+  xenoncosplay anyone ? 
+  to me , junior means `` has little idea about the job and learns the correct stuff on the job '', 
+  senior is `` holy shit , this guy knows what he 's talking about '', 
+  everything in between is `` normal dev '' for me, 
+  then again , it 's highly subjective, 
+  that 's great to hear !, 
+  politicians have been lying for ages , in austria , we see it as a mandatory skill to being one, 
+  this is almost as fun as / swordorsheath !, 
+  is this requesting thing for the top tier only ? 
+  i 'd be fine with lower tiers aswell ( do n't have a credit card , do n't plan on getting one just for patreon ), 
+   that 's funny , if you check on stack overflow , the recommended solution for storing a list of primitives in an sqlite database is by joining them together into a single comma-separated string ... 
+  when you 're working with a ton of data on a device with super low permanent storage , then that 's the best way to store primitive data, 
+  on modern phones , you can usually get away with creating entities with fields for each of your primitives . 
+  hell , you can even create tables without primary keys ( really bad practice , but possible ), 
+  create table primitivestorage {, 
+  super_awesome_string text, 
+  and query that to get a ` list < string  ` . 
+  with room , you need to wrap it , but that 's a limitation of room , not sqlite, 
+   realm has the following cons compared to room :, 
+  not sure , if room does it out of the box , but polymorphism does n't work with realm either ( or atleast it did n't the last time i tried it ) , which can be a pain in the ass , if you need it, 
+  i found it disconcerting , because the first thing that came to mind was someone literaly licking the inside of a stomach ( instead of licking a belly ), 
+  before anyone calls me a weirdo , having to translate things into your mothertongue first can fuck you over, 
+  sadly , you ca n't educate someone who 's unwilling to learn either : /, 
+  did anyone experience issues with fused location ? 
+  we have had a bunch of users complain about a certain issue , which was linked to us not getting a location from fusedlocationapi , but after opening google maps and waiting for that to recenter , it worked again, 
+  oc from gallowboob ? 
+  wtf, 
+  is there someone who has had any experience with firebase 's [ dynamic links ] ( https://firebase.google.com/docs/dynamic-links/ ) ? 
+  specifically testing is what concerns me, 
+   i am using apk splits , might this be the problem ? 
+  likely , i had that problem , when i tried running the debug app while the production app was installed ( they used to share the same identifier, 
+  i hate to be ** that ** guy , but the chance to get that `` close '' is as close as getting any other combination, 
+  we 're using sockets in our app when the app is in the foreground and firebase when we ca n't find an open socket connection, 
+  i 'd say it highly depends on how many users you have , how many you realistically think to have in the future and how many messages you send, 
+  sockets are not that bad when it comes to memory consumption or atleast that 's what i have observed, 
+  suppose you have the following methods, 
+  observable < string  methoda ( ) {, 
+  return methodb ( ) . flatmap ( l -  string.valueof ( l ) ) ;, 
+  private observable < long  methodb ( ) {, 
+  random r = new random ( ) ;, 
+  if ( some_condition ), 
+  return geta ( ) ;, 
+  else, 
+  return getb ( ) ;, 
+  private observable < long  geta ( ) {, 
+  return observable.just ( 3l ), 
+  private observable < long  getb ( ) {, 
+  return observable.just ( 5l ) ), 
+  when i 'm testing the method ` methoda ( ) ` , i need to assert that when some_condition is true that ` geta ( ) ` is called and that ` getb ( ) ` is not . 
+  however , with rxjava , i 'm not really sure how to test that . 
+  putting my ` verify ` into the ` onnext ( ) ` or ` oncomplete ( ) ` does n't work , because the unit test terminates before either method is called, 
+  how do i proceed here ? 
+  plug : use [ nv-websocket-client ] ( https://github.com/takahikokawasaki/nv-websocket-client ) instead , it fully complies with rfc 6455 and is just beautiful to work with . 
+  we 've been using it in production since february, 
+  does that not mean that i have to expose the methods geta ( ) and getb ( ) ? 
+  somebody once told me , the world is gon na roll me, 
+  after school , i worked for 10 months as a web dev , left the company and got a letter from the startup im currently working at ( they wrote all graduates from my school ),

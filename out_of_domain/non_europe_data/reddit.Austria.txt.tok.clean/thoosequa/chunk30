@@ -1,0 +1,100 @@
+  such as not having a clu for the javelin . 
+   12/05/15 ace3 - release post on bi forums ( * includes download and installation instructions ), 
+  it 's literally in the first post of this thread . 
+  just follow the link, 
+  `` ca n't get to work '' is rarely a good description of what 's up with your game . 
+  have you followed the installation guide on the bohemia forums page . 
+  do you have any other mods that do work but ace3 does n't ? 
+  firing bananas across altis, 
+  given the surrounding objects this might just be a very early stage of the model, 
+  are animals like rabbits still client side only ? 
+  from the newcomer guide from the sidebar, 
+   warning : in multiplayer , fps often depends on the performance of the mission loaded onto the server and the performance of the server itself . 
+  if you find yourself getting high fps on one server but low fps on another , you might want to consider switching servers or asking for a better-optimized mission to be put on the server . 
+  i 've started the official tutorial where you basically set up the 3rd person template from scratch . 
+  it 's a great learning experience though i do n't feel like i 'm picking a lot up about ue4 's workflow . 
+  i 'll check your recommendations out once i finished my current tutorial . 
+  got the same cpu and hdd , graphics card is a 660ti though . 
+  similar fps, 
+  default wise arma will use all ressources that your operating system allows it to use . 
+  as far as i know all those extensions in your launcher profile are nice to have but do n't really do anything . 
+   fixes to make a3 use more than 1 core at a time . 
+  that 's not really how parallelism in programming works . 
+  basically if the programmer did not implement functions that can run on a seperate core than the program wo n't use any extra cores . 
+  to my knowledge arma 3 ca n't really utilizes all your cores , because it does n't use that many threads . 
+  generally ( in most applications but definitely in a3 ) more cores ! = better performance , otherwise you 'd be rocking house with a 18 core cpu, 
+  you say optimization but in reality you are talking about file size , the two are not connected to each other . 
+  the pong game you developed following the tutorial should already be optimized pretty well at the 60 fps it is running . 
+  some google-ing around tells me that the file size can not be reduced all that much , [ this ] ( https://answers.unrealengine.com/questions/105454/toooooooooooooo-large-file-size.html ) might help you a little bit . 
+  plan out your routes . 
+  do n't sprint into the enemy . 
+  make use of cover and concealment . 
+  know your weapon and it 's range . 
+  these and more are important to survive in arma 3 . 
+  several reasons why . 
+  king of the hill on highly populated servers tends to shoot down the best servers . 
+  it 's a very demanding missions with tons of clients . 
+  secondly king of the hill takes place in towns , for example kavala . 
+  towns are where framerate dips to no end due to various reasons . 
+  thirdly and most importantly online performance is closely tied to the servers performance . 
+  saying `` i get only 25 fps in mission xyz , why is the game not running on multiple cores '' is not really asking the right question . 
+  if you enjoy the tvt style of koth but do n't want to miss out on more frames then give cti warfare a try . 
+  specifically try out the eutw servers , they have similar numbers but take place in areas where the clients do n't struggle to render millions of houses . 
+  let 's dig more into this , when your cpu is only 25 % utilized but you still get shit frames , would n't it make sense to blame the server or the mission rather than your client ? 
+  to your question as to why the game only utilizes one core , it 's mostly because of two reasons . 
+  one being the limitations of real virtuality engine , it 's not really meant to support parallism . 
+  the second reason being ( and this is closely tied to the first reason ) the simulation is all done on one thread , because you ca n't skip parts of the simulations , do the calculations seperately and come back to the main thread without knowing what was going on . 
+  take my statements with a grain of salt , there are people who know way more about the engine than i do . 
+  i hope i could help you out . 
+  you say that , but have you ever been in a milsim unit , where the 2nd lt starts to yell because a few guys in one of his squads are having a giggle ? 
+  the ranks are fake but the rage is more than often real . 
+  good suggestion on leading him to c++ , since they are syntactically close to each other and both oop . 
+  saying that you just need to learn the syntax and a few other things is not really correct though . 
+  when learning a language that outside of the paradigm you are comfortable with ( such as prolog ) there are more things to learn than that . 
+  ^ ssshhh ^ do n't ^ say ^ clip ^ in ^ here, 
+  the faq in the sidebar is a good start . 
+  you can easily create simple large battles inside the editor once you know your way around . 
+  the site is a discouraged resource, 
+  from the wiki, 
+   cplusplus.com -- missing or incorrect information , prefer [ cppreference ] ( http://www.cppreference.com ) as a reference . 
+  it is generally discouraged to buy the game elsewhere than steam or the bi store, 
+   notwithstanding , i 'd never buy a 15 month old game at full , new-release price . 
+  game might be 15 months old , but given the monthly updates , overhauls et cetera it is in my opinion well worth the full price . 
+  but then again this is a decision everyone needs to make for their own . 
+  someone with more expertise should reply to this , but if this subreddit has agreed upon cppreference being more trustworthy than cplusplus.com then i 'll follow their command . 
+  i 'm only about 6 months into c++ as well, 
+  the developer , bohemia interactive , does n't get any revenue from these sales . 
+  they also do n't provide any tech support in case something is wrong with your key . 
+  that does n't make any less discouraged, 
+  technically speaking it 's not a script . 
+  but that aside , what happens when you click yes on the dialogue ? 
+  filter for invade and annex , that should give you a rough idea of what 's around . 
+  not that big of a deal , hope i could help you . 
+  there is , yes . 
+  it 's a bit hacky and does n't really work with respawns but ** one ** way of achieving what you want is :, 
+  go to the virtual arsenal , build your loadout and click `` export '' . 
+  now alt-tab out of the game , open up your favorite text editor and paste what you have in your clipboar . 
+  rinse and repeat for all loadouts you wish to create , make sure though you seperate the different scripts you get sufficiently , so you do n't mix them up . 
+  next step , open up the map you are creating , double click on an existing unit or create a new one and inside the unit 's init field you paste one of your loadout scripts . 
+  done . 
+  two things though : as i said this does not work with respawns iirc . 
+  so if you die and respawn , you will have the normal gear back on you , though there might be a module for keeping your stuff . 
+  i 've been out the armadev loop for a while . 
+  anyway second thing , the exported script also exports stuff like the voice of the player and the face , simply delete those if you do n't wish to have different faces or voices . 
+  `` see through stuff '' like shown in the video ? 
+  i do n't think there 's a fix for that , unless there is some dedicated modder still out there tweaking the game . 
+  that depends on how much you know about programming , the time you have available , 2d or 3d , and much more . 
+  try / r/gamedev, 
+  invade and annex does n't need any mods either . 
+  unless of course you want to host your own version , with mods such as new weapons . 
+  epoch is a gamemode that needs modifications . 
+  battle royale is a last man standing player versus player match while breaking pont is . 
+  survival zombie themed mod , that is basically the unofficial sequel to the dayz mod, 
+   free mods in arma that people produce for free are 100x this size, 
+  true , but i have yet to see a mod that shows off the same quality as vanilla content . 
+  i prefer quality over quantity . 
+   i can buy a lot of cool games with $ 25 : /, 
+  also true , it seems like you 're set with your decision anyway but here 's something to think about : the 25 dollars you pay for the dlc are not so much a pricetag on the new models but they are simply a donation . 
+  a thank you to bohemia interactive for the monthly , almost weekly updates with their game . 
+  updates that do n't just polish framerates and netcode but updates that bring actual content , such as : the bootcamp campaign , zeus , firing from vehicles , advanced flight model , weapon resting , bipods and many many more . 
+  all for free .

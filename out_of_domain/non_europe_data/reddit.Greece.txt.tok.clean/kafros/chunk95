@@ -1,0 +1,100 @@
+  so we either do n't get money because it was already settled , or we get enough for a coffee, 
+  did you read your link ? 
+  it does not say anything about gold . 
+  on the contrary it supports my point :, 
+   the amount of the loan was about 500 million reichsmarks, 
+  this amount was lost due to hyperinflation . 
+  the article also supports my claim that the loan was not a loan because :, 
+   to be a commercial loan , it must have the attributes of a commercial loan . 
+  there must be a voluntary lender , a voluntary borrower , terms for repayment , and an interest rate . 
+  this occupation loan did have a voluntary borrower and , possibly , some terms for repayment , but it did not have a voluntary lender . 
+  greece , the lender , had been invaded and occupied by the borrower . 
+  also , because the representatives of the greek government collaborated with germany , the borrower actually controlled the lender . 
+  moreover , it was foreseeable that the occupation loan would devastate the greek economy , which it did . 
+  consequently , greece was not a voluntary lender in any sense . 
+  in addition , the occupation loan did not carry an interest rate . 
+  the occupation loan may have had one , possibly two , of the attributes of a commercial loan . 
+  however , it did not have all of the necessary attributes so it can not be characterized as a commercial loan . 
+  but dedicated servers have also zero costs . 
+  i will pay for my dedicated server as i did for all the games my friends and i decided are worth the monthly cost of renting server space . 
+  ed needs only to distribute the dedicated server runtimes, 
+  as i said , dedicated servers are paid by us , the gamers . 
+  this has always been the case . 
+  i run a dedicated server ( open to pub 95 % of the time ) with money given by my clan . 
+  i dont expect ed to boot the cost , just give us the runtimes to host the desicated server . 
+  the solution is very simple : dont connect to dedicated servers or filter out the bad ones . 
+  this is not new . 
+  with games supporting open dedicated servers , the client has a filter to filter them out completely and/or set favorites . 
+  say you connect to my server and i randomly kick you out . 
+  you never connect to me again . 
+  on the other hand , 10/10 times you connected to 195.93.24.56 you had a great time . 
+  cool this goes into favorites . 
+  bgs ? 
+  read my original post again . 
+  i explicitly state that dedicated servers are an option paid by us . 
+  we pay the bill for server hosting , ed gives us the server runtime . 
+  game still support p2p as it is , unless you find a dedicated server to connect to . 
+  this is how dedicated servers play since the 90s, 
+  ed transaction server generates the system info : objects , sources , mission types etc , ss it does now . 
+  the only thing that changes is that ( as a client ) i can choose that , what would normaly run on my pc address space ( and would affect everyone i play with because of the nature of p2p ) it is offloaded to a server ( that i choose when i start the game ) . 
+  if i dont really mind about all this , the game plays as it does today . 
+  ed transaction server generates the system info : objects , sources , mission types etc , ss it does now . 
+  the only thing that changes is that ( as a client ) i can choose that , what would normaly run on my pc address space ( and would affect everyone i play with because of the nature of p2p ) it is offloaded to a server ( that i choose when i start the game ) . 
+  if i dont really mind about all this , the game plays as it does today . 
+  ed transaction server generates the system info : objects , sources , mission types etc , ss it does now . 
+  the only thing that changes is that ( as a client ) i can choose that , what would normaly run on my pc address space ( and would affect everyone i play with because of the nature of p2p ) it is offloaded to a server ( that i choose when i start the game ) . 
+  if i dont really mind about all this , the game plays as it does today . 
+  what you say about hacked servers can be said about hacked clients today . 
+  dedicated servers are around since quake , they are an addition for gamers , not a prerequisite , and also have simpler netocode . 
+  it will be a return on investment for the developer man hours maintaining the netcode in the future . 
+  trying to make 4 clients agree on the position of a projectile while they are all peers is much much harder than running the simulation on only one node . 
+  not to mention about position predection etc which makes everything smoother . 
+  the dedicated server does nothing more than hosting what is already hosted on my pc when i jump into a system . 
+  game logic does not change . 
+  what changes is that my pc asks the dedicated server ( which is paid by gamers , not ed ) , to create an instance with the data dictated by ed ( as it does today by dictating our pc on what to generate ) , and i connect to it . 
+  now when you also jump to the same system ( and have also asked the game to use the dedicated server , because it is optional ) you get connected to the dedicated server instance which was just created by my jump . 
+  instead of our shitty pcs and shitty connections and shitty routers , fucking up ed p2p ( no fault of ed here , but a fault of middleware ) , we get connected to a correctly configured low latency server ( isp connection qos and correctly setup port forward ) . 
+  you have answered your questions yourself . 
+  people dont play on bad servers . 
+  the first time you expirence foul play you get out of there . 
+  soon you have a favorites list of good servers ( low ping , always up to date , etc ) . 
+  also the client can be coded to not connect to an out of date server ( simple check on browse for server ) . 
+  the server browser in other games is basic functionality . 
+  from a development point of view , favorites and showing if you are on p2p or on dedicated is nothing . 
+  favorites = just ip entires on a file on disk with a user comment, 
+  p2p or dedicated server info display is also just a small addition to already existing info on the server browser . 
+  edit for clarification : what i actually tell the main server as a player ( if i choose so ) is this : instead of executing game login on my client , execute game logic on this server of my choice . 
+  no new game logic is developed , the only thing that changes is the client connection mesh . 
+  this is why most companies give the dedicated sever . 
+  it is just reboxing of existing work . 
+  they dont produce something new . 
+  actually it requires code reduction . 
+  the code is already there , you just need to disable talking between peers in case you are using a dedicated server . 
+  you are not doing something new , you are moving the existing address space of your client , onto a stable server . 
+  you already have a `` server '' now , which is comprised of all peers making up an instance . 
+  the mess comes from peers trying to agree on things with bad lines , high latency and incorrect port forward config . 
+  the only difference i am proposing is to give this already existing function ( codebase in essence ) into an entity without a renderer ( the dedicated server ) . 
+  peers now talk with something stable . 
+  who said that dedicated servers cost ? 
+  did you ever pay to play quake online ? 
+  was there ever a problem finding a spot ? 
+  ( i am using quake as an example because it is popular in game culture , not because it did something more or different from 100s of games having dedicated servers ), 
+  depends if you think that multiplayer experience is important or not . 
+  if is not a core game element , then you are right . 
+  but if you think that players should not see other players `` jumping '' around the screen while you are sharing an instance , then p2p can only get you that far . 
+  the article goes with the argument that money was not lend but stolen and thus germany became the trustee ( lol ) and has to act as an investor . 
+  is that our case ? 
+  that thieves are investors ? 
+  thank you for pointing out this part of the article , i missed it while reading and this great joke was lost . 
+  he said that germany is required to , i quote , `` enchance the value '' . 
+  this is what investors do . 
+  does it ? 
+  read my post again, 
+  double fail, 
+  she is technically correct :, 
+  who is boss now ? 
+  checkmate fileledes :-), 
+  no shit sherlock !, 
+  ^ this post has more info than any financial analysis about greece , that you may have read in the last year . 
+  needs more upvotes, 
+  edit : downvoted \u03c3\u03c4\u03bf 1 min , at 01:43 am .

@@ -1,0 +1,100 @@
+  surely that 's not so terrible ? 
+  on keybindings for volume : i use a laptop with buttons for it . 
+  i * have * found out the information to make use of those , i have n't gotten around to implementing it though . 
+  i would like a tray app to tell me my volume and allow me to change it without pressing the buttons , though . 
+  i 've got that part pretty much sorted out . 
+  on network-manager and related : that 's the darndest thing , though , i did . 
+  i installed the - applet , too , and the xfce/gnome compatibility stuff , too . 
+  and it 's like i did n't even . 
+  oh well , i 'm sure i 'll solve it in due time . 
+  thank you !, 
+  i 've installed yaourt already . 
+  thank you for introducing me to ` pacman - ss ` , i knew it existed but for some reason i did n't associate it with ` apropos ` - like utility . 
+  that should get me through most of everything . 
+  for networking , i 've installed ` network-manager ` already , but it seems to not have had any effect . 
+  and above all thank you for being nice . 
+  i already thought it was kind of crazy that some places recommend arch to beginners , but after a couple of the replies i got in this thread i felt that `` there is no way anybody can expect a beginner to be * that * self-sufficient '' . 
+  thank you !, 
+  ** ( nm-applet :2051 ) : warning ** : could not initialize nmclient, 
+  / org/freedesktop/networkmanager : unit dbus -, 
+  org.freedesktop.networkmanager.service failed to load : no such file or, 
+  directory . 
+  see system logs and ` systemctl status dbus -, 
+  org.freedesktop.networkmanager.service ' for details . 
+  ** ( nm-applet :2051 ) : warning ** : error connecting to, 
+  modemmanager : error calling startservicebyname for, 
+  org.freedesktop.modemmanager1 :, 
+  gdbus.error : org.freedesktop.systemd1.loadfailed : unit dbus -, 
+  org.freedesktop.modemmanager1.service failed to load : no such file or, 
+  directory . 
+  see system logs and ` systemctl status dbus -, 
+  org.freedesktop.modemmanager1.service ' for details . 
+  ** message : applet now removed from the notification area, 
+  but the post referred to surstr\u00f6mming as pickled herring . 
+  while it certainly is fermented herring , is it appropriate to call it * pickled * ? 
+  so surstr\u00f6mming is sort of `` ripened '' , whereas sill ( which i assume is pickled regularly ) is just pickled . 
+  btw what is your profession ? 
+  i am a biomedical engineer . 
+  yes , many times unfortunately . 
+  i just restarted now after reading your reply , in fact , just to be sure , and it still gives the same error message . 
+  edit : i am very stupid/forgetful . 
+  i forgot to enable ` networkmanager.service ` . 
+  there goes my claim to sentience . 
+  my only problem is that nm-applet does not autostart , but whatever i can fix that in a number of ways . 
+  thanks for all the help !, 
+  thanks for telling me about xfce autostart !, 
+  it is the solution to most of the times when i ask , `` does this go in xinitrc ? '', 
+  ` network-manager ` works now , and it did not work before because i was very stupid and forgot to enable it . 
+  thank you for the recommendation of reading the wiki page on pacman , but i still have yet to get through the man pages !, 
+  maybe it is well-balanced/well-tightened ? 
+  ~ ~ this is them in 2015 , or whatever the year number was in the future . ~ ~ i am wrong . 
+  does he leave it idling during other tasks ? 
+  i do n't believe anybody could spend nearly all of their waking hours playing civ 5 . 
+  well , where do you think i learned about ` network-manager ` in the first place ? 
+  ohh . 
+  whoops . 
+  i could have sworn . 
+  it came preinstalled with mint , though , so i never had to worry about it . 
+  i now understand why many users characterize mint as `` justworks '' , while i still had to spend a very large amount of time fooling around with it to get it to work . 
+  most of the core features , networking included , * are * of the kind that all you have to do is press a button to get them to work . 
+  will do . 
+  wow , i never thought snopes would be such an educational source of theology . 
+  well ... yes , we can . 
+  but if it 's a great story corroborated on a lot of sides , we probably should n't . 
+  and mountains , and jungles . 
+  but ... do n't you ever ice skate ? 
+  my first thought , as well . 
+  i like the idea of replicating such an advanced technology using just a chicken . 
+  - chicken powered steadicam video ( pov ), 
+  - miscellaneous animal-powered steadicam video ( pov ), 
+  sicily 's flag is far creepier i 'd say . 
+  in hungarian , it 's the grenade-apple . 
+  higher resolution, 
+  \\ begin { rant }, 
+  i lived in hungary until i was in seventh grade , at which point i moved to the us and started education at a private school . 
+  i do n't like hungary at all in most respects : it 's full of racists , sexists , and the one thing that most hungarians have in common is complaining about losing a piece of land * 97 years ago * . 
+  it is also relatively poor compared to the us . 
+  but if i could relive life without going to the us , i would . 
+  why ? 
+  i received the worst math education ever , in the us . 
+  for example , in 9th grade , in * honors * precalculus , the teacher only taught us the basics of trigonometry ( without mentioning , for example , the sum-to-product/product-to-sum identities ) , did n't prove anything , and frequently taught us to use calculators for this or that kind of problem . 
+  we did n't even do any actual creatively-solving-equations * at all * ( what i mean is , problems like `` sqrt ( ln ( cosx ) - ln ( cos ^ ( 2 ) x ) ) = sinx-1 '' ) , and in no course did anybody bother to teach anything about the importance of domains in solving a problem ( for example , the equation that i just wrote down can only be solved by looking at the domains and images of the functions involved ) . 
+  or how about ( again , this is an * honors * class , i am beside myself ) geometry , which served as a slow-paced introduction to logical proofs , but never contained any interesting problems or theorems . 
+  for example , we never learned about the euler line , or any proofs involving it , or the rather important theorem that the angle formed by two lines intersecting with the edges of a chord of a circle and intersecting at a point on the circle will be twice the angle formed by two lines intersecting with the edges of the same chord but meeting at the radius instead of a point on the circle ( it proves the strong version of the law of sines ! ) . 
+  we never did anything that you had to think a little for , like finding a constructive way to define the set of all quadrilaterals that can be circumscribed . 
+  then again , i had better history and biology education in the us . 
+  really , i wish i were taught math and physics in hungary , and everything else in the us . 
+  or perhaps the solution would have been to move to korea or something . 
+  \\ end { rant }, 
+  it 's not hindi . 
+  that would have a line at the top ( or one of the sides/bottom , if op is holding it wrong ) . 
+  for future reference for everybody , most slavic languages have `` slovo '' or something similar as their word for `` word '' . 
+  edit : http://i.imgur.com/qymwt15.jpg ( greek is wrong , should be \u03bb\u03b5\u03be\u03b7 ; also hungarian sz\u00f3 actually shares a common etymology with turkish s\u00f6z ), 
+  i was once told that if you know both english and german , you can understand dutch . 
+  unfortunately , i know both and still do n't understand dutch . 
+  edit : your flair ... that 's the first time that i 've seen someone put english in ipa and not use rp . 
+  i like it, 
+  polandbox is just the name of the home computer germoney built . 
+  no , russia . 
+  the krepost is distinctly overpowered i feel . 
+  in the first game , this was a bug .

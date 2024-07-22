@@ -1,0 +1,100 @@
+  most wms provide some kind of floating-mode ( either per-workspace or per-window ) to handle these use-cases , but it can certainly be a bit awkward . 
+  here 's the presentation to go with the slides : https://www.youtube.com/watch?v=dumxgofrmdu, 
+  a more de/wm-agnostic approach is ` xbindkeys ` , although i use herbstluftwm so i usually use ` hc bind ` which presumably works similar to i3 's . 
+  i like a challenge personally , so in my first playthrough ( also of the ds version , heh ) i rather instead tried to stay at or below the opponents ' levels , `` grinding too little '' so to speak . 
+  the story progressing also helped a lot with motivation for me -- it 's just too silly , which i love . 
+  anyway , i did n't know how reincarnation worked or about unlockable classes either really during my first playthrough ( until the final two or so chapters ) , which made it a lot harder than it would 've been otherwise , so . . well , go with whatever you prefer . 
+  also yes , i realise i 'm replying way late to this . 
+  darn you , monster x !, 
+  sounds pretty nice !, 
+  neat , linux support . 
+  i approve . 
+  since it looks like it takes a lot of inspiration from advance wars , i 'd guess the tiles with trees are passable ( and probably represent forests/woods ) . 
+  i like the trpg disgaea . 
+  both ( remakes of ) disgaea 1 and 2 are available for the psp . 
+   i have secret of how to space in my hut . 
+  not sure if civ reference ... 
+  not strictly related to local storage . . it 's a uri constructed from a [ blob object ] [ 1 ] that literally just contains the url '' [ spoiler ] ( / st http://pasteboard.co/1d222521-20a8-4f4a-91c0-7281fe4aa0d8 ) '' , i believe . 
+  it 's possible the next step was removed for whatever resaon ? 
+  [ 1 ] : https://developer.mozilla.org/en/docs/web/api/blob, 
+  unlike what others have said , i think there 's a practical reason for transparency : to emphasize the currently focused window ( moreso than just the change in border colour ) . 
+  granted , my opacity difference is very subtle ( 93 % opacity for unfocused windows and 100 % for the focused one ) , but i still find it makes a difference . 
+  why so opaque ? 
+  precisely * because * i do n't want to be distracted by the background . 
+  similarly , and perhaps more importantly , in static/manual tiling wms like herbstluftwm gaps fill the practical purpose of distinguishing between multiple frames with one window in each , and one frame with multiple windows in it . 
+  in this case , the gap would be between the frames and not the windows . 
+  ( a frame acts as a container for a set of windows , and when a new window is spawned it is typically appended to the currently focused frame . ), 
+  edit : for reference , [ here 's a screenshot ] [ 1 ] that demonstrates this : you can see the slight transparency ( mostly in the unfocused terminals ) and the difference between a frame and a window . 
+  [ 1 ] : http://xen.firefly.nu/up/2015-02-18_021817.png, 
+  not to imply that the article is inaccurate , but aftonbladet in general is n't always entirely accurate about things . 
+  you should probably add links to the corresponding [ dn.se ] [ 1 ] and [ svd.se ] [ 2 ] articles . 
+  i suppose you know about jolla ? 
+  their phone is kind-of the spiritual successor to the n9 , i suppose . 
+  you and me both . 
+  :3 hopefully i 'll have a keyboard for it in ~ 1-2 months , too . 
+  i do miss it from my n900 . 
+  it makes more sense in vi and its descendants than in many other programs , simply because of the vast amount of movement keys :, 
+  < vimgor  in normal mode , all of these keys can move the cursor : ` # $ % ^ * ( ) 0 _ - + w w e e t t i o o { }, 
+  - learn to use all of them . 
+  whereas in e.g. 
+  i3 you rely on them all the time to move between windows , in vi ( m ) they `` should n't '' be used any more than the other keys . 
+  ( scare quotes for `` should n't '' -- feel free to use whatever you prefer and find the most productive , but that 's the idea behind it afaik . ), 
+  [ here 's a clip on this phenomenon ] [ 1 ] . 
+  [ 1 ] : https://www.youtube.com/watch?v=wcazalhldg8, 
+   p\u00e5 undersidan av laptop, 
+  huh . 
+  i never really saw a point in powerline in either vim or the shell , but i have to say that looks really good in a panel . 
+  i might have to give that a try with my terminal panel . 
+  now to see if i can patch my preferred font to include powerline 's separators ( or maybe just add my own ) ... 
+  a bit busy to showcase syntax highlighting in different languages : http://i.imgur.com/vpjqvo0.png, 
+  modified version of hybrid ... in fact , the commented-out lines in the top of the vimrc buffer is actually the last few lines of the overriden colours . 
+  i really like the way yours looks , op , might have to borrow some of those colours ... 
+  i guess it depends on [ what school is doing the exchange trip ] [ 1 ] . 
+  [ 1 ] : https://en.wikipedia.org/wiki/kim_han-sol#biography, 
+  i just happened to have seen that televised interview they mention in the text , so i was reminded of how he went to university in some european country ... 
+  [ 1 ] : https://www.reddit.com/r/citiesskylines/comments/2yh47n/quotes_from_henkka_art_stream_9th_of_march_2015/, 
+  base64-encodead bitmap ? 
+  netpbm ? 
+  ascii-art ? 
+  only the letter characters change , though ... so unless the letter distribution in the programming language is vastly non-english-like , i do n't see why it 'd be any different . 
+  ( i 'm also a dvorak-using programmer/compsci student . 
+  i know quite a few fellow students using it as well . ), 
+  the criticism about ` git checkout - b ` is n't that it * exists * , but that it is a flag to ` checkout ` rather than its own top-level command , unlike ` pull ` . 
+  compare mercurial 's ` pull ` , ` update ` , ` pull - u ` which i personally find more straightforward than git 's ` fetch ` , ` merge ` , ` pull ` , ` fast-forward ` , and whichever related commands i 'm forgetting at the moment . 
+  that said , i think git has a better feature set , and prefer the `` staging '' approach , so neither is perfect to me . 
+  in practice , librarians have other tasks to do that causes them to incidentally go look for a particular book and scan over other possibly misplaced books in the process , such as fetching reserved books , putting back returned books on the shelves , or helping people find a particular book or books on a particular topic . 
+  if a book is misplaced , it is eventually noticed and corrected . 
+  for your problem , if we want the array to be fully sorted at the end of the day ( say ) , with the shuffles happening randomly in the array , as far as i can tell we need to do a full scan in order to find the shuffled elements and correct them . 
+  you can do better than a full o ( n log n ) ( assuming comparison sort ) re-sort every day , though , since the array is partially sorted . 
+  something like insertion sort would probably work well here . 
+  i 'm afraid i do n't have a good answer either . 
+  i 've pretty much only used git for quite some time , so that 's what i 'm more used to at this point . 
+  speaking of weird local names for mcd , in sweden most younger people would probably call it `` donken '' . 
+  it does n't make much sense either . 
+  you could probably fit it into the lyrics of a song . 
+  it 's how most video games do it . 
+  that 's why it took quite some time for dolphin to play back f-zero x replays accurately -- it 's very sensitive to desyncing . 
+  the original ds phat had a thumb strap that could be used as stylus , which i found worked great for metroid prime : hunters . 
+  i think something similar would work well with the 3ds as well , but alas there 's no thumb strap . 
+   to remote hosts or direct tunnels to computers, 
+  seems like botnets would come in handy here . 
+  it 's not likely to uncover the botnet either , since it 's just doing a single remote post request from the infected host . 
+  me too . 
+  and evidently also gamefreak , since the region they based on it uses a pentagonal logo . 
+  if the psp remake is similar to the ds remake , there should be a character in the bottom-left corner of the hub room with the portal etc , telling you that yes , while the game has a / lot / of mechanics , you do n't need to learn all of them to beat the game . 
+  consider mastering the game as part of the post-game , if you will . 
+   you ca n't even use tables as hash maps to with string keys . 
+  i 'm having trouble parsing this , but you can certainly use strings as keys for tables ? 
+  can you elaborate ? 
+   minus signs come to mind, 
+  not to go off on a tangent , but on that note , i 'm rather fond of iverson 's / apl 's convention to use a raised minus sign for negative numbers . 
+  i.e , \u207b 1 for negative one but 1 - 2 for subtraction . 
+  well , at least scroll lock is very out-of-the-way . 
+  unlike caps lock , which occupies a prime modifier key position . 
+  well , we could distinguish between three uses of the minus sign :, 
+  subtraction ( binary minus ) `` a - b '' ; negation ( unary minus ) '' - a '' ; negative number literal , e.g. 
+  you may complain that the third one is just an application of the second one on a positive literal number , which is certainly true , but it 's not too unreasonable to want to distinguish the negative number * itself * from the application of an operator on the positive number , to me . 
+  sometimes parentheses are added around a negative number for clarification since `` 1 + -1 '' looks a bit funny , but with `` 1 + \u207b 1 '' it 's more clear ( to me anyway ) what is going on . 
+  i guess i do n't really have any good/strong arguments , but i find it tidier in my notes . . 
+  huh , care to enlighten me ? 
+  either i 'm missing a joke , or i 'm missing something with the layout in the image ...

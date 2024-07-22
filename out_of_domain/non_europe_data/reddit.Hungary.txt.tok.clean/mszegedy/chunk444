@@ -1,0 +1,100 @@
+  edit : oops , that 's because the last paragraph is written by the commenter themselves, 
+  you mean on the numbers ? 
+  the rendering 's os-specific, 
+  meh , you 're not allowed to call language dumb !, 
+  plus that sort of already accurately describes english orthography , given & ( and @ , to a lesser extent ), 
+  zarei 's least amused face ( possibly the one where she 's telling izzy she usually does this for money ), 
+  or for that matter , why not cities along the persian gulf ? 
+  too far from the main population of persians ? 
+  metabolic changes of bacteria * can * be preserved in the geological record ; the biggest and best example is the invention of photosynthesis . 
+  you 're of course right though that it 's extremely possible that they occured without getting preserved . 
+  it does run during the update process . 
+  ( it runs every time you update the kernel , as far as i can tell . ), 
+  it does n't give any errors , or any warnings beyond the usual . 
+   do you mind forcing a kernel reinstall of the current version you have and pasting in the output ? 
+  anything !, 
+  you mean ` pacman - s linux ` , right ? 
+  i ca n't actually paste the output here , because my only computer that has a gui and can access the internet is my phone , but i 'll try and reproduce it faithfully . 
+   also , can you check the permissions of the / boot / filesystem ? 
+  it 's possible that could be preventing the new image from being copied over , while the chroot does n't give a rats ass about permissions . 
+  very possible . 
+  in fact , ` yaourt ` , which i usually use for package management , spits out some extra warning regarding permissions when i try and reinstall ` linux ` in emergency mode , in addition to the typical spiel that it 's a bad idea to run ` yaourt ` as a superuser . 
+  i will take a closer look at that , too . 
+  should n't permissions not matter , though , when i 'm installing the kernel , since i 'm super ? 
+  edit : all the files in ` / boot ` are owned by ` root ` and are in group ` root ` . 
+  that 's how it should be , right ? 
+  edit 2 : aha , i have isolated the permissions warning . 
+  it 's something unrelated about ownership of ` / var/log/journal / remote / ` when i reinstall ` udev ` . 
+  edit 3 : the ` linux ` reinstall monologue in its full glory :, 
+     updating module dependencies . 
+  please wait ... 
+     generating initial ramdisk , using mkinitcpio . 
+  please wait ... 
+  = =  building image from preset : / etc/mkinitcpio . d/linux . preset : ` default ', 
+  = =  starting build : 3.18.5-1-arch, 
+  -  running build hook : [ base ], 
+  -  running build hook : [ udev ], 
+  -  running build hook : [ autodetect ], 
+  -  running build hook : [ modconf ], 
+  -  running build hook : [ block ], 
+  -  running build hook : [ filesystems ], 
+  -  running build hook : [ keyboard ], 
+  -  running build hook : [ fsck ], 
+  = =  generating module dependencies, 
+  = =  creating gzip-compressed initcpio image : / boot/initramfs-linux . img, 
+  = =  image generation successful, 
+  = =  building image from preset : / etc/mkinitcpio . d/linux . preset : ` fallback ', 
+  = =  starting build : 3.18.5-1-arch, 
+  -  running build hook : [ base ], 
+  -  running build hook : [ udev ], 
+  -  running build hook : [ autodetect ], 
+  -  running build hook : [ modconf ], 
+  -  running build hook : [ block ], 
+  = =  warning : possibly missing firmware for module : aic94xx, 
+  -  running build hook : [ filesystems ], 
+  -  running build hook : [ keyboard ], 
+  -  running build hook : [ fsck ], 
+  = =  generating module dependencies, 
+  = =  creating gzip-compressed initcpio image : / boot/initramfs-linux-fallback . img, 
+  = =  image generation successful, 
+  oh damn the access time is the key . 
+  all the ` initramfs ` files were last ~ ~ accessed ~ ~ * modified * today , but ` vmlinuz-linux ` has n't been ~ ~ accessed ~ ~ * modified * since jan 30 , which is far after i had most recently ` chroot ` - updated the kernel before this time , but days before today ( and yesterday , when i did the full system upgrade ) . 
+  thanks a million for getting me this far . 
+  i guess common sense triumphs over all . 
+  the permissions are 644 though . 
+  nothing out of the ordinary . 
+  edit : no wait the * atimes * are in fact right now as i updated them . 
+  i was looking at the modification times . 
+  it seems every time i install ` linux ` , my ` vmlinuz ` gets replaced with an image from jan 30 . 
+  that 's the precompiled image , innit ? 
+  damn . 
+  edit 2 : and when i check the boot parameters , the image to use is set to ` . . / vmlinuz-linux ` . 
+  alright , thanks so much for walking me through the troubleshooting so far !, 
+  it never works for me , i always get '' -1000 : big blue blob does n't want part of the offer '', 
+  will be sure to do so when i get home , but iirc all i do with module configuration in general besides normal is blacklist ` noveau ` in ` modprobe.d ` and one other module whose name escapes me atm . 
+  i 'll be sure to tell you when i get home !, 
+  i really do n't think so , i think it 's got to do with bad eyesight . 
+  but i guess i found out whether it 's common , so there 's that . 
+  i assume so !, 
+  i can access it using ` cd ` , and make changes . 
+  are you asking whether i mount it in the same place when i use the liveusb ? 
+  if so , yeah , i always figure it out using ` fdisk - l ` . 
+  hmm , alright . 
+  i think i have it set to auto-mount , though . 
+  hi , no need to worry , i got it working !, 
+  the problem was that ` / boot ` was never mounted . 
+  thank you for everything !, 
+  hi , no need to worry , i got it working !, 
+  the problem was that ` / boot ` was never mounted . 
+  thank you for everything !, 
+  hi , no need to worry , i got it working !, 
+  the problem was that ` / boot ` was never mounted . 
+  thank you for everything !, 
+  the problem for me , it turns out , was that ` / boot ` was n't mounted when the kernel was updated ( it 's not in my ` fstab ` so it does n't get mounted automatically ; why do the sample ` fstab ` s on the wiki not have ` / boot ` ? ) . 
+  i hope this solution works for you too !, 
+  that was it !, 
+  thank you so much !, 
+  now , to figure out how to set it up in ` fstab ` ... 
+  that was it !, 
+  thank you so much !, 
+  now , to figure out how to set it up in ` fstab ` ...

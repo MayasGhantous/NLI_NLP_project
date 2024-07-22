@@ -1,0 +1,100 @@
+  as much as i hate to agree with spolsky , `` looking right '' and `` looking wrong '' are really important concepts for me . 
+  being able to quickly scan a bit of code , understand its intent , and be reasonably sure it 's not doing something daft is really really helpful . 
+  if that means code that 's * slightly * harder for the expert to grok in order to avoid ( perceived ) ambiguity , then so be it . 
+  to be clear , i 'm putting in the ` scalar ( ) ` s for * my * benefit , not the compiler 's . 
+  i 'm aware that they 're not necessary in most of the places i use them . 
+  black pudding is fucking amazing . 
+  just a shame it 's essentially blood and sawdust , in a sock . 
+   the couple holding hands is the one i remember best, 
+  you could not pay me enough money to look at that picture . 
+  check the domain !, 
+  100 % bitches !, 
+  i was fucking shitting myself doing that though , even though it 's not the first time i 've seen it ( this shit is kinda my job  ) . 
+  if i 'd got any wrong i may have had to quit and join the circus . 
+  that 's a decent suggestion . 
+  another interesting one i stumbled upon the other day : the recent version of [ test : : more ] ( http://search.cpan.org/perldoc?test::more ) has a ` subtest ` function , that lets you group together a block of tests into a single unit , and each subtest has a separate plan ( which means you can use the ` done_testing ` / ` no_plan ` style for part of the script , and a fixed test plan for other parts ) . 
+  here 's a quick example ( straight from the docs ) :, 
+  plan tests =  2 ;, 
+  pass ( `` this is a subtest '' ) ;, 
+  pass ( `` so is this '' ) ;, 
+  sigils are * sufficient * , but ( for me ) , an explicit ` scalar ` often makes stuff more readable . 
+  i think it makes my intentions clear and unambiguous , and the code as self-documenting as possible . 
+  if perl had a builtin that was specifically for returning the number of elements in an array , i 'd shamelessly use that . 
+  but it does n't , so i use the all-purpose ` scalar ( ) ` instead . 
+  for the same reason , i also use unnecessary parentheses to disambiguate anything where precedence could even * potentially * cause ( human ) confusion , braces when dereferencing pretty much anything ( eg , ` @ { $ foo } ` over ` @ $ foo ` ) , and avoid ` $ _ ` more or less everywhere apart from ` grep ` , ` map ` ( and ` apply ` , etc ) blocks . 
+  oh , and i do n't think i 've ever used ` $ #array ` . 
+  does that really make me bad ? 
+  enterprise was pretty useless , but i really liked voyager . 
+  * for someone with even moderate asthma , a ` whiff ' of smoke at the wrong time can often be enough to cause problems . 
+  * you ca n't deny passive smoking is at the very least unfair , even if it * does n't * cause asthmatics ' lungs to seize up . 
+  * drunk drivers * are * pariahs ( at least , they are here in the uk . 
+  it still happens , but it 's very much looked down upon ), 
+  for the record , i did n't vote either way . 
+  they * are * killing themselves because of a completely useless addiction , and unnecessarily pissing other people off in the process . 
+  i really do n't see the problem with it being considered an antisocial thing to do . 
+  fatties are a bit different . 
+  they 're constantly exposed to advertisements and temptation to eat , and they 're handed an increasing number of ways to entertain themselves without leaving the comfort of their sofa . 
+  i totally agree that it 's a self-control issue , but it 's a hard one to get over . 
+  on the other hand , they rarely emit toxic gases , 
+  unlike a smoker , a fat person ca n't give up their vice entirely . 
+  ask anyone who has ever been addicted to anything ( and food really is an addiction !, 
+  ) , `` cutting back '' is never a lasting solution . 
+  edit : so , what 's the deal with drunk drivers in the states ? 
+  here , i believe , you get a ban if you get caught once ( i do n't drive , so not really up on the laws  ) . 
+  edit ( again ) : just checked . 
+  for even a little over the limit , it 's a fine and a year driving ban . 
+  for higher readings you could be looking at prison . 
+   there are very few who are fat because they 're addicted to food, 
+  fat people are fat quite simply because they eat too much and exercise too little . 
+  and ( generally speaking ) they eat as much as they do , and exercise as little as they do because that 's what they 're used to . 
+  everything else is ( usually ) just an excuse . 
+  food is very much an addiction . 
+  eating promotes serotonin release ( which is both heavily involved in digestive processes , and is basically the chemical form of `` happiness '' ) , some people build up their tolerance , and end up eating more food . 
+  going back is hard work . 
+  i 'd argue that fat people * are * ostracised , at least to some degree , although in a slightly different manner to smokers . 
+  fat kids certainly have a hard time at school , and fat people are just generally seen as ugly , and less worthwhile than skinny people . 
+  just look at some of the comments on this page . 
+  you 're trying to tell me smoking is somehow useful ? 
+  what positive effects does smoking have ? 
+  it does n't get you high , or get you drunk , or wake you up , or numb pain , or do anything . 
+  the only reason people continue to smoke is because it satisfies their craving for nicotine . 
+  it 's an almost entirely useless drug !, 
+   it feels good, 
+  it feels good because you 're satisfying an addiction . 
+  that 's it . 
+   obviously , you either have never smoked , or have smoked and just did n't like it, 
+  i 'm smoking right now . 
+  yeah i have no clue what the current government has been playing at with the ridiculous surveillance . 
+  it 's costing us a fortune and not really helping . 
+  though , i have to say , it 's really not as bad as it sounds on paper . 
+  the only thing you really notice are the cameras in really busy places ( where privacy is n't really that much of an issue anyway , and i 'd almost rather there was a camera there , than not ) . 
+  unless you 're driving , of course . 
+  then you 're treated to speed cameras everywhere and ( worse ! ), 
+  `` average speed cameras '' ( i do n't know if you have those , they 're cameras at two points along a road , often miles apart . 
+  if you travel from a to b too quickly , you get a ticket ) . 
+  i got ta say , i 'm rather scared of the states . 
+  from here you 're all just overly-entitled christian-fundamentalist trigger-happy fucking nutcases , who 'd rather feel `` happy about themselves '' than actually learn or do anything . 
+  present company excepted , of course , 
+  drinking is nice ( as in , doing so releases serotonin , and makes you feel happy ) . 
+  ( some ) beer has a nice flavour , and getting drunk can be lots of fun . 
+  i drink ( and enjoy ) alcohol from time to time , but i 'm not addicted to it . 
+  i * am * , however , addicted to smoking , and if it were n't for the addiction , i would n't do it . 
+  and nor would many people ( i 'd argue ; the * vast * majority ) . 
+  are you saying smoking calms your nerves ? 
+  that 's a shame man . 
+  and rather worrying !, 
+  you chaps should go hang with canada or something . 
+  okay , people who smoke often claim it `` calms their nerves '' . 
+  which is fine . 
+  it does . 
+  kinda . 
+  but not because of the chemicals themselves ( all the various collective chemicals in tobacco predominately have the effects of a mild short-term stimulant ) . 
+  what you 're doing is relieving minor withdrawal symptoms . 
+  * that 's * why it feels good , and why you feel calmer . 
+  i started smoking because i smoked a lot of weed in my youth ( in the uk , the done thing is to mix it with tobacco ) . 
+  i smoked enough that i built up an addiction , and eventually cut out the weed ( mostly ) . 
+  but i freely admit i 'm not the common case . 
+  most people start by smoking `` socially '' . 
+  often with friends who smoke , or if they 're out drinking in bars or clubs . 
+  sometimes they start as part of a `` teenage experimental '' phase , and end up addicted . 
+  maybe people would continue to smoke occasionally if it was n't addictive .

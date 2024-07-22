@@ -1,0 +1,100 @@
+  that is n't even talking about skill . 
+  everyone can write a crud app , but how do you write a crud app that does n't fall over at scale ? 
+  the 80/20 rule would actually that 20 % of percent of x provides 80 % of y. 
+  not that there is a 20/80 split in things . 
+  a ( made up but likely true ) example would be that 20 % of the reddit users contribute 80 % of the content . 
+  there is a mac version of onenote . 
+  it is free on the app store . 
+  prince philip is n't the king because he was n't born into the house of windsor , instead he married in . 
+  it makes his official title the `` prince consort '' . 
+  when the queen passes and prince charles begins his reign his wife camila will become the `` queen consort '' . 
+   because thomas is too pretty to die . 
+  and because i 'm too stubborn to die . 
+  and most of all because tomorrow is oktoberfest , butters , and polka will never die . 
+  eric flint 's 1632 series is all about this idea . 
+  a mining town in the middle of nowhere west virginia gets transported to 1632 germany , right in the middle of the 30 year war . 
+  they decide to establish `` the united states of america '' a few centuries early . 
+  it is in the same universe but has a very different feel to it . 
+  i watched `` dark matter '' first and then watched `` killjoys '' . 
+  by the end of it though i strongly preferred `` killjoys '' to `` dark matter '' , not that `` dark matter '' is bad . 
+  hmm , looks like i misread a joke by someone . 
+  make sure you `` dark launch '' the app before you switch to it . 
+  set it up and program your front end to send x % of traffic to both the existing and the new system . 
+  then once you have that you can also start comparing responses to make sure both are doing the right thing . 
+  slowly ramp up the traffic until you have 100 % going to the new app . 
+  is it responding quickly ? 
+  what do the metrics for errors/messages/etc look like ? 
+  go specific things to worry about :, 
+  * limit the number of goroutines per chatter . 
+  each goroutine while only a small amount of memory adds up quickly . 
+  many of our devs have talked about things like reducing number of goroutine from 6 -  5 per end user and the massive effect it has had on our large scale apps . 
+  * watch your memory usage, 
+  - particularly with things like timers and tickers . 
+  do n't use time.tick or time.after !, 
+  time.tick will leave a go routine permanently in the background that tries to tick . 
+  time.after wo n't get gc ` ed until after the timer goes off . 
+  instead use newticker and newtimer . 
+  make sure to add a defer to stop them . 
+  * graphite, 
+  - this is more general purpose application information . 
+  graphite is super useful for keeping an eye on error rates , message rates , etc. 
+  it lets you know what is actually going on . 
+  * hystrix as a bulkhead, 
+  - hystrix is a cool piece of technology based upon the ideas in `` release it ! '' . 
+  netflix then went and wrote the hystrix libraries . 
+  other people then went and [ ported them to go ] ( https://github.com/afex/hystrix-go ) . 
+  it is a useful pattern where you can bulkhead your queries to other systems , like postgres . 
+  that way if postgres starts slowing down you can stop the rest of your system from slowing down . 
+  * go has builtin support for serving a pprof endpoint you can hit to dump a map of your memory usage . 
+  this can be useful for tracking down where some errant logging statement is actually creating a crap ton of garbage . 
+  hope this helps !, 
+  i have a bronze one ( super expensive ) . 
+  it is fucking amazing !, 
+  i feel that it was well worth the money and the quality was excellent . 
+  this is the $ 99 model . 
+  sorry i 'm not referring to limiting the total number of goroutines . 
+  instead think of the number of goroutines that are required to service each user . 
+  lets have a hypothetical application that has the following goroutines that are spun up each time the user connects :, 
+  receive the data from the user, 
+  send the data to the user, 
+  send data to the backend, 
+  monitor something for the user, 
+  monitor something else for the user, 
+  so in this hypothetical setup we have five goroutines per user . 
+  thats 500k goroutines to serve 100k users . 
+  if we could combine goroutine 4 and 5 we could reduce our total goroutines by 100k . 
+  sf is n't expensive due to the cost of construction ( though it is n't cheap ) , sf is expensive due to the cost of land . 
+  land is expensive because there are too many people . 
+  as long as people are moving to sf this is going to get worse and worse . 
+  its pretty popular in some places , in others it has a really bad reputation . 
+  i 'd say most of the 100ish engineers in my company dislike node and would be push back on a project being proposed in it . 
+  we wrote a few apps in node . 
+  after a very unpleasant experience they were all rewritten in go . 
+  we have long since doubled down on go . 
+  the fact that it is statically typed , strongly typed , easily compiled , and easily distributable have all made it a favorite with many people . 
+  we also have a fair amount of ruby and python , but even a lot of that is being rewritten in go as we progress . 
+  yes go can be used for web development . 
+  there are libraries to assist and make things like sessions , csrf validation , etc easier . 
+  although for api development the standard library is sufficient . 
+  writing go code is slower then writing ruby code . 
+  it does n't have all the crazy helper stuff around db work to simplify crud actions . 
+  there are definitely places i 'd recommend rails over go . 
+  but for things like apis or well defined data apis you will get much more efficient and more stable code imho if you go with go . 
+  i 'd say `` i am legend '' is a bad example . 
+  the standard ending was typical hollywood tripe where everything ends happily . 
+  the real ending from the book , which the alternative ending in the movie is closer to , is where he realizes that he is `` dracula '' to the creatures . 
+  that he is their boogeyman . 
+  is your name jorge ? 
+  if so it might have been a friend of mine who sent it to the wrong person . 
+  can you please remove the bolding of text ? 
+  it looks like you are screaming . 
+  but acupuncture is bs . 
+  there is some evidence of it working on a very broad and general basis , but no where near the level of claims by most acupuncturists . 
+  almost everyone i know hates bugzilla with a passion . 
+  including every mozilla and ex-mozilla employee i know . 
+  australia and new zealand are both part of the four eyes program . 
+  basically they are buddy spies with the us . 
+  criket is a mobile phone provider . 
+  i think they lease space off of other carriers rather then building their ownl, 
+  wales , scotland and england all makeup the island of britain . 
+  yup .

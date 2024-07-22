@@ -1,0 +1,100 @@
+  it does n't solve every problem , for example certain people still have the ability to stuff the ballot boxes , but from what i can see , all the problems ethereum would have , paper ballots also have . 
+  it 's also much , * much * cheaper . 
+  a whole country could go to the polls for under $ 1000 dollars , i think ( at current prices -- if a whole country actually * did * go to the polls , the price of ether would doubtless go up , but would likely still be cheaper than the logistics of running a paper election ) . 
+  all it would need is a desktop and/or mobile application that users could easily install and run without needing to go through the whole process involved in setting it up , which currently involves installing a number of different components , connecting to the right blockchain , etc. 
+  it pretty much needs to be done at the command line today . 
+  and this could probably be done within the next three years if the government decided it was a good idea . 
+  the problem is that , even in this case , it 's requiring voters to do * something * on their computers , and for better or worse , * something * is just impossible for some people . 
+  some people are so technologically incompetent that no matter how easy you made it , they would fail to be able to vote . 
+  and it should also always be possible for people who do n't have access to a computer or the internet to vote . 
+  so for the ability to hold plebiscites or optional referendums , it could be fantastic , but i 'm not sure it would * ever * really be a great idea for actual federal elections , just because , along with preserving anonymity and ensuring no double votes ( getting both of these is actually a non-trivial technological hurdle , but is incredibly easy with paper -- though it 's also one with a fairly well-known solution ) , ensuring no one is disenfranchised is of utmost importance , and even the best-designed electronic voting system is going to have a tough time with that . 
+   one of people 's biggest issues with natural explorer is that it does n't work outside of your favored terrain - it effectively does n't exist, 
+  true , but they 've * always * got their sd abilities . 
+  compare with the bm , who gets the sd abilities plus a tool proficiency , i would argue a ranger 's sds plus the favoured terrain are probably * more * useful , so long as they spend some reasonable amount of time . 
+  tool proficiencies rarely come up anyway . 
+   i 'm also considering working in something to help reduce or stave off exhaustion at higher levels, 
+  interesting . 
+   that 's intentional , because the damage die is larger, 
+  ah , good point . 
+  yes , that seems fair . 
+  though it does seem a bit of a shame that the mark ca n't be extended to last for a longer time . 
+  the spell , when cast at a 3rd level slot , lasts for 8 hours , making it useful for tracking purposes . 
+  with a 5th level slot , it lasts a whole day . 
+  the lack of something like that is a * real * shame . 
+   wordly senses, 
+  interesting . 
+  i think one really simple way to achieve this would be to simply have a requirement that you have been in a particular area for at least a certain number of hours -- with a note that you do not have to have been actively making an effort to search the area , and it is more of a passive thing . 
+   every single fighter archetype in the ua column gets relentless , so i kinda figured it 's a `` required '' thing for superiority dice characters . 
+  yeah , fair enough . 
+  and i guess it does help give that vibe that rangers are masters at endurance . 
+  now that i think about it , you should definitely not remove that . 
+  i think the biggest flaw in this viewpoint , though , is that even the lowliest of imps , and even most mere cambions , is described as lawful evil . 
+  i doubt anyone would dispute that . 
+  but they will happily scheme and plot against their superiors ( or even better -- their equals , in order to get promoted by their superiors and have their current equals demoted ) , and fundamentally they are * extremely * selfish : far more interested in improving their own lot in life than in preserving the hierarchy of baator . 
+  the biggest defining thing that makes a devil lawful * is * its personal code , though some aspects of that code are more an innate trait within them that they physically can not break . 
+  the fact that they will never lie , for example . 
+  and , in general , a devil will always respect the hierarchy , even as he works to advance within it , and will follow the orders given by a superior , whether out of self-interest or something else . 
+  i definitely see where you 're coming from , and i think the personal code is far less important than their actual actions , but i do think it 's at least worth paying attention to . 
+   we all know that the post voting bbq is the best party involved in any election, 
+  hear , hear !, 
+  setting up computers could certainly be done , but would probably require much the same technology we have today for avoiding double voting , i.e. , the big books where they cross your name off , and check at the end that no names were used twice . 
+  the issue is , at least with the solution my group came up with for our assignment , this would require going all-in on that technology . 
+  the means we came up with for ensuring anonymity and preventing double-votes involved something called blind signatures , but it would mean voters have to register to vote * each election * by proving their id ( the same way you already do the first time you register ) and then sending a token off to be blindly signed , and then send that token to them along with your vote . 
+  imagine it as if you put a random number on some paper inside an envelope lined with carbon paper , and mailed it to the aec when you register to vote . 
+  first they check that you have n't already registered , then they stamp your envelope ( without opening it -- it 's not even possible for them to open it ) and mail it back to you . 
+  their stamp is unable to be forged . 
+  then , come election day , you take your random number out of the envelope , and staple that to your ballot paper when you put it in the polling booth . 
+  any number that does n't have the carbon paper stamp on it is invalid , and if the same number gets sent in twice ( for example , you produced a perfect photocopy of the paper that got sent back to you ) , it is similarly rejected . 
+  there is a technical equivalent to this whole process , and that 's basically what we did . 
+  the problem with merging this with public computers is having a way to manage the storage of these ids between when they are signed ( at the time of registering ) and when they are sent for the vote ( on election day ) . 
+  the problem is that if you did that , they can easily tell that you did n't vote twice * using that token * , but there 's nothing from stopping you from also showing up at one of the in-person booths and getting your named crossed off , allowing you two votes . 
+  this system only ensures that nobody got two votes using these randomly generated ids , but it has no way of associating that id with the person ( since it was inside an envelope at the time it got stamped/signed ) , so the person could easily show up and also vote in-person . 
+  now that i 've written all that , i * can * think of a possible solution to the problem i mentioned above , but i have n't thought about it as much as the one that would require everyone keeping their id , so there 's a much higher chance of there being flaws in it . 
+  if , when you registered to vote , you could specify * ahead * of time whether you would be voting in person , or sending them an id to be signed , that could lock you in to doing one or the other , and you would be unable to do both . 
+  incidentally , either way , a person could theoretically track their vote and see that it was counted correctly . 
+  in addition to this random id that you got assigned , you have an `` ethereum account '' , which is * also * a randomly generated number . 
+  this is public , but anonymous . 
+  the ethereum account is the thing that actually publicly represents the vote , while the signed id is for ensuring each person can only register to vote once , but that their vote will still be anonymous . 
+  the in-person voting booth could be programmed to randomly create a new account for each citizen who votes at it , just like the application for people voting at home would randomly create an ethereum account for each person who votes . 
+  a person at home has an app that can automatically keep track of it , but a person voting at a polling place could take a photo or write down the account that was randomly generated for them , and check it at a later date . 
+  i hope that was all clear . 
+  i have a tendency to ramble , and without diagrams or even hand gestures this can get a lot more complicated than it otherwise would be . 
+  if there 's anything unclear , let me know and i 'd be glad to try and make things easier to understand . 
+  do n't need to vote them all though , only need to go up to 6 . 
+  in practice , numbering either up to 6 , or up until you reach labor or the lnp , whichever is larger , is easily sufficient . 
+  wait a minute . 
+  the australian progressives are a * real party * ? 
+  i thought they were only a group created for model parliament , from people who wanted progressive policies but did n't want to be associated with the greens ... 
+  what he * really * dropped was one of these : \\ \\ . 
+  he remembered two backslashes so one could escape the other , but neglected the third , needed to escape the underscore ( to prevent the underscore from resulting in an italicised face ) . 
+  due to the nature of this weapon and the way it loads ammunition , you may fire a number of times equal to the number in the brackets ( minimum of 1 ) before requiring an action to reload, 
+  so , for clarification , this * still * does n't allow firing more than the normal amount per turn ( once , unless you have extra attack ) . 
+  and if that 's the intended behaviour ( i * think * it is , but i 'm not completely sure ) , i 'm guessing the difference between this and '' * reloading * '' from the dmg is that you very much * want * this to require a full action to reload , rather than being able to use a bonus action * or * an action ? 
+  whenever you have advantage on a melee attack roll you make with the weapon and hit , you can attempt to knock a held item from your targets hand if the lower of the two rolls also hits . 
+  the target must make a dexterity save ( dc 8 + proficiency + strength ) or be drop a held item of your choice . 
+  it lands at their feet . 
+  i * really * like this . 
+  i dislike the default `` disarming '' option in the dmg ( in the way it can optionally be allowed for * any * character ) just because it 's way too easy to cheese with it . 
+  but if someone chooses a weapon specifically for its capacity to disarm , that 's awesome !, 
+  having the ability to do things like trip/kinda grapple might also be worth considering ( actually , come to think of it , because i ** do ** like the feats , i may come up with a feat similar to those from the ua article specifically for whips ) . 
+   shurikens, 
+  the way this is currently worded , i still do not really see anything that allows you to fire a bunch in one turn . 
+  in fact , fast-firing currently does n't really seem to * do * anything . 
+  it lets you hold a bunch in one hand while attacking with the other , but it does n't actually help you much . 
+  making it 2d2 is also * really * weird . 
+  d2s are not a standard rpg die , and there really is n't * much * difference between 2d2 and 1d4 . 
+  2d2 will get 3 half the time , and never roll a 1 , but both have an equal chance of rolling a 2 or a 4 . 
+  i 'm not really sure what your aim is with this one . 
+  should the user be able to fire 2 per attack ? 
+  more ? 
+  or perhaps it 's only meant to make firing when you 've got extra attack easier ? 
+  the problem with that case is that it 's * already * easy to fire with a longbow or shortbow , and they do way more damage . 
+  the third possibility i can see is that perhaps you 're intending for shurikens to work similar to two-weapon fighting , where if they attack using it in this two-handed way , another attack can be made as a bonus action . 
+  or maybe you meant something else entirely . 
+  whatever the case , i feel it needs clarifying . 
+   class proficiencies, 
+  looks good to me . 
+   martial opportunist, 
+   * you gain proficiency with martial weapons, 
+   * when you make an opportunity attack with a melee weapon , you have advantage on the attack roll . 
+   * you may forgo one of your weapon attacks to gain an additional reaction useable until the beginning of your next turn,

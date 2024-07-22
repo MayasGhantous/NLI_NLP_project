@@ -1,0 +1,100 @@
+  also we are not comparing f-max but a sweetspot frequency . 
+  what might be better than comparing intel processes which have entirely different characteristics is to look at apples socs which were fabbed at those nodes . 
+  a7 - 28nm - 1,3 ghz ; a8 - 20nm 1,5 ghz , a9 - 14nm - 1,85 ghz . 
+  remember 3 things :, 
+  1 ) this is gcn 4.0 with ipc improvements - for example it has geometry discard unit which automatically discards rendering things the player can not see ( such as the famous crysis water teselation ) - this alone will gain serious performance benefits . 
+  2 ) this could actually be salvaged card with disabled units and not the full chip . 
+  3 ) this is finfet meaning we are likely to see higher clocks than on 28nm . 
+  even if this is final spec - it means that it has 18 % less stream processors than 390x - i am expecting it will easily get more than 18 % performance just from architecture and process improvements . 
+  so i would expect this card between 390x and fury levels . 
+  also it was n't the same test :-) the general benchmark could include more heavy areas where you would get drops where as amd just showed a quick bit of gameplay . 
+  agree that the apple example is n't perfect - its the best we have right now however - not much else was fabbed at samsungs process that can be easily compared . 
+   that does n't mean you can clock the chips themselves any higher . 
+  it just means that higer clockspeed is one advantage that is possible to use when you produce a more power efficient and cooler chip . 
+  partially agree . 
+  its always a tradeoff between power efficiency and frequency . 
+  however frequency vs voltage vs power consumption is not linear curve and different processes have different power curves . 
+  meaning the sweetspot will propably be not in the same place as it is now . 
+  and finfets do atleast to what i 've read so far have better parametres than planar silicon . 
+  or eli - if i up the clockspeed 5 % on 28nm chip at x clockspeed it will require 15 % more power . 
+  where as at 14nm it might only require 10 % more power . 
+  gcn 4.0 is what amd calls it . 
+  you can call it whatever you want . 
+  doesnt make you right though . 
+  3 ) there is not much data on 14nm yet - however we have atleast marketing talk from tsmc 16nm . 
+  `` comparing with 20soc technology , 16ff + provides extra 40 % higher speed and 60 % power saving . '', 
+  `` tsmc 's 20nm process technology can provide 30 percent higher speed , 1.9 times the density , or 25 percent less power than its 28nm technology . '', 
+  so yeah i think its safe to say that the cards can be run at higher clocks . 
+  if amd doesnt release them like that then board partners will . 
+  yeah that is the possibility - amd releasing their lineup `` underclocked '' . 
+  however that doesnt stop oems from making `` crazy oc edition '' - if the performance is there surely people will be lining up to buy it . 
+  gcn 1.2 was how the tech press called it . 
+  not amd . 
+  390x has 2816 shaders - this supposed card 2304 that means 18 % difference . 
+  nothing big . 
+  i am expecting + - 10 % more performance from architecture tweaks and + - 15 % -20 % more performance from higher clocks . 
+  meaning it would still be able to run at lot lower tdp while performing better than 390x - small die = cheap . 
+  amd 's track record is actually pretty damn good when it comes to gpu node shrinks . 
+  anyway we have already seen polaris 10 doing hitman @ultra at 60fps . 
+  + we have raja koduri saying that with polaris they are bringing vr at cheaper price . 
+  i am pretty optimistic about this gpu . 
+  as i said i am expecting between 390x and fury - closer to 390x . 
+  basically the old and good the x80 perf tier becomes x70 . 
+  especially in the newest titles you can almost always see stuff like older sandy bridge i7 beating new i5s because ht despite lower ipc and clockspeed . 
+  faster in st ? 
+  propably not . 
+  but 2016/2017 is finally a good time for `` moar coars '' strategy to shine :-) in almost all the new games you see old sandy bridge i7 beating new i5s despite lower ipc and clockspeed - all that thanks to ht . 
+  i can see 4core 8thread zen competing with i5 ,, 
+  6core/12thread zen competing with 4/8 i7 and 8/16 zen competing with 6/12 i7 . 
+  i would be pretty interested to see a similar review - comparing intel `` apu '' with similarly priced amd apu in like photoshop or premiere ( or corel or similar programs ) . 
+  sure its not a professional use ... 
+  but many home users with budget pcs edit photos , home videos and similar basic work . 
+  damn that guy is an adept for a darwin award ... `` hmm let me pick a house that i will break into today - hmm this one says we do n't dial 911 and has a gun pictured there - hmm this seems like a good one . '', 
+  do you realize that igpu takes up more die size than the actual cpu cores + cache in intels 6700k cpu ? 
+  summit ridge is rumoured to have no igpu . 
+  do the math . 
+   `` i do , but gpus naturally have better yields , since in their case a faulty transistor is a faulty block , not a dead 300 million transistor core . '', 
+  you act like binning doesnt happen in a cpu world . 
+  if the yields are low then amd will just sell cpus with disabled broken cores . 
+  i am not that old but i can easily remember the phenom ii lineup . 
+  there were faulty six-core dies sold as quad-cores . 
+  faulty quad-core dies sold as triple-core and dual-core and faulty dual-core dies sold as single core . 
+  the actual dies that are too faulty to be sellable at all likely make up a very small percentage . 
+  i do n't know how zen will be priced . 
+  i know though that it will be priced to compete . 
+  amd will likely not get such huge margins like intel but that never happened anyway . 
+  its not like intel is on the brink of bankrupcy and if it would sell cpus at slightly lower margin it would go under . 
+   and you act like low yields do n't increase costs . 
+  not really , i am just saying that it is n't really all that much different from gpus as you claimed . 
+   amd can , however . 
+  i do n't expect amd to sell at lower margin than what they are selling . 
+  i expect them to sell at lower margin than intel is selling - meaning massivelly bigger margin than they are currently selling . 
+  there is a big window where they can underbid intel and still enjoy healthy profit . 
+  gta chinatown wars . 
+  i looked at the 29 aswell however i would be losing about 1cm worth of vertical space which i am scared about . 
+  damn why cant they make 30 '' / 31 '' 2560x1080p that would 've been gold :-(, 
+  hope you are trolling :-) women are statistically lot more likely to be leftists . 
+  atlas shrugged ladies and gentlemen ... its here . 
+  `` now , wait !, 
+  wait !, 
+  do n't go to extremes . 
+  there 's always a middle ground . '', 
+  `` we have to be pragmatic '', 
+  the harpy is out of mereen now ... oh wait you mean the other harpy :-) :d, 
+  why would you put a usb type-c connection on a gpu and pay license fees instead of putting a open standard display port ? 
+  not really fury x has the same number of rops as 290x and that is why in some titles they are awfully close despite the theoretical 40 % more performance from the shaders . 
+  make it a more balanced design , tweak it for better ipc at faster hbm and faster clocks allowed by 14nm and boom you have a winned with much more perf than fury x, 
+  ddr2 ram is cheap as chips on ebay ... most of it is highdensity though which only works with amd :-(, 
+  hd7970 will be faster but consume more power and will lack some features ( freesync ) . 
+  also the card will be older . 
+  if you plan on keeping it for a short time i 'd get 7970 . 
+  if on the other hand you want to keep it then get the 380 . 
+  i would suggest you either get the 7970 and later resell it when polaris comes out or just wait for polaris . 
+  june is lowend and midend . 
+  2017 is highend . 
+  the mid-end is likely the performance levels between r9 390 and fury . 
+  season is currently running . 
+  computex maybe . 
+  definitely . 
+  the new gpus will sport considerably better perf / $ and if amd suceeds then we can expect damn good performance at lower than intels price . 
+  depends .

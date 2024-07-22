@@ -1,0 +1,100 @@
+  - `` professionals looking for guidance on the evolving science should consult literature reviews in the formal academic press . 
+  the most recent and authoritative is by peter hajek and colleagues , published in the journal addiction '' http://onlinelibrary.wiley.com/doi/10.1111/add.12659/abstract paywall ... seems its really fresh 31 jul 2014 - conclusions `` ec aerosol can contain some of the toxicants present in tobacco smoke , but at levels which are much lower . 
+  long-term health effects of ec use are unknown but compared with cigarettes , ec are likely to be much less , if at all , harmful to users or bystanders . 
+  ec are increasingly popular among smokers , but to date there is no evidence of regular use by never-smokers or by non-smoking children . 
+  ec enable some users to reduce or quit smoking . '', 
+  - and this critique of the who by farsalinos , hajek from above , etc http://onlinelibrary.wiley.com/doi/10.1111/add.12730/abstract, 
+  but , new newtype wrappers depend on this system as well ? 
+  and it did n't look that adhoc in the paper presenting the typesystem design ... 
+  lets first see if its a matter of some relatively obvious generalization to make things play nice , since we already have two good and broad usecases for having it . 
+  even at face value and theoretically speaking , he could be right in the little information he gave - even at .02 ohms , his mod would not get hot . 
+  he could have measured its resistance extremely precisely and calculated the wattage of heating the mod would be receiving if connected in series with a .02 ohm resistor , and what it would be dissipating , or even actually tested it with some kind of a slug and external power - prob something like that could be made . 
+  doubt that 's what happened , but he was only giving data on the limits of the mod , however dubious those claims certainly seem - not what kind of power source would be required to ever reach them . 
+  that nobody could or should ever come even close to it would then only strengthen his point . 
+  i 'd have called him out to prove his mod actually can have such a low voltage drop , since it sounds ridiculously implausible , not on what some other product he does n't sell can or can not handle in practical use with his device . 
+  or simply that even suggesting such a low resistance in a communication , he is promoting unsafe vaping , risking causing some even less informed guy giving it a try with the realistic equipment one can have . 
+  a quick rundown would be :, 
+  regulation : constant output , built-in safety , wider range of ( higher resistance ) coils usable to higher power , usb charging, 
+  mech : price , size , weight , simplicity , robustness, 
+  on constant output - is it important ? 
+  i do n't care . 
+  a range could span say 10w to get most capacity out . 
+  i think of it as a nice subtle reminder of my discharge state , and when to change the battery . 
+  no twidding buttons or lcd screens , just the vape since you 're vaping anyhow . 
+  but imho this is the crucial difference and how you feel on this - and its quite a personal choice , vs price and size difference you pay for that experience - determines where you should go . 
+  on safety - i use a fuse , gets me mostly there - but this practice limits performance severely as things stand . 
+  frustrated better , parallelized fuses are n't on the market , but frankly , i do n't crave much power anyhow . 
+  i do need to check if the battery 's wrapping is damaged with certain care . 
+  coil range - yeah , sure but there is no real gain here - a completely equivalent coil - heat capacity of the metal , wraps , diameter etc - can be easily built for either higher or lower resistance . 
+  but it is an extra thing to have in mind when building . 
+  on usb charging - inessential , but yeah that 's a sweet and practical thing . 
+  and its such a small circuit ... wondering, 
+  now re killing your battery :, 
+  you could overdischarge a battery with a mech , if you somehow can fail to notice a nosedive in performance . 
+  does n't seem a realistic concern . 
+  battery is ultimately giving the wattage to the regulation system the only way it can - drawing higher amperages at its natural and falling voltages mech uses directly - do n't be under an illusion that a regulated device is treating it any more kindly than a mech , at a given wattage . 
+  on the contrary , the conversion to maintain fixed wattage or voltage necessarily involves some loss , so its pulling yet wasting a fraction extra . 
+  this is important - practice the same kind of battery safety , use just as high quality cells , if you mean to use high wattage . 
+  even on fairly mild currents , say for 20-ish w , best high drain cells ( vtc5 , 25r , he2 ) outperform in terms of actual watts you get from them . 
+  on points of difference , a bit more details :, 
+  it will protect you from overdischarge though . 
+  and short , and overcurrent , overtemperature , reverse polarity ; you will be able to recharge on a usb - that seems a very practical feature - and you will get a consistent vape , rather than one falling on a slope . 
+  none of this is built in with a mech . 
+  to get a desired wattage , you need to build a coil . 
+  you should see the voltage drop curves of the battery you 're using to have a real idea of what kind of resistance you need to build to have a wattage range you desire in your use . 
+  and to see what kind of capacity you 'll get from it . 
+  just building for a wattage need n't be enough - a different coil might have less surface area , get more or less hot , take more or less time to heat up etc. 
+  all controllable variables in your build - but you have to know them . 
+  admittedly its a very limited range of things to do in order to do it as sensibly rather than rocket science - though on / r/coilporn there 's plenty of quite imaginative and involved ones too . 
+  still i would expect a good build on a regulated device can be more naive , since you do n't need to design for a fairly specific resistance . 
+  and as far as protections go , i 'm fairly dissatisfied with how it is in the world of mechs . 
+  i love fuses , they give me overcurrent , short and overtemperature protection , reverse polarity is basically not relevant with a mech - unlike electronics the thing will work just fine either way - though it does introduce an additional way to get a short - and overdischarge is really difficult to miss in use way way before its damaging - though autofire might cause it . 
+  so basically they get you to a pretty similar place , safety-wise as a regulated mod . 
+  but unfortunately nobody created a fuse afaik above 7a , which is pathetic - fine for 25sihw avg only . 
+  new crop of regulated devices goes far above - cheapish dnas 30 , and on the other had , sx350-based and other upcoming devices 50w or even 75w per battery , pretty much as far as they go . 
+  and would n't be difficult to do really . 
+  i might try making one myself , only currently i 'm not planning on going anywhere that low . 
+  how come i stumble into arguing this point repeatedly ? 
+  consider that same high resistance coil . 
+  put some parallel wires . 
+  same everything , diameter , wraps , surface area , heating if at same wattages , heat capacity of the wire etc - only way you could tell is by the duplicated leads that connect it to the posts . 
+  any desired fraction of the resistance , depending on how many wires run in parallel . 
+  and that argument goes down the drain , right ? 
+  need n't be the only way to get to the exact same effective experience at any different desired lower resistance , but certainly so equivalent to be undeniable . 
+   loops, 
+  just 2a ? 
+  pfffft, 
+  at same resistance with same wire etc ? 
+  its so late that its early here so maybe i 'm just brainfarting , but its got ta be the same length of wire coiled over a smaller or bigger diameter . 
+  since that wire follows the surface of a cylinder , presuming its tight , their surface areas should be exactly the same . 
+  volume will be smaller for a microcoil though . 
+  expanding the coldest interior of the coil . 
+  prob not cold anyhow , so worth adding . 
+  also heat flux and capacity must be the same , since its the same piece of wire . 
+  length of the coil is different , so perhaps it could have more trouble wicking to the center as much with a microcoil . 
+  not sure what else changes . 
+  yeah seems like a macroish coil should have an upper hand . 
+  uh , please do n't use so much caps , its quite annoying . 
+  and i 'd even be sympathetic to the argument but damn , this is an off-putting way to do it . 
+  nonsense - they stick around precisely because they care . 
+  take a look at jataka stories - feats buddha did in his previous lives , while still a bodhisattva . 
+  many examples of self-sacrifice in the interest of other beings . 
+  two famous violent feats of compassion :, 
+  - volunteering to be food for food to a starving tigress with cubs . 
+  - even killing a person preparing to commit mass murder , stabbing him with a spear , while incarnated as a captain of a ship where this was taking place, 
+  further , the bodhisattva ideal was often invoked as what a good ruler would strive for , buddha himself being a prince : so you had emperors styling themselves as such ; it was intimately tied to the political sphere . 
+  sure - the latter was used as an illustration of the former , in the actual social and cultural context in which it was defined and used , since that seemed easier than an attempt at actually discussing buddhist philosophy , mired in terminological idiosyncrasies . 
+  you seem to imply these examples are of bodhisattvas at odds with a proper understanding of buddhist philosophy . 
+  unless prepared to defend that conclusion with a slightly more detailed analysis thereof than boiling it down to `` not give a damn about anything of this world '' , that 's a fairly patronising conclusion . 
+  more likely , that vulgar summary is simply incorrect , if demonstrated that no such conclusions were ever actually drawn from it in the tradition . 
+  particularly given the acuteness and transparency of any such conflict , given that both compassion and detachment are on the same list of paramita , perfections of a boddhisatva . 
+  indeed if `` not giving a damn '' were a relevant gloss to buddhism , then it is impossible to even understand the first sermon - why did the buddha even decide to teach ? 
+  though suttas hardly explicitly explain any philosophical points , it is not swept under a rug to avoid ambarrasment , but acknowledged as a dilemma in the very tale of how buddha got enligtened in the first place . 
+  a tldr is - compassion is the reason ;, 
+   what is abstruse , subtle , deep , hard to see , going against the flow -- those delighting in passion , cloaked in the mass of darkness , wo n't see . 
+   as the blessed one reflected thus , his mind inclined to dwelling at ease , not to teaching the dhamma . 
+   just as one standing on a rocky crag might see people all around below , so , o wise one , with all-around vision , ascend the palace fashioned of the dhamma . 
+  free from sorrow , behold the people submerged in sorrow , oppressed by birth & aging . 
+   rise up , hero , victor in battle !, 
+  o teacher , wander without debt in the world . 
+  teach the dhamma , o blessed one : there will be those who will understand .

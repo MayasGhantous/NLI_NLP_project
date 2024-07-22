@@ -1,0 +1,100 @@
+  var thing = new myapp.thing ( ` foo ' ) ;, 
+  that way you can hide some stuff away from the external interface . 
+  because js uses prototypes rather than classes , you can even build your object prototypes inside a closure like this , and only make public those that need to be . 
+  if things grow beyond a single file , that 's pretty easy to extend your object , eg , in a second file :, 
+  myapp.otherthing = ( function ( ) {, 
+  . . whatever . . 
+  although that wo n't have access to the ` private ' stuff , so you 've got to be a little careful when chopping stuff up into files, 
+  works quite nicely . 
+  i name them like . . myapp.js , myapp.otherthing.js , and then have a bit of server support to find the files and include them in the right order ( and compress and consolidate them for deployment ), 
+  closures are great . 
+  they 're like little tiny scopes that a function carries with it , for example :, 
+  function whatever ( ) {, 
+  var foo = ` something ', 
+  the inner function ( in the settimeout call ) carries with it the scope of the outer ( `` whatever '' ) function . 
+  so the foo variable is available there . 
+  this extends to more complicated things , like :, 
+  function setupeventhandler ( element , message ) {, 
+  element.click ( function ( ) { alert ( message ) } ) / / or however one attaches events in jquery, 
+  . . which you 've probably done , but not realised what was actually going on , 
+  in the example in my first comment , the ` modifyprivatevar ` function has access to the ` someprivatevar ` variable , because of the outer ` ( function ( ) { . . } ) ( ) ` call ( all that scary-looking thing is doing is defining a function and then executing it immediately - purely to make it a closure ) . 
+  this means that ` someprivatevar ` is * completely * inaccessible outside of that outer function call . 
+  other functions defined in there can access it , but it 's entirely encapsulated so nobody can fiddle with it without using the functions you provide for the purpose . 
+  this is a good thing , it keeps your code nice and simple by hiding away the internal bits that nobody apart from you should be playing with , 
+  so why the fuck do n't they set up some referrer bypass for sites that want it ? 
+  at least for link aggregator things , digg , reddit , stumbleupon , etc. . 
+  yeah i 'm not fapping to that again . 
+  er , no , something more bizarre is happening here . 
+  get.live.com returns a cname record , which is telling the client that the domain is really '' \\*.live.com '' . 
+  as in , they 're actually using '' \\* '' as part of a hostname . 
+  there does actually appear to be a wildcard dns setup behind it , but even then there 's no reason for anyone this side of the dns server to even * see * '' \\* '' as a hostname . 
+  we use a wildcard dns record setup at $ work , from the client/user 's point of view , a wildcard record should be completely indistinguishable from a normal dns setup ( apart from the fact lots of hostnames ` work ' , of course ) . 
+  for example , here 's what a ` host ` lookup on our wildcard domain looks like ( identifiable stuff removed to protect my secret identity  ) :, 
+   host foo.whatever.com, 
+  foo.whatever.com has address x.x.x.x, 
+  foo.whatever.com mail is handled by 10 mail.whatever.com . 
+  compare that to ms 's :, 
+  get.live.com is an alias for *.live.com . 
+  *.live.com is an alias for rds.live.com.nsatc.net . 
+  rds.live.com.nsatc.net has address 65.55.24.100, 
+  looks like a fuckup to me . 
+  if that ` *.live.com ` cname record instead returned ` foo.live.com ` , the end result would be exactly the same ( ` foo.live.com ` is cnamed to ` rds.live.com.nsatc.net ` as above ) , but it would n't break horribly on some systems . 
+  wildcards work fine , as long as your dns server supports them . 
+  the client just looks up a domain and gets back a record as normal - completely oblivious to whether there 's a wildcard there or not . 
+  my money is on this being a fuckup , 
+  wildcard domains in a cname chain work fine . 
+  the problem is that the server is sending back ` *.live.com ` to the client as a canonical domain . 
+  that should n't ever happen , even with a wildcard setup the client never sees the ` * ` character in a domain name . 
+  okay and somewhere in there do you have :, 
+  something cname *.whatever.com, 
+  edit : because if so , you 're just replicating ms 's broken setup . 
+  you can change the ` * ` to any random ( valid ) string ( assuming there is actually a ` *.whatever.com ` wildcard defined ) , and it 'll work fine . 
+  after the first repeat , i just say `` dude , i 'm sorry , i think my brain has shut down . 
+  say that again , i did n't catch it '' . 
+  putting the blame on yourself is usually good enough to diffuse any awkwardness . 
+  and quite often they 'll spell . . out . . each . . syl . . la. . ble . 
+  if only to take the piss . 
+  except , then ( as now ) , that one song you heard is likely a single , which you could purchase cheaply . 
+  personally , i like albums . 
+  there are some with obvious filler tracks , but there are also some that artists have clearly poured their heart and soul into . 
+  and i feel it only right that i listen to the whole thing ( at least once or twice ) . 
+  but then i do n't really go for `` pop '' music . 
+  `` we make 9.1 cents off a song sale '', 
+  christ , really ? 
+  where 's the rest going ? 
+  i do , on comic sites , at least ( or , well , anything that 's clearly a some-dude-in-his-bedroom type site ) . 
+  if they made me laugh , i unblock ads and click one . 
+  i consider it like an upvote , 
+  `` marketing and promotion '' is code for `` cocaine , whores , and needlessly propping up a failing business model '' , right ? 
+  only problem with bath is fucking everything is uphill . 
+  they did develop one , [ perl on rails ] ( http://www.bbc.co.uk/blogs/radiolabs/2007/11/perl_on_rails.shtml ) . 
+  i am of the understanding that the iplayer site uses [ catalyst ] ( http://www.catalystframework.org ) , though . 
+  i live in oxford , man , 
+  are you saying `` entirely from perl '' in the same way someone might say `` you fashioned a car entirely from bacon and bacon-related-products ?! '', 
+  so , did he win or what ?!, 
+  do n't leave me hangin ' bro !, 
+  i got a dell monitor here ( tho not a dell box ) , does n't work . 
+  it is , in the same way that c is more complicated than asm . 
+  pretty much any form of development . 
+  i 'm working on a webapp at the moment and ( under the window i 'm using to procrastinate on reddit ) i have :, 
+  * a text editor, 
+  * two terminal windows, 
+  * two browser windows ( one with the app itself , one with some reference docs ), 
+  * a pdf reader ( some more reference material ), 
+  all of which are visible ( across two monitors ) , and all of which are required . 
+  i 've all but relegated alert ( ) s to `` something really really bad happened and i ca n't do what you asked me to do '' and confirm ( ) s to `` are you really-fucking-sure you what to perform this destructive-and-non-recoverable process '' . 
+  basically , if you 're unlucky enough to see any of the ( rare ) js popuppy things in any of my apps , it 's something you should probably read . 
+  not that anyone does , 
+  yeah i do . 
+  preferred rainbow islands or bubble bobble , to be honest , though . 
+  i got put off trying that shit by seeing it turn normal people into arrogant cunts in seconds . 
+  indeed . 
+  i once woke up with a horrible feeling of foreboding . 
+  like the feeling you get when you wake from a nightmare . 
+  i tried to switch on the light , it did n't work . 
+  i stumbled out of bed to try to switch on the main light switch in the room . 
+  it was completely black , i was n't properly awake yet but panicking , so my legs were n't working very well . 
+  finally made it to the light switch , fumbled with it ( my fingers were n't cooperating ) and eventually flicked it . 
+  it would n't work either . 
+  at this point my legs were starting to give way , and my head was spinning . 
+  i could n't see where i was and did n't want to fall .

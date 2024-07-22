@@ -1,0 +1,100 @@
+  yeah . 
+  switch to protoss and see that playing protoss is not as easy as they make it sound so maybe , just maybe they will stop complaining . 
+  oh and btw what will be done when the numbers come out ? 
+  they are gon na change the maps for the next season ? 
+  well they were gon na do that anyway . 
+  i have had games on steppes which involved no joke carriers . 
+  in masters , 
+  doing this on xel naga for example would n't be so easy . 
+  i significantly reduced the time i play when i started having less fun . 
+  the difference is that i loved the 1-2 based builds from the first year of wol . 
+  i think the game is less interesting now because most games are macro games . 
+  it is like they removed 3/4 of the game so i removed 3/4 of the time i play . 
+  you need to explore more options . 
+  proxy rax , early offensive mines + bunkers , mass reapers ... who knows maybe one of these is not as stupid as it sounds on smaller maps . 
+  now i agree that these may not work on maps like daybreak but on xel naga and metalopolis some weird strategies may turn out to be effective . 
+  well then those people will get one league up by switching . 
+  it is a win win situation , 
+  i win no matter if i win . 
+  happened to me too . 
+  debatable . 
+  we 've seen many good one base strategies with terran in the past specifically on the smaller and unorthodox maps in the map pool . 
+  now i agree that this may be true for daybreak but metalopolis and xel ` naga are quite different . 
+  let alone that everybody was scared shitless of terrans on steppes of war . 
+  both end date and season lock can be seen in the game in the current season section . 
+  i voted for constructor assignment to auto properties ( although i do n't see how getter only auto properties , auto properties initializers and constructor assignment to getter only auto properties can be considered separate features ) . 
+  i basically do what you describe except that i am not nearly as hardcore as you are . 
+  for example i do n't use null object pattern . 
+  still i found that setting sensible defaults and constructing the code to not expect null greatly reduces the amount of null checks needed . 
+  simple things like setting strings to be the empty string instead of null and collections to be enumerable.empty < t  remove like 70 % of the null checks . 
+  btw i currently define auto properties with private set but i am happy to make the code shorter and even more clearly express the immutability intention with getter only auto properties . 
+  is anybody else totally lost ? 
+  you did not express an opinion . 
+  you informed us about a decision you made without explaining why you made it . 
+  there is no way we are not hearing of mc . 
+  while he is not as good as he used to be if he trains in korea he will be at the very top again . 
+  it would make perfect sense for c # to produce a warning but since there is the issue with the legacy code they ca n't do it now . 
+  basically nobody needs that cast these days but because of pre-generics code we have to live with it . 
+  i did n't downvote you nor did i upvote the other non-opinions . 
+  i was just pointing out the flaw in your argument , 
+  it is funny that i have more fun watching someone stream an amateur 2 vs 2 tournament as a player with 0 production than i had watching wcs yesterday . 
+  i wish there was at least semi-pro 2 vs 2 scene with lan tournaments . 
+  not big price pools or anything but enough to motivate people to travel and play 2 vs 2 lan . 
+  i know i would pay money to watch . 
+  the biggest thing is that roslyn is an api . 
+  it would be used in this way even if it was not open source . 
+  this feature is not abused in java and brings more good than bad . 
+  it is not like anybody complains about it in java ( and people do complain about thing in java ), 
+  buy a real computer . 
+  it 'd better be !, 
+  they developed it for 5 years , 
+  there is no need for the mono c # compiler but in order to run . net code on non-windows platforms you need mono . 
+  you ca n't compile the . net framework to run on non-windows platforms . 
+  roslyn is not the . net framework and the . net framework is not ( fully ) open source . 
+  even if it was chances are you would have to do a lot of work to port it to other oss, 
+  maybe but currently this is not the case . 
+  let alone that porting the . net framework is a lot of work and even ms may choose to step on mono if they want to officially support linux, 
+  i did n't get the race condition either . 
+  if someone knows where the race condition is please share . 
+  as far as i understand the first part of the method is guaranteed to execute before the second part so how can that be a race condition even if they do execute on different threads ? 
+  maybe the thread is not required to write to memory and may keep the object in the cpu cache even if the method is finished ? 
+  for some reason i believe in mma . 
+  i know it is irrational . 
+  i still play quite a bit but maybe 5 to 10 times less . 
+  there were two major hits to my desire to play . 
+  one was the shift of focus towards macro and mechanics . 
+  i always enjoyed strategies , mind-games and decision making and i actually despise the need for mechanics ( although i love the real time nature of the game and realize that mechanics will always be a thing in real time games ) . 
+  when the community and tournaments pushed towards the aspects that i dislike and away from the aspects i liked i reduced my time playing proportionally . 
+  all this happened through changes in the maps and some balance changes . 
+  i would love to see the wol launch map pool return . 
+  the second significant hit was when they tweaked masters . 
+  most of the time i hovered between the top 2 and 3 % of players . 
+  when they changed masters to be strict 2 % i could n't finish the season in masters for the first time despite that objectively i played quite better and more than any other season before . 
+  that was a huge psychological hit for me and i did not play for 2 seasons . 
+  i still do n't get why they needed to do that . 
+  yes , maybe masters is more meaningful now but did they win players or get players to play more that way ? 
+  i doubt it . 
+  if they wanted a super elite league they should have introduced one from the top and not demote and demotivate everyone . 
+  you only want to catch exceptions you can handle and let the others go . 
+  currently you can filter based on the type of the exception but maybe you need to filter on some property like the message . 
+  currently you can do that by catching , checking and rethrowing . 
+  when i asked the devs why this feature was needed i was told that in case of rethrowing the crash dump is changed so investigating becomes harder . 
+  rethrowing is also slower since it involves additional catching . 
+  edit : sorry i was mistaken it was actually crash dump not memory dump . 
+  they did not do it because of the performance . 
+  they did it for the crash dump thing . 
+  while this would preserve the stacktrace ( and the exception object ) it would not result in identical crash dumps - https://roslyn.codeplex.com/discussions/541301 see angocke 's comment . 
+  sorry i was wrong . 
+  it was not about the memory dump but about the crash dump ( not really the same thing ) . 
+  also . net devs do memory dumps sometimes . 
+  well ... to begin with in the first case you do n't swallow the exception for saturday like you are helly the php developer - https://bugs.php.net/bug.php?id=32100, 
+  i love this change . 
+  every worker created should be a decision and a tough choice . 
+  less workers means each worker matters more . 
+  well you had to look at one , 
+  i do n't bitch and every matchup should be like this . 
+  the zvz has very volatile micro . 
+  one baneling can win or lose the game . 
+  similar but less strong arguments are valid for roach vs roach and muta vs muta . 
+  because otherwise you would be able to be # 1 on ladder and know only one matchup which is kind of unfair . 
+  they certainly put more micro into the game ... and less strategy .

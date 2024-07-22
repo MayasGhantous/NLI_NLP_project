@@ -1,0 +1,100 @@
+  it extends the search if the action maximizing visit count and the action maximizing action-value disagree . 
+  well they could take him on the team if they want to develop alphago further . 
+  did n't they do that with fan hui ? 
+  i presume he is n't an interesting benchmark anymore , so sedol might take such an advisory role . 
+  the hell would they do with that ? 
+  to see a cm \u00b3 of his prefrontal cortex light up like in any working memory challenging task ? 
+  no , each candidate move is evaluated by both rollouts and also by a different neural network from the one suggesting the moves - a value network . 
+  no , its not to your advantage . 
+  but if the operators had to switch right then , mid game , with a version that prob never needed to do so , i 'm thinking the best they could do is just restart with a new board position . 
+  doing it elegantly still takes a bit of coding prob , and this version of alphago does n't have it . 
+  well , `` supposed to happen '' - ofc nodoby can say that . 
+  i think the meaning behind it is how this bot jumped way above the trend of how the field of computer go was developing . 
+  they had the monte carlo tree search revolution that scaled them from kyu levels to strong amateur dan , but that kinda got stuck there for a couple of years . 
+  if you extrapolate from the trend of the revolutionary period of that technique , you could actually expect a system like the one that beat fan hui today . 
+  so i guess it returned improvement to a slightly stagnant field . 
+  but what they 're showing now is another crazy jump , far above what could be expected even that way . 
+  i mean , i 'm an optimist , and was following with great excitement when convolutional neural nets started to get applied to go . 
+  thought they could maybe scale a system like zen and crazystone to low pro levels . 
+  and that 's actually happening , with zen showing reasonable improvents in that direction . 
+  but alphago just came out of nowhere and seems to be showing superhuman abilities . 
+  it is prone to playing slack moves when convinced its definitely winning anyhow , so it kinda is trolling , 
+  well not just any ko , but still complex kos , semeai & seki were an issue to other monte carlo bots , and even other bot autors did n't know if the additional approaches used in alphago helped any with this or not . 
+  they were still getting those weaknesses even after using a policy network etc. 
+  the exact komi is necessarily integer , since there are no fractional points to be awarded in go , and the meaning of the theoretically perfect komi is to create a draw with perfect play . 
+  it has been calculated for tiny boards , where we can determine perfect play ( hand of god if you will ) . 
+  go on 19x19 is incredibly far from being even weakly solved , which is what knowing perfect play would imply . 
+  hell , chess is too . 
+  it was n't that long ago actually . 
+  for ex , in october 1933 , `` the game of the century '' was played between shusai and go seigen with 24h thinking time . 
+  adjournments were possible , so it was played over a period of 3 months , ending in january 1934 . 
+  and i presume it was n't the last game with such time controls . 
+  and i wonder if its true . 
+  they tried those exact numbers in the old paper too , but the gain , 28 elo was tiny . 
+  did they make it scale a bit better or did some journalist simply copy the largest number in the paper presuming that 's what was used ? 
+  but it does n't estimate territory . 
+  just winning chances ; that 's what it optimizes for , not territory . 
+  value net is trained to guess who 'll win given a board position , not by how much . 
+  idk , that took 1 day on 50 gpus for the old version . 
+  presumably then you can do it with 1 gpu in 50 days ? 
+  generating the dataset of self-play games to train the value net might be a problem though . 
+  what do you mean , 2 + years ? 
+  late 2014 is the earliest they could 've started surely , they did n't even have a move predictor before . 
+  yeah , replicating is possible far quicker than getting the result in the first place , though by someone with 0 experience with monte carlo tree search and convolutional neural nets ? 
+  i 'm skeptical . . 
+  there 's plenty of ppl who know what they 're doing trying to catch up anyhow ... 
+  yeah . 
+  though honestly , prob better to wait a few months and see how far this thing can come by then . 
+  maybe it can get to superhuman power on even more modest hw ? 
+  and even if they ca n't scale the thing much , still , there are various things to try to make neural net inference more efficient , there 's fp16 instructions in new nvidia gpus , there 's approaches to distilling the knowledge of a larger net into a smaller one , hinton wrote on that , bengio is working on making various aspects of the net binary speeding up computations etc. 
+  working on , yes . 
+  its a bit different to be able to actually demonstrate working components . 
+  and not just on perceptive fields like vision and speech recognition ; that revolution was exciting on itself but is now kinda agiven . 
+  but in relatively high cognitive tasks , like here with planning . 
+  i still wan na know how they scaled the thing beyond what they described in the old paper . 
+  that thing was at least 500 elo below what they have now . 
+  the game against fan hui was not an impressive pro game at all . 
+  and they knew it in the paper . 
+  though i thought they had a decent chance in the sedol game else they would n't have made the challenge . 
+  but this is n't a decent chance , but a massacre . 
+  uhm , no , that 's not how it works like * at all * ? 
+  value net is trained on pairs of ( board position , who won the game ) , and its task is to predict who will get to be the winner given a board position , giving the confidence of that result too . 
+  this is also mixed with the statistics from rollouts ; having played many entire games to the end and scored them for each alternative in a variation ( fast & rather dumb games really ) , at least a couple of hundereds of thousands of entire games before deciding on making a move , it looks at the statistics of how many actually end up as a win . 
+  in the old system it would just mix 50 % -50 % those two statistics for the final score of each move . 
+  anyhow , nowhere does it explicitly count territory . 
+  just started looking at it , seems promising . 
+  thought to comment on the database thing . 
+  the alphago paper , describing the old version , explicitly states that they 're not using an opening database . 
+  edit : ~ ~ because it did n't improve performance . ~ ~ unclear whether they did n't get to experimenting with one or whether it was not worth it but they do quote prior work on integrating one, 
+   alphago does not employ the all-moves-as-first 10 or rapid action-value estimation 57 heuris - tics used in the majority of monte-carlo go programs ; when using policy networks as prior knowl - edge , these biased heuristics do not appear to give any additional benefit . 
+  in addition alphago does not use progressive widening 13 , dynamic komi 58 or an opening book 59, 
+  / edit, 
+  still that means there is such a database for them to use and that they are in fact trying it out . 
+  so while it does n't sound likely , its possible that some iterations later they 'd still be trying out introducting it and it could turn out to be usefull . 
+  there 's a second , maybe more important sense of a database here - the dataset of human games it uses . 
+  moves that are unlikely to be seen in go games would tend to not be suggested by its policy network , so maybe it did train less on situations that come from such unorthodox openings . 
+  so while i do n't think sedol was making a great bet by going that way , it still makes i think much more sense than you seem to give it credit , even when knowing how alphago ( the old one at least ) works . 
+  are you sure its specifically a neural net ? 
+  wired 's article just mentioned it having used some machine learning for it . 
+   `` at the lunch prior to the match , hassabis also said that since, 
+  october , he and his team had also used machine learning techniques to, 
+  improve alphago 's ability to manage time . '', 
+  perhaps because its just false ? 
+  fan hui lost 8-2 if you count all the 10 games played , rather than just the 5 official match games . 
+  that 's how they knew the upper bound on how strong the program was . 
+   the match against fan hui was arbitrated by an impartial referee . 
+  5 formal games and 5 informal games were played with 7.5 komi , no handicap , and chinese rules . 
+  alphago won these games 5 -- 0 and 3 -- 2 respectively ( figure 6 and extended data figure 6 ) . 
+  time controls for formal games were 1 hour main time plus 3 periods of 30 seconds byoyomi . 
+  time controls for informal games were 3 periods of 30 seconds byoyomi . 
+  time controls and playing conditions were chosen by fan hui in advance of the match ; it was also agreed that the overall match outcome would be determined solely by the formal games . 
+  to approximately assess the relative rating of fan hui to computer go programs , we appended the results of all 10 games to our internal tournament results , ignoring differences in time controls . 
+  goes to show how little the non-scientific references even from supposedly reliable sources are to be trusted ... 
+  interesting ; then he 's got ta be counting the work on move predictors published in late 2014 as already being alphago . 
+  anyhow , that 's about 2dan kgs system and has been replicated in zen , ayamc and oakfoam , with the last of these making the trained model public . 
+  yeah , that be cool !, 
+  there 's a lot of stuff to probe here ; short times , long times , other opponents , teams of opponents ; i wan na see it solve some of the classic hard tsumego , some targeted tests of deep capture races etc, 
+  but most of all i 'm just dying to read their new paper !, 
+  fascinating !, 
+  could you link an example ? 
+  i 'd like to see the notation .

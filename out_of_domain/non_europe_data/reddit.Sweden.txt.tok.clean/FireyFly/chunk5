@@ -1,0 +1,100 @@
+  i saw this a few days ago in [ / r/linux ] ( / r/linux ) : http://www.reddit.com/r/linux/comments/o2u14/til_there_is_a_fantastic_foss_easy_to_use_full/, 
+  i have n't tried it , but it might be something to worth investigating . 
+  i actually did the same thing . 
+  i used to play it every day with fellow friends who went to the same league as i did . 
+  by the way , as a belated ama question , since i did n't think of any good questions when i saw your ama : what 'd be your favourite set series ? 
+  personally , i prefer the old wotc sets , and i mostly stopped playing after nintendo took over . 
+  it probably coincided with growing up and finding other hobbies as well , though , so the company change was probably not the only reason . . but i feel it got less balanced from then on . 
+  also , do you play any other tcgs ? 
+  what 's your thought about those vs. pok\u00e9mon ? 
+  try {, 
+  no types in js , you know . 
+  if you enjoyed squeak squad , you should definitely give kirby super star ultra a try . 
+  it 's probably my favourite kirby game of all time . 
+  it 's a regular kirby platformer , unlike what i 've seen of mass attack so far . 
+  i 've yet to play mass attack , but it looks promising !, 
+  edit : shameless plug for [ / r/kirby ] ( / r/kirby ) . 
+  looks like i 'm a bit late to the party , but since it has n't been mentioned yet , i 'll add * disgaea ds * . 
+  it 's a tactics rpg , similar to final fantasy tactics , but imho it 's better than ffta and definitely better than ffta2 ( which i did n't enjoy much , for some reason ) . 
+  be warned though that it contains quite a lot of grinding , though i do n't really find it repetive , unlike e.g. 
+  leveling in pok\u00e9mon or games like that . 
+  probably has to do with the more sophisticated battles compared to `` simple '' rpgs . 
+  edit : oh , and duh , the * advance wars * series . 
+  personally , i prefer advance wars : dual strike over its followup days of ruin/dark conflict . 
+  it 's also a tactics game , but it 's closer to a strategy game than an rpg . 
+  if you have n't heard about/played tactics games before , i suggest you check out some gameplay videos first . 
+  * [ disgaea ] ( http://www.youtube.com/watch?v=jyobfyzmyzy ) ( same game , different platform ), 
+  * [ advance wars ] ( http://www.youtube.com/watch?v=rslsljpx5lm ), 
+  wait , are we talking celcius ? 
+  man , 36 \u00b0 c is apparently the highest ever recorded temperature here in stockholm ... 31-49 for a typical day sounds painful . 
+  when i read that it was going to come out today i got a bit thrilled , but then i realised it was probably a noa thing , at least for now . 
+  has anyone heard anything about an eta for other regions ? 
+  i could n't even i find a list of nintendo video shows on the noe webpages ... 
+  the point is that the default movement keys map to `` hjkl '' rather than `` jkl ; '' , when the latter is the `` home position '' of the right hand ( on a us qwerty keyboard ) . 
+  because `` asdf '' and `` jkl ; '' is the `` home position '' of the left resp . 
+  the right hand ( on a us qwerty keyboard ) , where you 're meant to rest your fingers if you 're [ touch typing ] ( http://en.wikipedia.org/wiki/touch_typing ) . 
+  usually , one 's fingers automagically moves back to the home position , at least for experienced writers . 
+  edit : at least for me it feels awkward to rest the left hand on asdf and the right on hjkl , especially on my laptop where the touchpad is positioned so that it 's exactly centered if one keeps their fingers in the home position . 
+  vim has ( since 7.3 ) a `` conceal '' feature , that allows you to hide one or more characters and replace them with a single character ( or none at all ) . 
+  for instance , ` syntax match somesyntaxgroup / \\ < foo \\  / conceal cchar = % ` would hide the word `` foo '' and replace it with a single percentage character . 
+  couple this with unicode 's support for [ many neat characters ] ( http://www.fileformat.info/info/unicode/char/239b/index.htm ) , and you can write patterns to match portions of the brackets , concealing them with neater glyphs . 
+  here are a couple of links with examples of using conceal :, 
+  * [ using the conceal vim feature with latex ] ( http://b4winckler.wordpress.com/2010/08/07/using-the-conceal-vim-feature-with-latex/ ), 
+  haha wow , looks like you posted your comment a second after my explanation . 
+  bad timing !, 
+  yep , it 's a unicode trick . 
+  unicode has dedicated characters for `` top of left parenthesis '' , `` middle of left parenthesis '' and so on . 
+  check out u +239 b and its surrounding in kcharselect/gucharmap/microsoft windows charmap/other charmap utilty , and you 'll find the characters i used . 
+  i did n't ; i cheated . 
+  i match `` forward slash followed by [ - + * / ( ) 0-9a-z ] + followed by = '' for the large braces , and similarly i match `` forward slash followed by ( stuff ) followed by | followed by ( single ` number ' ) followed by backslash '' for the top of the matrix parens . 
+  since i 'll probably only use them for equation systems and ( augmented ) matrices , at least for now , i hope it wo n't matter too much . 
+  i can post the actual syntax file if you wish , but it 's not the most beautiful vimscript , so to speak ... 
+  i 'm still somewhat new to vim ( well , half a year ) , so i guess that still shines through . 
+  oh neat , i did n't know < c-v  does charcodes . 
+  actually , i have n't found any reasons to use gvim over terminal vim , so i run vim in a unicode-rxvt window . 
+  i like having easy access to shell functions , and iirc : sh did n't work well in gvim . 
+  i 'm on linux , and i use the font dejavu sans mono . 
+  i do n't know . . for regular maths stuff latex is of course superior ; it certainly looks better . 
+  but when i 'm taking notes during a lecture i want the speed and versatility of a plain text document with fixed-width font . 
+  i feel like i have full conrol over the document , and i can easily improvise when something `` odd '' , non-standard is drawn on the blackboard . 
+  it 's easier to do an ascii-art graph than mess around with tikz or whatever in latex . 
+  but yes , i agree that latex definitely looks better in the end . 
+  ... is a game in an entirely different tbs subgenre , namely a [ 4x game ] ( http://en.wikipedia.org/wiki/4x ) . 
+  strategy rpgs ( or tactical rpgs ) is a different genre ; a few examples of [ s/t ] rpg games are mentioned in the op, 
+  mind posting your . xdefaults ? 
+  i really like the terminal colours . 
+  it depends on the paradigms . 
+  in the case of js , static typing and type inference would n't really work at all , due to how objects work , and due to its prototypical oo . 
+  of course , you could argue that other paradigms are superior to those of js ' , but that 'd be a different question . 
+  ... and yes , i agree that js ' implicit globals are pretty bad . 
+  ah , the good ol' javascript coercion trick . 
+  * [ here ] ( http://eboyjr.oftn.org:8080/testing/jsobfustring/ ) 's a relevant converter that obfuscates strings in a similar fashion ( albeit with a smaller character set ) . 
+  * [ this one ] ( http://utf-8.jp/public/jjencode.html ) 's also relevant as well . 
+  also note that you can replace parens used for precedence with arrays :, 
+  ` ( x ) --  [ x ] [ + [ ] ] ` , which saves you two unnecessary characters . 
+  a few characters can be gotten with only the alphabet ` [ ] + ` ,, 
+  for instance ` u ' can be reached with ` [ [ ] [ [ ] ] + [ ] ] [ + [ ] ] [ + [ ] ] ` . 
+  i 'm not sure . 
+  one possibility is to go via the html wrapping [ string method ` link ' ] ( https://developer.mozilla.org/en/javascript/reference/global_objects/string/link ) , but that requires a ` k ' which i 'm not sure if we can reach . 
+  if ` k ' is reachable , we have the following solution :, 
+   ( [ ] [ [ ] ] + [ ] ) [ `` link '' ] ( ) [ 3 ], 
+  what strings do we know are reachable for sure ? 
+  these are the ones i can remember off the top of my head : ` undefined ' , ` nan ' , ` false ' , ` true ' , ` infinity ' , ' [ object object ] ' , ` function filter ( ) { [ native code ] } ' ( not sure on the last one , but i remember that some array method is reachable at least ) . 
+  right , constructor functions . 
+  being able to reach ` k ' would be really nice ; we should be able to reach ` object.keys ` in that case which would help a lot . 
+  how can we reach ` window ` / global scope ? 
+  oops . 
+  i have to admit i did n't check the code in your jsfiddle very thoroughly , since it contained a bit too broad an alphabet for my tastes ( for this kind of obfuscation ) . . but it seems there 's a good reason for that . 
+  :-) good work on the code , btw . 
+  using the ` function ` function is clever , but it 's a bit sad that reaching the global scope requires the currently unavailable ` h ' . . 
+  ** edit : ** jsfiddle seems to mess up my formatting a whole lot , so i went with a regular pastebin service instead . 
+  here 's a factorial function without any alphanumerics : [ linky ] ( http://paste.pocoo.org/show/542066/ ) . 
+  hm , good question . 
+  you can obviously get rid of all ` $ ` or ` _ ` by only using one of the characters for identifiers . 
+  i was going to suggest replacing ` { } ` with some other ' [ object foo ] ' , but there 's a problem with that ... to reach the constructor of something , we need the string ` constructor ' , and for that we already need an ' [ object foo ] ' ... so unfortunately i think we need to use ` { } ` , which is unfortunate since it introduces two extra characters for just one single use . 
+  all usage of the ` - ~ x ` `` increment operator '' could be replaced with ` x + !!, 
+  [ ] ` , but i think ` - ` is still needed to decrement a variable ( in our case decrementing the parameter to the factorial function ) . 
+  anyway , the ` ~ ` probably is n't necessary . 
+  that 's all i can think of ... 
+  i think the last ` = ` is necessary ( we need to bind the function to a name to be able to call it recursively , since we ca n't reach arguments.callee ) , so i do n't think inlining all the variables would reduce the character set either . 
+  ** edit : ** duh . . forgot about a kinda obvious one .

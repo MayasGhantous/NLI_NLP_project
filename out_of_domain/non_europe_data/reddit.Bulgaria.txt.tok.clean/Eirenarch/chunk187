@@ -1,0 +1,100 @@
+  are there numbers about team ladder ? 
+  we old-school players used to type / time in chat to get the current time of battle.net , 
+  will wait for windows 10 before i install this on my machines . 
+  on at least one machine i intend to do clean install of windows ( clean install of 8 + upgrade to 10 ) . 
+  on the others ... 
+  i do n't know . 
+  superstition about upgrading windows with a lot of installed software i guess . 
+  i read the github page description and honestly i have trouble understanding what this is . 
+  is it the framework that visualizes debug info in visual studio as long as the actual debugger implements certain interface ? 
+  so what platforms does this interface apply to ? 
+  . net ? 
+  all of them ? 
+  so this is new and open source as opposed to existing and open sourced just now ? 
+  i have 3 machines . 
+  planning on 1 clean and 2 upgrades . 
+  not counting my machine in the office ... fuck i have cisco vpn on that one :(, 
+  empirically the lax licenses are on the rise and gpl is becoming less popular so here is your data . 
+  successful projects these days are more likely to be non-gpl licensed . 
+  here is my position on the code of conduct - i will do and say the things i normally do and if i am reported i will not apologize and be happy to be banned from the community . 
+  i wo n't even read their code of conduct and that `` privileged '' thing is bullshit . 
+  oh boy ... now i know this bullshit exists . 
+  my reaction as soon as i saw his class `` wtf ?!? '' . 
+  really wtf was the person who wrote the expression bodied property thinking ? 
+  oh this post again . 
+  the comments even contain a link to the original reddit discussion . 
+  properties is the most important thing . 
+  good code reads like a sentence except that we mentally convert the operator hieroglyphs to words . 
+  & & means `` and '' + + means `` increment '' etc. 
+  so when you write, 
+  if ( person.age  18 ) person.identificationcard = new identificationcard ( person.name ) ;, 
+  see how it reads like a sentence : if person 's age is greater than 18 assign person a new identification card with person 's name . 
+  compare this to the java version :, 
+  if ( person.getage ( )  18 ) person.setidentificationcard ( new identificationcard ( person.getname ( ) ) ) ;, 
+  even if we ignore the fact that java code has more parenthesis than lisp code we still get far less natural sentence :, 
+  if person 's age we get is greater than 18 set the person 's identification card to a new identification card with the person 's name we get . 
+  this is why properties are great . 
+  also operator overloading is great for math and even date calculations . 
+  scala is powerful but there are more employment opportunities for c # and the pool of devs skilled with the language is much bigger . 
+  you care about the former if you are a dev and about the latter if you are the decision maker for the project . 
+  also with my admittedly very limited experience with scala and f # i somehow feel f # is superior ( especially hindley-milner type inference ), 
+  yeah but somehow . net is like the 5th best open source ecosystem after c/c + + , java , javascript and python . 
+  most decision makers make exactly that decision , do n't they ? 
+  i somehow doubt the things listed in the article exist for ruby . 
+  my impression is that the ruby ecosystem focuses on pure web stack and a bunch of web related tools like sass . 
+  . net is much wider with both desktop and mobile tools and some high scalability ones . 
+  i think . net handles this reasonably well with conventions . 
+  everyone with more than a month professional experience with . net knows that if it is pascalcase it is a property and not a field and knows that it may have side effects . 
+  no need to invent new syntax . 
+  in . net you can do it but it is against all conventions . 
+  i have seen a couple of readonly fields exposed publicly in the framework ( as if they are constants ) but this is quite rare . 
+  the motivation ( probably written in the dumb book ) is that you set a contract via your public interface . 
+  if you have a field and later decide that this field should perform validation or some computation and turn it into property you break all your clients . 
+  therefore we write everything as a property in advance . 
+  that 's not it . 
+  it is all about the contract ( including binary contract ) . 
+  the syntax is the same just to be consistent ( every member is accessed with dot ), 
+  the situation was worse for java before it got generics . 
+  casts everywhere - more parenthesis , 
+  we are assuming that they used to break when it was not validated just worse . 
+  even then i can think of examples where clients will not break like for example adding logging . 
+   the java version reads fine to me . 
+  maybe i just read a lot of java ? 
+  that 's probably it  now i do not claim that java is unreadable just that properties provide noticeable improvement in readability . 
+   in c # are property behaviors always specified , or can they be implicit ? 
+  i do n't understand the question can you explain what you mean by implicit and specified . 
+  there are the so called auto properties that generate a backing field and direct access to it via property int age { get ; set ; }, 
+  the advantage of it being a property ( or in fact the whole public interface not having fields ) is that if later you introduce logic into the property you will not break your contract . 
+  if you change a field into a property you break the contract . 
+  note that on a source code level there is no problem since the syntax is the same but on a binary level fields and properties are different and you are still breaking the ( binary ) contract . 
+  yeah ... nothing . 
+  except writing good object oriented code with encapsulation and all that . 
+  it is not about ides it is about breaking client code . 
+  let alone that the java standard library itself is written in this style which makes your codebase inconsistent . 
+  also the fact that java lacks the tools to make it both easy to develop and easy to maintain is what makes it inferior language and precisely what we are discussing in this comment thread . 
+  now if you are in your own project you can do whatever you want but if you are writing a library even from scratch you must use getters and setters because you will not control the client code . 
+  what are you gon na do tell your users to refactor their code when you release an update ? 
+  even then as i pointed out because the libraries must do it your code will be inconsistent with the conventions of the platform you are using which is confusing . 
+  having getters and setters would certainly minimize that . 
+  what is more it should be possible to update a library without recompiling . 
+  honestly that 's bullshit argument . 
+  if we look at how frameworks and standard libraries are developed they never ever change names and there is a good reason for that . 
+  you simply do n't break your clients . 
+  now of course if you do n't have clients or know the maintainers of all your clients personally you can work around that . 
+  let alone that you do not propose fixing a mistake you propose making the mistake on purpose just because you do n't want to write a getter . 
+  in . net it is clear that the thing is a property by the pascalcase convention . 
+  it works just fine . 
+  of course you do n't know what the property code does but this is also the case with java 's access or methods . 
+  i strongly disagree . 
+  in my opinion and experience convention is enough . 
+  every . net dev with more than a month of real world experience knows properties are methods . 
+  honestly i do n't see anything else it is good for . 
+  it is extremely frustrating and/or boring to share the same unit with someone . 
+  you are either annoyed that he is spending your money or moving your units or you are bored that you do n't do anything . 
+  but they never built a shooter before . 
+  traditionally shooters are the most demanding games . 
+  transforming the results into actual c # objects is the main benefit of orms in my opinion . 
+  i used to write data access layers by hand to map the results of an sql procedure to a list < something  and this was quite a lot of work . 
+  another benefit is just adding . include ( c =  c.orders ) to load child objects as opposed to adding a join in sql and tracking the rows in the result set that represent the same object but different children in the result set in the data access layer . 
+  i consider these a serious amount of work that ef does for me . 
+  i never thought that an orm means you do n't need to learn sql .

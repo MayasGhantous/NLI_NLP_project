@@ -1,0 +1,100 @@
+  how long has your game been in production ? 
+  there are a some improvements since f1 and f2 ( beta ) . 
+  you 'll notice start to notice more as you start looking at screenshots that are provided . 
+  personally , i rely on the documentation that comes bundled in with the installs as its more up to date than online doc from my experience . 
+  this is exactly the art style that we are working with on one of our new games . 
+  totally love it . 
+  great work and congrats !, 
+  * tweets out to army of followers * , 
+  i just hopped into the doc more right now and it seems that there are some newer parts in online and some in offline . 
+  i 'm diving hard into updating our multiplayer as we speak and will be on it all day so i 'll get back to you . 
+  for the sake of good programming practice , call it at the end of what needs to start before it , or better yet , create a basic manager that fires everything in order . 
+  more importantly , getting in the habit of creating your own simple execution manager to make certain these issues never happen out of order will save you countless headaches in your scripting / programming career . 
+  to keep advice in one place , i would also advise against referring to them as ticks since there are already tick implementations and it could get confusing when looking back at your code in the future . 
+  i love the hell out of the ui system in unity , its truly awesome for supporting any resolution . 
+  short version is : attach camera to a canvas and that canvas to camera . 
+  then simply start anchoring . 
+  then you can add other ui elements ( ex pop-up menus , like pause screen ) onto other canvases set to overlay . 
+  my rule of thumb is all children to canvas need to have a rect transform on them to keep scaling proper between aspect ratios . 
+  overall , its a super robust system that you should take at least a few hours to learn ( it 'll save you a lot of time and make everything look perfect ) . 
+  check out these sample projects :, 
+  the one you 're specifically looking for is called `` networkstarter.zip '', 
+  check this out :, 
+  i 've always enjoyed 3d more and my mentality will forever be pretty simple : do what you enjoy most and you 'll never get tired of it . 
+  create a scope and roadmap . 
+  i personally recommend checking out mariadb and using the tokudb engine . 
+  mariadb is a great mysql alternative and tokudb allows you to handle mass reads / writes and i 've used it to house tens of terabytes of data with instant query result times . 
+  this ran in conjunction with umysql library and flask . 
+  to stop bottlenecks , flask ran on top of tornado for easy multiprocess handling ( dirty but there was only so much time and did n't have any performance hits ... ) . 
+  with this , i was also able to run real-time updates using socketio to real-time d3 dashboards without an issue , manage secure user specific auth , log all sessions directly to db , etl data for backups , and et cetera . 
+  i come from a heavy php background and all i can say is ... i love python . 
+  everyone starts somewhere . 
+  if you stick with it and are determined , you 'll be able to accomplish the same !, 
+  it 's the cleanest dirty fix too , 
+  i see assets as the base foundation that saves you time for what you need . 
+  a lot of older assets still work after automated conversion , you might just have to update a few simple things that have changed since the asset was released if it has n't been updated in a while . 
+  overall , i 've spent a lot of money in the asset store and i only regret about 5 % of my initial purchases , which is phenomenal imo . 
+  yup , that is worth the money on its own , 
+  you can also change the numbers past the slider limits in the ini files . 
+  i have little time to play games so this is perfect for me , 
+  my observations so far : major memory leak i kept getting after ~ 14 hours of uptime ( on two machines ) is ... gone !, 
+  oh , and noticeable overall fixes everywhere you look . 
+  way to go microsoft , y' all are kicking ass . 
+  totally a thing , but they keep standard assets project up to date , so make sure to check that out . 
+  if you did n't install it with unity , there a download link under the regular download . 
+  if you 're the type of person that prefers to follow written tutorials , i would recommend googling up a tutorial for whatever you want to learn . 
+  if you 're a type of person that learns better while listening and seeing someone teach , do the same on youtube . 
+  oh , and make sure the tutorials are for c # . 
+   there 's a ton out there !, 
+  if you get stuck , feel free to pm me !, 
+  kivy has always been my no brainer go-to with python for cross platform guis personally . 
+  unet is not bad in any way , i actually find it amazing . 
+  i 've had a chance to jump into a majority of the frameworks out there and unet is by far the easiest . 
+  sure , it had a few issues when it came out in 5.1 , but anything impactful has since been fixed and i have no issues with it . 
+  why do i say it 's the easiest ? 
+  you just drag and drop gameobjects in the editor and you 're mostly good to go . 
+  only thing missing from being `` publicly '' available is tutorials , which you can find in the [ forums ] ( http://forum.unity3d.com/forums/multiplayer-networking.26/ ) . 
+  you can run instance servers no problem and in no way do you need to use unity 's service . 
+  unity provides you with their matchmaking service in the pro edition for up to 100 users if you so choose to use it . 
+  you 're more than welcome to connect it to your own ( or another ) mm system . 
+  from my understanding from forum posts by staff and faq , you 'll be able to purchase relay and mm servers , or just make your own . 
+  this man risked everything , jaywalking is no joke . 
+  check out the unity tutorials section too . 
+  they have a whole series covering every single thing , made me happy . 
+  so useful , 
+  there 's a motion blur camera script in camera standard assets . 
+  never had to do this but i guess that could be one way to do it by setting it to only affect certain objects and only enable when those objects are enabled . 
+  put things in their respective folders . 
+  for example , if you have units , each unit goes in their own folder , along with their specialized class extension scripts , animation controllers , and et cetera . 
+  this is the right way . 
+  remember , boys and girls , $ 10/month gets you 10tb of google drive space . 
+  the system is setup to work in an authoritative environment , meaning the server controls everything that happens , unlike other models you he used . 
+  this is what all proper multiplayer games should be setup as to avoid a ton of issues , with a main focus on battling hackers and desync . 
+  take a day or two off of your project and check out the multiplayer projects on the unity multiplayer forums . 
+  become familiar with this , and then go back to your project . 
+  i thought this was free too actually . 
+  pretty sure this was on level 11 a few months back when i nabbed it . 
+  great asset , use it non stop when building on mobile to make sure everything is encrypted properly . 
+  kk , do it your way . 
+  you 're completely correct . 
+  on an even higher level , you should be using a full fledged system such as perforce for an even better solution . 
+  my reply was a more realistic one aimed at someone who has not used source control previously and is more than likely on a budget as well . 
+  in my eyes , it 's unrealistic to assume that an indie game dev who does n't use source control is going to dive in for a week to learn how to properly configure his source control and understand issues when they quickly come up when using unity . 
+  i would rather see someone zipping up their project every night and pushing it out to drive than lose 6 months of work . 
+  to take a step back , using drive for a source control solution is completely plausible . 
+  if you know what you 're doing , you can easily setup a source control solution that will store everything on drive itself . 
+  the way i run my source control is i have an asset server running on another box along with local repos , then those repos get pushed out to my private gh repos , and the contents of those drives are always getting synced out to google drive . 
+  i 'm currently diving into ai in unity and have a question for y' all since you seem like you all have done quite a bit of work with it so far . 
+  for a little background , i have over 6 years of experience dealing with process management ( in different types of work ) and asynchrony . 
+  i also have n't had a chance to sit down with a * . 
+  with that said , why would you recommend i use a * over the normal navmeshagent ? 
+  with a * aside , what are the limitations you have run into when using the navmeshagent ? 
+  * thinking out loud : if the navmeshagent is a huge issue , throw the jobs into their own threads / thread queues . 
+  i 've had really good results so far in my projects using the built in ai solution , but i have n't been at the point where i have had a few thousand units on screen being controlled by multiple players . 
+  thank you ahead of time for any answers . 
+  would love to save some time by using y' alls past experiences . 
+  +1 on it looking really awesome . 
+  keep up the great work !, 
+  what i do is i he a cache server setup on a server blade i have sitting next to me . 
+  i backup all the code to a local repo that pushes up to a github i have setup each time i push up to the local . 
+  those hard drives on the server blade also fully sync up their contents up to google drive .

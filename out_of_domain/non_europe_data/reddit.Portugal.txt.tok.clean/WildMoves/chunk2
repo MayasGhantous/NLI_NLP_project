@@ -1,0 +1,100 @@
+  a dark theme seems to be a popular request , so i 'll see what i can do ... 
+  thanks for the feedback !, 
+   a serif and a sans-serif font to choose . 
+  there is a reason why they keep serif fonts still alive - they 're much easier to [ 1 ] read . 
+  good point - i have no design experience , but that font does appears to be easier on the eyes . 
+   in ` number o latest items to keep ' : all unread + 50 read items, 
+  i 've spent a lot of time thinking about what the combination of options that would satisfy the most people . 
+  i 'm not sure if i 've succeeded , but the current implementation is already very complex as-is . 
+  for this reason , changes to those options are n't planned anytime soon ... 
+   in app background syncing / downloading ( ... ), 
+  the issue with background synchronization/processing is that it requires a lot of network data , ram memory and some heavy lifting from the cpu . 
+  this will not only make your device 's battery shorter , but it will also make it slower , more unpredictable and less stable ( especially if you have an underpowered single core device like mine ) . 
+  so what i 'm trying to focus on instead is to do speed improvements * inside * the app ... 
+  thanks , i 'm glad you like it !, 
+  thanks for the feedback !, 
+   when syncing you should have the items that are being downloaded displayed on screen as they come . 
+  currently i have 250 unread items and it has taken 3-4 minutes to download 140 items and there is still nothing showing on my screen . 
+  for people who do n't use the app every day but have a lot of feeds it would be frustrating having to wait so long every time they open it for it to finish syncing . 
+  good point . 
+  during development i found out that the synchronization could be done considerably faster ( sometimes up to 4x the speed ) if the update thread had exclusive access to the database . 
+  this is why i do n't give user access to the feeds before they are downloaded . 
+  what i think i * can * do , however , is to allow the user to browse the feeds while they are being downloaded ( the most time consuming part of the synchronization process ) . 
+  the downside is that it wo n't be possible to visualize a cover image for the item before it is fully downloaded . 
+   when viewing a list of unread items you should also include a quick swiping motion over each news item , from left to right to mark it unread . 
+  ( i 'd personally made holding down on a individual news item start a process to select multiple items so it 's more consistent with other androids apps ) . 
+  i realize this could be a problem to implement because swiping is used to transition between pages but it 's something i 'd really like to see . 
+  due to the way pages scroll ( horizontally ) , i do n't think a left/right swiping motion can be implemented without usability issues . 
+  unfortunately , different people read their feeds differently , and i chose the method i though would work the best for me . 
+  also , i 'm not sure if you noticed this , but you can mark several items as read/unread by dragging your finger up/down after marking just one ... 
+  it 's on my to do list . 
+  glad you like it !, 
+  unfortunately , implementing podcast support would require a considerable amount of work . 
+  it 's something i may consider if the app gets a lot of support ( and donations ) . 
+  it 's not part of my plans right now ... 
+   i saw there was a way to do this but i was so quick dismissing the welcome message when i started the app first that i missed the instructions and had n't figured out how . 
+  but that 's exactly why i suggested making the long press select an item instead of marking it read , so that idiots like me that do n't pay attention to instruction can use knowledge from other apps to figure things out for themselves , 
+  i think you raise a very valid point : intuitiveness is almost always a matter of familiarity . 
+  you were n't the only one that had issues with this ... in fact , someone just left me a review on the play store with pretty much the same comment . 
+  i 'll see what i can do . 
+  that makes sense :p thanks for the review !, 
+  i 'll definitely implement this feature , since it is something that even * i * personally want as well . 
+  local or online search ? 
+  yes !, 
+  dynamic layouts are planned for the future . 
+  i 'm not sure i understand - what do you mean by scheduled updates ? 
+  1 ) glad you enjoy it !, 
+  2 ) background synching needs to be in place before i can implement a widget . 
+  also , what you wrote sounds ( to me ) like a pretty nice idea . 
+  i also do n't see much appeal in reading your feeds in the home screen . 
+  3 ) i would love to , but it 's a bit hard for me because i do n't own a tablet ( [ this ] ( http://www.gsmarena.com/sony_ericsson_xperia_neo-3734.php ) is all i work with ) . 
+  of course , if anyone wants to help me afford one you can always donate ... , 
+  if you mean the link for donations , you can do it inside the app ( in the about dialog ) . 
+  i do n't use g + ... 
+   even then he has said that he is tweaking the code to streamline this . 
+  it 's streamlined in version 0.9.3 b ( which , by the way , also allows you to set the number of parallel downloads up to 20 ) . 
+  i 'm not sure there 's much else i can do to make it even faster ... 
+  2 ) is a known bug . 
+  please use any option other than `` only unread items '' while i fix it . 
+  if you include prototyping and learning the android sdk , around 3 months ( to the initial release ) . 
+   is this still actively developed, 
+  yes , some significant changes are coming over the next few weeks . 
+  that seems really cool . 
+  it does n't work on my device though , so i 'm not sure if i 'll be able to do it ... 
+  i already have this feature planned for the app . 
+  it 's actually really easy to implement , but i first need to do some more changes to the update process . 
+  same here ... :\\ it took me forever to be able to understand this . 
+  can you give me an example ? 
+  i just tried and everything seems to be working ok ... can you give me the link for the subscription ( s ) affected ? 
+  ( by the way , filters are case-insensitive . ), 
+  i just spent 6 + months working on a google reader client for android ... 
+  i saw the news just as i was preparing a new update for the app . 
+  fml :(, 
+  the app can be modified to support a different service , but i 'm not sure if i can find another cloud-based rss aggregator that 's as reliable , fast and practical as google reader . 
+  i 've also spent quite a bit of time optimizing the app to work well with reader , going as far as to make a lot of the code by hand instead of using apis . 
+  so in the end a lot of code is going down the trash if they shut down the service and ( a lot ? ), 
+  of new code will have to be created to support a different service . 
+  [ flow reader ] ( https://play.google.com/store/apps/details?id=info.ribs.rssflow ) . 
+  i 've only started using it in 2012 , so i did n't knew that . 
+  it would take a lot of the appeal of the app , since the reading lists would not be synchronized across devices . 
+  and i do n't have either the time or resources to build a web service . 
+  trust me , i would n't be bothered if i did n't think i could offer something new ... 
+  for starters , [ the app ] ( https://play.google.com/store/apps/details?id=info.ribs.rssflow ) offers filters and allows you view stuff by author , two things that i 've always wanted but could n't find anywhere . 
+  it was also built with a strong focus on ux and to work really well when offline . 
+  i made sure to optimize it as well as i could , since all similar apps tend to run a bit sluggish on my underpowered device . 
+  there were more features planned that afaik you ca n't find in any other app on the play store . 
+  [ flow reader ] ( https://play.google.com/store/apps/details?id=info.ribs.rssflow&amp;hl=en ) . 
+  unfortunately , the paid version is n't finished yet ( you can donate inside the app though ) . 
+  thanks for the feedback !, 
+  some of those points are at the core of the current `` philosophy '' behind flow reader : keeping it nice , simple and _ fast _ . 
+  glad you enjoy it !, 
+  i 've sent them an email . 
+  wait and see ... 
+  thanks for the feedback !, 
+   regarding the latter scenario , it would be great to be able to read previously downloaded articles while the new ones are being downloaded . 
+  coming on the next version . 
+   there 's a petition at [ 1 ] https://www.change.org/petitions/google-keep-google-reader-running to keep it running , but chances probably are n't good . 
+  imho , google knows very well the implications of their decision . 
+  i would be very surprised if they do n't end up pulling the plug . 
+   unfortunately i got the same message that i should wait until the update had finished . 
+  for now you can only browse them when their content is being downloaded , not when the feeds are being updated .

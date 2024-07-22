@@ -1,0 +1,100 @@
+  pruning each is the task of two separate learned neural networks . 
+  they are essentially each classical convolutional neural nets similar indeed to the ones used in computer vision in their broadest-strokes architecture ( like , networks that dominate imagenet image classification and object recognition tasks ) , but specially tuned , in the shape of their input and convolutions , and their hand-picked features for the game of go . 
+  this is certainly not a generic architecture - if anything , it is more specific than typical vision architectures - it can only see the go board , and the only colors are black , white or empty . 
+  one network is trained to predict good-looking moves that follow after a board position . 
+  this is used to prune the width of the search tree , as it prioritizes reading more deeply , frequently moves that `` look good '' . 
+  the other network is trained to predict who 's gon na win given a board position . 
+  this is used to prune the depth of the search tree . 
+  in parallel to that evaluation , monte carlo rollouts are playing out too . 
+  this is a statistical technique that uses a much dumber machine learning component , a softmax , and quite a few go-specific features , like 3x3 board positions , specific ladder solvers etc , to incredibly quickly play entire games to their end . 
+  it does n't branch trying out variations like the search tree does . 
+  it simply plays move after move to the end . 
+  playing a number of games starting with a node of the search tree gives one a statistic saying how often one wins starting with that move . 
+  final evaluation used to be a 50-50 mix of what the value network said and what this rollout statistics gave , though ofc that may or may not have changed since the paper describing alphago 's architecture was written . 
+  judging by the hardware its still using , the three basic components i quickly described should still be there . 
+  there are ofc various possible tweaks to all this , though surprisingly few turned out to be beneficial in alphago - though the remaining ones are pob rather important . 
+  you 'll note both of these tasks are quite go specific in this implementation . 
+  the system as such does n't trivially transfer to another task . 
+  anyhow , the total effect is rather human-like ; you spot , by shape and intuition , promising moves , you read variations , and some number of stones into each , you count how well the situation looks to you . 
+  however , the core principles of this approach could be widely applied . 
+  monte carlo tree search is not at all go specific . 
+  it was discovered in go , but has been applied to various other particular games ( amazons , havannah , lines of action ... ) , as well as general game playing , and more generally , any online planning tasks in complex domains , as well as in optimization tasks . 
+  and , pruning the width and depth of the search further in very complex domains is always desirable . 
+  and having two learnable approaches to doing just that is hence very promising , being transferable , with tweaks , to different problem domains . 
+  so this is why i 'm rather excited about such a hybrid deep learnining/monte carlo tree search approach as is being explored by alphago , for planing and optimisations . 
+  if you want , for executive cognitive functions of future true ai . 
+  yeah , i did n't see anything on that either . 
+  all i saw on the hardware used was a computer-go mailinglist post claiming deepmind said on some press conference that its using a similar system to the old version of alphago , and that setup is described in the original alphago paper - and even there , merely by specifying number of cores and gpus ( well maybe it says somewhere what kind of cores and gpus , would have to check ) . 
+  nothing at all on the practicalities of running it . 
+  well , even with what we 've got , given that it used ~ 1200 cores , and ~ 170 gpus in the previous config , i 'd guess not yet :-d, 
+  completely agreed . 
+  though , well one more win would be sweet , to make sure it was n't a fluke , blunder on sedol 's part etc. 
+  given the long ponder times games like go use , i could easily see realtime games with a planning component being quite difficult precisely because of being realtime . 
+  at least if they tried some tree search variation like here . 
+  think starcraft bw is the logical next frontier though . 
+  prima facie there is that , yes . 
+  though i wonder ; if the tree is already so complex , both in width and depth , that they need deep pattern recognizers both for action generation and for their evaluation , as it apparently does already for go , does it ultimately matter just how extremely badly branching the tree is ? 
+  i 'd think incomplete information and having to do these evaluations realtime are the core of the challenge of starcraft . 
+  is there a good database of top professional ( or alternatively , high amateur ) starcraft brood war games to train on ? 
+  if so , how big ? 
+  idk . 
+  just a tree search is unusable already at go anyhow . 
+  once you start biasing the width of your search by what some neural net thinks `` looks '' good/sensible , like alphago , zen etc do , i wonder if it really matters anymore what the full width of your tree is . 
+  but that 's just an ignorant fuck thinking out loud , so ... 
+  well , eugenic futures aside , your dna records are supposed to be private anyhow . 
+  and its hardly rare for traits to have a complex relationship with the underlying genes , with multiple factors and only partial inheritance etc. 
+  it would be surprising if this were n't the case actually . 
+  and if it happens it 's just not genetic , science will study that relationship with genetics and reach that conclusion regardless , and ppl will scream just as loud , even if you try to deemphasize it . 
+  hardly a crowd that 'll go to subtlety anyhow , no ? 
+  though frankly i ca n't imagine this being the case ; looked closely enough pretty much everything about who we are will have a genetic , or , just as innate , a mesurable biological component . 
+  its more a matter of developing the measurements . 
+  still i do agree with you ; there 's no reason to pre-judge science on this for the purposes of activism that may potentially backfire anyhow . 
+  i 'm just not particularly concerned about that possibility . 
+  very good point - but that means you 'll have to use a value network  the other fancy component of alphago , because already in go they found depth poses a problem , is a net that evaluates a position as being a winning or a losing one , instead and alongside the monte carlo rollouts . 
+  i think they will be a great tool , just like in chess . 
+  in the abstract , computer 's way of thinking here is rather human-like actually ; basically it sees what moves look promising ( policy network ) , reads variations starting with those moves ( tree search ) - not nearly as deeply nor as widely as do chess programs - and counts the end-points of those variations ( value network & rollouts ) to see who 's ahead in each . 
+  its a matter of finding an interface . 
+  they can analize games certainly - i have n't seen the interface but i know today 's bots like crazystone can do so ; we might also be able to use them for generating go problems ( tsumego ) ; solving many many go problems is traditionally a very big component in getting stronger , and top pros today do run out of any sufficiently challenging ones . 
+  quite decent . 
+  sedol was playing quite good this game - his play was n't criticized by other pros , mistakes that lost him this game have n't been even identified yet as they were quickly in game 1 - and yet still he lost . 
+  that 's prob demoralizing too , though presumably the guy 's a tough nut . 
+  paper 's gon na come out . 
+  already teams from other go bots are scrambling to replicate what alphago did . 
+  zen is , ayamc is ... and they 've got good policy networks already , and good mcts base to work with . 
+  ayamc 's creator was just posting on computer-go on the aproach they 're trying to recreate the value network . 
+  maybe it 's gon na take a bit but they 'll get there soon , regardless of what happens w the alphago project . 
+  oh , aga recording mentioned the player for alphago , ie the one putting the stones down and sitting across sedol is aja huang !, 
+  so that 's how he looks !, 
+  that is so appropriate , he was the author of the erica bot , has worked on monte carlo tree search ( with remi coulom i think - or at least they cooperated on erica ) since that revolution in computer go started , about a decade ago . 
+  i 've read some of his papers and many mails on the computer-go mailinglist , and now he gets to be the face of the culmination of all that work . 
+  happy for the guy , big kudos !, 
+  al je def up there . 
+  i 'll put a couple , but one would really need to dig through the computer go mailinglist to find each mention, 
+  value network thing is fresh : hiroshi is the ayamc guy - http://computer-go.org/pipermail/computer-go/2016-march/008768.html, 
+  and detlef is apparently working on something along those lines too - http://computer-go.org/pipermail/computer-go/2016-march/008769.html . 
+  he works on oakfoam . 
+  notice he 's still having problems w semeai . 
+  this is a previous mail with some experiments on that issue : http://computer-go.org/pipermail/computer-go/2016-february/008606.html, 
+  ( not super relevant but i 'm looking at the list in reverse chronological order , thought it interesting when i saw it . 
+  there 's more details in hiroshi 's mails in that month , i wo n't link more ), 
+  this was a very good net that detlef schmicker trained and made available : http://computer-go.org/pipermail/computer-go/2015-december/008324.html, 
+  he previously replicated , i think it was the oxford net from late 2014 , and this is an improved version . 
+  bit worse than alphago 's but not terribly so - last we know ( ie 5 months ago ) alphago 's policy net was getting 57 % prediction rate ; this has 54 %, 
+  here 's a mention of deep zen - mail just had this link in it so http://www.lifein19x19.com/forum/viewtopic.php?p=199532#p199532, 
+  and its last version is using a policy net - though the author does n't go into detail , unless this is a reference to some previous discussion i missed - http://computer-go.org/pipermail/computer-go/2016-january/008541.html, 
+  and ofc we all know of facebook 's work on this . 
+  think this is their latest http://arxiv.org/abs/1511.06410, 
+  and i 've seen a menton somewhere that crazystone is trying a policy net , but for the life of me i ca n't remember where or how to find that again . 
+  there was an earlier discussion , before the paper and the fan hui reveal , where hiroshi trained a policy network , and used some mixing between the network and the rollouts to better effect . 
+  aja huang from deepmind was very interested in this result , looked like he was sceptical that this made sense . 
+  maybe this is where their idea of 50 % -50 % mixing of rollouts and value network came from ? 
+  first mail on this is here :, 
+  etc , idk , you can try digging further through the mailinglist , likely i 've missed some interesting ones . 
+  btw ppl there are quite interested to see if alphago is any good in complex kos , complex semeais , sekis etc. 
+  given the weaknesses other programs had , there 's a chance a human might put alphago in such positions where it would n't play well at all . 
+  but who knows ? 
+  this should be at least 400-500elo stronger . 
+  that 's how far deepmind thought they need to go between fan hui and now , so presumably they did just that . 
+  definitely . 
+  all the tweaks they tried were tested in internal matches/robot tournament , and elo of various configurations was estimated . 
+  this is how they did it for 1.0 , and is common practice besides .

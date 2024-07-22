@@ -1,0 +1,100 @@
+  most decent , modern email clients ( eg , thunderbird ) have support for ssl encryption on imap , pop3 and smtp connections . 
+  ssh tunnels are a way more general thing to direct all sorts of usually-plaintext connections via a nicely secure ssh pipe . 
+  if you * do * want to safely check your mail from public access points , look into ssl encryption for your imap/pop3/smtp connections . 
+  you mail client should support it , and most servers can be * made * to support it . 
+  gmail supports it , i believe , if you want to use a normal mail client rather than the web interface . 
+  yeahman i 'm not necessarily condoning it , just saying that `` i panicked '' is n't really outside the realms of possibility . 
+   if you panicked at your job and did something stupid would your boss understand ? 
+  depends what i did . 
+  i have panicked and done stupid things before , they 're generally pretty understanding . 
+  but that 's what happens when you work for a startup - every problem is a new problem , 
+  anyway , that 's kinda off-topic . 
+  i 'm not condoning what she did there , it seems kinda foolish for a moderator to be moderating comments about themselves , regardless of their legitimacy . 
+  but i 'm kinda willing to buy that she `` panicked '' . 
+  using spaces is the only way i 've been able to effectively squish habits developed using 2x 1920x1200 24 '' monitors into one 1440x900 laptop screen . 
+  but i do find it 's rather disappointingly half-arsed . 
+  it seems almost deliberately hidden away , in fact . 
+  why ca n't i name each space ? 
+  why ca n't i give them different backdrops ? 
+  why ca n't i set any keyboard shortcut to switch between them ? 
+  and most importantly , where the hell is the touchpad gesture to switch spaces ?!, 
+  i 'd imagine ( and hope ) they 'll be giving it a bit of love in a future version of os x. 
+  i think it 's been blown out of proportion . 
+  and i 'm neither a moderator nor a person anyone else gives a fuck about . 
+  but i do think it 's all got a bit out of hand . 
+  not liking the way she uses the site is cool , being angry that she 's got moderator status is cool . 
+  saying so is fine too . 
+  however , i do n't think the personal attacks , insults ( some of which have been * [ very ] ( http://www.reddit.com/r/reddit.com/comments/bfi5a/oh_reddit_how_quickly_you_forget_saydrahs_ama/c0mib6a ) * nasty ) and the general `` torches and pitchforks '' attitude are acceptable . 
+  it 's not the numpad i miss so much as proper cursor keys and the block of six navigation keys above it . 
+  i really * really * struggle without them !, 
+  i 've tried a * lot * of keyboards . 
+  i own dozens of the things . 
+  at the moment though , i 'm totally sold on the new apple keyboards . 
+  bought one the day they were available ( yes , i have a bit of a weird keyboard obsession ) for my windows box even before i owned a mac . 
+  if you like shallow keys , they 're definitely the best out there . 
+  if you like traditional deeper keys , then my recommendation for a cheap , easy-to-find keyboard would be a [ saitek eclipse ii ] ( http://www.gearlog.com/images/17631.jpg ) . 
+  yes , i know it 's a slightly silly `` gamer '' keyboard , but they 're really rather nice , and you can switch the lighting off . 
+  ( the [ original ] ( http://images.planetamd64.com/guru/eclipse/eclipse.jpg ) eclipse keyboards are nicer to type on , but hard to find and uglier ) . 
+  failing that , you probably wo n't go far wrong with a mid-range logitech , i 've yet to find a bad one . 
+  yeah you can set a configurable modifier + number keys or cursor keys . 
+  but , i 'd rather save those for other things . 
+  i do mean those keys , yes . 
+  yeah , i know there are fn-shortcuts for them , but years of hardcoding their location into my fingers ' firmware leaves me a bit lost on a keyboard without them . 
+  so , disable javascript after the content has rendered . 
+  web dev toolbar will help . 
+  ... the * special * hell, 
+  genius . 
+  edit : also , princess consuela bananahammock, 
+  cat foo | filter  foo, 
+  interesting that the noob method that often gets bitched about ( for the ` unnecessary ' ` cat ` ) actually works properly for this . 
+   wc - l foo, 
+   cat foo | sort  foo, 
+   wc - l foo, 
+   wc - l foo, 
+   wc - l foo, 
+  it 's ` gnu bash , version 4.0.33 ( 0 ) - release ( amd64-portbld-freebsd7 .2 ) `, 
+  yeah i know about sort , was just the first filtery thing that popped into my head . 
+  i started with ` perl - ne ` print uc ' ` , so i do n't think it 's to do with ` sort ` . 
+  edit : odd . 
+  does n't work on my ubuntu box ( it gets truncated , i mean ) , but does on both of my freebsd boxes ( both bash 4.0 and 3.2 ) . 
+  seems to work pretty consistently on whatever i throw at it . 
+  no idea why , though . 
+  i * do * know that if you unlink the output file after opening it for reading , you can avoid clobbering the input file ( as unlink only removes the filename , the actual file is still there ) . 
+  eg ( perl , i suck at c  ) :, 
+  open my $ in , ' < ' , $ input_file ;, 
+  unlink $ output_file ;, 
+  open my $ out , '  ' , $ output_file ;, 
+  . . so maybe something along those lines , but i have no clue how those internal gubbins work , or what might be different on my freebsd boxes !, 
+  [ proton pump inhibitors ] ( http://en.wikipedia.org/wiki/proton-pump_inhibitor ) kick the shit out of antacid tablets ( well , if you have persistent indigestion/acid reflex problems ) . 
+  one every coupla days , and wave goodbye to any stomach-related evils . 
+  really ? 
+  cool !, 
+  i had similar long-term acid reflux problems , and these things ( i take omeprazole , which is similar ) are really impressively effective . 
+  to the point where i really do n't notice it any more . 
+  i hope they work out for you , dude , 
+  that 's just a long-exposure , mr i-can-tell-by-the-pixels . 
+  entirely randomly , my girlfriend is a biochemist working on platelets . 
+  you might be seeing some drugs in a few years that can inhibit platelet aggregation effectively , without affecting normal clotting or many of the other negative side-effects . 
+  from what i understand ( and that ai n't much ! ), 
+  the aggregation process is incredibly complicated , clopidogrel ( which is an excellent name , incidentally . 
+  far more fun to say than `` plavix '' , imho  ) is a pretty brute force drug , but there are loads of more interesting places the system can be interfered with without risking turning your blood to water . 
+  no fucking clue how ppis are involved though !, 
+  nah more specialised ( and more not-yet-actually-proven  ) stuff that interferes with some of the many other receptors involved . 
+  i only very vaguely understand it , but there are at least two receptors that have an inhibitory effect on the entire process , which exist to `` regulate '' the system , preventing unnecessary platelet aggregation . 
+  these inhibitory systems are far `` weaker '' , so if there 's enough stimulus for actual clotting to take place , they 'll be overwhelmed . 
+  so , as far as i understand it , the idea is to target these inhibitory receptors so that the clotting response can still override the inhibition ( meaning balancing dosages carefully is n't such an issue ) . 
+  maybe . 
+  if/when she reads this , she 'll probably berate me for getting it all wrong though , 
+  holy shit dude . 
+  is this shit not going to be a media clusterfuck by tomorrow ? 
+  that 's so much fun . 
+  ours now says `` invert paper '' . 
+  3/5 success rate , 
+  the fact that you can pipe stuff to ` ssh ` :, 
+  thing_that_produces_output | ssh box command, 
+  eg , for copying a postgres database from one box to another :, 
+  pg_dump | ssh box psql, 
+  then i realised you could go even further with it :, 
+  wtf ?!, 
+  i love the nofx cover of that !, 
+  my friends would do the same whenever anyone said `` i 've got something to say . . '',

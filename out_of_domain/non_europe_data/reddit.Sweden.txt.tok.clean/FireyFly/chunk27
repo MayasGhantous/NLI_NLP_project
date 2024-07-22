@@ -1,0 +1,100 @@
+  it 's yet to happen to me . . 
+  interesting , i 've been thinking of doing something similar to that ... 
+  i guess now i do n't need to . 
+  really cool project !, 
+  it 'd be nice with a separate game server with a specification for its api , so that other frontends could be written for it . 
+  it 'd also mean it 's possible to write an ai and have it connect . 
+  your frontend seems to use webgl ( i 'm guessing ) and caused my laptop 's cpu temperature to rise to 71 \u00b0 c , so i 'm a bit reluctant to play around with it . 
+  anyway , custom ( user-supplied ) graphs seems like it 'd be plenty of fun !, 
+  i think i 'd think `` oh , i want to change this ` camel ' to ` snake ' '' and start doing ` / ca < cr  cwsnake < esc  ` without much thinking . 
+  not saying it 's the best way , or even a good way , but i think it 's what i 'd do . 
+  all right , fair enough . 
+  i know my way around js , so feel free to ping me if you want help with the client-side part of it . 
+  there 's pertty much one `` official '' one for each country , afaik . 
+  i 'm aware of at least three different swedish ones , using places from different cities . 
+  [ look , even * one * wikipedia list did n't cut it ] ( http://en.wikipedia.org/wiki/list_of_monopoly_games#games_by_locale_or_theme ) . 
+  buy all properties , then sell weak ones to complete your stronger ones player-to-player ? 
+  that 's what i 'd do based on this chart , but then again i 'm not an economy guy . 
+  i 'm not that much more of a haskell user than you , but here 's what i 'd write :, 
+   let ` qs ` called with empty list be empty list . 
+  ( this is pattern matching here , so we 're actually saying `` if ` qs ` happens to be called with an empty list as its argument , the result should also be the empty list '' . ), 
+   let ` qs ` called with a list whose first element is ` x ` and the rest of the list is ` xs ` be ... ( again , since it 's a pattern , we 're * binding * these names here ; we 're not using any meaning of ` x ` or ` xs ` earlier in the program and matching against their value , or something like that ) . 
+   ... ( call ` qs ` on ( elements ` y ` from ` z ` [ the rest of the list ] such that ` y < x ` ) ) concatenated with ` [ x ] ` [ list of only the first element ] concatenated with ( call ` qs ` on ( elements ` y ` from ` z ` such that ` y  = x ` ) ), 
+  for list comprehensions , compare to [ set-builder notation ] ( http://en.wikipedia.org/wiki/set_builder_notation ) , used in mathematics to build one set from another . 
+  on terminology , i guess ` return ' kinda works , but it 's more of an equation really . 
+  `` let this be that . '', 
+  whether it 's a function ( a name binding taking parameters ) or just a value does n't matter much . 
+  slightly longer ( especially with the import ) , but, 
+  import data.list, 
+  qs ( x : z ) = let ( a , b ) = partition ( < x ) in qs a + + [ x ] + + qs b, 
+  is there a nice way to apply a function to both sides of a pair ? 
+  edit : ` qs ( x : z ) = q $ join ( *** ) qs $ partition ( < x ) z where q = uncurry ( \\ a b -  a + + x : b ) ` . 
+  if only there was a way to express ` \\ a b -  a + + x : b ` in terms of clever combinators . . : <, 
+  wait , what improvements are these ? 
+  the only temperature/power consumption issue i 'm aware of is occasionally after suspend/resume ( https://bbs.archlinux.org/viewtopic.php?id=150743 , https://bugzilla.kernel.org/show_bug.cgi?id=58801 ) ; is that what you 're referring to ? 
+  i think they were getting at, 
+   this is not likely since studies indicate that only 31 percent of primary care physicians do n't know left from right, 
+  haha , nice . 
+  another thing that i thought of was the [ dyadic hook of j ] ( http://www.jsoftware.com/help/learning/09.htm#04 ) , though sadly there 's no similar function in haskell . 
+  ( essentially , ` dhook f g x y = f x ( g y ) ` , which would allow us to simply write ` dhook ( + + ) ( x  ` ), 
+  [ blah , reddit did n't like my attempts at escaping backticks inside inline-code snippets . . ], 
+  maybe reading up on [ set-builder notation ] ( http://en.wikipedia.org/wiki/set_builder_notation ) will help you . 
+  it 's fairly popular for expressing sets in mathematics . 
+  oh , and also , python has it via ` [ y for y in z where y < x ] ` e.g. 
+  ( i think ; i do n't really know python so correct me if it 's wrong ) . 
+  which germanic language do you speak ? 
+  while techincally correct ( the best kind of correct ) , it 's useful to distinguish compilers targetting a high-level language similarly to how it 's useful to distinguish , say , a code pretty-printer , even though it could be seen as a compiler from a language to itself . 
+  i 'm guessing these are manual folding markers ? 
+  for vimmers , the equivalent is ` { { { ` and ` } } } ` ( ` : h fold-marker ` for more info ) . 
+  ` : h c _ ^ f ` also works . 
+  and yes , nice find , did n't know about that !, 
+  it remaps the key ` : ` in normal mode to act as if ` q : a ` was pressed . 
+  ` q : ` is `` open command-line window '' ( see ` q : ` ; the built-in help in vim is really good !, 
+  ) , ` a ` is append . 
+  oh man , awesome . 
+  some people sure are dumb . 
+  you could have a set of points on the model to test for , and categorize these as `` good '' , `` bad '' or `` neutral '' ( netural still contributes to deciding how much of it is obstructed though ) . 
+  for instance , you could put a point in the middle of the face which gives positive points ( the face is visible ) , but on the other hand you could also have a `` bad '' point somewhere in the neck to penaltise photos where the target looks away . 
+  edit : or you could to `` plain '' raycasting with a coarse ( say , 32 \u00d7 24 ) grid ( that is , not targeting specific positions ) , once on the whole scene and once with only the target in the scene , and then get a visibility ratio that way ( and also make sure that there is a surrounding box of `` no hit '' along the edges of the `` only target '' image ( to make sure that the image is n't too zoomed-in ) . 
+  i generally either use ` / foo ` ( or ` ? foo ` ) or use ` ^ ` or ` $ ` and then navigate with ` w ` / ` b ` to get to the precise location . 
+  incremental search helps a lot for frequent quick searches . 
+  ninjaedit : oh , and sometimes i use ` n | ` ( for number n ) to ballpark the column i want to reach , and then fine-tune with ` w ` / ` b ` / ` w ` / ` b ` . 
+  my browser history is a bit odd , but i switched to firefox around maybe fx6 and went with pentadactyl back then following a recommendation of a friend . 
+  later i gave luakit a try and found it neat so i stuck with it for a while , until relatively recently when i went back to firefox and this time went with vimperator . 
+  my understanding is that vimperator was forked into pentadactyl by some major contributors because of lack of activity on the project , but that vimperator has catched up as of lately . 
+  so , eh , i dunno , but i 'm happy with vimperator currently anyway . 
+  i 'd go with either of these as they are both rather featureful and both derive from the `` original '' vim-like browser plugin ( afaik ) . 
+   in cosmology , omega is the little upside down u thing, 
+  i think that is more due to the greek alphabet than cosmology . 
+  the rest is probably correct though . 
+  nice post , i like its style . 
+   guy steele is n't even dead and js scope makes him pre-emptively roll in his not-yet-occupied grave . 
+  interestingly though , steele was an editor of the first edition of ecmascript . 
+  you would 've thought he 'd complain about it if it 's so horrible . 
+  just curious , what major issues do you see with js 's ieee754-doubles-only numbers ? 
+  i find that they work all right as long as you 're not doing something very performance-intensive ( which the language was n't designed to do ) . 
+  darn , this is too hard for me . . here 's my poor attempt : http://i.imgur.com/6vclqi5.png ( yes , i know that i even cheated a bit . . ), 
+  yeah , that 's true , good point . 
+  the third one is the most readable to me , so i prefer that one . 
+  i always like it when you do n't have to mix case ( i.e. 
+  like the uppercase a in the second ) . 
+  i think you seem to have gotten the general idea with the third one , too -- try to find a way to have the word and the flipped word overlap by clever decorations ( like your a 's ) . 
+  i usually start by writing the word down in lowercase and uppercase , then flip the paper and try to imagine the letters of the word forced into the upside-down version . 
+  sometimes you get lucky and have a really nice match ( for instance , fi/y ) , which helps a lot . 
+  of course , [ there 's a list of them ] ( http://en.wikipedia.org/wiki/non-english-based_programming_languages#based_on_non-english_languages ) on wikipedia . 
+  props for using ` : ! ` and a standard filter instead of some vim-specific plugin !, 
+  i just use ` js-beautify ` ( which is actually a js prettyprinter , but as json is [ almost ] a subset of js . . ) . 
+  well , in fact , i have a wrapper shellscript ` pp ` in my ` $ path ` which prettyprints the specified file according to its type ( given by ` file -- mime-type ` or extension ) , which in turn uses ` js-beautify ` for js and json . 
+  so i just do ` : % ! pp < cr  ` , which i do n't do often enough that i 've had to bind it to anything yet . 
+  wow , how have i not heard about this ? 
+  thank you both for the tip . 
+  * top left : irc client, 
+  * bottom left : mutt ( mail client ), 
+  * top right : second irc client ( why ? 
+  maybe it 's only used for freebsd commit announcements or something . . ), 
+  * center right : just a file listing in a shell, 
+  * the rest : looks like vim, 
+  european checking in , also not impressed . 
+  nice !, 
+  i like how you use the height assignment to clear the canvas . 
+  i thought i saw an easy two-byte saving there , but that 'd have been * too * easy .

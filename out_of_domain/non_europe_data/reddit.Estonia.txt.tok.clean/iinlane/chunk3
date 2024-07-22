@@ -1,0 +1,100 @@
+  c++ amp ( google it ) is just a start , it gets better and easier . 
+  the sun for instance . 
+  supernovas . 
+  lots of stuff . 
+  if you have an array of structs than you can simply declare the struct in opencl program and access it as you would in c. 
+  the gpu programming is way bigger headache that you may think . 
+  to get anywhere near the peak performance you 'll have to worry about memory access patterns and whatnot . 
+  most of the articles on the topic of gpu acceleration of a random method report about 2 . .10 times performance increase over cpu . 
+  that 's less than 10 % of the theoretical capacity . 
+  i 'm not trying to discourage you , just stating that it 's not as easy as amd or nvidia would like you to believe . 
+  i am sure it gets easier as both gpus and programming languages evolve . 
+  defenitely worth it . 
+  i 'm not sure about photoshop or cuda , but nvidia does not support shared data contexts with opencl . 
+  i am very sceptical if there are many programs that support gpu compute on sli . 
+  i would take one gpu with as much memory as possible for compute . 
+  newton said it best : `` for every action there is an equal and opposite reaction '' . 
+  i would n't apply newtonian mechanics near black hole tho , general relativity is much more appropriate . 
+  have you noticed the machmaking does not place you with players above your skill level ? 
+  there are 10 types of people in this world , those who understand binary and those who do n't . 
+  amd cores are scalar , but nvidia cores perform vector operations . 
+  i 'm not 100 % sure about kepler tho . 
+  hes russian is pretty good too . 
+  where 's the other shoe ? 
+  i do n't think the cpu and motherboard are compatible . 
+  i would suggest using asus z87-a or z97-plus ( ordered for myself just a couple of hours ago ) . 
+  edit : the suggested motherboards do n't fit into your case . 
+  afaik the itx motherboards for haswell are not out yet . 
+  looks good for my untrained eye . 
+  i 'm not too sure about the power supply , the 550w seems lowish , but i might just work . 
+  i hope anyone else can give you a second opinion on that . 
+  gtx 295 is still a good card , not that much slower than the 660ti . 
+  i see two major problems with it :, 
+  it does not support dx11 . 
+  it has limited memory which is a problem when you use high resolutions . 
+  there 's a comparison of gpus on [ tom 's hardware ] ( http://www.tomshardware.com/reviews/gaming-graphics-card-review,3107-7.html ) . 
+  according to the `` gpu hierarchy chart '' it only makes sense to upgrade to gtx680 or better . 
+  source : i had gtx285 in sli . 
+  the latest and greatest is [ not that much faster ] ( http://www.anandtech.com/bench/product/142?vs=443 ) . 
+  if the money is issue at all i would go with the new mobo . 
+  the new model consumes less power . 
+  also the motherboards support new techs such as 6gbps sata ports or usb3 . 
+  i do n't like the monitor ; a 27 '' monitor should have resolution of 2560x1440 . 
+  for running games at that resolution you 'll need a graphics card with more memory ( 2gb should be ok ) . 
+  yes . 
+  1gb is sufficient for 1080p . 
+  also , go with 23 '' monitor for 1080p , the image quality is better that way . 
+  newegg does not ship to estonia . 
+  do you have an update on this ? 
+  i 've got hyper 212 evo cooler and it goes to 70 degrees on stock clock . 
+  what 's a good benchmark for haswell ? 
+  did you reapply the thermal paste ? 
+  did it help ? 
+  i could n't overclock my cpu ; the system was n't stable even at 4.1 ghz and 1.3 v. 
+  the prime95 ran just fine but random things such as opening applications crashed my computer . 
+  also , the temps went up , but the cooler is still cool - even the copper parts are not hot . 
+  i wonder if it 's the paste . 
+  already tried to reapply , but did not help . 
+  yes , my chip is also 4770k . 
+  my previous cpu was 2.66 ghz i7-920 , i could overclock it to 3.8 ghz on stock voltage . 
+  so 40 % overclock on air . 
+  i figured if i buy a good motherboard i would easily get 4.6 ghz from the new cpu , but so far i have n't had any luck . 
+  the new cpu is barely faster than the old one is . 
+  the big selling point was the motherboard - all the ports and buses have seen an upgrade during the 5 year period . 
+  i 'm especially happy about the 6 fan headers i have on the new mobo , the computer is virtually silent now when idle . 
+  it was quite silent before too as it has big slow fans , but now it 's something else . 
+  i 'm using asus z87-plus . 
+  not the top end but it has tons of features for a good price . 
+  i got 3.8 ghz on stock voltage and stock cooler , so it 's definitely possible ( d0 tho ) . 
+  that is one small man . 
+  i ca n't get past 4.1 :(, 
+  it 's kinda strange . 
+  i 've got pretty good cooling solution ( hyper 212evo in well ventilated case ) , but when i overclock it crashes on random actions like launching an application . 
+  i can run prime95 for extended periods , but then when i launch stream it crashes . 
+  also my motherboard comes with overclocking utility , but my computer ca n't even get through the first pass . 
+  i guess i lost the cpu lottery . 
+  my previous cpu was i7-920 which i overclocked to 3.8 ghz without raising voltage . 
+  the upgrade is barely any faster . 
+  do n't worry about me tho , i posted here to cheer you up . 
+  you did n't get the worst cpu out there . 
+  i definitely won that lottery , the old cpu was a jackpot . 
+  it lasted me 5 years and the main reason i upgraded was the motherboard - it lacked usb3 , sata3 , pcie3 , etc. 
+  did lots of science on that too - squeezed every bit of performance out of it for my project . 
+  i second to that . 
+  looking forward to replace my 570 sli for a single card that can beat it . 
+  titan is too expensive for me , heard amd will ship new cards in october . 
+  peripherals - better keyboard , mouse , monitor . . maybe gamepad or oculus rift . 
+  welcome to buildapc then , 
+  the performance is there but i personally would try to squeeze an ssd in . 
+  a 128gb one should be sufficient for op system and apps . 
+  as of monitors , i 'm a big fan of dell ultrasharp series of ips monitors . 
+  i have an u2312hm and also an u2713h . 
+  right . 
+  set the steam folder ( and other games ) to hdd and everything else to ssd . 
+  i recently upgraded my i7-920 to i7-4770k . 
+  the 920 overclocked like a beast - could hit 3.8 ghz on stock voltage . 
+  the 4770k on the other hand barely overclocks - max i got is 4.1 ghz . 
+  there 's barely any difference when i upgraded from older cpu to haswell . 
+  the old i7 was as fast as anything amd has to offer , performance is not the reason for upgrade . 
+  at least 500w power supply . 
+  the build seems balanced .

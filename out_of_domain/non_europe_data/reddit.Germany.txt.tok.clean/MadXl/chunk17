@@ -1,0 +1,100 @@
+  but i guess i have to look into normal higher quality office chairs then . 
+  i will wait till my birthday in feb. 
+  are you using the same cable and same ports ? 
+  if possible try another port on the monitor / other monitor or another cable . 
+  for one i would not recommend running your gpu without the additional power but that can just be my safety first head screaming not to brake anything . 
+  second is your windows up to date ? 
+  do you have enough space on your disk ? 
+  or better [ take a look at this guide ] ( http://www.custompcguide.net/2-methods-to-fix-nvidia-installer-failed-issue-for-geforce-video-cards/ ) and defenetly take a look at the comments in the bottom first . 
+  they are mainly windows 10 and may offer a better fix . 
+  i have just seen nvidia says to clean install the drivers again . 
+  [ for example ] ( https://forums.geforce.com/default/topic/784305/driver-install-failure-gtx-980/ ) or [ this ] ( http://www.tomshardware.co.uk/forum/id-2740176/nvidia-drivers-windows.html ), 
+  well then , just wanted to be sure on that end . 
+  ( apperently i have forgotten your `` list anything you 've done in attempt to diagnose or fix the problem . '', 
+  part while thinking . 
+  because it makes no difference between the mobo and gpu output i guess the problem has the be the mobo or cpu . 
+  not entirely sure though . 
+  while starting where there any beeps ( only if you have a mobo speaker of course ) . 
+  next we have to do the dance of wich problem may be the problem . 
+  if you still have the chance , try to rma both . 
+  if you havent done it yet , have the right boot order starting with your ssd . 
+  next what version of windows do you have . 
+  i am not entirely sure but fast boot in the bios is only for windows 8 or higher wich actually has a fast boot option somewhere wich should be activated . 
+  i doesnt really power off just safes the ram to the boot device and loads it back in on power on . 
+  i am not sure if there is ever an option to jump ahead of the bios in startup ( normally with fast boot you wont see it because it is no normal start ) . 
+  i guess that will sadly happen . 
+  * as a note for next time might be to install the drivers and everything and then go on to watercooling . 
+  well this defenetly doesnt sounds great . 
+  i have to go now but will take a look at this problem tomorrow how we can find out what could be problem further and or if we can fix it . 
+  i just said rma because most of the time if you tell your hardware seller it isnt working while you just got it , they will give you out a replacement for free . 
+  if it had nerver bootet right then it shouldnt be your fault directly . 
+  while you can experience this problems with overclocking the nearly only refer to cpu/gpu . 
+  ram wont get that hot anyway and can only get instabile if you go above what is listed on the package or if go above 1,65 v. 
+  other than that you only get benefits by doing so . 
+  i recommend it . 
+  so that was the needed fix ? 
+  or is it still not working ? 
+  you might try to download it on your own [ here ] ( http://catalog.update.microsoft.com/v7/site/search.aspx?q=kb3097617 ) but microsoft says in addition to that :, 
+  important if you install a language pack after you install this update , you must reinstall this update . 
+  therefore , we recommend that you install any language packs that you need before you install this update . 
+  for more information , see add language packs to windows . 
+  and did you tried to download the latest drive directly from [ nvidia ] ( http://www.nvidia.de/download/index.aspx?lang=en ) ? 
+  - [ 64-bit ] ( http://www.nvidia.com/download/driverresults.aspx/92218/en-us ) & [ 32-bit ] ( http://www.nvidia.com/download/driverresults.aspx/92217/en-us ), 
+  the best part is to see your build again and again and again :d, 
+  it first started in / r/pcmasterrace and it was beautiful . 
+  then / r/cablemanagement and / r/cableporn where it defenetly belongs and i went through the complete album 2 more times . 
+  it just gets better and better . 
+  to see it here in / r/battlestations and soon in / r/buildapc i guess you are done than because you have amazed everyone of my subreddits again and again and the best is you amazed me again and again . 
+  congratulations on that beauty . 
+  if you havent done it yet , dont buy windows 10 !, 
+  get windows 7 or 8 and upgrade it for free . 
+  yes maybe windows 10 is best for gaming ( preferences decicde ) but dont buy it for more money than how you could get it anyway . 
+  if you decide to go the windows 7 or 8 way , feel free to ask any questions . 
+  first , wich windows version do you use ? 
+  are all updates installed ? 
+  1 ) if you dont use the razer synapse for any options on your mouse you dont need it anyway . 
+  try to install all drivers from the web and avoide the ones from the disc . 
+  i couldnt find any intel usb 3.0 drivers on the msi mobo site . 
+  if you are using win 7 there might be the problem because windows 7 cant handle usb 3.0 on its own . 
+  check google for more information if this might be it . 
+  have you tried using your mouse on one of the usb 2.0 ports ? 
+  with restart . 
+  try reinstalling the windows driver for your mouse . 
+  2 ) realtek hd is the driver needed to work with the ports , sound blaster is a programm . 
+  if you got problems deinstall soundblaster . 
+  it sounds like it changes your output . 
+  or at least configure it . 
+  3 ) if it is 8 gb in cpu-id then programm dxdiag might be just not working ( never heard of it anyway ) . 
+  in the bios check if your ram is set to right speed . 
+  you might need to enable xmp ( or what its called ) . 
+  * so true *, 
+  because you go to nvidia afterwards anyway for me its sounds like the best would be to change the gpu and then simply deinstall everything you can find on your pc related to amd . 
+   250d mitx, 
+  it is a special case and if you have found a better fitting airflow style then i would go with that as long as nothing gets broken by it . 
+  in a normal configuration the front in back and side exhaust design ist made so the air can slowly get hotter by the storage unit , then go to the gpu wich warms it up a bit and then go out to the back where the cpu cooler pushes it to . 
+  ( or side ), 
+  i wonder why it is cooler if you have the front as outtake because then the fans have to pull in all the air through the back wich gets more dust in i guess this could be a reason why it is not the best airflow design . 
+  on the other hand if it works better for you just check in once a again and be sure it looks decent . 
+  * airflow is a complecated and most discussed topic where many people have different views because it works better for them *, 
+  or this : * steam - settings - download - change folder *, 
+  truth, 
+  is there a possibility to rma the parts left ? 
+  you probably wont have another gpu/psu there right ? 
+  any of your friends that could help out by bringing one of theirs over and test with you where the problem might come from ? 
+  you might buy a motherboard speaker if for one your mobo has the connectors and if you have the money . 
+  if the steps above arent possible then we need to take apart the build and look at the cpu if any pins are bend or not . 
+  side question : where are you from ? 
+  sadly i forgot the steps again and again but i will probably never forget to tell someone :, 
+   have you tried turning it off and back on again ? 
+  well this information is i think the most important question xd, 
+  because there is no beep , it might be the mobo or cpu ( atleast if all get enough power ) . 
+  you might try to start the pc without the hdd , ram and gpu connected ( just mobo with cpu ) . 
+  is the 4-pin cpu connector completly in ? 
+  if yes and still nothing , we have to cancel out a shortage from the case ( just in case i guess ) . 
+  put the mobo in a non transmitting surface , with the cpu and cooler on and connect the psu cables . 
+  then power on by taking a screwdriver between the power connectors . 
+  if this still doesnt help i hope it is the mobo . 
+  you might still ask the daily thread about no beep and video just for another opinion . 
+  if you need any more help i will try my best but we are allready coming to the edge of my knowledge  still i will try to google for an answer again tomorrow . 
+  its getting late here :p, 
+  i hope we can get this fixed soon .

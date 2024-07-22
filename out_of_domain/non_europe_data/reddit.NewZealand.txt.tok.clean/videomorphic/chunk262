@@ -1,0 +1,100 @@
+   thou shalt not covet . 
+  then stop fucking stealing land and filling it with dairy . 
+  give it back to maori . 
+  at least they know how to look after it . 
+   climate change has limited proof around it . 
+  remember that consensus has nothing to do with science . 
+  hahahahahahahahahahahahahahahahahahahahahahahahahahahhahahahahahahahahahahahahahahahahahahahahaha, 
+   national is more about small government so it makes perfect sense . 
+  national do n't like small government . 
+  they like incompetent government . 
+  they want to do all the same things , because it looks good , they just want to reduce taxes and do n't care if things are done poorly . 
+   as did labour in 2008 . 
+  welcome to politics ... 
+  false . 
+   i at least agree with mr. campbell that charter schools are a better solution . 
+  charter schools are simply a way to transfer government funds to private businesses . 
+  they 're corporate welfare . 
+   building consent cost is the reason that builder 's ca n't make a profit from cheap , 1 - 2 bedroom housing . 
+  auckland housing is expensive because it is growing faster than they can build . 
+  we should remember that this growth has let the rest of the country thrive . 
+  false . 
+  building supply issues and nimbyism around intensification are the issues restricting supply . 
+  the growth has not allowed anything to thrive . 
+  it 's made the country as a whole worse off . 
+   did n't they just make a goal for that like 2 weeks ago ? 
+  after spending a decade saying that ` poverty ' is a meaningless statistic they claim they want to reduce poverty . 
+  they 're lying . 
+   such a small number of people , nobody sees it as a large issue . 
+  is it sad ? 
+  yes . 
+  is it because of a national government ? 
+  i would n't put money on it . 
+  no , lots of people see it as a huge issue . 
+  national do n't , because they 're fucking cunts that only care about issues focus groups care about . 
+   true . 
+  university fees increase faster than inflation , which does n't help . 
+  some would say that being too generous with student loans , creates fiscal irresponsibility , and gives universities an incentive to charge more for fees . 
+  universities should n't be allowed to set fees and should n't have funding based on student numbers . 
+  false . 
+  we are all entitled to an equal share of everything . 
+  that 's not how the world works . 
+  yes , after 1.0 it 's far too fucking slow . 
+  he had plenty of time to interview him . 
+  it was a long interview . 
+  he did n't ` sense bullshit ' , he asked questions , interrupted during the answers and then was annoyed he did n't get the answers he asked for . 
+  good . 
+  farms use a natural resource for free . 
+  that 's not okay . 
+   if a pip bursts on a farm , the cost falls to the farmer . 
+  if a pipe bursts in an urban road , the cost falls on the council who spread it across all rate payers, 
+  if a pipe bursts * on my property * , i pay for it . 
+  if a pipe bursts * on their property * , they pay for it . 
+  part of the costs of monopolising lands that by any reasonable system would be held collectively is that you have to maintain that land . 
+   c++ unconstrained templates lead to monorphisation errors ( that is , errors are only noticed when instantiating the template ) which in turns leads to one error requiring dozens of lines of diagnostics with notes of the form `` instantiated here '' to trace though the instantiation stack . 
+  rust has big shitty error messages of its own . 
+   one of the key idea of rust generics is to avoid monorphisation errors as much as possible , and most of the discussions around const generics has been how this could be made to work . 
+  and yet you still get big error messages . 
+  maybe instead of focusing on something you think has big error messages as a symptom , you should have focused on the symptom , given you avoided monorphisation errors and still have big ugly error messages , which were what you were trying to avoid in the first place ? 
+   this c++ function , as defined , is perfectly fine . 
+  yet , it will provoke a compilation error any time it 's used . 
+  no matter what the value of n is , this function can not be instantiated successfully . 
+  right , which is why when you compile you get an error . 
+   this function is correct as long as n +1 and 1 + n compare equal . 
+  + is commutative for integers so that 's fine , but what if we were using another type instead ? 
+  or what if we were comparing 2 * n and n+n ? 
+  should we use a symbolic solver ? 
+  you instantiate it , and either you get an error or you do n't . 
+  i know you do n't like that , but them 's the breaks . 
+  although frankly , i do n't see how this is any different to say a trait with two associated types , and code that uses them interchangeably , where the two associated types happen to always be the same in the author 's test code , but could be different in an implementer 's code , in theory , but can not be due to the constraints you have to uphold when implementing the trait according to its laws . 
+  how do you handle that ? 
+  why not try out some solutions and see which works the best ? 
+  let 's say that ` w + x ` as a type is defined to unify with another type ` t ` only if ` t ` is of the form ` y + z ` and ` y ` unifies with ` w ` and ` z ` unifies with ` b ` . 
+  that is , you never solve anything and you just assume that two numbers are the same if they 're expressed the same way . 
+  ` 2 * n ` and ` n + n ` would be distinct , for an arbitrary ` n : add ` . 
+  obviously if ` n ` is an integer you can special-case this . 
+  see how this is just hypothesis ? 
+  i do n't know if this works . 
+  i 'm not going to find out if it works by discussing it . 
+  i 'm going to find out if it works by suggesting it , dealing with any obvious initial issues , then implementing it , giving it a go , trying it , and then saying ` so i implemented this , it works well for my purposes , give it a go if you like ' , then it eventually either :, 
+  not working , but giving us lessons for how to implement it better in future, 
+  partially working , and having a base to compare changes to, 
+  working , in which case it works and we 're done . 
+   that 's the non-trivial part of the discussion that has been occupying the rustaceans for a long while : where should the bar be ? 
+  how far can we get ? 
+  how good can the quality of the diagnostics be if we use this method or that one ? 
+  so implement it , then fix the diagnostics later . 
+  fuck , literally just adding the feature but only allowing primitive types ( even just starting with integers ) would be fine at first . 
+  shit like floats gets into really awful murky `` is it the compiler 's ideas of floats or the target 's ? '', 
+  shit really quickly , which you obviously get with any sort of compile-time programming - is the compiler allowed to constant-fold with floats ? 
+  genuine question , i have no idea . 
+   as for experimenting , it turns out that few people have the know-how and the willingness to invest time into hacking such complicated features in the compiler , and their plate is rather full . 
+  they just do n't have that much time to experiment to start with . 
+  they are n't really complicated features . 
+  if they 're complicated to implement then your compiler needs to be rearchitected to be easier to contribute to . 
+  i 've heard many times it 's an example of some of the worst rust code ever written , because it 's the oldest rust codebase . 
+  fix that . 
+  well yeah , because it 's a big mistake to start placing down sentries before you actually see a hero . 
+  you really do n't want to be wasting 100s of gold on sentries if riki turns up at your lane at 5min and it literally never gets used . 
+   who 's stealing land now ? 
+   why should we give it to the maori ?

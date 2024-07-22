@@ -1,0 +1,100 @@
+  admittedly its the old alphago i 'm talking about . 
+  all i know , the new one might just be the iteratively trained neural network . 
+  but the old one did n't even use it directly at all !, 
+  if you look at how it scales with more resources , its really pathetic . 
+  like everything they threw at it after the first box only gave them 1 stone of boost , and it got worse and worse the more they gave it . 
+  last doubling of hardware gave it like 25 elo points . 
+  not the first program to demonstrate this point - after a certain number of rollouts ( details dependant on the algorithm , but it used to be in the 100s of thousahds of rollouts per move ) , monte carlo tree serarch has severly diminishing returns . 
+  and to be a bit nitpicky - no , the system never actually played against itself . 
+  a network played against itself - converging in just 1 day . 
+  got to 5dan strength . 
+  decent , kinda like dolbaram , and weaker than zen or crazystone . 
+  but , they did n't end up using that network in the final program at all !, 
+  5d is n't that much to attack pro level players , and it also turned out to be worse at suggesting promising moves to investigate than the one just trained on strong human amateur games . 
+  but still , they played that decent-ish program they got with itself for a long time , think it was months , ca n't remember the paper exactly , and used the database of these games to train a positional evaluation network . 
+  like , ok we 've got this game , and we know how it ended . 
+  now take a random position from the game , and make it learn that this kind of position ends up being a loss , or a win depending of what happened . 
+  that training also did n't take much , just the creation of the dataset did . 
+  and even that component is n't most improvement - its a decent boost , but like turning it off looses about as much as turning off any of the other 2 components - the rollouts , or the move suggestion network . 
+  i do expect however this is where they made most improvements , as its the most innovative one . 
+  maybe they can play old alphago vs old alphago for generating such a database ? 
+  naive , but should give a better dataset than the 5d player . 
+  more likely they tweaked the network architecture hyperparameters ; there 's allways plenty to experiment with there . 
+  i think the fact they trained a net never to directly use it suggest they had even bigger plans for it but it did n't deliver , so perhaps they cracked the issue before this challenge of the top player ? 
+  will be fun to see what they actually did to make this either scale or just be better even on similar resources when they publish a new paper . 
+  either is amazing , as neither was really obviously possible with old alphago, 
+  you 're quoting press releases !, 
+  i did say i was being nitpicky , would you be surprised any nuance gets mangled in public pronouncements to the mass media ? 
+  go read the paper itself !, 
+  so , there was this rl network that played itself , yeah , and it was a significant contribution to the final score , sure . 
+  now , how much hardware did it use and how long did it train ? 
+   policy network : reinforcement learning we further trained the policy network by policy gradient reinforcement learning 25 , 26 ... 
+  the policy network was trained in this way for 10,000 mini-batches of 128 games , using 50 gpus , for one day . 
+  so 1 day , mere 50gpus , mere 1 280 000 games . 
+  hardly datacenters , no ? 
+  but , what was this network used for ? 
+  there are two networks in the final system , the value network and the policy network . 
+  was it the policy network ? 
+   the sl policy network p \u03c3 performed better in alphago than the stronger rl policy network p \u03c1 , presumably because humans select a diverse beam of promising moves , whereas rl optimizes for the single best move . 
+  however , the value function v \u03b8 ( s ) \u2248 v p \u03c1 ( s ) derived from the stronger rl policy network performed better in alphago than a value function v \u03b8 ( s ) \u2248 v p \u03c3 ( s ) derived from the sl policy network . 
+  ok , so it was n't the policy network , that was the sl network , the one trained on the human kgs dataset . 
+  so it was the value network , right - this says the value function derived from rl network ended up being better . 
+  so how was it derived ? 
+   we trained a value network v \u03b8 ( s ) \u2248 v p \u03c1 ( s ) to approximate the value function of the rl policy network p ... to avoid overfitting to the strongly correlated positions within games , we constructed a new data-set of uncorrelated self-play positions . 
+  this data-set consisted of over 30 million positions , each drawn from a unique game of self-play . 
+  so we have a separate value network trained for that purpose . 
+  what does the rl network 's training do ? 
+  the ** trained ** rl network played additional 30\u00a0000\u00a0000 games to create a dataset for training the value network !, 
+  from each game , one position was used only , to avoid problems they had with overfitting, 
+   the value network was trained for 50 observed rewards , \u2206 \u03b8 = m \u03b8 k = 1 \u2202 \u03b8 million mini-batches of 32 positions , using 50 gpus , for one week . 
+  hence , neither the policy network nor the value network , the two neural net components of alphago , nor alphago as a unit ever trained by playing against itself !, 
+  the policy network was trained on the human kgs dataset . 
+  the value network was trained on the rl network dataset !, 
+  neither of the two were trained by reinforcement learning , but by stochastic gradient descent . 
+  rl network ended up not even being directly used in the final system !, 
+  see :, 
+   policy network : classification ... . for each training step , we sampled a randomly selected mini-batch of m samples from the augmented kgs data-set , { s k , a k } m k = 1 and applied an asynchronous stochastic gradient descent update to maximize the log likelihood of the action , p m \u2202 log p \u03c3 ( a k | s k ) \u03b1 \u2206 \u03c3 = m . 
+  the step-size \u03b1 was initialized to 0.003 and was halved every 80 k = 1 \u2202 \u03c3 million training steps , without momentum terms , and a mini-batch size of m = 16 . 
+  and, 
+   value network : regression ... 
+  the training method was identical to sl policy network training , except that the parameter update was based on mean squared error between the predicted values and the p m k \u03b1 k k \u2202 v \u03b8 ( s ) z \u2212 v ( s ) . 
+  sry for the broken math in the copy-pastes here . 
+  anyhow , you can see the same points made when the paper came out over at r/machinelearning ... 
+  i just thought it a far simpler thing to explain to the public than techical details of the training regime . 
+  its not really a lie - after all there would be no value network w/o the self play network . 
+  but absolutely , anything is possible after the paper . 
+  that 's why i said :, 
+   admittedly its the old alphago i 'm talking about . 
+  all i know , the new one might just be the iteratively trained neural network . 
+  but the old one did n't even use it directly at all !, 
+  and furthermore i 'd expect them to have innovated precisely in this area :, 
+   i think the fact they trained a net never to directly use it suggest they had even bigger plans for it but it did n't deliver , so perhaps they cracked the issue before this challenge of the top player ? 
+  edit : interesting , he mentions using professional games here . 
+  another odd thing about what they did in the old alphago was that they never used professional games . 
+  high amateur kgs games trained the policy network , and high amateur tygem games trained the rollouts . 
+  both are popular online servers . 
+  yet there are comparably large databases of pro games they did n't even use . 
+  and why use one amateur dataset for the policy network and another for the rollouts ? 
+  why not all of that together for both ? 
+  well , wold champion ... 
+  there is no such title or official rank ; there are some global elo estimates popular in the west that used to put him on the top for like a decade , but right now he 's i think 4th there . 
+  though he just beat the 2nd player , that should boost him a bit if not yet taken into account ... 
+  no doubt a top player though . 
+  i 'm terribly excited about this !, 
+  a go icon maybe ? 
+   because what i just described - could n't crazystone or any of the other ai have done something similar ? 
+  they do n't use as much machine learning . 
+  just for the rollouts and that needs to strike a balance between speed and precision , so is usually rather local and shallow , plus its more important for it to be balanced than best . 
+  you think nobody 's cheering for alphago to win ? 
+  i 'd be surprised . 
+  there is n't anything it can learn from a sample of 1 , plus tweaking it seems dangerous . 
+  last time they measured which parameters to use by means of an internal tournament of bots . 
+  can they scramble a tournament to validate changes are beneficial in days ? 
+  sounds odd , though it is google . 
+  but even then , what can one extra day of tweaking accomplish , given that they ca n't profit from the game itself ? 
+  that 's standard komi for chinese count , no ? 
+  ca n't quote it but i 've seen it claimed it 's about the same hw actually . 
+  more like it does n't scale much beyond such hw . 
+  take a look at their scaling graph for the old version ; more boxes does n't buy them much , and progressively less and less as they add more . 
+  yeah . 
+  idk we 've seen computers lose before .

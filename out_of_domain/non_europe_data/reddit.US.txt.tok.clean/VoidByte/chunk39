@@ -1,0 +1,100 @@
+  my dog is 120 pound newfie . 
+  when i 'm out walking him i get stopped very frequently by people wanting to say `` hi '' and pet him . 
+  when they do i double tap to pause . 
+  trying to use siri to pause/play music and podcasts would be a nightmare . 
+  both the fact that i 'm talking to myself and the general difficulty of actually interacting with siri . 
+  i do n't know how apple would accomplish it but airpods need some more controls . 
+  at the very least a setting for right ear to pause/play and left ear to call siri , or something along those lines . 
+  i use them daily and love them . 
+  i still have a nice pair of proper head phones for using the desktop at home and work , but airpods are now my standard headphones for when i 'm out walking , taking the bus , or in video conferences . 
+  although with that said i have a few bugs :, 
+  * random disconnect/reconnects when on the phone . 
+  this only happens if i have both airpods in . 
+  if it is one ear it is fine . 
+  this seems to be a known issue others are experiencing . 
+  * occasionally sound will breakup . 
+  this seems to mostly be if i touch my phone while it is in my pocket . 
+  i think i have some antennae issues with my case . 
+  * mac osx connectivity sometimes just fails :(, 
+  * feature request : automatically detect when i 'm done with my mac osx ( i.e. 
+  no laptop anywhere nearby ) and reconnect to the iphone . 
+  as someone who does n't follow these things closely what is asmodee 's policy and what makes it so bad ? 
+  ahh this explains why eldritch horror ( and its expansions ) were a good $ 25 more than what it was listed at on ffg 's website . 
+  i figured it was just people marking it up because they could get away with it . 
+  depends entirely upon what you are building . 
+  general suggestions :, 
+  * ios app : obj-c and/or swift, 
+  * android : java ( or maybe kotlin i hear from android devs its quite nice but its non-standard ), 
+  * web : html , css , javascript , sql and one of the following : ruby/rails , python/django , elixir/phoenix . 
+  * data sciency web : definitely python, 
+  as for how to learn i 'm a big fan of [ exercism.io ] ( http://exercism.io/ ) it gives you coding problems along with test cases . 
+  you write some code , run the tests continue . 
+  once you get it you can submit it to the website and people can review your code and you can review other people 's solutions . 
+  it has support for a bunch of languages so your target language is likely there . 
+  you will also need docs and tutorials on how to do basic things . 
+  it will be a struggle in the beginning as you figure out what variables are , how to use a loop , when to make a function etc. 
+  but first you have to figure out how to get your environment configured and that is super dependent upon which path you go . 
+  this is going to be a struggle , things are n't going to work right and you will have to use google a lot to figure out how to fix it . 
+  if you are not going the java or obj-c/swift path i 'd recommend using an editor like [ visual studio code ] ( https://code.visualstudio.com/ ) or [ notepad + + ] ( https://notepad-plus-plus.org/ ) . 
+  they are free , powerful , but have a lower learning curve and wo n't get in your way when you start . 
+  if someone recommends you learn vim or emacs tell them to fuck off . 
+  both are amazing editors with lots and lots of power , but they have a reputation for a reason . 
+  their [ learning curve ] ( https://github.com/the-bioinformatics-group/learning_unix/wiki/text-editors ) is notorious and you really do n't need the extra difficulty . 
+  the netherlands is pretty interesting in this regard . 
+  their `` capital '' is in amsterdam but just about everything related to the government beyond where the king is crowned is in the hague . 
+  i personally think of it as a split of their capital of state and their capital of government . 
+  similar to a head of state ( king ) vs a head of government ( prime minister ) . 
+  its growing on me quickly . 
+  i 'm a software developer and a long time vim user ( going on 13 years ) . 
+  so i guess i should first address that . 
+  i 've long long mapped ` capslock ` as ` ctrl ` and then used ` ctrl + [ ` , which is the actual escape code for the ` esc ` key . 
+  this means the touch bar never impacted my use of vim . 
+  as far as the rest of it goes once i figured out how to modify the touchbar and remove the siri button it was super nice . 
+  oh and i disabled typing suggestions on it . 
+  it really drove me nuts seeing the touch bar changing out of the corner of my eyes as i was typing . 
+  it detects if you are listening to music and gives you nice controls for that . 
+  the slider for changing brightness and volume is super nice as well . 
+  i ca n't wait to see how developers start to take advantage of it going forward . 
+  you can remove siri from the touch bar . 
+  go to the keyboard settings and there should be a button that lets you modify what buttons appear by default on the touchbar . 
+  yes , but who uses caps lock ? 
+  i have n't had it enabled on my computers going on 10 years . 
+  it makes a way more useful ctrl key . 
+  no there is a touchbar modification menu in the system preference keyboard menu . 
+  also there are app specific touchbar modification menus like in safari . 
+  i 'm on the wrong computer so i ca n't check , but i believe i replaced siri with the brightness slider button . 
+  accidently pressing it does n't matter , it just brings the slider up . 
+  ## work, 
+  computer :, 
+  * mid-2014 15 '' retina mbp ( due for an upgrade but laziness wins ), 
+  * 1tb ssd, 
+  * thunderbolt display, 
+  * dell 27 '', 
+  * [ sennheiser hd 8 dj headphones ] ( http://a.co/asrxl3z ), 
+  tools :, 
+  * iterm2, 
+  ## home, 
+  computer :, 
+  * mbp 15 '' touchbar, 
+  * 512 tb ssd, 
+  tools :, 
+  * iterm2, 
+  * rust, 
+  ## other tools, 
+  * [ 1password ] ( https://1password.com/ ) < -- ** this is a must **, 
+  * [ dash ] ( https://kapeli.com/dash ) : quick doc searching, 
+  * [ ripgrep ] ( https://github.com/burntsushi/ripgrep ) : speedy project searching, 
+  * [ homebrew ] ( https://brew.sh/ ), 
+  * [ sourcetree ] ( https://www.sourcetreeapp.com/ ) : i use the cli for most git stuff , but sourcetree is great for doing complicated partial adds to the index , or seeing more complicated trees . 
+  * [ kaleidoscope ] ( http://www.kaleidoscopeapp.com/ ) : once again i use cli diffing 90 % of the time , but occasionally things get really complicated and then kaleidoscope comes out . 
+  * [ balsamiq ] ( https://balsamiq.com/ ) : great for quick mockups, 
+  * [ wireshark ] ( https://www.wireshark.org/ ) : grab packets off the network and dig into what is going on . 
+  districts are n't and should n't be drawn on geographical areas , they drawn on population areas . 
+  so an area with one million people in 10 square miles should have as many districts as an area with one million people spread across 1000 square miles . 
+  if you do that and you are n't purposefully going out of your way like in [ houston ] ( http://s1131.photobucket.com/user/swolf318/media/redistricting%20maps/texas/txfairmaphouston2_zpsc83ee1b7.png.html ) then you end up with something resembling % of people voting for a party and % of seats that party receives . 
+  it will never be perfect but the current system goes out of its way to short change one party . 
+  and no the urban/rural divide does n't explain this . 
+  yes this was normal behavior for my newfie . 
+  he also loved to dump the water bowl over and sleep in the puddle . 
+  in the end i got 2x [ neater feeder ] ( http://a.co/b8zywtv ) . 
+  one set for water and one set for food .

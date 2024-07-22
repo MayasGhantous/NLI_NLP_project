@@ -1,0 +1,100 @@
+  we have been using es with the tire gem , then migrated to the official [ elasticsearch-rails ] ( https://github.com/elasticsearch/elasticsearch-rails ) which is maintained by the same guy . 
+  our reindexing got much faster , and our searches are faster than ever . 
+  mind that you will have to learn the es querying syntax , and it will take some time to perfect it . 
+  but that goes with anything new , so you do n't have to be afraid , just jump over that first hurdle . 
+  everything / u/kelyar said , but also the delete links wo n't work , or anything that uses rails_ujs . 
+  i think also the form methods are somehow handled by ujs , but i 'm not 100 % sure . 
+  imam kindle pa ga slepam kud god idem , a da to ima tendenciju cekanja duze od nekoliko minuta , sto naravno ukljucuje i wc , 
+  zdogovoreno, 
+  answered you on so , 
+  this . 
+  i 've gotten two 417 scam linkedin invitations , rest of them mostly real people i know , and recruiters ( yes , yes , i know recruiters are real people too ) . 
+  because i 'm not in the market for recruiters , i always tell them so when they ping me . 
+  you never know when not being a dickhead will rub on you , and the karma will come knocking on your door . 
+  as i 'm in the same boat , although a legacy rails app , planning to implement some new parts in ember , i 'm just leaving a comment here , to see what the more experienced people say , 
+  bought , seems like a good resource . 
+  have n't had time to read it yet , but will provide feedback as soon as i do . 
+  thank you for writing it , and saving me the time i would have otherwise spent digging through the internet trying to find some weird stuff you have probably explained, 
+  eto , moj reasoning iza glasanja , od kad mogu glasat , stalno glasam protiv njih . 
+  if i have n't mentioned it in the blog post , i 've also had the click moment , and realised how to use ember , and ember-cli to create the project we are currently working on . 
+  i highly recommend that you buy it , if you have n't already . 
+  wilkinson and gillette blues are fairly common to find in stores . 
+  do n't go to dm , they do n't stock de blades . 
+  konzum used to have wilkinson and gillette blues , and billa had only the blues . 
+  if i 'm not mistaken , most gas pumps will have them . 
+  maybe it would be even better to look for a small mom and pop store , as their customers are mostly regulars and older people , who still shave with de blades . 
+  if you ca n't find anything , pm me with the address , and i 'll send you a pack of rapira 's , 
+  you should have luck in split , ask for zileti ( pronounced similar to gillette , but with a zh instead of g ) . 
+  the soap is great , it makes a mess in the bathroom ( it 's black ) . 
+  do n't ever try shaving with it , it has coal particles inside that will ruin your brush . 
+  it 's quite great for face washing , it has some peeling effect , because of the coal inside . 
+  the smell is patchouli , and it 's quite nice to wash your face with it . 
+  also , do n't wash your face with it before shaving , it completely removes all oils from the skin , so it 's too dry to shave after . 
+  have fun on your visit , 
+  there is a great book on it by / u/abuiles but the path to learning it is basically the same as it is to learning any programming language/framework/tool . 
+  build an app with it , if you do n't have anything to build , copy something , like twitter , for example . 
+  then make another app , then another . 
+  when you get the point that you have created 10 shitty apps \u2122 , the last one will be substantially better than the first one , and you will be somewhat of an expert because making 10 different apps will stretch your brain and the possibilities of the tool you are using , in this case , ember and ember-cli . 
+  it 's tough in the beginning while you constantly bash your head into the wall , but over time you learn the basics , then the not so basics . 
+  edit : forgot to insert the link to the book , so here it is : https://leanpub.com/ember-cli-101, 
+  nope , but i think i bought it on some early bird beta discount , no freebies , the book is worth it , 
+  svi znamo da je index jugocetnickokomunistickinostalgicarskomasonskopropederski portal, 
+  sorry , krivo sam se izrazio . 
+  zvucim kao angry old man , ali jebiga , get off my lawn , 
+  on to sve zove nametnici . 
+  here are mine ( vim , tmux , rbenv ) : https://github.com/berislavbabic/dotfiles, 
+  cuo sam dobre review za kinesis advantage pro ( cherry mx brown ) http://www.kinesis-ergo.com/shop/advantage-pro-for-pc-mac/ ali ona je basnoslovno skupa , mislim da ima neki francuski shop koji ih prodaje u eu . 
+  source : zivio u selu prvih ~ 25 godina zivota, 
+  ako ces samo citati knjige , uzmi si ebook reader . 
+  ja sam prezadovoljan svojim kindle paperwhiteom . 
+  kindle format 8 ( azw3 ) , kindle ( azw ) , txt , pdf , unprotected mobi , prc natively ; html , doc , docx , jpeg , gif , png , bmp through conversion, 
+  lijen sam pretipkavat , jel moze export hosts filea u neki txt please , pretty please , with sugar on top , 
+  start a blog , write about what you are learning each week . 
+  try to publish at least one post each week . 
+  publish more if you can . 
+  apply for the job and list your blog as a part of your resume . 
+  people who are hiring would rather hire a great communicator and a mediocre programmer than a sociopath ninja coder . 
+  also , do n't really bother with your writing when you are just starting . 
+  use the basic spellcheck , and if you want , there is a free grammarly option that is enough for your writing not to look like it was written by a second grader . 
+  also , do yourself a favor , watch this video , and follow everything that john says . 
+  yes , although i really liked marketing in college , i kinda forgot about it , and the importance it has . 
+  john makes some good points in the video , and having a boss yelling at you for something you did n't do , and you not being able to tell him to go f * himself is the worst feeling in the world . 
+  it 's just the thing where one tweet or a blog post can land you a job if you lost the current one . 
+  just think about scott hanselman , and how many seconds would he be unemployed if he decided to leave ms. and compare it to the regular joe , sending cv 's to hundreds of email addresses , receiving denial after denial . 
+  you probably have a file name missmatch , i 'll put up a small github repo in a day or two , with an ember-cli example . 
+  in your case , i guess you are trying to extend ` myanimalcomponent ` but you are exporting ` mybirdcomponent ` from ` components/my-bird `, 
+  sitting on the bench , with other war veterans , 
+  i 've implemented this solution on 3 projects i 've been consulting on . 
+  and a few at my previous full time job . 
+  so it 's pretty much battle tested . 
+  if you need some weird formatting and specific page breaks , then prawn is your only option . 
+  although i 've also seen solutions that take rtf files with placeholders and use those as pdf templates . 
+  the best , and probably the quickest way is to build 10 different apps in rails , something that solves some specific problem for you . 
+  tutorials always seem to follow some fairly simplified examples , and you do n't learn that fast , compared with struggling with some weird situation , looking at google , stack overflow , and then solving your own issue by putting a debug line into rails code itself . 
+  railstutorial by michael hartl is an awesome book , and it pays off to read it , especially his tdd approach . 
+  although you do n't need to bother with testing with your first 2 or 3 apps , till you get the hang of rails , then you can start playing with tests . 
+  ali convenience i marketing rules , 
+  da , radim it consulting online ( freelancing ako se bas tako mora zvati ), 
+  ako je to nekakav it ili design onda imas jako puno sanse . 
+  sorry ingrid . 
+  ako je nesto drugo , mozda marketing fore neke , ali opet ti se to djelomicno svodi na it , optimiziranje seo za wp . 
+  recimo da znam ponesto o online marketingu , i da sam na tezi nacin naucio sve te gluposti , 
+  kupi ( ili nadji na bespucima interneta ) ovu knjigu http://www.amazon.com/soft-skills-software-developers-manual i procitaj . 
+  vecinom je inbound marketing . 
+  pravi web ( od firme i sve to ) radim vec 2 godine , evo nekidan sam cak forwardao domenu na blog u nginxu , 
+  osnova mog marketinga je , daj 90 % onog sto znas , ljudi ce platit jako puno za ostalih 10 % . 
+  meni je attenuation 20.4 sto na ovom calcu kaze 1400m , a h1 kenja i ne da mi vdsl . 
+  evo link na calc : http://www.speedguide.net/dsl_speed_calc.php, 
+  ali nista , 
+  none of the above bi znacilo da ti se ovo sto je ponudjeno ne svidja . 
+  ja isto glasam za to , none of the above . 
+  thanks for the nice tutorial . 
+  i 'm also trying to move some internal stuff into phoenix + ember space , if appropriate . 
+  ovo je turbo sranje . 
+  it even looks much more readable by using ` expect ( x ) . not_to be_something ` or in your example ` it { is_expected . not_to be_expired } `, 
+  sve imaju poklopac , microvawe + freezer friendly . 
+  a da kazu , ako ne prijavite susjeda , [ mica ubica ] ( https://www.youtube.com/watch?v=ftbxste7big ) nece imat za placu , da li bi se itko trznio ? 
+  also nissan juke , 
+  t-mobile has prepaid unlimited day for 10 kn ( 15 for lte ) . 
+  or flat week for 80kn = ~ 11 $ ( this includes lte ), 
+  you can buy a lte stick/router from them for 487 kn , i just bought one yesterday , because i wo n't have dsl where i 'm going .

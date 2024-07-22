@@ -1,0 +1,100 @@
+  it 's a bit trickier , though . 
+  with most sockets , you need to put a fair amount of force on the earth socket trigger the mechanism , and obviously you have to insert the something into the earth socket before you can start fiddling with the dangerous bits . 
+  oh , and make sure the socket is turned on . 
+  still doable , though , definitely . 
+  i doubt that 'll be much of a problem . 
+  they 're only really useful on portable things . 
+  and then only on portable things that were reasonably small , and require frequent enough charging that you 'll want to carry the charger around with you ( most stuff like mp3 players and cellphones are heading towards usb charging ) . 
+  so , laptops , basically . 
+  most laptops here have those annoying [ three-pin c5 connectors ] ( http://en.wikipedia.org/wiki/file:plug_kleeblattstecker_din_vde_0625_teil_1_normblatt_c5.jpg ) for the power lead . 
+  i assume so the lead ( and therefore the plug ) can be easily swapped for sale in different countries . 
+  an `` aftermarket '' power lead with a compact plug would probably sell pretty well . 
+  i could see dell having them as an optional extra . 
+  yeah definitely a good idea . 
+  it 's not a complete replacement for a standard plug , but would be really handy for laptops . 
+  i actually quite like uk plugs . 
+  they 're solid , the cable exits at the bottom so they 're not easily pulled out . 
+  once they 're plugged in , they feel a lot more ` permanent ' than european or american plugs . 
+  but there 's definitely a market for this . 
+  bah , they 're * all * either novelty hubless concepts that are unlikely to actually work , or fixies . 
+  do n't be scared of * gears * , people !, 
+  that wheel design is damn near useless . 
+  i mean , it 'll work , i imagine . 
+  but because its essentially just a really big hub with a hole in the middle that the wheel rides around :, 
+  * the tolerances for the rim and hub itself have to be really tight, 
+  * any dents , misalignment , dirt that works its way in , etc will likely ruin the mechanism , or at least hamper its efficiency, 
+  * instead of a small , sealed bearing ( which is pretty mature technology and can be bought cheaply ) to allow the wheel to rotate , you have to have a ( likely custom-designed ) bearing covering the entire circumference of the `` hub '' . 
+  not cheap , or easy !, 
+  * it far harder to drive the wheel . 
+  instead of simply bolting a small gear to the hub , you 'd have to come up with some means to drive the wheel without interfering with the large hub ( er , i do n't know , teeth on the inside of the wheel , and a slot in the hub for a gear to poke through ? 
+  sounds complicated ! ) . 
+  oh , there 's actually a second style that does away with the hub entirely , and has a single-piece wheel jammed between two rollers . 
+  ( like [ this ] ( http://vi.sualize.us/view/89558eeee309bcbf0ef228cf39d8def8/ ) one ) . 
+  i suspect that 's even harder to make into a workable wheel , as you 'd have problems with the wheel wobbling around on the rollers , and the back wheel ( especially the one in that pic ) would be under a fair bit of tension passing through those rollers . 
+  ( hmm , it looks like it needs a roller on the outside of the wheel , to me ), 
+  they do look pretty cool tho . 
+  just ca n't see them ever being practical , 
+  no , it * is * , that 's why it works . 
+  it uses several rpg elements in the same way the games do , to reward you for tasks , and keep you coming back . 
+  `` if it 's not working , you 're not using enough of it '' ? 
+   each `` actor '' must ( by law ) have several std tests a year, 
+  as i understand it , the sti test are voluntary . 
+  but , predictably , anyone with a clean test is unlikely to be willing to work with anyone without . 
+  so in practice they 're essentially mandatory . 
+  sorry dude , i hope you manage to get through it . 
+  i 'm afraid i have only one piece of advice : get the fuck off reddit and get a lawyer . 
+  now . 
+  do n't fuck about , do it * now * . 
+  start tomorrow , definitely, 
+  do n't abandon perl yet !, 
+  it 's an extremely capable language and even today stands up well against the competition , and the cpan still outshines anything other platforms can offer . 
+  there have been some really cool things happening in the perl world over the last few years . 
+  one of the most impressive ( and one you * really * should look at before you consider abandoning perl in favour of another language ) is the [ moose ] ( http://search.cpan.org/perldoc?moose ) object system . 
+  i wo n't bang on about it , but i will say that it has completely changed the way i code . 
+  if you really do feel like moving on ( learning new languages is always good  ) , if you know your way around perl , you 'll probably feel pretty comfortable with ruby ( once you actually start using it , they 're * really * similar ) . 
+  have a look at this vid : http://video.google.com/videoplay?docid=-8103133625772088658, 
+  tim bunce addressing common `` perl myths '' - including the `` perl is dead '' myth , 
+  edit : sorry for making you feel guilty  i think i worded that badly , as that was n't my intention . 
+  if you want to learn a new language , that 's * great * ( learning new things is * always * a good idea ) . 
+  just do n't think that perl is dead , and do n't give up on it completely !, 
+  php is kinda a bad example . 
+  in terms of language features it 's a step backwards from perl ( and most other popular languages ) . 
+  it 's really only popular because it 's stupidly easy to deploy ( that 's one thing they got very right  ) . 
+  perl grew out of tools like sed and awk , and so arcane punctuation-filled incantations were par for the course with early perl . 
+  since then , however , coding conventions ( and language support ) in perl have evolved over the years to the point where it 's a really expressive language in which it 's perfectly possible to write good , clean , maintainable , readable code . 
+  try [ perl best practices ] ( http://books.google.co.uk/books?id=ymmrnpq7csmc&amp;printsec=frontcover&amp;dq=perl+best+practices&amp;ei=z7musstmiopynfia8bwh#v=onepage&amp;q=&amp;f=false ) . 
+  ( although ignore the section about object-oriented programming and use moose instead  ), 
+  recently i believe someone let slip that they expect to be releasing something in spring 2010 . 
+  that said , you can download and play with rakudo right now . 
+  you what ? 
+  yeah i loved that book , it made a * dramatic * difference to the quality of my code . 
+  i 'd kill for another 256 well-reasoned and carefully-explained snippets of perl wisdom . 
+  he does a course ? 
+  that sounds pretty cool . 
+  i indent with tabs . 
+  not really . 
+  tabstops are more complicated than that , 
+  if i type :, 
+  aa '' bar, 
+  ( where `'' ` is a single tab ), 
+  and you blindly replace tabs with 4-spaces , you 'll end up with :, 
+  aa bar, 
+  which ai n't right , 
+  that 's true , i did say ` indent ' . 
+  but i use tabs anywhere i 'd need more than one space , too . 
+  there should be no instances of two spaces together ( or a space followed by a tab , or vice versa ) in any of my code . \\*, 
+  lots of things benefit from tabular layout , i use it for anything that 's basically pairs ( at least , when it 's too much for one line ) . 
+  sometimes use it for aligning several assignments as well . 
+  \\* although i doubt that 's 100 % true . 
+  i do have some scripts to check formatting ( which look for this , among other things ) , but only really use them on stuff that i 'm handing over to someone else or something . 
+  i imagine most people indent using the tab key , but have their editor set up to insert spaces instead ( at least , every editor i 've used has the option to insert spaces with the tab key ) . 
+  what i do n't like about that is that setup is , if you press tab once , you have to hit backspace four times to get rid of the spaces it inserts . 
+  the disparity feels kinda wrong to me . 
+  so i just used tabs for indenting instead ( i know some editors can be set up to delete them all in one , but that 's the exception rather than the rule ) . 
+  continuity errors are fine , in my opinion , as long as they 're not glaringly obvious and do n't distract you . 
+  it 's got to be hard work to get every little thing exactly right , particularly on ` big ' films . 
+  pretty much every film has one or two , and those are reasonably minor ( although the towel one was a bit of a schoolboy error ) . 
+  the spelling errors are less forgiveable , though . 
+  that 's just someone being a lazy , useless twat . 
+  if you 're putting the words `` tyrannosaurus rex '' onto something that you want to look even vaguely professional , you check the damn spelling first !, 
+  err . . what * about * alignment ?

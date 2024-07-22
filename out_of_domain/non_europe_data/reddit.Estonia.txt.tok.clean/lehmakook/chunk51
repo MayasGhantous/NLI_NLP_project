@@ -1,0 +1,100 @@
+  for example , 6 litres per 100km is 0.006 m ^ 3 / 100000 m = 6x10 ^ -8 m ^ 2 = 0.06 mm ^ 2 . 
+  this area is actually the cross-section of a very thin pipe or noodle of fuel , that when laid on the road would let you drive without a fuel tank if you slurp it up as you move over it . 
+  more efficient cars need a thinner noodle to keep them going . 
+  / r/karmacourt, 
+  it should not be randomized every time , but it does n't have to be consistent either . 
+  you would * probably * get them in insert order - but any writes or vacuuming or index maintenance might reorder the table . 
+   what do they charge to just take my money and not try to be my friend ? 
+  according to the price list , $ 0.5 - 1 . 
+  falcon 9 used to be much earlier as well . 
+  older press kits for v1 .1 show that they started fueling 3.5-4 .5 hours before liftoff , and completed 1.5 hours before liftoff . 
+  this makes no sense though . 
+  if you do n't set an ordering , django does n't add an order by clause into the sql query . 
+  this means that the * database server * is free to choose whichever rows to send you . 
+  but the web server running django should have no impact on that . 
+  or are you perhaps using sqlite when developing and postgres when deployed with gunicorn or something ? 
+  linus 's argument was that implementation details ( including bugs ) , if widely relied on , do become part of the interface . 
+  if enough popular programs rely on the copy order , then it becomes part of the `` unwritten standard '' , and should be added to the written standard . 
+  because in the end users do not care which developer is at fault , all they see is `` linux ecosystem is broken '' . 
+  the memcpy case grew into a massive flame war particularly because providing backwards compatibility and defence against programmer errors was trivially easy to provide , but refused out of principle . 
+   but the team who won simply ported their really great music app ( which was more or less trivial as it was a qt app , and meego pushed the fact that it fully supported qt ) . 
+  how are we supposed to compete in these circumstances ? 
+  heh , it can be even worse . 
+  one that i visited advertised it as a app prototype development hackathon , but the results were entirely judged based on the powerpoint presentation , and `` sales made '' during the 48 hours . 
+  the winner did n't even write any software , they just used a mockup design tool to make fake screenshots , and said that x people in their network promised to become customers . 
+  it 's a development kit though . 
+  it 's not priced for gamers or consumers . 
+  it 's not even priced for tech enthusiasts with high disposable incomes . 
+  it 's priced for game and other software development companies to buy 1-2 to test out the technology and perhaps build experimental demos on it . 
+  and it 's possible that it 's priced that high exactly to discourage people buying it `` with their own money '' , as if it 's not consumer-ready , then they will be disappointed . 
+  but for a company , $ 3k on some experimental hardware is an insignificant expense . 
+   what 's more important if you are an actual refugee coming from a war torn country - a hundred dollar smart phone or food and water ? 
+  why is that a choice ? 
+  why should they throw their smartphones away ? 
+  syria was n't a country of cavemen before the war , it was closer to southern europe than what people imagine the `` third world '' to be like . 
+  people lived in cities , owned apartments , cars , tvs , game consoles , dined in cafes and restaurants , and so on . 
+  and if you 're migrating , a smartphone is pretty much the most important thing to keep . 
+  it has a flashlight , photos of your family , google maps , google translate , lets you call people you know , find news and info on the internet , and so on . 
+  same here , fantastic library for searchable , sortable tables . 
+  it does both in the browser , so the search is very fast . 
+  it 's not really a `` django '' thing - it 's a javascript library that you use in your templates . 
+  and to feed it data , any url that responds with json will do . 
+  edit : you can feed it data two ways :, 
+  * just lay out the table in html , then call $ ( ' #tableid ' ) . datatables ( ) to activate magic . 
+  this is super simple , but web pages with big tables take a while to load , and you lose type information . 
+  so sorting numeric columns will be messy . 
+  * leave the html table body empty , and use the ajax parameter to to load data from a separate url . 
+  this needs a separate `` table data view '' , but the web page loads fast and shows `` loading data ... '' , and types are preserved . 
+  django-eztables looks like it has n't been updated since 2014 , and latest stable release is from 2013 . 
+  i would avoid it and find something more maintained if possible . 
+  i use datatables directly without any packages or helpers , never found the need for them . 
+  i guess the packages can be helpful if you want to add * server-side * search or pagination . 
+  if you just want to load all data into the browser , and let the user search/sort there , then it 's super easy without . 
+  try the `` data directly in html '' approach first , like here : https://www.datatables.net/examples/basic_init/zero_configuration.html, 
+  once you have that working , make a new url and view that just returns response ( json.dumps ( { ` data ' : [ ... ] } ) ), 
+  and replace the table body with an ajax attribute to . datatables ( ) that specifies the url : https://www.datatables.net/examples/ajax/simple.html, 
+  but is it possible to do the opposite of :, 
+   bring up john i 's audio and while he is up , kill the countdown net loops . 
+  usually just countdown net , if countdown is silent then john , and if both are speaking then mute john ? 
+  not sure about the styling . 
+  but to get bootstrap styling on the datatable , you need to first load bootstrap itself , then the datatables files , and then the datatables-bootstrap extension . 
+  i keep wondering why people are so excited about tesla autopilot . 
+  it seems to be just lane following , car-in-front speed following , and some auto-parking . 
+  which you can get on a honda civic , let alone top-end german models ? 
+  on the other hand , google seems to be the closest to building a real self-driving car which can navigate through cities with the only input being the destination address . 
+  value added tax in europe also varies between each country , but somehow businesses manage just fine . 
+  thanks for the info , very nice overview of the currently available driver assist systems . 
+  no , he brought up the idea of fining eurostar and ferry operators if they bring a passenger without right of entry into the uk . 
+  are there really any smugglers running boats at night betweek uk and france ? 
+  there are n't really any videos available after the launch whose title would n't `` spoil '' the result . 
+  they originally planned to leave more fuel for landing . 
+  but after long delays with this mission , they made a deal with ses to use some of the fuel reserved for landing to put the satellite into a `` faster to market '' orbit . 
+  the falcon 9 costs somewhere around $ 60 million , or $ 100 million together with the dragon spaceship . 
+  which is pretty cheap compared to other us / european rockets . 
+  they do n't have a huge stockpile , they keep building more of them because people want to launch stuff and pay them for it . 
+   does it reach that distance mostly from the velocity it is traveling at , or does it use its own thrusters for additional propulsion ? 
+  sort of both , see a ( simplified ) diagram : http://www.daviddarling.info/images/gto.gif, 
+  falcon released the satellite in the elliptical geostationary transfer orbit . 
+  this means that the speed at release is already enough for the satellite to reach 40000km - but it will then follow the elliptical path down again . 
+  the satellite will use its own thrusters to change to the circular geostationary orbit . 
+  google has some amazingly meaningful projects - search , gmail , maps , self-driving cars , etc. 
+  but it also has many people working on testing different color combinations for ads and such , and plenty of projects that are `` obviously '' going to be cancelled . 
+  why all the personal attacks about credibility and hidden agendas in this thread ? 
+  ( not you hamerad specifically , but a third of all posts ! ), 
+  * it is completely reasonable to have the belief that reusability is not economically worthwhile , and to present opinion pieces or calculations arguing for that belief . 
+  * there is no need to assume that someone is an `` old space shill '' just because of that . 
+  after all , there has been one previous serious attempt at reusability - the space shuttle - and while it was one of the most impressive space engineering achievements ever , the reusability economics did not work out . 
+  there have been many threads debating * why * it did not work out , but it 's still a fact that based on past history so far , reusability costs more than equivalent expendable launches . 
+  now i believe he is wrong , and that spacex will eventually get to a point where reusing the first stage is profitable , as they are going for a much less maintenance and refurbishment heavy design than the space shuttle . 
+  but there is nothing wrong with not having `` faith '' in spacex until they prove history wrong and demonstrate that their maintenance and refurbishment costs will be as low as they hope . 
+  they have rather unique gameplay : almost mandatory stealth , observing , camping and finally sniping . 
+  fantastic if you like stealthing around the map for 15 minutes to line up each perfect shot . 
+  but if you are looking for a `` ww2 action shooter '' , you may be disappointed . 
+  what would be the purpose of the parallel setup , having gunicorn/uwsgi over wsgi and daphne over asgi serving the same application ? 
+  if you are making the effort to deploy daphne , a message broker and the django workers already , why not also use it for non-websocket requests ? 
+  heh , they outright say that `` setting up a git cdn requires development effort , maintenance and monitoring effort , and costs money to run '' . 
+  and * therefore * github should do it for free for them ? 
+  this is exactly the `` launch alarm clock '' that i 'm hoping for as well . 
+  staying up for four scrubs of ses9 until 2-3am ( in utc +2 ) was tiring :(, 
+  but this needs someone actively monitoring each launch , and entering data for status changes . 
+  maybe the same people who update the launch threads here would be willing to do it ?

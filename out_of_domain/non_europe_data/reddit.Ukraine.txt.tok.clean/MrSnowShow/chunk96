@@ -1,0 +1,100 @@
+  i 've tried finding a spot on answer but i ca n't get one . 
+  kernel is the most low level part of the operating system which communicates directly with the hardware and allocates its resources , in our case we all use the linux kernel which ( luckily ) is still maintained by linus torvalds . 
+  examples of other kernels are windows nt ( for windows ) and xnu ( for osx ), 
+  the shell is basically what you use when you load up the terminal emulator . 
+  there are various shells ( bash , zsh , csh , fish ) and the default one is ` bash ` ( bourne again shell ) based on the original ` sh ` written by steven bourne for the original unix, 
+  if you want to get a bit more technical you should know that to manage multiple user sessions on a single machine , linux ( and unix ) uses what is called a teletypewriter ( tty , which does n't make sense today because we no longer use typewriters ) for each user to interface with the main kernel . 
+  each tty is handled by its own special device file , located in the directory / dev, 
+  you may be wondering what the difference between shell and tty is . 
+  shell is the command interpreter that runs everything you type in , and tty is the connection that handles the data between linux ( the kernel ) and the shell . 
+  most of the source i used is [ here ] ( https://wiki.installgentoo.com/index.php/gnu/linux ) and it is a nice read i recommend it . 
+  ( but beware because it contains some 4chan / g / culture ), 
+   not cloning the git repo and compiling yourself, 
+  enjoy your outdated kernels you plebs, 
+  what happened to them ? 
+  i have n't played lol ever since end of season 3, 
+  very sad , the best team in eu hands down . 
+  i know russian and i watched a game where i could hear them talking and they 're chill as fuck and hilarious, 
+  you 're right , there 's / r/linux _ gaming for that, 
+  so i guess this is continuation of the opensolaris project that was discontinued when oracle bought sun in 2010 ? 
+   it 's a copy/paste fest, 
+  as if arch was n't a handholding copy/paste fest too . 
+  you of course copy the commands you see in the guide , but at the same time you try to understand why you 're doing it and thus you start learning about the system, 
+   next natural step , for me atleast , is bsd or unix, 
+  what kind of unix ? 
+  i use a weakness to all magic effects 100 % in a 10 ft area and then cast a mixture of all 3 spell type damages in a 10 ft area . 
+  normal difficulty is one hitting everything so i had to slide it up . 
+  the 10 ft is crucial because i could deal with even 4-5 enemies provided that they were in the 10 ft area . 
+  it is the difference between casting one rotation of weakness + spell combo and killing all 4 or casting the rotation 4 times . 
+  bsd is unix though, 
+  and no i will not laugh at openindiana . 
+  but all these os have limited hardware and software support so they will be much shittier to use as a main desktop os, 
+  my favorite . 
+  all 10,000 days song simply kick ass and i think that some of the best adam 's guitar work is here . 
+  just letting you know that for some reason you were shadowbanned ( not by us mods , but by reddit admins ) so you 'll need to contact them about your ban . 
+  your post was caught in the spam filter because reddit does not allow url shorteners . 
+  post the normal link next time, 
+  yeah and once you discover the area effect , even the minimum 10 ft is more than enough , the damage does n't split so with one combo you kill an entire group where you would otherwise do 4-5 combos for each enemy, 
+  it holds 10 ^ 5000 combinations . 
+  for a reference there are 10 ^ 80 ** atoms ** in the observable universe, 
+  i do n't see much appreciation towards bottom . 
+  amazing song with amazing breakdowns and screams, 
+  not only pacstrap but also genfstab and arch-chroot, 
+  antergos is just arch with a fancy installer and an extra repository for wallpapers , themes and stuff like yaourt so that you do n't need to compile manually . 
+  manjaro on the other hand is an arch-based distro which tries to be its own thing , has some utilities for drivers and as you said has their own repos which essentially are delayed arch to make sure they 're stable . 
+  i must ask this . 
+  so what do you code ? 
+  what plugins do you use to imitate ide behavior in vim such as auto indentation and for example when you write a quotation mark it automatically adds a second one and puts the cursor in the middle . 
+  why not using an ide with vi keybinds ? 
+  vim is just a text editor . 
+  just try them out yourself . 
+  no one knows better what is the best setup for you than yourself . 
+  some people like feature rich environments like kde , others like the # 000000 wallpaper and minimalist \u2122 obscure-hardcore-no-one-has-ever-heard-ofwm with zero bloat guaranteed . 
+  it is really up to personal preference, 
+  when they started with the moar cores meme and intel focused on ipc, 
+  me too , but it was bad decision by them and it seems now that finally now with zen they 're focusing on single core performance . 
+  also something similar happened to their gcn which only willl start to pay off with dx12 where devs have much lower level access to the hardware . 
+  amd just ahead of its time, 
+  have a thinkpad x220 for university ( that 's college for you burgerland ) and i fucking love it . 
+  does removing chromeos screw up the drivers ? 
+  some guy said that everything was working out of the box but he was on crouton and not pure linux . 
+  more like seizure simulator, 
+   log in, 
+   sign up, 
+  no ty, 
+   ugly, 
+  why do you call `` retro '' ugly ? 
+  if you like it then it is not ugly, 
+  for example i think [ this laptop ] ( http://img.hexus.net/v2/internationalevents/cebit_hannover_2006/ibm/x60b.jpg ) is fucking gorgeous ( dat 4:3 , dat ibm logo , dat status leds ) and to other people who for example like thin macbooks it might be hideous . 
+  another example is [ this keyboard ] ( http://iichan.hk/s/src/1355938735862.jpg ) is beautiful for me while others might consider it ugly . 
+  do n't use the term `` ugly '' to reference retro because they 're still beautiful to some demographic . 
+  how can a tiling wm be ugly ? 
+  it can look the same as a stacking one , it just had different functionality, 
+  worst top na, 
+  not everybody uses the us english keyboard you know that ? 
+  literally the ubuntu of tiling wms, 
+  this man knows his shit . 
+  i also once though that arch was all about choice , until i learned more and realized that arch is simply instead of using the gui ( for example in install process ) you just type in commands that do the same thing as if would press a button in a gui . 
+  arch just gives you a false sense of `` minimalness '' `` bare bones '' and `` manual '' while in reality it is far from those . 
+  not saying that i dislike arch , but the minimal do it yourself thing is far from true especially after it switching to systemd . 
+  think about ubuntu , it is all about user friendliness and easy for beginners . 
+  i3 is the same thing but among tiling wms, 
+  yes the arguments and minimalness and do it yourself can be done in any distro pretty much . 
+  the real benefits of arch are pacman and the aur, 
+  why would you add a `` lubuntu '' flair which in reality is the lxde icon ? 
+  but for many people that is a good thing , it makes pacman straightforward and easy to use . 
+  did n't he hold 3 accounts on 1st , 2nd and 3rd place solo q ? 
+  he was bigfatjiji which means big fat dick in chinese or something and he was required to change it so he put lp which also means dick in another language, 
+   it did n't really get much attention there , but got lots of upboats over here . 
+  its because you 're a plebbitor :\\ ^ ), 
+  tool - schism in the background, 
+  you submission was caught in the spam filter because you posted with an url shortener . 
+  reddit does not allow url shorteners ( tinyurl , bit.ly , etc. . . ) so use a direct link next time, 
+  thank you and have a nice day, 
+  well one refreshing thing for me when i came back from skyrim was being able to play a mage using two-handed or a bow since in skyrim the spells get treated as ` weapons ' so you must put your bow or two handed weapon out to use spells and it was a very clunky experience , while in oblivion the spells are a separate thing so you can wield any weapon you want and it does n't interfere with your weapon . 
+  do n't forget elemental fury shout, 
+  that 's because you just end up going the easy way instead of challenging yourself to keep playing whatever role you chose in the 1st place . 
+  stealth archer is the easiest most secure way to play . 
+  i do n't get it, 
+  got ta give this opportunity for a shout out to / u/the _ penis_wizard who recovered the sub at / r/redditrequest when it had mods inactive . 
+  unfortunately i think he was banned for some reason , he created 2 more accounts but those were banned too i think , i have no idea why ( might be related to him being a / r/fatpeoplehate mod ) .

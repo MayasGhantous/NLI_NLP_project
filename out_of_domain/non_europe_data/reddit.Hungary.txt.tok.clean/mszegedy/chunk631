@@ -1,0 +1,100 @@
+  `` the world around you is aflame . '', 
+  `` frost '', 
+  `` the terrain is coated in a thin layer of frost . '', 
+  & l ( 600 ) h ( 300 ), 
+  `` icicles '', 
+  `` everything is encrusted with icicles . '', 
+  an overview of syntax : a category is opened with its name , and its contents are enclosed in curly brackets . 
+  to begin a new property , you use an ampersand ( & ) . 
+  it simultaneously ends the previous property , if applicable , as well . 
+  it makes no distinction between spaces , tabs , and line breaks , but the above format is what i like to use . 
+  first , you list the variables and their values in parentheses . 
+  it ignores everything between the assigned letter of the value and the first open parenthesis , so you might as well write `` light ( 235 ) '' if you feel like it ( but not `` life ( 235 ) '' , because the initial letter `` l '' is for light ; use `` vitality ( 235 ) '' instead ) . 
+  then , in the first set of quotations , you write the name of the property ( 20 characters max ) . 
+  then , in the second set , you write its description that will be added to the big description when the generator gets to it . 
+  this is mostly the part that i need help with !, 
+  then there is also a tag system . 
+  some items have tags , like dry and glacier . 
+  you can do two things with these : prefixing a tag like ~ tag with a tilde will make the generator thereafter refuse to pick up any items with tag . 
+  prefixing a tag like + tag with a plus sign makes the generator only pick up items with tag . 
+  if the generator receives multiple + commands , like + tagone and + tagtwo , then it will pick up both items with tagone and/or tagtwo . 
+  one may also do ~ tag ( category ) and + tag ( category ) , which means that that command will only apply in that particular category . 
+  if you want multiple categories , then you have to have ~ tag ( categoryone ) ~ tag ( categorytwo ) . 
+  the third and final modifier * tag ( `` words '' ) sends the special message `` words '' to the generator , to be printed after any particular consequent instance of tag . 
+  for example , * ice ( `` you wonder why it refuses to melt . '' ), 
+  might be put after certain high temperatures ( given a high enough fantasy value , of course ) . 
+  all i need you to do is create and fill out properties for terrain.sburb , in the manner above . 
+  i have a big list of words for each category you can use !, 
+  latin has exactly three [ tenses ] ( http://en.wikipedia.org/wiki/grammatical_tense ) . 
+  it has exactly three [ aspects ] ( http://en.wikipedia.org/wiki/grammatical_aspect ) . 
+  they are combined in this way :, 
+  - present simple --  `` present '' tense, 
+  - present perfect --  `` perfect '' tense, 
+  - future simple --  `` future '' tense, 
+  - future perfect --  `` future perfect '' tense ( hey , this one is called what it is ! ), 
+  - past imperfect --  `` imperfect '' tense, 
+  - past perfect --  `` pluperfect '' tense ( this is an acceptable term for the past perfect ), 
+  do n't complain about having too many tenses . 
+  :d instead , complain about tense-aspect combinations . 
+  and it 's not even as bad as it could be !, 
+  there 's no present imperfect ( sigh ) , future imperfect , or past simple a.k.a. 
+  preterite or aorist ( sigh again , although we do n't really need this one because it 's logically equivalent to the present perfect in terms of point in time ) . 
+  think of having to learn nine of them !, 
+  and consider yourself lucky . 
+  upvotes to thel left plox, 
+  it 's like everyone but all the regular posters ( hiddenkrypt , cationsk , afrokid251 , thatzeraguy , chronophilia , vocalon , almostnever , sandfire , thehetalianitalian , wendelscardua , satiablecurtiosity , rangersix , me , etc. ), 
+  suddenly found that they have something more important to do than reddit . 
+  is this related to exam season or something ? 
+  edit : forgot to include a couple more regulars who commented in this thread !, 
+  sorry for forgetting about you guys !, 
+  i need one for my sburb world generator that 's about 16-32 lines tall , but i do n't like the automated ascii generators and i 'm not smart enough to come up with my own . 
+  anyone willing to do it for me ? 
+  / crowdsourcing programming , and do n't you dare reference the xkcd, 
+  edit : this is the best ascii generation i 've gotten :, 
+  okay , so i have run into a problem that all programmers eventually run into : i do n't know how to do a part , simply because i never actually cared about how it 's run . 
+  but , now that i need to put it into code , i must clarify my nonexistent ideas , and cement the way that it is done . 
+  and , while the answer seems obvious to me ( and , believe it or not , my own answer is the easiest for me to implement as well ; sure , i 'd have to restructure the entire program , but it would be very straightforward ) , i still have to ask the * users * how they want it . 
+  here goes :, 
+  what the generator really is doing is taking a bunch of `` properties '' , such as wind , oil , fireflies , rivers , etc. 
+  and taking descriptions of each of them and making a paragraph out of it . 
+  now , each of these properties comes from a category : atmosphere , liquid texture , fauna , liquid shape , etc. 
+  what i originally had in mind was that there is a * set * amount of categories , like , a great big list ( seventeen of them to be precise ) , and you can pick a * set * amount of properties from each category ( this number is 1 for most of them ) . 
+  but this means that i can actually be incredibly lazy and declare a shit ton of variables for each category , and always have the program expect those exact categories , and have it be generally inflexible . 
+  i ca n't make myself do this , so i make it real hard for myself and put all of the things for the categories in arrays and stuff instead , making it not matter at all what the names and stuff for the categories actually are . 
+  i could make a new struct for each category . 
+  what this means , in practicality , is that you could have * any number * of catgories . 
+  each would have its own information , and the program would keep track of everything like a boss . 
+  what this means * for you * is that the program does n't notice or care when you leave out a category . 
+  that 's the bad part . 
+  the * good * part is that you can also add categories . 
+  i could also do this for the properties as well . 
+  that means that you could * tweak the number of properties it pulls from the category * . 
+  that puts a lot more control in your hands !, 
+  see [ this ] ( http://qntm.org/option ) on why that might be a bad idea . 
+  my question is , are either of these desirable ? 
+  if so , why ? 
+  would you do anything with these if they were implemented ? 
+  [ http://www.reddit.com/r/atheism/comments/u89dx/ignore_me_i_just_want_to_see_how_many_bots_can/c4t5hhm] ( http://www.reddit.com/r/atheism/comments/u89dx/ignore_me_i_just_want_to_see_how_many_bots_can/c4t5hhm ), 
+  if not , how can i search comments ? 
+  no , wait , also `` hozz\u00e1sz\u00f3l\u00e1s '' for comment fails to carry over to multiple comments . 
+  it 's kinda dumb because cardinal numbers singularize the declension of hungarian nouns , so it 's literally a copy-paste job to `` hozz\u00e1sz\u00f3l\u00e1s '' . 
+  jeez . 
+  so , i 'm writing ( actually , am basically finished with ) a tiny engine that generates descriptions of surrealistic worlds based on a set of parameters . 
+  one of the properties of the world is what the ground is made from . 
+  and i realized that i need to account for a significant amount of colors such as the one found [ here ] ( http://images.wikia.com/mspaintadventures/images/7/7f/a4.png ) ( best guess is chrysocolla ) as well . 
+  could you guys help me with common minerals that account for the rest of the colors ? 
+  like , even the six basic ones , red , yellow ( i have a huge chunk of sulfur that looks like it fits ) , green ( olivine ? 
+  is cyanite a thing ? 
+  and what was that other thing that was historically used instead of turquoise ? 
+  ) , blue , and magenta would be helpful . 
+  edit : thanks a lot , everyone !, 
+  i 'm glad i got the detailed responses that i did . 
+  ` k , now i 'm another step closer to finishing it !, 
+  so , i got my friend 's yearbook in the mail to sign . 
+  he likes homestuck , so i want to do some variation on , '' [ ahahahaha the sports pile does n't stop from getting taller ] ( / dunkass ) '' . 
+  now , my problem is that i want to replace '' [ sports ] ( / dunkass ) '' with something that references signatures . 
+  but dave did n't write '' [ the football player pile ] ( / dunkass ) '' , and i want to keep the same inane feeling of putting something as general as '' [ sports ] ( / dunkass ) '' . 
+  so , i guess what i 'm asking is , football player : sports : : signature : ??? 
+  i need several cables to reach a quarter of a meter ( home audio/video system ) , but each are around five meters long . 
+  i want it to be as tidy as possible , but where should i put the extra length ? 
+  this is up against a wall .

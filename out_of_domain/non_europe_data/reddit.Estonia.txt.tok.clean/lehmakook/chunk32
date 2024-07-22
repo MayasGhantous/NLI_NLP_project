@@ -1,0 +1,100 @@
+  * does the user have to change the name until the generated slug is different ? 
+  * does the user get to choose the slug ? 
+  * or do you always generate unique slugs , for example by adding some numbers at the end ? 
+  and for changes :, 
+  * once the wall already exists , can the user change the name ? 
+  * does that also change the slug or not ? 
+  * can the user change the slug later or not ? 
+  i can offer some suggestions once i know more , 
+   i posted also an explanation of item 3 ( c ) [ 2 ], 
+  this sounds hilarious , but unfortunately unlikely ? 
+  first 80 % of miners need to use the new version to start the change , and then their numbers need to drop to 40-50 % for the chain-jumping to occur ? 
+  user contributions could be possible . . but this would need a * massive * , super-diligent user base before it becomes useful . 
+  you would need an update for every parking spot at least every 10 minutes . 
+  slugfield is just a small extension of charfield with a validator : https://github.com/django/django/blob/stable/1.8.x/django/db/models/fields/__init__.py#l2114, 
+  so you can write anything that 's a-z , a-z , 0-9 , - and _ in there . 
+  there is no requirement to use slugify , as long as it 's any text composed of the valid characters . 
+  since you only want the user to enter a name and nothing else , i would recommend the following :, 
+  * ditch modelform . 
+  just make an usual form with one charfield for the name . 
+  * when the form is valid , make a new unique slug for it :, 
+  * get all existing slugs for the user ,, 
+  * slugify the name and see if it 's unique ,, 
+  * if no , start looking for numbers to add at the end until you find one that is n't in use yet . 
+  check against the fixed list of slugs instead of the database each time to make sure this does n't take too long . 
+  * create the wall with just wall.objects.create ( ), 
+  then the user can create two boards which slugify to the same name , but their slugs might have -1 , -2 , etc at the end . 
+  and if they rename the board , then the slug does n't change - which may be good to keep links working , or perhaps you want to change the slug again . 
+  lithium batteries do react with oxygen ... but very violently :, 
+  the `` fantasy '' part is in thinking that a rising house prices benefit anyone who owns up to one home . 
+  sure , on paper the value of your assets goes up , but you ca n't really do much with it , since you still need a place to live . 
+  if you sell it , you 'll need to buy or rent another one - whose price has also increased proportionally . 
+  increasing house prices benefit only those who have more than one as investments , or people downsizing ( or moving to spain ) at retirement . 
+  for copyright , legally the `` related to '' depends on whether you used the original work when making yours or not . 
+  not the similarity of the final results . 
+  if you take someone 's picture and edit it until it 's unrecognizable , that 's still copyright infringement . 
+  if you create your own picture from scratch that happens to look very similar , it 's not . 
+  but in practice , it could be hard to prove in court that you did n't use the other work if the end result is similar . 
+  true , and apple also demands the following :, 
+  * if it 's features or content used within the app , then you must show * only * in-app payments for it in the app . 
+  you can not even have a link to your own web page if another payment method is possible there . 
+  * if it 's physical goods or services used outside of the app , then you must not use in-app payments and must have some other payment method . 
+  for mostly web subscription services with an `` extra '' app , the best method might be to sell subscriptions online , and not in the app . 
+  while the in-app payments would be convenient , 30 % cut is pretty steep . 
+  i think the point is that if these optimisations are not guaranteed by the compiler , then you have to avoid using ( tail ) recursion for the code in question altogether . 
+  it 's not an optional speedup - if it 's not guaranteed , then it 's irrelevant . 
+  has anyone really been far even as decided to use even go want to do look more like ? 
+  we ( = `` somebody else '' ) should make a wiki with the best threads and posts about this . 
+  yes it is : http://www.urbandictionary.com/define.php?term=santorum, 
+  while raising investment from the public is the traditional reason for ipos , there are two others that are common with tech companies :, 
+  * when a company reaches 500 shareholders , they must go public . 
+  this could happen when enough people receive stock options , wait for them to vest , and use the options to buy actual shares . 
+  * employees and investors may get grumpy if they want to cash out their options/shares , and if there is no market for them while the company is private . 
+  but both can be solved at least for employee options if the company offers to buy them back if needed . 
+  / r/goldenshowerthoughts, 
+  edit : wow this sub actually exists . 
+  armstrong is more of a solo performer . 
+  in the original script , humans were used for their brains as a huge distributed computer . 
+  which actually makes a lot more sense , there are tasks which we can do instantly but are extremely difficult for computers . 
+  for example face recognition , understanding and translating language , etc. 
+  they removed this from the movie because they thought it was too complex for the average viewer . 
+   i assume i have to trademark my operating in australia, 
+  a trademark gives you an exclusive right to use a business name / logo / branding in some field in some geographic markets . 
+  so that another company ca n't start selling a similar product with a very similar name ( either accidentally or on purpose ) , and confuse customers about whose product they are buying . 
+  you do n't * have * to trademark your names . 
+  you * might * get some protection for the name just from using it in public , but that 's going to be very country specific . 
+  but generally , it 's a good idea after you see initial success in the market . 
+  before that it 's a waste of money , and after that you actually have some brand worth protecting . 
+   but i 'm unclear whether i also have to file one internationally . 
+  if i choose not to , what restrictions will be placed on taking international business , marketing or offices ? 
+  depends on whether you plan to sell your products internationally , or are you okay with someone using the same name in other countries ? 
+  trademarks are specific to countries , and product categories ( for example [ see this ] ( http://web2.wipo.int/classifications/nice/nicepub/en/fr/edition-20150101/taxonomy/class-21/?pagination=no&amp;lang=en&amp;mode=hierarchical&amp;explanatory_notes=show&amp;basic_numbers=show ) ) . 
+  you will generally pay a fee for each category you want to claim , and you generally have to apply and pay fees in each country separately . 
+  if someone already has taken a similar trademark in another country , then you ca n't . 
+  for example , for a long time gmail was called and only accessible via googlemail.com in germany , because someone already had a web mail service called gmail there and refused to sell the trademark to google . 
+  i use the second approach , for example :, 
+  var url = '' { % url ` urlpattern_name ' 123 % } '' . replace ( ' 123 ' , $ ( ' #myinput ' ) . val ( ) ) ;, 
+  the first approach is ok if you are just appending the primary keys to partial urls . 
+  but if you have urls where the primary key is in the middle ( for example '' / api/foo/123 / delete / '' ) , then you would need to duplicate the url reversing in django and javascript , and keep both in sync . 
+  replacing a fixed pk in javascript adjusts automatically to these . 
+  of course , a bit of care is needed to replace the right part in case numbers might appear in multiple places in the url , either as other parameters or just fixed text . 
+   http://www.workinestonia.com/, 
+  holy shit that 's a nice promotional website . 
+  i 'm interested !, 
+  my personal guess is a slightly less hard landing than the previous one , but with the rocket falling over . 
+  recovery would be super cool , but still seems unlikely enough to bet against . 
+  great , 
+  just to clarify , does `` recovered '' mean that they get most of the component parts of the rocket back ( possibly smashed , crumpled , but not thrown overboard by an explosion ) - or does it mean that they get it back in a sort of refurbishable condition ? 
+  sure , sounds good !, 
+  it seems much more likely that people saw or heard you jacking off in your bunk , and now tell jokes about it . 
+  so will i , i hope spacex will have more luck than i will in this bet , even if i think that a successful landing is still not a sure thing , 
+  thanks !, 
+  read-only for the replicated parts is fine ( and in fact preferred ) . 
+  it 's only other extra tables that i would like to make writable on the replica . 
+  it looks like bucardo , londiste , or slony might be what i 'm looking for . 
+  do you have any suggestions on which one to try - since i have no previous experience with setting up replication , they all look pretty much identical ? 
+  or do you perhaps have any other suggestions or ideas on things i should check out to achieve this `` ad-hoc analysis server '' setup ? 
+  some thoughts i had were :, 
+  * maybe just make the web app write uploads to both databases . 
+  * maybe i should keep 100 % identical binary replication , but provide some other way of adding extra input data and places to store analysis output ? 
+  would it be possible to set up a second pg cluster for the students ' temporary tables , and use https://wiki.postgresql.org/wiki/foreign_data_wrappers to let them query it together with the sensor dataset ?

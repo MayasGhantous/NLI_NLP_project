@@ -17,11 +17,11 @@ import Levenshtein as lev
 
 DATA_LOCATION = 'europe_data'
 WHAT_COUNTRY = 30
-DO_WE_NEED_TO_EXTRACT_UNIGRAMS = False#True
-UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams'
-DO_WE_NEED_TO_EXTRACT_TOP_UNIGRAMS = False#True
-Top_UNIGRAM_LOCATOIN = 'top_unigrams.npy'
-DO_WE_NEED_TO_EXTRACT_TOP_ERRORS = True
+DO_WE_NEED_TO_EXTRACT_UNIGRAMS = True
+UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams2'
+DO_WE_NEED_TO_EXTRACT_TOP_UNIGRAMS = True
+Top_UNIGRAM_LOCATOIN = 'top_unigrams2.npy'
+DO_WE_NEED_TO_EXTRACT_TOP_ERRORS = False
 ALL_ERRORS_LOCATION = f'calculated_data\\error_count2\\all_errors{WHAT_COUNTRY}.npy'
 ERRORS_LOCATION = f'calculated_data\\error_count2\\indvisual_errors{WHAT_COUNTRY}.npy'
 
@@ -99,21 +99,22 @@ def get_chunk_tokens(text):
     words = [word.lower() for word in words]
     
     # Remove punctuation and stop words
-    stop_words = set(stopwords.words('english'))
-    words = [word for word in words if word.isalnum() and word not in stop_words]
+    #stop_words = set(stopwords.words('english'))
+    #words = [word for word in words if word.isalnum() and word not in stop_words]
     return words
 
 
 def extract_top_unigrams(text, top_n=1000):
     # Tokenize the text into words
     word_counts = Counter()
-    for key in text.keys():
+    print('geting top unigrams')
+    for key in tqdm.tqdm(text.keys()):
         for content in text[key]:
             words = get_chunk_tokens(content)
             
             
             # Count word frequencies
-            word_counts.update(words)
+            word_counts+=Counter(words)
             
     # Get the top N unigrams
     top_unigrams = word_counts.most_common(top_n)
@@ -312,7 +313,7 @@ def main():
         list_of_numbers =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
         for i in list_of_numbers:
             WHAT_COUNTRY = i
-            UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams'
+            UNIGRAM_LOCATOIN = 'calculated_data\\Unigrams2'
             files = read_files_from_directory(DATA_LOCATION)
             unigram_feature = calculate_the_unigram_feature(files, top_unigrams)
             unigram_feature = np.array(unigram_feature)

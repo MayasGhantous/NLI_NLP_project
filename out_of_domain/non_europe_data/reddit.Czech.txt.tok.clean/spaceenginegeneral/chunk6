@@ -1,0 +1,100 @@
+  i have gigabyte z170-d3h and can recommend that . 
+  for your setup , you can pretty much pickup anything to be frank . 
+  only reason why i picked it up over the cheaper mbs is because it has better onboard audio, 
+  what cooler do you have ? 
+  also you should probably disable turbo altogether when overclocking . 
+  144hz monitor will give you a lot better motion clarity and smoothness in any game if you run at more fps than your current ( 60hz ) setup . 
+  the notion that you need to run a game at 144hz fps to fully utilize the screen is completely false , even running at 75fps @ 144hz gives you noticeable improvement over 60hz screen . 
+  recommending i5-4460 over any skylake i5 saying it will destroy it ? 
+  that 's bold . 
+  and i appreciate the effort of posting all the sources , but i glanced through some of them and they do n't really give you the whole picture at all . 
+  first off , most of the sites only test few games and usually majority of the benchmarks are gpu bound in the first place . 
+  if you take the numbers out of context like this , you might as well recommend something like g3258 because apparently it performs the same as i7-6700k http://i.imgur.com/ibot7c8.png, 
+  secondly , websites that give you average fps only might as well be completely ignored . 
+  taxing moments for cpu could cause stuttering that will be very noticeable while playing but you simply wo n't see that from a single averaged fps number . 
+  next , any skylake chip , even locked one , can be overclocked . 
+  and any oc 'd skylake will destroy ( as you nicely put it ) locked haswell . 
+  majority of the games still prefer strong single threaded performance and by buying locked haswell you 're locking yourself out from getting the most of it . 
+  and finally , while ddr4 ram is slightly more expensive , odds are it will last you until your next upgrade , so it will actually be cheaper than buying ddr3 now and ddr4 again in several years . 
+  skylake i3 vs haswell i3 https://www.youtube.com/watch?v=g5ejblynov8, 
+  skylake i5 vs haswell i7 https://www.youtube.com/watch?v=jwxncqbe1h8, 
+  i7 between generations https://www.youtube.com/watch?v=vdo-j00vutw, 
+  i7s same freq https://www.youtube.com/watch?v=4sx1klgvaf0, 
+  take the last 2 tests with grain of salt because i7s will bottleneck less than i5s which will make smaller differences in the benchmark . 
+  in short , the overclocking of locked skylake chips alone make them worth it over any locked haswell . 
+  ddr4 gives more room for upgrade in future . 
+  also , there 's absolutely no reason for 750w psu in a single gpu system , op had that nailed down . 
+  limit the speed . 
+  yes . 
+  you only need more than 650w for sli/cf, 
+  yes although it depends on the game . 
+  any cpu bound game will benefit from cpu overclocking . 
+  also if you have good cooling and stay within recommended voltages , do n't worry about your cpu lifespan . 
+  the 212 is probably the most recommended budget cooler and should give you decent clocks . 
+  of course , there is never really `` enough '' cooling . 
+  high end air coolers like noctua or water coolers will give you less noise and less temps and thus more oc but obviously they are more expensive . 
+  i wo n't try to convince you because i simply present a build that will do better in cpu bound scenarios and you present one that will do better when gpu is needed more . 
+  neither will outperform the other 100 % of the time . 
+  there are 2 reasons why i recommend skylake over your solution . 
+  first getting rid of a gpu bottleneck is very easy . 
+  usually all you need to do is tone down some graphical settings or resolution and you gain a fps boost . 
+  however , you can rarely do much about a cpu bottleneck ( except overclocking i guess ) and it can cause stuttering which can be very annoying . 
+  and secondly , the i5-6400 is only about 5-10 bucks more than the 4460 and with a decent cooler and oc you 'll be easily able to match the 6600k in performance throwing the dilemma you 're presenting here completely out of the window . 
+  1151 has the same mounting system as 1150/5/6, 
+  i think you 're underestimating how easy it is to cpu bottleneck games , and how many games are cpu dependent in general . 
+  all the benchmarks i posted above were done with a titan which is comparable to 980ti so you 'll see similar bottlenecking . 
+  this benchmarks compares differences with various clocks and ram frequencies of an i5-6500 - already more powerful at stocks speeds than the 4460 . the results ? 
+  4 out of 8 tested games were cpu bottlenecked despite being paired with a titan ( and we can assume 980ti would yield similar results ) . 
+  and we 're still talking about mainstream aaa games where you 'd expect gpu to do all the work . 
+  do you play mmos ? 
+  all of them will be cpu bottlenecked . 
+  do you fancy games that try to simulate anything ranging from arma 3 or cities skylines to kerbal space program ? 
+  again , everything is going to be extremely reliant on cpu and gpu wo n't carry it . 
+  you can shave like $ 40 by getting 2gb 380 . even at 1080p the increased vram makes little to no difference in most games . 
+  i 'm not 100 % certain but pretty sure turbo is just on the fly overclocking so when you 're already overclocking your stock speeds it 's basically useless for you . 
+  what frequency are you at now and what is your llc set on ? 
+  get a live cd/usb with linux and use that to download and copy the drivers on your hard disk . 
+  ca n't go wrong with the samsung . 
+  avoid the bx200 at all costs, 
+  1 more 8gb , preferably the same model or one with same frequency and timings, 
+  llc is very likely the culprit , change it to some other value ( ca n't help you here since i do n't have experience with asus bios ), 
+  hwinfo should tell you temperatures under cpu package and under motherboard is cpu temp, 
+  you can be cpu bottlenecked even without hitting 100 % cpu utilization , most games do n't even utilize 4 threads let alone 8 of i7 . 
+  better way to find out if you 're cpu bound is changing graphical settings and resolution . 
+  if it does n't do anything you 're cpu bound, 
+  cooler to overclock cpu , ssd and gpu . 
+  you 'll have better colors but if you 're choosing choosing between 60hz ips and 144hz tn , i 'd recommend the 144hz every time . 
+  not sure if it 's within your budget but i 'd get the cheapest z170 board instead . 
+  in a lot of games overclocking the i3 will give you similar ( sometimes better ) performance to stock i5 with just cheap cooler like cm212, 
+  probably but the psu probably wo n't be able to handle it, 
+  well , it will increase temps from the fact that your cpu stops undervolting and throttling itself rather than llc inherently producing more heat output . 
+  i can recommend it for games . 
+  lots of people say you should n't pick up 144hz if your machine ca n't do it but i disagree . 
+  75-85fps is enough to see noticeably better motion clarity compared to 60hz monitor . 
+  there also are n't any 1080p 120hz + ips monitors that i know of and 1440p ips panels with high refresh rates are not only extremely expensive compared to 144hz tn but you 'll need serious hardware to run games on high framerate on them in the first place . 
+  no quite the opposite , low ram frequency might bottleneck you in some cpu bound scenarios . 
+  load up the xmp profile to get stable values the ram was tested for . 
+  if it 's coil whine then probably not . 
+  depends how much do you want the upgrade really . 
+  if you can hold on i 'd probably wait . 
+  what are you actually changing ? 
+  if you 're only changing motherboard , you might need new drivers but that 's it . 
+  you do n't need different cables . 
+  if you go with z mb you 'll be able to oc the 6500 so it 's worth it . 
+  oc 6500 will beat oc 4690k most of the time . 
+  you 'll also gain more from ocing the 6500 than if you would oc the 4690 . 
+  yeah it will still reduce noise and temps . 
+  no reason not to oc when you have it though . 
+  it 's fairly similar , unlike k chip you just have to decrease ram clocks afterwards . 
+  you can find step by step guides depending on the bios you have to help you out . 
+  you want source on skylake having higher ipc or what ? 
+  6500 has lesser base clock but both will oc about the same , which is why you get more % from it . 
+  this is various i7s at same clock https://www.youtube.com/watch?v=4sx1klgvaf0 , skylake performs the fastest . 
+  while not a test of i5s like you want it should give you the picture . 
+  also you 'll going to be more cpu bound on i5 so if anything there could be even bigger even difference ( although that 's just my assumption so feel free to ignore it ), 
+  why would anyone kick themselves by saving $ 70 for cpu ( if they go with 6400 ) that overclocks identically to the 6600k and are n't affected by this at all ? 
+  you can still do it just do n't use the bios that disables it . 
+  it 's not pay2win if you pay certain amount a month to gain all the advantages you can get !, 
+  flawless logic, 
+  any skylake is overclockable with z board and a right bios . 
+  yeah , however it 's okay to claim that you have to have overpriced `` cosmetics '' with stats , dye rng boxes and pay2win `` convenience '' items in a buy2play game that is more than 1 year old with all content except translation already done otherwise you ca n't break even like all the apologists here are doing .

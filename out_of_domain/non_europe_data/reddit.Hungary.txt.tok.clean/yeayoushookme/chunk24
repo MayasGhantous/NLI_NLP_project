@@ -1,0 +1,100 @@
+  how ? 
+  that , or the ceiling , halfway between the sofa and the speakers . 
+  the back wall would be the next priority , but certain cf 's have a pleasant diffusing effect . 
+  i like the cut of your jib , lad !, 
+  i like the behringer deq2496 , but i do n't know if it 's the best kind of gear if you want to show off . 
+  it would be nice if itunes automatically adjusted the gain for these tracks so they no longer stood out , removing the incentive for static mastering . 
+  storage of the the image in memory could be in gamma 2.2 space ( which would make sense even with 16bpc images ) , but thanks to gegl , nearly every operation is done in linear space with 32bpc accuracy . 
+  one important drawback of using 8bits per channel is that you do n't have good graduation when using ridiculously large color spaces . 
+  you 're basically limited to using srgb for every operation , which often means that you have to fix out of gamut colors in your raw converter . 
+  ( like led lights at a concert , those always want to distort in an ugly way if you are n't careful ), 
+  i think it should be said , this is only so you can access tpb to search for content , and not to actually transfer large files . 
+  using p2p over tor is bad . 
+  do n't be bad , m ` kay ? 
+  ctrl-f replaygain ... no ? 
+  maybe next time then . 
+  how does mp3gain work with flac/ogg/etc ? 
+  have you archived the funtions ? 
+  you need to archive both rpn ( ) and rpn_202 ( ) for it to work . 
+  i have , but on a hw2 , and emulators on pc and android . 
+  on a related note , i did n't know there was a hw3 version of the ti89 . 
+  are you sure you are n't using the ti89ti ? 
+  when i tried installing rpn on a titanium emulator it failed . 
+  it probably is n't compatible . 
+  kleptocracy . 
+  i do n't know about the possibilities for the titanium . 
+  when i was looking for a calculator i was explicitly shopping for the ti89 because of the ti89ti 's failure of the rpn interface inside the emulator . 
+  maybe you can find someone willing to swap their ti89 for the newer ti89ti . 
+  it is absolutely worth the hassle if you want a great rpn calculator . 
+  i 've used an hp48gx and a hp50g before , but i believe the ti89 rpn to be the holy grail of rpn graphing calculators . 
+  which country is run by little girls * now * , kazakhstan ? 
+  why does it resample at all ? 
+  when there 's a single source , should n't it set the dac to the same sample rate as the sound file ? 
+  also , is there a way to find out what sample rate a cpu intensive program , like a game uses , when i absolutely do n't want the sound to be resampled ? 
+  note that sinc ( t ) based , linear phase resamplers must have a delay , which you might notice when playing back videos . 
+  ( unless you compensate somehow ), 
+  13.10 is n't coming out till october this year, 
+  dpi has zero effect on the data , it 's metadata that maps pixels/coordinates to physical dimensions . 
+  if i remember correctly , you can alter the dpi in the edit-resize menu . 
+  change the setting , and leave the resolution the same , then save the file . 
+  a [ tilt shift lens ] ( https://en.wikipedia.org/wiki/file:24mm-tilt-lens.jpg ) is a special kind of lens that can be tilted and shifted , in order to manipulate the focal plane in relation to the sensor plane . 
+  it is usually found in the kit bags of architectural photographers , where it is used to correct for perspective distortion , or landscape photographers , where it is used to achieve a greater depth of field . 
+  used creatively in the opposite manner , it can dramatically reduce the depth of field of an image , which gives the viewer the impression that the subject of the image is tiny - since such low depth of field is usually found in macro photography . 
+  op 's image however was n't taken with a tilt shift lens , instead it was manipulated so that parts further from the center are blurred more . 
+  well there 's the cheap method : apply lens blur on a copied layer ( lens blur = convolution with a disc ) , and mask the parts that you want to be sharp , like along a thick line with smooth edges . 
+  the more interesting way to do it is to use a depth map to determine which parts to blur . 
+  a depth map can be made from a pair of stereographs using [ this tool ] ( http://registry.gimp.org/node/10217 ) for gimp for example , and it can be used as a mask for the blurry layer . 
+  hope they do n't talk at the same time , cause that would kill the output . 
+   criticising, 
+   without having a clue, 
+  actually , your browser will act exactly the same , regardless of how you access a website . 
+  so this could even be used to de-anonymize someone who 's on tor . 
+  the second law of thermodynamics . 
+  only some hypothetical ones . 
+  sorry , what is p in twp ? 
+  on linux everything is a 64bit app ( very few exceptions ), 
+  aa does n't work with the catalyst drivers yet . 
+  it 's problematic in every game , not just unity . 
+  is it the latest version ? 
+  ca n't be done without compromising performance / latency ; but you can try virtual audio cable to route the system audio output into a vst host and use whatever plugin you want ( reaeq , electri-q , etc ), 
+  you 're much better off using a plugin in your player though . 
+  there are versatile parametric eq 's for every major program out there . 
+  yes , but it would add a small delay that would de-lipsync the audio from the video . 
+  the two most precious currencies of the internet . 
+  you are contradicting yourself in every sentence . 
+  truth : a pickup with a lower inductance will have a greater bandwidth ( it 'll pass more high frequencies ) while having a lower output due to having a lower number of windings . 
+  this could make emg 's sound really bright . 
+  but they are n't bright , because they 're regular overwound pickups with a high inductance , coupled with an amplifier under the black epoxy coating . 
+  also , it having a lower inductance ( greater bandwidth ) would rather mean that it has superior * harmonic quality * , whatever that 's supposed to mean . 
+  emg pickups are regular pickups dipped in black epoxy , that have small surface mounted op-amps inside them - thus they require external power . 
+  the thick epoxy coating will keep the wire inside from moving , virtually eliminating microphonic response of the pickup . 
+  the on-board amplifier will ensure that the guitar sounds the same regardless of the length of the cable you plug into it , and that the volume control wo n't have any effect on the instrument 's tone . 
+  also , the amplifier boosts the signal a bit . 
+  this is n't a notable difference imo , it 's probably more of a marketing effort . 
+  pickups that are louder sell better . 
+  will cerberus survive after the formating of the data partition ; as in factory wipe/restore ? 
+  ( like theftaware/avast antitheft ), 
+  that 'll clear stuff from the / system partition . 
+  the space for apps ( / data ) will remain mostly unchanged , and space for media ( / storage/sdcard0 ) will not see any difference at all . 
+  you 'd need to repartition the device which is either impossible , or just very very risky . 
+  samsung screwed this up , plain and simple , and there does n't seem to be a way around . 
+  just so you know : the updater script can back up apps before wiping / system . 
+  check out your / system/addon . d directory for examples on how to make this work with whatever app you have in the / system partition . 
+  feedback through the pickup is unwanted . 
+  it 's an uncontrollable squeal that sounds very much like what you get from pointing a microphone at a speaker which is playing back the sound of said microphone . 
+  feedback that 's beneficial happens due to the interaction between the speaker and the guitar * strings * , not the pickup . 
+  mechanic waves blast the strings and thus they keep vibrating . 
+  the other issue regarding microphonic pickups is tonality due to the pickup transmitting vibrations of the body . 
+  neil young considers this to be an important part of his tone , for example . 
+  i , however , do n't think a wax-potted dimarzio is in any way different from an emg in this matter . 
+  neither are microphonic enough to make a difference . 
+  and the signal going to the op-amp is n't likely to be weak . 
+  there was no emg pickup that i know of that survived dissection , but they have a ton of really thin wire on them , as much as any other overwound pickup . 
+  they might have a lower voltage output if the magnet 's weaker , but not because of the lack of copper . 
+   why would you need to amplify a signal that was already strong enough for an amplifier, 
+  i ca n't explain it . 
+  i know people who bought emg 's because they were louder . 
+  they probably did n't know what the gain knob on their amp was for . 
+  what is a macbook supposed to easy ? 
+  i do n't think he 'll notice, 
+  foobar 's eq used to be crap - an infinite steepness zero-phase fir filter that caused all kinds of unnecessary ringing .

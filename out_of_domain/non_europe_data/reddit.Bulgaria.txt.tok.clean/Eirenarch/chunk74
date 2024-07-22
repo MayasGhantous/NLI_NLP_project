@@ -1,0 +1,100 @@
+  sure it is insignificant in the grand scheme of things but in a test whose whole job is to construct some json or serve an empty page it may prove significant, 
+  do you know how many projects i have worked on care about this - 1 ( out of like 10 ) . 
+  all others have been either internal systems or public interface for some system that has no alternative like a system where you check if you have unpaid taxes or something . 
+  i do n't know why people think most projects are affected by these issues . 
+  either my experience is skewed or yours . 
+  i am not saying that slow is good just that speed is not always a requirement . 
+  the keyword for implementing value types in c # is indeed struct but this is quite different than c++ 's struct so i avoid calling it struct . 
+  what is more the c # documentation consistently refers to value types as value types , not structs . 
+  this article caused such a facepalm that my head still hurts . 
+  their top argument was that the methods were called with sql style names and not haskell style names ... come on !, 
+  also if you use an orm you 'd better have a way to translate your query syntax to what the orm understands . 
+  hql is primitive and if for some reason you use an orm it should have a linq-like provider . 
+  good luck pushing functional constructs to the most conservative and slowly-moving community in the world especially without this `` cheat '' . 
+  the java community is quite slower in my opinion . 
+  they are not only slower to accept fixes and improvements to their platform , they are slower to accept new paradigms but ironically they are slower to accept new versions of their platform . 
+  my friends who are java devs tend to work much longer on non-latest versions of java than . net devs . 
+  and finally the . net community has a kind of mentality that whatever ms says we should use . 
+  while not always helpful this mentality certainly helps with adoption . 
+  the very fact that we discuss something 5 years old and very well accepted in the . net community vs something not yet released for java is proof of that . 
+  in the meantime we went through dynamic and are currently swallowing async . 
+  until java 8 is released we might be getting ready to accept the next big thing . 
+  we are anything but slowly moving ( at least when we are kicked by ms ), 
+  it sounds like something negative to say about the . net community but i would say that it is a net positive . 
+  microsoft are more often right than wrong so statistically if you follow their lead you will be ok and the average programmer wo n't bother researching new paradigms and libraries so if ms pushes them it will be good for everyone since more advanced programmers will be able to use them knowing that their more average peers are familiar with them . 
+  backward compatibility for the os is very different thing from what is discussed here . 
+  it is not like silverlight or xna do n't work on win8 ( or wo n't work on win9 ) it is just not actively developed, 
+  silverlight got some foothold into enterprise deployments . 
+  basically it was and in fact still is a way to develop a desktop app but deploy in a web-like way ( via url ) . 
+  best of both worlds if you ask me . 
+  if only they managed to convince apple to let silverlight run on ios we would have a very different story . 
+  doomed from the start if you think the attempt to get it to run on ios was doomed from the start . 
+  otherwise it had the potential to rule the world . 
+  btw sources actually say that ms tried very hard to convince apple to let them run sl on ios . 
+  what if they had pulled enough money or something else that would convince apple ( patents , technology , office on ios , etc. ), 
+  and apple agreed ? 
+  microsoft knew that they are doing something illegal but wanted to point out that google are blocking them and this is why they created the youtube app . 
+  i am not saying google are doing something illegal i am saying they target specifically ms. how is that they release an youtube app on ios but wo n't even take the youtube app ms built for them on wp ? 
+  ok even then when did ms go to great lengths to not break anything for any product but the os ? 
+  they are breaking things left and right with ie , office , sharepoint and many other products . 
+  it runs only in ie and i have never heard anyone using this functionality . 
+  i do n't even know if it is still supported . 
+  web apps vs desktop apps is entirely different debate . 
+  silverlight apps are at their core much more similar to desktop apps than web apps and this is especially true compared to the web apps at the time ( before everyone went the single page app route ), 
+  the . net team should work with w3c ? 
+  what for ? 
+  on the other hand i do n't know why anyone would prefer to build applications with a document format and a language quickly bundled with this document format instead of programming with a framework built for building actual application ui with a decent language . 
+  this is like preferring to build applications in word 's . doc with vbscript . 
+  uhm what ? 
+  what hacky things are you talking about . 
+  it is not like asp.net only worked on ie or something . 
+  these has absolutely nothing to do with standards . 
+  this is how they chose to implement their framework . 
+  having state is not against standards and in fact hidden fields exist specifically for this reason . 
+  on at least one occasion i duplicated viewstate functionality through hidden fields because i needed it . 
+  web forms is no more opposed to web standards than the single page applications that are now all the rage . 
+  in fact the evolution of the web has been driven by hacks that were against its original use case which as i already pointed out was displaying documents . 
+  in fact i still think that web forms is the most ingenious web framework to have ever existed . 
+  obviously with the types of apps we build today it is somewhat outdated but so is mvc or any other way to render html on the server . 
+  web forms went to great lengths to make the web platform more like application platform and hide all the document bullshit that is built in into the core of the web . 
+  when you forget why web forms was so great always remind yourself that you are using a document format analogous to . doc to build applications . 
+  html was originally designed to format documents . 
+  just like doc . 
+  yes the doc file format is much harder to use as a developer but the very fact that you are using document format to build applications is quite a problem . 
+  the thing is simply not designed for applications . 
+  one example is that the elements are not actually controls like you would expect from an application framework . 
+  the elements are hints for the client with semantic meaning which the client can choose to interpret in suitable way for the device . 
+  an application has controls that are defined by their behavior which is not supposed to change and the controls do not have meaning on their own . 
+  on the contrary the in html elements have a meaning and their behavior is allowed to change so it is possible ( and common ) to write totally wrong html that works exactly as required by your application . 
+  the problem arises when the client changes how it represents that element and then your wrong semantics come back to haunt you . 
+  the classical example of this failure is building layout with tables which i believe you know is a serious issue but this is only an issue with html . 
+  how come it is not an issue with xaml ? 
+  because xaml is not a document format ( although we still say `` xaml document '' ), 
+  it is definitely moving in that direction but it will always be dragged down by its roots and by the fact that it still needs to be used for displaying documents . 
+  in addition it will always be tied to a language literally developed in two weeks ( btw impressive job for 2 weeks ) . 
+  let 's face it the web platform is the nuclear peace of the it industry . 
+  it sucks for everybody but nobody will let anyone else replace it so we are stuck with it . 
+  i do n't think anyone commented the source code but i am certain that ms would have given them the code had google requested it . 
+  the original ms youtube app did not display ads , google complained , ms pulled the app and returned a month later with ads and removed option to download videos . 
+  then google said that the ads were not relevant enough ( which is impossible because ms do not have access to the same apis google uses to select ads ) and most importantly they said that the app should be developed in html . 
+  ms noted that it is impossible to develop an app with matching functionality in html and in fact neither the ios app nor the android app are built in html . 
+  what is currently on the windows phone marketplace is a wrapper for the mobile site but everyone agrees that this is inferior experience to native apps both on competing platform and the ms app . 
+  btw i think if ms have the balls they could take them to court for abusing monopoly position ( internet video sharing ) to suppress competition in another area ( mobile platforms ) . 
+  the video download was removed and the only reason the ads shown were not relevant was that google denied access to the specific apis that are required to implement relevant ads . 
+  i do n't know how the app can be damaging to the youtube brand if it is much better than the app they have as an alternative ( the wrapper for the mobile website which btw is also called youtube ) . 
+  ms specifically cited much higher user ratings of their new app ( i can confirm it was much better ) . 
+  this brings us back to our original point - google tries to damage ms ( and specifically ms ) even if they lose more from it . 
+  of course . 
+  imagine how good it will look on their resume when they list that they worked for alan t. 
+  too bad the post is 5 years old or you could actually bid on the project . 
+  so why did n't google allow the app after the download was removed ? 
+  after all the companies announced negotiations and agreement and google came back with the absurd html requirement . 
+  as i said i am perfectly sure this damages google more than it damages ms both in terms of reputation and in terms of revenue . 
+  if it was a one off thing i would believe they are protecting their brand but it happens on a regular basis . 
+  for example they blocked ie on wp from accessing google maps and cited standards support while the very same engine on the desktop worked just fine . 
+  they reversed this a week later . 
+  i wonder how this comment would look if the results were reversed and ie was at the bottom , 
+  windows phone please . 
+  no fucking chance you are going to win the match if you have n't played for so long . 
+  maybe proxy rax + bunker rush can win you a game ... maybe . 
+  i 'd rather play doom at 60 + fps than anything at 30fps .

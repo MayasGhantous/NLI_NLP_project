@@ -1,0 +1,100 @@
+  i still could n't save the data to a format supported by sox . 
+  to play it back in octave :, 
+  sound ( x ,44100 ), 
+  thanks to fft , it 's wicked fast . 
+  you 'll have a chance to try more delay values to perfectly remove the doubling . 
+  good luck !, 
+  * install the developement headers for the libraries the program depends on ( the package usually starts with ` lib ` and ends with ` - dev ` ) . 
+  the list of dependancies should be in the readme file, 
+  * run ` . / configure `, 
+  * run ` make `, 
+  * ( optional : install the program to / usr/local by running ` sudo make install ` ), 
+  those who are likely to care are not part of the population apple markets their computers to . 
+  people buying apple are used to this kind of abuse . 
+  typing on a mobile screen ... 
+  the x = y. 
+  / h ; is the deconvolution itself ( deconvolution being division in frequency domain ), 
+  check the sample values at each step , e. g. check the first 10 samples of y by typing y ( 1:10 ) without a semicolon . 
+  it should be a bunch of floating point complex numbers , and not anything else . 
+  if it 's a bunch of nan 's or infinites , something 's wrong . 
+  same goes for h and x. 
+  after the ift , compare x to y , the first half second should be almost the same . 
+  are you certain the delay is exactly 11041 samples ? 
+  as i said , this * has * to be perfect . 
+  use a gui like audacity to measure the delay using a transient present in the recording . 
+  if you get it wrong , the sound will get worse , so if you get a strange noise , try again . 
+  sound ( ) might be linux specific , or maybe it 's in the more recent versions of octave only - i 'm running debian sid on my machine . 
+  it looks like it uses sox for playback , so it probably needs to be installed as well . 
+  you can set the output to restricted ( bt . 
+  i do n't think frodo has the option . 
+  i do n't think there is a screen that is n't compatible with full range signals though . 
+  600 ohm headphones are ten times * easier * to drive than regular low-z ones . 
+  you will get significantly lower distortion levels from the same amplifier , along with higher bandwidth . 
+  what you * might * lack , is ** voltage ** , so with lower end headphone amps , 600 ohm cans will sound better , but they might not be loud enough to go all the way to your pain threshold . 
+  the issue here is whether or not the built in headphone amplifier is used at all . 
+  this depends on the audio chip manufacturer 's implementation of the intel hda specs , and it 's very possible , that the 600 ohm impedance is sufficiently high not to trigger the headphone amp . 
+  if your sound chip is n't correctly sensing the load , you have to retask the jack manually . 
+  the audio chip vendor ( e.g. 
+  realtek ) usually supplies a utility app that allows you to do this , by enabling the appropriate checkbox . 
+   mentioning electonic damping in regards to a driver that moves less than a tenth of a millimeter , and is already overdamped, 
+  tl.dr : i guess audio engineers get to skip physics 101, 
+  raid5 is a good compromise as well . 
+  you get to use more of your disk space , but you can still lose a disk . 
+  i use raidz in my linux htpc . 
+  it needs more ram than usual , but i think the added features are worth it . 
+  codecs are a non-issue on linux btw . 
+  whoops , forgot to disable it , and lcc is now at 190k, 
+  you can disable lame 's lowpass filter by running it with the ` -- lowpass -1 ` switch, 
+  why are you bothering with mp3 , may i ask ? 
+  edit : my question 's been answered . 
+  just use lame , eg ` lame -- lowpass -1 - b 320 in.wav out.mp3 `, 
+  you would need a reference , which could be attained with a calibrated spl meter . 
+  you start playing back a sound on a speaker , and you measure it with both mics at the same position . 
+  e. g. if the sound is 50db spl , as shown by the sound pressure meter , and the recording is at -24 dbfs , then you can get the spl value by adding 74db to the recorded level . 
+  correction : db spl goes from negative infinity ( - inf db spl = 0pa ) and does n't have a high bound . 
+  practically it 's limited by air 's thermal noise , so you ca n't go few dozen db spl below zero . 
+  atmospheric pressure is 190db spl , or 10 ^ 5 pa , so everything above that is no longer sound , but a shockwave, 
+  although being stuck with nvidia binary drivers is probably much better than being stuck with catalyst . 
+  or add a second drive in a raid0 fashion . 
+  io speeds increase by the number of drives you stripe the filesystem across . 
+  kudos for testing even a shitty advice like that . 
+  i do n't think there 's a dedicated tracker yet , but the web 's full of free 3d content ( e.g. 
+  http://www.thingiverse.com/ ), 
+  you are wrong . 
+  this is a good thing , unlike curved tv 's . 
+  this is n't the place you 're likely to get answers , try / r/audioengineering instead !, 
+  i do n't know much about ribbons , but afaik higher impedance inputs generally have a worse noise performance , so you probably want to avoid those . 
+  high-z is usually the guitar input , with input impedances well above 100k\u03a9 . 
+  you wo n't damage the mic irregardless of the input used , at least as long as you do n't turn on the phantom power . 
+  some ribbons are designed to be compatible with phantom powered inputs though . 
+  read the manufacturer 's specifications . 
+  right , looks like they forgot to mention it . 
+  typing `` se x1r phantom '' into google lists a few reviews that state that it 's safe from accidental phantom power application , though i 'd be wary of using it that way . 
+  if you want to use dmix , you have to decide whether you 're a movie person , or a music person ( edit : or a rich person with many cpu cores ) , as dmix can only operate at a fixed sample rate . 
+  pulseaudio will open the device appropriately in either 48khz or 44.1 khz , and it 'll only resample if a second stream comes in . 
+  a lot of these api 's are deprecated . 
+  it 's usually : application thinks it uses an alsa device , which is actually a virtual alsa sink within pulseaudio , which dumps the audio to a sound card using alsa . 
+  you 're wasting cpu cycles to make your audio sound worse . 
+  there 's a very high chance that pulse wo n't resample anything , only in special cases . 
+  for example : you 're playing back music . 
+  pulse will open the audio device with 44100hz sample rate . 
+  there is no src going on . 
+  then , if you start a youtube video , which has a 48khz sample rate , the clip 's audio stream will be resampled to 44100hz . 
+  * but * if there was no music playing , pulse will have opened the audio device in 48000hz , avoiding src with the video 's sound stream . 
+  dmix will resample . 
+  pulse will switch hardware sample rate whenever possible . 
+  that 's the difference . 
+  replying to your edit : check out the ` alternate-sample-rate ` option in daemon.conf, 
+  that 's okay , this means you 're a music guy . 
+  i like it when the thx deep note comes out as intended however . 
+  youtube is 128kb/s aac , just so you know . 
+  no dynamic information is lost during conversion . 
+  it made it worse, 
+  * vlc : media player, 
+  you ca n't synchronize two audio cards , unless you set one up to use the other 's clock . 
+  this can be done if they have clock inputs and outputs , usually bnc connectors . 
+  without the clock input , you have to desolder the clock crystal on one card , and connect the clock of the other card . 
+  the only thing i know of that can overcome this is pulseaudio in linux . 
+  it can combine audio devices , and use a sample rate converter to correct for the minute differences in the clock rates . 
+  this is n't related to audio at all . 
+  these are ultra high speed fet 's .

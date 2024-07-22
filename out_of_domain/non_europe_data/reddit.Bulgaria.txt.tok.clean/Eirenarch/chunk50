@@ -1,0 +1,100 @@
+  to be honest chances are that the person you are replying to thinks the same . 
+  i do n't see what 's wrong with the os apis being accessible through javascript though . 
+   it only gets worse . 
+  winjs is pretty much the worst javascript thing since ie6, 
+  what is so wrong with giving js access to native apis, 
+  even if this is true ( and it is not , especially if you compare it to browser js apis ) i do n't see how this is a bad thing happening to javascript . 
+  is this c++ thing ? 
+  i always thought that closure is a function that captures an outer scope variable ( i.e. 
+  the combination of the function and the variable ) . 
+  if you have a lambda expression without an external variable does it still produce a closure ? 
+  this is according to the article but according to wikipedia things are somewhat different . 
+  this is why i asked if these were some c++ specific definitions, 
+  well i 'm sorry for you but i would be just as unhappy if the start menu returned . 
+  of course they could make it an option but every option has a cost . 
+  i am perfectly sure the result of the expression is not called closure . 
+  according to the article the object that represents the computation is closure however i am think it should only be called closure of it captures variables from the outer scope, 
+  i really do n't understand how people are able to find anything in the start menu after win 98 ( not that it was much better then but we had a lot less programs ), 
+  when you evaluate a lambda you get an object that is the result of the function call . 
+  the lambda/closure itself is an object that represents the computation . 
+  when you execute the computation represented by the object that represents the computation you get the result from the computation . 
+  the result and the closure itself are different objects . 
+  according to the wikipedia article a lambda expression that captures nothing is no different from function pointer or at least this is how i read it . 
+  well i do n't know why there is so much requests to bring the start menu back ... after all there are a lot of people who never want to see the start menu again , 
+  every option is cost and this is pretty big option to support . 
+  of course they may decide it is worth it . 
+  i personally find other aspects of the metro ui more annoying like the settings being split between control panel and the metro settings and the hot corners concept . 
+  yes . 
+  although i still do n't see why they use the word closure for what is essentially a function pointer ( the case with no variables captured ), 
+  we open visual studio and write code , 
+  maybe there are kinds of development it is not suitable for ( for example i have no idea what this line does and why the hell anyone needs to apply transformations to a bunch of fortran files ) . 
+  i 've worked on large web apps and mobile apps and it works just fine . 
+  certainly our jobs are worlds apart but let me remind you that you said that you ca n't understand how `` anyone '' can develop on windows . 
+  even if your job is hard on windows the majority of devs can work just fine on more standard ( or boring if you like ) projects . 
+  for formatting files and extracting documentation i would probably depend on the tools in the ide . 
+  you may be correct that if i learn how to use them i may never look back but there are certainly more tools / libraries/languages that are helpful than we have time to learn . 
+  so i pick where to invest my time based on my interests and the dev style i am used to . 
+  it is probably not optimal but i doubt anyone can be sure what optimal is since that would require learning all existing tools . 
+  it does if you are an enterprise then you can set up your own `` store '' . 
+  this is not an option for normal users though . 
+  anyone saying that comments are there to explain why the code is there and not what it does still have n't understood what good code really is . 
+  good code also minimizes things that are not so obvious . 
+  i attribute this to complex codebases ending up with certain amount of bad code . 
+  i would think so if i had n't seen significant and codebases written in a language i have no real world experience with where i was able to understand the code without trouble . 
+  ( i am thinking of a specific starcraft ii playing ai written in c++ ), 
+  generics or gtfo !, 
+  in my opinion statically typed language without generics/templates can not be tolerated . 
+  so you would be less productive if go had generics ? 
+  my point is that a statically typed language will always result in better productivity if generics were added in a reasonable way . 
+  if you read my original comment you will know that i have written 0 lines of go code . 
+  do i have to expand the gtfo acronym ? 
+  however i have written some code in c and in pre-generics java and i know i do n't want to write any more . 
+  so how exactly does go handle collections and other data structures without generics . 
+  i vaguely remember that some of the collections got a special case treatment by the compiler the way arrays do in most languages . 
+  ok so how do you do stack < int  in go ? 
+  so to prove my point i have to convince people that this is bad ? 
+  frankly i never understood why they thought compilation speed was such a big deal . 
+  on the other hand i think every language should take the tradeoff . 
+  list < t  is very complex feature for sure . 
+  ok then i stand by my original position . 
+  go would be definitely better with generics . 
+  i am not aware of any kind of programming that does not need data structures and i certainly think writing a type for each type argument is not a good think . 
+  i 've seen it in production codebases . 
+  sure . 
+  and i am perfectly sure that no statically typed language without generics can possibly be a language i like . 
+  there are countless languages out there with countless of ideas . 
+  i have to choose where to invest my time and i will not invest it in a language which lacks basic features because i consider this a must for statically typed languages . 
+  what bugs are you talking about . 
+  list < t  can not be converted directly into list < s  in c # and java without wildcard or additional methods . 
+  i am not sure how c++ templates work in this case . 
+  i am not sure what the pecs rule is . 
+  so how much compilation time would generics add had they been added to go ? 
+  i am not advocating adding covariance and contravariance in any form . 
+  not that i am against adding it but at least provide generics then we can talk about variance . 
+  this issue simply makes generics less powerful . 
+  it does not mean that code with generics is worse . 
+  he was referring to the java version of this which admittedly is far more complicated since the java language shifts the responsibility for covariance and contravariance from the designer of the class to the user of the class . 
+  obviously you think ( string ) ( ( someentity ) ( ( list ) dictionary [ someint ] ) [ someindex ] ) . value is much better syntax than idictionary < int , ilist < someentity < string    because you are ready to sacrifice static type checks for this . 
+  i just fail to see how the former is better at all let alone worth sacrificing type checks . 
+  except c with generics would be better . 
+  c++ templates are surely complex and still c with added c++ templates is better than pure c. let alone that i see no reason why simple version of templates where they work as find & replace can not exist . 
+  if they think c++ templates are too complex they may make go templates simpler . 
+  i would not . 
+  i think c as a language is designed much better than c++ and the latter is certainly a mess . 
+  however i would take c++ over c any day and just wo n't use features i find too complex . 
+  in fact i believe that statically typed language should have generics/templates so strongly that i would actually tolerate the whole complexity and mess in c++ just to have templates . 
+  but go does not have this more sensible solution . 
+  it has the solution above ( casts ) . 
+  generics are more sensible than casts both syntactically and by virtue of providing compile time type checks . 
+  and then they fail by not adding generics for no fucking reason . 
+  they even say they have no reason for not adding generics . 
+  even without covariance generics  non-generics . 
+  after all you can go for list < object  and have the same result as non-generic code in cases where you want . 
+  also printlist should be printlist ( ienumerable < base  list ), 
+  i simply ca n't believe that java/c # without generics results in better productivity than java/c # with generics . 
+  are you sure your team has read a single sentence on what generics are or they are trying to guess what the code means ? 
+  but it is wrong to call a list < object  with list < theirtype  . 
+  preventing this is the whole point of generics . 
+  team games can be competitive too . 
+  the idea that 2 vs 2 is not competitive is pure bullshit . 
+  no , in a statically typed language it is not ok .

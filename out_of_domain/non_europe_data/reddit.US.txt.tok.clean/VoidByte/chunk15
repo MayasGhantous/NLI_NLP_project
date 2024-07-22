@@ -1,0 +1,100 @@
+  things will be easier with the `` supported '' distro because the program is packaged for it and has support for the required dependencies . 
+  with ubuntu/mint/debian they are all so close genetically that you should have little issue . 
+  gentoo/arch/slackware would have greater difficulties and might require a bit more legwork to get things straight . 
+  you an swap the telnet command for an ssh and it will work except for the password . 
+  you would need to use a public key ( the best option ) , manually type it or use expect . 
+  because its a fucking hard problem to solve at large scale . 
+  particularly with a content delivery network . 
+  it would mean dropping akamai as their current cdn and rolling their own connectivity . 
+  this in turn will give them a slower and more expensive site until they have good peering agreements and data center connectivity . 
+  depending upon what their current deal with akamai is this could be a hit of up to 4x their current price at least to start with . 
+  it is not a bad cert it is the wrong cert . 
+  cdn 's serve multiple customers from the same machines . 
+  they have to or they would have thousands of machines per pop . 
+  this model breaks ssl . 
+  deploying multiple ssl certs to each machine is ** hard ** . 
+  unless you are using sni each cert must be served from a unique ip . 
+  some browsers ( ie 6 ) still do n't have sni support so you have to serve from unique ip address . 
+  then there is the trust factor . 
+  if reddit wanted akamai to serve ssl content for them they would basically have to upload a ' *.reddit.com ' cert to akamai and have them push that to every pop/machine out there . 
+  this means that that file is a lot less secret . 
+  final option :, 
+  reddit stops serving www.reddit.com from akamai and only uses akamai to serve static content ( pictures , css , javascript ) . 
+  this increases reddit 's bandwidth costs . 
+  they then have to worry about all sorts of new things like peering , transit and more data centers . 
+  at this point they are rolling their own cdn . 
+  which is again not an easy or cheap problem to solve . 
+  he might want to revisit 5th grade . 
+  last i checked japan was n't in hollywood . 
+  though i may be mistaken . 
+  we had a family friend growing up with the last name of kid . 
+  his first child was named justice . 
+  you need to somehow remove the signup . 
+  i wanted to submit something but really not interested in creating yet another account . 
+  particularly for something as simple as a code snippet . 
+  it also depends upon where you live . 
+  the number i would give for the sf bay area is about 50 % over the number i would give for place i 've lived before . 
+  200k i think would be a good money is absolutely not a problem number . 
+  but realistically i think 125k would be plausible to live comfortably with a family here . 
+  dig is available for windows you just have to install it and it is free . 
+  how would you define advanced ? 
+  information about writing a bind config for example would be really simple and rudimentary for someone who works in the dns field . 
+  while [ djb 's notes ] ( http://cr.yp.to/djbdns/notes.html ) are more appropriate . 
+  at the day places like here and ycombinator will always be a hodgepodge of content across the spectrum because everyone is at different levels . 
+  as a professional sysadmin `` it works '' is why i use a mac . 
+  i have enough work in my day to more than fill up the time i 'm at work . 
+  as in i often come home and work another 2-6 hours . 
+  when i 'm not working i do n't want to have to tinker to get things like sleep , music syncing , or wifi to work . 
+  i just want to watch a movie , listen to music , play a game or read a book . 
+   you are n't concerned that that apple wants a big chunk of money out of everything you do, 
+  not really . 
+  i live comfortably and have long been happy to pay for good hardware and software . 
+  i wish distribution deals were a bit better for the software makers and content makers on things like the app store but at the end of the day the deal is n't bad , just not as good as it could be . 
+   do you use an iphone ? 
+  do you see the `` walled garden '' as a non-issue , or just something you do n't care about ? 
+  i use an iphone for many of the same reasons i use osx . 
+  i can plug it in and music syncs to it without issue . 
+  calendar events , contacts and email sync nicely from my non-google sources . 
+  as for the `` walled garden '' that is a harder question . 
+  there are things i 'd like to be able to do with my iphone that i sadly ca n't , for example redirect and answer text messages from my desktop . 
+  if it were an open environment i would be able to add these capabilities . 
+  in addition while the app store is a nice place to install and buy software , i 'd love to have the capability like i have on the desktop to install from 3rd party sources . 
+  i understand the security reasons behind why they limit it but wish it was a configurable limitation . 
+  i had an android phone , the nexus one , for a year and a half and at the end of the day i 'll trade the disadvantages of an iphone for a phone that works ( e.g. 
+  sync ) , does n't have major hardware issues and that i have easy access to hardware support for ( apple store ) . 
+  * edit : fixed spelling and grammar . 
+  started walking two to three miles most days . 
+  noticed recently that i 'm not out of breath half as often . 
+  things like going up the stairs used to wipe me out . 
+  now to just start weight lifting . 
+  there are a couple of ways :, 
+  * anycast : broadcast a vip at multiple data centers then a person 's isp will route to the closest peer ( not necessarily the lowest ms response ) . 
+  * dns : hookup maxmind to powerdns and serve your own answers depending upon closes response . 
+  * external dns provider : you set www.example.com to ns to cnames.provider.com and they do fancy routing to specific machines based upon time of day , geo location , best response time , and machine status/health . 
+  * domain : eu.example.com -  eu servers . 
+  this way sucks . 
+  disclaimer : i work for a company that provides option number three . 
+  not a subreddit but checkout the `` linux programming interface '' its written by the guy who maintains the man pages for the kernel . 
+  it all the gory details for most of the linux system apis . 
+  though from what i remember it is missing a few things for the more esoteric parts like packet_filter . 
+  great though for odd questions fork , or readdir , system accounting and so on . 
+  i 'm an under 25 male with no accidents and no tickets i pay $ 125 in n. ca and that includes my renter 's insurance . 
+  full coverage with a lien granted it is an older car . 
+  there is an alternative though it is n't quite as nice and packaged . 
+  ldap + chef/puppet allow you full power and control for controlling desktops , servers , and user permissions . 
+  file servers then have a few limitations . 
+  unix 's permission model while great for general use gets a bit hairy when you try to adapt it to a big corporation 's acls . 
+  though with proper use of linux facls you can work around it . 
+  my apologies i did n't realize you meant for a mixed environment . 
+  give ` dc ` a try . 
+  brazzers is one of the larger , if not largest , porn companies on the internet . 
+  i do n't have a ` ctrl-s ` nervous tick but i do compulsively type ` : w ` . 
+  i found journey to be amazing for the very reasons that frustrated your friend . 
+  when i started i knew literally nothing about it beyond the fact that it was highly recommended on the internet . 
+  i started playing and figured out how to jump , how the scarf works , what the symbols around the game meant piecemeal as i played around and worked out what they did . 
+  in fact the first time i ran into another traveler i was completely baffled by their presence i was n't sure what was going on and after jumping around and playing a bit of tag i realized what was going on . 
+  maybe i was able to have this experience because i 'm a fairly avid gamer and already had a strong foundation in game interfaces but i felt the game developers left lots of little breadcrumbs in the game to help you figure out how the game worked and what was going on . 
+  it just requires a bit of thought and paying attention to your surroundings . 
+  * edit : adjusted first sentence to be clearer . 
+  i know * really * want a nice trump of amber for the back of my iphone . 
+  the anime is of the first half of the series .

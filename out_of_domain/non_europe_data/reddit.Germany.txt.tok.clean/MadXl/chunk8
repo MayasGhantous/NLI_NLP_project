@@ -1,0 +1,100 @@
+  i guess you might as well submit a new [ build help ] post in / r/buildapc, 
+  why it needs 5 seconds after pressing the power button to start . 
+  but i really dont see it either because i find it quite normally . 
+  maximum gpu length, 
+   gtx 760, 
+  around 220 mm length, 
+  i would say yes . 
+  look at how long your choosen gpu will be . 
+  different producer take bigger fans that make the gpu longer . 
+  * ninja edit it : earlier ( if i am not wrong ) *, 
+  i might not see him too but still i have that old story in my head that wishing earlier * ha * will give bad luck to that person ( \u25d4 \u203f \u25d4 ), 
+  first i do admit that checking everthing like / u/tankerton said will be helpfull . 
+  500 watt would be enough for that normal build but if you are looking to overclock and maybe future proofing a bit take something around 800 watt . 
+  then you might even buy a second gpu oder anything . 
+  always check the efficiency and safety stands and you might check how many rails it has . 
+  if you are still not quite sure and want a second person thinking over it ( * please always consider this * ) then you might also check online psu-calculators like [ this ] ( http://www.bequiet.com/de/psucalculator ), 
+  hahaha thats a nice found . 
+  hope your plans work out , good luck . 
+  maximum cpu cooler height, 
+   gtx 760, 
+  127mm ( amazon ) , yeah you are right that might not work . 
+  sorry if i havent understood your first questions meaning . 
+  at least you can buy the gpu and then test and send it back if it doesnt work . 
+  then sadly you better buy a new hdd because that one is dying ... 
+  checked some pages and it seems you will be fine , [ these ] ( https://pcpartpicker.com/builds/by_part/corsair-case-cc9011069ww ) all have builds with bigger graphic cards . 
+  there should be no concern . 
+  google told me [ this ] ( http://www.gottabemobile.com/2015/07/30/7-windows-10-upgrade-problems-how-to-fix-them/ ) :, 
+  ** we could n't install windows 10 0xc1900101 -- 0x30018 ( new ) **, 
+  incompatible hardware and software are the leading cause of windows 10 upgrade problems . 
+  microsoft 's tools are supposed to tell you when you have a piece of software or hardware that wo n't work in windows 10 , which they do . 
+  unfortunately , it appears the tools do n't do a great job of predicting what apps will cause problems with the upgrade itself . 
+  one of these problems is error code 0xc1900101 -- 0x30018 , and it 's usually accompanied by the message , `` we could n't install windows 10 . '', 
+  microsoft says this is caused by an incompatible driver or security software . 
+  to fix the issue you first have to wait until your pc has returned to its previous version of windows , which it 'll do automatically . 
+  next the company recommends turning off your antivirus software , wireless internet , and any unnecessary extra devices . 
+  next you need to open the command prompt ( admin ) app and type sfc / scannow to insure there are n't any damaged hardware drivers on your device . 
+  * i hope this helps *, 
+  basically only your raid build costs as much as my hole build . 
+  if i could afort that i might put still then probably not . 
+  just to expensiv for me, 
+  `` i want to eat that !, 
+  give it to me ! '', 
+  so i bought all my parts but now am thinking about resending my psu because it might have not enought power . 
+  are my concerns right ? 
+  [ build ready ] ( http://de.pcpartpicker.com/p/lgsjvn ) is 500 watt enough with overclocking ? 
+  if i send the psu back should i bother to change the motherboard because it is not in the black / white color theme ? 
+  thanks, 
+  edit : also might resend the ram but it is much cheaper than black or white ones ... 
+  i cant decide if the optical aspect is enough to buy something for 80 $ more, 
+  well with the case goes the same principal as with the gpu . 
+  if you have the money atm , buy the case , test and maybe send back . 
+  but it would be easier to ask some more people . 
+  yes we are talking about gpu but the cpu cooler has nearly the same restrictions in that matter . 
+  sorry that i couldnt find and give better information . 
+  you may still trust all that builds that use bigger cards than yours . 
+  i would say there will be no problem . 
+  most cards have the same width anyway . 
+  one of each direction sounds okay as long as they arent directly next to each other . 
+  what case are you using ? 
+  might this help ? 
+   go to the device manager and look at the usb devices , find your mouse and see if there is a power management in the properties tab . 
+  if there is , untick `` allow this device to wake the computer '' . 
+  do the same check on the various usb root hubs . 
+  thats sounds better . 
+  i just had this in mind when i searched it myself . 
+  one on the bottom as intake should be enough i think . 
+  you can put one in the top as outtake later anyway . 
+  but if you put one on top to get the best out of it you have to open up the top and then it gets louder :(, 
+   how can i delete everything off my ssd, 
+  format it ? 
+  windows control panel -  management -  comutermanagement -  storage -  diks ( harddrive ) management -  right click the ssd and format [ * all might be called a bit else , my system is not english * ], 
+   how do i actually get windows 10 on that ssd once it is installed in the laptop ? 
+  you want to install it on the laptop hdd first and then push that over to the ssd ? 
+  or fresh install it on the ssd once it is in your laptop ? 
+  edit : [ this tool is great to copy or push everything over from one drive to another ] ( http://gparted.org/ ), 
+  if you have the possibility , take your gpu out and connect the monitor with the motherboard . 
+  if the problem stays its defenetely not your psu in regards to the amount of power needed . 
+  and pcpartpicker says nearly 300 watt ... should be fine . 
+  you just build it right ? 
+  without the sys_2 fan it runs normaly ? 
+  it hasnt ever worked with the sys2 fan ? 
+  [ you checked this ? 
+  ] ( http://www.gigabyte.com/support-downloads/faq-page.aspx?fid=816 ) [ and this ? 
+  ] ( http://www.overclockers.com/forums/showthread.php/748806-beep-codes-for-a-gigabyte-mb ), 
+  the front fan does the same if you put it in the sys_2 fan pin ? 
+  i guess the biggest difference is that the asus can 4 way sli and gigabyte just 2 way . 
+  crossfire is both 3 times . 
+  the difference really comes to what you need or want for the future . 
+  i read that the gigabyte has some quirks sometimes but just in one review and i havent read anything about the asus yet . 
+  edit : [ you might want to check this comment out too ] ( https://www.reddit.com/r/buildapc/comments/3jcimm/simple_questions_september_02_2015/cuopc5k ), 
+  or at least not from scrap and it is much more difficult than building a desktoppc, 
+  like using a 390 and a other amd card in crossfire or just both on the same mainboard or in generall amd with dx12 ? 
+  well i havent found any actually news ( last from 3 . august ) but with dx12 it is possible . 
+  the problem is if nvidia and amd want this feature and then a driver has to support it and a game engine has to support this . 
+  not sure how this will work out . 
+   dual channel memory architecture, 
+  as long as you put the 2 * 2 and the 2 * 4 gb ramsticks in the according matching channel ( a to a and b to b or 1 to 1 and 2 to 2 ) it should work no problem as far as i know . 
+  edit : just rechecked and even if you dont put it in the right spots its like 5-7 % difference not really bad . 
+  still better than just taking out the 4 and just use 8 gb, 
+  build looks nice , but you might want to take a look at a 390 gpu because of the upcoming dx12 and even if you dont need it now to future proof for the same price is never bad .

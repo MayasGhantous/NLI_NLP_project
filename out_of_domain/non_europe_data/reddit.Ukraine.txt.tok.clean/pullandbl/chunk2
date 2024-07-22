@@ -1,0 +1,100 @@
+  page scraping can be complicated and unpredictable if design/html will be changed . 
+  best way is use api or ... make your own by scraping site and store data on your server . 
+  then you will need to maintain 2 projects -- app and your api server , but you will be able to control what your app will get from your server . 
+  also if you will scrape someone site it is always better to contact them and make sure that they are happy with this . 
+  you can absolutely upload images to parse . 
+  alternatives :, 
+  * is google app engine cloud service , you can implement your api very easy in python or java . 
+  they image hosting api have neat way to resize images if you need in different sizes . 
+  * amazon s3 service , they have ios sdk , but i never work with it . 
+  * make your own . 
+  hehe . 
+  image hosting is not hard . 
+  there is sites like track-o-bot that save all replays and probably cab be used as source to train nn . 
+  you can have several methods or functions with the same type parameters inside of one class . 
+  to differentiate what exactly method should be called you need to use parameter with names . 
+  it can be changed by function definition , but only if own code , so not everywhere . 
+  to indicate that you do n't want to force to use parameter name in function call use special # sign to enable shorthand call :, 
+  func multiply ( factor1 : int , #factor 2 : int ) -  int {, 
+  return factor1 * factor2, 
+  more information is [ available in this answer on so ] ( http://stackoverflow.com/q/24045890/85739 ) . 
+  and full official documentation on [ apple developer library site ] ( https://developer.apple.com/library/ios/documentation/swift/conceptual/swift_programming_language/functions.html#//apple_ref/doc/uid/tp40014097-ch10-id168 ), 
+  flask works great with seo as long as you know what it is and dont ' t make your own mistakes . 
+  your most concern is what js framework you use . 
+  for example so called `` isomorphic frameworks '' in pair with flask can be tricky . 
+  personally i prefer to use python3 if i can , but some dependencies still lacks of python3 support . 
+  this template is python3 ready itself , but some dependencies can be outdated . 
+  if you can fit with extensions that are ready to python3 environment then change one string in makefile . 
+  but every time i tried to switch to pypy or python3 it always was a concern will we survive in the future with this decision . 
+  i 'm not biased against something , but it reflect current state of my environment when i do n't have free budget to experiment . 
+  updated documentation with answer about python 3 . 
+  looks very cool . 
+  i thought that something like this should exists . 
+  remember that pyramid project advertised ` paster ` in past , but later changed recommendation . 
+  i will take a look and make template if people actually use this tool . 
+  at least for me it will save some time . 
+  thank you for your comment . 
+  most of sauces you put on your healthy ( or not ) food . 
+  sorry to say , but we made it together . 
+  i think you need to know . 
+  but if you then get another flair ? 
+  one gigabyte mailbox was april fools joke one day . 
+  some time ago i created more sophisticated template for flask projects . 
+  i assume that this one fit your current needs . 
+  but if you project will grow you will meet all problems that i have . 
+  please take a look https://github.com/xen/flask-project-template . 
+  marshmallow support is not included , since i do n't use it , but you can add it by yourself . 
+  actually this answer is not correct . 
+  most popular markup languages ( markdown , restructuredtext ) support inline html . 
+  ansible is python based , but it run regular commands via ssh . 
+  so generally speaking you do n't need to have python on target machine . 
+  customer.io for email automation based on events , also it integrates with segment.com . 
+  i did n't found do they guarantee 100 % data processing , sometimes i feel like some data can be lost , but not sure is it true . 
+  to prove it i need to build my own processing infrastructure . 
+  also i simple ca n't rely on service with limited budget for events in their plans . 
+  every person who are doing analytics in your team can ask for their specific events , but nobody want to invest money and time into searching which events are actually needed and cleanup old that are not used anymore . 
+  usually you are adding new and new events and can find few months later that you have a lot of data which is not used now , but can be used for only one report to check only one idea . 
+  another , but very specific issue is sensitive personal data . 
+  not much to add here , segment by itself is 3rd party service . 
+  so on early stage of your project it probably can fit your needs . 
+  for long term and with big audience with sensitive data in logs you probably will find that you need something else . 
+  in my case we already building our own `` data warehouse '' . 
+  ibuprofen here costs less in ukraine . 
+  check prices http://www.goodrx.com/ibuprofen vs http://tabletki.ua/%d0%98%d0%b1%d1%83%d0%bf%d1%80%d0%be%d1%84%d0%b5%d0%bd/ . 
+  20 uah ~ = 1 usd . 
+  if you want to bring something from drugs then take adderall or valium . 
+  this drugs is not possible to buy legally in ukraine . 
+  i found on some site that this is probably temporary block and you will be unbanned in days or more . 
+  but i do n't know is it true or not . 
+  it is always better to find someone local to help you . 
+  co-workers or friends or people who you will meet . 
+  if you do n't speak russian or speak with accent you probably will be charged few times more if you meet realtors . 
+  actually , there is specific subreddit for such requests / r/datasets / . 
+  i think you can find some interesting . 
+  another useful link http://datacatalog.worldbank.org/ . 
+  worst recommendation ever . 
+  mozilla have a lot of projects thats rely on python . 
+  probably using pypy can save money for them for this amount or more in future . 
+  i hope there is some business decision not only charity . 
+  cancer tumor have more broken cells . 
+  amazing !, 
+  my every time yogg . 
+  i made very nice ( this is my opinion ) template for flask projects https://github.com/xen/flask-project-template . 
+  actually i think this is the best way to organize your relatively big flask projects code . 
+  at this moment it has 113 stars . 
+  second project i 've participated a lot is font bakery this is something like pylint + tools to fix common errors for fonts makers https://github.com/googlefonts/fontbakery , same 113 stars . 
+  you are taking it too serious . 
+  it is not permanent # 1 and it is just a game . 
+  he got his fun for a moment . 
+  i checked his vod , he looks really happy . 
+  i do n't think it should be punished . 
+  it is kiddish . 
+  you should compare bitcoin market with 1800 year . 
+  then all world will be red . 
+  actually cyprus have 2 parts . 
+  north or turkish aka occupied ( ~ 20 % ) and greek part ( ~ 80 % ) , and some part of territory under uk jurisdiction . 
+  and in small villages of poses still does n't use euros . 
+  so if you want to fake big success of bitcoin you are free to count turkish liras or old cyprus pounds . 
+  i 've spent 4 months on cyprus this year and i 've got bill in cyprus pounds few times while were visiting restaurants in small mountain villages . 
+  i but never spotted real notes . 
+  also , i know cypriots statement about north territory that is why i 've listed `` aka occupied '' to be polite to people who 's territory was taken by force .

@@ -1,0 +1,100 @@
+  your head is probably going to explode from this one . 
+  yeah , in that case you do n't really have a choice unless you have the money to get both . 
+  tearing can only be `` fixed '' by some kind of synchronization ( which is either vsync but that introduces a pretty big input latency , or having a monitor and a gpu that supports freesync/gsync ) , or you need to have very high fps which will make the tearing less and less visible until you basically ca n't see it at high framerates . 
+  how is it an exception ? 
+  anyone can get my motherboard ( or any z170 motherboard ) and my cpu ( or any other locked cpu ) and get same results . 
+  and as for ocing locked cpu , here you go http://cdn.overclock.net/0/06/900x900px-ll-06d6e585_cvy0ayy.jpeg, 
+  i understand the cpu-z is unreadable but you can see the clearly locked multiplier of 27x which only i5-6400 has . 
+  not sure what do you want from me , you do n't believe the frequency in hwinfo is real ? 
+  it 's pretty easy for me to provide a proof that i can change frequency of my cpu or ram and i 'd really like a 6600k but you 'd have to be really rich if you 're willing to send ~ $ 300 dollar item to someone over something that can be confirmed true with a simple google search . 
+  it can be removed by some actions ( like joining factions or declaring wars i think , i always lose it eventually when playing neutral countries and taking it ), 
+  clicking the `` you 're at war '' icon and on the top of the window you have a bar which shows which side is winning/losing, 
+  for games the x99 processors will actually perform worse compared to a 6700k because they have lower single-threaded performance and overclock worse and games prefer faster cores over more threads . 
+  for editing the cores will of course matter but whether it 's worth the price in the end depends whether you value faster editing or more fps in games ( and less cost ), 
+  i do n't think you 're getting any 144hz monitor at that price and definitely not a 1440p 144hz one . 
+  the cheapest 144hz monitors are all tn like the benq xl2411z ( i think it 's around ~ 250 on newegg ) . 
+  of course tn has worse colors compared to ips or va but you do get the best motion blur reduction and best latency out of it . 
+  if you want 2 monitors for gaming you could look at the ultrawide monitors instead , not sure how much they cost though . 
+  if you want 2 monitors for real estate i 'd recommend getting a 144 tn monitor for gaming and a 60hz ips or va panel as a secondary ( ips will have better colors but va has better contrast and will work better for movies and the like both will have worse latency and refresh rate compared to the tn but if you are n't gaming on it that 's not a big deal ), 
+  supermicro has some green colored motherboards but i do n't know about their selection ( they are n't available in my country at all so i did n't research them ) . 
+  look into those, 
+  i do n't think dx12 is supposed to do anything new for multicore cpus . 
+  it depends entirely on the devs how well they multithread their games which is the case now and will continue to be the case with dx12/vulcan . 
+  the only benefit for cpus regarding the new apis is that there will be less cpu overhead compared to dx11 so less processing power will be spent on running the gpu and i do n't see how this benefits more threads more than less threads ( quite the opposite , what will benefit the most are games where 1-2 maxed out threads create the bottleneck , not games that can utilize every thread evenly ), 
+  stronger single threaded performance will probably remain to be king and i 'd still expect a 6700k beat 5820k or 6800k in games few years down the line , especially since 6c/12t processors are nowhere near affordable for the mainstream compared to processors with 4 threads ( and maybe 8 threads with zen ), 
+  1440p gives you more real estate , resolution increase and there are ips panels that are 144hz ( not sure if they 're within your price range ) , although they will have worse latency and motion blur compared to a tn . 
+  of course keep in mind that running games at 1440p is considerably more demanding for your gpu compared to running them at 1080p so you will get lower framerates without investing into gpu as well ( or dropping graphical fidelity/resolution ), 
+  it really depends on your budget and preferences . 
+  there is n't a panel that does everything perfectly and even the very expensive 1440p 144hz ips panels have the ips downsides like glow , poor blacks and worse motion blur and latency compared to tn . 
+  i do n't know if any utility/program exists to make that possible but you definitely ca n't achieve it by plugging it in differently . 
+  i think it 's a good deal if you use a high refresh rate monitor ( and of course have the money ) but if you 're targeting only 60fps then you wo n't utilize it much if at all . 
+  that 's weird , it works for me like you 'd expect to . 
+  have you tried different browser ? 
+  you can put them where you want , the libraries for basic functionality go into windows folder anyway and the rest is software that gives you additional functionality and it 's software like any other ( except it 's usually loaded after startup ) and is n't even mandatory . 
+  but it 's better to have it on the same disk as windows simply for situations when you for whatever reason remove the other disk . 
+  i think wireless mouse should work like any usb mouse although i never had one . 
+  depends on games . 
+  there 's a moderate difference in cpu bottlenecked scenarios, 
+  you should be able to buy a plug adapter . 
+  keep in mind that there are different power outlets within europe used as well though so make sure you get a correct one . 
+  edit just noticed it 's just a power cable , those should be available in any electronics shop, 
+  i 'd recommend 144hz . 
+  it has better colors and and viewing angles but ips is n't perfect either , it will have higher latency compared to tn , worse motion blur ( with 144hz monitors that is ) , poor blacks and `` ips glow '' where edges of the screen will glow white ( bad when using the display in dark room or watching/playing something with tons of dark areas ), 
+  there is n't `` the best '' panel technology , ips , tn and va all have their upsides and downsides and it 's only the matter of choosing one that you prefer ( or tolerate ) the most . 
+  i 'd recommend 144hz tn over 60hz ( even 1440p ) ips simply because games are dynamic and smoother motion with better response times gives you a lot better experience actually playing than richer colors and higher resolution does ( which do make everything look nicer . 
+  until something stars moving on the screen and the 60hz kills it ), 
+  you might want to wait and see how a 480 will perform before buying a 980 , it could have the same performance for a lot cheaper . 
+  for 144hz you can always get better performance out of a better card and whether a 980/480 or 980ti is worth it only depends on your budget and how much frames do you want out of it . 
+  if you want price/perf i 'd get a 480 and if you want more and can get a decent deal on it , get a 980ti . 
+  for 1440p 144hz you probably want at least a 980ti but preferably something even better . 
+  the recommended wattages are always higher than you actually need because manufacturers assume you have no name brand psu that ca n't deliver rated wattage . 
+  yours is a good one and will work fine with a 980ti, 
+  the gigabyte is the better board with more features and should be more expensive so i 'd get that one . 
+  you wo n't use sata express anyway so do n't worry about it . 
+  i 'd always recommend 144hz over resolution increase since the difference in motion clarity makes actually playing the game far better compared to sharpness you get from higher res , but you 'd still have to wait for benchmarks of the card . 
+  we are far from running demanding 4k games on a single gpu at anywhere close to 60fps ( 1080 gets like 20-40 fps ) . 
+  high end cpu air coolers are easily viable and can be a better choice than aio cooler . 
+  for gpus it depends per card . 
+  unfortunately most people do n't realize you might want to play at higher than 60fps or that there are other games outside of aaa action games that are n't relatively cpu light and extremely gpu heavy . 
+  and when they get cpu bottlenecked on their several year old 3ghz i5 paired with a 970 ( and cheapest low frequency ram ) or better they are the first to complain about the game not being properly optimized, 
+  sure , you could say a 144fps is the fullest potential of a 144hz monitor but even if you reach 80-100fps the difference in motion clarity is huge compared to anything on a 60hz . 
+  all of the games you mentioned are more cpu heavy than gpu heavy when there 's a lot going on . 
+  if you want better framerates in wow when there are a lot of people on the screen at once , gpu wo n't help you much and you 'll definitely be cpu bottlenecked ( perhaps already are ) . 
+  ocing your cpu will help a lot . 
+  i do n't know how much storage do you actually use but i 'd recommend getting at least a ~ 250gb ssd instead of another hdd . 
+  depends if you want them as a crossfire or for upcoming dx12/vulcan games . 
+  in crossfire your vram does n't stack but in dx12 it does . 
+  if you are n't convinced on the cf from the get go i 'd get a single 8gb card and leave it at that until you see later down the road whether a better upgrade is another 480 or a stronger single card . 
+  if dx12 takes off you should be able to mix any 2 gpus anyway, 
+  a 480 or maybe even a 470 ( depending on bechmarks of course ) . 
+  for both of those games cpu is way more important for performance anyway, 
+  unless you 're getting them for some insanely low price , wait for 480 . 
+  you can overclock locked chips and also get faster ram than 2133 with z170 . 
+  overclocking option is generally the easiest way to future proof the system . 
+  but you can oc any skylake with a z170 board . 
+  which is both answer to you and my answer for this topic . 
+  you 're wrong and i 'm correcting you . 
+  you can oc them the same as unlocked cpus with correct z170 boards ( basically almost all of them ), 
+  edit : by `` the same '' i mean reaching same frequencies . 
+  you have to use bclk instead of multiplier but the difference in the process is trivial, 
+  the only thing intel did was stop manufacturers from making oc capable non z170 boards . 
+  in fact , some manufacturers even support bclk oc in their latest bioses and you do n't have to downgrade at all . 
+  not even that . 
+  msi and asrock support it in their latest bioses . 
+  not sure about gigabyte and asus but someone here said they were able to oc on asus board with latest bios as well . 
+  the hilarious backpedaling aside , you 're completely wrong again . 
+  msi and asrock support non-k oc in their latest bioses ( not sure about other manufacturers ) . 
+  binning of i5s is probably not happening since some locked chips oc better than 6600ks . 
+  the only binned chip is supposedly the 6700k . 
+  without giving specific examples that 's very debatable ( will probably depend on the budget ) and even if that was the case , the z170 build will give you better upgrade paths in the future . 
+  a 6500 with a h170 board will never have a cost efficient upgrade without buying a new motherboard . 
+  and all of this is ignoring that 2133mhz ram just does n't cut it for gaming build . 
+  what do you mean from what chip is it binned from ? 
+  all desktop skylakes are the same chips , the binning process means that 6700ks get the highest quality silicon ( that will have most oc potential ) while other cpus get worse silicon . 
+  i do n't work at intel to tell you how much do they bin what , but when some 6400 and 6500 i5s overclock same or better than 6600k chips it probably means the 6600ks on average use the same silicon as the other i5s . 
+  i do n't understand why is everyone ignoring the fact that you 're plain and simply cpu bottlenecked . 
+  every time i tell people you need a good oc 'd cpu for high framerates i get downvoted to oblivion and here we go , a stock i5 bottlenecks a 1070 and everyone is fucking surprised and think the gpu is faulty or op is a retard who ca n't install drivers . 
+  you can try overclocking your ram frequency , should help a bit . 
+  if you ca n't , you 'll have to get a better cpu . 
+  edit : try dropping settings to ultra and see if you get a meaningful performance boost , it might just be some optimization issue on the highest settings . 
+  you 'd probably have to check the manual to be sure but i 'm almost certain the m. 2 slot shares bandwidth with sata-express and not any of those 4 sata ports,

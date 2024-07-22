@@ -1,0 +1,100 @@
+  except the parens are n't necessary : ` export import foo ` . 
+  the first one makes no sense . 
+  you 're not exporting a new module called ` std.random ` , you 're re-exporting something you 've imported . 
+  you are importing ` std.random ` and then exporting that thing you imported . 
+  it reads like ` export ( import std.random ) ` . 
+  never heard of ` requires requires ` , but ` noexcept ( noexcept ( x ) ) ` makes perfect sense : the ` noexcept ` of this is conditional on a value , and the value is ` noexcept ( x ) ` . 
+  that 's a stupid strawman . 
+  why does it say export import ? 
+  maybe it should be just export ? 
+  maybe it should just be just import ? 
+  are all languages as confusing ? 
+  this is so dumb , everybody uses javascript anyway , i should n't have taken this class . '', 
+  because you are exporting something you 're importing . 
+  stop being stupid . 
+  because ` std.random ` is n't in your namespace . 
+  you need to import it . 
+  ` export import ` makes more sense than ` export module ` . 
+   if export import is the way to export a module, 
+  it 's not . 
+  ` export ` is the way to export something . 
+  ` export import x ` means ` import x and export it ' . 
+  you are exporting the result of importing x. 
+  it makes perfect sense . 
+   should be imported with import export . 
+  it 's imported with ` import ` . 
+  what would ` import export x ` mean ? 
+  export ` x ` then import it ? 
+  that 's retarded . 
+  it baffles me that people would be confused by this very obvious and simple feature . 
+  ` export module ` is just an incantation . 
+  it makes no sense . 
+  ` export import ` is obvious and simple : you are re-exporting the result of importing something . 
+   would you be able and so kind to share our concern with the committee concerning this issue ( and more generally , the importance of sane syntactic constructs ) ? 
+  if you do n't like it , write ` export { import x ; } ` which is more verbose but does make it clear what is going on . 
+  ` export import x ` means precisely ` export { import x ; } ` i.e. 
+  import x and then export that namespace . 
+  how can so many so-called smart people look at that and not understand what it means ? 
+  you are importing ` std.random ` into this tu . 
+  then you are exporting the result of that import . 
+  ` export { import std.random ; } ` is the same . 
+  there 's nothing compulsory about ` export import ` . 
+  you are exporting the thing you 're importing . 
+  it 's only ` compulsory ' in the sense that writing ` = ` is compulsory in an assignment statement : you 're doing something , you 're writing the most obvious code to do that thing . 
+  i do n't trust other dependencies . 
+  the standard library is the standard trust barrier . 
+  proper safe languages do n't allow you to have unsafe code outside the standard library . 
+  that 's just a fact . 
+  it does n't matter whether you like it . 
+  well you seem to refuse to understand that :, 
+  that 's what ` safe ' means to the software community ,, 
+  rust is n't safe under that definition , and, 
+  rust is advertised as safe . 
+   it 's always going to be a bit more verbose using rust than python due to type information, 
+  rust is advertised as having type inference , so not it 's not going to always be more verbose using rust . 
+  the verbosity also is n't due to type information , it 's due to the disgusting practice of using ` map ` over option everywhere . 
+  it 's not what python is designed for . 
+  python is designed to be easy and simple . 
+  you could argue that that 's what js was designed for . 
+  no , it just happens to make it simple and easy because python is simple and easy . 
+  rust is neither simple nor easy . 
+  rust is far worse than 10x less productive than python . 
+  it objectively is encouraged . 
+  that 's why there 's a post on / r/rust asking people not to encourage it . 
+  because it is being encouraged . 
+  ` unsafe ` just completely removes safety . 
+  rust does n't let you prove to it that something you 're doing is ` safe ` . 
+  either it can work out it 's safe , or it trusts you . 
+  you ca n't help it . 
+  the default is still ` std : : string ` though . 
+  that 's what people tend to use . 
+  why ? 
+  because it might be * slightly * slower ( but not a lot , because of move semantics ) but it 's much easier to understand . 
+  it certainly is n't strictly better . 
+  if max/min not being in the stdlib is ridiculous , why is ` rand ` or ` regex ` not being in the rust stdlib not ridiculous ? 
+  python makes it just as easy to write a small program as a large one . 
+  rust makes it just as hard to write a large program as a small one . 
+  it does n't come up a lot because it 's not legal . 
+  in haskell , where orphan instances are legal but discouraged , they 're very common . 
+  banning them would break ** thousands ** of libraries . 
+  it 's not rust terminology , it 's rust advertising , and it 's simply * false advertising * . 
+  you still have n't explained your claim that serde is ` safe ' given that there are  300 search results for ` unsafe ' in rust code in serde . 
+  it does n't matter whether you have preferences . 
+  ` export module ` makes no sense , ` export import ` makes sense . 
+  false . 
+  in c++ , ` std : : string ` is the default type . 
+  i 'm not talking about string literals . 
+  no , labor is their left-wing party and national/liberals are the right-wing parties . 
+  i literally just explained that . 
+  do n't write 900 duplicate functions then . 
+  go does n't force you or encourage you to do that . 
+  that 's just your own idiocy . 
+  you could write ` max ` 900 times in a ` . rs ` file , would that make rust bad ? 
+   but if you have a widely used library which is developed by the core rust team , then it a defacto standard library . 
+  no it is n't . 
+   but the fact is that it 's more efficient to do so . 
+  no it is n't . 
+  it 's much less efficient . 
+  letting users write ` unsafe ` in rust hinders the ability of the compiler to optimise . 
+   using a safe wrapper is the easy part . 
+  there is nothing safer about doing it any other way .

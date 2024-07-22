@@ -1,0 +1,100 @@
+  for mice with square microswitches , [ this procedure ] ( http://www.silentpcreview.com/forums/viewtopic.php?p=417964#417964 ) ( money shot [ here ] ( http://i291.photobucket.com/albums/ll284/solidxsnake13224/img_8885.jpg ) ) will work . 
+  yeah , they 're both pretty fiddly and i have no idea how feasible that 's going to be for you . . 
+  companion cube !, 
+  yeah . 
+  but even shitty passwords can give you some semblance of security if the authentication gateway restricts login attempts in some manner . 
+  this is why pin numbers on atm cards ( having only 10k possible combinations ) are secure enough in practice . 
+  the atm will just eat the card if you fuck it up more than a few times . 
+  admittedly this is kinda moot if they manage to leak their ( hopefully hashed ) password list . 
+  i ca n't take the credit myself , but the naming convention that most impressed me was using [ elements ] ( http://en.wikipedia.org/wiki/list_of_elements_by_atomic_number ) . 
+  the impressive part is that the element names can be selected so the atomic number matches the ip address . 
+  * 10.0.0.1 : hydrogen, 
+  * 10.0.0.8 : oxygen, 
+  i ca n't match his range . 
+  two monkeys in a bath :, 
+  one of them goes `` ooh !, 
+  ooh !, 
+  the other one goes `` oh for christ 's sake , just put some cold in '' . 
+  i 'm sorry if this seems overly cynical , but i feel it should probably be mentioned . 
+  starting a company can be an extremely risky prospect . 
+  it 's almost impossible to tell from the initial idea what 's going to succeed and what is n't ( which is why it can be so hard to find investment , and why people that do invest in fledgling companies often ask for high returns , and will spread their investments over lots of companies . 
+  they 're banking on the fact that maybe one in ten will make enough to cover losses on the others ) . 
+  those that * do * succeed it often only do so because the founders have a strong vision of what they want to do and why it 's a good thing . 
+  i 'm really not sure you 're going to get that from asking for ideas on a website . 
+  it 's a lot to risk . 
+  the best advice i can give you is to come up with an idea to solve a problem that * you * have . 
+  something * you * want to do . 
+  `` every good work of software starts by scratching a developer 's personal itch '' . 
+  but , if you * do * come up with an idea , [ ycombinator ] ( http://ycombinator.com/ ) fund small web startups . 
+  and they have a really good [ news site ] ( http://news.ycombinator.com/news ) for people very much like you . 
+  maybe seeing what other people in your position are doing will help . 
+  that 's a nice implementation , man . 
+  just one point . 
+  you 've got a percentage there , and a spinner , but it really seems like it 's an ideal candidate for an actual progress bar ... 
+  screenshot the * crap * out of it . 
+  everything . 
+  then contact apple ( maybe even jobs directly as has been suggested if you want to do so ) with some succinct but relatively concrete proof ( if we 've learned anything about mr jobs ' email habits over the years it 's that he 's more likely to reply to short ones  ) . 
+  personally i would n't do anything nasty with the screenshots , but i know i 'd kick myself if i did n't take them , 
+  you can do a lot in plain html . 
+  but , yes , possible does n't mean easy , or fun , or sane . 
+  remember that pacman game google stuck on their homepage ? 
+  that was entirely html4 . 
+  the new html5 features certainly makes the browser a more suitable platform for this kind of stuff . 
+  for example , canvas adds the ability to do stuff like ( shock , horror ! ), 
+  draw diagonal lines . 
+  much as i agree with your sentiment , this is at the university of cincinatti , right ? 
+  ( says so in the description , the security dude says `` campus '' , and it * looks * like a university ) . 
+  a university campus is private property , no ? 
+  freedom of speech laws do n't extend to allowing people onto private property to `` express themselves '' . 
+  if they wanted to get rid of him , then i ca n't see any legal reason not to . 
+  that looks pretty good . 
+  but holy shit , # 45 !, 
+  i 'm not adverse to paying for well-made stuff , and it does look nice . 
+  but for what 's actually there , that seems like a * really * steep price tag . 
+  incidentally , would n't you be better off with something web-based ( self-hosted , if necessary ) for managing lots of people ? 
+  at least they 'll have remote access that way . 
+  no it is n't , you daft buggers . 
+  worst case for apple , they 'll be forced to acknowledge there 's a real problem and give everyone a free case . 
+  i realise this is now waaay off-topic , but if you 're managing `` action items and software defects '' , why not something specifically designed for the task in hand , like a bugtracker ? 
+  ( no reason why you ca n't use them for things that are n't bugs  ) . 
+  you can even tie most of them up to a version control system , so code revisions can be logged against relevant tickets ( which effectively creates a log of all code changes relevant to a particular task/project/bug / whatever ) . 
+  yeah , i 'm really not sure what 's going on with that quote . 
+  i suppose it 's * sorta * true that `` falling forwards '' is a component of running , but it 's kinda like saying a segway could travel at the speed of light if you put something heavy enough on it . . 
+  it 's also not entirely correct . 
+  the mass that has * fallen the furthest distance * will be travelling at the highest velocity ( assuming they have n't hit terminal velocity ) . 
+  in fact , for a given mass and distance , the mass that falls from the * lowest * altitude falls faster . 
+  y' know , slightly . 
+  sloppy wording . 
+  but i 'll buy that `` higher centre of gravity means longer legs , means better at running '' . 
+  i had exactly those symptoms , it turned out ( after considerable time and frustration attempting to diagnose it ) to be insufficiently lubricated threads on the right pedal . 
+  the guardian 's science dude has [ kicked off ] ( http://twitter.com/iansample/status/18597205590 ) already , and ben goldacre has already [ commented ] ( http://twitter.com/bengoldacre/status/18597459443 ) . 
+  looks like he 's going to [ get involved ] ( http://twitter.com/bengoldacre/status/18597348120 ) , which should be amusing . 
+   if you install trackers for comscore / quantcast / etc. 
+  it seems to improve the numbers somewhat , but then you end up with a bunch of extra page elements slowing down your site . 
+  i do n't know if it would work for those , never used them myself , but i have used something similar that was giving me some trouble with load times . 
+  it was possible ( after some messing around with javascript ) to only include it after the page load had completed ( ie ondomready or onload ) . 
+  if you click a link or submit a form ( rather than open a bookmark or type a url ) , your browser sends an extra header in the request called the `` referer '' \\* . 
+  this contains the url of the page on which the link occurred , and is what many sites use to identify where their traffic 's coming from . 
+  most webserver software will , at least by default , include the contents of this header in their logs . 
+  \\* yes , that is spelt incorrectly . 
+  yes , it 's spelt incorrectly in your browser 's header 's too , and in the current version of the http spec , and the one before it , and the one before that , etc. 
+  backwards compatibility , yo . 
+  it really chaps my ass that you 're struggling to find advertisers . 
+  not because i like the site ( although i do ) , but because i * desperately * want non-invasive , responsible advertising to work . 
+  so , even though you 've probably thought of it already and there 's a million reasons why it 's stupid , i 'm going to embarrass myself in public by posting a thing that 's been kicking around in my head . 
+  why ca n't we upvote , downvote and comment on ads ? 
+  automatically submit the things , and stick upvote and downvote arrows near the ad , and a comment link . 
+  how about an ads subreddit ? 
+  your sharp advertising sales-cookie would make an ideal moderator . 
+  i know there 's a `` submit this ad '' link , but that 's not quite the same as having it all there ready to click . 
+  most active redditors are at least * as * interesting in commenting as they are in the actual links , so the prospect of a bit of participation might help user ` engage ' with your ads a bit more , and help switch off their brain 's adblocker . 
+  and surely advertisers would be * a little * interested in seeing votes for their ads , and maybe the odd comment or two . 
+  at the very least it might give them a way to refine their ads for this site . 
+  let 's not forget how much marketing types love them some social media . 
+  you could even go further and give benefits to advertisers that get more than x upvotes ( extra impressions , discount rates , whatever ) , which would help encourage advertisers that work well for the audience . 
+  you might even be able to tweak your ad rotation a little based on that data . . 
+  anyway . 
+  i 'm sure there are loads of reasons why that 's a bad idea ( i suspect a healthy number of advertisers would shit themselves at the prospect ) , but , well , it 's an idea . 
+  i suppose . 
+  i 'll shut up now . 
+  there 's the ` submit this ad ' link ( which will take you to the page for that ad if it 's been submitted ) , but that 's really not the same as having up/down arrows and a comments link ( with number of comments so you can see there 's already discussion ) .

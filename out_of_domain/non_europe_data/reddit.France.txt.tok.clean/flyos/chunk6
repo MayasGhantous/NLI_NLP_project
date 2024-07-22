@@ -1,0 +1,100 @@
+  yes , i think `` recommends '' ends up installing a huge chunk of texlive for any basic install , which is a pain imho ... 
+  stupid question from a dumb user who does n't understand all the words in this news : how is this `` container '' different from docker/flatpack/snap ? 
+  is this a `` not invented here '' from the opensuse community ( which would honestly surprise me , so i 'm basically asking to confirm it 's not ) ? 
+  i guess my point is : the news is missing a bit of context to understand really what is being proposed here . 
+  can someone provide a bit more info for us mere mortals ? 
+  of course it 's not !, 
+  thanks for the context , much appreciated !, 
+  edit : just to comment on the actual matter , i 'm not sure i get everything that 's being done , but it does sound exciting ( especially the transactional update system ) . 
+  yup . 
+  yup , i can confirm this from nz , weird thing ... 
+  might be the case : i can access the video from the university . 
+  i have the same issue . 
+  it sometimes work when you click right away on a precise button , but other than that , it makes the dashboard pretty useless for a touchscreen ( kind of a same given it 's a natural purpose for it ... ) . 
+  never had the time to look for and/or open a bug report that being said , my bad i guess ... 
+  edit : tested on tumbleweed with plasma 5.9 . 
+  especially since the devs are basically ... 2 guys . 
+  same thing though i do n't have media control keys , so i have custom shortcuts . 
+  for people using latte dock , restarting plasmashell has not effect , a restart of latte dock is necessary instead . 
+  that 's also why there is a bugfix release schedule right after the .0 ( is it one week , two weeks ? 
+  thanks !, 
+  if the elections were to be held on r/france , neither fillon nor le pen would have had a lot of votes , for example . 
+  so yeah , not super representative ... 
+  i think most people standing firmly against his domestic policy still recognise he 's doing a good job at the international level ... at least for now . 
+  they probably still are going to be mad when he 'll begin to enforce his reforms on work legislation though . 
+  edit : [ source ] ( https://fr.wikipedia.org/wiki/contribution_sociale_g%c3%a9n%c3%a9ralis%c3%a9e#.c3.89conomie_de_la_contribution ) . 
+  bourgeois !, 
+  it 's good news as far as i can tell . 
+  openqa is a very versatile testing framework than can do a lot of things automatically on a system to test it ( enter commands , open programs , move mouse and click , etc. . . ) . 
+  it 's used to make the rolling tumbleweed more reliable with much success . 
+  using it in neon would mean imho better qa for neon and possibly for kde in general ( although when opensuse gets a bug through openqa , they report it quite quickly to kde , but different instances might catch different bugs and that 's good for everybody ) . 
+  somebody will slap me in the face if i 'm wrong , i 'm sure . 
+  not sure where your problem is ... you can just use the shortcuts you found in the config file and you 're good to go . 
+  what 's blocking you ? 
+  edit : for the downvoters , maybe the wording was n't clear ( my bad ) , but there 's no agressivity in my post , i 'm genuinely asking op for what the matter is more precisely . 
+  maybe it 's a stupid idea but in that particular case , would n't it actually ( for once ) better to `` reinvent the wheel '' ? 
+  what i 'm thinking is that slightly differently implemented test modules might catch slightly different bugs ( or have different abilities to catch bugs , more precisely ) . 
+  but then , i have no clue about how openqa works ... 
+  edit : i 'm glad i have n't been slapped btw !, 
+  makes sense !, 
+  thanks !, 
+  you 're using opensuse ? 
+  probably an issue with patterns ... 
+  this . 
+  i 'm always amazed as the number of flags in gardens in switzerland ... 
+  naive question , never used budgie : what 's so ambitious or futuristic about it ? 
+  when i look at some videos or screenshots , i feel like it 's a mix of gnome shell and cinamon ( in how things are placed in the desktop i mean ) . 
+  what 's so special about it ? 
+  ok , thanks !, 
+  i see what you did there ... 
+  yes , `` present windows '' and `` desktop grid '' are not responsive to keyboard anymore . 
+  i 'm going to report that in the bug tracker , thanks for sharing !, 
+  i do n't think you can actually , it 's the one applet in the latte dock that do n't have a red cross to be removed from the panel . 
+  kind of make sense , latte dock is all about this applet in the end , but it 's a bugger regarding what 's op is trying to achieve ... 
+  which version are you using ? 
+  i do n't have that . 
+  ( i 'm on 0.6.0 ), 
+  i do n't even have `` advanced mode '' . 
+  i think they are revamping latet dock quite a lot for 0.7 , that would explain the discrepancy between us if you follow master . 
+  a while ago , dolphin used a unicode slash for both directory and files ( i still have directories named that way ) . 
+  it was changed iirc at the end of the kde4 series so that dolphin actually creates subfolders when a slash is used for directory . 
+  you 're right though that the unicode trick was kept for filenames . 
+  i guess both options made sense in their own way , but i think the most popular demand was to be able to create subfolders with a slash . 
+  fix on its way with [ plasma 5.10.3 ] ( https://phabricator.kde.org/d6258 ) . 
+  the second one should be fixed on plasma 5.10.3 . 
+  a bit late , but if you 're going to use r in opensuse , i really recommand having a look at this [ repository in obs ] ( https://build.opensuse.org/project/show/devel:languages:r:released ) . 
+  it contains all up-to-date versions of r and many many r packages ready to be installed . 
+  because many r packages require compilation , i find it 's much easier to get them as compiled system packages rather than installing ( i.e. 
+  compiling ) them in r with having to manually deal with missing dependencies , having to re-compile at each update , etc. . . 
+  package re-compilation in this repo is triggered a bit too often for my taste though , but i can live with it . 
+  nice to hear !, 
+  you dream it , they already made it !, 
+  i guess i should wait for plasma 5.11 for it to work on tumbleweed , or can i install it right away ? 
+  i 've found the package on obs , but it does n't seem to change anything , i guess because plasma 5.10 is not the needed stack . 
+  ah , i was missing the chromium extension ( searched for plasma but this did n't come up ... ) . 
+  it works wonders for video ( tested on youtube ) , nice job !, 
+  it does n't work with nextcloud audioplayer unfortunately ... do you think i could open an issue on their github about it ? 
+  edit : hm , disappointing , i ca n't install it on leap at work , it seems to depend on qt 5.7 or above . 
+  i have a choice between updating my whole stack for this or wait for leap 15 ... hard call !, 
+  multitouch should work and you can configure it using libinput-gestures ( if libinput is used ) or touchegg ( if synaptics is used ) . 
+  you 'll need to configure everything `` by hand '' and use shortcuts to activate effects . 
+  but plasma is not super `` tablet-compatible '' right now . 
+  scrolling basically requires to find the scrollbar and drag it in most places , having the contextual menu requires using a two-fingers touch ( which is not super precise ... ) and virtual keyboard are not super handy at the moment ( qt virtual keyboard does n't work on x11 right now ) . 
+  as much as i love kde and am able to use it with my 2-in-1 just enough to be happy with it , i think you should really consider gnome in your case : it 's really more advanced in terms of using a 2-in-1 . 
+  no idea , sorry , it 's the first time i 'm hearing about fusuma . 
+  i never tried to use this fix to get qt virtual keyboard working , so i ca n't tell how much it 's working . 
+  i would work only for qt applications though . 
+  i did try gnome when i got my 2-in-1 and found the touchscreen experience more satisfying , but that was a year ago . 
+  much can change in that time ... 
+  perso , je trouve \u00e7a super cool . 
+  les pratiques des journaux sont dispos sur la base de donn\u00e9es [ romeo ] ( http://www.sherpa.ac.uk/romeo/index.php ) , c'est super pratique !, 
+  proud owner of a 2-in-1 , i 'm all in for a delay if this means that i could use activities to better fit my usecases ( at the moment , having the panel/latte-dock shared in a bit of a downer ) . 
+  [ comment r\u00e9concilier pain au chocolat et chocolatine ] ( https://bridor.com/wp-content/uploads/product-images/52264-12.png ), 
+  ce qui est ironique , c'est que le site d'o\u00f9 j' ai pris l'image ( compl\u00e8tement au hasard ) fait effectivement la distinction entre [ chocolatine ] ( https://bridor.com/produits/viennoiserie/chocolatine/chocolatine-beurre-cuite-42002-ca/ ) et [ pain au chocolat ] ( https://bridor.com/produits/viennoiserie/chocolatine/pain-chocolat-au-beurre-pac-32650-ca/ ) . 
+  had the same issue . 
+  this is due to an issue in the partition table of the key . 
+  somehow a new component of tumbleweed ( kernel ? ), 
+  is now triggered by some weird stuff on the partition table whereas older versions ( e.g. 
+  leap ) do n't complain about it . 
+  not sure how you mean your comparison , but macron ( who is not really a `` banker '' per se btw ) won against a pretty shitty campaign from both left and right wing traditional parties . 
+  yeah , i guess that was the point of the comparison .

@@ -1,0 +1,100 @@
+  i bought a new hard drive ( seagate barracuda 1 tb ) for my computer and wanted to install windows 8.1 on it , because the old hard drive ( a measly 160 gb ) still had xp . 
+  i pulled the old one out and put the new one in . 
+  then , by following the instructions on [ this microsoft page ] ( http://www.microsoftstore.com/store/msusa/html/pbpage.help_win7_usbdvd_dwntool ) , using a different computer , i set up my 16 gb usb stick to be a bootable windows installer . 
+  the iso , i got from microsoft dreamspark , through my university . 
+  the full title of what i got is `` microsoft windows 8.1 professional with update 32/64-bit ( english-united kingdom ) '' . 
+  they give instructions on how to use the iso , located [ here ] ( ftp : / / ftp.kivuto.com/pub/docs/working_with_image_files.pdf ) , but i ca n't access that file , so i 'm using the instructions from above . 
+  i downloaded the 64-bit version . 
+  but basically , what happens is i put the usb in and turn on the computer . 
+  i first see a standard intel screen ( telling me how to get to bios settings ) , and then i see the windows 8 logo for a few seconds . 
+  then it just loops back to the intel screen ad infinitum . 
+  i 've tried fiddling with the boot order * , manually telling it to boot off of the usb stick , and i 've played around with the options `` usb boot '' , `` boot usb devices first '' , and `` usb mass storage emulation type '' from the boot menu in the bios . 
+  i also tried a variety of different usb ports , and i 've redone the bootable usb but none of that has helped . 
+  i also opened the computer back up and tried fiddling some more with the cables connecting to the hard drive . 
+  \\* ( putting `` kingstondatatrav at the top of hard drive order , and `` hard disk drive '' at the top of boot device priority ), 
+  my computer 's specs are :, 
+  * nvidia geforce 9800 gt, 
+  * intel core 2 duo e8500, 
+  * seagate barracuda 3.5 '' 1tb st1000dm003 sata3 7200rpm 64mb hdd, 
+  [ here 's a video of what happens ] ( https://www.youtube.com/watch?v=bp54b6bmwlq ) . 
+  any help would be greatly appreciated . 
+  ** tl ; dr trying to install windows 8.1 on a new hard drive using a usb stick . 
+  does n't work . 
+  i bought a new hard drive ( seagate barracuda 1 tb ) for my computer and wanted to install windows 8.1 on it , because the old hard drive ( a measly 160 gb ) still had xp . 
+  i pulled the old one out and put the new one in . 
+  then , by following the instructions on [ this microsoft page ] ( http://www.microsoftstore.com/store/msusa/html/pbpage.help_win7_usbdvd_dwntool ) , using a different computer , i set up my 16 gb usb stick to be a bootable windows installer . 
+  the iso , i got from microsoft dreamspark , through my university . 
+  the full title of what i got is `` microsoft windows 8.1 professional with update 32/64-bit ( english-united kingdom ) '' . 
+  they give instructions on how to use the iso , located [ here ] ( ftp : / / ftp.kivuto.com/pub/docs/working_with_image_files.pdf ) , but i ca n't access that file , so i 'm using the instructions from above . 
+  i downloaded the 64-bit version . 
+  but basically , what happens is i put the usb in and turn on the computer . 
+  i first see a standard intel screen ( telling me how to get to bios settings ) , and then i see the windows 8 logo for a few seconds . 
+  then it just loops back to the intel screen ad infinitum . 
+  i 've tried fiddling with the boot order * , manually telling it to boot off of the usb stick , and i 've played around with the options `` usb boot '' , `` boot usb devices first '' , and `` usb mass storage emulation type '' from the boot menu in the bios . 
+  i also tried a variety of different usb ports , and i 've redone the bootable usb but none of that has helped . 
+  i also opened the computer back up and tried fiddling some more with the cables connecting to the hard drive . 
+  \\* ( putting `` kingstondatatrav at the top of hard drive order , and `` hard disk drive '' at the top of boot device priority ), 
+  my computer 's specs are :, 
+  * nvidia geforce 9800 gt, 
+  * intel core 2 duo e8500, 
+  * seagate barracuda 3.5 '' 1tb st1000dm003 sata3 7200rpm 64mb hdd, 
+  [ here 's a video of what happens ] ( https://www.youtube.com/watch?v=bp54b6bmwlq ) . 
+  any help would be greatly appreciated . 
+  [ ] ( / problemsolved ), 
+  i 've got a horizontal menu that i want to add a horizontal drop-down menu to on hover . 
+  i 've got the sub-menu displaying right now , but it 's horribly misaligned . 
+  i 'm wondering how i can get the sub-menu to display directly below the main menu when the mouse hovers over it . 
+  [ here 's a screenshot of what i 've got right now . 
+  [ and here 's the css for the menus that i 've got right now . 
+  [ and this is the html to which it refers ] ( http://pastebin.com/etds6cyd . ), 
+  i 've got a horizontal menu that i want to add a horizontal drop-down menu to on hover . 
+  i 've got the sub-menu displaying right now , but it 's horribly misaligned . 
+  i 'm wondering how i can get the sub-menu to display directly below the main menu when the mouse hovers over it . 
+  [ here 's a screenshot of what i 've got right now . 
+  [ and here 's the css for the menus that i 've got right now . 
+  [ and this is the html to which it refers ] ( http://pastebin.com/etds6cyd . ), 
+  my group killed our first dragon a couple of sessions ago , and the dm let me take its wings as loot . 
+  the group has a habit of taking weird and random objects and using them in unusual or creative ways . 
+  i 'm looking for suggestions as to how i can use its wings . 
+  my character is a shardmind psion , if it makes any difference . 
+  so i saw [ these two comments ] ( http://np.reddit.com/r/australia/comments/2bx1a3/piracy_crackdown_misses_the_real_crime/cj9uzgw ) , and what they 're saying seemed odd to me . 
+  according to these commenters , downloading game of thrones is * not * currently illegal in australia . 
+  is there any reasonable basis to those claims ? 
+  from [ this thread ] ( http://www.reddit.com/r/help/comments/c0sly/is_there_an_easy_way_to_export_all_your_comments ) i found that you can get them by going to http://www.reddit.com/user/ { username } . json , but that thread suggests you can get the last 1000 comments . 
+  all i 'm getting is the last one page worth of comments . 
+  is there a way i can get them back all the way as far as reddit has stored ? 
+  ( as far as i can get if i keep scrolling down on my user page ? ), 
+  now that reddit has an option for always use ssl , it seems as though narcikarma is no longer working if the user has always use ssl turned on . 
+  any chance of an update to work with that ? 
+  as in the expression that is synonymous with `` first come , first served '' . 
+  android fans constantly saying how terrible anything apple is , pc gamers going all elite over console gamers , that kind of thing . 
+  why not just live and let live ? 
+  edit : for context , i 'm both an android user and a pc gamer , but particularly the former category , i find the community is frequently just * toxic * . 
+  it weirds me out . 
+  specifically , in ways that do n't actually directly benefit them . 
+  i 'm specifically thinking of mods abusing their powers like what happened recently in / r/historicalwhatif , but really any case of abuse of power that is n't actually directly benefiting them ( for example , in the way insider trading might ) . 
+  i have a private subreddit i use for testing css on my public subreddit , / r/dndgreentext . 
+  right now , the two have identical subreddit css ( i checked by copying each and pasting them into a text file , and then doing a diff ) . 
+  for some reason , / r/dndgreentext has paragraph text in the body of a text post appearing light grey ( # 98a288 , to be precise ) , but in my private subreddit it appears correctly -- black . 
+  the only line in the css that involves that colour is this one :, 
+  . link . rank , . link . unvoted {, 
+  color : # 98a288 ;, 
+  meant to make the vote count and rank appear a lighter grey than normal . 
+  for some reason it 's also making body text lighter . 
+  can anyone help explain a ) why the two subreddits with identical css are displaying differently , and b ) how i can get text posts to appear black ? 
+  thanks so much . 
+  the 5e handbook describes the ability to have skills work with abilities that are n't their `` native '' skill . 
+  for example , instead of making a charisma ( intimidation ) check , you might make a strength ( intimidation ) check to intimidate them by a raw show of strength . 
+  or a constitution ( athletics ) check to see if you have the stamina to swim a really long distance . 
+  what are some other cool examples of skills with different abilities that you can think of ? 
+  i bought a new computer today with the intention of leaving it hooked up to a tv to use as a media server . 
+  it 's an asus laptop with the following specs :, 
+  it came without any operating system , though when i turn it on with nothing plugged in it shows the following in a dos/command-line like interface :, 
+  1 -- load freedos with maximum ram free , using emm386, 
+  2 -- load freedos including himem xms-memory driver, 
+  3 -- load freedos without drivers, 
+  i want to put ubuntu onto it , so after creating a usb key with the latest lts version , i plugged the usb into the laptop and switched it on . 
+  what came up was the following , in a dos/command-line like interface :, 
+  gnu grub version 2.02 ~ beta2-9ubuntu1, 
+  try ubuntu without installing, 
+  oem install ( for manufacturers ),

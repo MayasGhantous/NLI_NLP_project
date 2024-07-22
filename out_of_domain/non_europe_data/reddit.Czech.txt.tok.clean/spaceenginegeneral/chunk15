@@ -1,0 +1,100 @@
+  if the planetary fortifications count as theirs , probably bug as it considers it your planet . 
+  if it does n't just invade them to take it back, 
+  requirements are having the relevant planet technology colonization research and having the correct materials . 
+  it requires different materials to terraform different planets into different planets , as in , you might need 1 t. liquid to do one change , 2 t. gasses to do different change and a combination of both to do another change . 
+  you probably do n't have the correct resources to do the change you want . 
+  what personalities do the ais have ? 
+  try improving relations with them so they will agree to your war without wanting anything . 
+  what is their ethos and what are your war policies ? 
+  the materials it says are missing are what 's , well , missing . 
+  not what is actually required ( as in if you have all the materials they wo n't be listed at all ) . 
+  you do need the ocean tech but you start with it if it 's your natural planet, 
+  nope . 
+  expect it to be added eventually, 
+  although unlike eu4 you can have unique station mods that improve ship stats only on the ships built in the station so it 's a bit trickier to implement it well than in eu4 where it does n't matter where you build anything, 
+  frontier stations do with tech and colonies do with tech and population, 
+  i ca n't confirm it but i think so , it 's not the research itself that triggers the crisis but the usage of the technology . 
+  looks like a bug, 
+  it should work like that i did n't try it, 
+  true , question is whether waiting the 10 years for them to be cleared really saves you the energy in the long run though . 
+  and even then that 's extreme case with tons of blockers on a big planet, 
+  lower right part of the screen , there should be icon when you 're at war . 
+  click on it, 
+  embark troops , set auto-design ships in fleet designer and you should be able to send them to upgrade at spaceport, 
+  they said they will make content based on demand . 
+  technically they still cost influence but the sectors pay for it ( how much influence or if any does it get is a different thing ), 
+  bug, 
+  invade their planets and purge all pops on them . 
+  it will destroy the colonies, 
+  it might also be possible to bomb them until all pops are killed but someone mentioned you ca n't kill last pop . 
+  it needs to be tested i guess, 
+  it 's already reported, 
+  yeah . 
+  ca n't tell you what year but you 'll have `` equivalent '' tech to them some time after you can only research repeatable techs, 
+  maybe if you put it in a sector without the resource like it does with buildings . 
+  auto-generate basically makes a design it considers the best for each type of ship you have researched . 
+  it wo n't touch any of your custom designs, 
+  is the spaceport idle ? 
+  if it 's producing something you have to wait until it completes the queue before it starts upgrading, 
+  change the core of the ship to include yellow `` h '' weapon slots . 
+  cruiser can only have 1 fighter/bomber slot with correct middle section , you 'll need battleships for more slots, 
+  are you sure it can spawn for materialists at all ? 
+  do you have any spiritualists pops that can create leaders ? 
+  ai is really bad at utilizing natural resources of planets and generally placing buildings intelligently . 
+  if the sector ever rebels you 'll be in trouble . 
+  if the pops are happy and wo n't create factions and you 're fine with it it `` kind of '' working , sure . 
+  but it 's far from optimal . 
+  wiz said ai does use sectors as well ( funnily enough sectors do n't have any core planet limit at all ) . 
+  you can increase it with repeatable tech and some governments, 
+  personally i changed the default core planet limit to 10 since it lets me develop planets enough to make them ai-proof ( basically building or queuing all tiles with buildings so ai will just upgrade that 's there eventually instead of doing something retarded ) . 
+  once i do that i can give the planet to sector that will keep upgrading it for me and all is good . 
+  it also makes the game all around more fun because you have something to manage after your first 5 colonies that you 'd have normally, 
+  you can change it in defines.lua using notepad + + ( saving the changes with regular notepad will crash the game ), 
+  what are you using to edit the file ? 
+  you probably either need to be stronger or the ai needs to feel threatened by someone else enough to consider the ally beneficial ( which could be you if you get stronger ), 
+  yes . 
+  you can edit your design and send your fleet to spaceport to refit it . 
+  there is most likely to be some kind of mtth for pre-ftl civs to advance the stage so it 's kind of random . 
+  stone age primitives do n't work the same way because presumably the time for them to get into space age without help would take thousands or millions of years which would n't happen during the timespan of the game . 
+  stone age civs are more similar akin to gigantic life , they are not technically a civ , but rather a planet modifier . 
+  if you colonize the planet you then get events to decide what to do with the civ ( including them becoming pops in your colony ), 
+  not if your pops are materialists , people with different ethics will dislike robots and robot rights, 
+  you have to be federation leader to be able to declare war in a federation . 
+  the leadership rotates between all members . 
+  federations are designed to be more of a defensive pact so it 's intentional that you ca n't go to war when you want if you 're part of it . 
+  the elections in stellaris are winner takes all and the percentages are estimated support of the candidate with a margin of error that you can influence with influence . 
+  which means if 1st candidate has 25 % , 2nd has 22 % and third has 10 % ( and more people are being the 3rd ) , both first and second candidate have a chance to win the election, 
+  lower right corner will have federation icon, 
+  according to game files it should be 5 % margin of error so in extreme case a candidate with 20 % support can win against someone with 30 % support . 
+  i have n't played democracies enough to tell you how factions and pops all play into this because despite one guy in my theocratic republic gets 100 % support from all pops in the empire , he still has only 12 % chance to win like other candidates with 0 % support . 
+  the trading is currently bugged and sometimes it does n't register even if they accept it ( afaik it even happened to wiz in the multiplayer event ) . 
+  just repeat it a few times until it registers . 
+  weary is their stance towards you and effects what kind of deals will they accept from you . 
+  as you can see , someone weary will still trade with you but someone unfriendly wo n't, 
+  fallen empire will be described as `` stagnant ascendancy '' under their name ( and have different color in the diplo tab ), 
+  holy worlds are always gaia planets near the fallen empire 's borders or inside , it will have a unique name and when you click on the planet surface there will be a planet modifier called holy world, 
+  it 's 2 % per pop , you can see it in a tooltip when hovering over cost of a technology, 
+  you should be able to research something in the system with the ship , presumably the star or a planet, 
+  i briefly looked at the leader traits file and it only seems to handle the traits itself , not leader generation so i ca n't tell you for sure but it would make sense if it was influenced by pop ethics . 
+  yeah , paradox said they intentionally did n't want everything to be colonized . 
+  to be honest i 'm more disappointed that the available colonizeable worlds are different only cosmetically at the moment . 
+  espionage is n't in the game at all currently . 
+  you can have migration agreements with some nations which i guess can let you influence them if your pops that migrated on their planet get pissed off and revolt, 
+  bigger sectors are richer so they will develop quicker without your input and if you have a great governor , he 'll have effect on all planets in the sector . 
+  smaller sectors are easier to handle when they revolt . 
+  not really question what is better generally because it depends whether you have revolts or not . 
+  i think uplifting pre-sentients integrates them into your empire . 
+  you 're thinking about technological enlightenment which makes a sentient pre-ftl civ a vassal, 
+  yeah it 's kind of funny how some aspects that you 'd consider a standard in a 4x games are completely absent ( victory conditions , being able to customize the start a lot more ) or made `` gsg-like '' which does n't really translate well into a space game , like the abstracted bombardment or setting up wargoals instead of just a declaring a state of war . 
+  hopefully it 'll get addressed in future, 
+  common/defines/00 _ defines.lua ( use notepad + + , not notepad to save it ), 
+  try going into the system and right clicking the star if it gives you an option , if not give me a screenshot of the whole status log topic not just the description and one in the star system, 
+  you just surveyed the system but there should be somewhere the orange marker that lets you research it with a ship, 
+  people will still dislike the policies but that alone is n't enough to cause revolts if they are otherwise somewhat happy, 
+  i just started a first game with it so not enough to give you an impression ( loaded up a game on a crowded ring galaxy and there was a new war popping up pretty often though ) . 
+  it may be better to increase it even more because what it should do is make inevitable wars happen sooner , not actually make everyone regular 4x warmongers but that 's just my speculation without playing enough, 
+  hope you get strong enough before they eat you . 
+  but seriously it 's hard to tell ( and that 's the point ) because the crisis can go from anywhere to destroying you outright or appearing on the other side of the galaxy when your fleet is 10 times bigger anyway . 
+  just depends on when and where they start, 
+  should be because the sector does n't have a governor, 
+  try right clicking on the star if it gives you research option with science ship,

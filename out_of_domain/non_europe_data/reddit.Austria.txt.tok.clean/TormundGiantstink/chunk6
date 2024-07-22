@@ -1,0 +1,100 @@
+  in the us , i think you can simply use your name , but in other countries , things are different ( in austria , i would have to register a business and pay a fee ), 
+  depends on what your app does, 
+  if your app is a pure restconsumer , build the backend first . 
+  if your backend is only a storage system , build the app first, 
+  use [ ` getexternalfilesdir ( null ) ` ] ( https://developer.android.com/reference/android/content/context.html#getexternalfilesdir ( java.lang.string \\ ) ) and boom , no dangerous permissions any longer ( you ca n't get around them in sdk -23 anyway , but not having to worry about runtime permissions is dope ), 
+  apps that heavily depend on your internet connection are obvious ( stuff like youtube/facebook/instagram ) , apps that only send text around do n't drain your cell data, 
+  in particularly well made apps , you have some sort of caching mechanism , which decreases the data usage even further, 
+  even then , the thing to remember : if you use an app that loads lots of media files ( pictures , videos , songs ) , the app will drain a lot . 
+  if it 's just some simple rest-client , you wo n't really notice it , since text is cheap to send over the wire ( it probably hurts your battery more than your data plan ), 
+  a friiiiiiiend in me, 
+  the best approach would be to check before every call , whether your token is expired and refresh it , if it is, 
+  more of a theoretical question , but are there any best practices concerning request-repeptitions due to internet connectivity loss ? 
+  i know that when using rxjava , i could use ` retrywhen ` and just keep retrying the call , but i was wondering if there were a more elegant solution , specifically for cases , where you would chain observables or merge them, 
+  she ca n't what ? 
+  i need to know, 
+  reminds me of the video of a zebra being disembowled and kicking its gut , as if it was a predator hanging on its booty, 
+  i might be vastly overestimating the time , but when i visited a friend in germany , we went to see mystical beasts and it took 40 minutes for the movie to start, 
+  like , in austria , it 's always about 30 minutes , but that stuck to me, 
+  what 's the best way to find out what 's using memory ? 
+  i 'm not referring to memory leaks in particular , but rather overall memory usage, 
+  the company app is allocating over 80 mb at startup already , which leads to oom exceptions on quite a lot of user devices in specific cases, 
+  might that be resources/png-drawables ? 
+  do n't think it is in java . 
+  in c # , you typically prefix interfaces with an uppercase ` i ' like ` icomparable ` , which looks a lot prettier than not pre/suffixing your interfaces at all and suffixing your implementations with ` impl `, 
+  when using custom viewgroups , how can i replace the inflated view with a different one ? 
+  i implemented a tinder-esque swiping-container using a framelayout . 
+  upon initialization , i inflate two views and add them . 
+  when the user swipes a card away , i basically just swap the two views ( the bottom card becomes the top card and i move the swiped card behind it ), 
+  that worked really well , but now i need to display a different view occasionally . 
+  initially , i just added it to the existing layout , but that was resulted in bloated layout-files that became hard to use , so i extracted the different types, 
+  basically what i do : https://gist.github.com/tormundsmember/03c4eb9b624db4816bb3f65eaebea37c, 
+  seems like ` removeallviews ( ) ` is sufficient , should have thought simple, 
+  aaaaand i 've read through the whole thing, 
+  dunno , if it 's considered a flaw per se , or simply not attractive by most people i know , but i really like it , when a girl has a really long torso, 
+  / r/writingprompts, 
+  what do we have ? 
+  some console based os image and a couple of ui mockups, 
+  i 'd say , it 's a bit early to jump to conclusions, 
+  define `` fun '', 
+  fate is too strong . 
+  in the end it 's the same as inspiration , but it stacks . 
+  what 's even worse is how easily you can farm fate ( once your players get the gist of the system , they will try to farm artha as much as possible ), 
+  in addition to that , advantage in d & d and open-ended rolls in bw are different mechanics , simply using one for the other wo n't be balanced, 
+  with the problem being that a lot of dance music has found its way into esc, 
+  the belly attack is the most reliable move in the game, 
+  we 're using poeditor at work , the first 1000 strings are free and it can export to a lot of platforms ( we 're doing an android app and an ios app , so that works wonderfully ), 
+  yes, 
+  i would suggest to use shields only sparringly , agressiveness makes the game a lot more fun, 
+   he is ugly, 
+  he is fucking gorgeous , no homo, 
+  i expected rick and morty, 
+  it was n't a bad song per s\u00e9 , it was just way too long and him completely missing the first and most important high note completely screwed him over, 
+  i think arguments like this are irrelevent when you 're using a good ide, 
+  currently using [ paper ] ( https://github.com/pilgr/paper/ ) , but since it 's using some deprecated stuff and the author not replying to any open issues regarding it , i 'm probably going to switch back to regular old sqlite, 
+  i was using realm before , but found it too errorprone for my tastes ( why you would organize your data as proxies is beyond me ), 
+  i seem to have this strange issue , where i have both the permission for gps and an active sensor , yet ` onlocationchanged ` returns null, 
+  anyone have any leads to follow ? 
+  i 've had the issue even when gps has been running for a while, 
+  waiter !, 
+  i 'll take one `` things that did n't happen ! '', 
+  gat out of estus *, 
+  at its core , it 's an image viewer and they cache images so you would n't have to download them every single time , because images are big chunks of data, 
+  ** file templates **, 
+  when creating file templates in intellij , is it possible to reference parent-packages ? 
+  ` $ { package_name } ` targets the current package, 
+  i have [ this ] ( https://gist.github.com/tormundsmember/08115099baf67a911b230d18dc038a00 ) and i need something to automatically insert ` com.example.somemvp . ` into my file template, 
+  personally , a dev that is driven by hype is not one i want to work with either . 
+  kotlin is stable enough where i would n't see it as a hype any longer , but damn , do n't jump onto a wagon and be trapped there for 6 months, 
+  jesus christ , just watched one of his videos and the way he talks alone makes me super uncomfortable, 
+  probably, 
+  i do n't want to be rude , but how often do you switch blades ? 
+  i just finished a cartridge if 4 blades after 2 years, 
+  it 's not that they ca n't , it 's just that they do n't care about people , they care about money, 
+  it 's pretty much the same , you 're just switching languages , the rest stays the same, 
+  [ this is satire ffs ] ( http://creambmp.com/2016/12/09/father-23-kids-sex-night-thought-sperm-sleep/ ), 
+  tl ; dr we basically fucked our way to the top, 
+  it 's a sub of 500.000 people , it 's impossible for all of them to be intelligent, 
+  might i ask for how long you 've been taking ads ? 
+  does one ever stop taking them ? 
+  they 're in alpha anyway , i would n't use them in production yet, 
+  19 should be fine aswell , that 's 89,1 %, 
+  like i already commented on the medium article , you 're mixing platform-specific stuff with your business logic in your presenter , which is bad for testing, 
+  would you say it 's a mistake using it during view inflation ? 
+  i 'm thinking of `` custom font libraries '' like calligraphy, 
+  cool , thanks , that 's what i figured . 
+  gon na subclass things to support custom fonts , i guess, 
+  works for a bunch of other services aswell , i have it configured for youtrack at the moment, 
+  [ xgh for the uninitiated ] ( https://gist.github.com/banaslee/4147370 ), 
+  i personally seperate my modules based on whether they depend on the android-framework or not, 
+  pretty much :, 
+  * applicationmodule , to provide context, 
+  * androidmodule , which contains stuff like picasso or androidschedulers.mainthread ( ), 
+  * apimodule , which contains all the pure java stuff like okhttp, 
+  add a boolean flag ` impressionlogged ` to each element and check that before logging, 
+  i do n't inject my presenters , i just instantiate them in my views, 
+  i 'm not retaining them , since i build my apps to be driven by the model , instead of having extensive state machines, 
+  ad activity scopes , i ca n't really tell , since i have n't gotten that deep into dagger 2 yet , but in the end , most of the stuff i use has to exist for quite a while anyway ( database , restclient ), 
+  edit : i should actually inject my presenters , now that i think of it . 
+  still , i 'd probably put it into a seperate module which houses all of my presenters . 
+  since they 're just pojos , that should n't be a problem , you can probably even do something like this,

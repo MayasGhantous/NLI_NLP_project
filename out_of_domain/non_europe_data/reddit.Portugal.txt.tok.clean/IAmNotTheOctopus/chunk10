@@ -1,0 +1,100 @@
+  * the method nextint ( n ) generates a number between 0 and n - 1 , so you would have to add one to the generated number . 
+  * you have to decide on how to check for repeated numbers . 
+  you can do the verification during the execution of the cycle , or you can store the values in an array and then do the verification in the end before printing . 
+  there is another option , but the final list wo n't be actually random . 
+  you can use the code i wrote earlier for something like this :, 
+  * take 230 and subtract the next integer ( 8 ) . 
+  * you now have 1 2 3 4 5 6 7 8 222 . 
+  but that has 9 numbers . 
+  so you can add 1 + 8 and you would get 9 . 
+  you now have 2 3 4 5 6 7 9 222 . 
+  * take 222 and subtract the next integer ( 10 ) . 
+  * you now have 2 3 4 5 6 7 9 10 212 . 
+  but that has 9 numbers . 
+  so you can add 2 + 12 and you would get 12 . 
+  you now have 3 4 5 6 7, 
+  * take 212 and subtract the next integer ( 13 ) . 
+  * you now have 3 4 5 6 7 9 10 13 199 . 
+  but that has 9 numbers . 
+  so you can add 3 + 13 and you would get 16 . 
+  you now have 4 5 6 7 9 12 16 199 . 
+  * if you keep doing this ( you have to find a termination condition that suits you , ) , you will get some numbers that ** look random ** . 
+  they are not actually random , it 's more like a stair : 7 - 6 = 1 , 9 - 7 = 2 , 12 - 9 = 3 , 16 - 12 = 4 , etc ( this is due to our initial list being a sequence ) . 
+  the next iteration would net us : 5 6 7 9 12 16 21 182 . 
+  then 6 7 9 12 16 21 27 160 . 
+  then 7 9 12 16 21 27 34 132 . 
+  then 9 12 16 21 27 34 42 97 . 
+  finally , you would get 12 16 21 27 34 42 52 54 . 
+  that would be your final 8-number list . 
+  it 's not random , but it looks more like it is . 
+  notice how there 's the same `` stair behavior '' that i mentioned earlier . 
+  i think i gave you some ideas , now you can try to figure how to write the code for it . 
+  you can use the eclipse mars on your ubuntu version . 
+  just download it straight from the eclipse website instead of using the ubuntu repository version . 
+  i 've been using it on my laptop with ubuntu 14.04 lts and it works fine . 
+  at least i have n't noticed anything wrong . 
+  but you can try it , and if it does n't work remove it again . 
+  campbell has shown more in 15 minutes than theo the whole season !, 
+  for fucks sake , every year i get my fucking hopes crushed, 
+  sanchez does the same thing every time he gets the ball . 
+  fake going to the left , make a bad pass to the right . 
+  arsenal and benfica fan here , you have no idea how stressful this day has been . 
+  i 'd love to be able to say i love derbies , but i fucking hate this . 
+  i was still shaking 15 minutes after the nld ended ... 
+  i 'm better now , getting hyped for the benfica game , you should watch it !, 
+  are you trying to say that performance enhancing drugs actually enhance performances ? 
+  get out of here with your logic !, 
+  he has probably been our best player today !, 
+  really solid !, 
+  i get your comparison , renato certainly is hindered by his lack of experience . 
+  but martial is already world class !, 
+  renato still has to improve some parts of his game to reach that level . 
+  his passing is average at best ... 
+  solid start , isaiah thomas has been on fire !, 
+  this day has been a roller coaster of emotions to me , hope it ends on a high note !, 
+  how are the bruins doing ? 
+  i 'll be watching the game during the celtics breaks !, 
+  [ relevant ] ( https://www.reddit.com/r/soccer/comments/41lcwb/jos%c3%a9_peseiro_is_the_new_porto_manager/cz4078y ), 
+  what the fuck ? 
+  was that not a foul on n. semedo ? 
+  i never expected that jimenez and talisca would be responsible for us being in the ucl quarter finals !, 
+  we are on to the quarters !, 
+  ( and talisca scored ! ), 
+  price gives up back to back hrs and now gets replaced by heath hembree . 
+  please regular season , be the opposite of spring training . 
+  i 'm also looking for it !, 
+  if you find can you pm me ? 
+  thanks !, 
+  not op , but checking in : i got a ticket for 15 $ at the casa do benfica de aveiro . 
+  no , they actually said they do n't make those deals for the nearby games , so i just bought the ticket . 
+  sometimes you need to be associated with the casa do benfica , sometimes you need to be associated with the club itself . 
+  this time they did n't ask for anything actually , so anyone could have bought it . 
+  by the way , if you are interested , boavista still has some of the more expensive ones ( 25 $ upwards ) for sale at the stadium . 
+  definitely , that would be a great idea !, 
+  maybe for the rio ave game ... 
+  i think you mean benfica , not bayern . 
+  must have been a typo   :( :'(, 
+  jonas with a really important goal there !, 
+  it was n't a brilliant game , but it was solid considering benfica had one of the best players ( gaitan ) , the first gk , 3 of the 4 cb and the second best striker out . 
+  really happy with that result , i was at the stadium and it was incredible !, 
+  on the other hand , terrible display from beira-mar today against vista alegre ( distrital de aveiro ) , we definitely have to improve in the big games if we want to achieve the promotion !, 
+  savage !, 
+  why is count + = 1 better ? 
+  i might be wrong , but is n't int immutable ? 
+  if that 's the case , doing :, 
+  count + = 1, 
+  count = count + 1, 
+  is just a matter of preference , since both create a new object . 
+  edit : i 'm probably really wrong , i 'm still a beginner !, 
+  iwobi and elneny have been surprising me !, 
+  i wish we could be more consistent throughout the whole season ... 
+  wow , what an excellent inning !, 
+  6-5 now !, 
+  can i get my ball games back ? 
+  thanks, 
+  great start by the offense today !, 
+  big papi !, 
+  i love this , what a start !, 
+  hanley is our most improved player so far !, 
+  i 'm really enjoying watching him this year !, 
+  i 'll be doing an internship in sofia during the summer , i 'm looking forward to watching this in loco .

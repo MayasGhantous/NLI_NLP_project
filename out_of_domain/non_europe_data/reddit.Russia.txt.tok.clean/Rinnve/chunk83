@@ -1,0 +1,100 @@
+  that alone tells all that is needed to know about quality of this post . 
+   now there 's another state that russians brand as neo-nazi , because it does n't love mother russsia . 
+  no , because they praise [ those guys ] ( https://en.wikipedia.org/wiki/ukrainian_insurgent_army#ethnic_cleansing_of_poles_in_volhynia_and_galicia ) as a national heroes . 
+  yeah , and by praising you actually mean putin calling stalin 's regime brutal criminal dictatorship every time he mentions it . 
+  well , all that already had been said in this thread has a point , but i think that the key part is `` as prices plunge '' . 
+  gold is a valuable asset , and when price is going down , it 's time to buy . 
+  i really do n't think it 's much deeper than that . 
+  there are no strict rules here , of course , but '' \u0412\u044b '' with capital \u0412 is as official as it gets . 
+  except that 's not a rating of safest countries to live in . 
+  that 's abstract rating of `` peacefulness '' that includes , among other things irrelevant to the safety of living , amount of nuclear and heavy weapons , and weapon exports . 
+  the only thing that could and possibly will cause problems is the different names of network adapters ( or worse , similar names but in different order ) . 
+  motherboard chipset or processor are nonissues , freebsd ( on which pfsense is built ) handles that without problems . 
+  source : moved a gateway from 3 nic amd-something-10 y o to 5 nics ( some isp redundancy added ) intel cheap-but-modern something ( ca n't remember actual models now , it matters that little ) . 
+  had to reconfigure all from the start , though , but i 'm lazy and it was easier than figuring out proper migration ( but i 'm pretty sure it could be done ; our particular setup is so straightforward that it can be configured from scratch in like 20 mins so i just did that cause it was easier ) . 
+   i would like to have the ability to speak fluently before i go there . 
+  extremely unlikely without full immersion . 
+  do n't set your expectations too high , disappointment is bad for learning . 
+  getting to solid conversational level in three years is a more realistic target . 
+  [ citation needed ], 
+  [ sure . 
+  ] ( https://en.wikipedia.org/wiki/timeline_of_major_famines_in_india_during_british_rule ), 
+   anyway , all educated people in russia speak englsh more or less . 
+  that 's actually not true . 
+  it is kind of hard to keep a foreign language on the conversational level without constant practice . 
+   when i 'm screwing around, 
+  you kind of answered your own question . 
+  when you 're not screwing around , or , more precisely , when you 're writing code that could be read again months after last time touching it , strictness of code is very helpful in ( re - ) understanding it . 
+  if you see something private , it is clearly not meant to be accessed from the outside , if you see something final , it is not meant to be changed after assignment , etc. 
+  those declarations are not just to help compiler catch your errors , they also show your intent . 
+  you can always start new synced notebooks and move your notes there . 
+  just select all the notes in the notebook , and there will be an option to move them to another notebook . 
+  just use all-in-one distribution like winpython or anaconda . 
+  it will relieve you from a lot of headaches . 
+  [ lightveil ] ( https://lightveil.bandcamp.com/ ) , especially dronegate . 
+  according to [ this ] ( http://medside.ru/miramistin ) , either . 
+  for kids though this article recommends using spray . 
+  [ apparently it 's there since java 5 ] ( http://www.cs.rice.edu/~javaplt/papers/dlsmith-ms-thesis.pdf ) . 
+   russia 's main version is that the plane was shot down by a ukrainian army jet, 
+  are you for real ? 
+  i mean it was * never * `` russia 's main version '' . 
+  actually , because of [ a single post ] ( www.reddit.com/r/rudrugs/comments/1derq9/ ) in / r/rudrugs . 
+  and providers should block only that page , although nobody complained loudly enough ( yet ) if they get lazy and block entire site . 
+  i do . 
+  although i often notice that russia that i live in and russia discussed on reddit are somehow two different countries . 
+  that 's how it works already . 
+  there are quite a few local laws , although the difference is nowhere as big as in the states . 
+  set of the pages with content illicit in russia ( cp , illegal drugs , terrorism etc. ), 
+  is vastly smaller than the set of all the pages in the web . 
+  the reasonable thing reddit admins can do is just block access to the pages illicit in russia for russian ips . 
+  apparently they did exactly this . 
+   when they write by hand, 
+  ... on paper , behind the desk . 
+  it is kind of hard to write comprehensible cursive on a wall . 
+  very often there are several correct ways to phrase something in russian , with subtle ( and untranslatable ) differences in meaning ( just putting some emphasis on this part or that ) . 
+  this particular `` roundabout '' pattern is quite common for complaints , often exaggerated . 
+  i 'd translate it `` those damn gifs made my eyes bleed '' . 
+  also : it 's 2015 , and they still ca n't figure out unicode . 
+   compare the salary of a lithuanian to that of a ukrainian . 
+  do n't forget to compare the expenses too . 
+  it 's called `` observer bias '' . 
+  good driving is dull and uninteresting , so you have n't seen it on youtube . 
+  it may have something to do with [ this ] ( http://i.imgur.com/i3km94j.png ) . 
+  really , it 's 2015 , and they * still * ca n't figure out unicode . 
+  well , at least modern gui toolkits for those languages have unicode support out of the box , zero configuration required . 
+  well , pharo supports wide strings ( with 32-bit characters ) and unicode fonts via freetype , but that 's about it . 
+  according to the strange behaviour while i tried to type in russian , the developers of pharo do n't even get the idea of somebody actually typing in those strange and useless characters . 
+  i have only one receipt from when i first subscribed , no receipts on renovation were sent . 
+  pathetic . 
+  [ this is how it should be done . 
+  ] ( http://www.dabeaz.com/generators-uk/generatorsuk.pdf ), 
+   my understanding is that in java when one wants an object to be garbage collected all references to it which exist must be nulled - however finding all references which may exist is not a trivial task . 
+  it is not indeed , that 's why java has complicated garbage collectors that can analyze all the objects and determine automatically which are not referenced by the code anymore . 
+  say , object1 was created in your program , then this object1 itself creates a bunch of objects for internal use . 
+  all those objects will be taken care of by the gc after the reference to object1 goes off the stack , or if the reference to it is replaced by reference to some other object , or whatever makes it go off [ gc roots . 
+  ] ( http://www.dynatrace.com/en/javabook/how-garbage-collection-works.html ), 
+  there are some cases when you do need to worry about memory management , like when implementing certain data structures like , say , resizeable arrays of objects . 
+  you do n't shrink such arrays on every deletion , it would be too costly , you just decrement the index of the last `` valid '' object . 
+  in that case , if you do n't null `` invalid '' references in the array , the gc will `` think '' that those objects are still being used and wo n't free them even if they are not referenced by any other part of the program . 
+  it is called [ `` loitering objects '' . 
+  ] ( http://stackoverflow.com/questions/18109915/java-loitering-and-garbage-collection ), 
+  tl ; dr : do n't worry about it , in most cases gc is intelligent enough to take care of it . 
+  you are not moron , codecademy python course is extremely shallow . 
+  if you 're comfortable with math , i could also recommend new [ `` introduction to programming in python : an interdisciplinary approach '' ] ( http://introcs.cs.princeton.edu/python/home/ ) . 
+  not bad , but i like drweb more . 
+  not once it detected malware days before it got to kaspersky/avg/avast / windows defender databases . 
+   russia 's already experiencing hyperinflation . 
+  i do n't think that you know what that word means . 
+   two weeks ago :, 
+   whoops , we can not support the currency anymore, 
+  except ruble is in free float mode since last november . 
+  collapse , disintegration ? 
+  current situation [ barely registers ] ( http://www.inflation.eu/inflation-rates/russia/historic-inflation/cpi-inflation-russia.aspx ) compared to the nineties , why should it happen now when it did n't back then ? 
+   i do n't know what 's wrong or why i can not grasp the logic . 
+  i think that your problems is because you 're trying to learn a programming language without first learning how to think algorithmically . 
+  not that it 's your mistake , there are very few authors who actually understand that this is not an innate ability . 
+  sadly , i do n't think i could recommend something that is tested by myself , i picked that up long time ago and i do n't remember the books i read ( except `` algorithms + data structures = programs '' by n.wirth , but i 'm pretty sure that it was n't my first book on programming ) . 
+  i could suggest two things , though . 
+  first , `` how to think like a computer scientist '' looks quite good , it is also free . 
+  second , learn how computers really work . 
+  there is great book called `` code : the hidden language of computer hardware and software '' .

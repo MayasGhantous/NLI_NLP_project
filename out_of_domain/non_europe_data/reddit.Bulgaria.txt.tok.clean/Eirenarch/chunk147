@@ -1,0 +1,100 @@
+  after what she did ruby is dead to me !, 
+  if i want to use a certain language i surely do care if i could get paid to use it without moving to another country/state . 
+  yeah basically this . 
+  note that this is just a personal opinion . 
+  also this is not a binary choice . 
+  you can certainly have a mixed team with python and be successful and a qualified developer can do magic with . net however with python you will need more process like unit tests , code reviews and conventions to maintain order and with . net you will need more boilerplate code to produce elegant solution . 
+  i suggest you learn to use terminology . 
+  we got what you meant but since mvc is a pattern that is used in many technologies you should really ask about asp.net mvc . 
+  one could argue this . 
+  on the other hand one could argue that static typing removes the need for * some * of the tests and in this way reduces the amount of time needed to write and maintain tests . 
+  of course not everyone agrees and this is why some people choose to use one language and others choose another - because they disagree . 
+  except that i doubt junior programmers will be able to write idiomatic python . 
+  i may be wrong but i simply would not risk it . 
+  banned accounts + maphacks are the micro transactions of starcraft ii !, 
+  lets imagine that a ban wave hits every 3 months ( and i think it hits faaar less often ) . 
+  it is not a big problem to buy a new copy of the game every 3 months . 
+  it 's not a lot for me with the current price but it is not important if it is a lot for you and me . 
+  it is important if there are enough people willing to hack for whom it is not a lot . 
+  maybe somebody hacked and got banned and it was a lot for him so he stopped but those for whom it was not just kept on hacking becoming even more brave about it . 
+  kind of evolutionary selection . 
+  something about the year of linux on the desktop ? 
+  this has already been proposed and also implemented in several games . 
+  it is a great idea in my opinion . 
+  what if ... blizzard already implemented this but are not telling anybody and streamers who complain 99 % of the ladder are hackers are actually hacking when off stream and have been sent to the hell ladder so they only meet hackers ? 
+  perfectly agree . 
+  i have disabled every unlockable skin ( as a random player i have them all unlocked ) and i would rather not see them . 
+  the only ones i have enabled are the collector edition ones and they are on units that are not used that often . 
+  still would not mind if the opponent had an option not to see them . 
+  people pay for these in other games . 
+  they basically pay for others to see them . 
+  i personally am so annoyed by the speedling skin ... 
+  webforms is just fine for the websites of the time ( i.e. 
+  sites like wikipedia ) . 
+  i am still amazed how things that were super easy in web forms suck hard in mvc . 
+  for example i am currently building a crud ( create/edit view , grid with paging , delete link , edit link in the grid ) ui and i want it all in one ajax page . 
+  with webforms it would be just separate controls in an update panel but in mvc i have to deal with action links and pass around the action url between views and compose the viewmodels . 
+  yeah , if he tells us i bet i can provide a description of stereotypical awful workplace that uses that technology . 
+  in fact i suggest we play a game . 
+  people add a comment with whatever technology and others try to make a stereotypical workplaces with that technology look bad . 
+  let me give an example, 
+  - why would anyone chose ( important to spell it chose ) to learn haskell anymore ? 
+  unless you want to relocate to one of the 3 places in the world that pay salaries to use haskell and are willing to relocate again when you do n't want to work there anymore or the place goes out of business ? 
+  i thought we were comparing asp.net mvc and asp.net web forms . 
+  if i wanted to build a spa ( and i have built some ) i would n't care about the server side framework since in practice i would barely use it . 
+  in fact my actual spas are web forms apps with 3 pages login , logout , index . 
+  they could easily be mvc apps or raw http handlers but i just thought creating two textboxes and a button was easier in web forms than in mvc . 
+  of course the actual app is powered by webapi . 
+  first of all this uses some third party framework . 
+  second it does n't change the urls and does n't support linking to the edit page for example . 
+  i think this is crucial for this kind of thing to be better than actual page reloads because as a user i would take links over ajax ui any day . 
+  finally this is quite a bit uglier than the equivalent webforms code . 
+  it has a bunch of html in a c # string constant . 
+  how the hell does anyone think this is better than web forms ? 
+  note that i did not claim it ca n't be done in mvc ( i did it ) . 
+  i just point out that it is more maintainable in web forms . 
+  most of the hate for web forms is either ignorance or bias and this example demonstrates this . 
+  too bad i am too lazy to build it in web forms just to make a point in a reddit comment but if you have a web forms experience you can easily imagine each of the views built as a web forms control and an update panel that switches them based on url parameters with js callback on the update panel completion to change the url, 
+  nobody forces you to use identity 2.0 if you do n't like it . 
+  in fact barebones owin host is equivalent to node.js except that c # does n't suck like javascript . 
+  is n't there a tl ; dr ; i only want to know what standards they managed to break and how and what standards they did n't . 
+  of course . 
+  the goal is to kill php quickly not to prolong the agony . 
+   the razor templating engine is pretty bad . 
+  it only allows you to have one model per page , which is really inconvenient . 
+  do n't tell me that you can use viewbags , it 's true but you lose all safety checks . 
+  the only thing that makes razor usable is c # , via extensions to the htmlhelper ( @html ) . 
+  this must be the most stupid thing i have heard today . 
+  have n't you heard of that basic way to achieve things in programming called composition ? 
+  if you want 5 models just make a class with 5 properties of the appropriate types and set it as the model . 
+  i think razor is mediocre at best but i do not even need to defend it since you obviously have no idea which part of the framework is the templating engine ( hint : how many models there are is a feature of the core mvc framework and applies to all flavors of templating engines in asp.net mvc ), 
+  hmm but attacks based on forward secrecy still require at least one compromised key from the chain of related keys ? 
+  i was too lazy to read the paper and the article itself is useless but did n't we fight for years to separate document style from document structure and invented css for this precise reason ? 
+  the examples are not equivalent although i am not sure which language gets the advantage . 
+  his example produces an ienumerable ( iterable in java terms ) while yours sorts the actual list . 
+  the list sort method in c # takes a comparison delegate which would look worse than the java code unless you build helper methods like comparing to produce it as there is not one provided by default . 
+  dynamic languages do what viewdata does and it is available in asp.net mvc . 
+  i guess nobody found this issue particularly annoying since nobody cared to do the trivial work to extend the framework to provide it . 
+  i even suspect it may be possible without changing the code in the actual framework . 
+  maybe some inheritance would be enough if we could change the base class for the view but i really see this as a non-issue . 
+  i do use identity 2.0 on a bunch of projects but your argument is bad since you pick some random , replaceable thing from the stack that actually has production quality alternatives and point it as a the major reason not to use asp.net . 
+  and where did you get the data that katana is slower than node ? 
+  i would really like to see it and especially see how it evolves with the development of the katana project . 
+  also even ** if ** katana is indeed slower i am willing to blindly bet that you ( or any random commenter on / r/programming who claims that katana is slower than node ) never had an actual requirements in a real world project that made katana unusable or even gave any practical advantage to node in terms of performance . 
+  i am sure that almost all real world projects will have bottlenecks elsewhere . 
+  let alone that i can invent an example involving loops and math where node will lose simply because . net has better optimizations due to value types . 
+  is the result usable in a loop ? 
+  streams are not iterable if i recall correctly ? 
+  you can map , filter or even parallel ienumerables in . net and still use them in foreach loops , 
+   the threading model of dotnet means less requests per server . 
+  i ca n't understand why people keep repeating that bullshit . 
+  the threading model of asp.net is super powerful and if you wished ( of course you should n't but if you wished ) you could set the number of asp.net threads to 1 per core ( via a config setting ) and then write async pages from since before i started working as a . net dev . 
+  maybe 1.1 maybe 2.0 i do n't know ... 
+  i started with 2.0 and this feature was already there . 
+  just for the record this is before node development began and also before google started working on v8 or the chrome browser . 
+  this brings us to the point of complexity where node totally fails with the callback hell and c # totally rules with async/await . 
+  i do n't know what problems identity 2.0 has with two factor auth ( i never used it with two factor auth ) but you can remove it entirely and plug into the pipeline yourself if you feel like it . 
+  you could also use alternative implementation like brock allen 's membership reboot - https://github.com/brockallen/brockallen.membershipreboot/, 
+  yeah , your suggested better way is `` do not use asp.net mvc '' . 
+  btw i could easily pick a counterexample . 
+  what if i wanted these views to be crawlable by a search engine ?

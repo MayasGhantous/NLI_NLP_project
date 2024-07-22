@@ -1,0 +1,100 @@
+  more . 
+  it 's not a problem that node is trying to solve , but it is a problem that exists , that programmers encounter , that node does n't solve . 
+  the problem is not that node is a screwdriver and that screwdrivers are n't useful . 
+  the problem is that node is a phillips-head screwdriver in a world with a lot of flat-head screws * and * phillips-head screws , and a lot of other better screwdrivers with interchangeable heads . 
+  you can claim as much as you like that it 's designed for phillips-head screws , but * that does n't change the fact it does n't solve this problem of flat-headed screws * . 
+   you are basically simulating user-level threads , even with async callbacks and such . 
+  in other words, 
+       every time you write a node app , you basically have to hand roll your own scheduler , and that is absolutely insane . 
+  distinguishing between the two is not important . 
+  sorry but the analogy does n't stretch that far , and even if it did , i said * interchangeable-head screwdrivers * already . 
+  node is ** not ** a good solution to a common problem . 
+  it 's a bad solution to the problem of primarily io-bound services ( because nothing is purely io-bound ) , and that is n't even a common problem . 
+  nothing exists in the absence of parallelism . 
+  parallelism and concurrency are the same thing . 
+  incorrect . 
+  you have to write it every time you write a node app . 
+   linq is moands in the abstract , you can use the linq interfaces to implement monads . 
+  you can not . 
+  that 's not how linq works at all . 
+   no it 's not it 's also map , fold , filter and bind among other things . 
+  all of which are just trivial elements of functional programming . 
+  saying that having map and filter means you have functional programming is ridiculous . 
+   linq is one of the best examples of how category theory can be used to create useful apis and patterns that the average programmer can use and understand . 
+  no , it is n't , because it literally has nothing to do with category theory . 
+  monads in haskell have * nothing to do with category theory * , at all . 
+  that is a myth . 
+  you do n't understand , there is no difference between the two terms . 
+  if you are doing two things at once , then you are doing two things at once . 
+  switching between two things rapidly is a form of ` doing two things at once ' . 
+  concurrency is just parallelism at a different level of abstraction . 
+  ` at the same time ' is relative . 
+  if you switch between two tasks very rapidly , then they are happening at the same time , from a high-level perspective . 
+  two processes on a single-core , single-processor machine that can only execute a single instruction at a time can still run in parallel , by switching between them rapidly . 
+  they are not subsets , they are synonyms . 
+  concurrency and parallelism are exactly the same thing . 
+  when the government has a budget surplus , this means that government revenue is higher than government expenditure . 
+  that is , taxes are higher than spending . 
+  ( this is just the definition . ), 
+  when the economy is growing , that means we are producing and consuming more goods and services . 
+  we are productively using our labour and our resources to ` make things and do stuff ' . 
+  ( this is just the definition . ), 
+  there 's a lot of talk of budget surpluses already , and there will be more . 
+  national will say they are running a surplus , and labour will say they ran a surplus every year they were the government . 
+  both parties will be saying these things with pride . 
+  are n't surpluses great ? 
+  as you can probably tell from the title , no . 
+  no , they are not great . 
+  budget surpluses , by definition , involve the government taking money out of the private sector . 
+  but why do they do this ? 
+  to ` pay down debt ' . 
+  the problem with this is that the government can pay down all its debt already if it wants to . 
+  it can just print the money to do so . 
+  when you suggest this to people , they are shocked . 
+  print money ? 
+  that 's the road to the weimar republic !, 
+  do you want us to end up like zimbabwe ? 
+  will we be using the us$ in 10 years because you can only buy bread for a trillion $ nz ? 
+  printing money only causes inflation if the economy is incapable of producing goods to satisfy demand . 
+  shop prices wo n't all go up just because the government prints some money . 
+  for proof of this just look at the united states . 
+  throughout the gfc the united states printed a * gigantic * amount of money , and yet inflation stayed stubbornly low . 
+  ** this is not economically controversial ** . 
+  the countries that recovered the best from the global financial crisis used deficit spending to boost their economies . 
+  this is essentially keynesianism , and it 's entirely orthodox economics . 
+  what 's more , keynes actually did n't say we should only deficit spend in the hard times , as some people seem to think . 
+  deficit spending all the time is the right way to do things . 
+  now some people seem to think that this is madness . 
+  how can the government * print money * . 
+  money is worth something , right ? 
+  it has value . 
+  if the government just prints money whenever it wants to spend money , it 's devaluing the dollar !, 
+  but the restrictions on printing money are n't that simple . 
+  printing money has different effects depending on how much you print . 
+  firstly , the government can never ` not afford something ' . 
+  the government can * always * afford anything it wants to buy if that thing is being sold in new zealand dollars . 
+  if the government wanted a universal basic income , it could decide that one existed , and pay everyone an additional $ 19,000 / yr , and that would be that . 
+  that would happen . 
+  that money would exist . 
+  that 's because new zealand has a * sovereign currency * . 
+  so does the us and canada and the uk . 
+  france does not , neither does greece . 
+  this is why greece is in so much trouble : it ca n't control its own economy because it does n't have a currency . 
+  germany decided that it should have austerity and thus it had austerity . 
+  secondly , there * are * material constraints on the economy . 
+  while it might be possible for as much * money * to be printed as the government decided , the government ca n't print * value * . 
+  there 's a limit to the amount of value the economy can generate . 
+  we have limited natural resources and a limited amount of labour , and we ca n't just create value out of thin air without expending labour or natural resources . 
+  everyone intuitively knows that there 's something not right about the idea of surplus and deficit in our economies . 
+  they know that if their household ran a deficit for almost the entire time it had existed for more than 100 years , it would not be sustainable . 
+  so why does it work for the government ? 
+  because the government is n't a household . 
+  ` household ' balanced budget analogies do n't apply to the government . 
+  the reality is that new zealand heavily underutilises its resources . 
+  we massively underutilise labour in particular . 
+  our youth unemployment is high , our general unemployment is high . 
+  if the government employed young people to dig holes and fill them back up again , it might cause inflation , but if the government employed more nurses , employed more doctors , employed more teachers , employed more road workers , employed more policemen , employed more firemen , employed more doc workers , etc. 
+  and financed this by printing some money we would not see runaway inflation . 
+  if you 've read this far , hopefully you can go into the political debate around this election a little bit better informed , ready to quell any economic myths you hear repeated . 
+  i 'm happy to discuss this in the comments as well . 
+  any ` lol you just want to print money you 're retarded ' comments will be ignored .

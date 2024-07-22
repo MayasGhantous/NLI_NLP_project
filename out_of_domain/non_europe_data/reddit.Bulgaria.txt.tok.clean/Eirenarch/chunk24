@@ -1,0 +1,100 @@
+  competition is not about patching . 
+  having 1 engine that is open source is the same as having ie6 that is not open source . 
+  the problem with ie was not that it had bugs . 
+  the problem was that nobody had incentive to develop new features . 
+  btw i am ok with this . 
+  for me the web is the wrong way to build applications . 
+  the thing that allows this to happen is the lack of competition . 
+  if webkit has 98 % market share there is no incentive for bugs to be fixed or features to be developed . 
+  3 % is not exactly meaningful . 
+  closed source engine do not prevent people from rolling their own ( closed or open ) engines either . 
+  i do n't understand how anyone thinks that open source has anything to do here . 
+  it does not help competition and it does not mean high quality nor standards compliance by itself . 
+  it seems to me that people are so in love with the open source mantra that they see it as solution for everything . 
+  there might be a big drain for one company to keep up but if there is no such company all the contributors would have no incentive to contribute . 
+  also opera and microsoft are doing just fine with their closed source engines . 
+  btw i believe that when ms releases a new browser it is the best one on the market for a couple of months ( from user 's perspective ) . 
+  this happened with ie8 , ie9 and ie10 . 
+  problem is they release once in a couple of years so most of the time ie is not the best browser . 
+  of course ie haters would choose to see it this way but as i remember it ie crashed netscape with features , stability and generally better user experience . 
+  there were anticompetitive actions for sure but in my experience this was not what killed netscape . 
+  in addition other browsers did not bounce back because of some verdict but because ie was stagnating for so long . 
+  they even disbanded the ie team and refused to introduce tabs in the browser . 
+  i am perfectly sure that if ie just had tabs they would have not lost their market position . 
+  standards compliance and web platform features had nothing to do with the fall of ie . 
+  it was end users features that killed it . 
+  - what ms contributed is open specification so your first point is not related . 
+  if they had implemented only in ie and released it as open spec it would still be open spec . 
+  - so the developers of a single open source browser engine should define the web ? 
+  if they decide that they should implement something that benefits lets say chrome os then everyone should follow because it is open source ? 
+  of course once they have the power they will but so will a closed source engine . 
+  it is all about market position not openness , progress or anything . 
+  webkit is not reference implementation of anything . 
+  in fact the web does not have agreed upon reference implementation and will not have because the players will not agree ( for example apple does not want to contribute their touch events spec ) . 
+  the fact that it is open source does not make it reference . 
+  why is not gecko reference implementation ? 
+  also there are examples of webkit not following standards and i believe canvas ( that originated from webkit is one of these examples - http://channel9.msdn.com/events/mix/mix11/htm03 about 20:00 ), 
+  as a user i hardly care about how ie handles css ( as a developer i do n't really care either because i was never responsible for beautiful web frontends and always worked on the functionality part ) . 
+  however on release recent versions of ie always provided the best user experience . 
+  ie8 loaded sites faster than any other browser and was the first browser to have tabs in separate processes ( a feature i highly value ) . 
+  ie9 was the first browser to have hardware acceleration and is still much better than chrome in this regard ( not the case with firefox ) . 
+  ie10 is simply the fastest browser now and the experience on a touch screen is better than any other browser ( touch scrolling and zooming is much better than anything else ), 
+  i would dispute that the open source model works in practice . 
+  in fact i can not recall a single major piece of open source software i choose over proprietary one unless i care about price over quality . 
+  i prefer proprietary os , proprietary office suite , proprietary browsers ( both ie and opera over firefox and chrome ) , proprietary games ( i do n't think i ever thought an open source game was even playable ) . 
+  your history of ie and standards is obviously different from the one i know . 
+  it seems like in your history there was w3c ajax specification and innerhtml specification and many more specifications and ie implemented them differently . 
+  in my ie history these things did not exist and ie implemented them and documented them and then the w3c took them made some ( reasonable ) changes and made them specification . 
+  also in my history of the web it was google and the webkit guys who showed the finger to the w3c and decided that they will have their own html5 specification which would have nothing to do with xhtml that the w3c was pushing for . 
+  as to who agrees about open source ... while millions of people may agree billions of people choose a closed source operating system . 
+  even if you are into the monopoly camp still the fact remains that many times more people choose mac os over the open source solutions . 
+  also apple are the most valuable company in the world and they even explicitly forbid open source on their money-making platform . 
+  of course for big companies there are many political reasons to choose open source . 
+  i still laugh at them because after so much effort they are still worse than native solutions . 
+  google docs is impressive piece of engineering but still a sad product compared to ms office or even libreoffice . 
+  according to wikipedia this last thing is very far from the truth ( wikipedia says 500 million android devices ) . 
+  also in my opinion many people choose android because they can not afford an iphone . 
+  for example in my country an iphone costs almost twice the price of galaxy s3 and if you take into account the low cost android models there are certainly a lot of people that just choose on price . 
+  first of all i 've actually read about 5 pages of the web standards . 
+  i am sure 90 % of web devs have not read that much and there is a good reason for that . 
+  this spec is a total mess and you have to dedicate your whole life to understanding it . 
+  also in most cases my code was indeed standards compliant or at least was something that was not defined in the standard ( like default values for attributes ) . 
+  on one occasion i produced valid ( according to the validator ) code that produced 4 different results in ie , chrome , opera and firefox . 
+  while it all got fixed by setting the default values for a couple of attributes it says a lot of the mess that the web is and how `` standards compliant '' different browsers are . 
+  yes i know that in the us most phones are sold on contract and as it happens us is the country where the iphone has the greatest market share of any country in the world . 
+  true . 
+  i do n't really have explanation for that . 
+  ( i might invoke the marketing budget of samsung just to go on arguing but i do not think this is the actual reason ) . 
+  i do n't know why anyone who is not engineer would choose android over iphone for the same price . 
+  i shed a tear . 
+  it is inconceivable why they choose things that are bad for them . 
+  why they choose an os with more problems and lower quality apps . 
+  yeah this is sad . 
+  they should obviously use skydrive or sharepoint if it is internal thing . 
+  i do n't know why so many people think the cloud is somehow bundled to the web . 
+  maps did n't work for like a month or two . 
+  then nokia maps and google maps came and the latter came with even more features than it used to have . 
+  ok but after all apple 's users won . 
+  they had to suffer a bit but the end result is better and more apps . 
+  and the only reason is that the company behind android has the best mapping tech and data which is not even open source . 
+  google docs is good complimentary tool but anything longer than 3 pages and formatting more complex than font size they wo n't do . 
+  also i once tried to read the c # spec in google docs and office web apps and both failed to load it ( maybe they fixed it since ) . 
+  any way the point was that the web is only as good as native if you `` have simple requirements '', 
+  i wonder what he thinks `` darling '' means . 
+  scala is like git is a reason to learn scala ? 
+  i hate the thing with passion . 
+  here is your downvote . 
+  i know you wanted it badly , 
+  where does the nickname come from ? 
+  the fact that i needed to put more thought in committing the code than writing the code . 
+  yeah this means sc2 is far better than wc3 , 
+  yes but i do not care for the player 's micro skills . 
+  i care about strategies , mind games and tactics . 
+  i do n't see how having good macro or micro is anything interesting . 
+  i do know why they are important but the more emphasis on these skills as opposed to strategy and mind games makes the game worse in my opinion . 
+  if all sports are what you describe ( and i know many are ) then i consider it an insult to be a sports fan or player . 
+  i value thinking over practice . 
+  golf is definitely the most stupid sport i 've ever watched . 
+  do n't insult wc3 in this way . 
+  when i had an internet caf\u00e9 they had some quota for starcraft i. 
+  you needed to buy 1 game per 4 computers or something similar .

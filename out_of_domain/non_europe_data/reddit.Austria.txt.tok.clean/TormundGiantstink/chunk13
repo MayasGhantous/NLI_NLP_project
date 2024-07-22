@@ -1,0 +1,100 @@
+  left join varianta a on base.id = a.id, 
+  left join variantb b on base.id = a.id, 
+  and map it into a pojo that contains all fields from base , varianta and variantb and create a method ` base tobase ( ) ` to map it back to the items i wanted in the first place . 
+  i know how to do this by hand . 
+  what i wonder is whether room can do that for me , without me having to map those objects by hand ( like applying the map-operator to an rxjava-observable ), 
+  tbh that 's the first time i heard about that and i 've learned about sql for 3 years in school, 
+  oh okay , i get it . 
+  we just went straight to third normalization in school ( because it 's best practice to avoid data duplication and nulls ), 
+  i 'll probably end up writing an extension function for the conversion and multiple insertion on my dao , thank god for kotlin, 
+  my biggest gripe with these implementations is that the author follows the principle blindy without realising that the observable itself is your darn interactor . 
+  the usecase is nothing more than a door between layers , which you do n't really need , if you abstracted your layers in the first place, 
+  i think that 's the biggest reason , why people think that clean is too much work/overengineered . 
+  fuck it , i 'll bite the bullet and write a blogpost about it . 
+  you 'll hear back from me in a week or two, 
+  i 'll explain it in simpler terms :, 
+  mvp -  separating business logic and ui logic, 
+  architecture -  seperating different layers from each other ( layers like persistence , network , etc. ), 
+  architecture is overarching, 
+  how do i build relationships in the first place ? 
+  i legitimately never had people i coul consider `` friends '' ( well , until now , because i get along with my coworkers really well . 
+  people who 're not around me frequently make me very anxious though ), 
+  so , is there an actual source hidden somewhere ? 
+  the vegnews article really only references cnbc and links to a couple of vegan products , while cnbc only links to the stocks, 
+  jesus , that must have hurt with so much extra weight, 
+  happens to a lot of dating app users . 
+  i 'm an androiddev on a dating app , frequently doing support stuff and users make me sick to my stomach, 
+  buy a lower-tier phone then , if you need your `` invaluable tool '' for snapchat and facebook, 
+  is that joseph gordon levitt ? 
+  i 'm 23 and working as an android developer , so i do n't really need mobile access , since i 'm in front of a computer 8 hours a day, 
+  i 'm not disagreeing that technology is important , but proclaiming a smartphone to be an important tool when someone suggests you use an older phone without the capabilities is foolish . 
+  most of the stuff i use my phone for ( except one , which would be music ) , i could also use an older one instead . 
+   i work in a job where i `` need '' my phone , so everybody else needs it aswell, 
+  ok , even cooler . 
+  why are we comparing our dicks here ? 
+  this shit 's fruitless . 
+  my point is , you do n't need a super-fancy phone and it 's completely bogus to complain about capitalism while buying products that are not worth their price, 
+  does time advance , if i just sit at a bonfire ? 
+  not sure , if it 's actually better , but i always use toilet paper instead of tissue paper ( because it 's cheaper and one roll takes forever to use up ), 
+  would n't those have burned ? 
+  for some reason i imagine the bran line in tommy wiseau 's voice, 
+  nah , it 's the wonder-whoring . 
+  sure , three free ~ ~ missionaries ~ ~ dragons sound great , but as we learned from kings landing , religion does fuck all in this game, 
+  when using rxbus , is there a way to throttle only certain items instead of all of them without having to create multiple observables ? 
+  something like this :, 
+  if i 'm completely honest , i never really understood the appeal behind rxlifecycle , considering how simple compositesubscriptions work, 
+  to be fair , german voice actors are really good . 
+  have you seen polish voice over ? 
+  i did n't find the first couple episodes that frilling , but holy shit , that was an insane episode, 
+  people often leave trash next to the fucking bin where i live, 
+  you could also be a whore in volantis, 
+  what is better ? 
+  a longsword or a katana ? 
+  does n't matter which you choose , a good swordsman will be better with either than a bad swordsman, 
+  did anyone else get a slightly lovecraftian feel from it ? 
+  i 'm very much looking forward to not actually watching this movie , but telling everybody i will , because i 'm a huge coward, 
+  oops , wording . 
+  i was talking about voice over in general . 
+  they most likely get the original version with some dude talking over it or , if theyr lucky , subtitles, 
+  same here , wanted more stuff like childish gambino and what do i get ? 
+  some bullcrap mumblerap, 
+  google 's streaming service was significantly better , but i 'm still not paying 10 bucks a month as long as i have my collection, 
+   no older than 25, 
+  is still missing, 
+  you could solve the synching issue by using a websocket instead of making webcalls . 
+  when a user opens the app , the app opens a socket . 
+  server sends config via socket and you update clientside-config . 
+  returning errors in the backend is probably the best approach to this . 
+  most of the time , you can most likely assume that users wo n't edit their sharedprefs, 
+  greatswords for smashing armor ? 
+  katana best weapon , dominating the battlefield ? 
+  the documentary is utter crap, 
+  i pulled it from [ this instagram post ] ( https://www.instagram.com/p/bxgohe1ltbv/ ), 
+  how do those games even get through the approval process ? 
+  i 'm 99 % sure that i recognize the artist and i dont that theyre involved, 
+  not hooking up with a lunatic solves that problem, 
+  the memory meter is deceptive . 
+  for some reason it keeps increasing on my work laptop , but remains stable when i execute the app from my home pc, 
+  edit : using the same phone both times, 
+  i think part of the problem is that led lights are more prevelant nowadays . 
+  theyre a lot brighter than the standard bulb lights ( that 's how i feel atleast ), 
+  because jraphical interchange format sounds dumb a fuck, 
+  i actually enjoy it , when somebody 's tailgaiting me at certain spots . 
+  you can slow down more and more and see the asshole behind you turn purple from anger, 
+  i really kill anything in one hit in this one, 
+  i 'd put them in the view and call presenter-methods as needed, 
+  if you keep your downloading in a platform-class ( like recyclerview.adapter or recyclerview.viewholder ) , then it 's fine . 
+  the point of mvp is that you want your code to be free from android-specific code as much as possible , so you can test it on the jvm with unit tests , instead of testing it on an emulator or physical device, 
+  if you want to send data from your device , you should probably be using an inputstream to read data . 
+  outputstream is used to write data to disk, 
+  to expand on that , the easiest ( rx-free ) way would be this https://gist.github.com/tormundsmember/df853ceb912ea81e4e24698918428a50, 
+  you can ship a prefilled sqlite.db with your app, 
+  oh damn , she 's further on the progression than i had thought, 
+  so , in your opinion , if i wrote a book about how / u/ronald -- raygun likes to dip their fingers in chili before touching their privates , it would be a credible source ? 
+  a single author without sources is not credible, 
+  repost it , if you think so, 
+  til, 
+  is the . csv a business requirement ? 
+  could n't you simply start a poeditor project and have your translators access that ? 
+  that 's what we do at our startup, 
+  has `` your wife '' filed for devorce yet ?

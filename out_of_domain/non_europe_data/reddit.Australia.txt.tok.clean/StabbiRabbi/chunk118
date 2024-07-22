@@ -1,0 +1,100 @@
+  they could apparently do long range reconnaissance better than anyone else in the 6x6 land rovers they took over and are regularly requested for operations . 
+  that 's interesting about the long tan service . 
+  i knew the memorial cross for the aussies was quite unusual , but did n't know the whole thing was unique . 
+  i could believe it though . 
+  vung tau , just down the road from nui dat , where the logistics support group was and notorious for being the r&r spot of choice for not only aussie and us troops , but also the local vc , is now a busy working port/tourist ( a lot of locals from saigon ) destination that has streets crammed with bars , restaurants and cafes . 
+  heaps of the restaurants have aussie names and the bars are peppered with diggers there to support the local orphanage . 
+  ( that was about ten years ago when i went to visit a mate working there - another aussie . ), 
+  i think 1atf fought differently in phuoc tuy to how the war was conducted in neighbouring areas like bien hoa and warzone d where us tactics emphasised firepower and big search and destroy operations instead of counter-insurgency with constant patrolling as the australian task force emphasised . 
+  that probably left fewer scars amongst the locals . 
+  australians always seem to make it up with former enemies quite quickly and genuinely . 
+  there 's that thing ataturk said about mehmets and johnnies buried together after gallipoli ; the long tan thing you mention sounds in the same vein . 
+  oh you will appreciate the 21 then . 
+  i 've not tried the 10 or 25 , but i really enjoyed the cs and 18 immensely . 
+  the 21 is a kind of what you would imagine after the 18 , but somehow even richer than you 'd expect . 
+  i really should order a dram of the 25 !, 
+  the 21 is certainly one of my favourite scotches i 've had a bottle of . 
+  i 'm sorry to hear that ; at least your dad got to make a nice trip like that before the illness struck though i suppose . 
+  it must have been emotional being there , particularly with a family member having fought in the battle . 
+  ( i mean survivors of long tan is a pretty exclusive group of australians ! ), 
+  i have read that 1rar hated being attached to the 173d abn bde because the way they operated was anathema to the australian doctrine , and that phuoc tuy went from being a very highly active area for vc to very pacified , especially while 1atf had three battalions deployed at once . 
+  of course there were many different environments , periods and scenarios throughout the length of the war , but it does make you wonder if the outcome would have been different if the crucial ' 65 - '69 years had been fought under a commander more attuned to counter-insurgency , or even just small-unit action , than westmoreland was ... 
+  so i read your review , and think you 'll enjoy - especially , as you say , at 1/3 the price of the 25 !, 
+  i do n't tend to order samples , but some of the recent reviews are making me think i ought to start . 
+  the glenglassaugh 30 review that was just in the last couple of days ( also mentioned in the comments of your review ) is another one , together with the ` goyne 25 of course , that is prompting such thoughts . 
+  i 've heard the south vietnamese troops could be very good too - it 's always us sf/sog , seals , aattv , usmc cap ( the combined action platoons which were 1/2 usmc and 1/2 rf/pf troops , embedded in villages and also a ci type operation ) and other advisors who say it , rather than soldiers or marines operating in big units who did n't operate closely with them . 
+  they actually did pretty well after abrams re-equipped them properly during the american withdrawal ( at least while they still had us logistics and air support ) too - they broke the '72 easter offensive 's back very quickly and lasting even till '75 after carter stopped all materi\u00e9l support was a pretty good effort in itself . 
+  i 've only tried the g&m 18yo ib in terms of coal ella so i ca n't even imagine that in a 30yo !, 
+  i can imagine he 'd have some stories , the aattv were pretty professional guys . 
+  did n't they collect a few vcs too ? 
+  i understand there were aattv troops in macv-sog as well , rather than sas . 
+  a pretty amazing record . 
+  how the headline * should * read :, 
+   us declares israel rogue state . 
+  obama warns : `` time for some freedom motherfuckers '' . 
+  ** just kidding , kids ** . 
+  hopefully though this will lead to a more robust debate within the us government about where exactly the line between supporting israel 's continued existence and enabling their misdeeds lies . 
+  my hope i 'd that the eu and us impose targeted sanctions against leaders of the current , extreme-right-wing israeli regime ( eg netanyahu , bennett , shaked , akunis and etc ) and illegal settlements , much as were employed against putin and his inner circle for * their * annexation of crimea . 
+  this would get the message across whilst only affecting those directly responsible and not harming the `` average israeli in the street '' . 
+  it is fast reaching the point where something must be done , as israel engages in ever more egregious policy ( levy report-based policies in the wb , annexation of golan , shoot-to-kill roe for idf occupation forces and so on ... ) , seemingly feeling absolutely inviolable as they do so . 
+  i sincerely hope such arrogance turns out to be stinging hubris rather than justified self-confidence . 
+  having watched this at an airshow , let me confirm what an awesome sight and sound it is irl !, 
+  it is , of course , very awkward to unit test static methods , classes and etc too - another important reason to limit your static program elements . 
+   typically with object oriented programming , you 're going to model your data and services ( both external and internal ) as classes . 
+  what this means is that you do not want to do any actual work in the main function -- your classes will do the work . 
+  you simply want to initialize them and use them . 
+  more generally , the same principle applies to program design in general : where the code is executed should usually , ideally contain a minimum of business logic or direct resource access , but rather call other components which should be supplied via dependency injection/inversion of control . 
+  for example , when coding mvc controller actions i prefer ( in all but the most trivial of cases ) to inject services , repositories and so on into my controller 's constructor and then use my action methods to invoke these other components , delegating all logic other than input/output pre-processing to these components . 
+  i personally find this helps keep a nice , clean design as opposed to piling more and more logic and code in action or main methods which greatly helps with testing , maintenance and refactoring . 
+  this is very interesting , thank you , especially in the context of the current `` prisoner execution '' scandal . 
+  i believe that soldier is a religious nationalist . 
+  i have read elsewhere that there are fears that should the israeli regime strike a peace deal the idf may soon be ideologically incapable of following orders from its c-in-c to expel the settlers due to the religious nationalist influence the article discusses . 
+  one can understand why that thought must horrify israel 's professional soldiery and thus understand why they are not only taking measures to limit such influence , but , as seen here , talking about it publicly . 
+  di does n't necessarily require the use of an ioc container - it is simply the pattern of passing dependencies into their consumers rather than using new ( ) within the method . 
+  an ioc container can certainly be overkill for a simple system ; simple pattern use of the pattern does n't add any complexity and can in fact help simplify component usage . 
+  in such simple program examples delegating control of instantiation to the highest level of execution can help keep responsibilities clear ; eg in the simplest instance you can control your resource access dependencies from main ( ) , then pass them into any consumers that are employed within main so that if a repository needs a connection you can create and ( importantly ) manage the lifecycle/disposal of the connection centrally from the main execution path . 
+  even in a console app or simple winforms program this can be a useful pattern , quite aside from mvc which strongly encourages the use of full blown ioc with a container by its inherent design . 
+  ha ha , the pattern is the * important * part !, 
+  you hit the nail on the head though - so many people mistake di for using structuremap , autofac , ninject or whatever . 
+  sadly , i completely get why you would have thought i meant that ... 
+  that * is * overkill in many , many cases . 
+  thank you - that is exactly what i had in mind . 
+  perfect example . 
+  yeah , of course , if one is disciplined and following functional type strictures so the method under tests has no side-effects then it 's not a problem on a method level . 
+  however , that is not always the case , especially in an oo world !, 
+  also it is harder to mock up and inject static classes for testing ( though that can depend on the test library ) . 
+  sure , but method idempotency is not something a lot of c # devs coming from an oo background are necessarily going to be very cognisant of - especially in the type of classes people * tend * to design as statics : eh the * classic * ( ahem ) `` helper class '' anti-pattern . 
+  for more experienced devs it 's not such a stumbling block , but for those less experienced avoiding statics can be a simple rule-of-thumb way of helping avoid the pitfalls of unexpected side-effects from static calls affecting static variables . 
+  depending on the test library static * classes * can also be much trickier to mock and inject during unit testing . 
+  if you practice tdd you will become more disciplined over time ; however , i was pitching these thoughts more about op asking about statics in c # from a less experienced perspective ... 
+  i hope the daughter 's condition improves . 
+  at least she is being treated in a modern , advanced health system that will provide her with a high standard of care . 
+  i mean , i hope all the wounded recover , obviously , but a teenage girl can have done nothing to deserve the pain and nightmares that will follow this horror . 
+  any attack on civilians is utterly immoral and must be condemned outright . 
+  my other hope is that they catch the bastards responsible for this attack , apprehended them and subsequently punish them to the full extent possible under israeli law . 
+  this case is utterly horrific , particularly given the ultimate consequences of these mens ' actions include the last incursion into gaza ( according to the article , which matches my memories of that time ) . 
+  i am not going to say `` it 's good they 're being punished '' because , although it 's obviously a true statement , to do so would imply such people are not always punished . 
+  that is unfair , doing israel 's civil legal system a gross disservice . 
+  i just commented in another thread that i hope the perpetrators of the bus bombing are caught and punished to the full extent possible under israeli law ; i wish the exact same upon these terrorists too when the court performs sentencing . 
+  they ( the perpetrators of both crimes ) deserve nothing less than the maximum term . 
+  what is the maximum sentence israeli courts can impose on criminals for crimes such as this or the bus attack ? 
+  i sincerely hope and pray ( in a secular manner , but no less genuinely for the lack of a specific deity being prayed to ) that both israelis and palestinians alike are freed from the burden of enduring such terrible events being inflicted upon them in the near future . 
+  nobody should have to live in fear of a bomb on a bus , or being snatched off the street and murdered just because of their ethnicity . 
+  as this fountain proves , american culture has now rendered all previous cultures redundant and only worthy of appreciation by losers . 
+  las vegas is perhaps the ultimate expression of american culture , condensed to an intensity no previous expressions of any other nation 's culture could even hope to achieve . 
+  rubbish like angkor wat or machu picchu should just be bulldozed . 
+  if they can be relocated to vegas , great - there must be room on the strip for them ( after the application of sufficient neon to stop them being so lame of course ) , but otherwise there 's no real point in their continued existence . 
+  do n't be fucking ridiculous . 
+  * nobody * mentioned `` the jooos '' until * you * . 
+  i have only discussed historically known facts , and actions of the israeli government/idf leadership . 
+  to try to paint this as anti-semitism * is * just as offensive as you intend it to be , but let me assure you this undeserved and unnecessary slur reflects far more negatively upon your character ( as well as the strength of your argument ) than it does my own . 
+  historically , you paint a * very * one-sided , revisionist view of the events that led up to israel 's sneak attack that is , remarkably , even more virulent in its apologia for the regime 's actions than the mainstream israeli view ( ie michael oren ) which to a large extent shrugs the causes off as `` faults on both sides , and hey two wrongs makes a right '' , to paraphrase their position . 
+  i 'm sorry , but treaty obligations actually * are * a perfectly legitimate cassus belli and the cause of many nations ' involvement in various wars - including england and france 's declaration of war against the nazis in wwii - extending to this day . 
+  furthermore , the israeli planners are known to have worked out their plan for the war - dealing with egypt , then turning to syria - as set pieces , long in advance of the actual start of hostilities . 
+  this clearly illustrates that the israeli military and government was perfectly well aware of that treaty and its meaning ( ie that by attacking egypt , israel was ipso facto also entering a state of war with syria and jordan ) . 
+  edit : punctuation, 
+  that is a pure whataboutism - itt we are talking about israel , more specifically the israel regime 's gross violations of human rights and international law that have been ongoing for fully half a century at this point in time ( well , 49 yrs to be absolutely precise - i rounded up ) since 1967 . 
+  now the israeli regime is talking openly of illegally annexing territory it is currently occupying and that is what has triggered the censure . 
+  if we were in a thread about hamas i would agree with you , but itt your comment is just noise , trying to distract others from concentrating on the subject of the op : america 's censure of israel for a laundry list of egregious human rights violations . 
+  and would sanctioning the leaders who are dragging israel towards full right-wing extremist , religious fundamentalist , rogue state status not be fairer than general sanctions against the entire country and every aspect of the israeli economy ? 
+  except the article is about the refreshingly candid detailing by the state department of what they really think about the israel regime 's behaviour .

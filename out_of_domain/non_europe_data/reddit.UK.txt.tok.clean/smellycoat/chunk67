@@ -1,0 +1,100 @@
+  actually quite nicely integrated into os x , but it 's still definitely vim . 
+  you 'll probably already know if you want this or not , 
+  if you need to edit stuff via sftp/ftp ( as i do ) , then coda seems to be the most reliable/usable for that . 
+  if not , then textmate is what i 'd choose . 
+  i have both installed , coda as my `` ide '' , and textmate as a general-purpose editor . 
+  honourable mention ( because i 'm a huge fan ) :, 
+  * [ writeroom ] ( http://www.hogbaysoftware.com/products/writeroom ) - full-screen , black background , green text . 
+  no syntax highlighting , or code editing features at all . 
+  but an excellent editor for distraction-free writing . 
+  comes with some os integration for editing emails and textarea contents in it . 
+  perfect for writing documentation , emails , and anything that requires concentration . 
+  anything else worth looking at ? 
+  i gave up on the massive download ( wireless here is sloooow ) . 
+  would you happen to know if it has support for languages that are n't c , c + and obj-c ? 
+  ftp/sftp remote file browser/editing , perhaps ? 
+  er , this is a terrible argument . 
+  i 'm not about to buy a jag each for every employee in the building !, 
+  actually i suspect the end of ms 's chokehold on office software wo n't come until they 're no longer in charge of the format , and they have a competitor that has a significant user base . 
+  the recent standardisation effort has n't stopped them from introducing rendering quirks and incompatibilities that make life difficult for everyone else . 
+  yeahman , got to give them credit for that shit , they 're certainly going about it the right way !, 
+  indeed , i did n't mention it as it 's the same as bbedit 's . 
+  probably worth doing , if only for completeness , though . 
+  cheers , 
+  a jag does n't get you through rush hour traffic any quicker than anything else . 
+  this is an awful analogy !, 
+  okay . 
+  what 's bad about it ? 
+  both of the suggestions i made will work , and are valid . 
+  i 'd agree there 's an argument that the extra elements are n't necessary ( although , they could be . 
+  with no block-level header tag you 're relying on the ` < p  ` , if a section starts with , eg , an ` < img  ` , it 'll be rendered on the same line as the header . 
+  plus the fact it 's generally kinda handy to have a block tag to target styling ) . 
+  but anyway . 
+  as far as i can see , at best it 's a `` judgement call '' . 
+  i struggle to see why 12 people decided it was shit enough to downvote , but not one bothered to explain why . 
+  except you , and your reason was `` it 's bad '' . 
+  constructive !, 
+  dude i have no idea what 's going on with all the downvoting in this thread !, 
+  dude the pcs we bought at work last year came with ball mice . 
+  ** last year ** !, 
+  hmm . 
+  not unless you can think of a reason to put a young , attractive , demure-yet-able-to-kick-your-arse girl in a lead role . . 
+  ( i 've watched and enjoyed most of the tv whedon 's done , but it does disturb me slightly that i think i have a pretty good idea of what his wank-fantasies look like ), 
+   you 're mixing style and presentation, 
+  no i 'm not . 
+  and you * have * to add markup to that in certain situations anyway . 
+  otherwise there 's no sensible way to target the text-next-to-the-h3 with css ( and applying style to the whole document and then undoing it inside ` < p  ` tags , etc is * certainly * not the way to do that ) . 
+  there 's also nothing to separate the header and the text next to it from any inline elements that might come afterwards . 
+  adding extra tags there is * not * `` wrong '' or `` bad '' or `` invalid '' or `` mixing style and presentation '' . 
+  it * may * be unnecessary , granted ( but whether it is or not will depend on what else this dude wants to do - he has n't shown us the page , so we 're all just guessing ) . 
+  they came from dell . 
+  i shit you not !, 
+  edit : ah , tell a lie , it was 2008 , not last year . 
+  but still !, 
+  yeah , really . 
+  i was very disappointed with the magic mouse , and it 's * far * too fiddly for playing games . 
+  a half-decent logitech usb mouse will do the job perfectly . 
+  erm , why ? 
+  why do n't you just do what you normally do and `` casually '' drop it into conversation ? 
+  probably . 
+  i had a go at portal on my mbp via crossover and it was at least playable even with the lower power gfx . 
+  and a native version will certainly be better than that . 
+   i tend to prefer applications that do n't stray outside the confines of their intended purpose . 
+  i do n't disagree with the sentiment , and for the odd file here and there that method works fine . 
+  but if you 're doing any significant remote work , a separate ftp/sftp app just does n't cut it . 
+  i 've tried lots of alternatives ( on several oss ) . 
+  a solid text editor with a good , integrated remote sftp file browser is by far the most convenient way to work with a codebase on a remote server . 
+  unfortunately there are n't all that many editors out there that support it , but they do exist . 
+  yeah , they look [ fucking terrible ] ( http://www.ultrasabers.com/v/vspfiles/photos/ufx-ls-anh-5.jpg ) . 
+  it 's all good man , 
+  i work on some rather sizeable codebases , and although i have local copies of most stuff , some of the features are rather a lot of effort to set up ( requiring big databases and specific domain setups and shit ) . 
+  so i tend to work by throwing everything onto a remote development server that can get at all the resources it needs for everything to work ( and someone 's taken the time to actually set it up properly ) . 
+  if i seemed to leap to my own defence rather hastily it 's only because i do generally subscribe to the unix-y notion that `` lots of small programs that are good at one-thing-and-one-thing-only beats having one monolithic do-everything app '' , even if it sometimes makes easy things harder ( as it also makes complicated and unexpected things * possible * ) . 
+  but , i have never found a good way to edit remote files without having that functionality built into the editor itself . 
+  without it , you get odd problems , like the editor trying to stat a lot of files or something ( which takes forever over a remote fs ) , or odd things happening when network connections die , or the editor locking up while it saves ( because it does n't expect a save process to take more than a few ms ) , or any number of other problems . 
+  i did try textmate via an sftp filesystem driver ( macdrive , or something ? 
+  ) , but it was kinda unreliable and did n't get on well with the fact that saves took a little while ( plus , all hell broke loose when it tried to run its svn integration stuff  ) . 
+  i 'd assume that they 're `` players '' , because the server needs to know where they are , so it can work out what data to send them ( again i 'm assuming the server is clever enough to not send every bit of location information to all players all the time ) . 
+  so it kinda makes sense that they 're a special class of `` player '' . 
+  that means there 's all the logic there for damaging and moving and stuff , so if weapons do n't specifically exclude spectators when applying their effects , then they 'll affect spectators as well . 
+  the gunboats bug is probably something daft in the rocket damage calculations that does something like . . get a list of players that could be affected by the damage , and goes through it looking for players that are n't on your team , and switches off the gunboats effect if it finds any . 
+  but it should instead be checking for players that are n't on your team and are n't spectators ( or simply looking for enemy players ) . 
+  i 'll admit this is all conjecture , assumptions and a healthy dose of random bollocks i pulled out of my arse . 
+  but it seems reasonable , 
+  haha , my condolences , dude , 
+  sms is 160 7-bit characters , or 140 8-bit characters . 
+  fair enough . 
+  i speak as a guy who has seen a lot of bugs , rather than as someone who knows anything about how valve 's multiplayer games work . 
+  so i will happily bow to your judgement there . 
+  if that 's the case , why are they keeping track of spectator locations ? 
+   half-life was the first game that implemented the `` do n't draw it if it is n't on the screen '' idea . 
+  clipping ? 
+  that shit 's been around since the dawn of time , man , 
+   it 's most likely caused by some marvelous hack that has come to bite them in the butt . 
+  haha , yeah that was my thought exactly !, 
+  i 've often wondered what large game codebases end up looking like . 
+  particularly things like rpgs , with hundreds ( or thousands ) of spells , effects , damage types , etc. 
+  all with their own set of little rules about how and where they apply . 
+  or achievements , hundreds of little rulesets that demand the ability to identify all sorts of interesting situations . 
+  each alone seems relatively easy to implement , but i ca n't see that adding code for hundreds of them would result in anything other than a huge mess !, 
+  tricky question !,

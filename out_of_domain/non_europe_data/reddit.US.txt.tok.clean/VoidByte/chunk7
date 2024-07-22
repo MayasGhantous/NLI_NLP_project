@@ -1,0 +1,100 @@
+  specifically what nohup does is setup a signal handler that ignores sighup . 
+  then this signal handler is inherited by the child process . 
+  screen creates a virtual console . 
+  then attaches the virtual console to a session-related command . 
+  when your session ends the session-related command is killed but the virtual console remains . 
+  this allows you to reconnect to the server and reconnect the virtual console to another session-related command . 
+  also you could have two session related commands both attached to the same virtual console . 
+  this can be useful when you are teaching . 
+  the virtual console is generally called a socket . 
+  for development you need a mix of both . 
+  do n't worry about going full cli . 
+  things like your web browser , burning disks , listening to music and even chat can easily be done from the gui . 
+  [ man ( 1 ) ] ( http://commandaday.com/post/2543837172/man-the-start-of-our-adventure ) pages are your friend . 
+  also google . 
+  google is the king for it work . 
+  major things i would learn sooner rather than later . 
+  pipes ` | ` , output redirection `  ` . 
+  ssh , keyfiles and host name bash completion ( i.e. 
+  pressing tab to complete the ssh hostname ) . 
+  now multitasking . 
+  you have several options , some people like a terminal multiplexer ( screen or tmux ) . 
+  these turn one terminal connection into multiple while providing the feature or resuming where you left off if disconnected . 
+  others like tabbed terminals . 
+  gnome-terminal uses ctrl + shift + t to tab . 
+  personally i use a combination of both . 
+  next job control , ctrl + z will allow you to put the current command to sleep . 
+  fg , bg will allow you to either resume it in the foreground or the background . 
+  disown will allow you to continue the process but not connected to your terminal at all ( you must resume operation with bg before disowning ) . 
+  this causes the process to continue even if your terminal is killed much like screen does . 
+  vim allows you to run shell commands by pressing ` : ! ` and then typing the command name . 
+  if you preface the ' ! ', 
+  with a selection ( ' . ', 
+  is the current line , ' % ' is the current file , use visual mode to select multiple lines ) then vim will feed the selection to the command and replace it with the output of the command . 
+  sort ` will sort the entire file , ` : . !, 
+  ifconfig ` will replace the current line with the output of ifconfig . 
+  hope this helps . 
+  i did n't mention this in the above post but when using job control :, 
+  ` jobs ` will list all jobs and their job id . 
+  to reference a job in any of the job control commands preface this job id with the '' % '' symbol . 
+  so to bring a sleeping process to the foreground : ` fg % 1 ` . 
+  i wrote a longer post over at : [ job control ] ( http://commandaday.com/post/2812693643/job-control ) . 
+  if you have any feedback , for instance parts that are confusing , writing style or so on i 'd love to hear . 
+  as someone who has read the book ( i was very happy to find the anime ) and anime , howl 's moving castle is not steampunk . 
+  sure there is steam in it but it takes a lot more than that to be steampunk . 
+  the biggest thing is to be using it every day . 
+  second i suggest that you install something like slackware and then get it running dns and apache . 
+  slackware does n't hold your hand much so you will learn what is actually going on . 
+  you can find tutorials for installing slackware online and tutorials for how to setup bind ( dns ) on slackware . 
+  follow them but make sure you understand what they are doing . 
+  ( while i recommend slackware , arch , gentoo , or any of the bsd 's will do the job equally well . 
+  slackware is a bit simpler then the non-bsd alternatives . ), 
+  i 'll give it a swing : [ smoke up your a ** ] ( http://www.youtube.com/watch?v=6pgsl8vez5e ), 
+  learning vi is not worth the time if you do n't spend very much time editing files . 
+  if you spend lots of time in text files then vi/vim/emacs are very powerful and provide large amounts of power that you just ca n't get in a normal editor . 
+  yes , your local library will distribute the documents . 
+  the federal government will also pay people like turbotax to give you free access to the basic version . 
+  at least for myself this is a pretty decent way of doing taxes . 
+  there is no one thing . 
+  once you know the keybindings you can quickly do things that take much greater effort in a normal file . 
+  add a ' # ' to the beginning of a hundred lines . 
+  run the file through an external command and replace with the output ( i.e. 
+  sort or filter the file ) . 
+  quickly being able to move between words , sentences , paragraphs or lines . 
+   add a ' # ' to the beginning of a hundred lines . 
+  ctrl + v 100j i # escape, 
+  ctrl + v : put you in visual block mode . 
+  100j : go down 100 lines . 
+  i : insert at beginning of lines . 
+  ` # ` : type the ' # ' character . 
+  escape : exit visual-block-insert mode and return to command mode . 
+   run the file through an external command, 
+  ' : ' enter ex mode, 
+  % : the entire file, 
+  : execute shell command, 
+  < command  : the command to execute . 
+  the are tons of these honestly archaic commands . 
+  once you know a few it is easy to tie them together and quickly do a lot . 
+  once you know a ton then to be pathetically poetic the document shapes to your will . 
+  i know vim is archaic but looking at what i can achieve with vim i ca n't think of a better way to go about it . 
+  vim has some shortcomings . 
+  a very high learning curve . 
+  it does n't have built-in support for debugging , or code refactoring . 
+  i can see the use for such things but i have a debugger for that so it 's good enough . 
+   add a ' # ' to the beginning of a hundred lines . 
+  ctrl + v 100j i # escape, 
+  ctrl + v : put you in visual block mode . 
+  100j : go down 100 lines . 
+  i : insert at beginning of lines . 
+  # : type the ' # ' character . 
+  escape : exit visual-block-insert mode and return to command mode . 
+   run the file through an external command, 
+  ' : ' enter ex mode, 
+  % : the entire file, 
+  : execute shell command, 
+  < command  : the command to execute . 
+  the are tons of these honestly archaic commands . 
+  once you know a few it is easy to tie them together and quickly do a lot . 
+  once you know a ton then to be pathetically poetic the document shapes to your will . 
+  i know vim is archaic but looking at what i can achieve with vim i ca n't think of a better way to go about it . 
+  vim has some shortcomings .

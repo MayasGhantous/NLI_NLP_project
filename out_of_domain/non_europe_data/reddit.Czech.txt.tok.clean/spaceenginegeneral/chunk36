@@ -1,0 +1,100 @@
+  probably not , why are video ports a problem ? 
+  for competitive games definitely 144hz, 
+  for strategy games you really want to have the best single threading performance possible and i 'd recommend you to get a 6600k just for that but if you 're set on not overclocking , get the 6500, 
+  you did n't specify which card you have now , but for mmos in general populated areas are always going to be cpu bottlenecked so a better gpu probably wo n't help your framerates there, 
+  better cpu ( ideally an i7 ) , so you 'd have to upgrade that together with motherboard and possibly ram . 
+  yes , there really is n't much you need to do besides reinstalling motherboard drivers ( and gpu drivers but you 'd have to do it anyway if you 're changing gpus ) . 
+  you do n't have to reformat anything, 
+  afaik only evga cards have those problems, 
+  if you have oem license of windows it 's possible it wo n't work but that 's because the license is tied to motherboard and not related to amd/intel, 
+  i 'm not sure if it 's consensus but 4gb 480 seems to be the best deal in my opinion , i honestly think more vram is vastly overrated for 1080p . 
+  i 'm out of loop then , well the article says it all , check what memory you have and update bios , though there does n't seem to be any info whether it 's definitive fix or some kind of workaround so impossible to say if the overclocking is still affected, 
+  form factor does n't directly affect performance . 
+  only issue with matx/itx would be if you 're overclocking since boards tend to have a lot worse power delivery compared to similarly priced atx boards . 
+  ssds improve loading times dramatically and in games that load assets from the disk during gameplay , they minimize or eliminate swapping so in certain games they directly improve performance if hdd would cause bottlenecking . 
+  honestly , ssds have been out so for long now that it still boggles my mind that some people will say they have no impact on gameplay , especially when every other game has open world and ultra high res textures . 
+  sure , if you like hoarding media , get a hdd but for general use there 's really no reason to use a hdd anymore in my opinion . 
+  you should get a z170 board if you want to use faster ram than 2133mhz . 
+  also , get 2x4 instead of 1x8 since dual channel actually makes a difference, 
+  i 'd get a 4gb 480 or 470 over 3gb 1060 and unless you 're sure you 'll fill the 1tb harddisk , get a 250gb ssd instead , 120gb is kind of lacking nowadays . 
+  you might want to make a regular thread to get more input honestly since it 's not exactly simple question, 
+  what games specifically ? 
+  if we 're about high framerates in aaa games that can utilize hyper threading ( witcher , gta ... ) , i7-6700k oc 'd would give you a decent boost over your i5 . 
+  if we 're talking about games that have trouble utilizing many threads but still are almost completely dependent on single-threaded performance ( arma 3 , paradox games , mmos ) , oc 'd 6600k and fast ddr4 ram could be a decent upgrade as well . 
+  the question is how fast do you want to upgrade honestly . 
+  so far kaby does n't seem to be worth waiting for over just getting skylake by itself , but if you 're not in a hurry it might be a decent idea to wait for both zen and kaby to come out and see if it shakes up the cpu market in anyway way . 
+  there is n't really much info about cannon lake so it 's hard to speculate whether it 'll be worth waiting for . 
+  honestly i 'd just recommend investing into a z170 board + 6500 over a 6600 as getting a faster ddr4 ram , which should give you better results over having few hundreds of mhz cpu frequency . 
+  not to mention you will have the option to oc the 6500 in the future ( even if you 're not planning on doing it now ) and it would only take a few mhz increase to bclk to reach a 6600 performance anyway, 
+  get dual channel 2133mhz ram sticks instead . 
+  the board ca n't use 2400mhz anyway . 
+  i 'd say save a bit of money on a 480gb ssd and get a 256gb ssd together with rx470 instead . 
+  the faster ram itself is a pretty big advantages in cpu bound scenarios as non z170 boards are limited to 2133mhz sticks and that may cause some bottlenecks ( of course , cpu bottlenecking is more complex than what people on this sub make it out to be so your mileage may wary depending on framerate , resolution and obviously games ), 
+  [ here ] ( https://www.reddit.com/r/buildapc/comments/5agh8f/skylake_cpu_and_ram_gaming_impact_benchmarked/ ) is a thread that goes a little bit more indepth and compares effect of cores , cpu frequency and ram frequency on a sample of 7 games . 
+  obviously , these are just 7 games which might not necessarily reflect what you play but do keep in mind that in the [ 7 game average a 3000mhz ram and stock 6600/6600k will give you the same performance increase as a 2133mhz ram and 4.5 ghz 6600k . 
+  ] ( http://i.imgur.com/15gtafq.png ) either of these will gives you way bigger benefit than going from a 6500 to 6600 . 
+  also , as a bonus you 'll get some additional motherboard features missing on the h110 like m. 2 slot , 4 ram slots and few more pcie/usb slots, 
+  you 're right about dual channel and i was n't really mentioning it because i just consider it a must have regardless what ram are you buying anyway . 
+  of course op should get a 2133mhz dual channel over 3000mhz single channel but i never argued otherwise . 
+  rather , my point is that if you 're worried about the longevity of your cpu and are willing to pay a bit more for the `` future-proofing '' ( which was the case for op ) , getting a z170 board is probably the single best investment you can make as it gives you so many way to get a good amount of more juice out of your cpu down the line that locking yourself into a cheaper chipset is simply incredibly shortsighted unless you 're on a budget buying an i3 . 
+  with non-z170 chipset and an i5 , you 're pretty much never going to get a cost efficient upgrade . 
+  why ? 
+  because to get a meaningful upgrade from an i5 you have to either :, 
+  a ) overclock it . 
+  which , you ca n't without a z170 chipset . 
+  oops , ca n't do that either without z170 . 
+  and as much as people still do n't realize this , 2133mhz will bottleneck your cpu . 
+  if h110 supported 2666mhz + or even 2400mhz , this would n't be such an issue but being stuck at stock ddr4 speeds is a problem, 
+  c ) get an i7 , preferably unlocked kaby as it will be the best thing available you can get without buying a new motherboard . 
+  yeah ... so your only upgrade option without buying a z170 board several years later anyway is to get a locked kaby and run it with a 2133mhz ram . 
+  alternatively , you can buy a z170 board and faster ram initially and once you feel like the cpu is not good enough ( which will already happen later since you 're not using slow ass 2133mhz ram ) , you 'll either overclock it or switch to an i7 and overclock it , which will be the most efficient cpu upgrade you 'll be ever able to do since you wo n't have to buy anything else . 
+  seconding getting a 1080 instead of 1070 sli . 
+  with overclocking in mind i 'd recommend avoiding low end z170 boards as they only use 3 or 4 phases for the cpu ( so basically same power delivery as non z170 boards that are meant for skylake running at stock voltages ) . 
+  consider getting a board with 8 phases instead starting with asus z170a/pro gaming , msi z170a m5 , gigabyte ud5/gaming5 or asrock extreme6 from each of the main manufacturers, 
+  have you overclocked you cpu ? 
+  do you have ssd ? 
+  if yes to both it 's honestly up to whether you 're going for high res and high graphical fidelity ( in which case you should get a better gpu ) , or whether you want higher framerate ( 100-120 + ) in which case you should get a better cpu, 
+  looks fine to me, 
+  kaby and zen should be out around or possibly after january afaik which should be worth it simply for the fact that there will be a competition on the cpu market for the first time in several years again . 
+  and since you 'll have to buy a new motherboard anyway , it might be worth keeping an eye out for am4 since it could mean we finally wo n't have to pay ridiculous premium for basic stuff such as ram and cpu overclocking . 
+  you can overclock any non-k skylake with a z170 board via bclk , though the mobo manufacturer `` support '' may wary ( i have n't checked lately but some time ago asrock and msi basically supported it with their newest bioses while for asus and gigabyte you 'd have to get an older bios that specifically enabled bclk overclocking . ), 
+  the custom pcbs might have better power delivery allowing higher overclocks . 
+  non-reference gpus might be binned to guarantee higher clocks compared to non binned chips where it 's up to silicon lottery whether you 'll get decent clocks or not . 
+  none , only reason to ever get reference is either because you specifically want the blower style cooler or because you 're buying the card the moment it 's out and custom cards do n't exist yet ( which is n't the case by now obviously . ), 
+  yes, 
+  i did n't meant that you should overclock your ssd ( you ca n't ) , it was unrelated question whether you have one because if you 're still using hdd it might be bottlenecking your system during usage causing the pc to appear sluggish . 
+  buying ssd would lift that bottleneck . 
+  currently , only viable cpus out there are the skylake chips . 
+  which one would depend on your budget but generally for high refresh rate you probably want at least an overclocked i5 . 
+  you might want to wait until start of the new year since both intel and zen is coming with new cpu generations and it will be the first time in several years where you actually have a competition on the cpu market . 
+  edit : also regarding oc ` ing cpu , as long as you stay within safe voltages and have good cooling , do n't worry about damaging it . 
+  if you do n't have it yet , i 'd recommend buying aftermarket cooler , overclocking your 2500k and keeping it at least until the new cpus come out , then make a switch . 
+  quality 550-650w will easily do the job assuming you 'll stick to a single gpu . 
+  consider 550/650w gold seasonic or evga superflower g2 which have amazing ratings on jonnyguru and are fully modular, 
+  edit : apparently the seasonic g 650 is only semi modular so if you want fully , get the evga . 
+  the video card itself is a component . 
+  first you should probably consider what is your price range and what is your target ( ie . 
+  what resolution do you want to play at and how important is maxing out games or/and hitting a target framerate ) . 
+  you 'll end up with like 1-3 models that fit the bill ( possibly more if you consider older second hand deals ) and decide based on benchmarks/company bios/opinions after you present your choices here, 
+  if you prefer high fidelity and resolution and are happy with 60fps , the gpu . 
+  if you want high framerates ( ideally with a high refresh monitor ) and do n't care about lower details to achieve it , get a 6600k/6700k and overclock . 
+  also try loosening the timings on dram instead of letting them on auto , i ca n't remember if it was asrock board but i 've seen the motherboard choosing very aggressive timings when it detected the ram frequency being so slow , possibly causing instability despite you choosing to keep the ram stable . 
+  great budget system , hope you 're planning on adding an ssd in due time , really the only thing it 's missing !, 
+  yes you do need to install the backplate since that 's what secures the cooler to the board . 
+  unless you can access the back of the board in the case ( and even if you could it would probably be a pain in the ass to attach the backplate unless you have 4 hands ) you do need to take it out from the case . 
+  i guess you could argue that the real world difference between the p2 and g2 will be so small that it might not be worth paying but on the other hand if nothing else you do get 10y warranty instead of a 7y warranty with the p2 so it really just comes down to if you value saving a bit more money now or in the long run by having to replace the psu slightly later . 
+  definitely 144hz . 
+  i guess wow is old enough that you could run it in 4k with your system but for anything new , even the new cards struggle with 4k60fps . 
+  i know gigabyte had/has problems with ram stability when bclk overclocking but if you 're using xmp i doubt you 'll have more problems than you 'd have with any other motherboard . 
+  both of these boards are midrange z170 offerings from different companies and are basically almost equal feature-wise . 
+  really the only differences are that the asus has all 4 ports for igpu ( gigabyte has only hdmi and dp ) , gigabyte has both intel and killer nic ( asus just intel ) and finally gigabyte has 2 m. 2 slots ( asus has just 1 ) . 
+  unless you know you 'll use any of these features or prefer one brand over the other for something like the uefi , i 'd go with the price , looks , or whathever is more important to you . 
+  assuming the hdd is new you might need to allocate a partition in order to be actually able to use it . 
+  gpu is safe to upgrade unless you 're waiting for vega . 
+  cpu is questionable , might be worthwhile waiting until the start of the new year since both intel and amd will bring new generation cpus . 
+  not that there 's anything wrong with skylake but competition might bring some good deals into the cpu and mb market ( of course , so could black friday i guess so it depends how much do you want to upgrade and how good deals do you find ), 
+  wait what ? 
+  the i5 is clearly bottlenecking the gpu for like half of the video, 
+  every atx z170 motherboard should support crossfire and have at least 1 m. 2 slot ( and fully support it ), 
+  basically any midrange board within that pricerange will have almost identical feature set . 
+  asus : z170a or pro gaming ( the z170a is an exception in that it has worse onboard audio chip as opposed to basically all motherboards in this price range but whether that 's a big deal is probably subjective ),

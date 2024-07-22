@@ -1,0 +1,100 @@
+  * [ uprising 1.4 patch notes ] ( https://forums.dust514.com/default.aspx?g=posts&amp;m=1210968 ), 
+  ** september **, 
+  * [ uprising 1.5 patch notes ] ( https://forums.dust514.com/default.aspx?g=posts&amp;t=112543 ), 
+  uprising 1.6 is probably going to happen in the first week of november , to coincide with eve : rubicon . 
+  it 's not about quotas , it 's about ~ ~ whites ~ ~ gweilo as status symbol . 
+  not even on the red + orange stripes below the serial number ? 
+  cripes , no wonder i find bloodoil hard to kill . 
+   there are never enough programmers to go around ... 
+  so of course you 're raising your rates , right ? 
+  mining is a low-risk , low-skill , low-reward activity . 
+  sometimes you just want to undock and chat with your mates without the risk of losing your ship , and mining is great for that . 
+  it also scales well , since it 's so easy to do ; why mine with one account when you can mine with 60 of them ? 
+  however , you ca n't expect it to be insanely profitable , precisely because it 's something that anyone could do . 
+  you 'll probably get ~ 170 isk per m ^ 3 and with newbie skills , you 're probably only mining 5m ^ 3 per second , so that 's three million isk per hour with very little risk . 
+  that 's pretty good for a newbie , but even quadrupled for good skills , then doubled again for access to nullsec asteroids , it does n't compare to running incursion sites or other higher-risk activities . 
+  that 's just the way it is right now . 
+  well , that escalated quickly . 
+  [ sure , why not ] ( http://failheap-challenge.com/showthread.php?231-coming-back-to-eve-don-t-make-a-new-one-use-this-thread/ ) . 
+  basically , you plant a flag and anyone who wants to take the system has to, 
+  interrupt the signal by placing blockade units at the gates . 
+  it basically involves a lot of timers and shooting structures but without spamming towers all over . 
+  that , and not queuing properly . 
+  but i mean , who does n't ? 
+  not bad money for building a website . 
+  and if all your volunteers are paid in isk then it works out even better . 
+   after due consideration i want to withdraw my objection to ccp giving somerblink ( 30 ) of the iw scorpions . 
+  it 's clear that given the everyday scale of the money flowing through somerblink those ships would n't amount to more than a few extra bucks for coffee . 
+  ouch . 
+  ha , that was the guy that was trying to intimidate gevlon by undocking a carrier at the belt he was ganking at . 
+  deeds , not words . 
+  military experts are calling this a crynosaural field . 
+  i believe bob is now the retirement club ( 401k ), 
+  there are even videos at the bottom . 
+  it also has a lot fewer people to bargain with against the drug companies . 
+  your move , usa . 
+  thanks for the reddit gold !, 
+  i 'll use it to coat my pod . 
+  you can [ trust my logic ] ( http://www.huffingtonpost.com/2013/05/28/worlds-happiest-countries-2013-australia_n_3347347.html ) though . 
+  i think the point is that when you have 4-week plan/do/check / release cycles , it 's way too late to argue about exactly what the right thing to do is when it shows up in a developer 's jira queue . 
+  that design discussion can , and should be done * well before * the work gets handed to the developer . 
+  there are already devs working on an eexpansion . 
+  but it 's a thing that had to be had . 
+  i think this response is the only sensible solution . 
+  there is a bot that can turn web pages into images for you . 
+  it 's banned on this sub reddit though . 
+  til i 've been dating wrong . 
+  do you seriously think that if he quit eve , he would n't obsess over something else , like lol or baseball or us politics or day trading using leet excel skills ? 
+  you say that like it 's a bad thing . 
+  blink did n't launch with the plex affiliate program . 
+  it will survive . 
+  you 'd be surprised how few people this affects . 
+  working as intended , then . 
+  i 'm going to love being able to tk people who do that to me in fw battles . 
+  [ more explanation ] ( https://forums.dust514.com/default.aspx?g=posts&amp;m=1443929#post1443929 ) :, 
+   hi everyone . 
+  right at the end of july we were sent a video of a semi-optimised farming setup which was allowing players to grind up , in one example we saw , 60,116 wp over the course of 69 minutes . 
+  this is behavior we want to strongly discourage for several reasons ( listed in ascending order of significance , ie most important last ) :, 
+   * it makes a mess of our progression curves, 
+   * it 's not fair on players who 're earning their progress normally, 
+   * it pushes well outside the boundaries of what we consider `` normal '' , which opens the door to all kinds of potential issues , such as farming for precision strikes and then dropping a dozen at once, 
+   * people hiding off in the corner of a map farming tend to ruin matches, 
+   based on extensive experience with exploits in eve , we considered and rejected trying to just patch out the particular behavior that was being used in this case . 
+  why ? 
+  because players are smart and , typically , will find another way of accomplishing the same goal very quickly . 
+  often the new exploit will be something that was only made possible by the fix for the last one ; go research the history of the lofty scam in eve for a good example of this sort of thing . 
+   the bottom line is that trying to band-aid specific exploitative behaviors is a bad approach to this kind of problem . 
+  instead we determined to do the smart long-term thing , and attack the root problem rather than the symptoms . 
+   in this case , the root problem is that we do n't want people farming an excessive amount of wp , for any reason and using any trick . 
+  so , we started developing a design to limit wp gain directly . 
+  more specifically , we wanted to ensure that , at the end of a match , no player had scored more than a certain amount of wp per minute , as wp gain over time is the ultimate thing we want to target . 
+   the design we ended up with is fairly straightforward :, 
+   * we set two constants in our data : wp/minute ceiling and wp/minute limit, 
+   * each player has a wp ceiling and a wp limit for each match, 
+   * these start at 0 , and are incremented every second . 
+  this gives you two numbers that rise linearly over the course of the match, 
+   * if , any time you gain wp , your total wp score for the match would be above your current wp ceiling , we reduce the value of that wp payout proportional to how far between your current ceiling and your current limit it would take your score, 
+   this has the following consequences :, 
+   * so long as your wp total stays below the wp ceiling , you will never see this system, 
+   * as your wp total moves above the ceiling , we trim your wp payout in a way that starts gentle but gets firmer as your wp/minute gets higher, 
+   * we can mathematically guarantee that you can never score more wp per minute than the limit value over the course of the match , so this system should be 100 % exploit-proof and never need to be adjusted again, 
+   * because we are tracking a moving ceiling over the course of the battle , rather than say tracking your income over the last minute or the last x wp scores or whatever , once you get past the first few minutes in-match your wp income can be very uneven and still not trigger the cap so long as your average over the course of the battle stays below the limit, 
+   * as a side-effect of the above , the system is more likely to start clipping scores if you score large amounts of wp in the first minute or two ; this is n't optimal , but in the course of a normal battle ( ie starting from the beginning rather than joining midway through ) there 's little opportunity to get big scores in your first minute or so , which should significantly reduce the impact of this factor . 
+   we 're currently happy with the underlying design of this system : it 's robust , it 's failsafe , it 's communicating its actions to players in a relatively clear way , and aside from first-minute concerns it has no inherent drawbacks that we 've identified so far . 
+   however . 
+  the numbers are obviously wrong smile, 
+   when we set this up , we did some data mining to determine what values we should use . 
+  we looked at some people who were obviously exploiting , and they were getting up into the 1000 + wp/minute range . 
+  we also tried to determine what `` normal '' play looked like for high-scoring characters , and our research here fell short . 
+  we looked at a random sample of players , and we looked at the highest-scoring player on the server , and we were seeing that a little over 250 wp/minute was about the highest we were seeing . 
+  obviously the ideal thing would be to calculate wp per minute per player per match for say a day , but the amount of data we 'd need to crunch to do that was judged to be infeasible , and while all we really wanted to know was the top 10 wp/minute scores ( which we would obviously validate against logs to check they were n't exploiting ) , we 'd have to calculate the wp/minute for everyone to determine who those people were . 
+   we switched this feature on last week , with the values being 250 and 300 respectively . 
+   pretty quickly we started seeing scattered feedback of players running into this `` normally '' , so we started to dig into the metrics to try and see if we could tune this further . 
+  thanks to some very astute data mining by one of our programmers , we managed to isolate the highest wp/minute scores by looking for incidences of players having their scores reduced by the cap , thus shortcutting the problem of having to analyze the entire playerbase to find these high-peaking players . 
+   what we 're seeing in these data , somewhat unsurprisingly , is that it 's possible to really spike your wp payouts and trip the cap in certain circumstances . 
+  for example , dropping a precision strike on a squad objective and killing what looks like five infantry and two full havs gets you a large number of points , which can swing you up considerably past 300/minute net if it happens relatively early in the battle , and the follow-up strikes you 're getting from that flood of wp hardly help the matter over the course of the battle . 
+   anyway , long story short , i spent most of yesterday looking at logs , and i 'm in the process of preparing a hotfix to raise the values from 250 and 300 to 400 and 500 . 
+  the highest legit net wp/minute i could find yesterday was 468 , with a total pre-cap wp of 2142 ; under the current numbers on tq this is cut down to around 1446 after the cap is applied , while with 400/500 it 's only reduced to 2031 . 
+  it 's still not optimal that players are hitting the cap at all , but we 're reluctant to push it too high as we need to keep it sufficiently close to `` normal '' play that people considering exploiting do n't find it worth doing . 
+   i 'm not sure yet exactly when this change will go out as i 'm still tying off loose ends ( like making this post ) before putting it into the queue , but it should be by the end of next week i hope . 
+   tl ; dr the system works , the numbers are bad , we 're going to fix them .

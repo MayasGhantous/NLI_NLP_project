@@ -1,0 +1,100 @@
+  there are stressful workplaces that work other jobs and there are relaxed programming jobs . 
+  btw stress ( overtime , deadlines , etc. ), 
+  is my main concern when choosing a job . 
+  and maybe , just maybe ... it is not the games but the fact that they turned an e-sports event into a fucking trade show ? 
+  haha do we have to include the fact that we use a windows phone as a `` disclosure '' ? 
+  i think it is more of a case of `` put my money where my mouth is '', 
+  also missing visual studio ( probably the most used js editor in the world after notepad ), 
+  back ? 
+  masters percentages were never 2 % until now . 
+  i think this should be made into a wiki or something so we can expand it with other languages . 
+  i think people should only vote if they are going to watch . 
+  giving false information to organizers is not a good thing and will come back to bite you . 
+  that 's like when you invite someone to a facebook event and he accepts because he thinks it is not polite to refuse even if they are not going to come . 
+  i do n't really agree . 
+  some algorithms are damn hard . 
+  the less government the better . 
+  someone discovered catastrophic backtracking in regex and was so surprised that he decided to write a blog post ? 
+  i am surprised you 've never heard of it . 
+  i mean i have ran into the issue in practice more than one time . 
+  i guess you do n't apply regexes on significantly long strings ? 
+  we had the issue when we tried to replace some things in a text that was the length of a blog post . 
+  if you are only validating small input i would say that you may never see it but i do n't know how anyone can both not know about the problem and never encounter it if he uses regexes on longer input . 
+  i assume that if someone is good enough with regexes to avoid the problem he would know about the issue . 
+  now i am confused . 
+  when programming one develops and uses algorithms to solve a certain task does n't he ? 
+  so obviously at least some programming is hard ( and some is easy ) . 
+  we can assume that the market requires a good deal of hard programming and there is programmer shortage for hard programming . 
+  if something is slow due to cyclomatic complexity then it is very easy to go from `` slow '' to `` take down the server '' . 
+  in fact using regexes are sometimes considered security risk because of the ability to bring down the server with very small input if the regex suffers from this particular issue . 
+  sadly i think it is not prevailing view anywhere in the world these days :(, 
+  on one hand if someone says java sucks because of the static type system he is a moron . 
+  on the other hand if someone thinks the only reason people say java sucks is because of static typing he is a double moron . 
+  `` everything is an object '' except those things that are not an object . 
+  please explain how java generics ( with bullshit type erasure and insanely complex variance when using a generic class ) is simple . 
+  while we are at the topic of simple how is having two types of exceptions simple especially when using one vs the other is a subject of almost as much debate as the correct way to do scrum . 
+  still more reasonable than c++ though . 
+  i kind of agree with the naming thing . 
+  netbeans may be a bad example but do n't java mvc web frameworks refer to their view models as ... beans ? 
+  in addition the standard library uses the most annoying comp science jargon . 
+  i ca n't remember the most annoying examples i have encountered right now but hashmap vs dictionary ( in . net ) is what i am talking about . 
+  of course `` map '' is quite popular term and no professional programmer is going to get confused but there are other more obscure terms that cause real pain . 
+  i would argue that c # is simpler than java . 
+  it is definitely larger than java since it has much more features but corresponding features in c # are simpler and easier to use, 
+  dance central, 
+  so you are not complaining about the kinect but about the price then . 
+  kinect is not the only reason xbone is more expensive than ps4 . 
+  another one is that sony currently sells at a loss, 
+  well pointers do n't really count since in practice they are never used especially on large projects with noobs on them . 
+  unsafe code is a feature used to implement high performance libraries . 
+  for about 7 years of professional c # development i have never seen them used in a project . 
+  claiming that pointers count will be like complaining that the jvm is written in c++, 
+  now on the real question ... 
+  i will try to teach the newbie c # over java any day . 
+  things java lacks in features it fills with oop patterns . 
+  i 'd rather explain delegates than observer pattern . 
+  in addition c # features are almost always more foolproof than java 's and it is easier to use them without fully understanding them . 
+  for example people can intuitively use generic co and contravariance in c # without even knowing that . 
+  only the person who implements the type needs to understand it and you can have your experienced programmers doing covariance , operator overloading and partial methods while your newer devs can just use them without serious concerns, 
+  even if erasure is superior ( which it is not ) still it results in more complex language . 
+  you have to explain why you ca n't have list of int , why you ca n't instantiate object of the type argument , etc. 
+  guess which one i prefer to explain to newbies, 
+  as i said this is a bad example since map is very well known . 
+  btw did the stream api have a fold method ? 
+  that 's hardcore jargon . 
+  c # has aggregate . 
+  it also has select instead of map . 
+  industry jargon over academia . 
+  except that is not at all how this works . 
+  being able to new up things is a constraint on the generic and everything is statically checked . 
+  even if we disregard that i may still want to instantiate an array of t. ironically java generics are the ones that break runtime . 
+  only using type erasure can one achieve great things like return a string from a method that returns an integer . 
+  select and aggregate are not invented by microsoft . 
+  they are sql-style words for map and fold . 
+  i am sure people in the industry are much more familiar with sql than with the comp science terms . 
+  i currently know what fold is but i am perfectly sure that 6-7 years ago when i first saw linq seeing fold and map would discourage and confuse me . 
+  and yes if i need to `` educate '' myself then it is academia jargon . 
+  i mean they educate people in academia do n't they ? 
+  when i saw the title i came here to complain that we agreed to call it `` monadic null chaining '' which is of course much cooler than `` safe navigation operator '' i am glad people have not forgotten the name it deserves . 
+  not that there is anything inherently wrong with web forms . 
+  upvote for admitted mistake , 
+  there are many things inherently wrong with php . 
+  do i have to pick some of them at random or you will find a list on the internet yourself ? 
+  that 's exactly why we must use `` monadic null chaining '' . 
+  are we the cool kids or the `` average c # developer '' ? 
+  too late !, 
+  the name has been set when the feature was first unveiled to the internet in some guy 's blog post . 
+  there is nothing okay in parsing strings as ints silently and converting them to ints successfully even if they contain random letters . 
+  there is nothing okay in not having namespaces for 15 years and accumulating a ton of functions which have a full sentence as a prefix that you ca n't fix anymore . 
+  there is nothing ok with php 's automatic boolean conversions when using different types in an if . 
+  i am very curious about the thought process that brought you to this conclusion, 
+  except for the jvm is any other industry grade jit doing that ? 
+  things that are `` wrong '' with web forms are `` wrong '' only if you want to develop certain types of projects . 
+  if you want to develop wikipedia there is absolutely nothing wrong with web forms . 
+  if you are building jquery animated semi-single page app web forms is probably the wrong choice but this does not mean that there is anything wrong with web forms . 
+  i wonder if i will confuse the recruiters if i provide them with a codeplex profile since i actually have some code there and my github profile is completely empty . 
+  i am ok with the statement that php sucks as bad as vbscript but i can not accept the notion that web forms is nearly as bad as php . 
+  are you sure they care about open source projects or they care about projects at all ? 
+  when i look at cvs for candidates with no industry experience all i care about is the projects list . 
+  i do n't care what knowledge they declare , i do n't care about the university they went to and i do n't care about their certificates i just want to see something they have built and i definitely do n't care if it is open source . 
+  when people do that they usually pay for the said work .

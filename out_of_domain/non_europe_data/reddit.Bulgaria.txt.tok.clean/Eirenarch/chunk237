@@ -1,0 +1,100 @@
+  btw there was never a public date for the consumer version was it ? 
+  ok guys i have installed bitcoin core + the qt ui years ago and i barely run the node ( just enough to catch up with the blockchain ) . 
+  i think it is time for me to make the machine run classic full time . 
+  how do i do this without redownloading 60gb of blockchain ? 
+  ok i will try . 
+  i guess there is no reason to expect incompatible blockchain yet ? 
+  did n't read the actual article yet but i went to watch the repository pattern video . 
+  was getting super excited for the first tutorial that implements repositories correctly . 
+  the author was saying all the right things and then i see, 
+  find ( expression < func < course , bool   predicate ) ... 
+  go do it , i 'm in . 
+  ef is not really an abstraction ( maybe abstraction over a specific database ) . 
+  the repository is so absurdly heavy abstraction that people naturally prefer to make it leaky so that it is not that heavy . 
+  this is why i prefer to simply not abstract my data access rather than use a repository . 
+  a proper repository ( as the one described in the video minus the find method ) would indeed provide an abstraction layer but the cost is so high that i 'd take my chances with changing all my business logic code to use another data access technology if needed . 
+  i feel like it will be less work than building a proper repository to begin with . 
+  it is because it leaks the orm out of the repository . 
+  the use of expression makes it impossible to change the data access technology to anything but another heavy handed orm ( basically you can change from ef to nhibernate and that 's it but this is not very hard to do even without repository ) . 
+  you use repository in order to provide abstraction and you fail at abstraction . 
+  ok i read the blogpost so copying my comment on the article here :, 
+  promoting the query to a class does have value . 
+  if you have too many queries over a single repository you need some tools to split them and work with them in an easier way . 
+  in c # this way is classes . 
+  you can organize classes in separate files ( i.e. 
+  you do not end up with 5000 lines class ) , you can put them in folders and so on . 
+  the tools we use are optimized for working with the unit class not the unit method . 
+  yes , if i am using the repository pattern i would in fact introduce a good amount of small methods . 
+  the repository pattern is one of the heaviest abstractions i know of . 
+  it has quite a bit of overhead that basically negates many of the things that make orms easier than raw sql . 
+  but if you do n't want that abstraction why have repository to begin with ? 
+  in practice i would only use repositories with raw sql/stored procedures where you write separate queries anyway and the repository costs nothing . 
+  with an orm that supports linq i will just take the risk and pay the cost later if it happens that i need to change da technology . 
+  the price of the repository is so high that it almost always outweighs the risk . 
+  when you porn maps from bw you ca n't just port them 1:1 . 
+  as people pointed out you should take into account reapers and also there should be two gases per base . 
+  i hope that some day i will work on a project more successful and meaningful than the unsuccessful mono/xamarin . 
+  maybe be a part of a 80 million startup that is self sustaining after the first year and later sells for 400 million ( according to rumors ) ? 
+  i wish i failed this way . 
+  i did what i think i had to do to run a node ( downloaded classic , ran the qt ui and checked the `` map port using upnp '' option as well as the `` allow incoming connections '' option . 
+  now how do i verify that i am actually running a node and helping the network ? 
+  is there some website or something where i can see my node and be sure that i am participating ? 
+  also is there any use in running more than one node from the same isp ( i have a lot of computer but only one internet connection ), 
+  thank . 
+  says `` unreachable '' . 
+  the client says i have 8 active connections to the network . 
+  do i have to do anything else than check the `` map port using upnp '' and `` allow incoming connections '' like say forward ports in my router ? 
+  oh come on !, 
+  amd was simply smashed by the core 2 duo back in the day . 
+  it was really that simple . 
+  i have not met a single person who expressed this belief . 
+  can you point to a blogpost or comment by someone who claimed that you do n't need to know sql anymore . 
+  the author claims that this is `` tremendous mistake '', 
+  well i guess then i have to be grateful that i never needed to work with this type of people . 
+  you read it right but if you ask me microsoft said no such thing and the guardian are full of shit . 
+  hmmm i think that comment is sarcasm . 
+  still the guy has a point . 
+  why the hell is the escape sequence parsed ? 
+  yes although this is an ef6 feature ( i.e. 
+  you were n't able a few years ago ), 
+  also i like to put an interface on my datacontext but i do expose dbsets from it . 
+  you always have to change the tt templates if you use the designer in any meaningful project . 
+  there will always be that users1 collection on some entity , 
+  `` in good faith '' which is different from how he was participating in the community as an oracle employee . 
+  me too , but i did n't buy bitcoin in 2010 so i do not have money for a tesla now , 
+  what is the reasoning for litecoin ? 
+  do they have a solution for blocksize when they get big enough and who mines there to ensure security ? 
+  even if your microservices depend on common `` platform '' there is still value in them if you can turn one off and the others can go on working . 
+  for example if you have a service that sends e-mails and you shut it down your website can still continue to function normally . 
+  maybe you shut down your public api in this way . 
+  in a true monolith the whole system comes down if you shut down a critical service . 
+  i still fail to understand the significant difference between soa and microservices . 
+  so microservices are soa but worse ? 
+  exactly my thoughts . 
+  however i think he purposefully chose a function with iterator blocks which i think are not allowed in lambdas . 
+  not very hard though . 
+  you just split the declaration and assignment . 
+  death to all repositories !, 
+  he is technically correct which is the best kind of correct . 
+  is it ok to feel proud when ddosed ? 
+  because i did feel proud . 
+  great strategy but poor execution . 
+  even then if only he started this banshee speed upgrade he would have won . 
+  it is super easy to snipe hatcheries with banshees and retreat before the anti-banshee army comes . 
+  and how do you imagine this to be implemented if not the same way ? 
+  i mean they do create a closure if they capture the parent scope ( this is what closure means ), 
+  that would mean they ca n't be assigned to delegates which seems to be quite annoying . 
+  i remember reading an article on hiring the best . 
+  so companies claim they hire only the top 5 % . 
+  sure you hire 1/20 who come to the interviews but what do you think happens with the other 19 ? 
+  they go to other interviews in other companies who also hire 1/20 so basically these 19 are the same for every company and basically you hired like the top 50 % or something . 
+  you will be working on a windows pc unless otherwise specified . 
+  if you accept a job at xamarin maybe but not in the regular . net company . 
+  . net core will not be a good choice for at least a couple of years . 
+  very immature , lots of things missing . 
+  there are valid reasons to limit your career . 
+  like being happy , building a family , having principles ... 
+  yeah i choose to limit my career to c # because my exposure to alternative technologies ( odd projects that landed in our company ) has been negative . 
+  i see the alternatives especially the programming languages as very inferior . 
+  in fact i literally do not put my java experience in my cv . 
+  i do n't think it is the end of all programming i just think it is superior .

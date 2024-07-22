@@ -1,0 +1,100 @@
+   saddam was a sadistic bastard and he would have done just about anything to fuck over the u.s. 
+  why would he do that ? 
+  before the kuwait fiasco , he was buddy-buddy with us in general and bush-the-geezer in particular ... 
+   you fucking neo-cons need to wise up and stop getting us involved in wars that ca n't be won that cost 100 trillion dollars * . 
+  where 's the profit in that ? 
+   why having the loser, 
+  one man 's loser is another man 's runner up ... 
+  would you rather go on date with miss universe runner up or with her make-up artist ? 
+   i 'm curious to see what you find to make something that cold . 
+  [ peltier module ] ( http://www.adafruit.com/products/1335?gclid=cieknnf57mccfq-paqodngek0q ) ? 
+  since op specified temp in degrees c , i assume he means sub-zero \u00b0 c. . . 
+   this scenario is extremely common in real life ,, 
+  iow , you perceive a `` problem '' `` extremely common '' in `` real life , '' and can not see a `` solution '' in an ancap society - aha !, 
+  ancaps are wrong !, 
+  they can not solve the stuff the state does n't solve !, 
+  i give you a better one : there are people dying of cancer - if in ancapistan there were people dying of cancer , would anarcho-capitalism still be justifiable ? 
+  i have a concept of a `` sexual property : '' anytime i see a hot girl , my perception of her `` hotness '' makes her my sexual property . 
+  it 's right there in the name !, 
+  there 's a conspiracy theory about that : after holocaust the jewish doctors started to advocate circumcision to make sure the possible future huns could n't tell a jew from a gentile just by looking at their dicks ... 
+   since the pattern follows one of the mathematical constants found in the construction of the universe . 
+  sorry , this is really bs . 
+  you can pick any number you want and i will find a factor to `` prove '' your number `` follows one of the mathematical constants found in the construction of the universe . '', 
+   we also know exactly how gravity works, 
+  nope . 
+  not true at all . 
+  we know `` what '' gravity does , we have no bloody idea `` how . '', 
+   cycle : any complete round or series of occurrences that repeats or is repeated . 
+  sure , you can try to tie it to pi with some mysticism , you can not possibly tie it to pi * 1000 - the later number having absolutely no significance , other than looking `` round '' in one particular positional number system ... 
+   you 're the one who has completely dismissed a complex and nuanced theory that moments ago you had never even heard of . 
+  people tend to do that if your `` complex and nuanced theory '' tries to assign some significance to a x * y where y is some arbitrary number ... 
+   the consumer sets prices by how much they value a particular product . 
+  increasing taxes does not increase the value of the product . 
+  that 's true - otoh , when the taxes make production unprofitable , the supply will dwindle , causing the rise in the price ... 
+  ** some ** people will stop buying , the others will keep buying at the higher price ... 
+  would n't it make more sense to build one based on atmega1284 ? 
+  for the same effort and not much higher price you would get much powerfull one . 
+   now , you could potentially use interupts for the button events , but that 's a very poor solution , and i would n't recommend it . 
+  why ? 
+  but ... that 's the rationale for writing non-blocking code , not for avoiding interrupts ... , 
+  easier to handle ? 
+  if it 's async event the interrupt is a logical way to handle it ... , 
+   the teensy pins are 5v tolerant so no need to drop the voltage for 5v modules and shields . 
+  question is : is teensy 's high high enough for ttl logic ? 
+   i tried soldering it , but the solder is just not strong enough to hold this large of wire and it is very messy and frustrating trying to do it that way . 
+  you are doing something wrong with soldering - make sure you heat up the target and let the solder melt on it . 
+  my guess is you are melting the solder on the iron tip and then trying to apply it to the wire . 
+  that 's the wrong way to do it . 
+  something like [ this ] ( http://www.staples.com/pny-power-pack-t2200-2200mah-1-amp-black/product_239826?cid=ps:googleplas:239826&amp;ci_src=17588969&amp;ci_sku=239826&amp;kpid=239826&amp;gclid=cnwmgzzkgmgcfygaaqodryiifw&amp;kpid=239826 ) ? 
+  i assume you are using a bootloader section to write your programs into flash . 
+  you have to remember atmega flash is only good for about 10000 rewrites . 
+  perhaps you 've already reached the limit ? 
+   there is no bootloader on the chip, 
+  that 's not what i meant . 
+  how do you write your programs , not the firmware but the programs you write for your `` handheld computer ? '', 
+  the common mistake writing to flash is doing it one byte at the time . 
+  flash is always written one page at the time . 
+  if you write one character the whole page gets written anyway . 
+  quite easy to type in 10000 characters ... 
+  any specific questions ? 
+  if you want to be able to program it through usb you can get [ atmega328 with a bootloader ] ( http://www.newark.com/arduino/a000048/pre-programmed-ic-atmega-arduino/dp/13t9287?cmp=knc-gusa-gen-kwl-rem-purchase-arduino&amp;mckv= | pcrid | 64768285341 | & gclid = ciwhwlskimgcfquqaqodfz0o6g ) . 
+  source ? 
+   have you done something like that before ? 
+  not exactly - i tend to avoid bootloaders and use atmel studio + avr dragon ... 
+  not having to add usb circuitry is the main reason . 
+   you have 1mb ram total, 
+  lilypad is based on atmega328 - that 's only 2k ram total , minus the bootloader . 
+  i guess you meant 1k ... 
+   she was wearing a sweatshirt with a device made of plastic circuit board with green blinking light-emitting diodes ( leds ) in the shape of a star -- the same sweatshirt that she had worn the day before at the mit career fair . 
+  she was carrying clay shaped into a rose . 
+  ... and gnorty pissed his/her pants ... 
+  look at [ this instructable ] ( http://www.instructables.com/id/arduino-mega-audio-file-logging/ ) . 
+  could be a good starting point . 
+   government does it for me . 
+  you mean you do n't have balls to do it yourself ? 
+  is that the famous dialectics ? 
+  how does it work - responding to / u/kaseykasem implies the / u/jacekplacek is stupid ... 
+  arduino ( uno ) pins are ttl compatible . 
+   i really want to use a couple of toggle switches , but i noticed that a lot of them have pretty high current ratings, 
+  that means they ** can ** handle these currents , does n't mean you have to supply them ... 
+  you just need them for signaling , arduino pins are high impedance as inputs . 
+  so , to answer your question : as many as you have free pins . 
+  or add some shift registers and make it as many as you feel like , 
+   i do n't get violenced for speeding , i get fined . 
+  really ? 
+  try not to stop when the cop flags you . 
+  or try to refuse to pay the fine and then refuse to stop driving when they suspend your license ... 
+  if you want to get more sophisticated you could set the interrupt on a button pin . 
+  on button interrupt shine the leds , set the timer to expire in 5 min , set the timer interrupt . 
+  on the timer interrupt switch the leds off - in the meantime go to sleep . 
+  they look like regular toggle switches to me , the plastic caps are probably custom made - if you have access to a 3d printer you could make them yourself . 
+  definitely doable . 
+  just make sure you test your program before you install all the hardware - something as simple as leds going on/off in lieu of the valves/pumps . 
+  that 's how you pick your worldview ? 
+  by making sure it conforms to the masses ? 
+   if you 're led to doubt the prospects of your system just by interacting with ordinary people , i think you should consider rethinking your system . 
+  you mean if you were to find yourself in nazi germany , you should become a nazi ? 
+  they are still the tax . 
+  just the tax paid by the ones who did n't win . 
+  what about the springs ? 
+  since the retraction speed does n't seem to be an issue , you could set up a motor to squeeze/wind the spring and kind of latch to release when needed .

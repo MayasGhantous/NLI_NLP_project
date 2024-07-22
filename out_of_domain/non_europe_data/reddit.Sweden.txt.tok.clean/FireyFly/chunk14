@@ -1,0 +1,100 @@
+  ` tostring ` of an object calls its ` tostring ` method , which in the case of arrays joins its elements together with comma . 
+  it 's not as crazy as in ` [ 1 ] = = true ` , which holds because * both * operands are coerced ( into numbers ) . 
+  relevant spec portion : http://es5.github.com/#x11.9.3, 
+   unfortunately, 
+  why ? 
+  yes , there are terrible parts of the language , but in general it is n't too bad as a programming language , and some parts makes it especially well-purposed for its original intents ( such as how the language is driven by an event-queue system rather than requiring one to mess with threads and race conditions . 
+  event-driven and gui programming fits well together ) . 
+  fair enough . 
+  from the way you worded your previous posts you sounded like one of those `` javascript is n't like < insert mainstream language here  ; hence it sucks '' people , but i guess i was wrong . 
+  for the record , i second eloquent javascript for learning the core language , and then mdn ( mozilla developer network ) as a reference when you need to look things up . 
+  if you ever have any specific question/problem related to javascript ( well , even if you do n't ) , you should ask/hang around in ## javascript on freenode . 
+  also , keep in mind that javascript has ( more or less ) zero to do with java . 
+  as an old saying goes , `` java is to javascript as car is to carpet . '', 
+  have fun ; i hope you enjoy playing around with the prototypal oop paradigm . 
+  [ ] ( http : / / a ), 
+  it 's actually closer to 0.05 furlongs . 
+  [ more obscure piece of software ] ( http://www.catb.org/retro/kvik.tar.gz ) . 
+  i agree ; i was in the same situation and also chose not to rebind anything before i 'd at least given the original keybindings a try . 
+  many of the shortcuts actually work * better * on dvorak than on qwerty , in my opinion ( most notably c-u/c-d , right at the home row . 
+  they 're awesome for scrolling through a document ) . 
+   creating a custom xkb keymap with capslock ( swapescape ), 
+  it 's actually enough to add, 
+  option `` xkboptions '' `` caps : swapescape '', 
+  to ` / etc/x11/xorg . conf.d / 10-evdev . conf ` ( same place where you 'd configure your regular keymap ) . 
+  this approach is arguably easier , since it 's related to how you 'd change your `` regular '' ( lang + variant ) x11 keymap settings . 
+  they 're completely different games , as truemilanista pointed out . 
+  are you without * any * computer at all ? 
+  because even the oldest computer you can find should be able to play civ2 just fine ( and imho , if it 's the gameplay you 're after civ2 works just fine ) . 
+  funny , i 'm 19 and grew up with civ2 . 
+  i should probably give civ3 an honest chance ; i 've never played it myself -- only seen others play it occasionally . 
+  no it 's not ? 
+  unless you count `` abandonware '' as free ( as in , `` it 's so old , so we 'll pretend it 's free since you ca n't legally buy it new anyway '' ) . 
+   installing software will not destroy a computer . 
+  software * can * mess up the hardware , if you 're messing with unstable verisons of device drivers and such things . 
+  of course , in this case you 're almost certainly right . 
+  i ca n't see any reason why installing the win8 beta would mess with the computer in such ways . 
+  huh ... that 's odd , i distinctly remember both wonders videos ( and videos for winning/game over ) , but i also definitely remember the throne room . 
+  i have the ( or a ? ), 
+  cd version right here ; it says '' ( c ) 1996 microprose '' so i assume it 's the original version . 
+  i * think * it 's the version i 've used for all my installs ... 
+  i seem to recall there being a `` gold edition '' ; maybe there was a difference between the original version and that one ? 
+  anyway , i did n't know about an official free release ; i thought you either mixed the game up or referred to something like abandonware . 
+  my apologies . 
+  did n't i answer this just a few days ago ? 
+  in all honesty , the title * does * say 400k ( which would n't be a lot ) . 
+  i think asking for clarification is fair . 
+  not to mention that nokia had their own * nix-based system ( maemo/meego ) , and that the latest revision of it was even surprisingly well-received and promising ( shipped with the n9 ) . 
+  did you have anything to do with the n900 sms/im app too ? 
+  the one that uses html/css to configure how things should look ? 
+  it was fun to play around with the source code of that one . 
+  chipping in here with a couple of interesting projects . . 
+  the [ tizen project ] ( http://tizen.org ) is pretty interesting ; it 's a fork of meego and a joint project between intel and samsung ( or so i recall , at least ) . 
+  there 's also the [ mozilla boot2gecko ] ( https://wiki.mozilla.org/b2g ) project , which is very web stack-focused . 
+  the idea is to provide low-level hardware access ( like dialer and things ) to some privileged scripts , and in general to do something akin to chrome os , but more . . mozilla-y . 
+  looks pretty interesting to me at least !, 
+  they 're both quite young projects though , so we probably wo n't see any actual devices running these for quite some time . 
+   in this universe , for reasonable n , the nondeterministic algorithm always outperforms the deterministic one . 
+  yes , it could happen that it does n't , but it is phenomenally unlikely . 
+  sure , but that phenomenally unlikely situation is what we 're speaking of when we say `` worst case '' , is n't it ? 
+  it being extremely unlikely that the worst-case actually happens does n't make the worst-case any more effective . 
+  it is still the worst possible case . 
+   * when you declare your variables always use the var keyword to avoid unintended globals . 
+  a good way to enforce this ( and a bunch of other good practices ) is to use the ` `` use strict '' ` pragma at the top of each script to make the browser run it in strict mode ( [ mdn ] ( https://developer.mozilla.org/en/javascript/strict_mode ) , [ spec ( informative part ) ] ( http://es5.github.com/#c ) ) . 
+  modern browsers allow glsl shader execution through webgl , though . 
+  is there any information available about what platforms are targeted ? 
+  when it comes to ds games , check out [ this thread ] ( http://www.reddit.com/r/3ds/comments/odue8/what_older_ds_games_did_i_miss_out_on/ ) . 
+  i 'm sure you 'll find something interesting there . 
+  also i 'm pretty sure tiyuri was heavily involved with terraria 's graphics , and to my knowledge graphics is his main thing . 
+  that 'd be [ powerline ] ( https://github.com/lokaltog/vim-powerline/ ) , a vim plugin . 
+  [ here ] ( http://i.imgur.com/iw0x9.png ) is a smaller sprite of him . . might be a bit more suitable . 
+  edit : also , excellent choice of pok\u00e9mon :3 . 
+  i feel obliged to leave a link to [ ras syndrome ] ( http://en.wikipedia.org/wiki/ras_syndrome ) here . 
+  i could give a try at cssifying it , but i ca n't promise anything . 
+  do you have a higher-quality version of the image up anywhere ? 
+  imgur likes to mess up high-res images , and on your portfolio i could only find scaled-down versions of the image . . 
+  thanks !, 
+  still jpeg artifacts in that image though : < . 
+  thanks !, 
+  312 163 steps here ; i 've had my 3ds since around christmas . 
+  i try to keep my 3ds in my schoolbag , so i get about 7000 steps/schoolday . 
+  i think it 's worth adding that `` object literal '' is only the name of a syntactic construct -- a way to express an object value . 
+  it does n't matter to the engine how the object was created . 
+  for instance , doing, 
+  var o = new object ( ), 
+  o.bar = 20, 
+  / / do someting with calc ( o ), 
+  would work just as well as, 
+  / / do something with calc ( { foo :10 , bar :20 } ), 
+  some people seem to regard object literals as more than a syntactic feature ; hence the clarification . 
+  cool , i just found this subreddit by chance !, 
+  my favourite pokemon generation is the second one ( gsc ) . 
+  i 've enjoyed ptcg both with real cards and on the gameboy for a long while , although i do n't own a game boy myself ( my cousin and i used to play the first game on his game boy all the time ) . 
+  i play both the games on my ds phat occasionally ( using the lameboy emulator ) , although it 's been a while since last time now . 
+  i 've beaten the first game , and i 've almost beaten the second one ( main quest-wise ) . 
+  and finally a little suggestion : maybe add a reference to r/pkmntcg in the sidebar -- even if this subreddit is about the gb tcg games , the tcg itself is still largely relevat to that topic . 
+  it varies a lot ... but i tend to use comparatively few trainers in my decks , in favour of more evolution lines ( possibly an unwise decision ) . 
+  i try to come up with fun combos between different cards in my decks , but sometimes i just stuff card in the deck that seems decent , just to fill it up . 
+  i was searching for the r/pkmntcg subreddit since i 'd forgotten its name and wanted to ask a question in their irc channel . 
+  cue me searching for `` tcg '' in the subreddit search and accidentally stumbling in here :p . 
+  you should hang around more in that 0x10c irc channel , but possibly under an alternative nickname or something .

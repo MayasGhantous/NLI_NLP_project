@@ -1,0 +1,100 @@
+  something that seems trivial to program and would be a great reason to have you put stuff actively into sectors so you do n't have to do it yourself instead of an arbitrary core planet limit . 
+  now what paradox thinks `` reduces micromanagement '' means : punishing you for not waiting until you have almost fully developed colony and are ready to turn in into ais hand otherwise expect it to build power plants on research tiles after it built a research lab on energy tile . 
+  alternatively you can tell it to respect resources and enjoy +60 food surplus on a planet full of robots, 
+  it follows building rules , food and minerals do n't get lost ( once the building produces minerals ) , everything else does, 
+  i modded core sector limit to 10 and it made the game instantly less frustrating because you have big enough buffer to develop your colonies before you hand them over to sector and expand at the same time . 
+  unlike the 999 mod it also does n't make some goverment types completely useless . 
+  i recommend everyone to do the same until paradox improves the ai, 
+  have you tried putting empire-capital complex on the planet ? 
+  if there 's a way to change it , that would probably be it . 
+  depends on your neighbors . 
+  you only really need to arms race if they hate you, 
+  build fleet , few battleships will chew through your silos very quickly, 
+  edit : do you have spaceports on all planets to increase you fleet size ? 
+  it probably scales with planets or so . 
+  one planet nations only take around 150 influence total, 
+  it heavilly depends on your playstyle as well . 
+  i found that if you 're neutral to xenophile divergence does n't really matter much because it 's basically impossible for pops to become unhappy and create factions just from different ethics . 
+  the triangle means it 's a temporary modifier . 
+  anyway , pop modifier means that it affects a pop . 
+  so for example , if your pop is a pacifist and you 're in a war , he 'll get - % to happiness . 
+  similarly he will be unhappy if you allow full orbital bombardment etc. 
+  if you do n't play nation with extremist policies you do n't really have to worry about divergence in the same way you do n't worry about slavery tolerance if you prohibit enslaving . 
+  every pop has it 's own ethics . 
+  if you click on someone you can see what his ethics are and what affects his happiness . 
+  all your starting pops have the same ethics as your empire but colonizing and sectors decrease ethics divergence which means the pops can switch their ethics to something else . 
+  also you might `` acquire '' different species that have entirely different ethics than you . 
+  your options depend mostly on what your policies are . 
+  from enslaving to purging to integrating over time . 
+  open in notepad + + \\ common \\ defines \\ 00_defines . lua, 
+  find core_sector_planet_cap and set it to 10, 
+  you can also change sector_revoke_planet_cost to 0 so you do n't have to pay influence to fix sector ai fuck ups . 
+  the sad thing is that this simple change also makes midgame 100x more fun because managing 10 planets actually means there 's always something to improve in your system ( and once you set up a colony you give it to sector and continue colonizing , before i just colonized planets already in sectors which meant the interaction ended the moment a sent a colony ship there ) instead of sitting on 5 planets and waiting for your tech to finish so you can click `` upgrade '' a few times and wait again . 
+  i can guarantee you that if this was the default settings there would be a lot less posts complaining about the `` midgame slog '', 
+  you could also make them a vassal i think . 
+  or make them so happy they 'll abandon their ways over time . 
+  i mentioned this in another thread but i fixed it by setting the default core planet limit to 10 . it actually fixes so many things with the game not only sectors it 's kind of mindboggling why it was n't default in the first place . 
+  i can not only give ai setup colonies that they will just upgrade for me , but there 's actually tons of stuff to do during midgame because it turns out , when you are n't punished for colonizing yourself and managing your colonies it becomes even more fun than the early exploration, 
+  i have n't played enough with it but i do n't think it necessarily breaks the government types . 
+  the 2 ( 4 when upgraded government type ) is pretty significant even with more core planets . 
+  more pops exist . 
+  increase happiness by edicts and unique buildings, 
+  i think the frontier outpost let 's you keep some/all resources ( it should be contested territory now ? ), 
+  otherwise vassals are internally independent but they ca n't colonize and have to fight wars with you . 
+  also you can integrate them by using influence after 10 years . 
+  depends on your cpu single threaded performance , the speed you 're playing and on galaxy size . 
+  it 's hard to generalize it . 
+  easiest way is to find xenophile/individualist nations and trade migration access . 
+  you can then uplift or enlighten primitives and the undeground aliens should give you event eventually that they want to join your colony as pops . 
+  and of course war is option as well . 
+  what is the best way depends on your ethos . 
+  did you colonize planet with 20 % habitability ? 
+  yeah it `` works '' but they still ca n't even make a proper colony layout regardless what settings you choose . 
+  and you ca n't `` reserve '' building slots for unique buildings ( mainly those that increase happiness ) so you basically have to wait until 10 pops and being able to clear all blockers before you can safely give the planet to a sector . 
+  i 'm a purist that never modded any paradox game in any way but this change not only solved the idiotic sector ai , it also gives you tons of stuff to do in the downtime . 
+  even if the sector ai was perfect , developing colonies is actually pretty fun and it turns out when you have 10 slots , you can afford to develop maybe 6 at the time instead of like 1 with the 5 planet limit ( presumably you have few truly core planets that are basically fully developed anyway and there is n't much left to do with them beside upgrading a bunch of buildings so you ca n't really do anything with 1 spare slot and have to leave it to sectors if you want to colonize at the same time ) . 
+  seriously , try it and you 'll wonder what the was paradox thinking when they decided that 5 was a good number . 
+  there wo n't be effective scorched policy until they develop orbital bombardment and give you anti planetary weaponry so you do n't have to wait years to nuke a planet by bombarding . 
+  that said , you 're probably better off targeting space ports . 
+  contact  empires  check only primitives, 
+  for non-sentients go into species switch between galaxy/empire and under the species it will be mentioned they are pre-sentient, 
+  federation/alliance play is very viable mechanically . 
+  the issue currently is that the only 2 victory conditions are conquest based so you ca n't actually `` win '' the game as in get the score screen although you can `` de facto '' win by having no opposition in the galaxy, 
+  q to `` go to '' what you currently have selected, 
+  e to zoom in/out of a star system that you 're hovering over with mouse, 
+  i think they need to have -75 relations with you to got to war , so possibly taking 1 holy world was n't enough to push them over the edge . 
+  it will just keep upgrading buildings . 
+  i wanted to say it does but my checksum is the same . 
+  so i ca n't tell you, 
+  are those pre-sentients possibly ? 
+  you 'd have to uplift them first i think, 
+  are you talking about stone age primitives that do n't have any pops ? 
+  that 's a planet modifier ( if you colonize the planet they can become pops eventually ) they are n't actual empire . 
+  i do n't think anything will happen with them if you do n't colonize presumably because the time that it would take them to become more advanced is outside the scope of the game . 
+  some xenophile related policies may also prevent you from interacting with the planet at all . 
+  no but you can use genetic engineering to fix it . 
+  ca n't change empire ethics . 
+  sectors need to actually have the strategic resource in them to use it at the moment . 
+  contacts  species, 
+  you should be able to find them there and have a button to uplift if you have the tech . 
+  why would labs become counter productive if it 's not them generating the pops ? 
+  if you put a farm there you 're still getting the increased research cost . 
+  try starving it ? 
+  colonizing , conquest , frontier stations and technology, 
+  what are you building on your planets ? 
+  if you have slow research with many pops you are probably not building enough research stations . 
+  use notepad + + , not notepad it ca n't save it correctly . 
+  i think you 'll have delete the file now and let steam redownload it . 
+  iirc you just have to visit the marked black holes with science ship ( maybe with any ship ), 
+  open in notepad + + ( not regular notepad ) \\ common \\ defines \\ 00_defines . lua, 
+  find core_sector_planet_cap and set it to 10, 
+  you can also change sector_revoke_planet_cost to 0 so you do n't have to pay influence to fix sector ai fuck ups . 
+  click on the world you want to colonize and click the colonize button , it shows you a list fo available colonies and what pop is on them, 
+  open in notepad + + ( not regular notepad ) \\ common \\ defines \\ 00_defines . lua, 
+  find core_sector_planet_cap and set it to 10, 
+  you can also change sector_revoke_planet_cost to 0 so you do n't have to pay influence to fix sector ai fuck ups . 
+  the game is 10x better with this since micromanaging your sectors and developing colonies is actually fun and you have something to do the whole game , no more doing nothing in midgame . 
+  you need resettlement policy and the planet has to have planetary admin built, 
+  it 's probably completely random , at least planets that are close to you . 
+  there 's really no difference in what homeworld you pick beside cosmetics, 
+  you can easily be a pacifist ( in fact research costs are based on total population ) .

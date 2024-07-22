@@ -1,0 +1,100 @@
+  did you try some other connection ( no idea what you 're using now and what your monitor supports , but if you 're using hdmi try dvi etc ), 
+  also try using igpu . 
+  if igpu works you can safely assume it 's the gpu, 
+  it does work if you use the bioses listed on that site . 
+  there might be a . dll file you 'll have to delete or rename on windows 10 otherwise it will bsod when windows detect bclk oc, 
+  are you on win10 by any chance ? 
+  what xenos are you talking about , regular empires or the neutral `` mobs '' ? 
+  you should be able to inspect any ship from a regular empire as long as it 's in your sensor range, 
+  ship balance is messed up currently . 
+  kinetic weapons are inferior to energy ( besides point defense against missiles ), 
+  strike craft does n't work well because their range is too short . 
+  not sure about the torpedoes , what are the stats ? 
+  fallen empires are different from advanced ai start and they should appear every game ( although they sometimes do n't if there is n't room to spawn them ), 
+  i mean , if the main pops dont revolt you 're fine . 
+  i 'll try to make a save file that will reproduce it , i 'll upload it once i make it . 
+  started bombing a planet and first a pop started migrating and once he either got killed off or migrated away ( the planet was full before that point ) and as soon as there was empty tile a new pop started spawning . 
+  less happiness does matter but there 's a certain treshhold that you need to exceed before they start joining factions ( i assume around 30-50 % but i ca n't tell you exactly ) . 
+  if you keep above that your pops wo n't revolt and slaved pops ca n't revolt ever . 
+  if you mean cpus you can on skylake with some bioses on z170 boards . 
+  nope . 
+  known bug . 
+  you either have to deal with them alone or start some irrelevant war so they attach at the moment, 
+  mustalisks are back, 
+  this is a known bug when a pre-ftl civ has space amoebas for some reason, 
+  not sure if it will work ( and if it will whether it 's intended ) but have you tried putting on the planet a governor with build speed ? 
+  i 'd recommend setting to at least 100 , but honestly after more testing it could turn out even that is n't enough ( currently running observer game with i think 800 and it 's definitely a lot better but it might still be too low ), 
+  it 's not really even an issue with the game mechanics but the ai base aggressiveness is extremely tame which makes it unable to create blobs to challenge the player . 
+  since you can change the base aggressiveness eventually a magic number will be found that will make the ai be aggressive enough to not stay small after hundreds of years . 
+  after some patches that improve the ai ( so it will be efficient in economy and winning war ) even the vanilla game should turn out to be pretty good . 
+  either way i 'd recommend everyone to change the base aggressiveness from 25 to at least 100 , but possibly even 500 or 1000 . 
+  on what resources and how many % ? 
+  ok so i observed the bombardment a bit and it 's kind of weird . 
+  i 'm sending 3 saves total, 
+  test2.sav shows a pop that is trying to migrate ( unfortunately he later for some reason got happy enough to stop migrating but it did count down the months left ), 
+  test3.sav shows a new pop spawning . 
+  despite toolip saying he has really small grow , it did n't seem he actually grew under bombardment but i 'd still say it 's a bug that he spawns at all . 
+  at the same time , there 's a half-grown pop from another species that seems to have negative grow due to low habitability , not sure what 's that all about ( he was there when i started bombarding which makes it even weirder that another pop tries to spawn repeatedly ), 
+  if you do n't mind i 'll throw you one more :, 
+  i also included war.sav from observer game where i noticed that empire ( holy vag-oross order ) got attacked by 2 factions and 1 of their planet got conquered by one enemy and other 3 planets got captured by the other attacker and now both factions are stuck in the war for years because the attacked empire does n't peace out despite having all their planets conquered . 
+  you can probably ignore this if if the issue is the same thing as this ( ca n't see warscore as spec to see whether it 's the case ) : the ai will sometimes never peace out at 100 % war score because one of their goals have become impossible to achieve ( e.g. , they want a planet someone else has conquered ), 
+  well i tried to reproduce it several times by just running the game and waiting a year and nothing happened . 
+  now that you replied , i started a new game and pretty much immediately once i unpaused my fanatic pacifist xenophobe capital spawned a new pop that was only xenophobe http://i.imgur.com/mluknts.jpg, 
+  second pop spawned with empire ethics even after few loads , 3rd the same . 
+  i 'll try starting a few more times if it 's maybe dependent on ethos or something but i do n't see how to reproduce it aside from starting over until it happens because it seems to be pretty random so far, 
+  plenty of ways to do it . 
+  i 'd recommend xenophile and pacifist . 
+  get the charismatic trait . 
+  get migration access from allies to get access to species with different habitable planets ( before you research gene mods ), 
+  k so i just simply started a game without unpausing and one pop already started without militarist ethics . 
+  i ca n't tell you how to reproduce this besides starting a game and checking all your pops and wait for more pops to spawn . 
+  i 'll check if it 's seeded before the pop spawns and a save will always spawn a pop without ethics . 
+  if you are n't going to be enslaving , purging and will have moderate policies divergence is mostly irrelevant, 
+  best i can do for now : http://www.filedropper.com/new_18, 
+  fanatic individualist xenophile - at the start of the game , 5/7 pops on planet are just individualist xenophile . 
+  pop that spawns will be as well, 
+  i envy that you can ignore all the blatant problems . 
+  that said i personally think even the base game is solid mechanically , problems lie in the balancing , poor ai and simple settings in the defines ( for example the base ai aggressiveness is anywhere from 20 to 100 times lower than it should be and that 's not an exaggeration ) . 
+  i did n't read negative things about the game before playing it . 
+  i stopped using stuff that was badly implemented which is why i 'm now on reddit waiting until next patch hits while running observer games with different ai settings on my second screen instead of actually playing the game . 
+  increase core planet limit to 10, 
+  change revoke sector cost from 25 influence to 0, 
+  change base ai aggressiveness from 25 to 500 ( still working on the number , will leave a game with 1000 run over night and see what happens ) . 
+  goal is to get a number that will result in ai empires being able to blob enough to be threat to a player and to not let player outturtle them with peaceful development . 
+  hoping that at least a basic hotfix comes tomorrow to make the ai follow the not development option and possibly fix the issue with ai not peacing out wars when multiple different attackers occupy it because it extremely slows the ai down when it stays years in wars that are won ( all this is made worse by otherwise a good thing that ai is opportunistic and will attack weakened enemies but it results in situation when 1 attacker ca n't take all sectors it wants because 2nd attacker took some wargoals ) . 
+  of course there 's a laundry list of other lesser to bigger problems but these 2 defines.lua changes along with the relevant ai bugfixes should fix the biggest problems currently with the game which is lackluster midgame and lack of stuff to do once you develop your 5 core planets . 
+  start the game , open console and type observe ( or observer ca n't remember ), 
+  use box selection over enemy territory, 
+  actually , please do n't , but it works, 
+  so there is n't any windows microcode update afterall ? 
+  for planets that wo n't build ships ever just build the resource ones and maybe crew station ( or w ' e it 's called ) . 
+  for ship building stations build everything that gives ship bonuses especially rare buildings . 
+  mut much else there to it, 
+  you have to pick enemies that you can beat first . 
+  it 's random but i would assume that if you run the game long enough every pre-ftl sentient civ would become spacefaring, 
+  you already figured it out . 
+  it 's always 3 per month increased by their pops/planets . 
+  unless you wanted exact formula that i ca n't be bothered to go find . 
+  20 influence per pop, 
+  i do n't know if the vanishing sectors are fixed but the game is currently unoptimized that if you have too many planets outside of sectors i think the planet tab still processes everything in the background which slows the game to crawl . 
+  at the same time , it seems that sector ai is inefficient and causes late game lags because it keeps shuffling pops for no reason though . 
+  the nuking event ( from what i 've seen ) just changes the world to tomb world , it does n't kill the pops, 
+  people are talking about it . 
+  it just happens that a lot more people are complaining about the mechanics that are in the game being broken and want them fixed first before adding new mechanics on top, 
+  there are 2 problems with this , first that the redevelop tile options is bugged ( ai simply ignores it most of the time ), 
+  and the other problem is that food surplus in stellaris does n't work like in other 4x games and scales rather poorly . 
+  if you have 0 food surplus , your pops will growth at 0.9 per month . 
+  if you have 1 , pops will growth at 1 per month ( base ) . 
+  if you have 2 , pops will grow and 1.1 per month , and it you have 10 , people will grow at 2 per month . 
+  so ai trying to maximize it 's growth by demolishing everything else is n't something it should be doing by default because it 's extremely inefficient . 
+  at most it should be option that you can toggle but since it is n't , ai should n't be doing it . 
+  the issue is that 5 planets is that it 's just too limiting and makes the overall flow of the game simply worse than it could be , no other ways around it . 
+  with 5 planets , you colonize 5 , develop them and after that there is n't much else to do besides queue upgrades every once in a while once you get new tech . 
+  if you get new planets , you have to throw them in a sector and that 's where the `` micro '' ends whether you want it or not ( sector being retarded in developing them at all is another issue ) . 
+  i 've been playing with the limit increased to 10 for a while now and it simply makes the game better all around . 
+  it does n't only make sectors less frustrating because you have good enough buffer to develop the planets yourself before you put them into sector . 
+  you still have your 5 `` core '' core planets that are developed with nothing to do with them but occasional upgrade , but you can also colonize 5 more planets at the same time and develop them from the ground up , and that actually makes the game fun over the course of the whole timeline , not just before you set up your 5 planets like you can in vanilla . 
+  turns out developing new planets is fun and limiting you to 5 completely removes the aspect from the game after early game expansion . 
+  and once they are developed , you throw them into sector so the tedious upgrading is left to ai ( if it worked properly that is ) and go back to the fun part of the game , colonizing . 
+  so to reiterate , if sector ai worked fine , it would be amazing tool to let you offload the tedious micro while you focus on the fun part of planet management . 
+  but 5 core planets simply remove the fun part out of the game completely once you colonize your 5 planets .

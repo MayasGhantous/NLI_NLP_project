@@ -1,0 +1,100 @@
+  funny , here in budapest it 's customary to stare at people 's faces when travelling on escalators . 
+  look them in the eye , they 'll look back , and it 's okay , because you 'll never see each other again . 
+   tivo, 
+   apple tv, 
+  do n't these essentially do the same thing ? 
+  should n't there already exist an hdd recorder that has a bluray disc reader ? 
+  too bad she aint got no helmet on . 
+  did you run ` chkdsk ` from the windows boot ? 
+  ntfsresize once screwed up something with the partition and that made windows refuse to boot , but chkdsk ( the windows equivalent of fsck ) fixed it . 
+  it would be such a shame if they were n't telling the truth . 
+  you can split outputs simply by connecting the conductors . 
+  y-cables and splitters will work . 
+  look out for ground loops though . 
+  unbalanced connections are inherently prone to picking up mains hum and electromagnetic interference . 
+   hd 320kbps, 
+  stop it , you 're killing me !, 
+  you can go all the way and blacklist your onboard sound card 's kernel module , it will no longer be available afterwards . 
+  add a file to ` / etc/modprobe . d / ` , name it something descriptive and write ` blacklist ` followed by the name of the module into it . 
+  run ` lsmod | grep snd ` to find the name of the card 's kernel module . 
+  for example , if i wanted to blacklist my onboard realtek audio chip , i 'd run, 
+  echo `` blacklist snd_hda_codec_realtek '' | sudo tee / etc/modprobe . d/onlyhdmiaudio . conf, 
+  i think it 's possible by tinkering with your alsa configuration ( alsa is the low-level soundsystem for recent soundcards ) . 
+  settings go into ` / etc/asound . conf ` . 
+  however alsa config syntax has nearly driven me out of sanity a few times , so i ca n't recommend that route . 
+  your gpu can output 8 uncompressed pcm channels to the receiver over hdmi , the spdif interfaces ca n't . 
+  you would n't have 7.1 surround in games , so forget about coax/optical . 
+  the analog outputs would function just as well as the hdmi , but they 'd add a lot of clutter . 
+  the hdmi cable is already there , might as well use it for audio . 
+  let the receiver decode the dts-hd stream in hardware , instead of your pc wasting precious cpu cycles . 
+  plus , hdmi uses balanced links , so it is less prone leading to ground loops . 
+   which cables to use ? 
+  \\*\\* edit \\*\\* disregard , you already have cables , 
+   codecs ? 
+  you can forget about codecs : there are free software media players that are bundled with the necessary codec libraries , and support decoding in hardware ( xbmc , vlc , mpc-hc to name some of the best ) . 
+   software , hardware , drivers, 
+  you do n't need anything else . 
+  keep your os and the amd drivers up to date , that 's all . 
+  personally i would 've gone with a raid setup instead of having multiple separate drives . 
+  watch out : it 's not a backup if it 's spinning ; when your psu blows up it 'll go down with the rest of the drives , and all your data will be gone . 
+  chances are very small though , i 'm not trying to scare you . 
+   sound blaster cinema utility software recommended for this motherboard , does not recognize compatible hardware . 
+  you wo n't need that , it 's just bloat . 
+  everything 's covered : 8 channel lpcm for games , hdmi passthrough for movies . 
+  are you talking about modulation because of nonlinearity ? 
+  should n't that imply that 44.1 khz audio is superior ( cleaner , closer to the source ) to 88.2 khz because offending out-of-band signals are filtered out ? 
+  it 's the exact same sampling theorem that proves that the original time continuous signal can be reproduced with 100 % accuracy after being converted into a discrete time domain signal - assuming a bandlimited input , and it does n't cover amplitude sampling . 
+  either you hear the 30 khz signal , or the two formats are indistinguishable , unless the system 's so nonlinear that the 30khz signal gets modulated back into the audio band as noise whose amplitude correlates with the audio signal amplitude . 
+  the files are legit , they come with ultrasounds . 
+   rms level  20khz -52.78 db, 
+   rms level < 20khz -8.94 db, 
+  that 's a whopping 0.0041 % of ultrasonic power !, 
+   watch anime on my tv . 
+  i 'm wondering if it 's worth upgrading the d1 dac, 
+  not if it 's dubbed . 
+  chroot him to / home , and add him to the all of the users ' associated groups . 
+  you may have to recursively chmod the home folders g + w to give the group write access . 
+  / home should be owned by root , and not writable by everyone , which is usually so . 
+  the effect is n't welded onto the card , you can turn it off, 
+  it 's always 20 for voltage , current , pressure , and 10 for power and intensity . 
+  you 're correct . 
+  1 % is near the clipping point of the amp . 
+  they specify the maximum power the amp can provide at 1 % thd , because that 's hopefully more you 'll ever need . 
+  throughout the normal range it should be much lower . 
+  for example , lightning strikes . 
+   linux is nearly inseparably tied to the gnu toolchain ( yes , you can use linux without the gnu toolchain , but how many people honestly do this ? ), 
+  [ nearly a billion users . 
+  ] ( http://en.wikipedia.org/wiki/android_%28operating_system%29 ), 
+  as opposed to ? 
+  was n't 10 ^ 21 good enough ? 
+  i suppose all of them have it . 
+  unless i 'm wrong , in which case you can pull the power plug , remove the backup battery , and the settings will reset . 
+  do n't do this without permission , it 's considered to be a rude thing , resetting the bios settings on a computer that 's not yours . 
+  resize in linear space . 
+  most programs will apply resizing algorithms in gamma 2.2 space . 
+  resizing is something like averaging . 
+  you want the resized , * larger * pixels to have the mean value of the pixels whose area they encompass . 
+  when you try to average the pixels while they are actually gamma 2.2 , you 'll get the * root mean square * of the pixels instead ( approximately ) . 
+  this will render small bright features , like stars the size of few pixels in diameter appear much darker than they should be . 
+  observe , your pic resized to 300px wide in both linear , and default ( gamma ) space : http://imgur.com/tidqj3r, 
+  i took this test , and it recommended for me the distro i use ( debian ), 
+  the most important , and also the most confusing question for a newcommer will be the one regarding the desktop environment . 
+  in my own opinion , kde looks like a classical desktop by default , and is very customisable but requires more ram , while gnome ( and ubuntu 's unity ) is less customisable , and looks less like a desktop -- they 're trying out new directions apparently . 
+  there are even more desktop environments available ( cinnamon , xfce ... ) but i have n't tried them . 
+  people say good things about cinnamon , which is based on gnome , but looks like a desktop by default  . 
+  most of the programs you use are n't affected that much by the de you choose anyway . 
+  those things are unpredictable . 
+  12-12-12 is not a louder version of 9-9-9 like on some eq 's ; it can have a completely different frequency response . 
+  experiment with it , see what sounds good . 
+  you ca n't bypass it . 
+  i copied the init script from the xbmc wiki and ran ` update-rc . d `, 
+  this is on a debian box with no de/gui installed , so there 's no greeter . 
+  i recommend you avoid debian based linux distros altogether : politics dictate that xbmc use the ffmpeg dynamic libraries in the repos instead of statically linking the source , which would n't be a problem if vdpau were n't broken in debian 's ffmpeg . 
+  i had to compile xbmc from source which took a few hours of my time . 
+  put openwrt on your router . 
+  it comes with collectd support , so you can have nice graphs of your net usage and whatnot . 
+  sensitivity of the drivers is specified often , for example : http://www.akg.com/k240+studio-1039.html?pid=1195, 
+  104 dbspl/v meaning that for a 1v input signal , the phones will output 104db spl . 
+  2v will be 110dbspl , 100mv = 84dbspl , etc. . . 
+  the headphones ' frequency response comes into play , which can have a variation of \u00b1 10db , so you can only assume any kind of accuracy with wideband signals . 
+  this is normal if you play songs from the 20th century , as well as more recent ones .

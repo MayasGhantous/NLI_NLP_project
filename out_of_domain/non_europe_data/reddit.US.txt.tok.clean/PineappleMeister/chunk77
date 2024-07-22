@@ -1,0 +1,100 @@
+  * reaction gifs, 
+  * pictures of boxes/game covers, 
+  * trophies earned, 
+  * console/controller skins, 
+  important : these post still need to be relate to playstation and/or gaming . 
+  it starts at 8pm est. 
+  live blog links, 
+  if you fine other links post them . 
+  could only find that link : / does n't look like there is a stream . 
+  * looks like steam webpage is down , this could be cool . 
+  * 13 steam machines announce . 
+  * well that 's it ... 
+  first of all , this will ** not ** be a full mod position but someone who will take care of link flairs and check for spam . 
+  ** requirement . 
+  minimum 6 months on reddit . 
+  ^ disclaimer : ^ we ^ get ^ to ^ choose ^ whoever ^ we ^ want ^ regardless ^ of ^ upvotes ^ and ^ we ^ also ^ reserve ^ the ^ right ^ to ^ not ^ choose ^ anyone . 
+  so i have updated the / r/pcgaming stylesheet . 
+  we have a new spoiler code so [ yes spoiler ] ( #s `` no . '' ), 
+  which should work on mobile . 
+  see the sidebar to learn how to use it . 
+  post bugs and wants here . 
+  also if any of you want to make us a custom reddit alien , that you want us to use , post it here . 
+  ( as of this post , it not yet fully compatible with res nightmode ), 
+  ### what is it ? 
+  driving the future of innovation at sony computer entertainment ... or ( rumor ) the launch of the playstation virtual reality headset . 
+  ** speakers : ** richard marks senior director ( scea r&d ) , anton mikhailov sr. . software engineer ( scea r&d ) , shuhei yoshida president ( sce worldwide studios ), 
+  synopsis :, 
+  join sony computer entertainment for a presentation on innovation at playstation \u00ae and the future of gaming, 
+  * \\ ^ taken from here : http://us.playstation.com/develop/gdc-2014/*, 
+  ### live blogs, 
+  [ ign ] ( http://www.ign.com/articles/2014/03/17/gdc-sonys-innovation-at-playstation-panel-live-blog ), 
+  [ eurogamer ] ( http://www.eurogamer.net/articles/2014-03-18-gdc-live-report-sonys-future-of-innovation-talk ), 
+  [ the verge ] ( http://live.theverge.com/live-sony-playstation-future-of-innovation-gdc-2014/ ), 
+  taken from ign, 
+   fyi : there will be no live stream of the presentation and attendees are prohibited from recording video . 
+  sce has said that they may post clips of the presentation sometime tomorrow , but not the entire session . 
+  * `` virtual reality is a new innovation that may well shape the future of games . '', 
+  * sony chose gdc to introduce morpheus since it 's a developer-driven show . 
+  they want people to make games for it . 
+  - ign, 
+  * ### project morpheus , a vr system for ps4, 
+  * one feature of the dev kit is a processing unit inside that can mirror the image onto a normal screen , so others can join in without needing their own headset . 
+  - the verge, 
+  * [ position and rotation head tracking , 1000hz , full 360 degrees ] ( https://d35lb3dl296zwu.cloudfront.net/uploads/photo/image/15609/sony_gdc_0554.jpg ), 
+  * demos, 
+  thief, 
+  the deep, 
+  1 . castle demo using move that allows you to grab objects , and wield a sword and bow and arrow - eurogamer, 
+  the event has ended . 
+  ##### c64  pc, 
+  * cpu : mos technology 6510 @ 0.985 mhz, 
+  * graphics : vic-ii ( 320 \u00d7 200 , 16 colors , sprites , raster interrupt ), 
+  * sound : sid 6581 ( 3 \u00d7 osc , 4 \u00d7 wave , filter , adsr , ring ), 
+  hello everyone ,, 
+  over the last several hours we have been getting an influx of new users . 
+  so i would like to just cover a few things . 
+  we do n't have a banned word list so please do n't do this, 
+  all the rules are on the sidebar , i changed them today because i added the old ones when i was added as mod since there were no rules , but i thought we needed something more specific to this subreddit and clearer . 
+  1 . and any rule change will be added to the sidebar . 
+  anyways , enjoy the sub . 
+  so as you may have notice this subreddit is currently trending . 
+  so i would like to take a moment to go over a few things . 
+  this subreddit has very strict content rules . 
+  ** only article and news are allow here . 
+  1 . videos pictures memes etc are all remove using automoderator it will leave a comment when your post is remove . 
+  1 . to submit a post your account needs to be at least 1 week old or have 10 ** comment ** karma . 
+  also you may want to subscribe to / r/tech there we have a very good group of moderators and have less limitations on submissions . 
+  the subreddit is / r/pcgaming so i have it working fine on [ the front page ] ( https://i.imgur.com/igfk32z.png ) however because on the comments it goes [ under the comment area ] ( https://i.imgur.com/ygq7pqs.png ) i made it hover the opposite of the links [ like this but as you can see the html title blocks it ... ] ( https://i.imgur.com/6xgrz6k.png ), 
+  the code, 
+  / ************ userflairs ************ /, 
+  . flair {, 
+  background : transparent url ( % % pcflairs % % ) no-repeat -9999 px ;, 
+  position : relative ;, 
+  text-decoration : none ;, 
+  . flair : hover : after {, 
+  background : #c 50202 ;, 
+  background : rgba ( 197 , 2 , 2 , 1 ) ;, 
+  color : #fff ;, 
+  display : block ;, 
+  left : 0 % ;, 
+  position : absolute ;, 
+  z-index : 9999 ;, 
+  . flair : hover : before {, 
+  border-color : rgba ( 197 , 2 , 2 , 1 ) transparent ;, 
+  content : '' '' ;, 
+  display : block ;, 
+  left : 15 % ;, 
+  position : absolute ;, 
+  z-index : 9999 ;, 
+  / * this i did to get working the way it is on the comments * /, 
+  . comment . flair : hover : after {, 
+  . comment . flair : hover : before {, 
+  / ************ end of userflairs ************ /, 
+  also is there anyways to make the hover not appear if the user does n't add any text to the flair ? 
+  right now it [ comes up like this ] ( https://i.imgur.com/ips8zpw.png ), 
+  e3 starts in just about 2 weeks . 
+  so what do you guys want to see at this years e3 ? 
+  also we now have steam & origin flair options for you to use . 
+  ( edit : lol looks like i forgot to turn on user edit , you can now put your steam id on there is you want . ), 
+  and we have and irc channel ( no one goes there but ) do any of you want to help run it ?

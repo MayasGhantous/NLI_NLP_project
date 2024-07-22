@@ -1,0 +1,100 @@
+  uppercase a by moving my left pinky to left shift and my left ring finger to the a key . 
+  i can easily reach all letters with the remaining fingers while holding down left shift with the pinky . 
+  i went the easy way and deactivated the original < esc  instead ... another ( easier ) alternative is to simply swap escape and caps lock , via ` option `` xkboptions '' `` caps : swapescape '' ` in ` / etc/x11/xorg . conf.d / 10-evdev . conf ` . 
+  while i do agree with you , and also use caps lock as esc , i also reckon moving ctrl a few steps up would be a great idea . 
+  personally , i 'd love if the caps lock key was split in half , so that i could bind the right half to one key and the left half to another . 
+  ( they 'd definitely be caps & ctrl in that case . ), 
+  you can do ` setxkbmap - option caps : swapescape ` to directly set it in the running session . 
+  i also have ' [ ' on altgr +8 , but . . twisted elbow ? 
+  i can easily move my thumb from hovering on the right side of space to altgr , and then move my long finger up to 8 ... how do you type it ? 
+  or maybe you have smaller hands than i have . 
+  nice . 
+  mind sharing the wallpaper ? 
+  i decided to post a screenshot of my setup because hey , why not ? 
+  [ dirty screenshot ] ( http://etc.firefly.nu/tmp/2012-03-29_dirty.png ) . 
+  there 's a monitor boundary between xchat and firefox . 
+  visible in the dirty screenshot :, 
+  * awesome, 
+  * rxvt-unicode, 
+  * xchat, 
+  * firefox ( pentadactyl , tree style tabs , reload tabs progressively , and a bunch of other minor extensions ), 
+  * amarok, 
+  [ config files ] ( https://bitbucket.org/firefly/dotfiles/src/tip ) . 
+  awww . . 
+  i 'd love a wallpaper in that style , but it 's too small for my monitors . 
+  hmm , i 'm rather happy with my current pentadactyl setup , but i 'll keep jumanji in mind if i decide that i want to go webkit for my main browser someday . 
+  thanks for the tip !, 
+  indeed it 's xchat at the bottom left . 
+  i should probably also add that xchat and firefox are on different monitors . 
+  haha , oops . 
+  :p i find it rather functional at least . 
+  not having to use the mouse is great imo . 
+  the [ awesome wiki ] ( http://awesome.naquadah.org/wiki/awesome_3_configuration ) along with man pages should be enough to get you started . 
+  it 's rather important to read up quite a bit on how it works , since it 's quite a bit different to `` usual '' floating window managers ( assuming you have n't previously tried another tiling wm ) . 
+  erm ... 
+  i ca n't remember marking this thread as nsfw . . : / i guess i must 've misclicked yesterday . 
+  sure . 
+  [ the relevant portion of my desktop ] ( http://i.imgur.com/jmvtm.jpg ) . 
+  sorry for the bad quality ; apparently the nokia e7 has a shitty camera . 
+  [ older shot of the games ] ( https://dl.dropbox.com/u/24715905/tmp/dsgames.jpg ) ( from before i bought the 3ds ) . 
+  i second tikz . 
+  i 'd also like to add that i found [ these slides ] ( http://www.math.u-bordeaux1.fr/gtem2008/tikz/main.pdf ) to be a great introduction to tikz when i first started playing around with it . 
+  it explains the `` low-level '' components rather nicely , and also gives a brief overview of more specific libraries ( e.g. 
+  for drawing trees or graphs ) towards the end . 
+  and also the fact that they already have the source engine running on windows . . it really would n't make sense to * not * go with windows as the platform for the rumoured steam console , imo . 
+  ( as much as i 'd love if it ran linux . . :p ), 
+  it 's common in swedish too , via the word '' [ typ ] ( https://en.wiktionary.org/wiki/typ#swedish ) '' which means `` type '' , `` sort '' or ( usually in that case , i think ) `` sort of '' . 
+  wikipedia 's [ cross-linguistic onomatopoeias ] ( https://en.wikipedia.org/wiki/cross-linguistic_onomatopoeias ) article has quite a lot of nice examples that you might enjoy . 
+  http status code 200 is n't even an error & # 3232 ;\\ _ & # 3232 ;, 
+  that 'd be pretty interesting , especially with keystrokes overlaid to emphasize how something is accomplished , since it 's not usually obvious from the visual response alone ( especially in vim , but also in other contexts as well ) . 
+  i 'm too lazy to find a mic , setup recording software and record a video ( at least for now i am ) , but i 'll do a quick textual outline of my workflow instead . 
+  * wm : i use a [ tiling window manager ] ( http://en.wikipedia.org/wiki/tiling_window_manager ) ( [ awesome ] ( http://awesome.naquadah.org/ ) ) instead of a floating one . 
+  i usually use multiple terminal windows with one vim instance in each , instead of a single terminal with a single vim instance , with multiple `` vim windows '' inside it . 
+  i 'm not sure whether that 's a good or a bad thing , but it means i can easily drop back to shell in one terminal instance ( ` ^ z ` and later ` fg ` back to vim ) without affecting the others . 
+  * zsh : i use it mostly like i 'd use bash ; the most notable difference is that i use zsh 's vi-mode , which allows me to ` < esc  ` out of the default input-mode and use vi-like line editing . 
+  i mostly use this to repeat a previous line without having to move my right hand to the arrow keys . 
+  ` < esc  k < cr  ` is easier . 
+  i also reverse-incremental-search ( ` ^ r ` ) a lot ; that also works in bash however . 
+  * vim : i use ` : ! ` a lot to run stuff , which has the obvious downside of having to ` ^ c ` the program to get back to vim . 
+  for me it 's more `` accessible '' than having to switch window , though . 
+  another ( minor ) improvement is that it 's easy to compare the output of this run and a previous run , if the output is somewhat short . 
+  ah , that thing . . 
+  i try to use it as much as i can , but i often forget it . 
+  ooh , that 's neat . 
+  they actually * do * override the emacs keybindings , but i decided to bind them back in my zshrc . 
+  it 's just that i forget to actually * use * 95 % of them ... 
+  also the strait of gibraltar is * incredibly * wide on that map . 
+  and spain in general is rather oddly shaped . 
+  writing '' ` http://google.com/search?q=foo` '' is n't that much harder , actually . 
+  [ this page ] ( http://graphics.stanford.edu/~seander/bithacks.html#integerabs ) has a snippet for calculating the absolute value of an integer ( in c ) , which is apparently patented . 
+  it 's also a oneliner , and an * even more trivial one * at that . 
+  it seems that ` ale ' and ' \u00f6l ' both come from proto-germanic ` aluth - ' , so i guess it 'd be more proper to say that they share the same etymology ? 
+   from old norse \u01ebl ( `` ale , beer '' ) which is from the proto-germanic * alu , from proto-indo-european * h \u2082 elut - . 
+   [ \u00b7 \u00b7 \u00b7 ] you would probably never hear me say that i 'm going to `` run through the first five issues of this year 's playboy . '', 
+  i would certainly not `` run '' any of those things without a preposition in between to mediate . 
+  i 'm not completely sure whether it 's idiomatic english , but [ judging by wiktionary ] ( https://en.wiktionary.org/wiki/plow_through ) it seems so . 
+  i 'd probably say `` plow through the first five issues '' in a case such as yours . 
+  i think i could probably apply `` plow through '' regardless of medium , too . 
+  or my preferred variant :, 
+  void function ( ) {, 
+  if you 're not going to use the return value , you might as well be explicit about it . 
+  yup , looks like so to me too . 
+  for values \u2265 0x200 , the highest bit of the `` character byte '' ( as opposed to the `` formatting byte '' ) is apparently set ; i wonder what that 's for . 
+   * . dcpu - source files ( asm ), 
+  * . x10c - compiled files, 
+  i was thinking . dsm or . dasm for ( assembly ) source files , and . dcpu for the compiled output . 
+  i guess dagoneth 's thinking of something akin to dynamically-linked libraries . 
+  if you look at the assembly code for handling them , values  0xff are masked with 0xff and then shifted to the left . 
+  each word in the `` vram buffer '' starting at 0x8000 stores the formatting in the higher byte , and the character in the lower byte . 
+  the higher nibble of the formatting byte consists of the foreground colour , and the lower is the background colour . 
+  the highest bit of a colour modifies intensity . 
+  apparently values  0x1ff also sets the highest ( eighth ) bit of the character byte , not sure what that does . 
+  that 's my guess as well , at least . 
+  nice !, 
+  i just added display output to my own implementation : https://gist.github.com/2320648#file_gol.asm, 
+  mine uses the fact that `` a cell lives if it has 2 or 3 living neighbours if living , or exactly three living neighbours if dead '' can be summarized as `` a cell lives if ( state | number of living neighbours ) is exactly 3 '' , which saves quite a bit of hassle . 
+  nice screensaver !, 
+  i really like your assembler/emulator set ; best one ( for my purposes ) so far . 
+  thanks . 
+  there 's been some work already in making programs relocatable . 
+  see [ this rfc ] ( https://github.com/0x10cstandardscommittee/0x10c-standards/blob/master/asm/draft_assembly_relocation_table.txt ) .

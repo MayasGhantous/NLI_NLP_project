@@ -1,0 +1,100 @@
+  i am perfectly happy with not playing games that are console exclusives i much rather play different games that would n't be possible on console . 
+  crossfire 290  single 980 except in games that do n't work well with crossfire . 
+  i personally would n't spend the money ... 
+  if you want to upgrade wait few months for 390 :-) there should be some serious performance jump ( 20nm + hbm ), 
+  lets go team red !, 
+  once you go mech you never go back :-) using non-mechanical keyboard feels bad now :d, 
+  i have to disagree decent mouses can be had for like 20 $ the most important thing is how it feels in your hand . 
+  i would advise you not to get one :d atleast try to wear a condom and do n't spread it :d, 
+  either do vpn or try to google what ports is that app actualy using and forward those ( or forward everything - ussualy its called dmz ) . 
+  also make sure you have public ip and you are not behind isp nat . 
+  even if you could n't bridge it you could always do nat 1:1, 
+  btw ddwrt from my own testing arent ussualy very good at qos i would advise you to get mikrotik router to do that . 
+  also you definitely want to do separate vlans for you and your neighbor so he doesnt see your traffic and have the possibility to do any man-in-the-middle attacks possibly getting your passwords ... 
+  300mbit/s is only theoretical link speed - actual data throughput ( when you strip all the wireless bs ) is around half of that number ( similarly ethernet is not 100mbps but + -97 mbps ), 
+  also keep in mind that you would be able to get those link speeds only if other devices on your network support mimo ( 2 antenas ) and you can use 40mhz channel which is possible only if not a lot of wifi routers broadcast in your area otherwise you would get lot of interference . 
+  for standard 20mhz channel its half of that ( so around 75mbits of real throughput in ideal conditions ), 
+  also keep in mind you can use your local network for other things than internet ( i.e. 
+  file transfers between pcs which will ofcourse not be bottlenecked by that 30mbps your isp is providing you ) . 
+  frequent need to powercycle is something caused by a bad powersupply - try changing that ( also if you hear any buzzing noise from the powerbrick it ussualy means its bad ) . 
+  so if you can try a different powersupply with same voltage and same or more amperage . 
+  you can also try loading a different firmware ( openwrt ) . 
+  yep i meant router psu ( ofcourse :d ) and it is actually not that unlikely ( i handle plenty of new routers that came with powerbricks that made buzzing sounds ... ) . 
+  btw : the brand new router was acting up in the office too ? 
+  ok then i would try loading openwrt on it ( but first check if its compatible and reversible on that particular model ) so you do n't lose waranty . 
+  if it happens so sporadically i would just set up automatic reboot on that router and be done with it . 
+  i am not sure if you can do that on asus stock firmware though, 
+  with mikrotik you are almost always limited only by your own skills ( beware they are not so user-friendly as your normal customer routers ) . 
+  btw i would rather spend a little more and buy mikrotik rb951-2n / mikrotik 951g-2hnd - because every single ethernet port on those is managebale separately and they should have higher wireless range than that little mikro acces point ( also ) - ( and you also wouldnt need to buy switch ) 951g has gigabit switch inside . 
+  qos is pretty simple to setup on mikrotik . 
+  the way i would do it is to create a virtual acces point just for your neighbor and that vap would be running on different subnet than your home network - this way both of your traffics would be separate and you wouldnt have to worry about security ( you would also have easier time with the qos as you could set it for his whole subnet and not just for some specific mac adresses / ips ) . 
+  propably but beware its a dual-gpu card if am correct so you may run into trouble in games that do n't support crossfire . 
+  i would n't buy it . 
+  assasins creed - found it boring and repetitive as hell ( climb tower , look around do few stupid generic miniquests and go clim abother tower ) . 
+  bioshock - hated the combat mechanics . 
+  tomb raider - just could n't get into it . 
+  skyrim , witcher 2, 
+  lets turn it around though - games that you love but most people do n't . 
+  jagged alliance : back in action ( 62/100 metacritic ) - oh my god i 've sunk so many hours into this game and loved every minute of it - it just felt so damn good to plan an assoult and then just watch your squad obliterate everybody . 
+  another obscure game i really enjoyed was hegemony rome : the rise of ceasar, 
+  do a mips based laptop now that would be interesting - mips is powering majority of network hardware and is huge amount of companies ( 100 + ) who hold license to design and manufacture mips cpu . 
+  there is linux and android for mips . 
+  and now with imagination technologies in charge it seems as it is moving forward :-), 
+  i 'd say mips is a possible competitor too . 
+  it is already very prevalent in networking hardware, 
+  whoa mate say it again and slower . 
+  what are you trying to do ? 
+  do you want to make your laptop into samba `` nas '' and boot it from an usb flash drive ? 
+  your router doesnt have enough cpu power to push all those packets . 
+  fast ethernet ( 100mbit/s ) should be able to do + -97 mbit/s . 
+  get gigabit router with fast enough cpu to be able to push 100 + mbit/s, 
+  1043nd doesnt have enough cpu power to push those file shares - you can do it but the filetransfer speed will be slow - dont do it . 
+  make or buy dedicated nas machine . 
+  but otherwise the 1043 is a great machine . 
+  and you can load openwrt on it - highly recommended ( best you can get at that price range ), 
+  pro tip you do n't have to put more than 1 cable ... you can always use switches and vlans . 
+  ofcourse if you need more than 1 gigabit inside that room then yep by all means pull more :-), 
+  i would myself prefer to build a nas to have the freedom to use it as a server but it is a great out of the box solution that will serve you well -, 
+  there is no reason to do that or is there ? 
+  apart from the cables being thinner and you being able to do greater distances between them . 
+  beware this game is locked to 30fps - do n't buy that sh-t, 
+  well depends on your equipment - copper can also support 10gbit/s with sfp + transciever . 
+  however fiber is more future proof - you can have bunch of fibers in one cable :-), 
+  tp-link routers are perfectly fine soho devices - for added performance reliability and options you can try putting a openwrt firmware on them ( which tp-link is one of a few in its price range that is supproted by that opensource firmware so hooray !, 
+  however if you want to get serious get a mikrotik/ubiquity hardware . 
+  i would advise you to buy atheros based minipcie nic to put in your laptop instead of your broadcom one - they are just better no debate . 
+  and they are pretty cheap and seeing as your laptop is not under warranty anymore i bet you can swap it easily :-), 
+  dont buy usb adapters - the reason why your router/laptop can attain 300mbit/s and more is because mimo technology ( multiple inputs multiple outputs ) - in layman terms it has more antenas 99 % of usb wifi equipment has only one antenna so you 'd be limited at 150mbit theoretical . 
+  also keep in mind that 300mbit theoretical bandwidth is not real data bandwidth - about half of it is `` wasted '' on negotiation and retransmision of broken packets ( sameway 100mbit eth has in reality about 97mbit real data throughput ) . 
+  so 150mbit is the ideal maximum you should be able to get at zero interference - which is almost impossible to atain in real world scenarios . 
+  also ideally you want to broadcast at 20mhz channels ( unless you live in the woods / have a 5ghz capable equipment ) because you get less interference as opposed to taking up half the 2.4 ghz spectrum with your 40mhz channel - less interference means more reliable connection with less packet loss and better latency ( you might get less throughput though 75mbit/s is about max you can get with 2x2mimo on 20mhz channel ) . 
+  get wifi analyzer app on your phone / inssider on windows and scan the neighboring networks to see how much interference you can expect and what channel you should use to broadcast . 
+  you want your laptop to act as wi-fi accespoint ? 
+  1gb is enough for almost any headless linux distro . 
+  but be aware that flash storage has limited amount of writes so its possible that in few years of operation your usb stick might die ( if you dont want that you should have swap partition on your hdd ) and use your usb only as main partition for os . 
+  they are propably some options to limit the swaping but you would have to read up on it :-), 
+  tp-link tl-wr841n is a great choice ( or tplink 1043nd is even better - has gigabit ports ) . 
+  if you want to purchase something more expensive and get your moneysworth get a mikrotik rb 951g-2hnd, 
+  i actually really liked back in action and was stocked to play this you kinda curbed my optimisim :(, 
+  should 've told you before - check your local regulations not all channels are legal everywhere ( most eu countries ussualy can use 1-13 , us is 1-11 and 14 is japan only ) . 
+  6 should be ok everywhere as far as i know . 
+  so what do you mean by ethernet only and you want to use both ? 
+  freenas is the software you want :-), 
+  or he could disable nat if its possible ( install openwrt on that router or get like a mikrotik router instead of that dlink ) . 
+  the best way of course would be to put everything in one subnet, 
+  scrap pptp ... 
+  either use openvpn or l2tp if you dont wa n't to bother with certificates . 
+  why is the netowrk mask on your ppp interface 255.255.255.255 ? 
+  ok this is gon na be a lot harder than it looks . 
+  i can speak from my own experience in college dorm . 
+  check if they even allow it . 
+  ( they didnt where i lived but f-ck them i did it anyway :p ), 
+  do you have to login when you connect ? 
+  if not then hooray just buy that tp-link 841nd and set it up in ap mode . 
+  if yes ( and that is propably the case ) and they have wpa2 enterprise then you are in pretty much bad luck as as far as i know there are no consumer routers that support it . 
+  the cheapest and easiest solusions are to either share your connections using windows or and this is what i did : instal openwrt on my router and basically made a linuxbox from it and just simply installed the authentication tools for wpa2 and set it up ( tp-link 841nd supports openwrt as well ) . 
+  well do n't we already have them ? 
+  they are called chromebooks :-), 
+  numbers lie too brother :-) do n't you remember when intel payed for skewed benchmarks ? 
+  i sure do . 
+  that is not how network storage works mate .

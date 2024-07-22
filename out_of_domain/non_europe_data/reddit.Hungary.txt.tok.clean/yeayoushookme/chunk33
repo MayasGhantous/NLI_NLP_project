@@ -1,0 +1,100 @@
+  wire resistance will never realistically matter . 
+  you could use lead and it would n't make a difference . 
+  not a very good argument : paying for product wo n't stop the vendor from trying to earn more money by selling your data ; see : every telecommunications provider ever . 
+  the apps that i 've listed all have their source codes available for public scrutiny , and they are licensed in a way that allows anyone to re-release them without the parts that could offend one 's privacy , if such exist . 
+  is n't ` killall -9 screen ` the screen killer ? 
+  why do n't you just use openbt and/or dht ? 
+  i use them for distributing photo albums between friends all the time . 
+  a way to add new voice instructions would be nice too . 
+  you can install openwrt on your home router , periodically update a free dynamic domain name with dyndns-scripts , and use it as your own private encrypted proxy server with ssh . 
+  invoking ` ssh myhomerouter.no-ip . com - d2345 ` will make ssh act as a socks5 proxy , that you can use by setting up your browser to connect via localhost :2345, 
+   that 's how many times per second the device plays a sound , while that sound itself can be any frequency, 
+  i do n't even ... 
+  you 're in ~ / tmp / which is in your home folder on your hdd/ssd . 
+  so the problem is that it generates a lot of unnecessary temporary files , got it . 
+  why ?? 
+  why do n't you just connect the line out from the sbz to the o2 ? 
+  what do you think you 'll gain from using toslink ? 
+  of course it will . 
+  and looking at the specs i 'm doubtful that you can improve on them with a cheap toslink sound card . 
+  did n't you say you have an o2 ? 
+  there has to be an amplifier on the output to drive the interconnect cable . 
+  dac chips provide a weak analog current output that has to be converted to voltage output by an amplifier . 
+  both the sound blaster , and the toslink dac will have it as well . 
+  neither will have an effect on the output impedance seen by the headphones , because those will be driven by the o2 headphone amp , which has a low output impedance . 
+  any good encryption scheme will be as strong as the key used . 
+  bitlocker is susceptible to dictionary attacks , so if it 's locked with a weak password , you 'll be able to crack it within reasonable amounts of time . 
+  if the password is very strong , it depends on the crypto itself . 
+  bitlocker most likely has a backdoor which will probably be revealed in our lifetime , so the data wo n't stay safe forever . 
+  however if there 's no backdoor , and the crypto is sound , then she 's right . 
+  you delay the sound going to your headphones by the distance between you and the sub and there wo n't be any phase issues . 
+  even without this delay you can improve the bass , just make sure to use a crossover . 
+  you 'll lose the neighbour-friendly aspect of headphones ; i 'd probably find a sole subwoofer thrumping the beat of a song a lot more offensive than being subjected to full-range music from a pair of speakers . 
+  if you use unix logins , you can turn on ` chroot_local_user ` , and set the user 's home folder to project/subfolder . 
+  it jails the user in its home folder , yes . 
+  i did n't know of the additional folders . 
+  you could restrict rw access to those files , so the user wo n't be able to interact with them , but the files will show up when they list the folder . 
+  you could also loop mount the project directories in a separate directory , and jail the user to that directory ( vsftpd wo n't follow symlinks by default because of security ), 
+  hard links are for files , not folders . 
+  since there is no difference between a file and a hard link , vsftpd will treat it normally . 
+  you have to devise a way to keep folders in sync if you want to use hardlinks , so it 's not a trivial solution . 
+  feels like substance d, 
+  use [ sox ] ( http://sox.sourceforge.net/ ) , the swiss army knife of sound processing . 
+  sox input.wav [ - b * bits * ] [ - r * samplerate * ] [ - c * #chanels * ] - t raw output.pcm, 
+  switches that are in braces are optional , and they can be used to convert the input format to the sample format you need your headerless raw pcm file to be . 
+  input does n't have to be a wav , it can be anything supported by sox . 
+  curl - s https://raw.github.com/thcipriani/fridayrc/master/fridayrc | bash, 
+  u wot m8 ? 
+   and it was youtube compressed, 
+  it 's 192kb/s aac , for guitar tone that 's totally transparent . 
+  android 's audio system is set to 48khz ( bolted down pretty much , you ca n't change it ) , so you can improve the sound of your cd-based music by using a high quality resampler instead the default one in android , and store the music as 48khz files . 
+  regarding music players : all of them will sound the same , because they use the same codec libraries for playing back audio . 
+  do n't expect that an app will magically make the playback chain more accurate . 
+  what else does the viper mod do , other than being a gratified loudness button ? 
+  no need to do that , the sub will just sum the two inputs . 
+  op can use either the left or the right input . 
+  you just made me realize my wrt54g is more than a decade old . 
+  and it 's been up for more than 5 months straight at this moment . 
+  your microphone is a ** usb device ** , so it needs to be connected to a ** usb host ** , and that usb host needs to have appropriate drivers ( a standard audio interface ) for the mic to work . 
+  host-mode usb is found in computers ( desktop , laptop , tablet , mobile , etc ) , and some embedded devices , like network routers . 
+  your sampler does not have a host-mode usb , so you ca n't connect the microphone to it . 
+  since your samson mic has no line level analog output , there is no way to connect it to the sampler directly . 
+  using it together with a computer and another audio interface will work if you are able to route the audio input from the microphone to the line output of the interface , however not without glitches : the microphone 's adc has its own clock source , and so does the dac of the sound card . 
+  since you ca n't change the clock sync source of the mic , the two clocks will drift apart , and eventually one of the buffers will run out , leading to dropped samples . 
+  you 're making a very good point . 
+  i 'll give it a try . 
+  * no highs , no lows - must be bose !, 
+  running backtrack in ` chroot ` is pretty much it . 
+  since there 's already a linux kernel running under android , you do n't need to virtualize hardware to run the gnu userspace . 
+  you have to setup a root file system hierarchy ( / bin , / lib , / usr , / etc and so on ) , mount the / dev , / proc , / sys directories , and change the rootfs path with ` chroot ` . 
+  programs that are run from this environment will see a usual gnu/linux system , and you can even use hardware directly , like a usb wifi or ethernet dongle if your mobile can be usb host . 
+  there are apps that automate most of the process . 
+  they usually write into an image file of an ext4 fs , and loop mount that somewhere within / data , and mount the system directories as well . 
+  try linux deploy for example . 
+  if you run cyanogenmod , you should use ssh instead of ` chroot ` - ing your terminal , because the current ` su ` binary trashes the tty and renders it unusable . 
+  that number is exactly what you 're talking about . 
+  it 's not the dynamic range of the song in a musical sense ( i.e. 
+  the difference between the loudest and the softest part ) , rather it represents the average [ * crest factor * ] ( http://en.wikipedia.org/wiki/crest_factor ) of the signal , which is reduced by excessive * limiting * in the very final stage of mastering . 
+  songs with a high dr number can still have zero musical dynamic range , but ones with a low dr number will certainly be fatiguing because of limiting . 
+  this only works for dr  10 albums . 
+  it 's a nice indicator that it 's good , but you have to decide for yourself . 
+  anything dr < 8 is an instant nope . 
+  command line superiority !, 
+  parallel ffmpeg - i { } - q : a 0 { . 
+  } . mp3 : : : * . flac, 
+  i run mpd , which can stream music to any app that supports vorbis or mp3 playback . 
+  the necessary lines to add to your ` / etc/mpd . conf ` :, 
+  audio_output {, 
+  name `` my http stream '', 
+  encoder `` vorbis '' # you can also use mp3 , but i prefer vorbis, 
+  port `` 8000 '', 
+  quality `` 4.0 '' # 4 is ~ 128kbps vbr , higher is better quality, 
+  format `` 44100:16:2 '', 
+  i can edit the playlist with [ mpdroid ] ( https://f-droid.org/repository/browse/?fdfilter=mpdroid&amp;fdid=com.namelessdev.mpdroid ) either when i 'm on the same lan as the pi , or by using ssh tunneling with [ connectbot ] ( https://f-droid.org/repository/browse/?fdfilter=connectbot&amp;fdid=org.connectbot ) . 
+  mpdroid is smart enough to attempt to connect to localhost whenever i 'm not on my home wifi . 
+  it can also play back the music if you select * stream * from the menu . 
+  if you open the streaming port on your firewall/forward it on your router , you can stream to any device you want !, 
+  it 's super compatible . 
+  edit : added bonus : replaygain is applied during conversion , so no jumping volumes between tracks . 
+  you should escape the \\ \\ and the \\ _, 
+  no , this is dog .

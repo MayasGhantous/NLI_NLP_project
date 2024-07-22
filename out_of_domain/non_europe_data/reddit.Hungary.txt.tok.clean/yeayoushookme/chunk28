@@ -1,0 +1,100 @@
+  this will only work well if you listen to music from the same era , if they are already the same loudness . 
+  you 're basically normalizing every file during playback to 0dbfs , so you 're nullifying any benifit replaygain might give you ( equal listening levels across music from differen genres and eras ) . 
+  i 'm sorry , i have no idea which of the 27 different sites i have to enable javascript on to load this image ( 26 if which are there to track your browsing habits ), 
+  what are you going after ? 
+  what 's your audio system like ? 
+  personally , i find that whatever comes out of xbmc is absolutely acceptable by my modest standards . 
+  edit : i found an alsa plugin which will downmix any multichannel source to binaural stereo with simple spatialization for listening through headphones : [ a bit more about that ] ( http://www.rpgameplace.de/blog/index.php?/archives/25-virtual-surround-for-stereo-headphones-with-alsa.html ), 
+  here it is done with [ imagemagick ] ( http://www.imagemagick.org/usage/text/ ) with bash :, 
+  which gives you [ this ] ( http://imgur.com/queostk ), 
+  you 'd run this in a for loop to give you 120 png 's like this :, 
+  for num in { 1 . .120 }, 
+  do convert - background white - fill black - font liberation-sans-bold - size 350x180 - pointsize 36 label : # $ num number $ num.png, 
+  done, 
+  i 'm not sure if i understand the question . 
+  if you saved the rest of the image as a transparent png ( foreground.png ) you could combine the two ; the number in the corner , with the thing you need in the front, 
+  for num in { 1 . .120 }, 
+  do convert - background white - fill black - font liberation-sans-bold - size 350x180 - pointsize 36 label : # $ num - composite \\, 
+  foreground.png - composite \\, 
+  done, 
+   ikea egg timer, 
+  good lord , that is brilliant !, 
+  linux users not affected . 
+  are the menus still shouting at you ? 
+  most sound cards built onto pc motherboards can . 
+  nice , punchy mix . 
+  the composition does n't flow that well unfortunately . 
+  quality influences value , but also has other benefits . 
+  a gnome who consumes a higher quality sandwich will be fed for a longer time for example . 
+  i think weapons and armour get attack/defence bonuses . 
+  i do n't know of an eq that routes parent tracks . 
+  do n't start with mp3 , the encoders in these things are n't like lame . 
+  i can hear artifacts at 320kbps with my tascam portable stereo recorder . 
+  16 bit should be enough . 
+  it grants you 96 db dynamic range , so if the combined noise floor of the room/preamp is 30 dbspl ( minimum ) you 'll still be able to record sounds that are much louder than a person shouting . 
+  too bad he did n't . 
+  remove the \\ \\ and the line break . 
+  the \\ \\ is there so breaking lines does n't end the command . 
+  i do n't know how it works in powershell/dos . 
+  edit : the caret ( \\ ^ ) does it in dos . 
+  the manual seems to have an error regarding this operator . 
+  composite should go before everything , like this :, 
+  for / l % % x in ( 1 , 1 , 120 ) do (, 
+  convert - composite - background white - fill black - font source-sans-pro-black - size 350x180 - pointsize 20 label : # % % x foreground.png % % x.png, 
+  sorry about that . 
+  i tested it , this 'll work . 
+   non-digital solid-state amp, 
+  analog distortion and solid state do n't go well together . 
+  you either need tubes or logic , or all you 'll have is nasty , unresponsive fuzz . 
+   directly connect it to my computer speakers . 
+  what do you all think ? 
+  depends on the speakers mainly , but also on the dsp . 
+  line6 and behringer are good in this regard ( convolution speaker/mic effects ) . 
+  boss and zoom , not so much . 
+  my rig is a boss gt-8 going into the back of a peavey 1x12 '' transistor combo , so it 's similar to what you 're looking for right now . 
+  things i found :, 
+  * the `` transtube '' thing that peavey does is completely useless , and i think other solid state amps sound bad as well . 
+  i do n't use the preamp on the combo at all . 
+  * the gt8 gives you an immensive amount of control over everything . 
+  if you plan on gigging , a boss gt will have your back in any situation . 
+  and it sounds super awesome , smoother and more responsive than any tube amp i 've ever played on . 
+  * the boss wah is useless . 
+  if you want wah that sounds good , you 'll have to buy a separate pedal . 
+  and completely unnecessary as well . 
+  the lens ca n't have that kind of resolution . 
+  the fuck did i just read, 
+  but they might be in the car . 
+  a speaker is a reactive load , so a resistor in series will affect the frequency response ( emphasising the resonant frequency ) . 
+  also , you lose damping . 
+  speakers benefit from being connected to a low impedence , as the short circuit slows down the cone 's movement when there 's no voltage across it . 
+  getting it off the ` rents would be a viable option , no ? 
+  seeing as you own it and all ... you already need a no-cd patch just to play it on linux , do n't you ? 
+  otherwise , dd will work i think ` dd if = / dev/cdrom of = ~ / aoe.iso bs = 2048 `, 
+  edit : is it a mixed mode cd ? 
+  dd wo n't copy audio tracks as far as i know . 
+    we were n't exaggerating in the least bit when we reviewed jon hopkins ' xlr8r pick 'd immunity album and said that the uk artist is `` from a school of production that values craftsmanship over most everything else . '', 
+   the record is dr6, 
+  i do n't even know what kind of noise he plays , but i stopped reading there . 
+  you can use magic :, 
+  * place the mics where you want them in the venue , and record the music to one track without the dancers anywhere near . 
+  save it as track a. 
+  * do n't touch the mics , and make it apparent , that nobody touches the mics !, 
+  do n't touch any settings on the recording chain either . 
+  * now , record the performance with the dancers doing their stuff . 
+  save it as track b. 
+  if you 've done everything right , track a and b should be time-aligned , and subtracting them ( flip the polarity on one of them ) will cancel the music , and give you the clap track . 
+  edit : track a and b are time aligned , because you are using the daw to play back the music . 
+  this might not be obvious . 
+  edit 2 : if it 's a longer performance , you might want to leave your audio interface on for an hour before recording . 
+  crystal oscillator frequency varies with temperature and the clock drift might disalign the two takes . 
+  do n't attempt it without testing of course  you can try this in your home if you have a mic laying about . 
+  i wish i knew exact numbers on how effective this is , but if it 's going to be mixed with the music anyway , you wo n't need perfect cancellation . 
+  this should however take at least 20db off the music . 
+  you 'll have more wiggle-room if you play back the music at a lower volume , or if you move the mics closer . 
+  to be sure , you should take a third recording after the dancers are off the stage . 
+  i tried this on my home linux machine with a 3 $ electret mic . 
+  since i do n't have jack set up , audacity refused to time-align the tracks , so i used [ audiodiffmaker ] ( http://www.libinst.com/audio%20diffmaker.htm ) to extract the cancelled track . 
+  i also used broadband white noise @ 80dbspl instead of music . 
+  the result : rms level of the track with the noise is -26.1 db , and the cancelled track is -39.1 db ref . 
+  so you could technically bring up the claps by about 10db , and since you 're not using a click track , any music that 's left will correlate with the original track , so you 'll actually be adding some room ambience that 'll mostly be masked . 
+  play some music on the surround speakers and listen to them as you 'd do with stereo speakers .

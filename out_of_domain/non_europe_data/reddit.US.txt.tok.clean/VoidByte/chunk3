@@ -1,0 +1,100 @@
+  run ` ls ' for the directories in your path and pick random programs listed . 
+  check out the man page for the application at the very least figure out what the program does . 
+  learning the commands for unix is half the battle . 
+  * read ` man hier ' this will explain the layout of unix systems . 
+  * pick a shell , if you use linux : bash , if you use openbsd : ksh , if you use freebsd : csh . 
+  lookup on google the shell and figure out the basics of its syntax . 
+  if statements , loops , file redirects , and piping . 
+  piping will make your life much much much easier . 
+  * man pages sometimes exist for conf files . 
+  this can be really useful if you need to figure out an option or the syntax for a server conf file . 
+  learn to move around , hjkl ( individual letters ) + bf ( words ) + % ( move between matching parens ) + e ( end of word ) and so on . 
+  these make all the difference . 
+  do n't use the arrow keys ever . 
+  stay in normal mode unless you are are actually adding text to the document then switch to insert mode type the text and press escape . 
+  remap caps , i imagine you already have caps switched with control since you used emacs , if you do n't switch it . 
+  ` control + [ ' is equal to escape . 
+  others like to have esc on caps . 
+  however you like it caps is a worthless button and is much better served by being replaced with the most important key on the keyboard . 
+  emacs is powerful because you have the power of a programming language behind it . 
+  vim is powerful because you have an os behind it . 
+  learn to tie in the shell :, 
+  < command  # this will send the entire document through the command specified . 
+  < command  # this will send the current line through the command specified . 
+  if you use ` v ' and/or ` v ' and then use the movement keys to select your text then press ' : ! ', 
+  it will send the selected lines through the command specified . 
+  another really powerful ability is macros . 
+  if you press ` q ' then a letter it will record the keys you press and save them to the register , press ` q ' again when you are done . 
+  then press ' @ ' and the register and it will execute that chain of commands . 
+  this can be really useful for a repetitive but complicated formatting . 
+  particularly if you tie it in with repeating a command : ' 20@a' will execute the a macro 20 times . 
+  occasionally browse through vim tips . 
+  everytime you do you learn some new keybinding that lets you reduce your work load a ton . 
+  man actually calls a formater which formats a block of code/text . 
+  then it calls your $ pager to read the output of the formater . 
+  most peoples $ pager is less but if you were to change it to say emacs then you would browse your man pages in emacs . 
+  enjoy . 
+  has some issues if you have a semi-mixed environment . 
+  you use bind for your dns . 
+  in vim if you are on a blank line try '' : . 
+  ! date '', 
+  except the peice of code i pasted will work for anything . 
+  i want to paste the uptime for the machine : '' : . 
+  ! uptime '' , i want to run the entire document through sort : '' : % ! sort '' etc. 
+  yes , basically it is a sign that you are unworthy and/or not a true believer . 
+  mostly it is just taken as a sign that you are a bad person . 
+  caps to ctrl is better even with vim . 
+  ctrl + [ is equal to esc and with caps, 
+  bound as control is very simple to hit . 
+  this also lets you easily use keybinds like ctrl + u for paging up and ctrl + d for paging down . 
+  dwm is even better when you mod it to send a return code when quitting and then either relaunch it or exit depending on the code . 
+  this lets me hit alt + shift + r to reload a newly compiled dwm or to hit alt + shift + q to quit . 
+  compusa went out of business a few years ago . 
+  imo it was do to high prices , and crappy service . 
+  that is only true if `` pager = less ; export pager ; '' if you use emacs as your pager than / will not be the hot-key for searching . 
+  but i guess if you know how to change the pager you should know how to search so i 'll shutup now . 
+  i wrote a script to update a setting in about 60 dns zone files . 
+  before running the script i backed up the data . 
+  the script would make the change by running the zone file through sed and then outputting to a temp . 
+  then the temp would be copied back in place over the original . 
+  the sed statements where quite long and so i had them written across several lines . 
+  i needed to make a change and comment out one of the lines . 
+  this caused the sed script to run but output the changes to the terminal and not the temp files . 
+  the temp files where created but where blank . 
+  the blank files where then moved over the original files . 
+  i checked the backup and realized that i had copied a symlink rather than the folder itself . 
+  all of the backup was overwritten due to being symlinks to the original . 
+  all zones files where lost . 
+  luckily i had set up a slave dns server the previous day . 
+  i was able to recover all of the zones files except the reverse dns file that i had to recreate by hand . 
+  i ca n't tell if you are joking . 
+  if you are n't go sit at a table without the computer . 
+  now put your hands on the table as if it is a keyboard . 
+  think of a sentence and start typing . 
+  you can also do it in the air , but personally i have a harder time doing that . 
+  one of the uses of pantomiming typing is if you are trying to remember a password that you know by muscle memory . 
+  i use it more often then you would expect . 
+  network cuts out ( crappy wifi ) , server crashes . 
+  basically any form of hang . 
+  about : blank, 
+  you forgot to mention that one of the knights is an agnostic . 
+  i agree fantastic series . 
+  on the mouse front checkout vimperator for firefox and take a look at mplayer . 
+  easy to use from the command line . 
+  as for tilling window managers . 
+  they are really useful . 
+  particularly if you, 
+  use lots of terminals . 
+  i find it much easier to work with a tilling window, 
+  manager then a traditional one . 
+  awesome is pretty awesome but the config files blow and the config language is, 
+  redone every couple of months so all of your work goes out the window . 
+  xmonad is very feature rich and powerful . 
+  the downside is you have to learn, 
+  haskel to do the config . 
+  not too bad since most of your config will be, 
+  standard but very bad if you do lots of customization . 
+  if you want simple check out dwm from suckless.org this is my favorite . 
+  the, 
+  config is in c and then you have to recompile but i never customized it much . 
+  recently i 've switched to ubuntu with gnome due to a lack of time to,

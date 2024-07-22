@@ -1,0 +1,100 @@
+  anyway , great photo !, 
+  you want people going out of their way to hunt invisible dds in cruisers instead of doing the objective ? 
+  or not shooting one single shell at the enemy his ally is engaging just to get that last hit on the target and steal the kill ? 
+  yeah , no . 
+  i 'd be happy if the widespread dd/cl torpedoboat trend dies out somehow . 
+  that 'd force a lot of people into playing support/screening roles . 
+  give dds a purpose other than yolo-ing within armslength of battleships to torpedo them . 
+  step 1 : implement limited torpedos . 
+  step 2 : remove the nonsensical aberration of invisible ships within 6-7 km range in completely open ocean . 
+  step 3 : implement subs . 
+  off-topic or not , but would n't it be nice to use the game 's `` camouflage '' system-thingie to apply different versions of paintschemes used on real life ww2 ships ? 
+  default , no camouflage applied ships would be in their early war or `` blank '' paintscheme and the three camouflage options that the game gives you would be , for example , the 1941 , 1942 and 1944 paintschemes . 
+  however i just realised that said camouflage options would be applied to all ships of all nations and thus ... nvm . 
+  `` marina regala romana '' ... well i guess hope and dreams never hurt anyone , 
+  i know , but i do n't think we 'll ever see any in the game . 
+  maybe if someone wants to edit existing models . 
+  meh , here 's hoping !, 
+  just watch how they , without a single thought , wipe out any sort of modding aside from probably skins and the like . 
+  i was thinking something more along the lines of them not allowing any sort of modifications of game files by implementing `` pure only '' clients . 
+  i actually would not put it past them doing such a stupid thing in order for them to fix a `` problem '' ( leading-helper mods ) , without actually putting effort into it . 
+  umm , there have n't been released any patches lately that modify any ship models/textures . 
+  or at least on eu . 
+  has na gotten any patches that i do n't know about ? 
+  oh for crying out loud . 
+  i really hope the hipper chages are just in terms of values and not actual model changes . 
+  the hipper is a mess in relation to the real ship as it is . 
+  staying true to the actual ships really really is on the very bottom of the priority list for them , is n't it ? 
+  ca n't edit on mobile : are these the 55mms on the b hull ? 
+  the ones that should have actually from the get go been the 37mms next to the top main turrets ? 
+  people getting angry at a wildly unbalanced game ... why i never !, 
+  i 'm trying to modify some stuff in the camouflages.xml file . 
+  i want to remove the the stock atlanta premium camo completely . 
+  however , i want to `` link '' the guns to have a custom texture i made for the guns so that the atlanta will no longer share the same 5 in guns with the cleveland ( at least in texture ) . 
+  that is exactly what i did . 
+  however , i have zero idea how to match the colors of my gun . dds to the color code of the . xml . 
+  could you help me with that ? 
+  without that , the guns just end up being a simple grey color ( i turned everything to 0.000 ) . 
+  my gun . dds has life rafts and a darker shade of grey ... 
+  is it at least possible to get a matching dark grey color via codes ? 
+  also , would n't there have to be a file/place where the models get asigned their respective . dds-es ? 
+  i looked in the . visual files of the models but only got a lead to . mfm files ( which i 'm not sure what purpose they have ) . 
+  yeah , i tried my hand with the wot editor and managed to replace incorrect floatplanes on various ships and carriers successfully but that 's where my knowledge of working with models ends . 
+  from what i can understand , you 'd have to : 1 . open turret model 2 . assign new texture 3 . somehow edit both cleveland and atlanta ship bodies to tell them to use two separate gun models that you 've made 4 . whole lot of praying, 
+  thanks for the codes !, 
+  wait what ?!, 
+  so , some random peeps in your team can kick you out and remove you from the team that you founded ?!, 
+  that is just straight up hilarious . 
+  do they literally throw in absolutely anything they can think of that 'll drain a few $ out of players ? 
+  there is an option in the launcher now , a small arrow next to the start button , which launches the game in safe mode ( without mods by default ) . 
+  did this thing exist irl or is it a made up ship a la orlan ( project 37 ) ? 
+  they did n't chage it for this patch , though i think i read somewhere that it was planned for this last patch or the next . 
+  however , they removed the 2x aa guns from the very back of the ship ( historically correct for the 1939 real hipper ) , added 4x 20mm aa next to the top main turrets ( back and front , also like the 1939 hipper ) and put in the correct floatplane ( ar196 ) . 
+  all they would have to do to make the hipper a fully correct `` as commisoned '' 1939 version is to plug the two holes in the straight tip of the bow . 
+  forgot to mention :, 
+  it will be the correct version as long as you use the a stock hull . 
+  the upgrade puts in the radar grill which was n't present in 1939 . 
+  the tip of the bow also needs to be wood , not black linoleum or whatever they put there . 
+  it looks as if they have other arp ships in the game files already that have n't been put up for grabs yet . 
+  some are even the same class as the ones available right now , like the hiei or kirishima ( kongo-class ) . 
+  not that i know of . 
+  if you 're actually interested in the look of the arp ship you can mod that onto your ( eventual ) existing kongo with ease . 
+  while i do agree the modernized hipster looks sexy , i 'd be ok with the hipper being 1939 and a prinz eugen premium . 
+  yes , client side only . 
+  there should be a dedicated file in the particles section with some sort of `` arp '' or whatever in the name . 
+  just replace that with a regular smoke-particle-file-thing that 's already in the game . 
+  i did n't go as far as to modify that since i run on very low settings and everything looks blocky to me . 
+  or you know , a simple solution , like not having dds act like invisible torpedo boats ? 
+  if anything 's half-assed it 's the way the devs thought dds should play in this game due to their twisted common sense . 
+  you can see windows , doors etc. 
+  on houses 10 km away through your binocs but you ca n't see a huge dd , in the middle of an empty ocean , without any sort of smoke and sometimes whilsts it 's even firing at you with main battery ... it 's such a bad idea . 
+  as if that was n't enough they also have unlimted torpedos ( ?!?!???!?! ), 
+  and sometimes can shave off half or more of your hp if they hit the very tip of the bow of your ship . 
+  this is mostly because the main reason dds existed irl means nothing in this game , no convoys nor subs and `` supporting/screening '' your allied ships yields no actual gains for you . 
+  no problem . 
+  i went through a lot to get the arp ships to look normal until more talented modders made the current stuff available on the forums . 
+  if you take suggestions and if you 're interested in the realism side of things , you can rename the arp ships as well so that they 'll fully become sister ships of the kongo class ( hiei , kirishima ) . 
+  mobile edit : nvm , you already did that . 
+  dunno how much this counts ( zero experience with linux ) , but i * was * able to run the game via a wineskin wrapper at low-medium settings with close to acceptable fps . 
+  i 'm running the game on a 2010 21 '' imac . 
+  new patch changed all that ... now i 'm barely able to play now even on low . 
+  you are talking about two significantly different naval warfare periods . 
+  the one you are refering to ( wwi ) is not the same with the one that is simulated in the game ( wwii ) -- because that 's where the dd problems actually start in wows , at wwii dds with good concealment , high speeds/manuverability and low torp reload . 
+  so , your argument that dds originally appeared as capital ship hunters does n't apply to the problematic dds in a predominantely wwii game with wwii hardware and naval tactics . 
+  most of the ships you 're mentioning that were built with that strategy in mind , in wwii , did not `` hunt down '' capital ships . 
+  the majority of their duties were convoy , asw and fast troop transport/raids . 
+  if anything , in the bit that i have read about naval warfare , when dds did go up against bigger and more powerful ships it was n't in the way they do in this game , invisible and spamming unlimited torp walls every minute . 
+  and if what i wrote above did n't convince you of how poorly designed the gameplay aspect is , in terms of dds , then look at how somehow secondary gun mounts have the range of recoiless rifles . 
+  like the 5 '' primary guns on the atlanta have 11 km range but the identical secondary 5 '' mounts have 4 km on the north carolina . 
+  all just to accommodate dds instead of using simple common sense and giving them a real purpose in the game . 
+  your reply is stupid and gives little thought to anything other than `` i 'm right , you 're wrong hurr durr '' . 
+  well , that 's what i was saying , from the get go , the game was designed very poorly when it came to dds , esentially * making up * a purpose for dds when you could have implemented the real way dds operated without the mess you mentioned , at least imo . 
+  anyway , the dd problem does n't sum up to the fact that they ignored some simple stuff which would have been more interesting to implement , it 's more that the whole game and other ship classes need to be warped to fit the dd idea . 
+  is it true that you can also be voted off a team you have created and eventually spent real money on ( for name change or as a 2nd or 3rd team ) ? 
+  if so , this might be one of wg crowning moments in terms of stupidity ... 
+  had a whole lot of rounds with 6 + dds per team today . 
+  one game had 7 dds on the enemy team whilst my team had only 3 ... it was an absolute mess . 
+  also with you on the always being asigned to the cannon fodder category in most games as of late . 
+  that would be great and hopefully it is so , have n't gotten into team battles yet . 
+  and i 'm guessing you use high tier bbs with good secondaries and/or high level captains because if that 's not the case the bft is a waste instead of survivability . 
+  the bane of these types of games unfortunately .

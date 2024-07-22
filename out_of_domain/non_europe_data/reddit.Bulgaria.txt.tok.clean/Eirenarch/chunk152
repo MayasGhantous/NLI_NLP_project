@@ -1,0 +1,100 @@
+  this is a very good point . 
+  now i actually believe moving to github is a mistake . 
+  after all very few people contribute to the compiler so being hosted on codeplex is not a big deal but far more participate and read the discussions . 
+  i do not even dream about contributing to the compiler but i spend a lot of time reading the discussions and occasionally participate in them . 
+  i 'd bet that all this was conceived under ballmer . 
+  of course ballmer is not stupid and knows that it would be best if his successor announced it . 
+  it is na\u00efve to think that they decided and prepared everything for open sourcing in a month under the new ceo . 
+  obviously they agreed to open source it quite a long time ago and file it under the new ceo to underline how much they changed . 
+  they are putting out open source stuff on github . 
+  i 'd bet that they do not use private github repos to develop i do n't know ... sharepoint . 
+  well ok . do you also claim that they are abandoning azure since they are using a service which is not running on azure ? 
+  but the new asp.net does not depend on iis, 
+  so finally somebody clever in microsoft 's marketing department traditionally populated by complete morons who name dev products with ridiculous acronyms , add `` windows '' and `` live '' to the name of every consumer product and also tried to market xbone as the console with the always online requirement where people could not use used games . 
+  yeah , i got that but even dev marketing sucked all these years . 
+  i think moving to github for the p.r. 
+  effect is a clever move . 
+  you 'll be surprised how much time and energy i am investing in some of the things you mentioned . 
+  some of them are definitely dead in terms of new features coming but sometimes they can pay better than the shiny new thing when kids do n't want to maintain them because they are not cool anymore . 
+  btw tfs supports git . 
+  feature lists for c # 6 have been posted like 50 times already and this one is 3 months old which means some things have already changed ( as noted in the article itself about string interpolation ) . 
+  if we follow your definition everything beyond the minimum requirements for turing complete language is sugar . 
+  there is nothing iterators did that could n't be done without them . 
+  you just need to write more code . 
+  there is katana . 
+  node.js seems to do just fine without a fat web server so why bot asp.net ? 
+  i do n't know if they add value but certainly it is possible to live without them . 
+  i can easily answer that . 
+  nobody in my area wants to pay me to write f # especially since i will need a little time to get up to speed ( i have read like half of expert f # and typed the examples so i know what the language feels like but it is nothing like using it in real-world project ), 
+  i just claimed that such features do not exist in any language beyond the while loop and the ability to define variables . 
+  slightly off topic but in the words of artosis `` we will never forget torch '', 
+  i think she can have them if she wants and then she can remove them and produce them again . 
+  after all she is the queen of blades , she can order whatever mutation she sees fit for her body . 
+  i think the 2 % masters goal was a mistake . 
+  if they failed with it from the start they should have left it as it was . 
+  now the masters achievements have different value depending on when you were masters . 
+  the whole point of these ranks is being able to compare where you stood relative to the community at that timeframe but if they change it they make it meaningless . 
+  let alone how demotivating it is to get better relative to the community but be demoted because they decided to shrink masters . 
+  i already said that what you are asking for does not exist in any language . 
+  maybe the sole exception is type checking . 
+  everything else is sugar that can be written with a while loop and variables . 
+  i do n't even need to defend this statement as it is proven mathematically . 
+  well obviously every feature can be modeled by existing syntax if every feature can be modeled by a turing machine . 
+  the while loop is enough and everything else is a transformation of the while loop . 
+  can you give an example of something not related to type checking that can not be modeled with enough variables and a while loop ? 
+  to be fair oracle lost . 
+  now java ( the language ) is confirmed by court to be free . 
+  in addition in c # you can skip the . tolist ( ) if you just wish to loop over the result . 
+  anders   gosling , sorry . 
+  java is great but most of its greatness comes from the vm and the ecosystem . 
+  i 'd rather take language and api design advice from the creator of delphi and c # than from the creator of java . 
+  the former has much better track record than the latter . 
+  at one point when i grokked linq i started using functional style for everything . 
+  i then realized that the functional style is not always cleaner and had to learn to write loops again especially when mutating data . 
+  yes , technically i am wrong but does it really matter if it is so cheap to violate ? 
+  let alone that it may end up being fair use in which case you do not pay . 
+  rule of thumb for all the new people that will learn about lambdas because of java 8 :, 
+  use functional style when you do not mutate the data and imperative when you mutate . 
+  true but you still have an additional method in the chain and foreach is worse than java loops for readability . 
+  so basically you are talking about the `` distance '' of the transformation because the transformation always exists . 
+  the question is if the transformation goes far enough to be justified . 
+  it is not that you forget it is the feeling of guilt that comes when you write a loop . 
+  you learn to fight it and see that the loop is actually better and you should not be ashamed of it , 
+  obviously but in . net stream and iterable are one and the same thing ( and they are not list ), 
+  oops  editing , 
+  for the record i agree with your initial statement except that i look at it from the positive side . 
+  i like being spoiled by the language i use . 
+  also nameof seems to be my favorite feature ( tied with readonly auto properties ) . 
+  after all the article itself does say that this is the theme of the release . 
+  i was just arguing about your definition of `` sugar '' because under it everything is a sugar . 
+  as far as i know java streams do not implement iterable . 
+  i may be wrong though . 
+  the big feature in this release is supposed to be roslyn . 
+  everything else is just a bonus that is simply here because they managed to sneak it in . 
+  next release - pattern matching , records and tuples . 
+  there are already other comments explaining how the feature is justified by virtue of being practical . 
+  there are other collections but list and dictionary can easily be singled out as special and deserving their own methods because they are used more often . 
+  i do not question the value of fp but i think that in c # and java side effects are better expressed with imperative code . 
+  sometimes imperative is just easier in these languages . 
+  customers.where ( c =  c.firstname = = `` john '' ) . select ( c =  new { fullname = c.firstname + '' '' + c.lastname } ) ; / / returns an object that only has fullname property, 
+  or in the more readable form, 
+  from c in customers, 
+  where c.firstname = = `` john '', 
+  select new { fullname = c.firstname + '' '' + c.lastname }, 
+  in java you need to declare the type in advance which can be annoying especially if you only use it in the middle of the query . 
+  i do n't think it is such a big deal . 
+  on the other hand being able to compile lambdas to expression trees which can then be translated to things like sql is a big deal in my opinion . 
+  orms and other similar tools become so much more powerful . 
+  various apis can use lambdas for specifying properties of the object in a type-safe manner without actually executing the lambdas . 
+  for example in asp.net mvc you have a helper method like this html.displaynamefor ( model =  model.firstname ) where the method looks for an attribute displayname on the firstname property and puts the string in the html . 
+  the actual lambda code never executes and model can actually be null and the code still works fine . 
+  i do n't know about strict but i do have a distaste for . foreach ( ... ) methods . 
+  i once installed this and ran unix programs on my windows vista just to make a point . 
+  totally useless exercise , 
+  he insulted it even more than specifically calling it worse than ntfs . 
+  because the syntax for loops in the language is cleaner and more readable . 
+  what is more . foreach method is often use for mutating things . 
+  i never argued that foreach has no uses i just dislike seeing it used instead of foreach loop . 
+  of course you do n't have multithreaded foreach in the language so you use foreach method instead . 
+  no type safety . 
+  i sometimes use it to pass data from one view to a partial view if the partial view is used by multiple other views .

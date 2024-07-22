@@ -1,0 +1,100 @@
+  one thing that * is * annoying for django orm is that it is unelegant to get result objects with `` custom extra select expressions '' attached , not just all ( or a subset ) of fields from one table . 
+  but this usually comes up in read-only complex reporting queries , and then i just dump the list of arrays from a raw query directly to the template . 
+  for the random object updates , it 's pretty easy to add that as a table-level manager method :, 
+  class updatedictmanager ( models.manager ) :, 
+  def update_dict ( self , dct ) :, 
+  fields = self.model . _ meta.get _ fields ( include_parents = true ), 
+  pk_name = [ f.name for f in fields if f.primary _ key ] [ 0 ], 
+  other_names = [ f.name for f in fields if not f.primary _ key ], 
+  self.get _ queryset ( ) . filter ( ** { pk_name : dct [ pk_name ] } ) . update ( ** { fname : dct [ fname ] for fname in other_names if fname in dct } ), 
+  class phone ( models.model ) :, 
+  manager = updatedictmanager ( ), 
+  after that you can indeed do partial updates with arbitrary dictionaries of attributes :, 
+  phone.objects.update _ dict ( { ` primary_something ' : 123 , ` number ' : 567 , ` type_id ' : 5 , ` ignored_field ' : ` asd ' } ), 
+  but i 'm not convinced that this would be useful often enough . 
+  usually you want to be careful about whether you want strict insert , strict update , or upsert behaviour , and to be careful what fields you modifying in the database . 
+  lots of web frameworks have allowed this , and as a result plenty of web apps have passed user-controlled dictionaries directly into such update functions : http://en.wikipedia.org/wiki/mass_assignment_vulnerability, 
+  it 's an old joke , see http://knowyourmeme.com/memes/has-anyone-really-been-far-even-as-decided-to-use-even-go-want-to-do-look-more-like, 
+  utah appears to be a one-party recording consent state . 
+  could op secretly record any verbal discussions about rent refund , and use them as evidence ? 
+  having an online vote for naming anything seems like a risky idea . 
+  i 'm sure a name like `` dickbutt '' wins . 
+  i would be very surprised if it survived . 
+  it 's going to expose the un-aerodynamic stage without a fairing/capsule exactly when the air pressure is the highest . 
+  if the capsule abort pushes the stage sideways into the air at all , then there will also be huge bending forces from the side . 
+  for example , the proton-m rocket broke apart mid-air at a much slower speed when it turned sideways into the wind : https://www.youtube.com/watch?v=zes8gvlh1jo at 0:28 . 
+  this will be a good / r/highstakesspacex bet once the in-flight abort gets closer , 
+  call your insurance and ask them ? 
+  i would guess they would be very happy to hear that the other party is willing to settle for $ 100 . 
+   the current development branch fully supports django 1.7 and the unreleased 1.8 , with support for multi-lingual content finally landing this week !, 
+  that 's fantastic to hear , i 'm just looking for a django-based cms and the lack of multilingual support in most of them was a big issue . 
+  how usable is the latest dev branch compared to the stable release ? 
+  or when do you predict this will be released ? 
+  so is your opinion that django-cms is better for sites that are a complex web app and want add a few `` editable '' pages ? 
+  and mezzanine is more of a wordpress-like full deployment , for sites that do n't need much custom features ? 
+  while keeping patents for defensive purposes is common , jeff bezos 's main business amazon is not of those companies . 
+  they have sued competitors over insanely obvious patents before : http://en.wikipedia.org/wiki/amazon.com_controversies#one-click_patent, 
+   anybody have any suggestions on life in tallinn ? 
+  well , estonians are pretty introverted . 
+  and answering open-ended questions feels almost like being talkative , so you might have more success with specific questions or if you tell us more about what you 're looking for , 
+  check out all these threads as well : http://www.reddit.com/search?q=moving+subreddit%3aeesti&amp;sort=new&amp;t=all, 
+   my neighbor , a grown adult that owns her own home , has repeatedly tried to get over or under the fence to pet my dog . 
+  out of curiosity , how does she try to get * under * the fence ? 
+  people 's talkativeness will depend a lot on the situation ( and how many beers they have had ) . 
+  not in public transit for example , but in a sauna , bar , or just in a group of coworkers people will be friendly . 
+  `` no small talk '' does n't mean that you should stay away from people - but that people will take your questions or compliments or invitations literally . 
+  if you say `` how are you ? 
+  '' , expect a short overview of everything going on in their life , not `` great thanks ! '' . 
+  if you say `` you come visit some time '' , expect them to take out a calendar and start arranging a date . 
+  an exception to this is probably estonian jokes - saying something `` clearly '' ridiculous with the most serious deadpan voice and expression . 
+  for example , if someone tells you how their grandfather was a bear wrestler , that 's bs . 
+  but smiling and talking to people is certainly allowed , it might just surprise people in a good way , 
+  i do have indexes and some pre-computed caches for the daily status monitoring queries , however the annoyingly slow ones are one-off queries such as `` what 's the distribution of distinct values for field-a , rounded to nearest 10 units '' ? 
+  for these , i have n't found a way to benefit from indexes yet . 
+  each of them tends to be unique , and compute some statistical measure over most of the dataset . 
+  i will definitely look into upgrading ram from 8gb to the max possible 32gb , however this wo n't help for long !, 
+   30 gb in append-only mode -- even increasing by a factor of 10 -- suggests you do n't have so many writes that endurance is a huge concern . 
+  it 's still a number to keep in mind , but it 's probably not a significant decision-maker . 
+  while i expect most of my writes to be appends to a few tables , does this correspond to few writes by postgresql ? 
+  or could it end up shuffling a lot of data around internally , for example when vacuuming ? 
+   streaming replication to a hot standby in a second location addresses many more failure scenarios . 
+  having a standby would also let you run ad-hoc analytics there without affecting performance of the master . 
+  if you 're looking at buying exactly two shiny new ssds , i 'd favor putting one in standby over putting two in raid-1 . 
+  thanks , that 's a good idea . 
+  i 'll see if i can manage to get a second server for a replica . 
+  with privacy rules ( no external hosting companies allowed ) and academic procurement rules , it might take a while !, 
+  i do make nightly pg_dumps to another server room though . 
+   i would also favor datacenter/enterprise ssds over their consumer cousins . 
+  ssds essentially have a write cache that you ca n't disable , which defeats many of the protections afforded by postgresql and other durable storage engines . 
+  thanks , that 's very useful to know . 
+  i 'll make sure to get something with a battery backup . 
+   you will need to physically visit estonia one way or the other . 
+  twice in order to get your e-citizenship card and after founding your company , a local bank in order to open a business bank account . 
+  there was news about it soon being possible to apply for and receive id cards in embassies . 
+  but i think it will remain required to show up in person to open a bank account because of anti-money laundering regulations . 
+   digital citizenship applications, 
+  note that it 's not actual citizenship  you can get an id number & card , which allows you to use all government and a lot of private business services online . 
+  for more info , see https://e-estonia.com/e-residents/about/, 
+   is it really so simple ? 
+  anyone who has hands on experience with this , can you please explain how you handle this ? 
+  it was super-simple as a local . 
+  the only snag was that they were unhappy with the company name i chose , so i had to justify it over email . 
+  overall it still only took 3 days and never had to speak to or visit an actual person . 
+  taxes and other reports are pretty simple , and i think all of these systems are available in both estonian and english . 
+  the tax rules are simple enough so that anyone running a company can probably figure them out in a couple of days or so . 
+  but i decided to get an accountant anyway , so that i do n't have to keep track of any deadlines . 
+  usually i still get emails whenever some report is due soon . 
+  but an important note : before deciding whether opening a company here is a good idea or not , you should also investigate hungarian tax law for foreign income . 
+  the * company * would be estonian , but when you pay out money to yourself , that 's still going to be taxable income in hungary . 
+  thanks for the explanation !, 
+  i do run cluster maybe once every few months to reorder the tables based on my most used index ( userid + timestamp ) , but even then it sounds like the drives will be good for years or decades of use . 
+  could very well be horrible design !, 
+  here is the schema for the two most interesting tables : http://pastebin.com/ravmfttu, 
+  the gpsfix table currently has about 155m rows , the other events table 45m rows . 
+  note the tag and hstore fields in the events table . 
+  i 'm using these because i 'm recording about 40 different events , some of which have extra data with various extra fields . 
+  for example , an event of type `` cell location '' might have extra data in hstore, 
+  and a `` battery level '' event might have, 
+  `` level '' =  `` 11 '' , `` status '' =  `` 2 '' , `` plugged '' =  `` 1 '' , `` max_level '' =  `` 100 '', 
+  i 've made a separate table for gps fixes , because that 's overwhelmingly the most common event type , and then i benefit from strong typing and perhaps reduced storage requirements . 
+  now , the slow annoying queries are much harder to define .

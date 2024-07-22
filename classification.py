@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from calculate_real_data import get_the_error_feature,get_the_function_words_feature,get_the_Unigram_feature
 from calculate_real_data import get_the_sentence_length_feature, get_trigram_Feature,get_the_grammer_feature
 from calculate_real_data import get_pos_trigram,get_CharTrigram_Tokens_Unigram_Spelling_Feature, get_Function_words_Pos_Trigram_Sentence_length_Feature
+from calculate_real_data import get_grammer_spelling_features
 import pandas as pd
 from scipy.sparse import csr_matrix
 from imblearn.under_sampling import RandomUnderSampler
@@ -42,6 +43,8 @@ def create_NLI(feature):
     X = []
     for key in feature.keys():
         lablel = key[0][7:-14]
+        if lablel == 'Ukraine':
+            continue
         if lablel in English:
             y.extend([0 for _ in range(len(feature[key]))])
         elif lablel in German:
@@ -90,6 +93,7 @@ def create_NLI(feature):
             y.extend([22 for _ in range(len(feature[key]))])
         else:
             print(f"Error: {lablel}")
+            continue
         X.extend(feature[key])
     return X, y
 
@@ -98,6 +102,8 @@ def create_binary(feature):
     X = []
     for key in feature.keys():
         lablel = key[0][7:-14]
+        if lablel == 'Ukraine':
+            continue
         if lablel in English:
             y.extend([0 for _ in range(len(feature[key]))])
         else:
@@ -108,13 +114,15 @@ def create_binary(feature):
 def cereate_family(feature):
     Native_English = ['Australia','UK','US','NewZealand','Ireland']
     Germanic = ['Austria', 'Germany','Netherlands','Norway','Sweden']
-    Slavic = ['Bulgaria','Croatia','Czech','Poland','Russia','Serbia','Slovenia']
+    Slavic = ['Bulgaria','Croatia','Czech','Poland','Russia','Serbia','Slovenia','Lithuania']
     Romance = ['France','Italy','Mexico','Portugal','Spain','Romania']
-    others = ['Estonia','Finland','Greece','Hungary','Lithuania','Turkey']
+    others = ['Estonia','Finland','Greece','Hungary','Turkey']
     y = []
     X = []
     for key in feature.keys():
         lablel = key[0][7:-14]
+        if lablel == 'Ukraine':
+            continue
         if lablel in Native_English:
             y.extend([0 for _ in range(len(feature[key]))])
         elif lablel in Germanic:
@@ -124,10 +132,10 @@ def cereate_family(feature):
         elif lablel in Romance:
             y.extend([3 for _ in range(len(feature[key]))])
         elif lablel in others:
-            continue
-            #y.extend([4 for _ in range(len(feature[key]))])
+            y.extend([4 for _ in range(len(feature[key]))])
         else:
             print(f"Error: {lablel}")
+            continue
         X.extend(feature[key])
     return X, y
     
@@ -139,8 +147,8 @@ if __name__ == '__main__':
     #feature = get_the_function_words_feature()
     #feature = get_the_sentence_length_feature()
     #feature = get_CharTrigram_Tokens_Unigram_Spelling_Feature()
-    feature = get_Function_words_Pos_Trigram_Sentence_length_Feature()
-    FEATURE_NAME = 'Function_words_Pos_Trigram_Sentence_length'
+    feature = get_CharTrigram_Tokens_Unigram_Spelling_Feature()
+    FEATURE_NAME = 'CharTrigram_Tokens_Unigram_Spelling'
     KERNEL = 'rbf'
     print(f"Feature {FEATURE_NAME} loaded")
     if DO_WE_NEED_NLI_MODEL:

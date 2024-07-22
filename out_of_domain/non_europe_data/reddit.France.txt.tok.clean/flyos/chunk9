@@ -1,0 +1,100 @@
+  the real test is in the long run , i 'll see how it goes . 
+  edit : thanks a lot for your help by the way !, 
+  this was a great change in the default , but ( rant aside ) , op still raises a good issue : how can a new user of tw be aware that he/she needs to use `` dup '' rather than `` up '' ? 
+  i know there is documentation on this , but i mean providing information from within the system like a warning from zypper ( ? ) . 
+  not an easy problem to solve , but a rather important one i 'd say . 
+  i tried switching between opengl 2 and 3 , but the problem always comes back whichever i chose . 
+  i never use xrender . 
+  edit : i tried switching to xrender out of curiosity , it actually lowers my cpu usage to 2 % -3 % . 
+  weird ... 
+  yeah , i 've seen that , but no , i do n't have slideshow . 
+  i do have the comics plasmoid , but i does n't seem to be the trigger of this situation . 
+  i see both `` intel '' and `` modesetting '' drivers in there , so i 'm unsure . 
+  here 's the [ pastebin ] ( https://pastebin.com/39ukqxzt ) , if you have time to have a look ( i guess the fact that `` intel '' is the `` autoconfigured driver 0 '' means it 's the default ? 
+  i have everything to default ( breeze ) in that regard . 
+  edit : i might stand corrected on the comics plasmoid being responsible . 
+  i tried to remove it and kwin_x11 has n't risen to its 10 % crazyness yet . 
+  i remember i did it a while ago to test it , without success as far as memory serves . 
+  the thing is that it 's not super easy to reproduce because the bug requires time to kick in after any change/kill/reboot . 
+  one very nice thing with floss and community-driven development is that it 's all about having a critical mass , not market share . 
+  i think it 's fair to say that kde has a good mass as a community , although an increase in manpower could be nice to have , for sure . 
+  look at the vast numbers of floss projects doing alright with just a tiny amount of the kde community size . 
+  hm , it seems this is indeed connected to the comics plasmoid ... 
+  since you seem to have some knowledge about the slideshow bug , do you find it likely ? 
+  also , do you know if a fix is to be expected soon ? 
+  as far as i can guess ( this is quite opaque unfortunately ) , i 'm not sure blue systems is here to make any benefit of any sort , but your point stands nonetheless : ~ ~ many ~ ~ quite a few ( it 's a handful i think ) key kde devs are employed by blue systems indeed and them defecting would be quite a drawback ... 
+  [ here your are ] ( https://pastebin.com/mbxbrkmv ) . 
+  this is without the comics plasmoid ( edit : i 've set up again this plasmoid in case that triggers the bug again ) and kwin normally eating some cpu . 
+  i 'll try to do the same if the bug kicks again ( i hope it will , nothing more frustrating than a bug going away while you 're trying to fix it ... ) . 
+  i 'm not sure ... 
+  somehow , the bug is not kicking in any more although i 'm sure i 'm back to the config i had before the testing i 've been doing since i started the thread ... 
+  possibly the bug has been `` fixed '' without me identifying it first , which is good , but quite frustrating . 
+  if it kicks again , i 'll report here and ping you guys again !, 
+   only plasma really makes use of additional buttons on notifications, 
+  i do n't get why other desktops do n't . 
+  i mean , i get that notifications should n't be complicated , but having a way to interact with them is really a good thing : like you receive an e-mail you can have a glance at the notification and decide to `` mark as read '' , i 'd love that for kmail notifications . 
+  anyway , i 'm glad plasma does n't follow the `` simplify hard '' paradigm everybody is following right now . 
+  i rather like the `` powerful when needed '' moto !, 
+  / u/mgraesslin , the bug came back , i did what you asked to look for constant repaints , and there was indeed . 
+  the repaint concerned the plasmashell ( i.e. 
+  the whole desktop ) . 
+  i 've noticed that killing and restarting plasmashell allow to clam kwin_x11 for a while indeed . 
+  any idea of what is going on ? 
+  will do . 
+  i 'll try to gather more useful information about a possible cause first . 
+  not really , kubuntu asks for the password only once , at least , last time i tried . 
+  pas super clair comme question . 
+  / u/neopus , / u/eizanprime , / u/vogtinator , / u/mgraesslin , thanks for your help . 
+  i 've now did a series of test , but i 'm still not super sure on how to characterise this bug ... 
+  removing xf86-video-intel , as suggested by / u/vogtinator does n't seem to impact it . 
+  i think in the center of it is `` progress animation '' : using / u/mgraesslin trick of `` show painted area effect '' i 've always been able to pinpoint to a progress animation somewhere . 
+  there is one exception however : when the progress circle for updating the comics plasmoid is printed long enough , the fact that is disappears ( like when you click on an other comic to make it disappear ) does n't change the fact that plasmashell is being repainted constantly for some reason . 
+  i 've posted a comment on bugs.kde.org in the following bug report which i found was appropriate :, 
+  i think pinging / u/d _ ed here might be a good idea , as he seems to be working on this bug actively . 
+  i have kind of the same problem as you op ( though i 'm still preferring x11 at the moment , because i 'm using my 2-in-1 as a laptop most of the time ) . 
+  i guess we 're all going to have to bear for the x -  w transition . 
+  i 've seen somewhere that plasma is entering in a phase where no new feature is to be added in x , as long as no actual parity with wayland has been reached ( which makes sense of course ) . 
+  a way to attach screen orientation to activities would be a must-have , as it would allow us to have a plasma form-factor adapted to a vertical/horizontal layout of the screen ( right now , changing the orientation might move plasmoids around ... ) . 
+  to develop the responses here , this is something that has been investigated by some kde devs , but they decided against it because it opened a big can of worms ( what if the wallpaper is adult content ? 
+  what if a particular user consider his/her wallpaper as something private that other users should n't be allowed to see ? 
+  etc. . . ) . 
+  someone will hopefully correct me if it 's not an accurate description of the issues here . 
+  note that linux mint has been criticised for their policy on e.g. 
+  kernel updates , which are ( were ? ), 
+  blocked by default and the fact that their whole website structure is on the same server as their images and package archives , which has been a security concern . 
+  you might want to check where they currently are on that ( maybe a mint user will provide more details here ) , as this might have changed . 
+  i knew i was missing some , thanks !, 
+  to be fair , the kernel updates can be activated very easily after install , so it 's that big an issue . 
+  quite understandable . 
+  as a european , i 'm actually surprised snowden could be controversial to the point of hurting such a campaign ... 
+  it 's a good thing the campaign is a european one , then !, 
+  ca n't answer for nvidia , never used these drivers , but i you want the least to do after installing leap , i 'd advise considering [ geckolinux ] ( https://geckolinux.github.io/ ) which is a modified install image of opensuse ( not a different distribution ) . 
+  edit : / u/sb56637 i noticed there is no leap 42.3 image for geckolinux and no new version since march , is this normal ? 
+  no problem , just wanted to know if i should stop recommending geckolinux , good to know it 's still alive !, 
+  is this because 42.3 is the last `` service pack '' for leap 42 , or because of an overall change of policy ? 
+  i do n't think sophistication is the aim . 
+  i 'm not sure english strikes the french public as `` more sophisticated '' ( no judgement intended ) . 
+  i think it 's more about `` hype '' . 
+  so * in theory * , 5.12 support will be more long-term than 5.8 ? 
+  or is that too early to say ? 
+  one thing that is different ( and better imho ) with zypper is `` vendor-stickyness '' meaning that `` zypper up '' ( and `` zypper dup '' in tumbleweed ) will keep packages from the repo they 've been installed to begin with . 
+  this makes dealing with additionnal repos a lot easier !, 
+  otherwise , apt/zypper do the same job and switching between them is really not a big deal ... 
+  i think you might want to give a look at geckolinux , which is an image of opensuse thought to fix some `` papercuts '' in default opensuse ( e.g. 
+  codecs available , fonts , some packaging defaults etc. . . ) . 
+  sorry , i feel this is a bit misleading , so adding some precisions :, 
+  - leap can be compared to ubuntu , with roughly a release each year and major release about every 3 years . 
+  it is less conservative than ubuntu lts ( `` minor upgrade '' can be roughly compared to ubuntu lts minor versions , but they do update much of the software stack , compared to lts minor versions ) but more conservative than regular ubuntu update ( major versions every 3 years can be compared to regular ubuntu updates ) . 
+  - tumbleweed is a ( qa-proofed ) rolling-release , which has not really an equivalent in the ubuntu world . 
+  if you set up kwallet with your session password and use pam to unlock it ( as explained in the wiki you kindly linked ) , then kwallet will not ask you for a password , ever . 
+  many distros provide a package for this nowadays . 
+  granted , kwallet does not do a good job in explaining that to new users ... 
+  since i updated kde applications to 16.08 , the new and nice `` kmail 5.2 '' header theme lost its very handy clickable icons and is imho less nice . 
+  is this a feature or a bug ? 
+  is there a way to install the new breeze icon set without having kde frameworks 5.27 installed ? 
+  i 'm using both leap 42.2 and tumbleweed and i 'd like to have consistent icons on both systems . 
+  besides , the new icons rock !!, 
+  i know there is a way to install kf5 .27 on leap , but it seems brutal just for the icon set ... 
+  it 'd be so great if we could install it through `` get new stuff '' . 
+  i 'm writing a lot in both french and english . 
+  kde spell checker , sonnet , is supposedly able to auto-detect languages , but anytime i try to activate it ( system config  regional settings  spell check ) , i do n't really end up with language auto-detect .

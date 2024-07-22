@@ -1,0 +1,100 @@
+  there could be something wrong with the installation media . 
+  nvidia driver ? 
+  try changing the antialiasing / texture filtering settings . 
+  much smaller . 
+  she was n't ovulating , and she took the pill . 
+  still , life , uh ... finds a way . 
+  10 db is a lot . 
+  you might have melted the dielectric while soldering the plugs . 
+  check the impedance above 10khz between the tip and the sleeve to be sure . 
+  or msft ... 
+  or dropbox ... 
+  not even close . 
+  i no longer care about the debate . 
+  so long as you keep the master volume low you can plug the speakers out into a line input . 
+  it 's also better if you use distortion because that 'll clamp the voltage , so no sudden spikes when you unplug the guitar . 
+  but doing this with a tube power amp will risk frying both the mixer and the output transformer , if the speaker is disconnected from the guitar amp . 
+  i like the ` curl www.foo.com/&lt;tarball&gt; | tar xz ` solution the most, 
+  it 's ohm 's law , brother . 
+  are those combos ? 
+  what speakers do they use ? 
+  i set up two amp models in parallel with the exact same settings , except one has the gain 6db down . 
+  this smooths out the nonlinear response , and touch sensitivity is simply amazing . 
+  not really . 
+  freely available sample rate converters are so good , it 's very difficult to even measure their artifacts . 
+  not on linux it is n't . 
+  only get amd if you do n't care about performance at all . 
+  if it were made from the same material , it would be so heavy , it could n't possibly take off . 
+  why not setup openvpn on your router instead ? 
+  the lack of powered host-mode usb makes me want to throw mine against a wall sometimes, 
+  pdflatex defaults to not allowing latex files to start programs , for obvious security reasons . 
+  you have to run it appropriately , as the-fritz just said . 
+  set terminal latex will want to run gnuplot with the latex terminal . 
+  pdflatex wo n't run gnuplot , unless you tell it that it 's safe . 
+  btw , use the tikz terminal instead . 
+  the latex terminal was terrible the last time i tried it . 
+  here are the packages you need :, 
+  \\ usepackage [ subfolder , cleanup ] { gnuplottex }, 
+  \\ usepackage { tikz }, 
+  100w , so no pdp then . 
+  the baseband processor will still have full access to anything in the memory , it operates outside of linux , and the arm cpu . 
+  will this solve the problems that xbmc used to have with debian ? 
+  or has it been working lately with libav ? 
+  regular files will also work . 
+  zram , you mean tmpfs no ? 
+  pe is 20kwh - - convert to joules if you want . 
+  pe = m \\* g \\* h , all you have to do is solve for * m * and/or * h * . 
+  it does n't matter how much time it takes . 
+  ( spoiler : the product of the mass and height has to be 7342000 kilogram meters ), 
+  assuming a 100 % efficiency in a frictionless vacuum, 
+   it cunsumes 1 kilowatt hours , * every hour * . 
+  you think this is unintuitive ? 
+  20kwh equals 17200 kcal . 
+  the daily recommended intake for an adult is about 2500 kcal . 
+  the potential energy of the 7 ton block could only feed about 7 people for a day . 
+  i was n't implying that it is , it 's something i hear quite often , and it bugs me as well . 
+  the glass can be replaced . 
+  we have the technology . 
+  that 's hell over anything but lan , unlike rdp . 
+  freenx is a good alternative , but setting it up is a pain . 
+  get a better os . 
+  no activation necessary . 
+  how do you know it 's going out on eth0 ? 
+  if you use vpn the traffic will appear on both the physical and the pseudo interface , albeit it will only go towards a single ip on eth0 . 
+   real-time , not a timelapse, 
+   1:1 aspect ratio, 
+   shit-tier gaussian blur around the edges, 
+  wtf is this shit ? 
+  ever heard of bittorrent ? 
+  it was developed especially for these scenarios . 
+  ai n't that the fat truth, 
+   headroom for the mastering engineer to butcher, 
+  now if only i could find my flamecoat ... 
+  no need for a 16gb swap partition , even with default swappiness , your machine will likely write very very little to it . 
+  with 16gb of ram , i 'd mount / tmp as a tmpfs partition ( which resides in the memory instead of taking up disk space ) . 
+  just add a ` none / tmp tmpfs defaults 0 0 ` line to / etc/fstab . 
+  most of the records available at hdtracks should be good . 
+  it 's not even about the ultrasound argument , many albums are actually mastered separately for them . 
+  air is mostly nitrogen, 
+  previous posts have been edited for clarity since i commented . 
+  right now my comment makes absolutely no sense in the context of the thread . 
+  i 've had the previous release crash on me once or twice , but nowhere near as often as you mentioned . 
+  if your soundcard supports such sampling rates , than it will work . 
+  if you 're curious , you can check the actual sample format that 's used by the driver when playing back audio : check the contents of the ` hw_params ` file which is in the ` / proc/asound/card0 / pcm0p/sub0 / ` directory . 
+  paste the output of convert - version, 
+  why get an outdated version of the blockchain via the bittorrent protocol , when you can be up-to-date with the bitcoin protocol ? 
+  why would i seed that file , when i could also run a node ? 
+   downloading the whole blockchain from the beginning is inefficient, 
+  but is n't the bootstrap.dat basically the blockchain from the beginning ? 
+   puts a lot of load on the bitcoin network, 
+  as i see it , it puts a load on the people 's internet connections sharing the blockchain . 
+  it should n't matter whether they 're doing it with bitcoin or bittorrent . 
+  what am i missing ? 
+  nah , it 's made from swine gelatine . 
+  it 's not . 
+  if it uses lv2 effects , then it 's running them on a general purpose cpu . 
+  that 's a * huge * setback compared to other hardware devices that utilise a dsp . 
+  and this is an embedded device not connected to the internet , aimed partly at hackers/musicians ^ ( hacksicians ?? ) . 
+  you will be root of course . 
+  there is no point in limiting the user permissions an embedded audio processor . 
+  there are very many reasons to limit the user of a mobile computer to not be root .

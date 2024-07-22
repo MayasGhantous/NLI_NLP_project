@@ -1,0 +1,100 @@
+  code there are wrong assumptions about the pins . . 
+   they should use drug pigs instead, 
+  they already do ... oh , wait , you mean the actual _ sus scrofa domesticus _ pigs ... , 
+  ... at least in theory ... 
+  this one is optical , not ultrasonic - you should be good . 
+   so you have a remote for the fan ? 
+  did n't he just say so ? 
+  you could solder the mosfets to the buttons ' contacts and connect their gates to the arduino pins ... 
+  the remote 's circuit already has all the pull down/up resistors needed , and you can not just connect the arduino pin to the button 's contacts ( without knowing in detail the remote circuit . ), 
+  basically , what the button is doing is shorting the contacts . 
+  that 's why i suggested mosfets - when they are in the off state they act ( pretty much ) like insulators . 
+  in the on state they act like conductors . 
+  soldering the source and drain to the button contacts and supplying the signal from arduino to the gate would allow you to switch them on and off . 
+  and yes , you need a common ground between arduino and the remote . 
+  also make sure you supply correct voltage to the mosfet 's gate . 
+  led drivers are usually a little bit easier to use for driving leds/7 segs . 
+  shift registers are more universal - it 's a good idea to learn how to use them even if you eventually end up using the dedicated drivers ... 
+   if that is the case , there is nothing i can do . 
+  there 's ** always ** [ something you can do ] ( http://tronixstuff.com/2011/08/26/tutorial-maximising-your-arduinos-io-ports/ ) ... , 
+   you 're missing the point . 
+  methinks he is making exactly the same point ... 
+   so the issue with voluntary slavery is what if someone who sold themselves into slavery changes their mind a few years down the road ? 
+  then he is no longer a slave . 
+  the `` master '' can try to sue for damages , though ... 
+  mosi/miso/sck tied together , separate ss for each slave with only one active at the time . 
+   the slave does not have the right, 
+  what does it even mean ? 
+  if the `` slave '' decides to walk away , you think you have a `` right '' to use force to keep him ? 
+  i 've looked at the board - there 's no mosi , and cs is ss . 
+  arduino is the master , so you connect miso on arduino to do 's on slaves and separate pin on arduino for each slave cs . 
+  you also need to tie all the clock lines together . 
+   without him , we would not have had generic programming as we know it and c++ would have been a very different and poorer language . 
+  not to take away the accomplishments from alex , but i really dislike statements like that . 
+  alex was n't the only person in the world working on generic programming concepts and it 's a fallacy to assume noone else would do it ... 
+  that seems to be correct . 
+  make sure you do n't activate more than one slave at the time . 
+  ( cs is `` active low '' ), 
+   commies are always saying that the laborers ( of the physical kind ) are the ones that are having their surplus labor expropriated ( by people doing mental labor ), 
+  that 's not entirely correct . 
+  they believe the owners of the capital are the exploiters and the laborers , either physical or mental , are the exploitees . 
+  which yields the humorous conclusion that the poor shmuck who put his savings into a mutual fund is the evil exploiter while the ceo is one of the exploitees ... , 
+   time to try stmicroelectronics . 
+  they have really nice 32 bit arm chips for cheap . 
+  and you can get minimum development boards for $ 3 . 
+  but setting up a programming environment is a real pain in the neck ... 
+  no , no , no ... 
+  he is taking from ( his ) right and giving to ( his ) left . 
+  he 's a damn commie , 
+  just the quick look at the code - did n't spot anything obviously wrong . 
+  one note , though - you could set the duration array with the actual duration values and avoid division inside the loop . 
+  also , the way you wrote it , if you press both buttons only the first melody will play , not sure if that was your intent . 
+  the problem , most likely , lies in the circuit - not seeing it i 'm guessing you did n't pull the button pin up or down , leaving it in the `` floating '' state . 
+  this makes it change the state on almost any input , no matter how small . 
+  even the tiny amount of static when you hold your hand close by ... 
+   a lot easier if you run both as i2 c devices, 
+  only if they have configurable addresses ... which might not be the case . 
+   you need the processing power of a raspberry pi to do anything with the data . 
+  nah , that 's not enough . 
+  you need at least one of [ those ] ( http://www.cray.com/products/computing/xc-series ) ... / s, 
+  is it wrong for a tiger to kill an antelope ? 
+  seems to me you have a major beef with mother nature ... , 
+  it should work with lipos , even though technically 3.7 v is under the limit for 16mhz . 
+  if you want to be sure , the [ power banks ] ( http://www.amazon.com/s/ref=nb_sb_ss_c_0_10?url=search-alias%3dmobile&amp;field-keywords=portable+power+bank&amp;sprefix=power+bank%2caps%2c199&amp;rh=n%3a2335752011%2ck%3aportable+power+bank ) are the best option . 
+   top 1 reason to not use visual studio for c++ android development : it only runs on windows, 
+  certainly , using an ide that runs on roughly 80 % of [ worlds desktop/laptop machines ] ( https://en.wikipedia.org/wiki/usage_share_of_operating_systems#desktop_and_laptop_computers ) is a very bad idea ... / s, 
+  grow up . 
+  man , you went through helluva lot of trouble ... would n't it make more sense to start with bare 328 ? 
+  if you ever need to drive more than one or two , look up uln2003 or uln2803 ... 
+  not true . 
+  [ this article ] ( http://www.open-electronics.org/the-power-of-arduino-this-unknown/ ) explains - scroll down to conflicts management section ... 
+   i see people talking about taking their at chip and then wiring it up manually with whatever components they need after they 've proto 'd it on their arduino . 
+  what ? 
+  how do you even know what pieces of the puzzle you need ? 
+  that 's the easiest part  atmega328 does n't really need any external components to work ( with a possible exception of the decoupling capacitor between vcc and ground ) having an internal 8mhz clock . 
+  you just need to look up the [ arduino pin mapping ] ( https://www.arduino.cc/en/hacking/pinmapping168 ) to figure out which arduino pin is where on the chip ... 
+  [ shapeoko 3 ] ( http://carbide3d.com/shapeoko/ ) . 
+  i could n't spot a single floating point in op 's post ... 
+  are you nuts ? 
+  depending on the motor and the adapter ... make sure your adapter can supply enough current to drive the motor . 
+  if you need to ask , the most likely answer is `` no '' , 
+  an [ opamp ] ( https://en.wikipedia.org/wiki/operational_amplifier ) is a ** voltage amplifier ** , there 's no way it can supply enough current to drive a motor . 
+  besides , if you already have a 12v supply what did you think the opamp would do ? 
+  edit : btw sorry for being brash , there is so much bad info in this thread that it just made me boil ... , 
+  [ $ 50 on mouser or digikey ] ( https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=utf-8#q=stm32f746g-disco ), 
+  google h-bridge ic and pick one you like . 
+  [ l6234 ] ( http://www.mouser.com/productdetail/stmicroelectronics/l6234pd013tr/?qs=sgaepimzzmtkb4wrjsn3lqvva8fh1xc9w8nzhsqesqw%3d ) looks like a good fit . 
+  why do you think you need a bootloader ? 
+  you already know how to do isp , just use it to burn in your sketches ... 
+   there is also a 5v regulator to take the 9v down to 5v, 
+  does n't pro mini already have a regulator ? 
+   hard to tell how things will fit without buying one first, 
+  just measure your stuff , find out how much room you need in all three dimensions and pick the box accordingly ... 
+   do n't know what voltage, 
+  lipo batteries are all 3.7 v ( nominal , actual voltage somewhere between 3.0 and 4.2 , ) unless you get into battery banks , like the ones for laptops ... 
+  ... that would fall into the `` battery banks '' category ... 
+  did you try to add it to your [ `` boards.txt '' ] ( http://playground.arduino.cc/main/customizearduinoide ) file ? 
+  yup . 
+  y' all want the 9/11 falser ... 
+  do n't see why not . 
+  6050 talks i2c , so does attiny ...

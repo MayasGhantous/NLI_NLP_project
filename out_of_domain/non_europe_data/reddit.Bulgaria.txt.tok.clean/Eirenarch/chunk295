@@ -1,0 +1,100 @@
+  yeah had it with two separate machines with completely different hardware ( both intel + nvidia though ) . 
+  i have not seen it since going full screen borderless but even if it happens at least it wo n't black out windows . 
+  at one point i learned to blindly kill starcraft with shortcuts to at least avoid restarting the computer . 
+  i agree that in sc is much less of an issue but it does exist . 
+  i agree that i am super sensitive to it . 
+  sometimes the observers will have vsync off in tournaments and i would scream at my tv to turn vsync on , 
+  i do n't see the logic here . 
+  sc does tank badly in engagements but what is the problem with capping it on 60 . 
+  i mean the cap does not make it slower when it tanks to 20 anyway . 
+  why would it be a breaking change ? 
+  overload resolution and method hiding ? 
+  while these features are cool it is definitely not worth splitting the community over this . 
+  better live without them until c # ages enough to be worth a full replacement ( like kotlin is to java ), 
+  i was about to bring up the hiring perspective . 
+  f # is a great magnet for devs . 
+  edmx file is so 2010, 
+  i tend to prefer it for most projects . 
+  not a big defender though just think it has a small edge over alternatives like dapper . 
+  physical violence is underused and has undeserved bad reputation in computer science and the software industry :(, 
+  you do n't get it . 
+  he wants to use the console . 
+  yeah , that 's probably what he 's going to do in a year when . net core becomes actually usable and there are significant amount of job offers targeting . net core, 
+  when i heard about project.json being dropped i was like `` no way i even try it before they are done with that '' . 
+  i 'm pretty sure they did n't think of lore or balance when they did this . 
+  they just prevented the strange situation of having to decide what to do with the units inside the transporter . 
+   you still have generic map / array which is how i used generics 99 % of the time anyway, 
+  well if you use mainly go i understand how you arrive at that percentage , 
+  commies, 
+  do n't forget that rust is also one of the most secure languages with very good thread safety guarantees . 
+  `` intense '' is a mild way to put it . 
+  fud , censorship , personal insults , ddos attacks , community split in two separate subreddits ... 
+  when the standard library arraylist class has a method with this signature, 
+  < t  t [ ] toarray ( t [ ] a ), 
+  your claim that erasure is not a problem falls apart like huffington post election predictions . 
+  you literally claim that if someone finds erasure painful ( i find the quoted example very painful ) they are doing it wrong, 
+   if type erasure is that painful to you , you are doing something wrong, 
+  as for the claim that the advantage is very big and the price is very small - [ citation needed ], 
+  the value of side languages compared to the quality of the main language is debatable . 
+  . net also supports multiple languages . 
+  yes , safe for ironruby and ironpython they use the same generic variance ( i.e. 
+  f # , nemerle , boo ) but is the addition of a couple of languages that vary on this specific aspect worth it having signatures like the one i cited in the main language that has probably 10 time more users than all the other languages combined ? 
+  is rust a good choice for ( almost ) first unmanaged language ? 
+  i have studied some c/c + + in university as my first programming language but have been doing professional c # for a decade and have not touched c++ in the meantime . 
+  my point is - am i expected to know any c++ if i want to learn some rust ? 
+  am i likely to encounter explanation of rust concepts in c++ terms ? 
+  great , now all i need is to find time ( and also finish that f # book ), 
+  the only reason alternative languages are more popular on the jvm than on the clr for example is that the core language sucks and type erasure is one of the reasons . 
+  the clr has a lot of languages and had multiple production-ready languages before the jvm did and still even great languages like f # have trouble getting adoption because the core language is just good enough . 
+  i think the choice of appropriate language is negligible in practice . 
+  most companies simply use java . 
+  of course it seems that we have to agree to disagree here . 
+  as i see it the tradeoff is definitely not worth it here but there is no easy way to quantify this . 
+  btw here is a fun fact - the clr team was going for type erasure but don syme wanted reified generics so he implemented them for the clr because he needed them for f # . 
+  the reified generics in c # came because of another clr language, 
+  not sure . 
+  i think the ceylon solution has a runtime cost does n't it ? 
+  they have it all backwards . 
+  . net devs learn quite quickly not to reuse ienumerables . 
+  the problem is not that you ca n't reuse streams in java . 
+  the problem is that they have polluted the code with . stream ( ) and . collect ( ) calls . 
+  i think this is a bad tradeoff for the small amount of problems that this is going to prevent . 
+  why small ? 
+  because how come you did n't notice that your stream was empty the second time if you ran your code even once ? 
+  i do n't know about you but i go quite defensive and if i am writing a method that iterates an ienumerable twice i tolist ( ) it just in case . 
+  yes . 
+  the official name of the feature is iterators, 
+  yes , i am thinking about two times foreach or two times databind or foreach + databind . 
+  my point is that we learn to pay attention to these things . 
+  of course api help will be better but not of the cost of stream ( ), 
+  how did the game end ? 
+  migrating to new stacks is the thing that keeps twitter 's engineers occupied . 
+  migration to go and elm coming in a couple of years . 
+  in theory the decision should be up to the economic power but someone has to technically fork bitcoin first so people could exercise their economic power by selling their coins on one of the chains and buying more on the other . 
+  if segwit came with the promised 2mb blocksize increase there would be no opposition . 
+  if this signature found in java.util.arraylist is not a practical problem to you i do n't know what part of a programming language would be, 
+  public < t  t [ ] toarray ( t [ ] a ), 
+  was that confirmed ? 
+  i do n't think anyone on the windows team said that was the reason . 
+  you think it is ok to have to pass `` example '' array to the method just to inform it about the type needed ? 
+  these reasons seem much more likely . 
+  or marketing decided that 10 was better than 9 for purely marketing reasons especially when they were told that they would have to stick with this name for a while ( windows as a service and all ... ), 
+  so where is the version that does not take an array ? 
+   why do n't you try to write one , 
+  . net generics were bolted post factum and did maintain backward compatibility . 
+  they just did n't maintain specific kind of backward compatibility ( java wanted to use the very same collection classes while . net introduced new ones ), 
+  that makes sql server look so cheap . 
+  clearly this is not the case because clearly if this was the case they would n't be running unlimited to begin with . 
+  maybe so but this does not answer the op question why does it happen . 
+  your argument is invalidated by the fact that the hashrate proportion was there and is now dropping . 
+  unless you think something changed in the last week your hypothesis does not match the data . 
+  and the question is `` why '' . 
+  what is the new information that made them reconsider ? 
+  i hate nhibernate, 
+  your wish will be granted . 
+  have fun using javascript . 
+  i 'll probably choose a happier life and choose to support legacy web forms projects until i retire rather than work with a full stack js . 
+  i use ef . 
+  i like to have a working linq provider not the joke that nhibernate tries to sell as one . 
+  i also avoid complex mapping ( i even started to add a cross entity for many to many relations on purpose ), 
+  the alt.net guys were pushing hard for nhibernate back in the day .

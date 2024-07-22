@@ -1,0 +1,100 @@
+  big difference . 
+   you have so little knowledge of our legal history and the results of the awful way maori were treated from 1850-1960 . 
+  did n't say they were n't treated poorly . 
+  that does n't mean the treaty mentions health policy . 
+   i suggest you read the first law paper text book law alive by grant morris . 
+  i suggest you learn to type . 
+  i read them with okular i think . 
+  or evince . 
+  i ca n't remember . 
+  i use gentoo , so i installed it myself , but i ca n't remember which one i installed . 
+  i make them with pdflatex . 
+  i seriously doubt that 's true given that you ca n't even write some very simple data structures without ` unsafe ` . 
+   you only use unsafe in the implementation of those data structures . 
+  when using those data structures , you do not touch it at all . 
+  that does n't mean it 's not there . 
+  it 's still there , and you need to trust it . 
+  the point of safety is that you should n't need to write ` unsafe ` every time you write complex code . 
+  yet in rust you do . 
+  precisely at the time i want the compiler to have my back , it goes ` argh this is too hard for me ' . 
+   the coalition , with the australian labour party , are in power . 
+  these are , confusingly , right-wing parties . 
+  the australian labor party are n't in power and they are n't part of the coalition . 
+  the coalition is liberal party and national party , which is very similar to nz national party . 
+  the aus national party is basically the rural conservative farmers party ( like that wing of nz nat party ) and the aus liberal party is basically the economically liberal city business/executives party ( like the other wing of the nz nat party ) . 
+  in nz we have a single main right-wing party and two left-wing parties . 
+  in aus they have a single main left-wing party and two right-wing parties . 
+  but they 've had them for a lot longer and they have worked together in national elections for years and years . 
+  it 's not racist fear-mongering to recognise that immigration policies are meant to be tit-for-tat . 
+  they are rights . 
+  cer is meant to mean that we reciprocate on * rights * . 
+  you do need to write ` unsafe ` a lot if you 're writing complex low-level code . 
+  home detention also does n't really discourage anyone from anything . 
+  imposter syndrome is present in virtually every grad student i 've ever met , male or female . 
+   meta-programming and macro are not crippled : just not finished yet . 
+  they are crippled at the moment . 
+   most of the time , you never use unsafe , fast linked data structures are just a noticeable exception . 
+  most of the unsafe blocks are for interfacing with other languages . 
+  i 've written rust code , and you have to write ` unsafe ` a lot . 
+   unsafe blocks are not a misfeature of the language . 
+  sometime you have to rely on structures that ca n't be automatically proved safe . 
+  unsafe allow you to do not use potentially memory unsafe operations without noticing it . 
+  i never said they were a misfeature . 
+  but you have to write them a lot more than you should have to write them . 
+  you have to write them when you have to do complex memory-management code . 
+  that 's ** exactly ** when you want the compiler 's help . 
+  and that 's when the compiler throws up its hands !, 
+   so trivial than nearly every update for critical vulnerabilities on heavily monitored softwares ( browsers , os , ... ) contain fixes for memory safety bugs . 
+  and rust help prevent other kind of mistakes too . 
+  no idea what you 're trying to say here . 
+  rust is n't safe . 
+  shit analogy . 
+  i do n't care about writing ` unsafe ` when interfacing with other languages . 
+  rust forces you to write unsafe whenever you want to write complex code around lifetimes of objects , yet that is ** precisely ** when i want the help from the compiler . 
+  proper languages like agda and idris let you write * proofs * for things the compiler does n't know . 
+  that 's very different . 
+  instead of saying ` in this area just assume i know what i 'm doing ' , you write a proof that what you 're doing there is safe . 
+  you extend the compiler 's knowledge to be able to understand and help you rather than just telling it to ignore you . 
+  if rust let you * prove * that your code is safe , we would n't have stupid things like ` thread : : scoped ` being revealed to actually be completely unsafe , which is what happened right before 1.0 . 
+   if he invented the term , claiming it 's debunked is rather jumping the gun . 
+  the way he says it makes it sound like someone else debunked it , but as of yet / u/videomorphic [ +1 ] has been unable to explain who debunked it . 
+  i do n't believe you asked me to . 
+  nevertheless , it * is * debunked . 
+  it 's not real . 
+  it 's denying that cultures actually exist and affect the people that have those cultures , and we all know that 's utter horseshit . 
+   i would interpret that as the position that culture does not exist . 
+  a claim no one is making . 
+  your position is one where you deny that culture has an effect on peoples ' actions and behaviours . 
+  but that position is wrong . 
+   i think mostly you 're confusing the non-normative concept of `` culture '' with normative concepts like ethics and politeness , which are really separate and quite easy to define in an objective way . 
+  lol , what a load of rubbish . 
+  ethics and politeness are part of culture you berk . 
+   men earn good money by - to be crude and simplistic - spinning good lines in bullshit . 
+  sexist generalisations . 
+   the point is that propositions and types ( which function as sets and basic mathematical objects ) can be viewed as the same thing . 
+  / r/badmathematics, 
+  pythons integers really are n't bounded by anything other than the implementation . 
+  you ** always ** need proofs , or it is n't safe . 
+  rust is unsafe , by definition . 
+  the compiler only ` has your back ' in situations where you do n't need help . 
+  good job totally missing the point . 
+  most people ca n't even help their kids with year 4 maths , for heaven 's sake . 
+  kids should not be taught to program . 
+  what a waste of time . 
+   fourier analysis breaks a signal down into a sum of sinusoids . 
+  you have a band where one person plays the 1 hz instrument , another plays the 2 hz instrument , etc , and the fourier series tells you how loud each one should play to recover the original signal . 
+  that 's a terrible way to explain what a fourier series is . 
+  i entirely disagree . 
+  a nonconstructive proof is objectively worse than a constructive proof , as it gives you less information . 
+  in fact , any proof that gives you more information than another proof of the same proposition is better . 
+  you picked out one part of what i said and responded to it with the same tired thing everyone always says , which totally misses the point . 
+  rust is an unsafe language . 
+  any ` unsafe ` block anywhere in your code makes it completely unsafe . 
+  rust does n't let you prove to it that what you 're doing in an ` unsafe ` block is safe , it just assumes it 's safe . 
+   unsafe blocks allow you to talk to the computer . 
+  you open it when you know how the computer is going to answer . 
+  that 's pithy but still wrong and stupid . 
+  you can not ` talk ' to a computer . 
+  if it were possible to write bug-free ` unsafe ` blocks , we would n't need safety . 
+  but we do . 
+   this inherently makes unsafe , has safe has you can make anything that has side-effects .

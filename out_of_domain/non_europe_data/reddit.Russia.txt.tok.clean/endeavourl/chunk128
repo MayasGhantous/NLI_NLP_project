@@ -1,0 +1,100 @@
+  some enlongated lights along the seams in the ceiling would give it a similar , more familiar to gamers , and less claustrophobic look . 
+  i think this would end up as a welcome change given you get the lightning right . 
+  so keep doing what you 're doing i guess !, 
+  also some performance numbers may convince people that this is a good thing ( i assume they are substantial , otherwise why bother , premature optimization is root of evil etc etc ) . 
+  it 's just a tomato with seeds growing . 
+  this reminds me of that one time i was applying too much pressure to a thing i wanted to unsolder , and , smartly , was pulling the soldering iron towards myself . 
+  it slipped , and next thing i knew was that i had a 200 \u00b0 c metal rod pressed against my lips and teeth . 
+  yeah ... 2 weeks that followed were probably the most painful in my life . 
+  also that happened in winter so imagine -20 \u00b0 c wind blowing on my blistering mess of skin and meat as i went to school . 
+  exactly . 
+  back then you could n't clear the rest of the map in 2 seconds it takes to roll the box , so it was profitable to spend that time . 
+   there is nothing in the game preventing you from making a shitty/underpowered build of your own so you can waste as much time struggling to play the content . 
+  it 's always funny how you casuals shittalk people who were here way before you for saying that the game they 've helped to fund took a wrong turn along the way . 
+   tomatoes were not organic, 
+   you ca n't really fix that without going full retard in server architecture . 
+  it 's not even a matter of architecture , there 's just a limit for calculations that can be done in a set amount of time . 
+  existing workaround does n't make this `` not a bug '' . 
+   a memory leak is just resources not releasing when a program terminates or fails to do gc . 
+  this is n't a memory leak either . 
+  at least in modern sense , it 's kinda hard to continue to consume memory after process termination on modern os . 
+  memory leak is `` forgetting '' to release allocated memory that wo n't be used at a later stage . 
+   there is no reason for poe to use that amount of memory and this is why it slows down, 
+  yes , there is : instant loading . 
+  the problem with running into paging file is with aggressiveness of asset caching , not with it existence . 
+  chrome is a prime example of wasted ram . 
+  it is very inefficient and lazy with gc . 
+  resulting in a browser ( often a background app ! ), 
+  consuming half and more of the system commit . 
+   there 's no such thing as wasted ram as long as you have free ram . 
+  your program is not the only one running . 
+  this behaviour is only acceptable for games that run in foreground majority of the time . 
+   unused ram is wasted ram, 
+  stop repeating this very limited notion . 
+  it 's true to some extent for game applications , that tend to run in foreground and can consume majority of system 's resources . 
+  it 's absolutely not true for software that must allow other software to run alongside it ( * cough , chrome and its embedded derivatives * ) . 
+  the only place this is absolutely true is os cache memory . 
+  this is * free * memory that os uses to cache various data that it thinks user might need . 
+  it is free because , while it holds data , it can still be allocated to user application on demand . 
+   if path of exile refuses to ever free up that memory when someone else needs it , something is wrong , otherwise it 's just your computer utilizing its resources . 
+  it does n't work like that . 
+  if i call ` new byte [ 1024 * 1024 * 200 ] ` , that 's 200 megabytes gone from the system until i release them back . 
+  it can not just take them back . 
+  my program wo n't magically know it should release because of system starvation either . 
+  you can monitor system memory stats and write some heuristics to release your memory used for private caching/run gc but to my knowledge nobody does that . 
+   its because we spent 3 + years bitching about load performance . 
+  so they just have shit load and stay loaded in ram . 
+  this is literally working as intended . 
+  true , except they could make caching more intelligent and not overflow into pagefile , defeating its purpose . 
+   unused ram is literally wasted ram . 
+  false . 
+   as long as ram is relesed when a critical system needs it then you could have 95 % of all your tam used and it would be entirely fine . 
+  define `` critical system . '', 
+  define `` needs . '', 
+  define `` how the fuck my application is supposed to know . '', 
+  see this : https://www.reddit.com/r/pathofexile/comments/5s88th/_/dde96tw/, 
+  do you know what you 're talking about ? 
+  because the most windows can do with memory allocated by a user process is to store it in the paging file . 
+  resulting in hellishly slow performance . 
+   system requirements claim that the game needs 2gb ( installed ! ), 
+  memory to run, 
+  it can * run * on 2gb ram . 
+  it does n't mean it 's going to be playable , that 's what minimal system requirements are about . 
+  you do n't know what you 're talking about . 
+  projectile data is presumably instance data . 
+  the memory holding it will be released when you disconnect from the instance . 
+  your example is not of a memory leak but of a design choice to not have objects simply disappear into ether . 
+  memory leaks are unintentional and usually hard to find . 
+  op 's problem is aggressive caching and can be readily solved by tuning caching parameters . 
+  yeah i worded it badly , see the edit . 
+  it 's a leak but you 'd have to be doing something * special * to achieve that kind of leak on modern systems . 
+   back up your claim with ida pro/win dbg or ollydbg if you had the slightest clue you will see the memory is never freed . 
+  sure it 's not much but it adds up . 
+  that 's not my job . 
+  you made your claim , it 's your job to support it with proof . 
+  i understand precisely what i 'm talking about . 
+  yes , free ram is full of cached stuff but the os manages this , not the application . 
+  it 's called `` free '' because os can give it up to applications on their demand . 
+  if you 'd actually consume all ram from inside your application to store cache/whatever , all other apps on the system will eat shit and the system will swap like crazy . 
+  `` tanks . '', 
+  everyone is shouting like your hdd is already dead but if the sound is soft and quiet , that 's normal . 
+  [ louder example ] ( https://www.youtube.com/watch?v=j09pwnqpk7u ) , normally it 's quieter because of covers and cases obviously . 
+  [ better example ] ( https://youtu.be/9ev6plzcrb0?t=40s ) . 
+  if it 's not like this and it 's actually clicking and not making this random sort of `` purr '' , then it 's probably very bad and you should check your [ smart ] ( https://en.wikipedia.org/wiki/s.m.a.r.t.#ata_s.m.a.r.t._attributes ) status using any program that does that , checking values of attributes highlighted in the wiki page . 
+  if something is off you should use the hdd as little as possible until you move the data to a new one . 
+  both sides in this sound like `` wah wah you do n't play the game the way i do !, 
+  thanks for this , new scanner is great . 
+  if only they would increase brightness of the active red dot :\\, 
+  i think new scanner and new map were actually made by the same people . 
+  they just forgot to finish the latter . 
+  because alt-scrolling is faster . 
+  ctrl-scroll to change spacing i think . 
+  bind alt - ` to analyze and you 'll never have to move your hands or try to click a pixel while scanning . 
+  windows client is native . 
+  and the way everything tends to run in electron nowadays is cancer . 
+  i feel i 'll have to migrate to 32gb ram in the next 5 years just to run all that js bullshit . 
+  i do n't know how i would 've done my merges and conflict resolution without it . 
+  yeah , i use it as git merge tool primarily . 
+  because browser is often a background app . 
+  because , for example , modern games can consume 6 + gb of ram which , combined with the browser , a bunch of chromium/electron based ( * sick trend !, 
+  * ) desktop apps like game launchers/im clients , os and other shit , can push you quite deep into pagefile on 8 ( still pretty much standard ) and even 12 gb ram .

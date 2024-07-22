@@ -1,0 +1,100 @@
+  if you have a high impedance input on another device then you can use that to buffer your guitar pickup , so you can use any old line level input on your computer . 
+  a boss or ibanez stompbox can help you ( anything * without * true bypass ) , or any other stompbox for that matter , but it has to be on if it 's a true-bypass pedal . 
+  you can also use a guitar amp , and plug the preamp-out/effect send on the amp to the audio interface . 
+  and terminology btw : a dac can be found at a device 's output , while digital audio inputs have adc 's . 
+  deluge is a gtk + app that works well only for linux . 
+  it 'll run on windows , but you will hate it ( nonstandard file dialogs , ux alien buttons etc ), 
+  are you using the webui ? 
+  the gui is what i 'm talking about , and it 's horrible . 
+  [ op ] ( https://www.youtube.com/watch?feature=player_detailpage&amp;v=cns1tqwyx8e#t=8s ), 
+  now i have to reread reddit from the beginning so i can read the alt-text, 
+  not any more . 
+  since osx , apple hardware is also supposed to use gamma 2.2 . 
+  i think op is viewing the image in a color aware program on one machine and a color ignorant/color stupid program on the other . 
+  it is what 's expected to happen if the image is tagged as applergb / prophotorgb for some reason , and the image viewer is n't honouring this on an srgb-ish display . 
+  * what colorspace is the image in ? 
+  * is the color profile embedded ? 
+  * what program are you using to display the image ? 
+  * do you have the correct profiles installed for the displays ? 
+  and he 'll get a lot of misinformation too from the dealer . 
+  listen to the speakers , and disregard anything the dealer says . 
+  can someone explain to an espresso guy like me what 's this thing ? 
+  according to google trends , pour over coffee seems to be a relatively new fad ( no searches before 2009 ) concentrated to the usa . 
+  how does it compare to the coffee made by a drip coffeemaker ? 
+  at least we are n't alienated by society because of our sexual preferences . 
+  talk about lightweight !, 
+  i 'm seeding 20 torrents on a device that has 32mib ram , which is also my wireless router, 
+  video streaming support was added in 3.0 . 
+  pretty big deal actually . 
+  well darn . 
+  sorry to waste your time . 
+  i 'll listen to the noise sample if you upload it . 
+  do you by any chance have any realtime monitoring feature enabled , either in a hardwired way in the audiobox 's program ( if that even exists ) , or in the windows control panel / playback devices / [ here ] ( http://i.imgur.com/2369o.png ) ? 
+  does the output noise level change if you change the input gain knobs on the sound card ? 
+  edit : i see there 's a mixer knob . 
+  does it affect the noise ? 
+  it should be turned to the right when there 's nothing on the input . 
+   noise does not change at all when i increase or decrease volume on the soundcard . 
+  it 's a ground loop then . 
+  wait , something clicked , 
+  you have a balanced output on the presonus . 
+  if you connect a mono 1/4 '' to it , you are connecting the ( - ) output to ground , which is not recommended by [ this ] ( http://www.rane.com/note110.html ) article . 
+  if you have a stereo-1 / 4 '' phono - to - rca cable , try to connect that to one of the inputs on the amp ( leave the other dangling ) . 
+  but only if you have one . 
+  otherwise , a loop isolator will probably solve your noise issue . 
+  yes . 
+  if the monitors have balanced inputs , then you should not need an isolator to break the loop . 
+  use a stereo jack to xlr cable , which has technically nothing to do with stereo at all of course , but it 's the same plug . 
+  what kind of cables are you using to connect the mackie to the alesis ? 
+  if it is n't xlr , then you might want to try that . 
+  a balanced connection usually helps with ground issues . 
+  if it 's xlr , is pin 1 connected to ground the connector case ? 
+  how can you know those were n't there * before * they staged the moon landing ? 
+  ( lol ^ j/k ), 
+  also , let 's pretend that capturing a black sky will result in the print being completely , uniformly black once developed ( and scanned ) , and any resulting patterns in the print will have originated from the scene , and are not imperfections of the print media . 
+  therefore scaffolding is in the moon landing pictures . 
+  ( that 's the only part that i watched for about a minute ), 
+  the common mode noise rejection that is one benefit of balanced signalling is the thing that you do n't need at short distances . 
+  but going balanced also helps with keeping ground currents out of the signal path . 
+  since the source of the noise is likely a ground loop , you should try a pair of xlr cables imo . 
+  it was n't flipped , it 's written right to left . 
+  yes it can . 
+  noise shaping will push the dither higher into the ultrasonic range leaving you with more dynamic range in the audible region . 
+  dsd can get away with one bit sample depth , however it 's sampled at around 3mhz , with a ton on shaped noise , so there is very little noise in the audible band . 
+  however there is ultrasonic noise that can cause audible problems with the rest of the gear . 
+  i 'm not sure if this was properly proved , so whatever . 
+  i should start my own organized religion . 
+  or a zombie acting as a tunnel . 
+  worth a shot though . 
+  just be sure not to buy a windows arm device , like the surface rt !, 
+  not enough information . 
+  * what os, 
+  * what player, 
+  * what kind of media , music or video, 
+   but when playing a cd i know well and switching between the digital and analogue sources , i can almost certainly say the analogue has more detail . 
+  it 's probably just a bit louder . 
+  * ideally * you should use the dac in the player , bacause a 20khz bandwidth analog signal ( audio ) will have less distortion over the same distance than a 28mhz bandwidth analog signal ( 2.8 mhz word clock + 10 harmonics ) . 
+  only tha data is digital , the clock is analog , and distortion in the word clock will induce data-related jitter in the decoded audio , which will increase the overall thd+n . 
+  * realistically * however your receiver likely contains a mechanism to stabilise the distorted spdif clock , by either using some advanced reclocking trick , or using a pll . 
+  in fact , if the power source in the dvd player is n't designed well enough , its dac could have worse performance than your receiver , despite spdif . 
+  * even more realistically * , any difference could be so minute , it could prove to be impossible to hear ( other than difference in the analog output level ) , at which point it is better to use the spdif because it means less clutter by using only one cable . 
+  and the gentleman at the hifi shop is confusing cd 's with laserdiscs . 
+  does n't meen it 's better sounding . 
+  the * dynamic range meter * that is used to calculate these ** dr ** numbers does n't actually measure dynamic range , it calculates ** crest factor ** . 
+  if you cut your cd master into vinyl , you 'll have tiny errors in the frequency response because of the pre-emphasis . 
+  when you play it back , you 'll have even bigger errors , riaa de-emphasis circuits are only so good . 
+  if the crest factor of the original recording was reduced by aggressive limiting , then these frequency-domain errors will raise it significantly . 
+  but they wo n't give you back any of the lost dynamics , and the artifacts induced by limiting will still be there . 
+  these ** dr ** numbers are good for only one thing : they tell you , with amazing accuracy , which album sounds like shit . 
+  but they do not tell you , whether or not it sounds good . 
+  an album with a high dr rating will either sound good or bad . 
+  an album with a low dr rating will sound bad 99 % of the time . 
+  the word clock is a square wave signal at the rate of 64 times the sample rate ( 16 \\* 2 \\* 2 , 16 is the bits per sample , 2 is the number of channels , and this is multiplied by 2 because spdif uses bitphase mark signaling to eliminate dc ) , and it is used either directly or indirectly to control the dac . 
+  as pcm is sampled at precise intervals , for the conversion to be accurate , it has to be reconstructed at the same , accurate intervals . 
+  deviation from this ideal is called clock jitter , or phase noise , and is audible at the amount that is produced by an untreated spdif connection . 
+  [ deeper explanation of data-induced jitter and s/pdif , and jitter in general here ] ( http://nwavguy.blogspot.hu/2011/02/jitter-does-it-matter.html?m=1 ), 
+  that 's an amplitude graph , not spectrum . 
+  i never had problems copypasting circuit diagrams from multisim into lyx . 
+  it automatically converts it to . eps too . 
+  it should also work with inkscape or anything else . 
+  it 's the easiest if you set the color scheme on your circuit sim to black and white , because the colors carry over .

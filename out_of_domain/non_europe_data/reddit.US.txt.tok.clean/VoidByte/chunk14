@@ -1,0 +1,100 @@
+  they work fairly familiarly on linux , * bsd , osx and from what i remember solaris . 
+  add in that every sysadmin i 've ever met still use the deprecated versions i do n't see them going away any time soon . 
+  i was introduced to scotch by some friends and really enjoyed it . 
+  i then decided to buy my own bottle and went to k&l wines a pretty nice liquor store in the sf bay area . 
+  talked to a non-scotch drinker and he recommended it . 
+  tastes like shit . 
+  luckily my next purchase went much better , a laphroaig 10 . 
+  there is a book called : '' [ code : the hidden language of computer hardware and software ] ( http://www.amazon.com/code-language-computer-hardware-software/dp/0735611319 ) '' . 
+  it starts from basic understanding of electricity and then builds up to a full computer . 
+  go buy it . 
+  you get that for free with rsnapshot . 
+  it backs up only what has changed incrementally on a file-by-file level and presents it as a snapshot of your filesystem . 
+  but they design the most unusable keyboards . 
+  i love my macbook pro but always use a microsoft elite keyboard if i 'm at a desk . 
+  the keys are larger , press better and i can type about twice as fast . 
+  apple designs their keyboards for form over function . 
+  if you spend most of your day typing do your self a favor and get a good keyboard . 
+  one of the new das osx keyboards , a model m , or a microsoft elite ( now in black ) . 
+  if your using python then go check out clint and envoy . 
+  they will make your life a lot easier . 
+  in my home directory i have a folder called ` . bin ` . 
+  this is included in my $ path . 
+  if i start doing the same set of actions a lot i 'll toss them into a shell file or write them up as a ruby script and toss it in this directory . 
+  over time i 've added alisaes , scripts and commands that make my life easier . 
+  my mentor/boss and myself are on a kick right now to increase our automation and are now doing something very similar to our servers . 
+  we just setup a git repo that is pulled down on every server . 
+  we write scripts to make things easier toss it into the repo and like magic they get duplicated . 
+  not sure if any of this will help you but maybe you can draw some inspiration . 
+   will this make any difference ? 
+  for programmers this is awesome . 
+  c++ and c are old and while awesome they have some inefficiencies that make it really easy to make mistakes and require a lot more code to accomplish many tasks . 
+  almost everything out there besides c/c + + are frankly not suited to the domain that c/c + + specialize in . 
+  some will make an argument for java but i disagree . 
+  the end user should have no concern/awareness that it exists or is there . 
+  it 's an implementation detail and as important as what transit providers and peering agreement your isp has . 
+  as far as you should be aware it just works . 
+  hope this helps . 
+  i do n't think you actually understood ` multiple regions '  . 
+  usually this means you have a set of servers in europe and another set in north america . 
+  then you can load balance traffic across the servers . 
+  for instance if your connecting from denmark you connect to the europe servers . 
+  if your connecting from chicago you connect to north america . 
+  in addition to load balancing traffic if you do n't use a cdn it also provides you failover if one region experiences difficulties . 
+  things like natural disasters and power or network failures . 
+  this requires a bunch of things to accomplish including inter-datacenter database replication which is not an easy feat . 
+  ** tl ; dr : ** not reddit.eu but a eu datacenter . 
+  i 'm a bit confused by the wooshes ? 
+  mind explaining ? 
+  we refer to this exact quote often at work . 
+  we call it the ` tokyo option ' . 
+  i guess there was a really bad manager before i started that forced one of the teams to write it one way during the day and then they would spend the evening writing a second version the proper way . 
+  uggh . 
+  i dread the day . 
+  there is already so much more power in text over visual interfaces on the internet . 
+  the interface will be slower , more complicated , harder to automate , and physically painful to use for long periods of time . 
+  amazon offers a free 1 year micro box . 
+  plenty powerful for a irc client . 
+  if your ok with paying you can get a low-end prgmr box for $ 5 , $ 27 or $ 48 for 1 , 6 , or 12 months at prgmr.com . 
+  another option is to setup something like dyndns.com ( there are alternatives since i do n't think they offer the free one anymore ) and connect to a linux box at home . 
+  by no means am i telling you that you should n't use ircloud , just offering you solutions to the lack of always on accessible box . 
+  ionice, 
+  go read the lawsuit :, 
+  basically the city is claiming their attempt for a referendum is n't valid since what they are attempting to repeal/adjust is simply administrative contracts for a previous voted measure . 
+  since these are simply administrative processes for the previous measure they ca n't be appealed in this manner . 
+  instead they need to appeal the original measure . 
+  so since the city believes they are attempting to do something incorrectly they are asking for a judge to look at it . 
+  now i 'm not a lawyer and i 'm not a judge but from what i understood of the lawsuit they feel < x  and want it confirmed by experts in law . 
+  this is not a matter of free speech this is a matter of bureaucracy and law . 
+  go read the lawsuit the city of santa clara believes that the type of vote they are using ca n't be used for that type of action . 
+  they are asking for a judge to confirm or deny that belief . 
+  this has ** shit ** to do with free speech and has a lot more to do with process , bureaucracy and the law . 
+  i use ctrl - [ with caps lock bound to ctrl . 
+  it makes it easier to use all other key bindings that require the ctrl button and allows an easy escape . 
+  my understanding is that the 3d was so developers could quickly look at a page and see how elements are nested . 
+  i 'm not sure how useful this will be but can see a few use cases in my own work where i might find it helpful . 
+  skies of arcadia, 
+  ctrl-d exits everything not just the shell . 
+  it 's the eof character . 
+  besides its really easy to press if you bind caps to be a ctrl character . 
+  then you can use ctrl - [ as escape in vim . 
+   i do n't understand the first part of your comment in this context . 
+  the advantage of building the muscle memory to use ctrl-d is that it exits almost everything on unix . 
+  the only major exception is telnet . 
+  an alias only works in a shell . 
+  in addition if you bind caps to ctrl its a very easy combo to hit . 
+  or for the programmers and system administrators out there :, 
+  fuck it , we 'll do it in production . 
+  lets pretend that each of those customers has only 4 users . 
+  that means they are earning $ 1,200,000 a month . 
+  that looks to be a pinch over a million a month . 
+  hate to break it to you but most companies have far more than 4 users . 
+  mine has a good 20 . 
+  we do n't use zoho and instead use google apps but its not hard to see how zoho makes a million a month . 
+  ok even if that is true they have by my count 17 products each one ranging from $ 3 - $ 80 a month . 
+  i 'm more then willing to bet their numbers are right . 
+  i agree with you but you should note that several of those are actually just apple 's extensions and forks to existing open source programs/groups . 
+  i 'm all for additional funding and support of programs like clang/llvm and webkit ( khtml ) but its a bit disingenuous to claim that apple created and open sourced them . 
+  you are correct . 
+  thank you sir . 
+  in 99 % of cases yes .

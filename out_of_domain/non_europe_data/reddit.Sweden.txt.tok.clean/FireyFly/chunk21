@@ -1,0 +1,100 @@
+  i hear `` lenses '' are trying to do this in haskell . 
+  i too am curious about those terminals . 
+  what terminal is it , and what gives it that look ? 
+  a semi-transparent background ? 
+  ~ / music , ~ / school , ~ / prog ? 
+  this sounds like my home directory ... 
+  anyway , looks great !, 
+  that actually only deletes part of a line !, 
+  ( namely , to the end of it ), 
+  i dare you to classify disgaea 's execution order . 
+  :p it ' a turn-based tactics game ( like fft ) . 
+  each team takes turns ( `` we go , you go '' i suppose ) , however during each turn you may command any of your units in whatever order . 
+  each unit can optionally move , and then do an action ( attack , use item , ... ) . 
+  after doing an action , that unit is `` done '' this turn . 
+  now , the interesting part is that you can move a bunch of units , do an action with another unit ( aoe heal , for instance ) , and then undo the earlier movements . 
+  the unit which did their action is done for the turn , but the others can now move again before doing their action . 
+  i think the two are orthogonal to each other . 
+  there 's ( scripted encounter < --  random encounter ) , and then there 's ( enemies visible in overworld < --  sudden transition to battle screen ) . 
+  chrono trigger would be ( scripted , visible ) . 
+  diablo ( judging by these posts ; i have n't played it ) would be ( random , visible ) . 
+  pok\u00e9mon would be mainly ( random , sudden ) , which i suppose would be the norm for 2d top-down rpgs . 
+  the former spectrum deals with whether battles are pre-prepared in the game code , the latter with how predictable battles are by the player . 
+  fft might not be possible to place on this predictability spectrum , since its overworld is so constrainted that it 's not really an overworld in the same sense as the other games . 
+  i think we owe the rest of europe an apology as well , for the `` entertainment '' during the voting . 
+  well , you could split functions into two categories : `` subroutines '' and `` mathematical functions '' . 
+  the former category would n't have a return statement , and would only serve to split code up . 
+  in the case of the latter , a function receives a set of parameters and produces ( returns ) a set of resulting values . 
+  the body of the function performs some sort of computation . 
+  for instance , consider the standard mathematical operators ` + ` , ` - ` , ` * ` , ` / ` . 
+  you could compare these to functions that receive two arguments each ( a left and a right operand ) and return the sum , difference etc of those arguments . 
+  the other important thing about ` return ` is that it might not be the very last thing in a function . 
+  as soon as a ` return ` statement is executed , the body of the function stops executing and execution jumps back to where the function was called . 
+  there is one additional thing about ` return ` , which is the possibility to return multiple values . 
+  this is quite rare amongst programming languages , and you do n't have to worry too much about it until later i think . 
+  edit : oh , and i should add : `` subroutines '' are only useful if they somehow alter things outside of the function . 
+  the nice thing with splitting up code into functions that only do a computation based on their arguments to produce their results is that you do n't have to keep as much in your head when debugging that part of the code -- you can focus on just that function instead of keeping all the things outside of the function in mind too . 
+  return ( episode  = 0 & & episode < = 2 ) ? 
+  ` fuck you ', 
+  : ( episode = = 3 | | episode = = 4 ) ? 
+  ` nothing witty , sorry ', 
+  : ( episode = = 5 ) ? 
+  ` jedi ', 
+  : / * else * / ` invalid episode , go fuck yourself ' ;, 
+  better ? 
+  ( disclaimer : would n't work in php because broken operator associativity . ), 
+  what did you do to our diacritics ?!, 
+  the css3 spec has [ a nice table ] ( http://www.w3.org/tr/selectors/#selectors ) with summaries all the css3 selectors . 
+  i got it running with intel hd 3000 as well , and performance was decent . 
+  the game had some visual artifacts though ( mainly being able to see some effects through solid material , such as portals , and some glitches with not always seeing properly * through * portals ) . 
+  it was certainly playable though . 
+  this is considerably more lightweight , since it does n't depend on a bunch of helper libraries that you 'd have to include to use clojurescript . 
+  i guess a somewhat similar comparison would be coffeescript vs. compiling ruby to js . 
+  navigation by common extension does n't seem to be the only option . 
+  for instance , if you know that the file you 're looking at encodes a 3d model of some sort you could go [ to this category ] ( http://fileformats.archiveteam.org/wiki/category:3d_and_cad/cam_models ) and take a peek at the various formats in there and see if they match . 
+  you could just write that as ` o ( 1 ) ` instead . 
+  and yes , it is , but it 's a kinda silly example . 
+  time complexity is about comparing algorithms , and `` sleep '' - type routines do n't really belong in there . 
+  ( well ... unless you 're talking about sleepsort i suppose . 
+  well ... if it 's a performance bottleneck ( like , a * really * really frequently accessed map ) , i 'd benchmark , and i 'd probably consider using even an array ( as opposed to a linked list ) if i could easily map the keys of the hashmap to indices into that array . 
+  chances are that it is n't * that * performance-critical though , in which case i 'd just go with whatever makes most sense ( if i use it like a map , i 'd go with a map ) . 
+  but yeah , it depends , but when in doubt ( and after it 's been found to be a bottleneck ) , benchmark the alternatives . 
+  but it is correct that in your example it might well make more sense to go with a linear-time algorithm rather than a constant-time one , if the constant time is high enough . 
+  [ curiosity ] ( http://www.reddit.com/r/gamernews/comments/1f34s0/peter_moleneux_reveals_what_was_inside_the_cube/ ) . 
+  i do n't think this is technically feasible , unfortunately , since i 'm guessing the ps4 simply acts as a server on the local network , and having it act as a server accessible over the internet requires port-forwarding and such which sony would n't want to bother with . 
+  oh , interesting , i was n't aware of that . 
+  why do you want the repl in a vim buffer ? 
+  i recently learned clojure and simply ran a repl in another terminal with the same cwd , or just ran ` : ! lein run ` from the vim session . 
+  something that i find helpful is to use vim-like bindings for readline ( via ` ~ / . inputrc ` ) , but that applies to all line editing , which includes other repls as well . 
+  or the more vim-esque ` r ` for replace mode ( and ` i ` for insert mode . . ), 
+  no clue what it 's called , but i 've always held the deck in my right hand with thumb/longfinger on either short side of the deck , dropping off small chunks of cards into my left hand until i hold the whole deck in my left hand , and then repeating the whole process a few times . 
+  works pretty fast once you get used to it , and i do n't think it damages cards . 
+  oh , the fortysecord click , eh . . 
+  all right , did the survey and watched the video . 
+  i 'm an avid tactics fan , although lately i 've played more trpgs than advance wars-esque games , though this looks really promising and is certainly something i 'll keep an eye on . 
+  i 'm pretty sure i 'll back it if it 'll be available on a platform i have access to ( linux , web , 3ds ) . 
+  i 'm a bit late to the thread , and i have n't played it personally , but you might be interested in [ ogre battle ] ( http://en.wikipedia.org/wiki/ogre_battle ) and other [ real-time tactics ] ( http://en.wikipedia.org/wiki/real-time_tactics ) games . 
+  or map it to both esc and ctrl via [ xcape ] ( https://github.com/alols/xcape ) , since both are inconveniently positioned by default . 
+  yep , it 's common amongst all nordic countries , '' [ allemansr\u00e4tten ] ( http://en.wikipedia.org/wiki/allemansr\u00e4tten#in_the_nordic_countries ) '' . 
+  there 's also a middleground , where you point out a mistake after the turn but do n't allow it to be re-played , but rather hopefully remind them about it so that they remember in subsequent turns . 
+  that 's usually what i do when playing with someone new to a game ( and sometimes otherwise too , since i think games are more fun when they 're about the strategy rather than about remembering specific details ) . 
+  i love the colours < 3 . 
+  mind sharing the relevant config file ( xdefaults i guess ) ? 
+  is that a bullet for a prompt ? 
+  interesting choice of character ... for that matter , what does the \u00b6 to the far right of the panel signify ? 
+  oh , and what font is that ? 
+  it looks really crisp and legible . 
+  i tend to mostly look at and stick to companies rather than individual designers when it comes to how likely i am to buy a new game , though on the other time i tend to stick to somewhat niche ( and thus smaller ) companies or subsidiaries . 
+  however , sometimes when looking up a title i do recognize the name of a designer , so while i might not conciously use the information it probably still assists with judging a given title . 
+  interestingly , i think i often pay more attention to the composer 's name than the designer 's -- i tend to look up or download the ost of games whose soundtrack i find i really enjoy , and might be more likely to remember the composer 's name at a later time . 
+  coulton probably makes a good example , since if any individual has gotten a rise in popularity via portal , it 's probably him . 
+  correct , although the first ds game in the series had a subtitle that abbreviated to `` ds '' ( like pretty much every other series ' first ds game ) . 
+  oh , sweet , i was literally looking at wikipedia 's list of games by intelligent systems just yesterday , and noticed that all other of their major series have had a release recently , so i concluded that * hopefully * they 're busy working on another aw game . 
+  i guess that hit the nail on the head . 
+  thanks !, 
+  i think i 've tried envy code r before but did n't like it for some reason . . but i ca n't remember why , so i think i 'll give it a new try . 
+  gon na steal those colours too , thanks . 
+  i use [ this table ] ( http://akurasu.net/wiki/makai_senki_disgaea/specialists ) . 
+  the rest of [ the disgaea 1 page ] ( http://akurasu.net/wiki/makai_senki_disgaea ) on that site is also pretty handy . 
+  altgr and compose are different . 
+  altgr switches to the third - and fourth-level definitions keysym definitions of a key ( basically , acts like shift but for a different set , and with one set for both altgr + shift ) whereas compose works like you described .

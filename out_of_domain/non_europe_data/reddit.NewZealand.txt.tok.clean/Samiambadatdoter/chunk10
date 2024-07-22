@@ -1,0 +1,100 @@
+  this is n't a problem for ios games because ios holds a considerable chunk of market share , but for native osx desktop games , it is pretty rare . 
+  desktop gaming is almost entirely dominated by windows , and it does n't help that official apple desktops like mac pros are ridiculously expensive . 
+  i 'm not sure why my comment warranted such cheek . 
+  and i suppose microsoft is stopping them from using directx by way of directx not working on os x , or even any non-microsoft platform that is n't the dreamcast . 
+  directx is a windows-exclusive technology . 
+  necessary evil . 
+  using the proprietary nvidia drivers is the only way you can play the more demanding aaa games on linux ( not that there are many of them , but still ) . 
+  wine is only a good solution for older games . 
+  the only way you can really run games ` natively ' on linux is to gpu passthrough , but that requires a pretty big deal of technical skill , and some extra hardware . 
+  you really only need a recent uefi motherboard and an intel cpu . 
+  amd is almost wholly unsupported . 
+  graphics cards are just a matter of installing the os x drivers from their respective websites , though sli does not work . 
+  for some people its a question of philosophy rather than functionality . 
+  the free software foundation ( and the gnu project ) believe pretty heavily in it . 
+  for others , there 's also the case that chrome user-tracks quite aggressively , and some people are n't comfortable with that . 
+  yeah , i should have specified that amd cpus are wholly unsupported . 
+  apple uses amds in their mac pros , though , so their gpus are fine . 
+  that 's crazy , in my opinion . 
+  that speaks volumes of how bloated software can get these days if dual-channel 8gb is a minimum . 
+  the thing that irks me about apple is that they sell perfectly fine ( and actually rather powerful ) software that even has some unix roots , yet designs and markets it towards people who do n't know anything about computers . 
+  there are perfectly legitimate reasons to want to use os x ( such as being able to use something like bash but also have access to adobe products ) , but their target audience does n't know that . 
+  this is especially pronounced since apple turned away from ppc processors to switch to x86 , now os x and windows pretty much accomplish the same thing these days . 
+  960 minimum for that line-up ? 
+  lol , no way . 
+  the only one even remotely demanding is perhaps fallout 4 . 
+  half of those could run on an integrated chip . 
+  or if you 're on linux , have a smaller psu , or have heat problems . 
+  i 've had experience with an underpowered psu before , and that kind of error does n't line up from what happened to me . 
+  what might have happened is that this prebuilt has dust in it , or needs thermal paste re-applied to the cpu . 
+  check your temperatures when you 're playing it and see what they say . 
+  see if a manufacturer will do a deal that packages fallout 4 with a new card . 
+  there 's a few things to consider here . 
+  a difference of 400mhz is not really significant . 
+  the architecture of your cpu matters . 
+  how old is it ? 
+  newer architectures are more efficient than older ones . 
+  it also depends on how well-written fo4 is for multiple cores . 
+  i assume , though , that bethesda has something to make it run on more than two cores . 
+  if fo4 's multicore support is good , then you 'll be fine . 
+  if i were you , i would n't really worry . 
+  unless you 've got some old-ass pentium , then you should be fine . 
+  on windows , the one i 've used is speedfan . 
+  it 's lightweight enough . 
+  generally , if your temperatures are around 100c ( or more ) under load then you 've got a problem, 
+  in that case , then you 've got nothing to worry about . 
+  the recommended cpu is a 2nd generation dual-core , you 'll be sweet . 
+  the xeon to an i5 was a good move , though make sure you know why you 're getting a k series . 
+  if you 're planning to overclock , cool , keep it . 
+  if you 're not , save a few bucks by getting a non-k . 
+  i 've got slightly worse specs than that ( 960 + i5 4460 ) , but i get a pretty consistent 60 on high on bf4 and witcher 3 . 
+  probably its native package manager and its native init system . 
+  it has a degree of popularity among the anti-systemd crowd . 
+  it also was quick to integrate libressl by default , which is a big deal if you needed to use ssl and do n't want to be affected by heartbleed . 
+  libressl is also made by the same guys that did openbsd , and those guys do n't screw around . 
+  really says something when your legislation is so shady that you would want hundreds , maybe thousands of people , millions in losses , and even more people grieving so you could have a reason to push it . 
+  you wo n't get 60fps on an integrated , true , but you 're * severely * overestimating the system requirements of the games he 's talking about . 
+  they 'd hit 60fps with a 750ti , maybe even less . 
+  i hit 80fps on cs : go back when i had a gt640 and a first-gen i3 . 
+  upvoted for ubuntu . 
+  it should . 
+  i got a new motherboard and it worked for me . 
+  if you want to prepare for it completely not working , however , burn an alternate os ( like linux ) to a usb/dvd and use that in the meantime until you get another windows key . 
+  i use arch as well , i 've yet to have any compatibility issues with games . 
+  nah , your pc is going to detonate and nvidia employees will kidnap your family and eat your dog . 
+  ( nothing will happen , it 's fine ), 
+  depends , but i 'd assign some importance to the cpu as a bad cpu can totally screw you . 
+  an i5-4690 would be a good choice . 
+  perhaps make that an i5-6600k if you can get an lga 1151 motherboard . 
+  do n't go for an i3 because the expectation for high-end games is now becoming a quad-core , and do n't go for an i7 because hyperthreading is n't worth it . 
+  get the nvidia card if ;, 
+  * you 'd like to use nvidia technologies like gsync or shadowplay ( they 're more polished than the amd equivalents ), 
+  * you have a small power supply or power is otherwise an issue ( amd cards have a larger tdp , roughly an increase of  50 % compared to nvidia ), 
+  * you 're on linux ( amd drivers for their high end cards lose in performance rather drastically to nvidia ones ), 
+  otherwise , i 'd go for amd as their price/performance is a bit better . 
+  yep . 
+  but cpus can last a long time ( especially compared to gpus ) . 
+  it would be a better idea ( at least in my opinion ) to emphasize it so it does n't go obsolete before it breaks . 
+  i reckon it would be possible . 
+  new vegas ' minimum requirements are less than what you 've got , and from what i 've been able to find out on google , the integrated chip you have is about as good as an hd 4000 series ( so not very ) , but it should still be able to run . 
+  even if you ca n't run it , buy it anyway , and when you get your pc , you 'll be able to play it then . 
+  no they are n't , really . 
+  the target audience of mac has no idea what unix is , and even if they did , they would n't consider other unixes , or even other unix-likes . 
+  os x being a unix is pretty much just a side-effect of what apple chose to base their operating system on , and this is nice for enthusiasts but the target audience of apple are n't those people . 
+   say what you will about microsoft 's os but there really is n't much one can not do with a windows box . 
+  and that 's more to do with windows ' market share than any merit on microsoft 's part . 
+  windows was quite well-designed back in the day , but today it has a ton of legacy bullshit and numerous problems that other oses have fixed long ago ( such filesystem that has big problems with fragmenting ) . 
+  this is only true if you want to run thigns in the terminal and such because they use the same shell and can execute the same code . 
+  os x uses a different display manager ( quartz as opposed to x ) , though , and this means that graphical things that work in linux wo n't work in os x without some tinkering beforehand ( usually with xquartz ), 
+  if you want to do some ssh stuff or something , then there 's no practical difference , but if you want to do something like a linux de like xfce , then you ca n't . 
+  programmers are also the ones that tend to be the heaviest users . 
+  it depends on the circumstance , of course , but someone who has spent a decade creating c prorgams probably knows a shitton about computers , and i 'm not sure if anyone would want to learn c on windows . 
+  did you actually read what i said ? 
+  ntfs 's fragmentation issues are yes indeed a very big deal if you happen to be running a server or some other machine that is designed to be running all the time . 
+  there 's a reason the big businesses do n't use windows server at all . 
+  every platform comes with legacy bullshit , true , but windows is far and away the worst offender . 
+  i checked just now , and my windows folder ( the one with all the system files ) is 31gb . 
+  that 's nuts , that 's about nine times larger than how big my out-of-the-box linux install was . 
+  and i 'm definitely not sure what hardware components has to do with the os . 
+  if anything , windows has this the worst , as windows can de-genuine itself from replacing parts . 
+  this happened to a friend of mine after i replaced his graphics card and it 's particularly bothersome as he seems to think i 'm the one who de-genuined it .

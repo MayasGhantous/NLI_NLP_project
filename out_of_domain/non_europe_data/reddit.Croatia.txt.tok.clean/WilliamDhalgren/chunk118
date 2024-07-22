@@ -1,0 +1,100 @@
+  no -- training used 50gpus ; inference used all ; there are tables in the paper that give you the diferent configurations of software and hardware they tried . 
+  more hw in training just helps them train faster , and with these training times , that 's uncenessary . 
+  read on , they tried it with quite a few more , it got them around 25elo only . 
+  i said that 's a datapoint w/o using tpus ; they are n't mentioned in the paper at all . 
+  but if it was already scaling so poorly at execution time , tpus do n't explain the rather huge gain either . 
+  and they ca n't be used in training time , just inference time , since they only do 8bit integer arithmetic ; folks over at r/machinelearning commented on that . 
+  most likely , they tried different , prob deeper , neural architectures , to make it scale better . 
+  we do n't yet know which . 
+  highway networks ? 
+  inception modules and netinnet ? 
+  maybe maxout , prelu or elu units ? 
+  any dropout variants ? 
+  that seems unlikely , given how short its history is , the comparably homogenous language , far greater population mobility etc. 
+  eucd is the same thing . 
+  there are prob others too /, 
+  i 've seen conflicting opinions on the screens all the time though ; some reviewers going with vive 's , some with oculus . 
+   i struggled to do my work . 
+  i struggled to get up and eat , and often i did n't succeed . 
+  but i rarely failed , for i did n't stop trying , no matter how much my lack of success hurt, 
+  why exactly is all that bother preferable to death ? 
+  do you find death to be an undesirable state for some reason ? 
+  thinking time is meaningless for rl ; their rlnet is a pure deep learning machine , no monte carlo is then used in the nature paper to train it - so they just do inference on the network - the output is the move , the input is the position , however fast that is , that 's the thinking time . 
+  they never got a rlnet stronger than 4-5d kgs in the paper , if you look at its elo, 
+  i do think an interesting approach would be to use the old alphago , or some trimmed down monte carlo - deep learning hybrid for generating the dataset for the value network ; they know how to make those much stronger than ~ 4d , as the match vs fan hui shows . 
+  and then train the value net on that dataset . 
+  but anyhow , we 're both just guessing here on what they did to scale it - and as far as i can see the most obvious things ca n't be the whole story ( see the various objections to simple extrapolations i had in this discussion ) ; that 's the point . 
+  i really wish to know what they did , exactly . 
+  i mean , the announcement is already at the top of the sub here , submitted 12 hours ago ; why another post on it now ? 
+   discomfort is not always bad . 
+  struggle is not always bad . 
+  it is unpleasant , but it can be worth it . 
+  agreed ; depending on the payoff , may or may not be worth it . 
+  in and of itself however , any discomfort is apriori just undesirable ; it is just pure suffering of some extent after all . 
+   how can i compare no state , which i have no experience with , to a poor one . 
+  is a poor state definitely worse ? 
+  that 's debatable , though i would venture that it is preferable in itself , if not to others . 
+  why would you avoid naming it a state ? 
+  should be a state ; of the organism having died . 
+  but anyhow , nothing prob hinges on that label . 
+  is n't that just a neutral outcome then , given that it produces neither pleasure , nor displeasure , nor has any further preferences to conform or violate ? 
+  as epicurus would say , death is nothing to us . 
+  that 's why i ask ; you have suffering on the one hand , a minus , and a zero on the other hand , so the latter is the better choice . 
+  unless you either find death a negative -- which i 'd argue against , or find some positive payoff out of the suffering to compensate . 
+   neither bad nor good in itself , but very bad for those who care about me, 
+  yeah , i tend to agree with that . 
+  so the payoff making the suffering entailed in persisting in living was this -- not depressing the shit out of your loved ones ? 
+  kinda among the top reasons i 'm still around too , really . 
+  rebalansiranje godisnje say . 
+  poksavam izgooglati nabrzinu kakav video o portfolio managementu from a reputable source a da nije ubitacno dosadan i samo tangentalno relevantan ; linkam mozda in a moment , unhappy for now ... ovaj mitov je slow-going al cini mi se da solidno objasni osnovni princip https://www.youtube.com/watch?v=ywl3pq6yc54, 
+  could 've been wrong though . 
+  update :, 
+   edit . 
+  proof of principle primjer :, 
+   the services and products provided by idealing.com are available to eu residents only . 
+  if you are a non-eu resident please do not proceed with an application . 
+  hm , but for example , ergonomics has often been seen as rift 's advantage . 
+  maybe they can offer replacement headstraps for vive that narrow/remove the difference separately and bundle them with new vives too , w/o too much crying from the early adopters ? 
+  that sort of thing . . 
+  only because of their actively anticompetitive behavior , i do want the rift to die ( but unlike the op , do n't expect them to ) . 
+  another competitor coming up would be great though . 
+  osvr stepping up their game , say ? 
+   $ 30k - $ 40k is n't a rich mans toy . 
+  ford , hyundia , tesla , nissan and so many others are making cars in this cheap price range . 
+  i think to really replace the world 's car fleet , as opposed to just being competitive for the median new-car buyer in the richest countries and up , models that go down to maybe 10k $ with a reasonable battery range need to start appearing . 
+  i thought he never spoke in the books at all ? 
+   theon greyjoy had once commented that hodor did not know much , but no one could doubt that he knew his name . 
+  old nan had cackled like a hen when bran told her that , and confessed that hodor 's real name was walder . 
+  no one knew where `` hodor '' had come from , she said , but when he started saying it , they started calling him by it . 
+  it was the only word he had . 
+  where did i miss the horse thing ? 
+  could you plz provide the quote ? 
+  yeah , fair point . 
+  it was simply a `` for example '' that i 've heard on some reviews ( tested for instance ) . 
+  point was just that they might upgrade the vive in such a backwards-compatible way . 
+  i think this is the drm update working as intended , not backfiring . 
+  revive used to be able to enable hmd cross-compatibility w/o breaking the drm and hence triggering the anticircumvention provisions of the dmca/eucd . 
+  now they force it to break the drm that also protects against pirated copies , and so can comfortably release the lawyers/hounds on it . 
+  and they 'd win that battle . 
+  clearly . 
+  the question is about the circumstances in which that might happen ; besides the time travel loop version we get in the show . 
+   so hodor means `` hold the door '' . 
+  but as we know from past scene adaptations , not much else need follow how it ends up happening in the books . 
+  any theories around that , past or novel ? 
+  sure , you could ; lots of fiction deals with time travel in such a way . 
+  i 'm not a big fan of it regardless , so contemplating remaining ways out of that path . 
+  and there 's been a lot of discussion already how time travel may work in the asoiafverse in light of this episode ; that seems to be the default presumption now . 
+  i feel it is not warranted yet though , as we 've seen a fair bit of license taken by d&d with their material . 
+  so i 'm wondering if there are unexplored avenues open to the books that would n't go down this path , yet consistent with both what we know from the books and with the behind the scenes spoiler . 
+  also , i do n't think it can be the case that walder is as grown up at the time he starts hodoring in the books as he is in the show ; else some people in winterfell should still know him by his real name . 
+  unless maybe if he was completely mute before he started hodoring . 
+  further , the way old nan puts it , as far as people know it is the only word he spoke , and this is clearly not the case in the show . 
+  so there 's some indication the scenario is different , but hard to tell to what extent . 
+  maybe for example , he held the door in some events related to lyanna or something from that time , rather than bran ? 
+  or a limited time travelish version where bran had some effect but far less impactful than in the scene we got ; say the already mute simpleton stared hodoring ? 
+  idk , i 'm not great at creating theories , so i thought to ask if some speculation in such a direction , where there 's a far greater divergence between the book and show here , yet consistent with what we know , had any currency in the fandom . 
+  eh , do n't do ftl communication by misinterpreting quantum physics like that . 
+  it really is fundamental to the epr phenomena that the correlations between the particles are n't ftl communication . 
+  and there 's enough of abuse quantum wierdness gets in popular culture as a magical enabler of all kinds of woo , to at least spare hard sf from that malaise imho . 
+  yes , that 's how the universe is like in leguin 's hainish cycle . 
+  i think the development of the ftl communication 's device , the ansible is part of the plot of the dispossessed .

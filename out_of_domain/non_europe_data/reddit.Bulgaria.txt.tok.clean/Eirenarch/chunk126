@@ -1,0 +1,100 @@
+  it means you have less bugs of the type where the file is missing . 
+  that 's only graceful if you are facebook and nobody cares about a missing attachment . 
+  if you happen to lose a document in a document management system that 's totally not acceptable . 
+  far better to have worse performance . 
+  so that 's why i have lost so many games ... 
+  problem is you might actually lose data . 
+  what if the transaction fails and your database thinks the record is stored but the file is not stored for some reason . 
+  you report to the user that the record is stored successfully but you just dropped part of the data . 
+  maybe due to error you update the file id in the database to something non-existent and it is impossible to restore that relation because the information is lost even though the actual file still exists . 
+  we have foreign keys in databases for a reason . 
+  we normalize data for a reason . 
+  these things provide value . 
+  by putting files out of the database we throw away that value . 
+  it may be worth the trade off but we should not pretend that we did not lose anything . 
+  i do n't know ... 
+  i have had many more issues with files stored on the disk than with files stored in the database . 
+  in fact i started to appreciate what relation databases give us precisely when i compared projects with files with the database to projects with files on the disk . 
+  i am responding to your claim that you can somehow work around the problem . 
+  i suggest we agree to disagree based on the fact that we 've done this for some time . 
+  normally i would go on but in this buried thread chances are other people ca n't benefit from the discussion , 
+  in this day and age `` my mouse has a virus '' is not something we use to make fun of people who are not computer savvy . 
+  i do not have one . 
+  i am disagreeing with the assertion that you can achieve referential integrity in other ways . 
+  basically you have to sacrifice it , do more testing and debug more when there are errors . 
+  why ? 
+  you rarely need it and in cases where you need it you can easily achieve it with goto . 
+  it makes sense to have the behavior used less often have somewhat heavier syntax . 
+  pattern matching !, 
+  i think you mean [ hiring ] not [ for hire ], 
+  like [ pattern matching ] ( http://msdn.microsoft.com/en-us/library/dd547125.aspx ), 
+  syntactic support for tuples would be nice too . 
+  yes . 
+  you did n't know c # could goto ? 
+  for switch statement fall-through ? 
+  also break/continue outer loop from an inner loop and a couple of others that would result in a worse code otherwise . 
+  and yes i do realize that you can do the loop thing with return more often than not but there are still cases where using goto results in cleaner code . 
+  yeah i guess you never use break , continue , throw and return ( except at the end of the method ) . 
+  i mean they are like a cd skipping , 
+  reddit represents the elitist sc2 community interested in high level competitive play and `` skill '' ( in our community we use `` skill '' to denote ability to macro ) . 
+  i am absolutely certain that if you sample at random people who played more than 1 game in multiplayer you will find out that most people love steppes of war . 
+  also if everyone hates it why do you think everyone is certain that it will end up in the pool ? 
+  you chose a great title for your thread !, 
+  so informative . 
+  yeah because we determine who `` deserves '' to be at blizzcon not by looking at the points they gained but by our subjective feelings . 
+  no , but he deserves to go the most . 
+  i mean i have a picture with hyun and i have seen him play live . 
+  hyun made me spend much more time and money on starcraft than kespa pros . 
+  as i see it hyun is much more beneficial to starcraft in general . 
+  just for the record i am not a big fan of hyun and i have pictures with most of the pros that attended the event where i took a picture with hyun . 
+  my point is that being close to the community and improving the general quality of tournaments around the world is more important than improving the very top of the scene . 
+  is n't the answer obvious ? 
+  i did n't . 
+  if it was n't half the world away i would attend . 
+  for obvious reasons i am more hyped about a dreamhack that i can attend for a weekend than for 1000 maps played over 8 months that i can only watch online . 
+  no , i am saying that i support rewarding players who make the scene stronger even if they are not the absolute best . 
+  hyun plays in wcs na . 
+  as i said i am not even a fan of hyun and we are only talking about hyun because this is who happens to be on top of the points chart . 
+  by definition hyun has shown high quality starcraft at more places around the world than any other player . 
+  there are no players in na and korea that have developed the scene more because if there were they would have more wcs points . 
+  the region is irrelevant . 
+  btw i watch the gsl religiously and have seen every game since it started years ago and have been paying an ad-free subscription . 
+  i do n't put nearly as much time in wcs eu . 
+  because this is the reason wcs exists . 
+  in the context of wcs this is obviously correct and represented in the way points are distributed . 
+  in fact they are going to take it even further with much stronger region lock ( which i do not support ) . 
+  i wish i never saw these either . 
+  i always downvote them . 
+  a + = b ; is just a = a + b ; a = null + b ; makes perfect sense to me . 
+  it works the same way for nullable value types and strings . 
+  this really is not true . 
+  technically event is exactly the same as the underlying delegate field . 
+  in fact the keyword event does not denote a special construct like get/set for properties or the parameter list for methods . 
+  event is just an access modifier like public , private and protected . 
+  why do you need this if you have goto ? 
+  no , just no !, 
+  the query syntax is much better than the regular syntax . 
+  i actively go around the project and change the lambda versions to the more readable query syntax . 
+  try expressing a query that uses let with lambda syntax and see what happens . 
+  that may be true but this is surely not gotos problem . 
+  i have seen people break out of inner loops with flags and ifs and what not because they have heard that goto is bad and they thought they somehow improved the situation by introducing all that crappy code . 
+  you do realize that goto is in the top 10 of most popular assembly instructions for any program do you ? 
+  every loop you write contains a goto when compiled . 
+  so basically you think it is a problem that + = and - = are not atomic ? 
+  but they are not for integers and strings too . 
+  i do n't see how the removal of var would make developers write the interface they are using rather than the actual type . 
+  anonymous method syntax which is totally unnecessary in the presence of lambdas . 
+  also array covariance . 
+  knowing that it is pretty obvious that it is ok for the compiler to use goto . 
+  maybe i misunderstood your comment about what is allowed to the compiler . 
+  as far as i know event does not generate any code of that kind unless you use the add and remove keywords . 
+  the event keyword simply restricts how the delegate can be accessed . 
+  while it is true that it adds metadata it does not add any functionality on top of a public delegate field . 
+  hmm that 's strange . 
+  probably they decided to do it for interoperability purposes with other languages that do not have event construct . 
+  what is inconsistent about the int example ? 
+  why ? 
+  it seems to me that the code is practically the same . 
+  the goto version is even more robust than double break because it will still be correct if for some reason one of a serious of loops is refactored away . 
+  of course you could have break label ; like java but i do not see the difference with goto . 
+  because of the semantics of the + operator in the different cases .

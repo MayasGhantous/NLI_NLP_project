@@ -1,0 +1,100 @@
+  case needs_attention :, 
+  flashledyellow ( ) ;, 
+  break ;, 
+  case too_high :, 
+  flashledred ( ) ;, 
+  break ;, 
+  case dangerous :, 
+  break ;, 
+  / / either delay or go to sleep if you have a timer to wake you up, 
+  perhaps ? 
+  look at some existing mills ( like [ shapeoko 3 ] ( http://www.shapeoko.com/wiki/index.php/shapeoko_3 ) , ) and use what they are using ... , 
+  perhaps it tries to compile as c ? 
+  try ` typedef enum { ... } inputcategory ; ` instead . 
+  ... or ask your gramps if he still has the old ball mouse somewhere around ... 
+  at some point the returned value of millis ( ) is high enough that your first cast always returns the same value , it happens to have reminder less than 2 ... 
+  do n't use floats , they are ** not ** the same as the real numbers . 
+  there 's no reason why it could n't be done with arduino , but the cheapo phone is probably a cheaper/easier alternative . 
+  wait !, 
+  if noone is allowed to go there , how can they be called cities ? 
+  does n't `` city '' mean a place where people live ? 
+  you mean `` subjecting them to the dictates of third parties '' part ? 
+  really ? 
+  who would have thought !, 
+  you seem to be a follower of `` change something randomly and see if it works '' school of programming . 
+  which , from the mathematical perspective , is guaranteed to work ... although you might not get it working before the thermal death of the universe , 
+  if your code `` was working before '' there was nothing wrong with the code itself - get it back to the state in which it was working and check the hardware . 
+  arguably , the most heavily guarded borders are those of north korea ... 
+  they must be , like , totally free , dude ... 
+   do you even logic , bro ? 
+  do you ? 
+   if the borders are shut tight , it does n't mean it 's free society . 
+  but if it 's free society , you can bet your ass the borders are going to be shut tight . 
+  is that your argument ? 
+  so , you do n't believe the freedom of movement is part of the concept of liberty ? 
+  how can you `` close the borders to the third world '' without affecting the inhabitants of `` not the third world ? '', 
+  so , basically , since the government severely curtails our freedoms , we need the government to curtail them even more to protect us from the government curtailing our freedoms even more ? 
+  you mean the definition of liberty is requiring massah 's permit to cross the imaginary line ? 
+  and , no , the comparison with a private property is not valid , unless you agree with the notion we are all massah 's property ... 
+  the only difference between yours and a genuine arduino is the usb chip - instead of ftdi it uses ch340 . 
+  as / u/joongle said , you just need to install a driver and everything else should be the same . 
+   are most sensors that work with arduino going to work with a pic ? 
+  yes . 
+  [ like this ? 
+  ] ( http://hackaday.com/2013/08/21/ultrasonic-anemometer-for-an-absurdly-accurate-weather-station/ ), 
+  thanks . 
+  that was enlightening . 
+   no , i mean every somali . 
+  oh , so you managed to ask every single one of them ? 
+  that 's how it worked - 2 wheel encoders moved by the ball ... 
+   97 % of climate scientists, 
+  '' ... the survey says ... '', 
+   whenever i see a lew rockwell link , i do n't even bother to read the article . 
+  yeah , it could trigger severe cognitive dissonance ... / s, 
+   the responding sergeant demonstrated a level of intelligent restraint that is to be commended, 
+  yeah , he did n't execute the dude on the spot . 
+  even if ( hypothetically ) they can not develop skills , they still develop a work history , making it easier for them to find a better paying job . 
+  but we are its enemies . 
+  it should n't be directly involved . 
+  but it should n't prohibit volunteers going there or donating the money . 
+   as it is her property , she can allow anyone inside it at her leisure , and show them the door whenever she decides . 
+  does it mean that if i invite you on my yacht for the cross-ocean trip , i can change my mind in the middle of the ocean on throw you overboard ? 
+  you are assuming there would be not enough volunteers/donations . 
+  but if americans were not willing to get involved , what gives the bunch of politicians the right to send their sons and their money there ? 
+   i have n't entertained these delusions since hs . 
+  you mean the indoctrination did work !, 
+   this kind of shit is unacceptable in a democracy, 
+  by the very definition of democracy , everything the majority approves of is acceptable ( if not mandatory . ), 
+   catch their 11 year old daughter legally prostituting herself to buy heroin, 
+  you 'd rather have her illegally prostituting herself to buy heroin and go to jail ? 
+  so , what are other options ? 
+  and what system guarantees that ? 
+   why should artificial entities created by the us and state governments have any loyalty to the us ? 
+  why indeed . 
+  they are supposed to have `` loyalty '' solely to their shareholders . 
+  the moral of this story ? 
+  `` do n't bring a hatchet to the gun fight ! '', 
+  _ i 'll see myself out ... _, 
+   these things are genuinely a hazard and need to be either removed from the market or ( as much as this pains me to say ) the faa needs to step in . 
+  kinda like birds , eh ... 
+  the state makes the risk real , in anarchy is her choice to do drugs or not , up to parents to raise her well . 
+  btw , since heroin is very cheap to produce , she would n't need to prostitute herself ... 
+  yeah , so ? 
+  nobody ever said anarchy will end all problems ... 
+   next step, 
+  probably the simplest one is getting the atmelstudio . 
+  it 's free , it works with ( almost ) all atmel mcs and you can just move easily from arduino to , say , atmega328 , making the transition virtually painless . 
+   anyways , to make things simple the goal is to divide the voltage from arduino pin with the correct resistance to achieve 20ma or 0.02 a. 
+  that 's , kinda , simplification ... still good enough for most hobbyists . 
+  but if you want to be precise you should consider [ led 's forward voltage drop ] ( http://dangerousprototypes.com/docs/basic_light_emitting_diode_guide#voltage_drop_or_forward_voltage ), 
+  should work . 
+  the biggest problem you can run into is they tend to shut off after a few seconds when there 's not enough current draw . 
+  with your setup , if you are transmitting often enough , it will probably work - no other way than just trying and seeing what happens ... , 
+   i could totally nix the relays, 
+  yup . 
+  because the government causes more problems ( and does n't solve any , anyways . ), 
+   it only has 64kkib of ram . 
+  ... and 512k of flash ... 
+  well , if the government can not solve more problems than anarchy , what are you paying ( through the nose ) for ? 
+   i did not say bloodletting can not cure more diseases than antibiotics , i said nobody ever said bloodletting would cure more diseases than antibiotics . 
+  whether it can or not we do not know as antibiotics have never even been tried .

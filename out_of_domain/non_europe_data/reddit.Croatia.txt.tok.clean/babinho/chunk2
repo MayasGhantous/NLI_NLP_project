@@ -1,0 +1,100 @@
+  my `` fitness '' riding is relaxing , even if i push myself to the limit every time , i feel like i 'm on the top of the world when i come home and enjoy a cold one on the balcony , 
+  and i really do n't do it for the fitness , i just want to ride ... 
+  probably the best way would be to equip yourself with some offroad mud tires , the stock ones on my mountain bike worked really well on the snow . 
+  and as you probably have a road bike , hence the 28mm tires , the best option then would be some cyclocross ones , but i 'm not really sure that they come in the 700x28 size , i have seen only x35 's at my lbs . 
+  oh yes , avoid ice ... 
+  edit : conti gator skins or 4 seasons are the best choice i see in the 28mm range . 
+  you are probably best off with a cheap mountain bike , the winter is not so long . 
+  minimagick works perfectly for me on my work win7 x64 computer i use it with paperclip , for image uploads . 
+  31 , m , whatever , croatia, 
+  you must generate some kind of a unique token on the user model , for the email activation purposes , call it email_activation_token, 
+  also , add a active field and default it to false . 
+  after account creation , generate the auth token and send it in an email . 
+  make it a link :, 
+  ` http://example.com/users/activate_email/jhg32j1h3j1hg33j12h`, 
+  where ` jhg32j1h3j1hg33j12h ` is the generated token, 
+  you will need a route in your config/routes . rb file, 
+  get `` users/activate _ email / : token '' , to : `` users #activate _ email '' , as : `` activate_email '', 
+  you will need a controller action that does the email activation , something on the users controller will do, 
+  user = user.find _ by_email_activation_token ( params [ : token ] ), 
+  if user, 
+  user.activate !, 
+  redirect_to root_url , notice : `` user activated '', 
+  else, 
+  redirect_to root_url , error : `` user not found '', 
+  end, 
+  end, 
+  on the user model you will need the activate !, 
+  method to handle the activation and clear the email_activation_token field , as you do n't want it filled after the account is active . 
+  self.active = true, 
+  self.email _ activation_token = nil, 
+  end, 
+  end, 
+  yes , this is a great idea , and make the token valid for 48 hours or something like that . 
+  people ( bots ? ), 
+  will try to brute force almost everything , just one glance on any server log shows very funny and ingenious requests . 
+  i find devise too big , and had to customize it on almost all projects i worked on , sometimes that is too much of a hassle , and sometimes you have a legacy auth system you are bound to and create a wrapper around it . 
+  there are also ` lighter ' options out there , like clearance , authlogic or sorcery that the op can use . 
+  i do rails freelancing full time , and have some upcoming availability , eu based . 
+  i would say the rspec book is great if you want to learn bdd/tdd . 
+  not to get into testing framework wars , but it teaches you how to develop an app using a test first approach . 
+  also take a look at destroy all software podcasts , as gary bernhardt test drives everything he writes , although he does n't produce them anymore , there are 90 to choose from , and they are all great . 
+  i remember that [ workingwithrails ] ( http://www.workingwithrails.com/ ) was an ok `` directory '' of rails developers . 
+  also you can try / r/forhire like / u/deedubaya suggested . 
+  or go on elance/odesk/whatever and look for developers there . 
+  or you can always hire some of the big consulting firms to do the project , and train your developers later on . 
+  do you have some automated way to branch the database along with the code ? 
+  and can you please share it if it 's not a problem . 
+  i tried using [ hookup ] ( https://github.com/tpope/hookup ) but never did get used to the workflow . 
+  yes , i do n't remember why i stopped using that though . 
+  take a look at https://github.com/bobbytables/table_cloth as it is a great table helper which can help you . 
+  in your case , http://pastebin.com/z5cpv0g9 this should do the trick, 
+  edit : to provide some context . 
+  it is fairly easy to abstract views like this , and you can include local variables for differences in data inside the views . 
+  and a side note , do n't try to abstract everything as you are writing it , that will take too much time , make a solution , make it twice , when you make it the same , or very similar the third time , then think about abstracting it . 
+  i have done one adult labeled project using http://www.netbilling.com/ in the past , i think they were in the adult industry before ( maybe still are ) . 
+  you can try pinging them . 
+  no ruby/rails integration , you have to write the api wrapper yourself , but they do support monthly subscriptions that the project required . 
+  edit : i really , really wanted to go with something different , but the client insisted on this gateway . 
+  so , not an advertisement of any kind , their api is yuck , 
+  it 's very easy and fast to make a viable product in rails , and host it for free on heroku . 
+  if i remember correctly , hashrocket , one of the largerst rails consultancies had an offer where they build your 1.0 version in 3 days ( later it was 2-3 weeks ) . 
+  that is blazingly fast , and you can see if your product is viable/marketable/profitable in a fraction of time than it takes you to build it in a `` super fast enterprise '' technology . 
+  if you do it correctly , and use monitoring tools , you can optimise the app when you see it 's fit for it , and only the parts that need it . 
+  feature x is slow , optimise it in ruby , and if you really really ca n't , write a service in go , or clojure , or `` put_language_here '' , and connect to it from your rails app . 
+  boom , now your slowest thing is your fastest one . 
+  rinse and repeat . 
+  i have used active admin and rails admin , and i would recommend [ rails admin ] ( https://github.com/sferik/rails_admin ) if you want a plug and play solution , where all forms and everything comes out of the box . 
+  active admin required a bit of configuration via their dsl , but the last time i used it was in 2011 so something could have changed since then . 
+  oh man , why would you recommend apex , are you some kind of a sadist or something ? 
+  joking aside , i 've seen some fairly unskilled people making acceptable crud apps in apex , luckily it only supports oracle databases so it does n't get used in the open much , governments and enterprise mostly , 
+  this , a thousand times . 
+  but mastering all those things will only help you later on with _ insert language or framework _ development . 
+  learn good oo and application design principles , and try to keep up with the changing technology . 
+  as no one want ' t to be a senior vb6 developer these days , because the technology is deprecated . 
+  but i know some senior vb6 devs who can handle almost any technology and requirement , just because they have experience building real applications , for real , sometimes very demanding , clients . 
+  naruci si sampler kit , evo ti jedan ebay store odakle ja narucujem zilete/sapune : http://stores.ebay.co.uk/turkish-general-market?_rdc=1, 
+  obavezno se subscribeaj na / r/wicked _ edge, 
+  evo ti de kit suggestions , pa prosurfaj . 
+  i am not a lawyer , or an accountant , but i do own a small consulting company in croatia . 
+  the vat stuff all depends on the tax laws where your company resides . 
+  generally you only have to calculate and invoice vat if you are selling something to a business in your own country . 
+  if your company is in let 's say croatia like mine , and you are invoicing a business client in germany , the vat is exempt if you list their vat id on the invoice . 
+  if you are invoicing a person then the vat should be calculated , either by their countries rate , or by your own , but i 'm not 100 % sure how it works , as i have n't worked with private customers , i could ask my accountant though . 
+  if my company is buying services from abroad , i have to pay vat for it in my country , but as it is most probably a justifiable business expense , it written off as soon as it is calculated , so except from a couple lines in your accounting software , yo do n't pay anything . 
+  i have n't had any issues with buying stuff from us companies ( various subscriptions , dns , hosting ) , and no one of them is listing the vat especially for me , some of them wo n't even list my vat number on the invoice , as they do n't allow additional data on their invoice . 
+  amazon delivers to individuals , not business entities . 
+  so they need to pay the vat somewhere ( in luxembourg right now , because it 's the smallest ), 
+  b2b invoicing between eu conutries is done without vat , i for example just need to put your valid vat-id on my invoice , and then the vat is exempt . 
+  if you are importing goods/service from another country , you need to calculate it because you are importing those services , or goods , but you automatically get it back in full amount . 
+  also if i am doing any business in my country of residence , i have to calculate the vat and pay that amount to my tax office , even if the customer has n't paid my invoice . 
+  source : business owner working across eu borders , and outside of eu, 
+  just server rendered erb , with a flavour of js.erb remote rendered templates and jquery calls . 
+  i 've been looking for an excuse to use ember.js in production for at least 6 months , but i could n't find it yet . 
+  definitely go this way . 
+  i 've used heroku pg : pull and pg : push a lot of times . 
+  you can even use it to easily debug some weird issues locally , which happen only on production data , and are not reproducible on your dev env . 
+  cached article if you ca n't reach it https://webcache.googleusercontent.com/search?q=cache:http://www.copyblogger.com/market-freelance-business/, 
+  writing sql is not bad , it optimizes a lot of things that might or might not be achievable with ar but could be much slower with ar . 
+  and you also should n't be afraid to leverage some of the db only work to the db , because , it 's mostly a very good machine , with enough ram and it 's a shame you are using more of the wrong resources ( app server ) and less of the right ones for the job ( db server ) . 
+  es is not trivial to set up , but when you do you will have less load on your db , and blazing fast text searching , with probably any possible algorithm you can imagine .

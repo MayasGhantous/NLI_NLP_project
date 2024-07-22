@@ -1,0 +1,100 @@
+  my friend just did [ this ] ( http://battlelog.battlefield.com/bf3/user/karx99/ ) , [ battlelog ] ( http://battlelog.battlefield.com/bf3/battlereport/show/25920950/1/285518928/ ) . 
+  service stars beats kits . 
+  he prepared for it for two weeks , got 134k exp from the round . 
+  well . . the producer of close quarters claims the close quarters will go for cs . 
+  i do n't even have a service star on 50 weapons . 
+  i just spent ~ 100 euros on 5 books . 
+  not easily attainable . 
+  sergeant fred colon and nobby nobbs, 
+  well . . 
+  isreal certainly participates on eurovision . 
+  and also in bf3 it 's in europe . 
+  we 'll need cool geography teachers . 
+  atoms are not discrete . 
+  the elementary particles are not `` solid '' , you should rather imagine them as clouds with density varying according to wave function . 
+  quantum physics is crazy , but very precisely verified . 
+  now that tf2 heroes are covered . . ready set go dota 2, 
+  i hated the battery life on the logitech g700 and the charger cable was too rigid for my taste . 
+  the g700 lasted for a good 6 months before it fell from table and damaged it 's middle click . 
+  i 'm much happier with a g500 , but i liked the side buttons on g700 better . 
+  mac has its uses . 
+  sadly gaming is not one of them :(, 
+  atheism is a norm in northen europe but we still go to church during christmas . 
+  it 's because we respect our cultural heritage . 
+  finish it . 
+  now . 
+  i watched the presentation in the morning . 
+  i think they avoided saying it out , they were all like `` we found a new particle , the name of which i forgot '' . 
+  i think the confidence based on mass alone was something like 2 sigma . 
+  the combination of multiple properties pushed the probability to 5 sigma . 
+  all the articles show an old man who predicted the particle . 
+  but he did it back in 60 ' , fifty years ago . 
+  i wonder how old was he then ? 
+  i young student who did n't really understand what he was after ? 
+  this is very unlike how windows 7 got it 's name . 
+  look how other play on http://www.joindota.com to the hang of it . 
+  tobi is an excellent caster and keeps it simple . 
+  he 's right . 
+  you pay for used material , not for whole volume tho . 
+  do you really think that all those people from around the world consider themselves to be ethnic and consider you to be normal ? 
+  it actually does n't . 
+  it executes the dx setup , which checks if files are already available or not . 
+  if you already have a dx available it does not install a new one . 
+  v1lat was almost in tears , when the chanting bagan . 
+  getting crowd support for your team so far from home feels good . 
+  has happened to me , it ca n't be fixed . 
+  what 's the latency on wireless adapter ? 
+  what cad ? 
+  windows 7 is better for switching between apps . 
+  for solidworks you 'll want more ram , and pro grade video card . 
+  the drivers of consumer cards are intentionally nerfed so that even low-end quadro or firegl card can outperform a high end gaming card . 
+  you do n't want to overclock your workstation , so k series cpu is not needed . 
+  also , you might want one of those 3d cad mouses . 
+  looks like a gaming build to me . 
+  some solidworks benchmarks are here : http://www.solidworks.com/sw/support/shareyourscore.htm, 
+  did you connect the extra power connectors to the graphics card ? 
+  ignore everything i said . 
+  workstations are poor gaming rigs . 
+  same with 27 '' monitor up close, 
+  a ) rod will keep accelerating until it achieves terminal speed . 
+  b ) portals do n't work on moving surfaces . 
+  c ) rod will die . 
+  in northen europe it 's illegal to drive on the fast lane except for passing . 
+  no no no no no !, 
+  start with black , then red , yellow , green , blue and white like the colors on a rainbow . 
+  the rainbow is black on the outside and white inside ( darker/lighter due transparency ) . 
+  i have found some lower level tools ( such as command line xcopy ) to work faster . 
+  i once even wrote my own copy utility with large ram buffer , that was way faster than windows copy . 
+  you 're underestimating how bad the integrated graphics are . 
+  the 9800pro would be a worthy upgrade to the x4500 on the mobo . 
+  source : http://www.tomshardware.com/reviews/gaming-graphics-card-review,3107-7.html, 
+  ips is perfectly good for gaming , even pro gaming . 
+  i believe valve used dell ips monitors in the international 2 . 
+  i was participating this conference in istanbul in 2009 . 
+  one of the attendees gave a presentation on topic of those ground effect planes . 
+  i think the russians started a new project with intent to build a new generation of those planes . 
+  i think i still have the cd with conference proceedings , maybe i find something . 
+  nope . 
+  no problems . 
+  check your keyboard , remove the windows key to be sure . 
+  there 's youtube live . 
+  i have done some programming on heterogeneous hardware and have got a fairly good idea what 's this about . 
+  the way cpus are programmed and the way gpus are programmed differ significantly . 
+  the gpus , in fact , are so hard to program that only a tiny minority of the software developers know how to do it efficiently . 
+  heck , most of the programmers do n't even know how to use multiple cpu cores efficiently , let alone 1000 + gpu cores . 
+  even the ones who know how to program gpus only accelerate a few of the program functions ( out of hundreds ) . 
+  amd strives to make the gpu programming easier . 
+  they work towards making the gpu cores look more like cpu cores , this is just one step in their long term strategy . 
+  if their plan comes together the gpu cores will be so easy to program they will be used in every application . 
+  this specific step is about shared memory . 
+  imagine you have excel sheet with a row of numbers ( say a billion numbers ) , and you want to sum them all . 
+  currently if you do it in cpu you 'll just take the numbers one by one and sum them . 
+  on a gpu with 1000 cores you could divide the numbers into 1000 parts ( million numbers each ) , find a sum of each part and finally sum the resulting 1000 numbers . 
+  since summation is associative , you can do that . 
+  now , in order to actually do that on gpu you 'll have to extract the billion numbers from excel and download them into gpu memory ( the operation is so slow it wo n't be worth if you only have a million numbers ) . 
+  then you execute the special program you wrote for gpu and finally upload the results . 
+  only if you start doing it you 'll discover that a billion numbers do n't fit into gpu memory , so you 'll divide the numbers into patches of 100 million each and do the summation in patches . 
+  it is complicated enough if you just have to sum a bunch of numbers , but it gets crazy fast if you have to do something actually useful on gpus . 
+  the uniform memory access eliminates all of that uploading/downloading mess . 
+  i 'll just point my gpu program to the excel sheet and it will do the summation for me . 
+  sometime in the future the programming languages will be improved so there wo n't be a separate gpu program any more , just the normal program that is much faster and much more energy efficient .

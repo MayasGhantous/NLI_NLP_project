@@ -1,0 +1,100 @@
+  it wo n't be loud , but you can hear how they sound this way . 
+   i thought about bypassing the rectifier inside the speaker box ,, 
+  transformer, 
+   but the speakers alone are less than 1ohm impedance . 
+  is that the manufacturer 's specification , or did you measure it ? 
+  because at the terminals , at dc you 'll be measuring the transformer 's primary coil resistance , not the speaker 's impedance . 
+  so yes , this can be a viable option if it has a regular speaker with a step-down transformer , not a true 70v speaker . 
+  that 's a bit on the low side . 
+  you could try it with the transformer detached , but only if your amp is guaranteed to work with 4 ohm speakers . 
+  even then it 's possible , that it 'll overload your amp , so also make sure it has short circuit / overcurrent protection . 
+  it 's just benchmarking network roundtrip times to some known addresses . 
+  that wo n't help much . 
+  you also have to keep them from becoming rich . 
+  of course you hear an improvement , you paid a bunch for it . 
+  it 's easy to hear the difference even between power cables in a sighted test . 
+  warmth comes from any light , uv , visible , or infrared . 
+  it 's that objects at temperatures below 4000k will emit light mostly in the infrared range , that 's why it 's called heat radiation . 
+  symmetric clipping will add even order harmonics as long as the input is a pure sine wave . 
+  asymmetric clipping will add both even and odd order harmonics . 
+  music however is not a symmetric waveform , so in any circuit distortion will add both even and odd order harmonics , but really mostly intermodulation products that sound bad either way . 
+  i did n't get too far before losing it either . 
+  stay away from t-home if there are other possibilities . 
+  it 's the most expensive landline internet provider for absolutely no reason . 
+  i know that linux computers normally do n't have to be rebooted often , but do n't forget that an android/linux computer has a completely different userspace than a usual gnu/linux box , and sometimes some major lockups happen . 
+  there should be no issues . 
+  think more like 2009 . ncmpcpp ( the music player in the bottom right ) got the spectrum analyser effect in version 0.4 which was released in april 2009 . 
+  yeah , it 's fine until the feds show up at your parents ' house . 
+  why convert to microsoft wav ? 
+  sox infile.flac outfile.ogg, 
+  simple as that . 
+  ffmpeg - i infile.flac outfile.ogg, 
+  although recently avconv from the libav-tools packade is preferred to ffmpeg . 
+  any time when you are connecting pieces of equipment that do n't have balanced connectors on either sides , refer to [ rane 's application note # 110 ] ( http://www.rane.com/note110.html ) to minimise interference in your system . 
+  tl ; dr : buy a balancing transformer , or make a special cable . 
+  your case is similar to # 17 on the picture on the site ( [ here ] ( http://www.rane.com/n110fig4b.gif ) ) . 
+  you 'll have to make a cable that connects pin 2 of the left xlr to the tip of the jack , pin 2 of the right xlr to the ring , pin 3 on both xlr 's to the sleeve , and pin 1 on both to the cable shield without connecting it at the other end . 
+  they all sound the same pretty much . 
+  all i see is gear , and no mention of the room . 
+  if you do n't want to setup a soundproofed vocal booth , you 'll need a dead quiet room with no fans , machines , noisy electronics , and it has to be far away from busy streets if you want a quality recording . 
+  this means you 'll need a pretty long usb/xlr cable to have your interface/mic next to you while positioning the pc as far from yourself as possible . 
+  remote controlling the session with a mobile device is n't nearly as difficult as you 'd think , just setup ` vnc ` or some other approrpriate server and connect to the pc using wifi . 
+   not sure of the reasoning behind the ink , actually . 
+  you start . 
+  with white , which is a mixture of red green , and blue . 
+  cyan removes red , yellow removes blue , magenta removes green from the white , so when you mix magenta and yellow , you 'll get a red tint , because that 's what 's left after removing blue and green . 
+  there are three kinds of cone cells in the human eye . 
+  one 's that 's most sensitive for red light , one for green , and one for blue . 
+  they need to have some things left for hdmi 2.1 - otherwise how would our expensive 2 month old equipment become obsolete ? 
+  wow , it 's crazy what passes as an audiophile master these days . 
+  there are a range of things you can do to optimize the filesystem performance on flash media . 
+  partition misalignment is something that often harms performance because of bad defaults expecting hard drives . 
+  you have to make sure that your filesystem starts at the beginning of an erase block basically . 
+  the debian wiki has a good list of possible ways to tune your system for an ssd : https://wiki.debian.org/ssdoptimization, 
+  do n't use ` dd ` , either use rsync or a tar-pipe ( ` tar - cf - / mnt/hdd | tar - c / mnt/ssd - xpf - ` ) , cp might not preserve permissions and special files ,, 
+  lame will encode a mono mp3 stream with up to 640kb/s cbr using the ` -- freeformat ` option . 
+  lame -- freeformat - b 640 inmono.wav wtf.mp3, 
+  libavcodec-based players ( vlc and others ) will play these files back , but it will not play back on most decoders , especially in hardware . 
+  huh ? 
+  what the hell does the guitar have to do with nazi classical theory ? 
+  your guitar 's first few frets are sharp because the intonation 's off , not at the bridge , but at the nut . 
+  either it 's too high for your string gauge , or too far away from the first fret . 
+  it 's the other way around . 
+  precisely . 
+   if i use 10s but tune a half step down does that make them feel like 9s ? 
+  it will * play * almost exactly the same if the tensions are the same , but it will have a different sound - a g at the fifth fret will sound different than the same g played at the sixth fret , because the neck will vibrate differently . 
+  though a set of .01 in strings tuned a half step down will still be about 20 % more tense then a .009 in set tuned standard . 
+  tune it down a whole step and they 'll be in the same ballpark . 
+  there 's the ` file ` program on * nix that 'll tell you , in a verbose manner , the type of the file you give it as an argument , irregardless of its file extension . 
+  example :, 
+  $ file test.mp3, 
+  test.mp3 : , 48 khz , jntstereo, 
+  $ file calendarexport.ics, 
+  calendarexport.ics : html document , utf-8 unicode text , with very long lines , with crlf , lf line terminators, 
+  $ file jmk.doc, 
+  jmk.doc : composite document file v2 document , little endian , os : windows , version 6.0 , code page : 1250 , title : xx , author : xx , template : normal , last saved by : xx , revision number : 4 , name of creating application : microsoft office word , total editing time : 2d +03:32:00 , last printed : fri feb 22 11:29:00 2008 , create time/date : fri jan 4 12:57:00 2013 , last saved time/date : sun jan 6 16:30:00 2013 , number of pages : 6 , number of words : 1711 , number of characters : 11808 , security : 0, 
+  the best way to do that would be if you did n't get outer space sound effects , unless you bought the upgrade at a shipyard . 
+  what is this i do n't even, 
+  replace amtlib.dll, 
+  [ relevant xkcd ] ( http://xkcd.com/488/ ), 
+  have you tried booting to fastboot ( power + volume up ) ? 
+  you can then flash the recovery image by running ` fastboot flash recovery recovery.img `, 
+  relevant song, 
+  depends on what your purpose is with the vpn . 
+  if you want to anonymize yourself because you 're a whistleblower/journalist , logging into services you use everyday will compromise your anonimity , keep that in mind . 
+  it sends them via audio . 
+  the chirping sounds transmit data , though not a lot . 
+  speakers on mobile devices are incapable of transmitting sounds outside the frequency range audible to humans . 
+  software updates wo n't fix your issue , you have a hardware fault . 
+  a row/column becoming unresponsive is a problem that happens sometimes with capacitive touchscreens . 
+  the connecting cable or the electrode is physically damaged . 
+  stereo music is normally mastered in a way that summing to mono will not cause significant phase errors . 
+  there are only few exceptions , like binaural records . 
+  maybe there actually exists some process that does this automatically , but it 's unlikely to be available for general use computers . 
+  i expect to find it only in specialised broadcast processors . 
+  well implemented balanced connections will break ground loops , so use them whenever possible . 
+  cables designed for balanced connections have the signal and return wires twisted tightly , so any interference will add onto them in approximately equal amounts . 
+  this will make the added noise to be common mode , so the balanced input will subtract it from the signal . 
+  stereo cables normally have straight signal wires instead . 
+  this is n't something that will matter at a meter length though . 
+  maybe you will , maybe you wo n't .

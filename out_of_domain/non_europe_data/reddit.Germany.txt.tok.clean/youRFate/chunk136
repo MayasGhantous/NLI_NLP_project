@@ -1,0 +1,100 @@
+  non redditors would think it 's a typo ( r is close to f ) . 
+  this is inspired by the discussion about the reddit handsign . 
+  edit : gl hr seems to be the most appreciated version . 
+  i decided to do something with all that redstone and my redstone lab which i built sometime but almost never used . 
+  so i built a [ combination door lock ] ( http://www.abload.de/img/javaw2010-10-2018-00-4axem.png ) . 
+  because i figured my center would be too small i started on top of it . 
+  ** function : **, 
+  the lock is operated via [ 6 buttons ] ( http://www.abload.de/img/javaw2010-10-2018-00-24aks.png ) :, 
+  * 4 buttons for the combination, 
+  * 1 button to confirm, 
+  * 1 button for reset, 
+  you have 4 buttons and have to enter the correct combination , eg . 
+  button 1 is pressed , 2 is unpressed , 4 & 5 are pressed . 
+  then you hit the confirm button and if your combination was right the door will be open until you hit the reset button ( which will later be replaced by a pressure plate ) . 
+  the lock does not care in which order you pressed the 4 combination keys , it only checks if the correct ones are activated . 
+  ** technical info : **, 
+  the system uses normal stone buttons for input , which is saved in a nor latch after each button . 
+  [ the latches are on tho of the building , 2x2 stacked above each other ] ( http://www.abload.de/img/javaw2010-10-2018-00-00x2r.png ), 
+  those nor latches are connected to a boolean logic inside the building which determines if your input is correct and if yes sends a logic-high to the roof . 
+  here the circuit form inside the building is connected to he confirmation switch via a simple and gate . 
+  the confirmed signal is then fed into a fifth nor latch which opens and holds the door . 
+  the reset switch is connected to all five nor latches and resets them . 
+  ** application : **, 
+  if this might work in smp sometime , i would build a obsidian shack with metal door and code lock . 
+  ** additional info : **, 
+  i hope my imagehoster does not suck at your location . 
+  if it does , let me know and i will upload them to imgur aswell ... 
+  this is some pretty basic setup and was done in singelpayer without mcredstonesim , so it basically is a bit messy . 
+  i set the game to peacefull for the time i built this , took me about an hour . 
+  [ image gallery ] ( http://www.abload.de/gallery.php?key=unlbxoyt ), 
+  feel free to ask whatever you want , 
+  also credits to the maker of the [ painterly skinpack ] ( http://painterlypack.net/ ) which i use , i think it looks awesome . 
+  hi , i just bought magicka vietnam via steam and now want to host it , but i do n't find the option to do so . 
+  i have already played the standart game through ... 
+  <th first header </th, 
+  <th second header </th, 
+  <td content cell </td, 
+  <td content cell </td, 
+  <td content cell </td, 
+  <td content cell </td, 
+  | first header | second header |, 
+  | content cell | content cell |, 
+  | content cell | content cell |, 
+  it 's a comedy movie , i 've seen the trailer a while back on yt , but ca n't remember the title , i want to know if it 's out yet ... 
+  add me : http://steamcommunity.com/profiles/76561197974083653/, 
+  we just tried to do story mode ascalonian catacombs , but we all go put in separate instances . 
+  i think this might have something to do with the partly broken party system ... 
+  hi , i 'm looking for a new board . 
+  i 'm 175cm ( ~ 5.7 ft ) tall and weight about 75kg ( ~ 165lb ) . 
+  my old board is a pretty basic cc 157cm board . 
+  since i have pretty big feet ( eu45 , us11 ) and i 'm using a flow rear-entry binding which is quite large my feet extend over the old board on both edges . 
+  i 'm a experienced all-mountain rider . 
+  from what i 've learned i should look for a wide board with a standard camber of about 165cm length . 
+  i 've so far come up with the [ nitro magnum ] ( http://nitrousa.com/de/board/magnum ) or the [ nitro team wide ] ( http://nitrousa.com/de/board/team-series-wide ) . 
+  they both fall in my target price range of about 300 $ -450 $ ( ~ 380 $ -575 $ ) . 
+  so far i 've mostly looked into nitro boards , since that is what most people i 've talked to recommend . 
+  what would you suggest ? 
+  i just got my new [ nitro thief ] ( http://nitrousa.com/board/thief ) board . 
+  before this i 've mostly ridden cheap ( er ) beginner boards . 
+  since i do n't want to damage my precious new ride i have a few questions :, 
+  i read that boards with a sintered base need to be waxed more often than the boards i used before and that i should use hot wax . 
+  but do i have to wax the board before my first season or can i use it out-of-the-box ? 
+  the base feels nice and smooth . 
+  ** storage **, 
+  i store it without bindings in the cellar , where it has about 16-18 \u00b0 c the whole year , is that ok ? 
+  ** edge protection **, 
+  the edges on the tip and tail of my old board are pretty fucked , mostly from handling . 
+  should i get a snowboard edge protector or do they cause any problems ? 
+  me and a bunch of friends have recently started to play planetside 2 . 
+  yesterday we decided to try a few rounds of liberator . 
+  we immediately liked the aircraft and i bought a few upgrades . 
+  after discovering we should not take that rather slow moving thing directly to the heat of battle we managed to keep them alive for about half an hour , doing some high altitude bombing . 
+  but we felt we were not being all that effective , as we only got a couple of kills each time . 
+  we were mostly shelling smaller bases and outposts that were being attacked by small enemy squads . 
+  the m60 bulldog was really effective against infantry squads from high altitude , but we also want to destroy tanks . 
+  we have not yet figured out the right way to approach enemy tanks , since the ap30 shredder gun does just about nothing from that range . 
+  should we swoop down on hostile armor , in order to use the front gun on approach and the shredder when we passed over the tank , or do we first need different arms in order to deal with tanks at all ? 
+  should we ever even leave the high altitude that keeps us relatively save from ground fire ? 
+  * tactic for approaching tanks ? 
+  * what to unlock next ( already have m60 bulldog and a bit of self repair ) ? 
+  * how to efficiently make use of the ap30 shredder ? 
+  * general role of the liberator on the battlefield, 
+  i 'm using a mysn xmg5 laptop ( `` old '' mtw-edition ) which is a clevo m860tu chassis . 
+  the keyboard has an [ ingenious layout ] ( http://i5.minus.com/ip6sgxrh8xkg9.jpg ) where the `` pos1 '' ( home ) and `` ende '' ( end ) keys are placed directly adjacent to the enter key , thus enabling me to reach them with my pinky . 
+  also the function keys are nicely close . 
+  the keys themselves are the best laptop keys i 've ever used . 
+  the layout is based on eu german layouts . 
+  is that layout in any way common or is it a custom masterpiece ? 
+  i 've stumbled upon [ fedora electronics lab ] ( http://spins.fedoraproject.org/fel/ ) and i 'll probably give it a try next week . 
+  it 's a linux distribution that includes full open source tool chains for eda . 
+  has anyone used it , or has other experience in eda on * nix systems ? 
+  hi , a friend of mine would like to order a nexus 4 , but google play says it 's sold out . 
+  is there any information on when we will be able to place an order ? 
+  i currently have a 5 year old set of flow bindings . 
+  i liked them when i started riding , but they are pretty worn out and i think i want to get `` normal '' bindings ( as opposed to rear entry ) . 
+  i have fairly big feet ( eu 45 / us 12 ) . 
+  i 've heard union bindings are supposedly good , and i can get union force bindings relatively cheap ( 150 $ / $ 200 ) . 
+  my board is a 161 cm nitro thief . 
+  hi , i 'd love to have a cherry [ kc001 ] ( http://imgur.com/r/all/gko43 ) keypuller / keychain , but i have not found any retailers yet . 
+  is there a way to buy them in europe ( germany ) ?

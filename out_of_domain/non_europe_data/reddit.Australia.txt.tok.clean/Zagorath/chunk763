@@ -1,0 +1,100 @@
+  the silmarillion truly * is * an epic . 
+  outside of the lord of the rings and the hobbit , it 's certainly the most well-known story set in e\u00e4 , and it 's far more of an `` epic '' than even the lord of the rings . 
+  it 's quite literally biblical in its proportion . 
+  in some ways , it almost is like the bible of arda and middle-earth in particular . 
+  you say that as if it was n't . 
+  the movies gave closure to saruman and grima , too , they just did it in a different place : at isengard , near the beginning of the third film . 
+  to me , the biggest problem with not including the scouring of the shire is that in the novel , that scene is really important . 
+  especially for merry and pippin , it demonstrates the development they 've gone through over the course of the previous 6 books . 
+  it shows how they 've grown up and become capable warriors and leaders . 
+  for merry and pippin in the films , there 's a lack of closure to the way their characters developed . 
+  now , i understand that this was done because in the films they decided to focus primarily on the a story ( frodo taking the ring to mordor ) with the b story as a secondary focus ( aragorn 's ascension to king ) , because too much more would have been difficult to do right in 12 hours of film . 
+  including the scouring would have required more than * just * adding in the scouring . 
+  it would have required further development to merry and pippin throughout the rest of the movies in order for scouring to * make sense * . 
+  and i still consider the lord of the rings one of the most faithful adaptations of any film in terms of its tone and its theme . 
+  but it still would have been nice to see the scouring of the shire done . 
+  oh , that 's very interesting . 
+  i was too young when the films came out to have read the books , or even to remember watching the films at the time . 
+  so i had no idea which other books were or were not out at the time . 
+  very interesting to know that he explicitly capitalised on the films by publishing children after they came out . 
+  happy cake day , savanna . 
+  as far as i 'm aware , they only own the rights to the lord of the rings and the hobbit . 
+  the entire point of this conversation is that christopher refuses to entertain any thoughts of selling the rights to his father 's other works in e\u00e4 , like children of hurin and the silmarillion . 
+  it 's also where they got all of the non-hobbity stuff in the hobbit movies . 
+  i do n't know which `` outside the us '' you 're in , but i 've only ever once had to take an apple product to be repaired . 
+  it was in vietnam , where there are no ( or at least , were at the time no ) actual apple stores . 
+  there are , however , apple authorised ( 3rd party ) retailers and authorised repair shops . 
+  i took it to one of those , and my computer was repaired free of charge under apple care . 
+  actual apple stores may be difficult to come by ( existing in only 16 countries , according to my googling ) , but apple authorised places certainly are not . 
+  apple and microsoft * love * each other these days . 
+  microsoft had a pride-of-place spot in apple 's most recent announcement , demonstrating office for ipad on the new 12 inch ipad . 
+  `` nice try , google ceo '' would have been a better fit , these days , or samsung ceo . 
+   the closure they gave to saruman and grima was a `` oh they are trapped in their tower '', 
+  huh ? 
+  saruman was talking with aragorn , theoden , and gandalf ( with the former at the top of isengard , and the rest at the bottom -- not sure how they were supposed to hear each other , but that 's neither here nor there ... magic , i guess ) . 
+  during the conversation , grima ended up stabbing saruman , and legolas fired an arrow and shot grima . 
+  saruman fell off the tower , and his palantir fell out of his robes , which is how pippin came to pick it up . 
+  in the novel , for what it 's worth , grima did n't run off never to be seen again . 
+  he was killed by the hobbits in much the same way legolas killed him in the films . 
+  not with passwords . 
+  you can use a hash of a file to verify that the file was downloaded correctly , which may be what you 're thinking of . 
+  this comment is gon na go in to a fair amount of technical detail , but you can see the bottom for a tl ; dr. 
+  the way most courses cover password security is to start with the obvious : you have usernames and passwords stored in a database . 
+  seems good enough , right ? 
+  in theory , the database should be inaccessible to anyone not already authorised ( the owner of the phone , in this case , or the webmaster if it 's a website ) . 
+  but , of course , we know that things can be hacked , and if they are , if the password is stored in plain text , they now have the information they want . 
+  easy . 
+  so , the teacher of the course usually follows up , what 's the next step ? 
+  a logical step would be to `` encrypt '' the password . 
+  a fine idea , to be sure . 
+  encryption works by using a key to encrypt it : the result of this is what looks like pseudo-random noise . 
+  you can use a key ( either the same one , or a different one , depending on the type of encryption -- if you were doing it with passwords , it would logically be symmetric encryption , which uses the same password to encrypt and decrypt ) to decrypt that noise and get the plain text back . 
+  but here lies the problem . 
+  any system which uses encryption needs to be able to both encrypt and decrypt the password for it to work . 
+  so somewhere in the database , or at least somewhere reachable by the database , needs to have the key stored . 
+  and the problem with that is the same as above . 
+  if the system gets hacked , the key is very likely to be lost , too . 
+  so this system is very slightly better than just storing plaintext , but not very much . 
+  the next step is hashing . 
+  when you hash something , you take an input of any length , and output a fixed-length pseudo-random value . 
+  for any given input , the hash is always exactly the same . 
+  the way hashes are designed , an attempt is made to make it as hard as possible for someone to deliberately create a `` hash collision '' , which is where two different values hash to the same value . 
+  hash collisions will always exist , because you can take an infinite variety of inputs , and produce a very limited range of outputs . 
+  the aim is just to make it infeasible for someone to * deliberately * manufacture a collision between two inputs . 
+  because the same input always produces the same output , you can take a password and hash it , then store that . 
+  when the user attempts to log in , you hash what they entered , and compare it to the stored hash . 
+  it works just as effectively as storing the plaintext . 
+  but now , if the database is hacked , all they get is pseudo-random nonsense , and not the actual password . 
+  to use that for something useful , they would have to use brute force to find either the password , or a different value that hashes to the same value as the password ( a collision ) . 
+  in theory , this is hard to do . 
+  but because * good * hashing algorithms are hard to make , most companies/products use the same well-known ones . 
+  this , combined with the fact that people tend to be predictable with their passwords , means that attackers have pre-computed `` rainbow tables '' that let them quickly search for the password that matches a given hash . 
+  so , the next ( and final ) stage is called `` salting '' . 
+  instead of hashing the password , you first add some randomly generated text to the password , and then hash the result of that . 
+  you store both the random text ( so that you can get the same hash when comparing it later ) and the end hash result . 
+  this means that you get the advantages of using a hash as above , but you also remove the ability for hackers to use rainbow tables . 
+  now , the * only * option is for them to brute force on a case-by-case basis . 
+  it does n't matter that they also get the salt , because they 're still going to need to brute force the result . 
+  interestingly , the fact that good security involves hashing ( which is a one-way process , you * can not * get from a hash back to a password without doing a lot of work to brute force it ) means that a website should not be able to tell you what your password is . 
+  password resetting is okay , but they should never send you a message telling you what it * currently * is . 
+  ** tl ; dr ** no , hashes are the industry standard way of storing `` passwords '' in a secure manner . 
+  storing salted hashes rather than passwords means even if you get your database hacked , it 's unlikely anyone can actually access any users ' accounts . 
+  i would certainly appreciate the gesture . 
+  i get terrified any time i run past dogs because i 'm afraid they could attack . 
+  even if you 've got them on a leash , i 'd honestly recommend pulling them as far off to the other side of the path as possible . 
+  yeah , i really do n't like dogs . 
+  if the same had happened to me , i probably woulda taken a swing at them , and i feel no shame in saying that . 
+  if a dog owner ca n't stop their dogs from threatening people , frankly they deserve whatever they get . 
+  if the dogs had been any larger , i 'd like to * think * i 'd take a swing , but i 'd probably be too scared to and would just quicken my pace ( which i * know * on an intellectual level is the worst thing to do -- it gets the dog 's chase instincts going -- but instincts are a bitch ) to get away from them . 
+  yeah , english lit . 
+  it was for examination in may 2012 . 
+  i do n't remember which text was for which section of the course , though . 
+  hedda gabler 's a nice text because it 's ibsen , and as far as i 'm aware has more or less the same properties that make a doll 's house good , without actually being `` a doll 's house '' , which , as you noted in another comment , is extremely heavily covered , which can get repetitive . 
+  sort of like the relation between the crucible and death of a salesman . 
+  we did the sorrow of war , i suspect , because the school was an international school located in vietnam , and they wanted to do something by a vietnamese author . 
+  the war stuff was great for us specifically , because we covered a lot of war poetry in english as a major topic in year 9 ( before the two-year igcse course that we did preceding ib ) , and also in year 9 the two world wars were the biggest focus in history classes . 
+  i believe the world wars were also covered in our school 's igcse history classes , though i did n't take it so i do n't know for sure . 
+  so for us , the idea of doing war poetry , and of studying novels related to themes of war , was very familiar and comfortable . 
+  fwiw gatsby is a very american text . 
+  not being american or having gone to an american school , i 've never heard of someone who 's actually studied it . 
+  it 's much like mark twain 's works , in this respect .

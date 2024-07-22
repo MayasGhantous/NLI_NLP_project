@@ -1,0 +1,100 @@
+  the revision number does not appear , but you can search by date . 
+  if you want something more summarized i tend to write a rundown of important changes since the last push every time i push to the workshop : http://steamcommunity.com/sharedfiles/filedetails/changelog/299974223, 
+  hope that helps !, 
+  done : https://swconquest.github.io/, 
+  thanks !, 
+  also , even if it says ' _ final _ ' on the tin this is just final in the sense that is the last _ big _ , _ standalone _ release . 
+  a ' _ foundation _ ' of sorts . 
+  we still want to keep it updated with continuous patching . 
+  in the same way tld is permanently stuck at 3.3 but has received more cumulative updates than ever before in these latest three years through nightlies . 
+  it 's just another way of developing software , more continuous but smaller updates every now and then . 
+  instead of the traditional file dumps ( if any ! ), 
+  after every five years of radio silence typical in the modding scene . 
+  ( which is unrealistic and exhausting for everybody ), 
+  so , yeah . 
+  be it in the workshop of through https://swconquest.github.io , stay tuned for the upcoming nightlies . 
+  step by step this will get stabler , prettier and more polished with every revision we publish . 
+  the html version of the game ... nah . 
+  where did you see that ? 
+  we have n't made any official guide yet . 
+  probably the best way of getting acquainted with it is just watching some _ let 's play _ on youtube . 
+  we are a pretty popular choice for this kind of series . 
+  swc still shares most gameplay mechanics with vanilla m&b , but has a layer of rework over it . 
+  like ship customization in shipyards , the addition of several races , force powers , tweaked faction balance and expanded player faction choices . 
+  if you post in our workshop forum people will be able to help you . 
+  eventually someone will probably put a decent manual together . 
+  ( just keep in mind that owning a minor planet and building structures opens you many new recruitment options , some of them ... 
+  _ unexpected _ . ), 
+  yes , it is . 
+  now officially released and available for those that do n't use steam . 
+  here is the _ change notes _ tab : http://steamcommunity.com/sharedfiles/filedetails/changelog/742671195, 
+  i plan to push them to our twitter feed ( [ @swconquest ] ( https://twitter.com/swconquest ) ) soon . 
+  thanks for the compliments !, 
+  they should be identical . 
+  in our case the same buildbot prepares and ships them into the different targets at the same time . 
+  pretty handy !, 
+  it 's a good way of limiting human error , releasing the right files is always tricky and stressful . 
+  no one likes to download subtly broken stuff , so i let the robots do all the work . 
+  publishing to the workshop manually is unreliable has a lot of pitfalls , so i understand why many do n't bother :, 
+  * multiplayer mods have to be moved/renamed to work online , losing any subsequent workshop benefit . 
+  * ` mbw_uploader . exe ` is just buggy as hell and crashes if you do n't provide all the arguments . 
+  * there 's a whitelist of allowed file types . 
+  you can not ship things like ` . pdf ` files , ` . glsl ` shaders and such . 
+  * custom shaders are broken for mac when using the workshop . 
+  the game is buggy in that platform . 
+  * no upload progress , you do n't know if the thing is locked up or doing things until it exits . 
+  on the other hand you have :, 
+  * automatic updates with integrated community and ratings , high visibility if your mod is good . 
+  * little overlap between people at taleworlds forums and the ones using steam , double your audience . 
+  * extremely small and efficient downloads ( 30 % of the uncompressed mod size in our case ) , as your mod internally uses steampipe depots just like any other steam game . 
+  like what ? 
+  what ? 
+  the game textures are stored in compressed dxt1/5 dds files . 
+  that 's a standard format used by directx9 games . 
+  what do you mean with ` optimize ' ? 
+  reducing the texture size , their individual rgba channels and using the proper mipmap levels automatically ? 
+  as a rule of thumb you can do :, 
+  * _ solid textures ( rgb ) _ : dxt1 with mipmaps . 
+  * _ transparent textures ( rgba ) _ : dxt5 with mipmaps . 
+  * _ normal maps _ : dxt3 or 5 , depending on the quality , with mips . 
+  * _ 2d/ui elements _ : dxt5/uncompressed , precomputed alpha , no mipmaps . 
+  experiment a bit with their sizes ; a dxt5 texture is double the size of a dxt1 but less blocky . 
+  dxt3 looks bad and is a little bigger than dxt1 . 
+  so it 's your call . 
+  good points , i appreciate your honesty . 
+  it still needs a bit of polishment . 
+  then the models they are using are n't well optimized with proper geometry and levels of detail . 
+  almost no one likes to make less detailed versions of their models for when they are looked at from afar , they are regarded almost like an afterthought when it should be an integral part of the process , doing them feels like a chore and no one is going to pat in you the back for it . 
+  still , carefully made lods improve gpu performance , as they are vital to avoid stalling the pipeline ( and something i tend to do in the games i work on ) . 
+  even if requires a knowledgeable modeler or technical artist with a decimating tool , a bunch of weeks and some luck . 
+  the problem is that 3d artists normally do n't have performance problems in their machines . 
+  tell whoever made the modpack you are using , making them for one person is a waste of time . 
+  yes . 
+  you can buy a new ship in the shipyards and upgrade their components for some extra credits . 
+  improving things like your speed , radar and cargo . 
+  do you even aspect ratio ? 
+  you do the branching directly in the gpu by using a single , big-ass recursive state machine that contains all the programmable states ( and blending modes ) of the original hardware instead of cobbling together an individual , personalized glsl shader string in the cpu for every type of configuration and having to keep generating them at runtime , switching every little shader back and forth every frame ( which is less cache-friendly and makes everything a bit more ` janky ' ) . 
+  __ tl ; dr __ : one big versatile monolithic piece of gpu code instead of having to make many little custom tailored ones on the fly that get swapped all the time . 
+  the game gives a texture to the emulator , the emulator marks it with an uniquely identifying number that takes into account format , size and contents ( a ' _ signature _ ' , or ' _ hash _ ' ) . 
+  if the user wants it the emulator can dump that image somewhere so that it can be used as a base for mods , but this is often slow . 
+  then the emulator tries to load an user-supplied image with that signature as filename ( normally part of what is known as a ' _ texture pack _ ' ) . 
+  if there 's a match during gameplay then just makes use of the replacement every time the original texture is needed . 
+  easy peasy !, 
+  i do n't think so , unless your driving instructor can double as interpreter . 
+  and at the current price you probably wo n't want to try out and pay again if the dgt staff says no . 
+  the exam is hard enough and already borderline stressful for natives . 
+  putting language barriers in the mix looks nuts to me . 
+  the driving exam in the usa is child 's play compared with our own . 
+  um , you are wrong . 
+  core resources do n't need a line in ` module.ini ` , if there 's a ` core _ * . brf ` file in your mod 's _ resources _ folder then the original _ commonres _ version just gets overridden . 
+  this feature was added later in warband after we nagged taleworlds for years and does n't use mod directives . 
+  extreme effect customization allowing the emulation of other systems in very few passes and allowing technical artists to bend the rules to offer new heights in graphic fidelity without being constrained to a few predefined lighting and blending modes . 
+  you like water in games ? 
+  that is a hard thing for the fixed function pipeline . 
+  you can actually use _ `` estoy hambriento '' _ , _ `` estoy sediento '' _ and _ `` estoy somnoliento '' _ as a more literal translation of _ being [ something ] ( at the moment ) _ . 
+  probably an early untextured and t-posed mono character used for size/height reference when modeling arches and entrances , as nomad showed in one of his videos . 
+  they probably meant to use the forbidden garden in the end cinematic from the start . 
+  so it 's safe to say that these are leftovers no one bothered with in the middle of production . 
+  that the garden is connected with the main hall of the shrine through a gaping hole from where the mysterious voice talks is enough proof that they knew very well how to lay out the place and how to use it . 
+  *** note *** : the t-pose is ( usually ) the original resting position of an humanoid 3d model , and how is initially modeled by the artists before giving it an skeleton and bending its vertices with animations . 
+  i think it has more to do with how caucasian males have enjoyed a more privileged status since antiquity and how we are - recently as a society - trying to balance it out by taking race and gender out of the equation so that other people can reach positions that were denied to those demographics merely fifty years ago .

@@ -1,0 +1,100 @@
+  so , yes . 
+  it is asking you to reflect about any possible lifestyle differences when compared against yours , if there 's any . 
+  if there 's none , just explain why . 
+  put at least one example . 
+  i did read quite a bit of the genre when i was a bit younger . 
+  probably the most prolific young adult fantasy writer is [ laura gallego ] ( http://www.lauragallego.com/libros/ ) , i remember reading _ finis mundi _ ( which is set in medieval spain ) , _ memorias de idh\u00fan _ ( almost a must-read for local high school students ) , and the first book of _ cr\u00f3nicas de la torre _ . 
+  i would n't call them groundbreaking , just standard archetypic epic fantasy . 
+  it 's pretty accessible and entertaining for young readers , though . 
+  if you want something more mature and realistic , you have [ carlos ruiz zaf\u00f3n ] ( http://www.carlosruizzafon.co.uk/ ) and his excellent novels _ marina _ and _ las luces de septiembre _ . 
+  i really like these books , this writer really knows how to create compelling , dark and mysterious fantastic elements ( gothic and decadent bourgeoisie , excellent landscapes worthy of the romantic period , wild nature reclaiming back its space ... quiet , abandoned historical places of otherworldly beauty amidst the busy city ) and intermix them with day-to-day reality and well-portrayed characters bound by ( subtly ) deep and meaningful relationships . 
+  has subtle hints of psychological horror , but is otherwise fine for the young adult demographic . 
+  it 's used in the exact same sense than `` dammit ! '' . 
+  sounds pretty mild to me . 
+  well , it 's always neat to see others speak your native language . 
+  if you are n't smug or annoying about it there should be no problem . 
+  a exception is failing to read the context , or forcing the situation when your communication skills are n't up to par , or if the other person is busy/unwilling to drag it out , or if there 's people waiting behind . 
+  but that 's just basic , universal common courtesy . 
+  we 're usually patient with tourists and their shenanigans . 
+  i guess you are talking about something like '' _ not me , but all of us ! _ '' , as in replying negatively a question about individual issues , directing it as a common problem that needs a wide systemic backing for solution . 
+  that would be '' _ \u00a1 no yo , todos ! _ '' , or '' _ \u00a1 yo no , todos ! _ '' . 
+  whatever floats your boat . 
+  comma placement is important , though . 
+  _ e.g _ :, 
+  well , let 's just say that you wo n't find a lot of support for things like this outside / r/andalucia . 
+  flamenco is pretty frowned upon by spaniards , as it embodies the backwards cultural exports of a dictatorial , religious and conservative spain that only promoted stupidly regional bullfighting , sevillanas and flamenco . 
+  you may think that we are overreacting , but the amount of clueless tourism that followed all those false cliches is still going on strong today . 
+  spain is a culturally rich , old and diverse country with many different languages and traditions . 
+  boiling down all that into plastic bull figures cheapens our culture . 
+  i personally think flamenco sucks pretty badly , i do n't see the appeal . 
+  people who like it usually do n't understand a word of the ( culturally and content-devoid ) unintelligible love shrieks _ bailaores _ make . 
+  that is precisely the problem , even today andalucia capitalizes on this kind of ignorant cliches to improve their regional tourism , they promote francoist culture hurting the rest of spain in the process . 
+   # nationalism, 
+  franco 's spanish nationalism promoted a unitary national identity by repressing spain 's cultural diversity . 
+  bullfighting and flamenco [ 39 ] were promoted as national traditions , while those traditions not considered spanish were suppressed . 
+  franco 's view of spanish tradition was somewhat artificial and arbitrary : while some regional traditions were suppressed , flamenco , an andalusian tradition , was considered part of a larger , national identity . 
+  all cultural activities were subject to censorship , and many were forbidden entirely , often in an erratic manner . 
+  this cultural policy relaxed over time , most notably in the late 1960s and early 1970s . 
+  read this : https://en.wikipedia.org/wiki/francoist_spain#nationalism, 
+  that is why this kind of shenanigans are considered a tourist trap by locals . 
+  seriously , do n't fall for it . 
+  hopefully the faster pace and shorter merge windows will make the project more robust and structured . 
+  it was about time , releases were constantly delayed in a cat-and-mouse game of regressions and feature creep . 
+  first one translates very well if you rephrase it a bit less literally :, 
+   sensational , that 's what carter seemed to think when he courageously and patiently awaited for 20 minutes until the scavenger finally spread its wings , allowing him to get [ take ] his impactful photo . 
+  second one does n't look like correct spanish to me , but here 's my interpretation :, 
+   these children are so malnourished that they pass out , making them look apparently dead . 
+  vultures are common [ around here ] , and mistake them for food . 
+  third one is the easiest one :, 
+   and , in this case , the photo conveys a faithful portrait of the real sudan . 
+  viewers receive a very visceral dose [ reminder ] of the daily [ bloody ] vicious horrors that take place in this country [ occur daily in this place ] . 
+  feel free to use the alternates . 
+  i thought giving varied examples would help . 
+  remember that a good translator never translates word-for-word . 
+  the rigged head model probably switched to a wrong animation with wonky matrices . 
+  you can see how it first morphs/interpolates into a neutral pose and after that it [ just inflates every bone against the camera projection with some shearing ] (, 
+  http://webglfundamentals.org/webgl/resources/f-translation-rotation-scale.svg ) . 
+  [ something like this ] ( http://webglfundamentals.org/webgl/lessons/webgl-2d-matrices.html ) . 
+  it 's pretty clear that they separate body kinematics from the head controller . 
+  but yeah , spooky stuff . 
+  that explanation is almost identical to this comment i made 2 months ago , image included :, 
+  the emulator is basically a big re-implemented ps3 framework with a cpu interpreter that isolates the game in its own little world . 
+  relaying back and forth messages that the game expects but ultimately does n't know where they come from . 
+  a bit like having a translator telling you what the blindfolded client is doing ( and saying ) so that you can feed her the right food . 
+  she just wants to eat something that resembles her favorite food to be happy , without caring if she stays in a different restaurant altogether , as long as the recipe is more of the same . 
+  the outcome may not be 100 % similar , but if you have previously spied and documented the client while she eats in her original restaurant you already know the most common ingredients and how to prepare them so that she does n't grumble too much . 
+  the game talks with the framework , to which , in turn , a normal console talks with the underlying hardware . 
+  there 's no direct contact between the silicon and the game . 
+  rpcs3 can skip most of what the game does n't directly need to function and concentrate on making ( functional , equivalent , reliable _ and fast _ ) compatible copies of the most used sdk functions that games use ( 3d graphics , video , sound decoding , network , gamepad input , ... ) . 
+  those re-implemented functions can be directly plugged in the other side to interact with your computer , instead of having to pass through a complete simulation of what goes inside of the real ps3 silicon ( which is hard to do and slow ) . 
+  most games get away by using the barely minimum functions to stay cross-platform . 
+  that 's why while still having lots of missing pieces in the puzzle there are many games that already work . 
+  [ interpreted game code ] < -  ps3 framework modules < -  original hardware, 
+  the home screen , being a first-party software and more intrinsically linked to the physical hardware , chips and kernel than a normal game is probably the most complex thing to accomplish here . 
+  like dolphin , it will be one of the last pieces of the ps3 you will see emulated . 
+  long after every other game runs reasonably well in your pc . 
+  in emulation lingo this is commonly called hle . 
+  there 's a wikipedia article for it :, 
+  _ ps : _ reddit is my blog . 
+  probably using the embedded free-look camera mode in dolphin . 
+  enable it at _ config  advanced  free look _ . 
+  hover over the checkbox to see its description . 
+  moving the camera boils down to using _ wasd _ while keeping pressed _ shift _ . 
+  it 's also pretty neat to see what 's behind the curtain , you find all kinds of interesting ( normally hidden ) leftovers . 
+  it 's pretty easy , the game gives the following information to the emulated graphics card so that it can draw the final image :, 
+  * 3d points in the virtual space ( with an x , y and z coordinate ) . 
+  * how those points connect with each other to form triangles ( think of [ connect the dots ] ( https://en.wikipedia.org/wiki/connect_the_dots ) ) . 
+  * the flat images used to paint those triangles ( ' _ textures _ ' in lingo ) . 
+  * which part of each image is used in each triangle . 
+  once the emulator has all that stuff it can just ignore whatever limitations the original game had and draw the scene just like any other pc game , there 's no complexity or hackiness involved . 
+  you do n't have to reconstruct missing data out of nowhere ( like in those hacks correcting the psx wobbliness or adding depth to 2d games ) all the info is already there . 
+  polygons are inherently scalable vectors and you can just display them with as many pixels you want . 
+  if you have the points you can just make them farther apart and connect them with smooth lines . 
+  that 's the beauty of having control of each stage of the process . 
+  ** ps : ** while you can render mario 64 polygons at 4k their textures _ are _ limited by their original size . 
+  you can not add detail from nothing , just attempt to mitigate their blockiness by using fancy ways of stretching the pixels . 
+  ** tl ; dr ** : polygons = scalable vectors , textures = blocky and blurry . 
+  obenkyo , hands down : https://play.google.com/store/apps/details?id=com.obenkyo, 
+  it 's also completely free and really addicting . 
+  bundles tae kim 's grammar lessons , srs , various tests types ( kana , numbers , kanji , vocabulary ) , a very encouraging way of showing progress and selecting objectives , dictionary and stroke order recognition into a single offline app . 
+  at first i just wanted a fun , challenging pastime , so i started to learn kana .

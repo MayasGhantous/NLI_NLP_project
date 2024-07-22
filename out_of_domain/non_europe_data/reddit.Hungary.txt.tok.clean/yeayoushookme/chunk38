@@ -1,0 +1,100 @@
+  now do it in gimp . 
+  you have to remember that percieved quality is the square of bitrate . 
+  the 59 % increase in file size therefore increased the quality by 152 % , or in audio terms , 8 decibels !, 
+  you 'll have to do this with every file you have to get the maximum out of your system , especially if you have a fancy power cable . 
+  a $ 300 power cable for your pc is minimum . 
+  i boot from a gpt ssd on a bios machine . 
+  i have the ` bios_grub ` flag set , but i do n't know whether it 's necessary or not . 
+  mount the drive with the sync option . 
+  that should protect against data loss most of the time . 
+  ~ ~ or mount it read only if possible ~ ~ . 
+  it depends on your program . 
+  if you 're frequently updating on-disk data , then it might reduce its life expectancy , because normally , many intermediate writes would be updated in memory before being written to the flash . 
+  with sync , data spends much less time in the queue , so there is less chance to merge operations . 
+  if you use it like a tape recorder , it wo n't matter . 
+  of inexpensive disks ? 
+  better be clear . 
+  why ? 
+  is it bad ? 
+  yes , it 's bad . 
+  you 'll wear through the battery in less than a year if this keeps up . 
+  what is going on in there ? 
+  edit : maybe consider seeding linux distros on your desktop computer ` mkay ? 
+  yes and no . 
+  you do n't subtract , you divide by ( 1 , 7/5 , 1 ) . 
+  it 's the same hardware . 
+  if it is connected to a widescreen display , then * bam * , your nas becomes a htpc . 
+  you saying that our ears are more accurate than a 24 bit adc ? 
+  you turn the audio plug into a bigass antenna by doing just that . 
+  this is exactly why wires are shielded . 
+  now if any new release had dynamic range that would justify using 24bit files , that would be great . 
+  music is compressed to a lifeless pulp nowadays . 
+  compression will bring up the noise floor , which means that less bits are needed to perfecty represent the input signal . 
+  i 'm talking about 14 , maybe 12 bits . 
+  everyone should try this : take a song that does n't satisfy my old man taste ( i 'm 27 ) , take [ sox ] ( http://sox.sourceforge.net/main/homepage ) , and use it to decimate the bottom 2-6 bits of the track . 
+  sox is smart enough to use dither where appropriate . 
+  try to compare the resulting track to the original , hearing any difference will be very , very hard, 
+  sox music.flac - b 16 temp.flac vol 0.25, 
+  sox temp.flac - d 14bit . flac vol 4, 
+  this will leave 14 effective bits in the file . 
+  repeat with ` vol 0.0625 ` and ` vol 16 ` to get a file with12 bits of dynamic range . 
+  edit : added ` - d ` to disable dithering when shifting left, 
+  as much as i hate proprietary programs , foobar2000 is a damn nice work , with nothing coming even remotely close on linux . 
+  or , you can take a good advice and stay as far away from hp as possible . 
+  confusing . 
+  * where 's the private key you 're trying to authenticate with ? 
+  * is the private key encrypted with a passphrase ? 
+  rsaauthentication is to be used with ssh protocol version 1 . 
+  you should use version 2 , and pubkey based authentication depends on the pubkeyauthentication config line . 
+  it seems to me that you have two computers that you 're trying to connect with , and a third , the server . 
+  you should ideally generate separate private/public keypairs for both clients , and append the public keys ( normally in ~ / . ssh/id _ rsa.pub on the clients ) to the ~ / ssh/authorized _ keys file on the machine that you want to connect to . 
+  there 's the ` ssh-copy-id ` script that should do the part where you append the public key to the allowed keys list automatically , but of course it requires password auth to be enabled . 
+  after turning off password authentication you still have to reload ( iow . 
+  send a sighup ) , or restart the ssh daemon for the change to take effect . 
+  it also supports all kinds of lossy compression formats . 
+  are you sure the sshd is reading the proper config file ? 
+  you ca n't really remove it , but wind noise consists mostly of low frequency rumble , so highpassing should remove most , but not all of it . 
+  use a windscreen next time . 
+  i recently had to use word after half a decade of using latex . 
+  good riddance , how can people put up with that crap ? 
+  it does everything wrong , it just keeps working against your will , even after forcing you to do the most basic things manually . 
+  the chinese stand ( or rather squat ) on toilets . 
+  * spoiler alert !, 
+  ` winetricks dlls list ` says there 's a dotnet45 package within the libraries . 
+  i 'd start with that . 
+  replace * dotnet40 * with * dotnet45 * in that line which is in the wiki to install it . 
+  i recommend to use a graphical frontend to manage your wineprefixes . 
+  playonlinux makes life a lot simpler imo . 
+  you ca n't install linux on an ntfs partition . 
+  use the ubuntu installer to delete that volume and format it to a proper unix filesystem , like ext4 . 
+  maybe it 's old ? 
+  what does ` winetricks - v ` say ? 
+  this is mine :, 
+  $ winetricks - v, 
+  if it 's outdated in your repo , you can get the uptodate version from winetricks.org, 
+  amd graphics on linux is a big no-no . 
+  go for intel , unless you want to get an nvidia gpu as well . 
+  * ` murrica !, 
+  i use debian on my htpc , but i 'd rather recommend ubuntu , unless you want to edit initscripts yourself . 
+  in ubuntu , you select xbmc instead of the desktop environment , and it 'll fire it up neatly when booting . 
+  regarding the motherboard : motherboard manufacturers make the most unnecessary bloatware apps in the world . 
+  you wo n't need any of that . 
+  if the driver of the wifi chip is in the kernel ( example : most atheros chips ) , it 'll work , otherwise it 's likely that you 'll only have to install ` firmware-linux-nonfree ` for it to work ( some broadcom chips ), 
+  hardware video acceleration will be your biggest gripe . 
+  xvba is supported by only a few programs . 
+  for example you need a special build of xbmc to have hardware video decoding on amd . 
+  also , with amd , opengl performance of any card will worse than on windows . 
+  with nvidia , it 's almost , or maybe even completely on par . 
+  i had an hd5850 and sold it exactly because it was a pain an the ass , but that was on a desktop . 
+  does n't the ubuntu installer allow you to shrink the windows partition to make space on the drive ? 
+  why not ? 
+  whatever 's mounted as the login user 's home will be the login user 's home , right ? 
+  mount the old partition to / mnt/something , so your old home will be there , then bind mount / mnt/something/home to / home . 
+  this is my setup basically , as my home 's on an old hdd , while the rootfs is on an ssd . 
+  i do n't know how this is effected by the lvm , i 've never used it . 
+  maybe lvm can simplify this setup , i do n't know . 
+  you can only imagine the loss because it 's inaudible . 
+  said artifacts are masked by the music . 
+  can you tell 320kb/s mp3 from 320kb/s vorbis ? 
+  are you sure ? 
+  here are three mp3 files : one was converted to 320 kb/s mp3 , the other was converted first to v9 vorbis , and then to mp3 .

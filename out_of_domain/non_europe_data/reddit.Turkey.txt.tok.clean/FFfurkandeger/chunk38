@@ -1,0 +1,100 @@
+  if it 's for example not programmed to use more than 4 cores , it does . 
+  to fix that , do this : https://i.imgur.com/1rsdpul.png, 
+  yup !, 
+  same . 
+  i tried installing the drivers from realtek instead of gigabyte and it seems to have improved . 
+  but the problem persists . 
+  hmm ... what is your hd audio driver version ? 
+  what is your case and headphone model by the way ? 
+  hmm ... 
+  interesting . 
+  what do you think ? 
+  i was thinking maybe a hardware failure , but this just seems too common to be a faulty audio chip . 
+  plus , after trying different drivers such as microsoft default , gigabyte pg 454 and realtek 's latest drivers , it appears that drivers have a part to play in this , as realtek 's drivers seem to be the least problematic . 
+  maybe related to the bios issues ? 
+  hpet ? 
+  the case is corsair carbide 400r . 
+  i am not sure how i route the front panel header . 
+  it 's from the right side of the case , that i know of . 
+  i will try to change its routing and see if it has any effect . 
+  by the way , i have disabled hpet and now the crackling is now less often ... 
+  i do n't know how it relates to hpet though ... 
+  edit : now i have rerouted the front audio cable to pass through inside the case directly to the front audio header . 
+  this definitely removed the static noises i heard even from moving my mouse but the crackling issue is still present , unfortunately . 
+  i think it might be a driver issue . 
+  the issue seems to go away when i put the volume to 100 % from windows mixer . 
+  interesting ... 
+  happy for you . 
+  i think that will be my last ever gigabyte board . 
+  my previous gigabyte board also had a sound issue and now this ? 
+  i am done . 
+  hopefully this is not a hardware problem but a bug . 
+  otherwise i 'm gon na have to rma . 
+  i am so sick of having to rma everytime i buy a gigabyte motherboard . 
+  hmm ... 
+  so asus acknowledges the issue and hopes to fix it via a bios update ? 
+  i 've just made post on their official forums , let 's see what they will respond with ( if they do ) . 
+  do you by any chance use any extension cord for your headphone ? 
+  i 've found the crackling issue seems to go away without it . 
+  there is no issue on the rear ports even with the extension cord , though . 
+  i think that might be driver issue . 
+  it seems to stem from the `` smart headphone amp '' settings in the realtek software . 
+  i do n't know what headphone you use on your setup , but i was using kingston hyperx cloud with the extension cord only and the `` smart headphone amp '' setting was selecting level 1 . 
+  when i tried my edifier m3200 2.1 from front panel it selected level 3 and there were no issues . 
+  i also tried my brainwavz earphones and my xperia z5 's factory headphone , there were no issues . 
+  when i tried my hyperx with its [ controller ] ( https://ae01.alicdn.com/kf/htb1nlzvnpxxxxbgxpxxq6xxfxxx4/kingston-hyperx-cloud-core-gaming-headset-suitable-for-computer-phone-tablet-headphones-with-microphone-have-volume.jpg ) , smart headphone amp recognized the headphones as level 3 and there are so far no issues whatsoever . 
+  i think i 've found a workaround !, 
+  fiddling with settings and extension cables , i have found out that whenever realtek audio sets smart headphone amp to level 3 i did n't have any issues . 
+  but i have also found that realtek audio never set it to level 3 if i connected my headphones directly to the panel . 
+  so ... what i do is connect the extension cable first ( without the headphones connected to the extension ) and then , i connect my headphones to the extension cord . 
+  this way , realtek audio always sets it to level 3 !, 
+  and no distortions !, 
+  hi fellas , greetings . 
+  i have a distorted sound problem that i can not figure out at all . 
+  i have a pc with a gigabyte motherboard ( ax370 gaming 5 ) , which is brand new and a kingston hyperx cloud , an edifier m3200 2.1 speakers , brainwavz m5 earphones and a sony earphone that came with my z5 . 
+  here is the issue : when i connect my hyperx cloud to my pc , i hear distortions in the background especially on low volume levels . 
+  for example when i do a stereo sound test from windows , when the test plays on the left speaker , i hear distortions from right and vice versa . 
+  this is hyperx . 
+  however , with my edifier m3200 and other two earphones there are absolutely no issues whatsoever . 
+  but , hyperx has also no issues with anything else ( so far i was able to try with my monitor and my phone ) . 
+  so , who do you think is to blame here ? 
+  how so ? 
+  did you also try with other headphones , speakers etc ? 
+  i only have problem with my hyperx cloud, 
+  can you elaborate ? 
+  how to prevent this ? 
+  hmm , i wonder if there is a registry edit or any config file for this option ... 
+  i do not have that option since the mobo features two separate audio chips for front and rear panels . 
+  i have tried with this drivers ( http://drivers.softpedia.com/get/sound-card/realtek/realtek-hd-audio-driver-6017867.shtml ) and so far , so good . 
+  no crackling , no distortions . 
+  only when use the extension cable , the driver detects the wrong level of impedance on headphones , which leads to crackling , but other than that , everything seems to sound solid . 
+  i 'm in the same boat with corsair vengeance lpx 2x8 3200 ( samsung b-die ) and a gigabyte ax370 gaming 5 . 
+  guess our only hope is a bios update . 
+  sure . 
+  i 've even tried the most loose timings possible , but still a no go ( guess it was cas32 or something , lol ) . 
+  it 's pretty much hit and miss at this point , really . 
+  but do n't worry too much . 
+  i have seen guys using the same rams as me and boot up with xmp at the first try ... 
+  it 's just lottery at this point but hopefully it will be fixed soon ... 
+  gigabyte ax370 gaming 5 here , no apparent support for p-state overclocking . 
+  xmp is nothing but a an overclocking preset for rams . 
+  they are there only because the manufacturers test their ram at that certain overclock preset and certify it to be safe . 
+  using an xmp profile on a ram should n't cause any damage whatsoever either to the ram itself or the ram slots . 
+  your friend probably had a defective mobo from the get go . 
+  my 1700 does n't throttle when around 85 . 
+  considering 1700 does n't have this offset , throttling point for x cpus must be even higher . 
+  i have the 2x8 of the same kit , but with a samsung b-die , yet can not go past 2133 with ax370 gaming 5, 
+  be careful though f5f does n't save voltage settings . 
+  my gaming 5 's audio chips are garbage . 
+  i have to use an older realtek driver with all audio enhancements disabled or else audio gets corrupted with distortions and cracklings . 
+  it appears gigabyte has a qc problem with these mobos ... 
+  hopefully it 's just the audio chips and nothing else has any defects on the mobo . 
+  yeah , no big deal for me as well . 
+  i already have an asus xonar dgx for audio . 
+  he is not asking if the slow speed ram will catch up to fast speed ram performance . 
+  he is asking if he should buy a mobo and a ram duo confirmed to work at full speed or just random high speed ram that might not work at this time . 
+  which one of the pcie slots are connected to the chipset ? 
+  i too have a pcie sound card and i would like to give that a try to confirm your theory . 
+  lol , i was about to post the exact same comment . 
+  if we could change the subtimings things would be better . 
+  hmm ... then my asus xonar dgx is connected to the chipset .

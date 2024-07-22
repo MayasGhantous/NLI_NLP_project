@@ -1,0 +1,100 @@
+  this is wrong , afaik . 
+  '' only right-quotes '' or '' only right-guillemets '' or '' inwards-facing guillemets `` are the `` proper '' ways ( which is * even worse * than dumb quotes imho ) . 
+  at least we do n't do \u201e german quotes `` ; those are the weirdest . 
+  oh , i did n't read carefully enough and thought they used ` altgr + < ` and ` altgr +  ` ( which seemed like plausible places to put `` and '' ) . 
+  my bad . 
+  i for one really appreciate the use of the screen edges . 
+  the launcher on the left-hand side seems nifty ; i think i 'd want something similar on the right-hand side for swiching between running applications ... 
+  another thing , are apps `` maybe running '' \u00e1 la android/ios , or is there a clear separation between running and closed applications ? 
+  i 'm hoping the latter , and that is the impression i 've gotten thus far . 
+  here 's hoping for a device with physical keyboard and ubuntu phone to come out ... 
+  well , it is n't , but it was given as an assumption by / u/maszracje that the length would be exactly 12 letters . 
+  `` getcranberryfarmed '' , for instance , is a lot more than 12 letters . 
+  it `` is n't '' time ; it 's just a new dimension orthogonal to the first three . 
+  you could visualise it as time though , in which case you 're basically just taking a 3d snapshot of 4d space at a particular position along the fourth axis , much like taking a 2d photo of 3d space at a particular angle . 
+  [ a movie ] ( http://en.wikipedia.org/wiki/monty_python's_the_meaning_of_life ) . 
+  [ thorn ] ( http://en.wikipedia.org/wiki/thorn_ ( letter \\ ) ) , you mean ? 
+  they do , it 's apparently the only modern language to use it . 
+   * new * language . 
+  well , ca n't expect too much at once from hal labs ... 
+  i 'm fine with them focusing on ssb for now ; hopefully they announce a kirby game next e3 instead . 
+  view  small mode, 
+  ftfy, 
+  not really happy about the center e/f , but i ca n't come up with any way to improve it . 
+  as requested , here 's a link to the rotated version : http://i.imgur.com/41mr2pj.png ( :p ), 
+  edit : decided to keep working a bit more on an enlarged version , here 's what i came up with : http://i.imgur.com/morms9x.png, 
+  * [ kolourpaint ] ( http://kolourpaint.sourceforge.net/ ) , kde 's ms paint clone but with better support for transparency . 
+  * [ cantata ] ( http://code.google.com/p/cantata/ ) , a lightweight , configurable mpd frontend . 
+  * [ katarakt ] ( http://wwwcip.cs.fau.de/~go18gomu/katarakt/ ) , a lightweight pdf viewer with vim-inspired keybindings . 
+  * [ okteta ] ( http://utils.kde.org/projects/okteta/ ) , kde 's hex editor , has a ton of handy features . 
+  * [ kcharselect ] ( http://utils.kde.org/projects/kcharselect/ ) gets an honorary mention for being generally awesome but sadly lacking support for codepoints \u2265 u +10000 . 
+  i 'm right handed ( naturally ) and use only left thumb for space , to break your neat theory . 
+  good idea though . 
+  my solution to that problem is to rebind caps lock to act as left-ctrl ; works like a charm . 
+  you know , i agree about the last part of your comment , but in reality i think north korea actually has the military capability to get rid of a bunch of balloons hovering over them . 
+  blue , blue , blue . 
+  simple , but i like it . 
+   a group of people out there who just like to argue and cause a ruckus on purpose . 
+  so essentially , flesh-and-bones trolls ? 
+  wow , good job !, 
+  have any other t-shirt designs to show ? 
+  i actually bought my 3ds mainly as a ds replacement since my ds phat had suffered so much wear . 
+  i expect the 3ds to hold together at least as long as the phat , considering i 'm treating it more carefully now than i did with the phat as a kid . 
+  one reason could be that the display exposes two interfaces in / sys/class/backlight , ` acpi_video0 ` and ` intel_backlight ` , and the latter has a bigger range of values and finer granularity . 
+  however , xbacklight only seems to use the former ( with no flag to change it , afaict ) . 
+  i had this issue myself , and my solution was similar to the op in that i created a ` backlight.sh ` which writes to ` / sys/class/backlight / intel_backlight / brightness ` , though instead of using ` sudo ` i simply ` chmod go + w ` the brightness file manually after each reboot ( a bit hackish , i know ) . 
+  almost !, 
+  you 're certainly on the right track . 
+  if ` math.sin ` did n't use ` return ` and you ran the code you posted , it 'd print ` nil ` , which is basically the `` no results '' / `` missing value '' value . 
+  it 'd say `` function 0xblahblah '' if you did ` print ( math.sin ) ` instead . 
+  ( the difference being , in ` print ( math.sin ( 3 ) ) ` you say `` go do the stuff described in ` math.sin ` with parameters ( 3 ) , then go do the stuff in ` print ` with the parameters ( what was returned from ` math.sin ( 3 ) ` ) '' . 
+  in ` print ( math.sin ) ` you never go do the stuff described in ` math.sin ` ( that is , you do n't call the function ) , so it tries to print out * the function itself * , which shows up as `` function 0xblahblah '' ) . 
+  you could think of return values as . . the inverse of the arguments passed * to * a function . 
+  while the arguments allow you to pass data * into * the function , the return values allow you to pass data back out * from * the function . 
+  this is desirable because it allows us to look at just the function isolated from the rest of the program , and make sense of it , which quickly becomes very useful as a program grows in size . 
+  why not make a global shortcut that works regardless of the application ? 
+  granted , i know nothing about osx , but surely it must have some way to bind a global shortcut to a shell command ? 
+  that 's my solution to music player management in linux , anyway ( although using mpd instead , so the specific commands are different ) . 
+  i 've bound alt + super + h/j/k to play/pause , prev track , next track , respectively ( where super is mod4 / `` windows key '' ) ; works like a charm for me . 
+  i did n't !, 
+  thanks for the tip . 
+  i was hopeful , but alas , it did n't help . 
+  all it seemed to do ( in effect ) was to change the name of the ` acpi_video0 ` backlight into ` samsung ` , but it still seemed to work the same . 
+  anyway , the script works well enough , so i think i 'll just stick to it . 
+  it 's the fifth book in the hitchhiker 's guide to the galaxy series , so you 'd want to read the four books before it first . 
+  oh , right , it 's been too long since i read it . 
+  i take it you do n't include colfer 's sixth book in the trilogy ? 
+  you 'll have to backslash-escape the hash symbol ( or octothorpe for those who prefer it ) for the markdown parser to not interpret it as a heading . 
+  also , indent blocks of code with four spaces to create a block of code . 
+  #region ... 
+  the question is kinda misleading , because this actually does n't have much to do with websites . 
+  anyway , i 'll expand a bit on how ` map ' and ` reduce ' works . 
+  ` map ' takes a collection of values , and applies the same function ( i.e. 
+  the same computation ) to each value in the collection . 
+  for instance , mapping ` ( +1 ) ` ( that is , `` add one to '' ) over the set { 1,3,8,2 } would yield the set { 2,4,9,3 } . 
+  the idea of mapping is that it allows us to transform a collection of data into another collection of data , and the really nice thing is that it does n't matter in which order we transform the values since the transformation of each value only depends on that particular value , and not the rest of the collection . 
+  assume for now that we have an infinite number of computers connected into a huge network . 
+  this means we could send one value of the collection to each computer , and have them all transform one element each , in parallel . 
+  next , we have the ` reduce ' part , which is about combining ( or * folding * ) a collection of data into a single value using a binary operator . 
+  for ordered structures like lists , there 's the concept of a `` left fold '' and a `` right fold '' . 
+  the left-fold of ` ( - ) ` ( subtract ) on [ 1,2,3,4 ] is ( ( 1-2 ) -3 ) -4 = -8 , whereas the right-fold of ` ( - ) ` on [ 1,2,3,4 ] is 1 - ( 2 - ( 3-4 ) ) = -2 . 
+  however , if the operation being folded is associative ( that is , ` ( a #b ) #c = a # ( b #c ) ` for an operator ` # ` ) , we get the same value no matter what order we pick the elements in !, 
+  this is the case with e.g. 
+  ` ( + ) ` and ` ( * ) ` . 
+  why do we want this ? 
+  it allows us to ( in theory , and again assuming an infinite number of connected computers ) distribute two values to each computer and then combine all those pairs in parallel , then distribute again and combine in parallel , and so on until we have our single value . 
+  this ends up taking ` o ( log n ) ` time , which is really nice . 
+  now , in reality you 'd want to find a good balance when it comes to workload-per-computer and the cost of data transfer . 
+  tl ; dr the key to map-reduce is improving performance when dealing with huge amounts of data , via parallellization . 
+  something that 'd take linear time ( that is , if we double the amount of data the processing time doubles ) ends up taking logarithmic time ( each time we double the amount of data the processing time increases by the same fixed amount of time ) , which is really nice . 
+  i get a wicked maybe two hits on average per day being a cs student ...  . <, 
+  well ... that 's a compliment though , is n't it ? 
+  even if it 's from yourself . 
+  whenever i find a forum post ( or even worse , old code ) by myself i usually cringe instead ... 
+  so , i quickly googled a macbook ifixit teardown to see what their repairability score is . 
+  turns out they 're [ not all that repairable ] ( http://www.ifixit.com/teardown/macbook+pro+15-inch+retina+display+mid+2012+teardown/9462/3#s36210 ) ; * that * probably is the problem . 
+  j ( the apl-like language ) is also a fun one ; i tried to locate the standard j implementation in aur which did n't turn out terribly well . 
+  luckily the official website is called jsoftware.com , and from there ` jsoftware ' has become the de-facto search term ( akin to go 's ` golang ' ) , so it 's not as bad as r. 
+  the interesting part is that i find it easier to read dutch than german ... which is a bit odd , especially considering i learned german in school ... 
+  correct . 
+  incidentally , ' \u00f6l ' is also german for ... ` oil ' .

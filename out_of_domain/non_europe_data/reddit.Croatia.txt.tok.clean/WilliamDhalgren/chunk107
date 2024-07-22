@@ -1,0 +1,100 @@
+  they prob exist , even if not trivial . 
+  but dm will reasonably want it to be as good in all aspects of the game , so pausing time like this prob wo n't happen anyhow . 
+  depends on how fundamental it is . 
+  most likely systematic problems are about the strength of the evaluations of its two networks , and there 's a lot to tweak around network architectures , so it can likely be improved . 
+  so no , it wo n't be just about training time or dataset size . 
+  look at the imagenet dataset for eg . 
+  2012 , just prior to the competition the best error rate was ( sry if i 'm a bit off , i 'll try doing this by memory ) ~ 22 % . 
+  a convolutional neural net reduced it to like ~ 17 % . 
+  in the competition of 2015 , the error has been reduced to 3.5 % and i think a recent paper reduced it to around 3 % . 
+  and the number of mislabeled samples in the dataset is prob not much lower than that anyhow ( though still somewhat lower , the last paper mentioned claimed ) . 
+  all on the same dataset , with the same training regime , just by fiddling with the nets , in a few years of fiddling . 
+  making rollouts stronger can be harder , its more of a black art . 
+  the us really has a very high bar there !, 
+  not really elatively high , just near but above 10 % . 
+  that 's low enough to start to see the worst misevaluations of its rollouts . 
+  rollouts are fast and dumb - they trained only a simple softmax for it ( some papers tried some very simple 1 set of filters convolutions for this role too ) , no deep neural nets like elsewhere in the system ; they need to have an exploratory character of near-random play so as to be statistically fair to both sides ( their goal is to evaluate who 's ahead on the board so fairness counts for more than playing strong ) , yet be strong enough to see some of the forcing play . 
+  its a bit of a black art , but anyhow the minimum requirement is for them to be able to play out hundereds of thousands of entire games to their conclusion before the system decides on a single move . 
+  that 's terribly fast !, 
+  so doing anything too fancy is out of the question here . 
+  but this is a noisy component , and there will be terrible moves for which it thinks they give it a bit of chance . 
+  sure , the ones it misevaluates the most could be 10-20 % kind of misevaluations . 
+  if the system knew of a really good line of play , that would still be a stronger signal , but when that can not be found , well we get to see what are essentially alphago 's brainfarts . 
+  agreed re the weight , that is an interesting parameter to play with surely . 
+  i have no idea really , i just do n't like it  ecig at least names some devices reasonably , while vapor products mislabels all . 
+  it collapses into a million pieces when it loses any hope of winning , yes . 
+  but in that case it has lost anyhow -- or rather , it has failed to find the actual winning sequence . 
+  not able to really improve its win % , 9p and 16kyu moves all look the same to it - a loss . 
+  and the noise of the low-probability misevaluations the system has can push up the 16kyu move instead . 
+  now there 's nothing inherent in behaving like that -- they indeed can make it save face in such situations , and play reasonably to an inevitable loss , literature knows certain approaches to do so , but i do n't think they care that much about face , but about winning . 
+  so making it stronger , to be able to find winning sequences , is likely a priority over this . 
+  now , if they ever make a product out of this , they 'll likely need to adress this else it could be bad in handicap games . 
+  eh , maybe . 
+  oh the one hand , the effects of convincing people that sex offenders should be killed and that they should go and kill sex offenders right now , if successful , are probably exactly the same - a murderous mob . 
+  the difference , to hearers is just a detail in the choice of phrasing ; the murderous hatered they share is equally understood . 
+  on the other hand , i kinda do admire how far the protection of the freedom of speech goes in the us . 
+  if there 's one area where being a bit extreme seems like a good idea to me , surely it has to be in protecting free speech . 
+  it finally chooses the move the algorithm has evaluated most frequently ( ie a move through which evaluations most frequentlly went through ; it 's gon na commonly be a non-leaf node of the tree ) , and it first evaluates mostly the moves policy network thinks look best , but then more and more weight is given to the moves that look best by current rollout statistics and value network assesment . 
+  so that 's a dece n't amount of averaging out the randomness in the system here . 
+  but anyhow , repeating even a much longer sequence than that would , if done by a human , simply indicate its a fuseki they 're very comfortable with . 
+  popular fuseki can be explored like 20 + moves in , with relatively set patterns . 
+  very cool !, 
+  yeah , it does seem that ag is too close to steady 1min/move all the time . 
+  it should be using the time more tactically . 
+  hard to say . 
+  he does currently have a substantial elo lead in http://www.goratings.org/ calculation , as well as an overall 8-2 winning record over lee sedol , so most think he is stronger . 
+  how much of a difference though ? 
+  still , he could be on par with alphago . 
+  but anyhow , by the time there is a match , if there will be such a match , alphago should surely improve further . 
+   this is not because we were younger . 
+  i observe youngs today , they are equally bored . 
+  think this is the weakest part of your argument ; the comparison of what you belive about the youth of today with your colored memories of yourself . 
+  this is extremely subjective and unreliable . 
+  i was recently watching a lecture on the reward pathways in the brain , focusing on nucleus accumbens ( i 've just tried finding it again , apologies but i cant ; you can image what kind of newagey superstitious crap queries on science and neuroscience and pleasure or happiness i was mostly getting instead ) , and indeed a passing mention was made on how the excitement and even pleasure does dull in adulthood in comparison to a young age . 
+  other than that , idk what to tell you ; i 'm enjoying the hell out of the possibilities new technologies are offering , precisely because of the games , movies , anime , books , series , music and knowledge that is so easily accessible now . 
+  if anything i have more trouble not just gorging myself in it , and am totally hyped with the advent of practical vr . 
+  with a backlog of activities you would enjoy longer than any one lifetime , how could one ever be bored anymore ? 
+  i ca n't make myself really obsess over a single game over a long time as much as i could when young , but perhaps for the better . 
+  well hollywood is crap , but it has always been crap anyhow . 
+  i do n't get how ppl could derive enjoyment from its derivative bland creations in the first place . 
+  that 's rather low even for a mere move predictor . 
+  even a simple move predictor with no lookahead can easily be around a 1dan . 
+  october alphago with just the policy net and everything else off is around 3dan . 
+  check out the facebook papers on deepforest as well , they train very good predictors . 
+  and ofc the 2 predictors that started the thing from 2014 ( clark & storkey net and maddison net ), 
+  the other interesting one is by detlef schmicker , bit worse than what google and facebook did but not by much . 
+  not published but the resources and description is linked here : http://computer-go.org/pipermail/computer-go/2015-december/008324.html, 
+  sure , sure - everything starts at some point ; just thought you might like to see some references to the literature in the field . 
+  i did think you were unaware how stronger a move predictor can be , because you said :, 
+   this is pretty good for a single network with no lookahead though , it only evaluates the current board state, 
+  still , you 're exaggerating re the hardware advantages ; i said just the policy net of alphago ; you would run it on your gpu , sure , but ofc you can do inference on a convolutional net in < 1sec / move . 
+  ( paper mentions 3ms/move for the policy net i believe ) . 
+  training it is another matter , needing quite a bit more power . 
+  i 'm 32 ; most of my growing up that i remember well is from early 90s . 
+  still i did have a commodore 64 in late 80s , and lost of stuff that may be 80s for the usa came with a bit of delay here ( croatia ) . 
+  now i ca n't deny 90s were fun , as there was a war going on , just close enough to be interesting w/o ever actually being in great risk personally -- and for a kid that 's a great thing , as we moved around when my city was in risk of falling , with fun new places to visit and experiences , and as there was real life war memorabilia around etc. 
+  but still in terms of media things got simply better as time progressed , and prob college was the most fun environment overall . 
+  and i still continue discovering and exploring interests in my backlog , w/o any fear of getting bored . 
+  movies - untill i started watching arthouse stuff in college , the rest i generally found to be crap ( admitting an occasional exception ) , depending on how young you mean ( go far enough and sure i 'll be enjoyng voltron or he man or saber rider ) . 
+  still , i remember being puzzled in literature class in primary school at the idea of classifying film as an artform ; by everything i saw up to that timeit was just an industry , producing uninspired derivative stuff as if on an assembly line . 
+  certainly including star wars and star trek . 
+  loved the series though , esp tng . 
+  was shown on national tv at the time , and after ( quite ) a few years of a break , so was voy . 
+  did any of it ever transport me into another dimension ? 
+  bah , not really , or quite rarely . 
+  perhaps blade runner and dune . 
+  when at its best it would ask interesting questions . 
+  this is why i became a science fiction fan , and what i generally found far more in sf books than in visual media . 
+  i remember well when i first read classics , like rama or city and the stars , or dune or hyperion , or solaris . 
+  now these had the power to transport me elsewhaere , like my recent reading of gateway , the city and the city , asoiaf , dhalgren , or quite a few works by dick . 
+  i was always a rather bookish guy though . 
+  i was still obsessive about some games , like the first diablo , or especially first two xcom , civilization , starcraft and doom . 
+  pretty soon i discovered lucas arts and its adventure games , played grim fandango , prob the best game i ever saw for like months , having gotten stuck and not wishing to check the walkthrough - and this kind of thing is what i still play , having only recently finished broken sword , the whispered world or gemini rue . 
+  learned to enjoy textual games since , played infocom 's classics like a mind forever voyaging or trinity , as well as wishbringer , but also a lot of contemporary works from the interactive fiction ( and lately also twine ) community , as these are often greatly written , plus are rather short . 
+  admittedly i play far less obsessively , and pretty much stopped playing regularly when they nerfed psyonic storm in starcraftbw so that it could n't kill a lurker in one shot . 
+  gave that game up ( silly i know but that 's how i reacted at the time ) and never played anything on the computer with as much intensity ever again . 
+  though diablo 2 came close . 
+  and witcher 3 was certainly a recent exception . 
+  non-computer related , magic : the gathering is something i played a lot in college , and still occasionally obsess about . 
+  gaming industry , indie and aaa seems to me to be thriving , so the audience must be there . 
+  most other kids i knew did n't play at all .

@@ -1,0 +1,100 @@
+  whenever this happens , i either get no video output , or i get video output but my usb keyboard gets no power . 
+  everything is disconnected , except for :, 
+  * 24 pin and 8 pin atx power connectors, 
+  * one 8 gb stick of memory, 
+  * cpu, 
+  * cpu fan, 
+  * power switch, 
+  relevant specs are :, 
+  psu and hsf were replaced since the issue started occurring . 
+  i 'm mainly just interested if i can do any more troubleshooting tonight , before i have each of the remaining possible culprits tested independently . 
+  cheers !, 
+  hey guys ,, 
+  i 'm freaking out right now . 
+  i thought i 'd just start the last week before the deadline out by looking up some guide and sending off the first ever tax forms of my life . 
+  well , apparently , no one with connections to taxes and stuff as their profession is able to write a coherent sentence about them . 
+  everything just starts out by saying something , then lists 15 different exceptions to that , and by the time i read through all of those ( without understanding even half of it ) i forget what the sentence was talking about in the first place . 
+  as for nav 's official site -- i could n't even figure out how to navigate that one . 
+  has any of you found anything that describes how and i what i need to fill out , worded in a way that non-accountants can also understand it ? 
+  i have a full time job ( since march 2014 ) , and i 've also had a few projects i worked on as a freelancer last year , both for hungarian and foreign employers . 
+  any help would be very much appreciated . 
+  ( note : i 'm a native hungarian speaker , so i can get by with hungarian resources if you find any of those , and i can read your comments even if you 'd prefer to write it in hungarian . ), 
+  hey guys !, 
+  at work we 're having a meeting with a gamification expert/psychologist, 
+  tomorrow , to discuss the design of an upcoming motivational system for us, 
+  software engineers . 
+  to prepare , we were asked to take the, 
+  [ bartle test ] ( https://en.wikipedia.org/wiki/bartle_test ) , but this entire, 
+  premise left me wondering about the accuracy , and even feasibility of, 
+  determining what archetype a gamer belongs to . 
+  or even if we can correctly name, 
+  such categories . 
+  the most specific issue i found with the test is that the questions are really, 
+  vague , since the scenario it describes and the outcome of the choices are, 
+  largely dependent on the rules of the game in question . 
+  what i 'd assume is that, 
+  the results of the test mostly depend on the games a certain person played . 
+  gain some insight into this , i threw together a, 
+  quick form to correlate mmorpgs played, 
+  with the score players got on the test . 
+  feel free to skip this survey as it 's, 
+  not the main point of this post , i just think that the data would be interesting . 
+  ** edit : ** so my post was removed due to containing a link to this form . 
+  i 've removed the link to it , but if you 're as interested as i am , you can find it in my crosspost to / r/truegaming . 
+  i think my stance is that such a test could in theory work , but for it to be, 
+  mostly accurate , the questions have to be tailored to one specific game and its, 
+  ruleset , perhaps with events orchestrated specifically to force the player to, 
+  make decisions that send a meaningful decision about their personality . 
+  course , i 'm not entirely convinced that this would actually work , so i 'm glad to, 
+  hear any of your input . 
+  so my questions would be :, 
+  - can we actually group players into types of gamers based on their ingame, 
+  behaviour ? 
+  - if so , what 's the best way to go about that ? 
+  is the a bartle test a good, 
+  effort , or is it completely bogus ? 
+  - are my concerns about such tests being influenced by the specific games a test subject played valid ? 
+  - do any of you know of any work done to profile a person using a video game, 
+  specifically engineered for this purpose ? 
+  follow the event here : https://events.google.com/io2015/, 
+  this thread is supposed to be where we 're able to discuss android wear related announcements and content , both from the keynote and from later i/o sessions . 
+  whee , discuss away !, 
+  i 'm looking for a school around astoria that is wheelchair accessible and has a decent internet connection . 
+  a few friends and i are planning to organize open source programming sprints , ranging from 50 to 200 attendees . 
+  we thought schools would be a pretty nice place to start our search for venues . 
+  each of these events would be either on weekends , or holidays , so it would n't clash with the school 's regular operation . 
+  also , a few aspiring students might even want to drop in and learn something about development . 
+  if anyone knows such a school ( or actually , any venue fitting the above criteria that 's affordable enough for a community-run event ) , please let me know , i 'd love to contact them !, 
+  the first such event would be in october , so there 's no rush , either . 
+  i think of myself as someone who can learn new things faster than average , so i think i should be fine . 
+  some guidance would be really helpful though , as i 'm not sure what the most important topics to cover are . 
+  i do use postgresql , actually , but i mostly interact with it through the django orm , or sqlalchemy . 
+  time to time i hop into the database shell , but my knowledge there only reaches up to simple joins , and even those with consulting the psql docs to get the syntax right . 
+  i also have n't really dealt with databases with over even 1k rows . 
+  what are the most important topics to cover ? 
+  all i know about the interview is what i have in the title , practically . 
+  for reference , i typically use python , and nosql data stores . 
+  redis and elasticsearch are my main tools of the trade right now for data . 
+  i have no idea how this happened , but my external monitor has considerably darker picture after i installed el capitan on my mbp 2014 . 
+  i 've tried hdmi and mini displayport , both had the issue . 
+  here 's a [ photo showing the problem ] ( http://i.imgur.com/z0fr0uk.jpg ) . 
+  before the update , both screens had virtually the same color . 
+  cycling through different color profiles only really changed the lighter colors . 
+  anyone else encounter this ? 
+  two friends got in , but there 's still a bunch of us who did not . 
+  anyone got an afterparty pass and planning on not going ? 
+  seeing yesterday 's [ ` bot improvements ' ] ( https://www.reddit.com/r/dota2/comments/3h6wjo/bot_improvements/ ) post by / u/mojoedoto had me thinking about the bots in dota 2 for a while , and i had to realize how much potential dota 2 bots have , and how they are n't living up to it currently . 
+  i would also like to share my list of improvements as an addendum to yesterday 's post . 
+  ## bots should be able to analyze player 's previous matches to aid them the most possible :, 
+  - an example : maybe i am really bad at mana management and i like to spam my spells a lot . 
+  the bots should be prepared with mangoes and we should have a cm maxing passive first . 
+  - or if i 'm often out of position , they should get four force staves to push me back in the right spot . 
+  - or if i 'm notorious for going mom and not building survivability , they should get medallions to cast them on me . 
+  ## bots should have the ability to imitate professional players by collating data from reddit and weibo, 
+  - they could each build separate personalities , have signature heroes , perhaps coin randomly generated catchphrases, 
+  - the bots could form friendships and rivalries , so if , say , maeby and tobias bot happen to be on the same team , and they have a rivalry , they can grief each other with astral imprisonment and stuff like that . 
+  - there could be a new menu option in dota which is like a message board for bots , where the bots occasionally post about these friendships and rivalries , since there 's plenty of such material to be used from the internet as training data . 
+  bonus points for having a convenient share button for posting these on / r/dota2, 
+  ## bots should encourage new players what to do in some more situations, 
+  - they could analyze the chat of real games to see what messages are sent in certain situations and use those phrases instead of chat wheel ones to introduce players to dota lingo, 
+  - they could scrape the internet for dota guides , analyze them with natural language processing and link some of them for the player based on how useful they seem to alleviate said player 's mistakes,

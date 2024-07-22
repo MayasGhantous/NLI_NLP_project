@@ -1,0 +1,100 @@
+  paste it to another sheet and use formulas to get what you want , then you can copy and paste as values as you wish . 
+  as for the formula , right ( ) would do what you want provided it always ends with the phone number . 
+  = day ( etc. ), 
+  counting words is relatively easy , it 's checking if they match that gets hard . 
+  to count words you could do a workaround , something like :, 
+  i would do a macro tbh . 
+  first , create an array with the words in a , doable by finding the first space , if any , using instr , left function for the word and right function for the rest till the end , then the same for b , then run loops for every word in a to check for a match . 
+  if it finds one , increases a counter and removes the word from b , if not it does n't do anything . 
+  in the end you would have a counter for words that appear in both strings , and you could divide by the length of a to get your % . 
+  i would do it for you but i 'm not on my computer rigth now ... 
+  good stuff , glad to help . 
+  what if the players are important to some devs and they just shit on their work ? 
+  they 're releasing a patch for starcraft ( the old one ) , so i would n't be too surprised ... 
+  are they in that order always ( ie , new items show afterwards ? 
+  if so , you could just do a right function :, 
+  then i guess you 'd have to do a bunch of formulas to separate items and search in the other string . 
+  i 'd use vba for it . 
+  not on my pc now but as far as pseudocode goes i 'd do something like :, 
+  matches = '' '', 
+  while ind <  0 do, 
+  if instr ( b2 , word ) = 0, 
+  matches = matches & word & '' , '', 
+  end if, 
+  loop, 
+  then do one final if for the last word ( as there will be no comma , thus instr returns 0 ) and remove last comma from matches , and you should get what you need . 
+  { = sumproduct ( ( b2 : e2 < = 50 ) * column ( b2 : e2 ) ) }, 
+  array formula , and autofill down . 
+  this would returno something like :, 
+  = sumproduct ( ( false ; false ; false ; true ) * ( 2 ; 3 ; 4 ; 5 ) ), 
+  which is 0x2 + 0x3 + 0x4 + 1x5 = 5, 
+  edit : yeah , what about the 0 ? 
+  you want it displayed too ? 
+  if there 's only 4 columns , a simple chain of ifs will suffice ... 
+  allright , then just do this :, 
+  = if ( b2 < = 50,2 , if ( c2 < = 50,3 , if ( d2 < = 50,4 , if ( e2 < = 50,5 , '' '' ) ) ) ), 
+  try this :, 
+  { = min ( ( b2 : e2 < = 50 ) * column ( b2 : e2 ) ) }, 
+  not on my computer so i ca n't check it properly ... 
+  { = min ( if ( b2 : e2 < = 50,1,300 ) * column ( b2 : e2 ) ) }, 
+  hope this works , if not i 'll let someone with a computer do it ... 
+  dim nrows as long , i as long, 
+  nrows = range ( `` a100000 ) . end ( xlup ) . row, 
+  for i = 1 to nrows, 
+  range ( `` c '' & i ) . value = range ( `` a '' & i ) . value + range ( `` b '' & i ) . value, 
+  next i, 
+  range ( `` c2 '' ) . autofill range ( `` c2 : c '' & nrows ), 
+  edit : this is so you can chance values or columns, 
+  if you know the number of rows is always 500 you do n't even need nrows . 
+  i dunno , they might have helped the fish as the sharks avoided him . 
+  it should expand automatically , but i have indeed seen it fail at that once in a while ... 
+  you could try offset :, 
+  = sum ( offset ( b2 ,0,0 , row ( ) -2 ) ), 
+  where b2 is the first row being summed ( which can still be changed in the future ) . 
+  try sumproduct . 
+  = sumproduct ( f : f , g : g ), 
+  say you have that string in a2 . 
+  in b2 , first :, 
+  = left ( a2 , find ( '' '' , a2 ) ), 
+  in c2 , middle :, 
+  = if ( len ( a2 ) - len ( substitute ( a2 , '' '' , '' '' ) )  = 2 , left ( substitute ( a2 , b2 , '' '' ) , find ( substitute ( a2 , b2 , '' '' ) , '' '' ) ) , '' '' ), 
+  = substitute ( a2 , b2 & c2 , '' '' ), 
+  i 'm not on my computer rigth now to test it correctly so please do tell if there are issues with it . 
+  you ca n't use one formula to fill 3 columns ... 
+  is that ... a portuguese restaurant ? 
+  serradura is the best dessert in the world for its simplicity ... 
+  do you know my father is what ? 
+  could you please explain why is reaper that food against tanks ? 
+  i suck at playing him ... 
+  o cavadela , claro . 
+  nop . 
+  exact match for match function . 
+  try averageifs function . 
+  depende do cart\u00e3o e do valor do subsidio . 
+  the spanish . 
+  i 'm curious too , 5:30 is no time to be having dinner !, 
+  if you can find a good fare ( which is doable if you buy it well in advance ) and can afford to rent a car for two days , i would well advise you to try a fun road trip around s. miguel . 
+  be advised you will lose quite some time travelling , tho . 
+  changing ruling regime does n't mean it 's a new country ... portugal 's been a country for 800 years . 
+  you could try something with the quotient function to check what group the row belongs to . 
+  i 'm not sure how you have your rows , but if you set a new column with = quotient ( row ( ) ,60 ) , you will get a number for the group they belong to . 
+  then it 's all a matter of adjusting to the index of the other table . 
+  does curving alter how far you go ? 
+  the keyword there is mass . 
+  i 'd say he has more mass than , say , mercy , and thus has more potential than her , despite being shorter . 
+  his volume ( and density , i 'd wager , is still larger ) . 
+  with a brazillian portuguese pronunciation even , i speak the european version and it sounds a bit odd to me as well . 
+  but i can pretend to speak the accent and it makes sense . 
+  27.3 ( roughly 27 days and 8 hours ) is the correct number . 
+  have n't played since wotlk so i have a quick question :, 
+  is blood still the tank ? 
+  and what are the differences between unholy and frost dps nowadays ? 
+  allright , that did n't change much since wotlk . 
+  cheers . 
+  it 's for threat generation , most tanks have dps-focused gear and talents for special bosses ( or old content ) . 
+  persia was at it strongest under islamic rule ... 
+  best of luck . 
+  [ here you go ] ( http://en.wikipedia.org/wiki/lamborghini ) . 
+  you can do funny things with macros . 
+  here 's one i have for cleanse spirit/purge ( note , i 'm not sure cleanse spirit still exists as i have n't bought the game yet ) :, 
+   \\ #showtooltip [ @mouseover , harm ] purge ; [ harm ] purge ; cleanse spirit,

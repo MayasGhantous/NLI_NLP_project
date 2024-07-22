@@ -1,0 +1,100 @@
+  why the hell is `` ascending '' a string ? 
+  according to their recent blogpost you can safely delete the beta, 
+  well you can upgrade and disable it if it does limit the fps . 
+  i ca n't wait for sc2 to come bundled with windows !, 
+  microsoft 's marketing is definitely the most absurd department in the company . 
+  they 've ruined so many reasonable and sometimes even great products via pure marketing bullshit . 
+  making people geeks and libertarians is the best thing about bitcoin, 
+  venezuela selling that gold reserve, 
+  assuming they can get all of wpf to work things will become responsive but the responsiveness will be ensured by the framework not by the browser . 
+  they will calculate heights and widths with code and make stuff responsive . 
+  from the point of view of the programmer it is still declarative . 
+  this project is for people who prefer wpf to html so they do n't care how the underlying framework will achieve the results as long as it works . 
+  this one is more the other way around . 
+  tires on a donkey . 
+  repository with entity framework = useless . 
+  also i prefer to convert to dto in the api layer . 
+  how do you know that the dto for one service make sense for another ? 
+  there is literally no case where ef + a repository that exposes iqueryable makes sense . 
+  now if your repository does not expose iqueryable or any other orm related stuff i 'd agree . 
+  you could change the implementation with say raw sql or a rest service backend but with iqueryable you are married to your orm and best case is you change ef with nhibernate ( haha ! ), 
+  and even then you 'd have easier time with a naked datacontext . 
+  i never ran into the 100 columns case so i have not taught a lot about it but i guess what you describe is what i would do . 
+  eventually i may even create a view in the db and map the entity to it . 
+  i might also create a class not mapped in the entity framework just to project into it . 
+  if the project is of significant complexity i usually go for a service layer so the controller only cares about view stuff ( choosing the right format in web api , or feeding the appropriate view and checking if the request is an ajax request in mvc , etc. ), 
+  and mapping the class ( be it entity from entity framework or another business logic class ) returned from the service to the dto . 
+  i have not tried to return dtos from the service layer in a real world project . 
+  i thought about it for one project rejected the idea and did the mapping in the web layer . 
+  worked fine and did n't look back . 
+  maybe it is not a bad idea i just do n't know . 
+  i have a friend who claims that a cqrs solution does not exist in a real world project that made it to production and they are just lying to us and with cqrs you can only write demo code for articles , 
+  a coworker once started migrating the architecture of an existing project to cqrs . 
+  literally 2 versions later the project died after 10 years on the market and the company moved to other projects . 
+  officially it was severe competition that killed it but i still suspect cqrs, 
+  i am not sure . 
+  both me and that guy quit . 
+  i would say they did n't because i feel like nobody but him saw any value or fully understood how it worked . 
+  i doubt the remaining devs tried to implement it again . 
+  i will ask tomorrow . 
+  i do n't see how migrating to linux will solve the problem with a software so ancient that it lacks msi installer . 
+  i mean if you ca n't even upgrade this software to have an msi installer how the hell are you going to migrate it to another os ? 
+  well it works as long as you are not trying to sell ridiculous claims like these guys . 
+  irrelevant . 
+  the discussion is about migration of existing installs . 
+  sure if it is open source , license free and easily deployed and better in every way . 
+  apparently people who deploy on non-open source and license free tech believe it is better in some way - say easier to deploy . 
+  then logging park and error reporting park ? 
+  i got several references but did n't realize they were so many, 
+  in what world was aeon of strife the most popular custom map ? 
+  i had n't even heard of it before dota became popular . 
+  how about fastest map possible , micro wars , turbo , bunker command ? 
+  what about turret defense ? 
+  2 vs 2 tournaments yes !, 
+  wait , this one says no 2 vs 2 tournaments but the main posts says 2 vs 2 tournaments . 
+  which one is correct ? 
+  i see . 
+  so 2 vs 2 tournaments is a thing but 2 vs 2 archon not right now . 
+  interestingly 2 vs 2 might benefit more from archon than 1 vs 1 since there is more action on the map and more fights everywhere . 
+  ( i am still not a fan of archon mode though ), 
+  how does everybody miss this detail ? 
+  hate us !, 
+  fear us !, 
+  we 're here to stay . 
+  i bet the thor was something that he practiced but it was severely tilted by the opening of life so it just looked foolish . 
+  i 'd bet not in ukraine, 
+  i am sure joining a startup has a much higher chance of success than playing the lottery . 
+  let alone that your chances even if small are proportional to your efforts . 
+  i had relatively low opinion of michael o. 
+  church based on several posts i read posted on / r/programming but when i learned that he managed to get himself banned from both hn and quora i now kind of respect him . 
+  yes , i am referring to the essays . 
+  i do think non-programming posts have no place on / r/programming and i downvoted this one despite reading it and finding it relatively interesting . 
+  i just dislike general purpose life advice written in a way that everyone can relate to because it is usually useless . 
+  advice is cheap you either give money or code to be useful . 
+  not that paul graham is much different in later years so i dislike him too . 
+  i do n't need inspiration , thank you . 
+  on the other hand this witch hunt against your persona means that you have called his bullshit . 
+  i see someone banning people as automatic admission that the opposite site is right . 
+  of course that 's in the absence of spam , code of conduct violations and so on but obviously you do n't fall in these categories . 
+  i am not criticizing your technical skill i am just commenting on the articles i have stumbled upon ( to be honest this is the third post of yours i read ) . 
+  interestingly for some reason i had the feeling that you were more on the `` how to convince your organization to adopt scrum '' than the opposite . 
+  too bad i ca n't remember the concrete articles that i read . 
+  also note that there is need for beginner and intermediate articles in a lot of fields so there is no reason not to write just because you do n't feel confident in the hard level especially seeing that you are quite good at writing ( despite being a bit too verbose for my taste ), 
+  so does anyone really think that new units is what the game needs ? 
+  if you ask me we already have too many . 
+  anders has given the gift of async to all, 
+  that 's irrelevant . 
+  the origin of the feature can be traced back to simula . 
+  what is important is who gave it to the masses in a way that they can easily use it . 
+  in other news steve jobs did n't invent touch . 
+  i do n't see how the failure in this library is related to async/await . 
+  it does n't even use async/await . 
+  `` the masses '' and f # is a contradictory statement , 
+  i understand what it is i do n't understand the claim that async/await and other features are somehow confusing . 
+  asynchronous programming is hard but c # 's is one of the easiest out there . 
+  also you can have an asynchronous method without await inside you just need to return the task . 
+  it is often done when your last call is the call that you would normally await . 
+  the saddest thing i have seen in this department is mortal kombat x easy fatalities . 
+  you pay for the ability to perform a fatality with a single button . 
+  that will be `` fixed '' in less than a month i imagine . 
+  i thought this was just an example .

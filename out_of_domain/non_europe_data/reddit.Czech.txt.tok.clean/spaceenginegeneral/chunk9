@@ -1,0 +1,100 @@
+  while those are not huge problems , at that point you 're better off just having 2 screens instead . 
+  not at all , having higher maximum refresh rate just means you do n't utilize it . 
+  but again , we are n't even talking about 144hz screens where it gets asked a lot more ( and even then , i 'll repeat that from my experience anything is better than 60 once you 're used to more ) . 
+  75hz is n't really hard to achieve for your card either way and the difference is actually very noticeable . 
+  there probably wo n't be much performance improvements between those cards , just stick with 7850 until new gen comes out and you 'll very likely get a lot better deal on a potential upgrade if you feel like you need it, 
+  definitely . 
+  i would easily compare the jump from 60 to 120/144 to be as impactful as the jump from 30 to 60 , which might sound ridiculous for people who did n't experience it but it makes a huge difference in games , and especially in shooters like bf4 you mentioned . 
+  i think it mostly depends how close person sits to a screen . 
+  as someone who only got even just a 1080p 24 '' monitor last year , i very rarely actually do anything in fullscreen with it because i ca n't see the whole screen at once anyway so i keep everything in somewhat smaller window . 
+  obligatory response to wait for new generation of gpus . 
+  true , did n't mention i use my secondary monitor to run the other things instead . 
+  and yeah i do use fullscreen for some games ( shooters ) and not for others . 
+  also i do n't watch movies often but are n't they usually ultrawide with black bars on a 1080p display so you 're not `` really '' looking at the whole thing . 
+  anyway i do n't disagree , just sharing a perspective . 
+  agree it 's a lot about what person is used to and as i mentioned , how close are you sitting to screen . 
+  another perspective on `` baking '' gpus . 
+  that said , if the alternative is to throw it into trash , feel free to give it a go . 
+  here 's a thread speculating about the cards https://www.reddit.com/r/hardware/comments/4gojc9/amds_polaris_will_be_a_mainstream_gpu_not_highend/, 
+  in short , it 's probably safe to say you 'll easily get a card comparable to 390 in performance for much cheaper . 
+  either way , if the wait is too long , i 'd also recommend getting 390/380 instead . 
+  from the past , the amd cards tend to age very well while buying nvidia cards on the end of their life cycle is n't that good of an idea ( especially without confirmed dx12 drivers ), 
+  this , overclock the cpu , you 're lucky and have skylake which can overclock on locked chips if you have a z170 board . 
+  next time you buy a pc do n't fall for the `` save money on cpu and buy a better gpu instead '' meme, 
+  for games definitely higher refresh rate . 
+  you do n't have to reinstall anything . 
+  ht will make a big difference for video/photo editing where the software utilizes all threads . 
+  edit : for heavy video editing , you might want to look into the i7 5xxx instead of skylake since 6 cores + ht is in this case better than having 4 cores + ht from newer generation ( which gives you better single threaded performance preferred in gaming ), 
+  i edited my response for further info after you replied so just a notice . 
+  since 6400 is the one rare case when you can overclock it for like 70 % increase ( basically to 4.6 ghz like a 6600k ) , you did n't really do a mistake . 
+  it 's just in general , lot of people in my opinion overrate the importance of gpu for gaming . 
+  the thing is , you can always decrease details or resolution with weaker gpu but when you are cpu bound , there 's not much you can do . 
+  screen tearing depends on vsync rather than monitor refresh rate . 
+  it should be noted though that even with vsync off , the screen tearing is n't as noticeable with higher frame rates than it is on something like 60fps, 
+  yes, 
+  try using hwinfo instead ? 
+  you can overclock both with the right motherboard so technically the same amount . 
+  long term it 's probably best to wait and see what can both amd and nvidia come up with . 
+  show up where ? 
+  can you change the refresh rate of the 59hz one to 60hz in monitor settings ? 
+  the supposed `` crackdown '' already happened . 
+  as far as i know it 's a windows update that you can easily delete . 
+  there 's also a microcode update in newer bioses that you can easily avoid by using an older bios ( which most manufacturers do n't even use ), 
+  asrock and gigabyte have bioses with older microcode available on their sites . 
+  msi is coming up with bioses ( not sure if all their mbs have one yet , you 'll have to check otherwise use older one ) that will detect you using a non-k chip and give you option in bios to unlock bclk oc . 
+  from my research , asus is the only company that have relatively old `` custom '' bioses that do n't necessarily cover all their boards ( like the z170-pro ) and have older microcode with avx bug . 
+  when buying asus board check if the custom oc bios exists for it . 
+  no it 's only relevant for pcie/m .2 ssds that have faster bandwidth than sata ssds ( namely the samsung 950 ) . 
+  i do n't even know if sata express ever caught on in anything despite being on motherboards, 
+  z170-a has custom bios for non-k oc so you 're fine . 
+  long answer : longevity of a cpu is determined by voltage ( more voltage - faster degradation ) and cooling ( overheating degrades the cpu faster ) . 
+  since overclocking causes both ( or rather you need higher voltage to achieve higher frequencies which in turn causes higher temps ) , overclocking will degrade your cpu faster . 
+  however , it does n't matter whether you overclocked via multiplier ( like you would an unlocked chip ) or bclk ( locked one ) and since 6500 and 6600k are technically same chips , one wo n't outlast another because of being unlocked . 
+  however , take all this with a grain of salt in practice . 
+  overclocked cpu that is adequately cooled running 24/7 should still last you until your next build with no issues and there are plenty of other components that will most likely fail first ( like motherboard or possibly psu ) . 
+  in short : if you have a good cooler and stay within safe voltages ( 1.4 v for skylake ) , do n't worry about longevity of a cpu at all . 
+  if you do n't want to oc right off the bat , the 6500 is pretty much the best bang for your back at the moment , and you 're right , the 6600k does n't even come with a stock cooler so you do save some money if you are n't planning to oc . 
+  as long as you get a z170 board now , you always have the possibility to oc it later despite it being locked . 
+  the stock fan is designed to be good enough for stock speeds . 
+  yeah , again , the sata express was a `` makeshift '' solution since normal sata started to become a bottleneck for faster ssds . 
+  the problem is that pcie and m. 2 basically killed it before it ever became a thing despite new motherboards supporting it . 
+  depending on games you play a gpu upgrade alone wo n't help you much there , in particular far cry 4 loves a strong single threaded performance and even with a 980ti your fps would stay pretty terrible with your current cpu . 
+  the psu wattage is fine although you should check the exact model because corsair has both good and meh psus . 
+  ca n't go wrong with noctua if you do n't care about the color, 
+  unless you 're looking for some specific feature , the answer tends to be no . 
+  just going to point out that h110 chipset does n't support memory speeds above 2133mhz . 
+  higher tiered psus should last longer , be more efficient and will handle load better . 
+  this is mostly relevant when you 're overclocking or/and have your pc on 24/7 . 
+  being close to using advertised wattage in higher quality psus is also safer and cheap 700w psu will probably perform worse than a good 500w psu . 
+  tier 3 is fine for `` light '' usage and should server you well . 
+  just beware of lower tiers because when a bad psu fails it can actually take all your other components with it . 
+  i 'd recommend 390 instead . 
+  the `` gpu is a bottleneck more often than cpu '' only really applies when you play nothing but aaa titles on high settings . 
+  and in those cases you can still easily lower the settings to get higher framerates on weaker gpus . 
+  on the otherhand , there 's little you can do with a game when you 're cpu bottlenecked . 
+  lots of cpu heavy games will also not benefit from expensive gpus as much . 
+  it 's not really equivalent but most cost-effective is ocing a 6400 since you can go from 2.7 ghz to ~ 4,6 ghz which is like 70 % increase . 
+  you want z170 motherboard to be able to overclock it . 
+  if you want to overclock it to the max and use the system a lot ( like 24/7 ) , get a motherboard with more phases then the cheapest ones . 
+  after that , z170 motherboards already really have everything you could want from the chipset , i think all atx boards have m. 2 slot , all/most will have at least 1 usb type c and they should support sli/crossfire for at least 2 cards as well . 
+  i would n't really call your setup a tight budget , but anyway . 
+  get a 650w golden rated ( or platinum if you want to invest into it ) seasonic or evga and you 're going to be golden, 
+  edit : you could easily power this system even overclocked with a 550w psu so depending on how long do you expect your system to last you can go with that as well, 
+  depends , what i5 and what do you consider terrible time ? 
+  if playing on lower resolutions and lower graphical details does n't bother you , good cpu will be easily able to maintain high fps with mediocre gpu in most titles . 
+  you probably did n't install audio drivers . 
+  get them from manufacturers website . 
+  you can still oc locked skylake chips on a z170 motherboard . 
+  if you 're not planning to oc right off the bat , z170 + 6500 will save you money but still leave you with the oc path in the future . 
+  if you 're not sure whether you want to oc , 6600k is a waste of money . 
+  if you do n't ever want to oc , get a h170 board and and a 6500 , but i 'd still recommend getting z170 board and having that option in few years . 
+  sure . 
+  hero is basically the `` high end without going all out '' kind of board , where you still get meaningful features but do n't pay a ridiculous premium . 
+  source on reviews ? 
+  sounds weird because increasing resolution should n't really increase cpu usage that much while being a lot more demanding on the gpu so you 're that more likely to get gpu bottlenecked . 
+  of course if you do have a gpu to handle the resolutions , then to actually achieve high fps you do need powerful cpu to back it up . 
+  but again , all of this is theoretical , it depends on the game in question more than anything . 
+  edit : just read that it 's actually 2x16 , not just 16 . in that case yeah , you 're probably not going to use that much ram any soon . 
+  you 're completely fine . 
+  not from us so nope , sorry . 
+  not worth buying nvidia card at the end of the generation in general , wait for new cards .

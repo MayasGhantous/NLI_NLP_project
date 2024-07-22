@@ -1,0 +1,100 @@
+  and of course , it has had zero impact , because none of the money goes to poor maori . 
+  it all goes into real estate investments and money for rich iwi . 
+  no progress in criminal justice reform ? 
+  except for all our wonderful special-purpose courts , our restorative justice system , etc. 
+  it seems that a lot of young people seem to think `` criminal justice reform '' means legislating that the number of people in prison must exactly match demographic data ( but only about race of course , the gender imbalance in prisons is n't a problem apparently ) and that cannabis must be legalised , and that doing that would solve all the world 's problems . 
+  sexism ? 
+  new zealand is extremely progressive here . 
+  gay marriage is legal , women outnumber men in essentially every single statistic . 
+  women live longer , women have more control over their children , women do better in schools , do better at university . 
+  women are let off by the police more , receive lighter sentences , and are let off by juries more . 
+  yes inequality is right , yes climate change is right . 
+  but the rest of the points are not even close . 
+  venezuela is an hilarious example of where ` we 'll just rely on oil to prop up our economy ' does n't work . 
+  it does n't say anything about socialism except ` relying solely on oil for your economy is stupid whether you 're capitalist or not ' . 
+  venezuela would be even worse off otherwise . 
+  and not just that , but universities - which produce virtually everyone that goes on to make  100k/yr - tend to be bastions of left-wing thought . 
+  that 's simply not how it works . 
+  being accused of a capital crime does not make you a refugee . 
+  you ca n't be * extradited * from nz on capital crimes though . 
+   however , those are also places where you 'll find a lot of younger , idealistic people who have yet to test their ideas in the real world . 
+  aka students . 
+  that 's a very silly thing to say . 
+   plus , those folks are students under older people who never entered the real world and have been able to let those ideas ferment uncontested . 
+  aka academics . 
+  academia is the real world . 
+   this is of course a bit of an exaggeration , but there is some truth in it . 
+  people usually drift right as they age and especially when they enter the workforce and accumulate some capital of their own . 
+  not true at all . 
+  people drift right relative to the centre because the centre shifts left over time . 
+   none of which detract from the fact that maori as a percentage of the total population of new zealand are massively over-represented in the prison population of new zealand . 
+  having special purpose courts or a restorative justice system has n't done anything to change this and reforms to parole and bail have only increased the prison population , not reduce it . 
+  maybe they should n't commit so much crime then . 
+  do n't be a child . 
+  you know very well that 's not what i was implying . 
+   which part about it ? 
+  university students being young , idealistic , or inexperienced ? 
+  the implication that universities being left-wing is a result of people being young , idealistic or inexperienced instead of just * educated * , which is the reality . 
+   only by trite definition . 
+  there 's a reason for the saying that something is ` academic ' . 
+  yes , ignorance is that reason . 
+   dunno what to say to you . 
+  the fact that people vote more conservatively as they get older is widely studied , and is not a new phenomenon . 
+  no it is not . 
+  people vote the same way they did when they were young . 
+  what is defined as ` conservative ' changes . 
+  they conserve what was , when they were young , considered progressive . 
+   it is extremely relevant to your callers . 
+  no it is n't , because how they call it does n't really change . 
+   imagine you created a library that calculates pi , and i 'm calling you : ` val pi = calculatepi ( ) ` . 
+  easy . 
+  then in the next version , you add logging to your function and since you want it to be pure, 
+  this has nothing to do with purity . 
+  it 's not about wanting the function to be pure . 
+  it 's about * needing * to provide context . 
+  it does n't matter whether that context is logging or authentication or any other so-called `` cross-cutting concern '' . 
+  that context needs to be provided , and it needs to be provided by the caller . 
+  whether the caller provides that by passing an argument to a function or by editing some horrific auto-generated xml file does n't matter . 
+   you are asking the callers to pass that logger to you : ` fun caculatepi ( logger : logger ) : ... ` now , what do i do ? 
+  how do i even figure out how to call your function ? 
+  where do i get an instance of this logger ? 
+  is that a joke ? 
+  you use the logger you are being passed . 
+  if you do n't have a logger that you can pass , then you ca n't call the function . 
+  it 's necessary context , and if you do n't have it then you ca n't do what you want to do . 
+  it 's no different from authentication , which is a much better example . 
+  if you want to do something that requires authentication , then you need to actually have some evidence of authentication in order to do it . 
+  you have to pass that authentication in . 
+   and why did you break all your clients when you added an implementation detail to your code ? 
+  it 's not an implementation detail !, 
+  logging is n't an implementation detail . 
+  it 's not even slightly an implementation detail . 
+  applications control logging , not libraries . 
+  that means that libraries have to use the logger they 're told to use . 
+  now you can pass that in when you create some sort of ` context object ' that you use a library with . 
+   this is why encapsulation is important . 
+  you have missed the point by such an astronomical amount i 'd be completely unsurprised if you revealed you were trolling . 
+  seriously , encapsulation is important ? 
+  are you actually genuinely serious ? 
+  this must be a joke . 
+  this has nothing to do with fucking encapsulation . 
+  how many times do i need to say it ? 
+  ** context is necessary ** . 
+  you ca n't get out of it , you can only hide it or make it easier to do . 
+  you ** need ** to provide context . 
+  if i am using a library as part of handling a request to a server i 'm writing , then any log messages it emits ** must ** include the id of the request i am handling . 
+  no ifs , no buts . 
+  that 's a cold hard requirement . 
+  if a library needs to do something that requires authorisation , it must use only the authorisation * i provide it at the time * . 
+  not some global , universal ambient authority . 
+  you ** have ** to provide this context somehow . 
+  and this has nothing , at all , to do with encapsulation , and these are not implementation details . 
+  it 's from 2013 . 
+  how is this old ? 
+  are you all teenagers ? 
+  why on earth would you do that ? 
+  jesus you spent * days * working for free for someone ? 
+  just on the offchance they 'll give you a job , like they 're doing you some sort of service by giving you a job ? 
+  you 're in demand in this industry dude . 
+  it 's insane to do work for free to try to convince people to give you a job when there 's massive demand for workers . 
+  what was going on is that companies know that stupid people will work for free if they 're told it 's an `` internship '' or an `` interview homework assignment '' .

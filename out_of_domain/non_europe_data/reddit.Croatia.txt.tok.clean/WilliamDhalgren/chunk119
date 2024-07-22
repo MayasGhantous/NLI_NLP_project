@@ -1,0 +1,100 @@
+  but sure , not a dry well at all . 
+  but for example , something based on wormholes or such space geometry , only just tiny enough to send a signal , not ships seems to me a better choice than entanglement for the basis in a hard-sf book ; at least its using a consistent ( and still scientifically provocative ) solution of general relativity rather than crapping over a historically key insight in physics , and in fact could turn out to be possible according to currently known physical laws . . 
+  if that is the reason , well anticircumvention provisions exist in eucd too , and wiki suggests they 're worse if anything . 
+   to say monte carlo is mere brute force kind of misses the point of the system . 
+  it is less exact , but it is far more efficient . 
+  at this point it is literally impossible to have a brute force decision tree for go . 
+  ah , so under brute force , you meant something like classic alpha-beta search ? 
+  sure , then you 're right , that being a poor approach to go has been evident for a decade or so now . 
+  i 'd call it brute force simply in the sense that involves lots of compute doing lots of search guided by rather unsophisticated heuristics , as opposed to doing anything particularly `` smart '' in the conventional sense - but that 's admittedly quite subjective . 
+  and y , it does do it probabilistically rather than exhaustively . 
+  which i guess is arguably smart ? 
+  so sure , semantic differences aside , agreed . 
+   alphago started by analyzing kgs games ( all amateur ) . 
+  correct , the policy network is trained on strong amateur games only . 
+  and not only bootstraped from it either ; the ** final ** policy network is just trained on those amateur games . 
+  it also is used to bootstrap the self-play-tuned net used for creating that evaluation function i discussed in the previous post , yes -- but one of the alphago 's key components just is this policy network simply trained on just strong amateur games . 
+  they tried using the net they got out of self-play training instead , and it was worse . 
+  or at least that 's how it was in the nature paper , before sedol match . 
+  deepforest and ayamc bots did better using pro game records for their policy networks ( and i 'm damn impressed how far aya progressed actually ) , so not sure if this is the better approach or worse . 
+  could be for instance that google decided to go with strong amateur games out of , for example copyright reasons ( ianal , so just saying - maybe there could be some such concerns , not claiming that any actually exist ) , as the gogod database is proprietary . 
+  or because its said that working with that database and its proprietary formats in a homogenous , automated fashion is a pain in the ass . 
+  an aside , they also used another different strong amateur set , tygem games to train the fast rollout policy , a small softmax net used in the monte carlo search . 
+  why use one set for the policy and another for the rollouts , and not either combine both or use whichever 's the better one ? 
+  or maybe they did in post-nature paper versions of alphago ? 
+  i have no idea , but it is strange . 
+   if google announced a project to defeat the best bridge players in the world by 2020 i would take any bet that they would achieve their goal . 
+  i think the approach alphago took is quite generic and could be applied to bridge almost directly , minus tweaking the network input layers/shape/features , so yeah . 
+  and the fact its not a deterministic game should n't be a huge deal , since both monte carlo and the networks already treat the situation probabilistically in go as well . 
+  so , if that approach can do it well enough at all , could even take them just maybe a year , if they set their minds to doing it , and had a decenish database of amateur games to start from ( it 's been a while since i read the paper , i think they used ~ 30 million turns - board position + action - from something like 150ish 000 games ) ? 
+  did n't take them much more between just publishing that a policy network might help at all to discovering the full alphago architecture and scaling it all the way to alphago vs sedol in the first place , so i 'd think its doable . 
+  but i 'm wildly guessing here because i know next to nothing about computer bridge , sry . 
+  also , a quick look at wiki suggest that best computer bridge players are roughly comparable to the best players already ? 
+  that 's quite a gigantic headstart in comparison to where go was before alphago . 
+   a series of articles published in 2005 and 2006 in the dutch, 
+  bridge magazine imp describes matches between five-time computer bridge world champion jack and seven top dutch pairs including a bermuda bowl winner and two reigning european champions . 
+  a total of 196 boards were played . 
+  jack defeated three out of the seven pairs ( including the european champions ) . 
+  overall , the program lost by a small margin ( 359 versus, 
+  385 imps ) . 
+   theon greyjoy had once commented that hodor did not know much , but no one could doubt that he knew his name . 
+  old nan had cackled like a hen when bran told her that , and confessed that hodor 's real name was walder . 
+  no one knew where `` hodor '' had come from , she said , but when he started saying it , they started calling him by it . 
+  it was the only word he had . 
+  btw sugestija je da bi mogao bit praunuk ser duncan the tall-a , iz dunk & egg novela . 
+  source : book snob, 
+  he travels around the globe , some timezone will fit you surely . 
+  these were practical for me , being in europe , and i see he 'll be around the continent during the summer at least , but previously ofc when he gave a webcast from say north or south america , i had to stay up or record . . 
+  anyhow , for personal archival/reference purposes , i just recorded these too . 
+  not sure how its on other platforms , but on linux , scheduling this command ( say using command `` at hhmm '' , where hhmm is the time when you want to start ) :, 
+  livestreamer - o < filename  . mp4 hlsvariant : / / http://shangshunginstitute.streamguys.net:80/live2/newvideo899857398359/playlist.m3u8 best, 
+  just worked !, 
+  possibly there 's some fancy graphics gui around this shit somewhere , but i do n't see why one should bother , vs a one-liner . 
+  ofc , check if the http : / / ... part by any chance changed in the source of the mobile webcast page , but it did n't during this retreat at least . 
+  prob helps with buffering issues too ; previously at least , i often had dropouts , but not this time ( though maybe they upgraded ) even though i was watching it while recording it , with the minimum of delay i could sustain . 
+  something equivalent can be done with the rtmp desktop stream too though i did n't need to do that , but i did record some for-desktop replays so that i have them after they expire , and that should be quite similar . 
+  for the general case , and to discover for yourself , this is n't a difficult method :, 
+  for rtmp streams , if you catch one webcast , discover the parameters with rmtpsuck . 
+  as root , set :, 
+  iptables - t nat - a output - p tcp -- dport 1935 - m owner \\ !, 
+  -- uid-owner root - j redirect, 
+  then run rtmpsuck as root . 
+  then start a ( rtmp ) webcast or whatever . 
+  in the browser it will write out the rtmpdump parameters . 
+  you can easily discover by looking at the manpage of livestreamer how they map to livestreamer params . 
+  or try rtmpdump directly , though it was doing something wrong when i recorded a replay that way , but worked with livestreamer , not sure why . 
+  just remember to remove the iptables rule when you get the parameters , with, 
+  iptables - t nat - d output - p tcp -- dport 1935 - m owner \\ !, 
+  -- uid-owner root - j redirect, 
+   i 've read that membership gives you access to past webcasts . 
+  is this true for all webcasts chnn has ever done, 
+  replays stay for some time on the page , i think it should be a couple of weeks , but right now it seems to be longer . 
+  it also says on the bottom that you can however request a previous retreat recording , if you cover i think it was 15eur cost for digging it up , and that right now - i gather for some temporary technical reason - they can only find the recordings of the previous year . 
+  its not what the quote claims anyhow ; speaks of the importance of a teacher , and not what method of introduction can and can not be . 
+  some text that is a mere mental construction certainly could n't bring you beyond concepts simply by its conceptual content - but yeah , a poetic composition or symbolic utterance of an accomplished master indeed could point beyond its mere words , and beyond mind ; this is from the introduction to the translation of ch\u00f6ying dzod 's commentary , treasure trove of scriptural transmission , the introduction here quoted written by tulku thondrup rinpoche :, 
+   in my teens , when kyala khenpo and i performed deat services for a great master called pushul lama , khenpo advised me , `` first , chant the ch\u00f6ing dz\u00f6d very slowly next to the lama 's body . 
+  chant the verses clearly and think about their meaning as you do so . '', 
+  lama had died two days earlier , but his mind remained in a meditative state . 
+   knenpo added , `` ch\u00f6ying dz\u00f6d was recited at the time of death of many highly accomplished dzogpa chenpo masters . 
+  for such masters , there is no method of introduction greater than this . '', 
+  and he previously said :, 
+   ch\u00f6ying dz\u00f6d is not a composition contrived by a conceptual mind , but a manifestation of dharmakaya in the form of naturally arisen words . 
+  so clearly a text can have such a function . 
+  though i guess all these examples presume not only having had a direct pointing out before , but also a high familiarity with the contemplation already - and not a first introduction . 
+  i 'd take a qualified exception to what you said here though :, 
+   we need to deal with empirical things not what people believe to be or just following like herd some people who just have `` rinpoche '' beside their name . 
+  eh , were it not as slippery , so that you can measure it , maybe . 
+  as it is , i 'll take all the assurances i 'm not merely deluding yourself in some private confabulation i can get , including traditions and lineages . 
+  in particular , i think you need a teacher whom you 've investigated in detail , and are solidly convinced that he is well familiar with the contemplation , so that you can rely on his experience with it -- because relying on yourself alone risks deluding yourself , mistaking mere meditative phenomena with some kind of realisation . 
+  but no doubt , the rinpoche honorific is far far from a guarantee of that . 
+  thx !, 
+  you almost certainly do n't need an extra computer to do this - but i could only speak from experience on exactly what i tried . 
+  besides the likely possibility there 's a different way , also i see that livestreamer is available on windows and osx http://docs.livestreamer.io/install.html#other-platforms , so you simply need a way to schedule that one command , which any os can do . 
+  you just need to experiment a little on the details !, 
+  good luck !, 
+  oh , yeah , looking at his schedule , it does seem to be europe-centric lately . 
+  i sadly ca n't help with your exact setup , but can only report what i positively know by having tried it myself . 
+  i can presume that installing livestreamer for your os - as it has versions for osx and windows too - and finding a way to schedule the first command i quoted would work for you ( for eg . 
+  there 's apparently some task scheduler in windows ) , but ca n't be sure on the details . 
+  apologies for not being able to be of more help !, 
+  honestly , i think you 're so right about the kiss that everything you said is blindingly obvious to anyone here anyhow :-p,

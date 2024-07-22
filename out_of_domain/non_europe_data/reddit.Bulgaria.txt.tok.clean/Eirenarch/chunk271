@@ -1,0 +1,100 @@
+  exceptions . 
+  try/catch/finally . 
+  creating custom exceptions . 
+  the switch statement . 
+  indexers . 
+  implementing an arraylist from scratch . 
+  advanced sorting algorithms ( merge sort , quicksort ) . 
+  test . 
+  introduction to gui programming with windows forms . 
+  buttons , message boxes , forms , painting shapes with the graphics object . 
+  gui programming . 
+  events , anonymous methods and lambda expressions . 
+  enums , attributes , using enums with the switch statement . 
+  exercise - building a gui calculator . 
+  generics . 
+  building a stack data structure . 
+  ienumerable < t  , iterator blocks , foreach loop . 
+  using the different . net framework collections ( list < t  , stack < t  , dictionary < tkey , tvalue  , linkedlist < t  , queue < t  , hashset < t  , sortedlist < t  , sorteddictionary < t  , sortedset < t  ) - how to choose . 
+  working with streams and files . 
+  threads and tasks . 
+  locking and deadlocks . 
+  using asynchronous code to prevent blocking ui . 
+  overview of things not covered by the course - literal strings , nullable value types , property initializers , collection initializers , type inference with var , array type inference , anonymous types , extension methods , linq , variable number of parameters with params , out/ref arguments , named method arguments and default argument values , operator overloading , autoboxing , dynamic typing , async/await . 
+  23-26 - project . 
+  that would only be fair if i recommended only reading the docs and books before writing a line of code . 
+  people have time to listen to eight podcasts ? 
+  i only listen to . net rocks and i even skip episodes of little interest to me ( like 20 % ) . 
+  if i listen to eight podcasts i will have to cut time on reading articles , watching sessions from conferences , etc. 
+  to be honest i completely forgot that people in most countries tend to have long commute . 
+  i have like 45 minutes a day and it is considered a lot here but i also travel with a friend so i do n't listen to podcasts . 
+  well go to the website of a conference that you are interests in and watch the recordings . 
+  what 's so hard about it ? 
+  for example i am a . net dev and i tend to watch like 1/4 of the sessions from microsoft 's build conference over a period of 2 months every year after the event . 
+  dude ... starcraft saved you from being an emo !, 
+  yeah , it 's not a big deal . 
+  now if he named his kid abathur or zagara or even a hydralisk then i will be impressed . 
+  i do n't know how you read that into his post . 
+  are you a sjw that gets `` triggered '' from words like `` faggot '' and immediately thinks `` violence against homosexuals '' ? 
+  to be honest these never get old , 
+  hmm if i listen to podcasts while coding i will either do a poor job coding or not recall anything from the podcast . 
+  i have very similar dilemma as / u/frellpumpkin . 
+  so you are saying that nvidia may support freesync on existing cards via driver update or at least use the similarity of the spec to allow for cheaper monitors ? 
+  btw you are the world 's leading authority of g-sync vs freesync pricing as the first hit on google leads here and your comment provides the most useful information, 
+  splitting the tournament on different days will definitely be a huge improvement . 
+  maybe seed a couple of teams on the second day based on past tournament performance will be important especially for the pro players with busy schedule . 
+  i missed a good part of the tournament ( work ) and watching vods is not that fun when you know the winner but between two days i can watch more . 
+  also i love rotti as much as the next guy but in the end he was exhausted and his casting was far from perfect and exciting . 
+  remember when we were discussing 2 vs 2 tournaments and you were skeptical ? 
+  has your opinion changed ? 
+  yeah the argument was on archon vs 2vs2 . 
+  honestly i am glad to see archon go down in popularity . 
+  normally i do n't hate on any sc mode but archon diverts attention from 2 vs 2 which i believe is far more interesting . 
+  how many different units is atlas expected to have on release ? 
+  records did n't make it ? 
+  why would they introduce such a breaking change considering that they refused to break things that would be greater improvements on the grounds of backward compatibility ? 
+  well ... 
+  i guess next release, 
+  ok why would they introduce a breaking change in java 7 then ? 
+  i find it strange that people do n't use it . 
+  it is a common convention for unused names . 
+  i have certainly used it to indicate unused argument . 
+   once a fading pattern used in . net client development, 
+  i ca n't remember a time when mvvm was fading since i first heard of it . 
+  first it was growing because xaml apps were growing and then just as silverlight was fading it was adopted by users of knockout.js then angular.js , etc. 
+  turning valid code into a warning is a breaking change . 
+  everything above assembly is just a convenience thing . 
+  records are important for making immutability more useable ( specifically with ), 
+  i was wondering how they handle the naming internally and across assembly boundaries . 
+  care to tell us or you 'll send me to google ? 
+  when i saw the movie how high where the guys enroll into women studies and black studies ( and are surprised that they failed because `` i love bitches and i am black '' ) i thought these subjects did n't exist and are just comedy movie plot devices . 
+  imagine my shock when 10 years later i learned that you americans do have this shit in your universities . 
+  as a non-native speaker i find grammar nazis very useful for improving my english, 
+  ok i see a what of reference to chicago 's food . 
+  what kind of food is chicago famous for and how is it different from the rest of the us ? 
+  and then you have that annoying out argument that you had to declare as a variable before c # 7.0 ... 
+  well ok i am prepared to wait . 
+  glad to see the nullability tracking did n't make it , it was outright broken in the current version . 
+  uhm ... 
+  more importantly automated tournament for online tournament organizers ( which is the same of tournament with friends from the point of view of the developer who would implement it ), 
+  who the hell instantiates int ? 
+  like that, 
+  new int ? 
+  ( ) : new int ? 
+  ( convert.toint32 ( row [ `` int6 '' ] ) ) ,, 
+  i mean why use a constructor that requires new instead of casting . 
+  null : ( int ? ), 
+  conver.toint32 ( row [ `` int6 '' ] ), 
+  does n't look as ugly , does it ? 
+  also i think, 
+  int6 = row [ `` int6 '' ] as int ? 
+  would work but i am too lazy to check, 
+  i know the author . 
+  he has these wild theories that writing in assembly takes just twice the time to write something in a high level language and that it is easier to write fast assembly code than fast c/c + + code and catching errors is easier because they almost always result in early segfault or something . 
+  he believes because processor speeds are not increasing anymore everything will be written in assembly soon . 
+  the funny part is that he proves these things he says . 
+  on a forum he challenged quite good c/c + + programmers to write a program that is twice slower than his assembly code ( both parties write the program , not ports ) . 
+  they ended up with 4-10 times slower programs and he claimed that with just twice more dev time he achieved 4-10 times the performance so it is worth it . 
+  somewhere around here - http://forums.bgdev.org/index.php?showtopic=39853&amp;st=310 . 
+  there were i think 3 separate `` battles '' with 3 separate people over the course of like 2 years . 
+  the forum is in bulgarian so unless you can read bulgarian you are out of luck,

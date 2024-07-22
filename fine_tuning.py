@@ -80,14 +80,29 @@ if __name__ == "__main__":
     device = torch.device('cuda' if torch.cuda.is_available else 'cpu')
     print('device: ', device)
 
-    countries_list = [7]
-    countries_names = ['France']
+
+    # Update countries_list to have lists of country IDs
+    countries_list = [
+        [20],  # romania
+        [18],  # poland
+        [15],  # netherland
+        [14, 24],   # mexico and spain
+        [9],   # greece
+        [1, 8],  # austria and germany
+        [0, 27, 28, 16, 11]     # Australia,UK,US,NewZealand and Ireland
+    ]
+    countries_names = ['Romania', 'Poland', 'Netherlands', 'Mexico_Spain', 'Greece',
+                       'Austria_Germany', 'Australia_UK_US_NewZealand_Ireland']  # Update names accordingly
+    
     index = 0
-    for i in countries_list:
-        WHAT_COUNTRY = i
-        files_data = read_files_from_directory(DATA_LOCATION, WHAT_COUNTRY)
-        country_location = os.path.join(fine_tune_location, countries_names[index])
-        validation_location = os.path.join(fine_tune_location, f"{countries_names[index]}_validation.txt")
+    for country_ids, country_name in zip(countries_list, countries_names):
+        files_data = defaultdict(list)
+
+        for country_id in country_ids:
+            files_data.update(read_files_from_directory(DATA_LOCATION, country_id))
+
+        country_location = os.path.join(fine_tune_location, country_name)
+        validation_location = os.path.join(fine_tune_location, f"{country_name}_validation.txt")
 
         merged_texts = merge_files_for_country(files_data)
 

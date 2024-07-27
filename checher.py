@@ -10,8 +10,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.33, random
 print(f"X_train: {X_train}")
 print(f"X_test: {X_test}")'''
 import language_tool_python
-
+import torch
+print(torch.cuda.get_device_name(torch.cuda.current_device()))
 # Initialize the tool for the English language
+'''
 tool = language_tool_python.LanguageTool('en-US')
 
 # Text to be checked
@@ -31,3 +33,4 @@ for match in matches:
 corrected_text = language_tool_python.utils.correct(text, matches)
 print("Corrected Text:", corrected_text)
 
+'''

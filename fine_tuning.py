@@ -53,7 +53,7 @@ def fine_tune_gpt2(train_dataset, test_dataset, output_dir):
         overwrite_output_dir=True,
         num_train_epochs=3,
         per_device_train_batch_size=8,
-        save_steps=1000,
+        save_steps=10000,
         save_total_limit=2,
         evaluation_strategy="epoch",
         gradient_accumulation_steps=2,
@@ -83,16 +83,16 @@ if __name__ == "__main__":
 
     # Update countries_list to have lists of country IDs
     countries_list = [
-        [20],  # romania
-        [18],  # poland
-        [15],  # netherland
-        [14, 24],   # mexico and spain
-        [9],   # greece
-        [1, 8],  # austria and germany
+        #[20],  # romania
+        #[18],  # poland
+        #[15],  # netherland
+        #[14, 24],   # mexico and spain
+        #[9],   # greece
+        #[1, 8],  # austria and germany
         [0, 27, 28, 16, 11]     # Australia,UK,US,NewZealand and Ireland
     ]
-    countries_names = ['Romania', 'Poland', 'Netherlands', 'Mexico_Spain', 'Greece',
-                       'Austria_Germany', 'Australia_UK_US_NewZealand_Ireland']  # Update names accordingly
+    countries_names =['Australia_UK_US_NewZealand_Ireland']  #['Romania', 'Poland', 'Netherlands', 'Mexico_Spain', 'Greece','Austria_Germany',
+                         # Update names accordingly
     
     index = 0
     for country_ids, country_name in zip(countries_list, countries_names):

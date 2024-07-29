@@ -53,7 +53,7 @@ def fine_tune_gpt2(train_dataset, test_dataset, output_dir):
         overwrite_output_dir=True,
         num_train_epochs=3,
         per_device_train_batch_size=8,
-        save_steps=1000,
+        save_steps=10000,
         save_total_limit=2,
         evaluation_strategy="epoch",
         gradient_accumulation_steps=2,

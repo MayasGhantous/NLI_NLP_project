@@ -1,3 +1,4 @@
+import json
 import os
 import tempfile
 
@@ -7,8 +8,14 @@ from transformers import TextDataset, DataCollatorForLanguageModeling
 
 from calculate_real_data import read_files_from_directory
 
+# List of languages
+languages = ["Turkey", "Slovenia", "Sweden", "Serbia", "Mexico_Spain", "Romania", "Russia", "Poland", "Portugal",
+             "Norway", "Lithuania", "Italy", "Hungary", "Greece", "France", "Finland", "Estonia", "Netherlands",
+             "Czech", "Croatia", "Bulgaria", "Austria_Germany", "Australia_UK_US_NewZealand_Ireland"]
+
 DATA_LOCATION = 'europe_data'
 fine_tune_location = 'fine_tuning'
+output_file = 'evaluation_results.json'
 
 
 def create_dataset_from_text(text_list, tokenizer, block_size=128):
@@ -73,18 +80,38 @@ def evaluate_fine_tuned_model(unseen_texts, model_dir):
 
 
 if __name__ == "__main__":
-    model_path_1 = fine_tune_location + "\\Bulgaria"
-    model_path_2 = fine_tune_location + "\\Croatia"
+    results = {}
+    correct_count = 0
 
-    validation_path_1 = os.path.join(fine_tune_location, "Bulgaria_validation.txt")
-    #validation_path_2 = os.path.join(fine_tune_location, "Croatia_validation.txt")
+    for unseen_lang in languages:
+        validation_file = os.path.join(fine_tune_location, f"{unseen_lang}_validation.txt")
+        unseen_texts = load_texts_from_file(validation_file)
 
-    unseen_texts_1 = load_texts_from_file(validation_path_1)
+        losses = {}
+        for model_lang in languages:
+            model_dir = os.path.join(fine_tune_location, model_lang)
+            eval_results = evaluate_fine_tuned_model(unseen_texts, model_dir)
+            losses[model_lang] = eval_results["eval_loss"]
+            print(f"Evaluation results for {unseen_lang} on {model_lang} model: {eval_results}")
 
-    eval_results = evaluate_fine_tuned_model(unseen_texts_1, model_path_1)
-    print("Evaluation results for model's language (Bulgaria):", eval_results)
+        min_loss_model = min(losses, key=losses.get)
+        min_loss = losses[min_loss_model]
+        is_correct_model = min_loss_model == unseen_lang
+        results[unseen_lang] = {
+            "losses": losses,
+            "min_loss_model": min_loss_model,
+            "min_loss": min_loss,
+            "is_correct_model": is_correct_model
+        }
+        correct_count += int(is_correct_model)
+        print(f"Unseen text: {unseen_lang}, Min loss model: {min_loss_model}, Min loss: {min_loss},"
+              f" Is correct model: {is_correct_model}")
 
-    #unseen_texts_2 = load_texts_from_file(validation_path_2)
+    # Save the results to a file
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=4)
 
-    eval_results = evaluate_fine_tuned_model(unseen_texts_1, model_path_2)
-    print("Evaluation results for different language (Croatia):", eval_results)
+    # Calculate and print the accuracy
+    total_texts = len(languages)
+    accuracy = (correct_count / total_texts) * 100
+    print(f"Accuracy: {accuracy:.2f}%")

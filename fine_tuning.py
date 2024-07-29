@@ -88,11 +88,11 @@ if __name__ == "__main__":
         [15],  # netherland
         [14, 24],   # mexico and spain
         [9],   # greece
-        [1, 8],  # austria and germany
-        [0, 27, 28, 16, 11]     # Australia,UK,US,NewZealand and Ireland
+        #[1, 8],  # austria and germany
+        #[0, 27, 28, 16, 11]     # Australia,UK,US,NewZealand and Ireland
     ]
-    countries_names = ['Romania', 'Poland', 'Netherlands', 'Mexico_Spain', 'Greece',
-                       'Austria_Germany', 'Australia_UK_US_NewZealand_Ireland']  # Update names accordingly
+    countries_names = ['Romania', 'Poland', 'Netherlands', 'Mexico_Spain', 'Greece']
+                       #'Austria_Germany', 'Australia_UK_US_NewZealand_Ireland']  # Update names accordingly
     
     index = 0
     for country_ids, country_name in zip(countries_list, countries_names):

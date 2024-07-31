@@ -86,6 +86,7 @@ if __name__ == "__main__":
     for unseen_lang in languages:
         validation_file = os.path.join(fine_tune_location, f"{unseen_lang}_validation.txt")
         unseen_texts = load_texts_from_file(validation_file)
+        print(f"Loaded {len(unseen_texts)} unseen texts for {unseen_lang}")
 
         losses = {}
         for model_lang in languages:

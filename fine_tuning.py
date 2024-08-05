@@ -41,7 +41,7 @@ def create_dataset_from_text(text_list, tokenizer, block_size=128):
     return dataset
 
 def fine_tune_gpt2(train_dataset, test_dataset, output_dir):
-    model = GPT2LMHeadModel.from_pretrained('gpt2')
+    model = GPT2LMHeadModel.from_pretrained(fine_tune_location+'\\Australia_UK_US_NewZealand_Ireland\\checkpoint-50000')
     tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
 
     data_collator = DataCollatorForLanguageModeling(
@@ -51,7 +51,7 @@ def fine_tune_gpt2(train_dataset, test_dataset, output_dir):
     training_args = TrainingArguments(
         output_dir=output_dir,
         overwrite_output_dir=True,
-        num_train_epochs=3,
+        num_train_epochs=1,
         per_device_train_batch_size=8,
         save_steps=10000,
         save_total_limit=2,
@@ -83,17 +83,17 @@ if __name__ == "__main__":
 
     # Update countries_list to have lists of country IDs
     countries_list = [
-        [20],  # romania
-        [18],  # poland
-        [15],  # netherland
-        [14, 24],   # mexico and spain
-        [9],   # greece
+        #[20],  # romania
+        #[18],  # poland
+        #[15],  # netherland
+        #[14, 24],   # mexico and spain
+        #[9],   # greece
         #[1, 8],  # austria and germany
-        #[0, 27, 28, 16, 11]     # Australia,UK,US,NewZealand and Ireland
+        [0, 27, 28, 16, 11]     # Australia,UK,US,NewZealand and Ireland
     ]
-    countries_names = ['Romania', 'Poland', 'Netherlands', 'Mexico_Spain', 'Greece']
-                       #'Austria_Germany', 'Australia_UK_US_NewZealand_Ireland']  # Update names accordingly
-    
+    #countries_names = ['Romania', 'Poland', 'Netherlands', 'Mexico_Spain', 'Greece']
+                       #'Austria_Germany', 'Australia_UK_US_NewZealand_Ireland2']  # Update names accordingly
+    countries_names = ['Australia_UK_US_NewZealand_Ireland2']
     index = 0
     for country_ids, country_name in zip(countries_list, countries_names):
         files_data = defaultdict(list)

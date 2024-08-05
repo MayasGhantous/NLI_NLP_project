@@ -34,4 +34,4 @@ def pick_random_folders(directory, num_folders=20):
 
 if __name__ == "__main__":
     for Countery in os.listdir(directory_path):
-        pick_random_folders(os.path.join(directory_path, Countery), num_folders=20)
+        pick_random_folders(os.path.join(directory_path, Countery), num_folders=5)

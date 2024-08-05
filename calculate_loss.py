@@ -11,11 +11,11 @@ from calculate_real_data import read_files_from_directory
 # List of languages
 languages = ["Turkey", "Slovenia", "Sweden", "Serbia", "Mexico_Spain", "Romania", "Russia", "Poland", "Portugal",
              "Norway", "Lithuania", "Italy", "Hungary", "Greece", "France", "Finland", "Estonia", "Netherlands",
-             "Czech", "Croatia", "Bulgaria", "Austria_Germany", "Australia_UK_US_NewZealand_Ireland"]
+             "Czech", "Croatia", "Bulgaria", "Austria_Germany", "Australia_UK_US_NewZealand_Ireland2"]
 
 DATA_LOCATION = 'europe_data'
 fine_tune_location = 'fine_tuning'
-output_file = 'evaluation_results.json'
+output_file = 'evaluation_results2.json'
 
 
 def create_dataset_from_text(text_list, tokenizer, block_size=128):

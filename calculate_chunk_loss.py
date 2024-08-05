@@ -18,9 +18,33 @@ languages = ["Turkey", "Slovenia", "Sweden", "Serbia", "Mexico_Spain", "Romania"
              "Norway", "Lithuania", "Italy", "Hungary", "Greece", "France", "Finland", "Estonia", "Netherlands",
              "Czech", "Croatia", "Bulgaria", "Austria_Germany", "Australia_UK_US_NewZealand_Ireland"]
 
+languages_to_calculate = ["Turkey",
+              "Slovenia",
+                "Sweden",
+                  "Serbia",
+                    "Mexico_Spain",
+                      "Romania",
+                        "Russia",
+                          "Poland",
+                            "Portugal",
+                            "Norway",
+                              "Lithuania",
+                                "Italy",
+                                  "Hungary",
+                                    "Greece",
+                                      "France",
+                                        "Finland",
+                                          "Estonia",
+                                            "Netherlands",                                            
+                                            "Czech",
+                                              "Croatia",
+                                                "Bulgaria",
+                                                  "Austria_Germany",
+                                                    "Australia_UK_US_NewZealand_Ireland"]
+
 DATA_LOCATION = 'europe_data'
 fine_tune_location = 'fine_tuning'
-output_file = 'evaluation_chunk_results.json'
+output_file = 'evaluation_chunk_results2.json'
 
 
 def create_dataset_from_text(text_list, tokenizer, block_size=128):
@@ -29,9 +53,11 @@ def create_dataset_from_text(text_list, tokenizer, block_size=128):
     full_text = text_list
 
     # Create a temporary file to store the text
+    
     with tempfile.NamedTemporaryFile(mode='w+', delete=False, encoding='utf-8') as temp_file:
         temp_file.write(full_text)
         temp_file_path = temp_file.name
+        
 
     # Create dataset from the temporary file
     dataset = TextDataset(
@@ -96,9 +122,13 @@ def create_list(text1):
 
 if __name__ == "__main__":
     results = {}
+
+    with open(output_file, 'r') as f:
+        results = json.load(f)
+    
     correct_count = 0
     over_all_counter = 0
-    for unseen_lang in languages:
+    for unseen_lang in languages_to_calculate:
         
         validation_file = os.path.join(fine_tune_location, f"{unseen_lang}_validation.txt")
         unseen_texts = load_texts_from_file(validation_file)
@@ -108,6 +138,7 @@ if __name__ == "__main__":
 
         current_corrent = 0 
         current_results = []
+        current_results_losses = []
         for i,text in enumerate(tqdm.tqdm(list_of_unseen_texts)):
             losses = {}
             for model_lang in languages:
@@ -122,6 +153,7 @@ if __name__ == "__main__":
                 current_corrent += 1
                 correct_count += 1
             current_results.append(min_loss_model)  
+            current_results_losses.append(losses)
             over_all_counter += 1
         print(f"Unseen text: {unseen_lang} accuracy: {current_corrent/len(list_of_unseen_texts)*100}")
 
@@ -133,7 +165,10 @@ if __name__ == "__main__":
         is_correct_model = min_loss_model == unseen_lang
         results[unseen_lang] = {
             "accuracy": current_corrent/len(list_of_unseen_texts)*100,
+            "correct": current_corrent,
+            "incorrect": len(list_of_unseen_texts) - current_corrent,
             "results": current_results,
+            "losses": current_results_losses,
         }
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=4)

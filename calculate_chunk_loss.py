@@ -18,29 +18,30 @@ languages = ["Turkey", "Slovenia", "Sweden", "Serbia", "Mexico_Spain", "Romania"
              "Norway", "Lithuania", "Italy", "Hungary", "Greece", "France", "Finland", "Estonia", "Netherlands",
              "Czech", "Croatia", "Bulgaria", "Austria_Germany", "Australia_UK_US_NewZealand_Ireland"]
 
-languages_to_calculate = ["Turkey",
-              "Slovenia",
-                "Sweden",
-                  "Serbia",
-                    "Mexico_Spain",
-                      "Romania",
-                        "Russia",
-                          "Poland",
-                            "Portugal",
-                            "Norway",
-                              "Lithuania",
-                                "Italy",
-                                  "Hungary",
-                                    "Greece",
-                                      "France",
-                                        "Finland",
-                                          "Estonia",
-                                            "Netherlands",                                            
-                                            "Czech",
-                                              "Croatia",
-                                                "Bulgaria",
-                                                  "Austria_Germany",
-                                                    "Australia_UK_US_NewZealand_Ireland"]
+languages_to_calculate = [#"Turkey",
+              #"Slovenia",
+                #"Sweden",
+                  #"Serbia",
+                    #"Mexico_Spain",
+                      #"Romania",
+                        #"Russia",
+                          #"Poland",
+                            #"Portugal",
+                            #"Norway",
+                              #"Lithuania",
+                                #"Italy",
+                                  #"Hungary",
+                                    #"Greece",
+                                      #"France",
+                                        #"Finland",
+                                          #"Estonia",
+                                            #"Netherlands",                                            
+                                            #"Czech",
+                                              #"Croatia",
+                                                #"Bulgaria",
+                                                  #"Austria_Germany",
+                                                    "Australia_UK_US_NewZealand_Ireland"
+                                                    ]
 
 DATA_LOCATION = 'europe_data'
 fine_tune_location = 'fine_tuning'
@@ -122,10 +123,10 @@ def create_list(text1):
 
 if __name__ == "__main__":
     results = {}
-
+    
     with open(output_file, 'r') as f:
         results = json.load(f)
-    
+    print(len(results))
     correct_count = 0
     over_all_counter = 0
     for unseen_lang in languages_to_calculate:

@@ -147,8 +147,8 @@ if __name__ == '__main__':
     #feature = get_the_function_words_feature()
     #feature = get_the_sentence_length_feature()
     #feature = get_CharTrigram_Tokens_Unigram_Spelling_Feature()
-    feature = get_CharTrigram_Tokens_Unigram_Spelling_Feature()
-    FEATURE_NAME = 'CharTrigram_Tokens_Unigram_Spelling'
+    feature = get_grammer_spelling_features()
+    FEATURE_NAME = 'grammer_spelling'
     KERNEL = 'rbf'
     print(f"Feature {FEATURE_NAME} loaded")
     if DO_WE_NEED_NLI_MODEL:

@@ -31,8 +31,8 @@ DO_WE_NEED_TO_TEST_BINARY = True
 DO_WE_NEED_TO_TEST_FAMILY = True
 
 if __name__ == '__main__':
-    FEATURE_NAME = 'CharTrigram_Tokens_Unigram_Spelling'
-    feature = get_CharTrigram_Tokens_Unigram_Spelling_Feature()
+    FEATURE_NAME = 'grammer_spelling'
+    feature = get_grammer_spelling_features()
     print(f"Feature {FEATURE_NAME} loaded")
     if DO_WE_NEED_TO_TEST_NLI:
         print('Testing NLI')
